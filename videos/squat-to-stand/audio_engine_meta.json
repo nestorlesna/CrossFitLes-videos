@@ -1,0 +1,70 @@
+{
+  "tts_provider": "kokoro",
+  "voice_id": "em_alex",
+  "bgm": {
+    "path": "assets/bgm/track-long.wav",
+    "volume": 0.12,
+    "mode": "detached-seed-loop",
+    "duration_s": null
+  },
+  "bgm_pending": false,
+  "bgm_provider": "musicgen",
+  "bgm_pid": 15148,
+  "bgm_log": "C:\\DATOS\\DESARROLLOS\\Hyperframes\\VidesoEjercicios\\videos\\squat-to-stand\\assets\\bgm\\bgm-1791734328643.log",
+  "bgm_mode": "detached-seed-loop",
+  "bgm_target_duration_s": 32.066,
+  "bgm_seed_duration_s": 28,
+  "bgm_loop_count": 2,
+  "voices": [
+    {
+      "id": "01",
+      "path": "assets/voice/01.wav",
+      "duration_s": 3.627,
+      "words": []
+    },
+    {
+      "id": "02",
+      "path": "assets/voice/02.wav",
+      "duration_s": 2.752,
+      "words": []
+    },
+    {
+      "id": "03",
+      "path": "assets/voice/03.wav",
+      "duration_s": 4.587,
+      "words": []
+    },
+    {
+      "id": "04",
+      "path": "assets/voice/04.wav",
+      "duration_s": 4.011,
+      "words": []
+    },
+    {
+      "id": "05",
+      "path": "assets/voice/05.wav",
+      "duration_s": 2.752,
+      "words": []
+    },
+    {
+      "id": "06",
+      "path": "assets/voice/06.wav",
+      "duration_s": 5.291,
+      "words": []
+    },
+    {
+      "id": "07",
+      "path": "assets/voice/07.wav",
+      "duration_s": 5.611,
+      "words": []
+    },
+    {
+      "id": "08",
+      "path": "assets/voice/08.wav",
+      "duration_s": 3.435,
+      "words": []
+    }
+  ],
+  "sfx": [],
+  "total_duration_s": 32.066
+}

@@ -1,0 +1,43 @@
+{
+  "provider": "kokoro",
+  "lang": "es",
+  "speed": 1,
+  "voice": "em_alex",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Squat to Stand: movilidad para cadera, isquiotibiales y espalda."
+    },
+    {
+      "id": "02",
+      "text": "Empezá de pie, con los pies al ancho de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Flexioná el tronco con las piernas rectas y tomá la punta de los pies."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Sin soltarlos, bajá la cadera a una cuclilla profunda."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Subí el pecho y alargá la espalda."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Extendé la cadera hasta estirar las piernas, soltá los pies y volvé a pararte."
+    },
+    {
+      "id": "07",
+      "text": "Claves: talones apoyados, rodillas hacia afuera, espalda larga, y movimiento lento y controlado."
+    },
+    {
+      "id": "08",
+      "text": "Hacé de ocho a diez repeticiones, respirando en cada una."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

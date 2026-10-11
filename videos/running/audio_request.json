@@ -1,0 +1,39 @@
+{
+  "provider": "kokoro",
+  "lang": "es",
+  "speed": 1,
+  "voice": "em_alex",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Running: la base del cardio. Aprendé a correr con buena técnica."
+    },
+    {
+      "id": "02",
+      "text": "Paso uno. Tronco erguido, apenas inclinado hacia adelante, y la mirada al frente."
+    },
+    {
+      "id": "03",
+      "text": "Paso dos. Codos a noventa grados; los brazos van adelante y atrás, sin cruzar el cuerpo."
+    },
+    {
+      "id": "04",
+      "text": "Paso tres. Zancada relajada: el pie apoya debajo de la cadera, no adelante."
+    },
+    {
+      "id": "05",
+      "text": "Paso cuatro. Respirá con ritmo y mantené una cadencia estable, sin arrancar a fondo."
+    },
+    {
+      "id": "06",
+      "text": "Claves: tronco erguido, codos a noventa grados, pisada debajo de la cadera y respiración rítmica."
+    },
+    {
+      "id": "07",
+      "text": "Arrancá con cuatrocientos metros a ritmo cómodo y constante. ¡Vamos!"
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

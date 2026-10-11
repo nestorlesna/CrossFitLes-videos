@@ -1,0 +1,87 @@
+{
+  "slug": "running",
+  "name": "Running",
+  "category": "CROSSFIT · CARDIO",
+  "tags": ["Piernas", "Glúteos", "Cardio"],
+  "descripcion": "Carrera continua sobre distancia o tiempo determinado, manteniendo una cadencia estable.",
+  "voice": "em_alex",
+  "revisado": false,
+  "notas": "Corre en el lugar; el piso que se desplaza (floorScroll) da la sensación de avance.",
+  "youtube": {
+    "titulo": "Running 🏃 Cómo correr con buena técnica | CrossFit",
+    "descripcion": "🏃 RUNNING — Correr bien para rendir más y cansarte menos\n\n¿Terminás cada carrera fundido o con molestias en las rodillas? Muchas veces no es el estado físico: es la técnica. En menos de un minuto te mostramos las claves para correr mejor en el WOD y en la entrada en calor. 💪\n\n📋 PASO A PASO\n1️⃣ Tronco erguido, apenas inclinado hacia adelante, y la mirada al frente.\n2️⃣ Codos a 90°: los brazos van adelante y atrás, sin cruzar el cuerpo.\n3️⃣ Zancada relajada: el pie apoya debajo de la cadera, no adelante.\n4️⃣ Respirá con ritmo y mantené una cadencia estable, sin arrancar a fondo.\n\n✅ CLAVES DE TÉCNICA\n• Tronco erguido y hombros sueltos\n• Codos a 90°, braceo adelante y atrás\n• Pisada debajo de la cadera, pasos cortos y rápidos\n• Respiración rítmica, ritmo que puedas sostener\n\n🎯 QUÉ TRABAJA\nCuádriceps · Isquiotibiales · Glúteos · Gemelos · Corazón y pulmones\n\n⏱️ CUÁNTO\n400 metros a ritmo cómodo y constante. Ideal para la entrada en calor o como parte del WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi venís de mucho tiempo sin correr, arrancá trotando suave y sumá distancia de a poco.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Running #Correr #Cardio #Entrenamiento",
+    "tags": ["running", "técnica de carrera", "cómo correr", "correr bien", "crossfit", "cardio", "entrada en calor", "trote", "400 metros", "pisada", "wod", "entrenamiento funcional"]
+  },
+  "floorScroll": 260,
+  "miniatura": { "pose": "RUN_A" },
+  "initialPose": "RUN_B",
+  "poses": {
+    "STAND": { "s": 0, "t": 0, "b": 0, "hd": 0, "ua": 6, "fa": 6 },
+    "RUN_A": { "hip": [0, -415], "s": 12, "t": -62, "s2": 52, "t2": 28, "b": 10, "hd": 4, "ua": -42, "fa": 95, "ua2": 40, "fa2": 82, "ft": -8, "ft2": 40 },
+    "RUN_B": { "hip": [0, -415], "s": 52, "t": 28, "s2": 12, "t2": -62, "b": 10, "hd": 4, "ua": 40, "fa": 82, "ua2": -42, "fa2": 95, "ft": 40, "ft2": -8 }
+  },
+  "frames": [
+    {
+      "kind": "hook", "min": 4.2,
+      "badge": "CROSSFIT · CARDIO", "head": ["RUNNING"],
+      "vo": "Running: la base del cardio. Aprendé a correr con buena técnica.",
+      "moves": [{ "loop": ["RUN_A", "RUN_B"], "at": 0.3, "step": 0.36, "until": "end" }]
+    },
+    {
+      "min": 4.6, "numeral": "1",
+      "badge": "PASO 1 / 4", "head": ["TRONCO", "ERGUIDO"], "sub": "Mirada al frente",
+      "vo": "Paso uno. Tronco erguido, apenas inclinado hacia adelante, y la mirada al frente.",
+      "moves": [{ "loop": ["RUN_A", "RUN_B"], "at": 0, "step": 0.36, "until": "end" }],
+      "overlays": [
+        { "type": "line", "color": "ink", "width": 6, "from": { "j": "RUN_A.H", "dx": -70 }, "to": { "j": "RUN_A.N", "dx": -70 }, "at": 1.0 },
+        { "type": "label", "pos": { "j": "RUN_A.S", "dx": -110, "dy": 60 }, "anchor": "end", "text": "TRONCO ERGUIDO", "at": 1.2 },
+        { "type": "arrow", "from": { "j": "RUN_A.N", "dx": 90, "dy": -60 }, "to": { "j": "RUN_A.N", "dx": 260, "dy": -60 }, "at": 2.6, "dur": 0.8 },
+        { "type": "label", "pos": { "j": "RUN_A.N", "dx": 90, "dy": -100 }, "text": "MIRADA AL FRENTE", "at": 2.8 }
+      ]
+    },
+    {
+      "min": 4.6, "numeral": "2",
+      "badge": "PASO 2 / 4", "head": ["BRAZOS", "A 90°"], "sub": "Adelante y atrás",
+      "vo": "Paso dos. Codos a noventa grados; los brazos van adelante y atrás, sin cruzar el cuerpo.",
+      "moves": [{ "loop": ["RUN_A", "RUN_B"], "at": 0, "step": 0.36, "until": "end" }],
+      "overlays": [
+        { "type": "arrow", "from": { "j": "RUN_A.S", "dx": -190, "dy": 120 }, "to": { "j": "RUN_A.S", "dx": 230, "dy": 40 }, "bend": [0, 70], "at": 1.0, "dur": 1.0 },
+        { "type": "label", "pos": { "j": "RUN_A.S", "dx": 40, "dy": -150 }, "anchor": "middle", "text": "CODOS A 90°", "at": 1.2 }
+      ]
+    },
+    {
+      "min": 4.8, "numeral": "3",
+      "badge": "PASO 3 / 4", "head": ["PISÁ BAJO", "LA CADERA"], "sub": "Zancada relajada",
+      "vo": "Paso tres. Zancada relajada: el pie apoya debajo de la cadera, no adelante.",
+      "moves": [{ "loop": ["RUN_A", "RUN_B"], "at": 0, "step": 0.36, "until": "end" }],
+      "overlays": [
+        { "type": "line", "from": { "j": "RUN_A.H" }, "to": [470, 1530], "at": 1.0 },
+        { "type": "ring", "pos": [470, 1522], "r": 40, "at": 1.4 },
+        { "type": "label", "pos": [530, 1500], "anchor": "start", "text": "PIE BAJO LA CADERA", "at": 1.6 }
+      ]
+    },
+    {
+      "min": 4.8, "numeral": "4",
+      "badge": "PASO 4 / 4", "head": ["RESPIRÁ", "CON RITMO"], "sub": "Cadencia estable",
+      "vo": "Paso cuatro. Respirá con ritmo y mantené una cadencia estable, sin arrancar a fondo.",
+      "moves": [{ "loop": ["RUN_A", "RUN_B"], "at": 0, "step": 0.36, "until": "end" }],
+      "overlays": [
+        { "type": "label", "pos": { "j": "RUN_A.N", "dx": 120, "dy": -40 }, "text": "INHALÁ · EXHALÁ", "at": 1.0 },
+        { "type": "label", "pos": { "j": "RUN_A.N", "dx": 120, "dy": 10 }, "text": "1 · 2 · 1 · 2", "at": 1.6 }
+      ]
+    },
+    {
+      "kind": "keys", "min": 7.0,
+      "badge": "CLAVES", "head": ["TÉCNICA"],
+      "keys": ["Tronco erguido", "Codos a 90°", "Pisada bajo la cadera", "Respiración rítmica"],
+      "vo": "Claves: tronco erguido, codos a noventa grados, pisada debajo de la cadera y respiración rítmica.",
+      "moves": [{ "loop": ["RUN_A", "RUN_B"], "at": 0, "step": 0.36, "until": "end" }]
+    },
+    {
+      "kind": "reps", "min": 6.0,
+      "badge": "A ENTRENAR", "head": ["400 METROS"], "sub": "Ritmo cómodo y constante",
+      "vo": "Arrancá con cuatrocientos metros a ritmo cómodo y constante. ¡Vamos!",
+      "moves": [{ "loop": ["RUN_A", "RUN_B"], "at": 0, "step": 0.36, "until": "end" }]
+    }
+  ]
+}

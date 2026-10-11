@@ -1,0 +1,43 @@
+{
+  "provider": "kokoro",
+  "lang": "es",
+  "speed": 1,
+  "voice": "em_alex",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Estiramiento general: la vuelta a la calma después de entrenar."
+    },
+    {
+      "id": "02",
+      "text": "Sostené cada posición entre veinte y treinta segundos, quieto y sin rebotes."
+    },
+    {
+      "id": "03",
+      "text": "Uno: isquiotibiales. Sentado con las piernas estiradas, llevá el pecho hacia los pies."
+    },
+    {
+      "id": "04",
+      "text": "Dos: glúteo. En la paloma, bajá el torso sobre la pierna de adelante."
+    },
+    {
+      "id": "05",
+      "text": "Tres: cuádriceps y cadera. Con una rodilla apoyada, llevá la cadera hacia adelante."
+    },
+    {
+      "id": "06",
+      "text": "Cuatro: espalda. Sentate sobre los talones y estirá los brazos hacia adelante."
+    },
+    {
+      "id": "07",
+      "text": "Claves: veinte a treinta segundos por posición, sin rebotes, aflojá en cada exhalación y nunca llegues al dolor."
+    },
+    {
+      "id": "08",
+      "text": "Dedicale cinco minutos al final de la clase. Tu cuerpo te lo va a agradecer."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

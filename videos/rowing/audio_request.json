@@ -1,0 +1,43 @@
+{
+  "provider": "kokoro",
+  "lang": "es",
+  "speed": 1,
+  "voice": "em_alex",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Rowing: cardio de cuerpo completo. Aprendé la secuencia correcta."
+    },
+    {
+      "id": "02",
+      "text": "Empezá adelante: tibias verticales, brazos estirados y el tronco apenas inclinado."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Empujá con las piernas; los brazos siguen estirados."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Con las piernas estiradas, llevá el tronco un poco hacia atrás."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Recién al final, tirá con los brazos hasta llevar la manija al abdomen."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Para volver, al revés: brazos, tronco y recién después piernas."
+    },
+    {
+      "id": "07",
+      "text": "Claves: piernas, tronco, brazos; al volver, al revés. Espalda firme: empujá fuerte y volvé suave."
+    },
+    {
+      "id": "08",
+      "text": "Remá mil quinientos metros a ritmo constante. ¡A darle!"
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

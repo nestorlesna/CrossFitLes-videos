@@ -1,0 +1,437 @@
+{
+  "slug": "general-stretching",
+  "name": "General Stretching",
+  "category": "CROSSFIT · VUELTA A LA CALMA",
+  "tags": [
+    "Isquiotibiales",
+    "Glúteos",
+    "Espalda"
+  ],
+  "descripcion": "Serie libre de estiramientos de las cadenas trabajadas en la clase, sosteniendo cada posición sin rebotes.",
+  "voice": "em_alex",
+  "revisado": false,
+  "notas": "Circuito de 4 estiramientos (uno por zona del CSV) con cortes entre posiciones.",
+  "rig": {
+    "x": 520,
+    "y": 1504,
+    "scale": 0.82
+  },
+  "initialPose": "SEATED",
+  "poses": {
+    "SEATED": {
+      "hip": [
+        -230,
+        0
+      ],
+      "s": -90,
+      "t": -90,
+      "ft": -90,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": -190,
+      "hy": 15
+    },
+    "SEATED_FOLD": {
+      "hip": [
+        -230,
+        0
+      ],
+      "s": -90,
+      "t": -90,
+      "ft": -90,
+      "b": 60,
+      "hd": 80,
+      "g": 1,
+      "hx": 300,
+      "hy": -75
+    },
+    "PIGEON_UP": {
+      "hip": [
+        0,
+        -120
+      ],
+      "s": 90,
+      "t": -57,
+      "s2": 90,
+      "t2": 57,
+      "ft": 172,
+      "b": 15,
+      "hd": 8,
+      "g": 1,
+      "hx": 150,
+      "hy": -60
+    },
+    "PIGEON_FOLD": {
+      "hip": [
+        0,
+        -110
+      ],
+      "s": 90,
+      "t": -60,
+      "s2": 90,
+      "t2": 60,
+      "ft": 172,
+      "b": 82,
+      "hd": 115,
+      "g": 0,
+      "ua": 25,
+      "fa": 65
+    },
+    "HALF_KNEEL": {
+      "ankle": [
+        200,
+        0
+      ],
+      "hip": [
+        0,
+        -230
+      ],
+      "s2": 90,
+      "t2": 5,
+      "ft2": 172,
+      "b": -3,
+      "hd": 0,
+      "g": 1,
+      "hx": 190,
+      "hy": -250
+    },
+    "HALF_KNEEL_PUSH": {
+      "ankle": [
+        200,
+        0
+      ],
+      "hip": [
+        60,
+        -212
+      ],
+      "s2": 90,
+      "t2": 24,
+      "ft2": 172,
+      "b": -6,
+      "hd": -4,
+      "g": 1,
+      "hx": 220,
+      "hy": -240
+    },
+    "QUAD": {
+      "hip": [
+        -150,
+        -231
+      ],
+      "s": 90,
+      "t": 0,
+      "s2": 90,
+      "t2": 0,
+      "ft": 172,
+      "b": 72,
+      "hd": 100,
+      "g": 1,
+      "hx": 116,
+      "hy": 15
+    },
+    "CHILD": {
+      "hip": [
+        -200,
+        -110
+      ],
+      "s": 90,
+      "t": -60,
+      "s2": 90,
+      "t2": -60,
+      "ft": 172,
+      "b": 86,
+      "hd": 104,
+      "g": 1,
+      "hx": 400,
+      "hy": 15
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.4,
+      "badge": "CROSSFIT · VUELTA A LA CALMA",
+      "head": [
+        "GENERAL",
+        "STRETCHING"
+      ],
+      "vo": "Estiramiento general: la vuelta a la calma después de entrenar.",
+      "moves": [
+        {
+          "to": "SEATED_FOLD",
+          "at": 1.2,
+          "dur": 2.0
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "CÓMO",
+      "head": [
+        "20–30 S",
+        "POR POSICIÓN"
+      ],
+      "sub": "Quieto, sin rebotes",
+      "vo": "Sostené cada posición entre veinte y treinta segundos, quieto y sin rebotes.",
+      "moves": [
+        {
+          "cut": "SEATED",
+          "at": 0
+        },
+        {
+          "to": "SEATED_FOLD",
+          "at": 1.4,
+          "dur": 2.0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "1 / 4",
+      "head": [
+        "ISQUIOS"
+      ],
+      "sub": "Pecho hacia los pies",
+      "vo": "Uno: isquiotibiales. Sentado con las piernas estiradas, llevá el pecho hacia los pies.",
+      "moves": [
+        {
+          "cut": "SEATED",
+          "at": 0
+        },
+        {
+          "to": "SEATED_FOLD",
+          "at": 1.0,
+          "dur": 2.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "from": {
+            "j": "SEATED.H",
+            "dx": 60,
+            "dy": 60
+          },
+          "to": {
+            "j": "SEATED.A",
+            "dx": -20,
+            "dy": 60
+          },
+          "at": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            560,
+            1578
+          ],
+          "anchor": "middle",
+          "text": "ISQUIOTIBIALES",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "2",
+      "badge": "2 / 4",
+      "head": [
+        "GLÚTEO"
+      ],
+      "sub": "Postura de la paloma",
+      "vo": "Dos: glúteo. En la paloma, bajá el torso sobre la pierna de adelante.",
+      "moves": [
+        {
+          "cut": "PIGEON_UP",
+          "at": 0
+        },
+        {
+          "to": "PIGEON_FOLD",
+          "at": 1.0,
+          "dur": 2.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "PIGEON_FOLD.H",
+            "dx": 20,
+            "dy": 10
+          },
+          "r": 70,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "PIGEON_FOLD.H",
+            "dx": -10,
+            "dy": -130
+          },
+          "anchor": "middle",
+          "text": "GLÚTEO",
+          "at": 3.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "3 / 4",
+      "head": [
+        "CUÁDRICEPS",
+        "Y CADERA"
+      ],
+      "sub": "Cadera hacia adelante",
+      "vo": "Tres: cuádriceps y cadera. Con una rodilla apoyada, llevá la cadera hacia adelante.",
+      "moves": [
+        {
+          "cut": "HALF_KNEEL",
+          "at": 0
+        },
+        {
+          "to": "HALF_KNEEL_PUSH",
+          "at": 1.2,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": {
+            "j": "HALF_KNEEL.H",
+            "dx": -90,
+            "dy": 0
+          },
+          "to": {
+            "j": "HALF_KNEEL_PUSH.H",
+            "dx": -80,
+            "dy": 0
+          },
+          "at": 1.3,
+          "dur": 1.2
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "HALF_KNEEL_PUSH.H",
+            "dx": -120,
+            "dy": -60
+          },
+          "anchor": "end",
+          "text": "CADERA ADELANTE",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "4 / 4",
+      "head": [
+        "ESPALDA"
+      ],
+      "sub": "Postura del niño",
+      "vo": "Cuatro: espalda. Sentate sobre los talones y estirá los brazos hacia adelante.",
+      "moves": [
+        {
+          "cut": "QUAD",
+          "at": 0
+        },
+        {
+          "to": "CHILD",
+          "at": 1.0,
+          "dur": 2.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": {
+            "j": "CHILD.S",
+            "dx": 20,
+            "dy": -80
+          },
+          "to": {
+            "j": "CHILD.W",
+            "dx": 40,
+            "dy": -80
+          },
+          "at": 2.8,
+          "dur": 0.9
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "CHILD.S",
+            "dx": 60,
+            "dy": -130
+          },
+          "anchor": "start",
+          "text": "BRAZOS LARGOS",
+          "at": 3.0
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "20–30 s por posición",
+        "Sin rebotes",
+        "Aflojá al exhalar",
+        "Nunca hasta el dolor"
+      ],
+      "vo": "Claves: veinte a treinta segundos por posición, sin rebotes, aflojá en cada exhalación y nunca llegues al dolor."
+    },
+    {
+      "kind": "reps",
+      "min": 6.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "5 MINUTOS"
+      ],
+      "sub": "Al final de cada clase",
+      "vo": "Dedicale cinco minutos al final de la clase. Tu cuerpo te lo va a agradecer.",
+      "moves": [
+        {
+          "cut": "SEATED",
+          "at": 0
+        },
+        {
+          "to": "SEATED_FOLD",
+          "at": 1.2,
+          "dur": 2.4
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "HALF_KNEEL_PUSH"
+  },
+  "youtube": {
+    "titulo": "Estiramiento general 🧘 Vuelta a la calma en 5 minutos | CrossFit",
+    "descripcion": "🧘 GENERAL STRETCHING — La vuelta a la calma que tu cuerpo te pide\n\nTerminaste el WOD y te vas corriendo... ¡pará un toque! Cinco minutos de estiramiento ayudan a soltar lo que trabajaste y a llegar mejor a la próxima clase. Te dejamos un circuito simple de 4 posiciones. 😮‍💨\n\n📋 EL CIRCUITO\n1️⃣ Isquiotibiales: sentado con las piernas estiradas, llevá el pecho hacia los pies.\n2️⃣ Glúteo: en la paloma, bajá el torso sobre la pierna de adelante.\n3️⃣ Cuádriceps y cadera: con una rodilla apoyada, llevá la cadera hacia adelante.\n4️⃣ Espalda: sentate sobre los talones y estirá los brazos hacia adelante (postura del niño).\n\n✅ CLAVES\n• Sostené entre 20 y 30 segundos cada posición\n• Sin rebotes: estiramiento quieto\n• Respirá hondo y aflojá en cada exhalación\n• Nunca llegues al dolor: tensión sí, dolor no\n\n🎯 QUÉ TRABAJA\nIsquiotibiales · Glúteos · Cuádriceps · Flexores de cadera · Espalda\n\n⏱️ CUÁNTO\n5 minutos al final de la clase. Las posiciones de un lado se repiten del otro.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Estiramiento #VueltaALaCalma #Movilidad #Entrenamiento",
+    "tags": [
+      "estiramiento",
+      "vuelta a la calma",
+      "estiramientos después de entrenar",
+      "cool down",
+      "crossfit",
+      "movilidad",
+      "flexibilidad",
+      "isquiotibiales",
+      "postura del niño",
+      "paloma",
+      "flexor de cadera",
+      "stretching"
+    ]
+  }
+}

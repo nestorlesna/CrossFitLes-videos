@@ -1,0 +1,137 @@
+{
+  "slug": "squat-to-stand",
+  "name": "Squat to Stand",
+  "category": "CROSSFIT · MOVILIDAD",
+  "tags": ["Cadera", "Isquiotibiales", "Espalda"],
+  "descripcion": "Desde de pie, flexionar el tronco con las piernas rectas y tomar la punta de los pies. Sin soltarlos, bajar la cadera a una cuclilla profunda, subir el pecho y luego extender la cadera para volver a pararse.",
+  "voice": "em_alex",
+  "revisado": true,
+  "notas": "Primer video; define la plantilla.",
+  "youtube": {
+    "titulo": "Squat to Stand 🔥 Movilidad de cadera paso a paso | CrossFit",
+    "descripcion": "🔥 SQUAT TO STAND — Movilidad para cadera, isquiotibiales y espalda\n\n¿Te cuesta bajar a una sentadilla profunda o terminás el día con la cadera trabada? Este ejercicio es para vos. En menos de un minuto te mostramos cómo hacerlo bien, paso a paso. 💪\n\n📋 PASO A PASO\n1️⃣ Empezá de pie, con los pies al ancho de la cadera.\n2️⃣ Flexioná el tronco con las piernas rectas y tomá la punta de los pies.\n3️⃣ Sin soltarlos, bajá la cadera a una cuclilla profunda.\n4️⃣ Subí el pecho y alargá la espalda.\n5️⃣ Extendé la cadera hasta estirar las piernas, soltá los pies y volvé a pararte.\n\n✅ CLAVES DE TÉCNICA\n• Talones apoyados todo el tiempo\n• Rodillas hacia afuera, en línea con los pies\n• Espalda larga, sin redondearla\n• Lento y controlado, respirando en cada repetición\n\n🎯 QUÉ TRABAJA\nCadera · Isquiotibiales · Espalda baja\n\n⏱️ CUÁNTO\n8 a 10 repeticiones lentas. Ideal en la entrada en calor o como pausa de movilidad entre bloques.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Movilidad #SquatToStand #Cadera #Entrenamiento",
+    "tags": [
+      "squat to stand",
+      "movilidad de cadera",
+      "crossfit",
+      "movilidad",
+      "isquiotibiales",
+      "sentadilla profunda",
+      "entrada en calor",
+      "ejercicios de movilidad",
+      "cadera",
+      "espalda baja",
+      "calentamiento crossfit",
+      "stretching"
+    ]
+  },
+  "miniatura": { "pose": "CHEST", "grip": 1 },
+  "initialPose": "STAND",
+  "initialGrip": 0,
+  "poses": {
+    "STAND": { "s": 0, "t": 0, "b": 0, "hd": 0, "ua": 6, "fa": 6 },
+    "HINGE": { "s": -5, "t": -5, "b": 128, "hd": 150, "ua": 12, "fa": 0 },
+    "SQUAT": { "s": 38, "t": -112, "b": 48, "hd": 62, "ua": 12, "fa": 0 },
+    "CHEST": { "s": 40, "t": -118, "b": 20, "hd": 4, "ua": 12, "fa": 0 }
+  },
+  "frames": [
+    {
+      "kind": "hook", "min": 4.2,
+      "badge": "CROSSFIT · MOVILIDAD", "head": ["SQUAT", "TO STAND"],
+      "vo": "Squat to Stand: movilidad para cadera, isquiotibiales y espalda."
+    },
+    {
+      "min": 4.2, "stance": true,
+      "badge": "POSICIÓN INICIAL", "head": ["DE PIE"], "sub": "Pies al ancho de la cadera",
+      "vo": "Empezá de pie, con los pies al ancho de la cadera."
+    },
+    {
+      "min": 5.4, "numeral": "1",
+      "badge": "PASO 1 / 4", "head": ["FLEXIONÁ Y", "TOMÁ LOS PIES"], "sub": "Piernas rectas",
+      "vo": "Paso uno. Flexioná el tronco con las piernas rectas y tomá la punta de los pies.",
+      "moves": [
+        { "to": "HINGE", "at": 0.6, "dur": 2.6 },
+        { "grip": 1, "at": 2.1, "dur": 1.1 }
+      ],
+      "overlays": [
+        { "type": "line", "from": { "j": "HINGE.H", "dx": -34 }, "to": { "j": "HINGE.A", "dx": -34 }, "at": 1.8 },
+        { "type": "label", "pos": { "j": "HINGE.K", "dx": -70, "dy": 10 }, "anchor": "end", "text": "PIERNAS RECTAS", "at": 2.0 },
+        { "type": "ring", "pos": { "j": "HINGE.W" }, "r": 46, "at": 3.2 },
+        { "type": "label", "pos": { "j": "HINGE.W", "dx": 70, "dy": -60 }, "text": "TOMÁ LA PUNTA", "at": 3.35 }
+      ]
+    },
+    {
+      "min": 5.0, "numeral": "2",
+      "badge": "PASO 2 / 4", "head": ["CUCLILLA", "PROFUNDA"], "sub": "Sin soltar los pies",
+      "vo": "Paso dos. Sin soltarlos, bajá la cadera a una cuclilla profunda.",
+      "moves": [{ "to": "SQUAT", "at": 0.6, "dur": 2.8 }],
+      "overlays": [
+        { "type": "arrow", "from": { "j": "HINGE.H", "dx": -80, "dy": -10 }, "to": { "j": "SQUAT.H", "dx": -90, "dy": -10 }, "bend": [-60, 0], "at": 0.7, "dur": 1.2 },
+        { "type": "label", "pos": { "j": "HINGE.H", "dx": -150, "dy": 160 }, "anchor": "end", "text": "CADERA ABAJO", "at": 1.0 },
+        { "type": "bar", "pos": [448, 1547], "w": 63, "at": 3.0 },
+        { "type": "label", "pos": [411, 1580], "anchor": "end", "text": "TALONES APOYADOS", "at": 3.1 }
+      ]
+    },
+    {
+      "min": 4.4, "numeral": "3",
+      "badge": "PASO 3 / 4", "head": ["PECHO", "ARRIBA"], "sub": "Espalda larga",
+      "vo": "Paso tres. Subí el pecho y alargá la espalda.",
+      "moves": [{ "to": "CHEST", "at": 0.5, "dur": 1.9 }],
+      "overlays": [
+        { "type": "arrow", "from": { "j": "SQUAT.S", "dx": 70, "dy": -30 }, "to": { "j": "CHEST.S", "dx": 70, "dy": -120 }, "bend": [70, 0], "at": 0.6, "dur": 1.0 },
+        { "type": "label", "pos": { "j": "CHEST.S", "dx": 150, "dy": -150 }, "text": "PECHO ARRIBA", "at": 0.9 },
+        { "type": "line", "color": "ink", "width": 6, "from": { "j": "CHEST.H", "dx": -70 }, "to": { "j": "CHEST.S", "dx": -66, "dy": -20 }, "at": 2.2 },
+        { "type": "label", "pos": { "j": "CHEST.H", "dx": -110, "dy": -120 }, "anchor": "end", "text": "ESPALDA LARGA", "at": 2.3 }
+      ]
+    },
+    {
+      "min": 5.6, "numeral": "4",
+      "badge": "PASO 4 / 4", "head": ["EXTENDÉ", "LA CADERA"], "sub": "Y volvé a pararte",
+      "vo": "Paso cuatro. Extendé la cadera hasta estirar las piernas, soltá los pies y volvé a pararte.",
+      "moves": [
+        { "to": "HINGE", "at": 0.5, "dur": 2.0 },
+        { "grip": 0, "at": 2.7, "dur": 0.7 },
+        { "to": "STAND", "at": 2.9, "dur": 2.2 }
+      ],
+      "overlays": [
+        { "type": "arrow", "from": { "j": "CHEST.H", "dx": -90, "dy": -10 }, "to": { "j": "HINGE.H", "dx": -90, "dy": -20 }, "bend": [-70, 0], "at": 0.6, "dur": 1.2, "out": 2.7 },
+        { "type": "label", "pos": { "j": "HINGE.H", "dx": -150, "dy": 150 }, "anchor": "end", "text": "CADERA ARRIBA", "at": 0.9, "out": 2.7 }
+      ]
+    },
+    {
+      "kind": "keys", "min": 7.0,
+      "badge": "CLAVES", "head": ["TÉCNICA"],
+      "keys": ["Talones apoyados", "Rodillas hacia afuera", "Espalda larga", "Lento y controlado"],
+      "vo": "Claves: talones apoyados, rodillas hacia afuera, espalda larga, y movimiento lento y controlado.",
+      "moves": [
+        { "to": "HINGE", "at": 0.3, "dur": 1.3 },
+        { "grip": 1, "at": 1.0, "dur": 0.6 },
+        { "to": "SQUAT", "at": 1.7, "dur": 1.3 },
+        { "to": "CHEST", "at": 3.1, "dur": 1.0 }
+      ]
+    },
+    {
+      "kind": "reps", "min": 9.6,
+      "badge": "A ENTRENAR", "head": ["8 – 10 REPS"], "sub": "Lento y controlado, respirando",
+      "vo": "Hacé de ocho a diez repeticiones, respirando en cada una.",
+      "moves": [
+        { "to": "HINGE", "at": 0.2, "dur": 1.0 },
+        { "grip": 0, "at": 1.25, "dur": 0.4 },
+        { "to": "STAND", "at": 1.4, "dur": 1.0 },
+        { "to": "HINGE", "at": 2.6, "dur": 1.3 },
+        { "grip": 1, "at": 3.4, "dur": 0.5 },
+        { "to": "SQUAT", "at": 4.1, "dur": 1.3 },
+        { "to": "CHEST", "at": 5.6, "dur": 0.9 },
+        { "to": "HINGE", "at": 6.7, "dur": 1.1 },
+        { "grip": 0, "at": 7.85, "dur": 0.4 },
+        { "to": "STAND", "at": 8.0, "dur": 1.2 }
+      ],
+      "chips": [
+        { "label": "1 · FLEXIONÁ", "at": 2.6 },
+        { "label": "2 · CUCLILLA", "at": 4.1 },
+        { "label": "3 · PECHO", "at": 5.6 },
+        { "label": "4 · CADERA", "at": 6.7 }
+      ]
+    }
+  ]
+}

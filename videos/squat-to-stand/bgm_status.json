@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-10-11T16:07:53.539Z",
+  "enabled": true,
+  "provider": "musicgen",
+  "mode": "detached-seed-loop",
+  "path": "assets/bgm/track.wav",
+  "log": "C:\\DATOS\\DESARROLLOS\\Hyperframes\\VidesoEjercicios\\videos\\squat-to-stand\\assets\\bgm\\bgm-1791734328643.log",
+  "pid": 15148,
+  "target_duration_s": 32.066,
+  "seed_duration_s": 28,
+  "loop_count": 2,
+  "timeout_ms": 540000,
+  "status": "ready",
+  "ready": true,
+  "waited_ms": 354011,
+  "size_bytes": 2052268,
+  "message": "BGM ready at assets/bgm/track.wav."
+}
