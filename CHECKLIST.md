@@ -5,13 +5,13 @@ La lista y su orden salen de `ejercicios/ejercicios.csv`; el estado, de `ejercic
 `videos/<clave>/.pipeline.json` y `salida/`. Para aprobar un video: `"revisado": true` en su JSON; las notas salen de `"notas"`.
 Subido = el .mp4 está en `salida/subidos/` (se mueve a mano después de publicarlo en YouTube).
 
-**Renderizados:** 8 / 328 · **Fichas:** 8 · **Descripción YouTube:** 8 · **Subidos:** 3 · **Próximo:** 8 · Cobra Pose
+**Renderizados:** 8 / 328 · **Fichas:** 8 · **Descripción YouTube:** 8 · **Subidos:** 4 · **Próximo:** 8 · Cobra Pose
 
 | # | Ejercicio | Implemento | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Revisado | Subido | Fecha render | Notas |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | — | Squat to Stand | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/squat-to-stand.youtube.txt) | [✅](salida/subidos/squat-to-stand.miniatura.png) | 45.6 s | [squat-to-stand.mp4](salida/subidos/squat-to-stand.mp4) | ✅ | ✅ | 2026-10-12 | Primer video; define la plantilla. |
 | 1 | Running | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/running.youtube.txt) | [✅](salida/subidos/running.miniatura.png) | 38.8 s | [running.mp4](salida/subidos/running.mp4) | ✅ | ✅ | 2026-10-12 | Corre en el lugar; el piso que se desplaza (floorScroll) da la sensación de avance. |
-| 2 | General Stretching | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/general-stretching.youtube.txt) | [✅](salida/general-stretching.miniatura.png) | 45.3 s | [general-stretching.mp4](salida/general-stretching.mp4) | ✅ | ⬜ | 2026-10-12 | Circuito de 4 estiramientos (uno por zona del CSV) con cortes entre posiciones. |
+| 2 | General Stretching | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/general-stretching.youtube.txt) | [✅](salida/subidos/general-stretching.miniatura.png) | 45.3 s | [general-stretching.mp4](salida/subidos/general-stretching.mp4) | ✅ | ✅ | 2026-10-12 | Circuito de 4 estiramientos (uno por zona del CSV) con cortes entre posiciones. |
 | 3 | Rowing | Rower | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/rowing.youtube.txt) | [✅](salida/subidos/rowing.miniatura.png) | 45.0 s | [rowing.mp4](salida/subidos/rowing.mp4) | ✅ | ✅ | 2026-10-12 | Primer ejercicio con implemento (prop rower). |
 | 4 | Pigeon Pose | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/pigeon-pose.youtube.txt) | [✅](salida/pigeon-pose.miniatura.png) | 40.7 s | [pigeon-pose.mp4](salida/pigeon-pose.mp4) | ✅ | ⬜ | 2026-10-12 |  |
 | 5 | Supine Spinal Twist | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/supine-spinal-twist.youtube.txt) | [✅](salida/supine-spinal-twist.miniatura.png) | 42.9 s | [supine-spinal-twist.mp4](salida/supine-spinal-twist.mp4) | ⬜ | ⬜ | 2026-10-12 | Acostado de costado: la torsión se ve con escorzo de piernas (lr) + tarjeta 'vista de arriba' (topview). |
