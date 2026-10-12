@@ -59,6 +59,13 @@ export function contentHash(spec) {
   return createHash("sha1").update(JSON.stringify(rest)).digest("hex").slice(0, 12);
 }
 
+// Los videos ya publicados el profe los mueve a mano a salida/subidos/ (o subidos/ en la raíz).
+// outPath busca cada archivo de salida ahí también, para no perderlo del CHECKLIST ni duplicarlo al regenerarlo.
+const SUBIDOS = [join(ROOT, "salida", "subidos"), join(ROOT, "subidos")];
+const subidoPath = (file) => SUBIDOS.map((d) => join(d, file)).find((f) => existsSync(f)) || null;
+const outPath = (file) => subidoPath(file) || join(ROOT, "salida", file);
+const rel = (f) => f.slice(ROOT.length + 1).replace(/\\/g, "/");
+
 const VOICE_CREDIT = "🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.";
 // salida/<slug>.youtube.txt — título, descripción y tags listos para copiar en YouTube Studio.
 function exportYoutube(spec) {
@@ -72,7 +79,7 @@ function exportYoutube(spec) {
     desc = [...lines, VOICE_CREDIT, "", tags].join("\n");
   }
   const txt = ["TÍTULO", yt.titulo, "", "DESCRIPCIÓN", desc, "", "TAGS", (yt.tags || []).join(", "), ""].join("\n");
-  writeFileSync(join(ROOT, "salida", `${spec.slug}.youtube.txt`), txt);
+  writeFileSync(outPath(`${spec.slug}.youtube.txt`), txt);
   return true;
 }
 
@@ -165,7 +172,7 @@ function miniatura(dir, slug) {
   const png = existsSync(shots) && readdirSync(shots).find((f) => f.endsWith(".png"));
   if (r.status !== 0 || !png) return false;
   mkdirSync(join(ROOT, "salida"), { recursive: true });
-  copyFileSync(join(shots, png), join(ROOT, "salida", `${slug}.miniatura.png`));
+  copyFileSync(join(shots, png), outPath(`${slug}.miniatura.png`));
   console.log(`✓ salida/${slug}.miniatura.png (pose ${t.pose})`);
   return true;
 }
@@ -190,10 +197,10 @@ export function checklist() {
     ...csv.map((r, i) => ({ slug: r.clave, n: String(i + 1), row: r })),
   ];
   const ok = (b) => (b ? "✅" : "⬜");
-  let done = 0, fichas = 0, yts = 0, next = null;
+  let done = 0, fichas = 0, yts = 0, subidos = 0, next = null;
   const rows = items.map(({ slug, n, row }) => {
     const s = specs[slug];
-    const out = join(ROOT, "salida", `${slug}.mp4`);
+    const out = outPath(`${slug}.mp4`), subido = !!subidoPath(`${slug}.mp4`);
     const rendered = existsSync(out);
     const name = s?.spec.name || row?.nombre || slug;
     const impl = row?.implemento || (s ? "Ninguno" : "");
@@ -201,7 +208,7 @@ export function checklist() {
       next ??= `${n} · ${name}`;
       const faltan = [!row?.descripcion && "descripción", !row?.tecnica_coach && "técnica"].filter(Boolean);
       const nota = faltan.length ? `falta ${faltan.join(" y ")} en el CSV` : "";
-      return `| ${n} | ${name} | ${impl} | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | — | ${nota} |`;
+      return `| ${n} | ${name} | ${impl} | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — | ${nota} |`;
     }
     fichas++;
     const { spec, file } = s;
@@ -209,20 +216,22 @@ export function checklist() {
     const stale = rendered && (st.renderHash ? st.renderHash !== contentHash(spec) : statSync(file).mtimeMs > statSync(out).mtimeMs);
     const yt = exportYoutube(spec);
     if (rendered) done++;
+    if (subido) subidos++;
     if (yt) yts++;
     const dur = rendered ? `${mp4Duration(out)?.toFixed(1)} s` : "—";
-    return `| ${n} | ${name} | ${impl} | ✅ | ${ok(st.voz)} | ${ok(st.composicion)} | ${st.check == null ? "⬜" : st.check ? "✅" : "❌"} | ${rendered ? (stale ? "⚠️ desactualizado" : "✅") : "⬜"} | ${yt ? `[✅](salida/${slug}.youtube.txt)` : "⬜"} | ${existsSync(join(ROOT, "salida", `${slug}.miniatura.png`)) ? `[✅](salida/${slug}.miniatura.png)` : "⬜"} | ${dur} | ${rendered ? `[${slug}.mp4](salida/${slug}.mp4)` : "—"} | ${ok(spec.revisado)} | ${st.renderizado || "—"} | ${spec.notas || ""} |`;
+    return `| ${n} | ${name} | ${impl} | ✅ | ${ok(st.voz)} | ${ok(st.composicion)} | ${st.check == null ? "⬜" : st.check ? "✅" : "❌"} | ${rendered ? (stale ? "⚠️ desactualizado" : "✅") : "⬜"} | ${yt ? `[✅](${rel(outPath(`${slug}.youtube.txt`))})` : "⬜"} | ${existsSync(outPath(`${slug}.miniatura.png`)) ? `[✅](${rel(outPath(`${slug}.miniatura.png`))})` : "⬜"} | ${dur} | ${rendered ? `[${slug}.mp4](${rel(out)})` : "—"} | ${ok(spec.revisado)} | ${ok(subido)} | ${st.renderizado || "—"} | ${spec.notas || ""} |`;
   });
   const md = `# Checklist de videos de ejercicios
 
 Generado automáticamente por \`node plantilla/make-exercise.mjs --checklist\` (no editar a mano).
 La lista y su orden salen de \`ejercicios/ejercicios.csv\`; el estado, de \`ejercicios/<clave>.json\`,
 \`videos/<clave>/.pipeline.json\` y \`salida/\`. Para aprobar un video: \`"revisado": true\` en su JSON; las notas salen de \`"notas"\`.
+Subido = el .mp4 está en \`salida/subidos/\` (se mueve a mano después de publicarlo en YouTube).
 
-**Renderizados:** ${done} / ${items.length} · **Fichas:** ${fichas} · **Descripción YouTube:** ${yts}${next ? ` · **Próximo:** ${next}` : ""}
+**Renderizados:** ${done} / ${items.length} · **Fichas:** ${fichas} · **Descripción YouTube:** ${yts} · **Subidos:** ${subidos}${next ? ` · **Próximo:** ${next}` : ""}
 
-| # | Ejercicio | Implemento | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Revisado | Fecha render | Notas |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| # | Ejercicio | Implemento | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Revisado | Subido | Fecha render | Notas |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 ${rows.join("\n")}
 
 Leyenda: ✅ listo · ⬜ pendiente · ❌ falló · ⚠️ lo que se ve/escucha en la ficha cambió después del último render (volver a renderizar).

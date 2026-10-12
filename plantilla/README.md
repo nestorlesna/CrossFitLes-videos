@@ -12,6 +12,7 @@ salida/<slug>.mp4          ← video final
 salida/<slug>.youtube.txt  ← título + descripción + tags para pegar en YouTube Studio (autogenerado)
 salida/<slug>.miniatura.png ← miniatura de YouTube 1080×1920: portada + personaje en la pose clave (autogenerada)
 CHECKLIST.md               ← estado de todos los ejercicios de la lista (autogenerado)
+salida/subidos/            ← los ya publicados en YouTube (el profe los mueve a mano; el CHECKLIST los marca como Subido)
 plantilla/                 ← runtime del personaje, builder, estilos, música base, deslinde de YouTube
 ```
 
