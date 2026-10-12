@@ -1,59 +1,51 @@
 {
-  "tts_provider": "kokoro",
-  "voice_id": "em_alex",
+  "tts_provider": "piper",
+  "voice_id": "es_AR-daniela-high",
   "bgm": null,
-  "bgm_pending": false,
-  "bgm_provider": null,
-  "bgm_pid": null,
-  "bgm_log": null,
-  "bgm_mode": null,
-  "bgm_target_duration_s": null,
-  "bgm_seed_duration_s": null,
-  "bgm_loop_count": null,
   "voices": [
     {
       "id": "01",
       "path": "assets/voice/01.wav",
-      "duration_s": 3.413,
+      "duration_s": 2.868,
       "words": []
     },
     {
       "id": "02",
       "path": "assets/voice/02.wav",
-      "duration_s": 4.693,
+      "duration_s": 3.855,
       "words": []
     },
     {
       "id": "03",
       "path": "assets/voice/03.wav",
-      "duration_s": 6.635,
+      "duration_s": 5.851,
       "words": []
     },
     {
       "id": "04",
       "path": "assets/voice/04.wav",
-      "duration_s": 4.395,
+      "duration_s": 3.901,
       "words": []
     },
     {
       "id": "05",
       "path": "assets/voice/05.wav",
-      "duration_s": 4.203,
+      "duration_s": 3.971,
       "words": []
     },
     {
       "id": "06",
       "path": "assets/voice/06.wav",
-      "duration_s": 7.488,
+      "duration_s": 7.175,
       "words": []
     },
     {
       "id": "07",
       "path": "assets/voice/07.wav",
-      "duration_s": 4.971,
+      "duration_s": 4.156,
       "words": []
     }
   ],
   "sfx": [],
-  "total_duration_s": 35.798
+  "total_duration_s": 31.777
 }

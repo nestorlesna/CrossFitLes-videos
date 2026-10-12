@@ -63,7 +63,7 @@ Flujo recomendado: escribir la ficha → `make-exercise <slug>` → mirar el con
   "category": "CROSSFIT · MOVILIDAD",  // barra superior
   "tags": ["Cadera", "Isquiotibiales"], // chips de la portada
   "descripcion": "texto original del ejercicio",
-  "voice": "em_alex",                   // Kokoro español: em_alex, em_santa (hombre), ef_dora (mujer)
+  // voz: Piper + Daniela (es_AR) por defecto, no hace falta ponerla. "voiceProvider": "kokoro" + "voice": "em_alex" = motor viejo
   "voiceSpeed": 1.0,
   "revisado": false, "notas": "",       // columnas del checklist
   "youtube": { "titulo": "...", "descripcion": "...", "tags": [...] },  // ver "Descripción de YouTube"
@@ -131,6 +131,7 @@ del ejercicio (no la de pie). Se arma en `videos/<slug>/miniatura/` con `buildIn
 | `min` | duración mínima (s). La real = máx(min, voz + 1 s, última acción + 0,45 s) |
 | `numeral` | número gigante decorativo ("1".."4") |
 | `stance: true` | tarjeta "vista de arriba" con los pies (`stanceLabel` cambia el texto) |
+| `topview` | tarjeta "vista de arriba" acostado boca arriba, brazos en T, piernas que giran al costado: `{ "angle": -62, "at", "dur", "back"?, "label" }` (`back` = vuelve y cae al otro lado). Torsiones en el piso |
 | `keys` | lista de claves (strings, o `{ "text", "at" }`) |
 | `chips` | `[{ "label": "1 · FLEXIONÁ", "at": 2.6 }]` se iluminan a ese tiempo |
 | `moves` | `[{ "to": "POSE", "at": s, "dur": s, "ease"? }]` y `[{ "grip": 0|1, "at", "dur" }]` (tiempos relativos a la escena) |
@@ -187,6 +188,7 @@ Vista lateral mirando a la derecha. Ángulos en grados:
 - `s` tibia, `t` muslo, `b` torso, `hd` cabeza: desde la **vertical hacia arriba**, `+` = inclinado hacia adelante (derecha).
 - `ua` brazo, `fa` codo: desde la **vertical hacia abajo**, `+` = hacia adelante. `ua: 180` = brazo arriba.
 - `s2 t2 ua2 fa2`: pierna/brazo del lado lejano (default = igual al cercano) → estocadas, carrera, etc.
+- `lr`: las dos piernas caen al costado (grados, 0–90): escorzo de cadera→rodilla→tobillo (torsión acostado). `al`: largo del brazo libre (1 = normal, ~0,15 = brazo que apunta a la cámara, ej. brazos en T acostado).
 - `ft ft2`: rotación de los pies. `rx ry`: desplaza todo el cuerpo (px del rig; el tobillo cercano está en 0,0, el piso en y=+34).
 - Con `grip` = 1 las manos van al punto `hx, hy` (default la punta del pie: 70, -20). `"g": 0|1` dentro de la pose = agarre propio de esa pose.
 - `ed`: hacia dónde se dobla el codo cuando hay agarre (`1` adelante, `-1` atrás: remo, tirones, dominadas).
@@ -213,6 +215,9 @@ Poses probadas en el piso / máquina (copiar de la ficha indicada):
 | Sentado piernas estiradas | `general-stretching` `SEATED` | `hip [-230,0]`, `s -90, t -90`, `ft -90` (punta arriba) |
 | Rodilla al piso (flexor) | `general-stretching` `HALF_KNEEL` | `ankle [200,0] + hip [0,-230]`, pierna de atrás `s2 90, t2 5…24` |
 | Postura del niño | `general-stretching` `CHILD` | `hip [-200,-110]`, `s 90, t -60`, `b 86`, brazos al piso |
+| Boca arriba rodillas flexionadas / torsión | `supine-spinal-twist` | `hip [0,-20] + ankle [300,0]`, `b -90, hd -92`, brazos `ua 0, al 0.14`; torsión `lr 82`; rig `{520,1500,0.95}` |
+| Media rodilla + brazo arriba | `half-kneeling-hip-flexor-stretch` `PUSH_ARM` | `g 0`, brazo lejano `ua2 172` |
+| De rodillas / sentado en talones | `child-s-pose` | alto `hip [-200,-250], t 0`; talones `hip [-200,-72], t -70` |
 | Remo (4 fases) | `rowing` | `ankle [0,-40]` + `hip [x,-190]`, `ed -1`, manos a la manija `hx/hy` |
 
 Puntos de partida para otras (ajustar con snapshots): sentadilla paralela `s 30, t -75, b 35, hd 25`; brazos arriba `ua 175, fa 0`; brazos al frente `ua 90, fa 0`; estocada `s 25, t -60, s2 -60, t2 -10, b 0` con `rx` para centrar; plancha `s 78, t 78, b 78, hd 85, rx -300`, manos al piso con `grip 1, hx ≈ 430, hy 15`.
@@ -220,5 +225,14 @@ Puntos de partida para otras (ajustar con snapshots): sentadilla paralela `s 30,
 ### Límites actuales
 
 - Un solo personaje, vista lateral. Implementos: solo `rower` por ahora; el resto (barra, pesas, cajón…) hay que agregarlo en PROPS de `plantilla/runtime.js`.
-- La voz es Kokoro local (algo robótica). Con sesión HeyGen (`npx hyperframes auth login`) se puede pasar a una voz mejor cambiando `provider` en `make-exercise.mjs`.
+- Voz: ver sección **Voz** abajo.
+
+## Voz
+
+Desde 2026-10-12 la voz en off es **Piper** (local, gratis) con **Daniela, es_AR** (`plantilla/piper-tts.py`, llamado por `make-exercise`).
+- Instalar en una PC nueva: `python -m pip install piper-tts` y bajar el modelo (no está en git, 114 MB):
+  `https://huggingface.co/rhasspy/piper-voices/resolve/main/es/es_AR/daniela/high/es_AR-daniela-high.onnx` (+ `.onnx.json`) a `plantilla/voces-piper/`.
+- Licencia CC BY-SA 4.0: el crédito ("🎙️ Voz: Daniela…") se agrega solo al exportar `salida/<slug>.youtube.txt`.
+- `voiceSpeed` > 1 acelera. Kokoro sigue disponible con `"voiceProvider": "kokoro"`.
+- Edge TTS (voces es-AR Tomás/Elena) quedó descartado: Microsoft devuelve 403 desde oct-2026.
 - `index.html` se regenera siempre: los cambios van en la ficha, no en el HTML.

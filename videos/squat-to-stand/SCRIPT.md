@@ -1,6 +1,6 @@
 # SCRIPT — squat-to-stand
 
-**Voice:** em_alex (Kokoro, español)
+**Voice:** es_AR-daniela-high (piper, español rioplatense)
 **Voice direction:** Coach claro y motivador.
 
 ---

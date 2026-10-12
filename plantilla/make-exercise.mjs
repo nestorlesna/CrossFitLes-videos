@@ -59,12 +59,19 @@ export function contentHash(spec) {
   return createHash("sha1").update(JSON.stringify(rest)).digest("hex").slice(0, 12);
 }
 
+const VOICE_CREDIT = "🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.";
 // salida/<slug>.youtube.txt — título, descripción y tags listos para copiar en YouTube Studio.
 function exportYoutube(spec) {
   const yt = spec.youtube;
   if (!yt?.descripcion) return false;
   mkdirSync(join(ROOT, "salida"), { recursive: true });
-  const txt = ["TÍTULO", yt.titulo, "", "DESCRIPCIÓN", yt.descripcion, "", "TAGS", (yt.tags || []).join(", "), ""].join("\n");
+  // La voz Daniela (Piper) es CC BY-SA 4.0: el crédito va antes de los hashtags (última línea de la descripción).
+  let desc = yt.descripcion;
+  if ((spec.voiceProvider || "piper") === "piper" && !desc.includes("Voz:")) {
+    const lines = desc.split("\n"), tags = lines.pop();
+    desc = [...lines, VOICE_CREDIT, "", tags].join("\n");
+  }
+  const txt = ["TÍTULO", yt.titulo, "", "DESCRIPCIÓN", desc, "", "TAGS", (yt.tags || []).join(", "), ""].join("\n");
   writeFileSync(join(ROOT, "salida", `${spec.slug}.youtube.txt`), txt);
   return true;
 }
@@ -109,7 +116,7 @@ ${frames.map((f, i) => `
 `).join("")}`);
   writeFileSync(join(dir, "SCRIPT.md"), `# SCRIPT — ${spec.slug}
 
-**Voice:** ${spec.voice || "em_alex"} (Kokoro, español)
+**Voice:** ${spec.voice || "es_AR-daniela-high"} (${spec.voiceProvider || "piper"}, español rioplatense)
 **Voice direction:** Coach claro y motivador.
 
 ---
@@ -121,12 +128,16 @@ ${frames.map((f, i) => `
   return frames;
 }
 
+// Voz: Piper local con Daniela (es_AR) por defecto. "voiceProvider": "kokoro" en la ficha vuelve al motor anterior
+// (voces em_alex, em_santa, ef_dora).
+const PIPER_VOICE = "es_AR-daniela-high";
 function tts(dir, spec, frames) {
+  const provider = spec.voiceProvider || "piper";
   const request = {
-    provider: "kokoro",
+    provider,
     lang: "es",
     speed: spec.voiceSpeed ?? 1.0,
-    voice: spec.voice || "em_alex",
+    voice: spec.voice || (provider === "piper" ? PIPER_VOICE : "em_alex"),
     lines: frames.map((f) => ({ id: f.id, text: f.vo })),
     bgm: { mode: "none" },
   };
@@ -139,7 +150,9 @@ function tts(dir, spec, frames) {
     return true;
   }
   writeFileSync(reqPath, next);
-  const r = sh(`node "${ENGINE}" --request ./audio_request.json --hyperframes . --out ./audio_engine_meta.json --only tts`, dir);
+  const r = provider === "piper"
+    ? sh(`python "${join(HERE, "piper-tts.py")}" audio_request.json audio_engine_meta.json`, dir)
+    : sh(`node "${ENGINE}" --request ./audio_request.json --hyperframes . --out ./audio_engine_meta.json --only tts`, dir);
   return r.status === 0;
 }
 

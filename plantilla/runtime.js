@@ -4,6 +4,8 @@
  * Angles in degrees. Segments (s shin, t thigh, b torso, hd head/neck) measured from vertical-UP,
  * + = toward the facing direction (right). Arms (ua upper, fa elbow) measured from vertical-DOWN.
  * Far-side limbs use s2/t2/ua2/fa2. ft/ft2 rotate the feet. g blends free arms → hands on (hx, hy).
+ * lr: leg roll (deg) — both legs fall sideways away from the camera; the hip→knee→ankle drop is foreshortened by cos(lr)
+ * (supine twist). al: free-arm length factor (1 = full; ~0.2 = arm pointing at the camera, e.g. arms in T lying down).
  * ed: elbow side for the grip IK (+1 bows forward, -1 bows back — rowing, pulls). C.props draws implements
  * (see PROPS below); C.cuts hides the athlete briefly to jump between unrelated poses; C.floorScroll moves the floor.
  */
@@ -14,7 +16,7 @@
 
   const L = { shin: 230, thigh: 240, torso: 280, neck: 32, upper: 172, fore: 160 };
   const FAR = { dx: -22, dy: -4 };
-  const KEYS = ["s", "t", "b", "hd", "ua", "fa", "s2", "t2", "ua2", "fa2", "rx", "ry", "ft", "ft2", "hx", "hy", "ed", "g"];
+  const KEYS = ["s", "t", "b", "hd", "ua", "fa", "s2", "t2", "ua2", "fa2", "rx", "ry", "ft", "ft2", "hx", "hy", "ed", "g", "lr", "al"];
   const P = C.poses;
 
   const rad = (d) => (d * Math.PI) / 180;
@@ -43,12 +45,14 @@
     const K0 = add(A0, up(st.s, L.shin));
     const H0 = add(K0, up(st.t, L.thigh));
     const H = add(H0, { x: off.dx, y: off.dy });
-    const K = add(H, up(t + 180, L.thigh));
-    const A = add(K, up(s + 180, L.shin));
+    const roll = Math.cos(rad(st.lr || 0)), fold = (p) => ({ x: p.x, y: H.y + (p.y - H.y) * roll });
+    const K = fold(add(H, up(t + 180, L.thigh)));
+    const A = fold(add(add(H, up(t + 180, L.thigh)), up(s + 180, L.shin)));
     const S = add(H, up(st.b, L.torso));
     const N = add(S, up(st.hd, L.neck));
-    const fE = add(S, down(ua, L.upper));
-    const fW = add(fE, down(ua + fa, L.fore));
+    const al = st.al ?? 1;
+    const fE = add(S, down(ua, L.upper * al));
+    const fW = add(fE, down(ua + fa, L.fore * al));
     const g = ik(S, { x: st.hx + off.dx, y: st.hy + off.dy }, L.upper, L.fore, st.ed ?? 1);
     return { A, K, H, S, N, E: lerp(fE, g.E, st.g), W: lerp(fW, g.W, st.g) };
   }
@@ -246,6 +250,14 @@
       fadeIn(`#feetcard-${f.id}`, f.start + 0.5, { x: 60 }, { x: 0 });
       tl.fromTo(`#hipwidth-${f.id}`, { scaleX: 0 }, { scaleX: 1, duration: 0.6, ease: "power2.out", immediateRender: false }, f.start + 1.2);
       tl.to(`#feetcard-${f.id}`, { opacity: 0, duration: 0.3 }, f.start + f.dur - 0.35);
+    }
+    if (f.topview) {
+      // Tarjeta "vista de arriba" (torsión acostado): las piernas giran hacia un lado con los hombros fijos.
+      const tv = f.topview;
+      fadeIn(`#topcard-${f.id}`, f.start + 0.4, { x: 60 }, { x: 0 });
+      tl.fromTo(`#tvlegs-${f.id}`, { rotation: 0, scaleY: 0.55 }, { rotation: tv.angle, scaleY: 1, svgOrigin: "126 178", duration: tv.dur, ease: "sine.inOut", immediateRender: false }, f.start + tv.at);
+      if (tv.back != null) tl.to(`#tvlegs-${f.id}`, { rotation: -tv.angle, svgOrigin: "126 178", duration: tv.dur * 1.6, ease: "sine.inOut" }, f.start + tv.back);
+      tl.to(`#topcard-${f.id}`, { opacity: 0, duration: 0.3 }, f.start + f.dur - 0.35);
     }
     (f.keyTimes || []).forEach((t, i) => {
       tl.fromTo(`#key-${f.id}-${i}`, { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.45, ease: "power3.out" }, t);

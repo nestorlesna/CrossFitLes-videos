@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Supine Spinal Twist: soltá la espalda y la cadera, acostado en el piso."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba, con las rodillas flexionadas, los pies en el piso y los brazos abiertos en T."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Llevá las dos rodillas juntas hacia un costado, despacio, hasta donde llegues."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Los hombros quedan pegados al piso. Si querés más, girá la cabeza hacia el lado contrario."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Sostené respirando profundo, volvé al centro y repetí hacia el otro lado."
+    },
+    {
+      "id": "06",
+      "text": "Claves: los hombros nunca se despegan del piso, las rodillas van juntas, la cabeza mira al lado contrario y respirás profundo."
+    },
+    {
+      "id": "07",
+      "text": "Sostené treinta segundos por lado. Sirve para la entrada en calor o para la vuelta a la calma."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

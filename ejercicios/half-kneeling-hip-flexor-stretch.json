@@ -1,0 +1,408 @@
+{
+  "slug": "half-kneeling-hip-flexor-stretch",
+  "name": "Half Kneeling Hip Flexor Stretch",
+  "revisado": false,
+  "notas": "",
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.4,
+      "badge": "CROSSFIT · MOVILIDAD",
+      "head": [
+        "HALF KNEELING",
+        "HIP FLEXOR"
+      ],
+      "vo": "Half Kneeling Hip Flexor Stretch: abrí la cadera que se acorta de estar sentado.",
+      "moves": [
+        {
+          "to": "PUSH",
+          "at": 1.0,
+          "dur": 1.4
+        },
+        {
+          "to": "PUSH_ARM",
+          "at": 2.5,
+          "dur": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "MEDIA",
+        "RODILLA"
+      ],
+      "sub": "Rodilla sobre el tobillo",
+      "vo": "Apoyá una rodilla en el piso y el otro pie adelante, con la rodilla de adelante en noventa grados, justo encima del tobillo.",
+      "moves": [
+        {
+          "cut": "HALF_KNEEL",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "from": {
+            "j": "HALF_KNEEL.K",
+            "dx": 0,
+            "dy": 0
+          },
+          "to": {
+            "j": "HALF_KNEEL.A",
+            "dx": 0,
+            "dy": 30
+          },
+          "at": 2.4
+        },
+        {
+          "type": "ring",
+          "pos": {
+            "j": "HALF_KNEEL.K",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 46,
+          "at": 2.6
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "HALF_KNEEL.K",
+            "dx": 30,
+            "dy": -120
+          },
+          "anchor": "start",
+          "text": "90°",
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1330
+          ],
+          "anchor": "start",
+          "text": "RODILLA AL PISO",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "CADERA",
+        "ADELANTE"
+      ],
+      "sub": "Suave, sin rebotar",
+      "vo": "Paso uno. Empujá la cadera suavemente hacia adelante, hasta sentir el estiramiento adelante de la cadera de atrás.",
+      "moves": [
+        {
+          "to": "PUSH",
+          "at": 0.8,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": {
+            "j": "HALF_KNEEL.H",
+            "dx": -110,
+            "dy": 0
+          },
+          "to": {
+            "j": "PUSH.H",
+            "dx": -90,
+            "dy": 0
+          },
+          "at": 0.9,
+          "dur": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": {
+            "j": "PUSH.H",
+            "dx": -20,
+            "dy": 40
+          },
+          "r": 60,
+          "at": 3.0
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "PUSH.H",
+            "dx": -130,
+            "dy": -40
+          },
+          "anchor": "end",
+          "text": "ESTIRA ACÁ",
+          "at": 3.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "TORSO",
+        "DERECHO"
+      ],
+      "sub": "Sin arquear la espalda",
+      "vo": "Paso dos. Mantené el torso derecho, sin arquear la espalda baja: apretá el glúteo de la pierna de atrás.",
+      "overlays": [
+        {
+          "type": "line",
+          "color": "ink",
+          "width": 6,
+          "from": {
+            "j": "PUSH.H",
+            "dx": 0,
+            "dy": 20
+          },
+          "to": {
+            "j": "PUSH.N",
+            "dx": 0,
+            "dy": -120
+          },
+          "at": 0.9
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "PUSH.N",
+            "dx": 60,
+            "dy": -150
+          },
+          "anchor": "start",
+          "text": "TORSO RECTO",
+          "at": 1.1
+        },
+        {
+          "type": "label",
+          "pos": [
+            80,
+            1440
+          ],
+          "anchor": "start",
+          "text": "GLÚTEO APRETADO",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BRAZO",
+        "ARRIBA"
+      ],
+      "sub": "Del lado de la rodilla de atrás",
+      "vo": "Paso tres. Para estirar más, subí el brazo del lado de la rodilla de atrás.",
+      "moves": [
+        {
+          "to": "PUSH_ARM",
+          "at": 0.8,
+          "dur": 1.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": {
+            "j": "PUSH.S",
+            "dx": -90,
+            "dy": -40
+          },
+          "to": {
+            "j": "PUSH_ARM.S",
+            "dx": -90,
+            "dy": -300
+          },
+          "bend": [
+            -60,
+            0
+          ],
+          "at": 0.9,
+          "dur": 1.3
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "PUSH_ARM.S",
+            "dx": -110,
+            "dy": -330
+          },
+          "anchor": "end",
+          "text": "BRAZO ARRIBA",
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Rodilla sobre tobillo",
+        "Torso derecho",
+        "No arquees la espalda",
+        "Glúteo de atrás firme"
+      ],
+      "vo": "Claves: la rodilla de adelante sobre el tobillo, el torso derecho, no arquees la espalda baja y mantené firme el glúteo de atrás.",
+      "moves": [
+        {
+          "to": "PUSH",
+          "at": 0.3,
+          "dur": 1.2
+        },
+        {
+          "to": "PUSH_ARM",
+          "at": 3.4,
+          "dur": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 S POR LADO"
+      ],
+      "sub": "Respirando profundo",
+      "vo": "Sostené treinta segundos por lado, respirando profundo. Después cambiá de pierna.",
+      "moves": [
+        {
+          "to": "HALF_KNEEL",
+          "at": 3.4,
+          "dur": 1.6
+        }
+      ]
+    }
+  ],
+  "rig": {
+    "x": 520,
+    "y": 1504,
+    "scale": 0.82
+  },
+  "initialPose": "HALF_KNEEL",
+  "poses": {
+    "HALF_KNEEL": {
+      "ankle": [
+        200,
+        0
+      ],
+      "hip": [
+        0,
+        -230
+      ],
+      "s2": 90,
+      "t2": 5,
+      "ft2": 172,
+      "b": -3,
+      "hd": 0,
+      "g": 1,
+      "hx": 190,
+      "hy": -250
+    },
+    "PUSH": {
+      "ankle": [
+        200,
+        0
+      ],
+      "hip": [
+        60,
+        -212
+      ],
+      "s2": 90,
+      "t2": 24,
+      "ft2": 172,
+      "b": -6,
+      "hd": -4,
+      "g": 1,
+      "hx": 220,
+      "hy": -240
+    },
+    "PUSH_ARM": {
+      "ankle": [
+        200,
+        0
+      ],
+      "hip": [
+        60,
+        -212
+      ],
+      "s2": 90,
+      "t2": 24,
+      "ft2": 172,
+      "b": -8,
+      "hd": -6,
+      "g": 0,
+      "ua": 20,
+      "fa": 30,
+      "ua2": 172,
+      "fa2": 4
+    },
+    "ARCH_BAD": {
+      "ankle": [
+        200,
+        0
+      ],
+      "hip": [
+        60,
+        -212
+      ],
+      "s2": 90,
+      "t2": 24,
+      "ft2": 172,
+      "b": -24,
+      "hd": -30,
+      "g": 0,
+      "ua": 20,
+      "fa": 30,
+      "ua2": 185,
+      "fa2": 10
+    }
+  },
+  "category": "CROSSFIT · MOVILIDAD",
+  "tags": [
+    "Flexor de cadera",
+    "Cuádriceps",
+    "Glúteo"
+  ],
+  "descripcion": "En posición media-arrodillada (un pie adelante en 90°, rodilla trasera en el suelo), empujar suavemente la cadera hacia adelante mientras se mantiene el torso erguido. Opcionalmente elevar el brazo del lado de la rodilla trasera para aumentar el estiramiento.",
+  "miniatura": {
+    "pose": "PUSH_ARM",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Half Kneeling Hip Flexor Stretch 🦵 Estiramiento de psoas paso a paso | CrossFit",
+    "descripcion": "🦵 HALF KNEELING HIP FLEXOR STRETCH — Abrí la cadera que se acorta de estar sentado\n\n¿Pasás muchas horas sentado y sentís la cadera trabada o la espalda baja cargada en la sentadilla? Este estiramiento de rodillas libera el psoas y el cuádriceps en 30 segundos. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Apoyá una rodilla en el piso y el otro pie adelante, con la rodilla de adelante en 90°, justo encima del tobillo.\n2️⃣ Empujá la cadera suavemente hacia adelante, hasta sentir el estiramiento adelante de la cadera de atrás.\n3️⃣ Mantené el torso derecho, sin arquear la espalda baja: apretá el glúteo de la pierna de atrás.\n4️⃣ Para estirar más, subí el brazo del lado de la rodilla de atrás.\n\n✅ CLAVES DE TÉCNICA\n• El estiramiento se siente en el flexor de cadera (psoas / ilíaco) del lado de la rodilla apoyada\n• Rodilla de adelante directamente sobre el tobillo\n• Torso erguido: no arquees la espalda baja\n• Glúteo de atrás apretado para llevar la cadera adelante\n• Si te molesta la rodilla en el piso, poné una colchoneta abajo\n\n🎯 QUÉ TRABAJA\nPsoas · Recto femoral · Glúteo mayor · Erectores espinales\n\n⏱️ CUÁNTO\n30 segundos por lado. Ideal en la entrada en calor o en la vuelta a la calma.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Movilidad #HipFlexorStretch #Psoas #Entrenamiento",
+    "tags": [
+      "half kneeling hip flexor stretch",
+      "estiramiento de psoas",
+      "estiramiento flexor de cadera",
+      "estiramiento de cuádriceps",
+      "movilidad de cadera",
+      "crossfit",
+      "entrada en calor",
+      "vuelta a la calma",
+      "estiramientos",
+      "psoas ilíaco",
+      "dolor de espalda baja",
+      "estiramiento de rodillas"
+    ]
+  }
+}

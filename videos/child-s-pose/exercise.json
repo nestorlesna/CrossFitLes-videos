@@ -1,0 +1,366 @@
+{
+  "slug": "child-s-pose",
+  "name": "Child's Pose",
+  "revisado": false,
+  "notas": "",
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.4,
+      "badge": "CROSSFIT · VUELTA A LA CALMA",
+      "head": [
+        "CHILD'S",
+        "POSE"
+      ],
+      "vo": "Child's Pose, la postura del niño: la mejor forma de bajar pulsaciones después del WOD.",
+      "moves": [
+        {
+          "to": "SIT_HEELS",
+          "at": 0.9,
+          "dur": 1.2
+        },
+        {
+          "to": "CHILD",
+          "at": 2.2,
+          "dur": 1.6
+        }
+      ]
+    },
+    {
+      "min": 4.6,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE",
+        "RODILLAS"
+      ],
+      "sub": "Empeines en el piso",
+      "vo": "Arrodillate en el piso, con los empeines apoyados y el torso derecho.",
+      "moves": [
+        {
+          "cut": "KNEEL_TALL",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "KNEEL_TALL.K",
+            "dx": 0,
+            "dy": 10
+          },
+          "r": 50,
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "KNEEL_TALL.N",
+            "dx": 90,
+            "dy": -60
+          },
+          "anchor": "start",
+          "text": "TORSO DERECHO",
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "CADERA A",
+        "LOS TALONES"
+      ],
+      "sub": "Sentate atrás",
+      "vo": "Paso uno. Bajá la cadera hacia los talones y sentate atrás.",
+      "moves": [
+        {
+          "to": "SIT_HEELS",
+          "at": 0.6,
+          "dur": 1.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": {
+            "j": "KNEEL_TALL.H",
+            "dx": -110,
+            "dy": -10
+          },
+          "to": {
+            "j": "SIT_HEELS.H",
+            "dx": -110,
+            "dy": -20
+          },
+          "bend": [
+            -40,
+            0
+          ],
+          "at": 0.7,
+          "dur": 1.4
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "SIT_HEELS.H",
+            "dx": -60,
+            "dy": -230
+          },
+          "anchor": "end",
+          "text": "AL TALÓN",
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "BRAZOS",
+        "ADELANTE"
+      ],
+      "sub": "Frente al piso",
+      "vo": "Paso dos. Estirá los brazos hacia adelante sobre el piso y apoyá la frente.",
+      "moves": [
+        {
+          "to": "CHILD",
+          "at": 0.6,
+          "dur": 2.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": {
+            "j": "CHILD.S",
+            "dx": 20,
+            "dy": -110
+          },
+          "to": {
+            "j": "CHILD.W",
+            "dx": 30,
+            "dy": -110
+          },
+          "at": 2.6,
+          "dur": 0.9
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "CHILD.S",
+            "dx": 60,
+            "dy": -170
+          },
+          "anchor": "start",
+          "text": "BRAZOS LARGOS",
+          "at": 2.8
+        },
+        {
+          "type": "ring",
+          "pos": {
+            "j": "CHILD.N",
+            "dx": 50,
+            "dy": 30
+          },
+          "r": 46,
+          "at": 3.6
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Lento y profundo",
+      "vo": "Paso tres. Quedate ahí y respirá lento: sentí cómo la espalda se abre con cada inhalación.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "CHILD_IN",
+              1.6
+            ],
+            [
+              "CHILD",
+              1.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "CHILD.H",
+            "dx": 40,
+            "dy": -190
+          },
+          "anchor": "middle",
+          "text": "INHALÁ · EXHALÁ",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Cadera a los talones",
+        "Frente apoyada",
+        "Rodillas algo abiertas",
+        "Manta si no llegás"
+      ],
+      "vo": "Claves: cadera a los talones, frente apoyada, rodillas un poco abiertas, y si no llegás, una manta entre muslos y pantorrillas.",
+      "moves": [
+        {
+          "to": "CHILD",
+          "at": 0.3,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "Respirando profundo",
+      "vo": "Sostené treinta segundos, respirando profundo. Ideal para la vuelta a la calma.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "CHILD_IN",
+              1.6
+            ],
+            [
+              "CHILD",
+              1.6
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "rig": {
+    "x": 520,
+    "y": 1504,
+    "scale": 0.82
+  },
+  "initialPose": "KNEEL_TALL",
+  "poses": {
+    "KNEEL_TALL": {
+      "hip": [
+        -200,
+        -250
+      ],
+      "s": 90,
+      "t": 0,
+      "s2": 90,
+      "t2": 0,
+      "ft": 172,
+      "ft2": 172,
+      "b": 0,
+      "hd": 0,
+      "ua": 6,
+      "fa": 6
+    },
+    "SIT_HEELS": {
+      "hip": [
+        -200,
+        -72
+      ],
+      "s": 90,
+      "t": -70,
+      "s2": 90,
+      "t2": -70,
+      "ft": 172,
+      "ft2": 172,
+      "b": 2,
+      "hd": 0,
+      "ua": 4,
+      "fa": 10
+    },
+    "CHILD": {
+      "hip": [
+        -200,
+        -110
+      ],
+      "s": 90,
+      "t": -60,
+      "s2": 90,
+      "t2": -60,
+      "ft": 172,
+      "ft2": 172,
+      "b": 86,
+      "hd": 104,
+      "g": 1,
+      "hx": 400,
+      "hy": 15
+    },
+    "CHILD_IN": {
+      "hip": [
+        -200,
+        -104
+      ],
+      "s": 90,
+      "t": -62,
+      "s2": 90,
+      "t2": -62,
+      "ft": 172,
+      "ft2": 172,
+      "b": 82,
+      "hd": 100,
+      "g": 1,
+      "hx": 400,
+      "hy": 15
+    }
+  },
+  "category": "CROSSFIT · VUELTA A LA CALMA",
+  "tags": [
+    "Espalda",
+    "Dorsal",
+    "Glúteos"
+  ],
+  "descripcion": "Desde posición arrodillada, bajar las caderas hacia los talones y extender los brazos al frente sobre el suelo, dejando la frente apoyada en el piso. Mantener la posición respirando profundamente.",
+  "miniatura": {
+    "pose": "CHILD",
+    "grip": 1,
+    "dy": 140
+  },
+  "youtube": {
+    "titulo": "Child's Pose 🧘 Postura del niño para relajar la espalda paso a paso | CrossFit",
+    "descripcion": "🧘 CHILD'S POSE — Bajá pulsaciones y soltá la espalda después del WOD\n\n¿Terminaste el WOD con el corazón a mil y la espalda cargada? La postura del niño es la forma más simple de recuperar el aire y estirar dorsal, espalda y glúteos. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Arrodillate en el piso, con los empeines apoyados y el torso derecho.\n2️⃣ Bajá la cadera hacia los talones y sentate atrás.\n3️⃣ Estirá los brazos hacia adelante sobre el piso y apoyá la frente.\n4️⃣ Quedate ahí y respirá lento: sentí cómo la espalda se abre con cada inhalación.\n\n✅ CLAVES DE TÉCNICA\n• Cadera hacia los talones\n• Frente apoyada en el piso, cuello relajado\n• Para ir más profundo, separá un poco las rodillas\n• Si la cadera no llega a los talones, poné una manta doblada entre muslos y pantorrillas\n• Respiración lenta: es una postura de recuperación\n\n🎯 QUÉ TRABAJA\nDorsal ancho · Espalda baja · Glúteo mayor · Recto abdominal\n\n⏱️ CUÁNTO\n30 segundos (o más). Ideal en la vuelta a la calma o entre series para recuperar.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #VueltaALaCalma #ChildsPose #Espalda #Entrenamiento",
+    "tags": [
+      "child's pose",
+      "postura del niño",
+      "balasana",
+      "estiramiento de espalda",
+      "estiramiento de dorsal",
+      "vuelta a la calma",
+      "crossfit",
+      "relajación",
+      "estiramientos",
+      "yoga para crossfit",
+      "recuperación",
+      "espalda baja"
+    ]
+  }
+}

@@ -4,18 +4,18 @@ Generado automáticamente por `node plantilla/make-exercise.mjs --checklist` (no
 La lista y su orden salen de `ejercicios/ejercicios.csv`; el estado, de `ejercicios/<clave>.json`,
 `videos/<clave>/.pipeline.json` y `salida/`. Para aprobar un video: `"revisado": true` en su JSON; las notas salen de `"notas"`.
 
-**Renderizados:** 5 / 328 · **Fichas:** 5 · **Descripción YouTube:** 5 · **Próximo:** 5 · Supine Spinal Twist
+**Renderizados:** 8 / 328 · **Fichas:** 8 · **Descripción YouTube:** 8 · **Próximo:** 8 · Cobra Pose
 
 | # | Ejercicio | Implemento | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Revisado | Fecha render | Notas |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| — | Squat to Stand | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/squat-to-stand.youtube.txt) | [✅](salida/squat-to-stand.miniatura.png) | 46.8 s | [squat-to-stand.mp4](salida/squat-to-stand.mp4) | ✅ | 2026-10-11 | Primer video; define la plantilla. |
-| 1 | Running | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/running.youtube.txt) | [✅](salida/running.miniatura.png) | 40.9 s | [running.mp4](salida/running.mp4) | ⬜ | 2026-10-11 | Corre en el lugar; el piso que se desplaza (floorScroll) da la sensación de avance. |
-| 2 | General Stretching | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/general-stretching.youtube.txt) | [✅](salida/general-stretching.miniatura.png) | 46.8 s | [general-stretching.mp4](salida/general-stretching.mp4) | ⬜ | 2026-10-11 | Circuito de 4 estiramientos (uno por zona del CSV) con cortes entre posiciones. |
-| 3 | Rowing | Rower | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/rowing.youtube.txt) | [✅](salida/rowing.miniatura.png) | 46.7 s | [rowing.mp4](salida/rowing.mp4) | ⬜ | 2026-10-11 | Primer ejercicio con implemento (prop rower). |
-| 4 | Pigeon Pose | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/pigeon-pose.youtube.txt) | [✅](salida/pigeon-pose.miniatura.png) | 43.0 s | [pigeon-pose.mp4](salida/pigeon-pose.mp4) | ⬜ | 2026-10-11 |  |
-| 5 | Supine Spinal Twist | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | — |  |
-| 6 | Half Kneeling Hip Flexor Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | — |  |
-| 7 | Child's Pose | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | — |  |
+| — | Squat to Stand | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/squat-to-stand.youtube.txt) | [✅](salida/squat-to-stand.miniatura.png) | 45.6 s | [squat-to-stand.mp4](salida/squat-to-stand.mp4) | ✅ | 2026-10-12 | Primer video; define la plantilla. |
+| 1 | Running | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/running.youtube.txt) | [✅](salida/running.miniatura.png) | 38.8 s | [running.mp4](salida/running.mp4) | ✅ | 2026-10-12 | Corre en el lugar; el piso que se desplaza (floorScroll) da la sensación de avance. |
+| 2 | General Stretching | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/general-stretching.youtube.txt) | [✅](salida/general-stretching.miniatura.png) | 45.3 s | [general-stretching.mp4](salida/general-stretching.mp4) | ✅ | 2026-10-12 | Circuito de 4 estiramientos (uno por zona del CSV) con cortes entre posiciones. |
+| 3 | Rowing | Rower | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/rowing.youtube.txt) | [✅](salida/rowing.miniatura.png) | 45.0 s | [rowing.mp4](salida/rowing.mp4) | ✅ | 2026-10-12 | Primer ejercicio con implemento (prop rower). |
+| 4 | Pigeon Pose | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/pigeon-pose.youtube.txt) | [✅](salida/pigeon-pose.miniatura.png) | 40.7 s | [pigeon-pose.mp4](salida/pigeon-pose.mp4) | ✅ | 2026-10-12 |  |
+| 5 | Supine Spinal Twist | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/supine-spinal-twist.youtube.txt) | [✅](salida/supine-spinal-twist.miniatura.png) | 42.9 s | [supine-spinal-twist.mp4](salida/supine-spinal-twist.mp4) | ⬜ | 2026-10-12 | Acostado de costado: la torsión se ve con escorzo de piernas (lr) + tarjeta 'vista de arriba' (topview). |
+| 6 | Half Kneeling Hip Flexor Stretch | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/half-kneeling-hip-flexor-stretch.youtube.txt) | [✅](salida/half-kneeling-hip-flexor-stretch.miniatura.png) | 44.4 s | [half-kneeling-hip-flexor-stretch.mp4](salida/half-kneeling-hip-flexor-stretch.mp4) | ⬜ | 2026-10-12 |  |
+| 7 | Child's Pose | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/child-s-pose.youtube.txt) | [✅](salida/child-s-pose.miniatura.png) | 41.2 s | [child-s-pose.mp4](salida/child-s-pose.mp4) | ⬜ | 2026-10-12 |  |
 | 8 | Cobra Pose | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | — |  |
 | 9 | Overhead Triceps Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | — |  |
 | 10 | Seated Forward Fold | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | — |  |

@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Child's Pose, la postura del niño: la mejor forma de bajar pulsaciones después del WOD."
+    },
+    {
+      "id": "02",
+      "text": "Arrodillate en el piso, con los empeines apoyados y el torso derecho."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá la cadera hacia los talones y sentate atrás."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Estirá los brazos hacia adelante sobre el piso y apoyá la frente."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Quedate ahí y respirá lento: sentí cómo la espalda se abre con cada inhalación."
+    },
+    {
+      "id": "06",
+      "text": "Claves: cadera a los talones, frente apoyada, rodillas un poco abiertas, y si no llegás, una manta entre muslos y pantorrillas."
+    },
+    {
+      "id": "07",
+      "text": "Sostené treinta segundos, respirando profundo. Ideal para la vuelta a la calma."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

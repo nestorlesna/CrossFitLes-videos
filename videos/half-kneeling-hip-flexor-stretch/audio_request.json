@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Half Kneeling Hip Flexor Stretch: abrí la cadera que se acorta de estar sentado."
+    },
+    {
+      "id": "02",
+      "text": "Apoyá una rodilla en el piso y el otro pie adelante, con la rodilla de adelante en noventa grados, justo encima del tobillo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Empujá la cadera suavemente hacia adelante, hasta sentir el estiramiento adelante de la cadera de atrás."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Mantené el torso derecho, sin arquear la espalda baja: apretá el glúteo de la pierna de atrás."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Para estirar más, subí el brazo del lado de la rodilla de atrás."
+    },
+    {
+      "id": "06",
+      "text": "Claves: la rodilla de adelante sobre el tobillo, el torso derecho, no arquees la espalda baja y mantené firme el glúteo de atrás."
+    },
+    {
+      "id": "07",
+      "text": "Sostené treinta segundos por lado, respirando profundo. Después cambiá de pierna."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

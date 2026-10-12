@@ -37,6 +37,13 @@ Problemas encontrados al generar videos, cómo se resolvieron y qué conviene ha
 | 10-11 | general-stretching | "Serie libre de estiramientos" no es un movimiento | circuito de 4 estiramientos, uno por zona del CSV, con `cut` entre posiciones |
 | 10-11 | general-stretching | Flexión sentado / postura del niño: brazos muy doblados o cabeza en el piso | target de manos casi a largo de brazo (≈300 px del hombro) → brazos casi rectos |
 | 10-11 | (labels) | Labels pegados a una articulación suelen caer sobre la cabeza/torso | offset grande hacia arriba (`dy -250…-330`) o posición absoluta a un costado |
+| 10-12 | supine-spinal-twist | Torsión acostado: de costado las rodillas "al costado" van hacia la cámara | clave `lr` (escorzo de piernas por cos) + tarjeta `topview` animada con la vista de arriba |
+| 10-12 | supine-spinal-twist | Brazos en T acostado apuntan a la cámara (de costado no se ven) | clave `al` (largo del brazo ~0,14) + label "BRAZOS EN T" |
+| 10-12 | supine-spinal-twist | Miniatura con zoom 1,3 corta la cabeza de un personaje acostado | `miniatura.zoom: 1.0` en posiciones horizontales |
+| 10-12 | child-s-pose | Sentado en talones con `t -84` dejaba las piernas flotando | la rodilla debe quedar en y≈+10: `hip [-200,-72], t -70` |
+| 10-12 | child-s-pose | Voz de claves de 4 líneas desborda el subtítulo | máx. ~3 líneas (~130 caracteres) por `vo` |
+| 10-12 | half-kneeling | Label en [60,1440] pisaba la pierna de atrás arrodillada | en media rodilla usar y≈1330 y texto corto |
+| 10-12 | (voz) | Kokoro sonaba robótico; Edge TTS (es-AR) da 403 aunque se actualice | Piper + Daniela es_AR (local, CC BY-SA → crédito automático en la descripción). El profe la aprobó |
 
 ## Pendientes / ideas
 

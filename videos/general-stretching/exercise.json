@@ -8,8 +8,7 @@
     "Espalda"
   ],
   "descripcion": "Serie libre de estiramientos de las cadenas trabajadas en la clase, sosteniendo cada posición sin rebotes.",
-  "voice": "em_alex",
-  "revisado": false,
+  "revisado": true,
   "notas": "Circuito de 4 estiramientos (uno por zona del CSV) con cortes entre posiciones.",
   "rig": {
     "x": 520,
