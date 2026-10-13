@@ -5,7 +5,7 @@ La lista y su orden salen de `ejercicios/ejercicios.csv`; el estado, de `ejercic
 `videos/<clave>/.pipeline.json` y `salida/`. Para aprobar un video: `"revisado": true` en su JSON; las notas salen de `"notas"`.
 Subido = el .mp4 está en `salida/subidos/` (se mueve a mano después de publicarlo en YouTube).
 
-**Renderizados:** 8 / 328 · **Fichas:** 8 · **Descripción YouTube:** 8 · **Subidos:** 4 · **Próximo:** 8 · Cobra Pose
+**Renderizados:** 13 / 328 · **Fichas:** 13 · **Descripción YouTube:** 13 · **Subidos:** 5 · **Próximo:** 13 · Supine Abdominal Stretch
 
 | # | Ejercicio | Implemento | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Revisado | Subido | Fecha render | Notas |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -14,14 +14,14 @@ Subido = el .mp4 está en `salida/subidos/` (se mueve a mano después de publica
 | 2 | General Stretching | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/general-stretching.youtube.txt) | [✅](salida/subidos/general-stretching.miniatura.png) | 45.3 s | [general-stretching.mp4](salida/subidos/general-stretching.mp4) | ✅ | ✅ | 2026-10-12 | Circuito de 4 estiramientos (uno por zona del CSV) con cortes entre posiciones. |
 | 3 | Rowing | Rower | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/rowing.youtube.txt) | [✅](salida/subidos/rowing.miniatura.png) | 45.0 s | [rowing.mp4](salida/subidos/rowing.mp4) | ✅ | ✅ | 2026-10-12 | Primer ejercicio con implemento (prop rower). |
 | 4 | Pigeon Pose | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/pigeon-pose.youtube.txt) | [✅](salida/pigeon-pose.miniatura.png) | 40.7 s | [pigeon-pose.mp4](salida/pigeon-pose.mp4) | ✅ | ⬜ | 2026-10-12 |  |
-| 5 | Supine Spinal Twist | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/supine-spinal-twist.youtube.txt) | [✅](salida/supine-spinal-twist.miniatura.png) | 42.9 s | [supine-spinal-twist.mp4](salida/supine-spinal-twist.mp4) | ⬜ | ⬜ | 2026-10-12 | Acostado de costado: la torsión se ve con escorzo de piernas (lr) + tarjeta 'vista de arriba' (topview). |
+| 5 | Supine Spinal Twist | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/supine-spinal-twist.youtube.txt) | [✅](salida/subidos/supine-spinal-twist.miniatura.png) | 42.9 s | [supine-spinal-twist.mp4](salida/subidos/supine-spinal-twist.mp4) | ✅ | ✅ | 2026-10-12 | Acostado de costado: la torsión se ve con escorzo de piernas (lr) + tarjeta 'vista de arriba' (topview). |
 | 6 | Half Kneeling Hip Flexor Stretch | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/half-kneeling-hip-flexor-stretch.youtube.txt) | [✅](salida/half-kneeling-hip-flexor-stretch.miniatura.png) | 44.4 s | [half-kneeling-hip-flexor-stretch.mp4](salida/half-kneeling-hip-flexor-stretch.mp4) | ⬜ | ⬜ | 2026-10-12 |  |
 | 7 | Child's Pose | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/child-s-pose.youtube.txt) | [✅](salida/child-s-pose.miniatura.png) | 41.2 s | [child-s-pose.mp4](salida/child-s-pose.mp4) | ⬜ | ⬜ | 2026-10-12 |  |
-| 8 | Cobra Pose | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 9 | Overhead Triceps Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 10 | Seated Forward Fold | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 11 | Seated Quad Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 12 | Standing Biceps Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
+| 8 | Cobra Pose | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/cobra-pose.youtube.txt) | [✅](salida/cobra-pose.miniatura.png) | 40.9 s | [cobra-pose.mp4](salida/cobra-pose.mp4) | ⬜ | ⬜ | 2026-10-13 |  |
+| 9 | Overhead Triceps Stretch | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/overhead-triceps-stretch.youtube.txt) | [✅](salida/overhead-triceps-stretch.miniatura.png) | 41.3 s | [overhead-triceps-stretch.mp4](salida/overhead-triceps-stretch.mp4) | ⬜ | ⬜ | 2026-10-13 |  |
+| 10 | Seated Forward Fold | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/seated-forward-fold.youtube.txt) | [✅](salida/seated-forward-fold.miniatura.png) | 40.8 s | [seated-forward-fold.mp4](salida/seated-forward-fold.mp4) | ⬜ | ⬜ | 2026-10-13 |  |
+| 11 | Seated Quad Stretch | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/seated-quad-stretch.youtube.txt) | [✅](salida/seated-quad-stretch.miniatura.png) | 40.4 s | [seated-quad-stretch.mp4](salida/seated-quad-stretch.mp4) | ⬜ | ⬜ | 2026-10-13 |  |
+| 12 | Standing Biceps Stretch | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/standing-biceps-stretch.youtube.txt) | [✅](salida/standing-biceps-stretch.miniatura.png) | 40.8 s | [standing-biceps-stretch.mp4](salida/standing-biceps-stretch.mp4) | ⬜ | ⬜ | 2026-10-13 |  |
 | 13 | Supine Abdominal Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
 | 14 | Wrist Extensor Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
 | 15 | Assault Bike | Assault bike | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |

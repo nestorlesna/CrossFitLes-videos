@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Standing Biceps Stretch: abrí el pecho y estirá bíceps y hombros en treinta segundos."
+    },
+    {
+      "id": "02",
+      "text": "Parate derecho, con los pies al ancho de la cadera y los hombros relajados."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Llevá los brazos atrás y entrelazá los dedos, o dejá las palmas mirando adelante."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Elevá un poco los brazos, hacia arriba y atrás, abriendo el pecho."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Mantené los hombros lejos de las orejas y respirá profundo."
+    },
+    {
+      "id": "06",
+      "text": "Claves: torso erguido y hombros abajo, relajados. La tensión la sentís adelante del brazo y en el pecho."
+    },
+    {
+      "id": "07",
+      "text": "Sostené treinta segundos, respirando profundo. Ideal para la vuelta a la calma."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

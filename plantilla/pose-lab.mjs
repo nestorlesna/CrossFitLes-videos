@@ -6,7 +6,7 @@ import { spawnSync } from "node:child_process";
 import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { buildIndex } from "./build-index.mjs";
+import { buildIndex, collectShots } from "./build-index.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const [slug, only] = process.argv.slice(2);
@@ -26,5 +26,6 @@ writeFileSync(join(LAB, "exercise.json"), JSON.stringify(lab));
 const b = buildIndex(LAB);
 rmSync(join(LAB, "snapshots"), { recursive: true, force: true });
 const at = b.frames.map((f) => (f.start + 1.2).toFixed(2)).join(",");
-spawnSync(`npx hyperframes snapshot . --at ${at} --no-end --describe false`, { cwd: LAB, shell: true, stdio: "inherit" });
+spawnSync(`npx --prefer-offline hyperframes snapshot . --at ${at} --no-end --describe false`, { cwd: LAB, shell: true, stdio: "inherit" });
+collectShots(LAB);
 console.log(`· ${names.length} poses → videos/_poselab/snapshots/contact-sheet.jpg`);

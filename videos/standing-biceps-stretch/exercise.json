@@ -1,0 +1,288 @@
+{
+  "slug": "standing-biceps-stretch",
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · VUELTA A LA CALMA",
+      "head": [
+        "BICEPS",
+        "STRETCH"
+      ],
+      "vo": "Standing Biceps Stretch: abrí el pecho y estirá bíceps y hombros en treinta segundos.",
+      "moves": [
+        {
+          "to": "ARMS_BACK",
+          "at": 1.0,
+          "dur": 1.1
+        },
+        {
+          "to": "LIFT",
+          "at": 2.3,
+          "dur": 1.2
+        }
+      ]
+    },
+    {
+      "min": 4.6,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE"
+      ],
+      "sub": "Hombros relajados",
+      "stance": true,
+      "vo": "Parate derecho, con los pies al ancho de la cadera y los hombros relajados.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BRAZOS",
+        "ATRÁS"
+      ],
+      "sub": "Entrelazá los dedos",
+      "vo": "Paso uno. Llevá los brazos atrás y entrelazá los dedos, o dejá las palmas mirando adelante.",
+      "moves": [
+        {
+          "to": "ARMS_BACK",
+          "at": 0.5,
+          "dur": 1.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            280,
+            1065
+          ],
+          "r": 44,
+          "at": 2.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            260,
+            975
+          ],
+          "text": "DEDOS JUNTOS",
+          "anchor": "middle",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ELEVÁ",
+        "LOS BRAZOS"
+      ],
+      "sub": "Arriba y atrás",
+      "vo": "Paso dos. Elevá un poco los brazos, hacia arriba y atrás, abriendo el pecho.",
+      "moves": [
+        {
+          "to": "LIFT",
+          "at": 0.5,
+          "dur": 1.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            300,
+            1130
+          ],
+          "to": [
+            190,
+            1060
+          ],
+          "at": 0.6,
+          "dur": 1.4,
+          "bend": [
+            -10,
+            40
+          ]
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "LIFT.S",
+            "dx": 120,
+            "dy": 40
+          },
+          "text": "PECHO ABIERTO",
+          "anchor": "start",
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "HOMBROS",
+        "ABAJO"
+      ],
+      "sub": "Respirá profundo",
+      "vo": "Paso tres. Mantené los hombros lejos de las orejas y respirá profundo.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "LIFT",
+              1.8
+            ],
+            [
+              "ARMS_BACK",
+              1.8
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": {
+            "j": "LIFT.S",
+            "dx": 90,
+            "dy": -150
+          },
+          "to": {
+            "j": "LIFT.S",
+            "dx": 90,
+            "dy": -40
+          },
+          "at": 0.8,
+          "dur": 0.9
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "LIFT.S",
+            "dx": 140,
+            "dy": -120
+          },
+          "text": "LEJOS DE LAS OREJAS",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Torso erguido",
+        "Hombros abajo",
+        "Pecho abierto",
+        "Respirá profundo"
+      ],
+      "vo": "Claves: torso erguido y hombros abajo, relajados. La tensión la sentís adelante del brazo y en el pecho.",
+      "moves": [
+        {
+          "to": "LIFT",
+          "at": 0.3,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "Respirando profundo",
+      "vo": "Sostené treinta segundos, respirando profundo. Ideal para la vuelta a la calma.",
+      "moves": [
+        {
+          "to": "LIFT",
+          "at": 0.5,
+          "dur": 1.2
+        }
+      ]
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 6,
+      "fa": 6
+    },
+    "ARMS_BACK": {
+      "s": 0,
+      "t": 0,
+      "b": -2,
+      "hd": -2,
+      "ua": -32,
+      "fa": 0,
+      "ua2": -32,
+      "fa2": 0
+    },
+    "LIFT": {
+      "s": 0,
+      "t": 0,
+      "b": -3,
+      "hd": -4,
+      "ua": -55,
+      "fa": 0,
+      "ua2": -55,
+      "fa2": 0
+    }
+  },
+  "initialPose": "STAND",
+  "name": "Standing Biceps Stretch",
+  "revisado": false,
+  "notas": "",
+  "category": "CROSSFIT · VUELTA A LA CALMA",
+  "tags": [
+    "Bíceps",
+    "Hombro",
+    "Pecho"
+  ],
+  "descripcion": "De pie, llevar ambos brazos hacia atrás y entrelazar los dedos (o simplemente llevar los brazos hacia atrás con las palmas mirando hacia adelante). Elevar levemente los brazos hacia arriba y hacia atrás, abriendo el pecho y estirando los bíceps.",
+  "music": true,
+  "musicVolume": 0.18,
+  "miniatura": {
+    "pose": "LIFT",
+    "grip": 0
+  },
+  "youtube": {
+    "titulo": "Standing Biceps Stretch 💪 Estirá bíceps y abrí el pecho paso a paso | CrossFit",
+    "tags": [
+      "standing biceps stretch",
+      "estiramiento de bíceps",
+      "estiramiento de pecho",
+      "abrir el pecho",
+      "estiramiento de hombros",
+      "bíceps",
+      "vuelta a la calma",
+      "crossfit",
+      "estiramientos",
+      "postura",
+      "movilidad de hombro"
+    ],
+    "descripcion": "💪 STANDING BICEPS STRETCH — Estirá bíceps y hombros y abrí el pecho\n\n¿Muchas dominadas, remos o curls y los brazos no se te estiran? ¿Hombros hacia adelante todo el día? En treinta segundos abrís el pecho y soltás los bíceps. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate derecho, con los pies al ancho de la cadera y los hombros relajados.\n2️⃣ Llevá los brazos atrás y entrelazá los dedos, o dejá las palmas mirando adelante.\n3️⃣ Elevá un poco los brazos, hacia arriba y atrás, abriendo el pecho.\n4️⃣ Mantené los hombros lejos de las orejas y respirá profundo.\n\n✅ CLAVES DE TÉCNICA\n• Torso erguido, sin inclinarte hacia adelante\n• Hombros abajo y relajados, lejos de las orejas\n• Dedos entrelazados atrás (o palmas mirando adelante)\n• Elevá los brazos apenas, hacia arriba y atrás\n• La tensión se siente adelante del brazo y en el pecho\n• Respirá profundo durante todo el estiramiento\n\n🎯 QUÉ TRABAJA\nBíceps braquial · Deltoides anterior · Pectoral mayor\n\n⏱️ CUÁNTO\n30 segundos. Ideal en la vuelta a la calma, después de dominadas, remo o trabajo de tirón.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #VueltaALaCalma #BicepsStretch #Biceps #Entrenamiento"
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "slug": "cobra-pose",
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · VUELTA A LA CALMA",
+      "head": [
+        "COBRA",
+        "POSE"
+      ],
+      "vo": "Cobra Pose: abrí el pecho y soltá los abdominales después del WOD.",
+      "moves": [
+        {
+          "to": "BABY",
+          "at": 1.0,
+          "dur": 1.2
+        },
+        {
+          "to": "COBRA",
+          "at": 2.3,
+          "dur": 1.4
+        }
+      ]
+    },
+    {
+      "min": 4.6,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BOCA",
+        "ABAJO"
+      ],
+      "sub": "Manos bajo los hombros",
+      "vo": "Acostate boca abajo, con las piernas estiradas y las manos apoyadas debajo de los hombros.",
+      "moves": [
+        {
+          "cut": "PRONE",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "PRONE.W",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 44,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            560,
+            1300
+          ],
+          "text": "MANOS BAJO LOS HOMBROS",
+          "anchor": "middle",
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "EMPUJÁ",
+        "EL PISO"
+      ],
+      "sub": "Elevá el pecho",
+      "vo": "Paso uno. Empujá el piso y elevá el pecho despacio, con los codos cerca del cuerpo.",
+      "moves": [
+        {
+          "to": "BABY",
+          "at": 0.6,
+          "dur": 1.4
+        },
+        {
+          "to": "COBRA",
+          "at": 2.2,
+          "dur": 1.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": {
+            "j": "PRONE.N",
+            "dx": 40,
+            "dy": -90
+          },
+          "to": {
+            "j": "COBRA.N",
+            "dx": 60,
+            "dy": -120
+          },
+          "at": 0.7,
+          "dur": 2.6,
+          "bend": [
+            60,
+            30
+          ]
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "COBRA.E",
+            "dx": -50,
+            "dy": -110
+          },
+          "text": "CODOS CERCA",
+          "anchor": "end",
+          "at": 3.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "CADERA",
+        "AL PISO"
+      ],
+      "sub": "Glúteos relajados",
+      "vo": "Paso dos. La cadera y las piernas quedan apoyadas en el piso. No aprietes los glúteos.",
+      "moves": [
+        {
+          "to": "COBRA",
+          "at": 0.2,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "COBRA.H",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "COBRA.H",
+            "dx": -40,
+            "dy": -150
+          },
+          "text": "CADERA ABAJO",
+          "anchor": "end",
+          "at": 1.4
+        },
+        {
+          "type": "line",
+          "from": [
+            120,
+            1500
+          ],
+          "to": [
+            440,
+            1500
+          ],
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "HOMBROS",
+        "ABAJO"
+      ],
+      "sub": "Lejos de las orejas",
+      "vo": "Paso tres. Alejá los hombros de las orejas, alargá el cuello y respirá.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "COBRA_IN",
+              1.6
+            ],
+            [
+              "COBRA",
+              1.6
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": {
+            "j": "COBRA.S",
+            "dx": -70,
+            "dy": -170
+          },
+          "to": {
+            "j": "COBRA.S",
+            "dx": -70,
+            "dy": -60
+          },
+          "at": 0.8,
+          "dur": 0.9
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "COBRA.S",
+            "dx": -110,
+            "dy": -230
+          },
+          "text": "LEJOS DE LAS OREJAS",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Codos cerca del cuerpo",
+        "Cadera en el piso",
+        "Glúteos relajados",
+        "Baby Cobra también vale"
+      ],
+      "vo": "Claves: codos cerca, cadera en el piso y glúteos sueltos. Si no estirás del todo los brazos, quedate en Baby Cobra.",
+      "moves": [
+        {
+          "to": "COBRA",
+          "at": 0.3,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "Respirando profundo",
+      "vo": "Sostené treinta segundos, respirando profundo. Ideal para la vuelta a la calma.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "COBRA_IN",
+              1.6
+            ],
+            [
+              "COBRA",
+              1.6
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "poses": {
+    "PRONE": {
+      "hip": [
+        -30,
+        -8
+      ],
+      "s": 90,
+      "t": 90,
+      "s2": 90,
+      "t2": 90,
+      "ft": 175,
+      "ft2": 175,
+      "b": 92,
+      "hd": 72,
+      "g": 1,
+      "hx": 200,
+      "hy": 15,
+      "ed": -1
+    },
+    "BABY": {
+      "hip": [
+        -30,
+        -8
+      ],
+      "s": 90,
+      "t": 90,
+      "s2": 90,
+      "t2": 90,
+      "ft": 175,
+      "ft2": 175,
+      "b": 70,
+      "hd": 50,
+      "g": 1,
+      "hx": 215,
+      "hy": 15,
+      "ed": -1
+    },
+    "COBRA": {
+      "hip": [
+        -30,
+        -8
+      ],
+      "s": 90,
+      "t": 90,
+      "s2": 90,
+      "t2": 90,
+      "ft": 175,
+      "ft2": 175,
+      "b": 46,
+      "hd": 22,
+      "g": 1,
+      "hx": 165,
+      "hy": 15,
+      "ed": -1
+    },
+    "COBRA_IN": {
+      "hip": [
+        -30,
+        -8
+      ],
+      "s": 90,
+      "t": 90,
+      "s2": 90,
+      "t2": 90,
+      "ft": 175,
+      "ft2": 175,
+      "b": 42,
+      "hd": 18,
+      "g": 1,
+      "hx": 165,
+      "hy": 15,
+      "ed": -1
+    }
+  },
+  "rig": {
+    "x": 520,
+    "y": 1504,
+    "scale": 0.82
+  },
+  "initialPose": "PRONE",
+  "name": "Cobra Pose",
+  "revisado": false,
+  "notas": "",
+  "category": "CROSSFIT · VUELTA A LA CALMA",
+  "tags": [
+    "Abdomen",
+    "Pecho",
+    "Dorsal"
+  ],
+  "descripcion": "Acostado boca abajo con las manos apoyadas bajo los hombros, empujar contra el suelo para elevar el pecho mientras los codos permanecen semi-extendidos o completamente extendidos. Las caderas y piernas permanecen en el suelo.",
+  "music": true,
+  "musicVolume": 0.18,
+  "miniatura": {
+    "pose": "COBRA",
+    "grip": 1,
+    "zoom": 1.15,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Cobra Pose 🐍 Abrí el pecho y soltá la espalda paso a paso | CrossFit",
+    "tags": [
+      "cobra pose",
+      "postura de la cobra",
+      "bhujangasana",
+      "estiramiento de abdominales",
+      "estiramiento de pecho",
+      "baby cobra",
+      "vuelta a la calma",
+      "crossfit",
+      "estiramientos",
+      "yoga para crossfit",
+      "movilidad de columna",
+      "dorsal"
+    ],
+    "descripcion": "🐍 COBRA POSE — Abrí el pecho y estirá abdominales en la vuelta a la calma\n\n¿Terminás el WOD todo cerrado, con los abdominales duros y los hombros adelante? La cobra te devuelve la postura en treinta segundos. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Acostate boca abajo, con las piernas estiradas y las manos apoyadas debajo de los hombros.\n2️⃣ Empujá el piso y elevá el pecho despacio, con los codos cerca del cuerpo.\n3️⃣ La cadera y las piernas quedan apoyadas en el piso. No aprietes los glúteos.\n4️⃣ Alejá los hombros de las orejas, alargá el cuello y respirá.\n\n✅ CLAVES DE TÉCNICA\n• Manos debajo de los hombros y codos cerca del cuerpo\n• Cadera y piernas apoyadas en el piso todo el tiempo\n• No aprietes los glúteos\n• Hombros lejos de las orejas, cuello largo\n• Si no llegás a estirar los brazos, quedate con los codos doblados (Baby Cobra): también vale\n\n🎯 QUÉ TRABAJA\nRecto abdominal · Dorsal ancho · Pectoral mayor\n\n⏱️ CUÁNTO\n30 segundos. Ideal en la vuelta a la calma, después de trabajo de core o de sentadillas.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés molestias en la zona lumbar, quedate en Baby Cobra y subí solo hasta donde no duela.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #VueltaALaCalma #CobraPose #Abdominales #Entrenamiento"
+  }
+}

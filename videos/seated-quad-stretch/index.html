@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      /* Coral preset (frame.md): cream canvas, coral accent, Bebas Neue display + Inter body. */
+      :root { --coral: #E85D5D; --coral-dark: #D44A4A; --cream: #F5F0E8; --cream-dark: #E8E0D4; --ink: #1A1A1A; --gray: #5E5E5E; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--cream); }
+      #root { width: 100%; height: 100%; position: relative; overflow: hidden; background: var(--cream); font-family: "Inter", sans-serif; color: var(--ink); }
+      .clip { position: absolute; }
+      #bg { inset: 0; background: var(--cream); }
+      #hatch { position: absolute; left: 140px; top: 760px; width: 800px; height: 800px; border-radius: 50%;
+        background: repeating-linear-gradient(45deg, rgba(232,93,93,0.16) 0 6px, transparent 6px 26px); }
+      #floor { position: absolute; left: 60px; right: 60px; top: 1532px; height: 6px; background: var(--ink); }
+      #floor-shadow { position: absolute; left: 330px; top: 1514px; width: 360px; height: 30px; border-radius: 50%; background: rgba(26,26,26,0.10); }
+      #stage { inset: 0; }
+      #stage svg { position: absolute; inset: 0; width: 1080px; height: 1920px; overflow: visible; }
+      .numeral { right: 40px; top: 560px; width: 520px; height: 760px; }
+      .numeral .inner { font-family: "Bebas Neue", sans-serif; font-size: 820px; line-height: 760px; color: var(--cream-dark); text-align: right; transform-origin: 80% 50%; }
+      #topbar { left: 70px; top: 70px; width: 940px; height: 40px; }
+      #topbar .inner { display: flex; justify-content: space-between; font-weight: 700; font-size: 24px; letter-spacing: 5px; color: var(--gray); }
+      #topbar .inner b { color: var(--coral); font-weight: 800; }
+      .scene-text { left: 70px; top: 150px; width: 940px; height: 600px; }
+      .badge { display: inline-block; background: var(--ink); color: var(--cream); font-weight: 800; font-size: 30px; letter-spacing: 5px; padding: 14px 26px; }
+      .headline { margin-top: 26px; font-family: "Bebas Neue", sans-serif; font-weight: 400; font-size: 156px; line-height: 0.9; letter-spacing: 2px; color: var(--ink); }
+      .headline .hl { display: block; }
+      .headline.hero { font-size: 176px; margin-top: 28px; }
+      .headline.hero .hl:last-child { color: var(--coral); }
+      .subline { margin-top: 26px; font-size: 44px; font-weight: 600; color: var(--coral-dark); }
+      .tags { margin-top: 26px; display: flex; gap: 18px; flex-wrap: wrap; }
+      .chip-tag { display: block; border: 4px solid var(--ink); font-weight: 700; font-size: 32px; padding: 10px 22px; background: #fff; }
+      .keys { list-style: none; margin-top: 30px; display: flex; flex-direction: column; gap: 22px; }
+      .keys li { display: flex; align-items: center; gap: 24px; font-size: 50px; font-weight: 700; }
+      .keys .tick { display: block; width: 62px; height: 62px; background: var(--coral); padding: 10px; flex: none; }
+      .keys .tick svg { display: block; width: 42px; height: 42px; }
+      .subtitle { left: 40px; top: 1600px; width: 1000px; height: 220px; }
+      .subtitle .inner { background: var(--ink); border-left: 12px solid var(--coral); padding: 26px 34px; }
+      .subtitle p { color: var(--cream); font-size: 40px; font-weight: 600; line-height: 1.32; }
+      #progress { left: 40px; top: 1858px; width: 1000px; height: 12px; background: var(--cream-dark); }
+      #progress-fill { width: 100%; height: 100%; background: var(--coral); transform-origin: 0 50%; }
+      .feetcard { position: absolute; left: 720px; top: 820px; width: 300px; height: 420px; background: #fff; border: 4px solid var(--ink); padding: 22px; }
+      .feetcard .lbl { font-weight: 800; font-size: 22px; letter-spacing: 3px; color: var(--gray); }
+      .feetcard svg { display: block; margin-top: 16px; width: 252px; height: 300px; }
+      .hipwidth { transform-origin: 50% 50%; }
+      .chips { position: absolute; left: 790px; top: 780px; width: 250px; display: flex; flex-direction: column; gap: 16px; }
+      .chips div { background: #fff; color: var(--ink); border: 4px solid var(--ink); font-weight: 800; font-size: 28px; padding: 12px 16px; }
+      .ov-label { font-family: "Inter", sans-serif; font-weight: 800; font-size: 30px; letter-spacing: 2px; fill: var(--coral-dark); paint-order: stroke; stroke: var(--cream); stroke-width: 10px; stroke-linejoin: round; }
+
+    </style>
+  </head>
+  <body>
+    <!-- GENERADO por plantilla/build-index.mjs desde exercise.json — no editar a mano -->
+    <div id="root" data-composition-id="main" data-start="0" data-duration="40.403" data-width="1080" data-height="1920">
+      <div id="bg" class="clip" data-start="0" data-duration="40.403" data-track-index="0"><div id="hatch"></div></div>
+      <div id="num-03" class="clip numeral" data-start="9.269" data-duration="5.934" data-track-index="1"><div class="inner" data-layout-ignore aria-hidden="true">1</div></div>
+      <div id="num-04" class="clip numeral" data-start="15.203" data-duration="5.6" data-track-index="1"><div class="inner" data-layout-ignore aria-hidden="true">2</div></div>
+      <div id="num-05" class="clip numeral" data-start="20.803" data-duration="5.6" data-track-index="1"><div class="inner" data-layout-ignore aria-hidden="true">3</div></div>
+      <div id="stage" class="clip" data-start="0" data-duration="40.403" data-track-index="2">
+        <div id="floor-shadow" style="left:380px"></div>
+        <div id="floor"></div>
+        <svg viewBox="0 0 1080 1920">
+          <g id="athlete"><g id="rig" transform="translate(520,1504) scale(0.82)"></g></g>
+          <g id="overlays"></g>
+        </svg>
+      </div>
+      <div id="topbar" class="clip" data-start="4.6" data-duration="35.803" data-track-index="4"><div class="inner"><span><b>SEATED QUAD STRETCH</b></span><span>CROSSFIT · VUELTA A LA CALMA</span></div></div>
+      <div id="txt-01" class="clip scene-text" data-start="0" data-duration="4.6" data-track-index="3"><div class="inner"><div class="badge">CROSSFIT · VUELTA A LA CALMA</div><h1 class="headline hero"><span class="hl">SEATED QUAD</span><span class="hl">STRETCH</span></h1><div class="tags"><span class="chip-tag">Cuádriceps</span><span class="chip-tag">Isquios</span></div></div></div>
+      <div id="txt-02" class="clip scene-text" data-start="4.6" data-duration="4.669" data-track-index="3"><div class="inner"><div class="badge">POSICIÓN INICIAL</div><h1 class="headline"><span class="hl">SENTADO</span></h1><p class="subline">Manos al costado</p></div></div>
+      <div id="txt-03" class="clip scene-text" data-start="9.269" data-duration="5.934" data-track-index="3"><div class="inner"><div class="badge">PASO 1 / 3</div><h1 class="headline"><span class="hl">DOBLÁ UNA</span><span class="hl">PIERNA</span></h1><p class="subline">El pie junto a la cadera</p></div></div>
+      <div id="txt-04" class="clip scene-text" data-start="15.203" data-duration="5.6" data-track-index="3"><div class="inner"><div class="badge">PASO 2 / 3</div><h1 class="headline"><span class="hl">INCLINATE</span><span class="hl">ATRÁS</span></h1><p class="subline">Manos en el piso</p></div></div>
+      <div id="txt-05" class="clip scene-text" data-start="20.803" data-duration="5.6" data-track-index="3"><div class="inner"><div class="badge">PASO 3 / 3</div><h1 class="headline"><span class="hl">CAMBIÁ</span><span class="hl">DE PIERNA</span></h1><p class="subline">De a una por vez</p></div></div>
+      <div id="txt-06" class="clip scene-text" data-start="26.403" data-duration="8" data-track-index="3"><div class="inner"><div class="badge">CLAVES</div><h1 class="headline"><span class="hl">TÉCNICA</span></h1><ul id="keys-06" class="keys"><li id="key-06-0"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Una pierna por vez</span></li><li id="key-06-1"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Atrás con control</span></li><li id="key-06-2"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Toalla bajo la rodilla</span></li><li id="key-06-3"><span class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Sin dolor de rodilla</span></li></ul></div></div>
+      <div id="txt-07" class="clip scene-text" data-start="34.403" data-duration="6" data-track-index="3"><div class="inner"><div class="badge">A ENTRENAR</div><h1 class="headline"><span class="hl">30 S POR PIERNA</span></h1><p class="subline">Respirando tranquilo</p></div></div>
+      
+      <div id="sub-01" class="clip subtitle" data-start="0" data-duration="4.6" data-track-index="5"><div class="inner"><p>Seated Quad Stretch: estirá el cuádriceps sin levantarte del piso.</p></div></div>
+      <div id="sub-02" class="clip subtitle" data-start="4.6" data-duration="4.669" data-track-index="5"><div class="inner"><p>Sentate en el piso con las piernas estiradas y las manos apoyadas al costado.</p></div></div>
+      <div id="sub-03" class="clip subtitle" data-start="9.269" data-duration="5.934" data-track-index="5"><div class="inner"><p>Paso uno. Doblá una pierna hacia atrás y dejá el pie al costado de la cadera. La otra queda estirada.</p></div></div>
+      <div id="sub-04" class="clip subtitle" data-start="15.203" data-duration="5.6" data-track-index="5"><div class="inner"><p>Paso dos. Apoyá las manos atrás e inclinate despacio hasta sentir el estiramiento en el muslo.</p></div></div>
+      <div id="sub-05" class="clip subtitle" data-start="20.803" data-duration="5.6" data-track-index="5"><div class="inner"><p>Paso tres. Sostené, volvé despacio y repetí con la otra pierna.</p></div></div>
+      <div id="sub-06" class="clip subtitle" data-start="26.403" data-duration="8" data-track-index="5"><div class="inner"><p>Claves: una pierna por vez y atrás con control. Si te molesta la rodilla, poné una toalla doblada debajo.</p></div></div>
+      <div id="sub-07" class="clip subtitle" data-start="34.403" data-duration="6" data-track-index="5"><div class="inner"><p>Sostené treinta segundos con cada pierna. Ideal para la vuelta a la calma.</p></div></div>
+      <div id="progress" class="clip" data-start="0" data-duration="40.403" data-track-index="6"><div id="progress-fill"></div></div>
+      <audio id="vo-01" src="assets/voice/01.wav" data-start="0.25" data-duration="3.251" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-02" src="assets/voice/02.wav" data-start="4.85" data-duration="3.669" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-03" src="assets/voice/03.wav" data-start="9.519" data-duration="4.934" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-04" src="assets/voice/04.wav" data-start="15.453" data-duration="4.586" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-05" src="assets/voice/05.wav" data-start="21.053" data-duration="3.634" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-06" src="assets/voice/06.wav" data-start="26.653" data-duration="5.341" data-track-index="10" data-volume="1"></audio>
+      <audio id="vo-07" src="assets/voice/07.wav" data-start="34.653" data-duration="3.599" data-track-index="10" data-volume="1"></audio>
+      <audio id="bgm" src="assets/bgm/track-long.wav" data-start="0" data-duration="40.403" data-track-index="11" data-volume="0.18" data-automation='{"version":1,"lanes":[{"target":"volume","points":[{"t":0,"v":0},{"t":1.2,"v":0.18},{"t":38.4,"v":0.18},{"t":40.403,"v":0}]}]}'></audio>
+    </div>
+    <script>
+      window.__EX_CONFIG = {"total":40.403,"rig":{"x":520,"y":1504,"scale":0.82},"props":[],"cuts":[1,4.6,9.869,23.703,24.803],"floorScroll":0,"poses":{"SEATED":{"s":-90,"t":-90,"b":0,"hd":0,"ua":6,"fa":6,"rx":370,"ry":0,"ft":-90,"hx":-140,"hy":15,"ed":1,"lr":0,"al":1,"s2":-90,"t2":-90,"ft2":-90,"g":1,"ua2":6,"fa2":6},"HERO":{"s":86,"t":-84,"b":0,"hd":0,"ua":6,"fa":6,"rx":-90.75,"ry":11.13,"ft":178,"hx":-230,"hy":15,"ed":1,"lr":0,"al":1,"s2":-90,"t2":-90,"ft2":-90,"g":1,"ua2":6,"fa2":6},"LEAN":{"s":86,"t":-84,"b":-28,"hd":-14,"ua":6,"fa":6,"rx":-90.75,"ry":11.13,"ft":178,"hx":-380,"hy":15,"ed":1,"lr":0,"al":1,"s2":-90,"t2":-90,"ft2":-90,"g":1,"ua2":6,"fa2":6}},"initialState":{"s":-90,"t":-90,"b":0,"hd":0,"ua":6,"fa":6,"rx":370,"ry":0,"ft":-90,"hx":-140,"hy":15,"ed":1,"lr":0,"al":1,"s2":-90,"t2":-90,"ft2":-90,"g":1,"ua2":6,"fa2":6},"initialPose":"SEATED","moves":[{"keys":["s","t","b","hd","ua","fa","s2","t2","ua2","fa2","rx","ry","ft","ft2","hx","hy","ed","lr","al","g"],"from":{"s":-90,"t":-90,"b":0,"hd":0,"ua":6,"fa":6,"s2":-90,"t2":-90,"ua2":6,"fa2":6,"rx":370,"ry":0,"ft":-90,"ft2":-90,"hx":-140,"hy":15,"ed":1,"lr":0,"al":1,"g":1},"to":{"s":86,"t":-84,"b":0,"hd":0,"ua":6,"fa":6,"s2":-90,"t2":-90,"ua2":6,"fa2":6,"rx":-90.75,"ry":11.13,"ft":178,"ft2":-90,"hx":-230,"hy":15,"ed":1,"lr":0,"al":1,"g":1},"t":1.2,"dur":0.04,"ease":"none"},{"keys":["s","t","b","hd","ua","fa","s2","t2","ua2","fa2","rx","ry","ft","ft2","hx","hy","ed","lr","al","g"],"from":{"s":86,"t":-84,"b":0,"hd":0,"ua":6,"fa":6,"s2":-90,"t2":-90,"ua2":6,"fa2":6,"rx":-90.75,"ry":11.13,"ft":178,"ft2":-90,"hx":-230,"hy":15,"ed":1,"lr":0,"al":1,"g":1},"to":{"s":86,"t":-84,"b":-28,"hd":-14,"ua":6,"fa":6,"s2":-90,"t2":-90,"ua2":6,"fa2":6,"rx":-90.75,"ry":11.13,"ft":178,"ft2":-90,"hx":-380,"hy":15,"ed":1,"lr":0,"al":1,"g":1},"t":2.4,"dur":1.4},{"keys":["s","t","b","hd","ua","fa","s2","t2","ua2","fa2","rx","ry","ft","ft2","hx","hy","ed","lr","al","g"],"from":{"s":86,"t":-84,"b":-28,"hd":-14,"ua":6,"fa":6,"s2":-90,"t2":-90,"ua2":6,"fa2":6,"rx":-90.75,"ry":11.13,"ft":178,"ft2":-90,"hx":-380,"hy":15,"ed":1,"lr":0,"al":1,"g":1},"to":{"s":-90,"t":-90,"b":0,"hd":0,"ua":6,"fa":6,"s2":-90,"t2":-90,"ua2":6,"fa2":6,"rx":370,"ry":0,"ft":-90,"ft2":-90,"hx":-140,"hy":15,"ed":1,"lr":0,"al":1,"g":1},"t":4.8,"dur":0.04,"ease":"none"},{"keys":["s","t","b","hd","ua","fa","s2","t2","ua2","fa2","rx","ry","ft","ft2","hx","hy","ed","lr","al","g"],"from":{"s":-90,"t":-90,"b":0,"hd":0,"ua":6,"fa":6,"s2":-90,"t2":-90,"ua2":6,"fa2":6,"rx":370,"ry":0,"ft":-90,"ft2":-90,"hx":-140,"hy":15,"ed":1,"lr":0,"al":1,"g":1},"to":{"s":86,"t":-84,"b":0,"hd":0,"ua":6,"fa":6,"s2":-90,"t2":-90,"ua2":6,"fa2":6,"rx":-90.75,"ry":11.13,"ft":178,"ft2":-90,"hx":-230,"hy":15,"ed":1,"lr":0,"al":1,"g":1},"t":10.069,"dur":0.04,"ease":"none"},{"keys":["s","t","b","hd","ua","fa","s2","t2","ua2","fa2","rx","ry","ft","ft2","hx","hy","ed","lr","al","g"],"from":{"s":86,"t":-84,"b":0,"hd":0,"ua":6,"fa":6,"s2":-90,"t2":-90,"ua2":6,"fa2":6,"rx":-90.75,"ry":11.13,"ft":178,"ft2":-90,"hx":-230,"hy":15,"ed":1,"lr":0,"al":1,"g":1},"to":{"s":86,"t":-84,"b":-28,"hd":-14,"ua":6,"fa":6,"s2":-90,"t2":-90,"ua2":6,"fa2":6,"rx":-90.75,"ry":11.13,"ft":178,"ft2":-90,"hx":-380,"hy":15,"ed":1,"lr":0,"al":1,"g":1},"t":15.803,"dur":2.2},{"keys":["s","t","b","hd","ua","fa","s2","t2","ua2","fa2","rx","ry","ft","ft2","hx","hy","ed","lr","al","g"],"from":{"s":86,"t":-84,"b":-28,"hd":-14,"ua":6,"fa":6,"s2":-90,"t2":-90,"ua2":6,"fa2":6,"rx":-90.75,"ry":11.13,"ft":178,"ft2":-90,"hx":-380,"hy":15,"ed":1,"lr":0,"al":1,"g":1},"to":{"s":86,"t":-84,"b":0,"hd":0,"ua":6,"fa":6,"s2":-90,"t2":-90,"ua2":6,"fa2":6,"rx":-90.75,"ry":11.13,"ft":178,"ft2":-90,"hx":-230,"hy":15,"ed":1,"lr":0,"al":1,"g":1},"t":22.003,"dur":1.4},{"keys":["s","t","b","hd","ua","fa","s2","t2","ua2","fa2","rx","ry","ft","ft2","hx","hy","ed","lr","al","g"],"from":{"s":86,"t":-84,"b":0,"hd":0,"ua":6,"fa":6,"s2":-90,"t2":-90,"ua2":6,"fa2":6,"rx":-90.75,"ry":11.13,"ft":178,"ft2":-90,"hx":-230,"hy":15,"ed":1,"lr":0,"al":1,"g":1},"to":{"s":-90,"t":-90,"b":0,"hd":0,"ua":6,"fa":6,"s2":-90,"t2":-90,"ua2":6,"fa2":6,"rx":370,"ry":0,"ft":-90,"ft2":-90,"hx":-140,"hy":15,"ed":1,"lr":0,"al":1,"g":1},"t":23.903,"dur":0.04,"ease":"none"},{"keys":["s","t","b","hd","ua","fa","s2","t2","ua2","fa2","rx","ry","ft","ft2","hx","hy","ed","lr","al","g"],"from":{"s":-90,"t":-90,"b":0,"hd":0,"ua":6,"fa":6,"s2":-90,"t2":-90,"ua2":6,"fa2":6,"rx":370,"ry":0,"ft":-90,"ft2":-90,"hx":-140,"hy":15,"ed":1,"lr":0,"al":1,"g":1},"to":{"s":86,"t":-84,"b":0,"hd":0,"ua":6,"fa":6,"s2":-90,"t2":-90,"ua2":6,"fa2":6,"rx":-90.75,"ry":11.13,"ft":178,"ft2":-90,"hx":-230,"hy":15,"ed":1,"lr":0,"al":1,"g":1},"t":25.003,"dur":0.04,"ease":"none"},{"keys":["s","t","b","hd","ua","fa","s2","t2","ua2","fa2","rx","ry","ft","ft2","hx","hy","ed","lr","al","g"],"from":{"s":86,"t":-84,"b":0,"hd":0,"ua":6,"fa":6,"s2":-90,"t2":-90,"ua2":6,"fa2":6,"rx":-90.75,"ry":11.13,"ft":178,"ft2":-90,"hx":-230,"hy":15,"ed":1,"lr":0,"al":1,"g":1},"to":{"s":86,"t":-84,"b":-28,"hd":-14,"ua":6,"fa":6,"s2":-90,"t2":-90,"ua2":6,"fa2":6,"rx":-90.75,"ry":11.13,"ft":178,"ft2":-90,"hx":-380,"hy":15,"ed":1,"lr":0,"al":1,"g":1},"t":26.703,"dur":1},{"keys":["s","t","b","hd","ua","fa","s2","t2","ua2","fa2","rx","ry","ft","ft2","hx","hy","ed","lr","al","g"],"from":{"s":86,"t":-84,"b":-28,"hd":-14,"ua":6,"fa":6,"s2":-90,"t2":-90,"ua2":6,"fa2":6,"rx":-90.75,"ry":11.13,"ft":178,"ft2":-90,"hx":-380,"hy":15,"ed":1,"lr":0,"al":1,"g":1},"to":{"s":86,"t":-84,"b":-28,"hd":-14,"ua":6,"fa":6,"s2":-90,"t2":-90,"ua2":6,"fa2":6,"rx":-90.75,"ry":11.13,"ft":178,"ft2":-90,"hx":-380,"hy":15,"ed":1,"lr":0,"al":1,"g":1},"t":34.903,"dur":1.2}],"overlays":[{"type":"ring","pos":{"j":"HERO.A","dx":0,"dy":0},"r":54,"at":1.6,"t":10.869,"end":14.853},{"type":"label","pos":[250,1150],"text":"PIE AL COSTADO","anchor":"middle","at":2.2,"t":11.469,"end":14.853},{"type":"label","pos":[840,1380],"text":"LA OTRA, ESTIRADA","anchor":"middle","at":3.4,"t":12.669,"end":14.853},{"type":"arrow","from":{"j":"HERO.N","dx":-20,"dy":-160},"to":{"j":"LEAN.N","dx":-60,"dy":-170},"at":0.7,"dur":2,"bend":[-40,-40],"t":15.903,"end":20.453},{"type":"line","from":{"j":"LEAN.H","dx":30,"dy":-60},"to":{"j":"LEAN.K","dx":-20,"dy":-60},"solid":true,"at":3,"t":18.203,"end":20.453},{"type":"label","pos":{"j":"LEAN.K","dx":-40,"dy":-130},"text":"CUÁDRICEPS","anchor":"middle","at":3.2,"t":18.403,"end":20.453},{"type":"label","pos":[540,1300],"text":"OTRA PIERNA","anchor":"middle","at":4,"t":24.803,"end":26.053}],"frames":[{"id":"01","start":0,"dur":4.6,"kind":"hook","numeral":null,"stance":false},{"id":"02","start":4.6,"dur":4.669,"kind":"step","numeral":null,"stance":false},{"id":"03","start":9.269,"dur":5.934,"kind":"step","numeral":"1","stance":false},{"id":"04","start":15.203,"dur":5.6,"kind":"step","numeral":"2","stance":false},{"id":"05","start":20.803,"dur":5.6,"kind":"step","numeral":"3","stance":false},{"id":"06","start":26.403,"dur":8,"kind":"keys","numeral":null,"stance":false,"keyTimes":[26.403,26.403,26.403,26.403]},{"id":"07","start":34.403,"dur":6,"kind":"reps","numeral":null,"stance":false}],"colors":null};
+/* Exercise video runtime — articulated flat athlete rig + data-driven timeline.
+ * window.__EX_CONFIG is injected by plantilla/build-index.mjs (all times absolute, seconds).
+ * Rig space: unscaled px, near ankle at (0,0) + root offset (rx, ry); y grows downward.
+ * Angles in degrees. Segments (s shin, t thigh, b torso, hd head/neck) measured from vertical-UP,
+ * + = toward the facing direction (right). Arms (ua upper, fa elbow) measured from vertical-DOWN.
+ * Far-side limbs use s2/t2/ua2/fa2. ft/ft2 rotate the feet. g blends free arms → hands on (hx, hy).
+ * lr: leg roll (deg) — both legs fall sideways away from the camera; the hip→knee→ankle drop is foreshortened by cos(lr)
+ * (supine twist). al: free-arm length factor (1 = full; ~0.2 = arm pointing at the camera, e.g. arms in T lying down).
+ * ed: elbow side for the grip IK (+1 bows forward, -1 bows back — rowing, pulls). C.props draws implements
+ * (see PROPS below); C.cuts hides the athlete briefly to jump between unrelated poses; C.floorScroll moves the floor.
+ */
+(function () {
+  const C = window.__EX_CONFIG;
+  const NS = "http://www.w3.org/2000/svg";
+  const $ = (id) => document.getElementById(id);
+
+  const L = { shin: 230, thigh: 240, torso: 280, neck: 32, upper: 172, fore: 160 };
+  const FAR = { dx: -22, dy: -4 };
+  const KEYS = ["s", "t", "b", "hd", "ua", "fa", "s2", "t2", "ua2", "fa2", "rx", "ry", "ft", "ft2", "hx", "hy", "ed", "g", "lr", "al"];
+  const P = C.poses;
+
+  const rad = (d) => (d * Math.PI) / 180;
+  const up = (a, len) => ({ x: Math.sin(rad(a)) * len, y: -Math.cos(rad(a)) * len });
+  const down = (a, len) => ({ x: Math.sin(rad(a)) * len, y: Math.cos(rad(a)) * len });
+  const add = (p, q) => ({ x: p.x + q.x, y: p.y + q.y });
+  const lerp = (p, q, k) => ({ x: p.x + (q.x - p.x) * k, y: p.y + (q.y - p.y) * k });
+
+  function ik(S, T, l1, l2, side) {
+    const dx = T.x - S.x, dy = T.y - S.y;
+    const d = Math.max(1, Math.min(Math.hypot(dx, dy), l1 + l2 - 0.5));
+    const base = Math.atan2(dy, dx);
+    const a = Math.acos(Math.max(-1, Math.min(1, (l1 * l1 + d * d - l2 * l2) / (2 * l1 * d))));
+    const pick = (sg) => ({ x: S.x + Math.cos(base + sg * a) * l1, y: S.y + Math.sin(base + sg * a) * l1 });
+    const e1 = pick(1), e2 = pick(-1);
+    const E = (e1.x > e2.x) === (side >= 0) ? e1 : e2; // elbow bows forward (side ≥ 0) or back
+    return { E, W: { x: S.x + Math.cos(base) * d, y: S.y + Math.sin(base) * d } };
+  }
+
+  function solve(st, farSide) {
+    const off = farSide ? FAR : { dx: 0, dy: 0 };
+    const s = farSide ? st.s2 : st.s, t = farSide ? st.t2 : st.t;
+    const ua = farSide ? st.ua2 : st.ua, fa = farSide ? st.fa2 : st.fa;
+    // Torso/shoulder come from the NEAR leg chain so both sides share one hip.
+    const A0 = { x: st.rx, y: st.ry };
+    const K0 = add(A0, up(st.s, L.shin));
+    const H0 = add(K0, up(st.t, L.thigh));
+    const H = add(H0, { x: off.dx, y: off.dy });
+    const roll = Math.cos(rad(st.lr || 0)), fold = (p) => ({ x: p.x, y: H.y + (p.y - H.y) * roll });
+    const K = fold(add(H, up(t + 180, L.thigh)));
+    const A = fold(add(add(H, up(t + 180, L.thigh)), up(s + 180, L.shin)));
+    const S = add(H, up(st.b, L.torso));
+    const N = add(S, up(st.hd, L.neck));
+    const al = st.al ?? 1;
+    const fE = add(S, down(ua, L.upper * al));
+    const fW = add(fE, down(ua + fa, L.fore * al));
+    const g = ik(S, { x: st.hx + off.dx, y: st.hy + off.dy }, L.upper, L.fore, st.ed ?? 1);
+    return { A, K, H, S, N, E: lerp(fE, g.E, st.g), W: lerp(fW, g.W, st.g) };
+  }
+
+  // ── SVG build ───────────────────────────────────────────────────────────────
+  const rig = $("rig");
+  function el(tag, attrs, parent) {
+    const n = document.createElementNS(NS, tag);
+    for (const k in attrs) n.setAttribute(k, attrs[k]);
+    (parent || rig).appendChild(n);
+    return n;
+  }
+  const line = (color, w) => el("line", { stroke: color, "stroke-width": w, "stroke-linecap": "round" });
+  const COL = Object.assign({
+    skin: "#E8B383", skinFar: "#D29A68", shirt: "#2FB3A6", shorts: "#3F3F9A", shortsFar: "#31317E",
+    shoe: "#3B3FA3", shoeFar: "#2C2F80", sole: "#F4F4F4", hair: "#6B3B1F",
+  }, C.colors || {});
+  const SHOE = "M -40 34 L -40 2 C -40 -14 -24 -18 -10 -16 L 20 -12 C 46 -6 80 2 92 16 L 94 34 Z";
+  function shoe(fill) {
+    const g = el("g", {});
+    el("path", { d: SHOE, fill }, g);
+    el("rect", { x: -42, y: 24, width: 138, height: 12, rx: 5, fill: COL.sole }, g);
+    for (let i = 0; i < 3; i++)
+      el("line", { x1: 4 + i * 14, y1: -12 + i * 3, x2: 10 + i * 14, y2: -2 + i * 3, stroke: COL.sole, "stroke-width": 4, "stroke-linecap": "round" }, g);
+    return g;
+  }
+
+  // ── PROPS (implements) — drawn in rig space; parts may follow joints every frame ──
+  // rower: { type: "rower", seatY, railY, foot: [x, y], fly: [x, y] }  seat follows the hip, chain + handle follow the hands.
+  const propBack = el("g", {}), propUpdates = [];
+  const METAL = "#4A4F5C", METAL_D = "#2E323B", ACCENT = "#E85D5D";
+  (C.props || []).forEach((pr) => {
+    if (pr.type === "rower") {
+      const railY = pr.railY ?? -110, seatY = pr.seatY ?? -150, fly = pr.fly || [230, -175], foot = pr.foot || [0, -40];
+      const x0 = pr.railFrom ?? -860, x1 = fly[0] - 40;
+      el("rect", { x: x0 - 20, y: railY + 18, width: 40, height: 34 - railY - 18, fill: METAL_D }, propBack); // rear leg
+      el("rect", { x: x0 - 70, y: 22, width: 140, height: 14, rx: 7, fill: METAL_D }, propBack);
+      el("rect", { x: x0, y: railY, width: x1 - x0, height: 26, rx: 13, fill: METAL }, propBack); // monorail
+      el("path", { d: `M ${fly[0] - 60} ${fly[1] + 60} L ${fly[0] + 40} 34 L ${fly[0] + 150} 34 Z`, fill: METAL_D }, propBack); // front leg
+      el("rect", { x: fly[0] - 30, y: 22, width: 220, height: 14, rx: 7, fill: METAL_D }, propBack);
+      el("path", { d: `M ${foot[0] - 40} ${foot[1] + 50} L ${foot[0] + 60} ${foot[1] - 70} L ${foot[0] + 95} ${foot[1] - 45} L ${foot[0] + 10} ${foot[1] + 66} Z`, fill: METAL_D }, propBack); // footplate
+      el("line", { x1: fly[0] - 10, y1: fly[1] - 120, x2: fly[0] - 90, y2: fly[1] - 360, stroke: METAL_D, "stroke-width": 16, "stroke-linecap": "round" }, propBack); // monitor arm
+      el("rect", { x: fly[0] - 150, y: fly[1] - 430, width: 120, height: 86, rx: 10, fill: METAL_D }, propBack);
+      el("rect", { x: fly[0] - 140, y: fly[1] - 420, width: 100, height: 54, rx: 6, fill: "#9FD8D2" }, propBack);
+      el("circle", { cx: fly[0], cy: fly[1], r: 125, fill: METAL }, propBack); // flywheel housing
+      el("circle", { cx: fly[0], cy: fly[1], r: 92, fill: METAL_D }, propBack);
+      el("circle", { cx: fly[0], cy: fly[1], r: 30, fill: ACCENT }, propBack);
+      const out = { x: fly[0] - 110, y: fly[1] - 15 };
+      const chain = el("line", { stroke: METAL_D, "stroke-width": 6 }, propBack);
+      const seat = el("rect", { width: 150, height: 30, rx: 12, fill: "#1A1A1A" }, propBack);
+      const handle = el("rect", { width: 30, height: 58, rx: 12, fill: "#1A1A1A" });
+      propUpdates.push((n) => {
+        seat.setAttribute("x", f2(n.H.x - 75)); seat.setAttribute("y", f2(seatY));
+        chain.setAttribute("x1", out.x); chain.setAttribute("y1", out.y); chain.setAttribute("x2", f2(n.W.x)); chain.setAttribute("y2", f2(n.W.y));
+        handle.setAttribute("x", f2(n.W.x - 15)); handle.setAttribute("y", f2(n.W.y - 29));
+      });
+      propUpdates.handleNode = handle; // re-appended after the near arm so it sits in the hands
+    }
+  });
+
+  // Draw order: far arm, far leg, torso, near leg, neck, head, near arm.
+  const far = {
+    upper: line(COL.skinFar, 34), fore: line(COL.skinFar, 30), hand: el("circle", { r: 18, fill: COL.skinFar }),
+    shin: line(COL.skinFar, 44), thigh: line(COL.skinFar, 56), shorts: line(COL.shortsFar, 68), shoe: shoe(COL.shoeFar),
+  };
+  const hip = el("circle", { r: 46, fill: COL.shorts });
+  const torso = line(COL.shirt, 100);
+  const near = { shin: line(COL.skin, 46), thigh: line(COL.skin, 58), shorts: line(COL.shorts, 70), shoe: shoe(COL.shoe) };
+  const neck = line(COL.skin, 36);
+  const head = el("g", {});
+  el("circle", { cx: 6, cy: -52, r: 50, fill: COL.skin }, head);
+  el("path", { d: "M -44 -36 C -58 -92 -20 -120 20 -113 C 50 -108 64 -90 58 -70 C 42 -84 22 -86 8 -80 C 2 -66 -10 -60 -22 -62 C -28 -50 -32 -40 -40 -28 Z", fill: COL.hair }, head);
+  el("path", { d: "M -8 -36 C 0 -8 30 4 50 -8 C 57 -18 59 -30 56 -42 C 46 -34 36 -34 30 -42 C 22 -34 8 -32 -8 -44 Z", fill: COL.hair }, head);
+  el("circle", { cx: -6, cy: -52, r: 11, fill: COL.skinFar }, head);
+  el("path", { d: "M 54 -62 L 66 -48 L 54 -45 Z", fill: COL.skin }, head);
+  const nearArm = { upper: line(COL.skin, 36), fore: line(COL.skin, 32), hand: el("circle", { r: 19, fill: COL.skin }) };
+  if (propUpdates.handleNode) rig.insertBefore(propUpdates.handleNode, nearArm.hand);
+
+  const f2 = (v) => v.toFixed(2);
+  const setL = (n, p, q) => { n.setAttribute("x1", f2(p.x)); n.setAttribute("y1", f2(p.y)); n.setAttribute("x2", f2(q.x)); n.setAttribute("y2", f2(q.y)); };
+  const setC = (n, p) => { n.setAttribute("cx", f2(p.x)); n.setAttribute("cy", f2(p.y)); };
+  const place = (g, p, a) => g.setAttribute("transform", `translate(${f2(p.x)},${f2(p.y)}) rotate(${f2(a)})`);
+
+  const state = Object.assign({}, C.initialState);
+  function draw() {
+    const n = solve(state, false), f = solve(state, true);
+    setL(far.upper, f.S, f.E); setL(far.fore, f.E, f.W); setC(far.hand, f.W);
+    setL(far.shin, f.A, f.K); setL(far.thigh, f.K, f.H); setL(far.shorts, f.H, lerp(f.H, f.K, 0.5)); place(far.shoe, f.A, state.ft2);
+    setC(hip, n.H);
+    setL(torso, add(n.H, up(state.b, 14)), add(n.S, up(state.b, -26)));
+    setL(near.shin, n.A, n.K); setL(near.thigh, n.K, n.H); setL(near.shorts, n.H, lerp(n.H, n.K, 0.5)); place(near.shoe, n.A, state.ft);
+    setL(neck, n.S, n.N);
+    place(head, n.N, state.hd);
+    setL(nearArm.upper, n.S, n.E); setL(nearArm.fore, n.E, n.W); setC(nearArm.hand, n.W);
+    propUpdates.forEach((u) => u(n, f));
+  }
+  // Function-valued props: GSAP calls proxy.k(v) on every render (seek-safe, no callbacks).
+  const proxy = {};
+  KEYS.forEach((k) => {
+    proxy[k] = function (v) {
+      if (arguments.length === 0) return state[k];
+      state[k] = v;
+      draw();
+    };
+  });
+  draw();
+
+  // ── Overlays (technique marks) ──────────────────────────────────────────────
+  const R = C.rig;
+  const toStage = (p) => ({ x: R.x + p.x * R.scale, y: R.y + p.y * R.scale });
+  const jointCache = {};
+  function pt(ref) {
+    // ref: [x, y] stage coords, or { j: "POSE.J", dx, dy } (J ∈ A K H S N E W, near side; hands assume grip)
+    if (Array.isArray(ref)) return { x: ref[0], y: ref[1] };
+    const [pose, j] = ref.j.split(".");
+    if (!jointCache[pose]) jointCache[pose] = solve(Object.assign({ g: 1 }, P[pose]), false);
+    const p = toStage(jointCache[pose][j]);
+    return { x: p.x + (ref.dx || 0), y: p.y + (ref.dy || 0) };
+  }
+  const ov = $("overlays");
+  const tl = gsap.timeline({ paused: true });
+  const fadeIn = (node, t, from, to) =>
+    tl.fromTo(node, Object.assign({ opacity: 0 }, from || {}), Object.assign({ opacity: 1, duration: 0.45, ease: "power2.out", immediateRender: false }, to || {}), t);
+  const CORAL = "#E85D5D", INK = "#1A1A1A";
+
+  (C.overlays || []).forEach((o) => {
+    const color = o.color === "ink" ? INK : CORAL;
+    let node;
+    if (o.type === "line") {
+      const a = pt(o.from), b = pt(o.to);
+      node = el("line", { x1: a.x, y1: a.y, x2: b.x, y2: b.y, stroke: color, "stroke-width": o.width || 8, "stroke-dasharray": o.solid ? "none" : "18 14", "stroke-linecap": "round", opacity: 0 }, ov);
+      fadeIn(node, o.t);
+    } else if (o.type === "arrow") {
+      const a = pt(o.from), b = pt(o.to), bend = o.bend || [0, 0];
+      const mx = (a.x + b.x) / 2 + bend[0], my = (a.y + b.y) / 2 + bend[1];
+      node = el("g", { opacity: 0 }, ov);
+      const path = el("path", { d: `M ${a.x} ${a.y} Q ${mx} ${my} ${b.x} ${b.y}`, fill: "none", stroke: color, "stroke-width": 10, "stroke-linecap": "round", "stroke-dasharray": "1 1", pathLength: 1 }, node);
+      const ang = (Math.atan2(b.y - my, b.x - mx) * 180) / Math.PI;
+      el("path", { d: "M 0 0 L -30 -18 L -30 18 Z", fill: color, transform: `translate(${b.x},${b.y}) rotate(${ang})` }, node);
+      tl.set(node, { opacity: 1 }, o.t);
+      tl.fromTo(path, { strokeDasharray: "0 1" }, { strokeDasharray: "1 0", duration: o.dur || 1.0, ease: "power2.inOut", immediateRender: false }, o.t);
+    } else if (o.type === "ring") {
+      const c = pt(o.pos);
+      node = el("circle", { cx: c.x, cy: c.y, r: o.r || 46, fill: "none", stroke: color, "stroke-width": 8, opacity: 0 }, ov);
+      fadeIn(node, o.t, { scale: 1.6, transformOrigin: "50% 50%" }, { scale: 1 });
+    } else if (o.type === "bar") {
+      const c = pt(o.pos), w = o.w || 64, h = o.h || 12;
+      node = el("rect", { x: c.x - w / 2, y: c.y - h / 2, width: w, height: h, rx: h / 2, fill: color, opacity: 0 }, ov);
+      fadeIn(node, o.t);
+    } else if (o.type === "label") {
+      const c = pt(o.pos);
+      node = el("text", { x: c.x, y: c.y, "text-anchor": o.anchor || "start", class: "ov-label", opacity: 0 }, ov);
+      node.textContent = o.text;
+      fadeIn(node, o.t);
+    }
+    if (node && o.end != null) tl.to(node, { opacity: 0, duration: 0.3, ease: "power1.in" }, o.end);
+  });
+
+  // ── Timeline ────────────────────────────────────────────────────────────────
+  tl.set(proxy, Object.assign({}, C.initialState), 0);
+  (C.moves || []).forEach((m) => {
+    const a = {}, b = {};
+    m.keys.forEach((k) => { a[k] = m.from[k]; b[k] = m.to[k]; });
+    tl.fromTo(proxy, a, Object.assign(b, { duration: m.dur, ease: m.ease || "sine.inOut", immediateRender: false }), m.t);
+  });
+
+  // Cuts: hide the athlete, jump to the next pose (scheduled by the builder at t + 0.2), show it again.
+  (C.cuts || []).forEach((t) => {
+    tl.to("#rig", { opacity: 0, duration: 0.18, ease: "power1.in" }, t);
+    tl.to("#rig", { opacity: 1, duration: 0.25, ease: "power1.out" }, t + 0.26);
+  });
+  if (C.floorScroll) {
+    // Dashed strip under the floor line that slides left → reads as forward motion (running in place).
+    const fy = R.y + 34 * R.scale + 36;
+    const dash = el("line", { x1: 60, y1: fy, x2: 1020, y2: fy, stroke: "#1A1A1A", "stroke-width": 8, "stroke-dasharray": "50 70", opacity: 0.35 }, $("overlays"));
+    tl.fromTo(dash, { strokeDashoffset: 0 }, { strokeDashoffset: C.floorScroll * C.total, duration: C.total, ease: "none" }, 0);
+  }
+
+  const frames = C.frames, last = frames[frames.length - 1];
+  frames.forEach((f) => {
+    const inner = `#txt-${f.id} .inner`, sub = `#sub-${f.id} .inner`;
+    tl.fromTo(inner, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, f.start + 0.05);
+    tl.fromTo(sub, { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.35, ease: "power2.out" }, f.start + 0.15);
+    if (f !== last) {
+      tl.to(inner, { opacity: 0, duration: 0.3, ease: "power1.in" }, f.start + f.dur - 0.32);
+      tl.to(sub, { opacity: 0, duration: 0.25 }, f.start + f.dur - 0.28);
+    }
+    if (f.numeral) {
+      tl.fromTo(`#num-${f.id} .inner`, { opacity: 0, scale: 0.9 }, { opacity: 1, scale: 1, duration: 0.6, ease: "power2.out" }, f.start);
+      tl.to(`#num-${f.id} .inner`, { opacity: 0, duration: 0.3 }, f.start + f.dur - 0.32);
+    }
+    if (f.kind === "hook")
+      tl.fromTo(`#txt-${f.id} .chip-tag`, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4, stagger: 0.18, ease: "power2.out" }, f.start + 1.0);
+    if (f.stance) {
+      fadeIn(`#feetcard-${f.id}`, f.start + 0.5, { x: 60 }, { x: 0 });
+      tl.fromTo(`#hipwidth-${f.id}`, { scaleX: 0 }, { scaleX: 1, duration: 0.6, ease: "power2.out", immediateRender: false }, f.start + 1.2);
+      tl.to(`#feetcard-${f.id}`, { opacity: 0, duration: 0.3 }, f.start + f.dur - 0.35);
+    }
+    if (f.topview) {
+      // Tarjeta "vista de arriba" (torsión acostado): las piernas giran hacia un lado con los hombros fijos.
+      const tv = f.topview;
+      fadeIn(`#topcard-${f.id}`, f.start + 0.4, { x: 60 }, { x: 0 });
+      tl.fromTo(`#tvlegs-${f.id}`, { rotation: 0, scaleY: 0.55 }, { rotation: tv.angle, scaleY: 1, svgOrigin: "126 178", duration: tv.dur, ease: "sine.inOut", immediateRender: false }, f.start + tv.at);
+      if (tv.back != null) tl.to(`#tvlegs-${f.id}`, { rotation: -tv.angle, svgOrigin: "126 178", duration: tv.dur * 1.6, ease: "sine.inOut" }, f.start + tv.back);
+      tl.to(`#topcard-${f.id}`, { opacity: 0, duration: 0.3 }, f.start + f.dur - 0.35);
+    }
+    (f.keyTimes || []).forEach((t, i) => {
+      tl.fromTo(`#key-${f.id}-${i}`, { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.45, ease: "power3.out" }, t);
+      tl.fromTo(`#key-${f.id}-${i} .tick`, { scale: 0 }, { scale: 1, duration: 0.35, ease: "back.out(2)" }, t + 0.2);
+    });
+    if (f.keyTimes && f !== last) tl.to(`#keys-${f.id}`, { opacity: 0, duration: 0.3 }, f.start + f.dur - 0.32);
+    if (f.kind === "keys" && f.shrink !== 1) {
+      // La lista de claves ocupa hasta y≈930: el personaje se achica (apoyado en el piso) para no quedar tapado.
+      const k = f.shrink ?? 0.8, origin = `${R.x} ${R.y + 34 * R.scale}`;
+      tl.fromTo("#athlete", { scale: 1 }, { scale: k, svgOrigin: origin, duration: 0.5, ease: "power2.inOut", immediateRender: false }, f.start);
+      if (f !== last) tl.to("#athlete", { scale: 1, svgOrigin: origin, duration: 0.5, ease: "power2.inOut" }, f.start + f.dur - 0.5);
+    }
+    if (f.chips) {
+      tl.fromTo(`#chips-${f.id}`, { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.5, ease: "power2.out" }, f.start + 0.6);
+      f.chips.forEach((t, i) => {
+        tl.to(`#chip-${f.id}-${i}`, { backgroundColor: CORAL, color: "#FFFFFF", duration: 0.25 }, t);
+        if (i < f.chips.length - 1)
+          tl.to(`#chip-${f.id}-${i}`, { backgroundColor: "#FFFFFF", color: INK, duration: 0.25 }, f.chips[i + 1]);
+      });
+    }
+  });
+
+  tl.fromTo("#athlete", { opacity: 0, y: 60 }, { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" }, 0.4);
+  tl.fromTo("#hatch", { opacity: 0, scale: 0.85 }, { opacity: 1, scale: 1, duration: 1.0, ease: "power2.out" }, 0.2);
+  if (frames[1]) tl.fromTo("#topbar .inner", { opacity: 0 }, { opacity: 1, duration: 0.4 }, frames[1].start + 0.1);
+  tl.fromTo("#progress-fill", { scaleX: 0 }, { scaleX: 1, duration: C.total, ease: "none" }, 0);
+
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+})();
+
+    </script>
+  </body>
+</html>

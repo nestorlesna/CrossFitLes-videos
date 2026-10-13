@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Cobra Pose: abrí el pecho y soltá los abdominales después del WOD."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca abajo, con las piernas estiradas y las manos apoyadas debajo de los hombros."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Empujá el piso y elevá el pecho despacio, con los codos cerca del cuerpo."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. La cadera y las piernas quedan apoyadas en el piso. No aprietes los glúteos."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Alejá los hombros de las orejas, alargá el cuello y respirá."
+    },
+    {
+      "id": "06",
+      "text": "Claves: codos cerca, cadera en el piso y glúteos sueltos. Si no estirás del todo los brazos, quedate en Baby Cobra."
+    },
+    {
+      "id": "07",
+      "text": "Sostené treinta segundos, respirando profundo. Ideal para la vuelta a la calma."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

@@ -12,7 +12,7 @@ import { createHash } from "node:crypto";
 import { copyFileSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { buildIndex } from "./build-index.mjs";
+import { buildIndex, collectShots } from "./build-index.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(HERE, "..");
@@ -168,7 +168,8 @@ function miniatura(dir, slug) {
   const t = buildIndex(dir, { thumb: true });
   const shots = join(t.dir, "snapshots");
   rmSync(shots, { recursive: true, force: true });
-  const r = sh(`npx hyperframes snapshot . --at ${t.at} --no-end --describe false`, t.dir);
+  const r = sh(`npx --prefer-offline hyperframes snapshot . --at ${t.at} --no-end --describe false`, t.dir);
+  collectShots(t.dir);
   const png = existsSync(shots) && readdirSync(shots).find((f) => f.endsWith(".png"));
   if (r.status !== 0 || !png) return false;
   mkdirSync(join(ROOT, "salida"), { recursive: true });
@@ -264,7 +265,7 @@ function main() {
   const dir = join(ROOT, "videos", slug);
 
   if (!existsSync(join(dir, "hyperframes.json"))) {
-    const r = sh(`npx hyperframes init "videos/${slug}" --non-interactive --example=blank --skill=faceless-explainer`, ROOT);
+    const r = sh(`npx --prefer-offline hyperframes init "videos/${slug}" --non-interactive --example=blank --skill=faceless-explainer`, ROOT);
     if (r.status !== 0) throw new Error("hyperframes init falló");
   }
   copyFileSync(specPath, join(dir, "exercise.json"));
@@ -281,17 +282,18 @@ function main() {
   writeStatus(dir, { composicion: true, duracion: b.total });
 
   if (!has("--no-check")) {
-    const r = sh("npx hyperframes check", dir);
+    const r = sh("npx --prefer-offline hyperframes check", dir);
     writeStatus(dir, { check: r.status === 0 });
   }
   if (!has("--no-snapshot")) {
     const mids = b.frames.map((f) => (f.start + f.dur * 0.7).toFixed(2)).join(",");
-    sh(`npx hyperframes snapshot --at ${mids}`, dir);
+    sh(`npx --prefer-offline hyperframes snapshot --at ${mids}`, dir);
+    collectShots(dir);
     console.log(`· contact sheet: videos/${slug}/snapshots/contact-sheet.jpg`);
   }
   writeStatus(dir, { miniatura: miniatura(dir, slug) });
   if (has("--render")) {
-    const r = sh("npx hyperframes render --skill=faceless-explainer --quality high --output renders/video.mp4", dir);
+    const r = sh("npx --prefer-offline hyperframes render --skill=faceless-explainer --quality high --output renders/video.mp4", dir);
     if (r.status !== 0) throw new Error("render falló");
     mkdirSync(join(ROOT, "salida"), { recursive: true });
     copyFileSync(join(dir, "renders", "video.mp4"), join(ROOT, "salida", `${slug}.mp4`));

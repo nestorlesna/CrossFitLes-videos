@@ -3,7 +3,7 @@
 // buildIndex(dir, { thumb: true }) arma en cambio <project>/miniatura/index.html: la portada (escena hook) quieta,
 // con el personaje en la pose de spec.miniatura, sin subtítulo, barra de progreso ni audio → miniatura de YouTube.
 import { spawnSync } from "node:child_process";
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { copyFileSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -70,6 +70,22 @@ function expandMoves(f, frameDur) {
     } else out.push(m);
   }
   return { moves: out, cuts };
+}
+
+// hyperframes ≥ 0.8 guarda los snapshots en .hyperframes/artifacts/snapshots/<id>/ (antes: snapshots/).
+// collectShots copia la tanda más nueva a <dir>/snapshots/ para que las rutas de siempre sigan funcionando.
+export function collectShots(dir) {
+  const base = join(dir, ".hyperframes", "artifacts", "snapshots");
+  const out = join(dir, "snapshots");
+  if (!existsSync(base)) return out;
+  const runs = readdirSync(base).map((d) => join(base, d)).filter((d) => statSync(d).isDirectory());
+  if (!runs.length) return out;
+  const last = runs.sort((a, b) => statSync(b).mtimeMs - statSync(a).mtimeMs)[0];
+  if (existsSync(out) && statSync(out).mtimeMs > statSync(last).mtimeMs) return out;
+  rmSync(out, { recursive: true, force: true });
+  mkdirSync(out, { recursive: true });
+  for (const f of readdirSync(last)) copyFileSync(join(last, f), join(out, f));
+  return out;
 }
 
 export const THUMB_AT = 2.6; // instante de la miniatura: entradas de texto, tags y personaje ya completas

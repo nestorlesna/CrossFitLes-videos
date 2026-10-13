@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Overhead Triceps Stretch: soltá tríceps y hombros en treinta segundos."
+    },
+    {
+      "id": "02",
+      "text": "Parate derecho, con los pies al ancho de la cadera y el torso firme."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Llevá un brazo arriba y doblá el codo: la mano va detrás de la cabeza, como para rascarte la espalda."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Con la otra mano agarrá el codo y empujalo suave hacia abajo."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Sostené, soltá despacio y repetí con el otro brazo."
+    },
+    {
+      "id": "06",
+      "text": "Claves: torso derecho, sin inclinarte al costado. El codo apunta al techo y la otra mano solo guía, sin forzar."
+    },
+    {
+      "id": "07",
+      "text": "Sostené treinta segundos con cada brazo. Ideal para la vuelta a la calma."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "slug": "seated-forward-fold",
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · VUELTA A LA CALMA",
+      "head": [
+        "FORWARD",
+        "FOLD"
+      ],
+      "vo": "Seated Forward Fold: estirá isquios, gemelos y espalda sentado en el piso.",
+      "moves": [
+        {
+          "to": "HINGE",
+          "at": 1.0,
+          "dur": 1.2
+        },
+        {
+          "to": "FOLD",
+          "at": 2.3,
+          "dur": 1.4
+        }
+      ]
+    },
+    {
+      "min": 4.6,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "SENTADO"
+      ],
+      "sub": "Piernas juntas y estiradas",
+      "vo": "Sentate en el piso con las piernas juntas y estiradas, y la espalda derecha.",
+      "moves": [
+        {
+          "cut": "SEATED",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            700,
+            1380
+          ],
+          "text": "PIERNAS JUNTAS",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BRAZOS",
+        "ARRIBA"
+      ],
+      "sub": "Inhalá y crecé",
+      "vo": "Paso uno. Inhalá y llevá los brazos arriba, alargando la espalda.",
+      "moves": [
+        {
+          "to": "ARMS_UP",
+          "at": 0.5,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": {
+            "j": "SEATED.S",
+            "dx": 120,
+            "dy": -60
+          },
+          "to": {
+            "j": "SEATED.S",
+            "dx": 120,
+            "dy": -330
+          },
+          "at": 0.7,
+          "dur": 1.0
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "SEATED.S",
+            "dx": 160,
+            "dy": -280
+          },
+          "text": "ESPALDA LARGA",
+          "anchor": "start",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "BISAGRA",
+        "DE CADERA"
+      ],
+      "sub": "Espalda recta",
+      "vo": "Paso dos. Exhalá e inclinate hacia adelante desde la cadera, con la espalda lo más recta posible.",
+      "moves": [
+        {
+          "to": "HINGE",
+          "at": 0.5,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": {
+            "j": "ARMS_UP.N",
+            "dx": 60,
+            "dy": -40
+          },
+          "to": {
+            "j": "HINGE.N",
+            "dx": 80,
+            "dy": -110
+          },
+          "at": 0.6,
+          "dur": 1.8,
+          "bend": [
+            60,
+            -60
+          ]
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "HINGE.N",
+            "dx": 60,
+            "dy": -260
+          },
+          "text": "DESDE LA CADERA",
+          "anchor": "middle",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ALCANZÁ",
+        "LOS PIES"
+      ],
+      "sub": "O los tobillos",
+      "vo": "Paso tres. Agarrá los pies, o los tobillos si no llegás, y dejá que la espalda se redondee.",
+      "moves": [
+        {
+          "to": "FOLD",
+          "at": 0.5,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "FOLD.A",
+            "dx": 20,
+            "dy": -40
+          },
+          "r": 56,
+          "at": 2.6
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "FOLD.A",
+            "dx": -20,
+            "dy": -240
+          },
+          "text": "PIES O TOBILLOS",
+          "anchor": "middle",
+          "at": 3.0
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Rodillas estiradas",
+        "Sin rebotes",
+        "Exhalá y bajá un poco más",
+        "Tobillos si no llegás"
+      ],
+      "vo": "Claves: rodillas estiradas y nada de rebotes. Con cada exhalación bajás un poco más. Si no llegás, tomate de los tobillos.",
+      "moves": [
+        {
+          "to": "FOLD",
+          "at": 0.3,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "Bajá en cada exhalación",
+      "vo": "Sostené treinta segundos, respirando profundo. Ideal para la vuelta a la calma.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "FOLD_IN",
+              1.6
+            ],
+            [
+              "FOLD",
+              1.6
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "poses": {
+    "SEATED": {
+      "hip": [
+        -230,
+        0
+      ],
+      "s": -90,
+      "t": -90,
+      "ft": -90,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": -190,
+      "hy": 15
+    },
+    "ARMS_UP": {
+      "hip": [
+        -230,
+        0
+      ],
+      "s": -90,
+      "t": -90,
+      "ft": -90,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 175,
+      "fa": 0,
+      "ua2": 175,
+      "fa2": 0
+    },
+    "HINGE": {
+      "hip": [
+        -230,
+        0
+      ],
+      "s": -90,
+      "t": -90,
+      "ft": -90,
+      "b": 42,
+      "hd": 48,
+      "g": 1,
+      "hx": 260,
+      "hy": -90
+    },
+    "FOLD": {
+      "hip": [
+        -230,
+        0
+      ],
+      "s": -90,
+      "t": -90,
+      "ft": -90,
+      "b": 70,
+      "hd": 92,
+      "g": 1,
+      "hx": 360,
+      "hy": -30
+    },
+    "FOLD_IN": {
+      "hip": [
+        -230,
+        0
+      ],
+      "s": -90,
+      "t": -90,
+      "ft": -90,
+      "b": 76,
+      "hd": 100,
+      "g": 1,
+      "hx": 380,
+      "hy": -25
+    }
+  },
+  "rig": {
+    "x": 520,
+    "y": 1504,
+    "scale": 0.82
+  },
+  "initialPose": "SEATED",
+  "name": "Seated Forward Fold",
+  "revisado": false,
+  "notas": "",
+  "category": "CROSSFIT · VUELTA A LA CALMA",
+  "tags": [
+    "Isquios",
+    "Gemelos",
+    "Espalda"
+  ],
+  "descripcion": "Sentado en el suelo con las piernas extendidas y juntas, inclinar el torso hacia adelante intentando alcanzar los pies con las manos. Mantener la espalda lo más recta posible al inicio y permitir que se curve al profundizar el estiramiento.",
+  "music": true,
+  "musicVolume": 0.18,
+  "miniatura": {
+    "pose": "FOLD",
+    "grip": 1,
+    "zoom": 1.15,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Seated Forward Fold 🧘 Estirá isquiotibiales y espalda paso a paso | CrossFit",
+    "tags": [
+      "seated forward fold",
+      "flexión sentado",
+      "paschimottanasana",
+      "estiramiento de isquiotibiales",
+      "estiramiento de espalda",
+      "estiramiento de gemelos",
+      "tocar los pies",
+      "flexibilidad",
+      "vuelta a la calma",
+      "crossfit",
+      "estiramientos",
+      "yoga para crossfit"
+    ],
+    "descripcion": "🧘 SEATED FORWARD FOLD — Estirá isquios, gemelos y espalda sentado en el piso\n\n¿Isquios tirantes después de peso muerto, corridas o saltos? ¿No llegás ni a las rodillas? Arrancá por acá: la flexión sentado es la base de la flexibilidad. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Sentate en el piso con las piernas juntas y estiradas, y la espalda derecha.\n2️⃣ Inhalá y llevá los brazos arriba, alargando la espalda.\n3️⃣ Exhalá e inclinate hacia adelante desde la cadera, con la espalda lo más recta posible.\n4️⃣ Agarrá los pies, o los tobillos si no llegás, y dejá que la espalda se redondee.\n\n✅ CLAVES DE TÉCNICA\n• Rodillas estiradas todo el tiempo\n• Arrancá con la espalda recta, bisagra desde la cadera\n• Al final dejá que la espalda se redondee\n• Nada de rebotes: bajá despacio\n• Usá la exhalación para profundizar\n• Si no llegás a los pies, agarrá los tobillos o las pantorrillas\n\n🎯 QUÉ TRABAJA\nBíceps femoral · Dorsal ancho · Gemelos\n\n⏱️ CUÁNTO\n30 segundos. Ideal en la vuelta a la calma, después de peso muerto, corridas o saltos.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #VueltaALaCalma #ForwardFold #Isquiotibiales #Entrenamiento"
+  }
+}

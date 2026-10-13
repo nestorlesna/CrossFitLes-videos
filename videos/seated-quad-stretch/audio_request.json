@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Seated Quad Stretch: estirá el cuádriceps sin levantarte del piso."
+    },
+    {
+      "id": "02",
+      "text": "Sentate en el piso con las piernas estiradas y las manos apoyadas al costado."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Doblá una pierna hacia atrás y dejá el pie al costado de la cadera. La otra queda estirada."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Apoyá las manos atrás e inclinate despacio hasta sentir el estiramiento en el muslo."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Sostené, volvé despacio y repetí con la otra pierna."
+    },
+    {
+      "id": "06",
+      "text": "Claves: una pierna por vez y atrás con control. Si te molesta la rodilla, poné una toalla doblada debajo."
+    },
+    {
+      "id": "07",
+      "text": "Sostené treinta segundos con cada pierna. Ideal para la vuelta a la calma."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Seated Forward Fold: estirá isquios, gemelos y espalda sentado en el piso."
+    },
+    {
+      "id": "02",
+      "text": "Sentate en el piso con las piernas juntas y estiradas, y la espalda derecha."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Inhalá y llevá los brazos arriba, alargando la espalda."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Exhalá e inclinate hacia adelante desde la cadera, con la espalda lo más recta posible."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Agarrá los pies, o los tobillos si no llegás, y dejá que la espalda se redondee."
+    },
+    {
+      "id": "06",
+      "text": "Claves: rodillas estiradas y nada de rebotes. Con cada exhalación bajás un poco más. Si no llegás, tomate de los tobillos."
+    },
+    {
+      "id": "07",
+      "text": "Sostené treinta segundos, respirando profundo. Ideal para la vuelta a la calma."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

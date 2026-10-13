@@ -1,0 +1,329 @@
+{
+  "slug": "overhead-triceps-stretch",
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · VUELTA A LA CALMA",
+      "head": [
+        "TRICEPS",
+        "STRETCH"
+      ],
+      "vo": "Overhead Triceps Stretch: soltá tríceps y hombros en treinta segundos.",
+      "moves": [
+        {
+          "to": "ARM_UP",
+          "at": 0.9,
+          "dur": 1.1
+        },
+        {
+          "to": "BEND",
+          "at": 2.1,
+          "dur": 0.9
+        },
+        {
+          "to": "GUIDE",
+          "at": 3.0,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "min": 4.6,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE"
+      ],
+      "sub": "Torso derecho",
+      "stance": true,
+      "vo": "Parate derecho, con los pies al ancho de la cadera y el torso firme.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BRAZO",
+        "ARRIBA"
+      ],
+      "sub": "Mano detrás de la cabeza",
+      "vo": "Paso uno. Llevá un brazo arriba y doblá el codo: la mano va detrás de la cabeza, como para rascarte la espalda.",
+      "moves": [
+        {
+          "to": "ARM_UP",
+          "at": 0.5,
+          "dur": 1.2
+        },
+        {
+          "to": "BEND",
+          "at": 2.2,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "BEND.N",
+            "dx": 0,
+            "dy": -128
+          },
+          "r": 42,
+          "at": 3.4
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "BEND.N",
+            "dx": 80,
+            "dy": -150
+          },
+          "text": "CODO AL TECHO",
+          "anchor": "start",
+          "at": 3.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "GUIÁ",
+        "EL CODO"
+      ],
+      "sub": "Con la otra mano",
+      "vo": "Paso dos. Con la otra mano agarrá el codo y empujalo suave hacia abajo.",
+      "moves": [
+        {
+          "to": "GUIDE",
+          "at": 0.5,
+          "dur": 1.4
+        },
+        {
+          "to": "PUSH",
+          "at": 2.4,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": {
+            "j": "PUSH.N",
+            "dx": -90,
+            "dy": -260
+          },
+          "to": {
+            "j": "PUSH.N",
+            "dx": -60,
+            "dy": -165
+          },
+          "at": 2.4,
+          "dur": 1.0,
+          "bend": [
+            -30,
+            0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "PUSH.N",
+            "dx": 110,
+            "dy": -200
+          },
+          "text": "SUAVE, SIN FORZAR",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "CAMBIÁ",
+        "DE BRAZO"
+      ],
+      "sub": "Mismo tiempo de cada lado",
+      "vo": "Paso tres. Sostené, soltá despacio y repetí con el otro brazo.",
+      "moves": [
+        {
+          "to": "ARM_UP",
+          "at": 1.4,
+          "dur": 1.0
+        },
+        {
+          "to": "STAND",
+          "at": 2.5,
+          "dur": 1.0
+        },
+        {
+          "to": "ARM_UP",
+          "at": 3.6,
+          "dur": 1.0
+        },
+        {
+          "to": "GUIDE",
+          "at": 4.7,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            820,
+            1080
+          ],
+          "text": "OTRO BRAZO",
+          "anchor": "middle",
+          "at": 3.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Torso derecho",
+        "Codo apunta al techo",
+        "La mano solo guía",
+        "Sin inclinarte al costado"
+      ],
+      "vo": "Claves: torso derecho, sin inclinarte al costado. El codo apunta al techo y la otra mano solo guía, sin forzar.",
+      "moves": [
+        {
+          "to": "PUSH",
+          "at": 0.3,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 S POR LADO"
+      ],
+      "sub": "Respirando tranquilo",
+      "vo": "Sostené treinta segundos con cada brazo. Ideal para la vuelta a la calma.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "PUSH",
+              1.6
+            ],
+            [
+              "GUIDE",
+              1.6
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 6,
+      "fa": 6
+    },
+    "ARM_UP": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 6,
+      "fa": 6,
+      "ua2": 176,
+      "fa2": 0
+    },
+    "BEND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 4,
+      "ua": 6,
+      "fa": 6,
+      "ua2": 172,
+      "fa2": 158
+    },
+    "GUIDE": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 6,
+      "ua": 125,
+      "fa": 117,
+      "ua2": 172,
+      "fa2": 158
+    },
+    "PUSH": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 8,
+      "ua": 128,
+      "fa": 114,
+      "ua2": 178,
+      "fa2": 160
+    }
+  },
+  "initialPose": "STAND",
+  "name": "Overhead Triceps Stretch",
+  "revisado": false,
+  "notas": "",
+  "category": "CROSSFIT · VUELTA A LA CALMA",
+  "tags": [
+    "Tríceps",
+    "Hombro"
+  ],
+  "descripcion": "De pie, llevar un brazo hacia arriba y doblar el codo llevando la mano detrás de la cabeza (como si fuera a rascarse la espalda). Con la mano contraria, empujar suavemente el codo hacia abajo para profundizar el estiramiento del tríceps. Repetir del otro lado.",
+  "music": true,
+  "musicVolume": 0.18,
+  "miniatura": {
+    "pose": "PUSH",
+    "grip": 0
+  },
+  "youtube": {
+    "titulo": "Overhead Triceps Stretch 💪 Estirá tríceps y hombros paso a paso | CrossFit",
+    "tags": [
+      "overhead triceps stretch",
+      "estiramiento de tríceps",
+      "estiramiento de brazos",
+      "estiramiento de hombros",
+      "tríceps",
+      "vuelta a la calma",
+      "crossfit",
+      "estiramientos",
+      "movilidad de hombro",
+      "después del WOD"
+    ],
+    "descripcion": "💪 OVERHEAD TRICEPS STRETCH — Estirá tríceps y hombros después de empujar\n\n¿Saliste de un WOD con push-ups, press o dips y tenés los brazos duros como piedra? Este estiramiento te los suelta en un minuto. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate derecho, con los pies al ancho de la cadera y el torso firme.\n2️⃣ Llevá un brazo arriba y doblá el codo: la mano va detrás de la cabeza, como para rascarte la espalda.\n3️⃣ Con la otra mano agarrá el codo y empujalo suave hacia abajo.\n4️⃣ Sostené, soltá despacio y repetí con el otro brazo.\n\n✅ CLAVES DE TÉCNICA\n• Torso derecho: no te inclines hacia el lado que estirás\n• El codo del brazo estirado apunta al techo\n• La mano contraria solo guía el codo, sin forzar\n• Soltá despacio y hacé el mismo tiempo de los dos lados\n\n🎯 QUÉ TRABAJA\nTríceps braquial · Deltoides anterior\n\n⏱️ CUÁNTO\n30 segundos por brazo. Ideal en la vuelta a la calma, sobre todo después de WODs de empuje (press, push-ups, dips).\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #VueltaALaCalma #TricepsStretch #Triceps #Entrenamiento"
+  },
+  "rig": {
+    "x": 470,
+    "y": 1505,
+    "scale": 0.78
+  }
+}

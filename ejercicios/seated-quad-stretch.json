@@ -1,0 +1,325 @@
+{
+  "slug": "seated-quad-stretch",
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · VUELTA A LA CALMA",
+      "head": [
+        "SEATED QUAD",
+        "STRETCH"
+      ],
+      "vo": "Seated Quad Stretch: estirá el cuádriceps sin levantarte del piso.",
+      "moves": [
+        {
+          "cut": "HERO",
+          "at": 1.0
+        },
+        {
+          "to": "LEAN",
+          "at": 2.4,
+          "dur": 1.4
+        }
+      ]
+    },
+    {
+      "min": 4.6,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "SENTADO"
+      ],
+      "sub": "Manos al costado",
+      "vo": "Sentate en el piso con las piernas estiradas y las manos apoyadas al costado.",
+      "moves": [
+        {
+          "cut": "SEATED",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "DOBLÁ UNA",
+        "PIERNA"
+      ],
+      "sub": "El pie junto a la cadera",
+      "vo": "Paso uno. Doblá una pierna hacia atrás y dejá el pie al costado de la cadera. La otra queda estirada.",
+      "moves": [
+        {
+          "cut": "HERO",
+          "at": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "HERO.A",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 54,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            250,
+            1150
+          ],
+          "text": "PIE AL COSTADO",
+          "anchor": "middle",
+          "at": 2.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            840,
+            1380
+          ],
+          "text": "LA OTRA, ESTIRADA",
+          "anchor": "middle",
+          "at": 3.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "INCLINATE",
+        "ATRÁS"
+      ],
+      "sub": "Manos en el piso",
+      "vo": "Paso dos. Apoyá las manos atrás e inclinate despacio hasta sentir el estiramiento en el muslo.",
+      "moves": [
+        {
+          "to": "LEAN",
+          "at": 0.6,
+          "dur": 2.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": {
+            "j": "HERO.N",
+            "dx": -20,
+            "dy": -160
+          },
+          "to": {
+            "j": "LEAN.N",
+            "dx": -60,
+            "dy": -170
+          },
+          "at": 0.7,
+          "dur": 2.0,
+          "bend": [
+            -40,
+            -40
+          ]
+        },
+        {
+          "type": "line",
+          "from": {
+            "j": "LEAN.H",
+            "dx": 30,
+            "dy": -60
+          },
+          "to": {
+            "j": "LEAN.K",
+            "dx": -20,
+            "dy": -60
+          },
+          "solid": true,
+          "at": 3.0
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "LEAN.K",
+            "dx": -40,
+            "dy": -130
+          },
+          "text": "CUÁDRICEPS",
+          "anchor": "middle",
+          "at": 3.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "CAMBIÁ",
+        "DE PIERNA"
+      ],
+      "sub": "De a una por vez",
+      "vo": "Paso tres. Sostené, volvé despacio y repetí con la otra pierna.",
+      "moves": [
+        {
+          "to": "HERO",
+          "at": 1.2,
+          "dur": 1.4
+        },
+        {
+          "cut": "SEATED",
+          "at": 2.9
+        },
+        {
+          "cut": "HERO",
+          "at": 4.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1300
+          ],
+          "text": "OTRA PIERNA",
+          "anchor": "middle",
+          "at": 4.0
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Una pierna por vez",
+        "Atrás con control",
+        "Toalla bajo la rodilla",
+        "Sin dolor de rodilla"
+      ],
+      "vo": "Claves: una pierna por vez y atrás con control. Si te molesta la rodilla, poné una toalla doblada debajo.",
+      "moves": [
+        {
+          "to": "LEAN",
+          "at": 0.3,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 S POR PIERNA"
+      ],
+      "sub": "Respirando tranquilo",
+      "vo": "Sostené treinta segundos con cada pierna. Ideal para la vuelta a la calma.",
+      "moves": [
+        {
+          "to": "LEAN",
+          "at": 0.5,
+          "dur": 1.2
+        }
+      ]
+    }
+  ],
+  "poses": {
+    "SEATED": {
+      "hip": [
+        -100,
+        0
+      ],
+      "s": -90,
+      "t": -90,
+      "s2": -90,
+      "t2": -90,
+      "ft": -90,
+      "ft2": -90,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": -140,
+      "hy": 15
+    },
+    "HERO": {
+      "hip": [
+        -100,
+        -30
+      ],
+      "s": 86,
+      "t": -84,
+      "s2": -90,
+      "t2": -90,
+      "ft": 178,
+      "ft2": -90,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": -230,
+      "hy": 15
+    },
+    "LEAN": {
+      "hip": [
+        -100,
+        -30
+      ],
+      "s": 86,
+      "t": -84,
+      "s2": -90,
+      "t2": -90,
+      "ft": 178,
+      "ft2": -90,
+      "b": -28,
+      "hd": -14,
+      "g": 1,
+      "hx": -380,
+      "hy": 15
+    }
+  },
+  "rig": {
+    "x": 520,
+    "y": 1504,
+    "scale": 0.82
+  },
+  "initialPose": "SEATED",
+  "name": "Seated Quad Stretch",
+  "revisado": false,
+  "notas": "",
+  "category": "CROSSFIT · VUELTA A LA CALMA",
+  "tags": [
+    "Cuádriceps",
+    "Isquios"
+  ],
+  "descripcion": "Sentado en el suelo, doblar una pierna hacia atrás (como en posición de héroe unilateral) mientras la otra permanece extendida. Mantener la postura erguida o inclinarse ligeramente hacia atrás para aumentar el estiramiento del cuádriceps.",
+  "music": true,
+  "musicVolume": 0.18,
+  "miniatura": {
+    "pose": "LEAN",
+    "grip": 1,
+    "zoom": 1.15,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Seated Quad Stretch 🦵 Estirá el cuádriceps sentado paso a paso | CrossFit",
+    "tags": [
+      "seated quad stretch",
+      "estiramiento de cuádriceps",
+      "estiramiento sentado",
+      "posición de héroe",
+      "cuádriceps",
+      "recto femoral",
+      "vuelta a la calma",
+      "crossfit",
+      "estiramientos",
+      "piernas",
+      "movilidad de rodilla"
+    ],
+    "descripcion": "🦵 SEATED QUAD STRETCH — Estirá el cuádriceps sin levantarte del piso\n\n¿Cuádriceps cargados después de sentadillas, wall balls o box jumps? Este estiramiento se hace sentado y te suelta el muslo de adelante. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Sentate en el piso con las piernas estiradas y las manos apoyadas al costado.\n2️⃣ Doblá una pierna hacia atrás y dejá el pie al costado de la cadera. La otra queda estirada.\n3️⃣ Apoyá las manos atrás e inclinate despacio hasta sentir el estiramiento en el muslo.\n4️⃣ Sostené, volvé despacio y repetí con la otra pierna.\n\n✅ CLAVES DE TÉCNICA\n• Trabajá de a una pierna por vez\n• El pie de la pierna doblada queda al costado de la cadera\n• Inclinate atrás con control, apoyando las manos\n• Si te molesta la rodilla, poné una almohada o toalla doblada debajo\n• Tensión en el muslo sí, dolor en la rodilla no\n\n🎯 QUÉ TRABAJA\nRecto femoral · Cuádriceps · Bíceps femoral\n\n⏱️ CUÁNTO\n30 segundos por pierna. Ideal en la vuelta a la calma, después de sentadillas, wall balls o saltos.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés una lesión de rodilla o de menisco, consultá antes: esta posición flexiona mucho la rodilla.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #VueltaALaCalma #QuadStretch #Cuadriceps #Entrenamiento"
+  }
+}

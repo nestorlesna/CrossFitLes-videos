@@ -44,6 +44,13 @@ Problemas encontrados al generar videos, cómo se resolvieron y qué conviene ha
 | 10-12 | child-s-pose | Voz de claves de 4 líneas desborda el subtítulo | máx. ~3 líneas (~130 caracteres) por `vo` |
 | 10-12 | half-kneeling | Label en [60,1440] pisaba la pierna de atrás arrodillada | en media rodilla usar y≈1330 y texto corto |
 | 10-12 | (voz) | Kokoro sonaba robótico; Edge TTS (es-AR) da 403 aunque se actualice | Piper + Daniela es_AR (local, CC BY-SA → crédito automático en la descripción). El profe la aprobó |
+| 10-13 | (todos) | `npx hyperframes` tardaba ~5 min en arrancar (consulta el registro de npm cada vez) | `npx --prefer-offline hyperframes` en make-exercise y pose-lab (3 s) |
+| 10-13 | (todos) | hyperframes 0.8 guarda los snapshots en `.hyperframes/artifacts/snapshots/<id>/`: no salían contact sheet ni miniatura | `collectShots(dir)` (build-index) copia la última tanda a `<dir>/snapshots/` |
+| 10-13 | cobra-pose | Boca abajo: con `hd 100` la cabeza atraviesa el piso | prono `hip [-30,-8]`, `s/t 90`, `ft 175`, `b 92`, `hd 72`; cobra `b 46, hd 22`, manos bajo hombros `g 1, ed -1` |
+| 10-13 | overhead-triceps | El brazo cercano doblado detrás de la cabeza tapa la cara (se dibuja encima) | el brazo que se estira es el **lejano** (`ua2 172, fa2 158`); el cercano guía el codo (`ua 125, fa 117`) |
+| 10-13 | seated-quad-stretch | `hip + ankle` con el pie junto a la cadera pone la rodilla arriba, no adelante | pierna en "héroe" con ángulos: `hip [-100,-30], s 86, t -84, ft 178`; de sentado a héroe con `cut` |
+| 10-13 | seated-forward-fold | Manos con target cerca del hombro → brazos doblados raros | target de manos lejos, más allá de los pies (`hx 360`), así el IK los deja rectos |
+| 10-13 | standing-biceps | Overlay con `{ "j": "POSE.W" }` en una pose sin agarre cae en otro lado (el overlay calcula las manos con `g 1`) | con brazos libres (`g 0`), poner la posición absoluta `[x, y]` |
 
 ## Pendientes / ideas
 
