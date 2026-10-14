@@ -5,7 +5,7 @@ La lista y su orden salen de `ejercicios/ejercicios.csv`; el estado, de `ejercic
 `videos/<clave>/.pipeline.json` y `salida/`. Para aprobar un video: `"revisado": true` en su JSON; las notas salen de `"notas"`.
 Subido = el .mp4 está en `salida/subidos/` (se mueve a mano después de publicarlo en YouTube).
 
-**Renderizados:** 13 / 328 · **Fichas:** 13 · **Descripción YouTube:** 13 · **Subidos:** 5 · **Próximo:** 13 · Supine Abdominal Stretch
+**Renderizados:** 17 / 328 · **Fichas:** 17 · **Descripción YouTube:** 17 · **Subidos:** 6 · **Próximo:** 13 · Supine Abdominal Stretch
 
 | # | Ejercicio | Implemento | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Revisado | Subido | Fecha render | Notas |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -29,10 +29,10 @@ Subido = el .mp4 está en `salida/subidos/` (se mueve a mano después de publica
 | 17 | Barbell Front Squat | Barra olímpica | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
 | 18 | Barbell Deadlift | Barra olímpica | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
 | 19 | Hanging Toes to Bar | Pull-up bar | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 20 | Kettlebell Good Morning to Squat | Kettlebell | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 21 | Barbell Back Squat | Barra olímpica | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 22 | Burpee Broad Jump | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 23 | Wall Ball Shot | Wall ball | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
+| 20 | Kettlebell Good Morning to Squat | Kettlebell | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/kettlebell-good-morning-to-squat.youtube.txt) | [✅](salida/kettlebell-good-morning-to-squat.miniatura.png) | 49.8 s | [kettlebell-good-morning-to-squat.mp4](salida/kettlebell-good-morning-to-squat.mp4) | ⬜ | ⬜ | 2026-10-14 |  |
+| 21 | Barbell Back Squat | Barra olímpica | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/barbell-back-squat.youtube.txt) | [✅](salida/barbell-back-squat.miniatura.png) | 49.9 s | [barbell-back-squat.mp4](salida/barbell-back-squat.mp4) | ⬜ | ⬜ | 2026-10-14 |  |
+| 22 | Burpee Broad Jump | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/burpee-broad-jump.youtube.txt) | [✅](salida/burpee-broad-jump.miniatura.png) | 48.0 s | [burpee-broad-jump.mp4](salida/burpee-broad-jump.mp4) | ⬜ | ⬜ | 2026-10-14 |  |
+| 23 | Wall Ball Shot | Wall ball | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/wall-ball-shot.youtube.txt) | [✅](salida/subidos/wall-ball-shot.miniatura.png) | 47.3 s | [wall-ball-shot.mp4](salida/subidos/wall-ball-shot.mp4) | ⬜ | ✅ | 2026-10-14 |  |
 | 24 | Alternating Single Arm Dumbbell Power Snatch | Mancuernas | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
 | 25 | Kettlebell Farmer Carry | Kettlebell | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
 | 26 | Burpee Over the Bar | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |

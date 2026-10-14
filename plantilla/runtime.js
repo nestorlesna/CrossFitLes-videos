@@ -16,7 +16,7 @@
 
   const L = { shin: 230, thigh: 240, torso: 280, neck: 32, upper: 172, fore: 160 };
   const FAR = { dx: -22, dy: -4 };
-  const KEYS = ["s", "t", "b", "hd", "ua", "fa", "s2", "t2", "ua2", "fa2", "rx", "ry", "ft", "ft2", "hx", "hy", "ed", "g", "lr", "al"];
+  const KEYS = ["s", "t", "b", "hd", "ua", "fa", "s2", "t2", "ua2", "fa2", "rx", "ry", "ft", "ft2", "hx", "hy", "ed", "g", "lr", "al", "hb", "bf", "bx", "by"];
   const P = C.poses;
 
   const rad = (d) => (d * Math.PI) / 180;
@@ -53,7 +53,12 @@
     const al = st.al ?? 1;
     const fE = add(S, down(ua, L.upper * al));
     const fW = add(fE, down(ua + fa, L.fore * al));
-    const g = ik(S, { x: st.hx + off.dx, y: st.hy + off.dy }, L.upper, L.fore, st.ed ?? 1);
+    // hb: 0 → hands target (hx, hy) in rig space; 1 → in the torso frame from the shoulder (hx forward, hy down the torso):
+    // the grip travels with the trunk (goblet kettlebell, bar on the back, ball at the chest).
+    const hb = st.hb || 0, fw = { x: Math.cos(rad(st.b)), y: Math.sin(rad(st.b)) }, tu = up(st.b, 1);
+    const rel = { x: S.x + fw.x * st.hx - tu.x * st.hy, y: S.y + fw.y * st.hx - tu.y * st.hy };
+    const tg = lerp({ x: st.hx + off.dx, y: st.hy + off.dy }, { x: rel.x + off.dx, y: rel.y + off.dy }, hb);
+    const g = ik(S, tg, L.upper, L.fore, st.ed ?? 1);
     return { A, K, H, S, N, E: lerp(fE, g.E, st.g), W: lerp(fW, g.W, st.g) };
   }
 
@@ -82,7 +87,13 @@
 
   // ── PROPS (implements) — drawn in rig space; parts may follow joints every frame ──
   // rower: { type: "rower", seatY, railY, foot: [x, y], fly: [x, y] }  seat follows the hip, chain + handle follow the hands.
-  const propBack = el("g", {}), propUpdates = [];
+  // kettlebell: { type: "kettlebell", off: [dx, dy] }  handle at the near hand (+off), bell hangs below; drawn under the near arm.
+  // barbell: { type: "barbell", off: [dx, dy], r, torso: [fx, dy] }  plate (side view) on the near hand (+off), or with torso
+  //          fixed to the trunk (fx forward, dy down the torso from the shoulder: bar on the back / front rack); near plate over the body.
+  // wallball: { type: "wallball", off, wallX, target, r }  ball at the hands (+off) or free at (bx, by) when the pose has bf: 1;
+  //           wall at x = wallX with the target band at y = target (rig px).
+  const propBack = el("g", {}), propMid = el("g", {}), propFront = el("g", {}), propUpdates = [];
+  const PLATE = "#7C7F86", PLATE_D = "#5E6168", PLATE_L = "#B9BCC2";
   const METAL = "#4A4F5C", METAL_D = "#2E323B", ACCENT = "#E85D5D";
   (C.props || []).forEach((pr) => {
     if (pr.type === "rower") {
@@ -111,6 +122,49 @@
       });
       propUpdates.handleNode = handle; // re-appended after the near arm so it sits in the hands
     }
+    if (pr.type === "kettlebell") {
+      const off = pr.off || [0, 0], kb = el("g", {}, propMid);
+      el("path", { d: "M -30 44 L -30 6 C -30 -26 30 -26 30 6 L 30 44", fill: "none", stroke: "#2B2B2B", "stroke-width": 15, "stroke-linecap": "round" }, kb);
+      el("circle", { cx: 0, cy: 82, r: 54, fill: "#2B2B2B" }, kb);
+      el("path", { d: "M -40 60 A 44 44 0 0 1 -6 36", fill: "none", stroke: "#5A5A5A", "stroke-width": 8, "stroke-linecap": "round" }, kb);
+      el("rect", { x: -22, y: 70, width: 44, height: 24, rx: 5, fill: ACCENT }, kb);
+      propUpdates.push((n) => kb.setAttribute("transform", `translate(${f2(n.W.x + off[0])},${f2(n.W.y + off[1])})`));
+    }
+    if (pr.type === "barbell") {
+      const off = pr.off || [0, 0], r = pr.r || 84;
+      const plate = (parent, d) => {
+        const g = el("g", {}, parent);
+        el("circle", { r, fill: d ? PLATE_D : PLATE }, g);
+        el("circle", { r: r * 0.72, fill: "none", stroke: d ? "#4A4D53" : PLATE_D, "stroke-width": 6 }, g);
+        el("circle", { r: r * 0.24, fill: PLATE_L }, g);
+        el("circle", { r: r * 0.09, fill: "#3A3C41" }, g);
+        return g;
+      };
+      const farP = plate(propBack, true), nearP = plate(propFront, false);
+      propUpdates.push((n, f, st) => {
+        let c = { x: n.W.x + off[0], y: n.W.y + off[1] };
+        if (pr.torso) {
+          const b = rad(st.b), [fx, dy] = pr.torso;
+          c = { x: n.S.x + Math.cos(b) * fx - Math.sin(b) * dy, y: n.S.y + Math.sin(b) * fx + Math.cos(b) * dy };
+        }
+        farP.setAttribute("transform", `translate(${f2(c.x + FAR.dx * 1.6)},${f2(c.y + FAR.dy * 1.6)})`);
+        nearP.setAttribute("transform", `translate(${f2(c.x)},${f2(c.y)})`);
+      });
+    }
+    if (pr.type === "wallball") {
+      const off = pr.off || [0, 0], r = pr.r || 62, wx = pr.wallX ?? 520, ty = pr.target ?? -1300;
+      const wall = el("g", { class: "prop-scenery" }, propBack); // se atenúa en la escena de claves (la lista la cruza)
+      el("rect", { x: wx, y: Math.min(ty - 260, -1500), width: 60, height: 34 - Math.min(ty - 260, -1500), fill: "#D9D2C5" }, wall);
+      el("rect", { x: wx - 10, y: ty - 18, width: 80, height: 36, rx: 6, fill: ACCENT }, wall);
+      const ball = el("g", {}, propMid);
+      el("circle", { r, fill: "#2E2E33" }, ball);
+      el("path", { d: `M ${-r} 0 Q 0 ${-r * 0.45} ${r} 0`, fill: "none", stroke: ACCENT, "stroke-width": 7 }, ball);
+      el("path", { d: `M ${-r * 0.7} ${r * 0.7} Q 0 ${r * 0.25} ${r * 0.7} ${r * 0.7}`, fill: "none", stroke: "#55555C", "stroke-width": 5 }, ball);
+      propUpdates.push((n, f, st) => {
+        const k = st.bf || 0, h = { x: n.W.x + off[0], y: n.W.y + off[1] };
+        ball.setAttribute("transform", `translate(${f2(h.x + (st.bx - h.x) * k)},${f2(h.y + (st.by - h.y) * k)})`);
+      });
+    }
   });
 
   // Draw order: far arm, far leg, torso, near leg, neck, head, near arm.
@@ -130,6 +184,8 @@
   el("path", { d: "M 54 -62 L 66 -48 L 54 -45 Z", fill: COL.skin }, head);
   const nearArm = { upper: line(COL.skin, 36), fore: line(COL.skin, 32), hand: el("circle", { r: 19, fill: COL.skin }) };
   if (propUpdates.handleNode) rig.insertBefore(propUpdates.handleNode, nearArm.hand);
+  rig.insertBefore(propMid, nearArm.upper); // implements held in front of the chest: under the near arm
+  rig.appendChild(propFront); // near barbell plate: over everything
 
   const f2 = (v) => v.toFixed(2);
   const setL = (n, p, q) => { n.setAttribute("x1", f2(p.x)); n.setAttribute("y1", f2(p.y)); n.setAttribute("x2", f2(q.x)); n.setAttribute("y2", f2(q.y)); };
@@ -147,7 +203,7 @@
     setL(neck, n.S, n.N);
     place(head, n.N, state.hd);
     setL(nearArm.upper, n.S, n.E); setL(nearArm.fore, n.E, n.W); setC(nearArm.hand, n.W);
-    propUpdates.forEach((u) => u(n, f));
+    propUpdates.forEach((u) => u(n, f, state));
   }
   // Function-valued props: GSAP calls proxy.k(v) on every render (seek-safe, no callbacks).
   const proxy = {};
@@ -269,6 +325,10 @@
       const k = f.shrink ?? 0.8, origin = `${R.x} ${R.y + 34 * R.scale}`;
       tl.fromTo("#athlete", { scale: 1 }, { scale: k, svgOrigin: origin, duration: 0.5, ease: "power2.inOut", immediateRender: false }, f.start);
       if (f !== last) tl.to("#athlete", { scale: 1, svgOrigin: origin, duration: 0.5, ease: "power2.inOut" }, f.start + f.dur - 0.5);
+      if (rig.querySelector(".prop-scenery")) {
+        tl.fromTo(".prop-scenery", { opacity: 1 }, { opacity: 0, duration: 0.4, immediateRender: false }, f.start);
+        if (f !== last) tl.to(".prop-scenery", { opacity: 1, duration: 0.4 }, f.start + f.dur - 0.45);
+      }
     }
     if (f.chips) {
       tl.fromTo(`#chips-${f.id}`, { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.5, ease: "power2.out" }, f.start + 0.6);

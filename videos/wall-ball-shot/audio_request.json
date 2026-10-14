@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Wall Ball Shot: sentadilla y lanzamiento a la pared. Un clásico del CrossFit."
+    },
+    {
+      "id": "02",
+      "text": "Parate a un paso de la pared, con el balón a la altura del pecho y los codos debajo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá a una sentadilla completa, con el peso en los talones y el pecho arriba."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Salí explosivo extendiendo cadera y piernas. Recién ahí empujá con los brazos."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Lanzá el balón hacia la marca de la pared, a tres metros, con los brazos bien extendidos."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Recibí el balón arriba y bajá directo a la próxima sentadilla, sin pausa."
+    },
+    {
+      "id": "07",
+      "text": "Claves: codos debajo del balón, sentadilla completa, primero la cadera y después los brazos. Recibí y bajá sin pausa."
+    },
+    {
+      "id": "08",
+      "text": "Veinte repeticiones seguidas, con balón de nueve kilos. Ideal en la entrada en calor o en el WOD."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

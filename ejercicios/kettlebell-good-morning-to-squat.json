@@ -1,0 +1,446 @@
+{
+  "slug": "kettlebell-good-morning-to-squat",
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "GOOD MORNING",
+        "TO SQUAT"
+      ],
+      "vo": "Kettlebell Good Morning to Squat: bisagra más sentadilla. La entrada en calor ideal para cadera y piernas.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "HINGE",
+              1.1
+            ],
+            [
+              "STAND",
+              0.9
+            ],
+            [
+              "SQUAT",
+              1.1
+            ],
+            [
+              "STAND",
+              0.9
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 4.6,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "GOBLET"
+      ],
+      "sub": "Kettlebell pegada al pecho",
+      "vo": "Parate con los pies al ancho de los hombros y sostené la kettlebell por los cuernos, pegada al pecho.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            571,
+            900
+          ],
+          "r": 74,
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            660,
+            790
+          ],
+          "text": "PEGADA AL PECHO",
+          "anchor": "start",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "GOOD",
+        "MORNING"
+      ],
+      "sub": "Bisagra de cadera",
+      "vo": "Paso uno. Con las rodillas apenas flexionadas, llevá la cadera atrás e inclinate con la espalda recta.",
+      "moves": [
+        {
+          "to": "HINGE",
+          "at": 0.6,
+          "dur": 1.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": {
+            "j": "STAND.H",
+            "dx": -70,
+            "dy": 0
+          },
+          "to": {
+            "j": "HINGE.H",
+            "dx": -90,
+            "dy": 0
+          },
+          "at": 0.6,
+          "dur": 1.4,
+          "bend": [
+            -20,
+            -30
+          ]
+        },
+        {
+          "type": "line",
+          "from": {
+            "j": "HINGE.H",
+            "dx": 0,
+            "dy": -60
+          },
+          "to": {
+            "j": "HINGE.S",
+            "dx": 0,
+            "dy": -60
+          },
+          "at": 2.6,
+          "solid": true,
+          "width": 8
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "HINGE.S",
+            "dx": -60,
+            "dy": -200
+          },
+          "text": "ESPALDA RECTA",
+          "anchor": "middle",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "VOLVÉ",
+        "ARRIBA"
+      ],
+      "sub": "Cadera adelante",
+      "vo": "Paso dos. Volvé arriba empujando la cadera hacia adelante, sin redondear la espalda.",
+      "moves": [
+        {
+          "to": "STAND",
+          "at": 0.6,
+          "dur": 1.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": {
+            "j": "HINGE.H",
+            "dx": -100,
+            "dy": 0
+          },
+          "to": {
+            "j": "STAND.H",
+            "dx": -80,
+            "dy": 0
+          },
+          "at": 0.6,
+          "dur": 1.2,
+          "bend": [
+            0,
+            30
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            370,
+            1000
+          ],
+          "text": "CADERA ADELANTE",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "SENTADILLA"
+      ],
+      "sub": "Bien profunda",
+      "vo": "Paso tres. Encadená una sentadilla profunda: pecho arriba, talones apoyados y rodillas en la línea de los pies.",
+      "moves": [
+        {
+          "to": "SQUAT",
+          "at": 0.5,
+          "dur": 1.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "SQUAT.N",
+            "dx": 40,
+            "dy": -170
+          },
+          "text": "PECHO ARRIBA",
+          "anchor": "middle",
+          "at": 2.4
+        },
+        {
+          "type": "bar",
+          "pos": [
+            440,
+            1528
+          ],
+          "w": 90,
+          "h": 12,
+          "at": 3.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            330,
+            1500
+          ],
+          "text": "TALONES ABAJO",
+          "anchor": "end",
+          "at": 3.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "Y SUBÍ"
+      ],
+      "sub": "Y otra vez",
+      "vo": "Paso cuatro. Subí empujando el piso y arrancá la próxima repetición con el good morning.",
+      "moves": [
+        {
+          "to": "STAND",
+          "at": 0.5,
+          "dur": 1.5
+        },
+        {
+          "to": "HINGE",
+          "at": 2.6,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": {
+            "j": "SQUAT.H",
+            "dx": -110,
+            "dy": 0
+          },
+          "to": {
+            "j": "STAND.H",
+            "dx": -110,
+            "dy": 0
+          },
+          "at": 0.5,
+          "dur": 1.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Bisagra de cadera, no de espalda",
+        "Columna neutra",
+        "Rodillas en la línea de los pies",
+        "Pesa pegada al pecho"
+      ],
+      "vo": "Claves: la bisagra es de cadera, no de espalda. Columna neutra, rodillas siguiendo los pies y la pesa pegada al pecho.",
+      "moves": [
+        {
+          "to": "HALF",
+          "at": 0.3,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "Ritmo controlado",
+      "vo": "Treinta segundos a ritmo controlado. Ideal en la entrada en calor, antes de sentadillas o peso muerto.",
+      "chips": [
+        {
+          "label": "1 · GOOD MORNING",
+          "at": 0.5
+        },
+        {
+          "label": "2 · SENTADILLA",
+          "at": 2.5
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "HINGE",
+              1.1
+            ],
+            [
+              "STAND",
+              0.9
+            ],
+            [
+              "SQUAT",
+              1.1
+            ],
+            [
+              "STAND",
+              0.9
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "name": "Kettlebell Good Morning to Squat",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 12,
+      "fa": 142,
+      "ua2": 8,
+      "fa2": 146
+    },
+    "HINGE": {
+      "s": 6,
+      "t": -14,
+      "b": 72,
+      "hd": 62,
+      "g": 0,
+      "ua": -60,
+      "fa": 142,
+      "ua2": -64,
+      "fa2": 146
+    },
+    "HINGE_IN": {
+      "s": 6,
+      "t": -14,
+      "b": 60,
+      "hd": 50,
+      "g": 0,
+      "ua": -48,
+      "fa": 142,
+      "ua2": -52,
+      "fa2": 146
+    },
+    "SQUAT": {
+      "s": 38,
+      "t": -108,
+      "b": 30,
+      "hd": 14,
+      "g": 0,
+      "ua": -18,
+      "fa": 142,
+      "ua2": -22,
+      "fa2": 146
+    },
+    "HALF": {
+      "s": 20,
+      "t": -50,
+      "b": 18,
+      "hd": 8,
+      "g": 0,
+      "ua": -6,
+      "fa": 142,
+      "ua2": -10,
+      "fa2": 146
+    }
+  },
+  "props": [
+    {
+      "type": "kettlebell",
+      "off": [
+        6,
+        -22
+      ]
+    }
+  ],
+  "initialPose": "STAND",
+  "revisado": false,
+  "notas": "",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Glúteos",
+    "Isquios",
+    "Cuádriceps"
+  ],
+  "descripcion": "Con una kettlebell sostenida en el pecho (goblet), realizar un good morning (bisagra de cadera con espalda recta) y, al volver, encadenar una sentadilla profunda.",
+  "music": true,
+  "musicVolume": 0.18,
+  "miniatura": {
+    "pose": "HINGE",
+    "grip": 0,
+    "zoom": 1.25
+  },
+  "youtube": {
+    "titulo": "Kettlebell Good Morning to Squat 🔥 Cadera y piernas listas paso a paso | CrossFit",
+    "tags": [
+      "kettlebell good morning to squat",
+      "kang squat",
+      "good morning con kettlebell",
+      "sentadilla goblet",
+      "bisagra de cadera",
+      "entrada en calor",
+      "activación de glúteos",
+      "isquiotibiales",
+      "crossfit",
+      "kettlebell",
+      "movilidad de cadera"
+    ],
+    "descripcion": "🔥 KETTLEBELL GOOD MORNING TO SQUAT — Bisagra + sentadilla para despertar cadera, isquios y piernas\n\n¿Arrancás las sentadillas o el peso muerto con la cadera dura y la espalda fría? Este combo de good morning más sentadilla (el famoso Kang Squat) te deja listo en treinta segundos. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate con los pies al ancho de los hombros y sostené la kettlebell por los cuernos, pegada al pecho.\n2️⃣ Con las rodillas apenas flexionadas, llevá la cadera atrás e inclinate con la espalda recta.\n3️⃣ Volvé arriba empujando la cadera hacia adelante, sin redondear la espalda.\n4️⃣ Encadená una sentadilla profunda: pecho arriba, talones apoyados y rodillas en la línea de los pies.\n5️⃣ Subí empujando el piso y arrancá la próxima repetición con el good morning.\n\n✅ CLAVES DE TÉCNICA\n• La bisagra es de cadera, no de espalda: columna neutra todo el tiempo\n• En el good morning, rodillas apenas flexionadas y cadera atrás\n• En la sentadilla, pecho arriba y talones apoyados\n• Rodillas siguiendo la línea de los pies\n• Kettlebell pegada al pecho, sostenida por los cuernos (goblet)\n• Movimiento controlado, sin rebotes\n\n🎯 QUÉ TRABAJA\nGlúteo mayor · Bíceps femoral · Erectores espinales · Cuádriceps\n\n⏱️ CUÁNTO\n30 segundos con una kettlebell liviana. Ideal en la entrada en calor y como activación antes de sentadillas o peso muerto.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés molestias en la zona lumbar, empezá sin peso y con poco recorrido en el good morning, y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #KangSquat #Kettlebell #Entrenamiento"
+  }
+}

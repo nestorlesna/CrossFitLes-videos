@@ -145,7 +145,13 @@ function tts(dir, spec, frames) {
     lang: "es",
     speed: spec.voiceSpeed ?? 1.0,
     voice: spec.voice || (provider === "piper" ? PIPER_VOICE : "em_alex"),
-    lines: frames.map((f) => ({ id: f.id, text: f.vo })),
+    lines: frames.map((f) => {
+      // "pronuncia" (ficha): reemplazos solo para la voz, el subtítulo queda con el texto real ("Burpee" → "Burpii").
+      // "voSpeed" (escena): velocidad propia de esa línea (ej. 0.88 para que el nombre en inglés se entienda).
+      let text = f.vo;
+      for (const [from, to] of Object.entries(spec.pronuncia || {})) text = text.split(from).join(to);
+      return f.voSpeed ? { id: f.id, text, speed: f.voSpeed } : { id: f.id, text };
+    }),
     bgm: { mode: "none" },
   };
   const reqPath = join(dir, "audio_request.json");

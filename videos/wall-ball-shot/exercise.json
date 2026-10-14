@@ -1,0 +1,433 @@
+{
+  "slug": "wall-ball-shot",
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "WALL BALL",
+        "SHOT"
+      ],
+      "vo": "Wall Ball Shot: sentadilla y lanzamiento a la pared. Un clásico del CrossFit.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "SQUAT",
+              0.7
+            ],
+            [
+              "DRIVE",
+              0.35
+            ],
+            [
+              "THROW",
+              0.35
+            ],
+            [
+              "CATCH",
+              0.6
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 4.6,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BALÓN AL",
+        "PECHO"
+      ],
+      "sub": "Codos debajo",
+      "vo": "Parate a un paso de la pared, con el balón a la altura del pecho y los codos debajo.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            660,
+            420
+          ],
+          "text": "OBJETIVO 3 M",
+          "anchor": "end",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            700,
+            507
+          ],
+          "r": 56,
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "SENTADILLA",
+        "COMPLETA"
+      ],
+      "sub": "Peso en los talones",
+      "vo": "Paso uno. Bajá a una sentadilla completa, con el peso en los talones y el pecho arriba.",
+      "moves": [
+        {
+          "to": "SQUAT",
+          "at": 0.5,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "bar",
+          "pos": [
+            315,
+            1530
+          ],
+          "w": 70,
+          "h": 12,
+          "at": 2.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            200,
+            1480
+          ],
+          "text": "TALONES",
+          "anchor": "end",
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "EXPLOTÁ"
+      ],
+      "sub": "Cadera y piernas primero",
+      "vo": "Paso dos. Salí explosivo extendiendo cadera y piernas. Recién ahí empujá con los brazos.",
+      "moves": [
+        {
+          "to": "STAND",
+          "at": 0.6,
+          "dur": 0.5
+        },
+        {
+          "to": "DRIVE",
+          "at": 1.3,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": {
+            "j": "SQUAT.H",
+            "dx": -70,
+            "dy": 0
+          },
+          "to": {
+            "j": "STAND.H",
+            "dx": -70,
+            "dy": 0
+          },
+          "at": 0.5,
+          "dur": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            230,
+            1260
+          ],
+          "text": "CADERA",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "LANZÁ AL",
+        "OBJETIVO"
+      ],
+      "sub": "Marca a 3 metros",
+      "vo": "Paso tres. Lanzá el balón hacia la marca de la pared, a tres metros, con los brazos bien extendidos.",
+      "moves": [
+        {
+          "to": "DRIVE",
+          "at": 0.3,
+          "dur": 0.4
+        },
+        {
+          "to": "THROW",
+          "at": 0.8,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            700,
+            507
+          ],
+          "r": 64,
+          "at": 1.5
+        },
+        {
+          "type": "label",
+          "pos": [
+            660,
+            640
+          ],
+          "text": "3 METROS",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "RECIBÍ",
+        "Y BAJÁ"
+      ],
+      "sub": "Sin pausa",
+      "vo": "Paso cuatro. Recibí el balón arriba y bajá directo a la próxima sentadilla, sin pausa.",
+      "moves": [
+        {
+          "to": "THROW",
+          "at": 0.1,
+          "dur": 0.3
+        },
+        {
+          "to": "CATCH",
+          "at": 0.6,
+          "dur": 0.8
+        },
+        {
+          "to": "SQUAT",
+          "at": 1.6,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            470,
+            1080
+          ],
+          "text": "SIN PAUSA",
+          "anchor": "start",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Balón al pecho, codos debajo",
+        "Sentadilla completa",
+        "Cadera primero, después brazos",
+        "Recibí y bajá directo"
+      ],
+      "vo": "Claves: codos debajo del balón, sentadilla completa, primero la cadera y después los brazos. Recibí y bajá sin pausa.",
+      "moves": [
+        {
+          "to": "SQUAT",
+          "at": 0.3,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "20 REPS"
+      ],
+      "sub": "9 kg · objetivo a 3 m",
+      "vo": "Veinte repeticiones seguidas, con balón de nueve kilos. Ideal en la entrada en calor o en el WOD.",
+      "chips": [
+        {
+          "label": "1 · SENTADILLA",
+          "at": 0.5
+        },
+        {
+          "label": "2 · LANZÁ",
+          "at": 1.2
+        },
+        {
+          "label": "3 · RECIBÍ",
+          "at": 1.9
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "SQUAT",
+              0.7
+            ],
+            [
+              "DRIVE",
+              0.35
+            ],
+            [
+              "THROW",
+              0.35
+            ],
+            [
+              "CATCH",
+              0.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "name": "Wall Ball Shot",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 18,
+      "fa": 136,
+      "ua2": 14,
+      "fa2": 140
+    },
+    "SQUAT": {
+      "s": 36,
+      "t": -108,
+      "b": 34,
+      "hd": 18,
+      "g": 0,
+      "ua": -16,
+      "fa": 136,
+      "ua2": -20,
+      "fa2": 140
+    },
+    "DRIVE": {
+      "s": 0,
+      "t": 0,
+      "b": -4,
+      "hd": -8,
+      "g": 1,
+      "hb": 1,
+      "hx": 150,
+      "hy": -90,
+      "ed": 1
+    },
+    "THROW": {
+      "s": 0,
+      "t": 0,
+      "b": -4,
+      "hd": -14,
+      "g": 0,
+      "hb": 1,
+      "ua": 162,
+      "fa": 0,
+      "ua2": 158,
+      "fa2": 0,
+      "bf": 1,
+      "bx": 470,
+      "by": -1430
+    },
+    "CATCH": {
+      "s": 0,
+      "t": 0,
+      "b": -3,
+      "hd": -10,
+      "g": 1,
+      "hb": 1,
+      "hx": 150,
+      "hy": -120,
+      "ed": 1
+    }
+  },
+  "rig": {
+    "x": 330,
+    "y": 1508,
+    "scale": 0.7
+  },
+  "props": [
+    {
+      "type": "wallball",
+      "off": [
+        26,
+        -58
+      ],
+      "wallX": 560,
+      "target": -1430,
+      "r": 62
+    }
+  ],
+  "initialPose": "STAND",
+  "revisado": false,
+  "notas": "",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Piernas",
+    "Hombros",
+    "Cardio"
+  ],
+  "descripcion": "Sentadilla completa con balón medicinal lanzándolo hacia una marca en la pared (target 3 m / 10 ft). Recibir el balón y repetir sin pausa.",
+  "music": true,
+  "musicVolume": 0.18,
+  "miniatura": {
+    "pose": "THROW",
+    "grip": 0,
+    "zoom": 1.0,
+    "dy": 60
+  },
+  "youtube": {
+    "titulo": "Wall Ball Shot 🎯 Sentadilla + lanzamiento bien hecho paso a paso | CrossFit",
+    "tags": [
+      "wall ball shot",
+      "wall ball",
+      "wall balls crossfit",
+      "lanzamiento de balón medicinal",
+      "sentadilla con balón",
+      "balón medicinal",
+      "crossfit",
+      "wod",
+      "técnica wall ball",
+      "piernas",
+      "hombros"
+    ],
+    "descripcion": "🎯 WALL BALL SHOT — Sentadilla y lanzamiento a la pared: piernas, hombros y cardio\n\n¿Los wall balls te queman los hombros antes que las piernas? Es porque estás tirando con los brazos. Aprendé a lanzar con la cadera y vas a aguantar muchas más repeticiones. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate a un paso de la pared, con el balón a la altura del pecho y los codos debajo.\n2️⃣ Bajá a una sentadilla completa, con el peso en los talones y el pecho arriba.\n3️⃣ Salí explosivo extendiendo cadera y piernas. Recién ahí empujá con los brazos.\n4️⃣ Lanzá el balón hacia la marca de la pared, a tres metros, con los brazos bien extendidos.\n5️⃣ Recibí el balón arriba y bajá directo a la próxima sentadilla, sin pausa.\n\n✅ CLAVES DE TÉCNICA\n• Balón a la altura del pecho, codos debajo\n• Sentadilla completa, con el peso en los talones\n• Salí explosivo extendiendo cadera y piernas; recién ahí empujá con los brazos\n• Apuntá a la marca: 3 m (10 ft) o 2,7 m (9 ft) según la categoría\n• Recibí el balón arriba y bajá directo a la próxima sentadilla\n• Sin pausa: el ritmo lo marca la respiración\n\n🎯 QUÉ TRABAJA\nCuádriceps · Glúteo mayor · Deltoides anterior · Tríceps braquial · Core\n\n⏱️ CUÁNTO\n20 repeticiones con balón de 9 kg (o el que marque el WOD). En la entrada en calor con balón liviano o dentro del WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi recién empezás, usá un balón liviano (4 a 6 kg) y una marca más baja hasta dominar la técnica.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #WallBall #Sentadilla #Entrenamiento"
+  }
+}

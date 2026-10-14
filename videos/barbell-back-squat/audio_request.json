@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Barbell Back Squat: la sentadilla con barra, la base de la fuerza de piernas. Aprendé a hacerla bien."
+    },
+    {
+      "id": "02",
+      "text": "Apoyá la barra en el trapecio, con los codos abajo, el pecho arriba y los pies al ancho de los hombros."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Inspirá profundo y braceá: abdomen firme, como si te fueran a pegar en la panza."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá llevando la cadera atrás y abajo, con las rodillas en la línea de los pies y los talones apoyados."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Bajá hasta romper el paralelo: la cadera queda un poco más abajo que la rodilla."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Subí empujando el piso, con la cadera y el pecho a la vez, hasta extender completo."
+    },
+    {
+      "id": "07",
+      "text": "Claves: codos abajo y pecho arriba, braceá antes de bajar, rodillas siguiendo los pies y talones siempre apoyados."
+    },
+    {
+      "id": "08",
+      "text": "Cuatro repeticiones pesadas, descansando bien entre series. Primero la técnica, después los kilos."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

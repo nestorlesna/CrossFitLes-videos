@@ -51,11 +51,20 @@ Problemas encontrados al generar videos, cómo se resolvieron y qué conviene ha
 | 10-13 | seated-quad-stretch | `hip + ankle` con el pie junto a la cadera pone la rodilla arriba, no adelante | pierna en "héroe" con ángulos: `hip [-100,-30], s 86, t -84, ft 178`; de sentado a héroe con `cut` |
 | 10-13 | seated-forward-fold | Manos con target cerca del hombro → brazos doblados raros | target de manos lejos, más allá de los pies (`hx 360`), así el IK los deja rectos |
 | 10-13 | standing-biceps | Overlay con `{ "j": "POSE.W" }` en una pose sin agarre cae en otro lado (el overlay calcula las manos con `g 1`) | con brazos libres (`g 0`), poner la posición absoluta `[x, y]` |
+| 10-14 | kb-good-morning / back-squat / wall-ball | Primeros implementos sostenidos (kettlebell, barra, balón) | props `kettlebell`, `barbell` (disco de costado, gris, encima del cuerpo como en la imagen de referencia), `wallball` (pared + marca; balón libre con `bf/bx/by`) |
+| 10-14 | kb-good-morning | Con agarre IK (`g 1`) el codo del goblet subía hacia adelante | brazos libres relativos al torso: `ua = -b + 12, fa = 142` (el agarre sigue al tronco en la bisagra) |
+| 10-14 | barbell-back-squat | Con IK la mano asomaba por detrás del disco y el codo quedaba arriba en el fondo | barra fija al torso (`torso [-34, 18]`) y brazos libres `ua = -b - 12, fa = 178` (mano escondida detrás del disco) |
+| 10-14 | (overlays) | `{ "j": "POSE.W/E" }` con brazos libres cae en otro lado (el overlay calcula manos con `g 1`) | ring/label de codos o pesa con posición absoluta (calcular con los ángulos) |
+| 10-14 | burpee-broad-jump | Burpee + salto: el cuerpo ocupa ~1400 px de rig de punta a punta y se salía del cuadro | rig `{580, 1511, 0.62}`, plancha en `hip [-290,-240]`, aterrizaje en `hip [290,-330]`; entre reps `cut` a STAND (si no, "camina para atrás") |
+| 10-14 | burpee-broad-jump | Pecho al piso con agarre: los brazos atravesaban el piso | brazos libres `ua -120, fa 168` (codos arriba, manos al lado del pecho) |
+| 10-14 | (todos) | 4 `make-exercise` en paralelo con una versión nueva de hyperframes → `npm ECOMPROMISED` (lock de npx) | correr uno solo primero (descarga la versión), después los demás en paralelo |
+| 10-14 | wall-ball-shot | La pared (prop) cruzaba la lista de la escena de claves | las piezas de escenografía llevan `class="prop-scenery"` y el runtime las desvanece en `kind: "keys"` |
+| 10-14 | burpee-broad-jump | Daniela no pronuncia claro "Burpee Broad Jump" | `pronuncia` (reemplazo solo para la voz) + `voSpeed: 0.88` en la portada; el profe eligió "Burpii, brod champ" entre 13 pruebas |
 
 ## Pendientes / ideas
 
-- Implementos a dibujar antes de los próximos de la lista: barra olímpica, mancuernas, kettlebell, cajón, wall ball,
-  barra de dominadas, bandas (ver columna Implemento del CHECKLIST). Assault bike y SkiErg vienen pronto en la lista.
+- Implementos a dibujar antes de los próximos de la lista: mancuernas, cajón,
+  barra de dominadas, bandas (barra, kettlebell y wall ball ya están, 10-14) (ver columna Implemento del CHECKLIST). Assault bike y SkiErg vienen pronto en la lista.
 - Vista de frente no existe: elegir siempre la vista lateral que mejor muestre el movimiento (rotaciones y aperturas
   laterales —ej. estiramientos de tríceps, muñeca— se leen mal de costado: resolverlo con overlays y texto).
 - Ejercicios con un brazo agarrando y el otro libre (estiramiento de cuádriceps de pie): falta `g2` (agarre independiente del lado lejano).

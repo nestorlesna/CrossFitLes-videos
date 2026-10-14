@@ -1,0 +1,547 @@
+{
+  "slug": "burpee-broad-jump",
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "BURPEE",
+        "BROAD JUMP"
+      ],
+      "vo": "Burpee Broad Jump: burpee más salto largo. Pura potencia de piernas y cardio.",
+      "moves": [
+        {
+          "to": "DOWN",
+          "at": 0.8,
+          "dur": 0.4
+        },
+        {
+          "to": "PLANK",
+          "at": 1.2,
+          "dur": 0.35
+        },
+        {
+          "to": "CHEST",
+          "at": 1.55,
+          "dur": 0.35
+        },
+        {
+          "to": "PLANK",
+          "at": 1.9,
+          "dur": 0.35
+        },
+        {
+          "to": "DOWN",
+          "at": 2.25,
+          "dur": 0.35
+        },
+        {
+          "to": "LOAD",
+          "at": 2.6,
+          "dur": 0.3
+        },
+        {
+          "to": "FLIGHT",
+          "at": 2.9,
+          "dur": 0.3
+        },
+        {
+          "to": "LAND",
+          "at": 3.2,
+          "dur": 0.3
+        }
+      ],
+      "voSpeed": 0.88
+    },
+    {
+      "min": 4.6,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE"
+      ],
+      "sub": "Pies al ancho de la cadera",
+      "vo": "Arrancá de pie, con los pies al ancho de la cadera y la vista adelante.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "MANOS",
+        "AL PISO"
+      ],
+      "sub": "Y saltá atrás a plancha",
+      "vo": "Paso uno. Apoyá las manos en el piso y saltá con los pies atrás hasta la plancha.",
+      "moves": [
+        {
+          "to": "DOWN",
+          "at": 0.5,
+          "dur": 0.8
+        },
+        {
+          "to": "PLANK",
+          "at": 1.6,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "from": {
+            "j": "PLANK.A",
+            "dx": 0,
+            "dy": -40
+          },
+          "to": {
+            "j": "PLANK.S",
+            "dx": 0,
+            "dy": -40
+          },
+          "at": 2.4,
+          "solid": true,
+          "width": 8
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "PLANK.H",
+            "dx": 0,
+            "dy": -170
+          },
+          "text": "CUERPO RECTO",
+          "anchor": "middle",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "PECHO",
+        "AL PISO"
+      ],
+      "sub": "Y volvé a la plancha",
+      "vo": "Paso dos. Bajá el pecho hasta el piso y volvé a la plancha empujando.",
+      "moves": [
+        {
+          "to": "CHEST",
+          "at": 0.5,
+          "dur": 0.8
+        },
+        {
+          "to": "PLANK",
+          "at": 2.6,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "CHEST.S",
+            "dx": 30,
+            "dy": 0
+          },
+          "r": 55,
+          "at": 1.2,
+          "out": 2.5
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "CHEST.S",
+            "dx": 0,
+            "dy": -330
+          },
+          "text": "PECHO AL PISO",
+          "anchor": "middle",
+          "at": 1.4,
+          "out": 2.5
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "PIES A",
+        "LAS MANOS"
+      ],
+      "sub": "Cargá para saltar",
+      "vo": "Paso tres. Llevá los pies cerca de las manos y cargá: cadera atrás y brazos atrás.",
+      "moves": [
+        {
+          "to": "DOWN",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "LOAD",
+          "at": 1.6,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "LOAD.S",
+            "dx": -80,
+            "dy": -150
+          },
+          "text": "BRAZOS ATRÁS",
+          "anchor": "end",
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "SALTÁ",
+        "ADELANTE"
+      ],
+      "sub": "Aterrizá suave",
+      "vo": "Paso cuatro. Saltá lo más lejos que puedas con los dos pies y aterrizá suave, flexionando rodillas y cadera.",
+      "moves": [
+        {
+          "to": "FLIGHT",
+          "at": 0.6,
+          "dur": 0.45
+        },
+        {
+          "to": "LAND",
+          "at": 1.05,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": {
+            "j": "LOAD.H",
+            "dx": 0,
+            "dy": -300
+          },
+          "to": {
+            "j": "LAND.H",
+            "dx": 0,
+            "dy": -300
+          },
+          "at": 0.5,
+          "dur": 1.0,
+          "bend": [
+            0,
+            -160
+          ]
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "LAND.H",
+            "dx": -40,
+            "dy": -480
+          },
+          "text": "ATERRIZÁ SUAVE",
+          "anchor": "middle",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Pecho al piso en cada burpee",
+        "Saltá con los dos pies",
+        "Extendé la cadera en el aire",
+        "Aterrizá amortiguando"
+      ],
+      "vo": "Claves: pecho al piso, salto con los dos pies extendiendo la cadera, y aterrizaje suave con rodillas y cadera.",
+      "moves": [
+        {
+          "cut": "LOAD",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "12 METROS"
+      ],
+      "sub": "Sin pausa entre reps",
+      "vo": "Avanzá doce metros encadenando burpee y salto, sin pausa. Un clásico de los WODs.",
+      "chips": [
+        {
+          "label": "1 · BURPEE",
+          "at": 0.5
+        },
+        {
+          "label": "2 · SALTO",
+          "at": 2.4
+        }
+      ],
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.5,
+          "dur": 0.4
+        },
+        {
+          "to": "PLANK",
+          "at": 0.9,
+          "dur": 0.35
+        },
+        {
+          "to": "CHEST",
+          "at": 1.25,
+          "dur": 0.35
+        },
+        {
+          "to": "PLANK",
+          "at": 1.6,
+          "dur": 0.35
+        },
+        {
+          "to": "DOWN",
+          "at": 1.95,
+          "dur": 0.35
+        },
+        {
+          "to": "LOAD",
+          "at": 2.3,
+          "dur": 0.3
+        },
+        {
+          "to": "FLIGHT",
+          "at": 2.6,
+          "dur": 0.3
+        },
+        {
+          "to": "LAND",
+          "at": 2.9,
+          "dur": 0.3
+        },
+        {
+          "cut": "STAND",
+          "at": 3.45
+        },
+        {
+          "to": "DOWN",
+          "at": 3.75,
+          "dur": 0.4
+        },
+        {
+          "to": "PLANK",
+          "at": 4.15,
+          "dur": 0.35
+        },
+        {
+          "to": "CHEST",
+          "at": 4.5,
+          "dur": 0.35
+        },
+        {
+          "to": "PLANK",
+          "at": 4.85,
+          "dur": 0.35
+        },
+        {
+          "to": "DOWN",
+          "at": 5.2,
+          "dur": 0.35
+        },
+        {
+          "to": "LOAD",
+          "at": 5.55,
+          "dur": 0.3
+        },
+        {
+          "to": "FLIGHT",
+          "at": 5.85,
+          "dur": 0.3
+        },
+        {
+          "to": "LAND",
+          "at": 6.15,
+          "dur": 0.3
+        }
+      ]
+    }
+  ],
+  "name": "Burpee Broad Jump",
+  "poses": {
+    "STAND": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 6,
+      "fa": 6
+    },
+    "DOWN": {
+      "hip": [
+        -60,
+        -170
+      ],
+      "s": 38,
+      "t": -112,
+      "b": 62,
+      "hd": 60,
+      "g": 1,
+      "hx": 100,
+      "hy": 15
+    },
+    "PLANK": {
+      "hip": [
+        -290,
+        -240
+      ],
+      "s": 78,
+      "t": 78,
+      "s2": 78,
+      "t2": 78,
+      "ft": 170,
+      "ft2": 170,
+      "b": 80,
+      "hd": 86,
+      "g": 1,
+      "hx": 10,
+      "hy": 15,
+      "ed": -1
+    },
+    "CHEST": {
+      "hip": [
+        -290,
+        -8
+      ],
+      "s": 90,
+      "t": 90,
+      "s2": 90,
+      "t2": 90,
+      "ft": 175,
+      "ft2": 175,
+      "b": 92,
+      "hd": 72,
+      "g": 0,
+      "ua": -120,
+      "fa": 168,
+      "ua2": -116,
+      "fa2": 166
+    },
+    "LOAD": {
+      "hip": [
+        -20,
+        -330
+      ],
+      "s": 30,
+      "t": -70,
+      "b": 55,
+      "hd": 40,
+      "ua": -50,
+      "fa": 10,
+      "ua2": -45,
+      "fa2": 10
+    },
+    "FLIGHT": {
+      "hip": [
+        150,
+        -620
+      ],
+      "s": -20,
+      "t": -40,
+      "b": 30,
+      "hd": 10,
+      "ua": 150,
+      "fa": 10,
+      "ua2": 145,
+      "fa2": 10
+    },
+    "LAND": {
+      "hip": [
+        290,
+        -330
+      ],
+      "s": 30,
+      "t": -70,
+      "b": 45,
+      "hd": 30,
+      "ua": 35,
+      "fa": 20,
+      "ua2": 30,
+      "fa2": 20
+    }
+  },
+  "rig": {
+    "x": 580,
+    "y": 1511,
+    "scale": 0.62
+  },
+  "initialPose": "STAND",
+  "revisado": false,
+  "notas": "",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Piernas",
+    "Pecho",
+    "Cardio"
+  ],
+  "descripcion": "Burpee seguido de un salto horizontal hacia adelante con ambos pies, aterrizando suave para encadenar la siguiente repetición.",
+  "music": true,
+  "musicVolume": 0.18,
+  "miniatura": {
+    "pose": "FLIGHT",
+    "grip": 0,
+    "zoom": 1.2,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Burpee Broad Jump 🐸 Burpee + salto largo paso a paso | CrossFit",
+    "tags": [
+      "burpee broad jump",
+      "burpee con salto largo",
+      "burpee salto adelante",
+      "burpees",
+      "salto largo",
+      "crossfit",
+      "wod",
+      "pliometría",
+      "cardio",
+      "potencia de piernas",
+      "ejercicio de cuerpo completo"
+    ],
+    "descripcion": "🐸 BURPEE BROAD JUMP — Burpee y salto largo: potencia de piernas y cardio a full\n\n¿Te toca un WOD con burpee broad jumps y terminás tirado a la mitad? Con buena técnica gastás menos energía y avanzás más en cada salto. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Arrancá de pie, con los pies al ancho de la cadera y la vista adelante.\n2️⃣ Apoyá las manos en el piso y saltá con los pies atrás hasta la plancha.\n3️⃣ Bajá el pecho hasta el piso y volvé a la plancha empujando.\n4️⃣ Llevá los pies cerca de las manos y cargá: cadera atrás y brazos atrás.\n5️⃣ Saltá lo más lejos que puedas con los dos pies y aterrizá suave, flexionando rodillas y cadera.\n\n✅ CLAVES DE TÉCNICA\n• Pecho al piso en cada burpee\n• Pies a las manos y cargá con cadera y brazos atrás\n• Saltá con los dos pies a la vez, hacia adelante\n• Extendé la cadera en el aire\n• Aterrizá suave, amortiguando con rodillas y cadera\n• Encadená sin pausa, a un ritmo que puedas sostener\n\n🎯 QUÉ TRABAJA\nCuádriceps · Glúteo mayor · Gemelos · Pectoral mayor · Core\n\n⏱️ CUÁNTO\n12 metros (o lo que marque el WOD). Va en WODs de cardio y potencia.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés molestias en rodillas, tobillos o espalda baja, empezá con saltos cortos o burpees sin salto, y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #BurpeeBroadJump #Burpees #Entrenamiento"
+  },
+  "pronuncia": {
+    "Burpee Broad Jump": "Burpii, brod champ",
+    "burpee": "burpii",
+    "Burpee": "Burpii"
+  }
+}

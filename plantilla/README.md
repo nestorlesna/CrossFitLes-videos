@@ -165,6 +165,9 @@ Se dibujan en `runtime.js` (bloque PROPS) en coordenadas del rig; las partes mó
 | type | parámetros | qué sigue a qué |
 |---|---|---|
 | `rower` | `foot [x,y]`, `fly [x,y]`, `seatY`, `railY`, `railFrom` | asiento → cadera; cadena y manija → manos |
+| `kettlebell` | `off [dx,dy]` | manija en la mano cercana (+off), la pesa cuelga; se dibuja debajo del brazo cercano |
+| `barbell` | `r` (radio del disco), `off` o `torso [fx, dy]` | disco de costado en la mano (+off) o, con `torso`, fijo al tronco (fx adelante, dy hacia abajo desde el hombro: barra en la espalda `[-34, 18]`); disco cercano encima del cuerpo |
+| `wallball` | `off`, `r`, `wallX`, `target` | balón en las manos (+off); con `bf: 1` en la pose queda libre en `bx, by` (lanzado). Pared en `x = wallX` y marca en `y = target` (px del rig) |
 
 Para agregar uno nuevo (barra, kettlebell, cajón…): sumar un `if (pr.type === "...")` en PROPS con las piezas fijas en
 `propBack` y un `propUpdates.push((n, f) => …)` para lo que se mueve (n = articulaciones del lado cercano, f = lejano).
@@ -192,6 +195,9 @@ Vista lateral mirando a la derecha. Ángulos en grados:
 - `lr`: las dos piernas caen al costado (grados, 0–90): escorzo de cadera→rodilla→tobillo (torsión acostado). `al`: largo del brazo libre (1 = normal, ~0,15 = brazo que apunta a la cámara, ej. brazos en T acostado).
 - `ft ft2`: rotación de los pies. `rx ry`: desplaza todo el cuerpo (px del rig; el tobillo cercano está en 0,0, el piso en y=+34).
 - Con `grip` = 1 las manos van al punto `hx, hy` (default la punta del pie: 70, -20). `"g": 0|1` dentro de la pose = agarre propio de esa pose.
+- `hb: 1` — el punto de agarre `hx, hy` se mide desde el hombro en el marco del torso (hx adelante, hy hacia abajo por el torso): el agarre acompaña al tronco.
+- Sostener un implemento contra el cuerpo (goblet, barra en la espalda, balón al pecho): mejor brazos libres `g 0` con ángulos relativos al torso:
+  goblet `ua = -b + 12, fa = 142`; barra atrás `ua = -b - 12, fa = 178`; balón `ua = -b + 18, fa = 136` (ver `kettlebell-good-morning-to-squat`, `barbell-back-squat`, `wall-ball-shot`).
 - `ed`: hacia dónde se dobla el codo cuando hay agarre (`1` adelante, `-1` atrás: remo, tirones, dominadas).
 - **`hip: [x, y]`** — ubica la cadera ahí y calcula `rx/ry` (posiciones en el piso: el tobillo ya no manda).
 - **`hip` + `ankle: [x, y]`** — pie fijo y cadera ubicada: calcula `s/t` solo (IK, rodilla arriba/adelante; `"knee": "back"` la invierte).
@@ -225,7 +231,7 @@ Puntos de partida para otras (ajustar con snapshots): sentadilla paralela `s 30,
 
 ### Límites actuales
 
-- Un solo personaje, vista lateral. Implementos: solo `rower` por ahora; el resto (barra, pesas, cajón…) hay que agregarlo en PROPS de `plantilla/runtime.js`.
+- Un solo personaje, vista lateral. Implementos: `rower`, `kettlebell`, `barbell`, `wallball`; el resto (mancuernas, cajón, barra de dominadas…) hay que agregarlo en PROPS de `plantilla/runtime.js`.
 - Voz: ver sección **Voz** abajo.
 
 ## Voz
@@ -234,6 +240,9 @@ Desde 2026-10-12 la voz en off es **Piper** (local, gratis) con **Daniela, es_AR
 - Instalar en una PC nueva: `python -m pip install piper-tts` y bajar el modelo (no está en git, 114 MB):
   `https://huggingface.co/rhasspy/piper-voices/resolve/main/es/es_AR/daniela/high/es_AR-daniela-high.onnx` (+ `.onnx.json`) a `plantilla/voces-piper/`.
 - Licencia CC BY-SA 4.0: el crédito ("🎙️ Voz: Daniela…") se agrega solo al exportar `salida/<slug>.youtube.txt`.
-- `voiceSpeed` > 1 acelera. Kokoro sigue disponible con `"voiceProvider": "kokoro"`.
+- `voiceSpeed` > 1 acelera. Por escena, `"voSpeed": 0.88` cambia solo la velocidad de esa línea.
+- Nombres en inglés que Daniela lee mal: `"pronuncia": { "Burpee Broad Jump": "Burpii, brod champ", "burpee": "burpii" }`
+  en la ficha. Reemplaza solo en el texto que se sintetiza; el subtítulo sigue mostrando el nombre real. Probar variantes
+  antes con `python plantilla/piper-tts.py` en `videos/_pruebas-voz/<slug>/` (carpeta ignorada por git). Kokoro sigue disponible con `"voiceProvider": "kokoro"`.
 - Edge TTS (voces es-AR Tomás/Elena) quedó descartado: Microsoft devuelve 403 desde oct-2026.
 - `index.html` se regenera siempre: los cambios van en la ficha, no en el HTML.
