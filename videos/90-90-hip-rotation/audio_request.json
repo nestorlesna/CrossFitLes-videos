@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Noventa noventa, rotación de cadera: movilidad de cadera para llegar más profundo en la sentadilla."
+    },
+    {
+      "id": "02",
+      "text": "Sentate en el piso con las dos rodillas a noventa grados: una pierna adelante y la otra al costado."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Apoyá las manos atrás y llevá el pecho alto, con la espalda recta."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Levantá las rodillas y llevalas juntas al otro lado, como un limpiaparabrisas."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Volvé al primer lado. El movimiento es activo: lo hacen tus músculos, sin forzar."
+    },
+    {
+      "id": "06",
+      "text": "Claves: espalda recta, rodillas siempre a noventa grados y un movimiento activo, controlado, sin forzar."
+    },
+    {
+      "id": "07",
+      "text": "Treinta segundos yendo de lado a lado. Ideal en la entrada en calor, antes de la sentadilla."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

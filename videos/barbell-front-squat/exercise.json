@@ -1,0 +1,442 @@
+{
+  "slug": "barbell-front-squat",
+  "name": "Barbell Front Squat",
+  "initialPose": "STAND",
+  "props": [
+    {
+      "type": "barbell",
+      "torso": [
+        60,
+        30
+      ],
+      "r": 72
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 88,
+      "fa": 176,
+      "ua2": 92,
+      "fa2": 172
+    },
+    "BRACE": {
+      "s": 0,
+      "t": 0,
+      "b": 2,
+      "hd": -4,
+      "g": 0,
+      "ua": 90,
+      "fa": 176,
+      "ua2": 94,
+      "fa2": 172
+    },
+    "HALF": {
+      "s": 20,
+      "t": -52,
+      "b": 12,
+      "hd": 4,
+      "g": 0,
+      "ua": 76,
+      "fa": 176,
+      "ua2": 80,
+      "fa2": 172
+    },
+    "BOTTOM": {
+      "s": 40,
+      "t": -112,
+      "b": 20,
+      "hd": 8,
+      "g": 0,
+      "ua": 68,
+      "fa": 176,
+      "ua2": 72,
+      "fa2": 172
+    },
+    "ELBOWS_DOWN": {
+      "s": 34,
+      "t": -100,
+      "b": 42,
+      "hd": 30,
+      "g": 0,
+      "ua": 18,
+      "fa": 150,
+      "ua2": 22,
+      "fa2": 146
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "FRONT",
+        "SQUAT"
+      ],
+      "vo": "Barbell Front Squat: la sentadilla con la barra adelante. Torso vertical y codos bien altos.",
+      "moves": [
+        {
+          "to": "HALF",
+          "at": 1.0,
+          "dur": 0.8
+        },
+        {
+          "to": "BOTTOM",
+          "at": 1.8,
+          "dur": 0.7
+        },
+        {
+          "to": "HALF",
+          "at": 2.9,
+          "dur": 0.6
+        },
+        {
+          "to": "STAND",
+          "at": 3.5,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 4.8,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "RACK",
+        "FRONTAL"
+      ],
+      "sub": "Barra sobre los hombros",
+      "vo": "Apoyá la barra adelante, sobre los hombros, con los codos bien altos y los pies al ancho de los hombros.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            700,
+            800
+          ],
+          "text": "EN LOS HOMBROS",
+          "anchor": "start",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            612,
+            878
+          ],
+          "r": 42,
+          "at": 2.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            690,
+            920
+          ],
+          "text": "CODOS ALTOS",
+          "anchor": "start",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "INSPIRÁ",
+        "Y BRACEÁ"
+      ],
+      "sub": "Abdomen firme",
+      "vo": "Paso uno. Inspirá profundo y braceá, con el abdomen firme y el pecho arriba.",
+      "moves": [
+        {
+          "to": "BRACE",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "BRACE.H",
+            "dx": 20,
+            "dy": -120
+          },
+          "r": 64,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "BRACE.H",
+            "dx": 110,
+            "dy": -110
+          },
+          "text": "ABDOMEN FIRME",
+          "anchor": "start",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "BAJÁ",
+        "DERECHO"
+      ],
+      "sub": "Torso vertical",
+      "vo": "Paso dos. Bajá con el torso bien vertical y las rodillas hacia afuera, hasta la sentadilla completa.",
+      "moves": [
+        {
+          "to": "HALF",
+          "at": 0.5,
+          "dur": 1.2
+        },
+        {
+          "to": "BOTTOM",
+          "at": 1.7,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "from": {
+            "j": "BOTTOM.H",
+            "dx": 0,
+            "dy": 0
+          },
+          "to": {
+            "j": "BOTTOM.N",
+            "dx": 0,
+            "dy": -60
+          },
+          "color": "ink",
+          "width": 6,
+          "at": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            370,
+            1230
+          ],
+          "text": "TORSO VERTICAL",
+          "anchor": "end",
+          "at": 2.9
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "CODOS",
+        "ARRIBA"
+      ],
+      "sub": "Si caen, perdés la barra",
+      "vo": "Paso tres. Codos arriba todo el recorrido: si caen, el pecho se va al piso y perdés la barra.",
+      "moves": [
+        {
+          "to": "BOTTOM",
+          "at": 0.2,
+          "dur": 0.5
+        },
+        {
+          "to": "ELBOWS_DOWN",
+          "at": 1.6,
+          "dur": 0.8
+        },
+        {
+          "to": "BOTTOM",
+          "at": 3.6,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            780,
+            1150
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 2.0,
+          "out": 3.5
+        },
+        {
+          "type": "label",
+          "pos": [
+            780,
+            1150
+          ],
+          "text": "ASÍ SÍ",
+          "anchor": "middle",
+          "at": 4.0
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "SUBÍ"
+      ],
+      "sub": "Empujá el piso",
+      "vo": "Paso cuatro. Subí empujando el piso, guiando con los codos, hasta extender completo.",
+      "moves": [
+        {
+          "to": "HALF",
+          "at": 0.5,
+          "dur": 0.9
+        },
+        {
+          "to": "STAND",
+          "at": 1.4,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            760,
+            1300
+          ],
+          "to": [
+            760,
+            960
+          ],
+          "at": 0.5,
+          "dur": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            800,
+            900
+          ],
+          "text": "CODOS GUÍAN",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.5,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Codos bien altos",
+        "Torso vertical",
+        "Rodillas hacia afuera",
+        "Sentadilla completa"
+      ],
+      "vo": "Claves: codos altos, torso vertical, rodillas hacia afuera y sentadilla completa antes de subir.",
+      "moves": [
+        {
+          "to": "BOTTOM",
+          "at": 0.3,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "4 REPS"
+      ],
+      "sub": "Con técnica perfecta",
+      "vo": "Cuatro repeticiones, descansando bien entre series. Primero la posición, después los kilos.",
+      "chips": [
+        {
+          "label": "1 · BRACEÁ",
+          "at": 0.5
+        },
+        {
+          "label": "2 · BAJÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SUBÍ",
+          "at": 2.4
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "BRACE",
+              0.6
+            ],
+            [
+              "BOTTOM",
+              1.3
+            ],
+            [
+              "STAND",
+              1.1
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "music": true,
+  "musicVolume": 0.18,
+  "revisado": false,
+  "notas": "",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Cuádriceps",
+    "Glúteos",
+    "Core"
+  ],
+  "descripcion": "Sentadilla completa con barra en rack frontal. Exige torso vertical y movilidad de muñeca y tobillo.",
+  "miniatura": {
+    "pose": "BOTTOM",
+    "grip": 0,
+    "zoom": 1.2
+  },
+  "youtube": {
+    "titulo": "Barbell Front Squat 🏋️ Sentadilla frontal con barra bien hecha paso a paso | CrossFit",
+    "descripcion": "🏋️ BARBELL FRONT SQUAT — La sentadilla frontal con barra, torso vertical y codos altos\n\n¿Se te cae la barra hacia adelante o el pecho se te va al piso cuando bajás? En la sentadilla frontal todo pasa por los codos y el torso. Este video es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Apoyá la barra adelante, sobre los hombros, con los codos bien altos y los pies al ancho de los hombros.\n2️⃣ Inspirá profundo y braceá, con el abdomen firme y el pecho arriba.\n3️⃣ Bajá con el torso bien vertical y las rodillas hacia afuera, hasta la sentadilla completa.\n4️⃣ Codos arriba todo el recorrido: si caen, el pecho se va al piso y perdés la barra.\n5️⃣ Subí empujando el piso, guiando con los codos, hasta extender completo.\n\n✅ CLAVES DE TÉCNICA\n• Codos bien altos durante todo el recorrido\n• Torso vertical\n• Rodillas hacia afuera, siguiendo la línea de los pies\n• Sentadilla completa antes de subir\n• Si te cuesta el rack, trabajá la movilidad de muñeca y tobillo\n\n🎯 QUÉ TRABAJA\nCuádriceps · Glúteo mayor · Erectores espinales · Core\n\n⏱️ CUÁNTO\n4 repeticiones con buena técnica y descanso completo entre series. Bloque de fuerza o dentro del WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste sentadilla frontal, empezá con la barra sola o con poco peso, en un rack con seguros y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Fuerza #FrontSquat #Sentadilla #Entrenamiento",
+    "tags": [
+      "barbell front squat",
+      "front squat",
+      "sentadilla frontal",
+      "sentadilla frontal con barra",
+      "rack frontal",
+      "codos altos",
+      "crossfit",
+      "fuerza de piernas",
+      "técnica de sentadilla",
+      "cuádriceps",
+      "levantamiento"
+    ]
+  }
+}

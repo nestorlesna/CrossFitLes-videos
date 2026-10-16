@@ -47,7 +47,7 @@ Separador `;`, UTF-8 con BOM. La `clave` es el slug del video. Las columnas que 
 | `node plantilla/make-exercise.mjs <slug> --render` | lo anterior + render y copia a `salida/<slug>.mp4` |
 | `node plantilla/make-exercise.mjs --checklist` | regenera `CHECKLIST.md` (toda la lista del CSV) y los `salida/*.youtube.txt` |
 | `node plantilla/make-exercise.mjs <slug> --miniatura` | solo regenera `salida/<slug>.miniatura.png` (rápido, sin voz ni render) |
-| `node plantilla/pose-lab.mjs <slug> [A,B]` | dibuja todas (o algunas) poses de la ficha en `videos/_poselab/snapshots/contact-sheet.jpg` — **usarlo antes de escribir las escenas** |
+| `node plantilla/pose-lab.mjs <slug> [A,B]` | dibuja todas (o algunas) poses de la ficha en `videos/_poselab/<slug>/snapshots/contact-sheet.jpg` (se pueden correr varios a la vez) — **usarlo antes de escribir las escenas** |
 | `node plantilla/make-exercise.mjs <slug> --info` | muestra la fila del CSV de ese ejercicio |
 | `npx hyperframes preview` (dentro de `videos/<slug>`) | revisar en el Studio |
 
@@ -132,6 +132,7 @@ del ejercicio (no la de pie). Se arma en `videos/<slug>/miniatura/` con `buildIn
 | `min` | duración mínima (s). La real = máx(min, voz + 1 s, última acción + 0,45 s) |
 | `numeral` | número gigante decorativo ("1".."4") |
 | `stance: true` | tarjeta "vista de arriba" con los pies (`stanceLabel` cambia el texto) |
+| `topview` con `"mode": "9090"` | tarjeta "vista de arriba" sentado en 90/90; `at` = momento en que las piernas cambian de lado (espejo), `from: -1` arranca espejado, `at: null` = quieta |
 | `topview` | tarjeta "vista de arriba" acostado boca arriba, brazos en T, piernas que giran al costado: `{ "angle": -62, "at", "dur", "back"?, "label" }` (`back` = vuelve y cae al otro lado). Torsiones en el piso |
 | `keys` | lista de claves (strings, o `{ "text", "at" }`) |
 | `chips` | `[{ "label": "1 · FLEXIONÁ", "at": 2.6 }]` se iluminan a ese tiempo |
@@ -168,6 +169,8 @@ Se dibujan en `runtime.js` (bloque PROPS) en coordenadas del rig; las partes mó
 | `kettlebell` | `off [dx,dy]` | manija en la mano cercana (+off), la pesa cuelga; se dibuja debajo del brazo cercano |
 | `barbell` | `r` (radio del disco), `off` o `torso [fx, dy]` | disco de costado en la mano (+off) o, con `torso`, fijo al tronco (fx adelante, dy hacia abajo desde el hombro: barra en la espalda `[-34, 18]`); disco cercano encima del cuerpo |
 | `wallball` | `off`, `r`, `wallX`, `target` | balón en las manos (+off); con `bf: 1` en la pose queda libre en `bx, by` (lanzado). Pared en `x = wallX` y marca en `y = target` (px del rig) |
+| `airbike` | `crank`, `fan`, `fanR`, `pivot`, `seat` | cuadro y ventilador fijos; bielas del centro `crank` a cada tobillo (pedal bajo la zapatilla), manijas de `pivot` a cada mano; el ventilador gira con la biela cercana. Poses con `hip` + `ankle` + `ankle2` y `g2` (ver `assault-bike`) |
+| `pullupbar` | `bar [x,y]`, `postX` | barra vista de punta en `bar` (encima de las manos) + viga y parante atrás. Colgado: manos `g 1` en la barra, cadera calculada para que el hombro quede a ≤ 330 px (ver `hanging-toes-to-bar`) |
 
 Para agregar uno nuevo (barra, kettlebell, cajón…): sumar un `if (pr.type === "...")` en PROPS con las piezas fijas en
 `propBack` y un `propUpdates.push((n, f) => …)` para lo que se mueve (n = articulaciones del lado cercano, f = lejano).
@@ -198,6 +201,9 @@ Vista lateral mirando a la derecha. Ángulos en grados:
 - `hb: 1` — el punto de agarre `hx, hy` se mide desde el hombro en el marco del torso (hx adelante, hy hacia abajo por el torso): el agarre acompaña al tronco.
 - Sostener un implemento contra el cuerpo (goblet, barra en la espalda, balón al pecho): mejor brazos libres `g 0` con ángulos relativos al torso:
   goblet `ua = -b + 12, fa = 142`; barra atrás `ua = -b - 12, fa = 178`; balón `ua = -b + 18, fa = 136` (ver `kettlebell-good-morning-to-squat`, `barbell-back-squat`, `wall-ball-shot`).
+- **`g2`** (≥ 0): agarre propio del brazo lejano hacia `hx2, hy2` (codo `ed2`); `-1` (default) = sigue a `g`. Una mano agarra y la otra queda libre, o cada mano en su manija (assault bike).
+- **`ankle2`** (con `hip` + `ankle`): IK de la pierna lejana desde la misma cadera (cada pie en su pedal).
+- **`wr` / `wr2`** + `"fingers": true` en la ficha: dedos dibujados y ángulo de muñeca (−80 = dedos al piso con el brazo al frente). Ver `wrist-extensor-stretch`.
 - `ed`: hacia dónde se dobla el codo cuando hay agarre (`1` adelante, `-1` atrás: remo, tirones, dominadas).
 - **`hip: [x, y]`** — ubica la cadera ahí y calcula `rx/ry` (posiciones en el piso: el tobillo ya no manda).
 - **`hip` + `ankle: [x, y]`** — pie fijo y cadera ubicada: calcula `s/t` solo (IK, rodilla arriba/adelante; `"knee": "back"` la invierte).
@@ -231,7 +237,7 @@ Puntos de partida para otras (ajustar con snapshots): sentadilla paralela `s 30,
 
 ### Límites actuales
 
-- Un solo personaje, vista lateral. Implementos: `rower`, `kettlebell`, `barbell`, `wallball`; el resto (mancuernas, cajón, barra de dominadas…) hay que agregarlo en PROPS de `plantilla/runtime.js`.
+- Un solo personaje, vista lateral. Implementos: `rower`, `kettlebell`, `barbell`, `wallball`, `airbike`, `pullupbar`; el resto (mancuernas, cajón, barra de dominadas…) hay que agregarlo en PROPS de `plantilla/runtime.js`.
 - Voz: ver sección **Voz** abajo.
 
 ## Voz

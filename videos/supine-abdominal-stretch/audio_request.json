@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Supáin abdóminal strech: estirá toda la parte de adelante del cuerpo, de las manos a los pies."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba, con las piernas estiradas y los brazos al costado del cuerpo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Llevá los brazos por encima de la cabeza y apoyalos en el piso, bien estirados."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Estirate largo: empujá las manos hacia atrás y las puntas de los pies hacia adelante."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Respirá profundo y dejá que la zona lumbar haga un arco suave, sin forzar."
+    },
+    {
+      "id": "06",
+      "text": "Claves: estirate largo y respirá profundo. Si te molesta la lumbar, llevá un poco la pelvis hacia atrás."
+    },
+    {
+      "id": "07",
+      "text": "Mantené treinta segundos respirando lento. Ideal para la vuelta a la calma."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

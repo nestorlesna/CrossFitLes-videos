@@ -1,0 +1,351 @@
+{
+  "slug": "supine-abdominal-stretch",
+  "name": "Supine Abdominal Stretch",
+  "rig": {
+    "x": 560,
+    "y": 1504,
+    "scale": 0.8
+  },
+  "initialPose": "LIE",
+  "poses": {
+    "LIE": {
+      "hip": [
+        0,
+        -22
+      ],
+      "s": -90,
+      "t": -90,
+      "ft": -90,
+      "b": -90,
+      "hd": -92,
+      "g": 0,
+      "fa": 0,
+      "ua": 90
+    },
+    "ARMS_UP": {
+      "hip": [
+        0,
+        -22
+      ],
+      "s": -90,
+      "t": -90,
+      "ft": -90,
+      "b": -90,
+      "hd": -92,
+      "g": 0,
+      "fa": 0,
+      "ua": 268
+    },
+    "REACH": {
+      "hip": [
+        0,
+        -22
+      ],
+      "s": -90,
+      "t": -90,
+      "ft": -8,
+      "b": -90,
+      "hd": -96,
+      "g": 0,
+      "fa": 0,
+      "ua": 274
+    },
+    "ARCH": {
+      "hip": [
+        0,
+        -26
+      ],
+      "s": -90,
+      "t": -90,
+      "ft": -8,
+      "b": -84,
+      "hd": -100,
+      "g": 0,
+      "fa": 0,
+      "ua": 274
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · VUELTA A LA CALMA",
+      "head": [
+        "ESTIRAMIENTO",
+        "ABDOMINAL"
+      ],
+      "vo": "Supine Abdominal Stretch: estirá toda la parte de adelante del cuerpo, de las manos a los pies.",
+      "moves": [
+        {
+          "to": "ARMS_UP",
+          "at": 0.9,
+          "dur": 1.4
+        },
+        {
+          "to": "REACH",
+          "at": 2.5,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "min": 4.6,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BOCA",
+        "ARRIBA"
+      ],
+      "sub": "Piernas estiradas",
+      "vo": "Acostate boca arriba, con las piernas estiradas y los brazos al costado del cuerpo.",
+      "moves": [
+        {
+          "cut": "LIE",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1350
+          ],
+          "text": "TODO EL CUERPO APOYADO",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BRAZOS",
+        "ARRIBA"
+      ],
+      "sub": "Por encima de la cabeza",
+      "vo": "Paso uno. Llevá los brazos por encima de la cabeza y apoyalos en el piso, bien estirados.",
+      "moves": [
+        {
+          "to": "ARMS_UP",
+          "at": 0.6,
+          "dur": 1.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            470,
+            1420
+          ],
+          "to": [
+            150,
+            1440
+          ],
+          "bend": [
+            0,
+            -300
+          ],
+          "at": 0.6,
+          "dur": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ESTIRATE",
+        "LARGO"
+      ],
+      "sub": "De las manos a los pies",
+      "vo": "Paso dos. Estirate largo: empujá las manos hacia atrás y las puntas de los pies hacia adelante.",
+      "moves": [
+        {
+          "to": "REACH",
+          "at": 0.5,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            200,
+            1380
+          ],
+          "to": [
+            70,
+            1380
+          ],
+          "at": 1.0,
+          "dur": 0.8
+        },
+        {
+          "type": "arrow",
+          "from": [
+            880,
+            1380
+          ],
+          "to": [
+            1010,
+            1380
+          ],
+          "at": 1.0,
+          "dur": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1330
+          ],
+          "text": "MÁS LARGO",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Arco lumbar suave",
+      "vo": "Paso tres. Respirá profundo y dejá que la zona lumbar haga un arco suave, sin forzar.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "ARCH",
+              1.6
+            ],
+            [
+              "REACH",
+              1.6
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1330
+          ],
+          "text": "INSPIRÁ · SOLTÁ",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.5,
+      "shrink": 1,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Brazos y piernas bien largos",
+        "Respiración profunda",
+        "Arco lumbar suave",
+        "¿Molesta la lumbar? Retroversión"
+      ],
+      "vo": "Claves: estirate largo y respirá profundo. Si te molesta la lumbar, llevá un poco la pelvis hacia atrás.",
+      "moves": [
+        {
+          "to": "REACH",
+          "at": 0.2,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEG"
+      ],
+      "sub": "Respirando lento",
+      "vo": "Mantené treinta segundos respirando lento. Ideal para la vuelta a la calma.",
+      "chips": [
+        {
+          "label": "1 · INSPIRÁ",
+          "at": 0.5
+        },
+        {
+          "label": "2 · ESTIRATE",
+          "at": 2.1
+        },
+        {
+          "label": "3 · SOLTÁ",
+          "at": 3.7
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "ARCH",
+              1.6
+            ],
+            [
+              "REACH",
+              1.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "music": true,
+  "musicVolume": 0.18,
+  "revisado": false,
+  "notas": "Brazos arriba pasan por el techo (ua 90→268) para no atravesar el piso.",
+  "category": "CROSSFIT · VUELTA A LA CALMA",
+  "tags": [
+    "Abdomen",
+    "Pecho",
+    "Brazos"
+  ],
+  "descripcion": "Acostado boca arriba, extender los brazos por encima de la cabeza y estirar el cuerpo completamente, sintiendo el alargamiento desde los dedos de los pies hasta las puntas de los dedos de las manos. Permitir una ligera extensión lumbar.",
+  "pronuncia": {
+    "Supine Abdominal Stretch": "Supáin abdóminal strech"
+  },
+  "miniatura": {
+    "pose": "REACH",
+    "grip": 0,
+    "zoom": 1.0,
+    "dy": 60
+  },
+  "youtube": {
+    "titulo": "Supine Abdominal Stretch 🧘 Estirá abdomen y pecho para cerrar el entrenamiento | CrossFit",
+    "descripcion": "🧘 SUPINE ABDOMINAL STRETCH — Estirá toda la cadena de adelante en la vuelta a la calma\n\n¿Terminaste el WOD todo cerrado, con el abdomen y el pecho tensos de tanto empujar y flexionar? Este estiramiento es simple, se hace en el piso y te deja largo de punta a punta. Es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Acostate boca arriba, con las piernas estiradas y los brazos al costado del cuerpo.\n2️⃣ Llevá los brazos por encima de la cabeza y apoyalos en el piso, bien estirados.\n3️⃣ Estirate largo: empujá las manos hacia atrás y las puntas de los pies hacia adelante.\n4️⃣ Respirá profundo y dejá que la zona lumbar haga un arco suave, sin forzar.\n\n✅ CLAVES DE TÉCNICA\n• Brazos y piernas bien largos, como si te estiraran de los dos lados\n• Respiración profunda: en cada exhalación, un poquito más largo\n• Arco lumbar suave, nunca forzado\n• Si te molesta la lumbar, hacé una leve retroversión (llevá la pelvis hacia atrás, apoyando la zona lumbar)\n\n🎯 QUÉ TRABAJA\nRecto abdominal · Pectoral mayor · Bíceps · Toda la cadena anterior\n\n⏱️ CUÁNTO\n30 segundos, respirando lento. Ideal en la vuelta a la calma, después de abdominales, empujes o carrera.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #VueltaALaCalma #SupineAbdominalStretch #Abdomen #Entrenamiento",
+    "tags": [
+      "supine abdominal stretch",
+      "estiramiento abdominal",
+      "estiramiento acostado",
+      "estirar abdomen",
+      "estiramiento de pecho",
+      "vuelta a la calma",
+      "crossfit",
+      "elongación",
+      "estiramiento cadena anterior",
+      "estiramiento boca arriba",
+      "movilidad"
+    ]
+  }
+}

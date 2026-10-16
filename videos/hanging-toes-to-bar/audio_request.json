@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Hánguin tous tu bar: colgado de la barra, llevás los pies hasta tocarla. Abdomen a full."
+    },
+    {
+      "id": "02",
+      "text": "Colgate de la barra con agarre firme, brazos estirados y las escápulas activas, hacia abajo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Arrancá con un balanceo controlado: de jólou, cuerpo hueco, a arch, pecho adelante."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Desde el jólou, subí las piernas juntas, empujando la barra hacia abajo con los brazos."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Tocá la barra con las dos puntas de los pies a la vez."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Bajá controlando, sin desarmarte, y usá ese envión para la próxima repetición."
+    },
+    {
+      "id": "07",
+      "text": "Claves: escápulas activas, balanceo controlado, piernas juntas y bajada controlada."
+    },
+    {
+      "id": "08",
+      "text": "Doce repeticiones. Si todavía no llegás, escalá con nis tu chest o nis tu élbous."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

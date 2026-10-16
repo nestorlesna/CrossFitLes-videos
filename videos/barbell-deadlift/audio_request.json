@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Barbell Deadlift: el peso muerto, la base de la cadena posterior. Aprendé a levantarlo cuidando la espalda."
+    },
+    {
+      "id": "02",
+      "text": "Parate con la barra sobre el medio del pie y agarrala apenas por fuera de las piernas, pegada a la tibia."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Espalda neutra y pecho alto, con los hombros apenas por delante de la barra. Braceá antes de tirar."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Empujá el piso: la cadera y los hombros suben juntos, con la barra pegada a las piernas."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si la cadera sube primero, la barra se despega y la espalda se redondea. Evitalo."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Terminá parado, bloqueando con el glúteo, sin hiperextender la zona lumbar."
+    },
+    {
+      "id": "07",
+      "text": "Claves: barra pegada al cuerpo, espalda neutra, cadera y hombros juntos, y bloqueás con glúteo sin tirarte atrás."
+    },
+    {
+      "id": "08",
+      "text": "Cinco repeticiones, apoyando la barra en cada una. Bajá controlando, por el mismo camino."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

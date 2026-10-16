@@ -1,0 +1,475 @@
+{
+  "slug": "hanging-toes-to-bar",
+  "name": "Hanging Toes to Bar",
+  "rig": {
+    "x": 600,
+    "y": 1504,
+    "scale": 0.66
+  },
+  "initialPose": "HANG",
+  "props": [
+    {
+      "type": "pullupbar",
+      "bar": [
+        0,
+        -1170
+      ],
+      "postX": -430
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 6,
+      "fa": 6,
+      "rx": 0,
+      "ry": 0
+    },
+    "HANG": {
+      "hip": [
+        0.0,
+        -562.0
+      ],
+      "b": 0,
+      "t": 0,
+      "s": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40
+    },
+    "HOLLOW": {
+      "hip": [
+        18.2,
+        -572.1
+      ],
+      "b": -12,
+      "t": -16,
+      "s": -16,
+      "hd": -10,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40
+    },
+    "ARCH": {
+      "hip": [
+        -27.7,
+        -574.3
+      ],
+      "b": 14,
+      "t": 22,
+      "s": 30,
+      "hd": 12,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40
+    },
+    "KNEES": {
+      "hip": [
+        23.9,
+        -582.2
+      ],
+      "b": -24,
+      "t": -100,
+      "s": -12,
+      "hd": -14,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 10
+    },
+    "TTB": {
+      "hip": [
+        -38.8,
+        -686.7
+      ],
+      "b": -36.4,
+      "t": -170.3,
+      "s": -170.3,
+      "hd": -21.8,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": -60
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "TOES",
+        "TO BAR"
+      ],
+      "vo": "Hanging Toes to Bar: colgado de la barra, llevás los pies hasta tocarla. Abdomen a full.",
+      "moves": [
+        {
+          "to": "HOLLOW",
+          "at": 0.8,
+          "dur": 0.6
+        },
+        {
+          "to": "KNEES",
+          "at": 1.4,
+          "dur": 0.5
+        },
+        {
+          "to": "TTB",
+          "at": 1.9,
+          "dur": 0.5
+        },
+        {
+          "to": "HOLLOW",
+          "at": 3.0,
+          "dur": 0.7
+        },
+        {
+          "to": "HANG",
+          "at": 3.7,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "COLGADO",
+        "ACTIVO"
+      ],
+      "sub": "Escápulas abajo",
+      "vo": "Colgate de la barra con agarre firme, brazos estirados y las escápulas activas, hacia abajo.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "HANG.S",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 50,
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "HANG.S",
+            "dx": 70,
+            "dy": 10
+          },
+          "text": "HOMBROS ACTIVOS",
+          "anchor": "start",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "BALANCEO",
+        "CONTROLADO"
+      ],
+      "sub": "Hollow – arch",
+      "vo": "Paso uno. Arrancá con un balanceo controlado: de hollow, cuerpo hueco, a arch, pecho adelante.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "HOLLOW",
+              0.8
+            ],
+            [
+              "ARCH",
+              0.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            860,
+            1450
+          ],
+          "text": "HOLLOW",
+          "anchor": "middle",
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            300,
+            1450
+          ],
+          "text": "ARCH",
+          "anchor": "middle",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "SUBÍ",
+        "LAS PIERNAS"
+      ],
+      "sub": "Juntas",
+      "vo": "Paso dos. Desde el hollow, subí las piernas juntas, empujando la barra hacia abajo con los brazos.",
+      "moves": [
+        {
+          "to": "ARCH",
+          "at": 0.3,
+          "dur": 0.6
+        },
+        {
+          "to": "HOLLOW",
+          "at": 0.9,
+          "dur": 0.6
+        },
+        {
+          "to": "KNEES",
+          "at": 1.5,
+          "dur": 0.5
+        },
+        {
+          "to": "TTB",
+          "at": 2.0,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            760,
+            1400
+          ],
+          "to": [
+            700,
+            920
+          ],
+          "bend": [
+            140,
+            0
+          ],
+          "at": 1.5,
+          "dur": 1.1
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "TOCÁ",
+        "LA BARRA"
+      ],
+      "sub": "Con las dos puntas",
+      "vo": "Paso tres. Tocá la barra con las dos puntas de los pies a la vez.",
+      "moves": [
+        {
+          "to": "TTB",
+          "at": 0.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "TTB.A",
+            "dx": 30,
+            "dy": -30
+          },
+          "r": 70,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "TTB.A",
+            "dx": 120,
+            "dy": -10
+          },
+          "text": "LAS DOS PUNTAS",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "BAJÁ",
+        "CONTROLANDO"
+      ],
+      "sub": "Y seguí el ritmo",
+      "vo": "Paso cuatro. Bajá controlando, sin desarmarte, y usá ese envión para la próxima repetición.",
+      "moves": [
+        {
+          "to": "TTB",
+          "at": 0.1,
+          "dur": 0.3
+        },
+        {
+          "to": "KNEES",
+          "at": 0.8,
+          "dur": 0.7
+        },
+        {
+          "to": "HOLLOW",
+          "at": 1.5,
+          "dur": 0.7
+        },
+        {
+          "to": "ARCH",
+          "at": 2.2,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "shrink": 0.62,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Escápulas activas",
+        "Balanceo hollow – arch",
+        "Piernas juntas",
+        "Bajá controlando"
+      ],
+      "vo": "Claves: escápulas activas, balanceo controlado, piernas juntas y bajada controlada.",
+      "moves": [
+        {
+          "to": "HANG",
+          "at": 0.3,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "12 REPS"
+      ],
+      "sub": "Escalá: knees to chest",
+      "vo": "Doce repeticiones. Si todavía no llegás, escalá con knees to chest o knees to elbows.",
+      "chips": [
+        {
+          "label": "1 · HOLLOW",
+          "at": 0.5
+        },
+        {
+          "label": "2 · ARRIBA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.8
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "ARCH",
+              0.6
+            ],
+            [
+              "HOLLOW",
+              0.5
+            ],
+            [
+              "TTB",
+              0.6
+            ],
+            [
+              "HOLLOW",
+              0.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "music": true,
+  "musicVolume": 0.18,
+  "revisado": false,
+  "notas": "Primer video colgado (prop pullupbar). En claves el personaje se achica a 0,62 para que la barra no quede bajo la lista.",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Abdomen",
+    "Dorsales",
+    "Agarre"
+  ],
+  "descripcion": "Colgado de la barra, subir las puntas de los pies hasta tocar la barra. Activa core completo y flexores de cadera.",
+  "pronuncia": {
+    "Hanging Toes to Bar": "Hánguin tous tu bar",
+    "toes to bar": "tous tu bar",
+    "knees to chest": "nis tu chest",
+    "knees to elbows": "nis tu élbous",
+    "hollow": "jólou",
+    "arch": "arch"
+  },
+  "miniatura": {
+    "pose": "TTB",
+    "grip": 1,
+    "zoom": 1.0,
+    "dy": 160
+  },
+  "youtube": {
+    "titulo": "Hanging Toes to Bar 🔥 Pies a la barra paso a paso | CrossFit",
+    "descripcion": "🔥 HANGING TOES TO BAR — Pies a la barra: abdomen, dorsales y agarre\n\n¿Llegás a tocar la barra pero te desarmás en la segunda repetición, o directamente no llegás? El secreto está en el balanceo y en empujar la barra hacia abajo. Este video es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Colgate de la barra con agarre firme, brazos estirados y las escápulas activas, hacia abajo.\n2️⃣ Arrancá con un balanceo controlado: de hollow (cuerpo hueco) a arch (pecho adelante).\n3️⃣ Desde el hollow, subí las piernas juntas, empujando la barra hacia abajo con los brazos.\n4️⃣ Tocá la barra con las dos puntas de los pies a la vez.\n5️⃣ Bajá controlando, sin desarmarte, y usá ese envión para la próxima repetición.\n\n✅ CLAVES DE TÉCNICA\n• Agarre activo y escápulas abajo\n• Balanceo controlado hollow – arch, sin patadas\n• Piernas juntas y las dos puntas tocan a la vez\n• Bajá controlando para no perder el ritmo\n• Escalá con knees to chest o knees to elbows\n\n🎯 QUÉ TRABAJA\nRecto abdominal · Oblicuos · Flexores de cadera · Dorsal ancho · Antebrazos (agarre)\n\n⏱️ CUÁNTO\n12 repeticiones (en series cortas si hace falta). Típico de WOD y trabajo accesorio de gimnásticos.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nColgarse y balancearse carga hombros y manos: si nunca lo hiciste, empezá con knees to chest y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #ToesToBar #Abdomen #Entrenamiento",
+    "tags": [
+      "toes to bar",
+      "hanging toes to bar",
+      "pies a la barra",
+      "t2b",
+      "toes to bar técnica",
+      "kipping",
+      "hollow arch",
+      "crossfit",
+      "abdominales colgado",
+      "gimnásticos",
+      "knees to elbows",
+      "knees to chest"
+    ]
+  }
+}

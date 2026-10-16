@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Asólt baik: la bici de aire que te quema todo el cuerpo. Aprendé a usar brazos y piernas."
+    },
+    {
+      "id": "02",
+      "text": "Sentate con la espalda derecha, agarrá los manubrios y apoyá bien los pies en los pedales."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Pedaleá empujando con las piernas, en un círculo parejo."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Sumá los brazos: uno empuja mientras el otro tira, al mismo tiempo que las piernas."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Buscá una cadencia constante: no salgas a fondo para quedarte sin aire a los veinte segundos."
+    },
+    {
+      "id": "06",
+      "text": "Claves: espalda derecha, brazos y piernas juntos, cadencia constante. Se mide en calorías o en tiempo."
+    },
+    {
+      "id": "07",
+      "text": "Un minuto a ritmo fuerte y parejo. En los WOD la vas a ver como bike."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

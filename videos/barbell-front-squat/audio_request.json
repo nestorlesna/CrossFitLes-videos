@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Barbell Front Squat: la sentadilla con la barra adelante. Torso vertical y codos bien altos."
+    },
+    {
+      "id": "02",
+      "text": "Apoyá la barra adelante, sobre los hombros, con los codos bien altos y los pies al ancho de los hombros."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Inspirá profundo y braceá, con el abdomen firme y el pecho arriba."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá con el torso bien vertical y las rodillas hacia afuera, hasta la sentadilla completa."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Codos arriba todo el recorrido: si caen, el pecho se va al piso y perdés la barra."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Subí empujando el piso, guiando con los codos, hasta extender completo."
+    },
+    {
+      "id": "07",
+      "text": "Claves: codos altos, torso vertical, rodillas hacia afuera y sentadilla completa antes de subir."
+    },
+    {
+      "id": "08",
+      "text": "Cuatro repeticiones, descansando bien entre series. Primero la posición, después los kilos."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

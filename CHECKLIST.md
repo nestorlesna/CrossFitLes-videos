@@ -5,7 +5,7 @@ La lista y su orden salen de `ejercicios/ejercicios.csv`; el estado, de `ejercic
 `videos/<clave>/.pipeline.json` y `salida/`. Para aprobar un video: `"revisado": true` en su JSON; las notas salen de `"notas"`.
 Subido = el .mp4 está en `salida/subidos/` (se mueve a mano después de publicarlo en YouTube).
 
-**Renderizados:** 17 / 328 · **Fichas:** 17 · **Descripción YouTube:** 17 · **Subidos:** 6 · **Próximo:** 13 · Supine Abdominal Stretch
+**Renderizados:** 24 / 328 · **Fichas:** 24 · **Descripción YouTube:** 24 · **Subidos:** 9 · **Próximo:** 24 · Alternating Single Arm Dumbbell Power Snatch
 
 | # | Ejercicio | Implemento | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Revisado | Subido | Fecha render | Notas |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -15,24 +15,24 @@ Subido = el .mp4 está en `salida/subidos/` (se mueve a mano después de publica
 | 3 | Rowing | Rower | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/rowing.youtube.txt) | [✅](salida/subidos/rowing.miniatura.png) | 45.0 s | [rowing.mp4](salida/subidos/rowing.mp4) | ✅ | ✅ | 2026-10-12 | Primer ejercicio con implemento (prop rower). |
 | 4 | Pigeon Pose | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/pigeon-pose.youtube.txt) | [✅](salida/pigeon-pose.miniatura.png) | 40.7 s | [pigeon-pose.mp4](salida/pigeon-pose.mp4) | ✅ | ⬜ | 2026-10-12 |  |
 | 5 | Supine Spinal Twist | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/supine-spinal-twist.youtube.txt) | [✅](salida/subidos/supine-spinal-twist.miniatura.png) | 42.9 s | [supine-spinal-twist.mp4](salida/subidos/supine-spinal-twist.mp4) | ✅ | ✅ | 2026-10-12 | Acostado de costado: la torsión se ve con escorzo de piernas (lr) + tarjeta 'vista de arriba' (topview). |
-| 6 | Half Kneeling Hip Flexor Stretch | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/half-kneeling-hip-flexor-stretch.youtube.txt) | [✅](salida/half-kneeling-hip-flexor-stretch.miniatura.png) | 44.4 s | [half-kneeling-hip-flexor-stretch.mp4](salida/half-kneeling-hip-flexor-stretch.mp4) | ⬜ | ⬜ | 2026-10-12 |  |
+| 6 | Half Kneeling Hip Flexor Stretch | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/half-kneeling-hip-flexor-stretch.youtube.txt) | [✅](salida/subidos/half-kneeling-hip-flexor-stretch.miniatura.png) | 44.4 s | [half-kneeling-hip-flexor-stretch.mp4](salida/subidos/half-kneeling-hip-flexor-stretch.mp4) | ✅ | ✅ | 2026-10-12 |  |
 | 7 | Child's Pose | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/child-s-pose.youtube.txt) | [✅](salida/child-s-pose.miniatura.png) | 41.2 s | [child-s-pose.mp4](salida/child-s-pose.mp4) | ⬜ | ⬜ | 2026-10-12 |  |
 | 8 | Cobra Pose | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/cobra-pose.youtube.txt) | [✅](salida/cobra-pose.miniatura.png) | 40.9 s | [cobra-pose.mp4](salida/cobra-pose.mp4) | ⬜ | ⬜ | 2026-10-13 |  |
-| 9 | Overhead Triceps Stretch | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/overhead-triceps-stretch.youtube.txt) | [✅](salida/overhead-triceps-stretch.miniatura.png) | 41.3 s | [overhead-triceps-stretch.mp4](salida/overhead-triceps-stretch.mp4) | ⬜ | ⬜ | 2026-10-13 |  |
+| 9 | Overhead Triceps Stretch | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/overhead-triceps-stretch.youtube.txt) | [✅](salida/subidos/overhead-triceps-stretch.miniatura.png) | 41.3 s | [overhead-triceps-stretch.mp4](salida/subidos/overhead-triceps-stretch.mp4) | ✅ | ✅ | 2026-10-13 |  |
 | 10 | Seated Forward Fold | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/seated-forward-fold.youtube.txt) | [✅](salida/seated-forward-fold.miniatura.png) | 40.8 s | [seated-forward-fold.mp4](salida/seated-forward-fold.mp4) | ⬜ | ⬜ | 2026-10-13 |  |
 | 11 | Seated Quad Stretch | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/seated-quad-stretch.youtube.txt) | [✅](salida/seated-quad-stretch.miniatura.png) | 40.4 s | [seated-quad-stretch.mp4](salida/seated-quad-stretch.mp4) | ⬜ | ⬜ | 2026-10-13 |  |
 | 12 | Standing Biceps Stretch | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/standing-biceps-stretch.youtube.txt) | [✅](salida/standing-biceps-stretch.miniatura.png) | 40.8 s | [standing-biceps-stretch.mp4](salida/standing-biceps-stretch.mp4) | ⬜ | ⬜ | 2026-10-13 |  |
-| 13 | Supine Abdominal Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 14 | Wrist Extensor Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 15 | Assault Bike | Assault bike | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 16 | 90/90 Hip Rotation | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 17 | Barbell Front Squat | Barra olímpica | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 18 | Barbell Deadlift | Barra olímpica | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 19 | Hanging Toes to Bar | Pull-up bar | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
+| 13 | Supine Abdominal Stretch | Ninguno | ✅ | ✅ | ✅ | ❌ | ✅ | [✅](salida/supine-abdominal-stretch.youtube.txt) | [✅](salida/supine-abdominal-stretch.miniatura.png) | 41.0 s | [supine-abdominal-stretch.mp4](salida/supine-abdominal-stretch.mp4) | ⬜ | ⬜ | 2026-10-15 | Brazos arriba pasan por el techo (ua 90→268) para no atravesar el piso. |
+| 14 | Wrist Extensor Stretch | Ninguno | ✅ | ✅ | ✅ | ❌ | ✅ | [✅](salida/wrist-extensor-stretch.youtube.txt) | [✅](salida/wrist-extensor-stretch.miniatura.png) | 41.4 s | [wrist-extensor-stretch.mp4](salida/wrist-extensor-stretch.mp4) | ⬜ | ⬜ | 2026-10-15 | Primer video con dedos (fingers + wr) y agarre independiente del brazo lejano (g2). |
+| 15 | Assault Bike | Assault bike | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/assault-bike.youtube.txt) | [✅](salida/assault-bike.miniatura.png) | 42.4 s | [assault-bike.mp4](salida/assault-bike.mp4) | ⬜ | ⬜ | 2026-10-15 | Primer video con prop airbike (pedales con IK de las dos piernas: ankle2; manijas con g2). |
+| 16 | 90/90 Hip Rotation | Ninguno | ✅ | ✅ | ✅ | ❌ | ✅ | [✅](salida/90-90-hip-rotation.youtube.txt) | [✅](salida/90-90-hip-rotation.miniatura.png) | 42.0 s | [90-90-hip-rotation.mp4](salida/90-90-hip-rotation.mp4) | ⬜ | ⬜ | 2026-10-15 | De costado las piernas se ven con escorzo (lr); el cambio de lado se ve en la tarjeta 'vista de arriba' (topview mode 9090). |
+| 17 | Barbell Front Squat | Barra olímpica | ✅ | ✅ | ✅ | ❌ | ✅ | [✅](salida/barbell-front-squat.youtube.txt) | [✅](salida/barbell-front-squat.miniatura.png) | 47.3 s | [barbell-front-squat.mp4](salida/barbell-front-squat.mp4) | ⬜ | ⬜ | 2026-10-15 |  |
+| 18 | Barbell Deadlift | Barra olímpica | ✅ | ✅ | ✅ | ❌ | ✅ | [✅](salida/barbell-deadlift.youtube.txt) | [✅](salida/barbell-deadlift.miniatura.png) | 50.8 s | [barbell-deadlift.mp4](salida/barbell-deadlift.mp4) | ⬜ | ⬜ | 2026-10-15 |  |
+| 19 | Hanging Toes to Bar | Pull-up bar | ✅ | ✅ | ✅ | ❌ | ✅ | [✅](salida/hanging-toes-to-bar.youtube.txt) | [✅](salida/hanging-toes-to-bar.miniatura.png) | 47.6 s | [hanging-toes-to-bar.mp4](salida/hanging-toes-to-bar.mp4) | ⬜ | ⬜ | 2026-10-15 | Primer video colgado (prop pullupbar). En claves el personaje se achica a 0,62 para que la barra no quede bajo la lista. |
 | 20 | Kettlebell Good Morning to Squat | Kettlebell | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/kettlebell-good-morning-to-squat.youtube.txt) | [✅](salida/kettlebell-good-morning-to-squat.miniatura.png) | 49.8 s | [kettlebell-good-morning-to-squat.mp4](salida/kettlebell-good-morning-to-squat.mp4) | ⬜ | ⬜ | 2026-10-14 |  |
-| 21 | Barbell Back Squat | Barra olímpica | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/barbell-back-squat.youtube.txt) | [✅](salida/barbell-back-squat.miniatura.png) | 49.9 s | [barbell-back-squat.mp4](salida/barbell-back-squat.mp4) | ⬜ | ⬜ | 2026-10-14 |  |
+| 21 | Barbell Back Squat | Barra olímpica | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/barbell-back-squat.youtube.txt) | [✅](salida/subidos/barbell-back-squat.miniatura.png) | 49.9 s | [barbell-back-squat.mp4](salida/subidos/barbell-back-squat.mp4) | ✅ | ✅ | 2026-10-14 |  |
 | 22 | Burpee Broad Jump | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/burpee-broad-jump.youtube.txt) | [✅](salida/burpee-broad-jump.miniatura.png) | 48.0 s | [burpee-broad-jump.mp4](salida/burpee-broad-jump.mp4) | ⬜ | ⬜ | 2026-10-14 |  |
-| 23 | Wall Ball Shot | Wall ball | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/wall-ball-shot.youtube.txt) | [✅](salida/subidos/wall-ball-shot.miniatura.png) | 47.3 s | [wall-ball-shot.mp4](salida/subidos/wall-ball-shot.mp4) | ⬜ | ✅ | 2026-10-14 |  |
+| 23 | Wall Ball Shot | Wall ball | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/wall-ball-shot.youtube.txt) | [✅](salida/subidos/wall-ball-shot.miniatura.png) | 47.3 s | [wall-ball-shot.mp4](salida/subidos/wall-ball-shot.mp4) | ✅ | ✅ | 2026-10-14 |  |
 | 24 | Alternating Single Arm Dumbbell Power Snatch | Mancuernas | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
 | 25 | Kettlebell Farmer Carry | Kettlebell | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
 | 26 | Burpee Over the Bar | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |

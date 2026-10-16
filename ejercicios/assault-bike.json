@@ -1,0 +1,650 @@
+{
+  "slug": "assault-bike",
+  "name": "Assault Bike",
+  "rig": {
+    "x": 432,
+    "y": 1504,
+    "scale": 0.92
+  },
+  "shadow": false,
+  "initialPose": "P0",
+  "props": [
+    {
+      "type": "airbike",
+      "crank": [
+        60,
+        -170
+      ],
+      "fan": [
+        340,
+        -300
+      ],
+      "fanR": 200,
+      "pivot": [
+        130,
+        -262
+      ],
+      "seat": [
+        -170,
+        -466
+      ]
+    }
+  ],
+  "poses": {
+    "P0": {
+      "hip": [
+        -170,
+        -500
+      ],
+      "ankle": [
+        102.0,
+        -206.0
+      ],
+      "ankle2": [
+        -42.0,
+        -206.0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "b": 12,
+      "hd": 2,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "ed2": -1,
+      "hx": 63.7,
+      "hy": -638.2,
+      "hx2": 156.6,
+      "hy2": -643.1
+    },
+    "P1": {
+      "hip": [
+        -170,
+        -500
+      ],
+      "ankle": [
+        66.0,
+        -143.6
+      ],
+      "ankle2": [
+        -6.0,
+        -268.4
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "b": 12,
+      "hd": 2,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "ed2": -1,
+      "hx": 90.1,
+      "hy": -641.9,
+      "hx2": 130.0,
+      "hy2": -644.0
+    },
+    "P2": {
+      "hip": [
+        -170,
+        -500
+      ],
+      "ankle": [
+        -6.0,
+        -143.6
+      ],
+      "ankle2": [
+        66.0,
+        -268.4
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "b": 12,
+      "hd": 2,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "ed2": -1,
+      "hx": 143.3,
+      "hy": -643.8,
+      "hx2": 76.8,
+      "hy2": -640.3
+    },
+    "P3": {
+      "hip": [
+        -170,
+        -500
+      ],
+      "ankle": [
+        -42.0,
+        -206.0
+      ],
+      "ankle2": [
+        102.0,
+        -206.0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "b": 12,
+      "hd": 2,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "ed2": -1,
+      "hx": 169.9,
+      "hy": -641.9,
+      "hx2": 50.6,
+      "hy2": -635.7
+    },
+    "P4": {
+      "hip": [
+        -170,
+        -500
+      ],
+      "ankle": [
+        -6.0,
+        -268.4
+      ],
+      "ankle2": [
+        66.0,
+        -143.6
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "b": 12,
+      "hd": 2,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "ed2": -1,
+      "hx": 143.3,
+      "hy": -643.8,
+      "hx2": 76.8,
+      "hy2": -640.3
+    },
+    "P5": {
+      "hip": [
+        -170,
+        -500
+      ],
+      "ankle": [
+        66.0,
+        -268.4
+      ],
+      "ankle2": [
+        -6.0,
+        -143.6
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "b": 12,
+      "hd": 2,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "ed2": -1,
+      "hx": 90.1,
+      "hy": -641.9,
+      "hx2": 130.0,
+      "hy2": -644.0
+    },
+    "SPRINT0": {
+      "hip": [
+        -170,
+        -500
+      ],
+      "ankle": [
+        102.0,
+        -206.0
+      ],
+      "ankle2": [
+        -42.0,
+        -206.0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "b": 22,
+      "hd": 2,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "ed2": -1,
+      "hx": 63.7,
+      "hy": -638.2,
+      "hx2": 156.6,
+      "hy2": -643.1
+    },
+    "SPRINT3": {
+      "hip": [
+        -170,
+        -500
+      ],
+      "ankle": [
+        -42.0,
+        -206.0
+      ],
+      "ankle2": [
+        102.0,
+        -206.0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "b": 22,
+      "hd": 2,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "ed2": -1,
+      "hx": 169.9,
+      "hy": -641.9,
+      "hx2": 50.6,
+      "hy2": -635.7
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "ASSAULT",
+        "BIKE"
+      ],
+      "vo": "Assault Bike: la bici de aire que te quema todo el cuerpo. Aprendé a usar brazos y piernas.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "P0",
+              0.14
+            ],
+            [
+              "P1",
+              0.14
+            ],
+            [
+              "P2",
+              0.14
+            ],
+            [
+              "P3",
+              0.14
+            ],
+            [
+              "P4",
+              0.14
+            ],
+            [
+              "P5",
+              0.14
+            ]
+          ],
+          "at": 0.6,
+          "until": "end",
+          "ease": "none"
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "SENTADO Y",
+        "AGARRADO"
+      ],
+      "sub": "Espalda derecha",
+      "vo": "Sentate con la espalda derecha, agarrá los manubrios y apoyá bien los pies en los pedales.",
+      "moves": [
+        {
+          "cut": "P1",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "P1.K",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 46,
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            560,
+            720
+          ],
+          "text": "RODILLA APENAS FLEXIONADA",
+          "anchor": "start",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "EMPUJÁ CON",
+        "LAS PIERNAS"
+      ],
+      "sub": "Un círculo parejo",
+      "vo": "Paso uno. Pedaleá empujando con las piernas, en un círculo parejo.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "P0",
+              0.2
+            ],
+            [
+              "P1",
+              0.2
+            ],
+            [
+              "P2",
+              0.2
+            ],
+            [
+              "P3",
+              0.2
+            ],
+            [
+              "P4",
+              0.2
+            ],
+            [
+              "P5",
+              0.2
+            ]
+          ],
+          "at": 0.4,
+          "until": "end",
+          "ease": "none"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            520,
+            1395
+          ],
+          "r": 96,
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "BRAZOS",
+        "A LA VEZ"
+      ],
+      "sub": "Uno empuja, el otro tira",
+      "vo": "Paso dos. Sumá los brazos: uno empuja mientras el otro tira, al mismo tiempo que las piernas.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "P0",
+              0.2
+            ],
+            [
+              "P1",
+              0.2
+            ],
+            [
+              "P2",
+              0.2
+            ],
+            [
+              "P3",
+              0.2
+            ],
+            [
+              "P4",
+              0.2
+            ],
+            [
+              "P5",
+              0.2
+            ]
+          ],
+          "at": 0.4,
+          "until": "end",
+          "ease": "none"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            470,
+            780
+          ],
+          "to": [
+            620,
+            780
+          ],
+          "at": 1.0,
+          "dur": 0.8
+        },
+        {
+          "type": "arrow",
+          "from": [
+            600,
+            860
+          ],
+          "to": [
+            450,
+            860
+          ],
+          "at": 1.6,
+          "dur": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            720
+          ],
+          "text": "EMPUJÁ Y TIRÁ",
+          "anchor": "middle",
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "CADENCIA",
+        "CONSTANTE"
+      ],
+      "sub": "Un ritmo que puedas sostener",
+      "vo": "Paso tres. Buscá una cadencia constante: no salgas a fondo para quedarte sin aire a los veinte segundos.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "P0",
+              0.14
+            ],
+            [
+              "P1",
+              0.14
+            ],
+            [
+              "P2",
+              0.14
+            ],
+            [
+              "P3",
+              0.14
+            ],
+            [
+              "P4",
+              0.14
+            ],
+            [
+              "P5",
+              0.14
+            ]
+          ],
+          "at": 0.3,
+          "until": "end",
+          "ease": "none"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Espalda derecha",
+        "Brazos y piernas juntos",
+        "Cadencia constante",
+        "Por calorías o por tiempo"
+      ],
+      "vo": "Claves: espalda derecha, brazos y piernas juntos, cadencia constante. Se mide en calorías o en tiempo.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "P0",
+              0.14
+            ],
+            [
+              "P1",
+              0.14
+            ],
+            [
+              "P2",
+              0.14
+            ],
+            [
+              "P3",
+              0.14
+            ],
+            [
+              "P4",
+              0.14
+            ],
+            [
+              "P5",
+              0.14
+            ]
+          ],
+          "at": 0.3,
+          "until": "end",
+          "ease": "none"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "1 MIN"
+      ],
+      "sub": "O por calorías",
+      "vo": "Un minuto a ritmo fuerte y parejo. En los WOD la vas a ver como bike.",
+      "chips": [
+        {
+          "label": "1 · PIERNAS",
+          "at": 0.5
+        },
+        {
+          "label": "2 · BRAZOS",
+          "at": 1.5
+        },
+        {
+          "label": "3 · RITMO",
+          "at": 2.5
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "P0",
+              0.14
+            ],
+            [
+              "P1",
+              0.14
+            ],
+            [
+              "P2",
+              0.14
+            ],
+            [
+              "P3",
+              0.14
+            ],
+            [
+              "P4",
+              0.14
+            ],
+            [
+              "P5",
+              0.14
+            ]
+          ],
+          "at": 0.3,
+          "until": "end",
+          "ease": "none"
+        }
+      ]
+    }
+  ],
+  "music": true,
+  "musicVolume": 0.18,
+  "revisado": false,
+  "notas": "Primer video con prop airbike (pedales con IK de las dos piernas: ankle2; manijas con g2).",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Piernas",
+    "Hombros",
+    "Cardio"
+  ],
+  "descripcion": "Bicicleta de aire de cuerpo completo: pedalear y empujar/tirar de los manubrios contra la resistencia del ventilador por calorías o tiempo.",
+  "pronuncia": {
+    "Assault Bike": "Asólt baik"
+  },
+  "miniatura": {
+    "pose": "P1",
+    "grip": 1,
+    "zoom": 1.1,
+    "dy": 140
+  },
+  "youtube": {
+    "titulo": "Assault Bike 🚴 Cómo usar la bici de aire paso a paso | CrossFit",
+    "descripcion": "🚴 ASSAULT BIKE — La bici de aire que te hace trabajar todo el cuerpo\n\nParece que solo hay que pedalear, pero si la usás bien (brazos y piernas juntos, a un ritmo que puedas sostener) rendís mucho más y no te fundís a los 20 segundos. Si te toca bike en el WOD, esto es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Sentate con la espalda derecha, agarrá los manubrios y apoyá bien los pies en los pedales.\n2️⃣ Pedaleá empujando con las piernas, en un círculo parejo.\n3️⃣ Sumá los brazos: uno empuja mientras el otro tira, al mismo tiempo que las piernas.\n4️⃣ Buscá una cadencia constante: no salgas a fondo para quedarte sin aire a los veinte segundos.\n\n✅ CLAVES DE TÉCNICA\n• Asiento a una altura en la que la rodilla quede apenas flexionada abajo\n• Espalda derecha, sin encorvarte sobre los manubrios\n• Brazos y piernas empujan a la vez\n• Cadencia constante: mejor parejo que a los tirones\n• Se mide en calorías o en tiempo\n\n🎯 QUÉ TRABAJA\nCuádriceps · Isquiotibiales · Glúteos · Gemelos · Hombros · Cardio\n\n⏱️ CUÁNTO\n1 minuto a ritmo fuerte y parejo (o las calorías que pida el WOD). En las pizarras también aparece como \"Bike\" en los row/bike/ski.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nEs muy intensa: si estás volviendo a entrenar, arrancá con intervalos cortos y a ritmo cómodo.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #AssaultBike #Cardio #Entrenamiento",
+    "tags": [
+      "assault bike",
+      "air bike",
+      "bici de aire",
+      "assault bike técnica",
+      "bike crossfit",
+      "cardio crossfit",
+      "crossfit",
+      "wod",
+      "calorías",
+      "echo bike",
+      "acondicionamiento",
+      "cómo usar la assault bike"
+    ]
+  }
+}

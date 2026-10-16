@@ -1,0 +1,377 @@
+{
+  "slug": "wrist-extensor-stretch",
+  "name": "Wrist Extensor Stretch",
+  "fingers": true,
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "g2": 0,
+      "ua": 6,
+      "fa": 6,
+      "ua2": 4,
+      "fa2": 4
+    },
+    "ARM_OUT": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "g2": 0,
+      "ua": 6,
+      "fa": 6,
+      "ua2": 92,
+      "fa2": 0,
+      "wr2": 0
+    },
+    "FLEX": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "g2": 0,
+      "ua": 6,
+      "fa": 6,
+      "ua2": 92,
+      "fa2": 0,
+      "wr2": -82
+    },
+    "PUSH": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 6,
+      "g": 1,
+      "hb": 1,
+      "hx": 326,
+      "hy": 30,
+      "ed": 1,
+      "wr": -20,
+      "g2": 0,
+      "ua2": 92,
+      "fa2": 0,
+      "wr2": -86
+    },
+    "PUSH_MORE": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 6,
+      "g": 1,
+      "hb": 1,
+      "hx": 322,
+      "hy": 46,
+      "ed": 1,
+      "wr": -20,
+      "g2": 0,
+      "ua2": 92,
+      "fa2": 0,
+      "wr2": -96
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · VUELTA A LA CALMA",
+      "head": [
+        "ESTIRAMIENTO",
+        "DE MUÑECA"
+      ],
+      "vo": "Wrist Extensor Stretch: soltá el antebrazo y cuidá las muñecas después de la barra o la kettlebell.",
+      "moves": [
+        {
+          "to": "ARM_OUT",
+          "at": 0.8,
+          "dur": 0.8
+        },
+        {
+          "to": "FLEX",
+          "at": 1.8,
+          "dur": 0.6
+        },
+        {
+          "to": "PUSH",
+          "at": 2.6,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 4.8,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BRAZO AL",
+        "FRENTE"
+      ],
+      "sub": "Palma hacia abajo",
+      "vo": "Parate derecho y estirá un brazo al frente, a la altura del hombro, con la palma mirando al piso.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "ARM_OUT",
+          "at": 0.9,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            820,
+            760
+          ],
+          "text": "PALMA ABAJO",
+          "anchor": "middle",
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 4.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "DOBLÁ LA",
+        "MUÑECA"
+      ],
+      "sub": "Dedos hacia el piso",
+      "vo": "Paso uno. Doblá la muñeca hacia abajo, con los dedos apuntando al piso.",
+      "moves": [
+        {
+          "to": "FLEX",
+          "at": 0.6,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            800,
+            860
+          ],
+          "to": [
+            830,
+            990
+          ],
+          "bend": [
+            60,
+            0
+          ],
+          "at": 0.6,
+          "dur": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            870,
+            1080
+          ],
+          "text": "DEDOS AL PISO",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "EMPUJÁ",
+        "LOS DEDOS"
+      ],
+      "sub": "Con la otra mano, suave",
+      "vo": "Paso dos. Con la otra mano, empujá suave los dedos hacia vos, hasta sentir el estiramiento en el antebrazo.",
+      "moves": [
+        {
+          "to": "PUSH",
+          "at": 0.5,
+          "dur": 1.2
+        },
+        {
+          "to": "PUSH_MORE",
+          "at": 2.0,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            700,
+            890
+          ],
+          "r": 60,
+          "at": 2.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            700,
+            1000
+          ],
+          "text": "TIRA ACÁ",
+          "anchor": "middle",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "CODO",
+        "ESTIRADO"
+      ],
+      "sub": "Y después, el otro brazo",
+      "vo": "Paso tres. Mantené el codo bien estirado, sostené, y después repetí con el otro brazo.",
+      "moves": [
+        {
+          "to": "PUSH_MORE",
+          "at": 0.2,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "from": [
+            470,
+            870
+          ],
+          "to": [
+            790,
+            870
+          ],
+          "color": "ink",
+          "width": 6,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            830,
+            790
+          ],
+          "text": "BRAZO RECTO",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.5,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Palma hacia abajo",
+        "Codo bien estirado",
+        "Empujá suave, sin dolor",
+        "Hacé los dos lados"
+      ],
+      "vo": "Claves: palma abajo, codo estirado, empujá suave sin llegar al dolor, y hacé los dos lados.",
+      "moves": [
+        {
+          "to": "PUSH_MORE",
+          "at": 0.2,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEG"
+      ],
+      "sub": "Por lado",
+      "vo": "Treinta segundos por lado. Ideal después de trabajar con barra o kettlebell.",
+      "chips": [
+        {
+          "label": "1 · BRAZO AL FRENTE",
+          "at": 0.5
+        },
+        {
+          "label": "2 · DOBLÁ",
+          "at": 1.6
+        },
+        {
+          "label": "3 · EMPUJÁ",
+          "at": 2.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "ARM_OUT",
+          "at": 0.5,
+          "dur": 0.9
+        },
+        {
+          "to": "FLEX",
+          "at": 1.6,
+          "dur": 0.8
+        },
+        {
+          "to": "PUSH_MORE",
+          "at": 2.6,
+          "dur": 1.0
+        }
+      ]
+    }
+  ],
+  "music": true,
+  "musicVolume": 0.18,
+  "revisado": false,
+  "notas": "Primer video con dedos (fingers + wr) y agarre independiente del brazo lejano (g2).",
+  "category": "CROSSFIT · VUELTA A LA CALMA",
+  "tags": [
+    "Antebrazo",
+    "Muñeca"
+  ],
+  "descripcion": "Extender un brazo al frente con la palma mirando hacia abajo. Doblar la muñeca hacia abajo (flexión) apuntando los dedos hacia el suelo. Con la mano libre, empujar suavemente los dedos hacia abajo para intensificar el estiramiento del antebrazo. Repetir del otro lado.",
+  "pronuncia": {
+    "Wrist Extensor Stretch": "Rist exténsor strech"
+  },
+  "miniatura": {
+    "pose": "PUSH_MORE",
+    "grip": 1,
+    "zoom": 1.3
+  },
+  "youtube": {
+    "titulo": "Wrist Extensor Stretch ✋ Estiramiento de muñeca y antebrazo paso a paso | CrossFit",
+    "descripcion": "✋ WRIST EXTENSOR STRETCH — Soltá el antebrazo y cuidá tus muñecas\n\n¿Te quedan las muñecas y los antebrazos cargados después de cleans, front squats o swings con kettlebell? Con 30 segundos por lado los soltás y prevenís molestias. Este estiramiento es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate derecho y estirá un brazo al frente, a la altura del hombro, con la palma mirando al piso.\n2️⃣ Doblá la muñeca hacia abajo, con los dedos apuntando al piso.\n3️⃣ Con la otra mano, empujá suave los dedos hacia vos, hasta sentir el estiramiento en el antebrazo.\n4️⃣ Mantené el codo bien estirado, sostené, y después repetí con el otro brazo.\n\n✅ CLAVES DE TÉCNICA\n• Palma hacia abajo todo el tiempo\n• Codo bien estirado: así el estiramiento es más efectivo\n• Empujá suave, sin llegar al dolor\n• Hacé siempre los dos lados\n\n🎯 QUÉ TRABAJA\nAntebrazo (músculos de la muñeca y los dedos) · Muñeca\n\n⏱️ CUÁNTO\n30 segundos por lado. Ideal en la vuelta a la calma, especialmente después de trabajar con barra o kettlebell.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #VueltaALaCalma #WristStretch #Muñeca #Entrenamiento",
+    "tags": [
+      "wrist extensor stretch",
+      "estiramiento de muñeca",
+      "estiramiento de antebrazo",
+      "dolor de muñeca",
+      "muñecas crossfit",
+      "vuelta a la calma",
+      "crossfit",
+      "elongación",
+      "prevenir lesiones de muñeca",
+      "antebrazo",
+      "movilidad de muñeca"
+    ]
+  }
+}

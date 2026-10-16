@@ -1,0 +1,468 @@
+{
+  "slug": "barbell-deadlift",
+  "name": "Barbell Deadlift",
+  "initialPose": "SETUP",
+  "props": [
+    {
+      "type": "barbell",
+      "r": 96
+    }
+  ],
+  "poses": {
+    "STAND_BAR": {
+      "g": 1,
+      "ed": 1,
+      "hx": 30,
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "hy": -424
+    },
+    "SETUP": {
+      "g": 1,
+      "ed": 1,
+      "hx": 30,
+      "hip": [
+        -150,
+        -285
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 72,
+      "hd": 58,
+      "hy": -62
+    },
+    "KNEE": {
+      "g": 1,
+      "ed": 1,
+      "hx": 30,
+      "s": 5,
+      "t": -55,
+      "b": 52,
+      "hd": 40,
+      "hy": -215
+    },
+    "THIGH": {
+      "g": 1,
+      "ed": 1,
+      "hx": 30,
+      "s": 0,
+      "t": -20,
+      "b": 30,
+      "hd": 22,
+      "hy": -380
+    },
+    "LOCK": {
+      "g": 1,
+      "ed": 1,
+      "hx": 30,
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "hy": -424
+    },
+    "BAD_HIP": {
+      "g": 1,
+      "ed": 1,
+      "hx": 30,
+      "s": 4,
+      "t": -12,
+      "b": 80,
+      "hd": 70,
+      "hy": -120
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "DEADLIFT"
+      ],
+      "vo": "Barbell Deadlift: el peso muerto, la base de la cadena posterior. Aprendé a levantarlo cuidando la espalda.",
+      "moves": [
+        {
+          "to": "KNEE",
+          "at": 1.0,
+          "dur": 0.8
+        },
+        {
+          "to": "LOCK",
+          "at": 1.8,
+          "dur": 0.8
+        },
+        {
+          "to": "KNEE",
+          "at": 3.0,
+          "dur": 0.7
+        },
+        {
+          "to": "SETUP",
+          "at": 3.7,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BARRA",
+        "EN EL PISO"
+      ],
+      "sub": "Sobre el medio del pie",
+      "vo": "Parate con la barra sobre el medio del pie y agarrala apenas por fuera de las piernas, pegada a la tibia.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "from": [
+            497,
+            1540
+          ],
+          "to": [
+            497,
+            1050
+          ],
+          "color": "ink",
+          "width": 5,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            530,
+            1020
+          ],
+          "text": "MEDIO DEL PIE",
+          "anchor": "start",
+          "at": 1.5
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "ESPALDA",
+        "NEUTRA"
+      ],
+      "sub": "Pecho alto",
+      "vo": "Paso uno. Espalda neutra y pecho alto, con los hombros apenas por delante de la barra. Braceá antes de tirar.",
+      "moves": [
+        {
+          "to": "SETUP",
+          "at": 0.2,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "from": {
+            "j": "SETUP.H",
+            "dx": 0,
+            "dy": 0
+          },
+          "to": {
+            "j": "SETUP.S",
+            "dx": 0,
+            "dy": 0
+          },
+          "color": "ink",
+          "width": 6,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "SETUP.S",
+            "dx": -60,
+            "dy": -200
+          },
+          "text": "ESPALDA NEUTRA",
+          "anchor": "middle",
+          "at": 1.3
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "EMPUJÁ",
+        "EL PISO"
+      ],
+      "sub": "Cadera y hombros juntos",
+      "vo": "Paso dos. Empujá el piso: la cadera y los hombros suben juntos, con la barra pegada a las piernas.",
+      "moves": [
+        {
+          "to": "KNEE",
+          "at": 0.6,
+          "dur": 1.2
+        },
+        {
+          "to": "THIGH",
+          "at": 1.8,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            300,
+            1300
+          ],
+          "to": [
+            300,
+            1050
+          ],
+          "at": 0.6,
+          "dur": 1.2
+        },
+        {
+          "type": "arrow",
+          "from": [
+            600,
+            1250
+          ],
+          "to": [
+            600,
+            1000
+          ],
+          "at": 0.6,
+          "dur": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            150,
+            1190
+          ],
+          "text": "JUNTOS",
+          "anchor": "middle",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "La cadera no se adelanta",
+      "vo": "Paso tres. Si la cadera sube primero, la barra se despega y la espalda se redondea. Evitalo.",
+      "moves": [
+        {
+          "to": "SETUP",
+          "at": 0.2,
+          "dur": 0.6
+        },
+        {
+          "to": "BAD_HIP",
+          "at": 1.0,
+          "dur": 1.0
+        },
+        {
+          "to": "SETUP",
+          "at": 3.4,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "BAD_HIP.H",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 60,
+          "at": 1.8,
+          "out": 3.4
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "BAD_HIP.H",
+            "dx": 0,
+            "dy": -110
+          },
+          "text": "CADERA PRIMERO",
+          "anchor": "middle",
+          "at": 2.0,
+          "out": 3.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "BLOQUEÁ",
+        "CON GLÚTEO"
+      ],
+      "sub": "Sin tirarte para atrás",
+      "vo": "Paso cuatro. Terminá parado, bloqueando con el glúteo, sin hiperextender la zona lumbar.",
+      "moves": [
+        {
+          "to": "KNEE",
+          "at": 0.3,
+          "dur": 0.9
+        },
+        {
+          "to": "LOCK",
+          "at": 1.2,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "LOCK.H",
+            "dx": -30,
+            "dy": 0
+          },
+          "r": 56,
+          "at": 2.2
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "LOCK.H",
+            "dx": -110,
+            "dy": 10
+          },
+          "text": "GLÚTEO",
+          "anchor": "end",
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Barra pegada a la tibia",
+        "Espalda neutra, pecho alto",
+        "Cadera y hombros juntos",
+        "Bloqueá con glúteo"
+      ],
+      "vo": "Claves: barra pegada al cuerpo, espalda neutra, cadera y hombros juntos, y bloqueás con glúteo sin tirarte atrás.",
+      "moves": [
+        {
+          "to": "LOCK",
+          "at": 0.3,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "5 REPS"
+      ],
+      "sub": "Bajá controlando",
+      "vo": "Cinco repeticiones, apoyando la barra en cada una. Bajá controlando, por el mismo camino.",
+      "chips": [
+        {
+          "label": "1 · BRACEÁ",
+          "at": 0.5
+        },
+        {
+          "label": "2 · EMPUJÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BLOQUEÁ",
+          "at": 2.0
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "SETUP",
+              0.6
+            ],
+            [
+              "KNEE",
+              0.6
+            ],
+            [
+              "LOCK",
+              0.7
+            ],
+            [
+              "KNEE",
+              0.7
+            ],
+            [
+              "SETUP",
+              0.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "music": true,
+  "musicVolume": 0.18,
+  "revisado": false,
+  "notas": "",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Glúteos",
+    "Isquios",
+    "Espalda"
+  ],
+  "descripcion": "Levantamiento de peso muerto convencional desde el suelo. Cadena posterior completa.",
+  "miniatura": {
+    "pose": "KNEE",
+    "grip": 1,
+    "zoom": 1.2
+  },
+  "youtube": {
+    "titulo": "Barbell Deadlift 🏋️ Peso muerto con barra bien hecho paso a paso | CrossFit",
+    "descripcion": "🏋️ BARBELL DEADLIFT — El peso muerto, la base de toda la cadena posterior\n\n¿Te duele la espalda baja después de los peso muerto o sentís que la barra se te va hacia adelante? Con la posición inicial correcta y la cadera y los hombros subiendo juntos, levantás más y más seguro. Este video es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate con la barra sobre el medio del pie y agarrala apenas por fuera de las piernas, pegada a la tibia.\n2️⃣ Espalda neutra y pecho alto, con los hombros apenas por delante de la barra. Braceá antes de tirar.\n3️⃣ Empujá el piso: la cadera y los hombros suben juntos, con la barra pegada a las piernas.\n4️⃣ Si la cadera sube primero, la barra se despega y la espalda se redondea. Evitalo.\n5️⃣ Terminá parado, bloqueando con el glúteo, sin hiperextender la zona lumbar.\n\n✅ CLAVES DE TÉCNICA\n• Barra pegada a la tibia y a las piernas todo el recorrido\n• Espalda neutra y pecho alto\n• La cadera y los hombros suben juntos\n• Bloqueá arriba con glúteo, sin tirarte hacia atrás\n• Bajá controlando, por el mismo camino\n\n🎯 QUÉ TRABAJA\nGlúteo mayor · Isquiotibiales · Erectores espinales · Dorsal ancho · Antebrazos (agarre)\n\n⏱️ CUÁNTO\n5 repeticiones con buena técnica y descanso completo entre series. Bloque de fuerza o dentro del WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste peso muerto, empezá con poco peso (o con un palo o kettlebell) y con un coach al lado que mire tu espalda.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Fuerza #Deadlift #PesoMuerto #Entrenamiento",
+    "tags": [
+      "barbell deadlift",
+      "deadlift",
+      "peso muerto",
+      "peso muerto con barra",
+      "técnica de peso muerto",
+      "cadena posterior",
+      "crossfit",
+      "fuerza",
+      "glúteos",
+      "isquiotibiales",
+      "espalda baja",
+      "levantamiento"
+    ]
+  }
+}

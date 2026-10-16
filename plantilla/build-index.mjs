@@ -11,7 +11,7 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 export const VO_LEAD = 0.25; // voice starts this long after its frame opens
 const TAIL = 0.75; // breathing room after the line ends
 const RIG = { x: 470, y: 1500, scale: 0.9 }; // spec.rig overrides (e.g. rowing: machine needs more room)
-const POSE_KEYS = ["s", "t", "b", "hd", "ua", "fa", "s2", "t2", "ua2", "fa2", "rx", "ry", "ft", "ft2", "hx", "hy", "ed", "lr", "al", "hb", "bf", "bx", "by"];
+const POSE_KEYS = ["s", "t", "b", "hd", "ua", "fa", "s2", "t2", "ua2", "fa2", "rx", "ry", "ft", "ft2", "hx", "hy", "ed", "lr", "al", "hb", "bf", "bx", "by", "g2", "hx2", "hy2", "ed2", "wr", "wr2"];
 const SHIN = 230, THIGH = 240; // = runtime.js L.shin / L.thigh
 const deg = (r) => (r * 180) / Math.PI, rad = (d) => (d * Math.PI) / 180;
 
@@ -19,27 +19,31 @@ const deg = (r) => (r * 180) / Math.PI, rad = (d) => (d * Math.PI) / 180;
 //   hip: [x, y]             → keeps s/t and computes rx/ry so the hip lands there (floor / kneeling poses).
 //   hip + ankle: [x, y]     → solves s/t (2-bone IK, knee bows forward/up; knee: "back" flips it) — feet fixed + hip placed
 //                             (rowing, squats on a box…). rx/ry = ankle.
+//   + ankle2: [x, y]        → also solves the far leg (s2/t2) from the same hip (pedaling: each foot on its own pedal).
+function legIK([hx, hy], [ax, ay], back) {
+  const dx = hx - ax, dy = hy - ay, d = Math.min(Math.hypot(dx, dy), SHIN + THIGH - 0.5);
+  const base = Math.atan2(dy, dx);
+  const a = Math.acos((SHIN * SHIN + d * d - THIGH * THIGH) / (2 * SHIN * d));
+  const k1 = { x: ax + Math.cos(base + a) * SHIN, y: ay + Math.sin(base + a) * SHIN };
+  const k2 = { x: ax + Math.cos(base - a) * SHIN, y: ay + Math.sin(base - a) * SHIN };
+  const fwd = k1.y < k2.y ? k1 : k2; // knee up (seated / squatting): the higher solution
+  const K = back ? (fwd === k1 ? k2 : k1) : fwd;
+  const H = { x: ax + Math.cos(base) * d, y: ay + Math.sin(base) * d };
+  return { s: +deg(Math.atan2(K.x - ax, -(K.y - ay))).toFixed(2), t: +deg(Math.atan2(H.x - K.x, -(H.y - K.y))).toFixed(2) };
+}
 export function normalizePose(p) {
   const q = { s: 0, t: 0, b: 0, hd: 0, ua: 6, fa: 6, rx: 0, ry: 0, ft: 0, hx: 70, hy: -20, ed: 1, lr: 0, al: 1, hb: 0, bf: 0, bx: 0, by: 0, ...p };
   if (p.hip && p.ankle) {
-    const [ax, ay] = p.ankle, [hx, hy] = p.hip;
-    const dx = hx - ax, dy = hy - ay, d = Math.min(Math.hypot(dx, dy), SHIN + THIGH - 0.5);
-    const base = Math.atan2(dy, dx);
-    const a = Math.acos((SHIN * SHIN + d * d - THIGH * THIGH) / (2 * SHIN * d));
-    const k1 = { x: ax + Math.cos(base + a) * SHIN, y: ay + Math.sin(base + a) * SHIN };
-    const k2 = { x: ax + Math.cos(base - a) * SHIN, y: ay + Math.sin(base - a) * SHIN };
-    const fwd = k1.y < k2.y ? k1 : k2; // knee up (seated / squatting): the higher solution
-    const K = p.knee === "back" ? (fwd === k1 ? k2 : k1) : fwd;
-    const H = { x: ax + Math.cos(base) * d, y: ay + Math.sin(base) * d };
-    q.s = +deg(Math.atan2(K.x - ax, -(K.y - ay))).toFixed(2);
-    q.t = +deg(Math.atan2(H.x - K.x, -(H.y - K.y))).toFixed(2);
-    q.rx = ax; q.ry = ay;
+    Object.assign(q, legIK(p.hip, p.ankle, p.knee === "back"));
+    q.rx = p.ankle[0]; q.ry = p.ankle[1];
+    if (p.ankle2) { const f = legIK(p.hip, p.ankle2, p.knee === "back"); q.s2 = f.s; q.t2 = f.t; }
   } else if (p.hip) {
     q.rx = +(p.hip[0] - Math.sin(rad(q.s)) * SHIN - Math.sin(rad(q.t)) * THIGH).toFixed(2);
     q.ry = +(p.hip[1] + Math.cos(rad(q.s)) * SHIN + Math.cos(rad(q.t)) * THIGH).toFixed(2);
   }
-  delete q.hip; delete q.ankle; delete q.knee;
+  delete q.hip; delete q.ankle; delete q.ankle2; delete q.knee;
   q.s2 ??= q.s; q.t2 ??= q.t; q.ua2 ??= q.ua; q.fa2 ??= q.fa; q.ft2 ??= q.ft;
+  q.g2 ??= -1; q.hx2 ??= q.hx; q.hy2 ??= q.hy; q.ed2 ??= q.ed; q.wr ??= 0; q.wr2 ??= q.wr;
   return q;
 }
 
@@ -163,7 +167,7 @@ export function buildIndex(projectDir, { thumb = false } = {}) {
 
   const runtimeFrames = frames.map((f) => {
     const rf = { id: f.id, start: f.start, dur: f.dur, kind: f.kind || "step", numeral: f.numeral || null, stance: !!f.stance, shrink: f.shrink };
-    if (f.topview) rf.topview = { angle: f.topview.angle ?? -62, at: f.topview.at ?? 1.0, dur: f.topview.dur ?? 1.6, back: f.topview.back ?? null };
+    if (f.topview) rf.topview = { angle: f.topview.angle ?? -62, at: f.topview.at === null ? null : f.topview.at ?? 1.0, dur: f.topview.dur ?? 1.6, back: f.topview.back ?? null, mode: f.topview.mode || null, from: f.topview.from ?? 1 };
     if (f.keys) {
       const v = voice[f.id];
       rf.keyTimes = f.keys.map((k, i) => {
@@ -207,7 +211,25 @@ export function buildIndex(projectDir, { thumb = false } = {}) {
           </svg>
         </div>
       </div>`);
-    if (f.topview)
+    if (f.topview?.mode === "9090")
+      // Vista de arriba sentado en 90/90: pierna de adelante y de atrás en L; el grupo se espeja (scaleX) = cambio de lado.
+      extras.push(`<div id="fx-${f.id}" class="clip" data-start="${f.start}" data-duration="${f.dur}" data-track-index="4">
+        <div id="topcard-${f.id}" class="feetcard topcard"><div class="lbl">VISTA DE ARRIBA</div>
+          <svg viewBox="0 0 252 300">
+            <g id="tvlegs-${f.id}">
+              <line x1="136" y1="160" x2="150" y2="236" stroke="#3F3F9A" stroke-width="30" stroke-linecap="round"/>
+              <line x1="150" y1="236" x2="58" y2="250" stroke="#E8B383" stroke-width="20" stroke-linecap="round"/>
+              <line x1="146" y1="150" x2="222" y2="166" stroke="#31317E" stroke-width="30" stroke-linecap="round"/>
+              <line x1="222" y1="166" x2="232" y2="78" stroke="#D29A68" stroke-width="20" stroke-linecap="round"/>
+            </g>
+            <line x1="62" y1="104" x2="190" y2="104" stroke="#E8B383" stroke-width="20" stroke-linecap="round"/>
+            <rect x="92" y="88" width="68" height="78" rx="26" fill="#2FB3A6"/>
+            <circle cx="126" cy="106" r="25" fill="#6B3B1F"/>
+            <text x="126" y="292" text-anchor="middle" font-family="Inter" font-weight="800" font-size="22" fill="#1A1A1A">${esc(f.topview.label || "RODILLAS A 90°")}</text>
+          </svg>
+        </div>
+      </div>`);
+    else if (f.topview)
       extras.push(`<div id="fx-${f.id}" class="clip" data-start="${f.start}" data-duration="${f.dur}" data-track-index="4">
         <div id="topcard-${f.id}" class="feetcard topcard"><div class="lbl">VISTA DE ARRIBA</div>
           <svg viewBox="0 0 252 300">
@@ -249,7 +271,7 @@ export function buildIndex(projectDir, { thumb = false } = {}) {
   }
 
   const f2 = frames[1] || frames[0];
-  const config = { total, rig: RIGX, props: spec.props || [], cuts: cutTimes, floorScroll: thumb ? 0 : spec.floorScroll || 0, poses, initialState, initialPose, moves, overlays, frames: runtimeFrames, colors: spec.colors || null };
+  const config = { total, rig: RIGX, props: spec.props || [], cuts: cutTimes, floorScroll: thumb ? 0 : spec.floorScroll || 0, poses, initialState, initialPose, moves, overlays, frames: runtimeFrames, colors: spec.colors || null, fingers: !!spec.fingers };
   const runtime = readFileSync(join(HERE, "runtime.js"), "utf8");
   const css = readFileSync(join(HERE, "styles.css"), "utf8");
 

@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Rist exténsor strech: soltá el antebrazo y cuidá las muñecas después de la barra o la kettlebell."
+    },
+    {
+      "id": "02",
+      "text": "Parate derecho y estirá un brazo al frente, a la altura del hombro, con la palma mirando al piso."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Doblá la muñeca hacia abajo, con los dedos apuntando al piso."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Con la otra mano, empujá suave los dedos hacia vos, hasta sentir el estiramiento en el antebrazo."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Mantené el codo bien estirado, sostené, y después repetí con el otro brazo."
+    },
+    {
+      "id": "06",
+      "text": "Claves: palma abajo, codo estirado, empujá suave sin llegar al dolor, y hacé los dos lados."
+    },
+    {
+      "id": "07",
+      "text": "Treinta segundos por lado. Ideal después de trabajar con barra o kettlebell."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

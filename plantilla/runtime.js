@@ -8,6 +8,8 @@
  * (supine twist). al: free-arm length factor (1 = full; ~0.2 = arm pointing at the camera, e.g. arms in T lying down).
  * ed: elbow side for the grip IK (+1 bows forward, -1 bows back — rowing, pulls). C.props draws implements
  * (see PROPS below); C.cuts hides the athlete briefly to jump between unrelated poses; C.floorScroll moves the floor.
+ * g2 (≥ 0) gives the far arm its own grip blend toward (hx2, hy2) with elbow side ed2 (-1 = follow g): one hand holds, the other is free.
+ * wr/wr2: wrist angle (deg, added to the forearm direction); the fingers are drawn only when C.fingers (wrist stretches).
  */
 (function () {
   const C = window.__EX_CONFIG;
@@ -16,7 +18,7 @@
 
   const L = { shin: 230, thigh: 240, torso: 280, neck: 32, upper: 172, fore: 160 };
   const FAR = { dx: -22, dy: -4 };
-  const KEYS = ["s", "t", "b", "hd", "ua", "fa", "s2", "t2", "ua2", "fa2", "rx", "ry", "ft", "ft2", "hx", "hy", "ed", "g", "lr", "al", "hb", "bf", "bx", "by"];
+  const KEYS = ["s", "t", "b", "hd", "ua", "fa", "s2", "t2", "ua2", "fa2", "rx", "ry", "ft", "ft2", "hx", "hy", "ed", "g", "lr", "al", "hb", "bf", "bx", "by", "g2", "hx2", "hy2", "ed2", "wr", "wr2"];
   const P = C.poses;
 
   const rad = (d) => (d * Math.PI) / 180;
@@ -56,10 +58,14 @@
     // hb: 0 → hands target (hx, hy) in rig space; 1 → in the torso frame from the shoulder (hx forward, hy down the torso):
     // the grip travels with the trunk (goblet kettlebell, bar on the back, ball at the chest).
     const hb = st.hb || 0, fw = { x: Math.cos(rad(st.b)), y: Math.sin(rad(st.b)) }, tu = up(st.b, 1);
-    const rel = { x: S.x + fw.x * st.hx - tu.x * st.hy, y: S.y + fw.y * st.hx - tu.y * st.hy };
-    const tg = lerp({ x: st.hx + off.dx, y: st.hy + off.dy }, { x: rel.x + off.dx, y: rel.y + off.dy }, hb);
-    const g = ik(S, tg, L.upper, L.fore, st.ed ?? 1);
-    return { A, K, H, S, N, E: lerp(fE, g.E, st.g), W: lerp(fW, g.W, st.g) };
+    const own = farSide && st.g2 >= 0; // far arm with its own grip (g2, hx2, hy2, ed2)
+    const hx = own ? st.hx2 : st.hx, hy = own ? st.hy2 : st.hy, gb = own ? st.g2 : st.g;
+    const rel = { x: S.x + fw.x * hx - tu.x * hy, y: S.y + fw.y * hx - tu.y * hy };
+    const tg = lerp({ x: hx + off.dx, y: hy + off.dy }, { x: rel.x + off.dx, y: rel.y + off.dy }, hb);
+    const g = ik(S, tg, L.upper, L.fore, (own ? st.ed2 : st.ed) ?? 1);
+    const E = lerp(fE, g.E, gb), W = lerp(fW, g.W, gb);
+    const wa = Math.atan2(W.x - E.x, W.y - E.y) * 180 / Math.PI + ((farSide ? st.wr2 : st.wr) || 0);
+    return { A, K, H, S, N, E, W, F: add(W, down(wa, 58)) };
   }
 
   // ── SVG build ───────────────────────────────────────────────────────────────
@@ -92,6 +98,9 @@
   //          fixed to the trunk (fx forward, dy down the torso from the shoulder: bar on the back / front rack); near plate over the body.
   // wallball: { type: "wallball", off, wallX, target, r }  ball at the hands (+off) or free at (bx, by) when the pose has bf: 1;
   //           wall at x = wallX with the target band at y = target (rig px).
+  // airbike: { type: "airbike", crank: [x, y], fan: [x, y], fanR, pivot: [x, y], seat: [x, y] }  frame + fan behind the athlete;
+  //          crank arms go from crank to each ankle (pedal under the shoe), handles from pivot to each hand, the fan spins with the near crank.
+  // pullupbar: { type: "pullupbar", bar: [x, y], postX }  bar seen end-on at `bar` (drawn over the hands) + beam and upright behind.
   const propBack = el("g", {}), propMid = el("g", {}), propFront = el("g", {}), propUpdates = [];
   const PLATE = "#7C7F86", PLATE_D = "#5E6168", PLATE_L = "#B9BCC2";
   const METAL = "#4A4F5C", METAL_D = "#2E323B", ACCENT = "#E85D5D";
@@ -151,6 +160,45 @@
         nearP.setAttribute("transform", `translate(${f2(c.x)},${f2(c.y)})`);
       });
     }
+    if (pr.type === "airbike") {
+      const cr = pr.crank || [60, -170], fan = pr.fan || [330, -300], R = pr.fanR || 200, pv = pr.pivot || [130, -260], seat = pr.seat || [-170, -470];
+      const tube = (x1, y1, x2, y2, w, c) => el("line", { x1, y1, x2, y2, stroke: c || METAL_D, "stroke-width": w, "stroke-linecap": "round" }, propBack);
+      tube(seat[0] - 150, 28, fan[0] + R * 0.7, 28, 16); // base
+      tube(seat[0] + 10, seat[1] + 40, seat[0] - 110, 24, 22); // rear leg
+      tube(fan[0], fan[1], fan[0] + R * 0.55, 24, 22); // front leg
+      tube(seat[0] + 10, seat[1] + 40, cr[0], cr[1], 30, METAL); // seat tube -> crank
+      tube(cr[0], cr[1], fan[0], fan[1], 30, METAL); // crank -> fan
+      tube(fan[0] - R * 0.35, fan[1] - R * 0.8, fan[0] - R * 0.7, fan[1] - R - 170, 14); // monitor post
+      el("rect", { x: fan[0] - R * 0.7 - 70, y: fan[1] - R - 250, width: 120, height: 86, rx: 10, fill: METAL_D }, propBack);
+      el("rect", { x: fan[0] - R * 0.7 - 60, y: fan[1] - R - 240, width: 100, height: 54, rx: 6, fill: "#9FD8D2" }, propBack);
+      el("circle", { cx: fan[0], cy: fan[1], r: R, fill: METAL }, propBack); // fan housing
+      el("circle", { cx: fan[0], cy: fan[1], r: R * 0.84, fill: METAL_D }, propBack);
+      const blades = el("g", {}, propBack);
+      for (let i = 0; i < 8; i++)
+        el("path", { d: `M 0 0 L ${R * 0.8} ${-R * 0.16} L ${R * 0.8} ${R * 0.16} Z`, fill: "#5C6270", transform: `rotate(${i * 45})` }, blades);
+      el("circle", { cx: fan[0], cy: fan[1], r: R * 0.17, fill: ACCENT }, propBack);
+      el("rect", { x: seat[0] - 80, y: seat[1], width: 160, height: 34, rx: 14, fill: "#1A1A1A" }, propBack); // seat
+      const farH = tube(0, 0, 0, 0, 16), farC = tube(0, 0, 0, 0, 12), nearC = tube(0, 0, 0, 0, 14);
+      el("circle", { cx: cr[0], cy: cr[1], r: 28, fill: METAL_D }, propBack);
+      const nearH = el("line", { stroke: METAL_D, "stroke-width": 18, "stroke-linecap": "round" }, propMid);
+      const pedalOf = (A) => ({ x: A.x + 30, y: A.y + 36 });
+      const setLn = (n, a, b) => { n.setAttribute("x1", f2(a.x)); n.setAttribute("y1", f2(a.y)); n.setAttribute("x2", f2(b.x)); n.setAttribute("y2", f2(b.y)); };
+      propUpdates.push((n, f) => {
+        const C0 = { x: cr[0], y: cr[1] }, Cf = { x: cr[0] + FAR.dx, y: cr[1] + FAR.dy };
+        setLn(nearC, C0, pedalOf(n.A)); setLn(farC, Cf, pedalOf(f.A));
+        setLn(nearH, { x: pv[0], y: pv[1] }, n.W); setLn(farH, { x: pv[0] + FAR.dx, y: pv[1] + FAR.dy }, f.W);
+        const p = pedalOf(n.A), a = (Math.atan2(p.y - cr[1], p.x - cr[0]) * 180) / Math.PI;
+        blades.setAttribute("transform", `translate(${fan[0]},${fan[1]}) rotate(${f2(a * 3)})`);
+      });
+    }
+    if (pr.type === "pullupbar") {
+      const [bx, by] = pr.bar || [0, -1170], px = pr.postX ?? bx - 430;
+      el("rect", { x: px - 24, y: by - 30, width: 48, height: 34 - by + 30, fill: METAL_D }, propBack); // upright
+      el("rect", { x: px - 50, y: 22, width: 100, height: 14, rx: 7, fill: METAL_D }, propBack);
+      el("rect", { x: px, y: by - 13, width: bx - px, height: 26, fill: METAL }, propBack); // beam
+      el("circle", { cx: bx, cy: by, r: 22, fill: METAL_D }, propFront); // bar end-on, over the hands
+      el("circle", { cx: bx, cy: by, r: 10, fill: "#8A8F99" }, propFront);
+    }
     if (pr.type === "wallball") {
       const off = pr.off || [0, 0], r = pr.r || 62, wx = pr.wallX ?? 520, ty = pr.target ?? -1300;
       const wall = el("g", { class: "prop-scenery" }, propBack); // se atenúa en la escena de claves (la lista la cruza)
@@ -183,6 +231,7 @@
   el("circle", { cx: -6, cy: -52, r: 11, fill: COL.skinFar }, head);
   el("path", { d: "M 54 -62 L 66 -48 L 54 -45 Z", fill: COL.skin }, head);
   const nearArm = { upper: line(COL.skin, 36), fore: line(COL.skin, 32), hand: el("circle", { r: 19, fill: COL.skin }) };
+  if (C.fingers) { far.fingers = line(COL.skinFar, 22); rig.insertBefore(far.fingers, far.hand.nextSibling); nearArm.fingers = line(COL.skin, 24); }
   if (propUpdates.handleNode) rig.insertBefore(propUpdates.handleNode, nearArm.hand);
   rig.insertBefore(propMid, nearArm.upper); // implements held in front of the chest: under the near arm
   rig.appendChild(propFront); // near barbell plate: over everything
@@ -203,6 +252,7 @@
     setL(neck, n.S, n.N);
     place(head, n.N, state.hd);
     setL(nearArm.upper, n.S, n.E); setL(nearArm.fore, n.E, n.W); setC(nearArm.hand, n.W);
+    if (C.fingers) { setL(far.fingers, f.W, f.F); setL(nearArm.fingers, n.W, n.F); }
     propUpdates.forEach((u) => u(n, f, state));
   }
   // Function-valued props: GSAP calls proxy.k(v) on every render (seek-safe, no callbacks).
@@ -311,6 +361,15 @@
       // Tarjeta "vista de arriba" (torsión acostado): las piernas giran hacia un lado con los hombros fijos.
       const tv = f.topview;
       fadeIn(`#topcard-${f.id}`, f.start + 0.4, { x: 60 }, { x: 0 });
+      if (tv.mode === "9090") {
+        // 90/90: las piernas se espejan (pasan por "rodillas arriba" en scaleX 0) = cambio de lado tipo limpiaparabrisas.
+        const legs = `#tvlegs-${f.id}`, o = "140 160";
+        tl.set(legs, { scaleX: tv.from, svgOrigin: o }, f.start);
+        if (tv.at != null) tl.to(legs, { scaleX: -tv.from, svgOrigin: o, duration: tv.dur, ease: "sine.inOut" }, f.start + tv.at);
+        if (tv.back != null) tl.to(legs, { scaleX: tv.from, svgOrigin: o, duration: tv.dur, ease: "sine.inOut" }, f.start + tv.back);
+        tl.to(`#topcard-${f.id}`, { opacity: 0, duration: 0.3 }, f.start + f.dur - 0.35);
+        return;
+      }
       tl.fromTo(`#tvlegs-${f.id}`, { rotation: 0, scaleY: 0.55 }, { rotation: tv.angle, scaleY: 1, svgOrigin: "126 178", duration: tv.dur, ease: "sine.inOut", immediateRender: false }, f.start + tv.at);
       if (tv.back != null) tl.to(`#tvlegs-${f.id}`, { rotation: -tv.angle, svgOrigin: "126 178", duration: tv.dur * 1.6, ease: "sine.inOut" }, f.start + tv.back);
       tl.to(`#topcard-${f.id}`, { opacity: 0, duration: 0.3 }, f.start + f.dur - 0.35);

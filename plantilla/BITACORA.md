@@ -60,12 +60,19 @@ Problemas encontrados al generar videos, cómo se resolvieron y qué conviene ha
 | 10-14 | (todos) | 4 `make-exercise` en paralelo con una versión nueva de hyperframes → `npm ECOMPROMISED` (lock de npx) | correr uno solo primero (descarga la versión), después los demás en paralelo |
 | 10-14 | wall-ball-shot | La pared (prop) cruzaba la lista de la escena de claves | las piezas de escenografía llevan `class="prop-scenery"` y el runtime las desvanece en `kind: "keys"` |
 | 10-14 | burpee-broad-jump | Daniela no pronuncia claro "Burpee Broad Jump" | `pronuncia` (reemplazo solo para la voz) + `voSpeed: 0.88` en la portada; el profe eligió "Burpii, brod champ" entre 13 pruebas |
+| 10-15 | (todos) | El pose-lab usaba una sola carpeta: no se podían probar poses de varios ejercicios a la vez | `videos/_poselab/<slug>/`: correr uno solo primero y después el resto en paralelo |
+| 10-15 | assault-bike | Pedalear = las dos piernas con pies en pedales opuestos y las dos manos en manijas que van y vienen | prop `airbike` + `ankle2` (IK pierna lejana) + `g2/hx2/hy2` (mano lejana propia); 6 poses generadas por script (cada 60° de biela), `seq` con `ease: "none"` |
+| 10-15 | wrist-extensor | El personaje no tenía muñeca | `"fingers": true` + `wr/wr2`; el brazo que se estira es el **lejano** y la mano cercana empuja (`g 1, hb 1`, `g2 0`) para que se vea encima |
+| 10-15 | 90-90-hip-rotation | De costado, la pierna de adelante en 90/90 se veía estirada | pre-escorzo con el tobillo casi debajo de la rodilla (`ankle [110,95]`) + `lr 80`; el cambio de lado se cuenta con la tarjeta `topview mode 9090` |
+| 10-15 | barbell-deadlift | Arranque con cadera baja parecía sentadilla y los brazos no llegaban a la barra (disco r 96 → barra a y −62) | `hip [-150,-285] + ankle [0,0]`, `b 72`: hombros apenas delante de la barra a ≤ 330 px |
+| 10-15 | barbell-front-squat | Rack frontal | barra `torso [60, 30]` (r 72, no tapa la cara), brazos `ua = 90 − b`, `fa 176` → codos altos adelante |
+| 10-15 | hanging-toes-to-bar | Colgado: con piernas a la barra el hombro quedaba lejos de la barra | geometría resuelta (hombro a ≤ 330 de la barra, puntas en la barra, pike ~45°) con la intersección de círculos en el script; claves con `shrink: 0.62` |
 
 ## Pendientes / ideas
 
-- Implementos a dibujar antes de los próximos de la lista: mancuernas, cajón,
-  barra de dominadas, bandas (barra, kettlebell y wall ball ya están, 10-14) (ver columna Implemento del CHECKLIST). Assault bike y SkiErg vienen pronto en la lista.
+- Implementos a dibujar antes de los próximos de la lista: mancuernas, cajón, bandas, SkiErg, trineo
+  (ya están: remo, kettlebell, barra, wall ball, assault bike y barra de dominadas, 10-15) (ver columna Implemento del CHECKLIST).
 - Vista de frente no existe: elegir siempre la vista lateral que mejor muestre el movimiento (rotaciones y aperturas
   laterales —ej. estiramientos de tríceps, muñeca— se leen mal de costado: resolverlo con overlays y texto).
-- Ejercicios con un brazo agarrando y el otro libre (estiramiento de cuádriceps de pie): falta `g2` (agarre independiente del lado lejano).
+- ~~Agarre independiente del lado lejano~~: hecho con `g2` (10-15).
 - Personajes en el piso se ven chicos (mucho espacio vacío arriba): se podría subir `scale` a ~0.95 con `x` centrado.
