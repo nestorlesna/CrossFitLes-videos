@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Vi ap: piernas y torso suben a la vez para formar una V. Abdominales a full."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba, con las piernas estiradas y los brazos extendidos por encima de la cabeza."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Subí el torso y las piernas al mismo tiempo, llevando las manos hacia los pies."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Mantené las piernas estiradas. Si doblás las rodillas, el ejercicio pierde gracia."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. El movimiento sale del core: no tires del cuello ni te impulses con los brazos."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Bajá con control hasta apoyar de nuevo, sin dejarte caer, y repetí."
+    },
+    {
+      "id": "07",
+      "text": "Claves: torso y piernas suben a la vez, piernas estiradas, el movimiento sale del core y bajás con control."
+    },
+    {
+      "id": "08",
+      "text": "Diez repeticiones controladas. Ideal para activar el abdomen antes de entrenar."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

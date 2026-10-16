@@ -1,0 +1,440 @@
+{
+  "slug": "push-press-behind-the-neck",
+  "name": "Push Press Behind the Neck",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Hombros",
+    "Tríceps",
+    "Piernas"
+  ],
+  "descripcion": "Con la barra apoyada detrás de la nuca (sobre los trapecios), realizar un breve dip de rodillas y usar el impulso de las piernas para empujar la barra por encima de la cabeza hasta el bloqueo. Bajar controlado detrás de la nuca.",
+  "revisado": false,
+  "notas": "Barra con blend desde la espalda (torso [-34, 18]) hasta las manos.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1509,
+    "scale": 0.66
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "torso": [
+        -46,
+        24
+      ],
+      "r": 68,
+      "blend": true
+    }
+  ],
+  "pronuncia": {
+    "Push Press Behind the Neck": "Push pres bijáind de nek"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "hd": 2,
+      "g": 0,
+      "ua": -12,
+      "fa": 178,
+      "ua2": -16,
+      "fa2": 176,
+      "bf": 1,
+      "b": 0
+    },
+    "DIP": {
+      "s": 14,
+      "t": -30,
+      "hd": 2,
+      "g": 0,
+      "ua": -14,
+      "fa": 178,
+      "ua2": -18,
+      "fa2": 176,
+      "bf": 1,
+      "b": 2
+    },
+    "DIP_BAD": {
+      "s": 24,
+      "t": -70,
+      "hd": 24,
+      "g": 0,
+      "ua": -42,
+      "fa": 178,
+      "ua2": -46,
+      "fa2": 176,
+      "bf": 1,
+      "b": 30
+    },
+    "DRIVE": {
+      "s": -4,
+      "t": 4,
+      "hd": -2,
+      "ft": -16,
+      "ft2": -16,
+      "g": 0,
+      "ua": -10,
+      "fa": 178,
+      "ua2": -14,
+      "fa2": 176,
+      "bf": 1,
+      "b": -2
+    },
+    "LOCK": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 8,
+      "g": 0,
+      "ua": 184,
+      "fa": 0,
+      "ua2": 184,
+      "fa2": 0,
+      "bf": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "PUSH PRESS",
+        "TRAS NUCA"
+      ],
+      "vo": "Push Press Behind the Neck: impulso de piernas y empuje de la barra desde la nuca hasta arriba.",
+      "moves": [
+        {
+          "to": "DIP",
+          "at": 0.6,
+          "dur": 0.4
+        },
+        {
+          "to": "DRIVE",
+          "at": 1.0,
+          "dur": 0.2,
+          "ease": "power2.out"
+        },
+        {
+          "to": "LOCK",
+          "at": 1.2,
+          "dur": 0.35,
+          "ease": "power2.out"
+        },
+        {
+          "to": "STAND",
+          "at": 2.2,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BARRA EN",
+        "LA NUCA"
+      ],
+      "sub": "Sobre los trapecios",
+      "vo": "Apoyá la barra detrás de la nuca, sobre los trapecios, con los pies al ancho de la cadera y el core firme.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            542.6,
+            928.2
+          ],
+          "text": "SOBRE LOS TRAPECIOS",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "DIP",
+        "CORTO"
+      ],
+      "sub": "Vertical",
+      "vo": "Paso uno. Hacé un dip corto y vertical: flexioná apenas las rodillas, con el torso derecho.",
+      "moves": [
+        {
+          "to": "DIP",
+          "at": 0.6,
+          "dur": 0.6
+        },
+        {
+          "to": "STAND",
+          "at": 1.6,
+          "dur": 0.5
+        },
+        {
+          "to": "DIP_BAD",
+          "at": 2.6,
+          "dur": 0.6
+        },
+        {
+          "to": "STAND",
+          "at": 3.8,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            542.6,
+            928.2
+          ],
+          "text": "CORTO Y VERTICAL",
+          "anchor": "start",
+          "at": 1.0,
+          "out": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            542.6,
+            928.2
+          ],
+          "text": "ASÍ NO",
+          "anchor": "start",
+          "at": 3.0,
+          "out": 3.8
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "IMPULSO",
+        "DE PIERNAS"
+      ],
+      "sub": "Extendé fuerte",
+      "vo": "Paso dos. Extendé las piernas con fuerza: ese impulso es el que hace subir la barra.",
+      "moves": [
+        {
+          "cut": "DIP",
+          "at": 0
+        },
+        {
+          "to": "DRIVE",
+          "at": 0.6,
+          "dur": 0.25,
+          "ease": "power2.out"
+        },
+        {
+          "to": "LOCK",
+          "at": 0.85,
+          "dur": 0.4,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            338.0,
+            849.0
+          ],
+          "at": 0.6,
+          "dur": 0.7,
+          "from": [
+            338.0,
+            1311.0
+          ]
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "BLOQUEÁ",
+        "ARRIBA"
+      ],
+      "sub": "Sobre la mitad del pie",
+      "vo": "Paso tres. Terminá con los brazos bloqueados, la barra sobre la mitad del pie y los hombros activos.",
+      "moves": [
+        {
+          "cut": "LOCK",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": [
+            496.4,
+            795.4
+          ],
+          "color": "ink",
+          "width": 6,
+          "at": 0.8,
+          "from": [
+            496.4,
+            1528.8
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            540.5,
+            848.2
+          ],
+          "text": "MITAD DEL PIE",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "BAJÁ",
+        "CONTROLADO"
+      ],
+      "sub": "De vuelta a la nuca",
+      "vo": "Paso cuatro. Bajá la barra controlada detrás de la nuca y prepará la siguiente repetición.",
+      "moves": [
+        {
+          "cut": "LOCK",
+          "at": 0
+        },
+        {
+          "to": "STAND",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.75,
+      "keys": [
+        "Dip corto y vertical",
+        "Las piernas dan el impulso",
+        "Bloqueo sobre medio pie",
+        "Core firme"
+      ],
+      "vo": "Claves: dip corto y vertical, las piernas dan el impulso, bloqueo sobre la mitad del pie y core firme. Necesita buena movilidad de hombro.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 REPS"
+      ],
+      "sub": "Con 10 kg, liviano",
+      "vo": "Tres repeticiones con diez kilos. Es un ejercicio de activación: liviano y con buena técnica.",
+      "chips": [
+        {
+          "label": "1 · DIP",
+          "at": 0.5
+        },
+        {
+          "label": "2 · EMPUJÁ",
+          "at": 0.9
+        }
+      ],
+      "moves": [
+        {
+          "to": "DIP",
+          "at": 0.5,
+          "dur": 0.4
+        },
+        {
+          "to": "DRIVE",
+          "at": 0.9,
+          "dur": 0.2,
+          "ease": "power2.out"
+        },
+        {
+          "to": "LOCK",
+          "at": 1.1,
+          "dur": 0.35,
+          "ease": "power2.out"
+        },
+        {
+          "to": "STAND",
+          "at": 2.1,
+          "dur": 0.8
+        },
+        {
+          "to": "DIP",
+          "at": 3.2,
+          "dur": 0.4
+        },
+        {
+          "to": "DRIVE",
+          "at": 3.6,
+          "dur": 0.2,
+          "ease": "power2.out"
+        },
+        {
+          "to": "LOCK",
+          "at": 3.8000000000000003,
+          "dur": 0.35,
+          "ease": "power2.out"
+        },
+        {
+          "to": "STAND",
+          "at": 4.800000000000001,
+          "dur": 0.8
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "DIP",
+    "grip": 0,
+    "zoom": 1.2,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Push Press tras nuca 🔥 Empuje con impulso paso a paso | CrossFit",
+    "tags": [
+      "push press behind the neck",
+      "push press tras nuca",
+      "press tras nuca",
+      "push press",
+      "empuje de barra",
+      "hombros",
+      "tríceps",
+      "crossfit",
+      "barra olímpica",
+      "activación",
+      "fuerza"
+    ],
+    "descripcion": "🔥 PUSH PRESS TRAS NUCA — Impulso de piernas y empuje desde la nuca hasta arriba\n\n¿Querés activar los hombros y aprender a usar las piernas en los empujes? El push press tras nuca te enseña el dip y el bloqueo. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Apoyá la barra detrás de la nuca, sobre los trapecios, con los pies al ancho de la cadera y el core firme.\n2️⃣ Hacé un dip corto y vertical: flexioná apenas las rodillas, con el torso derecho.\n3️⃣ Extendé las piernas con fuerza: ese impulso es el que hace subir la barra.\n4️⃣ Terminá con los brazos bloqueados, la barra sobre la mitad del pie y los hombros activos.\n5️⃣ Bajá la barra controlada detrás de la nuca y prepará la siguiente.\n\n✅ CLAVES DE TÉCNICA\n• El dip es corto y vertical\n• Las piernas dan el impulso\n• La barra termina sobre la mitad del pie, hombros activos\n• Core firme todo el movimiento\n• Requiere buena movilidad de hombro\n\n🎯 QUÉ TRABAJA\nDeltoides anterior · Deltoides lateral · Glúteo mayor · Recto femoral · Trapecio superior · Tríceps braquial\n\n⏱️ CUÁNTO\n3 repeticiones con 10 kg. Va en la activación o como trabajo técnico de fuerza.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi te falta movilidad de hombro o tenés molestias, hacelo con la barra adelante (push press común) y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Fuerza #PushPress #Hombros #Entrenamiento"
+  }
+}

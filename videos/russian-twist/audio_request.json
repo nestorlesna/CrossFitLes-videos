@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Rashan tuist: rotación del tronco de lado a lado, con los pies arriba. Oblicuos y core a full."
+    },
+    {
+      "id": "02",
+      "text": "Sentate con el torso inclinado hacia atrás, el balón frente al pecho y los pies despegados del piso."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Rotá el tronco y llevá el balón al costado de la cadera. El giro sale del torso."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Pasá por el centro y llevá el balón al otro costado, controlando en los dos sentidos."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Mantené la espalda recta y el pecho abierto. Si te encorvás, el trabajo se pierde."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. No dejes caer las piernas. Si cuesta, apoyá los talones y rotá igual."
+    },
+    {
+      "id": "07",
+      "text": "Claves: rotá desde el torso, espalda recta, controlá los dos sentidos y no dejes caer las piernas."
+    },
+    {
+      "id": "08",
+      "text": "Cincuenta repeticiones con un balón de nueve kilos. Cada toque a un costado cuenta una."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

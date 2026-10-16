@@ -1,0 +1,433 @@
+{
+  "slug": "v-up",
+  "name": "V-Up",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Abdomen",
+    "Oblicuos",
+    "Core"
+  ],
+  "descripcion": "Tumbado boca arriba con los brazos extendidos sobre la cabeza, elevar simultáneamente piernas y torso para tocar los pies formando una \"V\", luego bajar con control.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 570,
+    "y": 1500,
+    "scale": 0.86
+  },
+  "pronuncia": {
+    "V-Up": "Vi ap"
+  },
+  "initialPose": "FLAT",
+  "poses": {
+    "FLAT": {
+      "hip": [
+        0,
+        -20
+      ],
+      "s": -90,
+      "t": -90,
+      "b": -90,
+      "hd": -92,
+      "ft": -90,
+      "ft2": -90,
+      "g": 0,
+      "ua": 270,
+      "fa": 0,
+      "ua2": 270,
+      "fa2": 0
+    },
+    "MID": {
+      "hip": [
+        0,
+        -18
+      ],
+      "s": -120,
+      "t": -120,
+      "b": -60,
+      "hd": -56,
+      "ft": -60,
+      "ft2": -60,
+      "g": 0,
+      "ua": 125,
+      "fa": 0,
+      "ua2": 125,
+      "fa2": 0
+    },
+    "V": {
+      "hip": [
+        0,
+        -16
+      ],
+      "s": -150,
+      "t": -150,
+      "b": -30,
+      "hd": -22,
+      "ft": -40,
+      "ft2": -40,
+      "g": 1,
+      "hx": 150.0,
+      "hy": -275.8,
+      "ed": 1
+    },
+    "BENT_BAD": {
+      "hip": [
+        0,
+        -16
+      ],
+      "s": -80,
+      "t": -150,
+      "b": -40,
+      "hd": 10,
+      "g": 0,
+      "ua": 40,
+      "fa": 10,
+      "ua2": 40,
+      "fa2": 10
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "V-UP"
+      ],
+      "vo": "V-Up: piernas y torso suben a la vez para formar una V. Abdominales a full.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "MID",
+              0.35
+            ],
+            [
+              "V",
+              0.35
+            ],
+            [
+              "MID",
+              0.45
+            ],
+            [
+              "FLAT",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BOCA",
+        "ARRIBA"
+      ],
+      "sub": "Brazos sobre la cabeza",
+      "vo": "Acostate boca arriba, con las piernas estiradas y los brazos extendidos por encima de la cabeza.",
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            312.0,
+            1328.0
+          ],
+          "text": "BRAZOS ESTIRADOS",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "SUBÍ",
+        "TODO JUNTO"
+      ],
+      "sub": "Torso y piernas a la vez",
+      "vo": "Paso uno. Subí el torso y las piernas al mismo tiempo, llevando las manos hacia los pies.",
+      "moves": [
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 0.5
+        },
+        {
+          "to": "V",
+          "at": 1.1,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            621.6,
+            980.7
+          ],
+          "text": "FORMÁ UNA V",
+          "anchor": "middle",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "PIERNAS",
+        "ESTIRADAS"
+      ],
+      "sub": "Sin doblar las rodillas",
+      "vo": "Paso dos. Mantené las piernas estiradas. Si doblás las rodillas, el ejercicio pierde gracia.",
+      "moves": [
+        {
+          "cut": "V",
+          "at": 0
+        },
+        {
+          "to": "BENT_BAD",
+          "at": 1.8,
+          "dur": 0.5
+        },
+        {
+          "to": "V",
+          "at": 3.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": {
+            "j": "V.A"
+          },
+          "solid": true,
+          "at": 0.6,
+          "out": 1.8,
+          "from": {
+            "j": "V.H"
+          }
+        },
+        {
+          "type": "label",
+          "pos": [
+            724.8,
+            1135.5
+          ],
+          "text": "RECTAS",
+          "anchor": "middle",
+          "at": 0.8,
+          "out": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            724.8,
+            1135.5
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 2.2,
+          "out": 3.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "DESDE",
+        "EL CORE"
+      ],
+      "sub": "Sin tirar del cuello",
+      "vo": "Paso tres. El movimiento sale del core: no tires del cuello ni te impulses con los brazos.",
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 0.5
+        },
+        {
+          "to": "V",
+          "at": 1.1,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            587.2,
+            1396.8
+          ],
+          "r": 70,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            587.2,
+            1285.0
+          ],
+          "text": "CORE",
+          "anchor": "middle",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "BAJÁ",
+        "CON CONTROL"
+      ],
+      "sub": "Sin desplomarte",
+      "vo": "Paso cuatro. Bajá con control hasta apoyar de nuevo, sin dejarte caer, y repetí.",
+      "moves": [
+        {
+          "cut": "V",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 0.8
+        },
+        {
+          "to": "FLAT",
+          "at": 1.4,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 1,
+      "keys": [
+        "Torso y piernas a la vez",
+        "Piernas estiradas",
+        "Sale del core",
+        "Bajá con control"
+      ],
+      "vo": "Claves: torso y piernas suben a la vez, piernas estiradas, el movimiento sale del core y bajás con control.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "MID",
+              0.35
+            ],
+            [
+              "V",
+              0.35
+            ],
+            [
+              "MID",
+              0.45
+            ],
+            [
+              "FLAT",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Controladas",
+      "vo": "Diez repeticiones controladas. Ideal para activar el abdomen antes de entrenar.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.4
+        },
+        {
+          "label": "2 · BAJÁ",
+          "at": 1.2
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "MID",
+              0.35
+            ],
+            [
+              "V",
+              0.35
+            ],
+            [
+              "MID",
+              0.45
+            ],
+            [
+              "FLAT",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "V",
+    "grip": 1,
+    "zoom": 1.15,
+    "dy": 180
+  },
+  "youtube": {
+    "titulo": "V-Up 🔥 Abdominales en V paso a paso | CrossFit",
+    "tags": [
+      "v up",
+      "v-up",
+      "v ups",
+      "abdominales en v",
+      "navaja",
+      "abdominales",
+      "core",
+      "crossfit",
+      "activación",
+      "abdomen"
+    ],
+    "descripcion": "🔥 V-UP — Torso y piernas arriba a la vez: abdominales en V\n\n¿Buscás un abdominal que trabaje todo el core de una? En el V-Up suben piernas y torso juntos. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Acostate boca arriba, con las piernas estiradas y los brazos extendidos por encima de la cabeza.\n2️⃣ Subí el torso y las piernas al mismo tiempo, llevando las manos hacia los pies.\n3️⃣ Mantené las piernas estiradas.\n4️⃣ El movimiento sale del core: no tires del cuello ni te impulses con los brazos.\n5️⃣ Bajá con control hasta apoyar de nuevo, sin dejarte caer, y repetí.\n\n✅ CLAVES DE TÉCNICA\n• Subí torso y piernas a la vez\n• Piernas estiradas\n• Evitá tirar del cuello: el movimiento parte del core\n• Bajá con control\n\n🎯 QUÉ TRABAJA\nRecto abdominal · Oblicuo externo · Oblicuo interno · Recto femoral\n\n⏱️ CUÁNTO\n10 repeticiones controladas. Va en la activación o como accesorio de core.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi te molesta la espalda baja, hacelo con las rodillas flexionadas (tuck-up) y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Core #VUp #Abdominales #Entrenamiento"
+  }
+}

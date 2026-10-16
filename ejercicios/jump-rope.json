@@ -1,0 +1,556 @@
+{
+  "slug": "jump-rope",
+  "name": "Jump Rope",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Gemelos",
+    "Coordinación",
+    "Cardio"
+  ],
+  "descripcion": "Saltos de cuerda básicos (single-under). Un salto por cada vuelta de la cuerda. Mantener ritmo constante con muñecas girando la cuerda y saltos pequeños.",
+  "revisado": false,
+  "notas": "Primer video con prop jumprope (fase rp: 0 = abajo de los pies, 0.5 = arriba).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1505,
+    "scale": 0.8
+  },
+  "props": [
+    {
+      "type": "jumprope",
+      "c": [
+        20,
+        0
+      ],
+      "rx": 300,
+      "ry": 520
+    }
+  ],
+  "pronuncia": {
+    "Jump Rope": "Champ roup",
+    "single-under": "síngol ánder"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "rp": 0.5,
+      "g": 0,
+      "ua": 18,
+      "fa": 62,
+      "ua2": 14,
+      "fa2": 62
+    },
+    "LAND": {
+      "hip": [
+        0,
+        -446
+      ],
+      "s": 6,
+      "t": -10,
+      "s2": 6,
+      "t2": -10,
+      "b": 2,
+      "hd": 0,
+      "rp": 0.5,
+      "g": 0,
+      "ua": 18,
+      "fa": 62,
+      "ua2": 14,
+      "fa2": 62
+    },
+    "AIR": {
+      "hip": [
+        0,
+        -500
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 2,
+      "hd": 0,
+      "ft": 22,
+      "ft2": 22,
+      "rp": 0.0,
+      "g": 0,
+      "ua": 18,
+      "fa": 62,
+      "ua2": 14,
+      "fa2": 62
+    },
+    "AIR2": {
+      "hip": [
+        0,
+        -500
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 2,
+      "hd": 0,
+      "ft": 22,
+      "ft2": 22,
+      "rp": 1.0,
+      "g": 0,
+      "ua": 18,
+      "fa": 62,
+      "ua2": 14,
+      "fa2": 62
+    },
+    "BIG_ARMS": {
+      "hip": [
+        0,
+        -446
+      ],
+      "s": 6,
+      "t": -10,
+      "b": 2,
+      "hd": 0,
+      "rp": 0.5,
+      "g": 0,
+      "ua": 70,
+      "fa": 10,
+      "ua2": 66,
+      "fa2": 10
+    },
+    "HIGH": {
+      "hip": [
+        0,
+        -600
+      ],
+      "s": 20,
+      "t": -60,
+      "s2": 20,
+      "t2": -60,
+      "b": 8,
+      "hd": 0,
+      "rp": 0.0,
+      "g": 0,
+      "ua": 18,
+      "fa": 62,
+      "ua2": 14,
+      "fa2": 62
+    },
+    "HIGH2": {
+      "hip": [
+        0,
+        -600
+      ],
+      "s": 20,
+      "t": -60,
+      "s2": 20,
+      "t2": -60,
+      "b": 8,
+      "hd": 0,
+      "rp": 1.0,
+      "g": 0,
+      "ua": 18,
+      "fa": 62,
+      "ua2": 14,
+      "fa2": 62
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.4,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "JUMP ROPE"
+      ],
+      "vo": "Jump Rope: saltos de cuerda simples, un salto por cada vuelta. Ritmo, coordinación y gemelos.",
+      "moves": [
+        {
+          "to": "AIR",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "AIR",
+              0.01
+            ],
+            [
+              "LAND",
+              0.17
+            ],
+            [
+              "AIR2",
+              0.17
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 4.8,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "CUERDA",
+        "ATRÁS"
+      ],
+      "sub": "Codos cerca del cuerpo",
+      "vo": "Parate derecho con la cuerda atrás de los talones, una manija en cada mano y los codos cerca del cuerpo.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            548.0,
+            1057.0
+          ],
+          "r": 56,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            644.0,
+            1009.0
+          ],
+          "text": "CODOS PEGADOS",
+          "anchor": "start",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "GIRÁ CON",
+        "LAS MUÑECAS"
+      ],
+      "sub": "No con los hombros",
+      "vo": "Paso uno. La cuerda gira con las muñecas, no con los hombros. Movimientos chicos.",
+      "moves": [
+        {
+          "to": "AIR",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "AIR",
+              0.01
+            ],
+            [
+              "LAND",
+              0.22
+            ],
+            [
+              "AIR2",
+              0.22
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            668.0,
+            1058.6
+          ],
+          "r": 50,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            724.0,
+            993.0
+          ],
+          "text": "MUÑECAS",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "SALTOS",
+        "CHIQUITOS"
+      ],
+      "sub": "En puntas de pie",
+      "vo": "Paso dos. Saltá en las puntas de los pies, apenas despegado del piso. No hace falta saltar alto.",
+      "moves": [
+        {
+          "to": "AIR",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "AIR",
+              0.01
+            ],
+            [
+              "LAND",
+              0.2
+            ],
+            [
+              "AIR2",
+              0.2
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            708.0,
+            1457.0
+          ],
+          "text": "APENAS DESPEGADO",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "UN SALTO",
+        "POR VUELTA"
+      ],
+      "sub": "Single-under",
+      "vo": "Paso tres. Un salto por cada vuelta de la cuerda: la cuerda pasa por debajo justo cuando estás en el aire.",
+      "moves": [
+        {
+          "to": "AIR",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "AIR",
+              0.01
+            ],
+            [
+              "LAND",
+              0.3
+            ],
+            [
+              "AIR2",
+              0.3
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            660.0,
+            1473.0
+          ],
+          "text": "LA CUERDA PASA ABAJO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "MIRADA",
+        "AL FRENTE"
+      ],
+      "sub": "Ritmo constante",
+      "vo": "Paso cuatro. Mirada al frente y un ritmo constante. Si se corta, arrancá de nuevo sin apurarte.",
+      "moves": [
+        {
+          "to": "AIR",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "AIR",
+              0.01
+            ],
+            [
+              "LAND",
+              0.17
+            ],
+            [
+              "AIR2",
+              0.17
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            788.0,
+            865.0
+          ],
+          "at": 0.8,
+          "dur": 0.7,
+          "from": [
+            596.0,
+            865.0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            604.0,
+            825.0
+          ],
+          "text": "MIRADA AL FRENTE",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.75,
+      "keys": [
+        "Saltá en puntas de pie",
+        "Giro de muñecas",
+        "Codos cerca del cuerpo",
+        "Mirada al frente"
+      ],
+      "vo": "Claves: saltá en puntas de pie, la cuerda gira con las muñecas, codos cerca del cuerpo y la mirada al frente.",
+      "moves": [
+        {
+          "to": "AIR",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "AIR",
+              0.01
+            ],
+            [
+              "LAND",
+              0.17
+            ],
+            [
+              "AIR2",
+              0.17
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "110 SALTOS"
+      ],
+      "sub": "A ritmo constante",
+      "vo": "Ciento diez saltos a ritmo constante. Va en la entrada en calor y en un montón de WODs.",
+      "chips": [
+        {
+          "label": "1 · MUÑECAS",
+          "at": 0.5
+        },
+        {
+          "label": "2 · SALTO",
+          "at": 1.4
+        }
+      ],
+      "moves": [
+        {
+          "to": "AIR",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "AIR",
+              0.01
+            ],
+            [
+              "LAND",
+              0.17
+            ],
+            [
+              "AIR2",
+              0.17
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "AIR",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Jump Rope 🪢 Saltar la cuerda paso a paso | CrossFit",
+    "tags": [
+      "jump rope",
+      "saltar la cuerda",
+      "soga",
+      "single under",
+      "saltos de cuerda",
+      "cuerda para saltar",
+      "crossfit",
+      "wod",
+      "entrada en calor",
+      "cardio",
+      "gemelos"
+    ],
+    "descripcion": "🪢 JUMP ROPE — Saltos de cuerda simples: ritmo, coordinación y gemelos\n\n¿Te enredás con la soga o terminás agotado a los 30 saltos? Con muñecas y saltos chiquitos se vuelve fácil. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate derecho con la cuerda atrás de los talones, una manija en cada mano y los codos cerca del cuerpo.\n2️⃣ La cuerda gira con las muñecas, no con los hombros. Movimientos chicos.\n3️⃣ Saltá en las puntas de los pies, apenas despegado del piso.\n4️⃣ Un salto por cada vuelta de la cuerda (single-under): pasa por debajo justo cuando estás en el aire.\n5️⃣ Mirada al frente y un ritmo constante.\n\n✅ CLAVES DE TÉCNICA\n• Saltá en las puntas de los pies, apenas despegado del piso\n• La cuerda gira con las muñecas, no con los hombros\n• Codos cerca del cuerpo\n• Mirada al frente\n\n🎯 QUÉ TRABAJA\nGemelos · Glúteo mayor · Sóleo · Tibial anterior · Vasto lateral\n\n⏱️ CUÁNTO\n110 saltos a ritmo constante. Va en la entrada en calor y en WODs.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #JumpRope #Cardio #Entrenamiento"
+  }
+}

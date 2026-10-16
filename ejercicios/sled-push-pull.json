@@ -1,0 +1,473 @@
+{
+  "slug": "sled-push-pull",
+  "name": "Sled Push & Pull",
+  "category": "CROSSFIT · FUERZA · WOD",
+  "tags": [
+    "Piernas",
+    "Glúteos",
+    "Potencia"
+  ],
+  "descripcion": "Empujar el trineo cargado una distancia y luego tirar de él de regreso, manteniendo posición atlética y empuje continuo de piernas.",
+  "revisado": false,
+  "notas": "Primer video con prop sled (bx = posición del trineo, rp = soga) y piso con velocidad por escena (scroll).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 360,
+    "y": 1510,
+    "scale": 0.65
+  },
+  "shadow": false,
+  "props": [
+    {
+      "type": "sled",
+      "len": 300,
+      "post": 560
+    }
+  ],
+  "pronuncia": {
+    "Sled Push & Pull": "Sled push and pul",
+    "Sled Push and Pull": "Sled push and pul"
+  },
+  "initialPose": "PUSH_A",
+  "poses": {
+    "PUSH_A": {
+      "hip": [
+        0,
+        -340.4
+      ],
+      "s": 22,
+      "t": -58,
+      "s2": 43.59,
+      "t2": 43.59,
+      "b": 52,
+      "hd": 50,
+      "ft": 0,
+      "ft2": 40,
+      "g": 1,
+      "hx": 507,
+      "hy": -500,
+      "ed": 1,
+      "bx": 525,
+      "rp": 0
+    },
+    "PUSH_B": {
+      "hip": [
+        0,
+        -340.4
+      ],
+      "s": 43.59,
+      "t": 43.59,
+      "s2": 22,
+      "t2": -58,
+      "b": 52,
+      "hd": 50,
+      "ft": 40,
+      "ft2": 0,
+      "g": 1,
+      "hx": 507,
+      "hy": -500,
+      "ed": 1,
+      "bx": 525,
+      "rp": 0
+    },
+    "PULL_A": {
+      "hip": [
+        -110,
+        -273.3
+      ],
+      "s": 30,
+      "t": -72,
+      "s2": 54.44,
+      "t2": 54.44,
+      "b": -10,
+      "hd": -6,
+      "ft": 0,
+      "ft2": 40,
+      "g": 1,
+      "hx": 150,
+      "hy": -430,
+      "ed": 1,
+      "bx": 470,
+      "rp": 1
+    },
+    "PULL_B": {
+      "hip": [
+        -110,
+        -273.3
+      ],
+      "s": 54.44,
+      "t": 54.44,
+      "s2": 30,
+      "t2": -72,
+      "b": -10,
+      "hd": -6,
+      "ft": 40,
+      "ft2": 0,
+      "g": 1,
+      "hx": 150,
+      "hy": -430,
+      "ed": 1,
+      "bx": 470,
+      "rp": 1
+    },
+    "PULL_HIGH": {
+      "hip": [
+        -110,
+        -440
+      ],
+      "s": 6,
+      "t": -16,
+      "s2": 12,
+      "t2": 12,
+      "b": -10,
+      "hd": -6,
+      "ft": 0,
+      "ft2": 40,
+      "g": 1,
+      "hx": 150,
+      "hy": -430,
+      "ed": 1,
+      "bx": 470,
+      "rp": 1
+    },
+    "BAD": {
+      "hip": [
+        0,
+        -340.4
+      ],
+      "s": 22,
+      "t": -58,
+      "s2": 43.59,
+      "t2": 43.59,
+      "b": 52,
+      "hd": 80,
+      "ft": 0,
+      "ft2": 40,
+      "g": 1,
+      "hx": 507,
+      "hy": -500,
+      "ed": 1,
+      "bx": 525,
+      "rp": 0,
+      "cv": 34
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · FUERZA · WOD",
+      "head": [
+        "SLED",
+        "PUSH & PULL"
+      ],
+      "scroll": 200,
+      "vo": "Sled Push and Pull: empujar el trineo de ida y tirar de él de vuelta. Piernas y potencia a full.",
+      "moves": [
+        {
+          "loop": [
+            "PUSH_A",
+            "PUSH_B"
+          ],
+          "at": 0.3,
+          "step": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "MANOS EN",
+        "LOS PARANTES"
+      ],
+      "sub": "Brazos firmes",
+      "scroll": 0,
+      "vo": "Tomá los parantes del trineo con los brazos firmes, el cuerpo inclinado y una pierna adelante.",
+      "moves": [
+        {
+          "cut": "PUSH_A",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            675.2,
+            1042.0
+          ],
+          "text": "BRAZOS FIRMES",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "EMPUJÁ",
+        "CON LAS PIERNAS"
+      ],
+      "sub": "Empuje continuo",
+      "scroll": 200,
+      "vo": "Paso uno. Empujá con las piernas, paso a paso, sin frenar: el empuje tiene que ser continuo.",
+      "moves": [
+        {
+          "loop": [
+            "PUSH_A",
+            "PUSH_B"
+          ],
+          "at": 0.3,
+          "step": 0.5,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            262.5,
+            1016.0
+          ],
+          "text": "EMPUJE CONTINUO",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "ESPALDA",
+        "NEUTRA"
+      ],
+      "sub": "Posición atlética",
+      "scroll": 0,
+      "vo": "Paso dos. Mantené la espalda neutra y la posición atlética. Si te encorvás, perdés fuerza.",
+      "moves": [
+        {
+          "cut": "PUSH_A",
+          "at": 0
+        },
+        {
+          "to": "BAD",
+          "at": 0.6,
+          "dur": 0.6
+        },
+        {
+          "to": "PUSH_A",
+          "at": 2.4,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            464.4,
+            1007.7
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0,
+          "out": 2.4
+        },
+        {
+          "type": "line",
+          "to": {
+            "j": "PUSH_A.S",
+            "dy": -70
+          },
+          "solid": true,
+          "at": 3.0,
+          "from": {
+            "j": "PUSH_A.H",
+            "dy": -70
+          }
+        },
+        {
+          "type": "label",
+          "pos": [
+            464.4,
+            1007.7
+          ],
+          "text": "ESPALDA NEUTRA",
+          "anchor": "middle",
+          "at": 3.1
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "TIRÁ DE",
+        "VUELTA"
+      ],
+      "sub": "Cadera baja",
+      "scroll": -150,
+      "vo": "Paso tres. Para volver, tomá la soga, bajá la cadera y caminá hacia atrás tirando del trineo.",
+      "moves": [
+        {
+          "cut": "PULL_A",
+          "at": 0
+        },
+        {
+          "loop": [
+            "PULL_A",
+            "PULL_B"
+          ],
+          "at": 0.4,
+          "step": 0.55,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            288.5,
+            994.4
+          ],
+          "text": "CADERA BAJA",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ESPALDA",
+        "Y PIERNAS"
+      ],
+      "sub": "No solo los brazos",
+      "scroll": -150,
+      "vo": "Paso cuatro. Tirá con la espalda y las piernas, no solo con los brazos. Pasos cortos y firmes.",
+      "moves": [
+        {
+          "loop": [
+            "PULL_A",
+            "PULL_B"
+          ],
+          "at": 0.2,
+          "step": 0.55,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            288.5,
+            994.4
+          ],
+          "text": "PASOS CORTOS",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "scroll": 200,
+      "shrink": 0.75,
+      "keys": [
+        "Brazos firmes al empujar",
+        "Espalda neutra",
+        "Empuje continuo de piernas",
+        "Al tirar, cadera baja"
+      ],
+      "vo": "Claves: brazos firmes al empujar, espalda neutra, empuje continuo con las piernas y cadera baja al tirar.",
+      "moves": [
+        {
+          "cut": "PUSH_A",
+          "at": 0.1
+        },
+        {
+          "loop": [
+            "PUSH_A",
+            "PUSH_B"
+          ],
+          "at": 0.4,
+          "step": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "20 METROS"
+      ],
+      "sub": "Con 80 kg, ida y vuelta",
+      "scroll": 200,
+      "vo": "Veinte metros con ochenta kilos: ida empujando y vuelta tirando. Ajustá el peso a tu nivel.",
+      "chips": [
+        {
+          "label": "1 · IDA EMPUJANDO",
+          "at": 0.5
+        },
+        {
+          "label": "2 · VUELTA TIRANDO",
+          "at": 3.2
+        }
+      ],
+      "moves": [
+        {
+          "cut": "PUSH_A",
+          "at": 0
+        },
+        {
+          "loop": [
+            "PUSH_A",
+            "PUSH_B"
+          ],
+          "at": 0.4,
+          "step": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "PUSH_A",
+    "grip": 1,
+    "zoom": 1.2,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Sled Push & Pull 🛷 Empujar y tirar del trineo paso a paso | CrossFit",
+    "tags": [
+      "sled push",
+      "sled pull",
+      "sled push and pull",
+      "empuje de trineo",
+      "arrastre de trineo",
+      "trineo",
+      "prowler",
+      "crossfit",
+      "wod",
+      "piernas",
+      "potencia"
+    ],
+    "descripcion": "🛷 SLED PUSH & PULL — Empujar y tirar del trineo: piernas, potencia y motor\n\n¿El trineo se te frena a mitad de camino? La clave está en la posición y en no cortar el empuje. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Tomá los parantes del trineo con los brazos firmes, el cuerpo inclinado y una pierna adelante.\n2️⃣ Empujá con las piernas, paso a paso, sin frenar: el empuje tiene que ser continuo.\n3️⃣ Mantené la espalda neutra y la posición atlética.\n4️⃣ Para volver, tomá la soga, bajá la cadera y caminá hacia atrás tirando del trineo.\n5️⃣ Tirá con la espalda y las piernas, no solo con los brazos. Pasos cortos y firmes.\n\n✅ CLAVES DE TÉCNICA\n• Brazos firmes al empujar\n• Espalda neutra, posición atlética\n• Empuje continuo de piernas\n• Al tirar, bajá la cadera y tirá con la espalda y las piernas\n\n🎯 QUÉ TRABAJA\nGlúteo mayor · Gemelos · Pectoral mayor · Recto femoral\n\n⏱️ CUÁNTO\n20 metros con 80 kg (ida empujando, vuelta tirando). Ajustá el peso a tu nivel. Va en WODs y bloques de fuerza.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés molestias en la espalda baja o las rodillas, empezá con poco peso y distancias cortas, y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #SledPush #Potencia #Entrenamiento"
+  }
+}

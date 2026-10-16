@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Champ roup: saltos de cuerda simples, un salto por cada vuelta. Ritmo, coordinación y gemelos."
+    },
+    {
+      "id": "02",
+      "text": "Parate derecho con la cuerda atrás de los talones, una manija en cada mano y los codos cerca del cuerpo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. La cuerda gira con las muñecas, no con los hombros. Movimientos chicos."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Saltá en las puntas de los pies, apenas despegado del piso. No hace falta saltar alto."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Un salto por cada vuelta de la cuerda: la cuerda pasa por debajo justo cuando estás en el aire."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Mirada al frente y un ritmo constante. Si se corta, arrancá de nuevo sin apurarte."
+    },
+    {
+      "id": "07",
+      "text": "Claves: saltá en puntas de pie, la cuerda gira con las muñecas, codos cerca del cuerpo y la mirada al frente."
+    },
+    {
+      "id": "08",
+      "text": "Ciento diez saltos a ritmo constante. Va en la entrada en calor y en un montón de WODs."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

@@ -1,0 +1,534 @@
+{
+  "slug": "barbell-power-snatch",
+  "name": "Barbell Power Snatch",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Cadera",
+    "Hombros",
+    "Potencia"
+  ],
+  "descripcion": "Con agarre ancho (snatch), llevar la barra desde el piso hasta arriba de la cabeza en un solo movimiento. Primer tirón controlado hasta las rodillas, extensión explosiva de cadera y piernas, y recibir la barra con los brazos bloqueados en media sentadilla (por encima del paralelo).",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 450,
+    "y": 1509,
+    "scale": 0.66
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "r": 96
+    }
+  ],
+  "pronuncia": {
+    "Barbell Power Snatch": "Bárbel páuer snach"
+  },
+  "initialPose": "SETUP",
+  "poses": {
+    "STAND_BAR": {
+      "g": 1,
+      "ed": 1,
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "hx": 30,
+      "hy": -424
+    },
+    "SETUP": {
+      "g": 1,
+      "ed": 1,
+      "hip": [
+        -150,
+        -285
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 72,
+      "hd": 56,
+      "hx": 30,
+      "hy": -62
+    },
+    "KNEE": {
+      "g": 1,
+      "ed": 1,
+      "s": 5,
+      "t": -55,
+      "b": 52,
+      "hd": 40,
+      "hx": 30,
+      "hy": -215
+    },
+    "HIP": {
+      "s": 18,
+      "t": -38,
+      "b": 18,
+      "hd": 10,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": 2,
+      "fa2": 0
+    },
+    "EXT": {
+      "s": -4,
+      "t": 4,
+      "b": -8,
+      "hd": -6,
+      "ft": -22,
+      "ft2": -22,
+      "g": 0,
+      "ua": 6,
+      "fa": 0,
+      "ua2": 6,
+      "fa2": 0
+    },
+    "PULL": {
+      "s": -2,
+      "t": 2,
+      "b": -4,
+      "hd": -4,
+      "ft": -16,
+      "ft2": -16,
+      "g": 0,
+      "ua": 95,
+      "fa": -100,
+      "ua2": 95,
+      "fa2": -100
+    },
+    "CATCH": {
+      "hip": [
+        -95,
+        -372
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 16,
+      "hd": 12,
+      "g": 0,
+      "ua": 190,
+      "fa": 0,
+      "ua2": 190,
+      "fa2": 0
+    },
+    "OH": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 6,
+      "g": 0,
+      "ua": 186,
+      "fa": 0,
+      "ua2": 186,
+      "fa2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "BARBELL",
+        "POWER SNATCH"
+      ],
+      "vo": "Barbell Power Snatch: la barra del piso a arriba de la cabeza, en un solo movimiento explosivo.",
+      "moves": [
+        {
+          "to": "SETUP",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "to": "KNEE",
+          "at": 0.6,
+          "dur": 0.6
+        },
+        {
+          "to": "HIP",
+          "at": 1.2,
+          "dur": 0.3
+        },
+        {
+          "to": "EXT",
+          "at": 1.5,
+          "dur": 0.18,
+          "ease": "power2.out"
+        },
+        {
+          "to": "PULL",
+          "at": 1.6800000000000002,
+          "dur": 0.18
+        },
+        {
+          "to": "CATCH",
+          "at": 1.8599999999999999,
+          "dur": 0.25,
+          "ease": "power2.out"
+        },
+        {
+          "to": "OH",
+          "at": 2.6,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "AGARRE",
+        "ANCHO"
+      ],
+      "sub": "Hombros delante de la barra",
+      "vo": "Agarre ancho, de arrancada. Hombros por delante de la barra y la espalda firme.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": {
+            "j": "SETUP.S",
+            "dy": 300
+          },
+          "color": "ink",
+          "width": 6,
+          "at": 1.0,
+          "from": {
+            "j": "SETUP.S"
+          }
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "SETUP.S",
+            "dx": 60,
+            "dy": -140
+          },
+          "text": "HOMBROS ADELANTE",
+          "anchor": "middle",
+          "at": 1.3
+        },
+        {
+          "type": "line",
+          "to": {
+            "j": "SETUP.S",
+            "dy": -60
+          },
+          "solid": true,
+          "at": 2.2,
+          "from": {
+            "j": "SETUP.H",
+            "dy": -60
+          }
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "PRIMER",
+        "TIRÓN"
+      ],
+      "sub": "Controlado hasta las rodillas",
+      "vo": "Paso uno. Primer tirón controlado: separá la barra del piso y llevala hasta las rodillas, pegada a las piernas.",
+      "moves": [
+        {
+          "to": "KNEE",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            532.7,
+            1369.3
+          ],
+          "r": 110,
+          "at": 2.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            532.7,
+            1263.7
+          ],
+          "text": "PEGADA AL CUERPO",
+          "anchor": "middle",
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "EXTENDÉ",
+        "COMPLETO"
+      ],
+      "sub": "Cadera, rodillas y tobillos",
+      "vo": "Paso dos. Extendé completo y explosivo: cadera, rodillas y tobillos, antes de tirar con los brazos.",
+      "moves": [
+        {
+          "cut": "KNEE",
+          "at": 0
+        },
+        {
+          "to": "HIP",
+          "at": 0.5,
+          "dur": 0.5
+        },
+        {
+          "to": "EXT",
+          "at": 1.1,
+          "dur": 0.3,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            337.8,
+            915.0
+          ],
+          "at": 1.1,
+          "dur": 0.8,
+          "from": [
+            337.8,
+            1377.0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            318.0,
+            875.4
+          ],
+          "text": "TRIPLE EXTENSIÓN",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "RECIBÍ",
+        "ARRIBA"
+      ],
+      "sub": "Media sentadilla, codos bloqueados",
+      "vo": "Paso tres. Metete abajo y recibí la barra con los codos bloqueados, en media sentadilla, por encima del paralelo.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.5,
+          "dur": 0.25
+        },
+        {
+          "to": "CATCH",
+          "at": 0.75,
+          "dur": 0.35,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": [
+            476.4,
+            870.0
+          ],
+          "color": "ink",
+          "width": 6,
+          "at": 1.6,
+          "from": [
+            476.4,
+            1528.8
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            492.6,
+            896.4
+          ],
+          "text": "SOBRE MEDIO PIE",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "PARATE",
+        "Y BAJÁ"
+      ],
+      "sub": "Controlando la barra",
+      "vo": "Paso cuatro. Parate con la barra arriba, mostrá el bloqueo y bajala controlada para la siguiente.",
+      "moves": [
+        {
+          "cut": "CATCH",
+          "at": 0
+        },
+        {
+          "to": "OH",
+          "at": 0.5,
+          "dur": 0.8
+        },
+        {
+          "to": "STAND_BAR",
+          "at": 2.4,
+          "dur": 0.7
+        },
+        {
+          "to": "SETUP",
+          "at": 3.2,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.4,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Hombros delante de la barra",
+        "Barra pegada al cuerpo",
+        "Extendé antes de tirar",
+        "Recibí activo, codos bloqueados"
+      ],
+      "vo": "Claves: hombros delante de la barra, barra pegada al cuerpo, extensión completa antes de tirar y recepción activa con codos bloqueados.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "2 REPS"
+      ],
+      "sub": "Con 30 kg, técnica primero",
+      "vo": "Dos repeticiones con treinta kilos. La técnica primero: el peso viene después.",
+      "chips": [
+        {
+          "label": "1 · TIRÓN",
+          "at": 0.5
+        },
+        {
+          "label": "2 · EXTENSIÓN",
+          "at": 1.4
+        },
+        {
+          "label": "3 · RECEPCIÓN",
+          "at": 1.8
+        }
+      ],
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "KNEE",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "HIP",
+          "at": 1.1,
+          "dur": 0.3
+        },
+        {
+          "to": "EXT",
+          "at": 1.4,
+          "dur": 0.18,
+          "ease": "power2.out"
+        },
+        {
+          "to": "PULL",
+          "at": 1.58,
+          "dur": 0.18
+        },
+        {
+          "to": "CATCH",
+          "at": 1.76,
+          "dur": 0.25,
+          "ease": "power2.out"
+        },
+        {
+          "to": "OH",
+          "at": 2.5,
+          "dur": 0.6
+        },
+        {
+          "to": "STAND_BAR",
+          "at": 3.2,
+          "dur": 0.7
+        },
+        {
+          "to": "SETUP",
+          "at": 4.0,
+          "dur": 0.8
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "CATCH",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 170
+  },
+  "youtube": {
+    "titulo": "Barbell Power Snatch 🔥 Arranque de potencia paso a paso | CrossFit",
+    "tags": [
+      "power snatch",
+      "barbell power snatch",
+      "arranque de potencia",
+      "arranque",
+      "snatch",
+      "levantamiento olímpico",
+      "halterofilia",
+      "crossfit",
+      "barra olímpica",
+      "potencia",
+      "wod"
+    ],
+    "descripcion": "🔥 BARBELL POWER SNATCH — Del piso a arriba de la cabeza en un solo movimiento\n\n¿La barra se te va para adelante o terminás tirando con los brazos? En el power snatch la potencia sale de la cadera y la barra viaja pegada al cuerpo. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Agarre ancho, de arrancada. Hombros por delante de la barra y la espalda firme.\n2️⃣ Primer tirón controlado: separá la barra del piso y llevala hasta las rodillas, pegada a las piernas.\n3️⃣ Extendé completo y explosivo: cadera, rodillas y tobillos, antes de tirar con los brazos.\n4️⃣ Metete abajo y recibí la barra con los codos bloqueados, en media sentadilla, por encima del paralelo.\n5️⃣ Parate con la barra arriba, mostrá el bloqueo y bajala controlada para la siguiente.\n\n✅ CLAVES DE TÉCNICA\n• Hombros por delante de la barra y espalda firme en la salida\n• Barra pegada al cuerpo todo el recorrido\n• Extendé completo (cadera, rodillas y tobillos) antes de tirar con los brazos\n• Recibí activo, con codos bloqueados\n• Barra alineada sobre la mitad del pie\n\n🎯 QUÉ TRABAJA\nGlúteo mayor · Bíceps femoral · Deltoides anterior · Erectores espinales · Recto femoral · Trapecio superior\n\n⏱️ CUÁNTO\n2 repeticiones con 30 kg (por series). Va en bloques de fuerza y habilidad, y en WODs.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste levantamiento olímpico, aprendé la técnica con un caño de PVC o la barra sola y con un coach al lado antes de cargar peso.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Halterofilia #PowerSnatch #Potencia #Entrenamiento"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Uol shóulder strech: estiramiento de hombro y pectoral con la pared. Pecho abierto."
+    },
+    {
+      "id": "02",
+      "text": "Parate frente a la pared y apoyá la palma, con el brazo estirado, a la altura del hombro."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Con la mano fija, rotá el torso alejándote de la pared hasta sentir el estiramiento adelante del hombro."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. El brazo queda a la altura del hombro: no lo subas para estirar más."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. La rotación sale del torso: el brazo queda quieto, apoyado en la pared."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Respirá fluido mientras sostenés y después cambiá de lado."
+    },
+    {
+      "id": "07",
+      "text": "Claves: brazo a la altura del hombro, la rotación sale del torso, la mano queda fija y respirás fluido."
+    },
+    {
+      "id": "08",
+      "text": "Treinta segundos por lado. Muy bueno antes de empujes y trabajo por encima de la cabeza."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

@@ -132,6 +132,10 @@ del ejercicio (no la de pie). Se arma en `videos/<slug>/miniatura/` con `buildIn
 | `min` | duración mínima (s). La real = máx(min, voz + 1 s, última acción + 0,45 s) |
 | `numeral` | número gigante decorativo ("1".."4") |
 | `stance: true` | tarjeta "vista de arriba" con los pies (`stanceLabel` cambia el texto) |
+| `topview` con `"mode": "twist"` | tarjeta "vista de arriba" sentado: hombros, brazos y balón giran de lado a lado (`angle`, `dur` por ida, `at`); russian twist |
+| `topview` con `"mode": "lean"` / `"rot"` | "vista de frente": el tronco con el brazo arriba se inclina hacia una pared (lat stretch); "vista de arriba": el cuerpo gira alrededor de la mano apoyada en la pared (hombro). `angle`, `at`, `dur`, `back` |
+| `topview` con `"mode": "front"` | tarjeta "vista de frente" cuyos brazos siguen solos la pose de perfil (altura de codo y mano de la vista lateral, el resto del largo hacia afuera). `plates: true` agrega discos en las manos. Para ejercicios de hombro (ver `cuban-press`) |
+| `scroll` | velocidad del piso que se desplaza en esa escena (px/s; negativa = camina para atrás, 0 = quieto). Pisa a `floorScroll` |
 | `topview` con `"mode": "bar"` | tarjeta "vista de arriba" con la barra y el atleta al costado; `at` = salta al otro lado, `at: null` = quieta (burpee lateral) |
 | `topview` con `"mode": "9090"` | tarjeta "vista de arriba" sentado en 90/90; `at` = momento en que las piernas cambian de lado (espejo), `from: -1` arranca espejado, `at: null` = quieta |
 | `topview` | tarjeta "vista de arriba" acostado boca arriba, brazos en T, piernas que giran al costado: `{ "angle": -62, "at", "dur", "back"?, "label" }` (`back` = vuelve y cae al otro lado). Torsiones en el piso |
@@ -174,6 +178,15 @@ Se dibujan en `runtime.js` (bloque PROPS) en coordenadas del rig; las partes mó
 | `pullupbar` | `bar [x,y]`, `postX` | barra vista de punta en `bar` (encima de las manos) + viga y parante atrás. Colgado: manos `g 1` en la barra, cadera calculada para que el hombro quede a ≤ 330 px (ver `hanging-toes-to-bar`) |
 | `kettlebell` + `hand: "far"` | igual que `kettlebell` | segunda pesa en la mano lejana, detrás del cuerpo (farmer carry: dos props, ver `kettlebell-farmer-carry`) |
 | `dumbbell` | `off`, `r` | mancuerna vista de punta en la mano que diga la pose: `dh 0` cercana (bajo el brazo cercano), `dh 1` lejana (atrás). Con `bf 1` queda suelta en el piso en `bx, by`. Cambio de mano: las dos manos en la mancuerna (`g 1` + `g2 1`) y recién ahí `dh` (ver `alternating-single-arm-dumbbell-power-snatch`) |
+| `dumbbell` + `hand` + `side` | `hand: "near"/"far"`, `side: true` | mancuerna fija en una mano (ignora `dh`) y vista de costado (manija hacia adelante): dos props para una en cada mano (ver `weighted-lunge`) |
+| `wallball` + `wall: false` + `depth: true` | | balón medicinal sin pared; con `depth` pasa por delante (`pz 1`) o por detrás (`pz 0`) del cuerpo (ver `russian-twist`) |
+| `barbell` + `blend: true` | con `torso` | `bf 1` = barra en el rack (fija al tronco), `bf 0` = en las manos: del rack frontal a arriba de la cabeza (ver `barbell-thruster`) |
+| `sled` | `len`, `post` | trineo en `x = bx` de la pose (cerca para empujar, lejos para tirar); `rp 1` muestra la soga del gancho a la mano cercana (ver `sled-push-pull`) |
+| `skierg` | `x`, `top` | torre con volante y polea; cuerdas a cada mano y manijas en las manos (ver `skierg`) |
+| `box` | `x0`, `x1`, `h` | cajón de madera fijo. Va fuera del rig (escenario fijo): no se espeja con `fx` ni desaparece en los `cut` (ver `box-jump-over`) |
+| `kettlebell` + `swing: true` | | la pesa sigue la línea hombro→mano (swing: atrás entre las piernas, al frente, arriba de la cabeza). Ver `kettlebell-swing` |
+| `jumprope` | `c [dx,dy]`, `rx`, `ry` | cuerda que gira alrededor de la cadera (+c) en una elipse; fase `rp` (0 = bajo los pies, 0.5 = arriba). Ciclo: `seq [[AIR(rp 0), 0.01], [LAND(rp .5), t], [AIR2(rp 1), t]]` (el salto de 1 a 0 no se ve). Ver `jump-rope` |
+| `wall` | `x`, `h` | pared fija (escenario, fuera del rig). Ojo con `h`: si es muy alta cruza la portada y la lista de claves (≈ 880). Ver `wall-shoulder-stretch` |
 | `floorbar` | `x0`, `x1`, `r` | barra en el piso paralela al cuerpo (larga, discos de canto). `pz 0` = detrás del atleta, `pz 1` = delante: el salto lateral por encima se lee con el cambio de profundidad (ver `burpee-over-the-bar`) |
 
 Para agregar uno nuevo (barra, kettlebell, cajón…): sumar un `if (pr.type === "...")` en PROPS con las piezas fijas en
@@ -207,7 +220,9 @@ Vista lateral mirando a la derecha. Ángulos en grados:
   goblet `ua = -b + 12, fa = 142`; barra atrás `ua = -b - 12, fa = 178`; balón `ua = -b + 18, fa = 136` (ver `kettlebell-good-morning-to-squat`, `barbell-back-squat`, `wall-ball-shot`).
 - **`g2`** (≥ 0): agarre propio del brazo lejano hacia `hx2, hy2` (codo `ed2`); `-1` (default) = sigue a `g`. Una mano agarra y la otra queda libre, o cada mano en su manija (assault bike).
 - **`cv`**: curva de la espalda en px (`+` redondea hacia el techo: gato, protracción escapular; `−` la hunde: vaca). Ver `cat-cow`, `scapular-push-up`.
-- **`fx`**: hacia dónde mira (1 derecha, −1 izquierda). Interpolarlo pasa por 0 = giro sobre la cadera. Con `fx −1` el cuerpo se espeja alrededor de la cadera: escribir la pose "hacia la derecha" con la cadera en su x (ver `shuttle-run`). Los overlays `{ "j": ... }` ignoran `fx` (usar posiciones absolutas) y los props del rig también se espejan.
+- **`ul`**: largo del brazo superior (1 normal; ~0,3 = codo abierto al costado, que de perfil apunta a la cámara: upright row, rotación externa). Ver `cuban-press`.
+- Ángulos de brazo que se interpolan: pasan por el camino corto entre los dos valores. Acostado con brazos atrás de la cabeza usar `ua 270` (no −90) para que al subir pasen por arriba y no atraviesen el piso (ver `v-up`).
+- **`fx`**: hacia dónde mira (1 derecha, −1 izquierda). Interpolarlo pasa por 0 = giro sobre la cadera. Con `fx −1` el cuerpo se espeja alrededor de la cadera: escribir la pose "hacia la derecha" con la cadera en su x (ver `shuttle-run`). Los overlays `{ "j": ... }` ignoran `fx` (usar posiciones absolutas) y los props del rig también se espejan (salvo `box`, que es escenario fijo). Para volver por el mismo camino mirando a la izquierda: la misma pose con todas las x corridas −2·(x de la cadera) y `fx −1` (ver `mirror()` en `box-jump-over`).
 - **`ankle2`** (con `hip` + `ankle`): IK de la pierna lejana desde la misma cadera (cada pie en su pedal).
 - **`wr` / `wr2`** + `"fingers": true` en la ficha: dedos dibujados y ángulo de muñeca (−80 = dedos al piso con el brazo al frente). Ver `wrist-extensor-stretch`.
 - `ed`: hacia dónde se dobla el codo cuando hay agarre (`1` adelante, `-1` atrás: remo, tirones, dominadas).
@@ -243,7 +258,7 @@ Puntos de partida para otras (ajustar con snapshots): sentadilla paralela `s 30,
 
 ### Límites actuales
 
-- Un solo personaje, vista lateral. Implementos: `rower`, `kettlebell`, `barbell`, `wallball`, `airbike`, `pullupbar`, `dumbbell`, `floorbar`; el resto (cajón, bandas, SkiErg, trineo…) hay que agregarlo en PROPS de `plantilla/runtime.js`.
+- Un solo personaje, vista lateral. Implementos: `rower`, `kettlebell`, `barbell`, `wallball`, `airbike`, `pullupbar`, `dumbbell`, `floorbar`, `sled`, `skierg`, `box`, `jumprope`, `wall` (discos chicos: `barbell` con `r` 40); el resto (bandas, anillas, cuerda de trepar…) hay que agregarlo en PROPS de `plantilla/runtime.js`.
 - Voz: ver sección **Voz** abajo.
 
 ## Voz

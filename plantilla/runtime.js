@@ -12,7 +12,8 @@
  * wr/wr2: wrist angle (deg, added to the forearm direction); the fingers are drawn only when C.fingers (wrist stretches).
  * cv: spine curve (px): + rounds the back (cat, scapular protraction), − lets it sag (cow). fx: facing (1 right, −1 left;
  * tweening through 0 reads as a pivot turn, flipped around the hip — props in the rig flip too). dh: dumbbell hand
- * (0 near, 1 far). pz: floor-bar depth (0 = bar behind the athlete, 1 = in front: lateral jump over the bar).
+ * (0 near, 1 far). pz: floor-bar / ball depth (0 = behind the athlete, 1 = in front). rp: sled rope (0 hidden, 1 visible)
+ * / jump-rope phase (0→1 = one turn; 0 = rope under the feet). ul: upper-arm length factor (elbow pointing at the camera, e.g. cuban press).
  */
 (function () {
   const C = window.__EX_CONFIG;
@@ -21,7 +22,7 @@
 
   const L = { shin: 230, thigh: 240, torso: 280, neck: 32, upper: 172, fore: 160 };
   const FAR = { dx: -22, dy: -4 };
-  const KEYS = ["s", "t", "b", "hd", "ua", "fa", "s2", "t2", "ua2", "fa2", "rx", "ry", "ft", "ft2", "hx", "hy", "ed", "g", "lr", "al", "hb", "bf", "bx", "by", "g2", "hx2", "hy2", "ed2", "wr", "wr2", "cv", "fx", "dh", "pz"];
+  const KEYS = ["s", "t", "b", "hd", "ua", "fa", "s2", "t2", "ua2", "fa2", "rx", "ry", "ft", "ft2", "hx", "hy", "ed", "g", "lr", "al", "hb", "bf", "bx", "by", "g2", "hx2", "hy2", "ed2", "wr", "wr2", "cv", "fx", "dh", "pz", "rp", "ul"];
   const P = C.poses;
 
   const rad = (d) => (d * Math.PI) / 180;
@@ -56,7 +57,7 @@
     const S = add(H, up(st.b, L.torso));
     const N = add(S, up(st.hd, L.neck));
     const al = st.al ?? 1;
-    const fE = add(S, down(ua, L.upper * al));
+    const fE = add(S, down(ua, L.upper * al * (st.ul ?? 1)));
     const fW = add(fE, down(ua + fa, L.fore * al));
     // hb: 0 → hands target (hx, hy) in rig space; 1 → in the torso frame from the shoulder (hx forward, hy down the torso):
     // the grip travels with the trunk (goblet kettlebell, bar on the back, ball at the chest).
@@ -105,6 +106,8 @@
   //          crank arms go from crank to each ankle (pedal under the shoe), handles from pivot to each hand, the fan spins with the near crank.
   // pullupbar: { type: "pullupbar", bar: [x, y], postX }  bar seen end-on at `bar` (drawn over the hands) + beam and upright behind.
   const propBack = el("g", {}), propMid = el("g", {}), propFront = el("g", {}), propUpdates = [];
+  // Escenario fijo (cajón): fuera del rig para que el giro (fx) no lo espeje ni el corte (cut) lo esconda.
+  const propStatic = document.createElementNS(NS, "g"); propStatic.setAttribute("transform", RIG0); rig.parentNode.insertBefore(propStatic, rig);
   const PLATE = "#7C7F86", PLATE_D = "#5E6168", PLATE_L = "#B9BCC2";
   const METAL = "#4A4F5C", METAL_D = "#2E323B", ACCENT = "#E85D5D";
   (C.props || []).forEach((pr) => {
@@ -140,7 +143,12 @@
       el("circle", { cx: 0, cy: 82, r: 54, fill: "#2B2B2B" }, kb);
       el("path", { d: "M -40 60 A 44 44 0 0 1 -6 36", fill: "none", stroke: "#5A5A5A", "stroke-width": 8, "stroke-linecap": "round" }, kb);
       el("rect", { x: -22, y: 70, width: 44, height: 24, rx: 5, fill: ACCENT }, kb);
-      propUpdates.push((n, f) => { const w = farK ? f.W : n.W; kb.setAttribute("transform", `translate(${f2(w.x + off[0])},${f2(w.y + off[1])})`); });
+      propUpdates.push((n, f) => {
+        const j = farK ? f : n, w = j.W;
+        // swing: la pesa sigue la línea hombro→mano (arriba de la cabeza queda por encima de las manos)
+        const a = pr.swing ? (Math.atan2(-(w.x - j.S.x), w.y - j.S.y) * 180) / Math.PI : 0;
+        kb.setAttribute("transform", `translate(${f2(w.x + off[0])},${f2(w.y + off[1])}) rotate(${f2(a)})`);
+      });
     }
     if (pr.type === "barbell") {
       const off = pr.off || [0, 0], r = pr.r || 84;
@@ -157,7 +165,8 @@
         let c = { x: n.W.x + off[0], y: n.W.y + off[1] };
         if (pr.torso) {
           const b = rad(st.b), [fx, dy] = pr.torso;
-          c = { x: n.S.x + Math.cos(b) * fx - Math.sin(b) * dy, y: n.S.y + Math.sin(b) * fx + Math.cos(b) * dy };
+          const t = { x: n.S.x + Math.cos(b) * fx - Math.sin(b) * dy, y: n.S.y + Math.sin(b) * fx + Math.cos(b) * dy };
+          c = pr.blend ? lerp(c, t, st.bf || 0) : t; // blend: bf 1 = en el rack (tronco), bf 0 = en las manos (thruster)
         }
         farP.setAttribute("transform", `translate(${f2(c.x + FAR.dx * 1.6)},${f2(c.y + FAR.dy * 1.6)})`);
         nearP.setAttribute("transform", `translate(${f2(c.x)},${f2(c.y)})`);
@@ -204,9 +213,15 @@
     }
     if (pr.type === "dumbbell") {
       // Mancuerna vista de punta (manija hacia la cámara) en la mano que diga dh: 0 cercana (bajo el brazo cercano), 1 lejana (atrás).
-      const off = pr.off || [0, 0], r = pr.r || 42;
+      const off = pr.off || [0, 0], r = pr.r || 42, fixed = pr.hand ? (pr.hand === "far" ? 1 : 0) : null;
       const make = (parent, d) => {
         const g = el("g", {}, parent), hex = [];
+        if (pr.side) {
+          // de costado (agarre neutro, manija hacia adelante): manija + dos cabezas
+          el("rect", { x: -40, y: -9, width: 80, height: 18, rx: 6, fill: "#8A8F99" }, g);
+          [-1, 1].forEach((k) => el("rect", { x: k * 46 - 17, y: -r * 0.85, width: 34, height: r * 1.7, rx: 8, fill: d ? "#1F1F1F" : "#2B2B2B" }, g));
+          return g;
+        }
         for (let i = 0; i < 6; i++) hex.push(`${(Math.cos(rad(30 + i * 60)) * r).toFixed(2)},${(Math.sin(rad(30 + i * 60)) * r).toFixed(2)}`);
         el("polygon", { points: hex.join(" "), fill: d ? "#1F1F1F" : "#2B2B2B" }, g);
         el("circle", { r: r * 0.62, fill: "none", stroke: ACCENT, "stroke-width": 6 }, g);
@@ -215,7 +230,7 @@
       };
       const farD = make(propBack, true), nearD = make(propMid, false);
       propUpdates.push((n, f, st) => {
-        const k = st.dh || 0, h = lerp(n.W, f.W, k), w = lerp({ x: h.x + off[0], y: h.y + off[1] }, { x: st.bx, y: st.by }, st.bf || 0);
+        const k = fixed ?? (st.dh || 0), h = lerp(n.W, f.W, k), w = lerp({ x: h.x + off[0], y: h.y + off[1] }, { x: st.bx, y: st.by }, st.bf || 0);
         const tr = `translate(${f2(w.x)},${f2(w.y)})`; // bf: 1 = suelta en el piso en (bx, by)
         farD.setAttribute("transform", tr); nearD.setAttribute("transform", tr);
         farD.setAttribute("opacity", k >= 0.5 ? 1 : 0); nearD.setAttribute("opacity", k >= 0.5 ? 0 : 1);
@@ -242,18 +257,95 @@
         back.setAttribute("opacity", k >= 0.5 ? 0 : 1); front.setAttribute("opacity", k >= 0.5 ? 1 : 0);
       });
     }
+    if (pr.type === "sled") {
+      // Trineo: patín + discos apilados + parantes altos para empujar (lado del atleta). Se ubica en x = bx de la pose
+      // (cerca para empujar, lejos para tirar); con rp 1 aparece la soga del gancho a la mano cercana.
+      const L = pr.len || 300, H = pr.post || 560, sled = el("g", {}, propBack);
+      el("rect", { x: 0, y: 12, width: L, height: 22, rx: 8, fill: METAL_D }, sled);
+      el("path", { d: `M ${L} 12 Q ${L + 50} 12 ${L + 40} 34`, fill: "none", stroke: METAL_D, "stroke-width": 14 }, sled);
+      el("rect", { x: L / 2 - 10, y: -150, width: 20, height: 165, fill: METAL }, sled);
+      for (let i = 0; i < 3; i++) el("rect", { x: L / 2 - 95 + i * 6, y: -18 - i * 34, width: 190 - i * 12, height: 30, rx: 8, fill: i % 2 ? PLATE_D : PLATE }, sled);
+      el("line", { x1: 20, y1: 20, x2: -10, y2: -H, stroke: METAL, "stroke-width": 22, "stroke-linecap": "round" }, sled);
+      el("line", { x1: 40, y1: 20, x2: 70, y2: -H * 0.45, stroke: METAL_D, "stroke-width": 16, "stroke-linecap": "round" }, sled);
+      const rope = el("path", { fill: "none", stroke: "#C9A46A", "stroke-width": 9, "stroke-linecap": "round" }, propMid);
+      propUpdates.push((n, f, st) => {
+        sled.setAttribute("transform", `translate(${f2(st.bx)},0)`);
+        const hk = { x: st.bx + 20, y: -40 }, m = { x: (hk.x + n.W.x) / 2, y: Math.max(hk.y, n.W.y) + 30 };
+        rope.setAttribute("d", `M ${f2(hk.x)} ${f2(hk.y)} Q ${f2(m.x)} ${f2(m.y)} ${f2(n.W.x)} ${f2(n.W.y)}`);
+        rope.setAttribute("opacity", st.rp || 0);
+      });
+    }
+    if (pr.type === "skierg") {
+      // SkiErg: torre adelante del atleta con el volante arriba; cuerdas de la polea a cada mano (manijas en las manos).
+      const tx = pr.x ?? 330, top = pr.top ?? -1250, pul = { x: tx - 46, y: top + 110 };
+      el("rect", { x: tx - 170, y: 22, width: 300, height: 14, rx: 7, fill: METAL_D }, propBack);
+      el("rect", { x: tx - 30, y: top + 60, width: 64, height: 34 - top - 60, rx: 12, fill: METAL }, propBack);
+      el("circle", { cx: tx, cy: top + 60, r: 95, fill: METAL }, propBack);
+      el("circle", { cx: tx, cy: top + 60, r: 66, fill: METAL_D }, propBack);
+      el("circle", { cx: tx, cy: top + 60, r: 22, fill: ACCENT }, propBack);
+      el("rect", { x: tx - 46, y: top + 230, width: 92, height: 66, rx: 8, fill: METAL_D }, propBack);
+      el("rect", { x: tx - 38, y: top + 238, width: 76, height: 40, rx: 5, fill: "#9FD8D2" }, propBack);
+      el("circle", { cx: pul.x, cy: pul.y, r: 14, fill: METAL_D }, propBack);
+      const farC = el("line", { stroke: "#1A1A1A", "stroke-width": 5 }, propBack), nearC = el("line", { stroke: "#1A1A1A", "stroke-width": 6 }, propMid);
+      const farH = el("rect", { width: 22, height: 64, rx: 9, fill: "#1A1A1A" }, propBack), nearH = el("rect", { width: 24, height: 66, rx: 9, fill: "#1A1A1A" }, propMid);
+      propUpdates.push((n, f) => {
+        const set = (ln, a, b) => { ln.setAttribute("x1", f2(a.x)); ln.setAttribute("y1", f2(a.y)); ln.setAttribute("x2", f2(b.x)); ln.setAttribute("y2", f2(b.y)); };
+        set(nearC, pul, n.W); set(farC, { x: pul.x + FAR.dx, y: pul.y + FAR.dy }, f.W);
+        nearH.setAttribute("x", f2(n.W.x - 12)); nearH.setAttribute("y", f2(n.W.y - 33));
+        farH.setAttribute("x", f2(f.W.x - 11)); farH.setAttribute("y", f2(f.W.y - 32));
+      });
+    }
+    if (pr.type === "jumprope") {
+      // Cuerda para saltar en el plano del video: sale de las manos y pasa por un punto que gira alrededor del cuerpo
+      // (elipse con centro en la cadera + c y radios rx, ry). Fase rp: 0 = abajo de los pies, 0.5 = arriba de la cabeza. Atrás del cuerpo
+      // se dibuja detrás; adelante, delante del torso.
+      const c = pr.c || [20, 0], rx = pr.rx || 300, ry = pr.ry || 500; // c: centro relativo a la cadera
+      const mk = (parent) => el("path", { fill: "none", stroke: "#1A1A1A", "stroke-width": 7, "stroke-linecap": "round" }, parent);
+      const back = mk(propBack), front = mk(propMid);
+      const hN = el("rect", { width: 16, height: 44, rx: 7, fill: ACCENT }, propMid), hF = el("rect", { width: 14, height: 40, rx: 6, fill: ACCENT }, propBack);
+      propUpdates.push((n, f, st) => {
+        const a = rad(90 + 360 * (st.rp || 0)), P = { x: n.H.x + c[0] + Math.cos(a) * rx, y: n.H.y + c[1] + Math.sin(a) * ry };
+        // control: punto medio mano→P empujado hacia afuera del centro (la cuerda arquea por fuera del cuerpo)
+        const C0 = { x: n.H.x + c[0], y: n.H.y + c[1] };
+        const ctl = (W) => { const m = { x: (W.x + P.x) / 2, y: (W.y + P.y) / 2 }; return { x: m.x + (m.x - C0.x) * 0.7, y: m.y + (m.y - C0.y) * 0.7 }; };
+        const k1 = ctl(n.W), k2 = ctl(f.W);
+        const d = `M ${f2(n.W.x)} ${f2(n.W.y)} Q ${f2(k1.x)} ${f2(k1.y)} ${f2(P.x)} ${f2(P.y)} Q ${f2(k2.x)} ${f2(k2.y)} ${f2(f.W.x)} ${f2(f.W.y)}`;
+        back.setAttribute("d", d); front.setAttribute("d", d);
+        const fr = P.x >= n.H.x + c[0]; front.setAttribute("opacity", fr ? 1 : 0); back.setAttribute("opacity", fr ? 0 : 1);
+        hN.setAttribute("x", f2(n.W.x - 8)); hN.setAttribute("y", f2(n.W.y - 22)); hF.setAttribute("x", f2(f.W.x - 7)); hF.setAttribute("y", f2(f.W.y - 20));
+      });
+    }
+    if (pr.type === "wall") {
+      // Pared fija (escenario) en x, de alto h.
+      const wx = pr.x ?? 420, h = pr.h ?? 1500;
+      el("rect", { x: wx, y: 34 - h, width: 60, height: h, fill: "#D9D2C5" }, propStatic);
+    }
+    if (pr.type === "box") {
+      // Cajón de salto de madera visto de costado, de x0 a x1 y alto h (piso en y = 34).
+      const x0 = pr.x0 ?? -180, x1 = pr.x1 ?? 180, h = pr.h ?? 300, y0 = 34 - h;
+      el("rect", { x: x0, y: y0, width: x1 - x0, height: h, rx: 10, fill: "#C9975B" }, propStatic);
+      el("rect", { x: x0 + 18, y: y0 + 18, width: x1 - x0 - 36, height: h - 36, rx: 6, fill: "none", stroke: "#A97A43", "stroke-width": 8 }, propStatic);
+      el("rect", { x: (x0 + x1) / 2 - 50, y: y0 + 46, width: 100, height: 30, rx: 15, fill: "#7E5A30" }, propStatic);
+    }
     if (pr.type === "wallball") {
       const off = pr.off || [0, 0], r = pr.r || 62, wx = pr.wallX ?? 520, ty = pr.target ?? -1300;
       const wall = el("g", { class: "prop-scenery" }, propBack); // se atenúa en la escena de claves (la lista la cruza)
-      el("rect", { x: wx, y: Math.min(ty - 260, -1500), width: 60, height: 34 - Math.min(ty - 260, -1500), fill: "#D9D2C5" }, wall);
-      el("rect", { x: wx - 10, y: ty - 18, width: 80, height: 36, rx: 6, fill: ACCENT }, wall);
-      const ball = el("g", {}, propMid);
-      el("circle", { r, fill: "#2E2E33" }, ball);
-      el("path", { d: `M ${-r} 0 Q 0 ${-r * 0.45} ${r} 0`, fill: "none", stroke: ACCENT, "stroke-width": 7 }, ball);
-      el("path", { d: `M ${-r * 0.7} ${r * 0.7} Q 0 ${r * 0.25} ${r * 0.7} ${r * 0.7}`, fill: "none", stroke: "#55555C", "stroke-width": 5 }, ball);
+      if (pr.wall !== false) el("rect", { x: wx, y: Math.min(ty - 260, -1500), width: 60, height: 34 - Math.min(ty - 260, -1500), fill: "#D9D2C5" }, wall);
+      if (pr.wall !== false) el("rect", { x: wx - 10, y: ty - 18, width: 80, height: 36, rx: 6, fill: ACCENT }, wall);
+      // depth: true → balón medicinal que pasa por delante (pz 1) o por detrás (pz 0) del cuerpo (russian twist)
+      const mk = (parent) => {
+        const ball = el("g", {}, parent);
+        el("circle", { r, fill: "#2E2E33" }, ball);
+        el("path", { d: `M ${-r} 0 Q 0 ${-r * 0.45} ${r} 0`, fill: "none", stroke: ACCENT, "stroke-width": 7 }, ball);
+        el("path", { d: `M ${-r * 0.7} ${r * 0.7} Q 0 ${r * 0.25} ${r * 0.7} ${r * 0.7}`, fill: "none", stroke: "#55555C", "stroke-width": 5 }, ball);
+        return ball;
+      };
+      const ball = mk(propMid), back = pr.depth ? mk(propBack) : null;
       propUpdates.push((n, f, st) => {
         const k = st.bf || 0, h = { x: n.W.x + off[0], y: n.W.y + off[1] };
-        ball.setAttribute("transform", `translate(${f2(h.x + (st.bx - h.x) * k)},${f2(h.y + (st.by - h.y) * k)})`);
+        const tr = `translate(${f2(h.x + (st.bx - h.x) * k)},${f2(h.y + (st.by - h.y) * k)})`;
+        ball.setAttribute("transform", tr);
+        if (back) { back.setAttribute("transform", tr); const fr = (st.pz || 0) >= 0.5; ball.setAttribute("opacity", fr ? 1 : 0); back.setAttribute("opacity", fr ? 0 : 1); }
       });
     }
   });
@@ -285,6 +377,22 @@
   const place = (g, p, a) => g.setAttribute("transform", `translate(${f2(p.x)},${f2(p.y)}) rotate(${f2(a)})`);
 
   const state = Object.assign({}, C.initialState);
+  // Tarjeta "vista de frente" (topview mode "front"): los dos brazos se dibujan de frente a partir de la pose de perfil.
+  // La altura de codo y mano sale de la vista lateral; lo que falta de largo va hacia afuera (abducción).
+  const frontCards = C.frames.filter((f) => f.topview && f.topview.mode === "front").map((f) => {
+    const q = (k) => document.getElementById(`${k}-${f.id}`), k = 0.28, sh = [{ x: 100, y: 98, sg: -1 }, { x: 152, y: 98, sg: 1 }];
+    const parts = ["L", "R"].map((side) => ({ up: q(`fcu${side}`), fo: q(`fcf${side}`), hd: q(`fch${side}`), pl: q(`fcp${side}`) }));
+    return (n) => {
+      const dU = n.E.y - n.S.y, dF = n.W.y - n.E.y;
+      const lU = Math.sqrt(Math.max(0, L.upper * L.upper - dU * dU)), lF = Math.sqrt(Math.max(0, L.fore * L.fore - dF * dF));
+      sh.forEach((o, i) => {
+        const e = { x: o.x + o.sg * lU * k, y: o.y + dU * k }, w = { x: e.x + o.sg * lF * k, y: e.y + dF * k }, pp = parts[i];
+        if (!pp.up) return;
+        setL(pp.up, o, e); setL(pp.fo, e, w); setC(pp.hd, w);
+        if (pp.pl) setC(pp.pl, w);
+      });
+    };
+  });
   function draw() {
     const n = solve(state, false), f = solve(state, true);
     setL(far.upper, f.S, f.E); setL(far.fore, f.E, f.W); setC(far.hand, f.W);
@@ -301,6 +409,7 @@
     setL(nearArm.upper, n.S, n.E); setL(nearArm.fore, n.E, n.W); setC(nearArm.hand, n.W);
     if (C.fingers) { setL(far.fingers, f.W, f.F); setL(nearArm.fingers, n.W, n.F); }
     propUpdates.forEach((u) => u(n, f, state));
+    frontCards.forEach((u) => u(n));
     const fx = state.fx ?? 1;
     rig.setAttribute("transform", fx === 1 ? RIG0 : `${RIG0} translate(${f2(n.H.x)},0) scale(${f2(fx)},1) translate(${f2(-n.H.x)},0)`);
   }
@@ -379,11 +488,18 @@
     tl.to("#rig", { opacity: 0, duration: 0.18, ease: "power1.in" }, t);
     tl.to("#rig", { opacity: 1, duration: 0.25, ease: "power1.out" }, t + 0.26);
   });
-  if (C.floorScroll) {
+  const speed = (f) => f.scroll ?? C.floorScroll ?? 0;
+  if (C.frames.some((f) => speed(f))) {
     // Dashed strip under the floor line that slides left → reads as forward motion (running in place).
+    // Each frame may set its own speed (scroll; negative = walking backwards, 0 = still).
     const fy = R.y + 34 * R.scale + 36;
     const dash = el("line", { x1: 60, y1: fy, x2: 1020, y2: fy, stroke: "#1A1A1A", "stroke-width": 8, "stroke-dasharray": "50 70", opacity: 0.35 }, $("overlays"));
-    tl.fromTo(dash, { strokeDashoffset: 0 }, { strokeDashoffset: C.floorScroll * C.total, duration: C.total, ease: "none" }, 0);
+    let off = 0;
+    C.frames.forEach((f) => {
+      const d = speed(f) * f.dur;
+      tl.fromTo(dash, { strokeDashoffset: off }, { strokeDashoffset: off + d, duration: f.dur, ease: "none", immediateRender: false }, f.start);
+      off += d;
+    });
   }
 
   const frames = C.frames, last = frames[frames.length - 1];
@@ -410,6 +526,28 @@
       // Tarjeta "vista de arriba" (torsión acostado): las piernas giran hacia un lado con los hombros fijos.
       const tv = f.topview;
       fadeIn(`#topcard-${f.id}`, f.start + 0.4, { x: 60 }, { x: 0 });
+      if (tv.mode === "front") {
+        fadeIn(`#topcard-${f.id}`, f.start + 0.4, { x: 60 }, { x: 0 });
+        tl.to(`#topcard-${f.id}`, { opacity: 0, duration: 0.3 }, f.start + f.dur - 0.35);
+        return;
+      }
+      if (tv.mode === "lean" || tv.mode === "rot") {
+        // "lean": vista de frente, el tronco se inclina hacia la pared; "rot": vista de arriba, los hombros rotan alejándose de la pared.
+        const g = `#tvlegs-${f.id}`, o = tv.mode === "lean" ? "126 176" : "196 50"; // rot: gira alrededor de la mano apoyada
+        tl.set(g, { rotation: 0, svgOrigin: o }, f.start);
+        if (tv.at != null) tl.to(g, { rotation: tv.angle, svgOrigin: o, duration: tv.dur, ease: "sine.inOut" }, f.start + tv.at);
+        if (tv.back != null) tl.to(g, { rotation: 0, svgOrigin: o, duration: tv.dur, ease: "sine.inOut" }, f.start + tv.back);
+        tl.to(`#topcard-${f.id}`, { opacity: 0, duration: 0.3 }, f.start + f.dur - 0.35);
+        return;
+      }
+      if (tv.mode === "twist") {
+        // Russian twist visto de arriba: hombros, brazos y balón giran de lado a lado.
+        const g = `#tvlegs-${f.id}`, o = "126 128", at = tv.at ?? 0.6, reps = Math.max(1, Math.floor((f.dur - at - 0.6) / tv.dur));
+        tl.set(g, { rotation: -tv.angle, svgOrigin: o }, f.start);
+        tl.to(g, { rotation: tv.angle, svgOrigin: o, duration: tv.dur, ease: "sine.inOut", repeat: reps - 1, yoyo: true }, f.start + at);
+        tl.to(`#topcard-${f.id}`, { opacity: 0, duration: 0.3 }, f.start + f.dur - 0.35);
+        return;
+      }
       if (tv.mode === "bar") {
         // Burpee lateral: el atleta (visto de arriba) pasa de un lado al otro de la barra.
         const body = `#tvlegs-${f.id}`;

@@ -1,0 +1,422 @@
+{
+  "slug": "sled-push",
+  "name": "Sled Push",
+  "category": "CROSSFIT · FUERZA · WOD",
+  "tags": [
+    "Piernas",
+    "Glúteos",
+    "Potencia"
+  ],
+  "descripcion": "Empuje de trineo cargado con ambos brazos extendidos, avanzando con pasos cortos y potentes.",
+  "revisado": false,
+  "notas": "Mismas poses y trineo que sled-push-pull.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 360,
+    "y": 1510,
+    "scale": 0.65
+  },
+  "shadow": false,
+  "props": [
+    {
+      "type": "sled",
+      "len": 300,
+      "post": 560
+    }
+  ],
+  "pronuncia": {
+    "Sled Push": "Sled push"
+  },
+  "initialPose": "PUSH_A",
+  "poses": {
+    "PUSH_A": {
+      "hip": [
+        0,
+        -340.4
+      ],
+      "s": 22,
+      "t": -58,
+      "s2": 43.59,
+      "t2": 43.59,
+      "b": 52,
+      "hd": 50,
+      "ft": 0,
+      "ft2": 40,
+      "g": 1,
+      "hx": 507,
+      "hy": -500,
+      "ed": 1,
+      "bx": 525,
+      "rp": 0
+    },
+    "PUSH_B": {
+      "hip": [
+        0,
+        -340.4
+      ],
+      "s": 43.59,
+      "t": 43.59,
+      "s2": 22,
+      "t2": -58,
+      "b": 52,
+      "hd": 50,
+      "ft": 40,
+      "ft2": 0,
+      "g": 1,
+      "hx": 507,
+      "hy": -500,
+      "ed": 1,
+      "bx": 525,
+      "rp": 0
+    },
+    "BAD": {
+      "hip": [
+        0,
+        -340.4
+      ],
+      "s": 22,
+      "t": -58,
+      "s2": 43.59,
+      "t2": 43.59,
+      "b": 52,
+      "hd": 80,
+      "ft": 0,
+      "ft2": 40,
+      "g": 1,
+      "hx": 507,
+      "hy": -500,
+      "ed": 1,
+      "bx": 525,
+      "rp": 0,
+      "cv": 34
+    },
+    "UPRIGHT_BAD": {
+      "hip": [
+        0,
+        -340.4
+      ],
+      "s": 22,
+      "t": -58,
+      "s2": 43.59,
+      "t2": 43.59,
+      "b": 20,
+      "hd": 8,
+      "ft": 0,
+      "ft2": 40,
+      "g": 1,
+      "hx": 507,
+      "hy": -640,
+      "ed": 1,
+      "bx": 525,
+      "rp": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.4,
+      "badge": "CROSSFIT · FUERZA · WOD",
+      "head": [
+        "SLED PUSH"
+      ],
+      "scroll": 200,
+      "vo": "Sled Push: empujar el trineo cargado con pasos cortos y potentes. Piernas a full.",
+      "moves": [
+        {
+          "loop": [
+            "PUSH_A",
+            "PUSH_B"
+          ],
+          "at": 0.3,
+          "step": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BRAZOS",
+        "EXTENDIDOS"
+      ],
+      "sub": "Manos en los parantes",
+      "scroll": 0,
+      "vo": "Tomá los parantes con los brazos extendidos y firmes, el torso inclinado hacia adelante.",
+      "moves": [
+        {
+          "cut": "PUSH_A",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            675.2,
+            1042.0
+          ],
+          "text": "BRAZOS FIRMES",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "TORSO",
+        "INCLINADO"
+      ],
+      "sub": "Hacia adelante",
+      "scroll": 0,
+      "vo": "Paso uno. Inclinate hacia adelante: si te parás derecho, la fuerza se va para arriba y no al trineo.",
+      "moves": [
+        {
+          "to": "UPRIGHT_BAD",
+          "at": 0.6,
+          "dur": 0.6
+        },
+        {
+          "to": "PUSH_A",
+          "at": 2.2,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            295.0,
+            873.0
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0,
+          "out": 2.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            295.0,
+            873.0
+          ],
+          "text": "INCLINADO",
+          "anchor": "middle",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "PASOS",
+        "CORTOS"
+      ],
+      "sub": "Y potentes",
+      "scroll": 180,
+      "vo": "Paso dos. Avanzá con pasos cortos y potentes, empujando el piso con cada pierna.",
+      "moves": [
+        {
+          "loop": [
+            "PUSH_A",
+            "PUSH_B"
+          ],
+          "at": 0.3,
+          "step": 0.45,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            262.5,
+            1016.0
+          ],
+          "text": "EMPUJÁ EL PISO",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "ESPALDA",
+        "NEUTRA"
+      ],
+      "sub": "Sin redondear",
+      "scroll": 0,
+      "vo": "Paso tres. Evitá redondear la espalda baja: el tronco queda firme, como una tabla.",
+      "moves": [
+        {
+          "to": "BAD",
+          "at": 0.6,
+          "dur": 0.6
+        },
+        {
+          "to": "PUSH_A",
+          "at": 2.4,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            464.4,
+            1007.7
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0,
+          "out": 2.4
+        },
+        {
+          "type": "line",
+          "to": {
+            "j": "PUSH_A.S",
+            "dy": -70
+          },
+          "solid": true,
+          "at": 3.0,
+          "from": {
+            "j": "PUSH_A.H",
+            "dy": -70
+          }
+        },
+        {
+          "type": "label",
+          "pos": [
+            464.4,
+            1007.7
+          ],
+          "text": "COMO UNA TABLA",
+          "anchor": "middle",
+          "at": 3.1
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "SIN",
+        "FRENAR"
+      ],
+      "sub": "Empuje continuo",
+      "scroll": 200,
+      "vo": "Paso cuatro. No frenes: arrancar de nuevo cuesta el doble. Empuje continuo hasta el final.",
+      "moves": [
+        {
+          "loop": [
+            "PUSH_A",
+            "PUSH_B"
+          ],
+          "at": 0.3,
+          "step": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "scroll": 200,
+      "shrink": 0.75,
+      "keys": [
+        "Brazos extendidos y firmes",
+        "Torso inclinado",
+        "Empujá con las piernas",
+        "Espalda baja neutra"
+      ],
+      "vo": "Claves: brazos extendidos y firmes, torso inclinado, empujá con las piernas y nunca redondees la espalda baja.",
+      "moves": [
+        {
+          "cut": "PUSH_A",
+          "at": 0.1
+        },
+        {
+          "loop": [
+            "PUSH_A",
+            "PUSH_B"
+          ],
+          "at": 0.4,
+          "step": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 METROS"
+      ],
+      "sub": "Con 60 kg",
+      "scroll": 200,
+      "vo": "Treinta metros con sesenta kilos, sin parar. Ajustá el peso para no frenar a mitad de camino.",
+      "chips": [
+        {
+          "label": "1 · INCLINATE",
+          "at": 0.5
+        },
+        {
+          "label": "2 · EMPUJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "PUSH_A",
+          "at": 0
+        },
+        {
+          "loop": [
+            "PUSH_A",
+            "PUSH_B"
+          ],
+          "at": 0.4,
+          "step": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "PUSH_B",
+    "grip": 1,
+    "zoom": 1.2,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Sled Push 🛷 Empuje de trineo paso a paso | CrossFit",
+    "tags": [
+      "sled push",
+      "empuje de trineo",
+      "trineo",
+      "prowler push",
+      "prowler",
+      "crossfit",
+      "wod",
+      "piernas",
+      "potencia",
+      "acondicionamiento"
+    ],
+    "descripcion": "🛷 SLED PUSH — Empujar el trineo: piernas, potencia y motor\n\n¿Se te frena el trineo o terminás con la espalda cargada? La clave es la inclinación y los pasos cortos. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Tomá los parantes con los brazos extendidos y firmes, el torso inclinado hacia adelante.\n2️⃣ Inclinate: si te parás derecho, la fuerza se va para arriba y no al trineo.\n3️⃣ Avanzá con pasos cortos y potentes, empujando el piso con cada pierna.\n4️⃣ Evitá redondear la espalda baja: el tronco queda firme, como una tabla.\n5️⃣ No frenes: empuje continuo hasta el final.\n\n✅ CLAVES DE TÉCNICA\n• Brazos extendidos y firmes\n• Torso inclinado hacia adelante\n• Empujá con las piernas, pasos cortos y potentes\n• Evitá redondear la espalda baja\n\n🎯 QUÉ TRABAJA\nRecto femoral · Gemelos · Glúteo mayor · Recto abdominal · Sóleo · Tríceps braquial\n\n⏱️ CUÁNTO\n30 metros con 60 kg. Va en WODs y bloques de fuerza.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés molestias en la espalda baja o las rodillas, empezá con poco peso y distancias cortas, y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #SledPush #Potencia #Entrenamiento"
+  }
+}

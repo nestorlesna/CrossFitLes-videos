@@ -1,0 +1,498 @@
+{
+  "slug": "kettlebell-swing",
+  "name": "Kettlebell Swing",
+  "category": "CROSSFIT · FUERZA · WOD",
+  "tags": [
+    "Glúteos",
+    "Isquios",
+    "Potencia"
+  ],
+  "descripcion": "Con la kettlebell tomada con las dos manos, llevarla hacia atrás entre las piernas con una bisagra de cadera y proyectarla al frente con una extensión explosiva de cadera. Russian swing: hasta la altura de los ojos; americano (CrossFit): hasta arriba de la cabeza.",
+  "revisado": false,
+  "notas": "Kettlebell con swing: la pesa sigue la línea del brazo.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 400,
+    "y": 1508,
+    "scale": 0.68
+  },
+  "props": [
+    {
+      "type": "kettlebell",
+      "off": [
+        0,
+        0
+      ],
+      "swing": true
+    }
+  ],
+  "pronuncia": {
+    "Kettlebell Swing": "Kétol bel suing"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 0,
+      "ua2": 4,
+      "fa2": 0
+    },
+    "HIKE": {
+      "s": 8,
+      "t": -22,
+      "b": 66,
+      "hd": 54,
+      "g": 0,
+      "ua": -44,
+      "fa": 0,
+      "ua2": -44,
+      "fa2": 0
+    },
+    "EYE": {
+      "s": 0,
+      "t": 0,
+      "b": -3,
+      "hd": -2,
+      "g": 0,
+      "ua": 90,
+      "fa": 0,
+      "ua2": 90,
+      "fa2": 0
+    },
+    "OH": {
+      "s": 0,
+      "t": 0,
+      "b": -2,
+      "hd": 6,
+      "g": 0,
+      "ua": 184,
+      "fa": 0,
+      "ua2": 184,
+      "fa2": 0
+    },
+    "SQUAT_BAD": {
+      "s": 36,
+      "t": -100,
+      "b": 30,
+      "hd": 16,
+      "g": 0,
+      "ua": 24,
+      "fa": 0,
+      "ua2": 24,
+      "fa2": 0
+    },
+    "ARCH_BAD": {
+      "s": 0,
+      "t": 4,
+      "b": -14,
+      "hd": -10,
+      "cv": -22,
+      "g": 0,
+      "ua": 176,
+      "fa": 0,
+      "ua2": 176,
+      "fa2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · FUERZA · WOD",
+      "head": [
+        "KETTLEBELL",
+        "SWING"
+      ],
+      "vo": "Kettlebell Swing: la pesa vuela con la cadera, no con los brazos. Glúteos y potencia.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "HIKE",
+              0.5
+            ],
+            [
+              "EYE",
+              0.45
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DOS MANOS",
+        "EN LA PESA"
+      ],
+      "sub": "Pies un poco más anchos que la cadera",
+      "vo": "Pies un poco más anchos que la cadera y la kettlebell tomada con las dos manos, brazos largos.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "BISAGRA",
+        "ATRÁS"
+      ],
+      "sub": "Entre las piernas",
+      "vo": "Paso uno. Llevá la pesa hacia atrás entre las piernas con una bisagra de cadera: es una bisagra, no una sentadilla.",
+      "moves": [
+        {
+          "to": "HIKE",
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "to": "SQUAT_BAD",
+          "at": 2.8,
+          "dur": 0.6
+        },
+        {
+          "to": "HIKE",
+          "at": 4.0,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": {
+            "j": "HIKE.S",
+            "dy": -60
+          },
+          "solid": true,
+          "at": 1.6,
+          "out": 2.8,
+          "from": {
+            "j": "HIKE.H",
+            "dy": -60
+          }
+        },
+        {
+          "type": "label",
+          "pos": [
+            493.8,
+            968.0
+          ],
+          "text": "CADERA ATRÁS",
+          "anchor": "middle",
+          "at": 1.8,
+          "out": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            493.8,
+            968.0
+          ],
+          "text": "NO ES SENTADILLA",
+          "anchor": "middle",
+          "at": 3.2,
+          "out": 4.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "EXPLOTÁ",
+        "CON LA CADERA"
+      ],
+      "sub": "Los brazos son cuerdas",
+      "vo": "Paso dos. Extendé la cadera de forma explosiva y dejá que la pesa suba sola: los brazos son cuerdas.",
+      "moves": [
+        {
+          "cut": "HIKE",
+          "at": 0
+        },
+        {
+          "to": "EYE",
+          "at": 0.6,
+          "dur": 0.45,
+          "ease": "power2.out"
+        },
+        {
+          "to": "HIKE",
+          "at": 2.0,
+          "dur": 0.55
+        },
+        {
+          "to": "EYE",
+          "at": 2.6,
+          "dur": 0.45,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            372.8,
+            1188.4
+          ],
+          "bend": [
+            -30,
+            40
+          ],
+          "at": 0.6,
+          "dur": 0.6,
+          "from": [
+            319.8,
+            1201.8
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            700
+          ],
+          "text": "LA FUERZA SALE DEL GLÚTEO",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "ARRIBA",
+        "FIRME"
+      ],
+      "sub": "Glúteos y abdomen",
+      "vo": "Paso tres. Arriba, glúteos apretados y abdomen firme, sin arquear la zona lumbar.",
+      "moves": [
+        {
+          "cut": "EYE",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 2.2,
+          "dur": 0.5
+        },
+        {
+          "to": "OH",
+          "at": 3.6,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            379.6,
+            1127.2
+          ],
+          "r": 70,
+          "at": 0.8,
+          "out": 2.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            304.8,
+            1086.4
+          ],
+          "text": "GLÚTEOS",
+          "anchor": "end",
+          "at": 1.0,
+          "out": 2.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            304.8,
+            1086.4
+          ],
+          "text": "SIN ARQUEAR",
+          "anchor": "end",
+          "at": 2.6,
+          "out": 3.6
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "RUSO O",
+        "AMERICANO"
+      ],
+      "sub": "A los ojos o arriba",
+      "vo": "Paso cuatro. En el ruso la pesa llega a la altura de los ojos. En el americano, el de CrossFit, sube hasta arriba de la cabeza.",
+      "moves": [
+        {
+          "cut": "HIKE",
+          "at": 0
+        },
+        {
+          "to": "EYE",
+          "at": 0.4,
+          "dur": 0.45,
+          "ease": "power2.out"
+        },
+        {
+          "to": "HIKE",
+          "at": 1.4,
+          "dur": 0.5
+        },
+        {
+          "to": "OH",
+          "at": 2.6,
+          "dur": 0.55,
+          "ease": "power2.out"
+        },
+        {
+          "to": "HIKE",
+          "at": 3.8,
+          "dur": 0.55
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            685.6,
+            991.2
+          ],
+          "text": "RUSO",
+          "anchor": "start",
+          "at": 0.8,
+          "out": 2.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            536.0,
+            746.4
+          ],
+          "text": "AMERICANO",
+          "anchor": "start",
+          "at": 3.0
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Bisagra, no sentadilla",
+        "Brazos como cuerdas",
+        "La fuerza sale del glúteo",
+        "Arriba sin arquear"
+      ],
+      "vo": "Claves: es una bisagra y no una sentadilla, los brazos son cuerdas, la fuerza sale del glúteo y arriba no arquees.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "HIKE",
+              0.5
+            ],
+            [
+              "EYE",
+              0.45
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Ritmo constante",
+      "vo": "Diez repeticiones a ritmo constante. En los WODs de CrossFit se usa el americano.",
+      "chips": [
+        {
+          "label": "1 · ATRÁS",
+          "at": 0.4
+        },
+        {
+          "label": "2 · CADERA",
+          "at": 0.9
+        },
+        {
+          "label": "3 · ARRIBA",
+          "at": 1.2
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "HIKE",
+              0.5
+            ],
+            [
+              "OH",
+              0.45
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "EYE",
+    "grip": 0,
+    "zoom": 1.2,
+    "dy": 180
+  },
+  "youtube": {
+    "titulo": "Kettlebell Swing 🔥 Ruso y americano paso a paso | CrossFit",
+    "tags": [
+      "kettlebell swing",
+      "swing con kettlebell",
+      "russian swing",
+      "american swing",
+      "balanceo con pesa rusa",
+      "kettlebell",
+      "bisagra de cadera",
+      "glúteos",
+      "crossfit",
+      "wod",
+      "potencia"
+    ],
+    "descripcion": "🔥 KETTLEBELL SWING — La pesa vuela con la cadera: glúteos, isquios y potencia\n\n¿Terminás los swings con la espalda cargada o los hombros quemados? La fuerza tiene que salir del glúteo, no de los brazos. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Pies un poco más anchos que la cadera y la kettlebell tomada con las dos manos, brazos largos.\n2️⃣ Llevá la pesa hacia atrás entre las piernas con una bisagra de cadera: es una bisagra, no una sentadilla.\n3️⃣ Extendé la cadera de forma explosiva y dejá que la pesa suba sola: los brazos son cuerdas.\n4️⃣ Arriba, glúteos apretados y abdomen firme, sin arquear la zona lumbar.\n5️⃣ Ruso: la pesa llega a la altura de los ojos. Americano (CrossFit): hasta arriba de la cabeza.\n\n✅ CLAVES DE TÉCNICA\n• Es una bisagra, no una sentadilla: cadera atrás, espalda neutra, rodillas apenas flexionadas\n• Los brazos son cuerdas: la fuerza sale del glúteo\n• Arriba: glúteos apretados y abdomen firme\n• Sin arquear la zona lumbar\n\n🎯 QUÉ TRABAJA\nGlúteo mayor · Bíceps femoral · Deltoides anterior · Erectores espinales · Semitendinoso\n\n⏱️ CUÁNTO\n10 repeticiones (por series o dentro del WOD). En CrossFit se usa el americano.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés molestias en la espalda baja o en los hombros, empezá con el swing ruso y una pesa liviana, con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #KettlebellSwing #Gluteos #Entrenamiento"
+  }
+}

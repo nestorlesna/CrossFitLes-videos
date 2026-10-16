@@ -5,7 +5,7 @@ La lista y su orden salen de `ejercicios/ejercicios.csv`; el estado, de `ejercic
 `videos/<clave>/.pipeline.json` y `salida/`. Para aprobar un video: `"revisado": true` en su JSON; las notas salen de `"notas"`.
 Subido = el .mp4 está en `salida/subidos/` (se mueve a mano después de publicarlo en YouTube).
 
-**Renderizados:** 31 / 328 · **Fichas:** 31 · **Descripción YouTube:** 31 · **Subidos:** 9 · **Próximo:** 31 · Sled Push & Pull
+**Renderizados:** 51 / 328 · **Fichas:** 51 · **Descripción YouTube:** 51 · **Subidos:** 10 · **Próximo:** 51 · Barbell Clean and Jerk
 
 | # | Ejercicio | Implemento | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Revisado | Subido | Fecha render | Notas |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -25,7 +25,7 @@ Subido = el .mp4 está en `salida/subidos/` (se mueve a mano después de publica
 | 13 | Supine Abdominal Stretch | Ninguno | ✅ | ✅ | ✅ | ❌ | ✅ | [✅](salida/supine-abdominal-stretch.youtube.txt) | [✅](salida/supine-abdominal-stretch.miniatura.png) | 41.0 s | [supine-abdominal-stretch.mp4](salida/supine-abdominal-stretch.mp4) | ⬜ | ⬜ | 2026-10-15 | Brazos arriba pasan por el techo (ua 90→268) para no atravesar el piso. |
 | 14 | Wrist Extensor Stretch | Ninguno | ✅ | ✅ | ✅ | ❌ | ✅ | [✅](salida/wrist-extensor-stretch.youtube.txt) | [✅](salida/wrist-extensor-stretch.miniatura.png) | 41.4 s | [wrist-extensor-stretch.mp4](salida/wrist-extensor-stretch.mp4) | ⬜ | ⬜ | 2026-10-15 | Primer video con dedos (fingers + wr) y agarre independiente del brazo lejano (g2). |
 | 15 | Assault Bike | Assault bike | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/assault-bike.youtube.txt) | [✅](salida/assault-bike.miniatura.png) | 42.4 s | [assault-bike.mp4](salida/assault-bike.mp4) | ⬜ | ⬜ | 2026-10-15 | Primer video con prop airbike (pedales con IK de las dos piernas: ankle2; manijas con g2). |
-| 16 | 90/90 Hip Rotation | Ninguno | ✅ | ✅ | ✅ | ❌ | ✅ | [✅](salida/90-90-hip-rotation.youtube.txt) | [✅](salida/90-90-hip-rotation.miniatura.png) | 42.0 s | [90-90-hip-rotation.mp4](salida/90-90-hip-rotation.mp4) | ⬜ | ⬜ | 2026-10-15 | De costado las piernas se ven con escorzo (lr); el cambio de lado se ve en la tarjeta 'vista de arriba' (topview mode 9090). |
+| 16 | 90/90 Hip Rotation | Ninguno | ✅ | ✅ | ✅ | ❌ | ✅ | [✅](salida/subidos/90-90-hip-rotation.youtube.txt) | [✅](salida/subidos/90-90-hip-rotation.miniatura.png) | 42.0 s | [90-90-hip-rotation.mp4](salida/subidos/90-90-hip-rotation.mp4) | ⬜ | ✅ | 2026-10-15 | De costado las piernas se ven con escorzo (lr); el cambio de lado se ve en la tarjeta 'vista de arriba' (topview mode 9090). |
 | 17 | Barbell Front Squat | Barra olímpica | ✅ | ✅ | ✅ | ❌ | ✅ | [✅](salida/barbell-front-squat.youtube.txt) | [✅](salida/barbell-front-squat.miniatura.png) | 47.3 s | [barbell-front-squat.mp4](salida/barbell-front-squat.mp4) | ⬜ | ⬜ | 2026-10-15 |  |
 | 18 | Barbell Deadlift | Barra olímpica | ✅ | ✅ | ✅ | ❌ | ✅ | [✅](salida/barbell-deadlift.youtube.txt) | [✅](salida/barbell-deadlift.miniatura.png) | 50.8 s | [barbell-deadlift.mp4](salida/barbell-deadlift.mp4) | ⬜ | ⬜ | 2026-10-15 |  |
 | 19 | Hanging Toes to Bar | Pull-up bar | ✅ | ✅ | ✅ | ❌ | ✅ | [✅](salida/hanging-toes-to-bar.youtube.txt) | [✅](salida/hanging-toes-to-bar.miniatura.png) | 47.6 s | [hanging-toes-to-bar.mp4](salida/hanging-toes-to-bar.mp4) | ⬜ | ⬜ | 2026-10-15 | Primer video colgado (prop pullupbar). En claves el personaje se achica a 0,62 para que la barra no quede bajo la lista. |
@@ -40,26 +40,26 @@ Subido = el .mp4 está en `salida/subidos/` (se mueve a mano después de publica
 | 28 | Shuttle Run | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/shuttle-run.youtube.txt) | [✅](salida/shuttle-run.miniatura.png) | 48.0 s | [shuttle-run.mp4](salida/shuttle-run.mp4) | ⬜ | ⬜ | 2026-10-16 | Primer video con giro del personaje (clave fx): corre de verdad entre dos líneas. |
 | 29 | Yoga Push-Up | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/yoga-push-up.youtube.txt) | [✅](salida/yoga-push-up.miniatura.png) | 47.9 s | [yoga-push-up.mp4](salida/yoga-push-up.mp4) | ⬜ | ⬜ | 2026-10-16 |  |
 | 30 | Scapular Push-Up | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/scapular-push-up.youtube.txt) | [✅](salida/scapular-push-up.miniatura.png) | 49.0 s | [scapular-push-up.mp4](salida/scapular-push-up.mp4) | ⬜ | ⬜ | 2026-10-16 | Protracción/retracción con la curva del torso (cv); personaje más grande (scale 0.95). |
-| 31 | Sled Push & Pull | Sled | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 32 | Russian Twist | Balón medicinal | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 33 | SkiErg | SkiErg | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 34 | Kettlebell Good Morning | Kettlebell | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 35 | Squat Thoracic Rotation | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 36 | Barbell Power Snatch | Barra olímpica | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 37 | Snatch High Pull | Barra olímpica | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 38 | Barbell Thruster | Barra olímpica | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 39 | Box Jump-Over | Box de salto | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 40 | Weighted Lunge | Mancuernas | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 41 | Kettlebell Swing | Kettlebell | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 42 | Push Press Behind the Neck | Barra olímpica | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 43 | Box Jump | Box de salto | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 44 | Jump Rope | Cuerda para saltar | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 45 | V-Up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 46 | Cuban Press | Disco | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 47 | Sled Push | Sled | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 48 | Wall Lat Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 49 | Wall Shoulder Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 50 | Barbell Muscle Snatch | Barra olímpica | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
+| 31 | Sled Push & Pull | Sled | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/sled-push-pull.youtube.txt) | [✅](salida/sled-push-pull.miniatura.png) | 49.9 s | [sled-push-pull.mp4](salida/sled-push-pull.mp4) | ⬜ | ⬜ | 2026-10-16 | Primer video con prop sled (bx = posición del trineo, rp = soga) y piso con velocidad por escena (scroll). |
+| 32 | Russian Twist | Balón medicinal | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/russian-twist.youtube.txt) | [✅](salida/russian-twist.miniatura.png) | 49.1 s | [russian-twist.mp4](salida/russian-twist.mp4) | ⬜ | ⬜ | 2026-10-16 | Balón medicinal sin pared (wallball wall false) que pasa por delante/detrás del cuerpo (depth + pz); tarjeta topview mode twist. |
+| 33 | SkiErg | SkiErg | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/skierg.youtube.txt) | [✅](salida/skierg.miniatura.png) | 49.1 s | [skierg.mp4](salida/skierg.mp4) | ⬜ | ⬜ | 2026-10-16 | Primer video con prop skierg. |
+| 34 | Kettlebell Good Morning | Kettlebell | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/kettlebell-good-morning.youtube.txt) | [✅](salida/kettlebell-good-morning.miniatura.png) | 50.1 s | [kettlebell-good-morning.mp4](salida/kettlebell-good-morning.mp4) | ⬜ | ⬜ | 2026-10-16 |  |
+| 35 | Squat Thoracic Rotation | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/squat-thoracic-rotation.youtube.txt) | [✅](salida/squat-thoracic-rotation.miniatura.png) | 49.7 s | [squat-thoracic-rotation.mp4](salida/squat-thoracic-rotation.mp4) | ⬜ | ⬜ | 2026-10-16 |  |
+| 36 | Barbell Power Snatch | Barra olímpica | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/barbell-power-snatch.youtube.txt) | [✅](salida/barbell-power-snatch.miniatura.png) | 52.2 s | [barbell-power-snatch.mp4](salida/barbell-power-snatch.mp4) | ⬜ | ⬜ | 2026-10-16 |  |
+| 37 | Snatch High Pull | Barra olímpica | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/snatch-high-pull.youtube.txt) | [✅](salida/snatch-high-pull.miniatura.png) | 47.6 s | [snatch-high-pull.mp4](salida/snatch-high-pull.mp4) | ⬜ | ⬜ | 2026-10-16 |  |
+| 38 | Barbell Thruster | Barra olímpica | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/barbell-thruster.youtube.txt) | [✅](salida/barbell-thruster.miniatura.png) | 49.6 s | [barbell-thruster.mp4](salida/barbell-thruster.mp4) | ⬜ | ⬜ | 2026-10-16 | Barra con blend: bf 1 en el rack (fija al tronco), bf 0 en las manos (arriba). |
+| 39 | Box Jump-Over | Box de salto | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/box-jump-over.youtube.txt) | [✅](salida/box-jump-over.miniatura.png) | 50.5 s | [box-jump-over.mp4](salida/box-jump-over.mp4) | ⬜ | ⬜ | 2026-10-16 | Primer video con prop box. La vuelta usa poses espejadas (fx −1). |
+| 40 | Weighted Lunge | Mancuernas | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/weighted-lunge.youtube.txt) | [✅](salida/weighted-lunge.miniatura.png) | 48.3 s | [weighted-lunge.mp4](salida/weighted-lunge.mp4) | ⬜ | ⬜ | 2026-10-16 | Mancuernas de costado (prop dumbbell con hand + side). |
+| 41 | Kettlebell Swing | Kettlebell | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/kettlebell-swing.youtube.txt) | [✅](salida/kettlebell-swing.miniatura.png) | 52.2 s | [kettlebell-swing.mp4](salida/kettlebell-swing.mp4) | ⬜ | ⬜ | 2026-10-16 | Kettlebell con swing: la pesa sigue la línea del brazo. |
+| 42 | Push Press Behind the Neck | Barra olímpica | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/push-press-behind-the-neck.youtube.txt) | [✅](salida/push-press-behind-the-neck.miniatura.png) | 48.7 s | [push-press-behind-the-neck.mp4](salida/push-press-behind-the-neck.mp4) | ⬜ | ⬜ | 2026-10-16 | Barra con blend desde la espalda (torso [-34, 18]) hasta las manos. |
+| 43 | Box Jump | Box de salto | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/box-jump.youtube.txt) | [✅](salida/box-jump.miniatura.png) | 48.6 s | [box-jump.mp4](salida/box-jump.mp4) | ⬜ | ⬜ | 2026-10-16 |  |
+| 44 | Jump Rope | Cuerda para saltar | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/jump-rope.youtube.txt) | [✅](salida/jump-rope.miniatura.png) | 50.2 s | [jump-rope.mp4](salida/jump-rope.mp4) | ⬜ | ⬜ | 2026-10-16 | Primer video con prop jumprope (fase rp: 0 = abajo de los pies, 0.5 = arriba). |
+| 45 | V-Up | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/v-up.youtube.txt) | [✅](salida/v-up.miniatura.png) | 47.8 s | [v-up.mp4](salida/v-up.mp4) | ⬜ | ⬜ | 2026-10-16 |  |
+| 46 | Cuban Press | Disco | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/cuban-press.youtube.txt) | [✅](salida/cuban-press.miniatura.png) | 50.2 s | [cuban-press.mp4](salida/cuban-press.mp4) | ⬜ | ⬜ | 2026-10-16 | Brazo superior acortado (ul 0.3) cuando el codo apunta a la cámara; discos chicos con prop barbell r 40. |
+| 47 | Sled Push | Sled | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/sled-push.youtube.txt) | [✅](salida/sled-push.miniatura.png) | 48.3 s | [sled-push.mp4](salida/sled-push.mp4) | ⬜ | ⬜ | 2026-10-16 | Mismas poses y trineo que sled-push-pull. |
+| 48 | Wall Lat Stretch | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/wall-lat-stretch.youtube.txt) | [✅](salida/wall-lat-stretch.miniatura.png) | 50.4 s | [wall-lat-stretch.mp4](salida/wall-lat-stretch.mp4) | ⬜ | ⬜ | 2026-10-16 | La inclinación lateral se cuenta con la tarjeta "vista de frente" (topview mode lean). |
+| 49 | Wall Shoulder Stretch | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/wall-shoulder-stretch.youtube.txt) | [✅](salida/wall-shoulder-stretch.miniatura.png) | 48.2 s | [wall-shoulder-stretch.mp4](salida/wall-shoulder-stretch.mp4) | ⬜ | ⬜ | 2026-10-16 | La rotación se cuenta con la tarjeta "vista de arriba" (topview mode rot); pared como prop fijo. |
+| 50 | Barbell Muscle Snatch | Barra olímpica | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/barbell-muscle-snatch.youtube.txt) | [✅](salida/barbell-muscle-snatch.miniatura.png) | 49.8 s | [barbell-muscle-snatch.mp4](salida/barbell-muscle-snatch.mp4) | ⬜ | ⬜ | 2026-10-16 |  |
 | 51 | Barbell Clean and Jerk | Barra olímpica | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
 | 52 | Barbell Hang Power Snatch | Barra olímpica | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
 | 53 | Barbell Overhead Squat | Barra olímpica | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |

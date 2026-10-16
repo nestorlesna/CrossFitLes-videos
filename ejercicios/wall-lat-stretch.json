@@ -1,0 +1,379 @@
+{
+  "slug": "wall-lat-stretch",
+  "name": "Wall Lat Stretch",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Dorsales",
+    "Hombros",
+    "Costado"
+  ],
+  "descripcion": "De pie junto a una pared con un brazo extendido apoyado. Inclinar el cuerpo lateralmente alejándose de la pared para estirar el músculo dorsal ancho.",
+  "revisado": false,
+  "notas": "La inclinación lateral se cuenta con la tarjeta \"vista de frente\" (topview mode lean).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 440,
+    "y": 1506,
+    "scale": 0.76
+  },
+  "pronuncia": {
+    "Wall Lat Stretch": "Uol lat strech"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 6,
+      "fa": 6
+    },
+    "REACH": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": -4,
+      "g": 0,
+      "ua": 186,
+      "fa": 4,
+      "ua2": 8,
+      "fa2": 10
+    },
+    "LEAN": {
+      "s": 0,
+      "t": 0,
+      "b": -3,
+      "hd": -6,
+      "g": 0,
+      "ua": 188,
+      "fa": 2,
+      "ua2": 10,
+      "fa2": 10,
+      "rx": 14
+    },
+    "REACH_F": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": -4,
+      "g": 0,
+      "ua": 8,
+      "fa": 10,
+      "ua2": 172,
+      "fa2": 4
+    },
+    "LEAN_F": {
+      "s": 0,
+      "t": 0,
+      "b": -3,
+      "hd": -6,
+      "g": 0,
+      "ua": 10,
+      "fa": 10,
+      "ua2": 176,
+      "fa2": 2,
+      "rx": 14
+    },
+    "SHRUG_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": -4,
+      "g": 0,
+      "ua": 160,
+      "fa": 30,
+      "ua2": 8,
+      "fa2": 10
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "WALL LAT",
+        "STRETCH"
+      ],
+      "topview": {
+        "mode": "lean",
+        "angle": -16,
+        "dur": 1.6,
+        "label": "CADERA AFUERA",
+        "at": 1.0,
+        "back": 3.0
+      },
+      "vo": "Wall Lat Stretch: estiramiento del dorsal contra la pared. Todo el costado largo y suelto.",
+      "moves": [
+        {
+          "to": "REACH",
+          "at": 0.4,
+          "dur": 0.8
+        },
+        {
+          "to": "LEAN",
+          "at": 1.2,
+          "dur": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE COSTADO",
+        "A LA PARED"
+      ],
+      "sub": "Brazo arriba, apoyado",
+      "topview": {
+        "mode": "lean",
+        "angle": -16,
+        "dur": 1.6,
+        "label": "CADERA AFUERA",
+        "at": null
+      },
+      "vo": "Parate de costado a una pared, cerca, y apoyá el brazo de ese lado estirado por encima de la cabeza.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "REACH",
+          "at": 0.8,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "CADERA",
+        "AFUERA"
+      ],
+      "sub": "Alejala de la pared",
+      "topview": {
+        "mode": "lean",
+        "angle": -16,
+        "dur": 1.6,
+        "label": "CADERA AFUERA",
+        "at": 0.8
+      },
+      "vo": "Paso uno. Con los pies firmes, alejá la cadera de la pared hasta sentir el estiramiento a lo largo del costado.",
+      "moves": [
+        {
+          "cut": "REACH",
+          "at": 0
+        },
+        {
+          "to": "LEAN",
+          "at": 0.8,
+          "dur": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "BRAZO",
+        "LARGO"
+      ],
+      "sub": "Sin encoger el hombro",
+      "vo": "Paso dos. Brazo largo, sin encoger el hombro hacia la oreja.",
+      "moves": [
+        {
+          "cut": "LEAN",
+          "at": 0
+        },
+        {
+          "to": "SHRUG_BAD",
+          "at": 1.6,
+          "dur": 0.6
+        },
+        {
+          "to": "LEAN",
+          "at": 3.0,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            554.0,
+            654.8
+          ],
+          "text": "BRAZO LARGO",
+          "anchor": "start",
+          "at": 0.6,
+          "out": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            554.0,
+            654.8
+          ],
+          "text": "HOMBRO ENCOGIDO NO",
+          "anchor": "start",
+          "at": 2.0,
+          "out": 3.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "RESPIRÁ",
+        "PROFUNDO"
+      ],
+      "sub": "Sostené 20 a 30 segundos",
+      "topview": {
+        "mode": "lean",
+        "angle": -16,
+        "dur": 1.6,
+        "label": "CADERA AFUERA",
+        "at": 0.6
+      },
+      "vo": "Paso tres. Respirá profundo y en cada exhalación aflojá un poco más. Sostené veinte a treinta segundos.",
+      "moves": [
+        {
+          "cut": "LEAN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            554.0,
+            654.8
+          ],
+          "text": "INHALÁ · EXHALÁ",
+          "anchor": "start",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "CAMBIÁ",
+        "DE LADO"
+      ],
+      "sub": "El otro brazo",
+      "vo": "Paso cuatro. Cambiá de lado y repetí con el otro brazo apoyado en la pared.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "REACH_F",
+          "at": 0.6,
+          "dur": 1.0
+        },
+        {
+          "to": "LEAN_F",
+          "at": 1.8,
+          "dur": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Pies firmes",
+        "Cadera lejos de la pared",
+        "Brazo largo, hombro abajo",
+        "Respirá y sostené"
+      ],
+      "vo": "Claves: pies firmes, cadera lejos de la pared, brazo largo sin encoger el hombro, y respirá profundo mientras sostenés.",
+      "moves": [
+        {
+          "cut": "LEAN",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "Por lado",
+      "vo": "Treinta segundos por lado. Ideal para la entrada en calor antes de colgarte o empujar arriba.",
+      "chips": [
+        {
+          "label": "1 · UN LADO",
+          "at": 0.5
+        },
+        {
+          "label": "2 · EL OTRO",
+          "at": 3.4
+        }
+      ],
+      "moves": [
+        {
+          "cut": "REACH",
+          "at": 0
+        },
+        {
+          "to": "LEAN",
+          "at": 0.6,
+          "dur": 1.2
+        },
+        {
+          "cut": "REACH_F",
+          "at": 3.4
+        },
+        {
+          "to": "LEAN_F",
+          "at": 3.8,
+          "dur": 1.2
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "LEAN",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Wall Lat Stretch 🧘 Estiramiento de dorsal en la pared | CrossFit",
+    "tags": [
+      "wall lat stretch",
+      "estiramiento de dorsal",
+      "estiramiento dorsal ancho",
+      "estiramiento lateral",
+      "lat stretch",
+      "movilidad de hombro",
+      "entrada en calor",
+      "crossfit",
+      "dorsales",
+      "estiramiento"
+    ],
+    "descripcion": "🧘 WALL LAT STRETCH — Estirá el dorsal contra la pared: todo el costado largo y suelto\n\n¿Sentís los dorsales duros al colgarte o al llevar los brazos arriba? Este estiramiento te devuelve rango. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate de costado a una pared, cerca, y apoyá el brazo de ese lado estirado por encima de la cabeza.\n2️⃣ Con los pies firmes, alejá la cadera de la pared hasta sentir el estiramiento a lo largo del costado.\n3️⃣ Brazo largo, sin encoger el hombro hacia la oreja.\n4️⃣ Respirá profundo y en cada exhalación aflojá un poco más. Sostené 20 a 30 segundos.\n5️⃣ Cambiá de lado y repetí con el otro brazo.\n\n✅ CLAVES DE TÉCNICA\n• Pies firmes\n• Alejá la cadera de la pared para sentirlo a lo largo del costado\n• Brazo largo, sin encoger el hombro\n• Respirá profundo y sostené 20 a 30 segundos por lado\n\n🎯 QUÉ TRABAJA\nDorsal ancho · Deltoides anterior · Trapecio inferior · Tríceps braquial\n\n⏱️ CUÁNTO\n30 segundos por lado. Va en la entrada en calor o como accesorio de movilidad.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Movilidad #LatStretch #Estiramiento #Entrenamiento"
+  }
+}

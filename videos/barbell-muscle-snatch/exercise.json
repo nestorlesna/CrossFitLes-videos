@@ -1,0 +1,483 @@
+{
+  "slug": "barbell-muscle-snatch",
+  "name": "Barbell Muscle Snatch",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Hombros",
+    "Trapecio",
+    "Cadera"
+  ],
+  "descripcion": "Arranque muscular: tirón desde el suelo hasta overhead sin re-flexión de rodillas. Alta demanda de hombros y trapecio.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 450,
+    "y": 1509,
+    "scale": 0.66
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "r": 96
+    }
+  ],
+  "pronuncia": {
+    "Barbell Muscle Snatch": "Bárbel másol snach"
+  },
+  "initialPose": "SETUP",
+  "poses": {
+    "STAND_BAR": {
+      "g": 1,
+      "ed": 1,
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "hx": 30,
+      "hy": -424
+    },
+    "SETUP": {
+      "g": 1,
+      "ed": 1,
+      "hip": [
+        -150,
+        -285
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 72,
+      "hd": 56,
+      "hx": 30,
+      "hy": -62
+    },
+    "KNEE": {
+      "g": 1,
+      "ed": 1,
+      "s": 5,
+      "t": -55,
+      "b": 52,
+      "hd": 40,
+      "hx": 30,
+      "hy": -215
+    },
+    "HIP": {
+      "s": 18,
+      "t": -38,
+      "b": 18,
+      "hd": 10,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": 2,
+      "fa2": 0
+    },
+    "EXT": {
+      "s": -4,
+      "t": 4,
+      "b": -8,
+      "hd": -6,
+      "ft": -22,
+      "ft2": -22,
+      "g": 0,
+      "ua": 6,
+      "fa": 0,
+      "ua2": 6,
+      "fa2": 0
+    },
+    "PULL": {
+      "s": -2,
+      "t": 2,
+      "b": -4,
+      "hd": -4,
+      "ft": -16,
+      "ft2": -16,
+      "g": 0,
+      "ua": 95,
+      "fa": -100,
+      "ua2": 95,
+      "fa2": -100
+    },
+    "CATCH": {
+      "hip": [
+        -95,
+        -372
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 16,
+      "hd": 12,
+      "g": 0,
+      "ua": 190,
+      "fa": 0,
+      "ua2": 190,
+      "fa2": 0
+    },
+    "TURN": {
+      "s": -2,
+      "t": 2,
+      "b": -4,
+      "hd": -4,
+      "ft": -12,
+      "ft2": -12,
+      "g": 0,
+      "ua": 110,
+      "fa": 60,
+      "ua2": 110,
+      "fa2": 60
+    },
+    "OH_ST": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 6,
+      "g": 0,
+      "ua": 186,
+      "fa": 0,
+      "ua2": 186,
+      "fa2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "BARBELL",
+        "MUSCLE SNATCH"
+      ],
+      "vo": "Barbell Muscle Snatch: del piso a arriba de la cabeza sin volver a flexionar las rodillas.",
+      "moves": [
+        {
+          "to": "SETUP",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "to": "KNEE",
+          "at": 0.6,
+          "dur": 0.6
+        },
+        {
+          "to": "HIP",
+          "at": 1.2,
+          "dur": 0.3
+        },
+        {
+          "to": "EXT",
+          "at": 1.5,
+          "dur": 0.18,
+          "ease": "power2.out"
+        },
+        {
+          "to": "PULL",
+          "at": 1.6800000000000002,
+          "dur": 0.2
+        },
+        {
+          "to": "TURN",
+          "at": 1.88,
+          "dur": 0.2
+        },
+        {
+          "to": "OH_ST",
+          "at": 2.08,
+          "dur": 0.25,
+          "ease": "power2.out"
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "AGARRE",
+        "ANCHO"
+      ],
+      "sub": "Como en el snatch",
+      "vo": "Agarre ancho de arrancada, hombros por delante de la barra y la espalda firme, igual que en el snatch.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "MISMO",
+        "TIRÓN"
+      ],
+      "sub": "Barra pegada al cuerpo",
+      "vo": "Paso uno. El tirón es el mismo que en el snatch: barra pegada al cuerpo hasta la cadera.",
+      "moves": [
+        {
+          "to": "KNEE",
+          "at": 0.5,
+          "dur": 0.8
+        },
+        {
+          "to": "HIP",
+          "at": 1.4,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "EXTENDÉ Y",
+        "CODOS ARRIBA"
+      ],
+      "sub": "Altos y afuera",
+      "vo": "Paso dos. Extendé completo y tirá con los codos altos y afuera, con la barra cerca del cuerpo.",
+      "moves": [
+        {
+          "cut": "HIP",
+          "at": 0
+        },
+        {
+          "to": "EXT",
+          "at": 0.6,
+          "dur": 0.3,
+          "ease": "power2.out"
+        },
+        {
+          "to": "PULL",
+          "at": 1.0,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            608.4,
+            849.0
+          ],
+          "text": "CODOS ALTOS",
+          "anchor": "start",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "GIRÁ",
+        "LA BARRA"
+      ],
+      "sub": "Por encima de la cabeza",
+      "vo": "Paso tres. Girá la barra por encima de la cabeza y terminá con los brazos bloqueados, las piernas estiradas.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "TURN",
+          "at": 0.5,
+          "dur": 0.4
+        },
+        {
+          "to": "OH_ST",
+          "at": 0.9,
+          "dur": 0.4,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            608.4,
+            684.0
+          ],
+          "text": "BRAZOS BLOQUEADOS",
+          "anchor": "start",
+          "at": 1.5
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "SIN",
+        "FLEXIONAR"
+      ],
+      "sub": "Las rodillas no vuelven a doblarse",
+      "vo": "Paso cuatro. La diferencia con el power snatch: no te metés abajo. Las rodillas no se vuelven a flexionar.",
+      "moves": [
+        {
+          "cut": "OH_ST",
+          "at": 0
+        },
+        {
+          "to": "CATCH",
+          "at": 1.8,
+          "dur": 0.4
+        },
+        {
+          "to": "OH_ST",
+          "at": 3.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            278.4,
+            1113.0
+          ],
+          "text": "PIERNAS ESTIRADAS",
+          "anchor": "middle",
+          "at": 0.6,
+          "out": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            278.4,
+            1113.0
+          ],
+          "text": "ESTO ES POWER, NO MUSCLE",
+          "anchor": "middle",
+          "at": 2.2,
+          "out": 3.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Mismo tirón que el snatch",
+        "Codos altos y afuera",
+        "Barra cerca del cuerpo",
+        "Sin volver a flexionar"
+      ],
+      "vo": "Claves: el mismo tirón del snatch, codos altos y afuera, barra cerca del cuerpo y sin volver a flexionar las rodillas.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "2 REPS"
+      ],
+      "sub": "Con 30 kg",
+      "vo": "Dos repeticiones con treinta kilos. Exige hombros y trapecio: buena técnica antes de cargar.",
+      "chips": [
+        {
+          "label": "1 · TIRÓN",
+          "at": 0.5
+        },
+        {
+          "label": "2 · CODOS",
+          "at": 1.6
+        },
+        {
+          "label": "3 · GIRO",
+          "at": 1.8
+        }
+      ],
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "KNEE",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "HIP",
+          "at": 1.1,
+          "dur": 0.3
+        },
+        {
+          "to": "EXT",
+          "at": 1.4,
+          "dur": 0.18,
+          "ease": "power2.out"
+        },
+        {
+          "to": "PULL",
+          "at": 1.58,
+          "dur": 0.2
+        },
+        {
+          "to": "TURN",
+          "at": 1.78,
+          "dur": 0.2
+        },
+        {
+          "to": "OH_ST",
+          "at": 1.98,
+          "dur": 0.25,
+          "ease": "power2.out"
+        },
+        {
+          "to": "STAND_BAR",
+          "at": 3.0,
+          "dur": 0.7
+        },
+        {
+          "to": "SETUP",
+          "at": 3.8,
+          "dur": 0.8
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "TURN",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 170
+  },
+  "youtube": {
+    "titulo": "Barbell Muscle Snatch 🔥 Arranque muscular paso a paso | CrossFit",
+    "tags": [
+      "muscle snatch",
+      "barbell muscle snatch",
+      "arranque muscular",
+      "arranque",
+      "snatch",
+      "levantamiento olímpico",
+      "halterofilia",
+      "crossfit",
+      "hombros",
+      "trapecio"
+    ],
+    "descripcion": "🔥 BARBELL MUSCLE SNATCH — Del piso a arriba de la cabeza sin meterte abajo\n\n¿Querés fortalecer el giro de la barra y el tirón alto del snatch? El muscle snatch los trabaja sin la recepción. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Agarre ancho de arrancada, hombros por delante de la barra y la espalda firme.\n2️⃣ El tirón es el mismo que en el snatch: barra pegada al cuerpo hasta la cadera.\n3️⃣ Extendé completo y tirá con los codos altos y afuera, con la barra cerca del cuerpo.\n4️⃣ Girá la barra por encima de la cabeza y terminá con los brazos bloqueados, las piernas estiradas.\n5️⃣ A diferencia del power snatch, las rodillas no se vuelven a flexionar.\n\n✅ CLAVES DE TÉCNICA\n• Mismo tirón que el snatch\n• Después de extender, codos altos y afuera\n• Girá la barra por encima de la cabeza\n• Barra cerca del cuerpo y brazos bloqueados al final\n• Sin re-flexionar las rodillas para recibir\n\n🎯 QUÉ TRABAJA\nDeltoides anterior · Glúteo mayor · Recto abdominal · Recto femoral · Trapecio superior\n\n⏱️ CUÁNTO\n2 repeticiones con 30 kg (por series). Va en bloques de fuerza y técnica.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste levantamiento olímpico, aprendé la técnica con un caño de PVC o la barra sola y con un coach al lado antes de cargar peso.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Halterofilia #MuscleSnatch #Hombros #Entrenamiento"
+  }
+}

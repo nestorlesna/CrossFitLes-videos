@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Sled push: empujar el trineo cargado con pasos cortos y potentes. Piernas a full."
+    },
+    {
+      "id": "02",
+      "text": "Tomá los parantes con los brazos extendidos y firmes, el torso inclinado hacia adelante."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Inclinate hacia adelante: si te parás derecho, la fuerza se va para arriba y no al trineo."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Avanzá con pasos cortos y potentes, empujando el piso con cada pierna."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Evitá redondear la espalda baja: el tronco queda firme, como una tabla."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. No frenes: arrancar de nuevo cuesta el doble. Empuje continuo hasta el final."
+    },
+    {
+      "id": "07",
+      "text": "Claves: brazos extendidos y firmes, torso inclinado, empujá con las piernas y nunca redondees la espalda baja."
+    },
+    {
+      "id": "08",
+      "text": "Treinta metros con sesenta kilos, sin parar. Ajustá el peso para no frenar a mitad de camino."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

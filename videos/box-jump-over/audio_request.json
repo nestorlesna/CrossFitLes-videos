@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Box champ óuver: saltá el cajón y terminá del otro lado. Piernas, potencia y coordinación."
+    },
+    {
+      "id": "02",
+      "text": "Parate frente al cajón, a un paso, con los pies al ancho de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Cargá con la cadera atrás y los brazos atrás, y despegá con los dos pies a la vez."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Caé arriba del cajón con los dos pies, absorbiendo con las rodillas, y extendé la cadera."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Bajá del otro lado con control, saltando o caminando, para cuidar los tendones de Aquiles."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Si no saltás, subí un pie, pasá por arriba y bajá caminando. Lo que cuenta es terminar del otro lado."
+    },
+    {
+      "id": "07",
+      "text": "Claves: despegá y caé con los dos pies, absorbé con las rodillas, terminá del otro lado y bajá con control."
+    },
+    {
+      "id": "08",
+      "text": "Dieciocho repeticiones: cada pasada sobre el cajón cuenta una. Girá y volvé."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

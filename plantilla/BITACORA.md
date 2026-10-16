@@ -75,10 +75,24 @@ Problemas encontrados al generar videos, cómo se resolvieron y qué conviene ha
 | 10-15 | cat-cow / scapular | El torso era una línea recta | torso como curva cuadrática: clave `cv` (gato +40, vaca −30; protracción +34, retracción −22) |
 | 10-15 | shuttle-run | Ir y volver: el personaje solo miraba a la derecha | clave `fx` (espejo alrededor de la cadera; 1→−1 = giro). Poses de carrera generadas por script con la cadera avanzando (`ease: none`), líneas como overlays absolutos, `shadow: false` |
 | 10-15 | yoga-push-up | Plancha / chaturanga / perro arriba con las manos fijas | geometría por script: hombro sobre la mano a ≤ 330 px, cuerpo recto de 750 px desde el tobillo; rig `x 290` para que entren pies y cabeza |
+| 10-15 | sled-push-pull | Empujar de ida y tirar de vuelta: el piso tenía una sola velocidad para todo el video | campo `scroll` por escena (negativo = hacia atrás). Trineo con `bx` en la pose (cerca/lejos) y `rp` para la soga |
+| 10-15 | russian-twist | La rotación de tronco no se ve de costado | balón con `depth` (delante/detrás con `pz`) + tarjeta `topview mode twist` |
+| 10-15 | thruster | La barra va en el rack (fija al tronco) y después en las manos | `barbell` con `blend: true`: `bf` mezcla entre los dos puntos |
+| 10-15 | box-jump-over | Con `fx` el cajón se espejaba y se corría de lugar | escenario fijo (`propStatic`) fuera del rig; la vuelta con poses espejadas (`mirror`: x − 2·cadera, `fx −1`) |
+| 10-15 | snatch / high pull | Barra en la cadera con agarre IK: codos doblados raros | brazos libres colgando (`ua 2, fa 0`); tirón alto con codos arriba `ua 95…118, fa −100…−124` |
+| 10-15 | (topbar) | Nombre largo + categoría larga se pisan en la barra superior | categoría corta (máx. 2 partes: "CROSSFIT · FUERZA") |
+| 10-15 | (bash) | Heredocs largos con comillas/backticks se cortan ("unexpected EOF") | scripts y parches como archivo (Write) y `python archivo.py` |
+| 10-16 | kettlebell-swing | La pesa siempre colgaba hacia abajo, aun arriba de la cabeza | `kettlebell` con `swing: true` (rota con la línea del brazo) |
+| 10-16 | jump-rope | Cuerda que gira sin "volver para atrás" al interpolar la fase | fase `rp` con salto invisible 1→0 en un paso de 0,01 s dentro del `seq` |
+| 10-16 | v-up | De acostado (brazos `ua −90`) a sentado (`ua 125`) los brazos atravesaban el piso | `ua 270` en la pose acostada: la interpolación pasa por arriba |
+| 10-16 | cuban-press | Codos abiertos al costado: de perfil el brazo se veía adelante | clave `ul` (brazo superior acortado) |
+| 10-16 | wall-lat / wall-shoulder | Inclinación lateral y rotación no se ven de perfil | tarjetas `topview` `lean` (de frente) y `rot` (de arriba, gira alrededor de la mano) + prop `wall` |
+| 10-16 | (varios) | El check marcó labels cortados en el borde o pisando el subtítulo, y tarjetas encima de los chips de reps | labels largos con anchor hacia el centro; no usar `topview` en la escena de reps (los chips ocupan ese lugar) |
+| 10-16 | cuban-press | El profe pidió ver el movimiento de los hombros de frente | tarjeta `topview mode front`: los brazos se calculan en cada cuadro desde la pose lateral (sirve para cualquier ejercicio de hombros) |
 
 ## Pendientes / ideas
 
-- Implementos a dibujar antes de los próximos de la lista: cajón, bandas, SkiErg, trineo, balón medicinal (mancuernas y barra en el piso: 10-15)
+- Implementos a dibujar antes de los próximos de la lista: bandas, cuerda para saltar, disco (cajón, SkiErg, trineo, balón medicinal, mancuernas y barra en el piso: 10-15)
   (ya están: remo, kettlebell, barra, wall ball, assault bike y barra de dominadas, 10-15) (ver columna Implemento del CHECKLIST).
 - Vista de frente no existe: elegir siempre la vista lateral que mejor muestre el movimiento (rotaciones y aperturas
   laterales —ej. estiramientos de tríceps, muñeca— se leen mal de costado: resolverlo con overlays y texto).

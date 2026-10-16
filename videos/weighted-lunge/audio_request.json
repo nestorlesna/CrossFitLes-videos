@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Uéited lanch: zancada con mancuernas. Piernas y glúteos fuertes, una pierna por vez."
+    },
+    {
+      "id": "02",
+      "text": "Parate derecho con una mancuerna en cada mano, los brazos al costado del cuerpo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Da un paso largo hacia adelante, lo bastante largo para que la rodilla no pase la punta del pie."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá hasta que la rodilla de atrás casi toque el piso, con el torso erguido."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Empujá con el pie de adelante y volvé a quedar de pie, con el core activo."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Repetí con la otra pierna y seguí alternando. No dejes que el torso se vaya adelante."
+    },
+    {
+      "id": "07",
+      "text": "Claves: torso erguido, rodilla de adelante alineada con el pie, paso largo y el core activo todo el recorrido."
+    },
+    {
+      "id": "08",
+      "text": "Cincuenta segundos con diez kilos, alternando las piernas a un ritmo constante."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

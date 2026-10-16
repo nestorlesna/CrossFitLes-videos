@@ -1,0 +1,486 @@
+{
+  "slug": "cuban-press",
+  "name": "Cuban Press",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Hombros",
+    "Manguito",
+    "Movilidad"
+  ],
+  "descripcion": "Con discos o mancuernas livianas, encadenar tres fases: un upright row (jalón con codos altos), una rotación externa del hombro llevando los antebrazos hacia arriba y, por último, un press por encima de la cabeza. Volver por el mismo camino.",
+  "revisado": false,
+  "notas": "Brazo superior acortado (ul 0.3) cuando el codo apunta a la cámara; discos chicos con prop barbell r 40.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1507,
+    "scale": 0.74
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "r": 40
+    }
+  ],
+  "pronuncia": {
+    "Cuban Press": "Kiúban pres",
+    "upright row": "aprait rou"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 2,
+      "fa": 4,
+      "ua2": 2,
+      "fa2": 4,
+      "ul": 1
+    },
+    "ROW": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 92,
+      "fa": -92,
+      "ua2": 92,
+      "fa2": -92,
+      "ul": 0.3
+    },
+    "ROT": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 92,
+      "fa": 86,
+      "ua2": 92,
+      "fa2": 86,
+      "ul": 0.3
+    },
+    "PRESS": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 4,
+      "g": 0,
+      "ua": 178,
+      "fa": 0,
+      "ua2": 178,
+      "fa2": 0,
+      "ul": 1
+    },
+    "DROP_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 40,
+      "fa": 120,
+      "ua2": 40,
+      "fa2": 120,
+      "ul": 0.8
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "CUBAN",
+        "PRESS"
+      ],
+      "vo": "Cuban Press: jalón, rotación y press, con discos livianos. Salud para el manguito rotador.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "ROW",
+              0.9
+            ],
+            [
+              "ROT",
+              0.9
+            ],
+            [
+              "PRESS",
+              0.9
+            ],
+            [
+              "ROT",
+              0.8
+            ],
+            [
+              "ROW",
+              0.8
+            ],
+            [
+              "STAND",
+              0.9
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ],
+      "topview": {
+        "mode": "front",
+        "plates": true,
+        "label": "LOS HOMBROS"
+      }
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DISCOS",
+        "LIVIANOS"
+      ],
+      "sub": "Uno en cada mano",
+      "vo": "Parate derecho con un disco liviano en cada mano, de dos kilos y medio. El peso no es lo importante acá.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            403.4,
+            1181.4
+          ],
+          "text": "2,5 KG",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ],
+      "topview": {
+        "mode": "front",
+        "plates": true,
+        "label": "LOS HOMBROS"
+      }
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "CODOS",
+        "ARRIBA"
+      ],
+      "sub": "Jalón al pecho",
+      "vo": "Paso uno. Subí los discos hasta el pecho con los codos altos y abiertos: los codos lideran el movimiento.",
+      "moves": [
+        {
+          "to": "ROW",
+          "at": 0.6,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            507.0,
+            950.5
+          ],
+          "r": 46,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            403.4,
+            870.6
+          ],
+          "text": "CODOS ALTOS",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ],
+      "topview": {
+        "mode": "front",
+        "plates": true,
+        "label": "LOS HOMBROS"
+      }
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "ROTÁ",
+        "HACIA ARRIBA"
+      ],
+      "sub": "Codos en su lugar",
+      "vo": "Paso dos. Sin bajar los codos, rotá los antebrazos hacia arriba hasta que queden verticales.",
+      "moves": [
+        {
+          "cut": "ROW",
+          "at": 0
+        },
+        {
+          "to": "ROT",
+          "at": 0.6,
+          "dur": 1.2
+        },
+        {
+          "to": "DROP_BAD",
+          "at": 2.6,
+          "dur": 0.6
+        },
+        {
+          "to": "ROT",
+          "at": 3.8,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            660.5,
+            829.2
+          ],
+          "bend": [
+            90,
+            0
+          ],
+          "at": 0.6,
+          "dur": 1.0,
+          "from": [
+            656.4,
+            1066.0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            403.4,
+            870.6
+          ],
+          "text": "ROTACIÓN",
+          "anchor": "end",
+          "at": 1.6,
+          "out": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            403.4,
+            870.6
+          ],
+          "text": "CODOS NO BAJAN",
+          "anchor": "end",
+          "at": 3.0
+        }
+      ],
+      "topview": {
+        "mode": "front",
+        "plates": true,
+        "label": "LOS HOMBROS"
+      }
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "PRESS",
+        "ARRIBA"
+      ],
+      "sub": "Brazos estirados",
+      "vo": "Paso tres. Desde ahí, empujá los discos por encima de la cabeza hasta estirar los brazos.",
+      "moves": [
+        {
+          "cut": "ROT",
+          "at": 0
+        },
+        {
+          "to": "PRESS",
+          "at": 0.6,
+          "dur": 1.0
+        }
+      ],
+      "topview": {
+        "mode": "front",
+        "plates": true,
+        "label": "LOS HOMBROS"
+      }
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "VOLVÉ",
+        "IGUAL"
+      ],
+      "sub": "Lento, sin balanceo",
+      "vo": "Paso cuatro. Volvé por el mismo camino: rotación, jalón y abajo. Lento y sin balancear el cuerpo.",
+      "moves": [
+        {
+          "cut": "PRESS",
+          "at": 0
+        },
+        {
+          "to": "ROT",
+          "at": 0.5,
+          "dur": 0.9
+        },
+        {
+          "to": "ROW",
+          "at": 1.5,
+          "dur": 0.9
+        },
+        {
+          "to": "STAND",
+          "at": 2.5,
+          "dur": 0.9
+        }
+      ],
+      "topview": {
+        "mode": "front",
+        "plates": true,
+        "label": "LOS HOMBROS"
+      }
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.8,
+      "keys": [
+        "Peso muy liviano",
+        "Los codos lideran",
+        "Codos altos al rotar",
+        "Lento, sin balanceo"
+      ],
+      "vo": "Claves: peso muy liviano, los codos lideran el jalón, se mantienen altos en la rotación y todo lento, sin balanceo.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "ROW",
+              0.9
+            ],
+            [
+              "ROT",
+              0.9
+            ],
+            [
+              "PRESS",
+              0.9
+            ],
+            [
+              "ROT",
+              0.8
+            ],
+            [
+              "ROW",
+              0.8
+            ],
+            [
+              "STAND",
+              0.9
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "Con 2,5 kg",
+      "vo": "Treinta segundos con discos de dos kilos y medio. Ideal antes de cualquier trabajo de hombros.",
+      "chips": [
+        {
+          "label": "1 · JALÓN",
+          "at": 0.4
+        },
+        {
+          "label": "2 · ROTACIÓN",
+          "at": 1.3
+        },
+        {
+          "label": "3 · PRESS",
+          "at": 2.2
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "ROW",
+              0.9
+            ],
+            [
+              "ROT",
+              0.9
+            ],
+            [
+              "PRESS",
+              0.9
+            ],
+            [
+              "ROT",
+              0.8
+            ],
+            [
+              "ROW",
+              0.8
+            ],
+            [
+              "STAND",
+              0.9
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "ROT",
+    "grip": 0,
+    "zoom": 1.2,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Cuban Press 💪 Salud de hombros paso a paso | CrossFit",
+    "tags": [
+      "cuban press",
+      "press cubano",
+      "rotación externa de hombro",
+      "manguito rotador",
+      "movilidad de hombro",
+      "upright row",
+      "entrada en calor",
+      "crossfit",
+      "hombros",
+      "prevención de lesiones"
+    ],
+    "descripcion": "💪 CUBAN PRESS — Jalón, rotación y press: el manguito rotador te lo agradece\n\n¿Querés llegar a los movimientos por encima de la cabeza con los hombros listos? El cuban press trabaja el manguito rotador. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate derecho con un disco liviano en cada mano (2,5 kg).\n2️⃣ Subí los discos hasta el pecho con los codos altos y abiertos (upright row): los codos lideran.\n3️⃣ Sin bajar los codos, rotá los antebrazos hacia arriba hasta que queden verticales.\n4️⃣ Desde ahí, empujá los discos por encima de la cabeza hasta estirar los brazos.\n5️⃣ Volvé por el mismo camino: rotación, jalón y abajo. Lento y sin balancear el cuerpo.\n\n✅ CLAVES DE TÉCNICA\n• Pesos muy livianos: es un ejercicio de salud y movilidad\n• Los codos lideran el jalón\n• Mantené los codos altos durante la rotación\n• Movimiento lento y sin balanceo\n\n🎯 QUÉ TRABAJA\nDeltoides anterior · Trapecio superior · Tríceps braquial · Manguito rotador\n\n⏱️ CUÁNTO\n30 segundos con 2,5 kg. Va en la entrada en calor y la activación de hombros.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi sentís dolor (no esfuerzo) en el hombro, frená y consultá. Siempre con peso muy liviano.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #CubanPress #Hombros #Entrenamiento"
+  }
+}

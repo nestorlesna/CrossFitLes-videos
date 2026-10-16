@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Uol lat strech: estiramiento del dorsal contra la pared. Todo el costado largo y suelto."
+    },
+    {
+      "id": "02",
+      "text": "Parate de costado a una pared, cerca, y apoyá el brazo de ese lado estirado por encima de la cabeza."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Con los pies firmes, alejá la cadera de la pared hasta sentir el estiramiento a lo largo del costado."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Brazo largo, sin encoger el hombro hacia la oreja."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Respirá profundo y en cada exhalación aflojá un poco más. Sostené veinte a treinta segundos."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Cambiá de lado y repetí con el otro brazo apoyado en la pared."
+    },
+    {
+      "id": "07",
+      "text": "Claves: pies firmes, cadera lejos de la pared, brazo largo sin encoger el hombro, y respirá profundo mientras sostenés."
+    },
+    {
+      "id": "08",
+      "text": "Treinta segundos por lado. Ideal para la entrada en calor antes de colgarte o empujar arriba."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Kétol bel, gud mórnin: bisagra de cadera con la pesa al pecho. Activa glúteos, isquios y espalda."
+    },
+    {
+      "id": "02",
+      "text": "Parate con los pies al ancho de la cadera y sostené la kettlebell por los cuernos, pegada al pecho."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Aflojá apenas las rodillas: quedan levemente flexionadas durante todo el movimiento."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Llevá la cadera atrás e inclinate con la espalda neutra, hasta sentir tensión atrás de los muslos."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Mantené el pecho elevado: si la espalda se redondea, el movimiento sale de la columna."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Volvé arriba empujando la cadera hacia adelante y apretando los glúteos."
+    },
+    {
+      "id": "07",
+      "text": "Claves: el movimiento sale de la cadera, rodillas apenas flexionadas, pecho arriba y columna neutra todo el recorrido."
+    },
+    {
+      "id": "08",
+      "text": "Treinta segundos con diez kilos, lento y controlado. Ideal para activar antes de levantar."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

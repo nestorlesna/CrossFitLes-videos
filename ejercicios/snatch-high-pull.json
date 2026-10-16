@@ -1,0 +1,499 @@
+{
+  "slug": "snatch-high-pull",
+  "name": "Snatch High Pull",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Trapecio",
+    "Hombros",
+    "Cadera"
+  ],
+  "descripcion": "Con agarre de arrancada desde la cadera o el suelo, extender violentamente la cadera y luego tirar con los codos hacia arriba y afuera hasta que la barra llegue al nivel del pecho o la barbilla. Termina en puntillas.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 450,
+    "y": 1509,
+    "scale": 0.66
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "r": 96
+    }
+  ],
+  "pronuncia": {
+    "Snatch High Pull": "Snach jai pul"
+  },
+  "initialPose": "SETUP",
+  "poses": {
+    "STAND_BAR": {
+      "g": 1,
+      "ed": 1,
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "hx": 30,
+      "hy": -424
+    },
+    "SETUP": {
+      "g": 1,
+      "ed": 1,
+      "hip": [
+        -150,
+        -285
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 72,
+      "hd": 56,
+      "hx": 30,
+      "hy": -62
+    },
+    "KNEE": {
+      "g": 1,
+      "ed": 1,
+      "s": 5,
+      "t": -55,
+      "b": 52,
+      "hd": 40,
+      "hx": 30,
+      "hy": -215
+    },
+    "HIP": {
+      "s": 18,
+      "t": -38,
+      "b": 18,
+      "hd": 10,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": 2,
+      "fa2": 0
+    },
+    "EXT": {
+      "s": -4,
+      "t": 4,
+      "b": -8,
+      "hd": -6,
+      "ft": -22,
+      "ft2": -22,
+      "g": 0,
+      "ua": 6,
+      "fa": 0,
+      "ua2": 6,
+      "fa2": 0
+    },
+    "PULL": {
+      "s": -2,
+      "t": 2,
+      "b": -4,
+      "hd": -4,
+      "ft": -16,
+      "ft2": -16,
+      "g": 0,
+      "ua": 95,
+      "fa": -100,
+      "ua2": 95,
+      "fa2": -100
+    },
+    "HIGH": {
+      "s": -4,
+      "t": 4,
+      "b": -6,
+      "hd": -6,
+      "ft": -24,
+      "ft2": -24,
+      "g": 0,
+      "ua": 118,
+      "fa": -124,
+      "ua2": 118,
+      "fa2": -124
+    },
+    "BACK": {
+      "s": -4,
+      "t": 4,
+      "b": -6,
+      "hd": -6,
+      "ft": -24,
+      "ft2": -24,
+      "g": 0,
+      "ua": -40,
+      "fa": 120,
+      "ua2": -40,
+      "fa2": 120
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "SNATCH",
+        "HIGH PULL"
+      ],
+      "vo": "Snatch High Pull: extensión explosiva y tirón alto. La antesala de la arrancada completa.",
+      "moves": [
+        {
+          "to": "SETUP",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "to": "KNEE",
+          "at": 0.6,
+          "dur": 0.6
+        },
+        {
+          "to": "HIP",
+          "at": 1.2,
+          "dur": 0.3
+        },
+        {
+          "to": "EXT",
+          "at": 1.5,
+          "dur": 0.2,
+          "ease": "power2.out"
+        },
+        {
+          "to": "HIGH",
+          "at": 1.7000000000000002,
+          "dur": 0.25,
+          "ease": "power2.out"
+        },
+        {
+          "to": "HIP",
+          "at": 2.5,
+          "dur": 0.5
+        },
+        {
+          "to": "KNEE",
+          "at": 3.0,
+          "dur": 0.4
+        },
+        {
+          "to": "SETUP",
+          "at": 3.4,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "AGARRE DE",
+        "ARRANCADA"
+      ],
+      "sub": "Desde el piso o la cadera",
+      "vo": "Agarre ancho de arrancada. Podés arrancar desde el piso o con la barra en la cadera.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "STAND_BAR",
+          "at": 2.4,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "BARRA",
+        "A LA CADERA"
+      ],
+      "sub": "Pegada a las piernas",
+      "vo": "Paso uno. Llevá la barra hasta la cadera, pegada a las piernas y con los hombros sobre la barra.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "KNEE",
+          "at": 0.5,
+          "dur": 1.0
+        },
+        {
+          "to": "HIP",
+          "at": 1.6,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "EXTENDÉ",
+        "LA CADERA"
+      ],
+      "sub": "Violento, en puntas de pie",
+      "vo": "Paso dos. Extendé la cadera de forma violenta y subí a puntas de pie: de ahí sale la potencia.",
+      "moves": [
+        {
+          "cut": "HIP",
+          "at": 0
+        },
+        {
+          "to": "EXT",
+          "at": 0.7,
+          "dur": 0.3,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            337.8,
+            915.0
+          ],
+          "at": 0.7,
+          "dur": 0.8,
+          "from": [
+            337.8,
+            1377.0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            318.0,
+            875.4
+          ],
+          "text": "LA POTENCIA SALE DE ACÁ",
+          "anchor": "middle",
+          "at": 1.3
+        },
+        {
+          "type": "ring",
+          "pos": [
+            489.6,
+            1522.2
+          ],
+          "r": 50,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            555.6,
+            1469.4
+          ],
+          "text": "EN PUNTAS",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "CODOS",
+        "ARRIBA"
+      ],
+      "sub": "Y afuera, nunca atrás",
+      "vo": "Paso tres. Tirá con los codos hacia arriba y afuera, nunca hacia atrás, hasta el pecho o la barbilla.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "HIGH",
+          "at": 0.5,
+          "dur": 0.4,
+          "ease": "power2.out"
+        },
+        {
+          "to": "BACK",
+          "at": 2.6,
+          "dur": 0.5
+        },
+        {
+          "to": "HIGH",
+          "at": 3.6,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            571.0,
+            870.1
+          ],
+          "text": "CODOS ARRIBA Y AFUERA",
+          "anchor": "start",
+          "at": 1.0,
+          "out": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            571.0,
+            870.1
+          ],
+          "text": "ATRÁS NO",
+          "anchor": "start",
+          "at": 2.9,
+          "out": 3.6
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "BAJÁ",
+        "CONTROLADO"
+      ],
+      "sub": "Y repetí",
+      "vo": "Paso cuatro. Bajá la barra controlada por el mismo camino y preparate para la siguiente.",
+      "moves": [
+        {
+          "cut": "HIGH",
+          "at": 0
+        },
+        {
+          "to": "HIP",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "KNEE",
+          "at": 1.2,
+          "dur": 0.5
+        },
+        {
+          "to": "SETUP",
+          "at": 1.8,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.75,
+      "keys": [
+        "La cadera da la potencia",
+        "Codos arriba y afuera",
+        "Barra pegada al cuerpo",
+        "Terminá en puntas de pie"
+      ],
+      "vo": "Claves: la potencia sale de la cadera, codos arriba y afuera, barra pegada al cuerpo y terminás en puntas de pie.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "2 REPS"
+      ],
+      "sub": "Con 20 kg",
+      "vo": "Dos repeticiones con veinte kilos, por series. Rápido arriba y controlado al bajar.",
+      "chips": [
+        {
+          "label": "1 · CADERA",
+          "at": 1.4
+        },
+        {
+          "label": "2 · CODOS",
+          "at": 1.7
+        }
+      ],
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "KNEE",
+          "at": 0.4,
+          "dur": 0.6
+        },
+        {
+          "to": "HIP",
+          "at": 1.0,
+          "dur": 0.3
+        },
+        {
+          "to": "EXT",
+          "at": 1.3,
+          "dur": 0.2,
+          "ease": "power2.out"
+        },
+        {
+          "to": "HIGH",
+          "at": 1.5,
+          "dur": 0.25,
+          "ease": "power2.out"
+        },
+        {
+          "to": "HIP",
+          "at": 2.3,
+          "dur": 0.5
+        },
+        {
+          "to": "KNEE",
+          "at": 2.8,
+          "dur": 0.4
+        },
+        {
+          "to": "SETUP",
+          "at": 3.1999999999999997,
+          "dur": 0.5
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "HIGH",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 170
+  },
+  "youtube": {
+    "titulo": "Snatch High Pull 🔥 Tirón alto de arranque paso a paso | CrossFit",
+    "tags": [
+      "snatch high pull",
+      "high pull",
+      "tirón alto",
+      "tirón de arranque",
+      "arranque",
+      "snatch",
+      "levantamiento olímpico",
+      "halterofilia",
+      "crossfit",
+      "trapecio",
+      "potencia"
+    ],
+    "descripcion": "🔥 SNATCH HIGH PULL — Extensión explosiva y tirón alto: la base de la arrancada\n\n¿Sentís que en la arrancada la barra no sube lo suficiente? El high pull entrena la extensión y el tirón con los codos altos. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Agarre ancho de arrancada, desde el piso o con la barra en la cadera.\n2️⃣ Llevá la barra hasta la cadera, pegada a las piernas y con los hombros sobre la barra.\n3️⃣ Extendé la cadera de forma violenta y subí a puntas de pie: de ahí sale la potencia.\n4️⃣ Tirá con los codos hacia arriba y afuera, nunca hacia atrás, hasta el pecho o la barbilla.\n5️⃣ Bajá la barra controlada por el mismo camino y preparate para la siguiente.\n\n✅ CLAVES DE TÉCNICA\n• La extensión de cadera es la fuente principal de potencia\n• Codos hacia afuera y arriba, nunca hacia atrás\n• Barra pegada al cuerpo\n• Terminá en puntas de pie\n• Es la antesala del tirón de la arrancada completa\n\n🎯 QUÉ TRABAJA\nTrapecio superior · Braquiorradial · Deltoides lateral · Glúteo mayor · Recto femoral\n\n⏱️ CUÁNTO\n2 repeticiones con 20 kg, por series. Va en bloques de fuerza y técnica de arranque.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste levantamiento olímpico, aprendé la técnica con un caño de PVC o la barra sola y con un coach al lado antes de cargar peso.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Halterofilia #SnatchHighPull #Arranque #Entrenamiento"
+  }
+}

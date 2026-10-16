@@ -1,0 +1,528 @@
+{
+  "slug": "box-jump",
+  "name": "Box Jump",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Piernas",
+    "Gemelos",
+    "Potencia"
+  ],
+  "descripcion": "Salto con dos pies sobre el cajón pliométrico aterrizando con cadera en extensión. Potencia de piernas.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1511,
+    "scale": 0.62
+  },
+  "shadow": false,
+  "props": [
+    {
+      "type": "box",
+      "x0": -190,
+      "x1": 190,
+      "h": 300
+    }
+  ],
+  "pronuncia": {
+    "Box Jump": "Box champ"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "hip": [
+        -440,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 6,
+      "fa": 6
+    },
+    "LOAD": {
+      "hip": [
+        -450,
+        -330
+      ],
+      "s": 26,
+      "t": -62,
+      "b": 42,
+      "hd": 30,
+      "ua": -48,
+      "fa": 10,
+      "ua2": -44,
+      "fa2": 10
+    },
+    "FLY": {
+      "hip": [
+        -210,
+        -760
+      ],
+      "s": 46,
+      "t": -64,
+      "s2": 42,
+      "t2": -60,
+      "ft": 26,
+      "ft2": 26,
+      "b": 16,
+      "hd": 6,
+      "ua": 150,
+      "fa": 10,
+      "ua2": 144,
+      "fa2": 10
+    },
+    "TOP_LAND": {
+      "hip": [
+        -110,
+        -610
+      ],
+      "ankle": [
+        -40,
+        -300
+      ],
+      "b": 36,
+      "hd": 24,
+      "ua": 60,
+      "fa": 20,
+      "ua2": 54,
+      "fa2": 20
+    },
+    "TOP": {
+      "hip": [
+        -30,
+        -770
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 8,
+      "fa": 6
+    },
+    "HALF_TOP": {
+      "hip": [
+        -80,
+        -650
+      ],
+      "ankle": [
+        -40,
+        -300
+      ],
+      "b": 20,
+      "hd": 10,
+      "ua": 30,
+      "fa": 20,
+      "ua2": 26,
+      "fa2": 20
+    },
+    "STEP_DOWN": {
+      "hip": [
+        -250,
+        -560
+      ],
+      "ankle": [
+        -120,
+        -300
+      ],
+      "ankle2": [
+        -400,
+        0
+      ],
+      "b": 6,
+      "hd": 2,
+      "ua": 10,
+      "fa": 10
+    },
+    "TOE_LAND": {
+      "hip": [
+        -100,
+        -680
+      ],
+      "s": 10,
+      "t": -14,
+      "b": 8,
+      "hd": 4,
+      "ua": 50,
+      "fa": 20,
+      "ft": 40,
+      "ft2": 40
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "BOX JUMP"
+      ],
+      "vo": "Box Jump: salto con los dos pies arriba del cajón. Potencia de piernas en estado puro.",
+      "moves": [
+        {
+          "to": "LOAD",
+          "at": 0.4,
+          "dur": 0.35
+        },
+        {
+          "to": "FLY",
+          "at": 0.75,
+          "dur": 0.3,
+          "ease": "power2.out"
+        },
+        {
+          "to": "TOP_LAND",
+          "at": 1.05,
+          "dur": 0.25,
+          "ease": "power2.in"
+        },
+        {
+          "to": "TOP",
+          "at": 1.4,
+          "dur": 0.35
+        },
+        {
+          "to": "STEP_DOWN",
+          "at": 2.2,
+          "dur": 0.5
+        },
+        {
+          "to": "STAND",
+          "at": 2.8,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 4.6,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "FRENTE",
+        "AL CAJÓN"
+      ],
+      "sub": "A un paso",
+      "vo": "Parate frente al cajón, a un paso, con los pies al ancho de la cadera.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "CARGÁ",
+        "Y SALTÁ"
+      ],
+      "sub": "Brazos atrás y arriba",
+      "vo": "Paso uno. Cargá con la cadera y los brazos atrás, y saltá con los dos pies usando el envión de los brazos.",
+      "moves": [
+        {
+          "to": "LOAD",
+          "at": 0.6,
+          "dur": 0.8
+        },
+        {
+          "to": "FLY",
+          "at": 1.6,
+          "dur": 0.35,
+          "ease": "power2.out"
+        },
+        {
+          "to": "TOP_LAND",
+          "at": 1.95,
+          "dur": 0.3,
+          "ease": "power2.in"
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "PIES",
+        "COMPLETOS"
+      ],
+      "sub": "Arriba del cajón",
+      "vo": "Paso dos. Aterrizá con los dos pies completos arriba del cajón, no en las puntas ni en el borde.",
+      "moves": [
+        {
+          "cut": "TOP_LAND",
+          "at": 0
+        },
+        {
+          "to": "TOE_LAND",
+          "at": 2.2,
+          "dur": 0.5
+        },
+        {
+          "to": "TOP_LAND",
+          "at": 3.4,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "bar",
+          "pos": [
+            575.2,
+            1344.8
+          ],
+          "w": 100,
+          "h": 12,
+          "at": 0.8,
+          "out": 2.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            575.2,
+            798.0
+          ],
+          "text": "PIE COMPLETO",
+          "anchor": "middle",
+          "at": 1.0,
+          "out": 2.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            575.2,
+            798.0
+          ],
+          "text": "EN EL BORDE NO",
+          "anchor": "middle",
+          "at": 2.6,
+          "out": 3.4
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "EXTENDÉ",
+        "LA CADERA"
+      ],
+      "sub": "Arriba, de pie",
+      "vo": "Paso tres. Arriba del cajón, parate y extendé la cadera por completo antes de bajar.",
+      "moves": [
+        {
+          "cut": "HALF_TOP",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.6,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            581.4,
+            1033.6
+          ],
+          "r": 56,
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            686.8,
+            1015.0
+          ],
+          "text": "CADERA EXTENDIDA",
+          "anchor": "start",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "BAJÁ",
+        "AMORTIGUANDO"
+      ],
+      "sub": "Caminando o saltando",
+      "vo": "Paso cuatro. Bajá caminando o saltando, pero siempre amortiguando. Los rebotes seguidos lastiman las tibias.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "STEP_DOWN",
+          "at": 0.6,
+          "dur": 0.7
+        },
+        {
+          "to": "STAND",
+          "at": 1.5,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            327.2,
+            891.0
+          ],
+          "text": "SIN REBOTAR",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.75,
+      "keys": [
+        "Saltá con los dos pies",
+        "Pies completos arriba",
+        "Extendé la cadera",
+        "Bajá amortiguando"
+      ],
+      "vo": "Claves: salto con los dos pies, pies completos arriba del cajón, cadera extendida y bajada amortiguada.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0.1
+        },
+        {
+          "to": "LOAD",
+          "at": 0.6,
+          "dur": 0.35
+        },
+        {
+          "to": "FLY",
+          "at": 0.95,
+          "dur": 0.3,
+          "ease": "power2.out"
+        },
+        {
+          "to": "TOP_LAND",
+          "at": 1.25,
+          "dur": 0.25,
+          "ease": "power2.in"
+        },
+        {
+          "to": "TOP",
+          "at": 1.6,
+          "dur": 0.35
+        },
+        {
+          "to": "STEP_DOWN",
+          "at": 2.4,
+          "dur": 0.5
+        },
+        {
+          "to": "STAND",
+          "at": 3.0,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Sin rebotar",
+      "vo": "Diez repeticiones, bajando con control en cada una. Para la entrada en calor o el WOD.",
+      "chips": [
+        {
+          "label": "1 · SALTÁ",
+          "at": 0.4
+        },
+        {
+          "label": "2 · EXTENDÉ",
+          "at": 1.4
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 2.2
+        }
+      ],
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "LOAD",
+          "at": 0.4,
+          "dur": 0.35
+        },
+        {
+          "to": "FLY",
+          "at": 0.75,
+          "dur": 0.3,
+          "ease": "power2.out"
+        },
+        {
+          "to": "TOP_LAND",
+          "at": 1.05,
+          "dur": 0.25,
+          "ease": "power2.in"
+        },
+        {
+          "to": "TOP",
+          "at": 1.4,
+          "dur": 0.35
+        },
+        {
+          "to": "STEP_DOWN",
+          "at": 2.2,
+          "dur": 0.5
+        },
+        {
+          "to": "STAND",
+          "at": 2.8,
+          "dur": 0.5
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "FLY",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Box Jump 📦 Salto al cajón paso a paso | CrossFit",
+    "tags": [
+      "box jump",
+      "salto al cajón",
+      "salto al box",
+      "pliometría",
+      "salto vertical",
+      "crossfit",
+      "wod",
+      "potencia",
+      "piernas",
+      "entrada en calor"
+    ],
+    "descripcion": "📦 BOX JUMP — Salto al cajón con los dos pies: potencia de piernas\n\n¿Te da miedo el cajón o terminás con las tibias raspadas? Con una buena técnica y bajando con control, el box jump es seguro. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate frente al cajón, a un paso, con los pies al ancho de la cadera.\n2️⃣ Cargá con la cadera y los brazos atrás, y saltá con los dos pies usando el envión de los brazos.\n3️⃣ Aterrizá con los dos pies completos arriba del cajón, no en las puntas ni en el borde.\n4️⃣ Arriba del cajón, parate y extendé la cadera por completo antes de bajar.\n5️⃣ Bajá caminando o saltando, pero siempre amortiguando: los rebotes seguidos lastiman las tibias.\n\n✅ CLAVES DE TÉCNICA\n• Saltá y aterrizá con los dos pies completos sobre el cajón\n• Extendé la cadera arriba antes de bajar\n• Bajá caminando o saltando, pero siempre amortiguando\n• Los rebotes seguidos son la causa típica del raspón en la tibia\n\n🎯 QUÉ TRABAJA\nGemelos · Glúteo mayor · Sóleo · Vasto lateral\n\n⏱️ CUÁNTO\n10 repeticiones. Va en la entrada en calor y en WODs.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi recién empezás, usá un cajón bajo o hacé step-ups, y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #BoxJump #Pliometria #Entrenamiento"
+  }
+}

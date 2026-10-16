@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Ski erg: el ergómetro de esquí. Tirás de las manijas de arriba hacia abajo, con core y cadera."
+    },
+    {
+      "id": "02",
+      "text": "Parate frente a la máquina, una manija en cada mano y los brazos arriba, con el core firme."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Tirá de las dos manijas hacia abajo a la vez, como el doble bastón del esquí."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Acompañá el tirón con una leve bisagra de cadera, llevando la cadera atrás."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Apretá el core en cada tirón: la fuerza sale del centro del cuerpo, no solo de los brazos."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Volvé controlado a la posición alta, estirando los brazos, y arrancá el siguiente tirón."
+    },
+    {
+      "id": "07",
+      "text": "Claves: arrancá con los brazos altos, core firme, una leve bisagra de cadera y volvé controlado arriba."
+    },
+    {
+      "id": "08",
+      "text": "Cuarenta calorías a un ritmo que puedas sostener. Va genial en los WODs de row, bike o ski."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

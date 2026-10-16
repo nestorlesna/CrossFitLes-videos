@@ -1,0 +1,498 @@
+{
+  "slug": "russian-twist",
+  "name": "Russian Twist",
+  "category": "CROSSFIT · WOD · ACCESORIO",
+  "tags": [
+    "Oblicuos",
+    "Core",
+    "Abdomen"
+  ],
+  "descripcion": "Sentado con el torso inclinado hacia atrás y los pies elevados, rotar el tronco de lado a lado llevando las manos (o un peso) de un costado al otro.",
+  "revisado": false,
+  "notas": "Balón medicinal sin pared (wallball wall false) que pasa por delante/detrás del cuerpo (depth + pz); tarjeta topview mode twist.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.95
+  },
+  "props": [
+    {
+      "type": "wallball",
+      "wall": false,
+      "depth": true,
+      "off": [
+        16,
+        -10
+      ],
+      "r": 58
+    }
+  ],
+  "pronuncia": {
+    "Russian Twist": "Rashan tuist"
+  },
+  "initialPose": "CENTER",
+  "poses": {
+    "SEAT": {
+      "hip": [
+        0,
+        -14
+      ],
+      "s": -46,
+      "t": -120,
+      "ft": -24,
+      "ft2": -24,
+      "b": -20,
+      "hd": -6,
+      "g": 1,
+      "ed": 1,
+      "hx": 150,
+      "hy": -300,
+      "pz": 1
+    },
+    "CENTER": {
+      "hip": [
+        0,
+        -14
+      ],
+      "s": -68,
+      "t": -128,
+      "ft": -24,
+      "ft2": -24,
+      "b": -42,
+      "hd": -14,
+      "g": 1,
+      "ed": 1,
+      "hx": 60,
+      "hy": -215,
+      "pz": 1
+    },
+    "TW_N": {
+      "hip": [
+        0,
+        -14
+      ],
+      "s": -68,
+      "t": -128,
+      "ft": -24,
+      "ft2": -24,
+      "b": -36,
+      "hd": -8,
+      "g": 1,
+      "ed": 1,
+      "hx": -10,
+      "hy": -110,
+      "pz": 1
+    },
+    "TW_F": {
+      "hip": [
+        0,
+        -14
+      ],
+      "s": -68,
+      "t": -128,
+      "ft": -24,
+      "ft2": -24,
+      "b": -36,
+      "hd": -8,
+      "g": 1,
+      "ed": 1,
+      "hx": -10,
+      "hy": -110,
+      "pz": 0
+    },
+    "FEET_DOWN": {
+      "hip": [
+        0,
+        -14
+      ],
+      "s": -40,
+      "t": -124,
+      "ft": -24,
+      "ft2": -24,
+      "b": -42,
+      "hd": -14,
+      "g": 1,
+      "ed": 1,
+      "hx": 60,
+      "hy": -215,
+      "pz": 1
+    },
+    "ROUND": {
+      "hip": [
+        0,
+        -14
+      ],
+      "s": -68,
+      "t": -128,
+      "ft": -24,
+      "ft2": -24,
+      "b": -42,
+      "hd": 20,
+      "g": 1,
+      "ed": 1,
+      "cv": 30,
+      "hx": 60,
+      "hy": -215,
+      "pz": 1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · WOD · ACCESORIO",
+      "head": [
+        "RUSSIAN",
+        "TWIST"
+      ],
+      "vo": "Russian Twist: rotación del tronco de lado a lado, con los pies arriba. Oblicuos y core a full.",
+      "moves": [
+        {
+          "to": "CENTER",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "TW_N",
+              0.55
+            ],
+            [
+              "CENTER",
+              0.35
+            ],
+            [
+              "TW_F",
+              0.55
+            ],
+            [
+              "CENTER",
+              0.35
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "SENTADO",
+        "EN V"
+      ],
+      "sub": "Torso atrás, pies arriba",
+      "vo": "Sentate con el torso inclinado hacia atrás, el balón frente al pecho y los pies despegados del piso.",
+      "moves": [
+        {
+          "cut": "SEAT",
+          "at": 0
+        },
+        {
+          "to": "CENTER",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            920.3,
+            1295.2
+          ],
+          "text": "PIES ARRIBA",
+          "anchor": "middle",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "ROTÁ",
+        "AL COSTADO"
+      ],
+      "sub": "Desde el torso",
+      "topview": {
+        "mode": "twist",
+        "angle": 34,
+        "dur": 0.9,
+        "at": 1.0
+      },
+      "vo": "Paso uno. Rotá el tronco y llevá el balón al costado de la cadera. El giro sale del torso.",
+      "moves": [
+        {
+          "to": "TW_N",
+          "at": 1.0,
+          "dur": 0.9
+        },
+        {
+          "to": "CENTER",
+          "at": 2.6,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "AL OTRO",
+        "LADO"
+      ],
+      "sub": "Controlado",
+      "topview": {
+        "mode": "twist",
+        "angle": 34,
+        "dur": 0.9,
+        "at": 0.6
+      },
+      "vo": "Paso dos. Pasá por el centro y llevá el balón al otro costado, controlando en los dos sentidos.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "TW_N",
+              0.55
+            ],
+            [
+              "CENTER",
+              0.35
+            ],
+            [
+              "TW_F",
+              0.55
+            ],
+            [
+              "CENTER",
+              0.35
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "ESPALDA",
+        "RECTA"
+      ],
+      "sub": "Sin encorvarte",
+      "vo": "Paso tres. Mantené la espalda recta y el pecho abierto. Si te encorvás, el trabajo se pierde.",
+      "moves": [
+        {
+          "to": "ROUND",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "CENTER",
+          "at": 2.3,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            284.0,
+            1061.0
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 0.9,
+          "out": 2.3
+        },
+        {
+          "type": "line",
+          "to": {
+            "j": "CENTER.S",
+            "dx": -60
+          },
+          "solid": true,
+          "at": 2.9,
+          "from": {
+            "j": "CENTER.H",
+            "dx": -60
+          }
+        },
+        {
+          "type": "label",
+          "pos": [
+            284.0,
+            1061.0
+          ],
+          "text": "ESPALDA RECTA",
+          "anchor": "middle",
+          "at": 3.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "PIERNAS",
+        "ARRIBA"
+      ],
+      "sub": "Sin dejarlas caer",
+      "vo": "Paso cuatro. No dejes caer las piernas. Si cuesta, apoyá los talones y rotá igual.",
+      "moves": [
+        {
+          "to": "FEET_DOWN",
+          "at": 2.2,
+          "dur": 0.6
+        },
+        {
+          "to": "CENTER",
+          "at": 3.8,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            920.3,
+            1295.2
+          ],
+          "text": "PIES ARRIBA",
+          "anchor": "middle",
+          "at": 0.8,
+          "out": 2.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            920.3,
+            1295.2
+          ],
+          "text": "VERSIÓN FÁCIL",
+          "anchor": "middle",
+          "at": 2.8,
+          "out": 3.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 1,
+      "keys": [
+        "Rotá desde el torso",
+        "Espalda recta",
+        "Controlá los dos sentidos",
+        "Piernas arriba"
+      ],
+      "vo": "Claves: rotá desde el torso, espalda recta, controlá los dos sentidos y no dejes caer las piernas.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "TW_N",
+              0.55
+            ],
+            [
+              "CENTER",
+              0.35
+            ],
+            [
+              "TW_F",
+              0.55
+            ],
+            [
+              "CENTER",
+              0.35
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "50 REPS"
+      ],
+      "sub": "Con 9 kg, cada lado cuenta",
+      "vo": "Cincuenta repeticiones con un balón de nueve kilos. Cada toque a un costado cuenta una.",
+      "chips": [
+        {
+          "label": "1 · UN LADO",
+          "at": 0.5
+        },
+        {
+          "label": "2 · EL OTRO",
+          "at": 1.4
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "TW_N",
+              0.55
+            ],
+            [
+              "CENTER",
+              0.35
+            ],
+            [
+              "TW_F",
+              0.55
+            ],
+            [
+              "CENTER",
+              0.35
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "CENTER",
+    "grip": 1,
+    "zoom": 1.2,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Russian Twist 🔥 Oblicuos y core paso a paso | CrossFit",
+    "tags": [
+      "russian twist",
+      "giro ruso",
+      "rotaciones con balón",
+      "oblicuos",
+      "abdominales",
+      "core",
+      "balón medicinal",
+      "crossfit",
+      "wod",
+      "accesorio",
+      "abdomen"
+    ],
+    "descripcion": "🔥 RUSSIAN TWIST — Rotación de tronco con balón: oblicuos y core firmes\n\n¿Hacés russian twists moviendo solo los brazos? Si el giro sale del torso y la espalda está recta, los oblicuos trabajan de verdad. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Sentate con el torso inclinado hacia atrás, el balón frente al pecho y los pies despegados del piso.\n2️⃣ Rotá el tronco y llevá el balón al costado de la cadera. El giro sale del torso.\n3️⃣ Pasá por el centro y llevá el balón al otro costado, controlando en los dos sentidos.\n4️⃣ Mantené la espalda recta y el pecho abierto.\n5️⃣ No dejes caer las piernas. Si cuesta, apoyá los talones y rotá igual.\n\n✅ CLAVES DE TÉCNICA\n• Rotá desde el torso, no solo con los brazos\n• Espalda recta y pecho abierto\n• Controlá el movimiento en los dos sentidos\n• No dejes caer las piernas (versión fácil: talones apoyados)\n\n🎯 QUÉ TRABAJA\nOblicuo externo · Oblicuo interno · Recto abdominal · Recto femoral\n\n⏱️ CUÁNTO\n50 repeticiones con un balón de 9 kg (cada lado cuenta una). Va en WODs y como accesorio de core.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés molestias en la espalda baja, hacelo sin peso y con los talones apoyados, y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Core #RussianTwist #Abdominales #Entrenamiento"
+  }
+}

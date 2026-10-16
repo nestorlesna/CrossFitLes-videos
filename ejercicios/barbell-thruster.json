@@ -1,0 +1,519 @@
+{
+  "slug": "barbell-thruster",
+  "name": "Barbell Thruster",
+  "category": "CROSSFIT · FUERZA · WOD",
+  "tags": [
+    "Piernas",
+    "Hombros",
+    "Core"
+  ],
+  "descripcion": "Front squat completo encadenado con un push press: la subida de la sentadilla y el empuje sobre la cabeza son un solo movimiento continuo, sin pausa en el rack frontal.",
+  "revisado": false,
+  "notas": "Barra con blend: bf 1 en el rack (fija al tronco), bf 0 en las manos (arriba).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1509,
+    "scale": 0.66
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "torso": [
+        60,
+        30
+      ],
+      "r": 72,
+      "blend": true
+    }
+  ],
+  "pronuncia": {
+    "Barbell Thruster": "Bárbel thrúster",
+    "thruster": "thrúster"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 176,
+      "ua2": 94,
+      "fa2": 172,
+      "bf": 1,
+      "b": 0
+    },
+    "HALF": {
+      "s": 20,
+      "t": -52,
+      "hd": 4,
+      "g": 0,
+      "ua": 78,
+      "fa": 176,
+      "ua2": 82,
+      "fa2": 172,
+      "bf": 1,
+      "b": 12
+    },
+    "BOTTOM": {
+      "s": 40,
+      "t": -112,
+      "hd": 8,
+      "g": 0,
+      "ua": 70,
+      "fa": 176,
+      "ua2": 74,
+      "fa2": 172,
+      "bf": 1,
+      "b": 20
+    },
+    "DRIVE": {
+      "s": 0,
+      "t": 2,
+      "hd": -4,
+      "ft": -10,
+      "ft2": -10,
+      "g": 0,
+      "ua": 92,
+      "fa": 176,
+      "ua2": 96,
+      "fa2": 172,
+      "bf": 1,
+      "b": -2
+    },
+    "LOCK": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 8,
+      "g": 0,
+      "ua": 184,
+      "fa": 0,
+      "ua2": 184,
+      "fa2": 0,
+      "bf": 0
+    },
+    "ELBOWS_DOWN": {
+      "s": 34,
+      "t": -100,
+      "b": 42,
+      "hd": 30,
+      "g": 0,
+      "ua": 18,
+      "fa": 150,
+      "ua2": 22,
+      "fa2": 146,
+      "bf": 1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA · WOD",
+      "head": [
+        "BARBELL",
+        "THRUSTER"
+      ],
+      "vo": "Barbell Thruster: sentadilla frontal y empuje arriba, en un solo movimiento continuo.",
+      "moves": [
+        {
+          "to": "HALF",
+          "at": 0.5,
+          "dur": 0.45
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.95,
+          "dur": 0.4
+        },
+        {
+          "to": "HALF",
+          "at": 1.4,
+          "dur": 0.3,
+          "ease": "power2.in"
+        },
+        {
+          "to": "DRIVE",
+          "at": 1.7,
+          "dur": 0.2,
+          "ease": "power2.out"
+        },
+        {
+          "to": "LOCK",
+          "at": 1.9,
+          "dur": 0.35,
+          "ease": "power2.out"
+        },
+        {
+          "to": "STAND",
+          "at": 2.7,
+          "dur": 0.55
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "RACK",
+        "FRONTAL"
+      ],
+      "sub": "Codos altos",
+      "vo": "Barra en el rack frontal, apoyada en los hombros, con los codos altos y los pies al ancho de los hombros.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            641.6,
+            928.2
+          ],
+          "text": "CODOS ALTOS",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "SENTADILLA",
+        "FRONTAL"
+      ],
+      "sub": "Completa, codos arriba",
+      "vo": "Paso uno. Bajá en una sentadilla frontal completa, con el pecho arriba y los codos altos.",
+      "moves": [
+        {
+          "to": "HALF",
+          "at": 0.5,
+          "dur": 0.8
+        },
+        {
+          "to": "BOTTOM",
+          "at": 1.3,
+          "dur": 0.8
+        },
+        {
+          "to": "ELBOWS_DOWN",
+          "at": 3.2,
+          "dur": 0.5
+        },
+        {
+          "to": "BOTTOM",
+          "at": 4.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            582.9,
+            1186.0
+          ],
+          "text": "CODOS ARRIBA",
+          "anchor": "start",
+          "at": 2.2,
+          "out": 3.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            582.9,
+            1186.0
+          ],
+          "text": "ASÍ NO",
+          "anchor": "start",
+          "at": 3.5,
+          "out": 4.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "SALÍ DEL",
+        "HOYO"
+      ],
+      "sub": "Sin frenar",
+      "vo": "Paso dos. Salí del hoyo con fuerza y sin frenar: el impulso de las piernas es lo que manda la barra arriba.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.6,
+          "dur": 0.35,
+          "ease": "power2.in"
+        },
+        {
+          "to": "DRIVE",
+          "at": 0.95,
+          "dur": 0.25,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            357.8,
+            915.0
+          ],
+          "at": 0.6,
+          "dur": 0.8,
+          "from": [
+            357.8,
+            1311.0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            338.0,
+            875.4
+          ],
+          "text": "IMPULSO DE PIERNAS",
+          "anchor": "middle",
+          "at": 1.3
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "EMPUJÁ",
+        "ARRIBA"
+      ],
+      "sub": "Bíceps al lado de la oreja",
+      "vo": "Paso tres. Aprovechá ese impulso y empujá la barra arriba hasta bloquear, con el bíceps al lado de la oreja.",
+      "moves": [
+        {
+          "cut": "DRIVE",
+          "at": 0
+        },
+        {
+          "to": "LOCK",
+          "at": 0.5,
+          "dur": 0.45,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": [
+            496.4,
+            795.4
+          ],
+          "color": "ink",
+          "width": 6,
+          "at": 1.3,
+          "from": [
+            496.4,
+            1528.8
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            540.5,
+            848.2
+          ],
+          "text": "BLOQUEÁ ARRIBA",
+          "anchor": "start",
+          "at": 1.5
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "RESPIRÁ",
+        "ARRIBA"
+      ],
+      "sub": "No en el hoyo",
+      "vo": "Paso cuatro. Respirá arriba, bajá la barra al rack y encadená la siguiente. Nunca respires en el hoyo.",
+      "moves": [
+        {
+          "cut": "LOCK",
+          "at": 0
+        },
+        {
+          "to": "STAND",
+          "at": 1.4,
+          "dur": 0.7
+        },
+        {
+          "to": "HALF",
+          "at": 2.6,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540.5,
+            848.2
+          ],
+          "text": "RESPIRÁ ACÁ",
+          "anchor": "start",
+          "at": 0.6,
+          "out": 1.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.75,
+      "keys": [
+        "No frenes al salir del hoyo",
+        "Las piernas mandan la barra",
+        "Codos altos abajo",
+        "Bíceps al lado de la oreja"
+      ],
+      "vo": "Claves: no frenes al salir del hoyo, las piernas mandan la barra, codos altos abajo y bíceps al lado de la oreja arriba.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Un solo movimiento",
+      "vo": "Diez repeticiones encadenadas, como un solo movimiento. Un clásico de los WODs más duros.",
+      "chips": [
+        {
+          "label": "1 · SENTADILLA",
+          "at": 0.5
+        },
+        {
+          "label": "2 · EMPUJE",
+          "at": 1.7
+        }
+      ],
+      "moves": [
+        {
+          "to": "HALF",
+          "at": 0.5,
+          "dur": 0.45
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.95,
+          "dur": 0.4
+        },
+        {
+          "to": "HALF",
+          "at": 1.4,
+          "dur": 0.3,
+          "ease": "power2.in"
+        },
+        {
+          "to": "DRIVE",
+          "at": 1.7,
+          "dur": 0.2,
+          "ease": "power2.out"
+        },
+        {
+          "to": "LOCK",
+          "at": 1.9,
+          "dur": 0.35,
+          "ease": "power2.out"
+        },
+        {
+          "to": "STAND",
+          "at": 2.7,
+          "dur": 0.55
+        },
+        {
+          "to": "HALF",
+          "at": 3.4,
+          "dur": 0.45
+        },
+        {
+          "to": "BOTTOM",
+          "at": 3.85,
+          "dur": 0.4
+        },
+        {
+          "to": "HALF",
+          "at": 4.3,
+          "dur": 0.3,
+          "ease": "power2.in"
+        },
+        {
+          "to": "DRIVE",
+          "at": 4.6,
+          "dur": 0.2,
+          "ease": "power2.out"
+        },
+        {
+          "to": "LOCK",
+          "at": 4.8,
+          "dur": 0.35,
+          "ease": "power2.out"
+        },
+        {
+          "to": "STAND",
+          "at": 5.6,
+          "dur": 0.55
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "BOTTOM",
+    "grip": 0,
+    "zoom": 1.2
+  },
+  "youtube": {
+    "titulo": "Barbell Thruster 🔥 Sentadilla + empuje paso a paso | CrossFit",
+    "tags": [
+      "thruster",
+      "barbell thruster",
+      "thruster con barra",
+      "sentadilla frontal con empuje",
+      "front squat",
+      "push press",
+      "crossfit",
+      "wod",
+      "fran",
+      "piernas",
+      "hombros"
+    ],
+    "descripcion": "🔥 BARBELL THRUSTER — Sentadilla frontal y empuje arriba en un solo movimiento\n\n¿Los thrusters te funden los hombros? Si la barra sube con las piernas y no frenás en el hoyo, el hombro trabaja la mitad. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Barra en el rack frontal, apoyada en los hombros, codos altos y pies al ancho de los hombros.\n2️⃣ Bajá en una sentadilla frontal completa, con el pecho arriba y los codos altos.\n3️⃣ Salí del hoyo con fuerza y sin frenar: el impulso de las piernas manda la barra arriba.\n4️⃣ Aprovechá ese impulso y empujá la barra arriba hasta bloquear, con el bíceps al lado de la oreja.\n5️⃣ Respirá arriba, bajá la barra al rack y encadená la siguiente.\n\n✅ CLAVES DE TÉCNICA\n• No frenes al salir del hoyo: el impulso de piernas manda la barra\n• Codos altos en la sentadilla\n• Bíceps al lado de la oreja en el bloqueo\n• Respirá arriba, no en el hoyo\n\n🎯 QUÉ TRABAJA\nRecto femoral · Deltoides anterior · Glúteo mayor · Recto abdominal · Tríceps braquial\n\n⏱️ CUÁNTO\n10 repeticiones (o lo que marque el WOD). Va en WODs y bloques de fuerza.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés molestias en hombros, muñecas o rodillas, empezá con la barra sola o mancuernas livianas, y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #Thruster #Piernas #Entrenamiento"
+  }
+}

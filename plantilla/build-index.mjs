@@ -11,7 +11,7 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 export const VO_LEAD = 0.25; // voice starts this long after its frame opens
 const TAIL = 0.75; // breathing room after the line ends
 const RIG = { x: 470, y: 1500, scale: 0.9 }; // spec.rig overrides (e.g. rowing: machine needs more room)
-const POSE_KEYS = ["s", "t", "b", "hd", "ua", "fa", "s2", "t2", "ua2", "fa2", "rx", "ry", "ft", "ft2", "hx", "hy", "ed", "lr", "al", "hb", "bf", "bx", "by", "g2", "hx2", "hy2", "ed2", "wr", "wr2", "cv", "fx", "dh", "pz"];
+const POSE_KEYS = ["s", "t", "b", "hd", "ua", "fa", "s2", "t2", "ua2", "fa2", "rx", "ry", "ft", "ft2", "hx", "hy", "ed", "lr", "al", "hb", "bf", "bx", "by", "g2", "hx2", "hy2", "ed2", "wr", "wr2", "cv", "fx", "dh", "pz", "rp", "ul"];
 const SHIN = 230, THIGH = 240; // = runtime.js L.shin / L.thigh
 const deg = (r) => (r * 180) / Math.PI, rad = (d) => (d * Math.PI) / 180;
 
@@ -32,7 +32,7 @@ function legIK([hx, hy], [ax, ay], back) {
   return { s: +deg(Math.atan2(K.x - ax, -(K.y - ay))).toFixed(2), t: +deg(Math.atan2(H.x - K.x, -(H.y - K.y))).toFixed(2) };
 }
 export function normalizePose(p) {
-  const q = { s: 0, t: 0, b: 0, hd: 0, ua: 6, fa: 6, rx: 0, ry: 0, ft: 0, hx: 70, hy: -20, ed: 1, lr: 0, al: 1, hb: 0, bf: 0, bx: 0, by: 0, cv: 0, fx: 1, dh: 0, pz: 0, ...p };
+  const q = { s: 0, t: 0, b: 0, hd: 0, ua: 6, fa: 6, rx: 0, ry: 0, ft: 0, hx: 70, hy: -20, ed: 1, lr: 0, al: 1, hb: 0, bf: 0, bx: 0, by: 0, cv: 0, fx: 1, dh: 0, pz: 0, rp: 0, ul: 1, ...p };
   if (p.hip && p.ankle) {
     Object.assign(q, legIK(p.hip, p.ankle, p.knee === "back"));
     q.rx = p.ankle[0]; q.ry = p.ankle[1];
@@ -166,8 +166,8 @@ export function buildIndex(projectDir, { thumb = false } = {}) {
     `<div id="${id}" class="clip ${cls}" data-start="${f.start}" data-duration="${f.dur}" data-track-index="${track}"><div class="inner"${innerAttrs}>${inner}</div></div>`;
 
   const runtimeFrames = frames.map((f) => {
-    const rf = { id: f.id, start: f.start, dur: f.dur, kind: f.kind || "step", numeral: f.numeral || null, stance: !!f.stance, shrink: f.shrink };
-    if (f.topview) rf.topview = { angle: f.topview.angle ?? -62, at: f.topview.at === null ? null : f.topview.at ?? 1.0, dur: f.topview.dur ?? 1.6, back: f.topview.back ?? null, mode: f.topview.mode || null, from: f.topview.from ?? 1 };
+    const rf = { id: f.id, start: f.start, dur: f.dur, kind: f.kind || "step", numeral: f.numeral || null, stance: !!f.stance, shrink: f.shrink, scroll: thumb ? 0 : f.scroll ?? null };
+    if (f.topview) rf.topview = { angle: f.topview.angle ?? -62, at: f.topview.at === null ? null : f.topview.at ?? 1.0, dur: f.topview.dur ?? 1.6, back: f.topview.back ?? null, mode: f.topview.mode || null, from: f.topview.from ?? 1, plates: !!f.topview.plates };
     if (f.keys) {
       const v = voice[f.id];
       rf.keyTimes = f.keys.map((k, i) => {
@@ -211,7 +211,77 @@ export function buildIndex(projectDir, { thumb = false } = {}) {
           </svg>
         </div>
       </div>`);
-    if (f.topview?.mode === "bar")
+    if (f.topview?.mode === "front")
+      // Vista de frente con brazos que siguen la pose de perfil (runtime: frontCards). plates: discos en las manos.
+      extras.push(`<div id="fx-${f.id}" class="clip" data-start="${f.start}" data-duration="${f.dur}" data-track-index="4">
+        <div id="topcard-${f.id}" class="feetcard topcard"><div class="lbl">VISTA DE FRENTE</div>
+          <svg viewBox="0 0 252 300">
+            <line x1="114" y1="180" x2="110" y2="262" stroke="#3F3F9A" stroke-width="18" stroke-linecap="round"/>
+            <line x1="138" y1="180" x2="142" y2="262" stroke="#3F3F9A" stroke-width="18" stroke-linecap="round"/>
+            <rect x="100" y="88" width="52" height="94" rx="18" fill="#2FB3A6"/>
+            <circle cx="126" cy="64" r="20" fill="#E8B383"/>
+            <path d="M106 60 C 106 36 146 36 146 60 C 138 50 114 50 106 60 Z" fill="#6B3B1F"/>
+            ${["L", "R"].map((sd) => `<line id="fcu${sd}-${f.id}" stroke="#E8B383" stroke-width="13" stroke-linecap="round"/>
+            <line id="fcf${sd}-${f.id}" stroke="#E8B383" stroke-width="12" stroke-linecap="round"/>
+            <circle id="fch${sd}-${f.id}" r="7" fill="#E8B383"/>${f.topview.plates ? `<circle id="fcp${sd}-${f.id}" r="13" fill="#7C7F86" stroke="#5E6168" stroke-width="3"/>` : ""}`).join("")}
+            <text x="126" y="294" text-anchor="middle" font-family="Inter" font-weight="800" font-size="20" fill="#1A1A1A">${esc(f.topview.label || "HOMBROS")}</text>
+          </svg>
+        </div>
+      </div>`);
+    else if (f.topview?.mode === "lean")
+      // Vista de frente (lat stretch en la pared): pared a la izquierda; tronco + brazo arriba se inclinan hacia ella.
+      extras.push(`<div id="fx-${f.id}" class="clip" data-start="${f.start}" data-duration="${f.dur}" data-track-index="4">
+        <div id="topcard-${f.id}" class="feetcard topcard"><div class="lbl">VISTA DE FRENTE</div>
+          <svg viewBox="0 0 252 300">
+            <rect x="18" y="10" width="14" height="262" fill="#D9D2C5"/>
+            <line x1="114" y1="180" x2="106" y2="262" stroke="#3F3F9A" stroke-width="18" stroke-linecap="round"/>
+            <line x1="138" y1="180" x2="146" y2="262" stroke="#3F3F9A" stroke-width="18" stroke-linecap="round"/>
+            <g id="tvlegs-${f.id}">
+              <rect x="102" y="96" width="48" height="86" rx="18" fill="#2FB3A6"/>
+              <line x1="108" y1="104" x2="42" y2="24" stroke="#E8B383" stroke-width="14" stroke-linecap="round"/>
+              <line x1="146" y1="106" x2="160" y2="170" stroke="#D29A68" stroke-width="13" stroke-linecap="round"/>
+              <circle cx="126" cy="76" r="20" fill="#6B3B1F"/>
+            </g>
+            <text x="126" y="294" text-anchor="middle" font-family="Inter" font-weight="800" font-size="20" fill="#1A1A1A">${esc(f.topview.label || "CADERA AFUERA")}</text>
+          </svg>
+        </div>
+      </div>`);
+    else if (f.topview?.mode === "rot")
+      // Vista de arriba (hombro en la pared): pared arriba, mano apoyada; los hombros rotan alejándose.
+      extras.push(`<div id="fx-${f.id}" class="clip" data-start="${f.start}" data-duration="${f.dur}" data-track-index="4">
+        <div id="topcard-${f.id}" class="feetcard topcard"><div class="lbl">VISTA DE ARRIBA</div>
+          <svg viewBox="0 0 252 300">
+            <rect x="10" y="22" width="232" height="14" fill="#D9D2C5"/>
+            <circle cx="196" cy="44" r="10" fill="#E8B383"/>
+            <g id="tvlegs-${f.id}">
+              <line x1="190" y1="150" x2="196" y2="50" stroke="#E8B383" stroke-width="14" stroke-linecap="round"/>
+              <rect x="96" y="128" width="108" height="44" rx="20" fill="#2FB3A6"/>
+              <circle cx="150" cy="150" r="22" fill="#6B3B1F"/>
+            </g>
+            <text x="126" y="292" text-anchor="middle" font-family="Inter" font-weight="800" font-size="20" fill="#1A1A1A">${esc(f.topview.label || "ROTÁ EL TORSO")}</text>
+          </svg>
+        </div>
+      </div>`);
+    else if (f.topview?.mode === "twist")
+      // Vista de arriba del russian twist: piernas fijas; hombros, brazos y balón giran (tvlegs = grupo que rota).
+      extras.push(`<div id="fx-${f.id}" class="clip" data-start="${f.start}" data-duration="${f.dur}" data-track-index="4">
+        <div id="topcard-${f.id}" class="feetcard topcard"><div class="lbl">VISTA DE ARRIBA</div>
+          <svg viewBox="0 0 252 300">
+            <rect x="98" y="150" width="22" height="96" rx="11" fill="#3F3F9A"/>
+            <rect x="132" y="150" width="22" height="96" rx="11" fill="#3F3F9A"/>
+            <rect x="96" y="128" width="60" height="48" rx="20" fill="#3F3F9A"/>
+            <g id="tvlegs-${f.id}">
+              <rect x="80" y="104" width="92" height="44" rx="20" fill="#2FB3A6"/>
+              <line x1="92" y1="118" x2="122" y2="56" stroke="#E8B383" stroke-width="16" stroke-linecap="round"/>
+              <line x1="160" y1="118" x2="130" y2="56" stroke="#D29A68" stroke-width="16" stroke-linecap="round"/>
+              <circle cx="126" cy="42" r="22" fill="#2E2E33"/>
+              <circle cx="126" cy="126" r="22" fill="#6B3B1F"/>
+            </g>
+            <text x="126" y="292" text-anchor="middle" font-family="Inter" font-weight="800" font-size="22" fill="#1A1A1A">${esc(f.topview.label || "ROTÁ EL TORSO")}</text>
+          </svg>
+        </div>
+      </div>`);
+    else if (f.topview?.mode === "bar")
       // Vista de arriba del burpee lateral: barra vertical con discos; el atleta acostado al lado salta al otro lado.
       extras.push(`<div id="fx-${f.id}" class="clip" data-start="${f.start}" data-duration="${f.dur}" data-track-index="4">
         <div id="topcard-${f.id}" class="feetcard topcard"><div class="lbl">VISTA DE ARRIBA</div>

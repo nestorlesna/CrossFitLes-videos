@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Box champ: salto con los dos pies arriba del cajón. Potencia de piernas en estado puro."
+    },
+    {
+      "id": "02",
+      "text": "Parate frente al cajón, a un paso, con los pies al ancho de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Cargá con la cadera y los brazos atrás, y saltá con los dos pies usando el envión de los brazos."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Aterrizá con los dos pies completos arriba del cajón, no en las puntas ni en el borde."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Arriba del cajón, parate y extendé la cadera por completo antes de bajar."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Bajá caminando o saltando, pero siempre amortiguando. Los rebotes seguidos lastiman las tibias."
+    },
+    {
+      "id": "07",
+      "text": "Claves: salto con los dos pies, pies completos arriba del cajón, cadera extendida y bajada amortiguada."
+    },
+    {
+      "id": "08",
+      "text": "Diez repeticiones, bajando con control en cada una. Para la entrada en calor o el WOD."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

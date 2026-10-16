@@ -1,0 +1,465 @@
+{
+  "slug": "skierg",
+  "name": "SkiErg",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Dorsales",
+    "Core",
+    "Cardio"
+  ],
+  "descripcion": "Ergómetro de ski: de pie, tirar de las dos manijas desde arriba hacia abajo (como el doble bastón de esquí), usando core y cadera, por calorías o distancia.",
+  "revisado": false,
+  "notas": "Primer video con prop skierg.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 350,
+    "y": 1508,
+    "scale": 0.7
+  },
+  "shadow": false,
+  "props": [
+    {
+      "type": "skierg",
+      "x": 440,
+      "top": -1250
+    }
+  ],
+  "pronuncia": {
+    "SkiErg": "Ski erg"
+  },
+  "initialPose": "TOP",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": 150,
+      "hy": -560,
+      "ed": 1
+    },
+    "TOP": {
+      "s": -2,
+      "t": 2,
+      "b": -4,
+      "hd": -8,
+      "g": 1,
+      "hx": 168,
+      "hy": -1040,
+      "ed": 1,
+      "ft": -10,
+      "ft2": -10
+    },
+    "MID": {
+      "s": 8,
+      "t": -18,
+      "b": 26,
+      "hd": 18,
+      "g": 1,
+      "hx": 300,
+      "hy": -560,
+      "ed": 1
+    },
+    "BOTTOM": {
+      "s": 18,
+      "t": -38,
+      "b": 48,
+      "hd": 36,
+      "g": 0,
+      "ua": -16,
+      "fa": 4,
+      "ua2": -20,
+      "fa2": 4
+    },
+    "SQUAT": {
+      "s": 40,
+      "t": -108,
+      "b": 24,
+      "hd": 10,
+      "g": 0,
+      "ua": 10,
+      "fa": 4,
+      "ua2": 6,
+      "fa2": 4
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "SKIERG"
+      ],
+      "vo": "SkiErg: el ergómetro de esquí. Tirás de las manijas de arriba hacia abajo, con core y cadera.",
+      "moves": [
+        {
+          "to": "TOP",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "MID",
+              0.3
+            ],
+            [
+              "BOTTOM",
+              0.32
+            ],
+            [
+              "TOP",
+              0.95
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BRAZOS",
+        "ARRIBA"
+      ],
+      "sub": "Una manija en cada mano",
+      "vo": "Parate frente a la máquina, una manija en cada mano y los brazos arriba, con el core firme.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.6,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            266.0,
+            738.0
+          ],
+          "text": "BRAZOS ALTOS",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "TIRÁ",
+        "HACIA ABAJO"
+      ],
+      "sub": "Como el doble bastón",
+      "vo": "Paso uno. Tirá de las dos manijas hacia abajo a la vez, como el doble bastón del esquí.",
+      "moves": [
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 0.5
+        },
+        {
+          "to": "BOTTOM",
+          "at": 1.1,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            456.4,
+            1214.0
+          ],
+          "at": 0.6,
+          "dur": 1.0,
+          "from": [
+            456.4,
+            1213.0
+          ]
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "BISAGRA",
+        "DE CADERA"
+      ],
+      "sub": "Leve, acompañando",
+      "vo": "Paso dos. Acompañá el tirón con una leve bisagra de cadera, llevando la cadera atrás.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 0.5
+        },
+        {
+          "to": "BOTTOM",
+          "at": 1.1,
+          "dur": 0.5
+        },
+        {
+          "to": "SQUAT",
+          "at": 3.0,
+          "dur": 0.6
+        },
+        {
+          "to": "BOTTOM",
+          "at": 4.2,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": {
+            "j": "BOTTOM.S",
+            "dy": -60
+          },
+          "solid": true,
+          "at": 1.8,
+          "out": 3.0,
+          "from": {
+            "j": "BOTTOM.H",
+            "dy": -60
+          }
+        },
+        {
+          "type": "label",
+          "pos": [
+            386.0,
+            930.3
+          ],
+          "text": "CADERA ATRÁS",
+          "anchor": "middle",
+          "at": 2.0,
+          "out": 3.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            386.0,
+            930.3
+          ],
+          "text": "NO ES SENTADILLA",
+          "anchor": "middle",
+          "at": 3.4,
+          "out": 4.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "CORE",
+        "FIRME"
+      ],
+      "sub": "La fuerza sale del centro",
+      "vo": "Paso tres. Apretá el core en cada tirón: la fuerza sale del centro del cuerpo, no solo de los brazos.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "MID",
+              0.3
+            ],
+            [
+              "BOTTOM",
+              0.32
+            ],
+            [
+              "TOP",
+              0.95
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            392.0,
+            1116.0
+          ],
+          "r": 70,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            308.0,
+            1074.0
+          ],
+          "text": "CORE",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "VOLVÉ",
+        "CONTROLADO"
+      ],
+      "sub": "Arriba de nuevo",
+      "vo": "Paso cuatro. Volvé controlado a la posición alta, estirando los brazos, y arrancá el siguiente tirón.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            456.4,
+            1213.0
+          ],
+          "at": 0.6,
+          "dur": 1.3,
+          "from": [
+            456.4,
+            1214.0
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.62,
+      "keys": [
+        "Arrancá con brazos altos",
+        "Core firme",
+        "Leve bisagra de cadera",
+        "Volvé controlado"
+      ],
+      "vo": "Claves: arrancá con los brazos altos, core firme, una leve bisagra de cadera y volvé controlado arriba.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "MID",
+              0.3
+            ],
+            [
+              "BOTTOM",
+              0.32
+            ],
+            [
+              "TOP",
+              0.95
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "40 CALORÍAS"
+      ],
+      "sub": "A ritmo constante",
+      "vo": "Cuarenta calorías a un ritmo que puedas sostener. Va genial en los WODs de row, bike o ski.",
+      "chips": [
+        {
+          "label": "1 · TIRÁ",
+          "at": 0.5
+        },
+        {
+          "label": "2 · BISAGRA",
+          "at": 0.8
+        },
+        {
+          "label": "3 · ARRIBA",
+          "at": 1.15
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "MID",
+              0.3
+            ],
+            [
+              "BOTTOM",
+              0.32
+            ],
+            [
+              "TOP",
+              0.95
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "MID",
+    "grip": 1,
+    "zoom": 1.0,
+    "dy": 100
+  },
+  "youtube": {
+    "titulo": "SkiErg ⛷️ Técnica del ergómetro de esquí paso a paso | CrossFit",
+    "tags": [
+      "skierg",
+      "ski erg",
+      "ergómetro de esquí",
+      "concept2 skierg",
+      "ski",
+      "cardio",
+      "crossfit",
+      "wod",
+      "dorsales",
+      "core"
+    ],
+    "descripcion": "⛷️ SKIERG — El ergómetro de esquí: cardio con dorsales, core y cadera\n\n¿En el SkiErg terminás con los brazos fundidos y pocas calorías? El tirón sale del core y de la cadera, no solo de los brazos. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate frente a la máquina, una manija en cada mano y los brazos arriba, con el core firme.\n2️⃣ Tirá de las dos manijas hacia abajo a la vez, como el doble bastón del esquí.\n3️⃣ Acompañá el tirón con una leve bisagra de cadera, llevando la cadera atrás.\n4️⃣ Apretá el core en cada tirón: la fuerza sale del centro del cuerpo, no solo de los brazos.\n5️⃣ Volvé controlado a la posición alta, estirando los brazos, y arrancá el siguiente tirón.\n\n✅ CLAVES DE TÉCNICA\n• Iniciá con los brazos altos y el core firme\n• Acompañá el tirón con una leve bisagra de cadera (no es una sentadilla)\n• Las dos manijas bajan a la vez\n• Volvé controlado a la posición alta\n\n🎯 QUÉ TRABAJA\nDorsal ancho · Erectores espinales · Oblicuo externo · Recto abdominal · Tríceps braquial\n\n⏱️ CUÁNTO\n40 calorías a ritmo constante. Va en WODs (row/bike/ski) y como cardio.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #SkiErg #Cardio #Entrenamiento"
+  }
+}

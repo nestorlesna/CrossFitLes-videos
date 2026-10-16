@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Sled push and pul: empujar el trineo de ida y tirar de él de vuelta. Piernas y potencia a full."
+    },
+    {
+      "id": "02",
+      "text": "Tomá los parantes del trineo con los brazos firmes, el cuerpo inclinado y una pierna adelante."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Empujá con las piernas, paso a paso, sin frenar: el empuje tiene que ser continuo."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Mantené la espalda neutra y la posición atlética. Si te encorvás, perdés fuerza."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Para volver, tomá la soga, bajá la cadera y caminá hacia atrás tirando del trineo."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Tirá con la espalda y las piernas, no solo con los brazos. Pasos cortos y firmes."
+    },
+    {
+      "id": "07",
+      "text": "Claves: brazos firmes al empujar, espalda neutra, empuje continuo con las piernas y cadera baja al tirar."
+    },
+    {
+      "id": "08",
+      "text": "Veinte metros con ochenta kilos: ida empujando y vuelta tirando. Ajustá el peso a tu nivel."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

@@ -1,0 +1,460 @@
+{
+  "slug": "squat-thoracic-rotation",
+  "name": "Squat Thoracic Rotation",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Espalda alta",
+    "Cadera",
+    "Hombros"
+  ],
+  "descripcion": "En la posición baja de la sentadilla con ambas manos apoyadas en el piso entre las piernas, levantar un brazo hacia el cielo realizando una rotación torácica. Bajar y alternar con el otro brazo.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.95
+  },
+  "pronuncia": {
+    "Squat Thoracic Rotation": "Escuat torásic roteishon"
+  },
+  "initialPose": "DEEP",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 6,
+      "fa": 6,
+      "g2": 0,
+      "ua2": -6,
+      "fa2": 6
+    },
+    "DEEP": {
+      "s": 38,
+      "t": -112,
+      "b": 40,
+      "hd": 30,
+      "g": 1,
+      "hx": 120,
+      "hy": 15,
+      "g2": 1,
+      "hx2": 120,
+      "hy2": 15
+    },
+    "ROT_N": {
+      "s": 38,
+      "t": -112,
+      "b": 24,
+      "hd": -46,
+      "g": 0,
+      "hx": 120,
+      "hy": 15,
+      "g2": 1,
+      "hx2": 120,
+      "hy2": 15,
+      "ua": 196,
+      "fa": 0
+    },
+    "ROT_F": {
+      "s": 38,
+      "t": -112,
+      "b": 24,
+      "hd": -46,
+      "g": 1,
+      "hx": 120,
+      "hy": 15,
+      "g2": 0,
+      "hx2": 120,
+      "hy2": 15,
+      "ua2": 192,
+      "fa2": 0
+    },
+    "HEELS_UP": {
+      "s": 38,
+      "t": -112,
+      "b": 40,
+      "hd": 30,
+      "g": 1,
+      "hx": 120,
+      "hy": 15,
+      "g2": 1,
+      "hx2": 120,
+      "hy2": 15,
+      "ft": 32,
+      "ft2": 32,
+      "ry": -34
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "SQUAT THORACIC",
+        "ROTATION"
+      ],
+      "vo": "Squat Thoracic Rotation: sentadilla profunda y rotación de la espalda alta. Movilidad pura.",
+      "moves": [
+        {
+          "to": "DEEP",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "ROT_N",
+              1.3
+            ],
+            [
+              "DEEP",
+              0.9
+            ],
+            [
+              "ROT_F",
+              1.3
+            ],
+            [
+              "DEEP",
+              0.9
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "SENTADILLA",
+        "PROFUNDA"
+      ],
+      "sub": "Manos al piso entre las piernas",
+      "vo": "Bajá a una sentadilla profunda y apoyá las dos manos en el piso, entre las piernas.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "DEEP",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            614.0,
+            1514.2
+          ],
+          "r": 50,
+          "at": 2.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            690.0,
+            1443.0
+          ],
+          "text": "MANOS AL PISO",
+          "anchor": "start",
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "UN BRAZO",
+        "AL CIELO"
+      ],
+      "sub": "Rotá la espalda alta",
+      "vo": "Paso uno. Levantá un brazo hacia el cielo, rotando la espalda alta. La otra mano sigue en el piso.",
+      "moves": [
+        {
+          "to": "ROT_N",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            569.3,
+            856.7
+          ],
+          "bend": [
+            60,
+            -60
+          ],
+          "at": 0.6,
+          "dur": 1.2,
+          "from": [
+            645.3,
+            1151.2
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            616.8,
+            809.2
+          ],
+          "text": "ROTÁ",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "MIRÁ",
+        "LA MANO"
+      ],
+      "sub": "Pecho abierto",
+      "vo": "Paso dos. Abrí el pecho y seguí la mano con la mirada. Sostené un segundo arriba.",
+      "moves": [
+        {
+          "cut": "ROT_N",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": [
+            540.8,
+            885.2
+          ],
+          "color": "ink",
+          "width": 6,
+          "at": 0.8,
+          "from": {
+            "j": "ROT_N.N",
+            "dx": 30,
+            "dy": -40
+          }
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            860
+          ],
+          "text": "LA MIRADA SIGUE A LA MANO",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "CAMBIÁ",
+        "DE BRAZO"
+      ],
+      "sub": "Alterná",
+      "vo": "Paso tres. Bajá la mano al piso y repetí con el otro brazo. Alterná de un lado y del otro.",
+      "moves": [
+        {
+          "cut": "ROT_N",
+          "at": 0
+        },
+        {
+          "to": "DEEP",
+          "at": 0.5,
+          "dur": 0.9
+        },
+        {
+          "to": "ROT_F",
+          "at": 1.6,
+          "dur": 1.3
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "TALONES",
+        "APOYADOS"
+      ],
+      "sub": "Todo el tiempo",
+      "vo": "Paso cuatro. Los talones quedan apoyados en todo momento. Si se levantan, abrí un poco más los pies.",
+      "moves": [
+        {
+          "cut": "DEEP",
+          "at": 0
+        },
+        {
+          "to": "HEELS_UP",
+          "at": 0.6,
+          "dur": 0.6
+        },
+        {
+          "to": "DEEP",
+          "at": 2.2,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            291.0,
+            1443.0
+          ],
+          "text": "ASÍ NO",
+          "anchor": "end",
+          "at": 1.0,
+          "out": 2.2
+        },
+        {
+          "type": "bar",
+          "pos": [
+            490.5,
+            1532.3
+          ],
+          "w": 90,
+          "h": 12,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            443.0,
+            1462.0
+          ],
+          "text": "TALONES ABAJO",
+          "anchor": "end",
+          "at": 2.9
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 1,
+      "keys": [
+        "Pecho abierto al rotar",
+        "La mirada sigue a la mano",
+        "Talones apoyados",
+        "Alterná los brazos"
+      ],
+      "vo": "Claves: pecho abierto en la rotación, la mirada sigue a la mano y los talones siempre apoyados.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "ROT_N",
+              1.3
+            ],
+            [
+              "DEEP",
+              0.9
+            ],
+            [
+              "ROT_F",
+              1.3
+            ],
+            [
+              "DEEP",
+              0.9
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "Alternando, sin apuro",
+      "vo": "Treinta segundos alternando los brazos, sin apuro. Ideal antes de sentadillas o trabajo por encima de la cabeza.",
+      "chips": [
+        {
+          "label": "1 · UN BRAZO",
+          "at": 0.5
+        },
+        {
+          "label": "2 · EL OTRO",
+          "at": 2.7
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "ROT_N",
+              1.3
+            ],
+            [
+              "DEEP",
+              0.9
+            ],
+            [
+              "ROT_F",
+              1.3
+            ],
+            [
+              "DEEP",
+              0.9
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "ROT_N",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Squat Thoracic Rotation 🔄 Movilidad de espalda alta paso a paso | CrossFit",
+    "tags": [
+      "squat thoracic rotation",
+      "rotación torácica",
+      "movilidad torácica",
+      "sentadilla con rotación",
+      "deep squat rotation",
+      "movilidad",
+      "entrada en calor",
+      "crossfit",
+      "espalda alta",
+      "cadera"
+    ],
+    "descripcion": "🔄 SQUAT THORACIC ROTATION — Sentadilla profunda + rotación torácica: cadera y espalda alta en uno\n\n¿Se te cierra el pecho en la sentadilla o te cuesta llevar los brazos arriba? La espalda alta necesita rotar. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Bajá a una sentadilla profunda y apoyá las dos manos en el piso, entre las piernas.\n2️⃣ Levantá un brazo hacia el cielo, rotando la espalda alta. La otra mano sigue en el piso.\n3️⃣ Abrí el pecho y seguí la mano con la mirada. Sostené un segundo arriba.\n4️⃣ Bajá la mano al piso y repetí con el otro brazo, alternando.\n5️⃣ Los talones quedan apoyados en todo momento: si se levantan, abrí un poco más los pies.\n\n✅ CLAVES DE TÉCNICA\n• Pecho abierto durante la rotación\n• La mirada sigue a la mano que sube\n• Talones apoyados en todo momento\n• Alterná un brazo y el otro sin apuro\n\n🎯 QUÉ TRABAJA\nErectores espinales · Deltoides anterior · Dorsal ancho · Oblicuo externo\n\n⏱️ CUÁNTO\n30 segundos alternando. Va en la entrada en calor, antes de sentadillas o trabajo overhead.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Movilidad #ThoracicRotation #EntradaEnCalor #Entrenamiento"
+  }
+}

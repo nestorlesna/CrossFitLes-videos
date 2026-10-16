@@ -1,0 +1,371 @@
+{
+  "slug": "wall-shoulder-stretch",
+  "name": "Wall Shoulder Stretch",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Pecho",
+    "Hombros",
+    "Movilidad"
+  ],
+  "descripcion": "De pie frente a una pared, apoyar la palma del brazo extendido contra ella a la altura del hombro. Rotar el torso alejándose de la pared para estirar el hombro anterior y el pectoral, manteniendo el brazo fijo.",
+  "revisado": false,
+  "notas": "La rotación se cuenta con la tarjeta \"vista de arriba\" (topview mode rot); pared como prop fijo.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 380,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "props": [
+    {
+      "type": "wall",
+      "x": 326,
+      "h": 880
+    }
+  ],
+  "pronuncia": {
+    "Wall Shoulder Stretch": "Uol shóulder strech"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 6,
+      "fa": 6
+    },
+    "PALM": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g2": 0,
+      "ua2": 6,
+      "fa2": 6,
+      "g": 1,
+      "hx": 320,
+      "hy": -760,
+      "ed": 1
+    },
+    "TURN": {
+      "s": 0,
+      "t": 0,
+      "b": -4,
+      "hd": -10,
+      "g2": 0,
+      "ua2": -20,
+      "fa2": 10,
+      "g": 1,
+      "hx": 320,
+      "hy": -760,
+      "ed": 1
+    },
+    "HIGH_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g2": 0,
+      "ua2": 6,
+      "fa2": 6,
+      "g": 1,
+      "hx": 320,
+      "hy": -980,
+      "ed": 1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "WALL SHOULDER",
+        "STRETCH"
+      ],
+      "topview": {
+        "mode": "rot",
+        "angle": 34,
+        "dur": 1.6,
+        "label": "ROTÁ EL TORSO",
+        "at": 1.0,
+        "back": 3.2
+      },
+      "vo": "Wall Shoulder Stretch: estiramiento de hombro y pectoral con la pared. Pecho abierto.",
+      "moves": [
+        {
+          "to": "PALM",
+          "at": 0.3,
+          "dur": 0.6
+        },
+        {
+          "to": "TURN",
+          "at": 1.0,
+          "dur": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "MANO EN",
+        "LA PARED"
+      ],
+      "sub": "A la altura del hombro",
+      "topview": {
+        "mode": "rot",
+        "angle": 34,
+        "dur": 1.6,
+        "label": "ROTÁ EL TORSO",
+        "at": null
+      },
+      "vo": "Parate frente a la pared y apoyá la palma, con el brazo estirado, a la altura del hombro.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "PALM",
+          "at": 0.8,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            668.0,
+            816.0
+          ],
+          "r": 46,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            619.4,
+            708.0
+          ],
+          "text": "ALTURA DEL HOMBRO",
+          "anchor": "end",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "ROTÁ",
+        "EL TORSO"
+      ],
+      "sub": "Alejándote de la pared",
+      "topview": {
+        "mode": "rot",
+        "angle": 34,
+        "dur": 1.6,
+        "label": "ROTÁ EL TORSO",
+        "at": 0.8
+      },
+      "vo": "Paso uno. Con la mano fija, rotá el torso alejándote de la pared hasta sentir el estiramiento adelante del hombro.",
+      "moves": [
+        {
+          "cut": "PALM",
+          "at": 0
+        },
+        {
+          "to": "TURN",
+          "at": 0.8,
+          "dur": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "BRAZO A",
+        "LA ALTURA"
+      ],
+      "sub": "Sin subirlo",
+      "vo": "Paso dos. El brazo queda a la altura del hombro: no lo subas para estirar más.",
+      "moves": [
+        {
+          "cut": "PALM",
+          "at": 0
+        },
+        {
+          "to": "HIGH_BAD",
+          "at": 1.6,
+          "dur": 0.6
+        },
+        {
+          "to": "PALM",
+          "at": 3.0,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            619.4,
+            546.0
+          ],
+          "text": "ASÍ NO",
+          "anchor": "end",
+          "at": 2.0,
+          "out": 3.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "DESDE",
+        "EL TORSO"
+      ],
+      "sub": "No desde el brazo",
+      "topview": {
+        "mode": "rot",
+        "angle": 34,
+        "dur": 1.6,
+        "label": "ROTÁ EL TORSO",
+        "at": 0.6
+      },
+      "vo": "Paso tres. La rotación sale del torso: el brazo queda quieto, apoyado en la pared.",
+      "moves": [
+        {
+          "cut": "PALM",
+          "at": 0
+        },
+        {
+          "to": "TURN",
+          "at": 0.6,
+          "dur": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "RESPIRÁ",
+        "Y CAMBIÁ"
+      ],
+      "sub": "Después, el otro lado",
+      "topview": {
+        "mode": "rot",
+        "angle": 34,
+        "dur": 1.6,
+        "label": "ROTÁ EL TORSO",
+        "at": 0.4
+      },
+      "vo": "Paso cuatro. Respirá fluido mientras sostenés y después cambiá de lado.",
+      "moves": [
+        {
+          "cut": "TURN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1300
+          ],
+          "text": "RESPIRACIÓN FLUIDA",
+          "anchor": "start",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Brazo a la altura del hombro",
+        "Rotá desde el torso",
+        "Mano fija en la pared",
+        "Respiración fluida"
+      ],
+      "vo": "Claves: brazo a la altura del hombro, la rotación sale del torso, la mano queda fija y respirás fluido.",
+      "moves": [
+        {
+          "cut": "TURN",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "Por lado",
+      "vo": "Treinta segundos por lado. Muy bueno antes de empujes y trabajo por encima de la cabeza.",
+      "chips": [
+        {
+          "label": "1 · MANO EN LA PARED",
+          "at": 0.4
+        },
+        {
+          "label": "2 · ROTÁ",
+          "at": 0.8
+        }
+      ],
+      "moves": [
+        {
+          "cut": "PALM",
+          "at": 0
+        },
+        {
+          "to": "TURN",
+          "at": 0.8,
+          "dur": 1.6
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "TURN",
+    "grip": 1,
+    "zoom": 1.1,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Wall Shoulder Stretch 🧘 Hombro y pectoral en la pared | CrossFit",
+    "tags": [
+      "wall shoulder stretch",
+      "estiramiento de hombro",
+      "estiramiento de pectoral",
+      "estiramiento en la pared",
+      "pecho",
+      "movilidad de hombro",
+      "entrada en calor",
+      "crossfit",
+      "hombros",
+      "estiramiento"
+    ],
+    "descripcion": "🧘 WALL SHOULDER STRETCH — Abrí el pecho: hombro anterior y pectoral estirados en la pared\n\n¿Hombros cerrados de tanto escritorio o de tanto press? Este estiramiento abre el pecho en un minuto. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate frente a la pared y apoyá la palma, con el brazo estirado, a la altura del hombro.\n2️⃣ Con la mano fija, rotá el torso alejándote de la pared hasta sentir el estiramiento adelante del hombro.\n3️⃣ El brazo queda a la altura del hombro: no lo subas.\n4️⃣ La rotación sale del torso, no del brazo.\n5️⃣ Respirá fluido mientras sostenés y después cambiá de lado.\n\n✅ CLAVES DE TÉCNICA\n• Brazo a la altura del hombro, sin elevarlo\n• Rotá desde el torso, no desde el brazo\n• Mano fija en la pared\n• Respiración fluida durante el estiramiento\n\n🎯 QUÉ TRABAJA\nPectoral mayor · Deltoides anterior · Dorsal ancho · Pectoral menor\n\n⏱️ CUÁNTO\n30 segundos por lado. Va en la entrada en calor.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Movilidad #ShoulderStretch #Estiramiento #Entrenamiento"
+  }
+}
