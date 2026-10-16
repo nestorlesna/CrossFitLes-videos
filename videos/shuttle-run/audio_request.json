@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Shátol ran: carrera de ida y vuelta entre dos líneas. Acelerar, frenar y volver a salir."
+    },
+    {
+      "id": "02",
+      "text": "Marcá dos líneas a cinco o diez metros. Arrancá detrás de una, listo para salir."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Salí con zancadas largas y potentes para acelerar lo más rápido posible."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Cerca de la línea, frená con pasos cortos y bajá la cadera."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Tocá la línea con la mano, bien abajo, antes de cambiar de sentido."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Girá sobre los pies y volvé a salir explosivo hacia la otra línea."
+    },
+    {
+      "id": "07",
+      "text": "Claves: zancada larga al acelerar, pasos cortos al frenar, cadera baja en el giro y la mano en la línea."
+    },
+    {
+      "id": "08",
+      "text": "Diez repeticiones de ida y vuelta. Sirve para la entrada en calor o como parte del WOD."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

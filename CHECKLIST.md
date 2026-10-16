@@ -5,7 +5,7 @@ La lista y su orden salen de `ejercicios/ejercicios.csv`; el estado, de `ejercic
 `videos/<clave>/.pipeline.json` y `salida/`. Para aprobar un video: `"revisado": true` en su JSON; las notas salen de `"notas"`.
 Subido = el .mp4 está en `salida/subidos/` (se mueve a mano después de publicarlo en YouTube).
 
-**Renderizados:** 24 / 328 · **Fichas:** 24 · **Descripción YouTube:** 24 · **Subidos:** 9 · **Próximo:** 24 · Alternating Single Arm Dumbbell Power Snatch
+**Renderizados:** 31 / 328 · **Fichas:** 31 · **Descripción YouTube:** 31 · **Subidos:** 9 · **Próximo:** 31 · Sled Push & Pull
 
 | # | Ejercicio | Implemento | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Revisado | Subido | Fecha render | Notas |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -33,13 +33,13 @@ Subido = el .mp4 está en `salida/subidos/` (se mueve a mano después de publica
 | 21 | Barbell Back Squat | Barra olímpica | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/barbell-back-squat.youtube.txt) | [✅](salida/subidos/barbell-back-squat.miniatura.png) | 49.9 s | [barbell-back-squat.mp4](salida/subidos/barbell-back-squat.mp4) | ✅ | ✅ | 2026-10-14 |  |
 | 22 | Burpee Broad Jump | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/burpee-broad-jump.youtube.txt) | [✅](salida/burpee-broad-jump.miniatura.png) | 48.0 s | [burpee-broad-jump.mp4](salida/burpee-broad-jump.mp4) | ⬜ | ⬜ | 2026-10-14 |  |
 | 23 | Wall Ball Shot | Wall ball | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/wall-ball-shot.youtube.txt) | [✅](salida/subidos/wall-ball-shot.miniatura.png) | 47.3 s | [wall-ball-shot.mp4](salida/subidos/wall-ball-shot.mp4) | ✅ | ✅ | 2026-10-14 |  |
-| 24 | Alternating Single Arm Dumbbell Power Snatch | Mancuernas | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 25 | Kettlebell Farmer Carry | Kettlebell | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 26 | Burpee Over the Bar | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 27 | Cat-Cow | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 28 | Shuttle Run | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 29 | Yoga Push-Up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 30 | Scapular Push-Up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
+| 24 | Alternating Single Arm Dumbbell Power Snatch | Mancuernas | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/alternating-single-arm-dumbbell-power-snatch.youtube.txt) | [✅](salida/alternating-single-arm-dumbbell-power-snatch.miniatura.png) | 51.9 s | [alternating-single-arm-dumbbell-power-snatch.mp4](salida/alternating-single-arm-dumbbell-power-snatch.mp4) | ⬜ | ⬜ | 2026-10-16 | Primer video con prop dumbbell (vista de punta; dh elige la mano, bf la deja en el piso). |
+| 25 | Kettlebell Farmer Carry | Kettlebell | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/kettlebell-farmer-carry.youtube.txt) | [✅](salida/kettlebell-farmer-carry.miniatura.png) | 48.5 s | [kettlebell-farmer-carry.mp4](salida/kettlebell-farmer-carry.mp4) | ⬜ | ⬜ | 2026-10-16 | Dos kettlebells: prop kettlebell con hand far para la mano lejana. Caminata en el lugar con floorScroll. |
+| 26 | Burpee Over the Bar | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/burpee-over-the-bar.youtube.txt) | [✅](salida/burpee-over-the-bar.miniatura.png) | 49.9 s | [burpee-over-the-bar.mp4](salida/burpee-over-the-bar.mp4) | ⬜ | ⬜ | 2026-10-16 | Salto lateral (en profundidad): prop floorbar con pz (barra detrás/delante) + tarjeta topview mode bar. |
+| 27 | Cat-Cow | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/cat-cow.youtube.txt) | [✅](salida/cat-cow.miniatura.png) | 50.6 s | [cat-cow.mp4](salida/cat-cow.mp4) | ⬜ | ⬜ | 2026-10-16 | Primer video con espalda curva (clave cv del torso). |
+| 28 | Shuttle Run | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/shuttle-run.youtube.txt) | [✅](salida/shuttle-run.miniatura.png) | 48.0 s | [shuttle-run.mp4](salida/shuttle-run.mp4) | ⬜ | ⬜ | 2026-10-16 | Primer video con giro del personaje (clave fx): corre de verdad entre dos líneas. |
+| 29 | Yoga Push-Up | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/yoga-push-up.youtube.txt) | [✅](salida/yoga-push-up.miniatura.png) | 47.9 s | [yoga-push-up.mp4](salida/yoga-push-up.mp4) | ⬜ | ⬜ | 2026-10-16 |  |
+| 30 | Scapular Push-Up | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/scapular-push-up.youtube.txt) | [✅](salida/scapular-push-up.miniatura.png) | 49.0 s | [scapular-push-up.mp4](salida/scapular-push-up.mp4) | ⬜ | ⬜ | 2026-10-16 | Protracción/retracción con la curva del torso (cv); personaje más grande (scale 0.95). |
 | 31 | Sled Push & Pull | Sled | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
 | 32 | Russian Twist | Balón medicinal | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
 | 33 | SkiErg | SkiErg | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |

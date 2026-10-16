@@ -1,0 +1,468 @@
+{
+  "slug": "yoga-push-up",
+  "name": "Yoga Push-Up",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Pecho",
+    "Hombros",
+    "Core"
+  ],
+  "descripcion": "Comenzar en posición downward dog (V invertida). Llevar el cuerpo hacia adelante en un arco, bajando el pecho entre las manos (chaturanga/push-up bajo) y luego extender los brazos para llegar a cobra o upward dog. Volver a downward dog.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 290,
+    "y": 1504,
+    "scale": 0.82
+  },
+  "pronuncia": {
+    "Yoga Push-Up": "Yoga push ap",
+    "chaturanga": "chaturanga"
+  },
+  "initialPose": "DOWNDOG",
+  "poses": {
+    "DOWNDOG": {
+      "s": 30.0,
+      "t": 30.0,
+      "rx": 0,
+      "ry": 0,
+      "b": 133.77,
+      "hd": 161.8,
+      "g": 1,
+      "hx": 675,
+      "hy": 15,
+      "ft": 0
+    },
+    "PLANK": {
+      "s": 68.41,
+      "t": 68.41,
+      "rx": -20,
+      "ry": -40,
+      "b": 68.41,
+      "g": 1,
+      "hx": 675,
+      "hy": 15,
+      "hd": 78,
+      "ft": 118
+    },
+    "CHAT": {
+      "s": 77.54,
+      "t": 77.54,
+      "rx": 30,
+      "ry": -42,
+      "b": 77.54,
+      "g": 1,
+      "hx": 675,
+      "hy": 15,
+      "hd": 80,
+      "ft": 118,
+      "ed": -1
+    },
+    "UPDOG": {
+      "s": 82.55,
+      "t": 82.55,
+      "rx": 60,
+      "ry": -10,
+      "b": 30,
+      "g": 1,
+      "hx": 675,
+      "hy": 15,
+      "hd": -6,
+      "ft": 176
+    },
+    "KNEEL": {
+      "hip": [
+        200,
+        -110
+      ],
+      "s": 90,
+      "t": -60,
+      "s2": 90,
+      "t2": -60,
+      "ft": 172,
+      "ft2": 172,
+      "b": 40,
+      "hd": 40,
+      "g": 1,
+      "hx": 675,
+      "hy": 15
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "YOGA",
+        "PUSH-UP"
+      ],
+      "vo": "Yoga Push-Up: perro boca abajo, flexión y perro boca arriba, en una sola secuencia fluida.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "DOWNDOG",
+              0.9
+            ],
+            [
+              "PLANK",
+              0.7
+            ],
+            [
+              "CHAT",
+              0.7
+            ],
+            [
+              "UPDOG",
+              0.9
+            ],
+            [
+              "DOWNDOG",
+              1.0
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "V INVERTIDA"
+      ],
+      "sub": "Downward dog",
+      "vo": "Arrancá en V invertida: manos y pies en el piso, la cadera bien arriba y los brazos estirados.",
+      "moves": [
+        {
+          "cut": "DOWNDOG",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            482.7,
+            1170.2
+          ],
+          "r": 50,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            482.7,
+            1039.0
+          ],
+          "text": "CADERA ARRIBA",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "ADELANTE",
+        "EN ARCO"
+      ],
+      "sub": "Hasta la plancha",
+      "vo": "Paso uno. Llevá el cuerpo hacia adelante en un arco, pasando por la plancha, con el core activo.",
+      "moves": [
+        {
+          "to": "PLANK",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            745.1,
+            1219.4
+          ],
+          "bend": [
+            0,
+            -80
+          ],
+          "at": 0.6,
+          "dur": 1.0,
+          "from": [
+            449.9,
+            1088.2
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            618.0,
+            995.6
+          ],
+          "text": "CORE ACTIVO",
+          "anchor": "middle",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "PECHO",
+        "ABAJO"
+      ],
+      "sub": "Codos pegados",
+      "vo": "Paso dos. Bajá el pecho entre las manos, con los codos rozando el cuerpo, como en una chaturanga.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        },
+        {
+          "to": "CHAT",
+          "at": 0.6,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            810.7,
+            1381.0
+          ],
+          "r": 50,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            810.7,
+            1159.6
+          ],
+          "text": "CODOS PEGADOS",
+          "anchor": "middle",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "PERRO",
+        "BOCA ARRIBA"
+      ],
+      "sub": "Upward dog",
+      "vo": "Paso tres. Estirá los brazos y abrí el pecho: cadera y piernas despegadas del piso.",
+      "moves": [
+        {
+          "cut": "CHAT",
+          "at": 0
+        },
+        {
+          "to": "UPDOG",
+          "at": 0.6,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "color": "ink",
+          "width": 6,
+          "to": [
+            770.5,
+            1520.4
+          ],
+          "at": 1.8,
+          "from": [
+            475.3,
+            1520.4
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            590.1,
+            1315.4
+          ],
+          "text": "PIERNAS DESPEGADAS",
+          "anchor": "middle",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "VOLVÉ",
+        "A LA V"
+      ],
+      "sub": "Y repetí",
+      "vo": "Paso cuatro. Empujá la cadera hacia atrás y arriba hasta volver a la V invertida.",
+      "moves": [
+        {
+          "cut": "UPDOG",
+          "at": 0
+        },
+        {
+          "to": "DOWNDOG",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            482.7,
+            1088.2
+          ],
+          "bend": [
+            40,
+            -120
+          ],
+          "at": 0.6,
+          "dur": 1.2,
+          "from": [
+            721.3,
+            1380.2
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 1,
+      "keys": [
+        "Secuencia fluida",
+        "Codos rozando el cuerpo",
+        "Cadera despegada arriba",
+        "Core activo siempre"
+      ],
+      "vo": "Claves: movimiento fluido, codos pegados al bajar, cadera y piernas despegadas arriba y el core siempre activo.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "DOWNDOG",
+              0.9
+            ],
+            [
+              "PLANK",
+              0.7
+            ],
+            [
+              "CHAT",
+              0.7
+            ],
+            [
+              "UPDOG",
+              0.9
+            ],
+            [
+              "DOWNDOG",
+              1.0
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "A tu ritmo, sin cortar",
+      "vo": "Treinta segundos a tu ritmo, sin cortar la secuencia. Una gran entrada en calor para todo el cuerpo.",
+      "chips": [
+        {
+          "label": "1 · V",
+          "at": 0.4
+        },
+        {
+          "label": "2 · ABAJO",
+          "at": 1.6
+        },
+        {
+          "label": "3 · ARRIBA",
+          "at": 2.7
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "DOWNDOG",
+              0.9
+            ],
+            [
+              "PLANK",
+              0.7
+            ],
+            [
+              "CHAT",
+              0.7
+            ],
+            [
+              "UPDOG",
+              0.9
+            ],
+            [
+              "DOWNDOG",
+              1.0
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UPDOG",
+    "grip": 1,
+    "zoom": 1.0,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Yoga Push-Up 🧘 De la V invertida al perro boca arriba | CrossFit",
+    "tags": [
+      "yoga push up",
+      "yoga pushup",
+      "flexión yoga",
+      "downward dog",
+      "upward dog",
+      "chaturanga",
+      "perro boca abajo",
+      "entrada en calor",
+      "crossfit",
+      "movilidad",
+      "pecho",
+      "hombros"
+    ],
+    "descripcion": "🧘 YOGA PUSH-UP — Tres posturas de yoga en una flexión fluida para entrar en calor\n\n¿Querés despertar hombros, pecho y toda la cadena posterior en un solo movimiento antes del WOD? Esta secuencia lo hace todo. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Arrancá en V invertida (downward dog): manos y pies en el piso, la cadera bien arriba y los brazos estirados.\n2️⃣ Llevá el cuerpo hacia adelante en un arco, pasando por la plancha, con el core activo.\n3️⃣ Bajá el pecho entre las manos, con los codos rozando el cuerpo, como en una chaturanga.\n4️⃣ Estirá los brazos y abrí el pecho (upward dog): cadera y piernas despegadas del piso.\n5️⃣ Empujá la cadera hacia atrás y arriba hasta volver a la V invertida.\n\n✅ CLAVES DE TÉCNICA\n• Una secuencia fluida, sin cortes\n• En la chaturanga los codos rozan el cuerpo\n• En el upward dog cadera y piernas despegadas del piso\n• Core activo en todo momento\n\n🎯 QUÉ TRABAJA\nPectoral mayor · Deltoides anterior · Recto abdominal · Tríceps braquial\n\n⏱️ CUÁNTO\n30 segundos a tu ritmo. Va en la entrada en calor.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi te molesta la espalda baja en el perro boca arriba, abrí menos el pecho y dejá las rodillas apoyadas.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #YogaPushUp #Movilidad #Entrenamiento"
+  }
+}

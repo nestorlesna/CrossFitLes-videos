@@ -10,6 +10,9 @@
  * (see PROPS below); C.cuts hides the athlete briefly to jump between unrelated poses; C.floorScroll moves the floor.
  * g2 (≥ 0) gives the far arm its own grip blend toward (hx2, hy2) with elbow side ed2 (-1 = follow g): one hand holds, the other is free.
  * wr/wr2: wrist angle (deg, added to the forearm direction); the fingers are drawn only when C.fingers (wrist stretches).
+ * cv: spine curve (px): + rounds the back (cat, scapular protraction), − lets it sag (cow). fx: facing (1 right, −1 left;
+ * tweening through 0 reads as a pivot turn, flipped around the hip — props in the rig flip too). dh: dumbbell hand
+ * (0 near, 1 far). pz: floor-bar depth (0 = bar behind the athlete, 1 = in front: lateral jump over the bar).
  */
 (function () {
   const C = window.__EX_CONFIG;
@@ -18,7 +21,7 @@
 
   const L = { shin: 230, thigh: 240, torso: 280, neck: 32, upper: 172, fore: 160 };
   const FAR = { dx: -22, dy: -4 };
-  const KEYS = ["s", "t", "b", "hd", "ua", "fa", "s2", "t2", "ua2", "fa2", "rx", "ry", "ft", "ft2", "hx", "hy", "ed", "g", "lr", "al", "hb", "bf", "bx", "by", "g2", "hx2", "hy2", "ed2", "wr", "wr2"];
+  const KEYS = ["s", "t", "b", "hd", "ua", "fa", "s2", "t2", "ua2", "fa2", "rx", "ry", "ft", "ft2", "hx", "hy", "ed", "g", "lr", "al", "hb", "bf", "bx", "by", "g2", "hx2", "hy2", "ed2", "wr", "wr2", "cv", "fx", "dh", "pz"];
   const P = C.poses;
 
   const rad = (d) => (d * Math.PI) / 180;
@@ -69,7 +72,7 @@
   }
 
   // ── SVG build ───────────────────────────────────────────────────────────────
-  const rig = $("rig");
+  const rig = $("rig"), RIG0 = rig.getAttribute("transform");
   function el(tag, attrs, parent) {
     const n = document.createElementNS(NS, tag);
     for (const k in attrs) n.setAttribute(k, attrs[k]);
@@ -132,12 +135,12 @@
       propUpdates.handleNode = handle; // re-appended after the near arm so it sits in the hands
     }
     if (pr.type === "kettlebell") {
-      const off = pr.off || [0, 0], kb = el("g", {}, propMid);
+      const farK = pr.hand === "far", off = pr.off || [0, 0], kb = el("g", {}, farK ? propBack : propMid);
       el("path", { d: "M -30 44 L -30 6 C -30 -26 30 -26 30 6 L 30 44", fill: "none", stroke: "#2B2B2B", "stroke-width": 15, "stroke-linecap": "round" }, kb);
       el("circle", { cx: 0, cy: 82, r: 54, fill: "#2B2B2B" }, kb);
       el("path", { d: "M -40 60 A 44 44 0 0 1 -6 36", fill: "none", stroke: "#5A5A5A", "stroke-width": 8, "stroke-linecap": "round" }, kb);
       el("rect", { x: -22, y: 70, width: 44, height: 24, rx: 5, fill: ACCENT }, kb);
-      propUpdates.push((n) => kb.setAttribute("transform", `translate(${f2(n.W.x + off[0])},${f2(n.W.y + off[1])})`));
+      propUpdates.push((n, f) => { const w = farK ? f.W : n.W; kb.setAttribute("transform", `translate(${f2(w.x + off[0])},${f2(w.y + off[1])})`); });
     }
     if (pr.type === "barbell") {
       const off = pr.off || [0, 0], r = pr.r || 84;
@@ -199,6 +202,46 @@
       el("circle", { cx: bx, cy: by, r: 22, fill: METAL_D }, propFront); // bar end-on, over the hands
       el("circle", { cx: bx, cy: by, r: 10, fill: "#8A8F99" }, propFront);
     }
+    if (pr.type === "dumbbell") {
+      // Mancuerna vista de punta (manija hacia la cámara) en la mano que diga dh: 0 cercana (bajo el brazo cercano), 1 lejana (atrás).
+      const off = pr.off || [0, 0], r = pr.r || 42;
+      const make = (parent, d) => {
+        const g = el("g", {}, parent), hex = [];
+        for (let i = 0; i < 6; i++) hex.push(`${(Math.cos(rad(30 + i * 60)) * r).toFixed(2)},${(Math.sin(rad(30 + i * 60)) * r).toFixed(2)}`);
+        el("polygon", { points: hex.join(" "), fill: d ? "#1F1F1F" : "#2B2B2B" }, g);
+        el("circle", { r: r * 0.62, fill: "none", stroke: ACCENT, "stroke-width": 6 }, g);
+        el("circle", { r: r * 0.26, fill: "#8A8F99" }, g);
+        return g;
+      };
+      const farD = make(propBack, true), nearD = make(propMid, false);
+      propUpdates.push((n, f, st) => {
+        const k = st.dh || 0, h = lerp(n.W, f.W, k), w = lerp({ x: h.x + off[0], y: h.y + off[1] }, { x: st.bx, y: st.by }, st.bf || 0);
+        const tr = `translate(${f2(w.x)},${f2(w.y)})`; // bf: 1 = suelta en el piso en (bx, by)
+        farD.setAttribute("transform", tr); nearD.setAttribute("transform", tr);
+        farD.setAttribute("opacity", k >= 0.5 ? 1 : 0); nearD.setAttribute("opacity", k >= 0.5 ? 0 : 1);
+      });
+    }
+    if (pr.type === "floorbar") {
+      // Barra olímpica en el piso, paralela al cuerpo (de costado se ve larga, discos de canto). pz elige si queda
+      // detrás (0) o delante (1) del atleta: el salto lateral por encima se lee con el cambio de profundidad.
+      const x0 = pr.x0 ?? -900, x1 = pr.x1 ?? 300, r = pr.r || 105, cy = 34 - r;
+      const make = (parent, d) => {
+        const g = el("g", {}, parent);
+        el("rect", { x: x0, y: cy - 8, width: x1 - x0, height: 16, rx: 8, fill: d ? "#8A8F99" : "#A4A8B0" }, g);
+        [x0 + 70, x1 - 70].forEach((px, i) => {
+          const sg = i ? 1 : -1;
+          el("rect", { x: px - 22 - (sg < 0 ? 0 : 0), y: cy - r, width: 44, height: 2 * r, rx: 10, fill: d ? PLATE_D : PLATE }, g);
+          el("rect", { x: px - 22 + sg * 48, y: cy - r * 0.8, width: 30, height: 1.6 * r, rx: 8, fill: d ? "#4A4D53" : PLATE_D }, g);
+        });
+        return g;
+      };
+      const back = make(propBack, true), front = make(propFront, false);
+      back.setAttribute("transform", "translate(0,-16)"); front.setAttribute("transform", "translate(0,14)"); // lejos más arriba, cerca más abajo
+      propUpdates.push((n, f, st) => {
+        const k = st.pz || 0;
+        back.setAttribute("opacity", k >= 0.5 ? 0 : 1); front.setAttribute("opacity", k >= 0.5 ? 1 : 0);
+      });
+    }
     if (pr.type === "wallball") {
       const off = pr.off || [0, 0], r = pr.r || 62, wx = pr.wallX ?? 520, ty = pr.target ?? -1300;
       const wall = el("g", { class: "prop-scenery" }, propBack); // se atenúa en la escena de claves (la lista la cruza)
@@ -221,7 +264,7 @@
     shin: line(COL.skinFar, 44), thigh: line(COL.skinFar, 56), shorts: line(COL.shortsFar, 68), shoe: shoe(COL.shoeFar),
   };
   const hip = el("circle", { r: 46, fill: COL.shorts });
-  const torso = line(COL.shirt, 100);
+  const torso = el("path", { fill: "none", stroke: COL.shirt, "stroke-width": 100, "stroke-linecap": "round" });
   const near = { shin: line(COL.skin, 46), thigh: line(COL.skin, 58), shorts: line(COL.shorts, 70), shoe: shoe(COL.shoe) };
   const neck = line(COL.skin, 36);
   const head = el("g", {});
@@ -247,13 +290,19 @@
     setL(far.upper, f.S, f.E); setL(far.fore, f.E, f.W); setC(far.hand, f.W);
     setL(far.shin, f.A, f.K); setL(far.thigh, f.K, f.H); setL(far.shorts, f.H, lerp(f.H, f.K, 0.5)); place(far.shoe, f.A, state.ft2);
     setC(hip, n.H);
-    setL(torso, add(n.H, up(state.b, 14)), add(n.S, up(state.b, -26)));
+    {
+      const a = add(n.H, up(state.b, 14)), b = add(n.S, up(state.b, -26)), u = up(state.b, 1), cv = (state.cv || 0) * 2;
+      const c = { x: (a.x + b.x) / 2 + u.y * cv, y: (a.y + b.y) / 2 - u.x * cv }; // control point toward the back side
+      torso.setAttribute("d", `M ${f2(a.x)} ${f2(a.y)} Q ${f2(c.x)} ${f2(c.y)} ${f2(b.x)} ${f2(b.y)}`);
+    }
     setL(near.shin, n.A, n.K); setL(near.thigh, n.K, n.H); setL(near.shorts, n.H, lerp(n.H, n.K, 0.5)); place(near.shoe, n.A, state.ft);
     setL(neck, n.S, n.N);
     place(head, n.N, state.hd);
     setL(nearArm.upper, n.S, n.E); setL(nearArm.fore, n.E, n.W); setC(nearArm.hand, n.W);
     if (C.fingers) { setL(far.fingers, f.W, f.F); setL(nearArm.fingers, n.W, n.F); }
     propUpdates.forEach((u) => u(n, f, state));
+    const fx = state.fx ?? 1;
+    rig.setAttribute("transform", fx === 1 ? RIG0 : `${RIG0} translate(${f2(n.H.x)},0) scale(${f2(fx)},1) translate(${f2(-n.H.x)},0)`);
   }
   // Function-valued props: GSAP calls proxy.k(v) on every render (seek-safe, no callbacks).
   const proxy = {};
@@ -361,6 +410,15 @@
       // Tarjeta "vista de arriba" (torsión acostado): las piernas giran hacia un lado con los hombros fijos.
       const tv = f.topview;
       fadeIn(`#topcard-${f.id}`, f.start + 0.4, { x: 60 }, { x: 0 });
+      if (tv.mode === "bar") {
+        // Burpee lateral: el atleta (visto de arriba) pasa de un lado al otro de la barra.
+        const body = `#tvlegs-${f.id}`;
+        tl.set(body, { x: -62 * tv.from }, f.start);
+        if (tv.at != null) tl.to(body, { x: 62 * tv.from, duration: tv.dur, ease: "power2.inOut" }, f.start + tv.at);
+        if (tv.back != null) tl.to(body, { x: -62 * tv.from, duration: tv.dur, ease: "power2.inOut" }, f.start + tv.back);
+        tl.to(`#topcard-${f.id}`, { opacity: 0, duration: 0.3 }, f.start + f.dur - 0.35);
+        return;
+      }
       if (tv.mode === "9090") {
         // 90/90: las piernas se espejan (pasan por "rodillas arriba" en scaleX 0) = cambio de lado tipo limpiaparabrisas.
         const legs = `#tvlegs-${f.id}`, o = "140 160";

@@ -1,0 +1,1469 @@
+{
+  "slug": "shuttle-run",
+  "name": "Shuttle Run",
+  "category": "CROSSFIT · CARDIO",
+  "tags": [
+    "Piernas",
+    "Glúteos",
+    "Cardio"
+  ],
+  "descripcion": "Carrera de ida y vuelta entre dos puntos (típicamente 5–10 m). Alta aceleración y desaceleración.",
+  "revisado": false,
+  "notas": "Primer video con giro del personaje (clave fx): corre de verdad entre dos líneas.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 540,
+    "y": 1513,
+    "scale": 0.55
+  },
+  "shadow": false,
+  "pronuncia": {
+    "Shuttle Run": "Shátol ran"
+  },
+  "initialPose": "START",
+  "poses": {
+    "START": {
+      "s": 24,
+      "t": -52,
+      "s2": 58,
+      "t2": 36,
+      "b": 38,
+      "hd": 26,
+      "ua": -50,
+      "fa": 90,
+      "ua2": 50,
+      "fa2": 80,
+      "ft2": 40,
+      "hip": [
+        -579,
+        -380
+      ],
+      "fx": 1,
+      "g": 0
+    },
+    "START_R": {
+      "s": 24,
+      "t": -52,
+      "s2": 58,
+      "t2": 36,
+      "b": 38,
+      "hd": 26,
+      "ua": -50,
+      "fa": 90,
+      "ua2": 50,
+      "fa2": 80,
+      "ft2": 40,
+      "hip": [
+        579,
+        -380
+      ],
+      "fx": -1,
+      "g": 0
+    },
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 6,
+      "fa": 6,
+      "hip": [
+        -589,
+        -470
+      ],
+      "fx": 1,
+      "g": 0
+    },
+    "RR1": {
+      "s": 12,
+      "t": -62,
+      "s2": 52,
+      "t2": 28,
+      "b": 16,
+      "hd": 6,
+      "ua": -42,
+      "fa": 95,
+      "ua2": 40,
+      "fa2": 82,
+      "ft": -8,
+      "ft2": 40,
+      "hip": [
+        -400,
+        -415
+      ],
+      "fx": 1,
+      "g": 0
+    },
+    "RR2": {
+      "s": 52,
+      "t": 28,
+      "s2": 12,
+      "t2": -62,
+      "b": 16,
+      "hd": 6,
+      "ua": 40,
+      "fa": 82,
+      "ua2": -42,
+      "fa2": 95,
+      "ft": 40,
+      "ft2": -8,
+      "hip": [
+        -240,
+        -415
+      ],
+      "fx": 1,
+      "g": 0
+    },
+    "RR3": {
+      "s": 12,
+      "t": -62,
+      "s2": 52,
+      "t2": 28,
+      "b": 16,
+      "hd": 6,
+      "ua": -42,
+      "fa": 95,
+      "ua2": 40,
+      "fa2": 82,
+      "ft": -8,
+      "ft2": 40,
+      "hip": [
+        -80,
+        -415
+      ],
+      "fx": 1,
+      "g": 0
+    },
+    "RR4": {
+      "s": 52,
+      "t": 28,
+      "s2": 12,
+      "t2": -62,
+      "b": 16,
+      "hd": 6,
+      "ua": 40,
+      "fa": 82,
+      "ua2": -42,
+      "fa2": 95,
+      "ft": 40,
+      "ft2": -8,
+      "hip": [
+        80,
+        -415
+      ],
+      "fx": 1,
+      "g": 0
+    },
+    "RR5": {
+      "s": 12,
+      "t": -62,
+      "s2": 52,
+      "t2": 28,
+      "b": 16,
+      "hd": 6,
+      "ua": -42,
+      "fa": 95,
+      "ua2": 40,
+      "fa2": 82,
+      "ft": -8,
+      "ft2": 40,
+      "hip": [
+        240,
+        -415
+      ],
+      "fx": 1,
+      "g": 0
+    },
+    "RR6": {
+      "s": 52,
+      "t": 28,
+      "s2": 12,
+      "t2": -62,
+      "b": 16,
+      "hd": 6,
+      "ua": 40,
+      "fa": 82,
+      "ua2": -42,
+      "fa2": 95,
+      "ft": 40,
+      "ft2": -8,
+      "hip": [
+        380,
+        -415
+      ],
+      "fx": 1,
+      "g": 0
+    },
+    "DR1": {
+      "s": -18,
+      "t": -40,
+      "s2": 40,
+      "t2": 20,
+      "b": -4,
+      "hd": 0,
+      "ua": 30,
+      "fa": 80,
+      "ua2": -20,
+      "fa2": 90,
+      "ft2": 30,
+      "hip": [
+        440,
+        -440
+      ],
+      "fx": 1,
+      "g": 0
+    },
+    "DR2": {
+      "s": 40,
+      "t": 20,
+      "s2": -18,
+      "t2": -40,
+      "b": -4,
+      "hd": 0,
+      "ua": -20,
+      "fa": 80,
+      "ua2": 30,
+      "fa2": 90,
+      "ft2": 30,
+      "hip": [
+        480,
+        -420
+      ],
+      "fx": 1,
+      "g": 0
+    },
+    "TR": {
+      "s2": 80,
+      "t2": 46,
+      "ft2": 150,
+      "b": 68,
+      "hd": 44,
+      "ua2": -30,
+      "fa2": 40,
+      "hip": [
+        510,
+        -200
+      ],
+      "fx": 1,
+      "ankle": [
+        610,
+        0
+      ],
+      "g": 1,
+      "hx": 710,
+      "hy": 15
+    },
+    "CR": {
+      "s": 28,
+      "t": -64,
+      "b": 40,
+      "hd": 24,
+      "ua": -30,
+      "fa": 80,
+      "ua2": 30,
+      "fa2": 80,
+      "hip": [
+        510,
+        -330
+      ],
+      "fx": 1,
+      "g": 0
+    },
+    "CRX": {
+      "s": 28,
+      "t": -64,
+      "b": 40,
+      "hd": 24,
+      "ua": -30,
+      "fa": 80,
+      "ua2": 30,
+      "fa2": 80,
+      "hip": [
+        510,
+        -330
+      ],
+      "fx": -1,
+      "g": 0
+    },
+    "RL1": {
+      "s": 12,
+      "t": -62,
+      "s2": 52,
+      "t2": 28,
+      "b": 16,
+      "hd": 6,
+      "ua": -42,
+      "fa": 95,
+      "ua2": 40,
+      "fa2": 82,
+      "ft": -8,
+      "ft2": 40,
+      "hip": [
+        400,
+        -415
+      ],
+      "fx": -1,
+      "g": 0
+    },
+    "RL2": {
+      "s": 52,
+      "t": 28,
+      "s2": 12,
+      "t2": -62,
+      "b": 16,
+      "hd": 6,
+      "ua": 40,
+      "fa": 82,
+      "ua2": -42,
+      "fa2": 95,
+      "ft": 40,
+      "ft2": -8,
+      "hip": [
+        240,
+        -415
+      ],
+      "fx": -1,
+      "g": 0
+    },
+    "RL3": {
+      "s": 12,
+      "t": -62,
+      "s2": 52,
+      "t2": 28,
+      "b": 16,
+      "hd": 6,
+      "ua": -42,
+      "fa": 95,
+      "ua2": 40,
+      "fa2": 82,
+      "ft": -8,
+      "ft2": 40,
+      "hip": [
+        80,
+        -415
+      ],
+      "fx": -1,
+      "g": 0
+    },
+    "RL4": {
+      "s": 52,
+      "t": 28,
+      "s2": 12,
+      "t2": -62,
+      "b": 16,
+      "hd": 6,
+      "ua": 40,
+      "fa": 82,
+      "ua2": -42,
+      "fa2": 95,
+      "ft": 40,
+      "ft2": -8,
+      "hip": [
+        -80,
+        -415
+      ],
+      "fx": -1,
+      "g": 0
+    },
+    "RL5": {
+      "s": 12,
+      "t": -62,
+      "s2": 52,
+      "t2": 28,
+      "b": 16,
+      "hd": 6,
+      "ua": -42,
+      "fa": 95,
+      "ua2": 40,
+      "fa2": 82,
+      "ft": -8,
+      "ft2": 40,
+      "hip": [
+        -240,
+        -415
+      ],
+      "fx": -1,
+      "g": 0
+    },
+    "RL6": {
+      "s": 52,
+      "t": 28,
+      "s2": 12,
+      "t2": -62,
+      "b": 16,
+      "hd": 6,
+      "ua": 40,
+      "fa": 82,
+      "ua2": -42,
+      "fa2": 95,
+      "ft": 40,
+      "ft2": -8,
+      "hip": [
+        -380,
+        -415
+      ],
+      "fx": -1,
+      "g": 0
+    },
+    "DL1": {
+      "s": -18,
+      "t": -40,
+      "s2": 40,
+      "t2": 20,
+      "b": -4,
+      "hd": 0,
+      "ua": 30,
+      "fa": 80,
+      "ua2": -20,
+      "fa2": 90,
+      "ft2": 30,
+      "hip": [
+        -440,
+        -440
+      ],
+      "fx": -1,
+      "g": 0
+    },
+    "DL2": {
+      "s": 40,
+      "t": 20,
+      "s2": -18,
+      "t2": -40,
+      "b": -4,
+      "hd": 0,
+      "ua": -20,
+      "fa": 80,
+      "ua2": 30,
+      "fa2": 90,
+      "ft2": 30,
+      "hip": [
+        -480,
+        -420
+      ],
+      "fx": -1,
+      "g": 0
+    },
+    "TL": {
+      "s2": 80,
+      "t2": 46,
+      "ft2": 150,
+      "b": 68,
+      "hd": 44,
+      "ua2": -30,
+      "fa2": 40,
+      "hip": [
+        -510,
+        -200
+      ],
+      "fx": -1,
+      "ankle": [
+        -410,
+        0
+      ],
+      "g": 1,
+      "hx": -310,
+      "hy": 15
+    },
+    "CL": {
+      "s": 28,
+      "t": -64,
+      "b": 40,
+      "hd": 24,
+      "ua": -30,
+      "fa": 80,
+      "ua2": 30,
+      "fa2": 80,
+      "hip": [
+        -510,
+        -330
+      ],
+      "fx": -1,
+      "g": 0
+    },
+    "CLX": {
+      "s": 28,
+      "t": -64,
+      "b": 40,
+      "hd": 24,
+      "ua": -30,
+      "fa": 80,
+      "ua2": 30,
+      "fa2": 80,
+      "hip": [
+        -510,
+        -330
+      ],
+      "fx": 1,
+      "g": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 6.0,
+      "badge": "CROSSFIT · CARDIO",
+      "head": [
+        "SHUTTLE RUN"
+      ],
+      "vo": "Shuttle Run: carrera de ida y vuelta entre dos líneas. Acelerar, frenar y volver a salir.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "RR1",
+          "at": 0.4,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RR2",
+          "at": 0.67,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RR3",
+          "at": 0.94,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RR4",
+          "at": 1.21,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RR5",
+          "at": 1.48,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RR6",
+          "at": 1.75,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "DR1",
+          "at": 2.02,
+          "dur": 0.24,
+          "ease": "power1.out"
+        },
+        {
+          "to": "DR2",
+          "at": 2.26,
+          "dur": 0.22,
+          "ease": "power1.out"
+        },
+        {
+          "to": "TR",
+          "at": 2.48,
+          "dur": 0.3,
+          "ease": "power2.out"
+        },
+        {
+          "to": "CR",
+          "at": 3.02,
+          "dur": 0.2
+        },
+        {
+          "to": "CRX",
+          "at": 3.2199999999999998,
+          "dur": 0.3
+        },
+        {
+          "to": "RL1",
+          "at": 3.52,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RL2",
+          "at": 3.79,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RL3",
+          "at": 4.06,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RL4",
+          "at": 4.33,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RL5",
+          "at": 4.6,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RL6",
+          "at": 4.87,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "DL1",
+          "at": 5.140000000000001,
+          "dur": 0.24,
+          "ease": "power1.out"
+        },
+        {
+          "to": "DL2",
+          "at": 5.380000000000001,
+          "dur": 0.22,
+          "ease": "power1.out"
+        },
+        {
+          "to": "TL",
+          "at": 5.6000000000000005,
+          "dur": 0.3,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": [
+            150,
+            1560
+          ],
+          "solid": true,
+          "width": 10,
+          "at": 0.2,
+          "from": [
+            150,
+            1470
+          ]
+        },
+        {
+          "type": "line",
+          "to": [
+            930,
+            1560
+          ],
+          "solid": true,
+          "width": 10,
+          "at": 0.2,
+          "from": [
+            930,
+            1470
+          ]
+        }
+      ]
+    },
+    {
+      "min": 4.8,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DETRÁS",
+        "DE LA LÍNEA"
+      ],
+      "sub": "Entre 5 y 10 metros",
+      "vo": "Marcá dos líneas a cinco o diez metros. Arrancá detrás de una, listo para salir.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": [
+            150,
+            1560
+          ],
+          "solid": true,
+          "width": 10,
+          "at": 0.2,
+          "from": [
+            150,
+            1470
+          ]
+        },
+        {
+          "type": "line",
+          "to": [
+            930,
+            1560
+          ],
+          "solid": true,
+          "width": 10,
+          "at": 0.2,
+          "from": [
+            930,
+            1470
+          ]
+        },
+        {
+          "type": "arrow",
+          "to": [
+            870,
+            1300
+          ],
+          "at": 1.0,
+          "dur": 1.0,
+          "from": [
+            210,
+            1300
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1260
+          ],
+          "text": "5 A 10 M",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "ZANCADA",
+        "LARGA"
+      ],
+      "sub": "Para acelerar",
+      "vo": "Paso uno. Salí con zancadas largas y potentes para acelerar lo más rápido posible.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "RR1",
+          "at": 0.5,
+          "dur": 0.3,
+          "ease": "none"
+        },
+        {
+          "to": "RR2",
+          "at": 0.8,
+          "dur": 0.3,
+          "ease": "none"
+        },
+        {
+          "to": "RR3",
+          "at": 1.1,
+          "dur": 0.3,
+          "ease": "none"
+        },
+        {
+          "to": "RR4",
+          "at": 1.4,
+          "dur": 0.3,
+          "ease": "none"
+        },
+        {
+          "to": "RR5",
+          "at": 1.7,
+          "dur": 0.3,
+          "ease": "none"
+        },
+        {
+          "to": "RR6",
+          "at": 2.0,
+          "dur": 0.3,
+          "ease": "none"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": [
+            150,
+            1560
+          ],
+          "solid": true,
+          "width": 10,
+          "at": 0.2,
+          "from": [
+            150,
+            1470
+          ]
+        },
+        {
+          "type": "line",
+          "to": [
+            930,
+            1560
+          ],
+          "solid": true,
+          "width": 10,
+          "at": 0.2,
+          "from": [
+            930,
+            1470
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            900
+          ],
+          "text": "ZANCADA LARGA",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "PASOS",
+        "CORTOS"
+      ],
+      "sub": "Para frenar",
+      "vo": "Paso dos. Cerca de la línea, frená con pasos cortos y bajá la cadera.",
+      "moves": [
+        {
+          "cut": "RR5",
+          "at": 0
+        },
+        {
+          "to": "RR6",
+          "at": 0.3,
+          "dur": 0.3,
+          "ease": "none"
+        },
+        {
+          "to": "DR1",
+          "at": 0.6,
+          "dur": 0.24,
+          "ease": "power1.out"
+        },
+        {
+          "to": "DR2",
+          "at": 0.84,
+          "dur": 0.22,
+          "ease": "power1.out"
+        },
+        {
+          "to": "TR",
+          "at": 1.06,
+          "dur": 0.3,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": [
+            150,
+            1560
+          ],
+          "solid": true,
+          "width": 10,
+          "at": 0.2,
+          "from": [
+            150,
+            1470
+          ]
+        },
+        {
+          "type": "line",
+          "to": [
+            930,
+            1560
+          ],
+          "solid": true,
+          "width": 10,
+          "at": 0.2,
+          "from": [
+            930,
+            1470
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            700,
+            1120
+          ],
+          "text": "BAJÁ LA CADERA",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "TOCÁ",
+        "LA LÍNEA"
+      ],
+      "sub": "Con la mano",
+      "vo": "Paso tres. Tocá la línea con la mano, bien abajo, antes de cambiar de sentido.",
+      "moves": [
+        {
+          "cut": "TR",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": [
+            150,
+            1560
+          ],
+          "solid": true,
+          "width": 10,
+          "at": 0.2,
+          "from": [
+            150,
+            1470
+          ]
+        },
+        {
+          "type": "line",
+          "to": [
+            930,
+            1560
+          ],
+          "solid": true,
+          "width": 10,
+          "at": 0.2,
+          "from": [
+            930,
+            1470
+          ]
+        },
+        {
+          "type": "ring",
+          "pos": [
+            930.0,
+            1521.2
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            880,
+            1300
+          ],
+          "text": "MANO EN LA LÍNEA",
+          "anchor": "end",
+          "at": 1.1
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "GIRÁ",
+        "Y SALÍ"
+      ],
+      "sub": "Explosivo",
+      "vo": "Paso cuatro. Girá sobre los pies y volvé a salir explosivo hacia la otra línea.",
+      "moves": [
+        {
+          "cut": "TR",
+          "at": 0
+        },
+        {
+          "to": "CR",
+          "at": 0.5,
+          "dur": 0.25
+        },
+        {
+          "to": "CRX",
+          "at": 0.75,
+          "dur": 0.35
+        },
+        {
+          "to": "RL1",
+          "at": 1.1,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RL2",
+          "at": 1.37,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RL3",
+          "at": 1.64,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RL4",
+          "at": 1.91,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RL5",
+          "at": 2.18,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RL6",
+          "at": 2.45,
+          "dur": 0.27,
+          "ease": "none"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": [
+            150,
+            1560
+          ],
+          "solid": true,
+          "width": 10,
+          "at": 0.2,
+          "from": [
+            150,
+            1470
+          ]
+        },
+        {
+          "type": "line",
+          "to": [
+            930,
+            1560
+          ],
+          "solid": true,
+          "width": 10,
+          "at": 0.2,
+          "from": [
+            930,
+            1470
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            900
+          ],
+          "text": "SALÍ EXPLOSIVO",
+          "anchor": "middle",
+          "at": 1.3
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 1,
+      "keys": [
+        "Zancada larga al acelerar",
+        "Pasos cortos al frenar",
+        "Cadera baja en el giro",
+        "Tocá la línea con la mano"
+      ],
+      "vo": "Claves: zancada larga al acelerar, pasos cortos al frenar, cadera baja en el giro y la mano en la línea.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "RR1",
+          "at": 0.3,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RR2",
+          "at": 0.57,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RR3",
+          "at": 0.84,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RR4",
+          "at": 1.11,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RR5",
+          "at": 1.38,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RR6",
+          "at": 1.65,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "DR1",
+          "at": 1.9200000000000002,
+          "dur": 0.24,
+          "ease": "power1.out"
+        },
+        {
+          "to": "DR2",
+          "at": 2.16,
+          "dur": 0.22,
+          "ease": "power1.out"
+        },
+        {
+          "to": "TR",
+          "at": 2.3800000000000003,
+          "dur": 0.3,
+          "ease": "power2.out"
+        },
+        {
+          "to": "CR",
+          "at": 2.92,
+          "dur": 0.2
+        },
+        {
+          "to": "CRX",
+          "at": 3.12,
+          "dur": 0.3
+        },
+        {
+          "to": "RL1",
+          "at": 3.42,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RL2",
+          "at": 3.69,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RL3",
+          "at": 3.96,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RL4",
+          "at": 4.23,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RL5",
+          "at": 4.5,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RL6",
+          "at": 4.77,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "DL1",
+          "at": 5.04,
+          "dur": 0.24,
+          "ease": "power1.out"
+        },
+        {
+          "to": "DL2",
+          "at": 5.28,
+          "dur": 0.22,
+          "ease": "power1.out"
+        },
+        {
+          "to": "TL",
+          "at": 5.5,
+          "dur": 0.3,
+          "ease": "power2.out"
+        },
+        {
+          "to": "CL",
+          "at": 6.04,
+          "dur": 0.2
+        },
+        {
+          "to": "CLX",
+          "at": 6.24,
+          "dur": 0.3
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": [
+            150,
+            1560
+          ],
+          "solid": true,
+          "width": 10,
+          "at": 0.2,
+          "from": [
+            150,
+            1470
+          ]
+        },
+        {
+          "type": "line",
+          "to": [
+            930,
+            1560
+          ],
+          "solid": true,
+          "width": 10,
+          "at": 0.2,
+          "from": [
+            930,
+            1470
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Ida y vuelta = 1",
+      "vo": "Diez repeticiones de ida y vuelta. Sirve para la entrada en calor o como parte del WOD.",
+      "chips": [
+        {
+          "label": "1 · IDA",
+          "at": 0.4
+        },
+        {
+          "label": "2 · GIRO",
+          "at": 2.3
+        },
+        {
+          "label": "3 · VUELTA",
+          "at": 3.8
+        }
+      ],
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "RR1",
+          "at": 0.4,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RR2",
+          "at": 0.67,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RR3",
+          "at": 0.94,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RR4",
+          "at": 1.21,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RR5",
+          "at": 1.48,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RR6",
+          "at": 1.75,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "DR1",
+          "at": 2.02,
+          "dur": 0.24,
+          "ease": "power1.out"
+        },
+        {
+          "to": "DR2",
+          "at": 2.26,
+          "dur": 0.22,
+          "ease": "power1.out"
+        },
+        {
+          "to": "TR",
+          "at": 2.48,
+          "dur": 0.3,
+          "ease": "power2.out"
+        },
+        {
+          "to": "CR",
+          "at": 3.02,
+          "dur": 0.2
+        },
+        {
+          "to": "CRX",
+          "at": 3.2199999999999998,
+          "dur": 0.3
+        },
+        {
+          "to": "RL1",
+          "at": 3.52,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RL2",
+          "at": 3.79,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RL3",
+          "at": 4.06,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RL4",
+          "at": 4.33,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RL5",
+          "at": 4.6,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "RL6",
+          "at": 4.87,
+          "dur": 0.27,
+          "ease": "none"
+        },
+        {
+          "to": "DL1",
+          "at": 5.140000000000001,
+          "dur": 0.24,
+          "ease": "power1.out"
+        },
+        {
+          "to": "DL2",
+          "at": 5.380000000000001,
+          "dur": 0.22,
+          "ease": "power1.out"
+        },
+        {
+          "to": "TL",
+          "at": 5.6000000000000005,
+          "dur": 0.3,
+          "ease": "power2.out"
+        },
+        {
+          "to": "CL",
+          "at": 6.140000000000001,
+          "dur": 0.2
+        },
+        {
+          "to": "CLX",
+          "at": 6.340000000000001,
+          "dur": 0.3
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": [
+            150,
+            1560
+          ],
+          "solid": true,
+          "width": 10,
+          "at": 0.2,
+          "from": [
+            150,
+            1470
+          ]
+        },
+        {
+          "type": "line",
+          "to": [
+            930,
+            1560
+          ],
+          "solid": true,
+          "width": 10,
+          "at": 0.2,
+          "from": [
+            930,
+            1470
+          ]
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "RR3",
+    "grip": 0,
+    "zoom": 1.5,
+    "dy": 260
+  },
+  "youtube": {
+    "titulo": "Shuttle Run 🏃 Ida y vuelta: acelerá, frená y girá | CrossFit",
+    "tags": [
+      "shuttle run",
+      "carrera de ida y vuelta",
+      "sprint ida y vuelta",
+      "carrera con cambio de dirección",
+      "agilidad",
+      "crossfit",
+      "cardio",
+      "entrada en calor",
+      "wod",
+      "velocidad",
+      "piernas"
+    ],
+    "descripcion": "🏃 SHUTTLE RUN — Carrera de ida y vuelta: aceleración, frenado y cambio de sentido\n\n¿Perdés un montón de tiempo en cada vuelta? El costo del shuttle run está en frenar y volver a salir, y eso se entrena. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Marcá dos líneas a 5 o 10 metros y arrancá detrás de una, listo para salir.\n2️⃣ Salí con zancadas largas y potentes para acelerar lo más rápido posible.\n3️⃣ Cerca de la línea, frená con pasos cortos y bajá la cadera.\n4️⃣ Tocá la línea con la mano, bien abajo, antes de cambiar de sentido.\n5️⃣ Girá sobre los pies y volvé a salir explosivo hacia la otra línea.\n\n✅ CLAVES DE TÉCNICA\n• Zancada larga para acelerar\n• Pasos cortos para frenar\n• Cadera baja en el cambio de sentido\n• Tocá la línea con la mano\n• Salí explosivo después del giro\n\n🎯 QUÉ TRABAJA\nRecto femoral · Bíceps femoral · Gemelos · Glúteo mayor · Tibial anterior\n\n⏱️ CUÁNTO\n10 repeticiones (ida y vuelta). Va en la entrada en calor o dentro del WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés molestias en rodillas o tobillos, empezá a un ritmo suave y con giros controlados, y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Cardio #ShuttleRun #Agilidad #Entrenamiento"
+  }
+}

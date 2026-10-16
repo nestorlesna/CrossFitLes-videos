@@ -67,10 +67,18 @@ Problemas encontrados al generar videos, cómo se resolvieron y qué conviene ha
 | 10-15 | barbell-deadlift | Arranque con cadera baja parecía sentadilla y los brazos no llegaban a la barra (disco r 96 → barra a y −62) | `hip [-150,-285] + ankle [0,0]`, `b 72`: hombros apenas delante de la barra a ≤ 330 px |
 | 10-15 | barbell-front-squat | Rack frontal | barra `torso [60, 30]` (r 72, no tapa la cara), brazos `ua = 90 − b`, `fa 176` → codos altos adelante |
 | 10-15 | hanging-toes-to-bar | Colgado: con piernas a la barra el hombro quedaba lejos de la barra | geometría resuelta (hombro a ≤ 330 de la barra, puntas en la barra, pike ~45°) con la intersección de círculos en el script; claves con `shrink: 0.62` |
+| 10-15 | (runtime) | `const f2` se usa en PROPS antes de declararse: un prop que lo llama al construirse (no en el update) deja la pantalla sin personaje y sin error visible | en la parte que se arma una sola vez usar `toFixed` directo; si el pose-lab sale vacío, sospechar de un error de JS en runtime.js |
+| 10-15 | db-power-snatch | Mancuerna en una mano que alterna, y que arranca en el piso | prop `dumbbell` + clave `dh` (mano) + `bf/bx/by` (suelta en el piso). Cambio de mano con las dos manos en la mancuerna (`g 1`, `g2 1`) y recién ahí `dh` 0→1; poses libres del brazo lejano con `g2 0` (no −1: interpolar 1→−1 salta) |
+| 10-15 | db-power-snatch | Tirón con codo alto: el antebrazo tapaba la cara (`ua 122, fa −128`) | `ua 100, fa −106`; arriba `ua 190` (brazo apenas detrás de la cabeza) |
+| 10-15 | farmer-carry | Dos pesas, una por mano | dos props `kettlebell`, uno con `hand: "far"`; `off [0,16]` (manija en la mano); caminata `loop` WALK_A/B + `floorScroll 150` |
+| 10-15 | burpee-over-the-bar | Salto lateral = en profundidad, de costado no se ve | prop `floorbar` con `pz` (barra detrás/delante; la de adelante un poco más abajo) + tarjeta `topview mode bar`; `pz 0.5` en el punto alto del salto |
+| 10-15 | cat-cow / scapular | El torso era una línea recta | torso como curva cuadrática: clave `cv` (gato +40, vaca −30; protracción +34, retracción −22) |
+| 10-15 | shuttle-run | Ir y volver: el personaje solo miraba a la derecha | clave `fx` (espejo alrededor de la cadera; 1→−1 = giro). Poses de carrera generadas por script con la cadera avanzando (`ease: none`), líneas como overlays absolutos, `shadow: false` |
+| 10-15 | yoga-push-up | Plancha / chaturanga / perro arriba con las manos fijas | geometría por script: hombro sobre la mano a ≤ 330 px, cuerpo recto de 750 px desde el tobillo; rig `x 290` para que entren pies y cabeza |
 
 ## Pendientes / ideas
 
-- Implementos a dibujar antes de los próximos de la lista: mancuernas, cajón, bandas, SkiErg, trineo
+- Implementos a dibujar antes de los próximos de la lista: cajón, bandas, SkiErg, trineo, balón medicinal (mancuernas y barra en el piso: 10-15)
   (ya están: remo, kettlebell, barra, wall ball, assault bike y barra de dominadas, 10-15) (ver columna Implemento del CHECKLIST).
 - Vista de frente no existe: elegir siempre la vista lateral que mejor muestre el movimiento (rotaciones y aperturas
   laterales —ej. estiramientos de tríceps, muñeca— se leen mal de costado: resolverlo con overlays y texto).

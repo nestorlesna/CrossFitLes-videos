@@ -1,0 +1,796 @@
+{
+  "slug": "alternating-single-arm-dumbbell-power-snatch",
+  "name": "Alternating Single Arm Dumbbell Power Snatch",
+  "category": "CROSSFIT · FUERZA · WOD",
+  "tags": [
+    "Cadera",
+    "Hombros",
+    "Potencia"
+  ],
+  "descripcion": "Con una mancuerna entre los pies, bajar en bisagra de cadera y tomarla con una mano. Extender cadera y piernas de forma explosiva, tirar con el codo alto y recibir la mancuerna arriba con el brazo bloqueado en media sentadilla. Bajarla controlada y cambiar de mano en cada repetición.",
+  "revisado": false,
+  "notas": "Primer video con prop dumbbell (vista de punta; dh elige la mano, bf la deja en el piso).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1505,
+    "scale": 0.8
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "off": [
+        0,
+        0
+      ],
+      "r": 42
+    }
+  ],
+  "pronuncia": {
+    "Alternating Single Arm Dumbbell Power Snatch": "Dámbel páuer snach alternado",
+    "Dumbbell Power Snatch": "Dámbel páuer snach"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 6,
+      "fa": 6,
+      "g2": 0,
+      "ua2": -6,
+      "fa2": 6,
+      "dh": 0,
+      "bf": 1,
+      "bx": 30,
+      "by": -8
+    },
+    "REACH": {
+      "hip": [
+        -215,
+        -250
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 74,
+      "hd": 34,
+      "g": 1,
+      "hx": 30,
+      "hy": -8,
+      "ed": 1,
+      "g2": 0,
+      "ua2": -4,
+      "fa2": 4,
+      "dh": 0,
+      "bf": 1,
+      "bx": 30,
+      "by": -8
+    },
+    "HINGE_N": {
+      "hip": [
+        -215,
+        -250
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 74,
+      "hd": 34,
+      "g": 1,
+      "hx": 30,
+      "hy": -8,
+      "ed": 1,
+      "g2": 0,
+      "ua2": -4,
+      "fa2": 4,
+      "dh": 0,
+      "bf": 0,
+      "bx": 30,
+      "by": -8
+    },
+    "EXT": {
+      "s": -2,
+      "t": 2,
+      "b": -6,
+      "hd": -4,
+      "g": 0,
+      "ua": 8,
+      "fa": 0,
+      "g2": 0,
+      "ua2": -10,
+      "fa2": 4,
+      "dh": 0,
+      "ft": -14,
+      "ft2": -14
+    },
+    "PULL": {
+      "s": 4,
+      "t": -6,
+      "b": -2,
+      "hd": 0,
+      "g": 0,
+      "ua": 100,
+      "fa": -106,
+      "g2": 0,
+      "ua2": -14,
+      "fa2": 10,
+      "dh": 0
+    },
+    "CATCH": {
+      "hip": [
+        -95,
+        -372
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 18,
+      "hd": 14,
+      "g": 0,
+      "ua": 190,
+      "fa": 0,
+      "g2": 0,
+      "ua2": 40,
+      "fa2": 20,
+      "dh": 0
+    },
+    "OH": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 6,
+      "g": 0,
+      "ua": 190,
+      "fa": 0,
+      "g2": 0,
+      "ua2": 10,
+      "fa2": 6,
+      "dh": 0
+    },
+    "HINGE_B": {
+      "hip": [
+        -215,
+        -250
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 74,
+      "hd": 34,
+      "g": 1,
+      "hx": 30,
+      "hy": -8,
+      "ed": 1,
+      "g2": 1,
+      "ua2": -4,
+      "fa2": 4,
+      "dh": 0,
+      "bf": 0,
+      "bx": 30,
+      "by": -8,
+      "hx2": 30,
+      "hy2": -8
+    },
+    "HINGE_B2": {
+      "hip": [
+        -215,
+        -250
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 74,
+      "hd": 34,
+      "g": 1,
+      "hx": 30,
+      "hy": -8,
+      "ed": 1,
+      "g2": 1,
+      "ua2": -4,
+      "fa2": 4,
+      "dh": 1,
+      "bf": 0,
+      "bx": 30,
+      "by": -8,
+      "hx2": 30,
+      "hy2": -8
+    },
+    "HINGE_F": {
+      "hip": [
+        -215,
+        -250
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 74,
+      "hd": 34,
+      "g": 0,
+      "hx": 30,
+      "hy": -8,
+      "ed": 1,
+      "g2": 1,
+      "ua2": -4,
+      "fa2": 4,
+      "dh": 1,
+      "bf": 0,
+      "bx": 30,
+      "by": -8,
+      "ua": -6,
+      "fa": 6,
+      "hx2": 30,
+      "hy2": -8
+    },
+    "EXT_F": {
+      "s": -2,
+      "t": 2,
+      "b": -6,
+      "hd": -4,
+      "g": 0,
+      "ua": -10,
+      "fa": 4,
+      "g2": 0,
+      "ua2": 8,
+      "fa2": 0,
+      "dh": 1,
+      "ft": -14,
+      "ft2": -14
+    },
+    "PULL_F": {
+      "s": 4,
+      "t": -6,
+      "b": -2,
+      "hd": 0,
+      "g": 0,
+      "ua": -14,
+      "fa": 10,
+      "g2": 0,
+      "ua2": 100,
+      "fa2": -106,
+      "dh": 1
+    },
+    "CATCH_F": {
+      "hip": [
+        -95,
+        -372
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 18,
+      "hd": 14,
+      "g": 0,
+      "ua": 40,
+      "fa": 20,
+      "g2": 0,
+      "ua2": 190,
+      "fa2": 0,
+      "dh": 1
+    },
+    "OH_F": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 4,
+      "g": 0,
+      "ua": 10,
+      "fa": 6,
+      "g2": 0,
+      "ua2": 190,
+      "fa2": 0,
+      "dh": 1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA · WOD",
+      "head": [
+        "DUMBBELL",
+        "POWER SNATCH"
+      ],
+      "vo": "Dumbbell Power Snatch alternado: la mancuerna del piso a arriba de la cabeza, en un solo movimiento.",
+      "moves": [
+        {
+          "to": "REACH",
+          "at": 0.5,
+          "dur": 0.7
+        },
+        {
+          "to": "HINGE_N",
+          "at": 1.2,
+          "dur": 0.05
+        },
+        {
+          "to": "EXT",
+          "at": 1.4,
+          "dur": 0.32,
+          "ease": "power2.out"
+        },
+        {
+          "to": "PULL",
+          "at": 1.72,
+          "dur": 0.25
+        },
+        {
+          "to": "CATCH",
+          "at": 1.9699999999999998,
+          "dur": 0.3,
+          "ease": "power2.out"
+        },
+        {
+          "to": "OH",
+          "at": 2.5,
+          "dur": 0.5
+        },
+        {
+          "to": "PULL",
+          "at": 3.4,
+          "dur": 0.6
+        },
+        {
+          "to": "HINGE_N",
+          "at": 4.0,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "min": 4.6,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "MANCUERNA",
+        "ENTRE LOS PIES"
+      ],
+      "sub": "Pies al ancho de la cadera",
+      "vo": "Pies al ancho de la cadera y la mancuerna en el piso, entre los pies.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            494.0,
+            1498.6
+          ],
+          "r": 52,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            606.0,
+            1385.0
+          ],
+          "text": "ENTRE LOS PIES",
+          "anchor": "start",
+          "at": 1.3
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "BISAGRA",
+        "Y AGARRÁ"
+      ],
+      "sub": "Espalda neutra",
+      "vo": "Paso uno. Bajá en bisagra de cadera, con la espalda neutra, y tomá la mancuerna con una mano.",
+      "moves": [
+        {
+          "to": "REACH",
+          "at": 0.5,
+          "dur": 0.7
+        },
+        {
+          "to": "HINGE_N",
+          "at": 1.2,
+          "dur": 0.05
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": {
+            "j": "HINGE_N.S",
+            "dy": -70
+          },
+          "at": 1.6,
+          "solid": true,
+          "from": {
+            "j": "HINGE_N.H",
+            "dy": -70
+          }
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "HINGE_N.H",
+            "dx": -40,
+            "dy": -230
+          },
+          "text": "ESPALDA NEUTRA",
+          "anchor": "middle",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "EXPLOTÁ",
+        "CON LA CADERA"
+      ],
+      "sub": "Codo alto, mancuerna cerca",
+      "vo": "Paso dos. Extendé cadera y piernas de forma explosiva y tirá con el codo alto, la mancuerna cerca del cuerpo.",
+      "moves": [
+        {
+          "to": "EXT",
+          "at": 0.6,
+          "dur": 0.35,
+          "ease": "power2.out"
+        },
+        {
+          "to": "PULL",
+          "at": 1.0,
+          "dur": 0.35
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            670.0,
+            881.0
+          ],
+          "at": 0.5,
+          "dur": 0.8,
+          "from": [
+            670.0,
+            1385.0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            694.0,
+            801.0
+          ],
+          "text": "CODO ALTO",
+          "anchor": "start",
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            694.0,
+            1105.0
+          ],
+          "text": "CERCA DEL CUERPO",
+          "anchor": "start",
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "RECIBÍ",
+        "ARRIBA"
+      ],
+      "sub": "Brazo bloqueado, media sentadilla",
+      "vo": "Paso tres. Recibí la mancuerna arriba con el brazo bloqueado, en media sentadilla. Después parate.",
+      "moves": [
+        {
+          "to": "CATCH",
+          "at": 0.5,
+          "dur": 0.35,
+          "ease": "power2.out"
+        },
+        {
+          "to": "OH",
+          "at": 2.8,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": [
+            417.1,
+            700.8
+          ],
+          "at": 1.0,
+          "out": 2.8,
+          "solid": true,
+          "from": [
+            463.2,
+            994.4
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            559.2,
+            834.4
+          ],
+          "text": "CODO BLOQUEADO",
+          "anchor": "start",
+          "at": 1.2,
+          "out": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            206.0,
+            1297.0
+          ],
+          "text": "MEDIA SENTADILLA",
+          "anchor": "middle",
+          "at": 1.8,
+          "out": 2.8
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "CAMBIÁ",
+        "DE MANO"
+      ],
+      "sub": "Abajo, no en el aire",
+      "vo": "Paso cuatro. Bajala controlada hasta el piso y cambiá de mano abajo, no en el aire. Repetí con la otra.",
+      "moves": [
+        {
+          "cut": "OH",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.4,
+          "dur": 0.6
+        },
+        {
+          "to": "HINGE_N",
+          "at": 1.0,
+          "dur": 0.7
+        },
+        {
+          "to": "HINGE_B",
+          "at": 2.0,
+          "dur": 0.3
+        },
+        {
+          "to": "HINGE_B2",
+          "at": 2.3,
+          "dur": 0.1
+        },
+        {
+          "to": "HINGE_F",
+          "at": 2.4,
+          "dur": 0.3
+        },
+        {
+          "to": "EXT_F",
+          "at": 3.2,
+          "dur": 0.32,
+          "ease": "power2.out"
+        },
+        {
+          "to": "PULL_F",
+          "at": 3.52,
+          "dur": 0.25
+        },
+        {
+          "to": "CATCH_F",
+          "at": 3.77,
+          "dur": 0.3,
+          "ease": "power2.out"
+        },
+        {
+          "to": "OH_F",
+          "at": 4.300000000000001,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            494.0,
+            1498.6
+          ],
+          "r": 56,
+          "at": 2.0,
+          "out": 3.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            606.0,
+            1385.0
+          ],
+          "text": "CAMBIO ABAJO",
+          "anchor": "start",
+          "at": 2.1,
+          "out": 3.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.4,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Espalda neutra al levantarla",
+        "La potencia sale de la cadera",
+        "Mancuerna cerca del cuerpo",
+        "Codo bloqueado, cabeza adelante"
+      ],
+      "vo": "Claves: espalda neutra, la potencia sale de la cadera, mancuerna cerca del cuerpo y codo bloqueado arriba, con la cabeza adelante.",
+      "moves": [
+        {
+          "cut": "HINGE_N",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 8.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "20 REPS"
+      ],
+      "sub": "Alterná la mano en cada una",
+      "vo": "Veinte repeticiones con quince kilos, alternando la mano en cada una. Ideal para WODs de potencia.",
+      "chips": [
+        {
+          "label": "1 · UNA MANO",
+          "at": 0.4
+        },
+        {
+          "label": "2 · CAMBIO",
+          "at": 3.6
+        },
+        {
+          "label": "3 · LA OTRA",
+          "at": 4.4
+        }
+      ],
+      "moves": [
+        {
+          "to": "EXT",
+          "at": 0.4,
+          "dur": 0.32,
+          "ease": "power2.out"
+        },
+        {
+          "to": "PULL",
+          "at": 0.72,
+          "dur": 0.25
+        },
+        {
+          "to": "CATCH",
+          "at": 0.97,
+          "dur": 0.3,
+          "ease": "power2.out"
+        },
+        {
+          "to": "OH",
+          "at": 1.5,
+          "dur": 0.5
+        },
+        {
+          "to": "PULL",
+          "at": 2.4,
+          "dur": 0.6
+        },
+        {
+          "to": "HINGE_N",
+          "at": 3.0,
+          "dur": 0.7
+        },
+        {
+          "to": "HINGE_B",
+          "at": 3.6,
+          "dur": 0.3
+        },
+        {
+          "to": "HINGE_B2",
+          "at": 3.9,
+          "dur": 0.1
+        },
+        {
+          "to": "HINGE_F",
+          "at": 4.0,
+          "dur": 0.3
+        },
+        {
+          "to": "EXT_F",
+          "at": 4.4,
+          "dur": 0.32,
+          "ease": "power2.out"
+        },
+        {
+          "to": "PULL_F",
+          "at": 4.720000000000001,
+          "dur": 0.25
+        },
+        {
+          "to": "CATCH_F",
+          "at": 4.970000000000001,
+          "dur": 0.3,
+          "ease": "power2.out"
+        },
+        {
+          "to": "OH_F",
+          "at": 5.5,
+          "dur": 0.5
+        },
+        {
+          "to": "PULL_F",
+          "at": 6.4,
+          "dur": 0.6
+        },
+        {
+          "to": "HINGE_F",
+          "at": 7.0,
+          "dur": 0.7
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "CATCH",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 170
+  },
+  "youtube": {
+    "titulo": "Dumbbell Power Snatch alternado 🔥 Potencia paso a paso | CrossFit",
+    "tags": [
+      "dumbbell power snatch",
+      "dumbbell snatch",
+      "snatch con mancuerna",
+      "arranque con mancuerna",
+      "alternating dumbbell snatch",
+      "mancuerna",
+      "crossfit",
+      "wod",
+      "potencia",
+      "levantamiento olímpico",
+      "hombros",
+      "glúteos"
+    ],
+    "descripcion": "🔥 DUMBBELL POWER SNATCH ALTERNADO — Del piso a arriba de la cabeza en un solo tirón, con una mano\n\n¿Te cuesta que la mancuerna suba sin \"tirarla\" con el brazo? El secreto está en la cadera: si la usás bien, la mancuerna vuela. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Pies al ancho de la cadera y la mancuerna en el piso, entre los pies.\n2️⃣ Bajá en bisagra de cadera, con la espalda neutra, y tomá la mancuerna con una mano.\n3️⃣ Extendé cadera y piernas de forma explosiva y tirá con el codo alto, la mancuerna cerca del cuerpo.\n4️⃣ Recibí la mancuerna arriba con el brazo bloqueado, en media sentadilla, y parate.\n5️⃣ Bajala controlada hasta el piso y cambiá de mano abajo, no en el aire. Repetí con la otra.\n\n✅ CLAVES DE TÉCNICA\n• Espalda neutra al levantarla del piso\n• La potencia sale de la cadera: el brazo solo guía\n• Mancuerna cerca del cuerpo, codo alto\n• Recibí con el codo bloqueado y la cabeza adelante del brazo\n• Cambiá de mano abajo, no en el aire\n\n🎯 QUÉ TRABAJA\nGlúteo mayor · Deltoides anterior · Erectores espinales · Recto femoral · Trapecio superior\n\n⏱️ CUÁNTO\n20 repeticiones con 15 kg (10 por brazo), alternando la mano. Va en WODs de potencia y fuerza.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste snatch, empezá con una mancuerna liviana y con un coach al lado: el hombro tiene que estar bien bloqueado arriba.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #DumbbellSnatch #Potencia #Entrenamiento"
+  }
+}

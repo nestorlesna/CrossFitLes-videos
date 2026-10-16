@@ -1,0 +1,433 @@
+{
+  "slug": "cat-cow",
+  "name": "Cat-Cow",
+  "category": "CROSSFIT · MOVILIDAD",
+  "tags": [
+    "Columna",
+    "Core",
+    "Movilidad"
+  ],
+  "descripcion": "Movilidad de columna en cuadrupedia: se alterna redondear la espalda hacia el techo (gato) con hundirla suavemente dejando caer el abdomen (camello).",
+  "revisado": false,
+  "notas": "Primer video con espalda curva (clave cv del torso).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 430,
+    "y": 1500,
+    "scale": 0.95
+  },
+  "pronuncia": {
+    "Cat-Cow": "Cat cau",
+    "COW": "cau",
+    "CAT": "cat"
+  },
+  "initialPose": "QUAD",
+  "poses": {
+    "KNEEL": {
+      "hip": [
+        -60,
+        -250
+      ],
+      "s": 90,
+      "t": 4,
+      "s2": 90,
+      "t2": 4,
+      "ft": 172,
+      "ft2": 172,
+      "b": 2,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6,
+      "cv": 0
+    },
+    "QUAD": {
+      "hip": [
+        0,
+        -231
+      ],
+      "s": 90,
+      "t": 0,
+      "s2": 90,
+      "t2": 0,
+      "ft": 172,
+      "ft2": 172,
+      "b": 74,
+      "hd": 100,
+      "g": 1,
+      "hx": 268,
+      "hy": 15,
+      "cv": 0
+    },
+    "COW": {
+      "hip": [
+        0,
+        -231
+      ],
+      "s": 90,
+      "t": 0,
+      "s2": 90,
+      "t2": 0,
+      "ft": 172,
+      "ft2": 172,
+      "b": 76,
+      "hd": 48,
+      "g": 1,
+      "hx": 268,
+      "hy": 15,
+      "cv": -30
+    },
+    "CAT": {
+      "hip": [
+        0,
+        -231
+      ],
+      "s": 90,
+      "t": 0,
+      "s2": 90,
+      "t2": 0,
+      "ft": 172,
+      "ft2": 172,
+      "b": 72,
+      "hd": 150,
+      "g": 1,
+      "hx": 268,
+      "hy": 15,
+      "cv": 40
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · MOVILIDAD",
+      "head": [
+        "CAT-COW"
+      ],
+      "vo": "Cat-Cow: movilidad de columna en cuadrupedia. Ideal para la entrada en calor y la vuelta a la calma.",
+      "moves": [
+        {
+          "to": "QUAD",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "COW",
+              1.6
+            ],
+            [
+              "CAT",
+              1.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "CUADRUPEDIA"
+      ],
+      "sub": "Manos bajo hombros, rodillas bajo cadera",
+      "vo": "En cuadrupedia: manos debajo de los hombros, rodillas debajo de la cadera y la espalda neutra.",
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        },
+        {
+          "to": "QUAD",
+          "at": 0.6,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "color": "ink",
+          "width": 6,
+          "to": {
+            "j": "QUAD.W"
+          },
+          "at": 1.8,
+          "from": {
+            "j": "QUAD.S"
+          }
+        },
+        {
+          "type": "line",
+          "color": "ink",
+          "width": 6,
+          "to": {
+            "j": "QUAD.K"
+          },
+          "at": 2.2,
+          "from": {
+            "j": "QUAD.H"
+          }
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "QUAD.H",
+            "dx": 120,
+            "dy": -260
+          },
+          "text": "ESPALDA NEUTRA",
+          "anchor": "middle",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "VACA",
+        "COW"
+      ],
+      "sub": "Inhalá y hundí la espalda",
+      "vo": "Paso uno, la vaca. Inhalá, dejá caer suavemente el abdomen hacia el piso y llevá la mirada adelante.",
+      "moves": [
+        {
+          "to": "COW",
+          "at": 0.6,
+          "dur": 1.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            557.8,
+            1262.9
+          ],
+          "at": 1.2,
+          "dur": 0.8,
+          "from": [
+            557.8,
+            1129.9
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            557.8,
+            1091.9
+          ],
+          "text": "ABDOMEN ABAJO",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "GATO",
+        "CAT"
+      ],
+      "sub": "Exhalá y redondeá",
+      "vo": "Paso dos, el gato. Exhalá y redondeá la espalda hacia el techo, con la cabeza hacia abajo.",
+      "moves": [
+        {
+          "to": "CAT",
+          "at": 0.6,
+          "dur": 1.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            557.8,
+            1034.9
+          ],
+          "at": 1.2,
+          "dur": 0.8,
+          "from": [
+            557.8,
+            1186.9
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            557.8,
+            996.9
+          ],
+          "text": "ESPALDA AL TECHO",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 6.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "TODA LA",
+        "COLUMNA"
+      ],
+      "sub": "Del cuello a la cadera",
+      "vo": "Paso tres. Mové toda la columna, del cuello a la cadera, como una ola. Alterná vaca y gato.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "COW",
+              1.6
+            ],
+            [
+              "CAT",
+              1.6
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "CON LA",
+        "RESPIRACIÓN"
+      ],
+      "sub": "Lento y sin forzar",
+      "vo": "Paso cuatro. Acompañá con la respiración: inhalás en la vaca, exhalás en el gato. Lento y sin forzar.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "COW",
+              1.6
+            ],
+            [
+              "CAT",
+              1.6
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            557.8,
+            958.9
+          ],
+          "text": "INHALÁ · EXHALÁ",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 1,
+      "keys": [
+        "Manos bajo hombros",
+        "Mové toda la columna",
+        "Inhalá vaca, exhalá gato",
+        "Lento y sin forzar"
+      ],
+      "vo": "Claves: manos bajo los hombros, mové toda la columna, seguí la respiración, y siempre lento, sin forzar.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "COW",
+              1.6
+            ],
+            [
+              "CAT",
+              1.6
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "12 REPS"
+      ],
+      "sub": "Una respiración por rep",
+      "vo": "Doce repeticiones, una respiración completa en cada una. Antes de entrenar o para aflojar al final.",
+      "chips": [
+        {
+          "label": "1 · VACA",
+          "at": 0.5
+        },
+        {
+          "label": "2 · GATO",
+          "at": 2.1
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "COW",
+              1.6
+            ],
+            [
+              "CAT",
+              1.6
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "CAT",
+    "grip": 1,
+    "zoom": 1.0,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Cat-Cow 🐱🐮 Movilidad de columna paso a paso | CrossFit",
+    "tags": [
+      "cat cow",
+      "cat-cow",
+      "gato vaca",
+      "gato camello",
+      "movilidad de columna",
+      "yoga",
+      "entrada en calor",
+      "vuelta a la calma",
+      "crossfit",
+      "dolor de espalda",
+      "movilidad",
+      "core"
+    ],
+    "descripcion": "🐱 CAT-COW — Movilidad de columna en cuadrupedia, con la respiración\n\n¿Llegás al box con la espalda dura o terminás el WOD todo cargado? Un par de minutos de gato y vaca y la columna se mueve otra cosa. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ En cuadrupedia: manos debajo de los hombros, rodillas debajo de la cadera y la espalda neutra.\n2️⃣ Vaca: inhalá, dejá caer suavemente el abdomen hacia el piso y llevá la mirada adelante.\n3️⃣ Gato: exhalá y redondeá la espalda hacia el techo, con la cabeza hacia abajo.\n4️⃣ Mové toda la columna, del cuello a la cadera, como una ola. Alterná vaca y gato.\n5️⃣ Acompañá con la respiración: inhalás en la vaca, exhalás en el gato. Lento y sin forzar.\n\n✅ CLAVES DE TÉCNICA\n• Manos debajo de los hombros, rodillas debajo de la cadera\n• Mové toda la columna, no solo la zona lumbar\n• Inhalá en la vaca, exhalá en el gato\n• Lento y sin forzar el rango\n\n🎯 QUÉ TRABAJA\nErectores espinales · Oblicuo externo · Recto abdominal\n\n⏱️ CUÁNTO\n12 repeticiones, una respiración por rep. Va en la entrada en calor o en la vuelta a la calma.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Movilidad #CatCow #Columna #Entrenamiento"
+  }
+}

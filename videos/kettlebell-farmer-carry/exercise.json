@@ -1,0 +1,529 @@
+{
+  "slug": "kettlebell-farmer-carry",
+  "name": "Kettlebell Farmer Carry",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Agarre",
+    "Core",
+    "Trapecio"
+  ],
+  "descripcion": "Caminar (o marchar) una distancia sosteniendo una kettlebell pesada en cada mano, manteniendo el tronco erguido y el core firme.",
+  "revisado": false,
+  "notas": "Dos kettlebells: prop kettlebell con hand far para la mano lejana. Caminata en el lugar con floorScroll.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "floorScroll": 150,
+  "props": [
+    {
+      "type": "kettlebell",
+      "off": [
+        0,
+        16
+      ],
+      "hand": "far"
+    },
+    {
+      "type": "kettlebell",
+      "off": [
+        0,
+        16
+      ]
+    }
+  ],
+  "pronuncia": {
+    "Kettlebell Farmer Carry": "Kétol bel, fármer carri",
+    "march": "march"
+  },
+  "initialPose": "WALK_A",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 5,
+      "fa": 0,
+      "ua2": -5,
+      "fa2": 0
+    },
+    "PICK": {
+      "hip": [
+        -170,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 40,
+      "hd": 28,
+      "g": 0,
+      "ua": 0,
+      "fa": 0,
+      "ua2": 0,
+      "fa2": 0
+    },
+    "BAD": {
+      "s": 0,
+      "t": 0,
+      "b": 14,
+      "hd": 22,
+      "g": 0,
+      "ua": 10,
+      "fa": 0,
+      "ua2": 4,
+      "fa2": 0
+    },
+    "WALK_A": {
+      "hip": [
+        0,
+        -450
+      ],
+      "s": -14,
+      "t": -18,
+      "s2": 34,
+      "t2": 20,
+      "ft2": 26,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": -4,
+      "fa": 0,
+      "ua2": 4,
+      "fa2": 0
+    },
+    "WALK_B": {
+      "hip": [
+        0,
+        -450
+      ],
+      "s": 34,
+      "t": 20,
+      "s2": -14,
+      "t2": -18,
+      "ft": 26,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 0,
+      "ua2": -4,
+      "fa2": 0
+    },
+    "MARCH_A": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 2,
+      "t": -78,
+      "s2": 0,
+      "t2": 0,
+      "ft": 18,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 5,
+      "fa": 0,
+      "ua2": -5,
+      "fa2": 0
+    },
+    "MARCH_B": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "s2": 2,
+      "t2": -78,
+      "ft2": 18,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 5,
+      "fa": 0,
+      "ua2": -5,
+      "fa2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.4,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "KETTLEBELL",
+        "FARMER CARRY"
+      ],
+      "vo": "Kettlebell Farmer Carry: caminar con una pesa en cada mano. Agarre, core y espalda de acero.",
+      "moves": [
+        {
+          "loop": [
+            "WALK_A",
+            "WALK_B"
+          ],
+          "at": 0.4,
+          "step": 0.42,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "UNA PESA",
+        "EN CADA MANO"
+      ],
+      "sub": "Levantalas con las piernas",
+      "vo": "Con una kettlebell al costado de cada pie, bajá con la espalda neutra y levantalas con las piernas.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "PICK",
+          "at": 0.5,
+          "dur": 0.9
+        },
+        {
+          "to": "STAND",
+          "at": 2.6,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": {
+            "j": "PICK.S",
+            "dx": -60,
+            "dy": -60
+          },
+          "at": 1.4,
+          "out": 2.7,
+          "solid": true,
+          "from": {
+            "j": "PICK.H",
+            "dx": -60,
+            "dy": -60
+          }
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "PICK.S",
+            "dx": -60,
+            "dy": -260
+          },
+          "text": "ESPALDA NEUTRA",
+          "anchor": "middle",
+          "at": 1.5,
+          "out": 2.7
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "TRONCO",
+        "ERGUIDO"
+      ],
+      "sub": "Core firme",
+      "vo": "Paso uno. Tronco erguido y el core firme, como si fueras a recibir un golpe en la panza.",
+      "moves": [
+        {
+          "to": "STAND",
+          "at": 0,
+          "dur": 0.3
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "color": "ink",
+          "width": 6,
+          "to": {
+            "j": "STAND.N",
+            "dx": -90
+          },
+          "at": 1.0,
+          "from": {
+            "j": "STAND.H",
+            "dx": -90
+          }
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "STAND.S",
+            "dx": -120,
+            "dy": 40
+          },
+          "text": "TRONCO ERGUIDO",
+          "anchor": "end",
+          "at": 1.2
+        },
+        {
+          "type": "ring",
+          "pos": {
+            "j": "STAND.H",
+            "dx": 40,
+            "dy": -130
+          },
+          "r": 60,
+          "at": 2.4
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "STAND.H",
+            "dx": 120,
+            "dy": -130
+          },
+          "text": "CORE FIRME",
+          "anchor": "start",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "HOMBROS",
+        "ATRÁS"
+      ],
+      "sub": "Escápulas estables",
+      "vo": "Paso dos. Hombros atrás y abajo, escápulas estables. Que las pesas no te tiren de los hombros hacia adelante.",
+      "moves": [
+        {
+          "to": "BAD",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "STAND",
+          "at": 2.0,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            578.0,
+            771.0
+          ],
+          "text": "NO TE ENCORVES",
+          "anchor": "start",
+          "at": 0.9,
+          "out": 2.0
+        },
+        {
+          "type": "arrow",
+          "to": [
+            407.0,
+            672.0
+          ],
+          "bend": [
+            0,
+            -50
+          ],
+          "at": 2.2,
+          "dur": 0.7,
+          "from": [
+            524.0,
+            681.0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            578.0,
+            771.0
+          ],
+          "text": "HOMBROS ATRÁS",
+          "anchor": "start",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "PASOS",
+        "CORTOS"
+      ],
+      "sub": "Controlados",
+      "vo": "Paso tres. Caminá con pasos cortos y controlados, sin que las pesas se balanceen.",
+      "moves": [
+        {
+          "loop": [
+            "WALK_A",
+            "WALK_B"
+          ],
+          "at": 0.3,
+          "step": 0.42,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            740.0,
+            618.0
+          ],
+          "text": "PASOS CORTOS",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "VARIANTE",
+        "MARCH"
+      ],
+      "sub": "Rodillas arriba",
+      "vo": "Paso cuatro. En la variante march, marchá en el lugar elevando bien las rodillas.",
+      "moves": [
+        {
+          "loop": [
+            "MARCH_A",
+            "STAND",
+            "MARCH_B",
+            "STAND"
+          ],
+          "at": 0.4,
+          "step": 0.45,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            767.0,
+            942.0
+          ],
+          "text": "RODILLA ARRIBA",
+          "anchor": "start",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Hombros atrás y abajo",
+        "Escápulas estables",
+        "Core firme, tronco erguido",
+        "Pasos cortos y controlados"
+      ],
+      "vo": "Claves: hombros atrás, escápulas estables, core firme y pasos cortos y controlados.",
+      "moves": [
+        {
+          "loop": [
+            "WALK_A",
+            "WALK_B"
+          ],
+          "at": 0.2,
+          "step": 0.42,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "200 METROS"
+      ],
+      "sub": "Con 15 kg por mano",
+      "vo": "Doscientos metros con quince kilos en cada mano. Si el agarre se afloja, pará, reacomodá y seguí.",
+      "chips": [
+        {
+          "label": "1 · LEVANTÁ",
+          "at": 0.4
+        },
+        {
+          "label": "2 · CAMINÁ",
+          "at": 2.0
+        }
+      ],
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "PICK",
+          "at": 0.3,
+          "dur": 0.6
+        },
+        {
+          "to": "STAND",
+          "at": 1.0,
+          "dur": 0.8
+        },
+        {
+          "loop": [
+            "WALK_A",
+            "WALK_B"
+          ],
+          "at": 2.0,
+          "step": 0.42,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "WALK_A",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 180
+  },
+  "youtube": {
+    "titulo": "Kettlebell Farmer Carry 💪 Agarre y core de acero paso a paso | CrossFit",
+    "tags": [
+      "kettlebell farmer carry",
+      "farmer carry",
+      "farmer walk",
+      "paseo del granjero",
+      "caminata del granjero",
+      "kettlebell",
+      "crossfit",
+      "wod",
+      "agarre",
+      "core",
+      "trapecio",
+      "fuerza funcional"
+    ],
+    "descripcion": "💪 KETTLEBELL FARMER CARRY — Caminar cargado: agarre, core y espalda en un solo ejercicio\n\n¿Se te abre el agarre en los WODs o terminás con la espalda encorvada cuando cargás peso? Caminar bien cargado se entrena. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Con una kettlebell al costado de cada pie, bajá con la espalda neutra y levantalas con las piernas.\n2️⃣ Tronco erguido y el core firme, como si fueras a recibir un golpe en la panza.\n3️⃣ Hombros atrás y abajo, escápulas estables: que las pesas no te tiren hacia adelante.\n4️⃣ Caminá con pasos cortos y controlados, sin que las pesas se balanceen.\n5️⃣ Variante march: marchá en el lugar elevando bien las rodillas.\n\n✅ CLAVES DE TÉCNICA\n• Hombros atrás y abajo, escápulas estables\n• Core firme y tronco erguido todo el recorrido\n• Pasos cortos y controlados\n• Las pesas no se balancean\n• En la variante march, elevá bien las rodillas\n\n🎯 QUÉ TRABAJA\nTrapecio superior · Erectores espinales · Flexores del antebrazo · Recto abdominal\n\n⏱️ CUÁNTO\n200 metros con 15 kg en cada mano (o lo que marque el WOD). Va en WODs y como trabajo de agarre y core.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés molestias en la espalda baja, empezá con pesas livianas y distancias cortas, y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #FarmerCarry #Agarre #Entrenamiento"
+  }
+}

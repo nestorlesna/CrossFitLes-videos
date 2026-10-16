@@ -132,6 +132,7 @@ del ejercicio (no la de pie). Se arma en `videos/<slug>/miniatura/` con `buildIn
 | `min` | duración mínima (s). La real = máx(min, voz + 1 s, última acción + 0,45 s) |
 | `numeral` | número gigante decorativo ("1".."4") |
 | `stance: true` | tarjeta "vista de arriba" con los pies (`stanceLabel` cambia el texto) |
+| `topview` con `"mode": "bar"` | tarjeta "vista de arriba" con la barra y el atleta al costado; `at` = salta al otro lado, `at: null` = quieta (burpee lateral) |
 | `topview` con `"mode": "9090"` | tarjeta "vista de arriba" sentado en 90/90; `at` = momento en que las piernas cambian de lado (espejo), `from: -1` arranca espejado, `at: null` = quieta |
 | `topview` | tarjeta "vista de arriba" acostado boca arriba, brazos en T, piernas que giran al costado: `{ "angle": -62, "at", "dur", "back"?, "label" }` (`back` = vuelve y cae al otro lado). Torsiones en el piso |
 | `keys` | lista de claves (strings, o `{ "text", "at" }`) |
@@ -171,6 +172,9 @@ Se dibujan en `runtime.js` (bloque PROPS) en coordenadas del rig; las partes mó
 | `wallball` | `off`, `r`, `wallX`, `target` | balón en las manos (+off); con `bf: 1` en la pose queda libre en `bx, by` (lanzado). Pared en `x = wallX` y marca en `y = target` (px del rig) |
 | `airbike` | `crank`, `fan`, `fanR`, `pivot`, `seat` | cuadro y ventilador fijos; bielas del centro `crank` a cada tobillo (pedal bajo la zapatilla), manijas de `pivot` a cada mano; el ventilador gira con la biela cercana. Poses con `hip` + `ankle` + `ankle2` y `g2` (ver `assault-bike`) |
 | `pullupbar` | `bar [x,y]`, `postX` | barra vista de punta en `bar` (encima de las manos) + viga y parante atrás. Colgado: manos `g 1` en la barra, cadera calculada para que el hombro quede a ≤ 330 px (ver `hanging-toes-to-bar`) |
+| `kettlebell` + `hand: "far"` | igual que `kettlebell` | segunda pesa en la mano lejana, detrás del cuerpo (farmer carry: dos props, ver `kettlebell-farmer-carry`) |
+| `dumbbell` | `off`, `r` | mancuerna vista de punta en la mano que diga la pose: `dh 0` cercana (bajo el brazo cercano), `dh 1` lejana (atrás). Con `bf 1` queda suelta en el piso en `bx, by`. Cambio de mano: las dos manos en la mancuerna (`g 1` + `g2 1`) y recién ahí `dh` (ver `alternating-single-arm-dumbbell-power-snatch`) |
+| `floorbar` | `x0`, `x1`, `r` | barra en el piso paralela al cuerpo (larga, discos de canto). `pz 0` = detrás del atleta, `pz 1` = delante: el salto lateral por encima se lee con el cambio de profundidad (ver `burpee-over-the-bar`) |
 
 Para agregar uno nuevo (barra, kettlebell, cajón…): sumar un `if (pr.type === "...")` en PROPS con las piezas fijas en
 `propBack` y un `propUpdates.push((n, f) => …)` para lo que se mueve (n = articulaciones del lado cercano, f = lejano).
@@ -202,6 +206,8 @@ Vista lateral mirando a la derecha. Ángulos en grados:
 - Sostener un implemento contra el cuerpo (goblet, barra en la espalda, balón al pecho): mejor brazos libres `g 0` con ángulos relativos al torso:
   goblet `ua = -b + 12, fa = 142`; barra atrás `ua = -b - 12, fa = 178`; balón `ua = -b + 18, fa = 136` (ver `kettlebell-good-morning-to-squat`, `barbell-back-squat`, `wall-ball-shot`).
 - **`g2`** (≥ 0): agarre propio del brazo lejano hacia `hx2, hy2` (codo `ed2`); `-1` (default) = sigue a `g`. Una mano agarra y la otra queda libre, o cada mano en su manija (assault bike).
+- **`cv`**: curva de la espalda en px (`+` redondea hacia el techo: gato, protracción escapular; `−` la hunde: vaca). Ver `cat-cow`, `scapular-push-up`.
+- **`fx`**: hacia dónde mira (1 derecha, −1 izquierda). Interpolarlo pasa por 0 = giro sobre la cadera. Con `fx −1` el cuerpo se espeja alrededor de la cadera: escribir la pose "hacia la derecha" con la cadera en su x (ver `shuttle-run`). Los overlays `{ "j": ... }` ignoran `fx` (usar posiciones absolutas) y los props del rig también se espejan.
 - **`ankle2`** (con `hip` + `ankle`): IK de la pierna lejana desde la misma cadera (cada pie en su pedal).
 - **`wr` / `wr2`** + `"fingers": true` en la ficha: dedos dibujados y ángulo de muñeca (−80 = dedos al piso con el brazo al frente). Ver `wrist-extensor-stretch`.
 - `ed`: hacia dónde se dobla el codo cuando hay agarre (`1` adelante, `-1` atrás: remo, tirones, dominadas).
@@ -237,7 +243,7 @@ Puntos de partida para otras (ajustar con snapshots): sentadilla paralela `s 30,
 
 ### Límites actuales
 
-- Un solo personaje, vista lateral. Implementos: `rower`, `kettlebell`, `barbell`, `wallball`, `airbike`, `pullupbar`; el resto (mancuernas, cajón, barra de dominadas…) hay que agregarlo en PROPS de `plantilla/runtime.js`.
+- Un solo personaje, vista lateral. Implementos: `rower`, `kettlebell`, `barbell`, `wallball`, `airbike`, `pullupbar`, `dumbbell`, `floorbar`; el resto (cajón, bandas, SkiErg, trineo…) hay que agregarlo en PROPS de `plantilla/runtime.js`.
 - Voz: ver sección **Voz** abajo.
 
 ## Voz

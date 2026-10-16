@@ -1,0 +1,474 @@
+{
+  "slug": "scapular-push-up",
+  "name": "Scapular Push-Up",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Escápulas",
+    "Hombros",
+    "Core"
+  ],
+  "descripcion": "En posición de plancha alta, sin doblar los codos, hacer protracción (separar escápulas, torso sube) y retracción (juntar escápulas, torso baja) escapular. El movimiento es de pocos centímetros.",
+  "revisado": false,
+  "notas": "Protracción/retracción con la curva del torso (cv); personaje más grande (scale 0.95).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 200,
+    "y": 1500,
+    "scale": 0.95
+  },
+  "pronuncia": {
+    "Scapular Push-Up": "Escápiular push ap"
+  },
+  "initialPose": "PLANK",
+  "poses": {
+    "KNEES": {
+      "hip": [
+        300,
+        -150
+      ],
+      "s": 90,
+      "t": 40,
+      "s2": 90,
+      "t2": 40,
+      "ft": 172,
+      "ft2": 172,
+      "b": 72,
+      "hd": 80,
+      "g": 1,
+      "hx": 675,
+      "hy": 15,
+      "cv": 0
+    },
+    "PLANK": {
+      "s": 68.41,
+      "t": 68.41,
+      "rx": -20,
+      "ry": -40,
+      "b": 68.41,
+      "g": 1,
+      "hx": 675,
+      "hy": 15,
+      "hd": 78,
+      "ft": 118,
+      "cv": 0
+    },
+    "PRO": {
+      "s": 68.41,
+      "t": 68.41,
+      "rx": -20,
+      "ry": -40,
+      "b": 68.41,
+      "g": 1,
+      "hx": 675,
+      "hy": 15,
+      "hd": 92,
+      "ft": 118,
+      "cv": 34
+    },
+    "RET": {
+      "s": 68.41,
+      "t": 68.41,
+      "rx": -20,
+      "ry": -40,
+      "b": 68.41,
+      "g": 1,
+      "hx": 675,
+      "hy": 15,
+      "hd": 70,
+      "ft": 118,
+      "cv": -22
+    },
+    "BENT": {
+      "s": 68.41,
+      "t": 68.41,
+      "rx": -20,
+      "ry": -40,
+      "b": 68.41,
+      "g": 1,
+      "hx": 640,
+      "hy": -40,
+      "hd": 78,
+      "ft": 118,
+      "cv": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "SCAPULAR",
+        "PUSH-UP"
+      ],
+      "vo": "Scapular Push-Up: flexión de escápulas, sin doblar los codos. Hombros fuertes y estables.",
+      "moves": [
+        {
+          "to": "PLANK",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "PRO",
+              1.0
+            ],
+            [
+              "RET",
+              1.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PLANCHA",
+        "ALTA"
+      ],
+      "sub": "Manos bajo los hombros",
+      "vo": "Ponete en plancha alta: manos debajo de los hombros, brazos estirados y el cuerpo en línea.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": {
+            "j": "PLANK.S",
+            "dy": -70
+          },
+          "at": 1.8,
+          "solid": true,
+          "from": {
+            "j": "PLANK.A",
+            "dy": -70
+          }
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "PLANK.H",
+            "dy": -220
+          },
+          "text": "CUERPO EN LÍNEA",
+          "anchor": "middle",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "SEPARÁ LAS",
+        "ESCÁPULAS"
+      ],
+      "sub": "Protracción: el torso sube",
+      "vo": "Paso uno. Empujá el piso y separá las escápulas: la parte alta de la espalda sube unos centímetros.",
+      "moves": [
+        {
+          "to": "PRO",
+          "at": 0.6,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            776.8,
+            1030.3
+          ],
+          "at": 1.0,
+          "dur": 0.7,
+          "from": [
+            776.8,
+            1163.3
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            776.8,
+            992.3
+          ],
+          "text": "EMPUJÁ EL PISO",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "JUNTÁ LAS",
+        "ESCÁPULAS"
+      ],
+      "sub": "Retracción: el pecho baja",
+      "vo": "Paso dos. Ahora juntá las escápulas y dejá que el pecho baje entre los hombros.",
+      "moves": [
+        {
+          "cut": "PRO",
+          "at": 0
+        },
+        {
+          "to": "RET",
+          "at": 0.6,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            776.8,
+            1163.3
+          ],
+          "at": 1.0,
+          "dur": 0.7,
+          "from": [
+            776.8,
+            1030.3
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            776.8,
+            992.3
+          ],
+          "text": "PECHO ABAJO",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "CODOS",
+        "ESTIRADOS"
+      ],
+      "sub": "Siempre",
+      "vo": "Paso tres. Los codos no se doblan nunca: es un movimiento de escápulas, no de brazos.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        },
+        {
+          "to": "BENT",
+          "at": 0.6,
+          "dur": 0.6
+        },
+        {
+          "to": "PLANK",
+          "at": 2.2,
+          "dur": 0.6
+        },
+        {
+          "seq": [
+            [
+              "PRO",
+              1.0
+            ],
+            [
+              "RET",
+              1.0
+            ]
+          ],
+          "at": 3.0,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            732.0,
+            968.0
+          ],
+          "text": "NO DOBLES LOS CODOS",
+          "anchor": "middle",
+          "at": 1.0,
+          "out": 2.3
+        },
+        {
+          "type": "line",
+          "to": {
+            "j": "PLANK.W"
+          },
+          "at": 2.9,
+          "solid": true,
+          "from": {
+            "j": "PLANK.S"
+          }
+        },
+        {
+          "type": "label",
+          "pos": [
+            732.0,
+            968.0
+          ],
+          "text": "BRAZOS RECTOS",
+          "anchor": "middle",
+          "at": 3.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "POCOS",
+        "CENTÍMETROS"
+      ],
+      "sub": "Core activo",
+      "vo": "Paso cuatro. El recorrido es corto, de pocos centímetros. Mantené el core activo y la cadera quieta.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "PRO",
+              1.0
+            ],
+            [
+              "RET",
+              1.0
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "PLANK.H",
+            "dy": -10
+          },
+          "r": 60,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "PLANK.H",
+            "dy": -200
+          },
+          "text": "CADERA QUIETA",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 1,
+      "keys": [
+        "Codos siempre estirados",
+        "Solo se mueven las escápulas",
+        "Core activo",
+        "Recorrido corto y controlado"
+      ],
+      "vo": "Claves: codos estirados, solo se mueven las escápulas, core activo y un recorrido corto y controlado.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "PRO",
+              1.0
+            ],
+            [
+              "RET",
+              1.0
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Lento y controlado",
+      "vo": "Diez repeticiones lentas. Prepara los hombros para los movimientos por encima de la cabeza.",
+      "chips": [
+        {
+          "label": "1 · SEPARÁ",
+          "at": 0.5
+        },
+        {
+          "label": "2 · JUNTÁ",
+          "at": 1.5
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "PRO",
+              1.0
+            ],
+            [
+              "RET",
+              1.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "PRO",
+    "grip": 1,
+    "zoom": 1.0,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Scapular Push-Up 💪 Hombros estables paso a paso | CrossFit",
+    "tags": [
+      "scapular push up",
+      "scapular pushup",
+      "flexión escapular",
+      "flexiones de escápulas",
+      "serrato anterior",
+      "activación de hombros",
+      "estabilidad escapular",
+      "entrada en calor",
+      "crossfit",
+      "hombros",
+      "core"
+    ],
+    "descripcion": "💪 SCAPULAR PUSH-UP — Activación de escápulas para hombros fuertes y estables\n\n¿Te molestan los hombros en los movimientos por encima de la cabeza o en las dominadas? Muchas veces falta control de escápulas. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Ponete en plancha alta: manos debajo de los hombros, brazos estirados y el cuerpo en línea.\n2️⃣ Empujá el piso y separá las escápulas: la parte alta de la espalda sube unos centímetros.\n3️⃣ Juntá las escápulas y dejá que el pecho baje entre los hombros.\n4️⃣ Los codos no se doblan nunca: es un movimiento de escápulas, no de brazos.\n5️⃣ El recorrido es corto, de pocos centímetros. Core activo y cadera quieta.\n\n✅ CLAVES DE TÉCNICA\n• Codos completamente estirados en todo momento\n• Es un movimiento puro de escápulas, no de brazos\n• Core activo y cadera quieta\n• Recorrido corto y controlado\n• Trabaja el serrato anterior y la estabilidad escapular para el overhead\n\n🎯 QUÉ TRABAJA\nDorsal ancho · Pectoral mayor · Serrato anterior · Recto abdominal\n\n⏱️ CUÁNTO\n10 repeticiones lentas. Va en la entrada en calor o como activación antes de trabajar hombros.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Activacion #ScapularPushUp #Hombros #Entrenamiento"
+  }
+}

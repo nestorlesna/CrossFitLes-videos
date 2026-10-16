@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Cat cau: movilidad de columna en cuadrupedia. Ideal para la entrada en calor y la vuelta a la calma."
+    },
+    {
+      "id": "02",
+      "text": "En cuadrupedia: manos debajo de los hombros, rodillas debajo de la cadera y la espalda neutra."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno, la vaca. Inhalá, dejá caer suavemente el abdomen hacia el piso y llevá la mirada adelante."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos, el gato. Exhalá y redondeá la espalda hacia el techo, con la cabeza hacia abajo."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Mové toda la columna, del cuello a la cadera, como una ola. Alterná vaca y gato."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Acompañá con la respiración: inhalás en la vaca, exhalás en el gato. Lento y sin forzar."
+    },
+    {
+      "id": "07",
+      "text": "Claves: manos bajo los hombros, mové toda la columna, seguí la respiración, y siempre lento, sin forzar."
+    },
+    {
+      "id": "08",
+      "text": "Doce repeticiones, una respiración completa en cada una. Antes de entrenar o para aflojar al final."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}
