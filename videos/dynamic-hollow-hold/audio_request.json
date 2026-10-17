@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Dainámic jólou jold: el jólou con disco y pequeños movimientos de brazos y piernas. Core de acero."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba, con un disco liviano en las manos y los brazos extendidos por encima de la cabeza."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Pegá la zona lumbar al piso y despegá hombros y piernas: el cuerpo forma una banana."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Desde ahí, alterná pequeños movimientos de brazos y piernas, sin perder la posición."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. La lumbar nunca se despega del piso. Si perdés la posición, achicá el rango: piernas más arriba."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Respiración controlada durante todo el movimiento, sin trabar el aire."
+    },
+    {
+      "id": "07",
+      "text": "Claves: lumbar pegada al piso, movimientos chicos, menos rango si se despega y respiración controlada."
+    },
+    {
+      "id": "08",
+      "text": "Treinta segundos sin perder la posición. Calidad antes que rango."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

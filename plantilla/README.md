@@ -51,7 +51,9 @@ Separador `;`, UTF-8 con BOM. La `clave` es el slug del video. Las columnas que 
 | `node plantilla/make-exercise.mjs <slug> --info` | muestra la fila del CSV de ese ejercicio |
 | `npx hyperframes preview` (dentro de `videos/<slug>`) | revisar en el Studio |
 
-Flags: `--force-tts`, `--no-check`, `--no-snapshot`.
+Flags: `--force-tts`, `--no-check`, `--no-snapshot`, `--prefijo=OC` (con `--render`: el video sale como `salida/OC_<slug>.mp4`; el nombre queda en `.pipeline.json` → `archivo` y el CHECKLIST lo encuentra).
+
+Para generar varios videos con otra herramienta o modelo: seguir **`GENERAR_VIDEOS.md`** (raíz del proyecto).
 
 Flujo recomendado: escribir la ficha → `make-exercise <slug>` → mirar el contact sheet / preview → ajustar poses → `--render` → cuando el profe lo aprueba, `"revisado": true` y `--checklist`.
 
@@ -135,6 +137,8 @@ del ejercicio (no la de pie). Se arma en `videos/<slug>/miniatura/` con `buildIn
 | `topview` con `"mode": "twist"` | tarjeta "vista de arriba" sentado: hombros, brazos y balón giran de lado a lado (`angle`, `dur` por ida, `at`); russian twist |
 | `topview` con `"mode": "lean"` / `"rot"` | "vista de frente": el tronco con el brazo arriba se inclina hacia una pared (lat stretch); "vista de arriba": el cuerpo gira alrededor de la mano apoyada en la pared (hombro). `angle`, `at`, `dur`, `back` |
 | `topview` con `"mode": "front"` | tarjeta "vista de frente" cuyos brazos siguen solos la pose de perfil (altura de codo y mano de la vista lateral, el resto del largo hacia afuera). `plates: true` agrega discos en las manos. Para ejercicios de hombro (ver `cuban-press`) |
+| `topview` con `"mode": "er"` | "vista de arriba" de la rotación externa: el antebrazo gira hacia afuera según la clave `fl` y la banda se estira hasta el ancla. Solo `label` |
+| `topview` con `"mode": "cossack"` | "vista de frente" con los pies abiertos: la cadera baja hacia un lado según la clave `cs` de la pose (1 / −1) y la otra pierna queda estirada. Movimientos laterales (ver `cossack-squat`). Solo `label` |
 | `scroll` | velocidad del piso que se desplaza en esa escena (px/s; negativa = camina para atrás, 0 = quieto). Pisa a `floorScroll` |
 | `topview` con `"mode": "bar"` | tarjeta "vista de arriba" con la barra y el atleta al costado; `at` = salta al otro lado, `at: null` = quieta (burpee lateral) |
 | `topview` con `"mode": "9090"` | tarjeta "vista de arriba" sentado en 90/90; `at` = momento en que las piernas cambian de lado (espejo), `from: -1` arranca espejado, `at: null` = quieta |
@@ -187,6 +191,9 @@ Se dibujan en `runtime.js` (bloque PROPS) en coordenadas del rig; las partes mó
 | `kettlebell` + `swing: true` | | la pesa sigue la línea hombro→mano (swing: atrás entre las piernas, al frente, arriba de la cabeza). Ver `kettlebell-swing` |
 | `jumprope` | `c [dx,dy]`, `rx`, `ry` | cuerda que gira alrededor de la cadera (+c) en una elipse; fase `rp` (0 = bajo los pies, 0.5 = arriba). Ciclo: `seq [[AIR(rp 0), 0.01], [LAND(rp .5), t], [AIR2(rp 1), t]]` (el salto de 1 a 0 no se ve). Ver `jump-rope` |
 | `wall` | `x`, `h` | pared fija (escenario, fuera del rig). Ojo con `h`: si es muy alta cruza la portada y la lista de claves (≈ 880). Ver `wall-shoulder-stretch` |
+| `band` | `anchor [x,y]`, `hand` (`near`/`both`), `post [x,h]`, `layer` (`mid`/`back`), `color` | banda elástica del ancla a la(s) mano(s); `post` dibuja el parante (escenario, se atenúa en claves). Ancla alta adelante = pushdown; ancla a la altura de la mano con `layer: "mid"` = rotación externa. Ver `band-triceps-pushdown`, `band-external-rotation` |
+| `partner` | `x` | compañero frente a frente: copia espejada del atleta (`<use>`) alrededor de x (rig px); hace el mismo movimiento a la vez. Con `shadow: false`. Ver `partner-wall-ball-sit-up` |
+| `wallball` + `mirror: x` | `arc` | balón que se pasan con el `partner`: bf 0 = mis manos, 1 = las del compañero (con arco al cruzar); se dibuja encima de los dos |
 | `floorbar` | `x0`, `x1`, `r` | barra en el piso paralela al cuerpo (larga, discos de canto). `pz 0` = detrás del atleta, `pz 1` = delante: el salto lateral por encima se lee con el cambio de profundidad (ver `burpee-over-the-bar`) |
 
 Para agregar uno nuevo (barra, kettlebell, cajón…): sumar un `if (pr.type === "...")` en PROPS con las piezas fijas en
@@ -222,6 +229,9 @@ Vista lateral mirando a la derecha. Ángulos en grados:
 - **`cv`**: curva de la espalda en px (`+` redondea hacia el techo: gato, protracción escapular; `−` la hunde: vaca). Ver `cat-cow`, `scapular-push-up`.
 - **`ul`**: largo del brazo superior (1 normal; ~0,3 = codo abierto al costado, que de perfil apunta a la cámara: upright row, rotación externa). Ver `cuban-press`.
 - Ángulos de brazo que se interpolan: pasan por el camino corto entre los dos valores. Acostado con brazos atrás de la cabeza usar `ua 270` (no −90) para que al subir pasen por arriba y no atraviesen el piso (ver `v-up`).
+- **`fl`**: largo del antebrazo cercano (1 normal; ~0,26 = rotado ~75° hacia la cámara). Ver `band-external-rotation`.
+- **`ll` / `ll2`**: largo dibujado de la pierna cercana / lejana (1 normal). Una pierna estirada hacia el costado (se aleja de la cámara) se ve corta: ubicar la pose con `hip`, la pierna con `s = t` y `ll` = distancia cadera→pie / 470 (ver `cossack-squat`). La cadera sigue saliendo de la cadena completa.
+- **`cs`**: corrimiento de peso para la tarjeta `topview mode cossack` (−1 … 1).
 - **`fx`**: hacia dónde mira (1 derecha, −1 izquierda). Interpolarlo pasa por 0 = giro sobre la cadera. Con `fx −1` el cuerpo se espeja alrededor de la cadera: escribir la pose "hacia la derecha" con la cadera en su x (ver `shuttle-run`). Los overlays `{ "j": ... }` ignoran `fx` (usar posiciones absolutas) y los props del rig también se espejan (salvo `box`, que es escenario fijo). Para volver por el mismo camino mirando a la izquierda: la misma pose con todas las x corridas −2·(x de la cadera) y `fx −1` (ver `mirror()` en `box-jump-over`).
 - **`ankle2`** (con `hip` + `ankle`): IK de la pierna lejana desde la misma cadera (cada pie en su pedal).
 - **`wr` / `wr2`** + `"fingers": true` en la ficha: dedos dibujados y ángulo de muñeca (−80 = dedos al piso con el brazo al frente). Ver `wrist-extensor-stretch`.
@@ -258,7 +268,7 @@ Puntos de partida para otras (ajustar con snapshots): sentadilla paralela `s 30,
 
 ### Límites actuales
 
-- Un solo personaje, vista lateral. Implementos: `rower`, `kettlebell`, `barbell`, `wallball`, `airbike`, `pullupbar`, `dumbbell`, `floorbar`, `sled`, `skierg`, `box`, `jumprope`, `wall` (discos chicos: `barbell` con `r` 40); el resto (bandas, anillas, cuerda de trepar…) hay que agregarlo en PROPS de `plantilla/runtime.js`.
+- Un solo personaje, vista lateral. Implementos: `rower`, `kettlebell`, `barbell`, `wallball`, `airbike`, `pullupbar`, `dumbbell`, `floorbar`, `sled`, `skierg`, `box`, `jumprope`, `wall`, `band`, `partner` (discos chicos: `barbell` con `r` 40); el resto (anillas, cuerda de trepar…) hay que agregarlo en PROPS de `plantilla/runtime.js`.
 - Voz: ver sección **Voz** abajo.
 
 ## Voz

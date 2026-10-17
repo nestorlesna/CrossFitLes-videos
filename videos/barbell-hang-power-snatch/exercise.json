@@ -1,0 +1,499 @@
+{
+  "slug": "barbell-hang-power-snatch",
+  "name": "Barbell Hang Power Snatch",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Cadera",
+    "Hombros",
+    "Potencia"
+  ],
+  "descripcion": "Desde de pie con la barra en agarre ancho, bajar en bisagra hasta arriba de las rodillas (hang). Extender cadera y piernas de forma explosiva y recibir la barra arriba de la cabeza con los brazos bloqueados en media sentadilla.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 450,
+    "y": 1509,
+    "scale": 0.66
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "r": 96
+    }
+  ],
+  "pronuncia": {
+    "Hang Power Snatch": "Jang páuer snach",
+    "hang": "jang"
+  },
+  "initialPose": "STAND_BAR",
+  "poses": {
+    "STAND_BAR": {
+      "g": 1,
+      "ed": 1,
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "hx": 30,
+      "hy": -424
+    },
+    "HIP": {
+      "s": 18,
+      "t": -38,
+      "b": 18,
+      "hd": 10,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": 2,
+      "fa2": 0
+    },
+    "EXT": {
+      "s": -4,
+      "t": 4,
+      "b": -8,
+      "hd": -6,
+      "ft": -22,
+      "ft2": -22,
+      "g": 0,
+      "ua": 6,
+      "fa": 0,
+      "ua2": 6,
+      "fa2": 0
+    },
+    "PULL": {
+      "s": -2,
+      "t": 2,
+      "b": -4,
+      "hd": -4,
+      "ft": -16,
+      "ft2": -16,
+      "g": 0,
+      "ua": 95,
+      "fa": -100,
+      "ua2": 95,
+      "fa2": -100
+    },
+    "CATCH": {
+      "hip": [
+        -95,
+        -372
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 16,
+      "hd": 12,
+      "g": 0,
+      "ua": 190,
+      "fa": 0,
+      "ua2": 190,
+      "fa2": 0
+    },
+    "OH": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 6,
+      "g": 0,
+      "ua": 186,
+      "fa": 0,
+      "ua2": 186,
+      "fa2": 0
+    },
+    "HANG": {
+      "g": 1,
+      "ed": 1,
+      "s": 8,
+      "t": -30,
+      "b": 55,
+      "hd": 40,
+      "hx": 45,
+      "hy": -290
+    },
+    "HANG_BAD": {
+      "g": 1,
+      "ed": 1,
+      "s": 24,
+      "t": -62,
+      "b": 30,
+      "hd": 20,
+      "hx": 20,
+      "hy": -290
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "HANG POWER",
+        "SNATCH"
+      ],
+      "vo": "Hang Power Snatch: desde arriba de las rodillas hasta arriba de la cabeza, en un solo movimiento.",
+      "moves": [
+        {
+          "to": "HANG",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "HIP",
+          "at": 1.25,
+          "dur": 0.25
+        },
+        {
+          "to": "EXT",
+          "at": 1.5,
+          "dur": 0.18,
+          "ease": "power2.out"
+        },
+        {
+          "to": "PULL",
+          "at": 1.68,
+          "dur": 0.18
+        },
+        {
+          "to": "CATCH",
+          "at": 1.86,
+          "dur": 0.25,
+          "ease": "power2.out"
+        },
+        {
+          "to": "OH",
+          "at": 2.6,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE",
+        "AGARRE ANCHO"
+      ],
+      "sub": "Barra en la cadera",
+      "vo": "Parate con la barra en la cadera, en agarre ancho de arrancada, y los pies al ancho de la cadera.",
+      "moves": [
+        {
+          "cut": "STAND_BAR",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            595.2,
+            1139.4
+          ],
+          "text": "AGARRE ANCHO",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "BAJÁ",
+        "AL HANG"
+      ],
+      "sub": "Arriba de las rodillas",
+      "vo": "Paso uno. Bajá en bisagra hasta arriba de las rodillas: hombros delante de la barra, espalda firme, peso en medio pie.",
+      "moves": [
+        {
+          "to": "HANG",
+          "at": 0.5,
+          "dur": 1.0
+        },
+        {
+          "to": "HANG_BAD",
+          "at": 2.6,
+          "dur": 0.6
+        },
+        {
+          "to": "HANG",
+          "at": 3.8,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            621.6,
+            981.0
+          ],
+          "text": "HOMBROS ADELANTE",
+          "anchor": "start",
+          "at": 1.4,
+          "out": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            621.6,
+            981.0
+          ],
+          "text": "SENTADILLA NO",
+          "anchor": "start",
+          "at": 3.0,
+          "out": 3.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "EXTENDÉ",
+        "EXPLOSIVO"
+      ],
+      "sub": "Barra pegada a los muslos",
+      "vo": "Paso dos. Extendé cadera y piernas de forma explosiva, con la barra pegada a los muslos.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "HIP",
+          "at": 0.5,
+          "dur": 0.4
+        },
+        {
+          "to": "EXT",
+          "at": 0.9,
+          "dur": 0.3,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            337.8,
+            915.0
+          ],
+          "at": 0.9,
+          "dur": 0.8,
+          "from": [
+            337.8,
+            1377.0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            318.0,
+            875.4
+          ],
+          "text": "EXTENSIÓN",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "CODOS ALTOS",
+        "Y RECIBÍ"
+      ],
+      "sub": "Media sentadilla",
+      "vo": "Paso tres. Tirá con los codos altos y afuera, y recibí la barra arriba con los brazos bloqueados en media sentadilla.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.5,
+          "dur": 0.3
+        },
+        {
+          "to": "CATCH",
+          "at": 0.8,
+          "dur": 0.35,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": [
+            476.4,
+            870.0
+          ],
+          "color": "ink",
+          "width": 6,
+          "at": 1.6,
+          "from": [
+            476.4,
+            1528.8
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            492.6,
+            896.4
+          ],
+          "text": "BRAZOS BLOQUEADOS",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ESTABLE",
+        "Y PARATE"
+      ],
+      "sub": "Después, bajala",
+      "vo": "Paso cuatro. Recibí activo y estable antes de pararte. Después bajá la barra controlada a la cadera.",
+      "moves": [
+        {
+          "cut": "CATCH",
+          "at": 0
+        },
+        {
+          "to": "OH",
+          "at": 1.2,
+          "dur": 0.8
+        },
+        {
+          "to": "STAND_BAR",
+          "at": 3.0,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Hombros delante de la barra",
+        "Barra pegada a los muslos",
+        "Codos altos y afuera",
+        "Recibí activo y estable"
+      ],
+      "vo": "Claves: hombros delante de la barra en el hang, barra pegada a los muslos, codos altos y afuera, y recepción activa y estable.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "2 REPS"
+      ],
+      "sub": "Con 30 kg",
+      "vo": "Dos repeticiones con treinta kilos. Buena técnica antes de sumar peso.",
+      "chips": [
+        {
+          "label": "1 · HANG",
+          "at": 0.5
+        },
+        {
+          "label": "2 · EXTENSIÓN",
+          "at": 1.5
+        },
+        {
+          "label": "3 · RECEPCIÓN",
+          "at": 1.9
+        }
+      ],
+      "moves": [
+        {
+          "cut": "STAND_BAR",
+          "at": 0
+        },
+        {
+          "to": "HANG",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "HIP",
+          "at": 1.25,
+          "dur": 0.25
+        },
+        {
+          "to": "EXT",
+          "at": 1.5,
+          "dur": 0.18,
+          "ease": "power2.out"
+        },
+        {
+          "to": "PULL",
+          "at": 1.68,
+          "dur": 0.18
+        },
+        {
+          "to": "CATCH",
+          "at": 1.86,
+          "dur": 0.25,
+          "ease": "power2.out"
+        },
+        {
+          "to": "OH",
+          "at": 2.6,
+          "dur": 0.6
+        },
+        {
+          "to": "STAND_BAR",
+          "at": 3.6,
+          "dur": 0.9
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "CATCH",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 170
+  },
+  "youtube": {
+    "titulo": "Hang Power Snatch 🔥 Arranque colgado paso a paso | CrossFit",
+    "tags": [
+      "hang power snatch",
+      "barbell hang power snatch",
+      "arranque colgado",
+      "arranque de potencia",
+      "snatch",
+      "hang snatch",
+      "levantamiento olímpico",
+      "halterofilia",
+      "crossfit",
+      "potencia"
+    ],
+    "descripcion": "🔥 BARBELL HANG POWER SNATCH — Desde arriba de las rodillas hasta arriba de la cabeza\n\n¿Querés pulir la extensión y la recepción del snatch sin el tirón del piso? El hang power snatch es el ejercicio. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate con la barra en la cadera, en agarre ancho de arrancada, con los pies al ancho de la cadera.\n2️⃣ Bajá en bisagra hasta arriba de las rodillas (hang): hombros delante de la barra, espalda firme, peso en medio pie.\n3️⃣ Extendé cadera y piernas de forma explosiva, con la barra pegada a los muslos.\n4️⃣ Tirá con los codos altos y afuera, y recibí la barra arriba con los brazos bloqueados en media sentadilla.\n5️⃣ Recibí activo y estable antes de pararte, y bajá la barra controlada a la cadera.\n\n✅ CLAVES DE TÉCNICA\n• En el hang: hombros delante de la barra, espalda firme y peso en medio pie\n• Barra pegada a los muslos al extender\n• Codos altos y afuera en el tirón\n• Recibí activo y estable antes de pararte\n\n🎯 QUÉ TRABAJA\nGlúteo mayor · Bíceps femoral · Deltoides anterior · Dorsal ancho · Erectores espinales · Recto femoral · Trapecio superior · Tríceps braquial\n\n⏱️ CUÁNTO\n2 repeticiones con 30 kg (por series). Va en bloques de fuerza, habilidad y en WODs.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste levantamiento olímpico, aprendé la técnica con un caño de PVC o la barra sola y con un coach al lado antes de cargar peso.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Halterofilia #HangPowerSnatch #Potencia #Entrenamiento"
+  }
+}

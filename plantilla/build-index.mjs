@@ -11,7 +11,7 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 export const VO_LEAD = 0.25; // voice starts this long after its frame opens
 const TAIL = 0.75; // breathing room after the line ends
 const RIG = { x: 470, y: 1500, scale: 0.9 }; // spec.rig overrides (e.g. rowing: machine needs more room)
-const POSE_KEYS = ["s", "t", "b", "hd", "ua", "fa", "s2", "t2", "ua2", "fa2", "rx", "ry", "ft", "ft2", "hx", "hy", "ed", "lr", "al", "hb", "bf", "bx", "by", "g2", "hx2", "hy2", "ed2", "wr", "wr2", "cv", "fx", "dh", "pz", "rp", "ul"];
+const POSE_KEYS = ["s", "t", "b", "hd", "ua", "fa", "s2", "t2", "ua2", "fa2", "rx", "ry", "ft", "ft2", "hx", "hy", "ed", "lr", "al", "hb", "bf", "bx", "by", "g2", "hx2", "hy2", "ed2", "wr", "wr2", "cv", "fx", "dh", "pz", "rp", "ul", "fl", "ll", "ll2", "cs"];
 const SHIN = 230, THIGH = 240; // = runtime.js L.shin / L.thigh
 const deg = (r) => (r * 180) / Math.PI, rad = (d) => (d * Math.PI) / 180;
 
@@ -32,7 +32,7 @@ function legIK([hx, hy], [ax, ay], back) {
   return { s: +deg(Math.atan2(K.x - ax, -(K.y - ay))).toFixed(2), t: +deg(Math.atan2(H.x - K.x, -(H.y - K.y))).toFixed(2) };
 }
 export function normalizePose(p) {
-  const q = { s: 0, t: 0, b: 0, hd: 0, ua: 6, fa: 6, rx: 0, ry: 0, ft: 0, hx: 70, hy: -20, ed: 1, lr: 0, al: 1, hb: 0, bf: 0, bx: 0, by: 0, cv: 0, fx: 1, dh: 0, pz: 0, rp: 0, ul: 1, ...p };
+  const q = { s: 0, t: 0, b: 0, hd: 0, ua: 6, fa: 6, rx: 0, ry: 0, ft: 0, hx: 70, hy: -20, ed: 1, lr: 0, al: 1, hb: 0, bf: 0, bx: 0, by: 0, cv: 0, fx: 1, dh: 0, pz: 0, rp: 0, ul: 1, fl: 1, ll: 1, ll2: 1, cs: 0, ...p };
   if (p.hip && p.ankle) {
     Object.assign(q, legIK(p.hip, p.ankle, p.knee === "back"));
     q.rx = p.ankle[0]; q.ry = p.ankle[1];
@@ -225,6 +225,40 @@ export function buildIndex(projectDir, { thumb = false } = {}) {
             <line id="fcf${sd}-${f.id}" stroke="#E8B383" stroke-width="12" stroke-linecap="round"/>
             <circle id="fch${sd}-${f.id}" r="7" fill="#E8B383"/>${f.topview.plates ? `<circle id="fcp${sd}-${f.id}" r="13" fill="#7C7F86" stroke="#5E6168" stroke-width="3"/>` : ""}`).join("")}
             <text x="126" y="294" text-anchor="middle" font-family="Inter" font-weight="800" font-size="20" fill="#1A1A1A">${esc(f.topview.label || "HOMBROS")}</text>
+          </svg>
+        </div>
+      </div>`);
+    else if (f.topview?.mode === "cossack")
+      // Cossack squat de frente (runtime: csCards): pies abiertos fijos, la cadera baja hacia un lado según la clave cs.
+      extras.push(`<div id="fx-${f.id}" class="clip" data-start="${f.start}" data-duration="${f.dur}" data-track-index="4">
+        <div id="topcard-${f.id}" class="feetcard topcard"><div class="lbl">VISTA DE FRENTE</div>
+          <svg viewBox="0 0 252 300">
+            <line x1="14" y1="272" x2="238" y2="272" stroke="#D9D2C5" stroke-width="6" stroke-linecap="round"/>
+            ${["tl", "sl", "tr", "sr"].map((k) => `<line id="cs${k}-${f.id}" stroke="#3F3F9A" stroke-width="17" stroke-linecap="round"/>`).join("")}
+            <rect x="40" y="254" width="36" height="16" rx="8" fill="#3B3FA3"/>
+            <rect x="176" y="254" width="36" height="16" rx="8" fill="#3B3FA3"/>
+            <line id="csto-${f.id}" stroke="#2FB3A6" stroke-width="46" stroke-linecap="round"/>
+            <line id="csal-${f.id}" stroke="#E8B383" stroke-width="12" stroke-linecap="round"/>
+            <line id="csar-${f.id}" stroke="#E8B383" stroke-width="12" stroke-linecap="round"/>
+            <circle id="cshd-${f.id}" r="20" fill="#6B3B1F"/>
+            <text x="126" y="294" text-anchor="middle" font-family="Inter" font-weight="800" font-size="20" fill="#1A1A1A">${esc(f.topview.label || "PIERNA ESTIRADA")}</text>
+          </svg>
+        </div>
+      </div>`);
+    else if (f.topview?.mode === "er")
+      // Rotación externa vista de arriba (runtime: erCards): codo pegado al cuerpo, el antebrazo gira hacia afuera contra la banda.
+      extras.push(`<div id="fx-${f.id}" class="clip" data-start="${f.start}" data-duration="${f.dur}" data-track-index="4">
+        <div id="topcard-${f.id}" class="feetcard topcard"><div class="lbl">VISTA DE ARRIBA</div>
+          <svg viewBox="0 0 252 300">
+            <rect x="200" y="26" width="28" height="28" rx="6" fill="#2E323B"/>
+            <rect x="52" y="64" width="64" height="150" rx="30" fill="#2FB3A6"/>
+            <circle cx="84" cy="139" r="28" fill="#6B3B1F"/>
+            <path d="M104 124 L120 139 L104 154 Z" fill="#E8B383"/>
+            <line id="erb-${f.id}" stroke="#3FA34D" stroke-width="7" stroke-linecap="round"/>
+            <circle cx="112" cy="186" r="12" fill="#E8B383"/>
+            <line id="erf-${f.id}" stroke="#E8B383" stroke-width="14" stroke-linecap="round"/>
+            <circle id="erh-${f.id}" r="10" fill="#E8B383"/>
+            <text x="126" y="294" text-anchor="middle" font-family="Inter" font-weight="800" font-size="20" fill="#1A1A1A">${esc(f.topview.label || "CODO PEGADO")}</text>
           </svg>
         </div>
       </div>`);

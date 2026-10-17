@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Páuer clin: la barra del piso a los hombros en un solo movimiento, y recibís arriba del paralelo."
+    },
+    {
+      "id": "02",
+      "text": "Pies al ancho de la cadera, agarre apenas más ancho que los hombros, espalda firme y hombros por encima de la barra."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Primer tirón controlado: despegá la barra del piso hasta las rodillas, pegada al cuerpo."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Extendé cadera y piernas de forma explosiva. No tires con los brazos antes de extender."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Pasá los codos rápido al frente y recibí en media sentadilla, por encima del paralelo y con talones apoyados."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Parate completo con la barra en los hombros y bajala controlada."
+    },
+    {
+      "id": "07",
+      "text": "Claves: espalda firme en la salida, barra pegada al cuerpo, extendé antes de tirar con los brazos y codos rápidos al frente."
+    },
+    {
+      "id": "08",
+      "text": "Una repetición por serie, con un peso que te deje moverte bien. Reseteá la posición antes de cada una."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

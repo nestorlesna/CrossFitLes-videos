@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Arm sércols: círculos amplios con los brazos en cruz. Hombros listos para entrenar."
+    },
+    {
+      "id": "02",
+      "text": "Parate derecho, con los pies al ancho de la cadera y los brazos extendidos en cruz, a la altura de los hombros."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Hacé círculos grandes hacia adelante, durante la mitad del tiempo."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Después cambiá el sentido y hacé los círculos hacia atrás, la otra mitad del tiempo."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Buscá amplitud, no velocidad: círculos grandes y lentos, sin encoger los hombros hacia las orejas."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Abdomen firme para no arquear la espalda cuando los brazos pasan por arriba."
+    },
+    {
+      "id": "07",
+      "text": "Claves: brazos extendidos en cruz, círculos grandes y lentos, hombros lejos de las orejas y abdomen firme."
+    },
+    {
+      "id": "08",
+      "text": "Un minuto: treinta segundos hacia adelante y treinta hacia atrás. Prepara los hombros para planchas, flexiones y pike."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

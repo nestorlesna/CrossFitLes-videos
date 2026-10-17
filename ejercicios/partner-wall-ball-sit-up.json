@@ -1,0 +1,629 @@
+{
+  "slug": "partner-wall-ball-sit-up",
+  "name": "Partner Wall Ball Sit-Up",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Abdomen",
+    "Core",
+    "En pareja"
+  ],
+  "descripcion": "En parejas frente a frente, hacer sit-ups pasando el balón medicinal al compañero en la cima del movimiento. El compañero lo recibe y baja.",
+  "revisado": false,
+  "notas": "Primer video en pareja: prop partner (copia espejada del atleta) + wallball mirror (bf 0 = mis manos, 1 = las del compañero).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 504,
+    "y": 1500,
+    "scale": 0.6
+  },
+  "shadow": false,
+  "props": [
+    {
+      "type": "partner",
+      "x": 60
+    },
+    {
+      "type": "wallball",
+      "wall": false,
+      "mirror": 60,
+      "r": 54,
+      "off": [
+        0,
+        -20
+      ],
+      "arc": 90
+    }
+  ],
+  "pronuncia": {
+    "Partner Wall Ball Sit-Up": "Pártner uol bol sitap",
+    "sit-ups": "sitaps"
+  },
+  "initialPose": "FLAT0",
+  "poses": {
+    "FLAT0": {
+      "hip": [
+        -300,
+        -14
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": -88,
+      "hd": -90,
+      "g": 0,
+      "ua": 175,
+      "fa": -100,
+      "ua2": 175,
+      "fa2": -100,
+      "bf": 0
+    },
+    "MID0": {
+      "hip": [
+        -300,
+        -14
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": -48,
+      "hd": -40,
+      "g": 0,
+      "ua": 150,
+      "fa": -40,
+      "ua2": 150,
+      "fa2": -40,
+      "bf": 0
+    },
+    "SIT0": {
+      "hip": [
+        -300,
+        -14
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": -4,
+      "hd": 2,
+      "g": 0,
+      "ua": 128,
+      "fa": 0,
+      "ua2": 128,
+      "fa2": 0,
+      "bf": 0
+    },
+    "FLAT1": {
+      "hip": [
+        -300,
+        -14
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": -88,
+      "hd": -90,
+      "g": 0,
+      "ua": 175,
+      "fa": -100,
+      "ua2": 175,
+      "fa2": -100,
+      "bf": 1
+    },
+    "MID1": {
+      "hip": [
+        -300,
+        -14
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": -48,
+      "hd": -40,
+      "g": 0,
+      "ua": 150,
+      "fa": -40,
+      "ua2": 150,
+      "fa2": -40,
+      "bf": 1
+    },
+    "SIT1": {
+      "hip": [
+        -300,
+        -14
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": -4,
+      "hd": 2,
+      "g": 0,
+      "ua": 128,
+      "fa": 0,
+      "ua2": 128,
+      "fa2": 0,
+      "bf": 1
+    },
+    "PASS": {
+      "hip": [
+        -300,
+        -14
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": -4,
+      "hd": 2,
+      "g": 0,
+      "ua": 128,
+      "fa": 0,
+      "ua2": 128,
+      "fa2": 0,
+      "bf": 0.5
+    },
+    "NECK_BAD": {
+      "hip": [
+        -300,
+        -14
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": -60,
+      "hd": 30,
+      "g": 0,
+      "ua": 175,
+      "fa": -100,
+      "ua2": 175,
+      "fa2": -100,
+      "bf": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "PARTNER WALL",
+        "BALL SIT-UP"
+      ],
+      "vo": "Partner Wall Ball Sit-Up: abdominales en pareja, pasándose el balón medicinal arriba.",
+      "moves": [
+        {
+          "to": "MID0",
+          "at": 0.4,
+          "dur": 0.4
+        },
+        {
+          "to": "SIT0",
+          "at": 0.8,
+          "dur": 0.35
+        },
+        {
+          "to": "SIT1",
+          "at": 1.25,
+          "dur": 0.45
+        },
+        {
+          "to": "MID1",
+          "at": 1.85,
+          "dur": 0.45
+        },
+        {
+          "to": "FLAT1",
+          "at": 2.3,
+          "dur": 0.45
+        },
+        {
+          "to": "MID1",
+          "at": 2.8,
+          "dur": 0.4
+        },
+        {
+          "to": "SIT1",
+          "at": 3.1999999999999997,
+          "dur": 0.35
+        },
+        {
+          "to": "SIT0",
+          "at": 3.65,
+          "dur": 0.45
+        },
+        {
+          "to": "MID0",
+          "at": 4.25,
+          "dur": 0.45
+        },
+        {
+          "to": "FLAT0",
+          "at": 4.699999999999999,
+          "dur": 0.45
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "FRENTE",
+        "A FRENTE"
+      ],
+      "sub": "Pies trabados",
+      "vo": "Acostados frente a frente, con las rodillas flexionadas y los pies firmes en el piso o trabados con los del compañero.",
+      "moves": [
+        {
+          "cut": "FLAT0",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            540.0,
+            1488.0
+          ],
+          "r": 70,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            540.0,
+            1302.0
+          ],
+          "text": "PIES TRABADOS",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "SUBÍ",
+        "CON EL BALÓN"
+      ],
+      "sub": "Al pecho",
+      "vo": "Paso uno. Con el balón en el pecho, subí con los abdominales hasta quedar sentado.",
+      "moves": [
+        {
+          "to": "MID0",
+          "at": 0.6,
+          "dur": 0.6
+        },
+        {
+          "to": "SIT0",
+          "at": 1.2,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "PASÁ",
+        "ARRIBA"
+      ],
+      "sub": "Los dos sentados",
+      "vo": "Paso dos. Pasá el balón arriba, justo cuando los dos están sentados. Coordinen el ritmo.",
+      "moves": [
+        {
+          "cut": "SIT0",
+          "at": 0
+        },
+        {
+          "to": "SIT1",
+          "at": 0.8,
+          "dur": 0.6
+        },
+        {
+          "to": "SIT0",
+          "at": 2.4,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540.0,
+            1008.0
+          ],
+          "text": "LOS DOS ARRIBA",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "BAJÁ",
+        "CON CONTROL"
+      ],
+      "sub": "Espalda completa al piso",
+      "vo": "Paso tres. Bajá con control hasta apoyar la espalda completa. Tu compañero baja con el balón.",
+      "moves": [
+        {
+          "cut": "SIT1",
+          "at": 0
+        },
+        {
+          "to": "MID1",
+          "at": 0.6,
+          "dur": 0.7
+        },
+        {
+          "to": "FLAT1",
+          "at": 1.3,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": [
+            120.0,
+            1514.4
+          ],
+          "solid": true,
+          "at": 2.0,
+          "from": [
+            324.0,
+            1514.4
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            222.0,
+            1302.0
+          ],
+          "text": "ESPALDA APOYADA",
+          "anchor": "middle",
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "SIN TIRAR",
+        "DEL CUELLO"
+      ],
+      "sub": "El abdomen hace el trabajo",
+      "vo": "Paso cuatro. Subí con el abdomen, sin tirar del cuello hacia adelante. La mirada al compañero.",
+      "moves": [
+        {
+          "cut": "FLAT0",
+          "at": 0
+        },
+        {
+          "to": "NECK_BAD",
+          "at": 0.6,
+          "dur": 0.5
+        },
+        {
+          "to": "FLAT0",
+          "at": 1.8,
+          "dur": 0.5
+        },
+        {
+          "to": "MID0",
+          "at": 2.6,
+          "dur": 0.5
+        },
+        {
+          "to": "SIT0",
+          "at": 3.1,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            216.0,
+            1068.0
+          ],
+          "text": "CUELLO NO",
+          "anchor": "middle",
+          "at": 0.9,
+          "out": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            216.0,
+            1068.0
+          ],
+          "text": "ABDOMEN",
+          "anchor": "middle",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 1,
+      "keys": [
+        "Coordinen el ritmo",
+        "Pasen arriba, sentados",
+        "Bajá con control",
+        "Pies firmes"
+      ],
+      "vo": "Claves: coordinen el ritmo, pasen el balón arriba cuando los dos están sentados, bajá con control y pies firmes.",
+      "moves": [
+        {
+          "to": "MID0",
+          "at": 0.4,
+          "dur": 0.4
+        },
+        {
+          "to": "SIT0",
+          "at": 0.8,
+          "dur": 0.35
+        },
+        {
+          "to": "SIT1",
+          "at": 1.25,
+          "dur": 0.45
+        },
+        {
+          "to": "MID1",
+          "at": 1.85,
+          "dur": 0.45
+        },
+        {
+          "to": "FLAT1",
+          "at": 2.3,
+          "dur": 0.45
+        },
+        {
+          "to": "MID1",
+          "at": 2.8,
+          "dur": 0.4
+        },
+        {
+          "to": "SIT1",
+          "at": 3.1999999999999997,
+          "dur": 0.35
+        },
+        {
+          "to": "SIT0",
+          "at": 3.65,
+          "dur": 0.45
+        },
+        {
+          "to": "MID0",
+          "at": 4.25,
+          "dur": 0.45
+        },
+        {
+          "to": "FLAT0",
+          "at": 4.699999999999999,
+          "dur": 0.45
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "20 REPS"
+      ],
+      "sub": "Entre los dos",
+      "vo": "Veinte repeticiones entre los dos, sin perder el ritmo. Ideal para WODs en pareja.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.4
+        },
+        {
+          "label": "2 · PASÁ",
+          "at": 1.25
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.85
+        }
+      ],
+      "moves": [
+        {
+          "to": "MID0",
+          "at": 0.4,
+          "dur": 0.4
+        },
+        {
+          "to": "SIT0",
+          "at": 0.8,
+          "dur": 0.35
+        },
+        {
+          "to": "SIT1",
+          "at": 1.25,
+          "dur": 0.45
+        },
+        {
+          "to": "MID1",
+          "at": 1.85,
+          "dur": 0.45
+        },
+        {
+          "to": "FLAT1",
+          "at": 2.3,
+          "dur": 0.45
+        },
+        {
+          "to": "MID1",
+          "at": 2.8,
+          "dur": 0.4
+        },
+        {
+          "to": "SIT1",
+          "at": 3.1999999999999997,
+          "dur": 0.35
+        },
+        {
+          "to": "SIT0",
+          "at": 3.65,
+          "dur": 0.45
+        },
+        {
+          "to": "MID0",
+          "at": 4.25,
+          "dur": 0.45
+        },
+        {
+          "to": "FLAT0",
+          "at": 4.699999999999999,
+          "dur": 0.45
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "SIT0",
+    "grip": 0,
+    "zoom": 1.0,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Partner Wall Ball Sit-Up 🤝 Abdominales en pareja con balón | CrossFit",
+    "tags": [
+      "partner sit up",
+      "wall ball sit up",
+      "abdominales en pareja",
+      "sit up con balón",
+      "balón medicinal",
+      "abdominales",
+      "crossfit",
+      "wod en pareja",
+      "core"
+    ],
+    "descripcion": "🤝 PARTNER WALL BALL SIT-UP — Abdominales en pareja pasándose el balón\n\n¿Entrenás con un compañero? Este sit-up con balón medicinal pide coordinación y abdomen. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Acostados frente a frente, con las rodillas flexionadas y los pies firmes en el piso (o trabados con los del compañero).\n2️⃣ Con el balón en el pecho, subí con los abdominales hasta quedar sentado.\n3️⃣ Pasá el balón arriba, justo cuando los dos están sentados.\n4️⃣ Bajá con control hasta apoyar la espalda completa; tu compañero baja con el balón.\n5️⃣ Subí con el abdomen, sin tirar del cuello hacia adelante.\n\n✅ CLAVES DE TÉCNICA\n• Coordinen el ritmo: pasen el balón arriba, cuando los dos están sentados\n• Bajá con control apoyando la espalda completa\n• Pies firmes en el piso o trabados con los del compañero\n• No tires del cuello\n\n🎯 QUÉ TRABAJA\nRecto abdominal · Deltoides anterior · Oblicuo externo · Recto femoral\n\n⏱️ CUÁNTO\n20 repeticiones entre los dos. Va en WODs en pareja.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #SitUp #Abdominales #Entrenamiento"
+  }
+}

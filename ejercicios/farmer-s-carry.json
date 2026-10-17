@@ -1,0 +1,482 @@
+{
+  "slug": "farmer-s-carry",
+  "name": "Farmer's Carry",
+  "category": "CROSSFIT · WOD · ACCESORIO",
+  "tags": [
+    "Agarre",
+    "Trapecio",
+    "Core"
+  ],
+  "descripcion": "De pie, sosteniendo dos kettlebells (o mancuernas) pesadas a los costados. Caminar una distancia manteniendo postura firme: espalda recta, hombros hacia atrás y core activo.",
+  "revisado": false,
+  "notas": "Misma base que kettlebell-farmer-carry (dos kettlebells, floorScroll); acá el foco está en la distancia y en apoyar con control.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "floorScroll": 150,
+  "props": [
+    {
+      "type": "kettlebell",
+      "off": [
+        0,
+        16
+      ],
+      "hand": "far"
+    },
+    {
+      "type": "kettlebell",
+      "off": [
+        0,
+        16
+      ]
+    }
+  ],
+  "pronuncia": {
+    "Farmer's Carry": "Fármers carri",
+    "suitcase carry": "sutkeis carri"
+  },
+  "initialPose": "WALK_A",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 5,
+      "fa": 0,
+      "ua2": -5,
+      "fa2": 0
+    },
+    "PICK": {
+      "hip": [
+        -170,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 40,
+      "hd": 28,
+      "g": 0,
+      "ua": 0,
+      "fa": 0,
+      "ua2": 0,
+      "fa2": 0
+    },
+    "PICK_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": 80,
+      "hd": 60,
+      "g": 0,
+      "ua": 0,
+      "fa": 0,
+      "ua2": 0,
+      "fa2": 0
+    },
+    "BAD": {
+      "s": 0,
+      "t": 0,
+      "b": 14,
+      "hd": 22,
+      "g": 0,
+      "ua": 10,
+      "fa": 0,
+      "ua2": 4,
+      "fa2": 0
+    },
+    "WALK_A": {
+      "hip": [
+        0,
+        -450
+      ],
+      "s": -12,
+      "t": -16,
+      "s2": 30,
+      "t2": 18,
+      "ft2": 24,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": -4,
+      "fa": 0,
+      "ua2": 4,
+      "fa2": 0
+    },
+    "WALK_B": {
+      "hip": [
+        0,
+        -450
+      ],
+      "s": 30,
+      "t": 18,
+      "s2": -12,
+      "t2": -16,
+      "ft": 24,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 0,
+      "ua2": -4,
+      "fa2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.4,
+      "badge": "CROSSFIT · WOD · ACCESORIO",
+      "head": [
+        "FARMER'S",
+        "CARRY"
+      ],
+      "vo": "Farmer's Carry: caminar con dos pesas pesadas a los costados. Agarre, trapecio y core.",
+      "moves": [
+        {
+          "loop": [
+            "WALK_A",
+            "WALK_B"
+          ],
+          "at": 0.4,
+          "step": 0.45,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "LEVANTALAS",
+        "CON LAS PIERNAS"
+      ],
+      "sub": "Espalda neutra",
+      "vo": "Con una kettlebell o mancuerna al costado de cada pie, bajá con la espalda neutra y levantalas con las piernas.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "PICK",
+          "at": 0.5,
+          "dur": 0.9
+        },
+        {
+          "to": "STAND",
+          "at": 2.6,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": {
+            "j": "PICK.S",
+            "dx": -60,
+            "dy": -60
+          },
+          "at": 1.4,
+          "out": 2.7,
+          "solid": true,
+          "from": {
+            "j": "PICK.H",
+            "dx": -60,
+            "dy": -60
+          }
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "PICK.S",
+            "dx": -60,
+            "dy": -260
+          },
+          "text": "ESPALDA NEUTRA",
+          "anchor": "middle",
+          "at": 1.5,
+          "out": 2.7
+        }
+      ],
+      "scroll": 0
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "POSTURA",
+        "FIRME"
+      ],
+      "sub": "Hombros atrás, core activo",
+      "vo": "Paso uno. Espalda recta, hombros hacia atrás y el core activo. Que el peso no te encorve.",
+      "moves": [
+        {
+          "to": "BAD",
+          "at": 0.6,
+          "dur": 0.6
+        },
+        {
+          "to": "STAND",
+          "at": 2.2,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            578.0,
+            771.0
+          ],
+          "text": "ENCORVADO NO",
+          "anchor": "start",
+          "at": 1.0,
+          "out": 2.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            578.0,
+            771.0
+          ],
+          "text": "HOMBROS ATRÁS",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ],
+      "scroll": 0
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "PESAS",
+        "QUIETAS"
+      ],
+      "sub": "A los costados",
+      "vo": "Paso dos. Brazos largos y las pesas quietas a los costados, sin que choquen con las piernas.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "STAND.W",
+            "dy": 70
+          },
+          "r": 80,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            623.0,
+            1203.0
+          ],
+          "text": "A LOS COSTADOS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ],
+      "scroll": 0
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "CAMINÁ",
+        "LA DISTANCIA"
+      ],
+      "sub": "Pasos firmes",
+      "vo": "Paso tres. Caminá la distancia con pasos firmes y controlados, respirando sin aflojar el core.",
+      "moves": [
+        {
+          "loop": [
+            "WALK_A",
+            "WALK_B"
+          ],
+          "at": 0.3,
+          "step": 0.45,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            740.0,
+            618.0
+          ],
+          "text": "30 METROS",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "APOYÁ",
+        "CON CONTROL"
+      ],
+      "sub": "Igual que al levantar",
+      "vo": "Paso cuatro. Al llegar, apoyá las pesas igual que las levantaste: con las piernas y la espalda neutra.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "PICK",
+          "at": 0.6,
+          "dur": 1.0
+        },
+        {
+          "to": "PICK_BAD",
+          "at": 2.4,
+          "dur": 0.6
+        },
+        {
+          "to": "PICK",
+          "at": 3.6,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            128.0,
+            690.0
+          ],
+          "text": "CON LAS PIERNAS",
+          "anchor": "middle",
+          "at": 1.4,
+          "out": 2.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            128.0,
+            690.0
+          ],
+          "text": "ESPALDA REDONDA NO",
+          "anchor": "middle",
+          "at": 2.8,
+          "out": 3.6
+        }
+      ],
+      "scroll": 0
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Espalda recta",
+        "Hombros atrás",
+        "Core activo",
+        "Levantá y apoyá con las piernas"
+      ],
+      "vo": "Claves: espalda recta, hombros atrás, core activo, y levantá y apoyá las pesas con las piernas.",
+      "moves": [
+        {
+          "loop": [
+            "WALK_A",
+            "WALK_B"
+          ],
+          "at": 0.2,
+          "step": 0.45,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 METROS"
+      ],
+      "sub": "Con 20 kg por mano",
+      "vo": "Treinta metros con veinte kilos en cada mano. También se puede hacer con una sola pesa: suitcase carry.",
+      "chips": [
+        {
+          "label": "1 · LEVANTÁ",
+          "at": 0.4
+        },
+        {
+          "label": "2 · CAMINÁ",
+          "at": 2.0
+        }
+      ],
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "PICK",
+          "at": 0.3,
+          "dur": 0.6
+        },
+        {
+          "to": "STAND",
+          "at": 1.0,
+          "dur": 0.8
+        },
+        {
+          "loop": [
+            "WALK_A",
+            "WALK_B"
+          ],
+          "at": 2.0,
+          "step": 0.45,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "WALK_A",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 180
+  },
+  "youtube": {
+    "titulo": "Farmer's Carry 🧳 Caminata del granjero paso a paso | CrossFit",
+    "tags": [
+      "farmer's carry",
+      "farmers walk",
+      "farmer carry",
+      "caminata del granjero",
+      "paseo del granjero",
+      "kettlebell",
+      "agarre",
+      "crossfit",
+      "wod",
+      "core",
+      "trapecio"
+    ],
+    "descripcion": "🧳 FARMER'S CARRY — Dos pesas, una distancia y postura de acero\n\n¿Se te abre el agarre o terminás encorvado? El farmer's carry fortalece agarre, trapecio y core como pocos ejercicios. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Con una kettlebell o mancuerna al costado de cada pie, bajá con la espalda neutra y levantalas con las piernas.\n2️⃣ Espalda recta, hombros hacia atrás y el core activo.\n3️⃣ Brazos largos y las pesas quietas a los costados.\n4️⃣ Caminá la distancia con pasos firmes y controlados, respirando sin aflojar el core.\n5️⃣ Al llegar, apoyá las pesas con las piernas y la espalda neutra.\n\n✅ CLAVES DE TÉCNICA\n• Espalda recta y hombros hacia atrás\n• Core activo todo el recorrido\n• Pasos firmes y controlados\n• Levantá y apoyá las pesas con las piernas\n\n🎯 QUÉ TRABAJA\nTrapecio superior · Flexores del antebrazo · Recto abdominal · Recto femoral\n\n⏱️ CUÁNTO\n30 metros con 20 kg por mano. Variantes: con una sola pesa (suitcase carry), arriba de la cabeza (overhead carry) o con barra en rack (front rack carry).\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #FarmersCarry #Agarre #Entrenamiento"
+  }
+}

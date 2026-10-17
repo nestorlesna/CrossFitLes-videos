@@ -89,6 +89,16 @@ Problemas encontrados al generar videos, cómo se resolvieron y qué conviene ha
 | 10-16 | wall-lat / wall-shoulder | Inclinación lateral y rotación no se ven de perfil | tarjetas `topview` `lean` (de frente) y `rot` (de arriba, gira alrededor de la mano) + prop `wall` |
 | 10-16 | (varios) | El check marcó labels cortados en el borde o pisando el subtítulo, y tarjetas encima de los chips de reps | labels largos con anchor hacia el centro; no usar `topview` en la escena de reps (los chips ocupan ese lugar) |
 | 10-16 | cuban-press | El profe pidió ver el movimiento de los hombros de frente | tarjeta `topview mode front`: los brazos se calculan en cada cuadro desde la pose lateral (sirve para cualquier ejercicio de hombros) |
+| 10-16 | clean-and-jerk / hang-power-clean | Con disco r 90 la barra en el rack tapaba toda la cara | `barbell` r 74 con `torso [64, 36]`; en el SETUP bajar las manos (hy −40) para que el disco toque el piso |
+| 10-16 | clean-and-jerk | Tijera del jerk: el pie de atrás atravesaba el piso al ponerlo en puntas | pie de atrás levantado (`ankle2 y −40`) y `ft2` positivo (horario = punta abajo) |
+| 10-16 | (varios) | `pose-lab` con 10 ejercicios en paralelo: uno falló por timeout del navegador | correr de a 5, o repetir el que falló |
+| 10-16 | box-step-up | Con el cajón de 300 la pierna de abajo no llegaba al piso al bajar | cajón de 220 para que `ankle`/`ankle2` lleguen (cadera–tobillo ≤ 470) |
+| 10-16 | partner-wall-ball-sit-up | Dos personas | prop `partner` (copia espejada con `<use>`) + `wallball` `mirror` (balón fuera del rig para que no se duplique) |
+| 10-16 | band-external-rotation | La rotación externa (antebrazo hacia la cámara) no se ve de perfil | clave `fl` (antebrazo acortado) + tarjeta `topview` `er` (vista de arriba con la banda) |
+| 10-16 | cossack-squat | Sentadilla lateral: la pierna estirada va hacia el costado y de perfil no se ve | claves `ll`/`ll2` (pierna corta por escorzo, el pie cae bajo la cadera) + tarjeta `topview mode cossack` (vista de frente que sigue a `cs`) |
+| 10-16 | arm-circles | Brazos en cruz haciendo círculos | `al 0.34` + `ua` 0/90/180/270 en un `seq` con `ease: none` (adelante = ua decreciente); tarjeta `topview mode front` |
+| 10-16 | wall-sit / wall-thoracic | Pared detrás o adelante | prop `wall` (rect de `x` a `x+60`): detrás = `x` = espalda − 60; adelante con manos `g 1` a la pared y el hombro a ≤ 330 px |
+| 10-16 | bird-dog-crunch | Brazo libre y el otro apoyado, pasando de cuadrupedia | poner `g2 1, hx2, hy2` también en la pose de cuadrupedia (si no, `g2` va de −1 a 1 y el brazo salta); codo y rodilla se tocan en la intersección de círculos calculada en el script |
 
 ## Pendientes / ideas
 

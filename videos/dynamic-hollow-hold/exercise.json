@@ -1,0 +1,503 @@
+{
+  "slug": "dynamic-hollow-hold",
+  "name": "Dynamic Hollow Hold",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Core",
+    "Abdominales"
+  ],
+  "descripcion": "Desde la posición de hollow hold, se alternan pequeños movimientos de brazos y piernas mientras la zona lumbar permanece pegada al piso.",
+  "revisado": false,
+  "notas": "Disco liviano en las manos (prop barbell r 52); hollow con el torso curvo (cv +) y la lumbar contra el piso.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1500,
+    "scale": 0.84
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "r": 52
+    }
+  ],
+  "pronuncia": {
+    "Dynamic Hollow Hold": "Dainámic jólou jold",
+    "hollow": "jólou"
+  },
+  "initialPose": "FLAT",
+  "poses": {
+    "FLAT": {
+      "hip": [
+        0,
+        -20
+      ],
+      "s": -90,
+      "t": -90,
+      "b": -90,
+      "hd": -92,
+      "ft": -90,
+      "ft2": -90,
+      "g": 0,
+      "ua": 200,
+      "fa": 0,
+      "ua2": 200,
+      "fa2": 0
+    },
+    "FLAT_OH": {
+      "hip": [
+        0,
+        -20
+      ],
+      "s": -90,
+      "t": -90,
+      "b": -90,
+      "hd": -92,
+      "ft": -90,
+      "ft2": -90,
+      "g": 0,
+      "ua": 268,
+      "fa": 0,
+      "ua2": 268,
+      "fa2": 0
+    },
+    "HOLD": {
+      "hip": [
+        0,
+        -18
+      ],
+      "s": -114,
+      "t": -114,
+      "b": -72,
+      "hd": -56,
+      "ft": -64,
+      "ft2": -64,
+      "g": 0,
+      "ua": 250,
+      "fa": 0,
+      "ua2": 250,
+      "fa2": 0,
+      "cv": 14
+    },
+    "DYN_A": {
+      "hip": [
+        0,
+        -18
+      ],
+      "s": -108,
+      "t": -108,
+      "b": -72,
+      "hd": -56,
+      "ft": -58,
+      "ft2": -58,
+      "g": 0,
+      "ua": 240,
+      "fa": 0,
+      "ua2": 240,
+      "fa2": 0,
+      "cv": 14
+    },
+    "DYN_B": {
+      "hip": [
+        0,
+        -18
+      ],
+      "s": -122,
+      "t": -122,
+      "b": -74,
+      "hd": -58,
+      "ft": -72,
+      "ft2": -72,
+      "g": 0,
+      "ua": 260,
+      "fa": 0,
+      "ua2": 260,
+      "fa2": 0,
+      "cv": 14
+    },
+    "EASY": {
+      "hip": [
+        0,
+        -18
+      ],
+      "s": -140,
+      "t": -140,
+      "b": -70,
+      "hd": -54,
+      "ft": -90,
+      "ft2": -90,
+      "g": 0,
+      "ua": 205,
+      "fa": 0,
+      "ua2": 205,
+      "fa2": 0,
+      "cv": 14
+    },
+    "ARCH_BAD": {
+      "hip": [
+        0,
+        -18
+      ],
+      "s": -100,
+      "t": -100,
+      "b": -80,
+      "hd": -64,
+      "ft": -50,
+      "ft2": -50,
+      "g": 0,
+      "ua": 262,
+      "fa": 0,
+      "ua2": 262,
+      "fa2": 0,
+      "cv": -26
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "DYNAMIC",
+        "HOLLOW HOLD"
+      ],
+      "vo": "Dynamic Hollow Hold: el hollow con disco y pequeños movimientos de brazos y piernas. Core de acero.",
+      "moves": [
+        {
+          "to": "HOLD",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "DYN_A",
+              0.55
+            ],
+            [
+              "DYN_B",
+              0.55
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BOCA ARRIBA",
+        "CON EL DISCO"
+      ],
+      "sub": "Brazos sobre la cabeza",
+      "vo": "Acostate boca arriba, con un disco liviano en las manos y los brazos extendidos por encima de la cabeza.",
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        },
+        {
+          "to": "FLAT_OH",
+          "at": 0.8,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            129.6,
+            1248.0
+          ],
+          "text": "DISCO 5 KG",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "HOLLOW",
+        "HOLD"
+      ],
+      "sub": "Hombros y piernas arriba",
+      "vo": "Paso uno. Pegá la zona lumbar al piso y despegá hombros y piernas: el cuerpo forma una banana.",
+      "moves": [
+        {
+          "cut": "FLAT_OH",
+          "at": 0
+        },
+        {
+          "to": "HOLD",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            538.6,
+            1448.5
+          ],
+          "r": 56,
+          "at": 1.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            538.6,
+            1147.2
+          ],
+          "text": "LUMBAR PEGADA",
+          "anchor": "middle",
+          "at": 2.1
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "MOVIMIENTOS",
+        "CHICOS"
+      ],
+      "sub": "Brazos y piernas alternan",
+      "vo": "Paso dos. Desde ahí, alterná pequeños movimientos de brazos y piernas, sin perder la posición.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DYN_A",
+              0.55
+            ],
+            [
+              "DYN_B",
+              0.55
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            538.6,
+            1147.2
+          ],
+          "text": "RANGO CORTO",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "LA LUMBAR",
+        "NO SE DESPEGA"
+      ],
+      "sub": "Si se despega, menos rango",
+      "vo": "Paso tres. La lumbar nunca se despega del piso. Si perdés la posición, achicá el rango: piernas más arriba.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 0.6,
+          "dur": 0.6
+        },
+        {
+          "to": "EASY",
+          "at": 2.4,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            538.6,
+            1147.2
+          ],
+          "text": "LUMBAR DESPEGADA NO",
+          "anchor": "middle",
+          "at": 0.9,
+          "out": 2.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            538.6,
+            1029.6
+          ],
+          "text": "PIERNAS MÁS ARRIBA",
+          "anchor": "middle",
+          "at": 3.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "RESPIRÁ",
+        "CONTROLADO"
+      ],
+      "sub": "Sin trabar el aire",
+      "vo": "Paso cuatro. Respiración controlada durante todo el movimiento, sin trabar el aire.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DYN_A",
+              0.55
+            ],
+            [
+              "DYN_B",
+              0.55
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            538.6,
+            1147.2
+          ],
+          "text": "INHALÁ · EXHALÁ",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Lumbar pegada al piso",
+        "Movimientos chicos",
+        "Menos rango si se despega",
+        "Respiración controlada"
+      ],
+      "vo": "Claves: lumbar pegada al piso, movimientos chicos, menos rango si se despega y respiración controlada.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "DYN_A",
+              0.55
+            ],
+            [
+              "DYN_B",
+              0.55
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "Sin perder la posición",
+      "vo": "Treinta segundos sin perder la posición. Calidad antes que rango.",
+      "chips": [
+        {
+          "label": "1 · HOLLOW",
+          "at": 0.5
+        },
+        {
+          "label": "2 · MOVIMIENTOS",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "FLAT_OH",
+          "at": 0
+        },
+        {
+          "to": "HOLD",
+          "at": 0.4,
+          "dur": 0.9
+        },
+        {
+          "seq": [
+            [
+              "DYN_A",
+              0.55
+            ],
+            [
+              "DYN_B",
+              0.55
+            ]
+          ],
+          "at": 1.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "HOLD",
+    "grip": 0,
+    "zoom": 1.0,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Dynamic Hollow Hold 🔥 Hollow con disco para un core de acero | CrossFit",
+    "tags": [
+      "dynamic hollow hold",
+      "hollow hold",
+      "hollow body",
+      "hollow con disco",
+      "ejercicio de abdominales",
+      "core",
+      "abdominales",
+      "crossfit",
+      "gimnásticos",
+      "activación"
+    ],
+    "descripcion": "🔥 DYNAMIC HOLLOW HOLD — El hollow con disco y movimiento\n\n¿Se te despega la lumbar en el hollow o en el kipping? Este ejercicio te enseña a sostener la posición mientras te movés. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Acostate boca arriba, con un disco liviano en las manos y los brazos extendidos por encima de la cabeza.\n2️⃣ Pegá la zona lumbar al piso y despegá hombros y piernas: el cuerpo forma una banana (hollow).\n3️⃣ Desde ahí, alterná pequeños movimientos de brazos y piernas, sin perder la posición.\n4️⃣ La lumbar nunca se despega del piso. Si perdés la posición, achicá el rango: piernas y brazos más arriba.\n5️⃣ Respiración controlada durante todo el movimiento.\n\n✅ CLAVES DE TÉCNICA\n• La lumbar nunca se despega del piso\n• Movimientos chicos de brazos y piernas\n• Si perdés la posición, achicá el rango\n• Respiración controlada, sin trabar el aire\n\n🎯 QUÉ TRABAJA\nRecto abdominal · Oblicuo externo · Oblicuo interno · Recto femoral\n\n⏱️ CUÁNTO\n30 segundos (por series). Va en la activación o como accesorio de core y gimnásticos.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Core #HollowHold #Abdominales #Entrenamiento"
+  }
+}

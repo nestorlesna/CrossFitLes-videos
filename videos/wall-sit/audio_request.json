@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Uol sit: sentadilla isométrica contra la pared. Cuádriceps que arden, rodillas cuidadas."
+    },
+    {
+      "id": "02",
+      "text": "Apoyá toda la espalda en la pared y alejá los pies unos dos pasos, al ancho de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Deslizate hacia abajo con la espalda pegada a la pared, hasta que los muslos queden cerca de paralelos al piso."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Las rodillas quedan sobre los tobillos, sin pasar la punta de los pies. Si se pasan, alejá más los pies."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. No apoyes las manos en los muslos ni te pongas en puntas de pie. Talones bien apoyados."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Sostené respirando tranquilo. Si te molesta la rodilla, quedate más arriba: sesenta grados también sirve."
+    },
+    {
+      "id": "07",
+      "text": "Claves: espalda pegada a la pared, rodillas sobre los tobillos, manos fuera de los muslos y talones apoyados."
+    },
+    {
+      "id": "08",
+      "text": "Cuarenta y cinco segundos sostenidos. Respirá y aguantá la posición."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

@@ -1,0 +1,529 @@
+{
+  "slug": "barbell-hang-power-clean",
+  "name": "Barbell Hang Power Clean",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Cadera",
+    "Piernas",
+    "Potencia"
+  ],
+  "descripcion": "Desde de pie con la barra a la altura de la cadera, bajar en bisagra hasta arriba de las rodillas (hang). Extender cadera y piernas de forma explosiva y recibir la barra en rack frontal en media sentadilla.",
+  "revisado": false,
+  "notas": "Barra con blend: manos (bf 0) → rack (bf 1).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 450,
+    "y": 1509,
+    "scale": 0.66
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "torso": [
+        64,
+        36
+      ],
+      "r": 74,
+      "blend": true
+    }
+  ],
+  "pronuncia": {
+    "Hang Power Clean": "Jang páuer clin",
+    "hang": "jang"
+  },
+  "initialPose": "STAND_BAR",
+  "poses": {
+    "STAND_BAR": {
+      "g": 1,
+      "ed": 1,
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "hx": 30,
+      "hy": -430
+    },
+    "HIP": {
+      "s": 18,
+      "t": -38,
+      "b": 18,
+      "hd": 10,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": 2,
+      "fa2": 0
+    },
+    "EXT": {
+      "s": -4,
+      "t": 4,
+      "b": -8,
+      "hd": -6,
+      "ft": -22,
+      "ft2": -22,
+      "g": 0,
+      "ua": 6,
+      "fa": 0,
+      "ua2": 6,
+      "fa2": 0
+    },
+    "HANG": {
+      "g": 1,
+      "ed": 1,
+      "s": 8,
+      "t": -30,
+      "b": 55,
+      "hd": 40,
+      "hx": 45,
+      "hy": -290
+    },
+    "PULL_C": {
+      "s": -2,
+      "t": 2,
+      "b": -4,
+      "hd": -4,
+      "ft": -16,
+      "ft2": -16,
+      "g": 0,
+      "ua": 70,
+      "fa": -110,
+      "ua2": 70,
+      "fa2": -110
+    },
+    "RACK_Q": {
+      "hip": [
+        -95,
+        -372
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "hd": 8,
+      "g": 0,
+      "ua": 74,
+      "fa": 176,
+      "ua2": 78,
+      "fa2": 172,
+      "bf": 1,
+      "b": 16
+    },
+    "RACK": {
+      "s": 0,
+      "t": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 176,
+      "ua2": 94,
+      "fa2": 172,
+      "bf": 1,
+      "b": 0
+    },
+    "ELBOWS_LOW": {
+      "hip": [
+        -95,
+        -372
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "hd": 8,
+      "b": 16,
+      "g": 0,
+      "ua": 24,
+      "fa": 150,
+      "ua2": 28,
+      "fa2": 146,
+      "bf": 0.75
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "HANG POWER",
+        "CLEAN"
+      ],
+      "vo": "Hang Power Clean: desde arriba de las rodillas hasta los hombros, en un solo movimiento explosivo.",
+      "moves": [
+        {
+          "to": "HANG",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "HIP",
+          "at": 1.25,
+          "dur": 0.25
+        },
+        {
+          "to": "EXT",
+          "at": 1.5,
+          "dur": 0.18,
+          "ease": "power2.out"
+        },
+        {
+          "to": "PULL_C",
+          "at": 1.68,
+          "dur": 0.16
+        },
+        {
+          "to": "RACK_Q",
+          "at": 1.84,
+          "dur": 0.24,
+          "ease": "power2.out"
+        },
+        {
+          "to": "RACK",
+          "at": 2.6,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BARRA EN",
+        "LA CADERA"
+      ],
+      "sub": "Agarre al ancho de hombros",
+      "vo": "Parate con la barra a la altura de la cadera, agarre apenas más ancho que los hombros y los pies al ancho de la cadera.",
+      "moves": [
+        {
+          "cut": "STAND_BAR",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "BAJÁ",
+        "AL HANG"
+      ],
+      "sub": "Hombros delante de la barra",
+      "vo": "Paso uno. Bajá en bisagra hasta arriba de las rodillas, con los hombros por delante de la barra y la espalda firme.",
+      "moves": [
+        {
+          "to": "HANG",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": {
+            "j": "HANG.S",
+            "dy": 300
+          },
+          "color": "ink",
+          "width": 6,
+          "at": 1.6,
+          "from": {
+            "j": "HANG.S"
+          }
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "HANG.S",
+            "dx": 60,
+            "dy": -140
+          },
+          "text": "HOMBROS ADELANTE",
+          "anchor": "middle",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "EXTENDÉ",
+        "COMPLETO"
+      ],
+      "sub": "Antes de tirar con los brazos",
+      "vo": "Paso dos. Extendé cadera y piernas por completo antes de tirar con los brazos.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "HIP",
+          "at": 0.5,
+          "dur": 0.4
+        },
+        {
+          "to": "EXT",
+          "at": 0.9,
+          "dur": 0.3,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            337.8,
+            915.0
+          ],
+          "at": 0.9,
+          "dur": 0.8,
+          "from": [
+            337.8,
+            1377.0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            318.0,
+            875.4
+          ],
+          "text": "EXTENSIÓN",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "CODOS",
+        "RÁPIDOS"
+      ],
+      "sub": "La barra en los hombros",
+      "vo": "Paso tres. Pasá los codos rápido al frente y recibí la barra apoyada en los hombros, no en las manos.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "PULL_C",
+          "at": 0.5,
+          "dur": 0.25
+        },
+        {
+          "to": "RACK_Q",
+          "at": 0.75,
+          "dur": 0.35,
+          "ease": "power2.out"
+        },
+        {
+          "to": "ELBOWS_LOW",
+          "at": 2.4,
+          "dur": 0.5
+        },
+        {
+          "to": "RACK_Q",
+          "at": 3.6,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            621.6,
+            928.2
+          ],
+          "text": "CODOS AL FRENTE",
+          "anchor": "start",
+          "at": 1.2,
+          "out": 2.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            621.6,
+            928.2
+          ],
+          "text": "CODOS ABAJO NO",
+          "anchor": "start",
+          "at": 2.8,
+          "out": 3.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ARRIBA",
+        "DEL PARALELO"
+      ],
+      "sub": "Y parate",
+      "vo": "Paso cuatro. Recibí en media sentadilla, por encima del paralelo, y parate. Bajá la barra controlada.",
+      "moves": [
+        {
+          "cut": "RACK_Q",
+          "at": 0
+        },
+        {
+          "to": "RACK",
+          "at": 1.2,
+          "dur": 0.8
+        },
+        {
+          "to": "STAND_BAR",
+          "at": 3.0,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": {
+            "j": "RACK_Q.K",
+            "dx": 60
+          },
+          "solid": true,
+          "at": 0.5,
+          "out": 1.4,
+          "from": {
+            "j": "RACK_Q.H",
+            "dx": -120
+          }
+        },
+        {
+          "type": "label",
+          "pos": [
+            199.2,
+            1139.4
+          ],
+          "text": "SOBRE EL PARALELO",
+          "anchor": "middle",
+          "at": 0.6,
+          "out": 1.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Hombros delante de la barra",
+        "Extendé antes de tirar",
+        "Codos rápidos al frente",
+        "Recibí sobre el paralelo"
+      ],
+      "vo": "Claves: hombros delante de la barra, extensión completa antes de tirar, codos rápidos al frente y recepción por encima del paralelo.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "2 REPS"
+      ],
+      "sub": "Con 40 kg",
+      "vo": "Dos repeticiones con cuarenta kilos. Explosivo y con buena técnica.",
+      "chips": [
+        {
+          "label": "1 · HANG",
+          "at": 0.5
+        },
+        {
+          "label": "2 · EXTENSIÓN",
+          "at": 1.5
+        },
+        {
+          "label": "3 · RACK",
+          "at": 1.9
+        }
+      ],
+      "moves": [
+        {
+          "cut": "STAND_BAR",
+          "at": 0
+        },
+        {
+          "to": "HANG",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "HIP",
+          "at": 1.25,
+          "dur": 0.25
+        },
+        {
+          "to": "EXT",
+          "at": 1.5,
+          "dur": 0.18,
+          "ease": "power2.out"
+        },
+        {
+          "to": "PULL_C",
+          "at": 1.68,
+          "dur": 0.16
+        },
+        {
+          "to": "RACK_Q",
+          "at": 1.84,
+          "dur": 0.24,
+          "ease": "power2.out"
+        },
+        {
+          "to": "RACK",
+          "at": 2.6,
+          "dur": 0.6
+        },
+        {
+          "to": "STAND_BAR",
+          "at": 3.6,
+          "dur": 0.8
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "RACK_Q",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 170
+  },
+  "youtube": {
+    "titulo": "Hang Power Clean 🔥 Cargada colgada paso a paso | CrossFit",
+    "tags": [
+      "hang power clean",
+      "barbell hang power clean",
+      "cargada colgada",
+      "cargada de potencia",
+      "power clean",
+      "clean",
+      "levantamiento olímpico",
+      "halterofilia",
+      "crossfit",
+      "potencia"
+    ],
+    "descripcion": "🔥 BARBELL HANG POWER CLEAN — Desde arriba de las rodillas hasta los hombros\n\n¿Recibís la barra con las manos y los codos abajo? En el hang power clean la clave son los codos rápidos. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate con la barra a la altura de la cadera, agarre apenas más ancho que los hombros.\n2️⃣ Bajá en bisagra hasta arriba de las rodillas (hang), con los hombros por delante de la barra y la espalda firme.\n3️⃣ Extendé cadera y piernas por completo antes de tirar con los brazos.\n4️⃣ Pasá los codos rápido al frente y recibí la barra apoyada en los hombros, no en las manos.\n5️⃣ Recibí en media sentadilla, por encima del paralelo, y parate.\n\n✅ CLAVES DE TÉCNICA\n• Hombros por delante de la barra en el hang\n• Extendé completo antes de tirar con los brazos\n• Codos rápidos al frente al recibir\n• La barra apoyada en los hombros, no en las manos\n• Recibí por encima del paralelo\n\n🎯 QUÉ TRABAJA\nGlúteo mayor · Bíceps femoral · Deltoides anterior · Erectores espinales · Recto femoral · Trapecio superior\n\n⏱️ CUÁNTO\n2 repeticiones con 40 kg (por series). Va en bloques de fuerza, habilidad y en WODs.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste levantamiento olímpico, aprendé la técnica con un caño de PVC o la barra sola y con un coach al lado antes de cargar peso.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Halterofilia #HangPowerClean #Potencia #Entrenamiento"
+  }
+}

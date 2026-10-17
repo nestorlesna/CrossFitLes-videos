@@ -14,6 +14,10 @@
  * tweening through 0 reads as a pivot turn, flipped around the hip — props in the rig flip too). dh: dumbbell hand
  * (0 near, 1 far). pz: floor-bar / ball depth (0 = behind the athlete, 1 = in front). rp: sled rope (0 hidden, 1 visible)
  * / jump-rope phase (0→1 = one turn; 0 = rope under the feet). ul: upper-arm length factor (elbow pointing at the camera, e.g. cuban press).
+ * fl: near forearm length factor (forearm turning toward the camera: band external rotation; see topview mode "er").
+ * ll / ll2: drawn length of the near / far leg (1 = full; a leg reaching sideways away from the camera looks short: cossack squat).
+ *   The hip still comes from the full-length near chain, so with ll < 1 place the pose with `hip` and the leg straight down.
+ * cs: weight shift for the topview mode "cossack" front card (-1 … 1; 0 = centered, 1 = squatting on the near leg).
  */
 (function () {
   const C = window.__EX_CONFIG;
@@ -22,7 +26,7 @@
 
   const L = { shin: 230, thigh: 240, torso: 280, neck: 32, upper: 172, fore: 160 };
   const FAR = { dx: -22, dy: -4 };
-  const KEYS = ["s", "t", "b", "hd", "ua", "fa", "s2", "t2", "ua2", "fa2", "rx", "ry", "ft", "ft2", "hx", "hy", "ed", "g", "lr", "al", "hb", "bf", "bx", "by", "g2", "hx2", "hy2", "ed2", "wr", "wr2", "cv", "fx", "dh", "pz", "rp", "ul"];
+  const KEYS = ["s", "t", "b", "hd", "ua", "fa", "s2", "t2", "ua2", "fa2", "rx", "ry", "ft", "ft2", "hx", "hy", "ed", "g", "lr", "al", "hb", "bf", "bx", "by", "g2", "hx2", "hy2", "ed2", "wr", "wr2", "cv", "fx", "dh", "pz", "rp", "ul", "fl", "ll", "ll2", "cs"];
   const P = C.poses;
 
   const rad = (d) => (d * Math.PI) / 180;
@@ -52,13 +56,14 @@
     const H0 = add(K0, up(st.t, L.thigh));
     const H = add(H0, { x: off.dx, y: off.dy });
     const roll = Math.cos(rad(st.lr || 0)), fold = (p) => ({ x: p.x, y: H.y + (p.y - H.y) * roll });
-    const K = fold(add(H, up(t + 180, L.thigh)));
-    const A = fold(add(add(H, up(t + 180, L.thigh)), up(s + 180, L.shin)));
+    const ll = (farSide ? st.ll2 : st.ll) ?? 1;
+    const K = fold(add(H, up(t + 180, L.thigh * ll)));
+    const A = fold(add(add(H, up(t + 180, L.thigh * ll)), up(s + 180, L.shin * ll)));
     const S = add(H, up(st.b, L.torso));
     const N = add(S, up(st.hd, L.neck));
     const al = st.al ?? 1;
     const fE = add(S, down(ua, L.upper * al * (st.ul ?? 1)));
-    const fW = add(fE, down(ua + fa, L.fore * al));
+    const fW = add(fE, down(ua + fa, L.fore * al * (farSide ? 1 : st.fl ?? 1)));
     // hb: 0 → hands target (hx, hy) in rig space; 1 → in the torso frame from the shoulder (hx forward, hy down the torso):
     // the grip travels with the trunk (goblet kettlebell, bar on the back, ball at the chest).
     const hb = st.hb || 0, fw = { x: Math.cos(rad(st.b)), y: Math.sin(rad(st.b)) }, tu = up(st.b, 1);
@@ -95,6 +100,8 @@
     return g;
   }
 
+  const f2 = (v) => v.toFixed(2);
+  const setL = (n, p, q) => { n.setAttribute("x1", f2(p.x)); n.setAttribute("y1", f2(p.y)); n.setAttribute("x2", f2(q.x)); n.setAttribute("y2", f2(q.y)); };
   // ── PROPS (implements) — drawn in rig space; parts may follow joints every frame ──
   // rower: { type: "rower", seatY, railY, foot: [x, y], fly: [x, y] }  seat follows the hip, chain + handle follow the hands.
   // kettlebell: { type: "kettlebell", off: [dx, dy] }  handle at the near hand (+off), bell hangs below; drawn under the near arm.
@@ -108,6 +115,8 @@
   const propBack = el("g", {}), propMid = el("g", {}), propFront = el("g", {}), propUpdates = [];
   // Escenario fijo (cajón): fuera del rig para que el giro (fx) no lo espeje ni el corte (cut) lo esconda.
   const propStatic = document.createElementNS(NS, "g"); propStatic.setAttribute("transform", RIG0); rig.parentNode.insertBefore(propStatic, rig);
+  // Por encima del atleta y fuera del rig: lo que el compañero espejado (partner) no debe duplicar (el balón que se pasan).
+  const propTop = document.createElementNS(NS, "g"); propTop.setAttribute("transform", RIG0); rig.parentNode.appendChild(propTop);
   const PLATE = "#7C7F86", PLATE_D = "#5E6168", PLATE_L = "#B9BCC2";
   const METAL = "#4A4F5C", METAL_D = "#2E323B", ACCENT = "#E85D5D";
   (C.props || []).forEach((pr) => {
@@ -315,6 +324,31 @@
         hN.setAttribute("x", f2(n.W.x - 8)); hN.setAttribute("y", f2(n.W.y - 22)); hF.setAttribute("x", f2(f.W.x - 7)); hF.setAttribute("y", f2(f.W.y - 20));
       });
     }
+    if (pr.type === "band") {
+      // Banda elástica: de un ancla fija a la mano cercana (hand "near") o a las dos ("both"). post: parante del rack
+      // (x, h) detrás del atleta; layer "mid" = la banda pasa por delante del torso (rotación externa: cruza el cuerpo).
+      const an = pr.anchor || [330, -1300], col = pr.color || "#3FA34D", both = pr.hand === "both";
+      if (pr.post) {
+        const [px, ph] = pr.post;
+        const g = el("g", { class: "prop-scenery" }, propStatic); // se atenúa en la escena de claves (la lista lo cruza)
+        el("rect", { x: px - 24, y: 34 - ph, width: 48, height: ph, fill: METAL_D }, g);
+        el("rect", { x: px - 60, y: 22, width: 120, height: 14, rx: 7, fill: METAL_D }, g);
+      }
+      const farB = both ? el("line", { stroke: col, "stroke-width": 11, "stroke-linecap": "round" }, propBack) : null;
+      const nearB = el("line", { stroke: col, "stroke-width": 13, "stroke-linecap": "round" }, pr.layer === "back" ? propBack : propMid);
+      el("circle", { cx: an[0], cy: an[1], r: 14, fill: METAL }, propBack);
+      propUpdates.push((n, f) => {
+        const a = { x: an[0], y: an[1] };
+        setL(nearB, a, n.W);
+        if (farB) setL(farB, { x: a.x + FAR.dx, y: a.y + FAR.dy }, f.W);
+      });
+    }
+    if (pr.type === "partner") {
+      // Compañero frente a frente: copia espejada del atleta (mismo movimiento a la vez) alrededor de x = pr.x (rig px).
+      const X = C.rig.x + (pr.x ?? 60) * C.rig.scale, u = document.createElementNS(NS, "use");
+      u.setAttribute("href", "#rig"); u.setAttribute("transform", `translate(${2 * X},0) scale(-1,1)`);
+      rig.parentNode.insertBefore(u, propTop);
+    }
     if (pr.type === "wall") {
       // Pared fija (escenario) en x, de alto h.
       const wx = pr.x ?? 420, h = pr.h ?? 1500;
@@ -340,9 +374,15 @@
         el("path", { d: `M ${-r * 0.7} ${r * 0.7} Q 0 ${r * 0.25} ${r * 0.7} ${r * 0.7}`, fill: "none", stroke: "#55555C", "stroke-width": 5 }, ball);
         return ball;
       };
-      const ball = mk(propMid), back = pr.depth ? mk(propBack) : null;
+      const ball = mk(pr.mirror != null ? propTop : propMid), back = pr.depth ? mk(propBack) : null;
       propUpdates.push((n, f, st) => {
         const k = st.bf || 0, h = { x: n.W.x + off[0], y: n.W.y + off[1] };
+        if (pr.mirror != null) {
+          // pase al compañero espejado (partner): bf 0 = en mis manos, 1 = en las suyas; el balón hace un arco al cruzar
+          const m = { x: 2 * pr.mirror - h.x, y: h.y }, arc = Math.sin(Math.PI * k) * (pr.arc ?? 120);
+          ball.setAttribute("transform", `translate(${f2(h.x + (m.x - h.x) * k)},${f2(h.y - arc)})`);
+          return;
+        }
         const tr = `translate(${f2(h.x + (st.bx - h.x) * k)},${f2(h.y + (st.by - h.y) * k)})`;
         ball.setAttribute("transform", tr);
         if (back) { back.setAttribute("transform", tr); const fr = (st.pz || 0) >= 0.5; ball.setAttribute("opacity", fr ? 1 : 0); back.setAttribute("opacity", fr ? 0 : 1); }
@@ -371,8 +411,6 @@
   rig.insertBefore(propMid, nearArm.upper); // implements held in front of the chest: under the near arm
   rig.appendChild(propFront); // near barbell plate: over everything
 
-  const f2 = (v) => v.toFixed(2);
-  const setL = (n, p, q) => { n.setAttribute("x1", f2(p.x)); n.setAttribute("y1", f2(p.y)); n.setAttribute("x2", f2(q.x)); n.setAttribute("y2", f2(q.y)); };
   const setC = (n, p) => { n.setAttribute("cx", f2(p.x)); n.setAttribute("cy", f2(p.y)); };
   const place = (g, p, a) => g.setAttribute("transform", `translate(${f2(p.x)},${f2(p.y)}) rotate(${f2(a)})`);
 
@@ -393,6 +431,39 @@
       });
     };
   });
+  // Tarjeta "rotación externa" (topview mode "er"): vista de arriba; el ángulo del antebrazo sale de fl (acos), la banda va al ancla.
+  const erCards = C.frames.filter((f) => f.topview && f.topview.mode === "er").map((f) => {
+    const fo = document.getElementById(`erf-${f.id}`), hd = document.getElementById(`erh-${f.id}`), bd = document.getElementById(`erb-${f.id}`);
+    const E = { x: 112, y: 186 }, len = 80;
+    return (st) => {
+      if (!fo) return;
+      const a = Math.acos(Math.max(0, Math.min(1, st.fl ?? 1))), W = { x: E.x + Math.cos(a) * len, y: E.y + Math.sin(a) * len };
+      setL(fo, E, W); setC(hd, W); setL(bd, { x: 214, y: 40 }, W);
+    };
+  });
+  // Tarjeta "cossack" (topview mode "cossack"): vista de frente con los pies abiertos; la cadera se corre según cs
+  // (1 = sentadilla sobre la pierna izquierda de la tarjeta, −1 = sobre la derecha) y la otra pierna queda estirada.
+  const csCards = C.frames.filter((f) => f.topview && f.topview.mode === "cossack").map((f) => {
+    const q = (k) => document.getElementById(`${k}-${f.id}`);
+    const P = ["tl", "sl", "tr", "sr", "to", "hd", "al", "ar"].reduce((o, k) => ((o[k] = q(`cs${k}`)), o), {});
+    const FL = { x: 58, y: 262 }, FR = { x: 194, y: 262 }, Lg = 64;
+    const knee = (H, F, out) => {
+      const dx = F.x - H.x, dy = F.y - H.y, d = Math.min(Math.hypot(dx, dy), 2 * Lg - 0.5), m = { x: H.x + dx / 2, y: H.y + dy / 2 };
+      const h = Math.sqrt(Math.max(0, Lg * Lg - (d / 2) * (d / 2))), nx = -dy / Math.hypot(dx, dy), ny = dx / Math.hypot(dx, dy);
+      const k1 = { x: m.x + nx * h, y: m.y + ny * h }, k2 = { x: m.x - nx * h, y: m.y - ny * h };
+      return (k1.x - k2.x) * out > 0 ? k1 : k2; // rodilla hacia afuera
+    };
+    return (st) => {
+      if (!P.to) return;
+      const c = Math.max(-1, Math.min(1, st.cs || 0)), hx = 126 - c * 54, hy = 146 + Math.abs(c) * 74;
+      const HL = { x: hx - 18, y: hy }, HR = { x: hx + 18, y: hy };
+      const KL = knee(HL, FL, -1), KR = knee(HR, FR, 1);
+      setL(P.tl, HL, KL); setL(P.sl, KL, FL); setL(P.tr, HR, KR); setL(P.sr, KR, FR);
+      const S = { x: hx, y: hy - 78 };
+      setL(P.to, { x: hx, y: hy - 6 }, S); setC(P.hd, { x: hx, y: hy - 112 });
+      setL(P.al, { x: hx - 22, y: hy - 70 }, { x: hx - 8, y: hy - 46 }); setL(P.ar, { x: hx + 22, y: hy - 70 }, { x: hx + 8, y: hy - 46 });
+    };
+  });
   function draw() {
     const n = solve(state, false), f = solve(state, true);
     setL(far.upper, f.S, f.E); setL(far.fore, f.E, f.W); setC(far.hand, f.W);
@@ -410,6 +481,8 @@
     if (C.fingers) { setL(far.fingers, f.W, f.F); setL(nearArm.fingers, n.W, n.F); }
     propUpdates.forEach((u) => u(n, f, state));
     frontCards.forEach((u) => u(n));
+    erCards.forEach((u) => u(state));
+    csCards.forEach((u) => u(state));
     const fx = state.fx ?? 1;
     rig.setAttribute("transform", fx === 1 ? RIG0 : `${RIG0} translate(${f2(n.H.x)},0) scale(${f2(fx)},1) translate(${f2(-n.H.x)},0)`);
   }
@@ -526,7 +599,7 @@
       // Tarjeta "vista de arriba" (torsión acostado): las piernas giran hacia un lado con los hombros fijos.
       const tv = f.topview;
       fadeIn(`#topcard-${f.id}`, f.start + 0.4, { x: 60 }, { x: 0 });
-      if (tv.mode === "front") {
+      if (tv.mode === "front" || tv.mode === "er" || tv.mode === "cossack") {
         fadeIn(`#topcard-${f.id}`, f.start + 0.4, { x: 60 }, { x: 0 });
         tl.to(`#topcard-${f.id}`, { opacity: 0, duration: 0.3 }, f.start + f.dur - 0.35);
         return;
@@ -580,7 +653,7 @@
       const k = f.shrink ?? 0.8, origin = `${R.x} ${R.y + 34 * R.scale}`;
       tl.fromTo("#athlete", { scale: 1 }, { scale: k, svgOrigin: origin, duration: 0.5, ease: "power2.inOut", immediateRender: false }, f.start);
       if (f !== last) tl.to("#athlete", { scale: 1, svgOrigin: origin, duration: 0.5, ease: "power2.inOut" }, f.start + f.dur - 0.5);
-      if (rig.querySelector(".prop-scenery")) {
+      if (document.querySelector(".prop-scenery")) {
         tl.fromTo(".prop-scenery", { opacity: 1 }, { opacity: 0, duration: 0.4, immediateRender: false }, f.start);
         if (f !== last) tl.to(".prop-scenery", { opacity: 1, duration: 0.4 }, f.start + f.dur - 0.45);
       }

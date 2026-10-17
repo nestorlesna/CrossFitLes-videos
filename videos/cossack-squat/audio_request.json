@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Cósac scuat: la sentadilla cosaca. Bajás hacia un lado con la otra pierna estirada. Movilidad de cadera y tobillo."
+    },
+    {
+      "id": "02",
+      "text": "Parate con los pies bien abiertos, más que el ancho de los hombros, y las puntas apenas hacia afuera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Llevá el peso hacia un lado y bajá flexionando esa rodilla, lo más abajo que puedas."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. La otra pierna queda completamente estirada, con el pie apoyado, o la punta si todavía no te da la movilidad."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Brazos al frente como contrapeso y el talón de la pierna que trabaja bien apoyado."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Subí al centro y bajá hacia el otro lado. Alterná lados con control."
+    },
+    {
+      "id": "07",
+      "text": "Claves: pies bien abiertos, la pierna estirada con el pie apoyado, el talón de la que trabaja abajo y los brazos al frente."
+    },
+    {
+      "id": "08",
+      "text": "Treinta segundos alternando lados. Excelente para la movilidad de cadera y tobillo."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

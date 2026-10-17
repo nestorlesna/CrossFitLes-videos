@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Berd dog cranch: brazo y pierna opuestos, extender y llevar el codo a la rodilla. Core y glúteos."
+    },
+    {
+      "id": "02",
+      "text": "En cuadrupedia: manos debajo de los hombros, rodillas debajo de la cadera y la espalda neutra."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Extendé un brazo y la pierna opuesta hasta que queden alineados con el tronco."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Flexioná y llevá el codo a la rodilla por debajo del cuerpo, redondeando apenas la espalda."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Volvé a extender con la cadera nivelada y el core activo, sin rotar el tronco ni arquear."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Movimiento lento y controlado. Completá las repeticiones y cambiá de lado."
+    },
+    {
+      "id": "07",
+      "text": "Claves: brazo y pierna opuestos, cadera nivelada, no rotar el tronco y movimiento lento y controlado."
+    },
+    {
+      "id": "08",
+      "text": "Diez repeticiones por lado, lentas y con control."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

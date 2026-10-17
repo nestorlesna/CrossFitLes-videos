@@ -1,0 +1,476 @@
+{
+  "slug": "band-external-rotation",
+  "name": "Band External Rotation",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Hombros",
+    "Manguito",
+    "Activación"
+  ],
+  "descripcion": "De pie junto a un ancla a la altura de la cintura, codo pegado al cuerpo a 90°. Rotar el antebrazo hacia afuera contra la resistencia de la banda y volver. Ejecutar cada lado por separado.",
+  "revisado": false,
+  "notas": "Clave fl (antebrazo que gira hacia la cámara) + tarjeta topview mode er (vista de arriba con la banda).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 430,
+    "y": 1505,
+    "scale": 0.8
+  },
+  "props": [
+    {
+      "type": "band",
+      "anchor": [
+        236.0,
+        -578.1
+      ],
+      "post": [
+        246.0,
+        638.1
+      ],
+      "hand": "near",
+      "layer": "mid"
+    }
+  ],
+  "pronuncia": {
+    "Band External Rotation": "Band extérnal roteishon"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6,
+      "fl": 1,
+      "ua2": -4,
+      "fa2": 6
+    },
+    "START": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 2,
+      "fa": 88,
+      "fl": 1,
+      "ua2": -4,
+      "fa2": 6
+    },
+    "OUT": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 2,
+      "fa": 88,
+      "fl": 0.26,
+      "ua2": -4,
+      "fa2": 6
+    },
+    "ELBOW_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 26,
+      "fa": 64,
+      "fl": 0.3,
+      "ul": 0.8,
+      "ua2": -4,
+      "fa2": 6
+    },
+    "JERK_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": -6,
+      "hd": -4,
+      "g": 0,
+      "ua": 2,
+      "fa": 88,
+      "fl": 0.1,
+      "ua2": -4,
+      "fa2": 6
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "BAND EXTERNAL",
+        "ROTATION"
+      ],
+      "topview": {
+        "mode": "er",
+        "label": "CODO PEGADO"
+      },
+      "vo": "Band External Rotation: rotación externa del hombro con banda. Salud para el manguito rotador.",
+      "moves": [
+        {
+          "to": "START",
+          "at": 0.2,
+          "dur": 0.5
+        },
+        {
+          "seq": [
+            [
+              "OUT",
+              1.0
+            ],
+            [
+              "START",
+              1.1
+            ]
+          ],
+          "at": 0.8,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "CODO A 90°",
+        "PEGADO"
+      ],
+      "sub": "Ancla a la altura de la cintura",
+      "topview": {
+        "mode": "er",
+        "label": "CODO PEGADO"
+      },
+      "vo": "Parate de costado al ancla, con la banda a la altura de la cintura. Codo pegado al cuerpo, doblado a noventa grados.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "START",
+          "at": 0.8,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            434.8,
+            1042.5
+          ],
+          "r": 50,
+          "at": 2.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            362.8,
+            1050.5
+          ],
+          "text": "90°",
+          "anchor": "end",
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "ROTÁ",
+        "HACIA AFUERA"
+      ],
+      "sub": "Contra la banda",
+      "topview": {
+        "mode": "er",
+        "label": "CODO PEGADO"
+      },
+      "vo": "Paso uno. Rotá el antebrazo hacia afuera contra la resistencia de la banda, como una puerta que se abre.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "OUT",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            334.0,
+            665.0
+          ],
+          "text": "COMO UNA PUERTA",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "EL CODO",
+        "NO SE SEPARA"
+      ],
+      "sub": "En ningún momento",
+      "topview": {
+        "mode": "er",
+        "label": "CODO PEGADO"
+      },
+      "vo": "Paso dos. El codo no se separa del cuerpo en ningún momento. Es la clave del ejercicio.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "OUT",
+          "at": 0.5,
+          "dur": 1.0
+        },
+        {
+          "to": "START",
+          "at": 1.6,
+          "dur": 0.6
+        },
+        {
+          "to": "ELBOW_BAD",
+          "at": 2.4,
+          "dur": 0.6
+        },
+        {
+          "to": "START",
+          "at": 3.8,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            362.8,
+            1050.5
+          ],
+          "text": "PEGADO",
+          "anchor": "end",
+          "at": 0.8,
+          "out": 2.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            362.8,
+            1050.5
+          ],
+          "text": "ASÍ NO",
+          "anchor": "end",
+          "at": 2.8,
+          "out": 3.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "SIN",
+        "TIRONES"
+      ],
+      "sub": "Rango controlado",
+      "topview": {
+        "mode": "er",
+        "label": "CODO PEGADO"
+      },
+      "vo": "Paso tres. Rango controlado y sin tirones: salí y volvé lento, sin girar el torso.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "OUT",
+          "at": 0.5,
+          "dur": 1.4
+        },
+        {
+          "to": "START",
+          "at": 2.2,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            334.0,
+            665.0
+          ],
+          "text": "LENTO",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "CAMBIÁ",
+        "DE LADO"
+      ],
+      "sub": "Cada lado por separado",
+      "topview": {
+        "mode": "er",
+        "label": "CODO PEGADO"
+      },
+      "vo": "Paso cuatro. Terminá las repeticiones y cambiá de lado: cada brazo por separado.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "OUT",
+          "at": 0.4,
+          "dur": 1.0
+        },
+        {
+          "cut": "START",
+          "at": 2.2
+        },
+        {
+          "to": "OUT",
+          "at": 2.8,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            334.0,
+            665.0
+          ],
+          "text": "EL OTRO BRAZO",
+          "anchor": "middle",
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.75,
+      "keys": [
+        "Codo pegado al cuerpo",
+        "Codo a 90°",
+        "Sin tirones",
+        "Cada lado por separado"
+      ],
+      "vo": "Claves: codo pegado al cuerpo y a noventa grados, movimiento controlado sin tirones y cada lado por separado.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "OUT",
+              1.0
+            ],
+            [
+              "START",
+              1.1
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "6 REPS"
+      ],
+      "sub": "Por lado",
+      "vo": "Seis repeticiones por lado. Fundamental para cuidar los hombros antes de la arrancada.",
+      "chips": [
+        {
+          "label": "1 · AFUERA",
+          "at": 0.5
+        },
+        {
+          "label": "2 · ADENTRO",
+          "at": 1.5
+        }
+      ],
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "OUT",
+              1.0
+            ],
+            [
+              "START",
+              1.1
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "OUT",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 160
+  },
+  "youtube": {
+    "titulo": "Band External Rotation 🛡️ Rotación externa de hombro con banda | CrossFit",
+    "tags": [
+      "band external rotation",
+      "rotación externa de hombro",
+      "rotación externa con banda",
+      "manguito rotador",
+      "banda elástica",
+      "movilidad de hombro",
+      "entrada en calor",
+      "crossfit",
+      "activación",
+      "prevención de lesiones"
+    ],
+    "descripcion": "🛡️ BAND EXTERNAL ROTATION — Rotación externa con banda: hombros sanos para levantar\n\n¿Hacés snatch, press o kipping? Tus hombros necesitan un manguito rotador fuerte. Esta activación con banda lleva dos minutos. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate de costado al ancla, con la banda a la altura de la cintura. Codo pegado al cuerpo, doblado a 90°.\n2️⃣ Rotá el antebrazo hacia afuera contra la resistencia de la banda.\n3️⃣ El codo no se separa del cuerpo en ningún momento.\n4️⃣ Rango controlado y sin tirones: salí y volvé lento.\n5️⃣ Terminá las repeticiones y cambiá de lado.\n\n✅ CLAVES DE TÉCNICA\n• El codo NO se separa del cuerpo\n• Codo doblado a 90°\n• Rango controlado, sin tirones\n• Cada lado por separado\n\n🎯 QUÉ TRABAJA\nDeltoides posterior · Deltoides lateral · Romboides · Trapecio medio · Manguito rotador\n\n⏱️ CUÁNTO\n6 repeticiones por lado. Va en la entrada en calor y la activación, sobre todo antes de la arrancada.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi sentís dolor (no esfuerzo) en el hombro, frená y consultá.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #Hombros #ManguitoRotador #Entrenamiento"
+  }
+}

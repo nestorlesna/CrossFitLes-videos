@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Descanso: la pausa también se entrena. Cómo recuperar bien entre series y rondas."
+    },
+    {
+      "id": "02",
+      "text": "Cuando termina la serie, quedate erguido, con las manos en la cadera. Erguido entra más aire que doblado."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Respirá controlado: inhalá por la nariz y soltá el aire largo por la boca."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Relajá la musculatura: hombros abajo y brazos sueltos."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Aprovechá para hidratarte, reacomodar las cargas o recolocar el material para lo que sigue."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Retomá el trabajo apenas se cumple el tiempo pautado. Ni un segundo más."
+    },
+    {
+      "id": "07",
+      "text": "Claves: quedate erguido, respirá controlado, aprovechá para hidratarte y reacomodar, y retomá apenas se cumple el tiempo."
+    },
+    {
+      "id": "08",
+      "text": "Un minuto, o el tiempo que marque la pizarra. Descansar bien también es parte del entrenamiento."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

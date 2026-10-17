@@ -1,0 +1,447 @@
+{
+  "slug": "descanso",
+  "name": "Descanso",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Recuperación",
+    "Respiración"
+  ],
+  "descripcion": "Pausa de recuperación dentro de una serie, ronda o circuito. No se ejecuta ningún movimiento: es un espacio para descansar el tiempo indicado antes de retomar el trabajo. Sirve para modelar en una clase los minutos de pausa que marca el WOD o el bloque de fuerza.",
+  "revisado": false,
+  "notas": "Video de la pausa: respiración con manos en la cadera, caminata suave y vuelta al trabajo.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "IN": {
+      "s": 0,
+      "t": 0,
+      "b": -2,
+      "hd": -8,
+      "cv": -8,
+      "g": 1,
+      "hx": 6,
+      "hy": -486,
+      "ed": -1
+    },
+    "OUT": {
+      "s": 0,
+      "t": 0,
+      "b": 3,
+      "hd": 6,
+      "cv": 4,
+      "g": 1,
+      "hx": 6,
+      "hy": -482,
+      "ed": -1
+    },
+    "BENT": {
+      "hip": [
+        -60,
+        -440
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 44,
+      "hd": 40,
+      "cv": 12,
+      "g": 1,
+      "hx": 60,
+      "hy": -250,
+      "ed": 1
+    },
+    "WALK_A": {
+      "hip": [
+        0,
+        -456
+      ],
+      "s": -10,
+      "t": -14,
+      "s2": 26,
+      "t2": 16,
+      "ft2": 20,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": -12,
+      "fa": 12,
+      "ua2": 12,
+      "fa2": 12
+    },
+    "WALK_B": {
+      "hip": [
+        0,
+        -456
+      ],
+      "s": 26,
+      "t": 16,
+      "s2": -10,
+      "t2": -14,
+      "ft": 20,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 12,
+      "fa": 12,
+      "ua2": -12,
+      "fa2": 12
+    },
+    "READY": {
+      "hip": [
+        -40,
+        -430
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 16,
+      "hd": 8,
+      "g": 0,
+      "ua": 14,
+      "fa": 30
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "DESCANSO"
+      ],
+      "vo": "Descanso: la pausa también se entrena. Cómo recuperar bien entre series y rondas.",
+      "moves": [
+        {
+          "to": "IN",
+          "at": 0.3,
+          "dur": 0.8
+        },
+        {
+          "seq": [
+            [
+              "IN",
+              1.6
+            ],
+            [
+              "OUT",
+              2.0
+            ]
+          ],
+          "at": 1.1,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN",
+      "head": [
+        "ERGUIDO",
+        "Y QUIETO"
+      ],
+      "sub": "Manos en la cadera o la cabeza",
+      "vo": "Cuando termina la serie, quedate erguido, con las manos en la cadera. Erguido entra más aire que doblado.",
+      "moves": [
+        {
+          "cut": "BENT",
+          "at": 0
+        },
+        {
+          "to": "IN",
+          "at": 1.6,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            239.0,
+            924.0
+          ],
+          "text": "DOBLADO NO",
+          "anchor": "middle",
+          "at": 0.4,
+          "out": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            239.0,
+            924.0
+          ],
+          "text": "ERGUIDO",
+          "anchor": "middle",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "RESPIRÁ",
+        "CONTROLADO"
+      ],
+      "sub": "Exhalación larga",
+      "vo": "Paso uno. Respirá controlado: inhalá por la nariz y soltá el aire largo por la boca.",
+      "moves": [
+        {
+          "cut": "OUT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "IN",
+              1.6
+            ],
+            [
+              "OUT",
+              2.0
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            761.0,
+            924.0
+          ],
+          "text": "INHALÁ · EXHALÁ",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "AFLOJÁ",
+        "EL CUERPO"
+      ],
+      "sub": "Hombros y brazos sueltos",
+      "vo": "Paso dos. Relajá la musculatura: hombros abajo y brazos sueltos.",
+      "moves": [
+        {
+          "cut": "IN",
+          "at": 0
+        },
+        {
+          "to": "STAND",
+          "at": 0.8,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            239.0,
+            924.0
+          ],
+          "text": "HOMBROS ABAJO",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "HIDRATATE",
+        "Y REACOMODÁ"
+      ],
+      "sub": "Cargas y material",
+      "scroll": 60,
+      "vo": "Paso tres. Aprovechá para hidratarte, reacomodar las cargas o recolocar el material para lo que sigue.",
+      "moves": [
+        {
+          "cut": "WALK_A",
+          "at": 0
+        },
+        {
+          "loop": [
+            "WALK_A",
+            "WALK_B"
+          ],
+          "at": 0.3,
+          "step": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "RETOMÁ",
+        "A TIEMPO"
+      ],
+      "sub": "Ni un segundo más",
+      "vo": "Paso cuatro. Retomá el trabajo apenas se cumple el tiempo pautado. Ni un segundo más.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "READY",
+          "at": 1.6,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            761.0,
+            924.0
+          ],
+          "text": "3 · 2 · 1",
+          "anchor": "middle",
+          "at": 0.4,
+          "out": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            761.0,
+            924.0
+          ],
+          "text": "¡A TRABAJAR!",
+          "anchor": "middle",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Erguido, no doblado",
+        "Respiración controlada",
+        "Hidratá y reacomodá",
+        "Retomá a tiempo"
+      ],
+      "vo": "Claves: quedate erguido, respirá controlado, aprovechá para hidratarte y reacomodar, y retomá apenas se cumple el tiempo.",
+      "moves": [
+        {
+          "cut": "OUT",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "IN",
+              1.6
+            ],
+            [
+              "OUT",
+              2.0
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "EN EL WOD",
+      "head": [
+        "1 MINUTO"
+      ],
+      "sub": "O lo que marque la pizarra",
+      "vo": "Un minuto, o el tiempo que marque la pizarra. Descansar bien también es parte del entrenamiento.",
+      "chips": [
+        {
+          "label": "1 · RESPIRÁ",
+          "at": 0.5
+        },
+        {
+          "label": "2 · PREPARATE",
+          "at": 3.8
+        }
+      ],
+      "moves": [
+        {
+          "cut": "OUT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "IN",
+              1.6
+            ],
+            [
+              "OUT",
+              2.0
+            ]
+          ],
+          "at": 0.3,
+          "until": 3.6
+        },
+        {
+          "to": "READY",
+          "at": 3.8,
+          "dur": 0.6
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "IN",
+    "grip": 1,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Descanso entre series 😮‍💨 Cómo recuperar bien en el WOD | CrossFit",
+    "tags": [
+      "descanso entre series",
+      "recuperación",
+      "pausa activa",
+      "respiración",
+      "descanso en el wod",
+      "cómo descansar",
+      "crossfit",
+      "wod",
+      "entrenamiento",
+      "fuerza"
+    ],
+    "descripcion": "😮‍💨 DESCANSO — La pausa también se entrena\n\n¿Terminás la serie y te tirás al piso o te pasás del tiempo? Descansar bien es parte del WOD. Este video es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Cuando termina la serie, quedate erguido con las manos en la cadera: erguido entra más aire que doblado.\n2️⃣ Respirá controlado: inhalá por la nariz y soltá el aire largo por la boca.\n3️⃣ Relajá la musculatura: hombros abajo y brazos sueltos.\n4️⃣ Aprovechá para hidratarte, reacomodar las cargas o recolocar el material.\n5️⃣ Retomá el trabajo apenas se cumple el tiempo pautado.\n\n✅ CLAVES DE TÉCNICA\n• Erguido, no doblado: entra más aire\n• Respiración controlada, exhalación larga\n• Hidratá y reacomodá el material\n• Retomá apenas se cumple el tiempo\n\n🎯 QUÉ TRABAJA\nRecuperación · Respiración · Ritmo cardíaco\n\n⏱️ CUÁNTO\n1 minuto o el tiempo que marque la pizarra. Va entre series, rondas o bloques de fuerza.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #Descanso #Recuperacion #Entrenamiento"
+  }
+}

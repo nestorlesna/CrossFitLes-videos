@@ -1,0 +1,467 @@
+{
+  "slug": "air-squat",
+  "name": "Air Squat",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Piernas",
+    "Glúteos",
+    "Core"
+  ],
+  "descripcion": "Sentadilla con peso corporal: bajar flexionando caderas y rodillas hasta que los muslos queden por debajo de la paralela, manteniendo el torso erguido, y volver a extender.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "pronuncia": {
+    "Air Squat": "Er scuat"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "ARMS": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 88,
+      "fa": 0
+    },
+    "HALF": {
+      "hip": [
+        -80,
+        -380
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 22,
+      "hd": 12,
+      "g": 0,
+      "ua": 86,
+      "fa": 0
+    },
+    "BOTTOM": {
+      "hip": [
+        -150,
+        -205
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 40,
+      "hd": 24,
+      "g": 0,
+      "ua": 92,
+      "fa": 0
+    },
+    "HEELS_BAD": {
+      "hip": [
+        -60,
+        -240
+      ],
+      "ankle": [
+        30,
+        -30
+      ],
+      "ft": -30,
+      "ft2": -30,
+      "b": 30,
+      "hd": 18,
+      "g": 0,
+      "ua": 92,
+      "fa": 0
+    },
+    "CHEST_BAD": {
+      "hip": [
+        -170,
+        -215
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 72,
+      "hd": 56,
+      "g": 0,
+      "ua": 40,
+      "fa": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "AIR",
+        "SQUAT"
+      ],
+      "vo": "Air Squat: la sentadilla con peso corporal. La base de todo lo que hacés en el box.",
+      "moves": [
+        {
+          "to": "ARMS",
+          "at": 0.3,
+          "dur": 0.4
+        },
+        {
+          "seq": [
+            [
+              "HALF",
+              0.45
+            ],
+            [
+              "BOTTOM",
+              0.45
+            ],
+            [
+              "HALF",
+              0.4
+            ],
+            [
+              "ARMS",
+              0.4
+            ]
+          ],
+          "at": 0.8,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PIES",
+        "AL ANCHO"
+      ],
+      "sub": "De hombros, puntas apenas afuera",
+      "stance": true,
+      "stanceLabel": "ANCHO DE HOMBROS",
+      "vo": "Parate con los pies al ancho de los hombros y las puntas apenas hacia afuera. Peso en todo el pie.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "CADERA",
+        "ATRÁS"
+      ],
+      "sub": "Y rodillas a la vez",
+      "vo": "Paso uno. Arrancá llevando la cadera atrás y flexionando las rodillas a la vez, con los brazos al frente.",
+      "moves": [
+        {
+          "to": "ARMS",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "HALF",
+          "at": 1.3,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            320.0,
+            1122.0
+          ],
+          "at": 1.3,
+          "dur": 0.8,
+          "from": [
+            464.0,
+            1122.0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            293.0,
+            1032.0
+          ],
+          "text": "CADERA ATRÁS",
+          "anchor": "middle",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "BAJO LA",
+        "PARALELA"
+      ],
+      "sub": "Cadera debajo de la rodilla",
+      "vo": "Paso dos. Bajá con control hasta que la cadera quede por debajo de la línea de las rodillas.",
+      "moves": [
+        {
+          "cut": "HALF",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.6,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": [
+            688.9,
+            1309.5
+          ],
+          "solid": true,
+          "at": 1.6,
+          "from": [
+            239.0,
+            1309.5
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            715.9,
+            1273.5
+          ],
+          "text": "PARALELA",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "PECHO",
+        "ARRIBA"
+      ],
+      "sub": "Talones apoyados",
+      "vo": "Paso tres. Pecho arriba, rodillas alineadas con la punta de los pies y los talones siempre apoyados.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "HEELS_BAD",
+          "at": 2.0,
+          "dur": 0.5
+        },
+        {
+          "to": "BOTTOM",
+          "at": 3.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            266.0,
+            780.0
+          ],
+          "text": "PECHO ARRIBA",
+          "anchor": "middle",
+          "at": 0.6,
+          "out": 2.0
+        },
+        {
+          "type": "bar",
+          "pos": [
+            491.0,
+            1527.0
+          ],
+          "w": 150,
+          "h": 12,
+          "at": 0.8,
+          "out": 2.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            266.0,
+            780.0
+          ],
+          "text": "TALONES ARRIBA NO",
+          "anchor": "middle",
+          "at": 2.4,
+          "out": 3.2
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "EXTENDÉ",
+        "LA CADERA"
+      ],
+      "sub": "Hasta pararte completo",
+      "vo": "Paso cuatro. Subí empujando el piso y extendé la cadera por completo arriba.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.6,
+          "dur": 0.6
+        },
+        {
+          "to": "STAND",
+          "at": 1.2,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            302.0,
+            996.0
+          ],
+          "at": 0.6,
+          "dur": 0.9,
+          "from": [
+            302.0,
+            1320.0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            248.0,
+            888.0
+          ],
+          "text": "CADERA EXTENDIDA",
+          "anchor": "middle",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Rodillas en línea con los pies",
+        "Talones apoyados",
+        "Pecho arriba",
+        "Bajo la paralela, con control"
+      ],
+      "vo": "Claves: rodillas en línea con la punta de los pies, talones apoyados, pecho arriba y bajá por debajo de la paralela con control.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "12 REPS"
+      ],
+      "sub": "Ritmo constante",
+      "vo": "Doce repeticiones a ritmo constante. Bajá con control y subí con decisión.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PARALELA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SUBÍ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "ARMS",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "HALF",
+              0.45
+            ],
+            [
+              "BOTTOM",
+              0.45
+            ],
+            [
+              "HALF",
+              0.4
+            ],
+            [
+              "ARMS",
+              0.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "BOTTOM",
+    "grip": 0
+  },
+  "youtube": {
+    "titulo": "Air Squat 🔥 La sentadilla perfecta paso a paso | CrossFit",
+    "tags": [
+      "air squat",
+      "sentadilla",
+      "sentadilla con peso corporal",
+      "sentadilla profunda",
+      "squat",
+      "sentadilla bien hecha",
+      "entrada en calor",
+      "crossfit",
+      "piernas",
+      "glúteos"
+    ],
+    "descripcion": "🔥 AIR SQUAT — La sentadilla con peso corporal, bien hecha\n\n¿Se te levantan los talones o no llegás abajo de la paralela? La air squat es la base de todo: dominala y todo lo demás mejora. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate con los pies al ancho de los hombros y las puntas apenas hacia afuera.\n2️⃣ Llevá la cadera atrás y flexioná las rodillas a la vez, con los brazos al frente.\n3️⃣ Bajá con control hasta que la cadera quede por debajo de la línea de las rodillas.\n4️⃣ Pecho arriba, rodillas alineadas con la punta de los pies y talones siempre apoyados.\n5️⃣ Subí empujando el piso y extendé la cadera por completo arriba.\n\n✅ CLAVES DE TÉCNICA\n• Rodillas alineadas con la punta de los pies\n• Talones apoyados todo el tiempo\n• Pecho arriba\n• Cadera por debajo de la paralela\n• Bajá con control y subí extendiendo la cadera\n\n🎯 QUÉ TRABAJA\nRecto femoral · Glúteo mayor · Vasto lateral · Vasto medial · Erectores espinales\n\n⏱️ CUÁNTO\n12 repeticiones (por series). Va en la entrada en calor y en WODs.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #AirSquat #Sentadilla #Piernas #Entrenamiento"
+  }
+}

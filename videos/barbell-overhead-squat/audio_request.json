@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Óverjed scuat: sentadilla completa con la barra bloqueada arriba de la cabeza. Movilidad y estabilidad."
+    },
+    {
+      "id": "02",
+      "text": "Con la barra bloqueada arriba de la cabeza en agarre ancho, pies al ancho de los hombros y puntas apenas afuera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Empujá la barra hacia arriba todo el tiempo, con las axilas al frente y los codos bloqueados."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá a una sentadilla completa con la barra siempre sobre la mitad del pie."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Tronco lo más erguido posible, rodillas afuera y talones apoyados. Si la barra se va adelante, bajá menos."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Subí empujando el piso, con la barra estable arriba, hasta pararte completo."
+    },
+    {
+      "id": "07",
+      "text": "Claves: empujá la barra hacia arriba, axilas al frente, barra sobre la mitad del pie, rodillas afuera y talones apoyados."
+    },
+    {
+      "id": "08",
+      "text": "Dos repeticiones con treinta kilos. Si te falta movilidad, practicá con un palo."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

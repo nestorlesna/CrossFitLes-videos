@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "March in pleis: marcha enérgica en el lugar. Sube el pulso sin ningún impacto."
+    },
+    {
+      "id": "02",
+      "text": "Parate derecho, con los pies al ancho de la cadera, el abdomen firme y la mirada al frente."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Levantá una rodilla hasta la altura de la cadera, con el muslo paralelo al piso."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Alterná las piernas y acompañá con un braceo amplio: brazo contrario a la pierna que sube."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Mantené el tronco vertical: no te inclines hacia atrás al subir la rodilla."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Aumentá el ritmo de a poco, sin llegar a trotar. El objetivo es cero impacto."
+    },
+    {
+      "id": "07",
+      "text": "Claves: rodillas a la altura de la cadera, braceo amplio, tronco vertical y ritmo en aumento, sin llegar a trotar."
+    },
+    {
+      "id": "08",
+      "text": "Un minuto, subiendo el ritmo de a poco. Ideal para arrancar la entrada en calor."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

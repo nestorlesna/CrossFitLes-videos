@@ -1,0 +1,529 @@
+{
+  "slug": "march-in-place",
+  "name": "March in Place",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Cardio",
+    "Cadera",
+    "Core"
+  ],
+  "descripcion": "Caminata enérgica sin desplazamiento, levantando las rodillas hasta la altura de la cadera y acompañando con braceo amplio. Sube el pulso sin ningún impacto en las rodillas.",
+  "revisado": false,
+  "notas": "En el lugar: sin floorScroll.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "pronuncia": {
+    "March in Place": "March in pleis"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "UP_N": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": -10,
+      "t": -88,
+      "s2": 0,
+      "t2": 0,
+      "ft": 10,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": -38,
+      "fa": 70,
+      "ua2": 60,
+      "fa2": 80
+    },
+    "UP_F": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "s2": -10,
+      "t2": -88,
+      "ft2": 10,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 60,
+      "fa": 80,
+      "ua2": -38,
+      "fa2": 70
+    },
+    "MID": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 10,
+      "fa": 60,
+      "ua2": 10,
+      "fa2": 60
+    },
+    "LOW_N": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 10,
+      "t": -40,
+      "s2": 0,
+      "t2": 0,
+      "ft": 6,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": -10,
+      "fa": 40,
+      "ua2": 24,
+      "fa2": 40
+    },
+    "BACK_BAD": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": -10,
+      "t": -88,
+      "s2": 0,
+      "t2": 0,
+      "ft": 10,
+      "b": -14,
+      "hd": -12,
+      "g": 0,
+      "ua": -38,
+      "fa": 70,
+      "ua2": 60,
+      "fa2": 80
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.4,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "MARCH",
+        "IN PLACE"
+      ],
+      "vo": "March in Place: marcha enérgica en el lugar. Sube el pulso sin ningún impacto.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "UP_N",
+              0.42
+            ],
+            [
+              "MID",
+              0.336
+            ],
+            [
+              "UP_F",
+              0.42
+            ],
+            [
+              "MID",
+              0.336
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE",
+        "Y DERECHO"
+      ],
+      "sub": "Tronco vertical",
+      "vo": "Parate derecho, con los pies al ancho de la cadera, el abdomen firme y la mirada al frente.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": [
+            419.0,
+            600.0
+          ],
+          "color": "ink",
+          "width": 6,
+          "at": 1.2,
+          "from": [
+            419.0,
+            1077.0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            401.0,
+            564.0
+          ],
+          "text": "TRONCO VERTICAL",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "RODILLA A",
+        "LA CADERA"
+      ],
+      "sub": "Muslo paralelo al piso",
+      "vo": "Paso uno. Levantá una rodilla hasta la altura de la cadera, con el muslo paralelo al piso.",
+      "moves": [
+        {
+          "to": "UP_N",
+          "at": 0.6,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": [
+            823.9,
+            1077.0
+          ],
+          "solid": true,
+          "at": 1.3,
+          "from": [
+            392.0,
+            1077.0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            841.9,
+            1041.0
+          ],
+          "text": "ALTURA DE CADERA",
+          "anchor": "start",
+          "at": 1.5
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "BRACEO",
+        "AMPLIO"
+      ],
+      "sub": "Brazo contrario a la pierna",
+      "vo": "Paso dos. Alterná las piernas y acompañá con un braceo amplio: brazo contrario a la pierna que sube.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP_N",
+              0.55
+            ],
+            [
+              "MID",
+              0.44000000000000006
+            ],
+            [
+              "UP_F",
+              0.55
+            ],
+            [
+              "MID",
+              0.44000000000000006
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            770.0,
+            996.0
+          ],
+          "text": "BRAZO CONTRARIO",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "NO TE",
+        "TIRES ATRÁS"
+      ],
+      "sub": "Tronco vertical al subir",
+      "vo": "Paso tres. Mantené el tronco vertical: no te inclines hacia atrás al subir la rodilla.",
+      "moves": [
+        {
+          "cut": "UP_N",
+          "at": 0
+        },
+        {
+          "to": "BACK_BAD",
+          "at": 1.8,
+          "dur": 0.5
+        },
+        {
+          "to": "UP_N",
+          "at": 3.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            239.0,
+            924.0
+          ],
+          "text": "TRONCO VERTICAL",
+          "anchor": "middle",
+          "at": 0.5,
+          "out": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            239.0,
+            924.0
+          ],
+          "text": "HACIA ATRÁS NO",
+          "anchor": "middle",
+          "at": 2.2,
+          "out": 3.2
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "SUBÍ",
+        "EL RITMO"
+      ],
+      "sub": "Sin llegar a trotar",
+      "vo": "Paso cuatro. Aumentá el ritmo de a poco, sin llegar a trotar. El objetivo es cero impacto.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP_N",
+              0.5
+            ],
+            [
+              "MID",
+              0.4
+            ],
+            [
+              "UP_F",
+              0.5
+            ],
+            [
+              "MID",
+              0.4
+            ]
+          ],
+          "at": 0.3,
+          "until": 2.6
+        },
+        {
+          "seq": [
+            [
+              "UP_N",
+              0.34
+            ],
+            [
+              "MID",
+              0.272
+            ],
+            [
+              "UP_F",
+              0.34
+            ],
+            [
+              "MID",
+              0.272
+            ]
+          ],
+          "at": 2.6,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            770.0,
+            996.0
+          ],
+          "text": "CERO IMPACTO",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Rodillas a la altura de la cadera",
+        "Braceo amplio",
+        "Tronco vertical",
+        "Ritmo en aumento, sin trotar"
+      ],
+      "vo": "Claves: rodillas a la altura de la cadera, braceo amplio, tronco vertical y ritmo en aumento, sin llegar a trotar.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "UP_N",
+              0.5
+            ],
+            [
+              "MID",
+              0.4
+            ],
+            [
+              "UP_F",
+              0.5
+            ],
+            [
+              "MID",
+              0.4
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "1 MINUTO"
+      ],
+      "sub": "Ritmo en aumento",
+      "vo": "Un minuto, subiendo el ritmo de a poco. Ideal para arrancar la entrada en calor.",
+      "chips": [
+        {
+          "label": "1 · RODILLA ARRIBA",
+          "at": 0.5
+        },
+        {
+          "label": "2 · BRACEO",
+          "at": 2.0
+        }
+      ],
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP_N",
+              0.4
+            ],
+            [
+              "MID",
+              0.32000000000000006
+            ],
+            [
+              "UP_F",
+              0.4
+            ],
+            [
+              "MID",
+              0.32000000000000006
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP_N",
+    "grip": 0,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "March in Place 🔥 Marcha en el lugar sin impacto | CrossFit",
+    "tags": [
+      "march in place",
+      "marcha en el lugar",
+      "caminar en el lugar",
+      "rodillas arriba",
+      "cardio sin impacto",
+      "entrada en calor",
+      "crossfit",
+      "cardio",
+      "calentamiento"
+    ],
+    "descripcion": "🔥 MARCH IN PLACE — Subí el pulso sin impacto en las rodillas\n\n¿Necesitás entrar en calor sin saltar ni correr? La marcha en el lugar sube el pulso cuidando las articulaciones. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate derecho, con los pies al ancho de la cadera, el abdomen firme y la mirada al frente.\n2️⃣ Levantá una rodilla hasta la altura de la cadera, con el muslo paralelo al piso.\n3️⃣ Alterná las piernas y acompañá con un braceo amplio: brazo contrario a la pierna que sube.\n4️⃣ Mantené el tronco vertical: no te inclines hacia atrás al subir la rodilla.\n5️⃣ Aumentá el ritmo de a poco, sin llegar a trotar.\n\n✅ CLAVES DE TÉCNICA\n• Rodillas a la altura de la cadera\n• Braceo amplio, brazo contrario a la pierna\n• Tronco vertical, sin tirarte atrás\n• Ritmo en aumento, sin llegar a trotar: cero impacto\n\n🎯 QUÉ TRABAJA\nRecto femoral · Glúteo mayor · Recto abdominal\n\n⏱️ CUÁNTO\n1 minuto, subiendo el ritmo de a poco. Va en la entrada en calor.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #MarchInPlace #Cardio #Entrenamiento"
+  }
+}

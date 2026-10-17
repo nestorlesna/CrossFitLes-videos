@@ -7,6 +7,7 @@
 //   node plantilla/make-exercise.mjs <slug> --info     muestra la fila de ejercicios/ejercicios.csv (datos para la ficha)
 //
 // Flags: --force-tts (regenera la voz aunque el texto no cambió) · --no-check · --no-snapshot
+//        --prefijo=OC (con --render: el video sale como salida/OC_<slug>.mp4; sin prefijo, salida/<slug>.mp4)
 import { spawnSync } from "node:child_process";
 import { createHash } from "node:crypto";
 import { copyFileSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from "node:fs";
@@ -20,6 +21,9 @@ const ENGINE = join(ROOT, ".claude", "skills", "media-use", "audio", "scripts", 
 const args = process.argv.slice(2);
 const has = (f) => args.includes(f);
 const slug = args.find((a) => !a.startsWith("--"));
+// Prefijo opcional del .mp4 (lo pide el usuario según la herramienta que genera: OC_ = opencode, etc.).
+const PREFIJO = (args.find((a) => a.startsWith("--prefijo=")) || "").slice(10).replace(/[^A-Za-z0-9-]/g, "");
+const mp4Name = (s) => `${PREFIJO ? `${PREFIJO}_` : ""}${s}.mp4`;
 
 const sh = (cmd, cwd, inherit = true) => {
   console.log(`$ ${cmd}`);
@@ -207,7 +211,9 @@ export function checklist() {
   let done = 0, fichas = 0, yts = 0, subidos = 0, next = null;
   const rows = items.map(({ slug, n, row }) => {
     const s = specs[slug];
-    const out = outPath(`${slug}.mp4`), subido = !!subidoPath(`${slug}.mp4`);
+    const st = readStatus(join(ROOT, "videos", slug));
+    const mp4 = st.archivo || `${slug}.mp4`; // archivo = nombre con prefijo del último render (--prefijo)
+    const out = outPath(mp4), subido = !!subidoPath(mp4);
     const rendered = existsSync(out);
     const name = s?.spec.name || row?.nombre || slug;
     const impl = row?.implemento || (s ? "Ninguno" : "");
@@ -219,14 +225,13 @@ export function checklist() {
     }
     fichas++;
     const { spec, file } = s;
-    const st = readStatus(join(ROOT, "videos", slug));
     const stale = rendered && (st.renderHash ? st.renderHash !== contentHash(spec) : statSync(file).mtimeMs > statSync(out).mtimeMs);
     const yt = exportYoutube(spec);
     if (rendered) done++;
     if (subido) subidos++;
     if (yt) yts++;
     const dur = rendered ? `${mp4Duration(out)?.toFixed(1)} s` : "—";
-    return `| ${n} | ${name} | ${impl} | ✅ | ${ok(st.voz)} | ${ok(st.composicion)} | ${st.check == null ? "⬜" : st.check ? "✅" : "❌"} | ${rendered ? (stale ? "⚠️ desactualizado" : "✅") : "⬜"} | ${yt ? `[✅](${rel(outPath(`${slug}.youtube.txt`))})` : "⬜"} | ${existsSync(outPath(`${slug}.miniatura.png`)) ? `[✅](${rel(outPath(`${slug}.miniatura.png`))})` : "⬜"} | ${dur} | ${rendered ? `[${slug}.mp4](${rel(out)})` : "—"} | ${ok(spec.revisado)} | ${ok(subido)} | ${st.renderizado || "—"} | ${spec.notas || ""} |`;
+    return `| ${n} | ${name} | ${impl} | ✅ | ${ok(st.voz)} | ${ok(st.composicion)} | ${st.check == null ? "⬜" : st.check ? "✅" : "❌"} | ${rendered ? (stale ? "⚠️ desactualizado" : "✅") : "⬜"} | ${yt ? `[✅](${rel(outPath(`${slug}.youtube.txt`))})` : "⬜"} | ${existsSync(outPath(`${slug}.miniatura.png`)) ? `[✅](${rel(outPath(`${slug}.miniatura.png`))})` : "⬜"} | ${dur} | ${rendered ? `[${mp4}](${rel(out)})` : "—"} | ${ok(spec.revisado)} | ${ok(subido)} | ${st.renderizado || "—"} | ${spec.notas || ""} |`;
   });
   const md = `# Checklist de videos de ejercicios
 
@@ -302,9 +307,9 @@ function main() {
     const r = sh("npx --prefer-offline hyperframes render --skill=faceless-explainer --quality high --output renders/video.mp4", dir);
     if (r.status !== 0) throw new Error("render falló");
     mkdirSync(join(ROOT, "salida"), { recursive: true });
-    copyFileSync(join(dir, "renders", "video.mp4"), join(ROOT, "salida", `${slug}.mp4`));
-    writeStatus(dir, { renderizado: today(), renderHash: contentHash(spec) });
-    console.log(`✓ salida/${slug}.mp4`);
+    copyFileSync(join(dir, "renders", "video.mp4"), join(ROOT, "salida", mp4Name(slug)));
+    writeStatus(dir, { renderizado: today(), renderHash: contentHash(spec), archivo: mp4Name(slug) });
+    console.log(`✓ salida/${mp4Name(slug)}`);
   }
   checklist();
 }

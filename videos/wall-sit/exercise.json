@@ -1,0 +1,491 @@
+{
+  "slug": "wall-sit",
+  "name": "Wall Sit",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Cuádriceps",
+    "Glúteos"
+  ],
+  "descripcion": "Con toda la espalda apoyada en la pared, se desliza hacia abajo hasta que los muslos quedan cerca de paralelos al piso y se sostiene. Isométrico de cuádriceps muy usado en rehabilitación de dolor patelofemoral.",
+  "revisado": false,
+  "notas": "Pared detrás (prop wall a la izquierda); pies fijos y la cadera baja pegada a la pared.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "props": [
+    {
+      "type": "wall",
+      "x": -334,
+      "h": 760
+    }
+  ],
+  "pronuncia": {
+    "Wall Sit": "Uol sit"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "hip": [
+        -200,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "LEAN": {
+      "hip": [
+        -240,
+        -404
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "HALF": {
+      "hip": [
+        -240,
+        -320
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 0
+    },
+    "SIT": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 0
+    },
+    "HIGH": {
+      "hip": [
+        -240,
+        -300
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 0
+    },
+    "HANDS_BAD": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 6,
+      "hd": 6,
+      "g": 1,
+      "hx": -90,
+      "hy": -250,
+      "ed": 1
+    },
+    "FEET_BAD": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        -120,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "WALL",
+        "SIT"
+      ],
+      "vo": "Wall Sit: sentadilla isométrica contra la pared. Cuádriceps que arden, rodillas cuidadas.",
+      "moves": [
+        {
+          "to": "LEAN",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "to": "HALF",
+          "at": 0.5,
+          "dur": 0.8
+        },
+        {
+          "to": "SIT",
+          "at": 1.3,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESPALDA",
+        "EN LA PARED"
+      ],
+      "sub": "Pies alejados de la pared",
+      "vo": "Apoyá toda la espalda en la pared y alejá los pies unos dos pasos, al ancho de la cadera.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "LEAN",
+          "at": 0.8,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            591.0,
+            1509.0
+          ],
+          "at": 1.6,
+          "dur": 0.6,
+          "from": [
+            438.0,
+            1509.0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            465.0,
+            996.0
+          ],
+          "text": "PIES ADELANTE",
+          "anchor": "start",
+          "at": 1.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "DESLIZATE",
+        "HACIA ABAJO"
+      ],
+      "sub": "Espalda pegada",
+      "vo": "Paso uno. Deslizate hacia abajo con la espalda pegada a la pared, hasta que los muslos queden cerca de paralelos al piso.",
+      "moves": [
+        {
+          "cut": "LEAN",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "to": "SIT",
+          "at": 1.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            258.0,
+            1230.0
+          ],
+          "at": 0.6,
+          "dur": 1.6,
+          "from": [
+            258.0,
+            996.0
+          ]
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "RODILLAS",
+        "A 90°"
+      ],
+      "sub": "Sobre los tobillos",
+      "vo": "Paso dos. Las rodillas quedan sobre los tobillos, sin pasar la punta de los pies. Si se pasan, alejá más los pies.",
+      "moves": [
+        {
+          "cut": "SIT",
+          "at": 0
+        },
+        {
+          "to": "FEET_BAD",
+          "at": 2.4,
+          "dur": 0.6
+        },
+        {
+          "to": "SIT",
+          "at": 3.8,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": [
+            600.0,
+            1527.0
+          ],
+          "color": "ink",
+          "width": 6,
+          "at": 0.8,
+          "out": 2.4,
+          "from": [
+            600.0,
+            1257.0
+          ]
+        },
+        {
+          "type": "ring",
+          "pos": [
+            600.0,
+            1293.0
+          ],
+          "r": 40,
+          "at": 0.6,
+          "out": 2.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            654.0,
+            996.0
+          ],
+          "text": "RODILLA SOBRE TOBILLO",
+          "anchor": "middle",
+          "at": 1.0,
+          "out": 2.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            654.0,
+            996.0
+          ],
+          "text": "RODILLA ADELANTE NO",
+          "anchor": "middle",
+          "at": 2.8,
+          "out": 3.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "MANOS",
+        "LIBRES"
+      ],
+      "sub": "Talones apoyados",
+      "vo": "Paso tres. No apoyes las manos en los muslos ni te pongas en puntas de pie. Talones bien apoyados.",
+      "moves": [
+        {
+          "cut": "SIT",
+          "at": 0
+        },
+        {
+          "to": "HANDS_BAD",
+          "at": 0.6,
+          "dur": 0.6
+        },
+        {
+          "to": "SIT",
+          "at": 2.4,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            654.0,
+            924.0
+          ],
+          "text": "MANOS EN LOS MUSLOS NO",
+          "anchor": "middle",
+          "at": 1.0,
+          "out": 2.4
+        },
+        {
+          "type": "bar",
+          "pos": [
+            609.0,
+            1527.0
+          ],
+          "w": 150,
+          "h": 12,
+          "at": 3.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "SOSTENÉ",
+        "Y RESPIRÁ"
+      ],
+      "sub": "Si molesta, más arriba",
+      "vo": "Paso cuatro. Sostené respirando tranquilo. Si te molesta la rodilla, quedate más arriba: sesenta grados también sirve.",
+      "moves": [
+        {
+          "cut": "SIT",
+          "at": 0
+        },
+        {
+          "to": "HIGH",
+          "at": 2.8,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            654.0,
+            924.0
+          ],
+          "text": "60° TAMBIÉN SIRVE",
+          "anchor": "middle",
+          "at": 3.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Espalda pegada a la pared",
+        "Rodillas sobre los tobillos",
+        "Manos fuera de los muslos",
+        "Talones apoyados"
+      ],
+      "vo": "Claves: espalda pegada a la pared, rodillas sobre los tobillos, manos fuera de los muslos y talones apoyados.",
+      "moves": [
+        {
+          "cut": "SIT",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "45 SEGUNDOS"
+      ],
+      "sub": "Sostenido",
+      "vo": "Cuarenta y cinco segundos sostenidos. Respirá y aguantá la posición.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.5
+        },
+        {
+          "label": "2 · SOSTENÉ",
+          "at": 1.8
+        }
+      ],
+      "moves": [
+        {
+          "cut": "LEAN",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "SIT",
+          "at": 1.1,
+          "dur": 0.6
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "SIT",
+    "grip": 0,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Wall Sit 🔥 Sentadilla isométrica en la pared | CrossFit",
+    "tags": [
+      "wall sit",
+      "sentadilla en la pared",
+      "sentadilla isométrica",
+      "isométrico de cuádriceps",
+      "silla en la pared",
+      "cuádriceps",
+      "rodilla",
+      "crossfit",
+      "activación",
+      "piernas"
+    ],
+    "descripcion": "🔥 WALL SIT — Isométrico de cuádriceps contra la pared\n\n¿Querés piernas fuertes sin impacto y cuidando las rodillas? La sentadilla en la pared es simple y brutal. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Apoyá toda la espalda en la pared y alejá los pies unos dos pasos, al ancho de la cadera.\n2️⃣ Deslizate hacia abajo con la espalda pegada a la pared hasta que los muslos queden cerca de paralelos al piso.\n3️⃣ Las rodillas quedan sobre los tobillos, sin pasar la punta de los pies. Si se pasan, alejá más los pies.\n4️⃣ No apoyes las manos en los muslos ni te pongas en puntas de pie.\n5️⃣ Sostené respirando tranquilo. Si te molesta la rodilla, quedate más arriba: 60° también sirve.\n\n✅ CLAVES DE TÉCNICA\n• Espalda pegada a la pared todo el tiempo\n• Rodillas sobre los tobillos: si se pasan, alejá los pies\n• Manos fuera de los muslos\n• Talones apoyados, nada de puntas de pie\n• Si molesta la rodilla, quedate más arriba\n\n🎯 QUÉ TRABAJA\nRecto femoral · Glúteo mayor · Vasto lateral · Vasto medial\n\n⏱️ CUÁNTO\n45 segundos sostenidos (por series). Va en la activación, como accesorio o en rehabilitación de rodilla.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés dolor de rodilla, empezá con un ángulo cómodo y consultalo con tu kinesiólogo o coach.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WallSit #Cuadriceps #Piernas #Entrenamiento"
+  }
+}

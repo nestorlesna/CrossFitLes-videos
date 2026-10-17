@@ -1,0 +1,471 @@
+{
+  "slug": "wall-thoracic-extensions",
+  "name": "Wall Thoracic Extensions",
+  "category": "CROSSFIT · MOVILIDAD",
+  "tags": [
+    "Espalda alta",
+    "Hombros",
+    "Dorsales"
+  ],
+  "descripcion": "De pie frente a una pared con los brazos extendidos y manos apoyadas. Caminar los pies hacia atrás e inclinar el torso hacia adelante, dejando que la columna torácica se extienda mientras los brazos permanecen contra la pared.",
+  "revisado": false,
+  "notas": "Pared adelante (prop wall); el pecho que cae se ve con la curva del torso (cv negativo).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 430,
+    "y": 1500,
+    "scale": 0.86
+  },
+  "props": [
+    {
+      "type": "wall",
+      "x": 420,
+      "h": 820
+    }
+  ],
+  "pronuncia": {
+    "Wall Thoracic Extensions": "Uol torásic extenshons"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "hip": [
+        100,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "HANDS": {
+      "hip": [
+        100,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": 412,
+      "hy": -600,
+      "ed": 1
+    },
+    "MID": {
+      "hip": [
+        -40,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 40,
+      "hd": 22,
+      "g": 1,
+      "hx": 412,
+      "hy": -600,
+      "ed": 1
+    },
+    "HINGE": {
+      "hip": [
+        -185,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 77,
+      "hd": 92,
+      "cv": -14,
+      "g": 1,
+      "hx": 412,
+      "hy": -600,
+      "ed": 1
+    },
+    "DEEP": {
+      "hip": [
+        -185,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 82,
+      "hd": 100,
+      "cv": -34,
+      "g": 1,
+      "hx": 412,
+      "hy": -600,
+      "ed": 1
+    },
+    "HIGH": {
+      "hip": [
+        -150,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 60,
+      "hd": 70,
+      "cv": -22,
+      "g": 1,
+      "hx": 412,
+      "hy": -720,
+      "ed": 1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · MOVILIDAD",
+      "head": [
+        "WALL THORACIC",
+        "EXTENSIONS"
+      ],
+      "vo": "Wall Thoracic Extensions: movilidad de la espalda alta con la pared. Pecho abierto para empujar arriba.",
+      "moves": [
+        {
+          "to": "HINGE",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "DEEP",
+              1.8
+            ],
+            [
+              "HINGE",
+              1.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "FRENTE",
+        "A LA PARED"
+      ],
+      "sub": "Brazos estirados, manos apoyadas",
+      "vo": "Parate frente a una pared, con los brazos estirados y las manos apoyadas.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "HANDS",
+          "at": 0.8,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            784.3,
+            984.0
+          ],
+          "r": 44,
+          "at": 1.7
+        },
+        {
+          "type": "label",
+          "pos": [
+            748.2,
+            1095.8
+          ],
+          "text": "MANOS EN LA PARED",
+          "anchor": "end",
+          "at": 1.9
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "CAMINÁ",
+        "ATRÁS"
+      ],
+      "sub": "E inclinate adelante",
+      "vo": "Paso uno. Caminá los pies hacia atrás e inclinate hacia adelante, con las manos fijas en la pared.",
+      "moves": [
+        {
+          "cut": "HANDS",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 1.0
+        },
+        {
+          "to": "HINGE",
+          "at": 1.6,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            292.4,
+            1508.6
+          ],
+          "at": 0.6,
+          "dur": 1.6,
+          "from": [
+            524.6,
+            1508.6
+          ]
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "PECHO",
+        "AL PISO"
+      ],
+      "sub": "La espalda alta se extiende",
+      "vo": "Paso dos. Dejá caer el pecho hacia el piso, con los brazos contra la pared: la espalda alta se extiende.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "to": "DEEP",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            424.5,
+            1087.6
+          ],
+          "at": 1.0,
+          "dur": 0.8,
+          "from": [
+            424.5,
+            975.8
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            355.7,
+            821.0
+          ],
+          "text": "ESPALDA ALTA",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "CORE",
+        "ACTIVO"
+      ],
+      "sub": "Que no se arquee la lumbar",
+      "vo": "Paso tres. Core activo: el movimiento es en la mitad de la espalda, no en la zona lumbar.",
+      "moves": [
+        {
+          "cut": "DEEP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            415.9,
+            1079.0
+          ],
+          "r": 60,
+          "at": 0.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            355.7,
+            821.0
+          ],
+          "text": "ACÁ SÍ",
+          "anchor": "middle",
+          "at": 0.8,
+          "out": 2.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            236.5,
+            906.6
+          ],
+          "text": "LUMBAR QUIETA",
+          "anchor": "middle",
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "RESPIRÁ",
+        "PROFUNDO"
+      ],
+      "sub": "Probá distintas alturas",
+      "vo": "Paso cuatro. Respirá profundo en cada extensión. Podés apoyar las manos a distintas alturas.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "to": "DEEP",
+          "at": 0.5,
+          "dur": 1.4
+        },
+        {
+          "to": "HINGE",
+          "at": 2.0,
+          "dur": 0.8
+        },
+        {
+          "to": "HIGH",
+          "at": 3.0,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            756.8,
+            760.4
+          ],
+          "text": "INHALÁ · EXHALÁ",
+          "anchor": "end",
+          "at": 0.8,
+          "out": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            756.8,
+            760.4
+          ],
+          "text": "MÁS ARRIBA",
+          "anchor": "end",
+          "at": 3.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Manos fijas en la pared",
+        "Pecho hacia el piso",
+        "Core activo, lumbar quieta",
+        "Respirá en cada extensión"
+      ],
+      "vo": "Claves: manos fijas en la pared, pecho hacia el piso, core activo con la lumbar quieta y respirá en cada extensión.",
+      "moves": [
+        {
+          "cut": "DEEP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "Respirando profundo",
+      "vo": "Treinta segundos, respirando profundo. Ideal antes de empujar o colgarte.",
+      "chips": [
+        {
+          "label": "1 · INHALÁ",
+          "at": 0.5
+        },
+        {
+          "label": "2 · EXHALÁ Y BAJÁ",
+          "at": 2.3
+        }
+      ],
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DEEP",
+              1.8
+            ],
+            [
+              "HINGE",
+              1.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "DEEP",
+    "grip": 1,
+    "zoom": 1.1,
+    "dy": 170
+  },
+  "youtube": {
+    "titulo": "Wall Thoracic Extensions 🧘 Movilidad de espalda alta | CrossFit",
+    "tags": [
+      "wall thoracic extension",
+      "extensión torácica",
+      "movilidad torácica",
+      "movilidad de espalda alta",
+      "movilidad de hombro",
+      "estiramiento en la pared",
+      "crossfit",
+      "movilidad",
+      "espalda",
+      "entrada en calor"
+    ],
+    "descripcion": "🧘 WALL THORACIC EXTENSIONS — Abrí la espalda alta para empujar y colgarte mejor\n\n¿Te cuesta llevar los brazos arriba sin arquear la lumbar? Casi siempre falta movilidad torácica. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate frente a una pared, con los brazos estirados y las manos apoyadas.\n2️⃣ Caminá los pies hacia atrás e inclinate hacia adelante, con las manos fijas en la pared.\n3️⃣ Dejá caer el pecho hacia el piso, con los brazos contra la pared: la espalda alta se extiende.\n4️⃣ Core activo: el movimiento es en la mitad de la espalda, no en la zona lumbar.\n5️⃣ Respirá profundo en cada extensión. Podés apoyar las manos a distintas alturas.\n\n✅ CLAVES DE TÉCNICA\n• Manos fijas en la pared\n• Dejá caer el pecho hacia el piso\n• Core activo: que no se arquee la lumbar\n• Respirá profundo en cada extensión\n• Probá apoyar las manos a distintas alturas\n\n🎯 QUÉ TRABAJA\nErectores espinales · Deltoides anterior · Dorsal ancho · Trapecio inferior\n\n⏱️ CUÁNTO\n30 segundos. Va en la entrada en calor o como accesorio de movilidad.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Movilidad #Toracica #EspaldaAlta #Entrenamiento"
+  }
+}

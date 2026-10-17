@@ -1,0 +1,540 @@
+{
+  "slug": "bird-dog-crunch",
+  "name": "Bird Dog Crunch",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Core",
+    "Glúteos",
+    "Espalda baja"
+  ],
+  "descripcion": "Desde cuadrupedia, extender el brazo y la pierna opuestos hasta quedar alineados, luego flexionar llevando el codo a la rodilla por debajo del cuerpo (crunch) y volver a extender.",
+  "revisado": false,
+  "notas": "Brazo cercano + pierna lejana (g2 en el piso); el otro lado al revés. Codo y rodilla se encuentran en la intersección calculada por script.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 480,
+    "y": 1500,
+    "scale": 0.8
+  },
+  "pronuncia": {
+    "Bird Dog Crunch": "Berd dog cranch"
+  },
+  "initialPose": "QUAD",
+  "poses": {
+    "KNEEL": {
+      "hip": [
+        -60,
+        -250
+      ],
+      "s": 90,
+      "t": 4,
+      "s2": 90,
+      "t2": 4,
+      "ft": 172,
+      "ft2": 172,
+      "b": 2,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6,
+      "cv": 0,
+      "g2": 0
+    },
+    "QUAD": {
+      "hip": [
+        0,
+        -231
+      ],
+      "s": 90,
+      "t": 0,
+      "s2": 90,
+      "t2": 0,
+      "ft": 172,
+      "ft2": 172,
+      "b": 74,
+      "hd": 100,
+      "g": 1,
+      "hx": 268,
+      "hy": 15,
+      "ed": 1,
+      "cv": 0,
+      "g2": 1,
+      "hx2": 268,
+      "hy2": 15
+    },
+    "EXT_A": {
+      "hip": [
+        0,
+        -231
+      ],
+      "s": 90,
+      "t": 0,
+      "s2": 98,
+      "t2": 98,
+      "ft": 172,
+      "ft2": 104,
+      "b": 74,
+      "hd": 86,
+      "g": 0,
+      "hx": 268,
+      "hy": 15,
+      "ed": 1,
+      "cv": 0,
+      "g2": 1,
+      "hx2": 268,
+      "hy2": 15,
+      "ua": 110,
+      "fa": 0
+    },
+    "CR_A": {
+      "hip": [
+        0,
+        -231
+      ],
+      "s": 90,
+      "t": 0,
+      "s2": 112,
+      "t2": -70.7,
+      "ft": 172,
+      "ft2": 150,
+      "b": 70,
+      "hd": 150,
+      "g": 0,
+      "hx": 268,
+      "hy": 15,
+      "ed": 1,
+      "cv": 34,
+      "g2": 1,
+      "hx2": 268,
+      "hy2": 15,
+      "ua": -22.3,
+      "fa": -150
+    },
+    "EXT_B": {
+      "hip": [
+        0,
+        -231
+      ],
+      "s": 98,
+      "t": 98,
+      "s2": 90,
+      "t2": 0,
+      "ft": 104,
+      "ft2": 172,
+      "b": 74,
+      "hd": 86,
+      "g": 1,
+      "hx": 268,
+      "hy": 15,
+      "ed": 1,
+      "cv": 0,
+      "g2": 0,
+      "hx2": 268,
+      "hy2": 15,
+      "ua2": 110,
+      "fa2": 0
+    },
+    "CR_B": {
+      "hip": [
+        0,
+        -231
+      ],
+      "s": 112,
+      "t": -70.7,
+      "s2": 90,
+      "t2": 0,
+      "ft": 150,
+      "ft2": 172,
+      "b": 70,
+      "hd": 150,
+      "g": 1,
+      "hx": 268,
+      "hy": 15,
+      "ed": 1,
+      "cv": 34,
+      "g2": 0,
+      "hx2": 268,
+      "hy2": 15,
+      "ua2": -22.3,
+      "fa2": -150
+    },
+    "HIP_BAD": {
+      "hip": [
+        0,
+        -231
+      ],
+      "s": 90,
+      "t": 0,
+      "s2": 124,
+      "t2": 124,
+      "ft": 172,
+      "ft2": 104,
+      "b": 62,
+      "hd": 70,
+      "g": 0,
+      "hx": 268,
+      "hy": 15,
+      "ed": 1,
+      "cv": -24,
+      "g2": 1,
+      "hx2": 268,
+      "hy2": 15,
+      "ua": 110,
+      "fa": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "BIRD DOG",
+        "CRUNCH"
+      ],
+      "vo": "Bird Dog Crunch: brazo y pierna opuestos, extender y llevar el codo a la rodilla. Core y glúteos.",
+      "moves": [
+        {
+          "to": "QUAD",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "EXT_A",
+              1.0
+            ],
+            [
+              "CR_A",
+              1.0
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "CUADRUPEDIA"
+      ],
+      "sub": "Manos bajo hombros, rodillas bajo cadera",
+      "vo": "En cuadrupedia: manos debajo de los hombros, rodillas debajo de la cadera y la espalda neutra.",
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        },
+        {
+          "to": "QUAD",
+          "at": 0.6,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": {
+            "j": "QUAD.S",
+            "dy": -60
+          },
+          "solid": true,
+          "at": 1.8,
+          "from": {
+            "j": "QUAD.H",
+            "dy": -60
+          }
+        },
+        {
+          "type": "label",
+          "pos": [
+            592.0,
+            940.0
+          ],
+          "text": "ESPALDA NEUTRA",
+          "anchor": "middle",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "EXTENDÉ",
+        "OPUESTOS"
+      ],
+      "sub": "Brazo y pierna alineados",
+      "vo": "Paso uno. Extendé un brazo y la pierna opuesta hasta que queden alineados con el tronco.",
+      "moves": [
+        {
+          "cut": "QUAD",
+          "at": 0
+        },
+        {
+          "to": "EXT_A",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": [
+            976.9,
+            1122.6
+          ],
+          "color": "ink",
+          "width": 6,
+          "at": 2.0,
+          "from": [
+            32.0,
+            1299.2
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            480.0,
+            940.0
+          ],
+          "text": "TODO ALINEADO",
+          "anchor": "middle",
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "CODO A",
+        "LA RODILLA"
+      ],
+      "sub": "Por debajo del cuerpo",
+      "vo": "Paso dos. Flexioná y llevá el codo a la rodilla por debajo del cuerpo, redondeando apenas la espalda.",
+      "moves": [
+        {
+          "cut": "EXT_A",
+          "at": 0
+        },
+        {
+          "to": "CR_A",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            646.1,
+            1373.4
+          ],
+          "r": 50,
+          "at": 1.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            480.0,
+            940.0
+          ],
+          "text": "CODO Y RODILLA",
+          "anchor": "middle",
+          "at": 2.1
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "CADERA",
+        "NIVELADA"
+      ],
+      "sub": "Sin rotar el tronco",
+      "vo": "Paso tres. Volvé a extender con la cadera nivelada y el core activo, sin rotar el tronco ni arquear.",
+      "moves": [
+        {
+          "cut": "CR_A",
+          "at": 0
+        },
+        {
+          "to": "EXT_A",
+          "at": 0.5,
+          "dur": 1.0
+        },
+        {
+          "to": "HIP_BAD",
+          "at": 2.4,
+          "dur": 0.6
+        },
+        {
+          "to": "EXT_A",
+          "at": 3.8,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            480.0,
+            940.0
+          ],
+          "text": "CADERA NIVELADA",
+          "anchor": "middle",
+          "at": 1.2,
+          "out": 2.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            480.0,
+            940.0
+          ],
+          "text": "ARQUEAR NO",
+          "anchor": "middle",
+          "at": 2.8,
+          "out": 3.8
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "LENTO",
+        "Y CAMBIÁ"
+      ],
+      "sub": "El otro lado",
+      "vo": "Paso cuatro. Movimiento lento y controlado. Completá las repeticiones y cambiá de lado.",
+      "moves": [
+        {
+          "cut": "QUAD",
+          "at": 0
+        },
+        {
+          "to": "EXT_B",
+          "at": 0.5,
+          "dur": 1.0
+        },
+        {
+          "to": "CR_B",
+          "at": 2.0,
+          "dur": 1.0
+        },
+        {
+          "to": "EXT_B",
+          "at": 3.4,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            480.0,
+            940.0
+          ],
+          "text": "OTRO LADO",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Brazo y pierna opuestos",
+        "Cadera nivelada",
+        "No rotar el tronco",
+        "Lento y controlado"
+      ],
+      "vo": "Claves: brazo y pierna opuestos, cadera nivelada, no rotar el tronco y movimiento lento y controlado.",
+      "moves": [
+        {
+          "cut": "EXT_A",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Por lado",
+      "vo": "Diez repeticiones por lado, lentas y con control.",
+      "chips": [
+        {
+          "label": "1 · EXTENDÉ",
+          "at": 0.5
+        },
+        {
+          "label": "2 · CODO A RODILLA",
+          "at": 2.0
+        }
+      ],
+      "moves": [
+        {
+          "cut": "QUAD",
+          "at": 0
+        },
+        {
+          "to": "EXT_A",
+          "at": 0.5,
+          "dur": 0.9
+        },
+        {
+          "to": "CR_A",
+          "at": 2.0,
+          "dur": 0.9
+        },
+        {
+          "to": "EXT_A",
+          "at": 3.1,
+          "dur": 0.9
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "EXT_A",
+    "grip": 0,
+    "zoom": 1.0,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Bird Dog Crunch 🔥 Core y glúteos en cuadrupedia | CrossFit",
+    "tags": [
+      "bird dog crunch",
+      "bird dog",
+      "perro pájaro",
+      "cuadrupedia",
+      "ejercicio de core",
+      "estabilidad lumbar",
+      "activación de glúteos",
+      "crossfit",
+      "core",
+      "activación"
+    ],
+    "descripcion": "🔥 BIRD DOG CRUNCH — Core estable, glúteos activos y espalda cuidada\n\n¿Querés un core que estabilice de verdad antes de cargar peso? El bird dog con crunch es control puro. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ En cuadrupedia: manos debajo de los hombros, rodillas debajo de la cadera y la espalda neutra.\n2️⃣ Extendé un brazo y la pierna opuesta hasta que queden alineados con el tronco.\n3️⃣ Flexioná y llevá el codo a la rodilla por debajo del cuerpo.\n4️⃣ Volvé a extender con la cadera nivelada y el core activo, sin rotar el tronco.\n5️⃣ Completá las repeticiones y cambiá de lado.\n\n✅ CLAVES DE TÉCNICA\n• Brazo y pierna opuestos\n• Cadera nivelada, sin arquear la espalda\n• No rotes el tronco\n• Movimiento lento y controlado\n\n🎯 QUÉ TRABAJA\nGlúteo mayor · Bíceps femoral · Erectores espinales · Recto abdominal\n\n⏱️ CUÁNTO\n10 repeticiones por lado. Va en la activación o como accesorio de core.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Core #BirdDog #Gluteos #Entrenamiento"
+  }
+}

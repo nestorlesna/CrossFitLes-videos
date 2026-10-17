@@ -1,0 +1,414 @@
+{
+  "slug": "barbell-overhead-squat",
+  "name": "Barbell Overhead Squat",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Piernas",
+    "Hombros",
+    "Core"
+  ],
+  "descripcion": "Con la barra bloqueada arriba de la cabeza en agarre ancho, hacer una sentadilla completa manteniendo la barra sobre la mitad del pie, y volver a pararse.",
+  "revisado": false,
+  "notas": "Brazos calculados para que la barra quede sobre medio pie en cada pose.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 450,
+    "y": 1509,
+    "scale": 0.66
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "r": 84
+    }
+  ],
+  "pronuncia": {
+    "Overhead Squat": "Óverjed scuat",
+    "Barbell Overhead Squat": "Bárbel óverjed scuat"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 4,
+      "g": 0,
+      "ua": 173.1,
+      "fa": 0,
+      "ua2": 173.1,
+      "fa2": 0
+    },
+    "HALF": {
+      "s": 22,
+      "t": -58,
+      "b": 14,
+      "hd": 4,
+      "g": 0,
+      "ua": 164.3,
+      "fa": 0,
+      "ua2": 164.3,
+      "fa2": 0
+    },
+    "BOTTOM": {
+      "s": 40,
+      "t": -118,
+      "b": 24,
+      "hd": 10,
+      "g": 0,
+      "ua": 181.7,
+      "fa": 0,
+      "ua2": 181.7,
+      "fa2": 0
+    },
+    "BAD": {
+      "s": 40,
+      "t": -118,
+      "b": 50,
+      "hd": 34,
+      "g": 0,
+      "ua": 150,
+      "fa": 20,
+      "ua2": 150,
+      "fa2": 20
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "OVERHEAD",
+        "SQUAT"
+      ],
+      "vo": "Overhead Squat: sentadilla completa con la barra bloqueada arriba de la cabeza. Movilidad y estabilidad.",
+      "moves": [
+        {
+          "to": "HALF",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "BOTTOM",
+          "at": 1.1,
+          "dur": 0.6
+        },
+        {
+          "to": "HALF",
+          "at": 2.0,
+          "dur": 0.5
+        },
+        {
+          "to": "STAND",
+          "at": 2.5,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BARRA",
+        "ARRIBA"
+      ],
+      "sub": "Agarre ancho, codos bloqueados",
+      "vo": "Con la barra bloqueada arriba de la cabeza en agarre ancho, pies al ancho de los hombros y puntas apenas afuera.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            582.0,
+            730.2
+          ],
+          "text": "CODOS BLOQUEADOS",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "EMPUJÁ",
+        "HACIA ARRIBA"
+      ],
+      "sub": "Todo el tiempo",
+      "vo": "Paso uno. Empujá la barra hacia arriba todo el tiempo, con las axilas al frente y los codos bloqueados.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            621.6,
+            684.0
+          ],
+          "at": 0.8,
+          "dur": 0.7,
+          "from": [
+            621.6,
+            915.0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            648.0,
+            796.2
+          ],
+          "text": "EMPUJÁ",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "BAJÁ",
+        "COMPLETO"
+      ],
+      "sub": "Barra sobre medio pie",
+      "vo": "Paso dos. Bajá a una sentadilla completa con la barra siempre sobre la mitad del pie.",
+      "moves": [
+        {
+          "to": "HALF",
+          "at": 0.5,
+          "dur": 0.7
+        },
+        {
+          "to": "BOTTOM",
+          "at": 1.2,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": [
+            476.4,
+            1079.2
+          ],
+          "color": "ink",
+          "width": 6,
+          "at": 2.0,
+          "from": [
+            476.4,
+            1528.8
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            549.0,
+            1456.2
+          ],
+          "text": "MEDIO PIE",
+          "anchor": "start",
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "TRONCO",
+        "ERGUIDO"
+      ],
+      "sub": "Rodillas afuera, talones abajo",
+      "vo": "Paso tres. Tronco lo más erguido posible, rodillas afuera y talones apoyados. Si la barra se va adelante, bajá menos.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "BAD",
+          "at": 2.2,
+          "dur": 0.6
+        },
+        {
+          "to": "BOTTOM",
+          "at": 3.6,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            172.8,
+            915.0
+          ],
+          "text": "TRONCO ERGUIDO",
+          "anchor": "middle",
+          "at": 0.8,
+          "out": 2.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            172.8,
+            915.0
+          ],
+          "text": "BARRA ADELANTE NO",
+          "anchor": "middle",
+          "at": 2.6,
+          "out": 3.6
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "SUBÍ",
+        "ESTABLE"
+      ],
+      "sub": "Sin perder la barra",
+      "vo": "Paso cuatro. Subí empujando el piso, con la barra estable arriba, hasta pararte completo.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.6,
+          "dur": 0.6
+        },
+        {
+          "to": "STAND",
+          "at": 1.2,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.68,
+      "keys": [
+        "Empujá la barra arriba",
+        "Axilas al frente",
+        "Barra sobre medio pie",
+        "Rodillas afuera, talones abajo"
+      ],
+      "vo": "Claves: empujá la barra hacia arriba, axilas al frente, barra sobre la mitad del pie, rodillas afuera y talones apoyados.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "2 REPS"
+      ],
+      "sub": "Con 30 kg",
+      "vo": "Dos repeticiones con treinta kilos. Si te falta movilidad, practicá con un palo.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.5
+        },
+        {
+          "label": "2 · SUBÍ",
+          "at": 2.0
+        }
+      ],
+      "moves": [
+        {
+          "to": "HALF",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "BOTTOM",
+          "at": 1.1,
+          "dur": 0.6
+        },
+        {
+          "to": "HALF",
+          "at": 2.0,
+          "dur": 0.5
+        },
+        {
+          "to": "STAND",
+          "at": 2.5,
+          "dur": 0.5
+        },
+        {
+          "to": "HALF",
+          "at": 3.4,
+          "dur": 0.6
+        },
+        {
+          "to": "BOTTOM",
+          "at": 4.0,
+          "dur": 0.6
+        },
+        {
+          "to": "HALF",
+          "at": 4.9,
+          "dur": 0.5
+        },
+        {
+          "to": "STAND",
+          "at": 5.4,
+          "dur": 0.5
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "BOTTOM",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 170
+  },
+  "youtube": {
+    "titulo": "Overhead Squat 🏋️ Sentadilla con barra arriba paso a paso | CrossFit",
+    "tags": [
+      "overhead squat",
+      "barbell overhead squat",
+      "sentadilla overhead",
+      "sentadilla con barra arriba",
+      "ohs",
+      "movilidad de hombro",
+      "halterofilia",
+      "crossfit",
+      "sentadilla",
+      "fuerza"
+    ],
+    "descripcion": "🏋️ BARBELL OVERHEAD SQUAT — Sentadilla completa con la barra bloqueada arriba\n\n¿La barra se te va para adelante cuando bajás? El overhead squat pide movilidad y estabilidad: con estas claves lo vas a dominar. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Con la barra bloqueada arriba de la cabeza en agarre ancho, pies al ancho de los hombros y puntas apenas afuera.\n2️⃣ Empujá la barra hacia arriba todo el tiempo, con las axilas al frente y los codos bloqueados.\n3️⃣ Bajá a una sentadilla completa con la barra siempre sobre la mitad del pie.\n4️⃣ Tronco lo más erguido posible, rodillas afuera y talones apoyados. Si la barra se va adelante, bajá menos.\n5️⃣ Subí empujando el piso, con la barra estable arriba, hasta pararte completo.\n\n✅ CLAVES DE TÉCNICA\n• Empujá la barra hacia arriba todo el tiempo\n• Axilas al frente y codos bloqueados\n• Barra sobre la mitad del pie\n• Tronco erguido, rodillas afuera y talones apoyados\n• Si la barra se va adelante, bajá menos o trabajá movilidad con un palo\n\n🎯 QUÉ TRABAJA\nRecto femoral · Deltoides anterior · Erectores espinales · Glúteo mayor · Vasto lateral\n\n⏱️ CUÁNTO\n2 repeticiones con 30 kg (por series). Va en bloques de fuerza y como accesorio de movilidad.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste levantamiento olímpico, aprendé la técnica con un caño de PVC o la barra sola y con un coach al lado antes de cargar peso.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Halterofilia #OverheadSquat #Movilidad #Entrenamiento"
+  }
+}

@@ -1,0 +1,587 @@
+{
+  "slug": "arm-circles",
+  "name": "Arm Circles",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Hombros",
+    "Dorsales",
+    "Trapecio"
+  ],
+  "descripcion": "Círculos amplios con los brazos extendidos en cruz: la mitad del tiempo hacia adelante y la otra mitad hacia atrás. Prepara los hombros para planchas, flexiones y pike.",
+  "revisado": false,
+  "notas": "Brazos en cruz de perfil: apuntan a la cámara (al 0.34) y el círculo se ve como un giro alrededor del hombro; tarjeta vista de frente (topview mode front).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.92
+  },
+  "pronuncia": {
+    "Arm Circles": "Arm sércols"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "T": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 0,
+      "al": 0.1
+    },
+    "C0": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 0,
+      "fa": 0,
+      "ua2": 0,
+      "fa2": 0,
+      "al": 0.34
+    },
+    "C1": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 0,
+      "ua2": 90,
+      "fa2": 0,
+      "al": 0.34
+    },
+    "C2": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 180,
+      "fa": 0,
+      "ua2": 180,
+      "fa2": 0,
+      "al": 0.34
+    },
+    "C3": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 270,
+      "fa": 0,
+      "ua2": 270,
+      "fa2": 0,
+      "al": 0.34
+    },
+    "ARCH_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": -10,
+      "hd": -12,
+      "g": 0,
+      "ua": 180,
+      "fa": 0,
+      "ua2": 180,
+      "fa2": 0,
+      "al": 0.34,
+      "cv": -16
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.4,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "ARM",
+        "CIRCLES"
+      ],
+      "topview": {
+        "mode": "front",
+        "label": "BRAZOS EN CRUZ"
+      },
+      "vo": "Arm Circles: círculos amplios con los brazos en cruz. Hombros listos para entrenar.",
+      "moves": [
+        {
+          "to": "C2",
+          "at": 0.3,
+          "dur": 0.5
+        },
+        {
+          "seq": [
+            [
+              "C1",
+              0.3
+            ],
+            [
+              "C0",
+              0.3
+            ],
+            [
+              "C3",
+              0.3
+            ],
+            [
+              "C2",
+              0.3
+            ]
+          ],
+          "at": 0.8,
+          "until": "end",
+          "ease": "none"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BRAZOS",
+        "EN CRUZ"
+      ],
+      "sub": "Extendidos a los costados",
+      "topview": {
+        "mode": "front",
+        "label": "BRAZOS EN CRUZ"
+      },
+      "vo": "Parate derecho, con los pies al ancho de la cadera y los brazos extendidos en cruz, a la altura de los hombros.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "T",
+          "at": 0.8,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            500.0,
+            552.4
+          ],
+          "text": "ALTURA DE HOMBROS",
+          "anchor": "middle",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "HACIA",
+        "ADELANTE"
+      ],
+      "sub": "La mitad del tiempo",
+      "topview": {
+        "mode": "front",
+        "label": "BRAZOS EN CRUZ"
+      },
+      "vo": "Paso uno. Hacé círculos grandes hacia adelante, durante la mitad del tiempo.",
+      "moves": [
+        {
+          "cut": "T",
+          "at": 0
+        },
+        {
+          "to": "C2",
+          "at": 0.4,
+          "dur": 0.5
+        },
+        {
+          "seq": [
+            [
+              "C1",
+              0.3
+            ],
+            [
+              "C0",
+              0.3
+            ],
+            [
+              "C3",
+              0.3
+            ],
+            [
+              "C2",
+              0.3
+            ]
+          ],
+          "at": 0.9,
+          "until": "end",
+          "ease": "none"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            647.2,
+            791.6
+          ],
+          "bend": [
+            110,
+            -60
+          ],
+          "at": 1.0,
+          "dur": 0.8,
+          "from": [
+            463.2,
+            662.8
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            757.6,
+            911.2
+          ],
+          "text": "ADELANTE",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "HACIA",
+        "ATRÁS"
+      ],
+      "sub": "La otra mitad",
+      "topview": {
+        "mode": "front",
+        "label": "BRAZOS EN CRUZ"
+      },
+      "vo": "Paso dos. Después cambiá el sentido y hacé los círculos hacia atrás, la otra mitad del tiempo.",
+      "moves": [
+        {
+          "cut": "C2",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "C3",
+              0.3
+            ],
+            [
+              "C0",
+              0.3
+            ],
+            [
+              "C1",
+              0.3
+            ],
+            [
+              "C2",
+              0.3
+            ]
+          ],
+          "at": 0.4,
+          "until": "end",
+          "ease": "none"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            352.8,
+            791.6
+          ],
+          "bend": [
+            -110,
+            -60
+          ],
+          "at": 1.0,
+          "dur": 0.8,
+          "from": [
+            536.8,
+            662.8
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            242.4,
+            911.2
+          ],
+          "text": "ATRÁS",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "AMPLITUD",
+        "NO VELOCIDAD"
+      ],
+      "sub": "Círculos grandes y lentos",
+      "topview": {
+        "mode": "front",
+        "label": "BRAZOS EN CRUZ"
+      },
+      "vo": "Paso tres. Buscá amplitud, no velocidad: círculos grandes y lentos, sin encoger los hombros hacia las orejas.",
+      "moves": [
+        {
+          "cut": "C2",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "C1",
+              0.5
+            ],
+            [
+              "C0",
+              0.5
+            ],
+            [
+              "C3",
+              0.5
+            ],
+            [
+              "C2",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end",
+          "ease": "none"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            242.4,
+            911.2
+          ],
+          "text": "HOMBROS ABAJO",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ABDOMEN",
+        "FIRME"
+      ],
+      "sub": "Sin arquear la espalda",
+      "topview": {
+        "mode": "front",
+        "label": "BRAZOS EN CRUZ"
+      },
+      "vo": "Paso cuatro. Abdomen firme para no arquear la espalda cuando los brazos pasan por arriba.",
+      "moves": [
+        {
+          "cut": "C2",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 1.8,
+          "dur": 0.5
+        },
+        {
+          "to": "C2",
+          "at": 3.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            233.2,
+            911.2
+          ],
+          "text": "ABDOMEN FIRME",
+          "anchor": "middle",
+          "at": 0.6,
+          "out": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            233.2,
+            911.2
+          ],
+          "text": "ESPALDA ARQUEADA NO",
+          "anchor": "middle",
+          "at": 2.2,
+          "out": 3.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Brazos extendidos en cruz",
+        "Círculos grandes y lentos",
+        "Hombros lejos de las orejas",
+        "Abdomen firme"
+      ],
+      "vo": "Claves: brazos extendidos en cruz, círculos grandes y lentos, hombros lejos de las orejas y abdomen firme.",
+      "moves": [
+        {
+          "cut": "C2",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "C1",
+              0.3
+            ],
+            [
+              "C0",
+              0.3
+            ],
+            [
+              "C3",
+              0.3
+            ],
+            [
+              "C2",
+              0.3
+            ]
+          ],
+          "at": 0.6,
+          "until": "end",
+          "ease": "none"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "1 MINUTO"
+      ],
+      "sub": "30 s adelante · 30 s atrás",
+      "vo": "Un minuto: treinta segundos hacia adelante y treinta hacia atrás. Prepara los hombros para planchas, flexiones y pike.",
+      "chips": [
+        {
+          "label": "1 · ADELANTE",
+          "at": 0.5
+        },
+        {
+          "label": "2 · ATRÁS",
+          "at": 3.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "C2",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "C1",
+              0.3
+            ],
+            [
+              "C0",
+              0.3
+            ],
+            [
+              "C3",
+              0.3
+            ],
+            [
+              "C2",
+              0.3
+            ]
+          ],
+          "at": 0.4,
+          "until": 3.5,
+          "ease": "none"
+        },
+        {
+          "seq": [
+            [
+              "C3",
+              0.3
+            ],
+            [
+              "C0",
+              0.3
+            ],
+            [
+              "C1",
+              0.3
+            ],
+            [
+              "C2",
+              0.3
+            ]
+          ],
+          "at": 3.6,
+          "until": "end",
+          "ease": "none"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "C1",
+    "grip": 0,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Arm Circles 🔥 Círculos de brazos para la entrada en calor | CrossFit",
+    "tags": [
+      "arm circles",
+      "círculos de brazos",
+      "círculos con los brazos",
+      "movilidad de hombro",
+      "calentamiento de hombros",
+      "entrada en calor",
+      "crossfit",
+      "hombros",
+      "movilidad"
+    ],
+    "descripcion": "🔥 ARM CIRCLES — Hombros calientes antes de planchas, flexiones y pike\n\n¿Arrancás a empujar con los hombros fríos? Un minuto de círculos bien hechos cambia todo. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate derecho, con los pies al ancho de la cadera y los brazos extendidos en cruz, a la altura de los hombros.\n2️⃣ Hacé círculos grandes hacia adelante durante la mitad del tiempo.\n3️⃣ Cambiá el sentido y hacé los círculos hacia atrás la otra mitad.\n4️⃣ Buscá amplitud, no velocidad: círculos grandes y lentos, sin encoger los hombros hacia las orejas.\n5️⃣ Abdomen firme para no arquear la espalda cuando los brazos pasan por arriba.\n\n✅ CLAVES DE TÉCNICA\n• Brazos extendidos en cruz\n• Amplitud, no velocidad: círculos grandes y lentos\n• Hombros lejos de las orejas\n• Abdomen firme, sin arquear la espalda\n\n🎯 QUÉ TRABAJA\nDeltoides anterior · Dorsal ancho · Trapecio superior\n\n⏱️ CUÁNTO\n1 minuto: 30 segundos hacia adelante y 30 hacia atrás. Va en la entrada en calor.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #ArmCircles #Hombros #Entrenamiento"
+  }
+}

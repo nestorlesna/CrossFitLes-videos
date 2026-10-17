@@ -1,0 +1,473 @@
+{
+  "slug": "cossack-squat",
+  "name": "Cossack Squat",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Cadera",
+    "Aductores",
+    "Tobillo"
+  ],
+  "descripcion": "Desde posición de pie con pies bien abiertos (más que el ancho de hombros), bajar el peso del cuerpo hacia un lado flexionando esa rodilla hasta llegar lo más abajo posible, mientras la otra pierna queda completamente extendida en el suelo. Los brazos se extienden al frente como contrapeso. Alternar lados.",
+  "revisado": false,
+  "notas": "Movimiento lateral: de perfil la pierna estirada se ve corta (ll/ll2) y la tarjeta vista de frente (topview mode cossack) muestra el cambio de lado (clave cs).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "pronuncia": {
+    "Cossack Squat": "Cósac scuat"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6,
+      "cs": 0
+    },
+    "WIDE": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "cs": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 0,
+      "ua2": 90,
+      "fa2": 0
+    },
+    "SQ_N": {
+      "hip": [
+        -100,
+        -175
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "s2": -29.7,
+      "t2": -29.7,
+      "ll2": 0.429,
+      "ft2": -70,
+      "b": 34,
+      "hd": 18,
+      "cs": 1,
+      "g": 0,
+      "ua": 90,
+      "fa": 0,
+      "ua2": 90,
+      "fa2": 0
+    },
+    "SQ_F": {
+      "hip": [
+        -100,
+        -175
+      ],
+      "s": -29.7,
+      "t": -29.7,
+      "ll": 0.429,
+      "ft": -70,
+      "s2": 37.5,
+      "t2": -91.8,
+      "b": 34,
+      "hd": 18,
+      "cs": -1,
+      "g": 0,
+      "ua": 90,
+      "fa": 0,
+      "ua2": 90,
+      "fa2": 0
+    },
+    "MID_N": {
+      "hip": [
+        -50,
+        -330
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "s2": -14,
+      "t2": -14,
+      "ll2": 0.72,
+      "ft2": -40,
+      "b": 20,
+      "hd": 10,
+      "cs": 0.55,
+      "g": 0,
+      "ua": 90,
+      "fa": 0,
+      "ua2": 90,
+      "fa2": 0
+    },
+    "HEEL_BAD": {
+      "hip": [
+        -40,
+        -190
+      ],
+      "ankle": [
+        30,
+        -34
+      ],
+      "ft": -34,
+      "s2": -29.7,
+      "t2": -29.7,
+      "ll2": 0.429,
+      "ft2": -70,
+      "b": 40,
+      "hd": 22,
+      "cs": 1,
+      "g": 0,
+      "ua": 90,
+      "fa": 0,
+      "ua2": 90,
+      "fa2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "COSSACK",
+        "SQUAT"
+      ],
+      "topview": {
+        "mode": "cossack"
+      },
+      "vo": "Cossack Squat: la sentadilla cosaca. Bajás hacia un lado con la otra pierna estirada. Movilidad de cadera y tobillo.",
+      "moves": [
+        {
+          "to": "WIDE",
+          "at": 0.2,
+          "dur": 0.4
+        },
+        {
+          "seq": [
+            [
+              "SQ_N",
+              1.2
+            ],
+            [
+              "WIDE",
+              0.9
+            ],
+            [
+              "SQ_F",
+              1.2
+            ],
+            [
+              "WIDE",
+              0.9
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PIES",
+        "BIEN ABIERTOS"
+      ],
+      "sub": "Más que el ancho de hombros",
+      "topview": {
+        "mode": "cossack",
+        "label": "PIES ABIERTOS"
+      },
+      "vo": "Parate con los pies bien abiertos, más que el ancho de los hombros, y las puntas apenas hacia afuera.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "WIDE",
+          "at": 1.0,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "BAJÁ HACIA",
+        "UN LADO"
+      ],
+      "sub": "Flexionando esa rodilla",
+      "topview": {
+        "mode": "cossack",
+        "label": "BAJÁ A UN LADO"
+      },
+      "vo": "Paso uno. Llevá el peso hacia un lado y bajá flexionando esa rodilla, lo más abajo que puedas.",
+      "moves": [
+        {
+          "cut": "WIDE",
+          "at": 0
+        },
+        {
+          "to": "MID_N",
+          "at": 0.6,
+          "dur": 0.6
+        },
+        {
+          "to": "SQ_N",
+          "at": 1.2,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            245.0,
+            1320.0
+          ],
+          "at": 0.8,
+          "dur": 1.0,
+          "from": [
+            245.0,
+            1104.0
+          ]
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "LA OTRA",
+        "ESTIRADA"
+      ],
+      "sub": "Pie apoyado o en punta",
+      "topview": {
+        "mode": "cossack"
+      },
+      "vo": "Paso dos. La otra pierna queda completamente estirada, con el pie apoyado, o la punta si todavía no te da la movilidad.",
+      "moves": [
+        {
+          "cut": "SQ_N",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            290.0,
+            816.0
+          ],
+          "text": "PIERNA ESTIRADA",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "BRAZOS",
+        "AL FRENTE"
+      ],
+      "sub": "Talón apoyado",
+      "topview": {
+        "mode": "cossack"
+      },
+      "vo": "Paso tres. Brazos al frente como contrapeso y el talón de la pierna que trabaja bien apoyado.",
+      "moves": [
+        {
+          "cut": "SQ_N",
+          "at": 0
+        },
+        {
+          "to": "HEEL_BAD",
+          "at": 2.2,
+          "dur": 0.5
+        },
+        {
+          "to": "SQ_N",
+          "at": 3.6,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            819.7,
+            1025.6
+          ],
+          "text": "CONTRAPESO",
+          "anchor": "middle",
+          "at": 0.6,
+          "out": 2.2
+        },
+        {
+          "type": "bar",
+          "pos": [
+            479.0,
+            1527.0
+          ],
+          "w": 150,
+          "h": 12,
+          "at": 0.8,
+          "out": 2.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            290.0,
+            816.0
+          ],
+          "text": "TALÓN ARRIBA NO",
+          "anchor": "middle",
+          "at": 2.6,
+          "out": 3.6
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ALTERNÁ",
+        "LOS LADOS"
+      ],
+      "sub": "Pasando por el centro",
+      "topview": {
+        "mode": "cossack",
+        "label": "CAMBIÁ DE LADO"
+      },
+      "vo": "Paso cuatro. Subí al centro y bajá hacia el otro lado. Alterná lados con control.",
+      "moves": [
+        {
+          "cut": "SQ_N",
+          "at": 0
+        },
+        {
+          "to": "WIDE",
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "to": "SQ_F",
+          "at": 1.6,
+          "dur": 1.1
+        },
+        {
+          "to": "WIDE",
+          "at": 3.4,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Pies bien abiertos",
+        "Pierna estirada y pie apoyado",
+        "Talón de la que trabaja abajo",
+        "Brazos al frente"
+      ],
+      "vo": "Claves: pies bien abiertos, la pierna estirada con el pie apoyado, el talón de la que trabaja abajo y los brazos al frente.",
+      "moves": [
+        {
+          "cut": "SQ_N",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "Alternando lados",
+      "vo": "Treinta segundos alternando lados. Excelente para la movilidad de cadera y tobillo.",
+      "chips": [
+        {
+          "label": "1 · UN LADO",
+          "at": 0.6
+        },
+        {
+          "label": "2 · EL OTRO",
+          "at": 2.9
+        }
+      ],
+      "moves": [
+        {
+          "cut": "WIDE",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "SQ_N",
+              1.2
+            ],
+            [
+              "WIDE",
+              0.9
+            ],
+            [
+              "SQ_F",
+              1.2
+            ],
+            [
+              "WIDE",
+              0.9
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "SQ_N",
+    "grip": 0,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Cossack Squat 🔥 Sentadilla cosaca para la movilidad de cadera | CrossFit",
+    "tags": [
+      "cossack squat",
+      "sentadilla cosaca",
+      "sentadilla lateral",
+      "movilidad de cadera",
+      "movilidad de tobillo",
+      "aductores",
+      "entrada en calor",
+      "crossfit",
+      "movilidad",
+      "piernas"
+    ],
+    "descripcion": "🔥 COSSACK SQUAT — Movilidad de cadera y tobillo, de un lado al otro\n\n¿Sentís la cadera trabada en las sentadillas? La sentadilla cosaca abre aductores, cadera y tobillo. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate con los pies bien abiertos, más que el ancho de los hombros, y las puntas apenas hacia afuera.\n2️⃣ Llevá el peso hacia un lado y bajá flexionando esa rodilla, lo más abajo que puedas.\n3️⃣ La otra pierna queda completamente estirada, con el pie apoyado (o la punta si todavía no te da la movilidad).\n4️⃣ Brazos al frente como contrapeso y el talón de la pierna que trabaja bien apoyado.\n5️⃣ Subí al centro y bajá hacia el otro lado. Alterná lados con control.\n\n✅ CLAVES DE TÉCNICA\n• Pies bien abiertos, más que el ancho de hombros\n• Pierna estirada con el pie apoyado (o la punta al principio)\n• La rodilla que trabaja no pasa demasiado la punta del pie\n• Talón de la pierna que trabaja apoyado\n• Brazos al frente como contrapeso\n\n🎯 QUÉ TRABAJA\nRecto femoral · Bíceps femoral · Glúteo mayor · Aductores\n\n⏱️ CUÁNTO\n30 segundos alternando lados. Va en la entrada en calor o como accesorio de movilidad.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Movilidad #CossackSquat #Cadera #Entrenamiento"
+  }
+}
