@@ -1,0 +1,398 @@
+{
+  "slug": "doorway-chest-stretch",
+  "name": "Doorway Chest Stretch",
+  "category": "CROSSFIT · VUELTA A LA CALMA",
+  "tags": [
+    "Pecho",
+    "Hombros",
+    "Movilidad"
+  ],
+  "descripcion": "Con el antebrazo apoyado en el marco de una puerta, se rota el cuerpo alejándose hasta sentir el estiramiento en el pecho. Contrarresta las horas de escritorio y el trabajo de empuje.",
+  "revisado": false,
+  "notas": "Marco de puerta como pared vertical (prop wall en x 250). El antebrazo queda apoyado: la mano se fija con grip IK en (250,-880) y el cuerpo se aleja con rx negativo (el pie acompaña). Errores: codo por encima del hombro (hy más alto) y tronco caído adelante.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1500,
+    "scale": 0.95
+  },
+  "props": [
+    {
+      "type": "wall",
+      "x": 250,
+      "h": 1250
+    }
+  ],
+  "pronuncia": {
+    "Doorway Chest Stretch": "doruei chest strech",
+    "Doorway": "doruei"
+  },
+  "initialPose": "SETUP",
+  "poses": {
+    "SETUP": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "ed": 1,
+      "hx": 250,
+      "hy": -880,
+      "ua2": 6,
+      "fa2": 8
+    },
+    "LEAN": {
+      "s": 0,
+      "t": 0,
+      "rx": -70,
+      "ry": 0,
+      "b": -6,
+      "hd": -4,
+      "g": 1,
+      "ed": 1,
+      "hx": 250,
+      "hy": -880,
+      "ua2": 10,
+      "fa2": 12
+    },
+    "HOLD": {
+      "s": 0,
+      "t": 0,
+      "rx": -55,
+      "ry": 0,
+      "b": -4,
+      "hd": -2,
+      "g": 1,
+      "ed": 1,
+      "hx": 250,
+      "hy": -880,
+      "ua2": 8,
+      "fa2": 10
+    },
+    "ELBOW_HIGH": {
+      "s": 0,
+      "t": 0,
+      "rx": -40,
+      "ry": 0,
+      "b": -4,
+      "hd": -2,
+      "g": 1,
+      "ed": 1,
+      "hx": 250,
+      "hy": -1040,
+      "ua2": 8,
+      "fa2": 10
+    },
+    "DROP_BAD": {
+      "s": 0,
+      "t": 0,
+      "rx": 0,
+      "ry": 0,
+      "b": 26,
+      "hd": 20,
+      "g": 1,
+      "ed": 1,
+      "hx": 250,
+      "hy": -880,
+      "ua2": 4,
+      "fa2": 6
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · VUELTA A LA CALMA",
+      "head": [
+        "DOORWAY",
+        "CHEST STRETCH"
+      ],
+      "vo": "Doorway Chest Stretch: con el antebrazo en el marco de la puerta, alejás el cuerpo y abrís el pecho. Ideal después de un día de escritorio o de mucho empuje.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "LEAN",
+              1.6
+            ],
+            [
+              "SETUP",
+              1.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ANTEBRAZO",
+        "EN EL MARCO"
+      ],
+      "sub": "Codo a la altura del hombro",
+      "vo": "Apoyá el antebrazo en el marco de la puerta. El codo tiene que quedar a la altura del hombro, ni por encima ni por debajo.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            356,
+            700
+          ],
+          "text": "CODO AL HOMBRO",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "CODO A LA",
+        "ALTURA DEL HOMBRO"
+      ],
+      "sub": "Ni más alto ni más bajo",
+      "vo": "Paso uno. Revisá la altura del codo: a la altura del hombro. Si el codo queda por encima, molestás la articulación y el estiramiento se va al hombro, no al pecho.",
+      "moves": [
+        {
+          "to": "SETUP",
+          "at": 0.5,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            640,
+            700
+          ],
+          "r": 50,
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ALEJÁ EL",
+        "CUERPO"
+      ],
+      "sub": "El pecho se abre",
+      "vo": "Paso dos. Con el antebrazo firme en el marco, alejá el cuerpo de a poco hasta sentir el estiramiento en el pecho. No encogés el hombro: el pecho es el que abre.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "LEAN",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            430,
+            900
+          ],
+          "to": [
+            250,
+            900
+          ],
+          "at": 1.9,
+          "dur": 0.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            356,
+            1000
+          ],
+          "text": "ALEJÁ EL CUERPO",
+          "anchor": "end",
+          "at": 2.1
+        }
+      ]
+    },
+    {
+      "min": 6.2,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Codo arriba y tronco caído",
+      "vo": "Paso tres. Si el codo queda por encima del hombro, o dejás caer el tronco hacia adelante en vez de alejarte, la articulación sufre y el pecho no estira. Evitalo.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "ELBOW_HIGH",
+          "at": 0.5,
+          "dur": 0.7
+        },
+        {
+          "to": "SETUP",
+          "at": 1.8,
+          "dur": 0.7
+        },
+        {
+          "to": "DROP_BAD",
+          "at": 3.1,
+          "dur": 0.7
+        },
+        {
+          "to": "SETUP",
+          "at": 4.6,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            470,
+            700
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0,
+          "out": 4.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            356,
+            1180
+          ],
+          "text": "CODO MUY ALTO",
+          "anchor": "end",
+          "at": 1.2,
+          "out": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            356,
+            900
+          ],
+          "text": "NO TE CAIGAS",
+          "anchor": "end",
+          "at": 3.4,
+          "out": 4.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Codo a la altura del hombro",
+        "Hombro relajado, sin encoger",
+        "Alejá el cuerpo sin caer el tronco",
+        "Respirá y aguantá el estiramiento"
+      ],
+      "vo": "Claves: el codo a la altura del hombro, el hombro relajado sin encoger, alejá el cuerpo sin caer el tronco hacia adelante y respirá aguantando el estiramiento sin rebotar.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "LEAN",
+              1.5
+            ],
+            [
+              "SETUP",
+              1.3
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.4,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEG",
+        "POR LADO"
+      ],
+      "sub": "O los dos brazos a la vez",
+      "vo": "Treinta segundos por lado, o los dos brazos a la vez en el marco si ya tenés la movilidad. Después de entrenar o al final del día frente a la compu.",
+      "chips": [
+        {
+          "label": "1 · DERECHA",
+          "at": 0.5
+        },
+        {
+          "label": "2 · IZQUIERDA",
+          "at": 3.0
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "LEAN",
+              2.4
+            ],
+            [
+              "SETUP",
+              1.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "LEAN",
+    "grip": 1,
+    "zoom": 1.0,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Doorway Chest Stretch 🚪 Abrí el pecho contra el marco de la puerta | Movilidad",
+    "tags": [
+      "doorway chest stretch",
+      "estiramiento de pecho",
+      "apertura de pecho",
+      "pectoral",
+      "movilidad de hombro",
+      "estiramiento en el marco",
+      "postura",
+      "escritorio",
+      "movilidad",
+      "crossfit",
+      "vuelta a la calma",
+      "chest stretch"
+    ],
+    "descripcion": "🚪 DOORWAY CHEST STRETCH — El estiramiento de pecho que destraba el día de escritorio\n\n¿Tenés el pecho y los hombros cerrados de tantas horas frente a la compu? Este estiramiento se hace en cualquier marco de puerta, en un minuto, y abre el pectoral de verdad. Este video es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Apoyá el antebrazo en el marco de la puerta con el codo a la altura del hombro.\n2️⃣ Revisá la altura del codo: ni por encima ni por debajo del hombro.\n3️⃣ Con el antebrazo firme, alejá el cuerpo de a poco hasta sentir el estiramiento en el pecho.\n4️⃣ Mantené el hombro relajado, sin encogerlo, y respirá profundo aguantando el estiramiento.\n5️⃣ Si el codo queda muy alto o dejás caer el tronco hacia adelante, la articulación sufre y el pecho no estira. Evitalo.\n\n✅ CLAVES DE TÉCNICA\n• El codo a la altura del hombro\n• El hombro relajado, sin encoger\n• Alejá el cuerpo sin caer el tronco hacia adelante\n• Respir­á y aguantá el estiramiento, sin rebotar\n• Se puede hacer un lado por vez o los dos a la vez en el marco\n\n🎯 QUÉ TRABAJA\nPectoral mayor · Bíceps braquial · Deltoides anterior\n\n⏱️ CUÁNTO\n30 segundos por lado. Ideal en la vuelta a la calma o al final del día de trabajo.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi sentís dolor en el hombro, bajá la altura del codo y el rango, y consultá con un coach o kinesiólogo.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Movilidad #Pecho #Postura #Entrenamiento"
+  }
+}

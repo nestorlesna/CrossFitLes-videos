@@ -1,0 +1,395 @@
+{
+  "slug": "kettlebell-ankle-mobility-drill",
+  "name": "Kettlebell Ankle Mobility Drill",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Tobillo",
+    "Gemelos",
+    "Movilidad"
+  ],
+  "descripcion": "En medio-arrodillado, con una rodilla en el suelo y el pie contrario plano adelante, colocar una kettlebell frente al pie como referencia. Empujar la rodilla delantera hacia adelante, sobre la punta del pie, lo más lejos posible sin que el talón se despegue del suelo. Volver y repetir.",
+  "revisado": false,
+  "notas": "Medio-arrodillado: pierna delantera (cercana) resuelta con IK a pie fijo en (250,-0.5); rodilla trasera en el piso recalculando t2 por pose, con la canilla tendida hacia atrás (s2 ~96). Kettlebell estática como referencia de distancia (prop static en x 420).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1660,
+    "scale": 1.15
+  },
+  "props": [
+    {
+      "type": "kettlebell",
+      "static": true,
+      "x": 420,
+      "y": -102
+    }
+  ],
+  "pronuncia": {
+    "Kettlebell": "ketelbel",
+    "Ankle Mobility Drill": "ancol moubíliti dril",
+    "Ankle": "ancol"
+  },
+  "initialPose": "SETUP",
+  "poses": {
+    "SETUP": {
+      "rx": 250.0,
+      "ry": -0.5,
+      "s": 2.32,
+      "t": -94.38,
+      "s2": 96,
+      "t2": 18.19,
+      "ft": 0,
+      "ft2": 0,
+      "b": 3,
+      "hd": 0,
+      "ua": 22,
+      "fa": 40,
+      "ua2": 18,
+      "fa2": 45
+    },
+    "PUSH": {
+      "rx": 250.0,
+      "ry": -0.5,
+      "s": 21.5,
+      "t": -94.42,
+      "s2": 96,
+      "t2": 27.95,
+      "ft": 0,
+      "ft2": 0,
+      "b": 8,
+      "hd": -2,
+      "ua": 22,
+      "fa": 40,
+      "ua2": 18,
+      "fa2": 45
+    },
+    "HOLD": {
+      "rx": 250.0,
+      "ry": -0.5,
+      "s": 14.89,
+      "t": -94.97,
+      "s2": 96,
+      "t2": 24.72,
+      "ft": 0,
+      "ft2": 0,
+      "b": 6,
+      "hd": -1,
+      "ua": 22,
+      "fa": 40,
+      "ua2": 18,
+      "fa2": 45
+    },
+    "ROCK_BAD": {
+      "rx": 250.0,
+      "ry": -0.5,
+      "s": 2.32,
+      "t": -94.38,
+      "s2": 96,
+      "t2": 50.7,
+      "ft": 0,
+      "ft2": 0,
+      "b": -6,
+      "hd": -8,
+      "ua": 22,
+      "fa": 40,
+      "ua2": 18,
+      "fa2": 45
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "ANKLE",
+        "MOBILITY"
+      ],
+      "vo": "Ankle Mobility Drill: medio arrodillado, con una pesa adelante como referencia, llevás la rodilla sobre la punta del pie sin despegar el talón. Gana dorsiflexión de tobillo.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "PUSH",
+              1.6
+            ],
+            [
+              "SETUP",
+              1.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "MEDIO",
+        "ARRODILLADO"
+      ],
+      "sub": "Kettlebell adelante como guía",
+      "vo": "Arrodillate apoyando una rodilla en el piso y poné el pie contrario bien plano adelante. Colocá la kettlebell frente al pie como referencia de distancia.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1330
+          ],
+          "text": "PESA DE GUÍA",
+          "anchor": "end",
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            356,
+            1180
+          ],
+          "text": "RODILLA AL PISO",
+          "anchor": "end",
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "PIE",
+        "PLANO"
+      ],
+      "sub": "Talón bien apoyado",
+      "vo": "Paso uno. Dejá el pie de adelante completamente plano, con el talón bien apoyado en el piso. El talón no se despega en ningún momento.",
+      "moves": [
+        {
+          "to": "SETUP",
+          "at": 0.5,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            800,
+            1700
+          ],
+          "r": 56,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1330
+          ],
+          "text": "TALÓN AL PISO",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "RODILLA",
+        "ADELANTE"
+      ],
+      "sub": "Sobre la punta del pie",
+      "vo": "Paso dos. Empujá la rodilla de adelante hacia adelante, sobre la punta del pie, lo más lejos que puedas sin que el talón se levante. Volvé y repetí.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "PUSH",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            620,
+            1450
+          ],
+          "to": [
+            920,
+            1450
+          ],
+          "at": 1.9,
+          "dur": 0.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1120
+          ],
+          "text": "LLEVÁ LA RODILLA",
+          "anchor": "end",
+          "at": 2.1
+        }
+      ]
+    },
+    {
+      "min": 6.2,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Sin tirarte para atrás",
+      "vo": "Paso tres. Si en vez de llevar la rodilla adelante te tirás para atrás y levantás la rodilla del piso, la dorsiflexión no mejora y cargás la rodilla. Evitalo.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "ROCK_BAD",
+          "at": 0.5,
+          "dur": 0.7
+        },
+        {
+          "to": "SETUP",
+          "at": 2.8,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            470,
+            700
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0,
+          "out": 2.5
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1330
+          ],
+          "text": "NO TE TIRES ATRÁS",
+          "anchor": "end",
+          "at": 1.2,
+          "out": 2.5
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Talón de adelante siempre apoyado",
+        "La rodilla va sobre la punta del pie",
+        "La pesa marca la distancia a ganar",
+        "Sin rebotes: aguantá el punto máximo"
+      ],
+      "vo": "Claves: el talón de adelante siempre apoyado, la rodilla va sobre la punta del pie buscando la pesa, la kettlebell marca la distancia a ganar y sin rebotes: aguantá el punto máximo un par de segundos.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "HOLD",
+              1.5
+            ],
+            [
+              "SETUP",
+              1.3
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.4,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEG",
+        "POR LADO"
+      ],
+      "sub": "Repeticiones lentas",
+      "vo": "Treinta segundos por lado, con repeticiones lentas. Trabajá cada tobillo por separado y no dejes que el talón se despegue.",
+      "chips": [
+        {
+          "label": "1 · DERECHA",
+          "at": 0.5
+        },
+        {
+          "label": "2 · IZQUIERDA",
+          "at": 3.0
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "PUSH",
+              2.2
+            ],
+            [
+              "SETUP",
+              1.4
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "PUSH",
+    "grip": 0,
+    "zoom": 1.05,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Kettlebell Ankle Mobility Drill 🔥 Ganá dorsiflexión de tobillo | Movilidad",
+    "tags": [
+      "ankle mobility",
+      "movilidad de tobillo",
+      "dorsiflexión",
+      "kettlebell ankle drill",
+      "tobillo",
+      "gemelos",
+      "sóleo",
+      "rodilla sobre la punta",
+      "movilidad",
+      "crossfit",
+      "entrada en calor",
+      "movilidad de tobillo"
+    ],
+    "descripcion": "🦶 KETTLEBELL ANKLE MOBILITY DRILL — Tobillos que se destraban y sentadillas que mejoran\n\n¿Se te levantan los talones cuando hacés sentadillas o te cuesta llegar abajo? Suele ser falta de dorsiflexión de tobillo. Con esta guía de rodilla y la kettlebell como referencia, ganás rango real. Este video es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Arrodillate apoyando una rodilla en el piso y poné el pie contrario bien plano adelante.\n2️⃣ Colocá la kettlebell frente al pie como referencia de distancia.\n3️⃣ Dejá el pie de adelante completamente plano, con el talón bien apoyado.\n4️⃣ Empujá la rodilla hacia adelante, sobre la punta del pie, lo más lejos que puedas sin que el talón se levante.\n5️⃣ Volvé y repetí. Si levantás el talón o te tirás para atrás, la dorsiflexión no mejora. Evitalo.\n\n✅ CLAVES DE TÉCNICA\n• El talón del pie de adelante siempre apoyado en el piso\n• La rodilla va sobre la punta del pie, buscando la pesa\n• La kettlebell marca la distancia objetivo a ganar\n• Sin rebotes: aguantá el punto máximo un par de segundos\n• Trabajá los dos tobillos, incluso si uno está más duro\n\n🎯 QUÉ TRABAJA\nSóleo · Gastrocnemio (gemelos) · Tibial anterior\n\n⏱️ CUÁNTO\n30 segundos por lado, con repeticiones lentas. Va en la entrada en calor o como movilidad extra.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi sentís dolor o pinzamiento en el tobillo, bajá el rango, no fuerces y consultá con un coach o kinesiólogo.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Movilidad #Tobillo #Dorsiflexion #Entrenamiento"
+  }
+}

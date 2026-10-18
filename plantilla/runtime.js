@@ -147,12 +147,14 @@
       propUpdates.handleNode = handle; // re-appended after the near arm so it sits in the hands
     }
     if (pr.type === "kettlebell") {
-      const farK = pr.hand === "far", off = pr.off || [0, 0], kb = el("g", {}, farK ? propBack : propMid);
+      const farK = pr.hand === "far", off = pr.off || [0, 0], kb = el("g", {}, pr.static ? propStatic : farK ? propBack : propMid);
       el("path", { d: "M -30 44 L -30 6 C -30 -26 30 -26 30 6 L 30 44", fill: "none", stroke: "#2B2B2B", "stroke-width": 15, "stroke-linecap": "round" }, kb);
       el("circle", { cx: 0, cy: 82, r: 54, fill: "#2B2B2B" }, kb);
       el("path", { d: "M -40 60 A 44 44 0 0 1 -6 36", fill: "none", stroke: "#5A5A5A", "stroke-width": 8, "stroke-linecap": "round" }, kb);
       el("rect", { x: -22, y: 70, width: 44, height: 24, rx: 5, fill: ACCENT }, kb);
-      propUpdates.push((n, f) => {
+      // static: true → pesa apoyada en el piso como referencia (no sigue la mano). x en px rig, y por defecto apoya la base en el piso (y = 34).
+      if (pr.static) kb.setAttribute("transform", `translate(${f2(pr.x ?? 300)},${f2(pr.y ?? -102)})`);
+      else propUpdates.push((n, f) => {
         const j = farK ? f : n, w = j.W;
         // swing: la pesa sigue la línea hombro→mano (arriba de la cabeza queda por encima de las manos)
         const a = pr.swing ? (Math.atan2(-(w.x - j.S.x), w.y - j.S.y) * 180) / Math.PI : 0;

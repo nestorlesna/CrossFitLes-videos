@@ -117,6 +117,12 @@ Problemas encontrados al generar videos, cómo se resolvieron y qué conviene ha
 | 10-18 | (etiquetas) | Un label con `y > ~1579` queda tapado por la barra de subtítulos (`#sub-XX` arranca ahí) | mantener las etiquetas por encima de ~1560 o subirlas a una zona segura |
 | 10-18 | (poses de piso) | Se ve raro cuando un pie queda fijo y la cadera se mueve | usar `{hip, ankle}` (IK) en la pierna de apoyo y dejar la otra con ángulos explícitos o derivados de la cadera |
 
+| 10-18 | kettlebell-ankle-mobility-drill | Faltaba una kettlebell apoyada en el piso como referencia (la del prop sigue la mano) | se agregó `static: true` al prop kettlebell (`runtime.js`: `{type:"kettlebell", static:true, x, y}`); con `y` por defecto `-102` la base apoya en el piso (y = 34) y va a `propStatic` (no se espeja ni la oculta `cut`) |
+| 10-18 | kettlebell-ankle-mobility-drill | Medio-arrodillado con el pie de adelante fijo y la rodilla de atrás en el piso | pierna delantera (cercana) con `{hip, ankle}` (pie fijo en `(250,-0.5)`); la de atrás como lejana con `t2 = acos((16 - hipY)/240)` (rodilla en el piso) y canilla tendida hacia atrás `s2 ≈ 96`; el avance de la rodilla delantera se logra moviendo la cadera (rx fijo = tobillo) |
+| 10-18 | kettlebell-ankle-mobility-drill | Error "me tiré para atrás y levanté la rodilla del piso" | pasar un `t2` forzado mayor (ej. `50.7` con la cadera en `(20,-212)`) en vez de calcularlo: la rodilla trasera queda flotando y se lee el error |
+| 10-18 | doorway-chest-stretch | Estiramiento contra el marco: el antebrazo debe quedar fijo y el cuerpo alejarse | el marco se dibuja con el prop `wall` (`{type:"wall", x:250, h:1250}`); la mano se clava con `g:1` en `(hx,hy)` y el cuerpo se corre con `rx` negativo (la mano queda en el marco y el brazo se tensa = el estiramiento) |
+| 10-18 | doorway-chest-stretch | El check tiró `content_overlap` (label sobre el `head`) y `canvas_overflow` (label largo en el margen izquierdo) | no repetir en un overlay el texto que ya está en el `head` del frame, y con `anchor:"end"` a `x=356` el texto no puede pasar de ~360 px de ancho (uno de 363 px se sale 7 px): acortarlo o correrlo a x ≥ 375 |
+
 ## Pendientes / ideas
 
 - Implementos a dibujar antes de los próximos de la lista: bandas, cuerda para saltar, disco (cajón, SkiErg, trineo, balón medicinal, mancuernas y barra en el piso: 10-15)
