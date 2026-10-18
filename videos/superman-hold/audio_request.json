@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Súperman jold: la cadena de atrás completa, de la nuca a los talones. Espalda baja fuerte y sana."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca abajo, con los brazos extendidos al frente y las piernas estiradas, todo el cuerpo en línea."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Despegá del piso los brazos, el pecho y las piernas al mismo tiempo, como si te estiraras para volar."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Apretá los glúteos y el abdomen: solo la panza y la cadera quedan en contacto con el piso."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. No tires la cabeza atrás ni subas de más: mirá al piso y subí apenas. Así la espalda baja no se lleva todo el trabajo."
+    },
+    {
+      "id": "06",
+      "text": "Claves: mirada al piso con el cuello relajado, glúteos y abdomen apretados, subí sin arquear la lumbar y respirá todo el tiempo."
+    },
+    {
+      "id": "07",
+      "text": "Treinta segundos aguantando arriba, sin apoyar brazos ni piernas. Si sentís la lumbar, bajá y descansá."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

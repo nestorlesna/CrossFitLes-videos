@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Jólou jold: el isométrico de gimnasia que blinda tu core. La posición base de todo lo gimnástico."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba, con los brazos extendidos por encima de la cabeza. Nada de entrelazar las manos detrás de la nuca."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Pegá la zona lumbar al piso y despegá hombros y piernas: el cuerpo forma una banana."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. La lumbar nunca se despega del piso. Si se arquea, subí más las piernas o flexioná las rodillas."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si la lumbar se despega, la posición ya no sirve: achicá el rango. Calidad antes que rango."
+    },
+    {
+      "id": "06",
+      "text": "Claves: lumbar siempre pegada al piso, nada de tirar del cuello, menos rango si se despega y respiración controlada."
+    },
+    {
+      "id": "07",
+      "text": "Treinta segundos aguantando la banana. Si la lumbar se despega antes, cortá la serie: mejor corta que mal hecha."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

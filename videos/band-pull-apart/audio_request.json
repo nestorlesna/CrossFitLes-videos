@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Band pul apárt: la banda al pecho con los brazos rectos. El uno para activar los hombros."
+    },
+    {
+      "id": "02",
+      "text": "Parate derecho, con la banda tomada con las dos manos y los brazos extendidos al frente, a la altura del pecho."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Abrí los brazos hacia los costados hasta que la banda toque el pecho, sin mover el resto del cuerpo."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Los codos quedan extendidos todo el tiempo: si los doblás, el ejercicio deja de trabajar la espalda alta."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Hombros lejos de las orejas y juntá las escápulas al final del recorrido: ahí es donde trabaja el ejercicio."
+    },
+    {
+      "id": "06",
+      "text": "Claves: codos extendidos siempre, hombros lejos de las orejas, la banda toca el pecho y volvés sin tirones."
+    },
+    {
+      "id": "07",
+      "text": "Quince repeticiones controladas. Si es muy liviano, usá una banda más gruesa o alejá las manos."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

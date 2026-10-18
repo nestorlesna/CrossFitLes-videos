@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Cuatro seis bríthing: inhalá contando cuatro, exhalá contando seis. Un minuto para bajar las pulsaciones."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba, con las piernas estiradas y relajadas, y una mano apoyada en la panza para controlar el aire."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Inhalá por la nariz contando cuatro, inflando la panza: la mano sube con ella, no el pecho."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Exhalá por la boca contando seis, vaciando el aire de a poco. La exhalación siempre más larga."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si respirás con el pecho, los hombros suben y la panza no se mueve: la mano te lo marca al toque."
+    },
+    {
+      "id": "06",
+      "text": "Claves: respirá con la panza y no con el pecho, inhalá por la nariz y exhalá por la boca, la exhalación más larga y los hombros sueltos."
+    },
+    {
+      "id": "07",
+      "text": "Un minuto: unas seis respiraciones completas. Terminá la sesión así y vas a recuperar mucho más rápido."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

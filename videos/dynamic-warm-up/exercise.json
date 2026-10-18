@@ -1,0 +1,576 @@
+{
+  "slug": "dynamic-warm-up",
+  "name": "Dynamic Warm-Up",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Hombros",
+    "Cadera",
+    "Piernas"
+  ],
+  "descripcion": "Calentamiento general dinámico de pie: movilidad de hombros, cadera y tobillos con círculos de brazos, sentadillas suaves y elevaciones de rodilla a ritmo progresivo.",
+  "revisado": false,
+  "notas": "Tres bloques en un video: círculos de brazos con la tarjeta topview front (como arm-circles), sentadilla con {hip,ankle} y rodillas altas alternando (la pierna lejana con t2/s2 + 180).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "C0": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 0,
+      "fa": 0,
+      "ua2": 0,
+      "fa2": 0,
+      "al": 0.34
+    },
+    "C1": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 0,
+      "ua2": 90,
+      "fa2": 0,
+      "al": 0.34
+    },
+    "C2": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 180,
+      "fa": 0,
+      "ua2": 180,
+      "fa2": 0,
+      "al": 0.34
+    },
+    "C3": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 270,
+      "fa": 0,
+      "ua2": 270,
+      "fa2": 0,
+      "al": 0.34
+    },
+    "SQUAT": {
+      "hip": [
+        -80,
+        -380
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 22,
+      "hd": 12,
+      "g": 0,
+      "ua": 88,
+      "fa": 0,
+      "ua2": 88,
+      "fa2": 0
+    },
+    "KNEE_A": {
+      "hip": [
+        0,
+        -430
+      ],
+      "s": -12,
+      "t": -100,
+      "b": 4,
+      "hd": 2,
+      "ft": 40,
+      "g": 0,
+      "ua": 40,
+      "fa": 20,
+      "ua2": -20,
+      "fa2": 10
+    },
+    "KNEE_B": {
+      "hip": [
+        0,
+        -430
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 4,
+      "hd": 2,
+      "g": 0,
+      "ua": 30,
+      "fa": 40,
+      "ua2": 60,
+      "fa2": 30,
+      "s2": -12,
+      "t2": -100,
+      "ft2": 40
+    },
+    "JUMP_BAD": {
+      "hip": [
+        -20,
+        -440
+      ],
+      "s": -25,
+      "t": -25,
+      "b": 6,
+      "hd": 4,
+      "ft": 30,
+      "ft2": 30,
+      "g": 0,
+      "ua": 40,
+      "fa": 20,
+      "ua2": 40,
+      "fa2": 20
+    },
+    "ARCH_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": -10,
+      "hd": -12,
+      "g": 0,
+      "ua": 180,
+      "fa": 0,
+      "ua2": 180,
+      "fa2": 0,
+      "al": 0.34,
+      "cv": -16
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "DYNAMIC",
+        "WARM-UP"
+      ],
+      "topview": {
+        "mode": "front",
+        "label": "BRAZOS EN CRUZ"
+      },
+      "vo": "Dynamic Warm-Up: seis minutos para entrar en calor de verdad. Hombros, cadera y piernas, sin saltos.",
+      "moves": [
+        {
+          "to": "C1",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "C2",
+              0.35
+            ],
+            [
+              "C1",
+              0.35
+            ],
+            [
+              "C0",
+              0.35
+            ],
+            [
+              "C3",
+              0.35
+            ]
+          ],
+          "at": 0.7,
+          "until": "end",
+          "ease": "none"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE",
+        "PIES AL ANCHO"
+      ],
+      "sub": "Brazos en cruz",
+      "topview": {
+        "mode": "front",
+        "label": "BRAZOS EN CRUZ"
+      },
+      "vo": "Parate con los pies al ancho de la cadera y los brazos en cruz, a la altura de los hombros. El core activo desde el arranque.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "C1",
+          "at": 0.9,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            500,
+            552
+          ],
+          "text": "ALTURA DE HOMBROS",
+          "anchor": "middle",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "CÍRCULOS",
+        "DE BRAZOS"
+      ],
+      "sub": "Adelante y atrás",
+      "topview": {
+        "mode": "front",
+        "label": "BRAZOS EN CRUZ"
+      },
+      "vo": "Paso uno. Hacé círculos grandes con los brazos: la mitad del tiempo hacia adelante y la otra mitad hacia atrás.",
+      "moves": [
+        {
+          "cut": "C1",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "C2",
+              0.35
+            ],
+            [
+              "C1",
+              0.35
+            ],
+            [
+              "C0",
+              0.35
+            ],
+            [
+              "C3",
+              0.35
+            ]
+          ],
+          "at": 0.5,
+          "until": "end",
+          "ease": "none"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            500,
+            552
+          ],
+          "text": "GRANDES Y LENTOS",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "SENTADILLAS",
+        "SUAVES"
+      ],
+      "sub": "Pecho alto, sin cargar",
+      "vo": "Paso dos. Sumá sentadillas suaves, bajando con el pecho alto y los talones en el piso. Es calentar, no entrenar.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "SQUAT",
+          "at": 0.6,
+          "dur": 1.0
+        },
+        {
+          "to": "STAND",
+          "at": 2.2,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            428,
+            1500
+          ],
+          "r": 46,
+          "at": 0.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            360,
+            1150
+          ],
+          "text": "PECHO ALTO",
+          "anchor": "end",
+          "at": 1.1
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "RODILLAS",
+        "ALTAS"
+      ],
+      "sub": "Alternando las piernas",
+      "vo": "Paso tres. Rodillas altas alternando las piernas, a un ritmo que puedas sostener. Subí la intensidad de a poco.",
+      "moves": [
+        {
+          "cut": "KNEE_A",
+          "at": 0
+        },
+        {
+          "loop": [
+            "KNEE_A",
+            "KNEE_B"
+          ],
+          "at": 0.4,
+          "step": 0.5,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            960,
+            1250
+          ],
+          "text": "RODILLA AL PECHO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ASÍ NO",
+        "SALTOS"
+      ],
+      "sub": "Pies en el piso",
+      "vo": "Paso cuatro. Sin saltos: si necesitás saltar para moverte, bajá el ritmo. El calentamiento se hace con los pies en el piso.",
+      "moves": [
+        {
+          "cut": "JUMP_BAD",
+          "at": 0
+        },
+        {
+          "to": "KNEE_A",
+          "at": 2.2,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            1300
+          ],
+          "text": "PIES EN EL PISO",
+          "anchor": "end",
+          "at": 0.8,
+          "out": 2.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            960,
+            1250
+          ],
+          "text": "RITMO SOSTENIDO",
+          "anchor": "end",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Empezá suave y subí de a poco",
+        "Core activo todo el tiempo",
+        "Respirá controlado",
+        "Sin saltos: pies en el piso"
+      ],
+      "vo": "Claves: empezá suave y subí de a poco, core activo, respiración controlada y sin saltos: los pies en el piso.",
+      "moves": [
+        {
+          "cut": "C1",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "C2",
+              0.35
+            ],
+            [
+              "C1",
+              0.35
+            ],
+            [
+              "C0",
+              0.35
+            ],
+            [
+              "C3",
+              0.35
+            ]
+          ],
+          "at": 0.6,
+          "until": "end",
+          "ease": "none"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "6 MINUTOS"
+      ],
+      "sub": "Sin parar, sin saltos",
+      "vo": "Seis minutos en total: círculos de brazos, sentadillas suaves y rodillas altas. Subí el ritmo de a poco y no lo cortes.",
+      "chips": [
+        {
+          "label": "1 · CÍRCULOS",
+          "at": 0.5
+        },
+        {
+          "label": "2 · SENTADILLAS",
+          "at": 1.6
+        },
+        {
+          "label": "3 · RODILLAS",
+          "at": 2.7
+        }
+      ],
+      "moves": [
+        {
+          "cut": "C1",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "C2",
+              0.3
+            ],
+            [
+              "C1",
+              0.3
+            ],
+            [
+              "C0",
+              0.3
+            ],
+            [
+              "C3",
+              0.3
+            ]
+          ],
+          "at": 0.4,
+          "until": 1.5,
+          "ease": "none"
+        },
+        {
+          "cut": "SQUAT",
+          "at": 1.6
+        },
+        {
+          "to": "STAND",
+          "at": 2.2,
+          "dur": 0.6
+        },
+        {
+          "cut": "KNEE_A",
+          "at": 2.7
+        },
+        {
+          "loop": [
+            "KNEE_A",
+            "KNEE_B"
+          ],
+          "at": 3.1,
+          "step": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "KNEE_A",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Dynamic Warm-Up 🔥 Seis minutos de calentamiento general, sin saltos | CrossFit",
+    "tags": [
+      "dynamic warm-up",
+      "calentamiento dinámico",
+      "entrada en calor",
+      "círculos de brazos",
+      "movilidad de hombro",
+      "sentadillas suaves",
+      "rodillas altas",
+      "movilidad",
+      "prevención de lesiones",
+      "crossfit",
+      "rutina de calentamiento"
+    ],
+    "descripcion": "🔥 DYNAMIC WARM-UP — Seis minutos de calentamiento general, sin saltos\n\n¿Entrás al WOD en frío y la primera serie se siente horrible? Seis minutos de entrada en calor cambian toda la sesión. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate con los pies al ancho de la cadera y los brazos en cruz.\n2️⃣ Hacé círculos grandes de brazos, adelante y atrás.\n3️⃣ Sumá sentadillas suaves, bajando con el pecho alto.\n4️⃣ Meté rodillas altas, alternando las piernas a ritmo progresivo.\n5️⃣ Subí la intensidad de a poco y sin saltos: los pies en el piso.\n\n✅ CLAVES DE TÉCNICA\n• Empezá suave y subí de a poco\n• Core activo todo el tiempo\n• Respirá controlado\n• Sin saltos: pies en el piso\n\n🎯 QUÉ TRABAJA\nRecto femoral · Deltoides anterior · Gastrocnemio · Glúteo mayor\n\n⏱️ CUÁNTO\n6 minutos, subiendo la intensidad de a poco. Va al principio de la clase, antes de tocar la barra.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #DynamicWarmUp #Movilidad #Entrenamiento"
+  },
+  "pronuncia": {
+    "Dynamic Warm-Up": "Dainámic uórm ap"
+  }
+}

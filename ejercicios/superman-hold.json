@@ -1,0 +1,397 @@
+{
+  "slug": "superman-hold",
+  "name": "Superman Hold",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Espalda baja",
+    "Glúteos",
+    "Core"
+  ],
+  "descripcion": "Acostado boca abajo con brazos extendidos al frente y piernas estiradas. Elevar simultáneamente brazos, pecho y piernas del piso, manteniendo la posición isométrica. Trabaja la cadena posterior.",
+  "revisado": false,
+  "notas": "Boca abajo (hip + s/t 90 en el piso, 120 arriba) y brazos en línea con el torso (ua = 180 - b).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 490,
+    "y": 1500,
+    "scale": 0.84
+  },
+  "initialPose": "PRONE",
+  "poses": {
+    "PRONE": {
+      "hip": [
+        -30,
+        -8
+      ],
+      "s": 90,
+      "t": 90,
+      "ft": 175,
+      "ft2": 175,
+      "b": 92,
+      "hd": 100,
+      "g": 0,
+      "ua": 90,
+      "fa": 0,
+      "ua2": 90,
+      "fa2": 0
+    },
+    "HOLD": {
+      "hip": [
+        -30,
+        -8
+      ],
+      "s": 120,
+      "t": 120,
+      "ft": 175,
+      "ft2": 175,
+      "b": 74,
+      "hd": 100,
+      "g": 0,
+      "ua": 106,
+      "fa": 0,
+      "ua2": 106,
+      "fa2": 0
+    },
+    "ARMS_ONLY": {
+      "hip": [
+        -30,
+        -8
+      ],
+      "s": 90,
+      "t": 90,
+      "ft": 175,
+      "ft2": 175,
+      "b": 74,
+      "hd": 100,
+      "g": 0,
+      "ua": 106,
+      "fa": 0,
+      "ua2": 106,
+      "fa2": 0
+    },
+    "HIGH_BAD": {
+      "hip": [
+        -30,
+        -8
+      ],
+      "s": 150,
+      "t": 150,
+      "ft": 175,
+      "ft2": 175,
+      "b": 50,
+      "hd": 36,
+      "g": 0,
+      "ua": 130,
+      "fa": 0,
+      "ua2": 130,
+      "fa2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "SUPERMAN",
+        "HOLD"
+      ],
+      "vo": "Superman Hold: la cadena de atrás completa, de la nuca a los talones. Espalda baja fuerte y sana.",
+      "moves": [
+        {
+          "to": "PRONE",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "HOLD",
+              0.9
+            ],
+            [
+              "PRONE",
+              0.7
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ACOSTADO",
+        "BOCA ABAJO"
+      ],
+      "sub": "Brazos extendidos al frente",
+      "vo": "Acostate boca abajo, con los brazos extendidos al frente y las piernas estiradas, todo el cuerpo en línea.",
+      "moves": [
+        {
+          "cut": "PRONE",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            300,
+            1380
+          ],
+          "text": "PIERNAS ESTIRADAS",
+          "anchor": "start",
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            930,
+            1270
+          ],
+          "text": "BRAZOS AL FRENTE",
+          "anchor": "end",
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "DESPEGÁ",
+        "TODO A LA VEZ"
+      ],
+      "sub": "Sin doblar los codos",
+      "vo": "Paso uno. Despegá del piso los brazos, el pecho y las piernas al mismo tiempo, como si te estiraras para volar.",
+      "moves": [
+        {
+          "cut": "PRONE",
+          "at": 0
+        },
+        {
+          "to": "HOLD",
+          "at": 0.8,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            150,
+            1460
+          ],
+          "to": [
+            165,
+            1330
+          ],
+          "at": 0.9,
+          "dur": 0.7
+        },
+        {
+          "type": "arrow",
+          "from": [
+            890,
+            1450
+          ],
+          "to": [
+            930,
+            1320
+          ],
+          "at": 0.9,
+          "dur": 0.7
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1240
+          ],
+          "text": "TODO A LA VEZ",
+          "anchor": "middle",
+          "at": 1.7
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "GLÚTEOS Y",
+        "ABDOMEN"
+      ],
+      "sub": "Solo la panza en el piso",
+      "vo": "Paso dos. Apretá los glúteos y el abdomen: solo la panza y la cadera quedan en contacto con el piso.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            465,
+            1495
+          ],
+          "r": 54,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            465,
+            1340
+          ],
+          "text": "SOLO LA PANZA",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Mirá al piso, no al techo",
+      "vo": "Paso tres. No tires la cabeza atrás ni subas de más: mirá al piso y subí apenas. Así la espalda baja no se lleva todo el trabajo.",
+      "moves": [
+        {
+          "cut": "HIGH_BAD",
+          "at": 0
+        },
+        {
+          "to": "HOLD",
+          "at": 2.2,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            700,
+            1050
+          ],
+          "text": "MIRADA AL TECHO NO",
+          "anchor": "middle",
+          "at": 0.8,
+          "out": 2.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1050
+          ],
+          "text": "MIRÁ AL PISO",
+          "anchor": "middle",
+          "at": 2.5
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Mirada al piso, cuello relajado",
+        "Glúteos y abdomen apretados",
+        "Subí sin arquear la lumbar",
+        "Respirá todo el tiempo"
+      ],
+      "vo": "Claves: mirada al piso con el cuello relajado, glúteos y abdomen apretados, subí sin arquear la lumbar y respirá todo el tiempo.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "Sin apoyar nada",
+      "vo": "Treinta segundos aguantando arriba, sin apoyar brazos ni piernas. Si sentís la lumbar, bajá y descansá.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.5
+        },
+        {
+          "label": "2 · AGUANTÁ",
+          "at": 1.5
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 2.5
+        }
+      ],
+      "moves": [
+        {
+          "cut": "PRONE",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "HOLD",
+              1.0
+            ],
+            [
+              "PRONE",
+              0.8
+            ]
+          ],
+          "at": 0.8,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "HOLD",
+    "grip": 0,
+    "zoom": 1.0,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Superman Hold 🔥 Cadena posterior y espalda baja fuerte paso a paso | CrossFit",
+    "tags": [
+      "superman hold",
+      "superman",
+      "extensión de espalda",
+      "espalda baja",
+      "erectores espinales",
+      "glúteos",
+      "cadena posterior",
+      "isométrico",
+      "core",
+      "activación",
+      "crossfit",
+      "espalda sana"
+    ],
+    "descripcion": "🔥 SUPERMAN HOLD — Cadena posterior y espalda baja fuertes, sin cargar la columna\n\n¿Pasás el día sentado y la espalda baja te pasa factura? El superman fortalece toda la cadena de atrás sin cargar un solo kilo. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Acostate boca abajo, con los brazos extendidos al frente y las piernas estiradas.\n2️⃣ Despegá del piso los brazos, el pecho y las piernas al mismo tiempo.\n3️⃣ Apretá glúteos y abdomen: solo la panza y la cadera quedan en el piso.\n4️⃣ Mirá al piso y subí sin arquear la lumbar.\n5️⃣ Aguantá treinta segundos respirando y bajá con control.\n\n✅ CLAVES DE TÉCNICA\n• Mirada al piso, cuello relajado\n• Glúteos y abdomen apretados\n• Subí sin arquear la lumbar\n• Respirá todo el tiempo\n\n🎯 QUÉ TRABAJA\nErectores espinales · Deltoides posterior · Glúteo mayor · Trapecio inferior\n\n⏱️ CUÁNTO\n30 segundos por serie. Va en la activación, antes del WOD, o al final como accesorio de espalda.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés dolor lumbar o una hernia, consultá antes y empezá con el rango más chico.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Activacion #SupermanHold #EspaldaBaja #Entrenamiento"
+  },
+  "pronuncia": {
+    "Superman Hold": "Súperman jold",
+    "superman": "súperman"
+  }
+}

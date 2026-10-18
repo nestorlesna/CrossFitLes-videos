@@ -5,7 +5,7 @@ La lista y su orden salen de `ejercicios/ejercicios.csv`; el estado, de `ejercic
 `videos/<clave>/.pipeline.json` y `salida/`. Para aprobar un video: `"revisado": true` en su JSON; las notas salen de `"notas"`.
 Subido = el .mp4 está en `salida/subidos/` (se mueve a mano después de publicarlo en YouTube).
 
-**Renderizados:** 94 / 328 · **Fichas:** 94 · **Descripción YouTube:** 94 · **Subidos:** 14 · **Próximo:** 94 · Superman Hold
+**Renderizados:** 99 / 328 · **Fichas:** 99 · **Descripción YouTube:** 99 · **Subidos:** 14 · **Próximo:** 99 · Band Pass-Through
 
 | # | Ejercicio | Implemento | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Revisado | Subido | Fecha render | Notas |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -103,11 +103,11 @@ Subido = el .mp4 está en `salida/subidos/` (se mueve a mano después de publica
 | 91 | Bar Pull Up | Pull-up bar | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/bar-pull-up.youtube.txt) | [✅](salida/bar-pull-up.miniatura.png) | 42.9 s | [OC_bar-pull-up.mp4](salida/OC_bar-pull-up.mp4) | ⬜ | ⬜ | 2026-10-18 |  |
 | 92 | Bodyweight Handstand Push-Up | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/bodyweight-handstand-push-up.youtube.txt) | [✅](salida/bodyweight-handstand-push-up.miniatura.png) | 42.6 s | [OC_bodyweight-handstand-push-up.mp4](salida/OC_bodyweight-handstand-push-up.mp4) | ⬜ | ⬜ | 2026-10-18 | Primera figura invertida (180°): el pino se arma con b/hd/t/s en 180 y el agarre en el piso (hx/hy), el hip a 612 del piso. |
 | 93 | Plank Hold | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/plank-hold.youtube.txt) | [✅](salida/plank-hold.miniatura.png) | 42.5 s | [OC_plank-hold.mp4](salida/OC_plank-hold.mp4) | ⬜ | ⬜ | 2026-10-18 |  |
-| 94 | Superman Hold | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 95 | Hollow Hold | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 96 | Band Pull-Apart | Banda elástica | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 97 | Dynamic Warm-Up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 98 | 4-6 Breathing | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
+| 94 | Superman Hold | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/superman-hold.youtube.txt) | [✅](salida/superman-hold.miniatura.png) | 47.5 s | [OC_superman-hold.mp4](salida/OC_superman-hold.mp4) | ⬜ | ⬜ | 2026-10-18 | Boca abajo (hip + s/t 90 en el piso, 120 arriba) y brazos en línea con el torso (ua = 180 - b). |
+| 95 | Hollow Hold | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/hollow-hold.youtube.txt) | [✅](salida/hollow-hold.miniatura.png) | 46.8 s | [OC_hollow-hold.mp4](salida/OC_hollow-hold.mp4) | ⬜ | ⬜ | 2026-10-18 | Poses del hollow copiadas de dynamic-hollow-hold, sin el disco: boca arriba con lumbar pegada y cv + en la banana. |
+| 96 | Band Pull-Apart | Banda elástica | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/band-pull-apart.youtube.txt) | [✅](salida/band-pull-apart.miniatura.png) | 46.5 s | [OC_band-pull-apart.mp4](salida/OC_band-pull-apart.mp4) | ⬜ | ⬜ | 2026-10-18 | De frente: brazos al frente a la altura del pecho (ua 50) que se abren a la altura de los hombros (ua 90) + tarjeta topview front. La banda va con hand both desde un ancla fija al frente. |
+| 97 | Dynamic Warm-Up | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/dynamic-warm-up.youtube.txt) | [✅](salida/dynamic-warm-up.miniatura.png) | 56.6 s | [OC_dynamic-warm-up.mp4](salida/OC_dynamic-warm-up.mp4) | ⬜ | ⬜ | 2026-10-18 | Tres bloques en un video: círculos de brazos con la tarjeta topview front (como arm-circles), sentadilla con {hip,ankle} y rodillas altas alternando (la pierna lejana con t2/s2 + 180). |
+| 98 | 4-6 Breathing | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/4-6-breathing.youtube.txt) | [✅](salida/4-6-breathing.miniatura.png) | 47.1 s | [OC_4-6-breathing.mp4](salida/OC_4-6-breathing.mp4) | ⬜ | ⬜ | 2026-10-18 | Boca arriba con la mano en la panza (g 1 a hx/hy): la mano sube y baja con el aire y el pecho apenas se abre (b -84 / -94). |
 | 99 | Band Pass-Through | Banda elástica | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
 | 100 | Dead Bug Hold with Dumbbell | Mancuernas | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
 | 101 | Hollow Rock | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
