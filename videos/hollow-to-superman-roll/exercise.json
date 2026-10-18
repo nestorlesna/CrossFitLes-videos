@@ -1,0 +1,427 @@
+{
+  "slug": "hollow-to-superman-roll",
+  "name": "Hollow to Superman Roll",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Core",
+    "Abdominales",
+    "Movilidad"
+  ],
+  "descripcion": "Del hollow hold (boca arriba, brazos y piernas en banana) girar de costado hasta el superman hold (boca abajo, brazos y piernas elevados) y volver girando hacia el otro lado, alternando.",
+  "revisado": false,
+  "notas": "Supino (b -70, cabeza a la izquierda) -> giro por el costado con escorzo (al 0.35 + lr 70) -> prono (b 74, cabeza a la derecha, ft 175). El giro se corta con cut porque de perfil el cambio de panza/espalda no se ve: el personaje se oculta ~0.45 s entre las dos posiciones. Error: cuerpo flojo con la lumbar despegada (LOOSE_BAD b -84, cv -24).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1500,
+    "scale": 0.84
+  },
+  "initialPose": "HOLLOW",
+  "poses": {
+    "HOLLOW": {
+      "hip": [
+        0,
+        -18
+      ],
+      "s": -116,
+      "t": -116,
+      "b": -70,
+      "hd": -56,
+      "ft": -62,
+      "ft2": -62,
+      "g": 0,
+      "ua": 248,
+      "fa": 0,
+      "ua2": 248,
+      "fa2": 0,
+      "cv": 14
+    },
+    "ROLL_A": {
+      "hip": [
+        0,
+        -18
+      ],
+      "s": -120,
+      "t": -120,
+      "b": -78,
+      "hd": -64,
+      "ft": -70,
+      "ft2": -70,
+      "g": 0,
+      "ua": 240,
+      "fa": 0,
+      "ua2": 240,
+      "fa2": 0,
+      "al": 0.35,
+      "lr": 70,
+      "cv": 8
+    },
+    "SUPERMAN": {
+      "hip": [
+        0,
+        -18
+      ],
+      "s": 120,
+      "t": 120,
+      "ft": 175,
+      "ft2": 175,
+      "b": 74,
+      "hd": 100,
+      "g": 0,
+      "ua": 106,
+      "fa": 0,
+      "ua2": 106,
+      "fa2": 0
+    },
+    "LOOSE_BAD": {
+      "hip": [
+        0,
+        -6
+      ],
+      "s": -96,
+      "t": -96,
+      "b": -84,
+      "hd": -76,
+      "ft": -46,
+      "ft2": -46,
+      "g": 0,
+      "ua": 262,
+      "fa": 0,
+      "ua2": 262,
+      "fa2": 0,
+      "cv": -24
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "HOLLOW TO",
+        "SUPERMAN ROLL"
+      ],
+      "vo": "Hollow to Superman Roll: pasás del hollow boca arriba al superman boca abajo girando de costado. Encendés el core y la espalda en un solo movimiento.",
+      "moves": [
+        {
+          "to": "ROLL_A",
+          "at": 1.0,
+          "dur": 0.7
+        },
+        {
+          "cut": "SUPERMAN",
+          "at": 1.8
+        },
+        {
+          "to": "ROLL_A",
+          "at": 3.4,
+          "dur": 0.6
+        },
+        {
+          "cut": "HOLLOW",
+          "at": 4.1
+        },
+        {
+          "seq": [
+            [
+              "ROLL_A",
+              0.9
+            ],
+            [
+              "SUPERMAN",
+              1.0
+            ]
+          ],
+          "at": 4.9,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "HOLLOW:",
+        "BOCA ARRIBA"
+      ],
+      "sub": "Lumbar pegada al piso",
+      "vo": "Acostate boca arriba y armá el hollow: brazos estirados por encima de la cabeza y piernas en banana, con la lumbar pegada al piso.",
+      "moves": [
+        {
+          "cut": "HOLLOW",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1330
+          ],
+          "text": "LUMBAR PEGADA",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "GIRÁ DE",
+        "COSTADO"
+      ],
+      "sub": "Sin soltar el abdomen",
+      "vo": "Paso uno. Girá el cuerpo hacia un costado pasando por el perfil, sin soltar la tensión del abdomen.",
+      "moves": [
+        {
+          "cut": "HOLLOW",
+          "at": 0
+        },
+        {
+          "to": "ROLL_A",
+          "at": 0.6,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            300,
+            1240
+          ],
+          "to": [
+            300,
+            1420
+          ],
+          "bend": [
+            90,
+            0
+          ],
+          "at": 1.0,
+          "dur": 0.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            900
+          ],
+          "text": "DE COSTADO",
+          "anchor": "middle",
+          "at": 1.5
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "TERMINÁ EN",
+        "SUPERMAN"
+      ],
+      "sub": "Boca abajo, todo elevado",
+      "vo": "Paso dos. Terminá boca abajo en superman: brazos y piernas elevados del piso y la mirada al suelo.",
+      "moves": [
+        {
+          "cut": "SUPERMAN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            900
+          ],
+          "text": "BRAZOS Y PIERNAS ARRIBA",
+          "anchor": "middle",
+          "at": 1.5
+        },
+        {
+          "type": "ring",
+          "pos": [
+            720,
+            1450
+          ],
+          "r": 60,
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Cuerpo flojo, lumbar despegada",
+      "vo": "Paso tres. Si la lumbar se despega y el cuerpo queda flojo, el ejercicio pierde todo. La tensión no se suelta en ningún momento del giro.",
+      "moves": [
+        {
+          "cut": "LOOSE_BAD",
+          "at": 0
+        },
+        {
+          "cut": "HOLLOW",
+          "at": 2.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1300
+          ],
+          "text": "SIN TENSIÓN NO",
+          "anchor": "middle",
+          "at": 0.8,
+          "out": 2.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1300
+          ],
+          "text": "TODO APRETADO",
+          "anchor": "middle",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.72,
+      "keys": [
+        "Girá de costado, no por la cabeza",
+        "Brazos y piernas elevados",
+        "La lumbar no se despega",
+        "Ritmo continuo, sin golpear el piso"
+      ],
+      "vo": "Claves: girá de costado y no por la cabeza, brazos y piernas elevados, la lumbar no se despega y el ritmo es continuo, sin golpear el piso.",
+      "moves": [
+        {
+          "cut": "HOLLOW",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "ROLL_A",
+              0.9
+            ],
+            [
+              "SUPERMAN",
+              1.0
+            ],
+            [
+              "ROLL_A",
+              0.9
+            ],
+            [
+              "HOLLOW",
+              0.9
+            ]
+          ],
+          "at": 0.7,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEG"
+      ],
+      "sub": "Girando de un lado al otro",
+      "vo": "Treinta segundos girando de un lado al otro, sin parar. Lento y con el abdomen apretado todo el tiempo.",
+      "chips": [
+        {
+          "label": "1 · HOLLOW",
+          "at": 0.5
+        },
+        {
+          "label": "2 · GIRÁ",
+          "at": 1.3
+        },
+        {
+          "label": "3 · SUPERMAN",
+          "at": 2.1
+        }
+      ],
+      "moves": [
+        {
+          "cut": "HOLLOW",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ROLL_A",
+              0.9
+            ],
+            [
+              "SUPERMAN",
+              1.0
+            ],
+            [
+              "ROLL_A",
+              0.9
+            ],
+            [
+              "HOLLOW",
+              0.9
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "HOLLOW",
+    "grip": 0,
+    "zoom": 1.0,
+    "dy": 190
+  },
+  "youtube": {
+    "titulo": "Hollow to Superman Roll 🔥 Del hollow al superman girando de costado | CrossFit",
+    "tags": [
+      "hollow to superman roll",
+      "hollow body roll",
+      "hollow to arch roll",
+      "hollow hold",
+      "superman hold",
+      "core",
+      "antiextensión",
+      "abdominales",
+      "espalda baja",
+      "entrada en calor",
+      "movilidad de core",
+      "crossfit"
+    ],
+    "descripcion": "🔥 HOLLOW TO SUPERMAN ROLL — Del hollow al superman girando de costado: core y espalda en un solo movimiento\n\n¿Terminás el hollow con la lumbar despegada y sin tensión? El hollow to superman roll te obliga a mantener el abdomen apretado mientras girás. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Acostate boca arriba con los brazos por encima de la cabeza y las piernas en banana: esa es la posición hollow.\n2️⃣ Pegá la zona lumbar al piso: es lo que hace que el ejercicio valga.\n3️⃣ Girá el cuerpo hacia un costado pasando por el perfil, sin soltar la tensión del abdomen.\n4️⃣ Terminá boca abajo en superman: brazos y piernas elevados del piso y la mirada al suelo.\n5️⃣ Volvé girando hacia el otro lado y repetí, sin golpear el piso y sin parar.\n\n✅ CLAVES DE TÉCNICA\n• Girá de costado, no por la cabeza\n• Brazos y piernas elevados\n• La lumbar no se despega\n• Ritmo continuo, sin golpear el piso\n\n🎯 QUÉ TRABAJA\nRecto abdominal · Oblicuos · Dorsal ancho · Glúteo mayor · Erectores espinales\n\n⏱️ CUÁNTO\n30 segundos girando de un lado al otro. Va en la entrada en calor o como activación de core.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés dolor lumbar o cervical, hacelo lento y con un rango chico, o directamente arrancá con el hollow hold sin giro.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #HollowToSupermanRoll #Core #Entrenamiento"
+  },
+  "pronuncia": {
+    "Hollow to Superman Roll": "jólo tu súperman róul",
+    "Superman Roll": "súperman róul",
+    "Hollow": "jólo"
+  }
+}

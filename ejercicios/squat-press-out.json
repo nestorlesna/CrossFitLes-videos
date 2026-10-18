@@ -1,0 +1,540 @@
+{
+  "slug": "squat-press-out",
+  "name": "Squat Press-Out",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Piernas",
+    "Hombros",
+    "Activación"
+  ],
+  "descripcion": "Con un disco liviano sostenido con las dos manos a la altura del pecho, descender a la posición de sentadilla y, durante el descenso, presionar el implemento hacia adelante extendiendo los brazos, y volver a la posición inicial.",
+  "revisado": false,
+  "notas": "El 'disco' se dibuja con el prop barbell r 44 (convención de cuban-press: disco chico en las manos). El disco sigue al tronco al bajarlo (grip IK con hb 1: hx hacia el frente, hy hacia abajo del torso) y al presionarlo se usan brazos libres extendidos (ua 100 / fa 0). Error: no presionar y caer con el torso al frente (b 58, cv 20).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 480,
+    "y": 1500,
+    "scale": 0.82
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "ed": 1,
+      "hb": 1,
+      "hx": 120,
+      "hy": 150
+    },
+    "HALF": {
+      "hip": [
+        -80,
+        -380
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 22,
+      "hd": 12,
+      "g": 1,
+      "ed": 1,
+      "hb": 1,
+      "hx": 120,
+      "hy": 170
+    },
+    "BOTTOM": {
+      "hip": [
+        -150,
+        -205
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 40,
+      "hd": 24,
+      "g": 1,
+      "ed": 1,
+      "hb": 1,
+      "hx": 130,
+      "hy": 130
+    },
+    "PRESS": {
+      "hip": [
+        -150,
+        -205
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 40,
+      "hd": 24,
+      "g": 0,
+      "ua": 100,
+      "fa": 0,
+      "ua2": 100,
+      "fa2": 0
+    },
+    "TORSO_BAD": {
+      "hip": [
+        -150,
+        -205
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 58,
+      "hd": 40,
+      "cv": 20,
+      "g": 1,
+      "ed": 1,
+      "hb": 1,
+      "hx": 120,
+      "hy": 150
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "SQUAT",
+        "PRESS-OUT"
+      ],
+      "vo": "Squat Press-Out: sentadilla con el disco presionado hacia adelante. El contrapeso te ayuda a mantener el torso erguido.",
+      "moves": [
+        {
+          "to": "STAND",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "HALF",
+              0.5
+            ],
+            [
+              "BOTTOM",
+              0.6
+            ],
+            [
+              "PRESS",
+              0.7
+            ],
+            [
+              "BOTTOM",
+              0.5
+            ],
+            [
+              "STAND",
+              0.7
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DISCO EN",
+        "EL PECHO"
+      ],
+      "sub": "A dos manos, pies al ancho de la cadera",
+      "vo": "De pie con el disco a la altura del pecho, agarrado con las dos manos y los codos cerca del cuerpo.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            372,
+            1180
+          ],
+          "text": "DISCO EN EL PECHO",
+          "anchor": "end",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            618,
+            1000
+          ],
+          "r": 60,
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "BAJÁ EN",
+        "SENTADILLA"
+      ],
+      "sub": "Cadera atrás, talones al piso",
+      "vo": "Paso uno. Bajá en sentadilla llevando la cadera atrás, con los talones bien apoyados en el piso.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "to": "BOTTOM",
+          "at": 1.6,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            560,
+            1060
+          ],
+          "to": [
+            560,
+            1290
+          ],
+          "at": 0.6,
+          "dur": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            356,
+            1408
+          ],
+          "text": "TALONES AL PISO",
+          "anchor": "end",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "PRESIONÁ EL",
+        "DISCO AFUERA"
+      ],
+      "sub": "El peso hace de contrapeso",
+      "vo": "Paso dos. Mientras bajás, presioná el disco hacia adelante extendiendo los brazos: el peso hace de contrapeso y te ayuda a no caer con el torso.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "PRESS",
+          "at": 0.6,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            560,
+            1150
+          ],
+          "to": [
+            830,
+            1150
+          ],
+          "at": 0.7,
+          "dur": 0.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            356,
+            1000
+          ],
+          "text": "BRAZOS AFUERA",
+          "anchor": "end",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "VOLVÉ A SUBIR",
+        "CON EL DISCO"
+      ],
+      "sub": "Empujá el piso",
+      "vo": "Paso tres. Volvé a subir llevando el disco al pecho otra vez, empujando el piso con los pies.",
+      "moves": [
+        {
+          "cut": "PRESS",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "HALF",
+          "at": 1.3,
+          "dur": 0.7
+        },
+        {
+          "to": "STAND",
+          "at": 2.1,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            560,
+            1290
+          ],
+          "to": [
+            560,
+            1060
+          ],
+          "at": 0.5,
+          "dur": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            356,
+            900
+          ],
+          "text": "EMPUJÁ EL PISO",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "No presionar y caer al frente",
+      "vo": "Paso cuatro. Si no presionás el disco y el torso se cae al frente, perdés el equilibrio y la sentadilla se arruina. Presioná hacia adelante.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "TORSO_BAD",
+          "at": 0.6,
+          "dur": 0.8
+        },
+        {
+          "to": "BOTTOM",
+          "at": 2.8,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "TORSO_BAD.S",
+            "dx": 30,
+            "dy": 70
+          },
+          "r": 80,
+          "at": 1.2,
+          "out": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            405,
+            900
+          ],
+          "text": "TORSO AL FRENTE NO",
+          "anchor": "end",
+          "at": 1.3,
+          "out": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            405,
+            900
+          ],
+          "text": "PECHO ARRIBA",
+          "anchor": "end",
+          "at": 3.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Cadera atrás y talones al piso",
+        "Presioná el disco al bajar",
+        "El disco es contrapeso, no peso",
+        "Torso erguido todo el movimiento"
+      ],
+      "vo": "Claves: cadera atrás con los talones al piso, presioná el disco al bajar, el disco es un contrapeso y el torso queda erguido todo el movimiento.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "HALF",
+              0.5
+            ],
+            [
+              "BOTTOM",
+              0.6
+            ],
+            [
+              "PRESS",
+              0.7
+            ],
+            [
+              "BOTTOM",
+              0.5
+            ],
+            [
+              "STAND",
+              0.7
+            ]
+          ],
+          "at": 0.7,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Con 5 kg",
+      "vo": "Diez repeticiones con un disco de cinco kilos. Liviano y controlado: la idea es mejorar la mecánica de la sentadilla, no cargar peso.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.5
+        },
+        {
+          "label": "2 · PRESIONÁ",
+          "at": 1.3
+        },
+        {
+          "label": "3 · SUBÍ",
+          "at": 2.1
+        }
+      ],
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "HALF",
+              0.5
+            ],
+            [
+              "BOTTOM",
+              0.6
+            ],
+            [
+              "PRESS",
+              0.7
+            ],
+            [
+              "BOTTOM",
+              0.5
+            ],
+            [
+              "STAND",
+              0.7
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "PRESS",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Squat Press-Out 🔥 Sentadilla con disco al frente paso a paso | CrossFit",
+    "tags": [
+      "squat press out",
+      "sentadilla con disco",
+      "press out",
+      "contrapeso",
+      "sentadilla",
+      "mecánica de sentadilla",
+      "activación",
+      "entrada en calor",
+      "cuádriceps",
+      "hombros",
+      "torso erguido",
+      "crossfit"
+    ],
+    "descripcion": "🔥 SQUAT PRESS-OUT — Sentadilla con el disco presionado al frente: el contrapeso que te mantiene erguido\n\n¿En la sentadilla se te cae el pecho al frente? Presioná un disco hacia adelante: el contrapeso te obliga a quedar erguido y te enseña la mecánica. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ De pie con el disco a la altura del pecho, a dos manos y los codos cerca del cuerpo.\n2️⃣ Bajá en sentadilla llevando la cadera atrás, con los talones bien apoyados en el piso.\n3️⃣ Mientras bajás, presioná el disco hacia adelante extendiendo los brazos.\n4️⃣ El disco actúa como contrapeso: no es para cargar peso, es para mejorar la mecánica.\n5️⃣ Volvé a subir llevando el disco al pecho y empujando el piso con los pies.\n\n✅ CLAVES DE TÉCNICA\n• Cadera atrás y talones al piso\n• Presioná el disco al bajar\n• El disco es contrapeso, no peso\n• Torso erguido todo el movimiento\n\n🎯 QUÉ TRABAJA\nRecto femoral · Glúteo mayor · Deltoides anterior · Recto abdominal\n\n⏱️ CUÁNTO\n10 repeticiones con 5 kg. Ideal para la entrada en calor y para corregir la mecánica antes de cargar la barra.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés molestias en rodillas o cadera, achicá el rango y priorizá la técnica con un disco más liviano o sin peso.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #SquatPressOut #Sentadilla #Entrenamiento"
+  },
+  "pronuncia": {
+    "Squat Press-Out": "escuát pres áut",
+    "Press-Out": "pres áut",
+    "Squat": "escuát"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "r": 44
+    }
+  ]
+}

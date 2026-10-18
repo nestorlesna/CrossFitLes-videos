@@ -1,0 +1,538 @@
+{
+  "slug": "snatch-grip-deadlift",
+  "name": "Snatch Grip Deadlift",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Cadena posterior",
+    "Espalda",
+    "Fuerza"
+  ],
+  "descripcion": "Peso muerto con agarre amplio de arrancada: desde el suelo, elevar la barra con los brazos extendidos y la espalda neutra hasta estar completamente de pie con la cadera extendida.",
+  "revisado": false,
+  "notas": "Mismas poses de barbell-deadlift (grip IK hx 30 / hy). El ancho de agarre no se ve de perfil: se explica con etiqueta + voz (como en barbell-power-snatch). Error: redondear la espalda (cv 34, hd 96).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1500,
+    "scale": 0.84
+  },
+  "initialPose": "SETUP",
+  "poses": {
+    "STAND_BAR": {
+      "g": 1,
+      "ed": 1,
+      "hx": 30,
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "hy": -424
+    },
+    "SETUP": {
+      "g": 1,
+      "ed": 1,
+      "hx": 30,
+      "hip": [
+        -150,
+        -285
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 72,
+      "hd": 58,
+      "hy": -62
+    },
+    "KNEE": {
+      "g": 1,
+      "ed": 1,
+      "hx": 30,
+      "s": 5,
+      "t": -55,
+      "b": 52,
+      "hd": 40,
+      "hy": -215
+    },
+    "THIGH": {
+      "g": 1,
+      "ed": 1,
+      "hx": 30,
+      "s": 0,
+      "t": -20,
+      "b": 30,
+      "hd": 22,
+      "hy": -380
+    },
+    "LOCK": {
+      "g": 1,
+      "ed": 1,
+      "hx": 30,
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "hy": -424
+    },
+    "ROUND_BAD": {
+      "g": 1,
+      "ed": 1,
+      "hx": 30,
+      "hip": [
+        -150,
+        -285
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 76,
+      "hd": 96,
+      "cv": 34,
+      "hy": -62
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "SNATCH GRIP",
+        "DEADLIFT"
+      ],
+      "vo": "Snatch Grip Deadlift: peso muerto con agarre ancho de arrancada. Más recorrido y más espalda alta que el peso muerto convencional.",
+      "moves": [
+        {
+          "to": "SETUP",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "KNEE",
+              0.6
+            ],
+            [
+              "THIGH",
+              0.5
+            ],
+            [
+              "STAND_BAR",
+              0.6
+            ],
+            [
+              "THIGH",
+              0.5
+            ],
+            [
+              "KNEE",
+              0.5
+            ],
+            [
+              "SETUP",
+              0.6
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "AGARRE ANCHO",
+        "DE ARRANCADA"
+      ],
+      "sub": "Manos bien separadas",
+      "vo": "Barra en el piso, agarre bien ancho de arrancada, pies al ancho de la cadera y las tibias casi tocando la barra.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            300,
+            1408
+          ],
+          "text": "AGARRE ANCHO",
+          "anchor": "end",
+          "at": 1.5
+        },
+        {
+          "type": "label",
+          "pos": [
+            830,
+            1420
+          ],
+          "text": "BARRA AL PISO",
+          "anchor": "middle",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "HOMBROS POR",
+        "DELANTE DE LA BARRA"
+      ],
+      "sub": "Espalda firme",
+      "vo": "Paso uno. Con el agarre ancho el pecho queda más alto: poné los hombros por delante de la barra y la espalda firme.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "solid": true,
+          "color": "ink",
+          "width": 7,
+          "from": {
+            "j": "SETUP.S",
+            "dy": -50
+          },
+          "to": {
+            "j": "SETUP.H",
+            "dy": -50
+          },
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            560,
+            900
+          ],
+          "text": "ESPALDA FIRME",
+          "anchor": "middle",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "EMPUJÁ EL PISO",
+        "Y SEPARÁ"
+      ],
+      "sub": "Barra pegada a las piernas",
+      "vo": "Paso dos. Empujá el piso y separá la barra, llevándola pegada a las piernas hasta las rodillas.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "KNEE",
+          "at": 0.6,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            700,
+            1400
+          ],
+          "to": [
+            700,
+            1180
+          ],
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            356,
+            1120
+          ],
+          "text": "PEGADA AL CUERPO",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "EXTENDÉ HASTA",
+        "PARARTE"
+      ],
+      "sub": "Cadera y rodillas a full",
+      "vo": "Paso tres. Extendé cadera y rodillas hasta pararte del todo, con los brazos extendidos y la barra en la cadera.",
+      "moves": [
+        {
+          "cut": "KNEE",
+          "at": 0
+        },
+        {
+          "to": "THIGH",
+          "at": 0.5,
+          "dur": 0.7
+        },
+        {
+          "to": "STAND_BAR",
+          "at": 1.4,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            600,
+            1120
+          ],
+          "to": [
+            600,
+            880
+          ],
+          "at": 0.5,
+          "dur": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": {
+            "j": "STAND_BAR.H",
+            "dy": 20
+          },
+          "r": 70,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            780,
+            1180
+          ],
+          "text": "EXTENDÉ TODO",
+          "anchor": "middle",
+          "at": 1.9
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Redondear la espalda",
+      "vo": "Paso cuatro. Si redondeás la espalda al despegar, el peso se va a la columna. Achicá el peso antes que la técnica.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "ROUND_BAD",
+          "at": 0.6,
+          "dur": 0.7
+        },
+        {
+          "to": "SETUP",
+          "at": 2.8,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "ROUND_BAD.S",
+            "dx": -40,
+            "dy": 40
+          },
+          "r": 90,
+          "at": 1.1,
+          "out": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            423,
+            1180
+          ],
+          "text": "ESPALDA REDONDA NO",
+          "anchor": "end",
+          "at": 1.2,
+          "out": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            423,
+            1180
+          ],
+          "text": "ESPALDA FIRME",
+          "anchor": "end",
+          "at": 3.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Agarre ancho de arrancada",
+        "Hombros por delante de la barra",
+        "Barra pegada al cuerpo",
+        "Extendé cadera y rodillas, no la espalda"
+      ],
+      "vo": "Claves: agarre ancho de arrancada, hombros por delante de la barra, la barra pegada al cuerpo y extendé cadera y rodillas en vez de tirar con la espalda.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "KNEE",
+              0.6
+            ],
+            [
+              "THIGH",
+              0.5
+            ],
+            [
+              "STAND_BAR",
+              0.7
+            ],
+            [
+              "THIGH",
+              0.5
+            ],
+            [
+              "SETUP",
+              0.7
+            ]
+          ],
+          "at": 0.7,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "5 REPS"
+      ],
+      "sub": "Con 20 kg",
+      "vo": "Cinco repeticiones con veinte kilos. Si nunca hiciste agarre ancho, empeza con la barra sola hasta sentir la posición.",
+      "chips": [
+        {
+          "label": "1 · SEPARÁ",
+          "at": 0.5
+        },
+        {
+          "label": "2 · RODILLAS",
+          "at": 1.3
+        },
+        {
+          "label": "3 · PARATE",
+          "at": 2.0
+        }
+      ],
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "KNEE",
+              0.6
+            ],
+            [
+              "THIGH",
+              0.5
+            ],
+            [
+              "STAND_BAR",
+              0.6
+            ],
+            [
+              "THIGH",
+              0.5
+            ],
+            [
+              "KNEE",
+              0.5
+            ],
+            [
+              "SETUP",
+              0.6
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "KNEE",
+    "grip": 1,
+    "zoom": 1.18,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Snatch Grip Deadlift 🏋️ Peso muerto con agarre ancho paso a paso | CrossFit",
+    "tags": [
+      "snatch grip deadlift",
+      "peso muerto agarre ancho",
+      "peso muerto",
+      "deadlift",
+      "agarre de arrancada",
+      "snatch grip",
+      "cadena posterior",
+      "espalda alta",
+      "isquiotibiales",
+      "glúteos",
+      "fuerza",
+      "crossfit"
+    ],
+    "descripcion": "🔥 SNATCH GRIP DEADLIFT — Peso muerto con agarre ancho de arrancada: más recorrido, más espalda alta\n\n¿Querés más fuerza de base para tu arrancada? El snatch grip deadlift te obliga a un recorrido más largo, con el pecho más alto y toda la espalda alta trabajando. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Barra en el piso, agarre bien ancho de arrancada, pies al ancho de la cadera y tibias casi tocando la barra.\n2️⃣ Con el agarre ancho el pecho queda más alto: hombros por delante de la barra y espalda firme.\n3️⃣ Empujá el piso y separá la barra, llevándola pegada a las piernas hasta las rodillas.\n4️⃣ Extendé cadera y rodillas hasta pararte del todo, con los brazos extendidos y la barra en la cadera.\n5️⃣ Si redondeás la espalda al despegar, bajá el peso antes que la técnica.\n\n✅ CLAVES DE TÉCNICA\n• Agarre ancho de arrancada\n• Hombros por delante de la barra\n• Barra pegada al cuerpo\n• Extendé cadera y rodillas, no la espalda\n\n🎯 QUÉ TRABAJA\nBíceps femoral · Glúteo mayor · Dorsal ancho · Erectores espinales · Trapecio superior · Semitendinoso\n\n⏱️ CUÁNTO\n5 repeticiones con 20 kg (por series). Va en bloques de fuerza y como base para el arranque.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nEl agarre ancho es más exigente para los hombros: si sentís molestia, achicá un poco el agarre o empeza con la barra vacía.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Fuerza #SnatchGripDeadlift #CadenaPosterior #Entrenamiento"
+  },
+  "pronuncia": {
+    "Snatch Grip Deadlift": "snach grip dédlift",
+    "Snatch Grip": "snach grip",
+    "Deadlift": "dédlift"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "r": 96
+    }
+  ]
+}

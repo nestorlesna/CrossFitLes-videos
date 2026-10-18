@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "escuát pres áut: sentadilla con el disco presionado hacia adelante. El contrapeso te ayuda a mantener el torso erguido."
+    },
+    {
+      "id": "02",
+      "text": "De pie con el disco a la altura del pecho, agarrado con las dos manos y los codos cerca del cuerpo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá en sentadilla llevando la cadera atrás, con los talones bien apoyados en el piso."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Mientras bajás, presioná el disco hacia adelante extendiendo los brazos: el peso hace de contrapeso y te ayuda a no caer con el torso."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Volvé a subir llevando el disco al pecho otra vez, empujando el piso con los pies."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Si no presionás el disco y el torso se cae al frente, perdés el equilibrio y la sentadilla se arruina. Presioná hacia adelante."
+    },
+    {
+      "id": "07",
+      "text": "Claves: cadera atrás con los talones al piso, presioná el disco al bajar, el disco es un contrapeso y el torso queda erguido todo el movimiento."
+    },
+    {
+      "id": "08",
+      "text": "Diez repeticiones con un disco de cinco kilos. Liviano y controlado: la idea es mejorar la mecánica de la sentadilla, no cargar peso."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

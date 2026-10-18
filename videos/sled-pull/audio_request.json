@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "esled pul: arrastre de trineo con cuerda. Tirás caminando hacia atrás, con pasos cortos y la cadena posterior encendida."
+    },
+    {
+      "id": "02",
+      "text": "Agarrá la cuerda con las dos manos, con los brazos extendidos, la cadera atrás, la espalda neutra y el peso repartido en todo el pie."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Inclinate apenas hacia atrás y caminá hacia atrás con pasos cortos, manteniendo la cuerda tensa todo el tiempo."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Tirá con las piernas y la cadera, no con los brazos: la fuerza sale del piso y la cuerda queda larga y tensa."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si redondeás la espalda y tirás con los brazos flexionados, la carga se va a la lumbar. Espalda neutra y brazos largos."
+    },
+    {
+      "id": "06",
+      "text": "Claves: caminá hacia atrás con pasos cortos, la cuerda siempre tensa, tirá con piernas y cadera y mantené la espalda neutra todo el recorrido."
+    },
+    {
+      "id": "07",
+      "text": "Cuarenta metros con veinte kilos en el trineo. Pasos cortos y potentes, sin apurar el ritmo."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

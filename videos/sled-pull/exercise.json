@@ -1,0 +1,450 @@
+{
+  "slug": "sled-pull",
+  "name": "Sled Pull",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Cadena posterior",
+    "Fuerza",
+    "Espalda"
+  ],
+  "descripcion": "Arrastre de trineo cargado tirando con una cuerda, caminando hacia atrás con pasos cortos, brazos extendidos y espalda neutra, manteniendo la cuerda tensa.",
+  "revisado": false,
+  "notas": "Reusa el prop sled de sled-push-pull (bx 470 = trineo adelante a la derecha, rp 1 = soga del gancho a la mano cercana). No copiar el PULL_HIGH de sled-push-pull: su hip -440 con hx 150/hy -430 deja la mano a 89 px del objetivo (CLAMP) y la mano queda pegada a la de la posición de lean. Acá el momento alto es TALL con hip -440 resuelto por IK (ankle [0,0], pies al piso) y la mano más alta y más cerca (hx 120, hy -570) para que la soga salga tensa hacia el gancho. Error: espalda redonda tirando con los brazos (cv 34, ed -1).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 360,
+    "y": 1510,
+    "scale": 0.65
+  },
+  "initialPose": "LEAN",
+  "poses": {
+    "LEAN": {
+      "hip": [
+        -110,
+        -273.3
+      ],
+      "s": 30,
+      "t": -72,
+      "s2": 54.44,
+      "t2": 54.44,
+      "b": -10,
+      "hd": -6,
+      "ft": 0,
+      "ft2": 40,
+      "g": 1,
+      "hx": 150,
+      "hy": -430,
+      "ed": 1,
+      "bx": 470,
+      "rp": 1
+    },
+    "STEP_B": {
+      "hip": [
+        -110,
+        -273.3
+      ],
+      "s": 54.44,
+      "t": 54.44,
+      "s2": 30,
+      "t2": -72,
+      "b": -10,
+      "hd": -6,
+      "ft": 40,
+      "ft2": 0,
+      "g": 1,
+      "hx": 150,
+      "hy": -430,
+      "ed": 1,
+      "bx": 470,
+      "rp": 1
+    },
+    "TALL": {
+      "hip": [
+        -110,
+        -440
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": -6,
+      "hd": -4,
+      "ft": 0,
+      "ft2": 40,
+      "g": 1,
+      "hx": 120,
+      "hy": -570,
+      "ed": 1,
+      "bx": 470,
+      "rp": 1
+    },
+    "ARMS_BAD": {
+      "hip": [
+        -150,
+        -400
+      ],
+      "s": 44,
+      "t": -44,
+      "s2": 48,
+      "t2": 48,
+      "b": 40,
+      "hd": 90,
+      "cv": 34,
+      "ft": 0,
+      "ft2": 40,
+      "g": 1,
+      "hx": 80,
+      "hy": -320,
+      "ed": -1,
+      "bx": 470,
+      "rp": 1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "SLED",
+        "PULL"
+      ],
+      "vo": "Sled Pull: arrastre de trineo con cuerda. Tirás caminando hacia atrás, con pasos cortos y la cadena posterior encendida.",
+      "moves": [
+        {
+          "to": "LEAN",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "STEP_B",
+              0.5
+            ],
+            [
+              "LEAN",
+              0.5
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "CUERDA TENSA",
+        "Y CADERA ATRÁS"
+      ],
+      "sub": "Brazos extendidos",
+      "vo": "Agarrá la cuerda con las dos manos, con los brazos extendidos, la cadera atrás, la espalda neutra y el peso repartido en todo el pie.",
+      "moves": [
+        {
+          "cut": "LEAN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            402,
+            1408
+          ],
+          "text": "BRAZOS EXTENDIDOS",
+          "anchor": "end",
+          "at": 1.5
+        },
+        {
+          "type": "label",
+          "pos": [
+            820,
+            1300
+          ],
+          "text": "TRINEO CARGADO",
+          "anchor": "middle",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "CAMINÁ",
+        "HACIA ATRÁS"
+      ],
+      "sub": "Pasos cortos y potentes",
+      "vo": "Paso uno. Inclinate apenas hacia atrás y caminá hacia atrás con pasos cortos, manteniendo la cuerda tensa todo el tiempo.",
+      "moves": [
+        {
+          "cut": "LEAN",
+          "at": 0
+        },
+        {
+          "loop": [
+            "STEP_B",
+            "LEAN"
+          ],
+          "at": 0.5,
+          "step": 0.5,
+          "count": 6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            300,
+            1420
+          ],
+          "to": [
+            120,
+            1420
+          ],
+          "at": 0.6,
+          "dur": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            356,
+            1348
+          ],
+          "text": "HACIA ATRÁS",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "TIRÁ CON LAS",
+        "PIERNAS"
+      ],
+      "sub": "No con los brazos",
+      "vo": "Paso dos. Tirá con las piernas y la cadera, no con los brazos: la fuerza sale del piso y la cuerda queda larga y tensa.",
+      "moves": [
+        {
+          "cut": "STEP_B",
+          "at": 0
+        },
+        {
+          "to": "TALL",
+          "at": 0.6,
+          "dur": 0.8
+        },
+        {
+          "to": "LEAN",
+          "at": 2.0,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            367,
+            1120
+          ],
+          "text": "CADERA Y PIERNAS",
+          "anchor": "end",
+          "at": 1.2
+        },
+        {
+          "type": "ring",
+          "pos": {
+            "j": "TALL.H",
+            "dx": -30
+          },
+          "r": 70,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Espalda redonda y brazos de más",
+      "vo": "Paso tres. Si redondeás la espalda y tirás con los brazos flexionados, la carga se va a la lumbar. Espalda neutra y brazos largos.",
+      "moves": [
+        {
+          "cut": "LEAN",
+          "at": 0
+        },
+        {
+          "to": "ARMS_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        },
+        {
+          "to": "LEAN",
+          "at": 3.0,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "ARMS_BAD.S",
+            "dx": -40,
+            "dy": 40
+          },
+          "r": 86,
+          "at": 1.2,
+          "out": 3.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            423,
+            1240
+          ],
+          "text": "ESPALDA REDONDA NO",
+          "anchor": "end",
+          "at": 1.3,
+          "out": 3.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            423,
+            1240
+          ],
+          "text": "ESPALDA NEUTRA",
+          "anchor": "end",
+          "at": 3.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Caminá hacia atrás con pasos cortos",
+        "Cuerda siempre tensa",
+        "Tirá con piernas y cadera",
+        "Espalda neutra todo el recorrido"
+      ],
+      "vo": "Claves: caminá hacia atrás con pasos cortos, la cuerda siempre tensa, tirá con piernas y cadera y mantené la espalda neutra todo el recorrido.",
+      "moves": [
+        {
+          "cut": "LEAN",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "STEP_B",
+              0.5
+            ],
+            [
+              "LEAN",
+              0.5
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "40 M"
+      ],
+      "sub": "Con 20 kg en el trineo",
+      "vo": "Cuarenta metros con veinte kilos en el trineo. Pasos cortos y potentes, sin apurar el ritmo.",
+      "chips": [
+        {
+          "label": "1 · BRAZOS LARGOS",
+          "at": 0.4
+        },
+        {
+          "label": "2 · PASOS CORTOS",
+          "at": 1.2
+        },
+        {
+          "label": "3 · ESPALDA NEUTRA",
+          "at": 2.0
+        }
+      ],
+      "moves": [
+        {
+          "cut": "LEAN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "STEP_B",
+              0.5
+            ],
+            [
+              "LEAN",
+              0.5
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "LEAN",
+    "grip": 1,
+    "zoom": 1.0,
+    "dy": 180
+  },
+  "youtube": {
+    "titulo": "Sled Pull 🔥 Arrastre de trineo con cuerda paso a paso | CrossFit WOD",
+    "tags": [
+      "sled pull",
+      "arrastre de trineo",
+      "sled push pull",
+      "trineo",
+      "cuerda",
+      "cadena posterior",
+      "isquiotibiales",
+      "glúteos",
+      "espalda",
+      "tirón",
+      "fuerza",
+      "crossfit"
+    ],
+    "descripcion": "🔥 SLED PULL — Arrastre de trineo con cuerda: tirás caminando hacia atrás\n\n¿El sled pull te deja la espalda baja cargada? Casi siempre es porque tirás con los brazos y redondeás la espalda. La fuerza sale de las piernas y la cadera. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Agarrá la cuerda con las dos manos, brazos extendidos, cadera atrás y espalda neutra.\n2️⃣ Inclinate apenas hacia atrás y caminá hacia atrás con pasos cortos.\n3️⃣ Mantené la cuerda tensa todo el tiempo: si se afloja, perdés el tirón.\n4️⃣ Tirá con las piernas y la cadera, no con los brazos.\n5️⃣ Nada de redondear la espalda para aguantar el peso: si te pasa, bajá la carga.\n\n✅ CLAVES DE TÉCNICA\n• Caminá hacia atrás con pasos cortos\n• Cuerda siempre tensa\n• Tirá con piernas y cadera\n• Espalda neutra todo el recorrido\n\n🎯 QUÉ TRABAJA\nBíceps femoral · Glúteo mayor · Erectores espinales · Trapecio superior · Flexores del antebrazo\n\n⏱️ CUÁNTO\n40 metros con 20 kg en el trineo. Va como bloque de fuerza y en WODs.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés dolor lumbar, reducí el peso del trineo y acortá la distancia: la técnica primero.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #SledPull #CadenaPosterior #Entrenamiento"
+  },
+  "pronuncia": {
+    "Sled Pull": "esled pul",
+    "Sled": "esled",
+    "Pull": "pul"
+  },
+  "props": [
+    {
+      "type": "sled",
+      "len": 300,
+      "post": 560
+    }
+  ]
+}
