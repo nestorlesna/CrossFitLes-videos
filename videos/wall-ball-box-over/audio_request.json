@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Uol bol baks óuver: con el balón al pecho, saltás el cajón de un lado al otro sin soltarlo. Potencia y cardio."
+    },
+    {
+      "id": "02",
+      "text": "Parate al lado del cajón con los pies juntos y la pelota firme contra el pecho, con los codos abajo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Hacé una flexión corta de rodillas y saltá con los dos pies a la vez, con el balón pegado al pecho."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Pasá por encima del cajón con los dos pies y la pelota siempre contra el pecho."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Caé con los dos pies y las rodillas semiflexionadas para absorber el golpe, sin soltar la pelota."
+    },
+    {
+      "id": "06",
+      "text": "Claves: el balón firme contra el pecho, salto con los dos pies, aterrizaje con rodillas suaves y sin soltar la pelota."
+    },
+    {
+      "id": "07",
+      "text": "Catorce repeticiones con un balón de nueve kilos: un salto al lado, otro de vuelta, y así hasta completarlas."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

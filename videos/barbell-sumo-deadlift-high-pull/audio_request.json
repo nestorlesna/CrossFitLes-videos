@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Sumo dedlift jái pul: barra al piso, pies anchos y tirón explosivo hasta la barbilla. Potencia pura."
+    },
+    {
+      "id": "02",
+      "text": "Pies bien anchos, apuntando afuera, y la barra agarrada angosta entre las piernas, pegada a las tibias."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Empujá el piso y extendé piernas y cadera de golpe. La barra sube pegada al cuerpo."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Recién cuando extendiste, tirá con los codos altos y hacia afuera hasta llevar la barra a la barbilla."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si tirás con los brazos antes de extender la cadera, los brazos hacen todo el trabajo. Evitalo."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Bajá controlando: primero los brazos hasta la cadera y después la cadera hasta el piso."
+    },
+    {
+      "id": "07",
+      "text": "Claves: pies anchos y agarre angosto, espalda neutra al despegar, extendé piernas y cadera antes de tirar, y los codos altos y afuera hasta la barbilla."
+    },
+    {
+      "id": "08",
+      "text": "Diez repeticiones al treinta kilos. Explosivo arriba y controlado abajo, cuidando la espalda neutra."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

@@ -1,0 +1,451 @@
+{
+  "slug": "partner-wall-ball-over-bar",
+  "name": "Partner Wall Ball Over Bar",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Pareja",
+    "Piernas",
+    "Potencia"
+  ],
+  "descripcion": "En parejas frente a frente con una barra en el medio, un atleta lanza el balón medicinal hacia arriba y el compañero lo atrapa al otro lado de la barra. Se alternan los lanzamientos.",
+  "revisado": false,
+  "notas": "Pareja espejada (partner x 265) con pase del balón (wallball mirror 265) y barra floorbar centrada en el mismo eje para que la copia espejada de la barra coincida exactamente.",
+  "music": true,
+  "musicVolume": 0.18,
+  "shadow": false,
+  "rig": {
+    "x": 480,
+    "y": 1500,
+    "scale": 0.78
+  },
+  "props": [
+    {
+      "type": "floorbar",
+      "x0": 165,
+      "x1": 365,
+      "r": 88,
+      "pz": 1
+    },
+    {
+      "type": "partner",
+      "x": 265
+    },
+    {
+      "type": "wallball",
+      "wall": false,
+      "mirror": 265,
+      "r": 54,
+      "off": [
+        34,
+        30
+      ],
+      "arc": 210
+    }
+  ],
+  "pronuncia": {
+    "Partner Wall Ball Over Bar": "Pártner uál bol óver bar",
+    "wall ball": "uál bol",
+    "over bar": "óver bar"
+  },
+  "initialPose": "HOLD",
+  "poses": {
+    "HOLD": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 62,
+      "fa": 150,
+      "ua2": 64,
+      "fa2": 148,
+      "bf": 0,
+      "pz": 1
+    },
+    "SQUAT": {
+      "s": 40,
+      "t": -112,
+      "b": 20,
+      "hd": 8,
+      "ua": 62,
+      "fa": 150,
+      "ua2": 64,
+      "fa2": 148,
+      "bf": 0,
+      "pz": 1
+    },
+    "UP": {
+      "s": 2,
+      "t": -2,
+      "b": -4,
+      "hd": -2,
+      "ua": 120,
+      "fa": 20,
+      "ua2": 122,
+      "fa2": 18,
+      "bf": 0.5,
+      "pz": 1
+    },
+    "HOLD1": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 62,
+      "fa": 150,
+      "ua2": 64,
+      "fa2": 148,
+      "bf": 1,
+      "pz": 1
+    },
+    "SQUAT1": {
+      "s": 40,
+      "t": -112,
+      "b": 20,
+      "hd": 8,
+      "ua": 62,
+      "fa": 150,
+      "ua2": 64,
+      "fa2": 148,
+      "bf": 1,
+      "pz": 1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "PARTNER",
+        "WALL BALL"
+      ],
+      "sub": "Por encima de la barra",
+      "vo": "Partner Wall Ball Over Bar: en parejas, frente a frente, se pasan el balón medicinal por encima de una barra apoyada en el piso.",
+      "moves": [
+        {
+          "to": "HOLD",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "to": "SQUAT",
+          "at": 0.4,
+          "dur": 0.7
+        },
+        {
+          "to": "UP",
+          "at": 1.2,
+          "dur": 0.6
+        },
+        {
+          "to": "HOLD1",
+          "at": 1.9,
+          "dur": 0.8
+        },
+        {
+          "to": "SQUAT1",
+          "at": 2.8,
+          "dur": 0.8
+        },
+        {
+          "to": "UP",
+          "at": 3.7,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "FRENTE",
+        "A FRENTE"
+      ],
+      "sub": "La barra en el medio",
+      "vo": "Con un compañero, frente a frente y a un paso de distancia. La barra queda apoyada en el piso, justo en el medio de los dos.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0
+        },
+        {
+          "to": "SQUAT",
+          "at": 1.8,
+          "dur": 0.8
+        },
+        {
+          "to": "HOLD",
+          "at": 3.0,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            663,
+            1455
+          ],
+          "r": 92,
+          "at": 1.0,
+          "out": 3.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            434,
+            1458
+          ],
+          "text": "BARRA EN EL MEDIO",
+          "anchor": "end",
+          "at": 1.1,
+          "out": 3.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SENTATE",
+        "CON EL BALÓN"
+      ],
+      "sub": "Sentadilla completa",
+      "vo": "Paso uno. Bajá en sentadilla completa con el balón al pecho, igual que en un wall ball: el balón no se suelta.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0
+        },
+        {
+          "to": "SQUAT",
+          "at": 0.6,
+          "dur": 1.0
+        },
+        {
+          "to": "HOLD",
+          "at": 2.6,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "SQUAT.K",
+            "dx": -30
+          },
+          "r": 74,
+          "at": 1.0,
+          "out": 2.5
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "SQUAT.S",
+            "dx": -250,
+            "dy": -150
+          },
+          "text": "BALÓN AL PECHO",
+          "anchor": "middle",
+          "at": 1.1,
+          "out": 2.5
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "LANZÁ",
+        "ARRIBA"
+      ],
+      "sub": "Extensión de cadera",
+      "vo": "Paso dos. Subí extendiendo cadera y piernas y soltá el balón bien alto, por encima de la barra: no lo empujes solo con los brazos.",
+      "moves": [
+        {
+          "cut": "SQUAT",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.5,
+          "dur": 0.7,
+          "ease": "power2.out"
+        },
+        {
+          "to": "HOLD1",
+          "at": 1.6,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            560,
+            1150
+          ],
+          "to": [
+            663,
+            700
+          ],
+          "bend": [
+            70,
+            0
+          ],
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            430,
+            640
+          ],
+          "text": "LANZÁ ALTO",
+          "anchor": "end",
+          "at": 1.3
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "RECIBÍ",
+        "Y DEVOLVÉ"
+      ],
+      "sub": "Coordiná el ritmo",
+      "vo": "Paso tres. El compañero lo recibe al pecho, baja en sentadilla y te lo devuelve con la misma extensión. Coordinen el ritmo para no perder el balón.",
+      "moves": [
+        {
+          "cut": "HOLD1",
+          "at": 0
+        },
+        {
+          "to": "SQUAT1",
+          "at": 0.6,
+          "dur": 1.0
+        },
+        {
+          "to": "UP",
+          "at": 1.9,
+          "dur": 0.7,
+          "ease": "power2.out"
+        },
+        {
+          "to": "HOLD",
+          "at": 3.0,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            828,
+            700
+          ],
+          "text": "RECIBÍ AL PECHO",
+          "anchor": "middle",
+          "at": 0.9,
+          "out": 1.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Sentadilla completa antes de lanzar",
+        "Extensión de cadera, no solo brazos",
+        "Lanzá alto por encima de la barra",
+        "Recibí arriba, al pecho"
+      ],
+      "vo": "Claves: sentadilla completa antes de cada lanzamiento, lanzá con la extensión de cadera y no solo con los brazos, tirá el balón bien alto por encima de la barra y recibilo arriba, al pecho.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "50 REPS"
+      ],
+      "sub": "Balón de 6 kg, entre los dos",
+      "vo": "Cincuenta repeticiones entre los dos, con un balón de seis kilos. Si el balón empieza a caer corto, bajá el ritmo antes que la técnica.",
+      "chips": [
+        {
+          "label": "1 · SENTADILLA",
+          "at": 0.5
+        },
+        {
+          "label": "2 · LANZÁ",
+          "at": 1.4
+        },
+        {
+          "label": "3 · RECIBÍ",
+          "at": 2.4
+        }
+      ],
+      "moves": [
+        {
+          "to": "SQUAT",
+          "at": 0.3,
+          "dur": 0.9
+        },
+        {
+          "to": "UP",
+          "at": 1.4,
+          "dur": 0.7
+        },
+        {
+          "to": "HOLD1",
+          "at": 2.3,
+          "dur": 0.9
+        },
+        {
+          "to": "SQUAT1",
+          "at": 3.4,
+          "dur": 0.9
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "grip": 0,
+    "zoom": 1.12,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Partner Wall Ball Over Bar 🤝 Pases por encima de la barra | WOD en pareja",
+    "tags": [
+      "partner wall ball",
+      "wall ball over bar",
+      "wall ball",
+      "balón medicinal",
+      "wod en pareja",
+      "crossfit",
+      "potencia",
+      "sentadilla",
+      "compañero",
+      "entrenamiento en pareja"
+    ],
+    "descripcion": "🔥 PARTNER WALL BALL OVER BAR — Pases por encima de la barra\n\n¿Buscás un WOD para hacer con un compañero y que arda de verdad? Este es simple: una barra en el piso, un balón y dos que se lo pasan por arriba. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Con un compañero, frente a frente y a un paso de distancia. La barra queda apoyada en el piso, justo en el medio de los dos.\n2️⃣ Bajá en sentadilla completa con el balón al pecho, igual que en un wall ball: el balón no se suelta.\n3️⃣ Subí extendiendo cadera y piernas y soltá el balón bien alto, por encima de la barra.\n4️⃣ El compañero lo recibe al pecho, baja en sentadilla y te lo devuelve. Coordinen el ritmo.\n\n✅ CLAVES DE TÉCNICA\n• Sentadilla completa antes de cada lanzamiento\n• Lanzá con la extensión de cadera, no solo con los brazos\n• El balón pasa alto, por encima de la barra\n• Recibilo arriba, al pecho, para amortiguar\n• Si el balón cae corto, bajá el ritmo: primero la técnica\n\n🎯 QUÉ TRABAJA\nRecto femoral · Deltoides anterior · Recto abdominal · Glúteo mayor · Isquiotibiales\n\n⏱️ CUÁNTO\n50 repeticiones entre los dos, con un balón de 6 kg. Va como WOD en pareja o como bloque de potencia y acondicionamiento.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nEmpezá con un balón liviano y a un paso y medio de distancia hasta que los dos le tomen el ritmo al pase.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #WallBall #PartnerWOD #EntrenamientoEnPareja"
+  }
+}

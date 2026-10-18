@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Barbell front rak Rrivérs lanch: la barra en los hombros y un paso largo hacia atrás. Piernas fuertes y rodillas cuidadas."
+    },
+    {
+      "id": "02",
+      "text": "Con la barra apoyada adelante, sobre los hombros y los codos bien altos, los pies al ancho de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Con la barra en los hombros, llevá un pie bien atrás, un paso largo. El pie de adelante no se mueve."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá recto hasta que la rodilla de atrás casi toque el piso, con el torso erguido y la rodilla de adelante sobre el pie."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si te vas con el torso adelante o dejás caer los codos, la barra se te va del rack. Evitalo."
+    },
+    {
+      "id": "06",
+      "text": "Claves: codos altos y tronco erguido todo el tiempo, rodilla de adelante alineada con el pie, talón apoyado, y volvés empujando con el talón de adelante."
+    },
+    {
+      "id": "07",
+      "text": "Diez repeticiones alternando las piernas. Bajá recto, sin irte con el torso adelante, y empujá con el talón para volver."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

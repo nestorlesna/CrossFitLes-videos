@@ -1,0 +1,642 @@
+{
+  "slug": "barbell-squat-clean",
+  "name": "Barbell Squat Clean",
+  "category": "CROSSFIT · HABILIDAD",
+  "tags": [
+    "Cadera",
+    "Piernas",
+    "Técnica"
+  ],
+  "descripcion": "Llevar la barra desde el piso hasta los hombros recibiéndola en sentadilla completa: primer tirón controlado, extensión explosiva de cadera y piernas, meterse rápido debajo de la barra y pararse desde el fondo con la barra en rack frontal.",
+  "revisado": false,
+  "notas": "Barra con blend: manos (bf 0) → rack (bf 1). Recepción en sentadilla completa (CATCH) distinta del power clean.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 450,
+    "y": 1509,
+    "scale": 0.66
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "torso": [
+        64,
+        36
+      ],
+      "r": 74,
+      "blend": true
+    }
+  ],
+  "pronuncia": {
+    "Squat Clean": "Escuát clin",
+    "Barbell Squat Clean": "Bárbel escuát clin",
+    "squat": "escuát"
+  },
+  "initialPose": "SETUP",
+  "poses": {
+    "STAND_BAR": {
+      "g": 1,
+      "ed": 1,
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "hx": 30,
+      "hy": -424
+    },
+    "SETUP": {
+      "g": 1,
+      "ed": 1,
+      "hip": [
+        -150,
+        -285
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 72,
+      "hd": 56,
+      "hx": 30,
+      "hy": -40
+    },
+    "KNEE": {
+      "g": 1,
+      "ed": 1,
+      "s": 5,
+      "t": -55,
+      "b": 52,
+      "hd": 40,
+      "hx": 30,
+      "hy": -215
+    },
+    "HIP": {
+      "s": 18,
+      "t": -38,
+      "b": 18,
+      "hd": 10,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": 2,
+      "fa2": 0
+    },
+    "EXT": {
+      "s": -4,
+      "t": 4,
+      "b": -8,
+      "hd": -6,
+      "ft": -22,
+      "ft2": -22,
+      "g": 0,
+      "ua": 6,
+      "fa": 0,
+      "ua2": 6,
+      "fa2": 0
+    },
+    "PULL_C": {
+      "s": -2,
+      "t": 2,
+      "b": -4,
+      "hd": -4,
+      "ft": -16,
+      "ft2": -16,
+      "g": 0,
+      "ua": 70,
+      "fa": -110,
+      "ua2": 70,
+      "fa2": -110
+    },
+    "SETUP_BAD": {
+      "g": 1,
+      "ed": 1,
+      "hip": [
+        -150,
+        -285
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 78,
+      "hd": 74,
+      "cv": 40,
+      "hx": 30,
+      "hy": -40
+    },
+    "ARMS_BAD": {
+      "s": 16,
+      "t": -34,
+      "b": 20,
+      "hd": 10,
+      "g": 0,
+      "ua": 60,
+      "fa": -100,
+      "ua2": 60,
+      "fa2": -100
+    },
+    "RACK_Q": {
+      "hip": [
+        -95,
+        -372
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "hd": 8,
+      "g": 0,
+      "ua": 74,
+      "fa": 176,
+      "ua2": 78,
+      "fa2": 172,
+      "bf": 1,
+      "b": 16
+    },
+    "RACK": {
+      "s": 0,
+      "t": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 176,
+      "ua2": 94,
+      "fa2": 172,
+      "bf": 1,
+      "b": 0
+    },
+    "ELBOWS_LOW": {
+      "hip": [
+        -95,
+        -372
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "hd": 8,
+      "b": 16,
+      "g": 0,
+      "ua": 24,
+      "fa": 150,
+      "ua2": 28,
+      "fa2": 146,
+      "bf": 0.75
+    },
+    "CATCH": {
+      "s": 40,
+      "t": -112,
+      "b": 20,
+      "hd": 8,
+      "g": 0,
+      "ua": 68,
+      "fa": 176,
+      "ua2": 72,
+      "fa2": 172,
+      "bf": 1
+    },
+    "CATCH_BAD": {
+      "s": 40,
+      "t": -112,
+      "b": 42,
+      "hd": 30,
+      "g": 0,
+      "ua": 18,
+      "fa": 150,
+      "ua2": 22,
+      "fa2": 146,
+      "bf": 1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · HABILIDAD",
+      "head": [
+        "SQUAT",
+        "CLEAN"
+      ],
+      "vo": "Barbell Squat Clean: la barra del piso a los hombros, pero te metés abajo y la recibís en sentadilla completa.",
+      "moves": [
+        {
+          "to": "SETUP",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "to": "KNEE",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "HIP",
+          "at": 1.1,
+          "dur": 0.3
+        },
+        {
+          "to": "EXT",
+          "at": 1.4,
+          "dur": 0.18,
+          "ease": "power2.out"
+        },
+        {
+          "to": "PULL_C",
+          "at": 1.58,
+          "dur": 0.16
+        },
+        {
+          "to": "CATCH",
+          "at": 1.74,
+          "dur": 0.26,
+          "ease": "power2.out"
+        },
+        {
+          "to": "RACK",
+          "at": 2.5,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "SALIDA",
+        "FIRME"
+      ],
+      "sub": "Hombros sobre la barra",
+      "vo": "Pies al ancho de la cadera, agarre un poco más ancho que los hombros. Espalda neutra y hombros por encima de la barra.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "SETUP_BAD",
+          "at": 2.6,
+          "dur": 0.6
+        },
+        {
+          "to": "SETUP",
+          "at": 3.8,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "SETUP.S",
+            "dy": -180
+          },
+          "text": "ESPALDA NEUTRA",
+          "anchor": "middle",
+          "at": 1.2,
+          "out": 2.6
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "SETUP.S",
+            "dy": -180
+          },
+          "text": "ESPALDA CURVA NO",
+          "anchor": "middle",
+          "at": 2.9,
+          "out": 3.7
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "PRIMER",
+        "TIRÓN"
+      ],
+      "sub": "Controlado hasta las rodillas",
+      "vo": "Paso uno. Primer tirón controlado: despegá la barra del piso hasta las rodillas, pegada al cuerpo.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "KNEE",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            489.6,
+            1469.4
+          ],
+          "to": [
+            489.6,
+            1291.2
+          ],
+          "at": 0.6,
+          "dur": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            562.2,
+            1231.8
+          ],
+          "text": "PEGADA AL CUERPO",
+          "anchor": "start",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "EXTENDÉ",
+        "COMPLETO"
+      ],
+      "sub": "Antes de bajar",
+      "vo": "Paso dos. Extendé cadera y piernas hasta ponerte completo. Recién ahí te metés debajo de la barra.",
+      "moves": [
+        {
+          "cut": "KNEE",
+          "at": 0
+        },
+        {
+          "to": "HIP",
+          "at": 0.5,
+          "dur": 0.4
+        },
+        {
+          "to": "EXT",
+          "at": 0.9,
+          "dur": 0.3,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            337.8,
+            1377.0
+          ],
+          "to": [
+            337.8,
+            915.0
+          ],
+          "at": 0.9,
+          "dur": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            318.0,
+            875.4
+          ],
+          "text": "EXTENSIÓN COMPLETA",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "METETE",
+        "ABAJO"
+      ],
+      "sub": "Sentadilla completa",
+      "vo": "Paso tres. Pasá los codos rápido al frente y metete debajo de la barra, recibiendo en sentadilla completa.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "PULL_C",
+          "at": 0.5,
+          "dur": 0.25
+        },
+        {
+          "to": "CATCH",
+          "at": 0.75,
+          "dur": 0.35,
+          "ease": "power2.out"
+        },
+        {
+          "to": "CATCH_BAD",
+          "at": 2.8,
+          "dur": 0.5
+        },
+        {
+          "to": "CATCH",
+          "at": 4.0,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "CATCH.S",
+            "dx": 42,
+            "dy": 24
+          },
+          "r": 86,
+          "at": 1.2,
+          "out": 2.8
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "CATCH.S",
+            "dy": -250
+          },
+          "text": "PECHO ARRIBA EN EL FONDO",
+          "anchor": "middle",
+          "at": 1.3,
+          "out": 2.8
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "CATCH_BAD.S",
+            "dy": -250
+          },
+          "text": "CODOS ABAJO NO",
+          "anchor": "middle",
+          "at": 3.1,
+          "out": 4.0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "PARATE",
+        "DEL FONDO"
+      ],
+      "sub": "Como un front squat",
+      "vo": "Paso cuatro. Parate desde el fondo como en un front squat, sin dejar caer los codos ni perder el pecho arriba.",
+      "moves": [
+        {
+          "cut": "CATCH",
+          "at": 0
+        },
+        {
+          "to": "RACK_Q",
+          "at": 0.6,
+          "dur": 0.7
+        },
+        {
+          "to": "RACK",
+          "at": 1.6,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "RACK.S",
+            "dy": -230
+          },
+          "text": "PARATE COMPLETO",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.4,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Extendé completo antes de bajar",
+        "Métete rápido bajo la barra",
+        "Codos altos en el fondo",
+        "Pecho arriba al pararte"
+      ],
+      "vo": "Claves: extendé completo antes de bajar, metete rápido bajo la barra, codos altos en el fondo y pecho arriba al pararte.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "2 REPS"
+      ],
+      "sub": "Al 50 kg, técnica primero",
+      "vo": "Dos repeticiones al cincuenta por ciento, con foco en la técnica. Bajá el peso si los codos se caen.",
+      "chips": [
+        {
+          "label": "1 · TIRÓN",
+          "at": 0.5
+        },
+        {
+          "label": "2 · ABAJO",
+          "at": 1.4
+        },
+        {
+          "label": "3 · PARATE",
+          "at": 2.0
+        }
+      ],
+      "moves": [
+        {
+          "to": "SETUP",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "to": "KNEE",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "HIP",
+          "at": 1.1,
+          "dur": 0.3
+        },
+        {
+          "to": "EXT",
+          "at": 1.4,
+          "dur": 0.18,
+          "ease": "power2.out"
+        },
+        {
+          "to": "PULL_C",
+          "at": 1.58,
+          "dur": 0.16
+        },
+        {
+          "to": "CATCH",
+          "at": 1.74,
+          "dur": 0.26,
+          "ease": "power2.out"
+        },
+        {
+          "to": "RACK",
+          "at": 2.7,
+          "dur": 0.8
+        },
+        {
+          "to": "STAND_BAR",
+          "at": 3.8,
+          "dur": 0.7
+        },
+        {
+          "to": "SETUP",
+          "at": 4.6,
+          "dur": 0.8
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "CATCH",
+    "grip": 0,
+    "zoom": 1.05,
+    "dy": 300
+  },
+  "youtube": {
+    "titulo": "Squat Clean 🏋️ Del piso a los hombros en sentadilla completa | CrossFit",
+    "tags": [
+      "squat clean",
+      "barbell squat clean",
+      "cargada al frente",
+      "cargada",
+      "clean",
+      "levantamiento olímpico",
+      "halterofilia",
+      "front squat",
+      "crossfit",
+      "barra olímpica"
+    ],
+    "descripcion": "🔥 BARBELL SQUAT CLEAN — La barra del piso a los hombros, recibida abajo\n\n¿Te quedás parado y la barra no te da el tiempo? El squat clean no se tira más alto: te metés más rápido debajo. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Pies al ancho de la cadera, agarre un poco más ancho que los hombros, espalda neutra y hombros por encima de la barra.\n2️⃣ Primer tirón controlado: despegá la barra del piso hasta las rodillas, pegada al cuerpo.\n3️⃣ Extendé cadera y piernas hasta ponerte completo. Recién ahí te metés debajo de la barra.\n4️⃣ Pasá los codos rápido al frente y metete debajo, recibiendo en sentadilla completa.\n5️⃣ Parate desde el fondo como en un front squat, sin dejar caer los codos.\n\n✅ CLAVES DE TÉCNICA\n• Barra pegada al cuerpo en todo el tirón\n• Extendé completo antes de bajar\n• Metete rápido debajo de la barra\n• Codos altos y pecho arriba en el fondo\n• Talones apoyados\n\n🎯 QUÉ TRABAJA\nRecto femoral · Bíceps femoral · Deltoides anterior · Erectores espinales · Glúteo mayor · Recto abdominal · Trapecio superior\n\n⏱️ CUÁNTO\n2 repeticiones al 50 kg, con foco en la técnica. Bajá el peso si los codos se caen.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi recién arrancás con el levantamiento olímpico, aprendé la técnica con un caño de PVC o la barra sola y con un coach al lado antes de cargar peso.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Halterofilia #SquatClean #Potencia #Entrenamiento"
+  }
+}

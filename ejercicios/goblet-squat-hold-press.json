@@ -1,0 +1,468 @@
+{
+  "slug": "goblet-squat-hold-press",
+  "name": "Goblet Squat Hold Press",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Piernas",
+    "Hombros",
+    "Core"
+  ],
+  "descripcion": "Sosteniendo una kettlebell o mancuerna al pecho, bajar a la posición de squat goblet y en el fondo extender los brazos al frente (press-out). Mejora la movilidad de cadera y tobillo.",
+  "revisado": false,
+  "notas": "Sentadilla goblet (kettlebell pegada al pecho) con press-out al frente en el fondo; brazos libres relativos al tronco (ua = -b + 12).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "pronuncia": {
+    "Goblet Squat Hold Press": "Góblet escuat jold pres",
+    "goblet": "góblet",
+    "press": "pres"
+  },
+  "initialPose": "STAND",
+  "props": [
+    {
+      "type": "kettlebell",
+      "off": [
+        6,
+        -22
+      ]
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 12,
+      "fa": 142,
+      "ua2": 8,
+      "fa2": 146
+    },
+    "HALF": {
+      "hip": [
+        -80,
+        -380
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 22,
+      "hd": 12,
+      "g": 0,
+      "ua": -10,
+      "fa": 142,
+      "ua2": -14,
+      "fa2": 146
+    },
+    "BOTTOM": {
+      "hip": [
+        -150,
+        -205
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 40,
+      "hd": 24,
+      "g": 0,
+      "ua": -28,
+      "fa": 142,
+      "ua2": -32,
+      "fa2": 146
+    },
+    "PRESS": {
+      "hip": [
+        -150,
+        -205
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 40,
+      "hd": 24,
+      "g": 0,
+      "ua": 88,
+      "fa": 0,
+      "ua2": 84,
+      "fa2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "GOBLET SQUAT",
+        "HOLD PRESS"
+      ],
+      "vo": "Goblet Squat Hold Press: sentadilla goblet con press al frente en el fondo. Movilidad de cadera y tobillo.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "HALF",
+              0.6
+            ],
+            [
+              "BOTTOM",
+              0.6
+            ],
+            [
+              "PRESS",
+              0.5
+            ],
+            [
+              "BOTTOM",
+              0.5
+            ],
+            [
+              "STAND",
+              0.7
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 4.8,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "GOBLET",
+        "AL PECHO"
+      ],
+      "sub": "Pesa pegada, codos adentro",
+      "vo": "Parate con los pies al ancho de los hombros y sostené la kettlebell pegada al pecho, con los codos adentro.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            600.0,
+            930.0
+          ],
+          "r": 70,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            705.0,
+            840.0
+          ],
+          "text": "PEGADA AL PECHO",
+          "anchor": "start",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "BAJÁ",
+        "A LA SENTADILLA"
+      ],
+      "sub": "Pesa pegada al pecho",
+      "vo": "Paso uno. Bajá a la sentadilla completa con la pesa pegada al pecho, el pecho arriba y los talones apoyados.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.5,
+          "dur": 0.8
+        },
+        {
+          "to": "BOTTOM",
+          "at": 1.4,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            705.0,
+            1080.0
+          ],
+          "text": "RODILLAS AFUERA",
+          "anchor": "start",
+          "at": 2.0
+        },
+        {
+          "type": "bar",
+          "pos": [
+            360.0,
+            1528.0
+          ],
+          "w": 130,
+          "h": 12,
+          "at": 2.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            330.0,
+            1460.0
+          ],
+          "text": "TALONES ABAJO",
+          "anchor": "end",
+          "at": 2.3
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "EMPUJÁ",
+        "AL FRENTE"
+      ],
+      "sub": "Press-out en el fondo",
+      "vo": "Paso dos. En el fondo, extendé los brazos al frente y empujá la pesa lejos del pecho, sin perder la postura.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "PRESS",
+          "at": 0.7,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            470.0,
+            1220.0
+          ],
+          "to": [
+            690.0,
+            1270.0
+          ],
+          "at": 1.6,
+          "dur": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            705.0,
+            1170.0
+          ],
+          "text": "BRAZOS ESTIRADOS",
+          "anchor": "start",
+          "at": 1.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "VOLVÉ",
+        "AL PECHO"
+      ],
+      "sub": "Codos adentro",
+      "vo": "Paso tres. Traé la pesa de vuelta al pecho, con los codos adentro y el torso firme.",
+      "moves": [
+        {
+          "cut": "PRESS",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.7,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            705.0,
+            1170.0
+          ],
+          "text": "CODOS ADENTRO",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "SUBÍ",
+        "DE NUEVO"
+      ],
+      "sub": "Extendé la cadera",
+      "vo": "Paso cuatro. Subí empujando el piso hasta pararte completo y arrancá la próxima repetición.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.6,
+          "dur": 0.6
+        },
+        {
+          "to": "STAND",
+          "at": 1.3,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            360.0,
+            1310.0
+          ],
+          "to": [
+            360.0,
+            1000.0
+          ],
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            705.0,
+            1080.0
+          ],
+          "text": "SUBÍ COMPLETO",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Pesa pegada al pecho",
+        "Codos adentro",
+        "Pecho arriba, talones apoyados",
+        "Rodillas hacia afuera"
+      ],
+      "vo": "Claves: pesa pegada al pecho, codos adentro, pecho arriba, rodillas afuera y talones apoyados todo el tiempo.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "5 kg · ritmo controlado",
+      "vo": "Treinta segundos con una pesa de cinco kilos. Bajá, empujá al frente en el fondo y subí sin cortar el movimiento.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.5
+        },
+        {
+          "label": "2 · PRESS AL FRENTE",
+          "at": 1.2
+        },
+        {
+          "label": "3 · SUBÍ",
+          "at": 1.9
+        }
+      ],
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "HALF",
+              0.5
+            ],
+            [
+              "BOTTOM",
+              0.5
+            ],
+            [
+              "PRESS",
+              0.45
+            ],
+            [
+              "BOTTOM",
+              0.45
+            ],
+            [
+              "STAND",
+              0.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "PRESS",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 210
+  },
+  "youtube": {
+    "titulo": "Goblet Squat Hold Press 🔥 Movilidad de cadera y tobillo paso a paso | CrossFit",
+    "tags": [
+      "goblet squat hold press",
+      "sentadilla goblet",
+      "goblet squat",
+      "press out",
+      "movilidad de cadera",
+      "movilidad de tobillo",
+      "entrada en calor",
+      "activación",
+      "crossfit",
+      "kettlebell",
+      "sentadilla con press"
+    ],
+    "descripcion": "🔥 GOBLET SQUAT HOLD PRESS — Sentadilla goblet con press al frente en el fondo\n\n¿Te cuesta llegar a la sentadilla profunda con el pecho arriba? Esta variante te abre la cadera y el tobillo mientras activás piernas y hombros. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate con los pies al ancho de los hombros y sostené la kettlebell pegada al pecho, con los codos adentro.\n2️⃣ Bajá a la sentadilla completa manteniendo la pesa pegada al pecho, el pecho arriba y los talones apoyados.\n3️⃣ En el fondo, extendé los brazos al frente y empujá la pesa lejos del pecho (press-out), sin perder la postura.\n4️⃣ Traé la pesa de vuelta al pecho, con los codos adentro y el torso firme.\n5️⃣ Subí empujando el piso hasta pararte completo y arrancá la próxima repetición.\n\n✅ CLAVES DE TÉCNICA\n• Kettlebell pegada al pecho y codos adentro\n• Abajo con el pecho arriba y las rodillas afuera\n• Empujá la pesa al frente y volvé sin perder la postura\n• Talones apoyados todo el tiempo\n• Movimiento controlado, sin rebotes\n\n🎯 QUÉ TRABAJA\nRecto femoral · Deltoides anterior · Glúteo mayor · Recto abdominal\n\n⏱️ CUÁNTO\n30 segundos con una pesa de 5 kg. Va en la entrada en calor y la activación de cadera y hombros.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi te cuesta llegar al fondo, quedate más arriba y buscá abajo con control: la movilidad llega con las semanas. Siempre con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #GobletSquat #Piernas #Entrenamiento"
+  }
+}

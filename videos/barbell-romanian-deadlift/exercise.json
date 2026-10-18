@@ -1,0 +1,494 @@
+{
+  "slug": "barbell-romanian-deadlift",
+  "name": "Barbell Romanian Deadlift",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Cadera",
+    "Isquios",
+    "Fuerza"
+  ],
+  "descripcion": "De pie con la barra en las manos, bajar llevando la cadera hacia atrás con las rodillas apenas flexionadas, deslizando la barra por los muslos hasta sentir el estiramiento de los isquiotibiales, y volver extendiendo la cadera.",
+  "revisado": false,
+  "notas": "Bisagra de cadera: hip/ankle IK (rodillas casi fijas) y brazos colgando (ua/fa, g 0) para que la barra siga la mano pegada a la pierna.",
+  "music": true,
+  "musicVolume": 0.18,
+  "props": [
+    {
+      "type": "barbell",
+      "r": 90
+    }
+  ],
+  "pronuncia": {
+    "Romanian Deadlift": "Rrouméinian dedlift",
+    "Romanian": "Rrouméinian"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": 2,
+      "fa2": 0
+    },
+    "MID": {
+      "hip": [
+        -170,
+        -455
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 42,
+      "hd": 30,
+      "ua": 3,
+      "fa": 0,
+      "ua2": 3,
+      "fa2": 0
+    },
+    "RDL": {
+      "hip": [
+        -220,
+        -420
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 60,
+      "hd": 44,
+      "ua": 3,
+      "fa": 0,
+      "ua2": 3,
+      "fa2": 0
+    },
+    "ROUND_BAD": {
+      "hip": [
+        -220,
+        -420
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 66,
+      "hd": 80,
+      "cv": 40,
+      "ua": 3,
+      "fa": 0,
+      "ua2": 3,
+      "fa2": 0
+    },
+    "SQUAT_BAD": {
+      "hip": [
+        -40,
+        -360
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 30,
+      "hd": 18,
+      "ua": 3,
+      "fa": 0,
+      "ua2": 3,
+      "fa2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "ROMANIAN",
+        "DEADLIFT"
+      ],
+      "vo": "Romanian Deadlift: bisagra de cadera. La barra baja pegada a las piernas hasta sentir el estiramiento y vuelve subiendo con los glúteos.",
+      "moves": [
+        {
+          "to": "STAND",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 1.0
+        },
+        {
+          "to": "RDL",
+          "at": 1.7,
+          "dur": 0.9
+        },
+        {
+          "to": "MID",
+          "at": 2.7,
+          "dur": 0.8
+        },
+        {
+          "to": "STAND",
+          "at": 3.6,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE",
+        "CON LA BARRA"
+      ],
+      "sub": "Rodillas suaves, casi fijas",
+      "vo": "De pie, con la barra en las manos y los pies al ancho de la cadera. Las rodillas quedan suaves y casi fijas: el movimiento es de cadera.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 1.6,
+          "dur": 0.7
+        },
+        {
+          "to": "STAND",
+          "at": 2.7,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "STAND.K"
+          },
+          "r": 76,
+          "at": 1.0,
+          "out": 3.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1000
+          ],
+          "text": "RODILLAS CASI FIJAS",
+          "anchor": "end",
+          "at": 1.1,
+          "out": 3.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "CADERA",
+        "ATRÁS"
+      ],
+      "sub": "La barra roza las piernas",
+      "vo": "Paso uno. Llevá la cadera bien atrás y acompañá la barra pegada a las piernas, sin doblar las rodillas.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 1.2
+        },
+        {
+          "to": "RDL",
+          "at": 2.0,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            470,
+            1077
+          ],
+          "to": [
+            290,
+            1122
+          ],
+          "bend": [
+            0,
+            -130
+          ],
+          "at": 0.7,
+          "dur": 1.1
+        },
+        {
+          "type": "label",
+          "pos": [
+            312,
+            918
+          ],
+          "text": "CADERA ATRÁS",
+          "anchor": "end",
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "RDL.W",
+            "dx": 112,
+            "dy": -40
+          },
+          "text": "BARRA PEGADA",
+          "anchor": "start",
+          "at": 2.7
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "HASTA EL",
+        "ESTIRAMIENTO"
+      ],
+      "sub": "Cortá si la espalda se redondea",
+      "vo": "Paso dos. Bajá hasta donde sientas el estiramiento en los isquiotibiales, por lo general a la mitad de la tibia. Si la espalda se redondea, ese es tu tope.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "to": "RDL",
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "to": "ROUND_BAD",
+          "at": 2.8,
+          "dur": 0.6
+        },
+        {
+          "to": "RDL",
+          "at": 4.0,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "solid": true,
+          "color": "ink",
+          "width": 7,
+          "from": {
+            "j": "RDL.H"
+          },
+          "to": {
+            "j": "RDL.S"
+          },
+          "at": 1.0,
+          "out": 2.7
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "RDL.S",
+            "dy": -215
+          },
+          "text": "ESPALDA NEUTRA",
+          "anchor": "middle",
+          "at": 1.0,
+          "out": 2.7
+        },
+        {
+          "type": "ring",
+          "pos": {
+            "j": "ROUND_BAD.S",
+            "dx": -40,
+            "dy": 46
+          },
+          "r": 92,
+          "at": 3.0,
+          "out": 3.9
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "ROUND_BAD.N",
+            "dy": -130
+          },
+          "text": "ESPALDA REDONDEADA NO",
+          "anchor": "middle",
+          "at": 3.0,
+          "out": 3.9
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "SUBÍ",
+        "APRETANDO"
+      ],
+      "sub": "Sin arquear la lumbar",
+      "vo": "Paso tres. Subí empujando la cadera hacia adelante y apretando los glúteos. Arriba quedá en línea, sin arquear la lumbar.",
+      "moves": [
+        {
+          "cut": "RDL",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "to": "STAND",
+          "at": 1.5,
+          "dur": 0.8
+        },
+        {
+          "to": "SQUAT_BAD",
+          "at": 3.3,
+          "dur": 0.6
+        },
+        {
+          "to": "STAND",
+          "at": 4.4,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "STAND.H",
+            "dy": 20
+          },
+          "r": 74,
+          "at": 1.9,
+          "out": 3.1
+        },
+        {
+          "type": "label",
+          "pos": [
+            700,
+            1235
+          ],
+          "text": "APRETÁ GLÚTEOS",
+          "anchor": "start",
+          "at": 2.0,
+          "out": 3.1
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "SQUAT_BAD.S",
+            "dy": -215
+          },
+          "text": "SENTADILLA NO",
+          "anchor": "middle",
+          "at": 3.4,
+          "out": 4.3
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Bisagra de cadera, no sentadilla",
+        "Barra pegada a las piernas",
+        "Espalda neutra en todo el recorrido",
+        "Subí apretando los glúteos"
+      ],
+      "vo": "Claves: es una bisagra de cadera y no una sentadilla, la barra va pegada a las piernas, la espalda se mantiene neutra y arriba subís apretando los glúteos.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "8 REPS"
+      ],
+      "sub": "Al 70 kg",
+      "vo": "Ocho repeticiones al setenta por ciento de tu peso muerto. Bajá con control, sentí el estiramiento y no pierdas la espalda neutra.",
+      "chips": [
+        {
+          "label": "1 · CADERA ATRÁS",
+          "at": 0.4
+        },
+        {
+          "label": "2 · ESTIRAMIENTO",
+          "at": 1.5
+        },
+        {
+          "label": "3 · SUBÍ",
+          "at": 2.6
+        }
+      ],
+      "moves": [
+        {
+          "to": "RDL",
+          "at": 0.3,
+          "dur": 1.0
+        },
+        {
+          "to": "MID",
+          "at": 1.4,
+          "dur": 0.9
+        },
+        {
+          "to": "STAND",
+          "at": 2.5,
+          "dur": 0.9
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "RDL",
+    "grip": 0,
+    "zoom": 1.2,
+    "dy": 60
+  },
+  "youtube": {
+    "titulo": "Romanian Deadlift 🏋️ Bisagra de cadera: isquios y glúteos sin fallar | Fuerza",
+    "tags": [
+      "romanian deadlift",
+      "peso muerto rumano",
+      "rdl",
+      "barbell romanian deadlift",
+      "isquiotibiales",
+      "glúteos",
+      "bisagra de cadera",
+      "fuerza",
+      "crossfit",
+      "barra olímpica"
+    ],
+    "descripcion": "🔥 ROMANIAN DEADLIFT — Todo cadera: isquios y glúteos, no espalda\n\n¿Terminás con la lumbar cargada de tanto peso muerto? El rumano no es bajar y subir la barra: es una bisagra de cadera. Con estas claves lo vas a sentir donde tiene que doler. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ De pie, con la barra en las manos y los pies al ancho de la cadera. Rodillas suaves y casi fijas: el movimiento es de cadera.\n2️⃣ Llevá la cadera bien atrás y acompañá la barra pegada a las piernas, sin doblar las rodillas.\n3️⃣ Bajá hasta donde sientas el estiramiento en los isquiotibiales, por lo general a la mitad de la tibia. Si la espalda se redondea, ese es tu tope.\n4️⃣ Subí empujando la cadera hacia adelante y apretando los glúteos. Arriba quedá en línea, sin arquear la lumbar.\n\n✅ CLAVES DE TÉCNICA\n• Es una bisagra de cadera, no una sentadilla\n• La barra roza las piernas todo el recorrido\n• La espalda se mantiene neutra de principio a fin\n• Bajá hasta sentir el estiramiento, sin redondear\n• Arriba apretá glúteos y no hiperextiendas la lumbar\n\n🎯 QUÉ TRABAJA\nGlúteo mayor · Bíceps femoral · Semitendinoso · Erectores espinales · Dorsal ancho · Flexores del antebrazo\n\n⏱️ CUÁNTO\n8 repeticiones al 70 kg, o al setenta por ciento de tu peso muerto. Va como accesorio de fuerza y en bloques de isquios.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste peso muerto, empezá con la barra sola y la espalda vigilada por un coach: el rumano se aprende con poco peso y mucha atención al estiramiento.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #PesoMuertoRumano #RomanianDeadlift #Isquios #Fuerza"
+  }
+}

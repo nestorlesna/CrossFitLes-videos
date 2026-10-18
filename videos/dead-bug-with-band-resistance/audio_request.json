@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Dead Bug con banda: core antiextensión. Mantené la lumbar pegada al piso todo el tiempo."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba y anclá la banda por detrás de la cabeza. Sostenela con los dos brazos extendidos."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Estirá una pierna hacia adelante, sin despegar la zona lumbar del piso en ningún momento."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. El brazo contrario va por encima de la cabeza, estirando la banda. La espalda queda quieta."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Exhalá al estirar y volvé lento al centro. Si la lumbar se despega del piso, bajá el rango."
+    },
+    {
+      "id": "06",
+      "text": "Claves: lumbar pegada al piso, movimiento lento y controlado, exhalás al estirar y el brazo va contrario a la pierna."
+    },
+    {
+      "id": "07",
+      "text": "Cuarenta segundos alternando lados, sin apuro, manteniendo la lumbar pegada al piso."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

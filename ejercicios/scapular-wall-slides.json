@@ -1,0 +1,447 @@
+{
+  "slug": "scapular-wall-slides",
+  "name": "Scapular Wall Slides",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Hombros",
+    "Escápulas",
+    "Movilidad"
+  ],
+  "descripcion": "De pie contra la pared, apoyar la espalda, codos y manos. Deslizar los brazos hacia arriba (overhead) y bajar manteniendo el contacto con la pared en todo momento. Mejora la movilidad escapular.",
+  "revisado": false,
+  "notas": "De perfil los brazos van hacia los costados (apuntan a la cámara): el recorrido W → Y se cuenta con la tarjeta \"vista de frente\" (topview mode front) y ult 0.32/0.72. Pared como prop fijo.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 560,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "props": [
+    {
+      "type": "wall",
+      "x": -185,
+      "h": 1150
+    }
+  ],
+  "pronuncia": {
+    "Scapular Wall Slides": "Escápular uol eslaids",
+    "scapular": "escápular"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "W": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 92,
+      "fa": 96,
+      "ua2": 92,
+      "fa2": 96,
+      "ul": 0.32
+    },
+    "Y": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 152,
+      "fa": 8,
+      "ua2": 152,
+      "fa2": 8,
+      "ul": 0.72
+    },
+    "ARCH_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": -12,
+      "hd": -14,
+      "g": 0,
+      "ua": 152,
+      "fa": 8,
+      "ua2": 152,
+      "fa2": 8,
+      "ul": 0.72,
+      "cv": -18
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "SCAPULAR WALL",
+        "SLIDES"
+      ],
+      "topview": {
+        "mode": "front",
+        "label": "W A Y EN LA PARED"
+      },
+      "vo": "Scapular Wall Slides: deslizá los brazos por la pared. Movilidad de omóplatos y hombros.",
+      "moves": [
+        {
+          "to": "W",
+          "at": 0.4,
+          "dur": 0.6
+        },
+        {
+          "seq": [
+            [
+              "Y",
+              0.8
+            ],
+            [
+              "W",
+              0.8
+            ]
+          ],
+          "at": 1.0,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESPALDA",
+        "EN LA PARED"
+      ],
+      "sub": "Cabeza, espalda y glúteos",
+      "topview": {
+        "mode": "front",
+        "label": "W A Y EN LA PARED"
+      },
+      "vo": "Parate de espaldas a la pared, con la cabeza, la espalda alta y los glúteos apoyados, y los pies adelante.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "from": {
+            "j": "STAND.H",
+            "dx": -60,
+            "dy": 60
+          },
+          "to": {
+            "j": "STAND.S",
+            "dx": -60,
+            "dy": -40
+          },
+          "solid": true,
+          "width": 8,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            250.0,
+            1320.0
+          ],
+          "text": "PIES ADELANTE",
+          "anchor": "start",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "APOYÁ",
+        "LOS BRAZOS"
+      ],
+      "sub": "En forma de W",
+      "topview": {
+        "mode": "front",
+        "label": "W A Y EN LA PARED"
+      },
+      "vo": "Paso uno. Apoyá los codos y las muñecas en la pared, con los brazos en forma de W.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "W",
+          "at": 0.6,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            470.0,
+            900.0
+          ],
+          "r": 52,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            250.0,
+            780.0
+          ],
+          "text": "CODO Y MUÑECA EN LA PARED",
+          "anchor": "start",
+          "at": 1.9
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "DESLIZÁ",
+        "HACIA ARRIBA"
+      ],
+      "sub": "Contacto todo el tiempo",
+      "topview": {
+        "mode": "front",
+        "label": "W A Y EN LA PARED"
+      },
+      "vo": "Paso dos. Deslizá los brazos hacia arriba buscando una Y, sin despegar codos ni muñecas de la pared.",
+      "moves": [
+        {
+          "cut": "W",
+          "at": 0
+        },
+        {
+          "to": "Y",
+          "at": 0.6,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            320.0,
+            1180.0
+          ],
+          "to": [
+            320.0,
+            820.0
+          ],
+          "at": 1.6,
+          "dur": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            250.0,
+            1500.0
+          ],
+          "text": "SIN DESPEGAR",
+          "anchor": "start",
+          "at": 1.9
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "BAJÁ",
+        "DESPACIO"
+      ],
+      "sub": "Por el mismo camino",
+      "topview": {
+        "mode": "front",
+        "label": "W A Y EN LA PARED"
+      },
+      "vo": "Paso tres. Bajá despacio por el mismo camino, manteniendo el contacto con la pared todo el tiempo.",
+      "moves": [
+        {
+          "cut": "Y",
+          "at": 0
+        },
+        {
+          "to": "W",
+          "at": 0.6,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            320.0,
+            820.0
+          ],
+          "to": [
+            320.0,
+            1180.0
+          ],
+          "at": 1.8,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "COSTILLAS",
+        "ABAJO"
+      ],
+      "sub": "Sin arquear la lumbar",
+      "topview": {
+        "mode": "front",
+        "label": "W A Y EN LA PARED"
+      },
+      "vo": "Paso cuatro. Cabeza y costillas atrás: no arquees la zona lumbar. Respirás fluido mientras deslizás.",
+      "moves": [
+        {
+          "cut": "W",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 1.8,
+          "dur": 0.6
+        },
+        {
+          "to": "W",
+          "at": 3.2,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            250.0,
+            1080.0
+          ],
+          "text": "COSTILLAS ABAJO",
+          "anchor": "start",
+          "at": 0.7,
+          "out": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            250.0,
+            1080.0
+          ],
+          "text": "NO ARQUEES",
+          "anchor": "start",
+          "at": 2.2,
+          "out": 3.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Espalda y glúteos en la pared",
+        "Codos y muñecas pegados",
+        "Costillas abajo, sin arquear",
+        "Subí hasta donde mantengas"
+      ],
+      "vo": "Claves: espalda, codos y muñecas pegados a la pared, costillas abajo sin arquear y subí hasta donde mantengas el contacto.",
+      "moves": [
+        {
+          "cut": "W",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "Deslizando arriba y abajo",
+      "vo": "Treinta segundos deslizando hacia arriba y abajo. Ideal antes de cualquier trabajo por encima de la cabeza.",
+      "chips": [
+        {
+          "label": "1 · W EN LA PARED",
+          "at": 0.5
+        },
+        {
+          "label": "2 · DESLIZÁ ARRIBA",
+          "at": 1.2
+        },
+        {
+          "label": "3 · VOLVÉ LENTO",
+          "at": 1.9
+        }
+      ],
+      "moves": [
+        {
+          "cut": "W",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "Y",
+              0.9
+            ],
+            [
+              "W",
+              0.9
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "W",
+    "grip": 0,
+    "zoom": 1.2,
+    "dy": 210
+  },
+  "youtube": {
+    "titulo": "Scapular Wall Slides 🔥 Movilidad de omóplatos y hombros | CrossFit",
+    "tags": [
+      "scapular wall slides",
+      "deslizamiento escapular en la pared",
+      "movilidad escapular",
+      "movilidad de hombro",
+      "omóplatos",
+      "hombros sanos",
+      "entrada en calor",
+      "crossfit",
+      "hombros",
+      "movilidad",
+      "prevención de lesiones"
+    ],
+    "descripcion": "🔥 SCAPULAR WALL SLIDES — Deslizá los brazos por la pared: movilidad de omóplatos y hombros\n\n¿Llegás justo por encima de la cabeza y sentís los hombros cerrados? Deslizar los brazos por la pared es la forma más simple de ganar movilidad escapular. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate de espaldas a la pared, con la cabeza, la espalda alta y los glúteos apoyados, y los pies adelante.\n2️⃣ Apoyá los codos y las muñecas en la pared, con los brazos en forma de W (codo a 90°).\n3️⃣ Deslizá los brazos hacia arriba buscando una Y, sin despegar codos ni muñecas de la pared.\n4️⃣ Bajá despacio por el mismo camino, manteniendo el contacto todo el tiempo.\n5️⃣ Cabeza y costillas atrás: no arquees la zona lumbar, respirá fluido mientras deslizás.\n\n✅ CLAVES DE TÉCNICA\n• Cabeza, espalda alta y glúteos pegados a la pared\n• Deslizá sin despegar los codos ni las muñecas\n• Costillas abajo: sin arquear la zona lumbar\n• Subí solo hasta donde mantengas el contacto con la pared\n• Movimiento lento y controlado\n\n🎯 QUÉ TRABAJA\nDeltoides anterior · Dorsal ancho · Trapecio superior · Serrato anterior\n\n⏱️ CUÁNTO\n30 segundos por series, deslizando arriba y abajo. Va en la entrada en calor, antes de cualquier trabajo por encima de la cabeza.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi sentís pinchazos en el hombro, bajá el rango y quedate donde no haya molestia. Ante la duda, consultalo con tu coach.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #WallSlides #Hombros #Entrenamiento"
+  }
+}

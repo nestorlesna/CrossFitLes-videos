@@ -1,0 +1,518 @@
+{
+  "slug": "barbell-push-press",
+  "name": "Barbell Push Press",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Hombros",
+    "Tríceps",
+    "Piernas"
+  ],
+  "descripcion": "Con la barra en rack frontal, hacer una flexión corta de rodillas (dip) y extender las piernas de forma explosiva para impulsar la barra, terminando de empujarla con los brazos hasta bloquearla arriba de la cabeza.",
+  "revisado": false,
+  "notas": "Barra en rack frontal (prop torso + blend, bf 1) que pasa a las manos (bf 0) al bloquear. Dip corto con rodillas adelante y tronco recto.",
+  "music": true,
+  "musicVolume": 0.18,
+  "props": [
+    {
+      "type": "barbell",
+      "torso": [
+        60,
+        30
+      ],
+      "r": 72,
+      "blend": true
+    }
+  ],
+  "pronuncia": {
+    "Push Press": "Push pres",
+    "Push": "push"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 88,
+      "fa": 176,
+      "ua2": 92,
+      "fa2": 172,
+      "bf": 1
+    },
+    "DIP": {
+      "s": 26,
+      "t": -52,
+      "b": 6,
+      "hd": 2,
+      "ua": 86,
+      "fa": 176,
+      "ua2": 90,
+      "fa2": 172,
+      "bf": 1
+    },
+    "DRIVE": {
+      "s": 0,
+      "t": 0,
+      "b": -2,
+      "hd": -2,
+      "ua": 86,
+      "fa": 176,
+      "ua2": 90,
+      "fa2": 172,
+      "bf": 1
+    },
+    "PRESS": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": -6,
+      "ua": 140,
+      "fa": 20,
+      "ua2": 143,
+      "fa2": 18,
+      "bf": 0
+    },
+    "LOCK": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 4,
+      "ua": 178,
+      "fa": 2,
+      "ua2": 178,
+      "fa2": 2,
+      "bf": 0
+    },
+    "DIP_FWD": {
+      "s": 8,
+      "t": -16,
+      "b": 36,
+      "hd": 26,
+      "ua": 64,
+      "fa": 176,
+      "ua2": 68,
+      "fa2": 172,
+      "bf": 1
+    },
+    "ARCH_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": -20,
+      "hd": -6,
+      "ua": 158,
+      "fa": 14,
+      "ua2": 158,
+      "fa2": 14,
+      "bf": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "PUSH",
+        "PRESS"
+      ],
+      "vo": "Barbell Push Press: un dip corto y las piernas lanzan la barra. Los brazos solo terminan el trabajo arriba.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "DIP",
+              0.4
+            ],
+            [
+              "DRIVE",
+              0.3
+            ],
+            [
+              "PRESS",
+              0.35
+            ],
+            [
+              "LOCK",
+              0.5
+            ],
+            [
+              "PRESS",
+              0.35
+            ],
+            [
+              "DRIVE",
+              0.3
+            ],
+            [
+              "STAND",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "RACK",
+        "FRONTAL"
+      ],
+      "sub": "Barra sobre los hombros",
+      "vo": "Con la barra apoyada adelante, sobre los hombros y los codos bien altos, los pies al ancho de la cadera.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "STAND.S",
+            "dx": 20,
+            "dy": 26
+          },
+          "r": 44,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            806
+          ],
+          "text": "EN LOS HOMBROS",
+          "anchor": "end",
+          "at": 1.5
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1060
+          ],
+          "text": "CODOS ALTOS",
+          "anchor": "end",
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "DIP",
+        "CORTO"
+      ],
+      "sub": "Rodillas adelante, tronco recto",
+      "vo": "Paso uno. Hacé un dip corto y vertical: rodillas hacia adelante, tronco recto y talones apoyados.",
+      "moves": [
+        {
+          "to": "DIP",
+          "at": 0.5,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "from": {
+            "j": "DIP.H"
+          },
+          "to": {
+            "j": "DIP.S"
+          },
+          "color": "ink",
+          "width": 7,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "DIP.S",
+            "dy": -215
+          },
+          "text": "TRONCO RECTO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            356,
+            1286
+          ],
+          "text": "RODILLAS ADELANTE",
+          "anchor": "end",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "EMPUJÁ",
+        "EL PISO"
+      ],
+      "sub": "Todo el cuerpo",
+      "vo": "Paso dos. Empujá el piso y extendé las piernas de forma explosiva: la barra sale impulsada hacia arriba.",
+      "moves": [
+        {
+          "cut": "DIP",
+          "at": 0
+        },
+        {
+          "to": "DRIVE",
+          "at": 0.4,
+          "dur": 0.35,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            760,
+            1150
+          ],
+          "to": [
+            760,
+            900
+          ],
+          "at": 0.5,
+          "dur": 0.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            892
+          ],
+          "text": "PIERNAS",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "BLOQUEÁ",
+        "ARRIBA"
+      ],
+      "sub": "Los brazos terminan",
+      "vo": "Paso tres. Dejá pasar la barra con la cabeza atrás y estirá los brazos hasta bloquear arriba de la cabeza.",
+      "moves": [
+        {
+          "cut": "DRIVE",
+          "at": 0
+        },
+        {
+          "to": "PRESS",
+          "at": 0.4,
+          "dur": 0.35
+        },
+        {
+          "to": "LOCK",
+          "at": 0.8,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            470,
+            900
+          ],
+          "to": [
+            470,
+            640
+          ],
+          "at": 0.5,
+          "dur": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            356,
+            640
+          ],
+          "text": "BLOQUEÁ ARRIBA",
+          "anchor": "end",
+          "at": 1.3
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "No te tires para atrás",
+      "vo": "Paso cuatro. Si te tirás para atrás y arqueás la espalda en el bloqueo, la barra se te va y la lumbar sufre. Evitalo.",
+      "moves": [
+        {
+          "cut": "LOCK",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "LOCK",
+          "at": 2.6,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            470,
+            640
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0,
+          "out": 2.5
+        },
+        {
+          "type": "label",
+          "pos": [
+            356,
+            1180
+          ],
+          "text": "NO ARQUEES",
+          "anchor": "end",
+          "at": 1.2,
+          "out": 2.5
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Dip corto y vertical",
+        "Piernas primero, brazos después",
+        "Cabeza atrás y adelante",
+        "Abdomen firme, sin arquear"
+      ],
+      "vo": "Claves: dip corto y vertical, las piernas primero y los brazos después, la cabeza va atrás para dejar pasar la barra y adelante al bloquear, y el abdomen firme sin arquear la espalda.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "DIP",
+              0.4
+            ],
+            [
+              "DRIVE",
+              0.3
+            ],
+            [
+              "PRESS",
+              0.4
+            ],
+            [
+              "LOCK",
+              0.6
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "5 REPS"
+      ],
+      "sub": "Explosivo, con control",
+      "vo": "Cinco repeticiones: bajá la barra al rack controlando y repetí. Cada dip impulsa una barra un poco más pesada.",
+      "chips": [
+        {
+          "label": "1 · DIP",
+          "at": 0.4
+        },
+        {
+          "label": "2 · EMPUJÁ",
+          "at": 1.2
+        },
+        {
+          "label": "3 · BLOQUEÁ",
+          "at": 2.2
+        }
+      ],
+      "moves": [
+        {
+          "to": "DRIVE",
+          "at": 0.3,
+          "dur": 0.3
+        },
+        {
+          "to": "LOCK",
+          "at": 0.7,
+          "dur": 0.4
+        },
+        {
+          "to": "PRESS",
+          "at": 1.4,
+          "dur": 0.35
+        },
+        {
+          "to": "STAND",
+          "at": 2.0,
+          "dur": 0.5
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "LOCK",
+    "grip": 0,
+    "zoom": 0.92,
+    "dy": 220
+  },
+  "youtube": {
+    "titulo": "Barbell Push Press 🏋️ Empuje explosivo sobre la cabeza paso a paso | CrossFit",
+    "tags": [
+      "barbell push press",
+      "push press",
+      "empuje con barra",
+      "press sobre la cabeza",
+      "dip and drive",
+      "crossfit",
+      "fuerza",
+      "hombros",
+      "tríceps",
+      "potencia",
+      "barra olímpica",
+      "técnica"
+    ],
+    "descripcion": "🏋️ BARBELL PUSH PRESS — Un dip corto y las piernas lanzan la barra por encima de la cabeza\n\n¿Se te queda la barra en el press y no sube? En el push press las piernas hacen el trabajo pesado y los brazos solo terminan. Con un dip bien hecho, movés más kilos y más seguro. Este video es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Apoyá la barra adelante, sobre los hombros y los codos bien altos, los pies al ancho de la cadera.\n2️⃣ Hacé un dip corto y vertical: rodillas hacia adelante, tronco recto y talones apoyados.\n3️⃣ Empujá el piso y extendé las piernas de forma explosiva: la barra sale impulsada hacia arriba.\n4️⃣ Dejá pasar la barra con la cabeza atrás y estirá los brazos hasta bloquear arriba de la cabeza.\n5️⃣ Si te tirás para atrás y arqueás la espalda en el bloqueo, la barra se te va. Evitalo.\n\n✅ CLAVES DE TÉCNICA\n• Dip corto y vertical, con las rodillas hacia adelante\n• Talones apoyados y tronco recto en el dip\n• Las piernas primero: los brazos solo terminan el trabajo\n• Cabeza atrás para dejar pasar la barra y adelante al bloquear\n• Abdomen firme, sin arquear la zona lumbar\n\n🎯 QUÉ TRABAJA\nDeltoides anterior · Deltoides lateral · Recto abdominal · Recto femoral · Trapecio superior · Tríceps braquial\n\n⏱️ CUÁNTO\n5 repeticiones explosivas con control. Bloque de fuerza o dentro del WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste push press, practicá primero el dip solo y después el press con barra liviana, con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Fuerza #PushPress #Hombros #Entrenamiento"
+  }
+}

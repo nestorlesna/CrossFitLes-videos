@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Barbell push pres: un dip corto y las piernas lanzan la barra. Los brazos solo terminan el trabajo arriba."
+    },
+    {
+      "id": "02",
+      "text": "Con la barra apoyada adelante, sobre los hombros y los codos bien altos, los pies al ancho de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Hacé un dip corto y vertical: rodillas hacia adelante, tronco recto y talones apoyados."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Empujá el piso y extendé las piernas de forma explosiva: la barra sale impulsada hacia arriba."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Dejá pasar la barra con la cabeza atrás y estirá los brazos hasta bloquear arriba de la cabeza."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Si te tirás para atrás y arqueás la espalda en el bloqueo, la barra se te va y la lumbar sufre. Evitalo."
+    },
+    {
+      "id": "07",
+      "text": "Claves: dip corto y vertical, las piernas primero y los brazos después, la cabeza va atrás para dejar pasar la barra y adelante al bloquear, y el abdomen firme sin arquear la espalda."
+    },
+    {
+      "id": "08",
+      "text": "Cinco repeticiones: bajá la barra al rack controlando y repetí. Cada dip impulsa una barra un poco más pesada."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Cauch strech: de rodillas contra la pared, empujás las caderas adelante y abajo. Destraba el flexor de cadera y el cuádriceps."
+    },
+    {
+      "id": "02",
+      "text": "Arrodillate cerca de la pared, con la rodilla de atrás en el piso y la otra pierna adelante."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Apoyá bien la rodilla de atrás en el piso y el empeine contra la pared, con el pie de adelante a noventa grados."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Dejá la pierna de adelante a noventa grados en la rodilla y la cadera, con el pie bien plano y la rodilla sin pasar la punta del pie."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Empujá las caderas hacia adelante y hacia abajo, despacio. Es ahí donde estira el flexor de la cadera y el cuádriceps."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Si en vez de apretar el glúteo arqueás la lumbar y te tirás para atrás, la espalda sufre y no estira la cadera. Evitalo."
+    },
+    {
+      "id": "07",
+      "text": "Claves: la rodilla trasera y el empeine bien apoyados, el glúteo de atrás apretado, la pelvis neutra sin arquear la lumbar, y subí el tronco de a poco a medida que afloja."
+    },
+    {
+      "id": "08",
+      "text": "Treinta segundos por lado, y si tenés tiempo hasta uno o dos minutos. Respirá y no rebotes: la cadera afloja sola."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

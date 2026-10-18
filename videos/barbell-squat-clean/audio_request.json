@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Barbell Escuát clin: la barra del piso a los hombros, pero te metés abajo y la recibís en sentadilla completa."
+    },
+    {
+      "id": "02",
+      "text": "Pies al ancho de la cadera, agarre un poco más ancho que los hombros. Espalda neutra y hombros por encima de la barra."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Primer tirón controlado: despegá la barra del piso hasta las rodillas, pegada al cuerpo."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Extendé cadera y piernas hasta ponerte completo. Recién ahí te metés debajo de la barra."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Pasá los codos rápido al frente y metete debajo de la barra, recibiendo en sentadilla completa."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Parate desde el fondo como en un front escuát, sin dejar caer los codos ni perder el pecho arriba."
+    },
+    {
+      "id": "07",
+      "text": "Claves: extendé completo antes de bajar, metete rápido bajo la barra, codos altos en el fondo y pecho arriba al pararte."
+    },
+    {
+      "id": "08",
+      "text": "Dos repeticiones al cincuenta por ciento, con foco en la técnica. Bajá el peso si los codos se caen."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

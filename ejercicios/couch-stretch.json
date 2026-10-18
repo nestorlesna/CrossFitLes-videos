@@ -1,0 +1,435 @@
+{
+  "slug": "couch-stretch",
+  "name": "Couch Stretch",
+  "category": "CROSSFIT · MOVILIDAD",
+  "tags": [
+    "Cuádriceps",
+    "Cadera",
+    "Movilidad"
+  ],
+  "descripcion": "De rodillas con la rodilla trasera en el suelo y la pierna delantera a 90°, empujar las caderas hacia adelante y abajo para estirar el flexor de cadera y el cuádriceps. Se puede usar una pared para apoyar el pie trasero.",
+  "revisado": false,
+  "notas": "Rodilla trasera en el piso (shin vertical contra la pared: s2 180 con el tobillo arriba) y pierna delantera resuelta con IK (hip+ankle, pie fijo en (250,-0.5)). La rodilla trasera se mantiene en el piso recalculando t2 por pose.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 520,
+    "y": 1660,
+    "scale": 1.25
+  },
+  "props": [
+    {
+      "type": "wall",
+      "x": -150,
+      "h": 520
+    }
+  ],
+  "pronuncia": {
+    "Couch Stretch": "Cauch strech",
+    "Couch": "cauch"
+  },
+  "initialPose": "KNEEL",
+  "poses": {
+    "KNEEL": {
+      "rx": 250.0,
+      "ry": -0.5,
+      "s": -1.62,
+      "t": -93.68,
+      "s2": 180,
+      "t2": 15.74,
+      "ft": 0,
+      "ft2": 0,
+      "b": 3,
+      "hd": 0,
+      "ua": 30,
+      "fa": 28,
+      "ua2": 33,
+      "fa2": 25
+    },
+    "STRETCH": {
+      "rx": 250.0,
+      "ry": -0.5,
+      "s": 10.91,
+      "t": -98.23,
+      "s2": 180,
+      "t2": 29.93,
+      "ft": 0,
+      "ft2": 0,
+      "b": 12,
+      "hd": -4,
+      "ua": 30,
+      "fa": 28,
+      "ua2": 33,
+      "fa2": 25
+    },
+    "ARCH_BAD": {
+      "rx": 250.0,
+      "ry": -0.5,
+      "s": 10.91,
+      "t": -98.23,
+      "s2": 180,
+      "t2": 29.93,
+      "ft": 0,
+      "ft2": 0,
+      "b": -14,
+      "hd": -8,
+      "ua": 30,
+      "fa": 28,
+      "ua2": 33,
+      "fa2": 25
+    },
+    "HOLD": {
+      "rx": 250.0,
+      "ry": -0.5,
+      "s": -1.62,
+      "t": -93.68,
+      "s2": 180,
+      "t2": 15.74,
+      "ft": 0,
+      "ft2": 0,
+      "b": 6,
+      "hd": 1,
+      "ua": 30,
+      "fa": 28,
+      "ua2": 33,
+      "fa2": 25
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · MOVILIDAD",
+      "head": [
+        "COUCH",
+        "STRETCH"
+      ],
+      "vo": "Couch Stretch: de rodillas contra la pared, empujás las caderas adelante y abajo. Destraba el flexor de cadera y el cuádriceps.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "STRETCH",
+              1.6
+            ],
+            [
+              "KNEEL",
+              1.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE RODILLAS",
+        "JUNTO A LA PARED"
+      ],
+      "sub": "Un pie adelante",
+      "vo": "Arrodillate cerca de la pared, con la rodilla de atrás en el piso y la otra pierna adelante.",
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            356,
+            1120
+          ],
+          "text": "PIE ADELANTE",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "RODILLA",
+        "AL PISO"
+      ],
+      "sub": "Apoyada, no flotando",
+      "vo": "Paso uno. Apoyá bien la rodilla de atrás en el piso y el empeine contra la pared, con el pie de adelante a noventa grados.",
+      "moves": [
+        {
+          "to": "KNEEL",
+          "at": 0.5,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            444,
+            1680
+          ],
+          "r": 54,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            356,
+            1470
+          ],
+          "text": "RODILLA EN EL PISO",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "RODILLA Y",
+        "CADERA A 90°"
+      ],
+      "sub": "Pie de adelante plano",
+      "vo": "Paso dos. Dejá la pierna de adelante a noventa grados en la rodilla y la cadera, con el pie bien plano y la rodilla sin pasar la punta del pie.",
+      "moves": [
+        {
+          "to": "HOLD",
+          "at": 0.5,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            824,
+            1372
+          ],
+          "r": 50,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1250
+          ],
+          "text": "RODILLA A 90°",
+          "anchor": "end",
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            356,
+            1330
+          ],
+          "text": "CADERA A 90°",
+          "anchor": "end",
+          "at": 2.1
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "CADERAS",
+        "ADELANTE Y ABAJO"
+      ],
+      "sub": "De a poco",
+      "vo": "Paso tres. Empujá las caderas hacia adelante y hacia abajo, despacio. Es ahí donde estira el flexor de la cadera y el cuádriceps.",
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        },
+        {
+          "to": "STRETCH",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            600,
+            1330
+          ],
+          "to": [
+            700,
+            1470
+          ],
+          "bend": [
+            -40,
+            30
+          ],
+          "at": 1.9,
+          "dur": 0.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1470
+          ],
+          "text": "ADELANTE Y ABAJO",
+          "anchor": "end",
+          "at": 2.1
+        }
+      ]
+    },
+    {
+      "min": 6.2,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Sin arquear la espalda",
+      "vo": "Paso cuatro. Si en vez de apretar el glúteo arqueás la lumbar y te tirás para atrás, la espalda sufre y no estira la cadera. Evitalo.",
+      "moves": [
+        {
+          "cut": "STRETCH",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 0.5,
+          "dur": 0.7
+        },
+        {
+          "to": "STRETCH",
+          "at": 2.8,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            470,
+            700
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0,
+          "out": 2.5
+        },
+        {
+          "type": "label",
+          "pos": [
+            356,
+            1120
+          ],
+          "text": "NO ARQUEES",
+          "anchor": "end",
+          "at": 1.2,
+          "out": 2.5
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Rodilla trasera y empeine apoyados",
+        "Glúteo de atrás apretado",
+        "Pelvis neutra, sin arquear",
+        "Subí el tronco de a poco"
+      ],
+      "vo": "Claves: la rodilla trasera y el empeine bien apoyados, el glúteo de atrás apretado, la pelvis neutra sin arquear la lumbar, y subí el tronco de a poco a medida que afloja.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "KNEEL",
+              1.4
+            ],
+            [
+              "STRETCH",
+              1.6
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.4,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEG",
+        "POR LADO"
+      ],
+      "sub": "Hasta 1-2 min por lado",
+      "vo": "Treinta segundos por lado, y si tenés tiempo hasta uno o dos minutos. Respirá y no rebotes: la cadera afloja sola.",
+      "chips": [
+        {
+          "label": "1 · DERECHA",
+          "at": 0.5
+        },
+        {
+          "label": "2 · IZQUIERDA",
+          "at": 3.0
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "STRETCH",
+              2.6
+            ],
+            [
+              "KNEEL",
+              1.6
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "STRETCH",
+    "grip": 0,
+    "zoom": 1.12,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Couch Stretch 🦵 Cómo destrabar el flexor de cadera y el cuádriceps | Movilidad",
+    "tags": [
+      "couch stretch",
+      "estiramiento de cuádriceps",
+      "flexor de cadera",
+      "psoas",
+      "movilidad de cadera",
+      "estiramiento isquios",
+      "rodilla al piso",
+      "movilidad",
+      "crossfit",
+      "vuelta a la calma",
+      "entrada en calor"
+    ],
+    "descripcion": "🦵 COUCH STRETCH — Caderas y cuádriceps que aflojan de verdad\n\n¿Sentís la cadera dura al pararte, o te tira el frente del muslo después de entrenar? El couch stretch es el estiramiento clásico para el flexor de cadera y el cuádriceps. Con la rodilla en el piso y las caderas adelante, destrabás en minutos. Este video es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Arrodillate cerca de la pared, con la rodilla de atrás en el piso y la otra pierna adelante.\n2️⃣ Apoyá bien la rodilla de atrás en el piso y el empeine contra la pared, con el pie de adelante a 90°.\n3️⃣ Apretá el glúteo de la pierna de atrás y meté un poco la pelvis, sin arquear la lumbar.\n4️⃣ Empujá las caderas hacia adelante y hacia abajo, despacio: ahí estira el flexor de cadera y el cuádriceps.\n5️⃣ Si en vez de apretar el glúteo arqueás la lumbar, la espalda sufre y no estira. Evitalo.\n\n✅ CLAVES DE TÉCNICA\n• Rodilla trasera cerca de la pared y empeine apoyado\n• Apretá el glúteo de atrás\n• Mantené la pelvis neutra, sin arquear la espalda\n• Subí el tronco de a poco a medida que afloja\n• La rodilla de adelante no pasa la punta del pie\n\n🎯 QUÉ TRABAJA\nRecto femoral · Bíceps femoral · Recto abdominal · Flexor de cadera (psoas)\n\n⏱️ CUÁNTO\n30 segundos por lado (hasta 1–2 minutos por lado). Va en la entrada en calor o en la vuelta a la calma.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi no llegás a la posición o sentís dolor en la rodilla, apoyala sobre una manta y no fuerces las caderas, y consultá con un coach o kinesiólogo.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Movilidad #CouchStretch #Cadera #Entrenamiento"
+  }
+}

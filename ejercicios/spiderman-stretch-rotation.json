@@ -1,0 +1,414 @@
+{
+  "slug": "spiderman-stretch-rotation",
+  "name": "Spiderman Stretch Rotation",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Cadera",
+    "Glúteos",
+    "Espalda alta"
+  ],
+  "descripcion": "Desde posición de lunge, colocar una mano en el suelo junto al pie delantero. Girar el torso abriendo el brazo libre hacia el techo para trabajar la movilidad torácica y de cadera.",
+  "revisado": false,
+  "notas": "Estocada con rotación: la apertura del pecho no se ve de perfil, se cuenta con tarjeta topview mode front (un brazo al cielo).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.8
+  },
+  "pronuncia": {
+    "Spiderman Stretch Rotation": "Espáiderman estréch roteishon",
+    "spiderman": "espáiderman"
+  },
+  "initialPose": "STAND",
+  "props": [],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6,
+      "ua2": -4,
+      "fa2": 6
+    },
+    "LUNGE": {
+      "hip": [
+        20,
+        -140
+      ],
+      "ankle": [
+        250,
+        0
+      ],
+      "ankle2": [
+        -440,
+        4
+      ],
+      "b": 55,
+      "hd": 18,
+      "g": 1,
+      "hx": 260,
+      "hy": 30,
+      "g2": 1,
+      "hx2": 260,
+      "hy2": 30
+    },
+    "ROT_N": {
+      "hip": [
+        20,
+        -140
+      ],
+      "ankle": [
+        250,
+        0
+      ],
+      "ankle2": [
+        -440,
+        4
+      ],
+      "b": 46,
+      "hd": -30,
+      "g": 0,
+      "ua": 205,
+      "fa": 0,
+      "g2": 1,
+      "hx2": 260,
+      "hy2": 30
+    },
+    "ROT_F": {
+      "hip": [
+        20,
+        -140
+      ],
+      "ankle": [
+        250,
+        0
+      ],
+      "ankle2": [
+        -440,
+        4
+      ],
+      "b": 46,
+      "hd": -30,
+      "g": 1,
+      "hx": 260,
+      "hy": 30,
+      "g2": 0,
+      "ua2": 205,
+      "fa2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "SPIDERMAN",
+        "STRETCH ROT"
+      ],
+      "topview": {
+        "mode": "front",
+        "label": "UN BRAZO AL CIELO"
+      },
+      "voSpeed": 0.88,
+      "vo": "Spiderman Stretch Rotation: estocada con rotación torácica. Movilidad de cadera, glúteo y espalda alta.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "LUNGE",
+              1.0
+            ],
+            [
+              "ROT_N",
+              1.2
+            ],
+            [
+              "LUNGE",
+              0.8
+            ],
+            [
+              "ROT_F",
+              1.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESTOCADA",
+        "ADELANTE"
+      ],
+      "sub": "Mano al piso junto al pie",
+      "topview": {
+        "mode": "front",
+        "label": "UN BRAZO AL CIELO"
+      },
+      "vo": "Adelantá bien un pie, bajá la cadera y apoyá la mano del mismo lado en el piso, junto al pie.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "LUNGE",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            640.0,
+            1470.0
+          ],
+          "r": 48,
+          "at": 2.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            560.0,
+            1380.0
+          ],
+          "text": "MANO AL PISO",
+          "anchor": "end",
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "ABRÍ",
+        "EL BRAZO"
+      ],
+      "sub": "Hacia el techo",
+      "vo": "Paso uno. Girá el pecho y levantá el brazo libre hacia el techo, abriendo el pecho.",
+      "moves": [
+        {
+          "cut": "LUNGE",
+          "at": 0
+        },
+        {
+          "to": "ROT_N",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            470.0,
+            1120.0
+          ],
+          "to": [
+            520.0,
+            780.0
+          ],
+          "bend": [
+            40,
+            0
+          ],
+          "at": 1.6,
+          "dur": 0.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            560.0,
+            820.0
+          ],
+          "text": "SEGUÍ LA MANO",
+          "anchor": "start",
+          "at": 1.9
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "CADERA",
+        "ABAJA"
+      ],
+      "sub": "Rodilla de atrás estirada",
+      "vo": "Paso dos. Bajá la cadera y estirá la rodilla de atrás. Sentís el estirón en la cadera y el glúteo.",
+      "moves": [
+        {
+          "cut": "ROT_N",
+          "at": 0
+        },
+        {
+          "to": "LUNGE",
+          "at": 0.6,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            250.0,
+            1300.0
+          ],
+          "text": "RODILLA ESTIRADA",
+          "anchor": "start",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "CAMBIÁ",
+        "DE LADO"
+      ],
+      "sub": "Alterná las piernas",
+      "topview": {
+        "mode": "front",
+        "label": "UN BRAZO AL CIELO"
+      },
+      "vo": "Paso tres. Volvé al centro y repetí hacia el otro lado, alternando brazo y pierna sin apuro.",
+      "moves": [
+        {
+          "cut": "LUNGE",
+          "at": 0
+        },
+        {
+          "to": "ROT_F",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Talón de adelante apoyado",
+        "Rodilla de atrás estirada",
+        "Girá desde la espalda alta",
+        "Sin apuro, respirando"
+      ],
+      "vo": "Claves: talón del pie de adelante apoyado, rodilla de atrás estirada, girás desde la espalda alta y sin apuro, respirando en cada rotación.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "LUNGE",
+              0.9
+            ],
+            [
+              "ROT_N",
+              1.1
+            ],
+            [
+              "LUNGE",
+              0.7
+            ],
+            [
+              "ROT_F",
+              1.1
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "Alternando lados",
+      "vo": "Treinta segundos alternando lados, sin apuro. Ideal en la entrada en calor antes de sentadillas o carreras.",
+      "chips": [
+        {
+          "label": "1 · ABRÍ EL BRAZO",
+          "at": 0.5
+        },
+        {
+          "label": "2 · MIRÁ LA MANO",
+          "at": 1.2
+        },
+        {
+          "label": "3 · CAMBIÁ",
+          "at": 1.9
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "LUNGE",
+              0.9
+            ],
+            [
+              "ROT_N",
+              1.1
+            ],
+            [
+              "LUNGE",
+              0.7
+            ],
+            [
+              "ROT_F",
+              1.1
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "ROT_N",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Spiderman Stretch Rotation 🕷️ Movilidad de cadera y espalda alta | CrossFit",
+    "tags": [
+      "spiderman stretch",
+      "spiderman stretch rotation",
+      "rotación torácica",
+      "movilidad de cadera",
+      "movilidad torácica",
+      "world greatest stretch",
+      "estiramiento de cadera",
+      "glúteos",
+      "entrada en calor",
+      "crossfit",
+      "movilidad",
+      "flexibilidad"
+    ],
+    "descripcion": "🔥 SPIDERMAN STRETCH ROTATION — Estocada con rotación para abrir cadera y espalda alta\n\n¿Salís del WOD con la cadera dura y el pecho cerrado? Esta estocada con rotación abre glúteo, cadera y espalda alta en un solo movimiento. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Adelantá bien un pie, bajá la cadera y apoyá la mano del mismo lado en el piso, junto al pie.\n2️⃣ Girá el pecho y levantá el brazo libre hacia el techo, abriendo el pecho.\n3️⃣ Seguí la mano con la mirada y estirá la rodilla de atrás: sentís el glúteo y la cadera.\n4️⃣ Volvé al centro y repetí hacia el otro lado, alternando.\n\n✅ CLAVES DE TÉCNICA\n• Talón del pie de adelante bien apoyado\n• Rodilla de atrás estirada y cadera baja\n• Girás desde la espalda alta, no desde la lumbar\n• La mirada sigue a la mano que sube\n• Movimiento lento, respirando en la rotación\n\n🎯 QUÉ TRABAJA\nGlúteo mayor · Bíceps femoral · Recto abdominal\n\n⏱️ CUÁNTO\n30 segundos alternando lados. Ideal en la entrada en calor, antes de sentadillas o carreras.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi sentís molestia en la rodilla de adelante, hacé un paso más corto y un rango de rotación menor, con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #SpidermanStretch #Movilidad #Entrenamiento"
+  }
+}

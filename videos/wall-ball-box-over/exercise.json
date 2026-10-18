@@ -1,0 +1,481 @@
+{
+  "slug": "wall-ball-box-over",
+  "name": "Wall Ball Box Over",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Piernas",
+    "Hombros",
+    "Cardio"
+  ],
+  "descripcion": "Sosteniendo una pelota wall ball contra el pecho, saltar o pasar lateralmente por encima de un cajón aterrizando del otro lado con ambos pies. Volver a saltar el cajón en sentido contrario.",
+  "revisado": false,
+  "notas": "Pelota al pecho con grip IK (hb 1) + prop wallball (wall:false). Salto sobre el cajón (prop box) moviendo la cadera sobre él; aterrizaje con rodillas semiflexionadas.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 480,
+    "y": 1500,
+    "scale": 0.68
+  },
+  "props": [
+    {
+      "type": "box",
+      "x0": 40,
+      "x1": 300,
+      "h": 280
+    },
+    {
+      "type": "wallball",
+      "wall": false,
+      "r": 56,
+      "off": [
+        34,
+        -34
+      ]
+    }
+  ],
+  "pronuncia": {
+    "Wall Ball Box Over": "Uol bol baks óuver",
+    "box over": "baks óuver"
+  },
+  "initialPose": "STAND_L",
+  "poses": {
+    "STAND_L": {
+      "hip": [
+        -250,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "ed": 1,
+      "hb": 1,
+      "hx": 70,
+      "hy": 150
+    },
+    "LOAD_L": {
+      "hip": [
+        -250,
+        -392
+      ],
+      "s": 26,
+      "t": -52,
+      "b": 6,
+      "hd": 2,
+      "g": 1,
+      "ed": 1,
+      "hb": 1,
+      "hx": 70,
+      "hy": 150
+    },
+    "HOP": {
+      "hip": [
+        170,
+        -690
+      ],
+      "s": 44,
+      "t": -62,
+      "s2": 40,
+      "t2": -58,
+      "b": 8,
+      "hd": 4,
+      "g": 1,
+      "ed": 1,
+      "hb": 1,
+      "hx": 70,
+      "hy": 150
+    },
+    "LAND_R": {
+      "hip": [
+        560,
+        -360
+      ],
+      "s": 24,
+      "t": -58,
+      "b": 24,
+      "hd": 16,
+      "g": 1,
+      "ed": 1,
+      "hb": 1,
+      "hx": 70,
+      "hy": 150
+    },
+    "STAND_R": {
+      "hip": [
+        560,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "ed": 1,
+      "hb": 1,
+      "hx": 70,
+      "hy": 150
+    },
+    "LOAD_R": {
+      "hip": [
+        560,
+        -392
+      ],
+      "s": 26,
+      "t": -52,
+      "b": 6,
+      "hd": 2,
+      "g": 1,
+      "ed": 1,
+      "hb": 1,
+      "hx": 70,
+      "hy": 150
+    },
+    "LAND_L": {
+      "hip": [
+        -250,
+        -360
+      ],
+      "s": 24,
+      "t": -58,
+      "b": 24,
+      "hd": 16,
+      "g": 1,
+      "ed": 1,
+      "hb": 1,
+      "hx": 70,
+      "hy": 150
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "WALL BALL",
+        "BOX OVER"
+      ],
+      "vo": "Wall Ball Box Over: con el balón al pecho, saltás el cajón de un lado al otro sin soltarlo. Potencia y cardio.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "STAND_L",
+              0.5
+            ],
+            [
+              "LOAD_L",
+              0.35
+            ],
+            [
+              "HOP",
+              0.4
+            ],
+            [
+              "LAND_R",
+              0.4
+            ],
+            [
+              "STAND_R",
+              0.5
+            ],
+            [
+              "LOAD_R",
+              0.35
+            ],
+            [
+              "HOP",
+              0.4
+            ],
+            [
+              "LAND_L",
+              0.4
+            ],
+            [
+              "STAND_L",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BALÓN",
+        "AL PECHO"
+      ],
+      "sub": "Pies juntos, al lado del cajón",
+      "vo": "Parate al lado del cajón con los pies juntos y la pelota firme contra el pecho, con los codos abajo.",
+      "moves": [
+        {
+          "cut": "STAND_L",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            356,
+            1000
+          ],
+          "text": "BALÓN FIRME",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "CARGÁ",
+        "Y SALTÁ"
+      ],
+      "sub": "Con los dos pies",
+      "vo": "Paso uno. Hacé una flexión corta de rodillas y saltá con los dos pies a la vez, con el balón pegado al pecho.",
+      "moves": [
+        {
+          "cut": "STAND_L",
+          "at": 0
+        },
+        {
+          "to": "LOAD_L",
+          "at": 0.5,
+          "dur": 0.4
+        },
+        {
+          "to": "HOP",
+          "at": 1.1,
+          "dur": 0.4,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            760,
+            1160
+          ],
+          "to": [
+            760,
+            900
+          ],
+          "at": 0.6,
+          "dur": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            892
+          ],
+          "text": "DOS PIES",
+          "anchor": "end",
+          "at": 1.3
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "PASÁ",
+        "EL CAJÓN"
+      ],
+      "sub": "Por encima, sin soltar el balón",
+      "vo": "Paso dos. Pasá por encima del cajón con los dos pies y la pelota siempre contra el pecho.",
+      "moves": [
+        {
+          "cut": "LOAD_L",
+          "at": 0
+        },
+        {
+          "to": "HOP",
+          "at": 0.4,
+          "dur": 0.35,
+          "ease": "power2.out"
+        },
+        {
+          "to": "LAND_R",
+          "at": 0.95,
+          "dur": 0.4,
+          "ease": "power2.in"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            470,
+            620
+          ],
+          "text": "PASÁ EL CAJÓN",
+          "anchor": "middle",
+          "at": 0.7
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ATERRIZÁ",
+        "SUAVE"
+      ],
+      "sub": "Rodillas flexionadas",
+      "vo": "Paso tres. Caé con los dos pies y las rodillas semiflexionadas para absorber el golpe, sin soltar la pelota.",
+      "moves": [
+        {
+          "cut": "HOP",
+          "at": 0
+        },
+        {
+          "to": "LAND_R",
+          "at": 0.4,
+          "dur": 0.4,
+          "ease": "power2.in"
+        },
+        {
+          "to": "STAND_R",
+          "at": 1.0,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "LAND_R.K",
+            "dx": 40,
+            "dy": 0
+          },
+          "r": 58,
+          "at": 0.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1240
+          ],
+          "text": "RODILLAS SUAVES",
+          "anchor": "end",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Balón firme contra el pecho",
+        "Saltá con los dos pies",
+        "Aterrizá con rodillas suaves",
+        "No sueltes el balón"
+      ],
+      "vo": "Claves: el balón firme contra el pecho, salto con los dos pies, aterrizaje con rodillas suaves y sin soltar la pelota.",
+      "moves": [
+        {
+          "cut": "STAND_L",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "14 REPS"
+      ],
+      "sub": "Con balón de 9 kg",
+      "vo": "Catorce repeticiones con un balón de nueve kilos: un salto al lado, otro de vuelta, y así hasta completarlas.",
+      "chips": [
+        {
+          "label": "1 · CARGÁ",
+          "at": 0.4
+        },
+        {
+          "label": "2 · PASÁ",
+          "at": 1.4
+        },
+        {
+          "label": "3 · ATERRIZÁ",
+          "at": 2.6
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "LOAD_L",
+              0.35
+            ],
+            [
+              "HOP",
+              0.4
+            ],
+            [
+              "LAND_R",
+              0.4
+            ],
+            [
+              "LOAD_R",
+              0.35
+            ],
+            [
+              "HOP",
+              0.4
+            ],
+            [
+              "LAND_L",
+              0.4
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "HOP",
+    "grip": 1,
+    "zoom": 1.1,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Wall Ball Box Over 🤾 Salto sobre el cajón con balón paso a paso | CrossFit",
+    "tags": [
+      "wall ball box over",
+      "box over",
+      "salto sobre el cajón",
+      "wall ball",
+      "balón medicinal",
+      "box jump",
+      "saltar el cajón",
+      "crossfit",
+      "wod",
+      "pliométrico",
+      "cardio",
+      "aterrizaje"
+    ],
+    "descripcion": "🤾 WALL BALL BOX OVER — Saltá el cajón de un lado al otro sin soltar el balón\n\n¿Llegás al box over y se te escapa la pelota o caés duro? Con el balón firme y un aterrizaje que absorbe, pasás el cajón en cada salto. Este video es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate al lado del cajón con los pies juntos y la pelota firme contra el pecho, con los codos abajo.\n2️⃣ Hacé una flexión corta de rodillas y saltá con los dos pies a la vez, con el balón pegado al pecho.\n3️⃣ Pasá por encima del cajón con los dos pies y la pelota siempre contra el pecho.\n4️⃣ Caé con los dos pies y las rodillas semiflexionadas para absorber el golpe.\n5️⃣ Volvé a saltar el cajón en sentido contrario. Y así todo el WOD.\n\n✅ CLAVES DE TÉCNICA\n• La pelota se mantiene firme contra el pecho, sin soltarla\n• Saltá siempre con los dos pies a la vez\n• Pasá el cajón completo antes de bajar\n• Aterrizá con las rodillas semiflexionadas para absorber\n• Coordiná el salto sin perder el control del balón\n\n🎯 QUÉ TRABAJA\nRecto femoral · Deltoides anterior · Glúteo mayor · Recto abdominal · Pantorrillas\n\n⏱️ CUÁNTO\n14 repeticiones con balón de 9 kg (cada salto al lado y de vuelta suma). Movimiento de potencia para el WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi te cuesta el salto, empezá pasando el cajón caminando al lado y con un balón liviano, y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #WallBallBoxOver #Salto #Entrenamiento"
+  }
+}
