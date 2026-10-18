@@ -1,0 +1,427 @@
+{
+  "slug": "dumbbell-overhead-hold",
+  "name": "Dumbbell Overhead Hold",
+  "category": "CROSSFIT · ACCESORIO",
+  "tags": [
+    "Hombros",
+    "Core",
+    "Isométrico"
+  ],
+  "descripcion": "De pie con dos mancuernas extendidas sobre la cabeza. Mantener la posición con el core activo, hombros estables y codos bloqueados.",
+  "revisado": false,
+  "notas": "Isometría overhead: mismas convenciones de brazos que dumbbell-push-press (rack ua 14/fa 160, bloqueo ua 180/fa 0) con mancuernas de costado (side). Error tipico: codos sin bloquear y lumbar arqueada.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1509,
+    "scale": 0.7
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "hand": "far",
+      "side": true,
+      "r": 40
+    },
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "side": true,
+      "r": 40
+    }
+  ],
+  "pronuncia": {
+    "Dumbbell Overhead Hold": "dambel ouverjed jold",
+    "Overhead": "ouverjed"
+  },
+  "initialPose": "RACK",
+  "poses": {
+    "RACK": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 14,
+      "fa": 160,
+      "ua2": 10,
+      "fa2": 164
+    },
+    "PRESS": {
+      "s": 2,
+      "t": -6,
+      "b": 2,
+      "hd": 2,
+      "g": 0,
+      "ua": 96,
+      "fa": 74,
+      "ua2": 92,
+      "fa2": 78
+    },
+    "LOCK": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 6,
+      "g": 0,
+      "ua": 180,
+      "fa": 0,
+      "ua2": 178,
+      "fa2": 0
+    },
+    "TENSE": {
+      "s": 0,
+      "t": 0,
+      "b": 1,
+      "hd": 5,
+      "g": 0,
+      "ua": 178,
+      "fa": 2,
+      "ua2": 177,
+      "fa2": 2
+    },
+    "ELBOW_BAD": {
+      "s": 0,
+      "t": 2,
+      "b": 2,
+      "hd": 4,
+      "g": 0,
+      "ua": 120,
+      "fa": 60,
+      "ua2": 116,
+      "fa2": 64
+    },
+    "ARCH_BAD": {
+      "s": 6,
+      "t": 12,
+      "b": -18,
+      "hd": -12,
+      "g": 0,
+      "ua": 168,
+      "fa": 0,
+      "ua2": 166,
+      "fa2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACCESORIO",
+      "head": [
+        "OVERHEAD",
+        "HOLD"
+      ],
+      "vo": "Dumbbell Overhead Hold: con dos mancuernas extendidas sobre la cabeza, aguantás la posición sin moverte. Hombros estables, core firme y codos bloqueados.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "LOCK",
+              1.6
+            ],
+            [
+              "RACK",
+              1.3
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "MANCUERNAS",
+        "A LOS HOMBROS"
+      ],
+      "sub": "Codos abajo, agarre firme",
+      "vo": "Parate derecho con una mancuerna en cada mano a la altura de los hombros, con los codos abajo y el core activo.",
+      "moves": [
+        {
+          "cut": "RACK",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            900
+          ],
+          "text": "CODO ABAJO",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "EMPUJÁ",
+        "Y BLOQUEÁ"
+      ],
+      "sub": "Brazos extendidos sobre la cabeza",
+      "vo": "Paso uno. Empujá las mancuernas hacia arriba hasta extender los brazos por completo, con los codos bloqueados y las mancuernas sobre la línea de los hombros.",
+      "moves": [
+        {
+          "cut": "RACK",
+          "at": 0
+        },
+        {
+          "to": "PRESS",
+          "at": 0.5,
+          "dur": 0.9
+        },
+        {
+          "to": "LOCK",
+          "at": 1.6,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            470,
+            1180
+          ],
+          "to": [
+            470,
+            900
+          ],
+          "at": 2.4,
+          "dur": 0.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            378,
+            860
+          ],
+          "text": "SOBRE LOS HOMBROS",
+          "anchor": "end",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "AGUANTÁ",
+        "LA POSICIÓN"
+      ],
+      "sub": "Costillas abajo, glúteos firmes",
+      "vo": "Paso dos. Quedate ahí sin moverte. Meté las costillas para abajo y apretá los glúteos para no arquear la zona lumbar, y respirá sin perder la tensión.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "TENSE",
+              0.6
+            ],
+            [
+              "LOCK",
+              0.7
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1240
+          ],
+          "text": "COSTILLAS ABAJO",
+          "anchor": "end",
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            356,
+            1240
+          ],
+          "text": "GLÚTEOS FIRMES",
+          "anchor": "end",
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Codos sin bloquear y lumbar arqueada",
+      "vo": "Paso tres. Si dejás los codos flexionados las mancuernas se van hacia adelante y el hombro trabaja de más; y si arqueás la lumbar para sostenerlas, la espalda sufre. Evitalo.",
+      "moves": [
+        {
+          "cut": "LOCK",
+          "at": 0
+        },
+        {
+          "to": "ELBOW_BAD",
+          "at": 0.5,
+          "dur": 0.7
+        },
+        {
+          "to": "LOCK",
+          "at": 1.9,
+          "dur": 0.7
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 3.2,
+          "dur": 0.7
+        },
+        {
+          "to": "LOCK",
+          "at": 4.7,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            720
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0,
+          "out": 4.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1120
+          ],
+          "text": "CODO BLOQUEADO",
+          "anchor": "end",
+          "at": 1.2,
+          "out": 2.7
+        },
+        {
+          "type": "label",
+          "pos": [
+            356,
+            1120
+          ],
+          "text": "COSTILLAS ABAJO",
+          "anchor": "end",
+          "at": 3.5,
+          "out": 4.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Codos completamente bloqueados",
+        "Bíceps cerca de las orejas",
+        "Costillas abajo y glúteos firmes",
+        "Respirá sin perder la tensión"
+      ],
+      "vo": "Claves: los codos completamente bloqueados, los bíceps cerca de las orejas, las costillas abajo con los glúteos firmes para no arquear la lumbar, y respirá sin perder la tensión.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "TENSE",
+              0.7
+            ],
+            [
+              "LOCK",
+              0.8
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.4,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEG"
+      ],
+      "sub": "Con 17,5 kg",
+      "vo": "Treinta segundos con diecisiete kilos y medio. Si todavía te sobra, subí el peso la próxima vez antes que el tiempo.",
+      "chips": [
+        {
+          "label": "1 · SERIE",
+          "at": 0.5
+        },
+        {
+          "label": "2 · SERIE",
+          "at": 3.0
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "TENSE",
+              0.7
+            ],
+            [
+              "LOCK",
+              0.8
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "LOCK",
+    "grip": 0,
+    "zoom": 1.02,
+    "dy": 130
+  },
+  "youtube": {
+    "titulo": "Dumbbell Overhead Hold 💪 Hombros y core que aguantan el peso arriba | CrossFit",
+    "tags": [
+      "dumbbell overhead hold",
+      "sostén sobre la cabeza",
+      "isométrico de hombro",
+      "mancuernas sobre la cabeza",
+      "hombros",
+      "core",
+      "estabilidad",
+      "isometría",
+      "crossfit",
+      "accesorio",
+      "fuerza",
+      "overhead"
+    ],
+    "descripcion": "💪 DUMBBELL OVERHEAD HOLD — Aguantá el peso arriba y construí hombros a prueba de balas\n\n¿Se te va el peso hacia adelante cuando hacés press? El sostén sobre la cabeza entrena justo esa estabilidad: con las mancuernas arriba, sin moverte, el hombro y el core trabajan de lleno. Este video es para vos. 🏋️\n\n📋 PASO A PASO\n1️⃣ Parate derecho con una mancuerna en cada mano a la altura de los hombros.\n2️⃣ Empujá las mancuernas hacia arriba hasta extender los brazos por completo.\n3️⃣ Bloqueá los codos y dejá las mancuernas sobre la línea de los hombros, con los bíceps cerca de las orejas.\n4️⃣ Quedate ahí sin moverte: costillas abajo, glúteos firmes y core activo.\n5️⃣ Respirá sin perder la tensión. Si los codos quedan flexionados o arqueás la lumbar, el hombro y la espalda trabajan de más. Evitalo.\n\n✅ CLAVES DE TÉCNICA\n• Codos completamente bloqueados\n• Bíceps cerca de las orejas, mancuernas sobre los hombros\n• Costillas abajo y glúteos firmes (sin arquear la lumbar)\n• Respirá sin perder la tensión\n• Empezá con un peso que puedas sostener 30 segundos con buena forma\n\n🎯 QUÉ TRABAJA\nDeltoides anterior · Recto abdominal · Tríceps braquial\n\n⏱️ CUÁNTO\n30 segundos con 17,5 kg. Sumá series o peso a medida que mejora.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi sentís pinchazo o inestabilidad en el hombro, bajá el peso y el rango, y consultá con un coach o kinesiólogo.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Hombros #OverheadHold #Core #Entrenamiento"
+  }
+}

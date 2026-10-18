@@ -1,0 +1,421 @@
+{
+  "slug": "supine-figure-4-stretch",
+  "name": "Supine Figure-4 Stretch",
+  "category": "CROSSFIT · VUELTA A LA CALMA",
+  "tags": [
+    "Glúteos",
+    "Cadera",
+    "Movilidad"
+  ],
+  "descripcion": "Boca arriba, se cruza un tobillo sobre la rodilla contraria formando un 4 y se trae la pierna hacia el pecho. Libera la cadera después del trabajo de glúteos.",
+  "revisado": false,
+  "notas": "Supino: torso con b -90 y cadera en (0,-22). Pierna cercana (la del 4) con t/s explicitos de cadera para abajo; la pierna lejana se resuelve con IK de cadera al tobillo apoyado sobre la rodilla cercana. Las manos agarran el detras del muslo (objetivo por pose, g/g2).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 640,
+    "y": 1460,
+    "scale": 1.25
+  },
+  "pronuncia": {
+    "Supine Figure-4 Stretch": "supáin figure four strech",
+    "Figure-4": "figure four"
+  },
+  "initialPose": "FOUR",
+  "poses": {
+    "FOUR": {
+      "hip": [
+        0,
+        -22
+      ],
+      "s": -2.47,
+      "t": -149.97,
+      "s2": 148.66,
+      "t2": -92.71,
+      "ft": 0,
+      "ft2": 34,
+      "b": -90,
+      "hd": -92,
+      "g": 1,
+      "hx": 10,
+      "hy": -155,
+      "ed": -1,
+      "g2": 1,
+      "hx2": -20,
+      "hy2": -170,
+      "ed2": -1
+    },
+    "PULL": {
+      "hip": [
+        0,
+        -22
+      ],
+      "s": -6.99,
+      "t": -169.92,
+      "s2": 128.72,
+      "t2": -112.65,
+      "ft": 0,
+      "ft2": 34,
+      "b": -90,
+      "hd": -92,
+      "g": 1,
+      "hx": -36,
+      "hy": -150,
+      "ed": -1,
+      "g2": 1,
+      "hx2": -66,
+      "hy2": -165,
+      "ed2": -1
+    },
+    "NECK_BAD": {
+      "hip": [
+        0,
+        -22
+      ],
+      "s": -6.99,
+      "t": -169.92,
+      "s2": 128.72,
+      "t2": -112.65,
+      "ft": 0,
+      "ft2": 34,
+      "b": -90,
+      "hd": -66,
+      "g": 1,
+      "hx": -36,
+      "hy": -150,
+      "ed": -1,
+      "g2": 1,
+      "hx2": -66,
+      "hy2": -165,
+      "ed2": -1
+    },
+    "YANK_BAD": {
+      "hip": [
+        0,
+        -62
+      ],
+      "s": 22.59,
+      "t": -138.72,
+      "s2": 159.91,
+      "t2": -81.46,
+      "ft": 0,
+      "ft2": 34,
+      "b": -80,
+      "hd": -96,
+      "g": 1,
+      "hx": 36,
+      "hy": -190,
+      "ed": -1,
+      "g2": 1,
+      "hx2": 6,
+      "hy2": -205,
+      "ed2": -1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · VUELTA A LA CALMA",
+      "head": [
+        "SUPINE",
+        "FIGURE-4"
+      ],
+      "vo": "Supine Figure-4 Stretch: boca arriba, cruzás un tobillo sobre la rodilla contraria y traés la pierna al pecho. Ideal para soltar glúteos y cadera.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "FOUR",
+              1.6
+            ],
+            [
+              "PULL",
+              1.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BOCA",
+        "ARRIBA"
+      ],
+      "sub": "Un tobillo sobre la rodilla contraria",
+      "vo": "Acostate boca arriba y cruzá un tobillo sobre la rodilla de la otra pierna, formando un cuatro. La cabeza y la espalda quedan apoyadas en el piso.",
+      "moves": [
+        {
+          "cut": "FOUR",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            620,
+            1050
+          ],
+          "text": "TOBILLO SOBRE LA RODILLA",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "FORMÁ",
+        "EL 4"
+      ],
+      "sub": "La pierna de abajo flexionada",
+      "vo": "Paso uno. La pierna que queda abajo se flexiona con el pie apoyado en el piso, y el tobillo de la otra cruza bien sobre la rodilla. Ahí se arma el cuatro.",
+      "moves": [
+        {
+          "to": "FOUR",
+          "at": 0.5,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            790,
+            1173
+          ],
+          "r": 56,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            620,
+            950
+          ],
+          "text": "UN 4 CON LAS PIERNAS",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "TRAÉ LA PIERNA",
+        "AL PECHO"
+      ],
+      "sub": "Tracción suave, sin violencia",
+      "vo": "Paso dos. Llevá las manos detrás del muslo y traé la pierna hacia el pecho con una tracción suave. Vas a sentir el estiramiento en el glúteo de la pierna cruzada.",
+      "moves": [
+        {
+          "cut": "FOUR",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.6,
+          "dur": 1.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            880,
+            1300
+          ],
+          "to": [
+            620,
+            1300
+          ],
+          "at": 1.9,
+          "dur": 0.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            620,
+            1020
+          ],
+          "text": "TRACCIÓN SUAVE",
+          "anchor": "middle",
+          "at": 2.1
+        }
+      ]
+    },
+    {
+      "min": 6.2,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Cuello suelto y sin tirar",
+      "vo": "Paso tres. Si levantás la cabeza haciendo fuerza con el cuello, o tirás de la pierna de golpe despegando la espalda del piso, no estirás mejor: cargás el cuello y la lumbar. Evitalo.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "NECK_BAD",
+          "at": 0.5,
+          "dur": 0.7
+        },
+        {
+          "to": "PULL",
+          "at": 1.8,
+          "dur": 0.7
+        },
+        {
+          "to": "YANK_BAD",
+          "at": 3.1,
+          "dur": 0.7
+        },
+        {
+          "to": "PULL",
+          "at": 4.6,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            620,
+            720
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0,
+          "out": 4.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            620,
+            900
+          ],
+          "text": "CUELLO RELAJADO",
+          "anchor": "middle",
+          "at": 1.2,
+          "out": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            620,
+            900
+          ],
+          "text": "ESPALDA EN EL PISO",
+          "anchor": "middle",
+          "at": 3.4,
+          "out": 4.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Cabeza y espalda apoyadas, cuello suelto",
+        "El tobillo bien cruzado sobre la rodilla",
+        "Tracción suave y sostenida, sin rebotes",
+        "Respirá y aflojá con cada exhalación"
+      ],
+      "vo": "Claves: la cabeza y la espalda apoyadas, con el cuello suelto; el tobillo bien cruzado sobre la rodilla; la tracción suave y sostenida, sin rebotes; y respirá soltando con cada exhalación.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "FOUR",
+              1.5
+            ],
+            [
+              "PULL",
+              1.5
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.4,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEG",
+        "POR LADO"
+      ],
+      "sub": "Cambiá de pierna",
+      "vo": "Treinta segundos por lado. Cambiá la pierna cruzada y trabajá el otro glúteo. Va después de entrenar o en la vuelta a la calma.",
+      "chips": [
+        {
+          "label": "1 · DERECHA",
+          "at": 0.5
+        },
+        {
+          "label": "2 · IZQUIERDA",
+          "at": 3.0
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "PULL",
+              2.4
+            ],
+            [
+              "FOUR",
+              1.6
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "PULL",
+    "grip": 1,
+    "zoom": 1.0,
+    "dy": -120
+  },
+  "youtube": {
+    "titulo": "Supine Figure-4 Stretch 🍑 Cómo soltar glúteo y cadera boca arriba | Movilidad",
+    "tags": [
+      "supine figure 4 stretch",
+      "estiramiento de glúteo",
+      "figura 4",
+      "piriforme",
+      "glúteo",
+      "movilidad de cadera",
+      "estiramiento boca arriba",
+      "post-entreno",
+      "movilidad",
+      "crossfit",
+      "vuelta a la calma",
+      "cadera"
+    ],
+    "descripcion": "🍑 SUPINE FIGURE-4 STRETCH — El estiramiento de glúteo que se hace acostado\n\n¿Tenés el glúteo cargado después de sentadillas o peso muerto? Este estiramiento se hace boca arriba, en cualquier piso, y suelta la cadera en un minuto. Este video es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Acostate boca arriba con la cabeza y la espalda bien apoyadas en el piso.\n2️⃣ Flexioná la pierna de abajo con el pie apoyado, y cruzá el tobillo de la otra sobre esa rodilla: se forma un 4.\n3️⃣ Llevá las manos detrás del muslo de la pierna de abajo.\n4️⃣ Traé la pierna hacia el pecho con una tracción suave y sostenida: ahí estira el glúteo de la pierna cruzada.\n5️⃣ Si levantás la cabeza haciendo fuerza con el cuello o tirás de golpe despegando la espalda, no estirás mejor: cargás cuello y lumbar. Evitalo.\n\n✅ CLAVES DE TÉCNICA\n• Cabeza y espalda apoyadas, con el cuello suelto\n• El tobillo bien cruzado sobre la rodilla contraria\n• Tracción suave y sostenida, sin rebotes\n• Respirá profundo y aflojá con cada exhalación\n• Hacé los dos lados: el glúteo más duro necesita más tiempo\n\n🎯 QUÉ TRABAJA\nGlúteo mayor · Bíceps femoral · Recto abdominal\n\n⏱️ CUÁNTO\n30 segundos por lado. Va en la vuelta a la calma o al final del día.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi sentís dolor en la cadera o en la rodilla, bajá el rango y no fuerces la tracción, y consultá con un coach o kinesiólogo.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Movilidad #Gluteo #Cadera #Entrenamiento"
+  }
+}

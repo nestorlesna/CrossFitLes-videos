@@ -5,7 +5,7 @@ La lista y su orden salen de `ejercicios/ejercicios.csv`; el estado, de `ejercic
 `videos/<clave>/.pipeline.json` y `salida/`. Para aprobar un video: `"revisado": true` en su JSON; las notas salen de `"notas"`.
 Subido = el .mp4 está en `salida/subidos/` (se mueve a mano después de publicarlo en YouTube).
 
-**Renderizados:** 87 / 328 · **Fichas:** 87 · **Descripción YouTube:** 87 · **Subidos:** 13 · **Próximo:** 87 · Supine Figure-4 Stretch
+**Renderizados:** 89 / 328 · **Fichas:** 89 · **Descripción YouTube:** 89 · **Subidos:** 13 · **Próximo:** 89 · Single-Leg Calf Raise
 
 | # | Ejercicio | Implemento | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Revisado | Subido | Fecha render | Notas |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -96,8 +96,8 @@ Subido = el .mp4 está en `salida/subidos/` (se mueve a mano después de publica
 | 84 | Isometric Lunge | Mancuernas | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/isometric-lunge.youtube.txt) | [✅](salida/isometric-lunge.miniatura.png) | 56.6 s | [OC_isometric-lunge.mp4](salida/OC_isometric-lunge.mp4) | ⬜ | ⬜ | 2026-10-18 | Misma geometría de zancada que weighted-lunge (rx 290). La isometría se lee con una oscilación mínima (LUNGE/TENSE en loop). Mancuernas de costado (prop dumbbell near/far). |
 | 85 | Kettlebell Ankle Mobility Drill | Kettlebell | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/kettlebell-ankle-mobility-drill.youtube.txt) | [✅](salida/kettlebell-ankle-mobility-drill.miniatura.png) | 60.5 s | [OC_kettlebell-ankle-mobility-drill.mp4](salida/OC_kettlebell-ankle-mobility-drill.mp4) | ⬜ | ⬜ | 2026-10-18 | Medio-arrodillado: pierna delantera (cercana) resuelta con IK a pie fijo en (250,-0.5); rodilla trasera en el piso recalculando t2 por pose, con la canilla tendida hacia atrás (s2 ~96). Kettlebell estática como referencia de distancia (prop static en x 420). |
 | 86 | Doorway Chest Stretch | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/doorway-chest-stretch.youtube.txt) | [✅](salida/doorway-chest-stretch.miniatura.png) | 58.3 s | [OC_doorway-chest-stretch.mp4](salida/OC_doorway-chest-stretch.mp4) | ⬜ | ⬜ | 2026-10-18 | Marco de puerta como pared vertical (prop wall en x 250). El antebrazo queda apoyado: la mano se fija con grip IK en (250,-880) y el cuerpo se aleja con rx negativo (el pie acompaña). Errores: codo por encima del hombro (hy más alto) y tronco caído adelante. |
-| 87 | Supine Figure-4 Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 88 | Dumbbell Overhead Hold | Mancuernas | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
+| 87 | Supine Figure-4 Stretch | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/supine-figure-4-stretch.youtube.txt) | [✅](salida/supine-figure-4-stretch.miniatura.png) | 61.6 s | [OC_supine-figure-4-stretch.mp4](salida/OC_supine-figure-4-stretch.mp4) | ⬜ | ⬜ | 2026-10-18 | Supino: torso con b -90 y cadera en (0,-22). Pierna cercana (la del 4) con t/s explicitos de cadera para abajo; la pierna lejana se resuelve con IK de cadera al tobillo apoyado sobre la rodilla cercana. Las manos agarran el detras del muslo (objetivo por pose, g/g2). |
+| 88 | Dumbbell Overhead Hold | Mancuernas | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/dumbbell-overhead-hold.youtube.txt) | [✅](salida/dumbbell-overhead-hold.miniatura.png) | 58.3 s | [OC_dumbbell-overhead-hold.mp4](salida/OC_dumbbell-overhead-hold.mp4) | ⬜ | ⬜ | 2026-10-18 | Isometría overhead: mismas convenciones de brazos que dumbbell-push-press (rack ua 14/fa 160, bloqueo ua 180/fa 0) con mancuernas de costado (side). Error tipico: codos sin bloquear y lumbar arqueada. |
 | 89 | Single-Leg Calf Raise | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
 | 90 | Tibialis Raise | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
 | 91 | Bar Pull Up | Pull-up bar | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
