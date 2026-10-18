@@ -1,0 +1,427 @@
+{
+  "slug": "alternating-90-90-into-shin-box",
+  "name": "Alternating 90/90 Into Shin Box",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Cadera",
+    "Glúteos",
+    "Movilidad"
+  ],
+  "descripcion": "Sentado en el suelo con la espalda recta, alternar entre la posición 90/90 (ambas piernas en ángulo recto, una adelante y otra al costado) y la posición shin box (tibias cruzadas), rotando la cadera de un lado al otro.",
+  "revisado": false,
+  "notas": "Sentado de costado las piernas se ven con escorzo (lr y ll); el cambio de lado 90/90 ↔ shin box se ve en la tarjeta 'vista de arriba' (topview mode 9090).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 520,
+    "y": 1504,
+    "scale": 0.86
+  },
+  "initialPose": "NINETY",
+  "poses": {
+    "NINETY": {
+      "hip": [
+        -60,
+        0
+      ],
+      "ankle": [
+        110,
+        95
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": -250,
+      "hy": 15,
+      "ed": -1,
+      "ft": 20,
+      "lr": 80,
+      "s2": 60,
+      "t2": 178
+    },
+    "NINETY_TALL": {
+      "hip": [
+        -60,
+        0
+      ],
+      "ankle": [
+        110,
+        95
+      ],
+      "b": 6,
+      "hd": 2,
+      "g": 1,
+      "hx": -240,
+      "hy": 15,
+      "ed": -1,
+      "ft": 20,
+      "lr": 80,
+      "s2": 60,
+      "t2": 178
+    },
+    "MID": {
+      "hip": [
+        -60,
+        0
+      ],
+      "ankle": [
+        200,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": -250,
+      "hy": 15,
+      "ed": -1,
+      "ft": 0,
+      "lr": 30
+    },
+    "KNEES_UP": {
+      "hip": [
+        -60,
+        0
+      ],
+      "ankle": [
+        200,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": -250,
+      "hy": 15,
+      "ed": -1,
+      "ft": 0
+    },
+    "SHIN_BOX": {
+      "hip": [
+        -60,
+        0
+      ],
+      "ankle": [
+        60,
+        120
+      ],
+      "b": 6,
+      "hd": 2,
+      "g": 1,
+      "hx": -240,
+      "hy": 15,
+      "ed": -1,
+      "ft": 30,
+      "lr": 88,
+      "s2": 84,
+      "t2": 170
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "90/90 AL",
+        "SHIN BOX"
+      ],
+      "vo": "Pasar de 90/90 a shin box: la cadera gira de un lado al otro, activa y sin forzar. Movilidad que se siente en la sentadilla.",
+      "topview": {
+        "mode": "9090",
+        "label": "CAMBIÁ DE LADO"
+      },
+      "moves": [
+        {
+          "to": "NINETY_TALL",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "MID",
+              0.6
+            ],
+            [
+              "KNEES_UP",
+              0.5
+            ],
+            [
+              "MID",
+              0.5
+            ],
+            [
+              "NINETY_TALL",
+              0.8
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "RODILLAS",
+        "A 90°"
+      ],
+      "sub": "Una adelante, otra al costado",
+      "topview": {
+        "mode": "9090",
+        "label": "90/90"
+      },
+      "vo": "Sentate en el piso con la espalda recta y las dos rodillas a noventa grados: una pierna adelante y la otra al costado.",
+      "moves": [
+        {
+          "cut": "NINETY",
+          "at": 0
+        },
+        {
+          "to": "NINETY_TALL",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            300,
+            1120
+          ],
+          "text": "ESPALDA RECTA",
+          "anchor": "start",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "PECHO",
+        "ALTO"
+      ],
+      "sub": "La cadera lidera",
+      "topview": {
+        "mode": "9090",
+        "label": "PECHO ALTO"
+      },
+      "vo": "Paso uno. Apoyá las manos atrás si lo necesitás y llevá el pecho bien alto, con la espalda recta.",
+      "moves": [
+        {
+          "cut": "NINETY",
+          "at": 0
+        },
+        {
+          "to": "NINETY_TALL",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "PASÁ A",
+        "SHIN BOX"
+      ],
+      "sub": "Las tibias se cruzan",
+      "topview": {
+        "mode": "9090",
+        "at": 0.6,
+        "dur": 2.2,
+        "label": "SHIN BOX"
+      },
+      "vo": "Paso dos. Levantá las rodillas y llevalas al otro lado hasta cruzar las tibias: esa es la posición shin box.",
+      "moves": [
+        {
+          "cut": "NINETY_TALL",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 0.7
+        },
+        {
+          "to": "KNEES_UP",
+          "at": 1.4,
+          "dur": 0.5
+        },
+        {
+          "to": "SHIN_BOX",
+          "at": 2.0,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "VOLVÉ AL",
+        "OTRO LADO"
+      ],
+      "sub": "Ida y vuelta, activo",
+      "topview": {
+        "mode": "9090",
+        "at": 0.6,
+        "dur": 2.6,
+        "from": -1,
+        "label": "Y VOLVÉ"
+      },
+      "vo": "Paso tres. Volvé al primer lado y repetí. El movimiento lo hacen tus músculos: activo, controlado, sin forzar.",
+      "moves": [
+        {
+          "cut": "SHIN_BOX",
+          "at": 0
+        },
+        {
+          "to": "KNEES_UP",
+          "at": 0.6,
+          "dur": 0.6
+        },
+        {
+          "to": "MID",
+          "at": 1.3,
+          "dur": 0.6
+        },
+        {
+          "to": "NINETY_TALL",
+          "at": 2.0,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Espalda recta",
+        "Rodillas a 90°",
+        "Movimiento activo",
+        "Sin forzar"
+      ],
+      "vo": "Claves: espalda recta, rodillas siempre a noventa grados, movimiento activo y sin forzar el rango.",
+      "moves": [
+        {
+          "cut": "NINETY_TALL",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "MID",
+              0.6
+            ],
+            [
+              "KNEES_UP",
+              0.5
+            ],
+            [
+              "MID",
+              0.5
+            ],
+            [
+              "NINETY_TALL",
+              0.8
+            ]
+          ],
+          "at": 0.7,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEG"
+      ],
+      "sub": "De lado a lado",
+      "vo": "Treinta segundos alternando lados. Ideal en la entrada en calor, antes de la sentadilla.",
+      "chips": [
+        {
+          "label": "1 · PECHO ALTO",
+          "at": 0.5
+        },
+        {
+          "label": "2 · SHIN BOX",
+          "at": 1.4
+        },
+        {
+          "label": "3 · AL OTRO LADO",
+          "at": 2.3
+        }
+      ],
+      "moves": [
+        {
+          "cut": "NINETY_TALL",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "MID",
+              0.6
+            ],
+            [
+              "KNEES_UP",
+              0.5
+            ],
+            [
+              "MID",
+              0.5
+            ],
+            [
+              "NINETY_TALL",
+              0.8
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "NINETY_TALL",
+    "grip": 1,
+    "zoom": 1.15,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "90/90 a Shin Box 🔥 Movilidad de cadera para tu sentadilla paso a paso | CrossFit",
+    "tags": [
+      "90/90",
+      "shin box",
+      "movilidad de cadera",
+      "rotación de cadera",
+      "90 90 hip rotation",
+      "entrada en calor",
+      "glúteos",
+      "aductor",
+      "movilidad para sentadilla",
+      "hip mobility",
+      "crossfit",
+      "calentamiento"
+    ],
+    "descripcion": "🔥 90/90 A SHIN BOX — Movilidad de cadera para una sentadilla más profunda\n\n¿Sentís la cadera dura, no llegás abajo en la sentadilla o se te cierran las rodillas? Pasar de 90/90 a shin box trabaja la rotación de cadera de forma activa. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Sentate en el piso con la espalda recta y las rodillas a noventa grados: una pierna adelante, otra al costado.\n2️⃣ Apoyá las manos atrás si lo necesitás y llevá el pecho bien alto.\n3️⃣ Levantá las rodillas y llevalas al otro lado hasta cruzar las tibias (shin box).\n4️⃣ Volvé al primer lado y repetí alternando, activo y sin forzar.\n5️⃣ Hacé treinta segundos de lado a lado.\n\n✅ CLAVES DE TÉCNICA\n• Espalda recta\n• Rodillas a 90°\n• Movimiento activo\n• Sin forzar\n\n🎯 QUÉ TRABAJA\nGlúteo mayor · Glúteo medio · Aductores · Isquiotibiales · Movilidad de cadera\n\n⏱️ CUÁNTO\n30 segundos (o 6 a 8 cambios por lado). Va en la entrada en calor, antes de sentadillas y levantamientos.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #9090ShinBox #Cadera #Entrenamiento"
+  },
+  "pronuncia": {
+    "Alternating 90/90 Into Shin Box": "Alternéiting noventá noventá intu shin boks",
+    "90/90": "noventa noventa",
+    "shin box": "shin boks"
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "slug": "band-pass-through",
+  "name": "Band Pass-Through",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Hombros",
+    "Movilidad",
+    "Activación"
+  ],
+  "descripcion": "De pie con una banda elástica tomada con agarre ancho, pasar los brazos extendidos desde adelante, por encima de la cabeza, hasta la espalda, y volver. Movilidad activa de hombro.",
+  "revisado": false,
+  "notas": "De costado: los brazos trazan el arco adelante→arriba→atrás (ua 96→176→262). La banda va anclada arriba-detrás de la cabeza, a los dos manos.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 560,
+    "y": 1500,
+    "scale": 0.78
+  },
+  "initialPose": "FRONT",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 8,
+      "fa": 8
+    },
+    "FRONT": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 96,
+      "fa": 0,
+      "ua2": 96,
+      "fa2": 0
+    },
+    "OVER": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 176,
+      "fa": 0,
+      "ua2": 176,
+      "fa2": 0
+    },
+    "BACK": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 262,
+      "fa": 0,
+      "ua2": 262,
+      "fa2": 0
+    },
+    "ELBOW_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 96,
+      "fa": 46,
+      "ua2": 96,
+      "fa2": 46
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "BAND",
+        "PASS-THROUGH"
+      ],
+      "vo": "Band Pass-Through: la banda que te devuelve movilidad de hombro. Pasar y volver, sin tirones.",
+      "moves": [
+        {
+          "to": "FRONT",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "FRONT",
+              0.7
+            ],
+            [
+              "OVER",
+              0.7
+            ],
+            [
+              "BACK",
+              0.7
+            ],
+            [
+              "OVER",
+              0.7
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BRAZOS",
+        "AL FRENTE"
+      ],
+      "sub": "Agarre bien ancho",
+      "vo": "Parate con la banda tomada bien ancha y los brazos extendidos al frente, a la altura del pecho.",
+      "moves": [
+        {
+          "cut": "FRONT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            800,
+            1120
+          ],
+          "text": "AGARRE ANCHO",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SUBÍ",
+        "POR ARRIBA"
+      ],
+      "sub": "Codos bien rectos",
+      "vo": "Paso uno. Subí los brazos extendidos por encima de la cabeza, sin doblar los codos.",
+      "moves": [
+        {
+          "cut": "FRONT",
+          "at": 0
+        },
+        {
+          "to": "OVER",
+          "at": 0.6,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            800,
+            1060
+          ],
+          "text": "CODO RECTO",
+          "anchor": "middle",
+          "at": 1.5
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "SEGUÍ",
+        "HASTA ATRÁS"
+      ],
+      "sub": "Detrás de la cabeza",
+      "vo": "Paso dos. Seguí el arco hasta llevar la banda detrás de la cabeza, sin forzar el hombro.",
+      "moves": [
+        {
+          "cut": "OVER",
+          "at": 0
+        },
+        {
+          "to": "BACK",
+          "at": 0.6,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            800,
+            1060
+          ],
+          "text": "SIN DOLOR",
+          "anchor": "middle",
+          "at": 1.5
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "VOLVÉ",
+        "IGUAL"
+      ],
+      "sub": "Lento, sin tirones",
+      "vo": "Paso tres. Volvé por el mismo camino, lento y controlando la banda. Los codos nunca se doblan.",
+      "moves": [
+        {
+          "cut": "BACK",
+          "at": 0
+        },
+        {
+          "to": "ELBOW_BAD",
+          "at": 1,
+          "dur": 0.5
+        },
+        {
+          "to": "FRONT",
+          "at": 2.6,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            800,
+            1060
+          ],
+          "text": "CODOS DOBLADOS NO",
+          "anchor": "middle",
+          "at": 1.2,
+          "out": 2.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Codos siempre extendidos",
+        "Agarre ancho",
+        "Sin tirones",
+        "Si duele, más ancho"
+      ],
+      "vo": "Claves: codos siempre extendidos, agarre ancho, sin tirones y si el hombro se cierra, ampliá el agarre.",
+      "moves": [
+        {
+          "cut": "FRONT",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "OVER",
+              0.7
+            ],
+            [
+              "BACK",
+              0.7
+            ],
+            [
+              "OVER",
+              0.7
+            ],
+            [
+              "FRONT",
+              0.7
+            ]
+          ],
+          "at": 0.7,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Ida y vuelta",
+      "vo": "Diez pasadas completas. Ideal en la entrada en calor, antes de cualquier WOD con press o dominadas.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.5
+        },
+        {
+          "label": "2 · ATRÁS",
+          "at": 1.4
+        },
+        {
+          "label": "3 · VOLVÉ",
+          "at": 2.3
+        }
+      ],
+      "moves": [
+        {
+          "cut": "FRONT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "FRONT",
+              0.7
+            ],
+            [
+              "OVER",
+              0.7
+            ],
+            [
+              "BACK",
+              0.7
+            ],
+            [
+              "OVER",
+              0.7
+            ]
+          ],
+          "at": 0.7,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "OVER",
+    "grip": 0,
+    "zoom": 1.05,
+    "dy": 160
+  },
+  "youtube": {
+    "titulo": "Band Pass-Through 🔥 Movilidad de hombro con banda paso a paso | CrossFit",
+    "tags": [
+      "band pass through",
+      "pass through",
+      "movilidad de hombro",
+      "banda elástica",
+      "hombro",
+      "deltoides posterior",
+      "manguito rotador",
+      "dislocate",
+      "rotación de hombro",
+      "entrada en calor",
+      "crossfit",
+      "activación"
+    ],
+    "descripcion": "🔥 BAND PASS-THROUGH — Movilidad de hombro y espalda alta con una banda elástica\n\n¿Sentís el hombro duro para colgar o hacer press? El pass-through abre el hombro de forma activa y en un minuto. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate con la banda tomada bien ancha y los brazos extendidos al frente, a la altura del pecho.\n2️⃣ Subí los brazos extendidos por encima de la cabeza, sin doblar los codos.\n3️⃣ Seguí el arco hasta llevar la banda detrás de la cabeza, sin forzar.\n4️⃣ Volvé por el mismo camino, lento y controlando la banda.\n5️⃣ Hacé diez pasadas completas con el torso quieto.\n\n✅ CLAVES DE TÉCNICA\n• Codos siempre extendidos\n• Agarre ancho\n• Sin tirones\n• Si duele, más ancho\n\n🎯 QUÉ TRABAJA\nDeltoides posterior · Deltoides lateral · Romboides · Trapecio medio · Movilidad de hombro\n\n⏱️ CUÁNTO\n10 repeticiones. Va en la entrada en calor, antes de press, dominadas o cualquier WOD con el hombro arriba.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi sentís dolor o pinchazo en el hombro, ampliá el agarre o hacelo con un rango más corto y consultalo.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #BandPassThrough #Hombros #Entrenamiento"
+  },
+  "pronuncia": {
+    "Band Pass-Through": "Band pás zru",
+    "pass-through": "pás zru"
+  },
+  "props": [
+    {
+      "type": "band",
+      "anchor": [
+        -180,
+        -1120
+      ],
+      "post": [
+        -300,
+        1240
+      ],
+      "hand": "both"
+    }
+  ]
+}

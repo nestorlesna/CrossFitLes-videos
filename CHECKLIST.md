@@ -5,7 +5,7 @@ La lista y su orden salen de `ejercicios/ejercicios.csv`; el estado, de `ejercic
 `videos/<clave>/.pipeline.json` y `salida/`. Para aprobar un video: `"revisado": true` en su JSON; las notas salen de `"notas"`.
 Subido = el .mp4 está en `salida/subidos/` (se mueve a mano después de publicarlo en YouTube).
 
-**Renderizados:** 99 / 328 · **Fichas:** 99 · **Descripción YouTube:** 99 · **Subidos:** 14 · **Próximo:** 99 · Band Pass-Through
+**Renderizados:** 104 / 328 · **Fichas:** 104 · **Descripción YouTube:** 104 · **Subidos:** 14 · **Próximo:** 104 · Barbell Bicep Curl
 
 | # | Ejercicio | Implemento | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Revisado | Subido | Fecha render | Notas |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -108,11 +108,11 @@ Subido = el .mp4 está en `salida/subidos/` (se mueve a mano después de publica
 | 96 | Band Pull-Apart | Banda elástica | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/band-pull-apart.youtube.txt) | [✅](salida/band-pull-apart.miniatura.png) | 46.5 s | [OC_band-pull-apart.mp4](salida/OC_band-pull-apart.mp4) | ⬜ | ⬜ | 2026-10-18 | De frente: brazos al frente a la altura del pecho (ua 50) que se abren a la altura de los hombros (ua 90) + tarjeta topview front. La banda va con hand both desde un ancla fija al frente. |
 | 97 | Dynamic Warm-Up | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/dynamic-warm-up.youtube.txt) | [✅](salida/dynamic-warm-up.miniatura.png) | 56.6 s | [OC_dynamic-warm-up.mp4](salida/OC_dynamic-warm-up.mp4) | ⬜ | ⬜ | 2026-10-18 | Tres bloques en un video: círculos de brazos con la tarjeta topview front (como arm-circles), sentadilla con {hip,ankle} y rodillas altas alternando (la pierna lejana con t2/s2 + 180). |
 | 98 | 4-6 Breathing | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/4-6-breathing.youtube.txt) | [✅](salida/4-6-breathing.miniatura.png) | 47.1 s | [OC_4-6-breathing.mp4](salida/OC_4-6-breathing.mp4) | ⬜ | ⬜ | 2026-10-18 | Boca arriba con la mano en la panza (g 1 a hx/hy): la mano sube y baja con el aire y el pecho apenas se abre (b -84 / -94). |
-| 99 | Band Pass-Through | Banda elástica | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 100 | Dead Bug Hold with Dumbbell | Mancuernas | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 101 | Hollow Rock | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 102 | Alternating 90/90 Into Shin Box | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
-| 103 | Banded Triceps Extensions | Banda elástica | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
+| 99 | Band Pass-Through | Banda elástica | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/band-pass-through.youtube.txt) | [✅](salida/band-pass-through.miniatura.png) | 43.5 s | [OC_band-pass-through.mp4](salida/OC_band-pass-through.mp4) | ⬜ | ⬜ | 2026-10-18 | De costado: los brazos trazan el arco adelante→arriba→atrás (ua 96→176→262). La banda va anclada arriba-detrás de la cabeza, a los dos manos. |
+| 100 | Dead Bug Hold with Dumbbell | Mancuernas | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/dead-bug-hold-with-dumbbell.youtube.txt) | [✅](salida/dead-bug-hold-with-dumbbell.miniatura.png) | 46.8 s | [OC_dead-bug-hold-with-dumbbell.mp4](salida/OC_dead-bug-hold-with-dumbbell.mp4) | ⬜ | ⬜ | 2026-10-18 | Supino boca arriba: brazos rectos hacia el techo (ua 180) con la mancuerna en la mano cercana; rodillas a 90° por IK (ankle a la derecha y arriba del hip); la pierna estirada va al piso. |
+| 101 | Hollow Rock | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/hollow-rock.youtube.txt) | [✅](salida/hollow-rock.miniatura.png) | 47.0 s | [OC_hollow-rock.mp4](salida/OC_hollow-rock.mp4) | ⬜ | ⬜ | 2026-10-18 | Boca arriba, el balanceo se logra rotando torso (b) y piernas (s/t) juntos alrededor de la cadera: ROCK_FWD más erguido y piernas más bajas, ROCK_BACK más plano y piernas más altas. |
+| 102 | Alternating 90/90 Into Shin Box | Ninguno | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/alternating-90-90-into-shin-box.youtube.txt) | [✅](salida/alternating-90-90-into-shin-box.miniatura.png) | 48.1 s | [OC_alternating-90-90-into-shin-box.mp4](salida/OC_alternating-90-90-into-shin-box.mp4) | ⬜ | ⬜ | 2026-10-18 | Sentado de costado las piernas se ven con escorzo (lr y ll); el cambio de lado 90/90 ↔ shin box se ve en la tarjeta 'vista de arriba' (topview mode 9090). |
+| 103 | Banded Triceps Extensions | Banda elástica | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/banded-triceps-extensions.youtube.txt) | [✅](salida/banded-triceps-extensions.miniatura.png) | 45.3 s | [OC_banded-triceps-extensions.mp4](salida/OC_banded-triceps-extensions.mp4) | ⬜ | ⬜ | 2026-10-18 | De costado: codos altos con el antebrazo doblado detrás de la nuca (ua 168, fa 158) y extensión completa arriba (ua 182, fa 0). Banda anclada bien arriba. |
 | 104 | Barbell Bicep Curl | Barra olímpica | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
 | 105 | Barbell Good Morning | Barra olímpica | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |
 | 106 | Barbell High Hang Power Clean | Barra olímpica | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — |  |

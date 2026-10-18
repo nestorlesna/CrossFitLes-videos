@@ -1,0 +1,409 @@
+{
+  "slug": "banded-triceps-extensions",
+  "name": "Banded Triceps Extensions",
+  "category": "CROSSFIT · ACCESORIO",
+  "tags": [
+    "Tríceps",
+    "Brazos",
+    "Banda"
+  ],
+  "descripcion": "De pie con una banda elástica anclada por encima de la cabeza y tomada con ambas manos detrás de la nuca, codos apuntando hacia arriba. Extender los codos hasta arriba contra la banda y volver controlado.",
+  "revisado": false,
+  "notas": "De costado: codos altos con el antebrazo doblado detrás de la nuca (ua 168, fa 158) y extensión completa arriba (ua 182, fa 0). Banda anclada bien arriba.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1500,
+    "scale": 0.78
+  },
+  "initialPose": "FLEX",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 8,
+      "fa": 8
+    },
+    "FLEX": {
+      "s": 2,
+      "t": -6,
+      "b": 4,
+      "hd": 2,
+      "g": 0,
+      "ua": 168,
+      "fa": 158,
+      "ua2": 168,
+      "fa2": 158
+    },
+    "EXT": {
+      "s": 2,
+      "t": -6,
+      "b": 4,
+      "hd": 2,
+      "g": 0,
+      "ua": 182,
+      "fa": 0,
+      "ua2": 182,
+      "fa2": 0
+    },
+    "ELBOW_BAD": {
+      "s": 2,
+      "t": -6,
+      "b": 4,
+      "hd": 2,
+      "g": 0,
+      "ua": 118,
+      "fa": 44,
+      "ua2": 118,
+      "fa2": 44
+    },
+    "ARCH_BAD": {
+      "s": 2,
+      "t": -6,
+      "b": -22,
+      "hd": -14,
+      "g": 0,
+      "ua": 176,
+      "fa": 0,
+      "ua2": 176,
+      "fa2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · ACCESORIO",
+      "head": [
+        "BANDED TRICEPS",
+        "EXTENSIONS"
+      ],
+      "vo": "Banded Triceps Extensions: extensión de codo con banda, codos altos y quietos. Tríceps aislado en cualquier lado.",
+      "moves": [
+        {
+          "to": "FLEX",
+          "at": 0.2,
+          "dur": 0.5
+        },
+        {
+          "seq": [
+            [
+              "FLEX",
+              0.7
+            ],
+            [
+              "EXT",
+              0.7
+            ]
+          ],
+          "at": 0.8,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BANDA DETRÁS",
+        "DE LA NUCA"
+      ],
+      "sub": "Codos apuntando arriba",
+      "vo": "Anclá la banda arriba, tomala con las dos manos detrás de la nuca y apuntá los codos hacia arriba.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "FLEX",
+          "at": 0.8,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            470,
+            1058
+          ],
+          "r": 56,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            430,
+            1002
+          ],
+          "text": "CODOS ARRIBA",
+          "anchor": "end",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "EXTENDÉ",
+        "HACIA ARRIBA"
+      ],
+      "sub": "Hasta estirar los codos",
+      "vo": "Paso uno. Extendé los antebrazos hacia arriba hasta estirar por completo los codos, contrayendo el tríceps.",
+      "moves": [
+        {
+          "cut": "FLEX",
+          "at": 0
+        },
+        {
+          "to": "EXT",
+          "at": 0.6,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1000
+          ],
+          "text": "EXTENSIÓN COMPLETA",
+          "anchor": "middle",
+          "at": 1.5
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "SOLO EL",
+        "ANTEBRAZO"
+      ],
+      "sub": "Los codos no se mueven",
+      "vo": "Paso dos. Solo se mueve el antebrazo: los codos quedan altos y fijos, apuntando al techo todo el tiempo.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "FLEX",
+          "at": 0.5,
+          "dur": 0.8
+        },
+        {
+          "to": "ELBOW_BAD",
+          "at": 2.2,
+          "dur": 0.6
+        },
+        {
+          "to": "FLEX",
+          "at": 3.6,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            430,
+            1002
+          ],
+          "text": "CODOS FIJOS",
+          "anchor": "end",
+          "at": 1.0,
+          "out": 2.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            430,
+            1002
+          ],
+          "text": "ASÍ NO",
+          "anchor": "end",
+          "at": 2.6,
+          "out": 3.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "SIN",
+        "ARQUEAR LA ESPALDA"
+      ],
+      "sub": "El torso quieto",
+      "vo": "Paso tres. No arquees la espalda para empujar: el torso queda quieto y el tríceps hace todo el trabajo.",
+      "moves": [
+        {
+          "cut": "FLEX",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 0.6,
+          "dur": 0.6
+        },
+        {
+          "to": "EXT",
+          "at": 2.4,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1000
+          ],
+          "text": "ESPALDA ARQUEADA NO",
+          "anchor": "middle",
+          "at": 0.9,
+          "out": 2.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1000
+          ],
+          "text": "TORSO QUIETO",
+          "anchor": "middle",
+          "at": 2.7
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.75,
+      "keys": [
+        "Codos altos y fijos",
+        "Solo se mueve el antebrazo",
+        "Sin arquear la espalda",
+        "Extensión completa arriba"
+      ],
+      "vo": "Claves: codos altos y fijos, solo se mueve el antebrazo, sin arquear la espalda y extensión completa arriba.",
+      "moves": [
+        {
+          "cut": "FLEX",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "FLEX",
+              0.7
+            ],
+            [
+              "EXT",
+              0.7
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "12 REPS"
+      ],
+      "sub": "Controladas",
+      "vo": "Doce repeticiones controladas. Elegí una banda que te deje terminar con buena técnica y los codos altos.",
+      "chips": [
+        {
+          "label": "1 · ARRIBA",
+          "at": 0.5
+        },
+        {
+          "label": "2 · ABAJO",
+          "at": 1.1
+        }
+      ],
+      "moves": [
+        {
+          "cut": "FLEX",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "FLEX",
+              0.7
+            ],
+            [
+              "EXT",
+              0.7
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "EXT",
+    "grip": 0,
+    "zoom": 1.05,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Banded Triceps Extensions 🔥 Tríceps con banda, codos altos | CrossFit",
+    "tags": [
+      "banded triceps extensions",
+      "tríceps con banda",
+      "extensión de tríceps",
+      "banda elástica",
+      "tríceps",
+      "brazos",
+      "monoarticular",
+      "sobre la cabeza",
+      "crossfit",
+      "accesorio",
+      "entrenamiento con bandas",
+      "brazos fuertes"
+    ],
+    "descripcion": "🔥 BANDED TRICEPS EXTENSIONS — Tríceps aislado con una banda elástica, codos altos\n\n¿Querés más fuerza para los presses y las fondos? La extensión de tríceps con banda lo aísla con codos altos y lo hacés en cualquier lado. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Anclá la banda arriba y tomala con las dos manos detrás de la nuca.\n2️⃣ Apuntá los codos hacia arriba y dejá el torso quieto.\n3️⃣ Extendé los antebrazos hacia arriba hasta estirar por completo los codos.\n4️⃣ Volvé controlado y repetí sin dejar caer los codos.\n5️⃣ Hacé doce repeticiones controladas.\n\n✅ CLAVES DE TÉCNICA\n• Codos altos y fijos\n• Solo se mueve el antebrazo\n• Sin arquear la espalda\n• Extensión completa arriba\n\n🎯 QUÉ TRABAJA\nTríceps braquial · Deltoides anterior\n\n⏱️ CUÁNTO\n12 repeticiones. Va como accesorio de brazos, después del trabajo principal del día.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Accesorio #BandedTriceps #Triceps #Entrenamiento"
+  },
+  "pronuncia": {
+    "Banded Triceps Extensions": "Bandéd tráiceps exténshons",
+    "triceps": "tráiceps"
+  },
+  "props": [
+    {
+      "type": "band",
+      "anchor": [
+        420,
+        -1240
+      ],
+      "post": [
+        470,
+        1240
+      ],
+      "hand": "both"
+    }
+  ]
+}

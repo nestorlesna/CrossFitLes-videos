@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Band pás zru: la banda que te devuelve movilidad de hombro. Pasar y volver, sin tirones."
+    },
+    {
+      "id": "02",
+      "text": "Parate con la banda tomada bien ancha y los brazos extendidos al frente, a la altura del pecho."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Subí los brazos extendidos por encima de la cabeza, sin doblar los codos."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Seguí el arco hasta llevar la banda detrás de la cabeza, sin forzar el hombro."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Volvé por el mismo camino, lento y controlando la banda. Los codos nunca se doblan."
+    },
+    {
+      "id": "06",
+      "text": "Claves: codos siempre extendidos, agarre ancho, sin tirones y si el hombro se cierra, ampliá el agarre."
+    },
+    {
+      "id": "07",
+      "text": "Diez pasadas completas. Ideal en la entrada en calor, antes de cualquier WOD con press o dominadas."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

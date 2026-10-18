@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Jólou rok: la mecedora que blinda tu core. El cuerpo se mueve como una sola pieza, sin flexionar la cadera."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba con los brazos junto a las orejas y formá la banana: hombros y piernas despegados, lumbar pegada al piso."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Balanceate adelante y atrás como una mecedora, sin flexionar la cadera para tomar impulso."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Los brazos van junto a las orejas todo el tiempo y las piernas quedan extendidas y altas."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si la lumbar se despega del piso, ya no es jólou: bajá el rango o flexioná un poco las rodillas."
+    },
+    {
+      "id": "06",
+      "text": "Claves: el cuerpo se mueve en una sola pieza, la zona lumbar pegada al piso, sin impulso de cadera y con movimientos chicos."
+    },
+    {
+      "id": "07",
+      "text": "Veinte balanceos completos. Si se despega la lumbar, cortá la serie: es mejor corta que mal hecha."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Dead Bug Hold con mancuerna: core firme y espalda baja protegida. Ahí se gana la estabilidad."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba. Estirá los brazos hacia el techo sosteniendo la mancuerna y poné las rodillas a noventa grados."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Estirá una pierna hacia adelante, despacio, sin despegar la zona lumbar del piso."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Volvé la pierna al centro y estirá la otra. La mancuerna no se mueve: queda arriba, estable."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si la lumbar se despega del piso, el ejercicio ya no sirve: achicá el rango de la pierna y volvé a apretar el abdomen."
+    },
+    {
+      "id": "06",
+      "text": "Claves: lumbar pegada al piso, brazos y mancuerna estables arriba, movimiento lento y exhalá al estirar la pierna."
+    },
+    {
+      "id": "07",
+      "text": "Treinta segundos alternando piernas, sin apuro, sosteniendo la mancuerna arriba y la lumbar pegada."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

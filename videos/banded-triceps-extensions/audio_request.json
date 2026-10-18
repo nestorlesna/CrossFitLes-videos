@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Bandéd tráiceps exténshons: extensión de codo con banda, codos altos y quietos. Tríceps aislado en cualquier lado."
+    },
+    {
+      "id": "02",
+      "text": "Anclá la banda arriba, tomala con las dos manos detrás de la nuca y apuntá los codos hacia arriba."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Extendé los antebrazos hacia arriba hasta estirar por completo los codos, contrayendo el tríceps."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Solo se mueve el antebrazo: los codos quedan altos y fijos, apuntando al techo todo el tiempo."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. No arquees la espalda para empujar: el torso queda quieto y el tríceps hace todo el trabajo."
+    },
+    {
+      "id": "06",
+      "text": "Claves: codos altos y fijos, solo se mueve el antebrazo, sin arquear la espalda y extensión completa arriba."
+    },
+    {
+      "id": "07",
+      "text": "Doce repeticiones controladas. Elegí una banda que te deje terminar con buena técnica y los codos altos."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

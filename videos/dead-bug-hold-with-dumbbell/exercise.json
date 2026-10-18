@@ -1,0 +1,429 @@
+{
+  "slug": "dead-bug-hold-with-dumbbell",
+  "name": "Dead Bug Hold with Dumbbell",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Core",
+    "Abdominales",
+    "Estabilidad"
+  ],
+  "descripcion": "Boca arriba, brazos extendidos hacia el techo sosteniendo una mancuerna y rodillas a 90°. Alternar la extensión de una pierna manteniendo la zona lumbar pegada al piso.",
+  "revisado": false,
+  "notas": "Supino boca arriba: brazos rectos hacia el techo (ua 180) con la mancuerna en la mano cercana; rodillas a 90° por IK (ankle a la derecha y arriba del hip); la pierna estirada va al piso.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1500,
+    "scale": 0.84
+  },
+  "initialPose": "START",
+  "poses": {
+    "START": {
+      "hip": [
+        0,
+        -16
+      ],
+      "ankle": [
+        235,
+        -245
+      ],
+      "ankle2": [
+        235,
+        -245
+      ],
+      "b": -90,
+      "hd": -92,
+      "ft": -20,
+      "ft2": -20,
+      "g": 0,
+      "ua": 158,
+      "fa": 0,
+      "ua2": 158,
+      "fa2": 0
+    },
+    "EXT_N": {
+      "hip": [
+        0,
+        -16
+      ],
+      "ankle": [
+        470,
+        -34
+      ],
+      "ankle2": [
+        235,
+        -245
+      ],
+      "b": -90,
+      "hd": -92,
+      "ft": -40,
+      "ft2": -20,
+      "g": 0,
+      "ua": 158,
+      "fa": 0,
+      "ua2": 158,
+      "fa2": 0
+    },
+    "EXT_F": {
+      "hip": [
+        0,
+        -16
+      ],
+      "ankle": [
+        235,
+        -245
+      ],
+      "ankle2": [
+        470,
+        -34
+      ],
+      "b": -90,
+      "hd": -92,
+      "ft": -20,
+      "ft2": -40,
+      "g": 0,
+      "ua": 158,
+      "fa": 0,
+      "ua2": 158,
+      "fa2": 0
+    },
+    "ARCH_BAD": {
+      "hip": [
+        0,
+        -4
+      ],
+      "ankle": [
+        255,
+        -230
+      ],
+      "ankle2": [
+        255,
+        -230
+      ],
+      "b": -74,
+      "hd": -80,
+      "ft": -20,
+      "ft2": -20,
+      "g": 0,
+      "ua": 158,
+      "fa": 0,
+      "ua2": 158,
+      "fa2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "DEAD BUG",
+        "HOLD CON MANCUERNA"
+      ],
+      "vo": "Dead Bug Hold con mancuerna: core firme y espalda baja protegida. Ahí se gana la estabilidad.",
+      "moves": [
+        {
+          "to": "START",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "EXT_N",
+              0.9
+            ],
+            [
+              "START",
+              0.6
+            ],
+            [
+              "EXT_F",
+              0.9
+            ],
+            [
+              "START",
+              0.6
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BOCA ARRIBA",
+        "MANCUERNA ARRIBA"
+      ],
+      "sub": "Rodillas a 90°",
+      "vo": "Acostate boca arriba. Estirá los brazos hacia el techo sosteniendo la mancuerna y poné las rodillas a noventa grados.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            560,
+            1300
+          ],
+          "text": "MANCUERNA ARRIBA",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            600,
+            1484
+          ],
+          "r": 52,
+          "at": 1
+        },
+        {
+          "type": "label",
+          "pos": [
+            560,
+            1355
+          ],
+          "text": "LUMBAR AL PISO",
+          "anchor": "middle",
+          "at": 1.9
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "ESTIRÁ UNA",
+        "PIERNA"
+      ],
+      "sub": "Sin despegar la lumbar",
+      "vo": "Paso uno. Estirá una pierna hacia adelante, despacio, sin despegar la zona lumbar del piso.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "EXT_N",
+          "at": 0.6,
+          "dur": 1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            560,
+            1330
+          ],
+          "text": "PIERNA AFUERA",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "GIRÁ DE",
+        "A LADO"
+      ],
+      "sub": "La mancuerna quieta",
+      "vo": "Paso dos. Volvé la pierna al centro y estirá la otra. La mancuerna no se mueve: queda arriba, estable.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "EXT_F",
+          "at": 0.6,
+          "dur": 1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            560,
+            1330
+          ],
+          "text": "LA OTRA PIERNA",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Lumbar despegada = cero",
+      "vo": "Paso tres. Si la lumbar se despega del piso, el ejercicio ya no sirve: achicá el rango de la pierna y volvé a apretar el abdomen.",
+      "moves": [
+        {
+          "cut": "ARCH_BAD",
+          "at": 0
+        },
+        {
+          "to": "START",
+          "at": 2.2,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            560,
+            1320
+          ],
+          "text": "LUMBAR DESPEGADA NO",
+          "anchor": "middle",
+          "at": 0.8,
+          "out": 2.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            560,
+            1320
+          ],
+          "text": "MENOS RANGO",
+          "anchor": "middle",
+          "at": 2.5
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Lumbar pegada al piso",
+        "Brazos y mancuerna estables",
+        "Movimiento lento",
+        "Exhalá al estirar"
+      ],
+      "vo": "Claves: lumbar pegada al piso, brazos y mancuerna estables arriba, movimiento lento y exhalá al estirar la pierna.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0.1
+        }
+      ],
+      "shrink": 0.8
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "Alternando piernas",
+      "vo": "Treinta segundos alternando piernas, sin apuro, sosteniendo la mancuerna arriba y la lumbar pegada.",
+      "chips": [
+        {
+          "label": "1 · ESTIRÁ",
+          "at": 0.5
+        },
+        {
+          "label": "2 · CENTRO",
+          "at": 1.4
+        },
+        {
+          "label": "3 · LA OTRA",
+          "at": 2.3
+        }
+      ],
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "EXT_N",
+              0.9
+            ],
+            [
+              "START",
+              0.6
+            ],
+            [
+              "EXT_F",
+              0.9
+            ],
+            [
+              "START",
+              0.6
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "START",
+    "grip": 0,
+    "zoom": 1,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Dead Bug Hold con Mancuerna 🔥 Core y espalda baja protegida paso a paso | CrossFit",
+    "tags": [
+      "dead bug hold",
+      "dead bug con mancuerna",
+      "core antiextensión",
+      "abdominales",
+      "estabilidad lumbar",
+      "espalda baja",
+      "mancuernas",
+      "activación de core",
+      "plancha",
+      "crossfit",
+      "activación",
+      "core"
+    ],
+    "descripcion": "🔥 DEAD BUG HOLD CON MANCUERNA — Core antiextensión: protegé tu espalda baja\n\n¿Se te arquea la espalda baja cuando trabajás el abdomen? El dead bug con mancuerna te enseña a mantenerla pegada al piso. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Acostate boca arriba con los brazos estirados hacia el techo sosteniendo la mancuerna.\n2️⃣ Poné las rodillas a noventa grados y pegá la lumbar al piso.\n3️⃣ Estirá una pierna hacia adelante, despacio, sin despegar la lumbar.\n4️⃣ Volvé al centro y estirá la otra pierna. La mancuerna no se mueve.\n5️⃣ Exhalá al estirar y hacé treinta segundos alternando.\n\n✅ CLAVES DE TÉCNICA\n• Lumbar pegada al piso\n• Brazos y mancuerna estables\n• Movimiento lento\n• Exhalá al estirar\n\n🎯 QUÉ TRABAJA\nRecto abdominal · Oblicuo externo · Oblicuo interno · Recto femoral · Deltoides anterior\n\n⏱️ CUÁNTO\n30 segundos por serie. Va en la activación o como accesorio de core, antes o después del WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés hernia de disco o dolor lumbar, hacé un rango corto y consultalo con tu kinesiólogo.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Activacion #DeadBugHold #Core #Entrenamiento"
+  },
+  "pronuncia": {
+    "Dead Bug Hold with Dumbbell": "Ded bag jold uid dámbel",
+    "dead bug": "ded bag",
+    "dumbbell": "dámbel"
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "off": [
+        0,
+        -8
+      ],
+      "r": 46
+    }
+  ]
+}
