@@ -1,0 +1,509 @@
+{
+  "slug": "barbell-good-morning",
+  "name": "Barbell Good Morning",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Isquios",
+    "Glúteos",
+    "Espalda"
+  ],
+  "descripcion": "De pie con la barra apoyada en la espalda alta, con las rodillas levemente flexionadas, hacer una bisagra de cadera llevando el torso al frente hasta quedar casi paralelo al piso, manteniendo la espalda neutra, y volver extendiendo la cadera.",
+  "revisado": false,
+  "notas": "Barra en el trapecio con el prop en el marco del tronco (torso [-34,18]). Los brazos siguen a la barra: ua = -(b) - 12 (como back-squat). Error típico: redondear la espalda (cv 34, hd 100).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1500,
+    "scale": 0.8
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": -12,
+      "fa": 178,
+      "ua2": -8,
+      "fa2": 174
+    },
+    "SOFT": {
+      "s": 6,
+      "t": -12,
+      "b": 2,
+      "hd": 0,
+      "g": 0,
+      "ua": -14,
+      "fa": 178,
+      "ua2": -10,
+      "fa2": 174
+    },
+    "HINGE": {
+      "hip": [
+        -230,
+        -430
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 74,
+      "hd": 58,
+      "g": 0,
+      "ua": -86,
+      "fa": 178,
+      "ua2": -82,
+      "fa2": 174
+    },
+    "BAD_ROUND": {
+      "hip": [
+        -230,
+        -430
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 68,
+      "hd": 100,
+      "cv": 34,
+      "g": 0,
+      "ua": -80,
+      "fa": 178,
+      "ua2": -76,
+      "fa2": 174
+    },
+    "SQUAT_BAD": {
+      "hip": [
+        -60,
+        -360
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 30,
+      "hd": 18,
+      "g": 0,
+      "ua": -42,
+      "fa": 178,
+      "ua2": -38,
+      "fa2": 174
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "BARBELL",
+        "GOOD MORNING"
+      ],
+      "vo": "Barbell Good Morning: la bisagra de cadera con la barra en la espalda. Activa glúteos, isquios y espalda baja.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "HINGE",
+              1.4
+            ],
+            [
+              "STAND",
+              1.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BARRA EN",
+        "LA ESPALDA"
+      ],
+      "sub": "Apoyada en el trapecio",
+      "vo": "Apoyá la barra en el trapecio, con los codos abajo, el pecho arriba y los pies al ancho de la cadera.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            720
+          ],
+          "text": "EN EL TRAPECIO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            438,
+            976
+          ],
+          "r": 46,
+          "at": 2.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            300,
+            1060
+          ],
+          "text": "CODOS ABAJO",
+          "anchor": "middle",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "RODILLAS",
+        "SUAVES"
+      ],
+      "sub": "Bisagra, no sentadilla",
+      "vo": "Paso uno. Aflojá apenas las rodillas y llevá la cadera hacia atrás: el movimiento sale de la cadera, no de la columna.",
+      "moves": [
+        {
+          "to": "SOFT",
+          "at": 0.6,
+          "dur": 0.8
+        },
+        {
+          "to": "HINGE",
+          "at": 1.8,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            470,
+            1080
+          ],
+          "to": [
+            300,
+            1120
+          ],
+          "bend": [
+            0,
+            -120
+          ],
+          "at": 1.6,
+          "dur": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            330,
+            930
+          ],
+          "text": "CADERA ATRÁS",
+          "anchor": "middle",
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "ESPALDA",
+        "NEUTRA"
+      ],
+      "sub": "Hasta casi el paralelo",
+      "vo": "Paso dos. Bajá hasta quedar casi paralelo al piso, con la espalda recta y sintiendo el estiramiento atrás de los muslos.",
+      "moves": [
+        {
+          "cut": "SOFT",
+          "at": 0
+        },
+        {
+          "to": "HINGE",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "solid": true,
+          "color": "ink",
+          "width": 7,
+          "from": {
+            "j": "HINGE.H",
+            "dy": -60
+          },
+          "to": {
+            "j": "HINGE.S",
+            "dy": -60
+          },
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            560,
+            900
+          ],
+          "text": "ESPALDA RECTA",
+          "anchor": "middle",
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Redondear la espalda",
+      "vo": "Paso tres. Si redondeás la espalda, el peso pasa a la columna y no a los isquios. Achicá el rango si no llegás con la espalda recta.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "to": "BAD_ROUND",
+          "at": 0.6,
+          "dur": 0.6
+        },
+        {
+          "to": "HINGE",
+          "at": 2.6,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "BAD_ROUND.S",
+            "dx": -40,
+            "dy": 50
+          },
+          "r": 90,
+          "at": 1.0,
+          "out": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            560,
+            830
+          ],
+          "text": "ESPALDA REDONDA NO",
+          "anchor": "middle",
+          "at": 1.1,
+          "out": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            560,
+            830
+          ],
+          "text": "ESPALDA RECTA",
+          "anchor": "middle",
+          "at": 3.0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "VOLVÉ",
+        "APRETANDO GLÚTEO"
+      ],
+      "sub": "Cadera adelante",
+      "vo": "Paso cuatro. Volvé arriba empujando la cadera hacia adelante y apretando los glúteos, sin arquear la lumbar.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "to": "SOFT",
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "to": "STAND",
+          "at": 1.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            330,
+            1120
+          ],
+          "to": [
+            470,
+            1080
+          ],
+          "bend": [
+            0,
+            40
+          ],
+          "at": 0.6,
+          "dur": 1.1
+        },
+        {
+          "type": "ring",
+          "pos": {
+            "j": "STAND.H",
+            "dy": 20
+          },
+          "r": 70,
+          "at": 1.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            760,
+            1180
+          ],
+          "text": "APRETÁ GLÚTEOS",
+          "anchor": "middle",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Bisagra de cadera, no sentadilla",
+        "Espalda recta todo el rango",
+        "Peso liviano de movilidad",
+        "La barra no se desliza del trapecio"
+      ],
+      "vo": "Claves: es una bisagra de cadera y no una sentadilla, la espalda se mantiene recta, el peso es liviano y la barra no se desliza del trapecio.",
+      "moves": [
+        {
+          "cut": "SOFT",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "HINGE",
+              1.4
+            ],
+            [
+              "STAND",
+              1.2
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEG"
+      ],
+      "sub": "Con barra liviana",
+      "vo": "Treinta segundos con una barra liviana, lento y controlado. Ideal para activar antes de levantar peso.",
+      "chips": [
+        {
+          "label": "1 · CADERA ATRÁS",
+          "at": 0.5
+        },
+        {
+          "label": "2 · ARRIBA",
+          "at": 1.9
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "HINGE",
+              1.4
+            ],
+            [
+              "STAND",
+              1.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "HINGE",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 90
+  },
+  "youtube": {
+    "titulo": "Barbell Good Morning 🏋️ Bisagra de cadera con barra paso a paso | CrossFit",
+    "tags": [
+      "barbell good morning",
+      "good morning con barra",
+      "good morning",
+      "bisagra de cadera",
+      "hip hinge",
+      "isquiotibiales",
+      "glúteos",
+      "espalda baja",
+      "barra olímpica",
+      "activación",
+      "entrada en calor",
+      "crossfit"
+    ],
+    "descripcion": "🔥 BARBELL GOOD MORNING — La bisagra de cadera con barra que activa glúteos, isquios y espalda\n\n¿Te cuesta separar la cadera de la columna en el peso muerto? El good morning con barra te enseña el patrón con la barra en la espalda. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Apoyá la barra en el trapecio, con los codos abajo, el pecho arriba y los pies al ancho de la cadera.\n2️⃣ Aflojá apenas las rodillas y llevá la cadera hacia atrás: el movimiento sale de la cadera.\n3️⃣ Bajá hasta quedar casi paralelo al piso, con la espalda recta.\n4️⃣ Si redondeás la espalda, achicá el rango: el peso tiene que ir a los isquios, no a la columna.\n5️⃣ Volvé arriba empujando la cadera adelante y apretando los glúteos.\n\n✅ CLAVES DE TÉCNICA\n• Bisagra de cadera, no sentadilla\n• Espalda recta todo el rango\n• Peso liviano de movilidad\n• La barra no se desliza del trapecio\n\n🎯 QUÉ TRABAJA\nIsquiotibiales · Glúteo mayor · Erectores espinales · Core\n\n⏱️ CUÁNTO\n30 segundos con barra liviana. Va en la entrada en calor o como activación antes de levantar peso.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés molestias en la espalda baja, hacelo sin peso o con un caño, con un rango corto y un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #GoodMorning #Isquios #Entrenamiento"
+  },
+  "pronuncia": {
+    "Barbell Good Morning": "Bárbel gud mórnin",
+    "Good Morning": "gud mórnin",
+    "barbell": "bárbel"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "torso": [
+        -34,
+        18
+      ],
+      "r": 80
+    }
+  ]
+}

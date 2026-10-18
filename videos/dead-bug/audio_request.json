@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Ded bag: core anti-extensión. Bajás brazo y pierna contrarios sin despegar la lumbar del piso. Lento es la clave."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba con los brazos estirados hacia el techo y las rodillas a noventa grados. Pegá la zona lumbar al piso."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá despacio un brazo por encima de la cabeza y la pierna contraria hacia el piso, sin despegar la lumbar."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Volvé al centro y repetí con el otro brazo y la otra pierna. La lumbar no se despega en ningún momento."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si la lumbar se despega del piso, el ejercicio ya no sirve: bajá menos la pierna y volvé a apretar el abdomen."
+    },
+    {
+      "id": "06",
+      "text": "Claves: la lumbar pegada al piso todo el tiempo, brazo y pierna contrarios, tres segundos por repetición y exhalá al bajar."
+    },
+    {
+      "id": "07",
+      "text": "Cuarenta y cinco segundos alternando lados, lento y con la lumbar pegada. El valor está en la lentitud."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

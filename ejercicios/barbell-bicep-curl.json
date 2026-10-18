@@ -1,0 +1,469 @@
+{
+  "slug": "barbell-bicep-curl",
+  "name": "Barbell Bicep Curl",
+  "category": "CROSSFIT · ACCESORIO",
+  "tags": [
+    "Bíceps",
+    "Brazos",
+    "Fuerza"
+  ],
+  "descripcion": "De pie con la barra en agarre supino al ancho de los hombros, flexionar los codos llevando la barra hasta los hombros y bajarla controlada hasta extender los brazos.",
+  "revisado": false,
+  "notas": "De costado: brazos colgando con la barra en la cadera (ua 2, fa 0) y curl arriba con el codo fijo (ua 0, fa 172). La barra sigue la mano cercana. Error típico: balanceo de torso (b -20).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1509,
+    "scale": 0.72
+  },
+  "initialPose": "DOWN",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 4,
+      "ua2": 4,
+      "fa2": 4
+    },
+    "DOWN": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": 2,
+      "fa2": 0
+    },
+    "MID": {
+      "s": 0,
+      "t": 0,
+      "b": 1,
+      "hd": 1,
+      "g": 0,
+      "ua": 1,
+      "fa": 70,
+      "ua2": 1,
+      "fa2": 70
+    },
+    "CURL": {
+      "s": 0,
+      "t": 0,
+      "b": 2,
+      "hd": 2,
+      "g": 0,
+      "ua": 0,
+      "fa": 172,
+      "ua2": 0,
+      "fa2": 172
+    },
+    "SWING_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": -20,
+      "hd": -14,
+      "g": 0,
+      "ua": 0,
+      "fa": 40,
+      "ua2": 0,
+      "fa2": 40
+    },
+    "ELBOW_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 44,
+      "fa": 120,
+      "ua2": 44,
+      "fa2": 120
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACCESORIO",
+      "head": [
+        "BARBELL",
+        "BICEP CURL"
+      ],
+      "vo": "Barbell Bicep Curl: bíceps con barra. Codos pegados y quietos, rango completo y bajada controlada.",
+      "moves": [
+        {
+          "to": "DOWN",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "CURL",
+              0.8
+            ],
+            [
+              "DOWN",
+              0.8
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BARRA EN",
+        "LA CADERA"
+      ],
+      "sub": "Agarre supino, al ancho de hombros",
+      "vo": "De pie, con la barra en agarre supino al ancho de los hombros y los brazos extendidos, la barra queda a la altura de la cadera.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1330
+          ],
+          "text": "AGARRE SUPINO",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "FLEXIONÁ",
+        "LOS CODOS"
+      ],
+      "sub": "Hasta los hombros",
+      "vo": "Paso uno. Flexioná los codos y subí la barra hasta los hombros, contrayendo el bíceps.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 0.7
+        },
+        {
+          "to": "CURL",
+          "at": 1.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            540,
+            1290
+          ],
+          "to": [
+            540,
+            1010
+          ],
+          "at": 1.6,
+          "dur": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            970
+          ],
+          "text": "SUBÍ LA BARRA",
+          "anchor": "middle",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "CODOS",
+        "PEGADOS Y FIJOS"
+      ],
+      "sub": "Solo se mueve el antebrazo",
+      "vo": "Paso dos. Los codos quedan pegados al cuerpo y fijos: solo se mueve el antebrazo. No los lleves hacia adelante.",
+      "moves": [
+        {
+          "cut": "CURL",
+          "at": 0
+        },
+        {
+          "to": "ELBOW_BAD",
+          "at": 0.8,
+          "dur": 0.5
+        },
+        {
+          "to": "CURL",
+          "at": 2.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1120
+          ],
+          "text": "CODO FIJO",
+          "anchor": "middle",
+          "at": 0.6,
+          "out": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1120
+          ],
+          "text": "CODOS AL FRENTE NO",
+          "anchor": "middle",
+          "at": 1.8,
+          "out": 2.6
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "BAJÁ",
+        "CONTROLADO"
+      ],
+      "sub": "Extendé sin soltar",
+      "vo": "Paso tres. Bajá la barra controlando el movimiento, hasta extender del todo los brazos. Las muñecas quedan firmes.",
+      "moves": [
+        {
+          "cut": "CURL",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 0.7
+        },
+        {
+          "to": "DOWN",
+          "at": 1.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            540,
+            1010
+          ],
+          "to": [
+            540,
+            1300
+          ],
+          "at": 1.6,
+          "dur": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1350
+          ],
+          "text": "MUÑECAS FIRMES",
+          "anchor": "middle",
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "No balancees el torso",
+      "vo": "Paso cuatro. Si tiras el cuerpo hacia atrás para subir la barra, el bíceps deja de trabajar y la espalda se carga. Evitalo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "SWING_BAD",
+          "at": 0.6,
+          "dur": 0.5
+        },
+        {
+          "to": "DOWN",
+          "at": 2.6,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            900
+          ],
+          "text": "SIN BALANCEO",
+          "anchor": "middle",
+          "at": 0.9,
+          "out": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            900
+          ],
+          "text": "ACÁ SÍ: QUIETO",
+          "anchor": "middle",
+          "at": 3.0
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.72,
+      "keys": [
+        "Codos pegados y fijos",
+        "Rango completo abajo",
+        "Sin balancear el torso",
+        "Bajada lenta y controlada"
+      ],
+      "vo": "Claves: codos pegados y fijos, rango completo abajo, sin balancear el torso y bajada lenta y controlada.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "CURL",
+              0.8
+            ],
+            [
+              "DOWN",
+              0.8
+            ]
+          ],
+          "at": 0.7,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEG"
+      ],
+      "sub": "Con 20 kg",
+      "vo": "Treinta segundos con veinte kilos, sin balancear el torso. Si te falta, bajá el peso antes que la técnica.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.5
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.2
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.9
+        }
+      ],
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CURL",
+              0.8
+            ],
+            [
+              "DOWN",
+              0.8
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "CURL",
+    "grip": 0,
+    "zoom": 1.12,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Barbell Bicep Curl 💪 Bíceps con barra: codos fijos y rango completo | CrossFit",
+    "tags": [
+      "barbell bicep curl",
+      "bicep curl",
+      "curl con barra",
+      "bíceps con barra",
+      "bíceps",
+      "brazos",
+      "monoarticular",
+      "barra olímpica",
+      "curl de bíceps",
+      "accesorio",
+      "crossfit",
+      "brazos fuertes"
+    ],
+    "descripcion": "🔥 BARBELL BICEP CURL — Bíceps con barra: codos pegados, rango completo y bajada controlada\n\n¿Subís la barra tirando el cuerpo hacia atrás? Con los codos pegados y quietos, el bíceps hace todo el trabajo y crece de verdad. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ De pie, con la barra en agarre supino al ancho de los hombros, los brazos extendidos y la barra a la altura de la cadera.\n2️⃣ Flexioná los codos y subí la barra hasta los hombros, contrayendo el bíceps.\n3️⃣ Los codos quedan pegados al cuerpo y fijos: solo se mueve el antebrazo.\n4️⃣ Bajá la barra controlando hasta extender del todo los brazos, con las muñecas firmes.\n5️⃣ No balancees el torso para subir: ese impulso le saca trabajo al bíceps.\n\n✅ CLAVES DE TÉCNICA\n• Codos pegados y fijos\n• Rango completo abajo\n• Sin balancear el torso\n• Bajada lenta y controlada\n\n🎯 QUÉ TRABAJA\nBíceps braquial · Braquial anterior · Flexores del antebrazo\n\n⏱️ CUÁNTO\n30 segundos con 20 kg. Va como accesorio de brazos, después del trabajo principal del día.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi sentís molestia en el codo o la muñeca, bajá el peso y achicá el rango, sobre todo al bajar.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Accesorio #BicepCurl #Biceps #Entrenamiento"
+  },
+  "pronuncia": {
+    "Barbell Bicep Curl": "Bárbel báicep kerl",
+    "bicep curl": "báicep kerl",
+    "Barbell": "bárbel"
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "r": 84
+    }
+  ]
+}

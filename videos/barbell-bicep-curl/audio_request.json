@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Bárbel báicep kerl: bíceps con barra. Codos pegados y quietos, rango completo y bajada controlada."
+    },
+    {
+      "id": "02",
+      "text": "De pie, con la barra en agarre supino al ancho de los hombros y los brazos extendidos, la barra queda a la altura de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Flexioná los codos y subí la barra hasta los hombros, contrayendo el bíceps."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Los codos quedan pegados al cuerpo y fijos: solo se mueve el antebrazo. No los lleves hacia adelante."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Bajá la barra controlando el movimiento, hasta extender del todo los brazos. Las muñecas quedan firmes."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Si tiras el cuerpo hacia atrás para subir la barra, el bíceps deja de trabajar y la espalda se carga. Evitalo."
+    },
+    {
+      "id": "07",
+      "text": "Claves: codos pegados y fijos, rango completo abajo, sin balancear el torso y bajada lenta y controlada."
+    },
+    {
+      "id": "08",
+      "text": "Treinta segundos con veinte kilos, sin balancear el torso. Si te falta, bajá el peso antes que la técnica."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}
