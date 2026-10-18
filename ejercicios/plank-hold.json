@@ -1,0 +1,394 @@
+{
+  "slug": "plank-hold",
+  "name": "Plank Hold",
+  "category": "CROSSFIT · ACCESORIO",
+  "tags": [
+    "Core",
+    "Abdomen",
+    "Estabilidad"
+  ],
+  "descripcion": "Plancha alta o baja mantenida. Core completamente activo, caderas alineadas con el cuerpo. Ejercicio isométrico de estabilización.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 460,
+    "y": 1504,
+    "scale": 0.8
+  },
+  "initialPose": "QUAD",
+  "poses": {
+    "QUAD": {
+      "hip": [
+        0,
+        -231
+      ],
+      "s": 90,
+      "t": 0,
+      "s2": 90,
+      "t2": 0,
+      "ft": 172,
+      "b": 72,
+      "hd": 100,
+      "g": 1,
+      "hx": 266,
+      "hy": 15
+    },
+    "PLANK": {
+      "hip": [
+        141.6,
+        -222.8
+      ],
+      "ankle": [
+        -300,
+        -62
+      ],
+      "ft": 55,
+      "b": 70,
+      "hd": 74,
+      "g": 1,
+      "hx": 405,
+      "hy": 15,
+      "ed": 1
+    },
+    "SAG_BAD": {
+      "hip": [
+        175.7,
+        -154.3
+      ],
+      "ankle": [
+        -280,
+        -62
+      ],
+      "ft": 55,
+      "b": 55,
+      "hd": 60,
+      "g": 1,
+      "hx": 405,
+      "hy": 15,
+      "ed": 1
+    },
+    "PIKE_BAD": {
+      "hip": [
+        125.2,
+        -305.2
+      ],
+      "ankle": [
+        -271.3,
+        -62
+      ],
+      "ft": 55,
+      "b": 88,
+      "hd": 92,
+      "g": 1,
+      "hx": 405,
+      "hy": 15,
+      "ed": 1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACCESORIO",
+      "head": [
+        "PLANK",
+        "HOLD"
+      ],
+      "vo": "Plank Hold: la plancha. Core activo de la cabeza a los talones, sin moverte.",
+      "moves": [
+        {
+          "cut": "QUAD",
+          "at": 0
+        },
+        {
+          "to": "PLANK",
+          "at": 0.8,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "MANOS Y",
+        "PUNTAS"
+      ],
+      "sub": "Bajo los hombros",
+      "vo": "Apoyá las manos bajo los hombros y las puntas de los pies, y subí a la plancha.",
+      "moves": [
+        {
+          "cut": "QUAD",
+          "at": 0
+        },
+        {
+          "to": "PLANK",
+          "at": 1.2,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "PLANK.W"
+          },
+          "r": 44,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1240
+          ],
+          "text": "MANOS BAJO LOS HOMBROS",
+          "anchor": "end",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "UNA LÍNEA",
+        "RECTA"
+      ],
+      "sub": "Cabeza a talones",
+      "vo": "Paso uno. Alineá todo: la cabeza, la cadera y los talones en una línea recta.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "from": [
+            800,
+            1255
+          ],
+          "to": [
+            250,
+            1520
+          ],
+          "solid": true,
+          "at": 0.9
+        },
+        {
+          "type": "ring",
+          "pos": {
+            "j": "PLANK.H"
+          },
+          "r": 52,
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1180
+          ],
+          "text": "CADERA ALINEADA",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "APRETÁ",
+        "TODO"
+      ],
+      "sub": "Y respirá",
+      "vo": "Paso dos. Apretá glúteos y abdomen como si te fueran a pegar en la panza, y respirá.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1330
+          ],
+          "text": "GLÚTEOS FIRMES",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1420
+          ],
+          "text": "ABDOMEN ACTIVO",
+          "anchor": "end",
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1240
+          ],
+          "text": "RESPIRÁ NORMAL",
+          "anchor": "end",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 6.2,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Cadera quieta",
+      "vo": "Paso tres. No hundas la cadera ni la levantes: cualquiera de las dos rompe la línea.",
+      "moves": [
+        {
+          "cut": "SAG_BAD",
+          "at": 0
+        },
+        {
+          "to": "PIKE_BAD",
+          "at": 2.0,
+          "dur": 0.6
+        },
+        {
+          "to": "PLANK",
+          "at": 3.4,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1180
+          ],
+          "text": "CADERA HUNDIDA NO",
+          "anchor": "end",
+          "at": 0.8,
+          "out": 2.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1180
+          ],
+          "text": "CADERA ALTA NO",
+          "anchor": "end",
+          "at": 2.4,
+          "out": 3.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1180
+          ],
+          "text": "EN LÍNEA",
+          "anchor": "end",
+          "at": 3.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Cuerpo en línea recta",
+        "Glúteos y abdomen firmes",
+        "Sin hundir ni subir la cadera",
+        "Respirá normal"
+      ],
+      "vo": "Claves: cuerpo en línea, glúteos y abdomen firmes, sin hundir la cadera y respirando normal.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "40 SEG"
+      ],
+      "sub": "Isométrico",
+      "vo": "Cuarenta segundos de plancha. Si se te rompe la línea, pará y descansá.",
+      "chips": [
+        {
+          "label": "1 · APRETÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · RESPIRÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · AGUANTÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "PLANK",
+    "grip": 1,
+    "zoom": 1.35,
+    "dy": 60
+  },
+  "youtube": {
+    "titulo": "Plank Hold 🔥 Plancha perfecta: core fuerte sin dolor de espalda | CrossFit",
+    "tags": [
+      "plank",
+      "plank hold",
+      "plancha",
+      "plancha abdominal",
+      "plancha isométrica",
+      "core",
+      "abdominales",
+      "recto abdominal",
+      "estabilidad",
+      "lumbar",
+      "crossfit",
+      "activación",
+      "accesorio"
+    ],
+    "descripcion": "🔥 PLANK HOLD — La plancha: el isométrico que blinda tu core\n\n¿A los 20 segundos ya se te hunde la cadera? La plancha no se aguanta con la espalda: se aguanta apretando glúteos y abdomen y respirando. Este ejercicio es para vos. 💪 💪\n\n📋 PASO A PASO\n1️⃣ Apoyá las manos bajo los hombros y las puntas de los pies, y subí a la plancha.\n2️⃣ Alineá la cabeza, la cadera y los talones en una sola línea recta.\n3️⃣ Apretá glúteos y abdomen como si te fueran a pegar en la panza.\n4️⃣ No hundas la cadera ni la levantes: cualquiera de las dos rompe la línea.\n5️⃣ Respirá normal durante todo el tiempo.\n\n✅ CLAVES DE TÉCNICA\n• Hombros sobre los codos (o las manos)\n• Cuerpo en línea recta de la cabeza a los talones\n• Apretar glúteos y abdomen\n• No dejar caer la cadera ni levantarla\n• Respirar normal\n\n🎯 QUÉ TRABAJA\nRecto abdominal · Deltoides anterior · Erectores espinales · Oblicuo externo\n\n⏱️ CUÁNTO\n40 segundos mantenidos. Va en la activación, en el WOD o como accesorio de core.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés molestias lumbares, empeá con la plancha sobre las rodillas y sumá segundos de a poco.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #accesorio #PlankHold #Core #Entrenamiento"
+  },
+  "pronuncia": {
+    "Plank Hold": "Planc jould",
+    "plank": "planc",
+    "hollow": "jólou"
+  }
+}

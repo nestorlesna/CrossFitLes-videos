@@ -1,0 +1,428 @@
+{
+  "slug": "bar-pull-up",
+  "name": "Bar Pull Up",
+  "category": "CROSSFIT · HABILIDAD",
+  "tags": [
+    "Dorsal",
+    "Bíceps",
+    "Agarre"
+  ],
+  "descripcion": "Colgado de la barra con agarre prono algo más ancho que los hombros, tirar hasta pasar la barbilla por encima de la barra y bajar controlado hasta extender los brazos.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1504,
+    "scale": 0.66
+  },
+  "initialPose": "HANG",
+  "poses": {
+    "HANG": {
+      "hip": [
+        0,
+        -562
+      ],
+      "b": 0,
+      "t": 0,
+      "s": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40
+    },
+    "ACTIVE": {
+      "hip": [
+        0,
+        -602
+      ],
+      "b": 0,
+      "t": 0,
+      "s": 0,
+      "hd": -6,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40
+    },
+    "PULL": {
+      "hip": [
+        0,
+        -690
+      ],
+      "b": 0,
+      "t": 0,
+      "s": 0,
+      "hd": -2,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": -1,
+      "ft": 40
+    },
+    "TOP": {
+      "hip": [
+        0,
+        -858
+      ],
+      "b": -4,
+      "t": 0,
+      "s": 0,
+      "hd": -6,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": -1,
+      "ft": 40
+    },
+    "SWING_BAD": {
+      "hip": [
+        100,
+        -580
+      ],
+      "b": -22,
+      "t": -45,
+      "s": -30,
+      "hd": -14,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · HABILIDAD",
+      "head": [
+        "BAR",
+        "PULL UP"
+      ],
+      "vo": "Bar Pull Up: la dominada estricta. Tirás hasta pasar la barbilla por encima de la barra.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "PULL",
+              0.5
+            ],
+            [
+              "TOP",
+              0.5
+            ],
+            [
+              "HANG",
+              0.6
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "AGARRE",
+        "PRONO"
+      ],
+      "sub": "Brazos estirados",
+      "vo": "Colgate de la barra con las manos algo más anchas que los hombros y los brazos estirados.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "HANG.W"
+          },
+          "r": 48,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            1020,
+            800
+          ],
+          "text": "MANOS AL ANCHO",
+          "anchor": "end",
+          "at": 1.5
+        },
+        {
+          "type": "label",
+          "pos": [
+            1020,
+            900
+          ],
+          "text": "BRAZOS ESTIRADOS",
+          "anchor": "end",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "ESCÁPULAS",
+        "ABAJO"
+      ],
+      "sub": "Antes de tirar",
+      "vo": "Paso uno. Antes de tirar, activá las escápulas: los hombros lejos de las orejas.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "ACTIVE",
+          "at": 1.2,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "ACTIVE.S"
+          },
+          "r": 46,
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            1020,
+            880
+          ],
+          "text": "HOMBROS ABAJO",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "CODOS",
+        "ABAIJO Y ATRÁS"
+      ],
+      "sub": "Cuerpo firme",
+      "vo": "Paso dos. Llevá los codos hacia abajo y atrás, con el cuerpo firme, sin balanceo.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 1.0,
+          "dur": 0.5
+        },
+        {
+          "to": "TOP",
+          "at": 1.5,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            760,
+            1120
+          ],
+          "to": [
+            740,
+            1290
+          ],
+          "bend": [
+            90,
+            0
+          ],
+          "at": 1.5,
+          "dur": 0.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            1020,
+            900
+          ],
+          "text": "HASTA LA BARRA",
+          "anchor": "end",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Sin pataleo",
+      "vo": "Paso tres. Bajá completo hasta estirar los brazos: cada repetición arranca de abajo.",
+      "moves": [
+        {
+          "cut": "SWING_BAD",
+          "at": 0
+        },
+        {
+          "to": "HANG",
+          "at": 2.0,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1020,
+            900
+          ],
+          "text": "SIN BALANCEO",
+          "anchor": "end",
+          "at": 0.8,
+          "out": 2.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1020,
+            900
+          ],
+          "text": "BRAZOS ESTIRADOS",
+          "anchor": "end",
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "shrink": 0.62,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Escápulas abajo",
+        "Codos abajo y atrás",
+        "Cuerpo firme, sin balanceo",
+        "Bajá hasta estirar los brazos"
+      ],
+      "vo": "Claves: escápulas abajo, codos abajo y atrás, sin balanceo y bajada completa.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "5 REPS"
+      ],
+      "sub": "Estrictas",
+      "vo": "Cinco repeticiones estrictas. Si no llegás, escalá con banda o ring row.",
+      "chips": [
+        {
+          "label": "1 · ESCÁPULAS",
+          "at": 0.6
+        },
+        {
+          "label": "2 · TIRÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "PULL",
+              0.5
+            ],
+            [
+              "TOP",
+              0.5
+            ],
+            [
+              "HANG",
+              0.6
+            ]
+          ],
+          "at": 0.8,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "TOP",
+    "grip": 1,
+    "zoom": 1.0,
+    "dy": 160
+  },
+  "youtube": {
+    "titulo": "Bar Pull Up 🔥 Dominadas estrictas paso a paso | CrossFit",
+    "tags": [
+      "bar pull up",
+      "pull up",
+      "dominadas",
+      "dominada estricta",
+      "pull up técnica",
+      "barra de dominadas",
+      "dorsal ancho",
+      "bíceps",
+      "escápulas",
+      "gimnásticos",
+      "crossfit",
+      "escalar dominadas"
+    ],
+    "descripcion": "🔥 BAR PULL UP — La dominada estricta: espalda, bíceps y agarre\n\n¿Tirás con los brazos y no te movés de abajo? La dominada no es de brazos: arranca con las escápulas y sigue con los codos abajo y atrás. Este video es para vos. 💪 💪\n\n📋 PASO A PASO\n1️⃣ Colgate de la barra con agarre prono, algo más ancho que los hombros y los brazos estirados.\n2️⃣ Antes de tirar, activá las escápulas: los hombros lejos de las orejas.\n3️⃣ Llevá los codos hacia abajo y atrás, con el cuerpo firme en hollow y sin balanceo.\n4️⃣ Tirá hasta pasar la barbilla por encima de la barra.\n5️⃣ Bajá completo hasta estirar los brazos: cada repetición arranca de abajo.\n\n✅ CLAVES DE TÉCNICA\n• Escápulas activas, hombros lejos de las orejas\n• Codos hacia abajo y atrás\n• Cuerpo firme en hollow, sin balanceo\n• Bajada completa hasta estirar los brazos\n• Escalá con banda o ring row\n\n🎯 QUÉ TRABAJA\nBíceps braquial · Dorsal ancho · Braquiorradial · Romboides · Trapecio medio e inferior\n\n⏱️ CUÁNTO\n5 repeticiones estrictas, en series cortas. Es la base del trabajo gimnástico del WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nColgarse y exigir los hombros carga articulaciones: si nunca hiciste dominadas, empeá con banda o ring row y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #habilidad #BarPullUp #Dominadas #Entrenamiento"
+  },
+  "pronuncia": {
+    "Bar Pull Up": "Bar pul ap",
+    "pull up": "pul ap",
+    "ring row": "ring rou",
+    "hollow": "jólou"
+  },
+  "props": [
+    {
+      "type": "pullupbar",
+      "bar": [
+        0,
+        -1170
+      ],
+      "postX": -430
+    }
+  ]
+}

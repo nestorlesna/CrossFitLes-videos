@@ -1,0 +1,397 @@
+{
+  "slug": "bodyweight-handstand-push-up",
+  "name": "Bodyweight Handstand Push-Up",
+  "category": "CROSSFIT · HABILIDAD",
+  "tags": [
+    "Hombros",
+    "Tríceps",
+    "Core"
+  ],
+  "descripcion": "Flexión invertida en pino (vertical) contra la pared o libre. Activa deltoides y tríceps.",
+  "revisado": false,
+  "notas": "Primera figura invertida (180°): el pino se arma con b/hd/t/s en 180 y el agarre en el piso (hx/hy), el hip a 612 del piso.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 540,
+    "y": 1504,
+    "scale": 0.68
+  },
+  "initialPose": "LOCKOUT",
+  "poses": {
+    "LOCKOUT": {
+      "hip": [
+        0,
+        -578
+      ],
+      "b": 180,
+      "hd": 180,
+      "t": 180,
+      "s": 180,
+      "ft": -110,
+      "g": 1,
+      "hx": 0,
+      "hy": 34,
+      "ed": -1
+    },
+    "PULL": {
+      "hip": [
+        0,
+        -500
+      ],
+      "b": 180,
+      "hd": 180,
+      "t": 180,
+      "s": 180,
+      "ft": -110,
+      "g": 1,
+      "hx": 0,
+      "hy": 34,
+      "ed": -1
+    },
+    "DIP": {
+      "hip": [
+        0,
+        -400
+      ],
+      "b": 180,
+      "hd": 180,
+      "t": 180,
+      "s": 180,
+      "ft": -110,
+      "g": 1,
+      "hx": 0,
+      "hy": 34,
+      "ed": -1
+    },
+    "ARCH_BAD": {
+      "hip": [
+        70,
+        -537
+      ],
+      "b": 165,
+      "hd": 190,
+      "t": 175,
+      "s": 178,
+      "ft": -110,
+      "g": 1,
+      "hx": 0,
+      "hy": 34,
+      "ed": -1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · HABILIDAD",
+      "head": [
+        "HANDSTAND",
+        "PUSH-UP"
+      ],
+      "vo": "Handstand Push-Up: la flexión en pino. Deltoides y tríceps a full, con el cuerpo en línea.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "DIP",
+              0.6
+            ],
+            [
+              "LOCKOUT",
+              0.6
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "MANOS EN",
+        "EL PISO"
+      ],
+      "sub": "Cuerpo vertical",
+      "vo": "Poné las manos un poco más anchas que los hombros, a un palmo de la pared, en pino.",
+      "moves": [
+        {
+          "cut": "LOCKOUT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "from": [
+            540,
+            800
+          ],
+          "to": [
+            540,
+            1400
+          ],
+          "solid": true,
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": {
+            "j": "LOCKOUT.W"
+          },
+          "r": 42,
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            900
+          ],
+          "text": "CUERPO EN LÍNEA",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ",
+        "CONTROLADO"
+      ],
+      "sub": "Con la cabeza",
+      "vo": "Paso uno. Bajá controlado hasta apoyar la cabeza y formar un triángulo con las manos.",
+      "moves": [
+        {
+          "cut": "LOCKOUT",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.9,
+          "dur": 0.5
+        },
+        {
+          "to": "DIP",
+          "at": 1.4,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "DIP.N"
+          },
+          "r": 52,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1330
+          ],
+          "text": "CABEZA AL PISO",
+          "anchor": "end",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "EMPUJÁ",
+        "EL PISO"
+      ],
+      "sub": "Hasta bloquear",
+      "vo": "Paso dos. Empujá el piso con el abdomen firme y volvé a bloquear los brazos arriba.",
+      "moves": [
+        {
+          "cut": "DIP",
+          "at": 0
+        },
+        {
+          "to": "LOCKOUT",
+          "at": 1.0,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            760,
+            1400
+          ],
+          "to": [
+            760,
+            1150
+          ],
+          "at": 1.0,
+          "dur": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1050
+          ],
+          "text": "EMPUJÁ FUERTE",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Sin arquear",
+      "vo": "Paso tres. No arquees la espalda ni salgas de la línea: el cuerpo queda vertical.",
+      "moves": [
+        {
+          "cut": "ARCH_BAD",
+          "at": 0
+        },
+        {
+          "to": "LOCKOUT",
+          "at": 2.0,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1100
+          ],
+          "text": "SIN ARQUEAR",
+          "anchor": "end",
+          "at": 0.8,
+          "out": 2.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1100
+          ],
+          "text": "TODO EN LÍNEA",
+          "anchor": "end",
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Manos al ancho de hombros",
+        "Cabeza al piso, en triángulo",
+        "Cuerpo en línea, sin arquear",
+        "Empujá el piso y bloqueá"
+      ],
+      "vo": "Claves: manos al ancho del hombro, cabeza al piso, cuerpo en línea y empujá fuerte el piso.",
+      "moves": [
+        {
+          "cut": "LOCKOUT",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 REPS"
+      ],
+      "sub": "Nivel avanzado",
+      "vo": "Tres repeticiones. Si recién arrancás, escalá con pike push-up o box HSPU.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · CABEZA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · EMPUJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "LOCKOUT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DIP",
+              0.6
+            ],
+            [
+              "LOCKOUT",
+              0.6
+            ]
+          ],
+          "at": 0.8,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "LOCKOUT",
+    "grip": 1,
+    "zoom": 1.1,
+    "dy": 110
+  },
+  "youtube": {
+    "titulo": "Handstand Push-Up 🔥 Flexiones en pino paso a paso | CrossFit",
+    "tags": [
+      "handstand push up",
+      "hspu",
+      "flexión en pino",
+      "pino",
+      "parada de manos",
+      "handstand",
+      "hombros",
+      "deltoides",
+      "tríceps",
+      "core",
+      "crossfit",
+      "gimnásticos",
+      "escalar hspu",
+      "pike push up"
+    ],
+    "descripcion": "🔥 BODYWEIGHT HANDSTAND PUSH-UP — La flexión en pino: hombros, tríceps y control total\n\n¿Se te arquea la espalda o perdés la línea apenas bajás? El pino se domina con cabeza, no con fuerza bruta: alineá el cuerpo, bajá en triángulo y empujá el piso. Este ejercicio es para vos. 💪 💪\n\n📋 PASO A PASO\n1️⃣ Poné las manos un poco más anchas que los hombros, a un palmo de la pared, y subí al pino.\n2️⃣ Bajá controlado hasta apoyar la cabeza (si podés, sobre un abmat) formando un triángulo con las manos.\n3️⃣ Empujá el piso con el abdomen firme y volvé a bloquear los brazos arriba.\n4️⃣ Mantené el cuerpo en línea: sin arquear la espalda ni perder la vertical.\n5️⃣ Escalá con pike push-up o box HSPU si todavía no llegás.\n\n✅ CLAVES DE TÉCNICA\n• Manos al ancho de hombros, a un palmo de la pared\n• Cabeza al piso formando un triángulo con las manos\n• Abdomen firme y cuerpo en línea vertical\n• Empujá el piso hasta bloquear bien arriba\n• Escalá con pike push-up o box HSPU\n\n🎯 QUÉ TRABAJA\nDeltoides anterior y lateral · Tríceps braquial · Recto abdominal · Trapecio superior\n\n⏱️ CUÁNTO\n3 repeticiones. Trabajo gimnástico avanzado: va en el WOD o como habilidad aparte.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nEl pino carga cuello y hombros: si nunca lo hiciste, empeá con pike push-up contra la pared y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #habilidad #HandstandPushUp #Hombros #Entrenamiento"
+  },
+  "pronuncia": {
+    "Handstand Push-Up": "Jands-tand puch ap",
+    "handstand": "jands-tand",
+    "Bodyweight": "Bodi-ueit",
+    "pike push-up": "paik puch ap",
+    "abmat": "abmat",
+    "box HSPU": "box, eche ese pe u"
+  }
+}

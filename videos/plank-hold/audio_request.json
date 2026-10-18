@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Planc jould: la plancha. Core activo de la cabeza a los talones, sin moverte."
+    },
+    {
+      "id": "02",
+      "text": "Apoyá las manos bajo los hombros y las puntas de los pies, y subí a la plancha."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Alineá todo: la cabeza, la cadera y los talones en una línea recta."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Apretá glúteos y abdomen como si te fueran a pegar en la panza, y respirá."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. No hundas la cadera ni la levantes: cualquiera de las dos rompe la línea."
+    },
+    {
+      "id": "06",
+      "text": "Claves: cuerpo en línea, glúteos y abdomen firmes, sin hundir la cadera y respirando normal."
+    },
+    {
+      "id": "07",
+      "text": "Cuarenta segundos de plancha. Si se te rompe la línea, pará y descansá."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Tibialis reis: el músculo de la espinilla, el antagonista del gemelo. Clave para tobillos sanos."
+    },
+    {
+      "id": "02",
+      "text": "Pegá la espalda y los glúteos a la pared y adelantá los talones. Sólo se mueven los tobillos."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Subí las puntas de los pies lo más alto posible, hacia las canillas."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá lento y controlado hasta volver a apoyar las puntas."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. No despegues la espalda de la pared ni te ayudes con las rodillas."
+    },
+    {
+      "id": "06",
+      "text": "Claves: espalda y glúteos pegados, sólo el tobillo, puntas bien arriba y bajada lenta."
+    },
+    {
+      "id": "07",
+      "text": "Doce repeticiones. Cuanto más adelantás los talones, más difícil se hace."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

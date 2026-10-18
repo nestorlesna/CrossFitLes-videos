@@ -1,0 +1,366 @@
+{
+  "slug": "tibialis-raise",
+  "name": "Tibialis Raise",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Tibial",
+    "Tobillo",
+    "Gemelos"
+  ],
+  "descripcion": "Apoyado de espaldas contra una pared, con los talones adelantados y apoyados en el piso, levantar las puntas de los pies hacia las canillas y bajar controlado. Trabaja el tibial anterior, antagonista del gemelo.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 560,
+    "y": 1500,
+    "scale": 0.86
+  },
+  "initialPose": "FLAT",
+  "poses": {
+    "FLAT": {
+      "hip": [
+        -140,
+        -430
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": -140,
+      "hy": -430,
+      "ed": 1
+    },
+    "TOES_UP": {
+      "hip": [
+        -140,
+        -430
+      ],
+      "ankle": [
+        0,
+        -21
+      ],
+      "ft": -40,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": -140,
+      "hy": -430,
+      "ed": 1
+    },
+    "OFF_BAD": {
+      "hip": [
+        -20,
+        -430
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": -4,
+      "b": -6,
+      "hd": -2,
+      "g": 1,
+      "hx": -20,
+      "hy": -430,
+      "ed": 1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "TIBIALIS",
+        "RAISE"
+      ],
+      "vo": "Tibialis Raise: el músculo de la espinilla, el antagonista del gemelo. Clave para tobillos sanos.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "TOES_UP",
+              0.7
+            ],
+            [
+              "FLAT",
+              0.8
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "TALONES",
+        "ADELANTE"
+      ],
+      "sub": "Espalda en la pared",
+      "vo": "Pegá la espalda y los glúteos a la pared y adelantá los talones. Sólo se mueven los tobillos.",
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            900
+          ],
+          "text": "ESPALDA PEGADA",
+          "anchor": "end",
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1430
+          ],
+          "text": "TALONES ADELANTE",
+          "anchor": "end",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "PUNTAS",
+        "ARRIBA"
+      ],
+      "sub": "Hacia las canillas",
+      "vo": "Paso uno. Subí las puntas de los pies lo más alto posible, hacia las canillas.",
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        },
+        {
+          "to": "TOES_UP",
+          "at": 1.0,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            790,
+            1510
+          ],
+          "to": [
+            770,
+            1410
+          ],
+          "at": 1.0,
+          "dur": 0.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1360
+          ],
+          "text": "PUNTAS ARRIBA",
+          "anchor": "end",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "BAJÁ",
+        "LENTO"
+      ],
+      "sub": "Sin perder la pared",
+      "vo": "Paso dos. Bajá lento y controlado hasta volver a apoyar las puntas.",
+      "moves": [
+        {
+          "cut": "TOES_UP",
+          "at": 0
+        },
+        {
+          "to": "FLAT",
+          "at": 1.2,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1360
+          ],
+          "text": "BAJADA LENTA",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Sólo el tobillo",
+      "vo": "Paso tres. No despegues la espalda de la pared ni te ayudes con las rodillas.",
+      "moves": [
+        {
+          "cut": "OFF_BAD",
+          "at": 0
+        },
+        {
+          "to": "FLAT",
+          "at": 2.0,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            900
+          ],
+          "text": "DESPEGADA NO",
+          "anchor": "end",
+          "at": 0.7,
+          "out": 2.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            900
+          ],
+          "text": "PEGADO A LA PARED",
+          "anchor": "end",
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Espalda y glúteos pegados",
+        "Sólo se mueve el tobillo",
+        "Puntas bien arriba",
+        "Bajá lento y controlado"
+      ],
+      "vo": "Claves: espalda y glúteos pegados, sólo el tobillo, puntas bien arriba y bajada lenta.",
+      "moves": [
+        {
+          "cut": "TOES_UP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "12 REPS"
+      ],
+      "sub": "Por serie",
+      "vo": "Doce repeticiones. Cuanto más adelantás los talones, más difícil se hace.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · ARRIBA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOES_UP",
+              0.8
+            ],
+            [
+              "FLAT",
+              0.8
+            ]
+          ],
+          "at": 0.8,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "TOES_UP",
+    "grip": 1,
+    "zoom": 1.2,
+    "dy": 180
+  },
+  "youtube": {
+    "titulo": "Tibialis Raise 🔥 Espinillas fuertes y tobillos sanos paso a paso | CrossFit",
+    "tags": [
+      "tibialis raise",
+      "tibial anterior",
+      "elevación de tibial",
+      "espinilla",
+      "gemelos",
+      "sóleo",
+      "tobillo",
+      "prevención de lesiones",
+      "shin splints",
+      "activación",
+      "crossfit",
+      "entrada en calor"
+    ],
+    "descripcion": "🔥 TIBIALIS RAISE — El tibial anterior: el músculo de la espinilla que casi nadie entrena\n\n¿Te duelen las espinillas al correr o al saltar la cuerda? Entrenar el tibial anterior, el antagonista del gemelo, equilibra la rodilla y el tobillo y previene las molestias. Este ejercicio es para vos. 💪 💪\n\n📋 PASO A PASO\n1️⃣ Pegá la espalda y los glúteos a la pared y adelantá los talones (cuanto más adelante, más difícil).\n2️⃣ Subí las puntas de los pies lo más alto posible, hacia las canillas.\n3️⃣ Bajá lento y controlado hasta volver a apoyar las puntas.\n4️⃣ Sólo se mueven los tobillos: la espalda y los glúteos no se despegan de la pared.\n5️⃣ Completá las repeticiones sin apurar el ritmo.\n\n✅ CLAVES DE TÉCNICA\n• Espalda y glúteos contra la pared\n• Sólo se mueve el tobillo, nada de rodillas\n• Puntas lo más alto posible\n• Bajada lenta y controlada\n• Cuanto más adelantados los talones, más difícil\n\n🎯 QUÉ TRABAJA\nTibial anterior · Gastrocnemio (gemelos) · Sóleo\n\n⏱️ CUÁNTO\n12 repeticiones. Ideal antes de correr o saltar, y como accesorio de prevención.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #activacion #TibialisRaise #TibialAnterior #Entrenamiento"
+  },
+  "pronuncia": {
+    "Tibialis Raise": "Tibialis reis",
+    "tibialis": "tibialis",
+    "shin splints": "shin esplints"
+  },
+  "props": [
+    {
+      "type": "wall",
+      "x": -250,
+      "h": 860
+    }
+  ]
+}

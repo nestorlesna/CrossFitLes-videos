@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Bar pul ap: la dominada estricta. Tirás hasta pasar la barbilla por encima de la barra."
+    },
+    {
+      "id": "02",
+      "text": "Colgate de la barra con las manos algo más anchas que los hombros y los brazos estirados."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Antes de tirar, activá las escápulas: los hombros lejos de las orejas."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Llevá los codos hacia abajo y atrás, con el cuerpo firme, sin balanceo."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Bajá completo hasta estirar los brazos: cada repetición arranca de abajo."
+    },
+    {
+      "id": "06",
+      "text": "Claves: escápulas abajo, codos abajo y atrás, sin balanceo y bajada completa."
+    },
+    {
+      "id": "07",
+      "text": "Cinco repeticiones estrictas. Si no llegás, escalá con banda o ring rou."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

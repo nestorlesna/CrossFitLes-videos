@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Sínguel leg caf reis: el gemelo, una pierna por vez. Subí bien alto y bajá con control."
+    },
+    {
+      "id": "02",
+      "text": "Parate sobre una pierna, con el core firme y las manos en la cadera. La otra pierna queda libre."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Subí el talón lo más alto que puedas, girando sobre la punta del pie."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá lento, con control: la bajada lenta es donde más crece el gemelo."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. No hagas medias repeticiones ni rebotes. Rango completo siempre."
+    },
+    {
+      "id": "06",
+      "text": "Claves: rodilla estirada, talón bien arriba, bajada lenta y el mismo número de repeticiones por pierna."
+    },
+    {
+      "id": "07",
+      "text": "Seis repeticiones por pierna, sin descansar. Si te cuesta el equilibrio, apoyate en la pared."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}
