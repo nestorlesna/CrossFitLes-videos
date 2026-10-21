@@ -10,7 +10,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 5s
-- voiceover: "Clean and Jerk: cargada y envión. La barra del piso a los hombros, y de los hombros arriba."
+- voiceover: "Barbell Clean and Jerk: cargada y envión. La barra del piso a los hombros, y de los hombros arriba."
 - poses: SETUP → KNEE → HIP → EXT → PULL_C → RACK_Q → RACK → DIP → DRIVE → SPLIT → OH_ST
 
 ## Frame 2 — POSICIÓN INICIAL COMO EN EL DEADLIFT

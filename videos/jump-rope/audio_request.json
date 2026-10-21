@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Champ roup: saltos de cuerda simples, un salto por cada vuelta. Ritmo, coordinación y gemelos."
+      "en": "Jump Rope",
+      "text": "Saltos de cuerda simples, un salto por cada vuelta. Ritmo, coordinación y gemelos."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

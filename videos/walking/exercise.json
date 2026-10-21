@@ -1,0 +1,432 @@
+{
+  "name": "Walking",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Cardio",
+    "Piernas",
+    "Pantorrillas"
+  ],
+  "descripcion": "Caminar a paso tranquilo, utilizado como recuperación activa entre estaciones de trabajo dentro de un circuito.",
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "floorScroll": 150,
+  "props": [],
+  "initialPose": "WALK_A",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 5,
+      "fa": 0,
+      "ua2": -5,
+      "fa2": 0
+    },
+    "WALK_A": {
+      "hip": [
+        0,
+        -450
+      ],
+      "s": -14,
+      "t": -18,
+      "s2": 34,
+      "t2": 20,
+      "ft2": 26,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": -12,
+      "fa": 18,
+      "ua2": 12,
+      "fa2": 16
+    },
+    "WALK_B": {
+      "hip": [
+        0,
+        -450
+      ],
+      "s": 34,
+      "t": 20,
+      "s2": -14,
+      "t2": -18,
+      "ft": 26,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 12,
+      "fa": 16,
+      "ua2": -12,
+      "fa2": 18
+    },
+    "PASS": {
+      "hip": [
+        0,
+        -458
+      ],
+      "s": -4,
+      "t": -8,
+      "s2": 10,
+      "t2": 6,
+      "ft2": 14,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": -2,
+      "fa": 10,
+      "ua2": 4,
+      "fa2": 10
+    },
+    "BAD": {
+      "hip": [
+        0,
+        -440
+      ],
+      "s": -14,
+      "t": -18,
+      "s2": 34,
+      "t2": 20,
+      "ft2": 26,
+      "b": 24,
+      "hd": 30,
+      "g": 0,
+      "ua": -10,
+      "fa": 20,
+      "ua2": 10,
+      "fa2": 18
+    }
+  },
+  "slug": "walking",
+  "revisado": false,
+  "pronuncia": {
+    "Walking": "Uálkin"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "WALKING"
+      ],
+      "vo": "Walking: caminar tranquilo entre estaciones, para bajar pulsaciones sin frenar del todo el circuito.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "WALK_A",
+              0.55
+            ],
+            [
+              "PASS",
+              0.3
+            ],
+            [
+              "WALK_B",
+              0.55
+            ],
+            [
+              "PASS",
+              0.3
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE",
+        "RELAJADO"
+      ],
+      "sub": "Pecho arriba, mirada al frente",
+      "vo": "Parate derecho con el pecho arriba y la mirada al frente. Los brazos sueltos, al costado del cuerpo.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            600,
+            980
+          ],
+          "text": "PECHO ARRIBA",
+          "anchor": "start",
+          "at": 1.2,
+          "out": 4.2
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "PASO",
+        "CORTO"
+      ],
+      "sub": "Sin zancada larga",
+      "vo": "Paso uno. Caminá con pasos cortos y naturales: no es una zancada de carrera, es un paso tranquilo.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "WALK_A",
+              0.55
+            ],
+            [
+              "PASS",
+              0.3
+            ],
+            [
+              "WALK_B",
+              0.55
+            ],
+            [
+              "PASS",
+              0.3
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "TALÓN",
+        "PRIMERO"
+      ],
+      "sub": "Desenrollá hasta la punta",
+      "vo": "Paso dos. Apoyá primero el talón y desenrollá el pie hasta la punta. El pie completo pasa por el piso.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "WALK_A",
+              0.55
+            ],
+            [
+              "PASS",
+              0.3
+            ],
+            [
+              "WALK_B",
+              0.55
+            ],
+            [
+              "PASS",
+              0.3
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "BRAZOS",
+        "SUELTOS"
+      ],
+      "sub": "Acompañan el paso",
+      "vo": "Paso tres. Dejá que los brazos acompañen el paso, relajados, sin cruzarlos ni apretarlos.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "WALK_A",
+              0.55
+            ],
+            [
+              "PASS",
+              0.3
+            ],
+            [
+              "WALK_B",
+              0.55
+            ],
+            [
+              "PASS",
+              0.3
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "RESPIRÁ",
+        "TRANQUILO"
+      ],
+      "sub": "Nariz, sin apuro",
+      "vo": "Paso cuatro. Respirá tranquilo, por la nariz y sin apuro: esto es recuperación, no una carrera.",
+      "moves": [
+        {
+          "cut": "WALK_A",
+          "at": 0
+        },
+        {
+          "to": "BAD",
+          "at": 1.0,
+          "dur": 0.5
+        },
+        {
+          "to": "WALK_B",
+          "at": 3.6,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "BAD.H",
+            "dx": -40,
+            "dy": -330
+          },
+          "text": "ASÍ NO: ENCORVADO",
+          "anchor": "middle",
+          "at": 1.1,
+          "out": 3.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Pasos cortos y naturales",
+        "Apoyo de talón a punta",
+        "Brazos sueltos y relajados",
+        "Respirá tranquilo"
+      ],
+      "vo": "Claves: pasos cortos, apoyo de talón a punta, brazos sueltos y respiración tranquila.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "WALK_A",
+              0.55
+            ],
+            [
+              "PASS",
+              0.3
+            ],
+            [
+              "WALK_B",
+              0.55
+            ],
+            [
+              "PASS",
+              0.3
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.2,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 METROS"
+      ],
+      "sub": "Recuperación activa",
+      "vo": "Diez metros a paso tranquilo entre estaciones. Usalo para bajar pulsaciones y volver al WOD.",
+      "chips": [
+        {
+          "label": "1 · CAMINÁ",
+          "at": 0.4
+        },
+        {
+          "label": "2 · RESPIRÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ",
+          "at": 1.8
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "WALK_A",
+              0.55
+            ],
+            [
+              "PASS",
+              0.3
+            ],
+            [
+              "WALK_B",
+              0.55
+            ],
+            [
+              "PASS",
+              0.3
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "WALK_A",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Walking 🔥 Caminar entre estaciones para recuperar paso a paso | CrossFit",
+    "tags": [
+      "walking",
+      "caminar",
+      "recuperación activa",
+      "caminata",
+      "cardio suave",
+      "entre series",
+      "crossfit",
+      "wod",
+      "vuelta a la calma",
+      "piernas",
+      "pantorrillas",
+      "entrada en calor"
+    ],
+    "descripcion": "🔥 WALKING — Caminar tranquilo como recuperación activa\n\n¿Terminás una estación y no sabés qué hacer con el cuerpo? Caminar tranquilo baja las pulsaciones sin dejar de moverte. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate derecho con el pecho arriba y la mirada al frente, brazos sueltos al costado.\n2️⃣ Caminá con pasos cortos y naturales, sin zancada larga.\n3️⃣ Apoyá primero el talón y desenrollá el pie hasta la punta.\n4️⃣ Dejá que los brazos acompañen el paso, relajados.\n5️⃣ Respirá tranquilo, por la nariz y sin apuro.\n\n✅ CLAVES DE TÉCNICA\n• Pasos cortos y naturales\n• Apoyo de talón a punta\n• Brazos sueltos\n• Respiración tranquila\n• Postura relajada y erguida\n\n🎯 QUÉ TRABAJA\nCuádriceps · Pantorrillas · Glúteos\n\n⏱️ CUÁNTO\n10 metros a paso tranquilo entre estaciones o al final del WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi venís muy agitado, caminá un poco más lento y alargá la respiración: la idea es bajar, no sumar fatiga.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Cardio #Walking #Recuperación #Entrenamiento"
+  }
+}

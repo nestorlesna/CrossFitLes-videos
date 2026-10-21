@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Uálkin: caminar tranquilo entre estaciones, para bajar pulsaciones sin frenar del todo el circuito."
+    },
+    {
+      "id": "02",
+      "text": "Parate derecho con el pecho arriba y la mirada al frente. Los brazos sueltos, al costado del cuerpo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Caminá con pasos cortos y naturales: no es una zancada de carrera, es un paso tranquilo."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Apoyá primero el talón y desenrollá el pie hasta la punta. El pie completo pasa por el piso."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Dejá que los brazos acompañen el paso, relajados, sin cruzarlos ni apretarlos."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Respirá tranquilo, por la nariz y sin apuro: esto es recuperación, no una carrera."
+    },
+    {
+      "id": "07",
+      "text": "Claves: pasos cortos, apoyo de talón a punta, brazos sueltos y respiración tranquila."
+    },
+    {
+      "id": "08",
+      "text": "Diez metros a paso tranquilo entre estaciones. Usalo para bajar pulsaciones y volver al WOD."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

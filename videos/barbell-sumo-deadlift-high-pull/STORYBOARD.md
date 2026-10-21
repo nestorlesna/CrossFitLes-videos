@@ -10,7 +10,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 4.8s
-- voiceover: "Sumo Deadlift High Pull: barra al piso, pies anchos y tirón explosivo hasta la barbilla. Potencia pura."
+- voiceover: "Barbell Sumo Deadlift High Pull: barra al piso, pies anchos y tirón explosivo hasta la barbilla. Potencia pura."
 - poses: —
 
 ## Frame 2 — POSICIÓN INICIAL PIES ANCHOS

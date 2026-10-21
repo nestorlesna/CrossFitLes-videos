@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Bárbel páuer snach: la barra del piso a arriba de la cabeza, en un solo movimiento explosivo."
+      "en": "Barbell Power Snatch",
+      "text": "La barra del piso a arriba de la cabeza, en un solo movimiento explosivo."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

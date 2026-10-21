@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Wall ball run: correr con el balón al pecho. Cardio, piernas y hombros sostenidos sin perder el ritmo."
+    },
+    {
+      "id": "02",
+      "text": "Sostené el balón pegado al pecho, con los codos abajo y la mirada al frente. Nada de cargarlo al hombro."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Corré con un ritmo constante y pasos cortos, como si no llevaras nada en los brazos."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Mantené el balón quieto contra el pecho: que no rebote, que no se mueva con cada paso."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Mirá al frente y respirá parejo. Si apretás los hombros y te encorvás, el balón se te escapa."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Mantené el ritmo parejo de principio a fin: no arranques rápido para frenar en la mitad."
+    },
+    {
+      "id": "07",
+      "text": "Claves: balón pegado al pecho, codos abajo, pasos cortos, mirada al frente y ritmo constante."
+    },
+    {
+      "id": "08",
+      "text": "Veinticinco a cincuenta metros corriendo con el balón al pecho, ida y vuelta, sin soltarlo."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

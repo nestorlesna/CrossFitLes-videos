@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Sled push and pul: empujar el trineo de ida y tirar de él de vuelta. Piernas y potencia a full."
+      "en": "Sled push and pull",
+      "text": "Empujar el trineo de ida y tirar de él de vuelta. Piernas y potencia a full."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

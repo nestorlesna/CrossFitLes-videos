@@ -10,7 +10,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 4.8s
-- voiceover: "Ankle Mobility Drill: medio arrodillado, con una pesa adelante como referencia, llevás la rodilla sobre la punta del pie sin despegar el talón. Gana dorsiflexión de tobillo."
+- voiceover: "Kettlebell Ankle Mobility Drill: medio arrodillado, llevás la rodilla más allá de la punta del pie sin despegar el talón."
 - poses: —
 
 ## Frame 2 — POSICIÓN INICIAL MEDIO ARRODILLADO
@@ -45,7 +45,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 8.2s
-- voiceover: "Claves: el talón de adelante siempre apoyado, la rodilla va sobre la punta del pie buscando la pesa, la kettlebell marca la distancia a ganar y sin rebotes: aguantá el punto máximo un par de segundos."
+- voiceover: "Claves: el talón de adelante siempre apoyado, la rodilla busca la pesa por arriba de la punta del pie y, sin rebotes, aguantá un par de segundos."
 - poses: —
 
 ## Frame 7 — A ENTRENAR 30 SEG POR LADO

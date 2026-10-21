@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Bárbel thrúster: sentadilla frontal y empuje arriba, en un solo movimiento continuo."
+      "en": "Barbell Thruster",
+      "text": "Sentadilla frontal y empuje arriba, en un solo movimiento continuo."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

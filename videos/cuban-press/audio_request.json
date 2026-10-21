@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Kiúban pres: jalón, rotación y press, con discos livianos. Salud para el manguito rotador."
+      "en": "Cuban Press",
+      "text": "Jalón, rotación y press, con discos livianos. Salud para el manguito rotador."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

@@ -1,0 +1,323 @@
+{
+  "name": "Calf Raise Hold",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Gemelos",
+    "Isométrico",
+    "Tobillo"
+  ],
+  "descripcion": "Subir a puntas de pie lo más alto posible y sostener arriba. Gemelos y sóleo absorben carga que de otro modo pasa a la rodilla.",
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1505,
+    "scale": 0.8
+  },
+  "floorScroll": 0,
+  "props": [],
+  "initialPose": "UP",
+  "poses": {
+    "STAND": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "ft": 0,
+      "ft2": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 5,
+      "fa": 8,
+      "ua2": 5,
+      "fa2": 8
+    },
+    "UP": {
+      "hip": [
+        40,
+        -514
+      ],
+      "ankle": [
+        40,
+        -44.6
+      ],
+      "ft": 32,
+      "ft2": 32,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 6,
+      "fa": 10,
+      "ua2": 6,
+      "fa2": 10
+    },
+    "HALF_BAD": {
+      "hip": [
+        16,
+        -462
+      ],
+      "ankle": [
+        16,
+        -20
+      ],
+      "ft": 14,
+      "ft2": 14,
+      "b": 2,
+      "hd": 4,
+      "g": 0,
+      "ua": 8,
+      "fa": 12,
+      "ua2": 8,
+      "fa2": 12
+    }
+  },
+  "slug": "calf-raise-hold",
+  "revisado": false,
+  "pronuncia": {
+    "Calf Raise Hold": "kalf reis jould",
+    "Calf": "kalf",
+    "Raise": "reis",
+    "Hold": "jould"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "ISOMÉTRICO · GEMELOS",
+      "head": [
+        "CALF RAISE",
+        "HOLD"
+      ],
+      "vo": "Calf raise hold: subís a la punta y te quedás ahí. Treinta segundos que te salvan la rodilla.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PIES AL",
+        "ANCHO"
+      ],
+      "sub": "Rodillas extendidas",
+      "vo": "De pie, pies al ancho de cadera y rodillas extendidas. Respiración tranquila antes de subir.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            110,
+            1040
+          ],
+          "text": "RODILLAS RECTAS",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SUBÍ Y",
+        "QUEDATE"
+      ],
+      "sub": "Lo más alto posible",
+      "vo": "Paso uno. Subí a la punta lo más alto que puedas y quedate ahí, sin bajar a media altura.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.8,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "UP.A",
+            "dx": 0,
+            "dy": 26
+          },
+          "r": 40,
+          "at": 0.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            150,
+            1460
+          ],
+          "text": "TALÓN ALTO",
+          "anchor": "start",
+          "at": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "AGUANTÁ",
+        "ARRIBA"
+      ],
+      "sub": "No bajes el talón",
+      "vo": "Paso dos. Aguantá arriba respirando, con el peso sobre el dedo gordo y el talón sin caer.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "UP.A",
+            "dx": 0,
+            "dy": 24
+          },
+          "r": 44,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            150,
+            1460
+          ],
+          "text": "30 SEG ASÍ",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO:",
+        "MEDIA ALTURA"
+      ],
+      "sub": "Y el talón se cae",
+      "vo": "Así no: si bajás a media altura o apoyás el talón, el isométrico se corta y no trabaja.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "HALF_BAD",
+          "at": 1.0,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "HALF_BAD.K",
+            "dx": -30,
+            "dy": 45
+          },
+          "text": "SE CAE",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Subir al máximo",
+        "Sostener sin bajar",
+        "Peso en el dedo gordo",
+        "Respirar tranquilo",
+        "Bajar en 3 segundos"
+      ],
+      "vo": "Claves: subir al máximo, sostener sin bajar, peso en el dedo gordo, respirar y bajar en tres segundos.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.4,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30",
+        "SEGUNDOS"
+      ],
+      "sub": "Por serie, sin bajar",
+      "vo": "Treinta segundos por serie, tres series. Si el talón se cae antes, aguantá lo que puedas y anotá el tiempo.",
+      "chips": [
+        {
+          "label": "1 — SUBÍ",
+          "at": 0.4
+        },
+        {
+          "label": "2 — AGUANTÁ",
+          "at": 1.1
+        }
+      ],
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "grip": 0,
+    "zoom": 1.28,
+    "dy": 266
+  },
+  "youtube": {
+    "titulo": "Calf Raise Hold 🎯 Isométrico de gemelos en punta de pie | 30 segundos",
+    "tags": [
+      "calf raise hold",
+      "isometrico",
+      "gemelos",
+      "soleo",
+      "isometric calf raise",
+      "activacion",
+      "rodilla",
+      "tobillo",
+      "crossfit",
+      "wod",
+      "técnica",
+      "piernas"
+    ],
+    "descripcion": "🔥 CALF RAISE HOLD — Isométrico de gemelos\n\nTreinta segundos en la punta de los pies y el tobillo empieza a blindarse. Si bajás a media altura, no cuenta. 💪\n\n📋 PASO A PASO\n1️⃣ Parate con los pies al ancho de cadera y las rodillas extendidas.\n2️⃣ Subí a la punta lo más alto posible.\n3️⃣ Sostené arriba sin bajar el talón.\n4️⃣ Mantené el peso sobre el dedo gordo y respirá.\n5️⃣ Al terminar, bajá en tres segundos.\n\n✅ CLAVES DE TÉCNICA\n• Subir al máximo\n• Sostener sin bajar\n• Peso en el dedo gordo\n• Respirar tranquilo\n• Bajar en 3 segundos\n\n🎯 QUÉ TRABAJA\nGastrocnemio · Sóleo · Tobillo · Core\n\n⏱️ CUÁNTO\n30 segundos por serie, 3 series.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nEste isométrico es ideal antes de saltos y sentadillas: activa el tobillo sin fatigarlo.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Isométrico #Gemelos #CalfRaise #CrossFit #WOD #Técnica #Activación"
+  }
+}

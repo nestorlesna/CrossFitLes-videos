@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Barbell Escuát clin: la barra del piso a los hombros, pero te metés abajo y la recibís en sentadilla completa."
+      "en": "Barbell Squat Clean",
+      "text": "La barra del piso a los hombros, pero te metés abajo y la recibís en sentadilla completa."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

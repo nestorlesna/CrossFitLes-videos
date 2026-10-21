@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Mancuernas apoyadas al hombro y zancada: fuerza de piernas y estabilidad. Un clásico para sumar carga sin barra."
+    },
+    {
+      "id": "02",
+      "text": "Una mancuerna en cada hombro, apoyadas atrás, con los codos abajo, el pecho arriba y la mirada al frente."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Da un paso al frente, largo, y apoyá todo el pie. La rodilla de adelante sigue la punta del pie."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá derecho hasta que la rodilla de atrás roce el piso, sin inclinar el torso hacia adelante."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Empujá con la pierna de adelante y volvé a pararte. Alterná la pierna en cada repetición."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Mantené la cadera estable y el torso derecho. Si te inclinás, las mancuernas se te van adelante."
+    },
+    {
+      "id": "07",
+      "text": "Claves: mancuernas apoyadas atrás, pecho arriba, paso largo con pie completo, rodilla trasera al piso y torso derecho."
+    },
+    {
+      "id": "08",
+      "text": "Diez zancadas por pierna, alternando. Si las mancuernas se mueven, bajá el peso y priorizá la técnica."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

@@ -27,7 +27,7 @@
 
 ## Line 6 — CLAVES (Frame 6)
 
-    Claves: sentadilla completa antes de cada lanzamiento, lanzá con la extensión de cadera y no solo con los brazos, tirá el balón bien alto por encima de la barra y recibilo arriba, al pecho.
+    Claves: sentadilla completa antes de lanzar, la fuerza sale de la cadera y no de los brazos, el balón bien alto sobre la barra y recibilo al pecho.
 
 ## Line 7 — A ENTRENAR (Frame 7)
 

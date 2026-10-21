@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Pártner uol bol sitap: abdominales en pareja, pasándose el balón medicinal arriba."
+      "en": "Partner Wall Ball Sit-Up",
+      "text": "Abdominales en pareja, pasándose el balón medicinal arriba."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

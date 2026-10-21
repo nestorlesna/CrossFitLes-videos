@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Rist exténsor strech: soltá el antebrazo y cuidá las muñecas después de la barra o la kettlebell."
+      "en": "Wrist Extensor Stretch",
+      "text": "Soltá el antebrazo y cuidá las muñecas después de la barra o la kettlebell."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

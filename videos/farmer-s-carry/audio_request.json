@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Fármers carri: caminar con dos pesas pesadas a los costados. Agarre, trapecio y core."
+      "en": "Farmer's Carry",
+      "text": "Caminar con dos pesas pesadas a los costados. Agarre, trapecio y core."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

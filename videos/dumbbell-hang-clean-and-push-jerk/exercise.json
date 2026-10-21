@@ -1,0 +1,496 @@
+{
+  "name": "DB Hang Clean + Jerk",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Hombros",
+    "Glúteos",
+    "Piernas"
+  ],
+  "descripcion": "Desde la posicion hang (mancuernas a la altura de los muslos/rodillas), extender la cadera con fuerza para llevar las mancuernas a la posicion de rack en los hombros (hang clean), luego, con un pequeno dip y extension de piernas, empujar las mancuernas overhead (push jerk).",
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1500,
+    "scale": 0.7
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "hand": "far",
+      "side": true,
+      "r": 40
+    },
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "side": true,
+      "r": 40
+    }
+  ],
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 10,
+      "fa": 4,
+      "ua2": 10,
+      "fa2": 4
+    },
+    "HANG": {
+      "s": 10,
+      "t": -32,
+      "b": 52,
+      "hd": 38,
+      "g": 1,
+      "hx": 80,
+      "hy": -330,
+      "ed": 1
+    },
+    "RACK": {
+      "hip": [
+        0,
+        -466
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 2,
+      "hd": 4,
+      "g": 0,
+      "ua": 45,
+      "fa": 165,
+      "ua2": 49,
+      "fa2": 161
+    },
+    "DIP": {
+      "hip": [
+        -55,
+        -400
+      ],
+      "s": 16,
+      "t": -36,
+      "b": 6,
+      "hd": 4,
+      "g": 0,
+      "ua": 45,
+      "fa": 165,
+      "ua2": 49,
+      "fa2": 161
+    },
+    "DRIVE": {
+      "hip": [
+        0,
+        -486
+      ],
+      "s": -4,
+      "t": 4,
+      "b": -4,
+      "hd": -2,
+      "ft": -18,
+      "ft2": -18,
+      "g": 0,
+      "ua": 45,
+      "fa": 165,
+      "ua2": 49,
+      "fa2": 161
+    },
+    "LOCK": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 6,
+      "g": 0,
+      "ua": 180,
+      "fa": 0,
+      "ua2": 176,
+      "fa2": 0
+    },
+    "NO_DIP": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 2,
+      "g": 0,
+      "ua": 120,
+      "fa": 40,
+      "ua2": 116,
+      "fa2": 40
+    }
+  },
+  "slug": "dumbbell-hang-clean-and-push-jerk",
+  "revisado": false,
+  "pronuncia": {
+    "Dumbbell Hang Clean and Push Jerk": "dámbel jang clin and push yerk",
+    "Hang": "jang",
+    "Clean": "clin",
+    "Push Jerk": "push yerk"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "DB HANG",
+        "CLEAN +",
+        "PUSH JERK"
+      ],
+      "vo": "Hang clean y push jerk con mancuernas: dos movimientos en uno para ganar potencia de cadera y hombros.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "HANG",
+              0.7
+            ],
+            [
+              "RACK",
+              0.6
+            ],
+            [
+              "DIP",
+              0.4
+            ],
+            [
+              "DRIVE",
+              0.4
+            ],
+            [
+              "LOCK",
+              0.8
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "MANCUERNAS",
+        "EN HANG"
+      ],
+      "sub": "A la altura del muslo",
+      "vo": "Con una mancuerna en cada mano, de pie, brazos estirados y las mancuernas a la altura de los muslos.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "HANG",
+          "at": 1.2,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            120,
+            1100
+          ],
+          "text": "BRAZOS LARGOS",
+          "anchor": "start",
+          "at": 1.0,
+          "out": 4.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "EXTENDÉ",
+        "LA CADERA"
+      ],
+      "sub": "Como un salto",
+      "vo": "Paso uno. Llevá la cadera atrás y extendela fuerte, como un salto: las mancuernas suben pegadas al cuerpo.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "RACK",
+          "at": 1.0,
+          "dur": 0.45,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "from": [
+            150,
+            1240
+          ],
+          "to": [
+            300,
+            1240
+          ],
+          "solid": true,
+          "at": 0.8,
+          "out": 3.4
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "RACK",
+        "EN HOMBROS"
+      ],
+      "sub": "Codos abajo, pecho arriba",
+      "vo": "Paso dos. Recibí las mancuernas en el hombro, con los codos abajo y el pecho arriba. Esa es la posición de rack.",
+      "moves": [
+        {
+          "cut": "RACK",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "RACK.W",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 44,
+          "at": 0.8,
+          "out": 4.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            120,
+            1160
+          ],
+          "text": "CODOS ABAJO",
+          "anchor": "start",
+          "at": 1.4,
+          "out": 4.4
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "DIP",
+        "CORTO"
+      ],
+      "sub": "Rodillas, no espalda",
+      "vo": "Paso tres. Hacé un dip corto, doblando apenas las rodillas, y extendé con fuerza para empujar las mancuernas arriba.",
+      "moves": [
+        {
+          "cut": "RACK",
+          "at": 0
+        },
+        {
+          "to": "DIP",
+          "at": 1.1,
+          "dur": 0.45
+        },
+        {
+          "to": "DRIVE",
+          "at": 2.6,
+          "dur": 0.3,
+          "ease": "power2.out"
+        },
+        {
+          "to": "DIP",
+          "at": 3.3,
+          "dur": 0.3
+        }
+      ],
+      "overlays": []
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "EXTENDÉ",
+        "COMPLETO"
+      ],
+      "sub": "Sin quedarte a mitad",
+      "vo": "Paso cuatro. Terminá con los brazos bien extendidos arriba, las costillas abajo y las mancuernas firmes.",
+      "moves": [
+        {
+          "cut": "RACK",
+          "at": 0
+        },
+        {
+          "to": "NO_DIP",
+          "at": 0.8,
+          "dur": 0.4
+        },
+        {
+          "to": "LOCK",
+          "at": 2.0,
+          "dur": 0.45
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "NO_DIP.W",
+            "dx": -20,
+            "dy": -70
+          },
+          "text": "ASÍ NO: A MITAD",
+          "anchor": "end",
+          "at": 0.9,
+          "out": 2.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Cadera atrás, después extensión",
+        "Mancuernas pegadas al cuerpo",
+        "Rack con codos abajo",
+        "Dip corto y vertical",
+        "Extensión completa arriba"
+      ],
+      "vo": "Claves: cadera atrás y extensión fuerte, mancuernas pegadas, rack con codos abajo, dip corto y extensión completa.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "HANG",
+              0.7
+            ],
+            [
+              "RACK",
+              0.6
+            ],
+            [
+              "DIP",
+              0.4
+            ],
+            [
+              "LOCK",
+              0.7
+            ],
+            [
+              "RACK",
+              0.5
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.4,
+      "badge": "A ENTRENAR",
+      "head": [
+        "5 + 5",
+        "REPS"
+      ],
+      "sub": "Clean y jerk encadenados",
+      "vo": "Cinco repeticiones por lado, encadenando el clean con el jerk. Bajá las mancuernas controladas al muslo.",
+      "chips": [
+        {
+          "label": "1 · HANG",
+          "at": 0.4
+        },
+        {
+          "label": "2 · RACK",
+          "at": 1.1
+        },
+        {
+          "label": "3 · ARRIBA",
+          "at": 1.8
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "HANG",
+              0.55
+            ],
+            [
+              "RACK",
+              0.4
+            ],
+            [
+              "DIP",
+              0.3
+            ],
+            [
+              "LOCK",
+              0.55
+            ],
+            [
+              "RACK",
+              0.3
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "LOCK",
+    "grip": 0,
+    "zoom": 1.02,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Dumbbell Hang Clean and Push Jerk 🔥 Dos movimientos en uno | CrossFit",
+    "tags": [
+      "dumbbell hang clean",
+      "push jerk",
+      "hang clean and jerk",
+      "mancuernas",
+      "clean",
+      "jerk",
+      "potencia",
+      "hombros",
+      "crossfit",
+      "wod",
+      "fuerza",
+      "técnica"
+    ],
+    "descripcion": "🔥 DUMBBELL HANG CLEAN AND PUSH JERK — Clean y jerk con mancuernas\n\nPotencia de cadera y hombros en un solo movimiento. Si el clean te sale con los brazos, estás perdiendo fuerza. Aprendelo bien. 💪\n\n📋 PASO A PASO\n1️⃣ De pie, brazos estirados y las mancuernas a la altura de los muslos.\n2️⃣ Llevá la cadera atrás y extendela fuerte, como un salto.\n3️⃣ Recibí las mancuernas en el hombro, con los codos abajo.\n4️⃣ Hacé un dip corto doblando apenas las rodillas.\n5️⃣ Extendé con fuerza y terminá con los brazos completos arriba.\n\n✅ CLAVES DE TÉCNICA\n• La fuerza viene de la cadera, no de los brazos\n• Mancuernas pegadas al cuerpo\n• Rack con codos abajo y pecho arriba\n• Dip vertical y corto\n• Extensión completa y costillas abajo\n\n🎯 QUÉ TRABAJA\nCadera · Glúteos · Isquios · Hombros · Tríceps · Core\n\n⏱️ CUÁNTO\n5 repeticiones por lado, 4 series. Descansá lo suficiente para mantener la potencia.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi el peso te obliga a inclinarte, bajá la carga: este movimiento se entrena rápido y liviano, no lento y pesado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #HangClean #PushJerk #Mancuernas #Potencia #WOD"
+  }
+}

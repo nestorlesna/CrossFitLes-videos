@@ -11,8 +11,8 @@ node_modules/
 #   node plantilla/make-exercise.mjs <slug> --render
 # Se versionan solo la descripción de YouTube y la miniatura.
 salida/*.mp4
-salida/subidos/*.mp4
-subidos/*.mp4
+salida/subidos/**/*.mp4
+subidos/**/*.mp4
 
 # Carpetas de trabajo generadas por make-exercise / pose-lab / hyperframes
 videos/_poselab/
@@ -34,3 +34,4 @@ desktop.ini
 .vscode/
 *.log
 plantilla/voces-piper/
+plantilla/voces-kokoro/

@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Uol torásic extenshons: movilidad de la espalda alta con la pared. Pecho abierto para empujar arriba."
+      "en": "Wall Thoracic Extensions",
+      "text": "Movilidad de la espalda alta con la pared. Pecho abierto para empujar arriba."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

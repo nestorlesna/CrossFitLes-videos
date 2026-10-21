@@ -7,7 +7,7 @@
 
 ## Line 1 — CROSSFIT · FUERZA · WOD (Frame 1)
 
-    Sled Push and Pull: empujar el trineo de ida y tirar de él de vuelta. Piernas y potencia a full.
+    Sled Push & Pull: empujar el trineo de ida y tirar de él de vuelta. Piernas y potencia a full.
 
 ## Line 2 — POSICIÓN INICIAL (Frame 2)
 

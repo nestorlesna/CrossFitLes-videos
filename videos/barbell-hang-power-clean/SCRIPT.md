@@ -7,7 +7,7 @@
 
 ## Line 1 — CROSSFIT · FUERZA (Frame 1)
 
-    Hang Power Clean: desde arriba de las rodillas hasta los hombros, en un solo movimiento explosivo.
+    Barbell Hang Power Clean: desde arriba de las rodillas hasta los hombros, en un solo movimiento explosivo.
 
 ## Line 2 — POSICIÓN INICIAL (Frame 2)
 

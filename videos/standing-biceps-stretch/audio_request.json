@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Standing Biceps Stretch: abrí el pecho y estirá bíceps y hombros en treinta segundos."
+      "en": "Standing Biceps Stretch",
+      "text": "Abrí el pecho y estirá bíceps y hombros en treinta segundos."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

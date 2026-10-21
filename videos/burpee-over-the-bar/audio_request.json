@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Burpii óuver de bar: burpii al lado de la barra y salto lateral por encima. Un clásico de los WODs."
+      "en": "Burpee Over the Bar",
+      "text": "Burpii al lado de la barra y salto lateral por encima. Un clásico de los WODs."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

@@ -1,0 +1,384 @@
+{
+  "name": "Strict Knees to Elbows",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Abdomen",
+    "Flexores",
+    "Agarre"
+  ],
+  "descripcion": "Colgado de la barra sin impulso, flexionar la cadera para llevar las rodillas hasta tocar los codos, luego bajar de forma controlada.",
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1504,
+    "scale": 0.66
+  },
+  "props": [
+    {
+      "type": "pullupbar",
+      "bar": [
+        0,
+        -1170
+      ],
+      "postX": -430
+    }
+  ],
+  "initialPose": "HANG",
+  "poses": {
+    "HANG": {
+      "hip": [
+        0.0,
+        -562.0
+      ],
+      "b": 0,
+      "t": 0,
+      "s": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40
+    },
+    "KNEES": {
+      "hip": [
+        0.0,
+        -780.0
+      ],
+      "b": -30.0,
+      "t": -172.2,
+      "s": -6,
+      "hd": -24,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 10
+    },
+    "ARCH_BAD": {
+      "hip": [
+        40.0,
+        -556.0
+      ],
+      "b": 22,
+      "t": 40,
+      "s": 34,
+      "hd": 26,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40
+    }
+  },
+  "slug": "strict-knees-to-elbows",
+  "revisado": false,
+  "pronuncia": {
+    "Strict Knees to Elbows": "Estrict nis tu élbous",
+    "knees to elbows": "nis tu élbous",
+    "kip": "kip",
+    "hollow": "jólou",
+    "knees to chest": "nis tu chest"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "KNEES TO",
+        "ELBOWS"
+      ],
+      "vo": "Knees to Elbows estricto: colgado de la barra subís las rodillas hasta tocar los codos, sin impulso.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "KNEES",
+              0.9
+            ],
+            [
+              "HANG",
+              0.9
+            ]
+          ],
+          "at": 0.8,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "COLGADO",
+        "ESTRICTO"
+      ],
+      "sub": "Escápulas activas",
+      "vo": "Colgate de la barra con las manos al ancho de los hombros, brazos estirados y las escápulas hacia abajo. Quieto.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "HANG.S",
+            "dx": -30,
+            "dy": -300
+          },
+          "text": "HOMBROS ACTIVOS",
+          "anchor": "middle",
+          "at": 1.2,
+          "out": 4.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "SIN",
+        "BALANCEO"
+      ],
+      "sub": "Nada de kip",
+      "vo": "Paso uno. Arrancá colgado y quieto: sin kip ni balanceo. Primero el control, después la altura.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 1.6,
+          "dur": 0.5
+        },
+        {
+          "to": "HANG",
+          "at": 3.1,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "ARCH_BAD.H",
+            "dx": -40,
+            "dy": -360
+          },
+          "text": "ASÍ NO: KIP",
+          "anchor": "middle",
+          "at": 1.9,
+          "out": 3.0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "SUBÍ LAS",
+        "RODILLAS"
+      ],
+      "sub": "Apuntá a los codos",
+      "vo": "Paso dos. Flexioná la cadera y subí las rodillas juntas, apuntando a los codos.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "KNEES",
+          "at": 0.6,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "KNEES.K",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 62,
+          "at": 1.5
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "TOCÁ LOS",
+        "CODOS"
+      ],
+      "sub": "Tope del recorrido",
+      "vo": "Paso tres. En el tope las rodillas tocan los codos. Ahí es donde el abdomen trabaja de verdad.",
+      "moves": [
+        {
+          "cut": "KNEES",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "KNEES.E",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 60,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "KNEES.K",
+            "dx": 0,
+            "dy": 170
+          },
+          "text": "RODILLAS A LOS CODOS",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "BAJÁ",
+        "CONTROLANDO"
+      ],
+      "sub": "Sin dejarte caer",
+      "vo": "Paso cuatro. Bajá controlando hasta estirar del todo y repetí, sin perder nunca la tensión del core.",
+      "moves": [
+        {
+          "cut": "KNEES",
+          "at": 0
+        },
+        {
+          "to": "HANG",
+          "at": 0.6,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.62,
+      "keys": [
+        "Nada de kip ni balanceo",
+        "Escápulas activas",
+        "Rodillas juntas",
+        "Bajada controlada"
+      ],
+      "vo": "Claves: nada de kip ni balanceo, escápulas activas, rodillas juntas y bajada controlada.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "KNEES",
+              0.9
+            ],
+            [
+              "HANG",
+              0.9
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "8 REPS"
+      ],
+      "sub": "Escalá: knees to chest",
+      "vo": "Ocho repeticiones estrictas. Si todavía no llegás, escalá con knees to chest y bajá de a poco.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.4
+        },
+        {
+          "label": "2 · TOCÁ",
+          "at": 1.2
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 2.0
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "KNEES",
+              0.9
+            ],
+            [
+              "HANG",
+              0.9
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "KNEES",
+    "grip": 1,
+    "zoom": 1.0,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Strict Knees to Elbows 🔥 Rodillas a los codos sin kip paso a paso | CrossFit",
+    "tags": [
+      "strict knees to elbows",
+      "knees to elbows",
+      "rodillas a los codos",
+      "k2e",
+      "abdominales colgado",
+      "core estricto",
+      "sin kip",
+      "gimnásticos",
+      "crossfit",
+      "abdomen",
+      "fuerza",
+      "barra de dominadas"
+    ],
+    "descripcion": "🔥 STRICT KNEES TO ELBOWS — Rodillas a los codos, sin kip\n\n¿Cansado de que el impulso haga todo el trabajo? Las estrictas son las que construyen abdomen y agarre de verdad. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Colgate de la barra con las manos al ancho de los hombros, brazos estirados y escápulas activas: quieto, sin kip.\n2️⃣ Flexioná la cadera y subí las rodillas juntas, apuntando a los codos.\n3️⃣ En el tope, las rodillas tocan los codos: ahí trabaja el abdomen.\n4️⃣ Bajá controlando hasta estirar del todo y repetí.\n\n✅ CLAVES DE TÉCNICA\n• Nada de kip ni balanceo\n• Escápulas activas\n• Rodillas juntas\n• Bajada controlada\n\n🎯 QUÉ TRABAJA\nRecto abdominal · Oblicuos · Flexores de cadera · Antebrazo (agarre)\n\n⏱️ CUÁNTO\n8 repeticiones estrictas. Escalá con knees to chest si todavía no llegás.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi te cuesta la estricta, hacé knees to chest y sumá altura de a poco. Un coach que te mire desde el costado ayuda un montón.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Core #KneesToElbows #Abdominales #Entrenamiento"
+  }
+}

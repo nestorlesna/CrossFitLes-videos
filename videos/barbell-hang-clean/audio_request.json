@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Hang Clean: la cargada que arranca colgada, sin pasar por el piso. Potencia de cadera en un movimiento corto."
+    },
+    {
+      "id": "02",
+      "text": "Parate con la barra en la cadera, brazos estirados y hombros por delante de la barra. Espalda firme."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá al jang: rodillas flexionadas, cadera atrás y la barra a media rótula, pegada a las piernas."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Extendé cadera y rodillas de golpe, con los brazos estirados: la barra sube por la extensión."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Cuando la barra pasa la cadera, encogé los hombros y girá los codos rápido hacia el frente."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Recibí la barra en los hombros con los codos altos y salí parado con el pecho arriba."
+    },
+    {
+      "id": "07",
+      "text": "Claves: barra pegada, extensión completa, codos rápidos y recibí con los codos altos."
+    },
+    {
+      "id": "08",
+      "text": "Dos repeticiones desde el jang. Cargá, extendé y recibí sin bajar la barra al piso."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

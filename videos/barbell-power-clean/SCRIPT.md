@@ -7,7 +7,7 @@
 
 ## Line 1 — CROSSFIT · FUERZA (Frame 1)
 
-    Power Clean: la barra del piso a los hombros en un solo movimiento, y recibís arriba del paralelo.
+    Barbell Power Clean: la barra del piso a los hombros en un solo movimiento, y recibís arriba del paralelo.
 
 ## Line 2 — POSICIÓN INICIAL (Frame 2)
 

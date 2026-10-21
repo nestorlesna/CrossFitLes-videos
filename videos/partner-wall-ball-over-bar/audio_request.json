@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Pártner uál bol óver bar: en parejas, frente a frente, se pasan el balón medicinal por encima de una barra apoyada en el piso."
+      "en": "Partner Wall Ball Over Bar",
+      "text": "En parejas, frente a frente, se pasan el balón medicinal por encima de una barra apoyada en el piso."
     },
     {
       "id": "02",
@@ -26,7 +27,7 @@
     },
     {
       "id": "06",
-      "text": "Claves: sentadilla completa antes de cada lanzamiento, lanzá con la extensión de cadera y no solo con los brazos, tirá el balón bien alto por encima de la barra y recibilo arriba, al pecho."
+      "text": "Claves: sentadilla completa antes de lanzar, la fuerza sale de la cadera y no de los brazos, el balón bien alto sobre la barra y recibilo al pecho."
     },
     {
       "id": "07",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

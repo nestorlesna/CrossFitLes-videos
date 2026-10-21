@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "ancol moubíliti dril: medio arrodillado, con una pesa adelante como referencia, llevás la rodilla sobre la punta del pie sin despegar el talón. Gana dorsiflexión de tobillo."
+      "en": "Kettlebell Ankle Mobility Drill",
+      "text": "Medio arrodillado, llevás la rodilla más allá de la punta del pie sin despegar el talón."
     },
     {
       "id": "02",
@@ -26,7 +27,7 @@
     },
     {
       "id": "06",
-      "text": "Claves: el talón de adelante siempre apoyado, la rodilla va sobre la punta del pie buscando la pesa, la kettlebell marca la distancia a ganar y sin rebotes: aguantá el punto máximo un par de segundos."
+      "text": "Claves: el talón de adelante siempre apoyado, la rodilla busca la pesa por arriba de la punta del pie y, sin rebotes, aguantá un par de segundos."
     },
     {
       "id": "07",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

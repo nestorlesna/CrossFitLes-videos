@@ -65,14 +65,19 @@ export function contentHash(spec) {
 
 // Los videos ya publicados el profe los mueve a mano a salida/subidos/ (o subidos/ en la raíz).
 // outPath busca cada archivo de salida ahí también, para no perderlo del CHECKLIST ni duplicarlo al regenerarlo.
+// También cuentan sus subcarpetas (ej. salida/subidos/viejos/).
 const SUBIDOS = [join(ROOT, "salida", "subidos"), join(ROOT, "subidos")];
-const subidoPath = (file) => SUBIDOS.map((d) => join(d, file)).find((f) => existsSync(f)) || null;
+const subidosDirs = () => SUBIDOS.filter((d) => existsSync(d)).flatMap((d) => [d,
+  ...readdirSync(d, { withFileTypes: true }).filter((e) => e.isDirectory()).map((e) => join(d, e.name))]);
+const subidoPath = (file) => subidosDirs().map((d) => join(d, file)).find((f) => existsSync(f)) || null;
 const outPath = (file) => subidoPath(file) || join(ROOT, "salida", file);
 const rel = (f) => f.slice(ROOT.length + 1).replace(/\\/g, "/");
 
 const VOICE_CREDIT = "🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.";
+const VOICE_CREDIT_EN = "🎙️ Nombre del ejercicio: voz Heart (Kokoro TTS, hexgrad/Kokoro-82M), licencia Apache 2.0.";
 // salida/<slug>.youtube.txt — título, descripción y tags listos para copiar en YouTube Studio.
-function exportYoutube(spec) {
+// conEn = el último render dice el nombre en inglés con Kokoro (.pipeline.json → renderVozEn): suma ese crédito.
+function exportYoutube(spec, conEn = false) {
   const yt = spec.youtube;
   if (!yt?.descripcion) return false;
   mkdirSync(join(ROOT, "salida"), { recursive: true });
@@ -80,7 +85,7 @@ function exportYoutube(spec) {
   let desc = yt.descripcion;
   if ((spec.voiceProvider || "piper") === "piper" && !desc.includes("Voz:")) {
     const lines = desc.split("\n"), tags = lines.pop();
-    desc = [...lines, VOICE_CREDIT, "", tags].join("\n");
+    desc = [...lines, VOICE_CREDIT, ...(conEn ? [VOICE_CREDIT_EN] : []), "", tags].join("\n");
   }
   const txt = ["TÍTULO", yt.titulo, "", "DESCRIPCIÓN", desc, "", "TAGS", (yt.tags || []).join(", "), ""].join("\n");
   writeFileSync(outPath(`${spec.slug}.youtube.txt`), txt);
@@ -142,22 +147,43 @@ ${frames.map((f, i) => `
 // Voz: Piper local con Daniela (es_AR) por defecto. "voiceProvider": "kokoro" en la ficha vuelve al motor anterior
 // (voces em_alex, em_santa, ef_dora).
 const PIPER_VOICE = "es_AR-daniela-high";
+// Nombre en inglés (desde 2026-10-21): en la portada el nombre lo dice Kokoro "Heart" en inglés y el resto, Daniela.
+const EN_VOICE = "kokoro:af_heart";
+
+// Parte el vo de la portada en { en, es }. Si el vo empieza con el nombre ("Air Squat: la sentadilla…"), el nombre se
+// saca del texto de Daniela; si no, el nombre en inglés se dice antes del vo completo. "nombreEnVoz" (ficha) = cómo lo
+// dice la voz inglesa ("4-6 Breathing" → "Four six breathing"); "nombreEn": false lo apaga (nombres en castellano).
+function nombreEn(spec, vo) {
+  if (spec.nombreEn === false || (spec.voiceProvider || "piper") !== "piper") return null;
+  const en = spec.nombreEnVoz || spec.name;
+  if (!vo.toLowerCase().startsWith(spec.name.toLowerCase())) return { en, es: vo };
+  const es = vo.slice(spec.name.length).replace(/^[\s:,.;—-]+/, "");
+  return { en, es: es.charAt(0).toUpperCase() + es.slice(1) };
+}
+
 function tts(dir, spec, frames) {
   const provider = spec.voiceProvider || "piper";
+  const hook = Math.max(0, frames.findIndex((f) => f.kind === "hook"));
+  let conEn = false;
   const request = {
     provider,
     lang: "es",
     speed: spec.voiceSpeed ?? 1.0,
     voice: spec.voice || (provider === "piper" ? PIPER_VOICE : "em_alex"),
-    lines: frames.map((f) => {
+    lines: frames.map((f, i) => {
       // "pronuncia" (ficha): reemplazos solo para la voz, el subtítulo queda con el texto real ("Burpee" → "Burpii").
       // "voSpeed" (escena): velocidad propia de esa línea (ej. 0.88 para que el nombre en inglés se entienda).
-      let text = f.vo;
+      const sp = i === hook ? nombreEn(spec, f.vo) : null;
+      let text = sp ? sp.es : f.vo;
       for (const [from, to] of Object.entries(spec.pronuncia || {})) text = text.split(from).join(to);
+      // Con el nombre en inglés, el voSpeed de la portada (que era para el nombre) ya no se usa.
+      if (sp) { conEn = true; return { id: f.id, en: sp.en, text }; }
       return f.voSpeed ? { id: f.id, text, speed: f.voSpeed } : { id: f.id, text };
     }),
     bgm: { mode: "none" },
   };
+  if (conEn) request.enVoice = EN_VOICE;
+  writeStatus(dir, { vozEn: conEn ? EN_VOICE : null });
   const reqPath = join(dir, "audio_request.json");
   const prev = existsSync(reqPath) ? readFileSync(reqPath, "utf8") : "";
   const next = JSON.stringify(request, null, 2);
@@ -209,11 +235,13 @@ export function checklist() {
   ];
   const ok = (b) => (b ? "✅" : "⬜");
   let done = 0, fichas = 0, yts = 0, subidos = 0, next = null;
+  const conEn = [], sinEn = []; // videos en salida/ (no subidos) ya re-renderizados / pendientes con el nombre en inglés
   const rows = items.map(({ slug, n, row }) => {
     const s = specs[slug];
     const st = readStatus(join(ROOT, "videos", slug));
     const mp4 = st.archivo || `${slug}.mp4`; // archivo = nombre con prefijo del último render (--prefijo)
-    const out = outPath(mp4), subido = !!subidoPath(mp4);
+    // Subido = está en salida/subidos/ con su nombre o sin prefijo (un OC_ que se subió como <slug>.mp4).
+    const out = outPath(mp4), subido = !!(subidoPath(mp4) || subidoPath(`${slug}.mp4`));
     const rendered = existsSync(out);
     const name = s?.spec.name || row?.nombre || slug;
     const impl = row?.implemento || (s ? "Ninguno" : "");
@@ -221,18 +249,32 @@ export function checklist() {
       next ??= `${n} · ${name}`;
       const faltan = [!row?.descripcion && "descripción", !row?.tecnica_coach && "técnica"].filter(Boolean);
       const nota = faltan.length ? `falta ${faltan.join(" y ")} en el CSV` : "";
-      return `| ${n} | ${name} | ${impl} | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | ⬜ | ⬜ | — | ${nota} |`;
+      return `| ${n} | ${name} | ${impl} | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | ${nota} |`;
     }
     fichas++;
     const { spec, file } = s;
     const stale = rendered && (st.renderHash ? st.renderHash !== contentHash(spec) : statSync(file).mtimeMs > statSync(out).mtimeMs);
-    const yt = exportYoutube(spec);
+    const yt = exportYoutube(spec, !!st.renderVozEn);
     if (rendered) done++;
     if (subido) subidos++;
     if (yt) yts++;
     const dur = rendered ? `${mp4Duration(out)?.toFixed(1)} s` : "—";
-    return `| ${n} | ${name} | ${impl} | ✅ | ${ok(st.voz)} | ${ok(st.composicion)} | ${st.check == null ? "⬜" : st.check ? "✅" : "❌"} | ${rendered ? (stale ? "⚠️ desactualizado" : "✅") : "⬜"} | ${yt ? `[✅](${rel(outPath(`${slug}.youtube.txt`))})` : "⬜"} | ${existsSync(outPath(`${slug}.miniatura.png`)) ? `[✅](${rel(outPath(`${slug}.miniatura.png`))})` : "⬜"} | ${dur} | ${rendered ? `[${mp4}](${rel(out)})` : "—"} | ${ok(spec.revisado)} | ${ok(subido)} | ${st.renderizado || "—"} | ${spec.notas || ""} |`;
+    // Nombre EN: ✅ el render dice el nombre en inglés · ⬜ falta re-renderizar · — no aplica (subido, sin render, nombreEn false)
+    let en = "—";
+    if (rendered && st.renderVozEn) { en = "✅"; if (!subido) conEn.push(slug); }
+    else if (rendered && !subido && spec.nombreEn !== false) { en = "⬜"; sinEn.push(`${slug}${mp4 !== `${slug}.mp4` ? ` (${mp4})` : ""}`); }
+    return `| ${n} | ${name} | ${impl} | ✅ | ${ok(st.voz)} | ${ok(st.composicion)} | ${st.check == null ? "⬜" : st.check ? "✅" : "❌"} | ${rendered ? (stale ? "⚠️ desactualizado" : "✅") : "⬜"} | ${yt ? `[✅](${rel(outPath(`${slug}.youtube.txt`))})` : "⬜"} | ${existsSync(outPath(`${slug}.miniatura.png`)) ? `[✅](${rel(outPath(`${slug}.miniatura.png`))})` : "⬜"} | ${dur} | ${rendered ? `[${mp4}](${rel(out)})` : "—"} | ${en} | ${ok(spec.revisado)} | ${ok(subido)} | ${st.renderizado || "—"} | ${spec.notas || ""} |`;
   });
+  // Plan de re-render con el nombre en inglés: lotes de 10 en el orden de la tabla (plantilla/revoz-en.mjs toma el primero).
+  const lotes = [];
+  for (let i = 0; i < sinEn.length; i += 10) lotes.push(sinEn.slice(i, i + 10));
+  const plan = sinEn.length
+    ? `\n## Plan: nombre en inglés en los videos ya renderizados\n
+Los videos de \`salida/\` (no los subidos) se re-renderizan para que el nombre lo diga la voz en inglés.
+Hechos: **${conEn.length}** · Pendientes: **${sinEn.length}** en ${lotes.length} lotes. Próximo lote: \`node plantilla/revoz-en.mjs --lotes=1\`.
+El archivo conserva su nombre (los \`OC_\` siguen siendo \`OC_\`).\n
+${lotes.map((l, i) => `- **Lote ${i + 1}:** ${l.join(", ")}`).join("\n")}\n`
+    : "";
   const md = `# Checklist de videos de ejercicios
 
 Generado automáticamente por \`node plantilla/make-exercise.mjs --checklist\` (no editar a mano).
@@ -242,13 +284,14 @@ Subido = el .mp4 está en \`salida/subidos/\` (se mueve a mano después de publi
 
 **Renderizados:** ${done} / ${items.length} · **Fichas:** ${fichas} · **Descripción YouTube:** ${yts} · **Subidos:** ${subidos}${next ? ` · **Próximo:** ${next}` : ""}
 
-| # | Ejercicio | Implemento | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Revisado | Subido | Fecha render | Notas |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| # | Ejercicio | Implemento | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Nombre EN | Revisado | Subido | Fecha render | Notas |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 ${rows.join("\n")}
 
 Leyenda: ✅ listo · ⬜ pendiente · ❌ falló · ⚠️ lo que se ve/escucha en la ficha cambió después del último render (volver a renderizar).
+Nombre EN: ✅ el nombre lo dice la voz en inglés · ⬜ falta re-renderizar · — no aplica (subido a YouTube, sin render o nombre en castellano).
 Implemento distinto de "Ninguno": el personaje todavía no lo tiene; hay que agregarlo a \`plantilla/runtime.js\` antes de hacer ese video.
-`;
+${plan}`;
   writeFileSync(join(ROOT, "CHECKLIST.md"), md);
   console.log(`✓ CHECKLIST.md (${done}/${items.length} renderizados, ${fichas} fichas, ${yts} con descripción YouTube)`);
 }
@@ -308,7 +351,7 @@ function main() {
     if (r.status !== 0) throw new Error("render falló");
     mkdirSync(join(ROOT, "salida"), { recursive: true });
     copyFileSync(join(dir, "renders", "video.mp4"), join(ROOT, "salida", mp4Name(slug)));
-    writeStatus(dir, { renderizado: today(), renderHash: contentHash(spec), archivo: mp4Name(slug) });
+    writeStatus(dir, { renderizado: today(), renderHash: contentHash(spec), archivo: mp4Name(slug), renderVozEn: readStatus(dir).vozEn || null });
     console.log(`✓ salida/${mp4Name(slug)}`);
   }
   checklist();

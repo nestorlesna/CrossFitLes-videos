@@ -65,7 +65,9 @@ de CrossFit y anotalo en el reporte final; solo preguntá si es una duda real qu
   **español rioplatense con voseo** ("flexioná", "tomá", "bajá", "parate"), voz en off + subtítulo + música de fondo.
 - El personaje es un atleta SVG plano dibujado por `plantilla/runtime.js`, en **vista lateral mirando a la derecha**.
 - Motor de video: **HyperFrames** (CLI vía `npx --prefer-offline hyperframes`). Voz: **Piper** local con la voz
-  **Daniela es_AR** (`plantilla/piper-tts.py`). Música: `plantilla/musica/bgm-base.wav`. Todo es local y gratis.
+  **Daniela es_AR** (`plantilla/piper-tts.py`), salvo el **nombre del ejercicio en la portada, que lo dice en inglés
+  la voz Kokoro "Heart"** (`af_heart`) y después sigue Daniela en castellano (ver 6.7). Música: `plantilla/musica/bgm-base.wav`.
+  Todo es local y gratis.
 - **Un ejercicio = un archivo** `ejercicios/<slug>.json` (la "ficha"). Es lo único que se escribe a mano.
   Todo lo demás lo genera `node plantilla/make-exercise.mjs`.
 
@@ -92,7 +94,8 @@ El README es la especificación exacta de cada campo; este archivo es el procedi
 ## 2. Reglas fijas (no negociables)
 
 1. Idioma: español rioplatense con voseo en voz, subtítulos, textos en pantalla y descripción de YouTube. Nada formal.
-2. No cambies la voz, la música, el tamaño ni el estilo visual. No propongas otras voces.
+2. No cambies la voz (Daniela + nombre en inglés con Kokoro `af_heart`), la música, el tamaño ni el estilo visual.
+   No propongas otras voces.
 3. No edites `videos/<slug>/index.html` ni `CHECKLIST.md` a mano: se regeneran. Los cambios van en la ficha JSON.
 4. No toques `salida/subidos/` ni muevas archivos de salida.
 5. **No hagas `git commit` ni `git push`** salvo que el usuario lo pida explícitamente.
@@ -114,12 +117,19 @@ node -v                                   # Node 20+ (probado con 24)
 python -c "import piper; print('ok')"     # si falla: python -m pip install piper-tts
 ffprobe -version                          # FFmpeg instalado (para duraciones)
 ls plantilla/voces-piper                  # deben estar es_AR-daniela-high.onnx y .onnx.json
+python -c "import kokoro_onnx; print('ok')"   # voz del nombre en inglés; si falla: python -m pip install kokoro-onnx
+ls ~/.cache/hyperframes/tts/models/kokoro-v1.0.onnx   # o plantilla/voces-kokoro/kokoro-v1.0.onnx (ver abajo)
 ls plantilla/musica/bgm-base.wav
 ls .claude/skills/hyperframes             # skills de HyperFrames (si faltan: npx skills add heygen-com/hyperframes)
 ```
 
 Si falta el modelo de voz, bajalo (114 MB, no está en git) a `plantilla/voces-piper/`:
 `https://huggingface.co/rhasspy/piper-voices/resolve/main/es/es_AR/daniela/high/es_AR-daniela-high.onnx` y el mismo con `.onnx.json`.
+
+Si falta Kokoro (voz del nombre en inglés, 325 MB + 28 MB, no está en git), bajá a `plantilla/voces-kokoro/`:
+`https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx` y
+`https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin`.
+`piper-tts.py` lo busca ahí y, si no está, en `~/.cache/hyperframes/tts/` (donde lo deja HyperFrames).
 
 Si algo de esto falla y no lo podés arreglar, frená y avisale al usuario qué falta.
 
@@ -274,7 +284,7 @@ Ejemplo real completo y simple para copiar: **`ejercicios/air-squat.json`**.
 
 | # | `kind` | badge | head (Bebas, 1–2 líneas, **máx. ~14 caracteres c/u**) | vo | `min` |
 |---|---|---|---|---|---|
-| 1 | `hook` | categoría | nombre en 2 líneas | "<Nombre>: <qué es en una frase>. <para qué>." | 4.5–5 |
+| 1 | `hook` | categoría | nombre en 2 líneas | "<Nombre>: <qué es en una frase>. <para qué>." (empieza con el `name` **exacto**, ver 6.7) | 4.5–5 |
 | 2 | (step) | `POSICIÓN INICIAL` | ej. "PIES / AL ANCHO" | cómo pararse/ubicarse | 5–5.5 |
 | 3–5 | (step) con `numeral` "1".."3/4" | `PASO 1 / 4` … | acción corta | "Paso uno. …" | 5–6 |
 | 6 | `keys` | `CLAVES` | `TÉCNICA` | "Claves: a, b, c y d." | 7–8 |
@@ -378,11 +388,27 @@ Reglas aprendidas (las que más fallan en el check):
 | Salto lateral sobre barra | `topview mode bar` + `floorbar` con `pz` | `burpee-over-the-bar` |
 | 90/90 | `topview mode 9090` | `90-90-hip-rotation` |
 
-### 6.7 Pronunciación
+### 6.7 Nombre en inglés y pronunciación
 
-Daniela lee mal los nombres en inglés. Agregá `"pronuncia": { "Nombre Real": "como suena" }` (solo cambia la voz, el
-subtítulo sigue con el nombre real). Ejemplos aprobados: `"Air Squat": "Er scuat"`, `"Burpee Broad Jump": "Burpii, brod champ"`,
-`"burpee": "burpii"`. En el `hook` podés poner `"voSpeed": 0.88` para que el nombre se entienda.
+**Desde 2026-10-21 el nombre del ejercicio lo dice una voz en inglés** (Kokoro `af_heart`, aprobada por el usuario) y
+el resto sigue con Daniela, con una pausa corta y un fundido en el medio. Es automático, no hay que configurar nada:
+- Si el `vo` del `hook` **empieza con el `name` exacto** (`"Air Squat: la sentadilla…"`), el nombre lo dice la voz
+  inglesa y Daniela sigue desde lo que viene después de los dos puntos. **Escribí siempre el hook así.**
+- Si el `vo` del hook no empieza con el nombre (ej. `"Elevación de gemelos: …"`), la voz inglesa dice el nombre
+  antes y Daniela lee el `vo` completo. Sirve cuando el `vo` arranca con la traducción. No arranques con el nombre
+  en inglés recortado (`"Hang Clean:"` en `Barbell Hang Clean`): Daniela lo repetiría mal en inglés.
+- Nombres con números o símbolos: `"nombreEnVoz": "Four six breathing"` (cómo lo dice la voz inglesa; el subtítulo
+  sigue mostrando el `vo`). Ej.: `4-6 Breathing`, `Sled Push & Pull`, `SkiErg` → `"Ski erg"`, `DB Hang Clean + Jerk`.
+- Nombre en castellano (ej. `Descanso`): `"nombreEn": false` y lo dice Daniela, como antes.
+- En el hook ya **no hace falta** `"voSpeed": 0.88` ni poner el nombre en `pronuncia` (se ignoran para el nombre).
+
+`"pronuncia"` sigue sirviendo para palabras en inglés que lee Daniela en el **resto** de las escenas
+(`"pronuncia": { "kettlebell": "kételbel" }`; solo cambia la voz, el subtítulo queda con el texto real).
+
+**Re-render de videos viejos:** los videos de `salida/` hechos antes del cambio (no los de `salida/subidos/`) se
+re-renderizan por lotes con `node plantilla/revoz-en.mjs` (próximo lote de 10; `--lotes=N`, `--todos`, o slugs).
+Conserva el nombre del archivo (`OC_` sigue `OC_`). El plan y el avance están al final de `CHECKLIST.md`
+(columna **Nombre EN**).
 
 ### 6.8 Bloque `youtube` (obligatorio)
 
@@ -418,7 +444,8 @@ subtítulo sigue con el nombre real). Ejemplos aprobados: `"Air Squat": "Er scua
 - Si el ejercicio tiene riesgos propios (carga en la espalda, cuelgue, saltos, impacto, olímpicos), sumá una línea antes
   del deslinde: "Si nunca hiciste …, empezá con … y con un coach al lado."
 - **La última línea deben ser los hashtags** (el script inserta el crédito de la voz justo antes).
-- No hace falta poner el crédito de la voz: se agrega solo al exportar `salida/<slug>.youtube.txt`.
+- No hace falta poner el crédito de la voz: se agrega solo al exportar `salida/<slug>.youtube.txt` (Daniela, y
+  también Kokoro "Heart" cuando el render dice el nombre en inglés).
 
 ### 6.9 Miniatura (obligatoria)
 
@@ -465,7 +492,7 @@ subtítulo sigue con el nombre real). Ejemplos aprobados: `"Air Squat": "Er scua
 ## 9. Al terminar todos
 
 1. `node plantilla/make-exercise.mjs --checklist`
-2. Verificá en `CHECKLIST.md` que cada video nuevo tiene: Ficha, Voz, Composición, Check, Render, YouTube, Miniatura en ✅
+2. Verificá en `CHECKLIST.md` que cada video nuevo tiene: Ficha, Voz, Composición, Check, Render, YouTube, Miniatura y Nombre EN en ✅
    y que la columna Archivo muestra el nombre correcto (`OC_<slug>.mp4` si hubo prefijo).
 3. Si aprendiste algo nuevo: filas en `plantilla/BITACORA.md` (y README si cambiaste `plantilla/`).
 4. **No hagas commit** (salvo pedido explícito).

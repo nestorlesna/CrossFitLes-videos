@@ -1,0 +1,564 @@
+{
+  "name": "Squat Jump to Plate",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Piernas",
+    "Glúteos",
+    "Cardio"
+  ],
+  "descripcion": "Desde de pie junto a un disco apoyado en el piso, bajar a una sentadilla y saltar con fuerza para pasar al otro lado del disco (o sobre el), aterrizando suave y encadenando la siguiente repeticion.",
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 540,
+    "y": 1511,
+    "scale": 0.62
+  },
+  "props": [
+    {
+      "type": "plate",
+      "x": 0,
+      "r": 104
+    }
+  ],
+  "initialPose": "STAND_L",
+  "poses": {
+    "STAND_L": {
+      "hip": [
+        -300,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 6,
+      "fa": 6,
+      "fx": 1
+    },
+    "LOAD_L": {
+      "hip": [
+        -310,
+        -330
+      ],
+      "s": 26,
+      "t": -62,
+      "b": 42,
+      "hd": 30,
+      "ua": -48,
+      "fa": 10,
+      "ua2": -44,
+      "fa2": 10,
+      "fx": 1
+    },
+    "FLY": {
+      "hip": [
+        -60,
+        -720
+      ],
+      "s": 46,
+      "t": -64,
+      "s2": 42,
+      "t2": -60,
+      "ft": 26,
+      "ft2": 26,
+      "b": 16,
+      "hd": 6,
+      "ua": 150,
+      "fa": 10,
+      "ua2": 144,
+      "fa2": 10,
+      "fx": 1
+    },
+    "LAND_R": {
+      "hip": [
+        300,
+        -360
+      ],
+      "s": 24,
+      "t": -58,
+      "b": 34,
+      "hd": 22,
+      "ua": 44,
+      "fa": 20,
+      "ua2": 38,
+      "fa2": 20,
+      "fx": 1
+    },
+    "STAND_R": {
+      "hip": [
+        300,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 6,
+      "fa": 6,
+      "fx": 1
+    },
+    "LOAD_R": {
+      "hip": [
+        310,
+        -330
+      ],
+      "s": 26,
+      "t": -62,
+      "b": 42,
+      "hd": 30,
+      "ua": -48,
+      "fa": 10,
+      "ua2": -44,
+      "fa2": 10,
+      "fx": 1
+    },
+    "FLY_M": {
+      "hip": [
+        60,
+        -720
+      ],
+      "s": 46,
+      "t": -64,
+      "s2": 42,
+      "t2": -60,
+      "ft": 26,
+      "ft2": 26,
+      "b": 16,
+      "hd": 6,
+      "ua": 150,
+      "fa": 10,
+      "ua2": 144,
+      "fa2": 10,
+      "fx": -1
+    },
+    "LAND_M": {
+      "hip": [
+        -300,
+        -360
+      ],
+      "s": 24,
+      "t": -58,
+      "b": 34,
+      "hd": 22,
+      "ua": 44,
+      "fa": 20,
+      "ua2": 38,
+      "fa2": 20,
+      "fx": -1
+    },
+    "STAND_M": {
+      "hip": [
+        -300,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 6,
+      "fa": 6,
+      "fx": -1
+    },
+    "LOAD_M": {
+      "hip": [
+        -310,
+        -330
+      ],
+      "s": 26,
+      "t": -62,
+      "b": 42,
+      "hd": 30,
+      "ua": -48,
+      "fa": 10,
+      "ua2": -44,
+      "fa2": 10,
+      "fx": -1
+    },
+    "STIFF_BAD": {
+      "hip": [
+        -300,
+        -420
+      ],
+      "s": 8,
+      "t": -14,
+      "b": 14,
+      "hd": 10,
+      "ua": 20,
+      "fa": 10,
+      "ua2": 16,
+      "fa2": 10,
+      "fx": 1
+    }
+  },
+  "slug": "squat-jump-to-plate",
+  "revisado": false,
+  "pronuncia": {
+    "Squat Jump to Plate": "scuot yamp tu pleit",
+    "Squat": "scuot",
+    "Jump": "yamp"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "SQUAT JUMP",
+        "TO PLATE"
+      ],
+      "vo": "Saltá de un lado al otro del disco: potencia de piernas, aterrizaje suave y ritmo. Un básico del WOD.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "STAND_L",
+              0.5
+            ],
+            [
+              "LOAD_L",
+              0.5
+            ],
+            [
+              "FLY",
+              0.35
+            ],
+            [
+              "LAND_R",
+              0.45
+            ],
+            [
+              "STAND_R",
+              0.3
+            ],
+            [
+              "LOAD_R",
+              0.45
+            ],
+            [
+              "FLY_M",
+              0.35
+            ],
+            [
+              "LAND_M",
+              0.45
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "AL LADO",
+        "DEL DISCO"
+      ],
+      "sub": "Pies al ancho de cadera",
+      "vo": "Parate al lado del disco, con los pies al ancho de cadera, el pecho arriba y la mirada al frente.",
+      "moves": [
+        {
+          "cut": "STAND_L",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            110,
+            940
+          ],
+          "text": "PECHO ARRIBA",
+          "anchor": "start",
+          "at": 1.0,
+          "out": 4.4
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "SENTADILLA",
+        "Y CARGA"
+      ],
+      "sub": "Brazos atrás, como resorte",
+      "vo": "Paso uno. Bajá a sentadilla llevando la cadera atrás y los brazos atrás. Cargá como un resorte.",
+      "moves": [
+        {
+          "cut": "STAND_L",
+          "at": 0
+        },
+        {
+          "to": "LOAD_L",
+          "at": 1.0,
+          "dur": 0.55
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            110,
+            1180
+          ],
+          "text": "CADERA ATRÁS",
+          "anchor": "start",
+          "at": 1.2,
+          "out": 4.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "SALTÁ EL",
+        "DISCO"
+      ],
+      "sub": "Brazos arriba",
+      "vo": "Paso dos. Saltá con fuerza para pasar al otro lado del disco, con los brazos arriba y el cuerpo extendido.",
+      "moves": [
+        {
+          "cut": "LOAD_L",
+          "at": 0
+        },
+        {
+          "to": "FLY",
+          "at": 1.0,
+          "dur": 0.35,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            120,
+            760
+          ],
+          "text": "BRAZOS ARRIBA",
+          "anchor": "start",
+          "at": 0.6,
+          "out": 3.4
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "ATERRIZÁ",
+        "SUAVE"
+      ],
+      "sub": "Rodillas flexionadas",
+      "vo": "Paso tres. Aterrizá con las rodillas flexionadas y el pecho arriba, absorbiendo el golpe en silencio.",
+      "moves": [
+        {
+          "cut": "FLY",
+          "at": 0
+        },
+        {
+          "to": "LAND_R",
+          "at": 0.9,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "LAND_R.K",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 44,
+          "at": 0.8,
+          "out": 3.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ENCADENÁ",
+        "SIN PAUSA"
+      ],
+      "sub": "Una repetición tras otra",
+      "vo": "Paso cuatro. Encadená la repetición sin pausa: bajá, saltá y volvé al otro lado del disco.",
+      "moves": [
+        {
+          "cut": "STAND_L",
+          "at": 0
+        },
+        {
+          "to": "STIFF_BAD",
+          "at": 0.8,
+          "dur": 0.4
+        },
+        {
+          "to": "LOAD_L",
+          "at": 2.0,
+          "dur": 0.45
+        },
+        {
+          "to": "FLY",
+          "at": 3.2,
+          "dur": 0.3
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "STIFF_BAD.S",
+            "dx": -150,
+            "dy": -30
+          },
+          "text": "ASÍ NO: SIN SENTADILLA",
+          "anchor": "end",
+          "at": 0.9,
+          "out": 2.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Cadera atrás y brazos atrás",
+        "Saltá con las piernas, no con los brazos",
+        "Aterrizaje suave y silencioso",
+        "Rodillas alineadas con los pies",
+        "Encadená sin pausa"
+      ],
+      "vo": "Claves: cargar con la cadera, saltar con las piernas, aterrizar suave y encadenar sin pausa.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "LOAD_L",
+              0.6
+            ],
+            [
+              "FLY",
+              0.35
+            ],
+            [
+              "LAND_R",
+              0.5
+            ],
+            [
+              "STAND_R",
+              0.3
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.4,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10",
+        "SALTOS"
+      ],
+      "sub": "De un lado al otro",
+      "vo": "Diez saltos, de un lado al otro del disco. Si el aterrizaje suena fuerte, bajá la altura y controlá.",
+      "chips": [
+        {
+          "label": "1 · CARGÁ",
+          "at": 0.4
+        },
+        {
+          "label": "2 · SALTÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · ATERRIZÁ",
+          "at": 1.8
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "LOAD_L",
+              0.5
+            ],
+            [
+              "FLY",
+              0.32
+            ],
+            [
+              "LAND_R",
+              0.4
+            ],
+            [
+              "STAND_R",
+              0.25
+            ],
+            [
+              "LOAD_R",
+              0.5
+            ],
+            [
+              "FLY_M",
+              0.32
+            ],
+            [
+              "LAND_M",
+              0.4
+            ],
+            [
+              "STAND_M",
+              0.25
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "FLY",
+    "grip": 0,
+    "zoom": 1.0,
+    "dy": 240
+  },
+  "youtube": {
+    "titulo": "Squat Jump to Plate 🔥 Saltar el disco con técnica | CrossFit",
+    "tags": [
+      "squat jump",
+      "salto",
+      "box jump",
+      "disco",
+      "plate",
+      "salto vertical",
+      "potencia",
+      "piernas",
+      "crossfit",
+      "wod",
+      "plyometría",
+      "técnica"
+    ],
+    "descripcion": "🔥 SQUAT JUMP TO PLATE — Saltar de un lado al otro del disco\n\nUn disco en el piso y diez saltos: así se entrena la potencia sin necesidad de cajón. La clave está en cargar y aterrizar. 💪\n\n📋 PASO A PASO\n1️⃣ Parate al lado del disco, con los pies al ancho de cadera.\n2️⃣ Bajá a sentadilla llevando la cadera atrás y los brazos atrás.\n3️⃣ Saltá con fuerza para pasar al otro lado del disco.\n4️⃣ Aterrizá con las rodillas flexionadas y el pecho arriba.\n5️⃣ Encadená la repetición sin pausa, alternando lados.\n\n✅ CLAVES DE TÉCNICA\n• Cargá con la cadera y los brazos atrás\n• Saltá con las piernas\n• Aterrizaje suave y silencioso\n• Rodillas alineadas con las puntas de los pies\n• Encadená sin pausa\n\n🎯 QUÉ TRABAJA\nCuádriceps · Glúteos · Isquios · Pantorrillas · Potencia\n\n⏱️ CUÁNTO\n10 saltos seguidos, 3 a 5 series. Descansá lo necesario para saltar con calidad.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi aterrizás con ruido o con las rodillas para adentro, bajá la intensidad: primero se aprende a caer, después a saltar.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #SquatJump #Plyometría #Salto #Piernas #WOD"
+  }
+}

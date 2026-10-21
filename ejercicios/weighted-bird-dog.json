@@ -1,0 +1,360 @@
+{
+  "name": "Weighted Bird Dog",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Core",
+    "Glúteos",
+    "Espalda baja"
+  ],
+  "descripcion": "Desde cuadrupedia (manos y rodillas en el suelo), extender simultáneamente el brazo derecho hacia adelante sosteniendo una mancuerna y la pierna izquierda hacia atrás, manteniendo la espalda plana. Alternar lados.",
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 480,
+    "y": 1500,
+    "scale": 0.8
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "side": true,
+      "r": 40,
+      "off": [
+        0,
+        4
+      ]
+    }
+  ],
+  "initialPose": "QUAD",
+  "poses": {
+    "QUAD": {
+      "hip": [
+        0,
+        -231
+      ],
+      "s": 90,
+      "t": 0,
+      "s2": 90,
+      "t2": 0,
+      "ft": 172,
+      "ft2": 172,
+      "b": 74,
+      "hd": 100,
+      "g": 1,
+      "hx": 268,
+      "hy": 15,
+      "ed": 1,
+      "cv": 0,
+      "g2": 1,
+      "hx2": 268,
+      "hy2": 15
+    },
+    "EXT": {
+      "hip": [
+        0,
+        -231
+      ],
+      "s": 90,
+      "t": 0,
+      "s2": 98,
+      "t2": 98,
+      "ft": 172,
+      "ft2": 104,
+      "b": 74,
+      "hd": 86,
+      "g": 0,
+      "ed": 1,
+      "cv": 0,
+      "g2": 1,
+      "hx2": 268,
+      "hy2": 15,
+      "ua": 108,
+      "fa": 0
+    },
+    "HIP_BAD": {
+      "hip": [
+        0,
+        -231
+      ],
+      "s": 90,
+      "t": 0,
+      "s2": 124,
+      "t2": 124,
+      "ft": 172,
+      "ft2": 104,
+      "b": 62,
+      "hd": 70,
+      "g": 0,
+      "ed": 1,
+      "cv": -24,
+      "g2": 1,
+      "hx2": 268,
+      "hy2": 15,
+      "ua": 108,
+      "fa": 0
+    }
+  },
+  "slug": "weighted-bird-dog",
+  "revisado": false,
+  "pronuncia": {
+    "Weighted Bird Dog": "Uéited berd dog",
+    "bird dog": "berd dog",
+    "weighted": "uéited",
+    "man cuerna": "mancuerna"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "BIRD DOG",
+        "CON PESO"
+      ],
+      "vo": "Weighted Bird Dog: en cuadrupedia extendés brazo y pierna opuestos con una mancuerna. Core y glúteos.",
+      "moves": [
+        {
+          "cut": "QUAD",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "EXT",
+              0.9
+            ],
+            [
+              "QUAD",
+              0.9
+            ]
+          ],
+          "at": 0.7,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "CUADRUPEDIA"
+      ],
+      "sub": "Manos bajo hombros",
+      "vo": "En cuadrupedia: manos debajo de los hombros, rodillas debajo de la cadera y la espalda plana y neutra.",
+      "moves": [
+        {
+          "cut": "QUAD",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            120,
+            1120
+          ],
+          "text": "ESPALDA PLANA",
+          "anchor": "start",
+          "at": 1.2,
+          "out": 4.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "EXTENDÉ",
+        "OPUESTOS"
+      ],
+      "sub": "Brazo y pierna contrarios",
+      "vo": "Paso uno. Extendé el brazo con la mancuerna y la pierna opuesta hasta alinearlos con el tronco.",
+      "moves": [
+        {
+          "cut": "QUAD",
+          "at": 0
+        },
+        {
+          "to": "EXT",
+          "at": 0.6,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            120,
+            1000
+          ],
+          "text": "ALINEADOS CON EL TRONCO",
+          "anchor": "start",
+          "at": 1.5,
+          "out": 4.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "CADERA",
+        "QUIETA"
+      ],
+      "sub": "No rotés",
+      "vo": "Paso dos. Mantené la cadera nivelada y el abdomen firme: no rotés la cadera ni arquees la espalda.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "HIP_BAD",
+          "at": 1.7,
+          "dur": 0.5
+        },
+        {
+          "to": "EXT",
+          "at": 3.1,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            120,
+            1080
+          ],
+          "text": "ASÍ NO: CADERA ROTA",
+          "anchor": "start",
+          "at": 1.8,
+          "out": 3.0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "LENTO",
+        "Y CAMBIÁ"
+      ],
+      "sub": "Por lado",
+      "vo": "Paso tres. Movimiento lento y controlado. Completá todas las reps y recién ahí cambiá de lado.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "QUAD",
+          "at": 0.6,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.8,
+      "keys": [
+        "Brazo y pierna opuestos",
+        "Cadera nivelada",
+        "Sin rotar el tronco",
+        "Lento y controlado"
+      ],
+      "vo": "Claves: brazo y pierna opuestos, cadera nivelada, sin rotar el tronco, lento y controlado.",
+      "moves": [
+        {
+          "cut": "QUAD",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "EXT",
+              0.9
+            ],
+            [
+              "QUAD",
+              0.9
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Por lado",
+      "vo": "Diez repeticiones por lado con una mancuerna liviana. Core, glúteos y espalda baja en un solo movimiento.",
+      "chips": [
+        {
+          "label": "1 · EXTENDÉ",
+          "at": 0.4
+        },
+        {
+          "label": "2 · VOLVÉ",
+          "at": 1.2
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "EXT",
+              0.9
+            ],
+            [
+              "QUAD",
+              0.9
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "EXT",
+    "grip": 0,
+    "zoom": 1.0,
+    "dy": -40
+  },
+  "youtube": {
+    "titulo": "Weighted Bird Dog 🔥 Core, glúteos y espalda baja con mancuerna | CrossFit",
+    "tags": [
+      "weighted bird dog",
+      "bird dog con mancuerna",
+      "bird dog",
+      "perro pájaro",
+      "cuadrupedia",
+      "core",
+      "estabilidad lumbar",
+      "activación de glúteos",
+      "crossfit",
+      "activación",
+      "espalda baja",
+      "mancuerna"
+    ],
+    "descripcion": "🔥 WEIGHTED BIRD DOG — Core y glúteos con carga\n\n¿Querés estabilizar la espalda antes de cargar peso? El bird dog con una mancuerna liviana es control puro. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ En cuadrupedia: manos debajo de los hombros, rodillas debajo de la cadera y la espalda plana.\n2️⃣ Extendé el brazo con la mancuerna y la pierna opuesta hasta alinearlos con el tronco.\n3️⃣ Mantené la cadera nivelada y el abdomen firme, sin rotar el tronco.\n4️⃣ Volvé lento al centro y completá las reps antes de cambiar de lado.\n\n✅ CLAVES DE TÉCNICA\n• Brazo y pierna opuestos\n• Cadera nivelada, sin arquear\n• No rotes el tronco\n• Movimiento lento y controlado\n\n🎯 QUÉ TRABAJA\nGlúteo mayor · Bíceps femoral · Erectores espinales · Recto abdominal\n\n⏱️ CUÁNTO\n10 repeticiones por lado con una mancuerna liviana. Va en la activación o como accesorio de core.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nEmpezá sin peso si recién arrancás: primero el control, después la carga. Si sentís pinchazos en la lumbar, frená.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Core #BirdDog #Gluteos #Entrenamiento"
+  }
+}

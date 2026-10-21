@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Jang páuer clin: desde arriba de las rodillas hasta los hombros, en un solo movimiento explosivo."
+      "en": "Barbell Hang Power Clean",
+      "text": "Desde arriba de las rodillas hasta los hombros, en un solo movimiento explosivo."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

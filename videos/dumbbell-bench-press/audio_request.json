@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Press de pecho con mancuernas en banco: escápulas juntas, codos a cuarenta y cinco grados y empuje hasta bloquear."
+    },
+    {
+      "id": "02",
+      "text": "Acostate en el banco con las escápulas juntas y apoyadas, los pies firmes en el piso y las mancuernas al pecho."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá las mancuernas controladas hasta el costado del pecho, con los codos a unos cuarenta y cinco grados."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Empujá hasta bloquear los codos, sin chocar las mancuernas arriba ni perder las escápulas."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. No abras los codos a noventa grados: castiga el hombro. Codos a cuarenta y cinco, siempre."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. No arquees la lumbar para empujar: la espalda queda apoyada y el pecho arriba, sin puente exagerado."
+    },
+    {
+      "id": "07",
+      "text": "Claves: escápulas juntas, pies firmes, codos a cuarenta y cinco, bajar controlado y bloquear sin chocar."
+    },
+    {
+      "id": "08",
+      "text": "Doce repeticiones bajando en dos segundos. Si perdés las escápulas, bajá el peso: el pecho trabaja igual."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Saltá de un lado al otro del disco: potencia de piernas, aterrizaje suave y ritmo. Un básico del WOD."
+    },
+    {
+      "id": "02",
+      "text": "Parate al lado del disco, con los pies al ancho de cadera, el pecho arriba y la mirada al frente."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá a sentadilla llevando la cadera atrás y los brazos atrás. Cargá como un resorte."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Saltá con fuerza para pasar al otro lado del disco, con los brazos arriba y el cuerpo extendido."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Aterrizá con las rodillas flexionadas y el pecho arriba, absorbiendo el golpe en silencio."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Encadená la repetición sin pausa: bajá, saltá y volvé al otro lado del disco."
+    },
+    {
+      "id": "07",
+      "text": "Claves: cargar con la cadera, saltar con las piernas, aterrizar suave y encadenar sin pausa."
+    },
+    {
+      "id": "08",
+      "text": "Diez saltos, de un lado al otro del disco. Si el aterrizaje suena fuerte, bajá la altura y controlá."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

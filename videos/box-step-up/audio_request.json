@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Box stepap: subir al cajón con un pie y después el otro. Piernas y glúteos, paso a paso."
+      "en": "Box Step-Up",
+      "text": "Subir al cajón con un pie y después el otro. Piernas y glúteos, paso a paso."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

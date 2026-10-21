@@ -7,7 +7,7 @@
 
 ## Line 1 — CROSSFIT · FUERZA (Frame 1)
 
-    Romanian Deadlift: bisagra de cadera. La barra baja pegada a las piernas hasta sentir el estiramiento y vuelve subiendo con los glúteos.
+    Barbell Romanian Deadlift: bisagra de cadera. La barra baja pegada a las piernas y subís con los glúteos.
 
 ## Line 2 — POSICIÓN INICIAL (Frame 2)
 

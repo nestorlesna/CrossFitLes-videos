@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Uéited berd dog: en cuadrupedia extendés brazo y pierna opuestos con una mancuerna. Core y glúteos."
+    },
+    {
+      "id": "02",
+      "text": "En cuadrupedia: manos debajo de los hombros, rodillas debajo de la cadera y la espalda plana y neutra."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Extendé el brazo con la mancuerna y la pierna opuesta hasta alinearlos con el tronco."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Mantené la cadera nivelada y el abdomen firme: no rotés la cadera ni arquees la espalda."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Movimiento lento y controlado. Completá todas las reps y recién ahí cambiá de lado."
+    },
+    {
+      "id": "06",
+      "text": "Claves: brazo y pierna opuestos, cadera nivelada, sin rotar el tronco, lento y controlado."
+    },
+    {
+      "id": "07",
+      "text": "Diez repeticiones por lado con una mancuerna liviana. Core, glúteos y espalda baja en un solo movimiento."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

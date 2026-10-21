@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Sumo dedlift jái pul: barra al piso, pies anchos y tirón explosivo hasta la barbilla. Potencia pura."
+      "en": "Barbell Sumo Deadlift High Pull",
+      "text": "Barra al piso, pies anchos y tirón explosivo hasta la barbilla. Potencia pura."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

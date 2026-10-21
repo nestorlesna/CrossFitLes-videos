@@ -38,14 +38,14 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 6.2s
-- voiceover: "Paso tres. Si levantás la cabeza haciendo fuerza con el cuello, o tirás de la pierna de golpe despegando la espalda del piso, no estirás mejor: cargás el cuello y la lumbar. Evitalo."
+- voiceover: "Paso tres. Si levantás la cabeza o tirás de golpe despegando la espalda del piso, no estirás mejor: cargás el cuello y la lumbar. Evitalo."
 - poses: NECK_BAD → PULL → YANK_BAD → PULL
 
 ## Frame 6 — CLAVES TÉCNICA
 
 - status: animated
 - min: 8.2s
-- voiceover: "Claves: la cabeza y la espalda apoyadas, con el cuello suelto; el tobillo bien cruzado sobre la rodilla; la tracción suave y sostenida, sin rebotes; y respirá soltando con cada exhalación."
+- voiceover: "Claves: cabeza y espalda apoyadas con el cuello suelto, el tobillo bien cruzado sobre la rodilla, tracción suave sin rebotes, y soltá al exhalar."
 - poses: —
 
 ## Frame 7 — A ENTRENAR 30 SEG POR LADO

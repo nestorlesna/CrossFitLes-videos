@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Seated Quad Stretch: estirá el cuádriceps sin levantarte del piso."
+      "en": "Seated Quad Stretch",
+      "text": "Estirá el cuádriceps sin levantarte del piso."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

@@ -1,0 +1,337 @@
+{
+  "name": "Weighted Plank",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Core",
+    "Abdomen",
+    "Estabilidad"
+  ],
+  "descripcion": "Plancha baja (apoyado en antebrazos y pies) con un disco o placa colocada sobre la parte alta de la espalda. Mantener el cuerpo completamente alineado — cabeza, hombros, cadera y talones en línea recta.",
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1504,
+    "scale": 0.8
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "r": 44,
+      "torso": [
+        -70,
+        20
+      ]
+    }
+  ],
+  "initialPose": "QUAD",
+  "poses": {
+    "QUAD": {
+      "hip": [
+        0,
+        -231
+      ],
+      "s": 90,
+      "t": 0,
+      "s2": 90,
+      "t2": 0,
+      "ft": 172,
+      "b": 72,
+      "hd": 100,
+      "g": 1,
+      "hx": 266,
+      "hy": 15
+    },
+    "PLANK": {
+      "hip": [
+        -100,
+        -135
+      ],
+      "ankle": [
+        -560,
+        -62
+      ],
+      "ft": 55,
+      "b": 82,
+      "hd": 84,
+      "g": 1,
+      "ed": 1,
+      "hx": 327,
+      "hy": 15,
+      "ua2": 0
+    },
+    "SAG_BAD": {
+      "hip": [
+        -80,
+        -90
+      ],
+      "ankle": [
+        -540,
+        -62
+      ],
+      "ft": 55,
+      "b": 70,
+      "hd": 70,
+      "g": 1,
+      "ed": 1,
+      "hx": 327,
+      "hy": 15
+    },
+    "PIKE_BAD": {
+      "hip": [
+        -120,
+        -190
+      ],
+      "ankle": [
+        -580,
+        -62
+      ],
+      "ft": 55,
+      "b": 96,
+      "hd": 96,
+      "g": 1,
+      "ed": 1,
+      "hx": 327,
+      "hy": 15
+    }
+  },
+  "slug": "weighted-plank",
+  "revisado": false,
+  "pronuncia": {
+    "Weighted Plank": "Uéited planc",
+    "plank": "planc",
+    "weighted": "uéited",
+    "disco": "disco"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "WEIGHTED",
+        "PLANK"
+      ],
+      "vo": "Weighted Plank: la plancha baja con un disco en la espalda. Core de acero, sin moverse ni un milímetro.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ANTEBRAZOS",
+        "Y PIES"
+      ],
+      "sub": "Codos bajo hombros",
+      "vo": "Apoyá los antebrazos y las puntas de los pies. Los codos justo debajo de los hombros y el cuerpo en línea.",
+      "moves": [
+        {
+          "cut": "QUAD",
+          "at": 0
+        },
+        {
+          "to": "PLANK",
+          "at": 0.7,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "PLANK.E",
+            "dx": -300,
+            "dy": -240
+          },
+          "text": "CODOS BAJO HOMBROS",
+          "anchor": "middle",
+          "at": 1.5,
+          "out": 4.4
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "UNA LÍNEA",
+        "RECTA"
+      ],
+      "sub": "Cabeza a talones",
+      "vo": "Paso uno. Alineá la cabeza, la cadera y los talones en una línea recta. Nada de cadera caída.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            1080
+          ],
+          "text": "CABEZA · CADERA · TALONES",
+          "anchor": "start",
+          "at": 1.2,
+          "out": 4.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "EL DISCO",
+        "ARRIBA"
+      ],
+      "sub": "En la espalda alta",
+      "vo": "Paso dos. El disco va sobre la espalda alta, quieto. Apretá glúteos y abdomen y respirá normal.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "PLANK.S",
+            "dx": 0,
+            "dy": -330
+          },
+          "text": "DISCO QUIETO",
+          "anchor": "middle",
+          "at": 1.4,
+          "out": 4.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Ni alta ni baja",
+      "vo": "Paso tres. Si la cadera se hunde o sube, la línea se rompe y el disco carga la espalda. Evitalo.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        },
+        {
+          "to": "SAG_BAD",
+          "at": 1.7,
+          "dur": 0.5
+        },
+        {
+          "to": "PIKE_BAD",
+          "at": 2.6,
+          "dur": 0.5
+        },
+        {
+          "to": "PLANK",
+          "at": 3.5,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            1040
+          ],
+          "text": "ASÍ NO: CADERA HUNDIDA / ALTA",
+          "anchor": "start",
+          "at": 1.8,
+          "out": 3.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.8,
+      "keys": [
+        "Cuerpo en línea recta",
+        "Codos bajo los hombros",
+        "Apretá glúteos y abdomen",
+        "Respirá normal"
+      ],
+      "vo": "Claves: cuerpo en línea recta, codos bajo los hombros, apretá glúteos y abdomen, y respirá normal.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEG"
+      ],
+      "sub": "@ 10 kg",
+      "vo": "Treinta segundos con un disco liviano. Progresá el peso de a poco y recién ahí sumá tiempo.",
+      "chips": [
+        {
+          "label": "1 · AGUANTÁ",
+          "at": 0.4
+        },
+        {
+          "label": "2 · RESPIRÁ",
+          "at": 1.2
+        }
+      ],
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "PLANK",
+    "grip": 1,
+    "zoom": 1.15,
+    "dy": 40
+  },
+  "youtube": {
+    "titulo": "Weighted Plank 🔥 Plancha con disco: core de acero paso a paso | CrossFit",
+    "tags": [
+      "weighted plank",
+      "plancha con disco",
+      "plancha con peso",
+      "plank",
+      "plancha",
+      "plancha isométrica",
+      "core",
+      "abdominales",
+      "estabilidad",
+      "crossfit",
+      "activación",
+      "accesorio"
+    ],
+    "descripcion": "🔥 WEIGHTED PLANK — La plancha, con carga extra\n\n¿La plancha normal ya no te desafía? Sumale un disco liviano en la espalda y el core tiene que trabajar el doble. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Apoyá los antebrazos y las puntas de los pies, con los codos justo debajo de los hombros.\n2️⃣ Alineá la cabeza, la cadera y los talones en una línea recta.\n3️⃣ El disco va sobre la espalda alta, quieto.\n4️⃣ Apretá glúteos y abdomen y respirá normal durante todo el tiempo.\n5️⃣ No hundas ni levantes la cadera: cualquiera de las dos rompe la línea.\n\n✅ CLAVES DE TÉCNICA\n• Cuerpo en línea recta\n• Codos bajo los hombros\n• Apretar glúteos y abdomen\n• Respirar normal\n\n🎯 QUÉ TRABAJA\nRecto abdominal · Oblicuos · Erectores espinales · Deltoides anterior\n\n⏱️ CUÁNTO\n30 segundos con un disco liviano (~10 kg). Progresá el peso de a poco y después sumá tiempo.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi sentís molestias lumbares, empezó primero con la plancha sin peso y sumá el disco más adelante.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Core #Plank #Abdominales #Entrenamiento"
+  }
+}

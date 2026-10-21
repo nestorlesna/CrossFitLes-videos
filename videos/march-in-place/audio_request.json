@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "March in pleis: marcha enérgica en el lugar. Sube el pulso sin ningún impacto."
+      "en": "March in Place",
+      "text": "Marcha enérgica en el lugar. Sube el pulso sin ningún impacto."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

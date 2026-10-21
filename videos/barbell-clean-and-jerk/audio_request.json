@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Clin and yerk: cargada y envión. La barra del piso a los hombros, y de los hombros arriba."
+      "en": "Barbell Clean and Jerk",
+      "text": "Cargada y envión. La barra del piso a los hombros, y de los hombros arriba."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

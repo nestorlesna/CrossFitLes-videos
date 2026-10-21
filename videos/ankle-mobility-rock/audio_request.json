@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "rok de tobillo: la rodilla va para adelante y el talón no se despega. Sin eso, el tobillo no se mueve."
+    },
+    {
+      "id": "02",
+      "text": "Arrodillate a media rodilla: una rodilla en el piso, la otra pierna adelante y el pie bien apoyado."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Llevá la rodilla de adelante hacia el pie, despacio, sin levantar el talón ni rebotar."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Volvé atrás al mismo ritmo, sin despegar el talón y sin dejar caer el peso de golpe."
+    },
+    {
+      "id": "05",
+      "text": "Así no: si el torso se va adelante o el talón se despega, no movés el tobillo, te estás cayendo."
+    },
+    {
+      "id": "06",
+      "text": "Claves: talón apoyado, rodilla hacia el pie, torso erguido, sin rebotes y cambiar de lado."
+    },
+    {
+      "id": "07",
+      "text": "Treinta segundos por lado, dos rondas. Si el talón se despega, achicá el rango: no lo fuerces."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

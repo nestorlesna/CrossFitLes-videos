@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Tou toch sit ap: sentado desde el piso tocás la punta de los pies. Recorrido completo, no cranch."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba con las piernas estiradas apoyadas en el piso y los brazos por encima de la cabeza."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Subí el torso completo, como si te enroscaras hacia los pies. No es un cranch: el recorrido es entero."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Arriba estirá los brazos y tocá la punta de los pies. Las piernas quedan apoyadas en el piso."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. No levantes las piernas para llegar: eso lo convierte en otra cosa. El movimiento es del torso."
+    },
+    {
+      "id": "06",
+      "text": "Claves: recorrido completo, piernas en el piso, el movimiento sale del torso y bajás controlando."
+    },
+    {
+      "id": "07",
+      "text": "Doce repeticiones controladas. Ideal para activar el abdomen en la entrada en calor."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

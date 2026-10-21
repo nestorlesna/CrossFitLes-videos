@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Push pres bijáind de nek: impulso de piernas y empuje de la barra desde la nuca hasta arriba."
+      "en": "Push Press Behind the Neck",
+      "text": "Impulso de piernas y empuje de la barra desde la nuca hasta arriba."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

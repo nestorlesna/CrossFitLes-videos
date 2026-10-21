@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Góblet escuat jold pres: sentadilla góblet con pres al frente en el fondo. Movilidad de cadera y tobillo."
+      "en": "Goblet Squat Hold Press",
+      "text": "Sentadilla góblet con pres al frente en el fondo. Movilidad de cadera y tobillo."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Dead Bug con banda: core antiextensión. Mantené la lumbar pegada al piso todo el tiempo."
+      "en": "Dead Bug with Band Resistance",
+      "text": "Core antiextensión. Mantené la lumbar pegada al piso todo el tiempo."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

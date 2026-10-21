@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Barbell front rak Rrivérs lanch: la barra en los hombros y un paso largo hacia atrás. Piernas fuertes y rodillas cuidadas."
+      "en": "Barbell Front Rack Reverse Lunge",
+      "text": "La barra en los hombros y un paso largo hacia atrás. Piernas fuertes y rodillas cuidadas."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

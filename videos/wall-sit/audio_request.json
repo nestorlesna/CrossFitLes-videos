@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Uol sit: sentadilla isométrica contra la pared. Cuádriceps que arden, rodillas cuidadas."
+      "en": "Wall Sit",
+      "text": "Sentadilla isométrica contra la pared. Cuádriceps que arden, rodillas cuidadas."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

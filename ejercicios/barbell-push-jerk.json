@@ -1,0 +1,480 @@
+{
+  "name": "Barbell Push Jerk",
+  "category": "FUERZA · HABILIDAD",
+  "tags": [
+    "Hombros",
+    "Potencia",
+    "Barra"
+  ],
+  "descripcion": "Desde rack frontal: dip corto, impulso de piernas, recibir la barra en media sentadilla con los brazos bloqueados y pararse.",
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1480,
+    "scale": 0.74
+  },
+  "floorScroll": 0,
+  "props": [
+    {
+      "type": "barbell",
+      "torso": [
+        60,
+        30
+      ],
+      "r": 72,
+      "blend": true
+    }
+  ],
+  "initialPose": "RACK",
+  "poses": {
+    "RACK": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "bf": 1,
+      "ua": 55,
+      "fa": 150,
+      "ua2": 59,
+      "fa2": 146
+    },
+    "DIP": {
+      "s": 26,
+      "t": -52,
+      "b": 7,
+      "hd": 3,
+      "g": 0,
+      "bf": 1,
+      "ua": 55,
+      "fa": 150,
+      "ua2": 59,
+      "fa2": 146
+    },
+    "DRIVE": {
+      "s": 0,
+      "t": 0,
+      "b": -3,
+      "hd": -1,
+      "g": 0,
+      "bf": 0.55,
+      "ua": 55,
+      "fa": 150,
+      "ua2": 59,
+      "fa2": 146
+    },
+    "RECEIVE": {
+      "s": 36,
+      "t": -76,
+      "b": 12,
+      "hd": 8,
+      "g": 0,
+      "bf": 0,
+      "ua": 166,
+      "fa": 8,
+      "ua2": 170,
+      "fa2": 6
+    },
+    "LOCK": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 4,
+      "g": 0,
+      "bf": 0,
+      "ua": 178,
+      "fa": 2,
+      "ua2": 178,
+      "fa2": 2
+    },
+    "PRESS_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": -17,
+      "hd": -8,
+      "g": 0,
+      "bf": 0,
+      "ua": 124,
+      "fa": 58,
+      "ua2": 128,
+      "fa2": 54
+    }
+  },
+  "slug": "barbell-push-jerk",
+  "revisado": false,
+  "pronuncia": {
+    "Barbell Push Jerk": "bárbel push yerk",
+    "Push Jerk": "push yerk",
+    "Barbell": "bárbel"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "FUERZA · HABILIDAD",
+      "head": [
+        "BARBELL",
+        "PUSH",
+        "JERK"
+      ],
+      "vo": "Barbell Push Jerk: dip corto, impulso de piernas y meterse abajo. La barra sube porque el cuerpo baja, no por los brazos.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "RACK",
+              0.7
+            ],
+            [
+              "DIP",
+              0.7
+            ],
+            [
+              "RECEIVE",
+              0.9
+            ],
+            [
+              "LOCK",
+              0.8
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BARRA EN",
+        "RACK FRONTAL"
+      ],
+      "sub": "Codos adelante",
+      "vo": "Arrancá con la barra en rack frontal, apoyada en los hombros, los codos adelante y los pies firmes al piso.",
+      "moves": [
+        {
+          "cut": "RACK",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            110,
+            900
+          ],
+          "text": "CODOS ADELANTE",
+          "anchor": "start",
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            110,
+            1120
+          ],
+          "text": "TALONES APOYADOS",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "DIP",
+        "CORTO"
+      ],
+      "sub": "Vertical, sin inclinarte",
+      "vo": "Paso uno. Hacé un dip corto y vertical: las rodillas van adelante, el torso queda derecho y los talones apoyados.",
+      "moves": [
+        {
+          "cut": "RACK",
+          "at": 0
+        },
+        {
+          "to": "DIP",
+          "at": 0.7,
+          "dur": 0.45
+        },
+        {
+          "to": "RACK",
+          "at": 1.9,
+          "dur": 0.4
+        },
+        {
+          "to": "DIP",
+          "at": 2.9,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "DIP.H",
+            "dx": 60,
+            "dy": 150
+          },
+          "text": "RODILLAS ADELANTE",
+          "anchor": "start",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "IMPULSÁ",
+        "Y SUBÍ"
+      ],
+      "sub": "Piernas explosivas",
+      "vo": "Paso dos. Estirá las piernas de golpe y empujá la barra: la fuerza sale de las piernas, no de los hombros.",
+      "moves": [
+        {
+          "cut": "DIP",
+          "at": 0
+        },
+        {
+          "to": "DRIVE",
+          "at": 0.55,
+          "dur": 0.35,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "DRIVE.S",
+            "dx": -140,
+            "dy": -40
+          },
+          "text": "SALE DE PIERNAS",
+          "anchor": "end",
+          "at": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "METETE",
+        "ABAJO"
+      ],
+      "sub": "Media sentadilla",
+      "vo": "Paso tres. Mientras la barra vuela, metete abajo: flexioná las rodillas y recibí en media sentadilla.",
+      "moves": [
+        {
+          "cut": "DRIVE",
+          "at": 0
+        },
+        {
+          "to": "RECEIVE",
+          "at": 0.5,
+          "dur": 0.5
+        },
+        {
+          "to": "DRIVE",
+          "at": 2.0,
+          "dur": 0.4
+        },
+        {
+          "to": "RECEIVE",
+          "at": 3.1,
+          "dur": 0.45
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "RECEIVE.H",
+            "dx": -150,
+            "dy": 60
+          },
+          "text": "RECIBÍ FLEXIONANDO",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "PARATE",
+        "ESTABLE"
+      ],
+      "sub": "Brazos bloqueados",
+      "vo": "Paso cuatro. Parate con la barra arriba y los brazos bloqueados, la barra sobre la mitad del pie. Recién ahí bajala.",
+      "moves": [
+        {
+          "cut": "PRESS_BAD",
+          "at": 0
+        },
+        {
+          "to": "LOCK",
+          "at": 1.5,
+          "dur": 0.45
+        },
+        {
+          "to": "RECEIVE",
+          "at": 2.6,
+          "dur": 0.4
+        },
+        {
+          "to": "LOCK",
+          "at": 3.6,
+          "dur": 0.45
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "PRESS_BAD.S",
+            "dx": -150,
+            "dy": -40
+          },
+          "text": "ASÍ NO: SOLO BRAZOS",
+          "anchor": "end",
+          "at": 0.8,
+          "out": 2.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Dip corto y vertical",
+        "Impulso explosivo de piernas",
+        "Meterse abajo rápido",
+        "Recibir en media sentadilla",
+        "Pararse estable antes de bajar"
+      ],
+      "vo": "Claves: dip corto, impulso explosivo, meterse abajo rápido, recibir en media sentadilla y pararse estable.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "RACK",
+              0.7
+            ],
+            [
+              "DIP",
+              0.6
+            ],
+            [
+              "DRIVE",
+              0.5
+            ],
+            [
+              "RECEIVE",
+              0.8
+            ],
+            [
+              "LOCK",
+              0.7
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.4,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 A 5",
+        "REPS"
+      ],
+      "sub": "Barra liviana al inicio",
+      "vo": "Tres a cinco repeticiones por serie, con una barra que puedas dominar. La técnica manda antes que los kilos.",
+      "chips": [
+        {
+          "label": "1 · DIP",
+          "at": 0.4
+        },
+        {
+          "label": "2 · IMPULSO",
+          "at": 1.0
+        },
+        {
+          "label": "3 · RECIBÍ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "RACK",
+              0.6
+            ],
+            [
+              "DIP",
+              0.55
+            ],
+            [
+              "DRIVE",
+              0.45
+            ],
+            [
+              "RECEIVE",
+              0.7
+            ],
+            [
+              "LOCK",
+              0.6
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "LOCK",
+    "grip": 0,
+    "zoom": 0.94,
+    "dy": 240
+  },
+  "youtube": {
+    "titulo": "Barbell Push Jerk 🔥 Cómo hacer el push jerk paso a paso | CrossFit",
+    "tags": [
+      "barbell push jerk",
+      "push jerk",
+      "push press",
+      "ejercicio de hombros",
+      "halterofilia",
+      "barra",
+      "crossfit",
+      "wod",
+      "fuerza",
+      "potencia",
+      "técnica",
+      "empuje"
+    ],
+    "descripcion": "🔥 BARBELL PUSH JERK — Empuje con las piernas\n\nSi empujás la barra con los brazos, te vas a quedar corto. El push jerk es un salto: la barra sube porque el cuerpo baja. 💪\n\n📋 PASO A PASO\n1️⃣ Arrancá con la barra en rack frontal, codos adelante y pies firmes.\n2️⃣ Hacé un dip corto y vertical, con los talones apoyados.\n3️⃣ Estirá las piernas de golpe y empujá la barra.\n4️⃣ Mientras la barra vuela, metete abajo y recibí en media sentadilla.\n5️⃣ Parate estable con los brazos bloqueados antes de bajar la barra.\n\n✅ CLAVES DE TÉCNICA\n• Dip corto y vertical\n• Impulso explosivo de piernas\n• Meterse abajo rápido\n• Recibir en media sentadilla\n• Pararse estable\n\n🎯 QUÉ TRABAJA\nHombros · Tríceps · Cuádriceps · Glúteos · Core\n\n⏱️ CUÁNTO\n3 a 5 repeticiones por serie, 4 a 5 series. Empezá solo con la barra.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nPracticá primero el dip y el impulso sin barra: cuando el movimiento sea parejo, sumá carga.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #PushJerk #Halterofilia #Hombros #WOD #Técnica"
+  }
+}

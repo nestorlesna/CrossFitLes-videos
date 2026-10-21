@@ -52,7 +52,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 8.2s
-- voiceover: "Claves: la rodilla trasera y el empeine bien apoyados, el glúteo de atrás apretado, la pelvis neutra sin arquear la lumbar, y subí el tronco de a poco a medida que afloja."
+- voiceover: "Claves: rodilla y empeine de atrás bien apoyados, glúteo apretado, pelvis neutra sin arquear la lumbar y subí el tronco de a poco."
 - poses: —
 
 ## Frame 8 — A ENTRENAR 30 SEG POR LADO

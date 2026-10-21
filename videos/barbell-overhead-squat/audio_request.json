@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Óverjed scuat: sentadilla completa con la barra bloqueada arriba de la cabeza. Movilidad y estabilidad."
+      "en": "Barbell Overhead Squat",
+      "text": "Sentadilla completa con la barra bloqueada arriba de la cabeza. Movilidad y estabilidad."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

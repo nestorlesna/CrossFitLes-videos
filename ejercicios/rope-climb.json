@@ -1,0 +1,529 @@
+{
+  "name": "Rope Climb",
+  "category": "CROSSFIT · HABILIDAD",
+  "tags": [
+    "Espalda",
+    "Agarre",
+    "Piernas"
+  ],
+  "descripcion": "Subida de cuerda hasta tocar el tope (tipicamente 4-5 m). Fuerza de tracción y agarre.",
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 560,
+    "y": 1500,
+    "scale": 0.62
+  },
+  "props": [
+    {
+      "type": "rope",
+      "x": 130,
+      "w": 18
+    }
+  ],
+  "initialPose": "HANG",
+  "poses": {
+    "STAND": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 6,
+      "fa": 6,
+      "ua2": 6,
+      "fa2": 6
+    },
+    "JUMP_HANG": {
+      "hip": [
+        0,
+        -580
+      ],
+      "b": -4,
+      "hd": -6,
+      "g": 1,
+      "hx": 130,
+      "hy": -1140,
+      "ed": 1,
+      "s": 12,
+      "t": -8,
+      "ft": 18,
+      "ft2": 18
+    },
+    "HANG": {
+      "hip": [
+        0,
+        -650
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": 130,
+      "hy": -1230,
+      "ed": 1,
+      "s": 8,
+      "t": 4,
+      "ft": 18,
+      "ft2": 18
+    },
+    "PULL": {
+      "hip": [
+        0,
+        -800
+      ],
+      "b": 6,
+      "hd": 8,
+      "g": 1,
+      "hx": 130,
+      "hy": -1230,
+      "ed": 1,
+      "s": 6,
+      "t": 2,
+      "ft": 18,
+      "ft2": 18
+    },
+    "REACH": {
+      "hip": [
+        0,
+        -800
+      ],
+      "b": 6,
+      "hd": 10,
+      "g": 1,
+      "hx": 130,
+      "hy": -1330,
+      "ed": 1,
+      "g2": 1,
+      "hx2": 120,
+      "hy2": -1220,
+      "s": 6,
+      "t": 2,
+      "ft": 18,
+      "ft2": 18
+    },
+    "CLAMP": {
+      "hip": [
+        0,
+        -810
+      ],
+      "b": 8,
+      "hd": 10,
+      "g": 1,
+      "hx": 130,
+      "hy": -1330,
+      "ed": 1,
+      "g2": 1,
+      "hx2": 120,
+      "hy2": -1250,
+      "s": 40,
+      "t": -100,
+      "ft": 60,
+      "s2": 6,
+      "t2": 2,
+      "ft2": 18
+    },
+    "STAND_ON": {
+      "hip": [
+        0,
+        -900
+      ],
+      "b": 4,
+      "hd": 4,
+      "g": 1,
+      "hx": 130,
+      "hy": -1330,
+      "ed": 1,
+      "g2": 1,
+      "hx2": 120,
+      "hy2": -1290,
+      "s": 14,
+      "t": -6,
+      "ft": 30,
+      "s2": 24,
+      "t2": -14,
+      "ft2": 40
+    },
+    "ARMS_ONLY": {
+      "hip": [
+        0,
+        -740
+      ],
+      "b": 8,
+      "hd": 12,
+      "g": 1,
+      "hx": 130,
+      "hy": -1200,
+      "ed": 1,
+      "s": 0,
+      "t": 0,
+      "ft": 8,
+      "ft2": 8
+    }
+  },
+  "slug": "rope-climb",
+  "revisado": false,
+  "pronuncia": {
+    "Rope Climb": "roup claim",
+    "Rope": "roup"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "ROPE CLIMB"
+      ],
+      "vo": "Rope climb: subir la cuerda hasta el tope con brazos, espalda y piernas. Técnica antes que velocidad.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "JUMP_HANG",
+              0.6
+            ],
+            [
+              "HANG",
+              0.5
+            ],
+            [
+              "PULL",
+              0.55
+            ],
+            [
+              "CLAMP",
+              0.6
+            ],
+            [
+              "STAND_ON",
+              0.6
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE",
+        "JUNTO A",
+        "LA CUERDA"
+      ],
+      "sub": "Pie cerca del extremo",
+      "vo": "Parate al lado de la cuerda, con el pie bien cerca del extremo y las dos manos en la cuerda.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            110,
+            900
+          ],
+          "text": "DOS MANOS",
+          "anchor": "start",
+          "at": 1.0,
+          "out": 4.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            110,
+            1170
+          ],
+          "text": "PIE CERCA",
+          "anchor": "start",
+          "at": 1.6,
+          "out": 4.4
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "SALTÁ",
+        "Y AGARRÁ"
+      ],
+      "sub": "Manos bien altas",
+      "vo": "Paso uno. Saltá y agarrá la cuerda bien alto, con las manos firmes. La fuerza inicial la da el salto.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "JUMP_HANG",
+          "at": 0.8,
+          "dur": 0.35,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "JUMP_HANG.W",
+            "dx": -10,
+            "dy": -70
+          },
+          "text": "AGARRE ALTO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "TIRÁ CON",
+        "LOS BRAZOS"
+      ],
+      "sub": "Codos hacia abajo",
+      "vo": "Paso dos. Tirá con los brazos y subí las manos mientras cerrás las piernas y enganchás la cuerda.",
+      "moves": [
+        {
+          "cut": "JUMP_HANG",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.6,
+          "dur": 0.5
+        },
+        {
+          "to": "REACH",
+          "at": 1.6,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "PULL.W",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 46,
+          "at": 0.9,
+          "out": 3.4
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "TRABÁ",
+        "LOS PIES"
+      ],
+      "sub": "Un pie sobre la cuerda",
+      "vo": "Paso tres. Trabá la cuerda con un pie y parate sobre ella. Ahí mandan las piernas y los brazos descansan.",
+      "moves": [
+        {
+          "cut": "CLAMP",
+          "at": 0
+        },
+        {
+          "to": "STAND_ON",
+          "at": 0.9,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "CLAMP.A",
+            "dx": 20,
+            "dy": 70
+          },
+          "text": "PIE TRABADO",
+          "anchor": "start",
+          "at": 0.8,
+          "out": 3.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "REPETÍ",
+        "HASTA EL",
+        "TOPE"
+      ],
+      "sub": "Manos y pies alternados",
+      "vo": "Paso cuatro. Repetí subir manos, trabar el pie y pararse, hasta tocar el tope de la cuerda.",
+      "moves": [
+        {
+          "cut": "REACH",
+          "at": 0
+        },
+        {
+          "to": "ARMS_ONLY",
+          "at": 0.8,
+          "dur": 0.4
+        },
+        {
+          "to": "CLAMP",
+          "at": 2.0,
+          "dur": 0.45
+        },
+        {
+          "to": "STAND_ON",
+          "at": 3.3,
+          "dur": 0.45
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "ARMS_ONLY.S",
+            "dx": -150,
+            "dy": -40
+          },
+          "text": "ASÍ NO: SOLO BRAZOS",
+          "anchor": "end",
+          "at": 0.9,
+          "out": 2.5
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Agarre alto y firme",
+        "Tirá con los brazos",
+        "Trabá la cuerda con el pie",
+        "Piernas y brazos alternados"
+      ],
+      "vo": "Claves: agarre alto, tirar con los brazos, trabar la cuerda con el pie y alternar piernas y brazos.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "HANG",
+              0.6
+            ],
+            [
+              "PULL",
+              0.55
+            ],
+            [
+              "CLAMP",
+              0.6
+            ],
+            [
+              "STAND_ON",
+              0.6
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.4,
+      "badge": "A ENTRENAR",
+      "head": [
+        "SUBÍ",
+        "COMPLETO"
+      ],
+      "sub": "Bajada controlada",
+      "vo": "Subí la cuerda completa hasta el tope y bajá controlado, sin dejarte caer. Una subida por vez.",
+      "chips": [
+        {
+          "label": "1 · AGARRÁ",
+          "at": 0.4
+        },
+        {
+          "label": "2 · SUBÍ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.8
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "JUMP_HANG",
+              0.6
+            ],
+            [
+              "PULL",
+              0.55
+            ],
+            [
+              "CLAMP",
+              0.6
+            ],
+            [
+              "STAND_ON",
+              0.7
+            ],
+            [
+              "REACH",
+              0.6
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "STAND_ON",
+    "grip": 0,
+    "zoom": 1.02,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Rope Climb 🔥 Cómo subir la cuerda con técnica (paso a paso) | CrossFit",
+    "tags": [
+      "rope climb",
+      "subida de cuerda",
+      "trepar cuerda",
+      "cuerda",
+      "crossfit",
+      "wod",
+      "agarre",
+      "espalda",
+      "tracción",
+      "técnica",
+      "fuerza",
+      "gimnasio"
+    ],
+    "descripcion": "🔥 ROPE CLIMB — Subir la cuerda hasta el tope\n\n¿La cuerda te gana siempre? La clave no son los brazos: es trabar los pies y dejar que las piernas empujen. Te lo muestro paso a paso. 💪\n\n📋 PASO A PASO\n1️⃣ Parate al lado de la cuerda, con el pie bien cerca del extremo.\n2️⃣ Saltá y agarrá la cuerda bien alto, con las manos firmes.\n3️⃣ Tirá con los brazos y subí las manos mientras cerrás las piernas.\n4️⃣ Trabá la cuerda con un pie y parate sobre ella.\n5️⃣ Repetí subir manos, trabar el pie y pararse hasta el tope.\n\n✅ CLAVES DE TÉCNICA\n• Agarre alto y firme\n• Codos hacia abajo\n• Trabá la cuerda con el pie\n• Piernas y brazos alternados\n• Bajada controlada\n\n🎯 QUÉ TRABAJA\nEspalda · Bíceps · Antebrazo y agarre · Core · Piernas\n\n⏱️ CUÁNTO\nSubidas completas hasta el tope (4 a 5 m), 3 a 5 series según tu nivel.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi todavía no subís la cuerda entera, trabajá el agarre y la posición colgado antes de sumar altura.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #RopeClimb #Cuerda #Calistenia #WOD #Técnica"
+  }
+}

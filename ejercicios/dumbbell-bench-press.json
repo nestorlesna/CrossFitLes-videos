@@ -1,0 +1,464 @@
+{
+  "name": "Dumbbell Bench Press",
+  "category": "FUERZA · EMPUJE",
+  "tags": [
+    "Pecho",
+    "Tríceps",
+    "Mancuernas"
+  ],
+  "descripcion": "Press de pecho acostado en banco con mancuernas: bajar controlado al costado del pecho y empujar hasta bloquear.",
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "floorScroll": 0,
+  "props": [
+    {
+      "type": "bench",
+      "x0": -330,
+      "x1": 60,
+      "h": 200
+    },
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "r": 46
+    },
+    {
+      "type": "dumbbell",
+      "hand": "far",
+      "r": 46
+    }
+  ],
+  "initialPose": "DOWN",
+  "poses": {
+    "DOWN": {
+      "rx": 270,
+      "ry": -10,
+      "s": -8.68,
+      "t": -101.38,
+      "ft": 0,
+      "s2": -11.13,
+      "t2": -99,
+      "ft2": 0,
+      "b": -90,
+      "hd": -92,
+      "g": 0,
+      "ua": 25,
+      "fa": 155,
+      "ua2": 30,
+      "fa2": 150
+    },
+    "PRESS": {
+      "rx": 270,
+      "ry": -10,
+      "s": -8.68,
+      "t": -101.38,
+      "ft": 0,
+      "s2": -11.13,
+      "t2": -99,
+      "ft2": 0,
+      "b": -90,
+      "hd": -92,
+      "g": 0,
+      "ua": 62,
+      "fa": 112,
+      "ua2": 66,
+      "fa2": 108
+    },
+    "UP": {
+      "rx": 270,
+      "ry": -10,
+      "s": -8.68,
+      "t": -101.38,
+      "ft": 0,
+      "s2": -11.13,
+      "t2": -99,
+      "ft2": 0,
+      "b": -90,
+      "hd": -90,
+      "g": 0,
+      "ua": 178,
+      "fa": 2,
+      "ua2": 178,
+      "fa2": 2
+    },
+    "ARCH_BAD": {
+      "rx": 270,
+      "ry": -10,
+      "s": -8.68,
+      "t": -101.38,
+      "ft": 0,
+      "s2": -11.13,
+      "t2": -99,
+      "ft2": 0,
+      "b": -74,
+      "cv": -34,
+      "hd": -104,
+      "g": 0,
+      "ua": 168,
+      "fa": 12,
+      "ua2": 170,
+      "fa2": 10
+    },
+    "FLARE_BAD": {
+      "rx": 270,
+      "ry": -10,
+      "s": -8.68,
+      "t": -101.38,
+      "ft": 0,
+      "s2": -11.13,
+      "t2": -99,
+      "ft2": 0,
+      "b": -90,
+      "hd": -92,
+      "g": 0,
+      "ua": 110,
+      "fa": 40,
+      "ua2": 114,
+      "fa2": 36
+    }
+  },
+  "slug": "dumbbell-bench-press",
+  "revisado": false,
+  "pronuncia": {
+    "Dumbbell Bench Press": "dámbel bench pres",
+    "Bench Press": "bench pres",
+    "Dumbbell": "dámbel"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "FUERZA · EMPUJE",
+      "head": [
+        "DUMBBELL",
+        "BENCH",
+        "PRESS"
+      ],
+      "vo": "Press de pecho con mancuernas en banco: escápulas juntas, codos a cuarenta y cinco grados y empuje hasta bloquear.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "DOWN",
+              0.8
+            ],
+            [
+              "PRESS",
+              0.7
+            ],
+            [
+              "UP",
+              0.9
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ACOSTADO",
+        "EN EL BANCO"
+      ],
+      "sub": "Pies firmes en el piso",
+      "vo": "Acostate en el banco con las escápulas juntas y apoyadas, los pies firmes en el piso y las mancuernas al pecho.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            110,
+            780
+          ],
+          "text": "ESCÁPULAS JUNTAS",
+          "anchor": "start",
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            110,
+            950
+          ],
+          "text": "PIES FIRMES",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "BAJÁ AL",
+        "COSTADO"
+      ],
+      "sub": "Codos a 45 grados",
+      "vo": "Paso uno. Bajá las mancuernas controladas hasta el costado del pecho, con los codos a unos cuarenta y cinco grados.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.8,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "DOWN.W",
+            "dx": 70,
+            "dy": -110
+          },
+          "text": "AL COSTADO",
+          "anchor": "start",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "EMPUJÁ",
+        "Y BLOQUEÁ"
+      ],
+      "sub": "Sin chocarlas arriba",
+      "vo": "Paso dos. Empujá hasta bloquear los codos, sin chocar las mancuernas arriba ni perder las escápulas.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "PRESS",
+          "at": 0.7,
+          "dur": 0.45
+        },
+        {
+          "to": "UP",
+          "at": 1.7,
+          "dur": 0.45
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            110,
+            800
+          ],
+          "text": "ARRIBA, SIN CHOCAR",
+          "anchor": "start",
+          "at": 1.7
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "ASÍ NO:",
+        "CODOS",
+        "ABIERTOS"
+      ],
+      "sub": "Codos a 90 grados",
+      "vo": "Paso tres. No abras los codos a noventa grados: castiga el hombro. Codos a cuarenta y cinco, siempre.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.6,
+          "dur": 0.5
+        },
+        {
+          "to": "FLARE_BAD",
+          "at": 1.8,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "FLARE_BAD.W",
+            "dx": 60,
+            "dy": -70
+          },
+          "text": "ASÍ NO: CODO ABIERTO",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ESPALDA",
+        "APOYADA"
+      ],
+      "sub": "Sin arquear la lumbar",
+      "vo": "Paso cuatro. No arquees la lumbar para empujar: la espalda queda apoyada y el pecho arriba, sin puente exagerado.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.5,
+          "dur": 0.45
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 1.6,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "ARCH_BAD.H",
+            "dx": -150,
+            "dy": 40
+          },
+          "text": "ASÍ NO: TE ARQUEÁS",
+          "anchor": "end",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Escápulas juntas y apoyadas",
+        "Pies firmes en el piso",
+        "Codos a 45 grados",
+        "Bajar controlado al pecho",
+        "Bloquear sin chocar"
+      ],
+      "vo": "Claves: escápulas juntas, pies firmes, codos a cuarenta y cinco, bajar controlado y bloquear sin chocar.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "DOWN",
+              0.8
+            ],
+            [
+              "PRESS",
+              0.6
+            ],
+            [
+              "UP",
+              0.7
+            ],
+            [
+              "DOWN",
+              0.8
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.4,
+      "badge": "A ENTRENAR",
+      "head": [
+        "12",
+        "REPS"
+      ],
+      "sub": "Bajada de 2 segundos",
+      "vo": "Doce repeticiones bajando en dos segundos. Si perdés las escápulas, bajá el peso: el pecho trabaja igual.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.4
+        },
+        {
+          "label": "2 · EMPUJÁ",
+          "at": 1.0
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "DOWN",
+              0.8
+            ],
+            [
+              "PRESS",
+              0.5
+            ],
+            [
+              "UP",
+              0.6
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "grip": 0,
+    "zoom": 1.04,
+    "dy": 130
+  },
+  "youtube": {
+    "titulo": "Dumbbell Bench Press 🔥 Press de pecho con mancuernas bien hecho | Fuerza",
+    "tags": [
+      "dumbbell bench press",
+      "press de pecho",
+      "press banca mancuernas",
+      "pecho",
+      "pectorales",
+      "mancuernas",
+      "empuje",
+      "fuerza",
+      "crossfit",
+      "wod",
+      "técnica",
+      "gimnasio"
+    ],
+    "descripcion": "🔥 DUMBBELL BENCH PRESS — Press de pecho con mancuernas\n\nCodos abiertos y lumbar arqueada: dos formas de sacarle el pecho al ejercicio y regalárselo al hombro. Así se hace bien. 💪\n\n📋 PASO A PASO\n1️⃣ Acostate con las escápulas juntas y apoyadas en el banco.\n2️⃣ Pies firmes en el piso, mancuernas al costado del pecho.\n3️⃣ Bajá controlado con los codos a unos 45 grados.\n4️⃣ Empujá hasta bloquear, sin chocar las mancuernas.\n5️⃣ Mantené la espalda apoyada, sin arquear la lumbar.\n\n✅ CLAVES DE TÉCNICA\n• Escápulas juntas y apoyadas\n• Pies firmes en el piso\n• Codos a 45 grados\n• Bajada controlada\n• Bloquear sin chocar\n\n🎯 QUÉ TRABAJA\nPectorales · Deltoides anterior · Tríceps · Core\n\n⏱️ CUÁNTO\n12 repeticiones, 3 a 4 series.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi no tenés banco, hacelo en el piso (floor press): el rango es más corto pero el trabajo de pecho es el mismo.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Pecho #Mancuernas #BenchPress #Fuerza #CrossFit #Técnica"
+  }
+}

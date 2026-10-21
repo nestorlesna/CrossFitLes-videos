@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Kétol bel suing: la pesa vuela con la cadera, no con los brazos. Glúteos y potencia."
+      "en": "Kettlebell Swing",
+      "text": "La pesa vuela con la cadera, no con los brazos. Glúteos y potencia."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

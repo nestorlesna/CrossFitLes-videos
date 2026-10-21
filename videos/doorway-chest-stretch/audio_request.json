@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "doruei chest strech: con el antebrazo en el marco de la puerta, alejás el cuerpo y abrís el pecho. Ideal después de un día de escritorio o de mucho empuje."
+      "en": "Doorway Chest Stretch",
+      "text": "Con el antebrazo en el marco de la puerta, alejás el cuerpo y abrís el pecho. Ideal después de un día de escritorio o de mucho empuje."
     },
     {
       "id": "02",
@@ -26,7 +27,7 @@
     },
     {
       "id": "06",
-      "text": "Claves: el codo a la altura del hombro, el hombro relajado sin encoger, alejá el cuerpo sin caer el tronco hacia adelante y respirá aguantando el estiramiento sin rebotar."
+      "text": "Claves: el codo a la altura del hombro, el hombro relajado, alejá el cuerpo sin caer el tronco y respirá sin rebotar."
     },
     {
       "id": "07",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

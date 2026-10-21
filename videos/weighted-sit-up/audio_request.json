@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Sit-up con disco: subir con el abdomen, no con el cuello. El peso suma resistencia, no hace el trabajo por vos."
+    },
+    {
+      "id": "02",
+      "text": "Acostate con las rodillas flexionadas y los pies anclados, el disco firme en las manos sobre el pecho."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Sostené el disco con los brazos extendidos arriba del pecho y no lo muevas durante la subida."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Enrollá el torso y subí con el abdomen, como si juntaras las costillas con la pelvis."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Bajá controlado hasta apoyar la espalda en el piso, sin soltar el disco ni dejarte caer."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. No tires del cuello ni despeguen los pies: el cuello no sube el torso y los pies son el ancla."
+    },
+    {
+      "id": "07",
+      "text": "Claves: pies anclados, disco firme, subir con el abdomen, bajar controlado y nunca tirar del cuello."
+    },
+    {
+      "id": "08",
+      "text": "Doce repeticiones con disco, bajando en dos segundos. Si el disco te gana, bajá el peso y hacé la técnica bien."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

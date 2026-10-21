@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Estiramiento de cuádriceps de pie: talón a la cola, rodillas juntas y la cadera levemente adelante."
+    },
+    {
+      "id": "02",
+      "text": "Apoyate con una mano en la pared, parate derecho y llevá el talón hacia la cola tomándote el empeine."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Tomá el empeine y llevá el talón a la cola, con las rodillas juntas y el cuerpo derecho."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Llevá la cadera levemente hacia adelante y sostené. Ahí el cuádriceps se estira de verdad."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. No dejes que la rodilla se abra hacia afuera: mantenela junto a la otra para estirar el cuádriceps."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Sostené treinta segundos sin arquear la lumbar: si te vencés atrás, perdés el estiramiento."
+    },
+    {
+      "id": "07",
+      "text": "Claves: apoyo en la pared, talón a la cola, rodillas juntas, cadera adelante y tensión suave."
+    },
+    {
+      "id": "08",
+      "text": "Treinta segundos por pierna, dos rondas. Sin tirones ni rebotes: la tensión es suave, nunca dolor."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

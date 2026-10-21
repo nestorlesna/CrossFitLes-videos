@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Deadlift a la altura de la rodilla: peso muerto parcial para fijar la posición de salida del clin y el snach."
+    },
+    {
+      "id": "02",
+      "text": "Parate con la barra sobre el medio del pie, pegada a la tibia, y agarrala apenas por fuera de las piernas."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Espalda neutra, pecho alto y hombros apenas por delante de la barra. Braceá fuerte el abdomen."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Empujá el piso y subí con los hombros y la cadera a la vez, hasta la altura de la rodilla."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Hacé una pausa breve a la altura de la rodilla, con la espalda plana y la barra pegada."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. No redondees la espalda ni adelantes la cadera: la barra se despega y perdés la posición."
+    },
+    {
+      "id": "07",
+      "text": "Claves: barra pegada a la tibia, espalda neutra, hombros apenas por delante y pausa con espalda plana."
+    },
+    {
+      "id": "08",
+      "text": "Dos repeticiones con pausa a la altura de la rodilla. Poco peso: acá importa la posición, no la carga."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

@@ -281,5 +281,13 @@ Desde 2026-10-12 la voz en off es **Piper** (local, gratis) con **Daniela, es_AR
 - Nombres en inglés que Daniela lee mal: `"pronuncia": { "Burpee Broad Jump": "Burpii, brod champ", "burpee": "burpii" }`
   en la ficha. Reemplaza solo en el texto que se sintetiza; el subtítulo sigue mostrando el nombre real. Probar variantes
   antes con `python plantilla/piper-tts.py` en `videos/_pruebas-voz/<slug>/` (carpeta ignorada por git). Kokoro sigue disponible con `"voiceProvider": "kokoro"`.
+- **Nombre en inglés (desde 2026-10-21):** en el `hook`, el nombre lo dice **Kokoro `af_heart`** (inglés, Apache 2.0) y
+  sigue Daniela. `make-exercise` manda la línea como `{ en, text }` + `enVoice` y `piper-tts.py` la arma (pausa de
+  0,35 s, fundido y volumen igualado). Regla: el `vo` del hook empieza con `name` exacto → Daniela sigue después de
+  los dos puntos; si no, el nombre se dice antes del `vo` completo. Ficha: `"nombreEnVoz"` (cómo leer nombres con
+  símbolos) y `"nombreEn": false` (nombre en castellano). Requiere `python -m pip install kokoro-onnx` y el modelo
+  (`kokoro-v1.0.onnx` + `voices-v1.0.bin`) en `plantilla/voces-kokoro/` o `~/.cache/hyperframes/tts/` (ver GENERAR_VIDEOS §3).
+  El crédito de Kokoro se suma a la descripción solo si el render lo usó (`.pipeline.json` → `renderVozEn`).
+  Videos viejos: `node plantilla/revoz-en.mjs` re-renderiza por lotes (plan al final de `CHECKLIST.md`).
 - Edge TTS (voces es-AR Tomás/Elena) quedó descartado: Microsoft devuelve 403 desde oct-2026.
 - `index.html` se regenera siempre: los cambios van en la ficha, no en el HTML.

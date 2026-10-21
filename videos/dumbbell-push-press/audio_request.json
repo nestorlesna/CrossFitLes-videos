@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Dámbel push pres: impulso de piernas y empuje de las mancuernas hasta arriba de la cabeza."
+      "en": "Dumbbell Push Press",
+      "text": "Impulso de piernas y empuje de las mancuernas hasta arriba de la cabeza."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

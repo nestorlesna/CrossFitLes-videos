@@ -10,7 +10,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 4.8s
-- voiceover: "Romanian Deadlift: bisagra de cadera. La barra baja pegada a las piernas hasta sentir el estiramiento y vuelve subiendo con los glúteos."
+- voiceover: "Barbell Romanian Deadlift: bisagra de cadera. La barra baja pegada a las piernas y subís con los glúteos."
 - poses: STAND → MID → RDL → MID → STAND
 
 ## Frame 2 — POSICIÓN INICIAL DE PIE CON LA BARRA

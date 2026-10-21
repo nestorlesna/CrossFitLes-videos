@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Box champ óuver: saltá el cajón y terminá del otro lado. Piernas, potencia y coordinación."
+      "en": "Box Jump-Over",
+      "text": "Saltá el cajón y terminá del otro lado. Piernas, potencia y coordinación."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

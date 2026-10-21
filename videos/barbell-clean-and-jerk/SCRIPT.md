@@ -7,7 +7,7 @@
 
 ## Line 1 — CROSSFIT · FUERZA (Frame 1)
 
-    Clean and Jerk: cargada y envión. La barra del piso a los hombros, y de los hombros arriba.
+    Barbell Clean and Jerk: cargada y envión. La barra del piso a los hombros, y de los hombros arriba.
 
 ## Line 2 — POSICIÓN INICIAL (Frame 2)
 

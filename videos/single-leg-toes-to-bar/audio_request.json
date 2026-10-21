@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Single-leg tous tu bar: una pierna toca la barra, la otra queda colgando. Core, agarre y control del balanceo."
+    },
+    {
+      "id": "02",
+      "text": "Colgate con las manos al ancho de los hombros, brazos estirados y las escápulas activas."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Elegí una pierna: esa va a subir. La otra queda estirada y colgando, activa para el equilibrio."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Subí la rodilla de la pierna que trabaja, sin balanceo: el impulso sale del abdomen."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Estirá la pierna y tocá la barra con el pie. La otra pierna no se mueve, queda colgando."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Bajá controlando y cambiá de pierna en la próxima repetición, sin cortar el ritmo."
+    },
+    {
+      "id": "07",
+      "text": "Claves: core comprimido, sin balanceo, pierna extendida al tocar la barra y alterná el lado."
+    },
+    {
+      "id": "08",
+      "text": "Doce repeticiones, seis por lado. Si se te desarma el balanceo, bajá el ritmo y volvé al control."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

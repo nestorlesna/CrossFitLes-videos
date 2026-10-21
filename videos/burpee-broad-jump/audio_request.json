@@ -6,8 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Burpii, brod champ: burpii más salto largo. Pura potencia de piernas y cardio.",
-      "speed": 0.88
+      "en": "Burpee Broad Jump",
+      "text": "Burpii más salto largo. Pura potencia de piernas y cardio."
     },
     {
       "id": "02",
@@ -40,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

@@ -10,7 +10,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 4.8s
-- voiceover: "Power Clean: la barra del piso a los hombros en un solo movimiento, y recibís arriba del paralelo."
+- voiceover: "Barbell Power Clean: la barra del piso a los hombros en un solo movimiento, y recibís arriba del paralelo."
 - poses: SETUP → KNEE → HIP → EXT → PULL_C → RACK_Q → RACK
 
 ## Frame 2 — POSICIÓN INICIAL ESPALDA FIRME

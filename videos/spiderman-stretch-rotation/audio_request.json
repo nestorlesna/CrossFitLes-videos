@@ -6,8 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Espáiderman estréch roteishon: estocada con rotación torácica. Movilidad de cadera, glúteo y espalda alta.",
-      "speed": 0.88
+      "en": "Spiderman Stretch Rotation",
+      "text": "Estocada con rotación torácica. Movilidad de cadera, glúteo y espalda alta."
     },
     {
       "id": "02",
@@ -36,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

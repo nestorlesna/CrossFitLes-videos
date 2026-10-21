@@ -7,7 +7,7 @@
 
 ## Line 1 — CROSSFIT · ACTIVACIÓN (Frame 1)
 
-    Ankle Mobility Drill: medio arrodillado, con una pesa adelante como referencia, llevás la rodilla sobre la punta del pie sin despegar el talón. Gana dorsiflexión de tobillo.
+    Kettlebell Ankle Mobility Drill: medio arrodillado, llevás la rodilla más allá de la punta del pie sin despegar el talón.
 
 ## Line 2 — POSICIÓN INICIAL (Frame 2)
 
@@ -27,7 +27,7 @@
 
 ## Line 6 — CLAVES (Frame 6)
 
-    Claves: el talón de adelante siempre apoyado, la rodilla va sobre la punta del pie buscando la pesa, la kettlebell marca la distancia a ganar y sin rebotes: aguantá el punto máximo un par de segundos.
+    Claves: el talón de adelante siempre apoyado, la rodilla busca la pesa por arriba de la punta del pie y, sin rebotes, aguantá un par de segundos.
 
 ## Line 7 — A ENTRENAR (Frame 7)
 

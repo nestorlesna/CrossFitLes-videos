@@ -31,7 +31,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 6.6s
-- voiceover: "Paso dos. Quedate ahí sin moverte, con la pierna de adelante a noventa grados en rodilla y cadera y el core firme. El tiempo de mantenimiento construye fuerza en glúteos y cuádriceps."
+- voiceover: "Paso dos. Quedate ahí sin moverte, con la rodilla de adelante a noventa grados y el core firme. Sostener construye fuerza en glúteos y cuádriceps."
 - poses: —
 
 ## Frame 5 — PASO 3 / 3 ASÍ NO
@@ -45,7 +45,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 8s
-- voiceover: "Claves: el torso completamente erguido durante toda la isometría, la rodilla de adelante no pasa la punta del pie, el peso cae sobre el talón delantero y el core firme sin moverse."
+- voiceover: "Claves: torso erguido toda la isometría, la rodilla de adelante no pasa la punta del pie, peso en el talón delantero y core firme."
 - poses: —
 
 ## Frame 7 — A ENTRENAR 30 SEG

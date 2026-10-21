@@ -1,42 +1,43 @@
 {
   "tts_provider": "piper",
   "voice_id": "es_AR-daniela-high",
+  "enVoice": "kokoro:af_heart",
   "bgm": null,
   "voices": [
     {
       "id": "01",
       "path": "assets/voice/01.wav",
-      "duration_s": 4.365,
+      "duration_s": 5.077,
       "words": []
     },
     {
       "id": "02",
       "path": "assets/voice/02.wav",
-      "duration_s": 5.41,
+      "duration_s": 5.457,
       "words": []
     },
     {
       "id": "03",
       "path": "assets/voice/03.wav",
-      "duration_s": 6.374,
+      "duration_s": 6.432,
       "words": []
     },
     {
       "id": "04",
       "path": "assets/voice/04.wav",
-      "duration_s": 5.236,
+      "duration_s": 5.097,
       "words": []
     },
     {
       "id": "05",
       "path": "assets/voice/05.wav",
-      "duration_s": 5.77,
+      "duration_s": 5.747,
       "words": []
     },
     {
       "id": "06",
       "path": "assets/voice/06.wav",
-      "duration_s": 5.259,
+      "duration_s": 5.538,
       "words": []
     },
     {
@@ -48,10 +49,10 @@
     {
       "id": "08",
       "path": "assets/voice/08.wav",
-      "duration_s": 4.563,
+      "duration_s": 4.644,
       "words": []
     }
   ],
   "sfx": [],
-  "total_duration_s": 43.165
+  "total_duration_s": 44.18
 }

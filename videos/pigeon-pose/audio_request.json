@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Pigeon Pose: el estiramiento clave para glúteo y cadera."
+      "en": "Pigeon Pose",
+      "text": "El estiramiento clave para glúteo y cadera."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

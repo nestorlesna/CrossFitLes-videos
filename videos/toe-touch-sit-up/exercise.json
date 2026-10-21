@@ -1,0 +1,402 @@
+{
+  "name": "Toe Touch Sit-Up",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Abdomen",
+    "Isquios",
+    "Core"
+  ],
+  "descripcion": "Acostado boca arriba con piernas estiradas y apoyadas en el piso. Se eleva el torso completo (recorrido completo, no crunch) y al llegar arriba se estiran los brazos para tocar la punta de los pies.",
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 570,
+    "y": 1500,
+    "scale": 0.86
+  },
+  "props": [],
+  "initialPose": "FLAT",
+  "poses": {
+    "FLAT": {
+      "hip": [
+        0,
+        -12
+      ],
+      "s": -90,
+      "t": -90,
+      "ft": -90,
+      "ft2": -90,
+      "b": -90,
+      "hd": -92,
+      "g": 0,
+      "ua": 270,
+      "fa": 0,
+      "ua2": 270,
+      "fa2": 0
+    },
+    "HALF": {
+      "hip": [
+        0,
+        -12
+      ],
+      "s": -90,
+      "t": -90,
+      "ft": -90,
+      "ft2": -90,
+      "b": -40,
+      "hd": -44,
+      "g": 0,
+      "ua": 215,
+      "fa": 4,
+      "ua2": 215,
+      "fa2": 4
+    },
+    "UP": {
+      "hip": [
+        0,
+        -12
+      ],
+      "s": -90,
+      "t": -90,
+      "ft": -90,
+      "ft2": -90,
+      "b": 58,
+      "hd": 52,
+      "g": 1,
+      "ed": 1,
+      "hx": 462,
+      "hy": -6
+    },
+    "LEGS_BAD": {
+      "hip": [
+        0,
+        -12
+      ],
+      "s": -128,
+      "t": -128,
+      "ft": -60,
+      "ft2": -60,
+      "b": 40,
+      "hd": 34,
+      "g": 0,
+      "ua": 100,
+      "fa": 0,
+      "ua2": 100,
+      "fa2": 0
+    },
+    "CRUNCH_BAD": {
+      "hip": [
+        0,
+        -12
+      ],
+      "s": -90,
+      "t": -90,
+      "ft": -90,
+      "ft2": -90,
+      "b": -62,
+      "hd": -56,
+      "g": 0,
+      "ua": 250,
+      "fa": 0,
+      "ua2": 250,
+      "fa2": 0
+    }
+  },
+  "slug": "toe-touch-sit-up",
+  "revisado": false,
+  "pronuncia": {
+    "Toe Touch Sit-Up": "Tou toch sit ap",
+    "sit-up": "sit ap",
+    "toe touch": "tou toch",
+    "crunch": "cranch",
+    "v-up": "vi ap"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "TOE TOUCH",
+        "SIT-UP"
+      ],
+      "vo": "Toe Touch Sit-Up: sentado desde el piso tocás la punta de los pies. Recorrido completo, no crunch.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "HALF",
+              0.4
+            ],
+            [
+              "FLAT",
+              0.5
+            ],
+            [
+              "HALF",
+              0.45
+            ],
+            [
+              "UP",
+              0.45
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BOCA",
+        "ARRIBA"
+      ],
+      "sub": "Piernas estiradas en el piso",
+      "vo": "Acostate boca arriba con las piernas estiradas apoyadas en el piso y los brazos por encima de la cabeza.",
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            1180
+          ],
+          "text": "PIERNAS EN EL PISO",
+          "anchor": "start",
+          "at": 1.2,
+          "out": 4.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SUBÍ EL",
+        "TORSO"
+      ],
+      "sub": "Recorrido completo",
+      "vo": "Paso uno. Subí el torso completo, como si te enroscaras hacia los pies. No es un crunch: el recorrido es entero.",
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.6,
+          "dur": 0.5
+        },
+        {
+          "to": "UP",
+          "at": 1.1,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "TOCÁ",
+        "LOS PIES"
+      ],
+      "sub": "Con las manos",
+      "vo": "Paso dos. Arriba estirá los brazos y tocá la punta de los pies. Las piernas quedan apoyadas en el piso.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "UP.W",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 70,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "UP.W",
+            "dx": 0,
+            "dy": -150
+          },
+          "text": "PIES",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "No levantés las piernas",
+      "vo": "Paso tres. No levantes las piernas para llegar: eso lo convierte en otra cosa. El movimiento es del torso.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "LEGS_BAD",
+          "at": 1.0,
+          "dur": 0.5
+        },
+        {
+          "to": "UP",
+          "at": 3.6,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            1120
+          ],
+          "text": "ASÍ NO: PIERNAS ARRIBA",
+          "anchor": "start",
+          "at": 1.2,
+          "out": 3.5
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 1,
+      "keys": [
+        "Recorrido completo",
+        "Piernas en el piso",
+        "El movimiento sale del torso",
+        "Bajá controlado"
+      ],
+      "vo": "Claves: recorrido completo, piernas en el piso, el movimiento sale del torso y bajás controlando.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "HALF",
+              0.4
+            ],
+            [
+              "UP",
+              0.4
+            ],
+            [
+              "HALF",
+              0.45
+            ],
+            [
+              "FLAT",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "12 REPS"
+      ],
+      "sub": "Activación",
+      "vo": "Doce repeticiones controladas. Ideal para activar el abdomen en la entrada en calor.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.4
+        },
+        {
+          "label": "2 · TOCÁ",
+          "at": 1.2
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 2.0
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "HALF",
+              0.4
+            ],
+            [
+              "UP",
+              0.4
+            ],
+            [
+              "HALF",
+              0.45
+            ],
+            [
+              "FLAT",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "grip": 1,
+    "zoom": 0.98,
+    "dy": -220
+  },
+  "youtube": {
+    "titulo": "Toe Touch Sit-Up 🔥 Abdominales tocando los pies paso a paso | CrossFit",
+    "tags": [
+      "toe touch sit up",
+      "toe touch",
+      "abdominales tocando los pies",
+      "sit up",
+      "abdominales",
+      "core",
+      "entrada en calor",
+      "activación",
+      "crossfit",
+      "abdomen",
+      "recto abdominal",
+      "movilidad"
+    ],
+    "descripcion": "🔥 TOE TOUCH SIT-UP — Abdominales con recorrido completo\n\n¿Sentís que el crunch no te dice nada? El toe touch trabaja todo el recorrido del abdomen. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Acostate boca arriba con las piernas estiradas apoyadas en el piso y los brazos por encima de la cabeza.\n2️⃣ Subí el torso completo, como si te enroscaras hacia los pies.\n3️⃣ Arriba estirá los brazos y tocá la punta de los pies.\n4️⃣ No levantes las piernas para llegar: el movimiento es del torso.\n5️⃣ Bajá con control hasta apoyar de nuevo y repetí.\n\n✅ CLAVES DE TÉCNICA\n• Recorrido completo, no crunch\n• Piernas apoyadas en el piso\n• El movimiento sale del torso\n• Bajá con control\n\n🎯 QUÉ TRABAJA\nRecto abdominal · Oblicuo externo · Recto femoral · Isquiotibiales\n\n⏱️ CUÁNTO\n12 repeticiones controladas. Va perfecto en la entrada en calor o como accesorio de core.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi te molesta la espalda baja, flexioná un poco las rodillas y bajá el recorrido.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Core #ToeTouch #Abdominales #Entrenamiento"
+  }
+}

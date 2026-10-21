@@ -1,0 +1,405 @@
+{
+  "name": "Standing Quad Stretch",
+  "category": "VUELTA A LA CALMA",
+  "tags": [
+    "Cuádriceps",
+    "Movilidad",
+    "Piernas"
+  ],
+  "descripcion": "De pie con una mano en la pared: se toma el empeine y se lleva el talón a la cola, con la cadera levemente hacia adelante.",
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.15,
+  "rig": {
+    "x": 520,
+    "y": 1500,
+    "scale": 0.8
+  },
+  "floorScroll": 0,
+  "props": [
+    {
+      "type": "wall",
+      "x": 340,
+      "w": 190,
+      "h": 1700
+    }
+  ],
+  "initialPose": "STRETCH",
+  "poses": {
+    "STRETCH": {
+      "s": 0,
+      "t": 0,
+      "b": 2,
+      "hd": -4,
+      "g": 1,
+      "hb": 0,
+      "hx": 108,
+      "hy": -432,
+      "ed": 0.8,
+      "s2": -152,
+      "t2": 0,
+      "ft2": -104,
+      "g2": 1,
+      "hx2": 300,
+      "hy2": -800,
+      "ed2": 1
+    },
+    "LEAN": {
+      "s": 0,
+      "t": 0,
+      "b": 8,
+      "hd": 2,
+      "g": 1,
+      "hb": 0,
+      "hx": 112,
+      "hy": -424,
+      "ed": 0.8,
+      "s2": -146,
+      "t2": 4,
+      "ft2": -104,
+      "g2": 1,
+      "hx2": 300,
+      "hy2": -790,
+      "ed2": 1
+    },
+    "KNEE_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": 4,
+      "hd": -2,
+      "g": 1,
+      "hb": 0,
+      "hx": 108,
+      "hy": -432,
+      "ed": 0.8,
+      "s2": -150,
+      "t2": 26,
+      "ft2": -104,
+      "g2": 1,
+      "hx2": 300,
+      "hy2": -800,
+      "ed2": 1
+    },
+    "HIP_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": -12,
+      "hd": -14,
+      "g": 1,
+      "hb": 0,
+      "hx": 108,
+      "hy": -432,
+      "ed": 0.8,
+      "s2": -152,
+      "t2": 0,
+      "ft2": -104,
+      "g2": 1,
+      "hx2": 300,
+      "hy2": -800,
+      "ed2": 1
+    }
+  },
+  "slug": "standing-quad-stretch",
+  "revisado": false,
+  "pronuncia": {
+    "Standing Quad Stretch": "standing cuad strech",
+    "Quad": "cuad"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "VUELTA A LA CALMA",
+      "head": [
+        "QUAD",
+        "STRETCH"
+      ],
+      "vo": "Estiramiento de cuádriceps de pie: talón a la cola, rodillas juntas y la cadera levemente adelante.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "STRETCH",
+              0.9
+            ],
+            [
+              "LEAN",
+              0.9
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "APOYO EN",
+        "LA PARED"
+      ],
+      "sub": "De pie, bien derecho",
+      "vo": "Apoyate con una mano en la pared, parate derecho y llevá el talón hacia la cola tomándote el empeine.",
+      "moves": [
+        {
+          "cut": "STRETCH",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            110,
+            780
+          ],
+          "text": "MANO EN LA PARED",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "TALÓN",
+        "A LA COLA"
+      ],
+      "sub": "Sin soltar el empeine",
+      "vo": "Paso uno. Tomá el empeine y llevá el talón a la cola, con las rodillas juntas y el cuerpo derecho.",
+      "moves": [
+        {
+          "cut": "LEAN",
+          "at": 0
+        },
+        {
+          "to": "STRETCH",
+          "at": 0.8,
+          "dur": 0.55
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            110,
+            1120
+          ],
+          "text": "TALÓN A LA COLA",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "CADERA",
+        "ADELANTE"
+      ],
+      "sub": "Lumbar neutra",
+      "vo": "Paso dos. Llevá la cadera levemente hacia adelante y sostené. Ahí el cuádriceps se estira de verdad.",
+      "moves": [
+        {
+          "cut": "STRETCH",
+          "at": 0
+        },
+        {
+          "to": "LEAN",
+          "at": 0.9,
+          "dur": 0.55
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "LEAN.H",
+            "dx": -170,
+            "dy": -20
+          },
+          "text": "CADERA ADELANTE",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "ASÍ NO:",
+        "RODILLA",
+        "SUELTA"
+      ],
+      "sub": "Se abre hacia afuera",
+      "vo": "Paso tres. No dejes que la rodilla se abra hacia afuera: mantenela junto a la otra para estirar el cuádriceps.",
+      "moves": [
+        {
+          "cut": "LEAN",
+          "at": 0
+        },
+        {
+          "to": "KNEE_BAD",
+          "at": 0.8,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            110,
+            800
+          ],
+          "text": "ASÍ NO: RODILLA AFUERA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "SOSTENÉ",
+        "SIN ARQUEAR"
+      ],
+      "sub": "30 segundos",
+      "vo": "Paso cuatro. Sostené treinta segundos sin arquear la lumbar: si te vencés atrás, perdés el estiramiento.",
+      "moves": [
+        {
+          "cut": "STRETCH",
+          "at": 0
+        },
+        {
+          "to": "HIP_BAD",
+          "at": 0.9,
+          "dur": 0.5
+        },
+        {
+          "to": "LEAN",
+          "at": 2.6,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            110,
+            800
+          ],
+          "text": "ASÍ NO: TE ARQUEÁS",
+          "anchor": "start",
+          "at": 1.0,
+          "out": 2.5
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Apoyo en la pared",
+        "Talón a la cola",
+        "Rodillas juntas",
+        "Cadera levemente adelante",
+        "Tensión suave, 30 segundos"
+      ],
+      "vo": "Claves: apoyo en la pared, talón a la cola, rodillas juntas, cadera adelante y tensión suave.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "STRETCH",
+              0.9
+            ],
+            [
+              "LEAN",
+              0.9
+            ],
+            [
+              "STRETCH",
+              0.9
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.4,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30",
+        "SEGUNDOS"
+      ],
+      "sub": "Por pierna",
+      "vo": "Treinta segundos por pierna, dos rondas. Sin tirones ni rebotes: la tensión es suave, nunca dolor.",
+      "chips": [
+        {
+          "label": "1 · TOMÁ",
+          "at": 0.4
+        },
+        {
+          "label": "2 · SOSTENÉ",
+          "at": 1.1
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "STRETCH",
+              0.9
+            ],
+            [
+              "LEAN",
+              1.4
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "LEAN",
+    "grip": 0,
+    "zoom": 1.22,
+    "dy": 325
+  },
+  "youtube": {
+    "titulo": "Standing Quad Stretch 🔥 Estirá cuádriceps sin arquearte | Vuelta a la calma",
+    "tags": [
+      "standing quad stretch",
+      "estiramiento de cuadriceps",
+      "cuadriceps",
+      "estiramiento de pie",
+      "movilidad",
+      "vuelta a la calma",
+      "rodilla",
+      "lumbar",
+      "crossfit",
+      "técnica",
+      "flexibilidad",
+      "piernas"
+    ],
+    "descripcion": "🔥 STANDING QUAD STRETCH — Cuádriceps de pie\n\nSi al estirar el cuádriceps te arqueás atrás, no estirás nada: cargás la lumbar. Tres detalles y lo arreglás. 💪\n\n📋 PASO A PASO\n1️⃣ Apoyate con una mano en la pared y parate derecho.\n2️⃣ Tomá el empeine y llevá el talón hacia la cola.\n3️⃣ Mantené las rodillas juntas y la cadera levemente adelante.\n4️⃣ Sostené 30 segundos sin arquear la lumbar.\n5️⃣ Cambiá de pierna despacio.\n\n✅ CLAVES DE TÉCNICA\n• Apoyo en la pared\n• Talón a la cola\n• Rodillas juntas\n• Cadera adelante\n• Sin tirones ni rebotes\n\n🎯 QUÉ TRABAJA\nCuádriceps · Recto femoral · Cadera · Lumbar\n\n⏱️ CUÁNTO\n30 segundos por pierna, 2 rondas.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi te falta equilibrio, apoyate con las dos manos o hacelo acostado de costado: el estiramiento es el mismo.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Movilidad #Cuádriceps #Estiramiento #CrossFit #VueltaALaCalma #Técnica"
+  }
+}

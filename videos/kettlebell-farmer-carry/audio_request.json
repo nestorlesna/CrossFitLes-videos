@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Kétol bel, fármer carri: caminar con una pesa en cada mano. Agarre, core y espalda de acero."
+      "en": "Kettlebell Farmer Carry",
+      "text": "Caminar con una pesa en cada mano. Agarre, core y espalda de acero."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Uol bol baks óuver: con el balón al pecho, saltás el cajón de un lado al otro sin soltarlo. Potencia y cardio."
+      "en": "Wall Ball Box Over",
+      "text": "Con el balón al pecho, saltás el cajón de un lado al otro sin soltarlo. Potencia y cardio."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Seated Forward Fold: estirá isquios, gemelos y espalda sentado en el piso."
+      "en": "Seated Forward Fold",
+      "text": "Estirá isquios, gemelos y espalda sentado en el piso."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

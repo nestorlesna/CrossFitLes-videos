@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Escuat torásic roteishon: sentadilla profunda y rotación de la espalda alta. Movilidad pura."
+      "en": "Squat Thoracic Rotation",
+      "text": "Sentadilla profunda y rotación de la espalda alta. Movilidad pura."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

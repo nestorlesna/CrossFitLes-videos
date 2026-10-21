@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Hánguin tous tu bar: colgado de la barra, llevás los pies hasta tocarla. Abdomen a full."
+      "en": "Hanging Toes to Bar",
+      "text": "Colgado de la barra, llevás los pies hasta tocarla. Abdomen a full."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

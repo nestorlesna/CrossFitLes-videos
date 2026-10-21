@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Cat cau: movilidad de columna en cuadrupedia. Ideal para la entrada en calor y la vuelta a la calma."
+      "en": "Cat-Cow",
+      "text": "Movilidad de columna en cuadrupedia. Ideal para la entrada en calor y la vuelta a la calma."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

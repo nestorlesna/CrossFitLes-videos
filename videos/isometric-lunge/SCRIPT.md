@@ -19,7 +19,7 @@
 
 ## Line 4 — PASO 2 / 3 (Frame 4)
 
-    Paso dos. Quedate ahí sin moverte, con la pierna de adelante a noventa grados en rodilla y cadera y el core firme. El tiempo de mantenimiento construye fuerza en glúteos y cuádriceps.
+    Paso dos. Quedate ahí sin moverte, con la rodilla de adelante a noventa grados y el core firme. Sostener construye fuerza en glúteos y cuádriceps.
 
 ## Line 5 — PASO 3 / 3 (Frame 5)
 
@@ -27,7 +27,7 @@
 
 ## Line 6 — CLAVES (Frame 6)
 
-    Claves: el torso completamente erguido durante toda la isometría, la rodilla de adelante no pasa la punta del pie, el peso cae sobre el talón delantero y el core firme sin moverse.
+    Claves: torso erguido toda la isometría, la rodilla de adelante no pasa la punta del pie, peso en el talón delantero y core firme.
 
 ## Line 7 — A ENTRENAR (Frame 7)
 

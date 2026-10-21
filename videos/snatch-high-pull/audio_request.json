@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Snach jai pul: extensión explosiva y tirón alto. La antesala de la arrancada completa."
+      "en": "Snatch High Pull",
+      "text": "Extensión explosiva y tirón alto. La antesala de la arrancada completa."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

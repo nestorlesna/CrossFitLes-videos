@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Arm sércols: círculos amplios con los brazos en cruz. Hombros listos para entrenar."
+      "en": "Arm Circles",
+      "text": "Círculos amplios con los brazos en cruz. Hombros listos para entrenar."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

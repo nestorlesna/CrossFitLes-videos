@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Estiramiento de isquios de pie: la espalda se mantiene larga y todo sale de la cadera. Sin redondear ni tirar."
+    },
+    {
+      "id": "02",
+      "text": "Apoyá el talón adelante en un escalón bajo, con la pierna estirada y los pies mirando al frente."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Inclinate desde la cadera, como si empujaras la cola atrás. El movimiento nace en la ingle."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá hasta donde llegues con la espalda larga y el pecho apuntando al pie. Ahí aparece el estiramiento."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. No redondees la espalda para llegar más lejos: el estiramiento se pierde y la lumbar se carga."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Sostené treinta segundos respirando parejo. No rebotes: la tensión es suave, nunca dolor."
+    },
+    {
+      "id": "07",
+      "text": "Claves: talón en el escalón, bisagra de cadera, espalda larga, rodilla sin hiperextender y sin rebotes."
+    },
+    {
+      "id": "08",
+      "text": "Treinta segundos por pierna, dos o tres rondas. Cambiá de lado despacio, sin tirones."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

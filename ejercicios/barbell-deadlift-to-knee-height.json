@@ -1,0 +1,391 @@
+{
+  "name": "Barbell Deadlift to Knee Height",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Glúteos",
+    "Isquios",
+    "Espalda"
+  ],
+  "descripcion": "Peso muerto parcial: desde el piso, levantar la barra con espalda neutra hasta la altura de las rodillas, hacer una breve pausa y volver a bajarla. Se usa para fijar la posición de salida del snatch y el clean.",
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1500,
+    "scale": 0.84
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "r": 96
+    }
+  ],
+  "initialPose": "SETUP",
+  "poses": {
+    "SETUP": {
+      "g": 1,
+      "ed": 1,
+      "hx": 30,
+      "hip": [
+        -150,
+        -285
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 72,
+      "hd": 58,
+      "hy": -62
+    },
+    "KNEE": {
+      "g": 1,
+      "ed": 1,
+      "hx": 30,
+      "s": 5,
+      "t": -55,
+      "b": 52,
+      "hd": 40,
+      "hy": -215
+    },
+    "ROUND_BAD": {
+      "g": 1,
+      "ed": 1,
+      "hx": 30,
+      "hip": [
+        -150,
+        -285
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 76,
+      "hd": 96,
+      "cv": 34,
+      "hy": -62
+    },
+    "HIP_BAD": {
+      "g": 1,
+      "ed": 1,
+      "hx": 30,
+      "s": 4,
+      "t": -12,
+      "b": 80,
+      "hd": 70,
+      "hy": -120
+    }
+  },
+  "slug": "barbell-deadlift-to-knee-height",
+  "revisado": false,
+  "pronuncia": {
+    "Barbell Deadlift to Knee Height": "Barbel dedlift tu ni jait",
+    "deadlift": "dedlift",
+    "snatch": "snach",
+    "clean": "clin",
+    "knee height": "ni jait"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "DEADLIFT A LA",
+        "RODILLA"
+      ],
+      "vo": "Barbell Deadlift to Knee Height: peso muerto parcial para fijar la posición de salida del clean y el snatch.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "KNEE",
+              0.9
+            ],
+            [
+              "SETUP",
+              0.9
+            ]
+          ],
+          "at": 0.8,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BARRA",
+        "EN EL PISO"
+      ],
+      "sub": "Pegada a la tibia",
+      "vo": "Parate con la barra sobre el medio del pie, pegada a la tibia, y agarrala apenas por fuera de las piernas.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            140,
+            1120
+          ],
+          "text": "MEDIO DEL PIE",
+          "anchor": "start",
+          "at": 1.2,
+          "out": 4.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "ESPALDA",
+        "NEUTRA"
+      ],
+      "sub": "Pecho alto",
+      "vo": "Paso uno. Espalda neutra, pecho alto y hombros apenas por delante de la barra. Braceá fuerte el abdomen.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            1060
+          ],
+          "text": "HOMBROS POR DELANTE",
+          "anchor": "start",
+          "at": 1.3,
+          "out": 4.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "EMPUJÁ",
+        "EL PISO"
+      ],
+      "sub": "Todo junto",
+      "vo": "Paso dos. Empujá el piso y subí con los hombros y la cadera a la vez, hasta la altura de la rodilla.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "KNEE",
+          "at": 0.6,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "KNEE.K",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 62,
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "PAUSA",
+        "ARRIBA"
+      ],
+      "sub": "Espalda plana",
+      "vo": "Paso tres. Hacé una pausa breve a la altura de la rodilla, con la espalda plana y la barra pegada.",
+      "moves": [
+        {
+          "cut": "KNEE",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Errores típicos",
+      "vo": "Paso cuatro. No redondees la espalda ni adelantes la cadera: la barra se despega y perdés la posición.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "ROUND_BAD",
+          "at": 1.4,
+          "dur": 0.5
+        },
+        {
+          "to": "SETUP",
+          "at": 2.6,
+          "dur": 0.5
+        },
+        {
+          "to": "HIP_BAD",
+          "at": 3.4,
+          "dur": 0.5
+        },
+        {
+          "to": "KNEE",
+          "at": 4.4,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            140,
+            980
+          ],
+          "text": "ESPALDA REDONDA",
+          "anchor": "start",
+          "at": 1.5,
+          "out": 2.5
+        },
+        {
+          "type": "label",
+          "pos": [
+            140,
+            980
+          ],
+          "text": "CADERA PRIMERO",
+          "anchor": "start",
+          "at": 3.5,
+          "out": 4.3
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.8,
+      "keys": [
+        "Barra pegada a la tibia",
+        "Espalda neutra",
+        "Hombros por delante",
+        "Pausa con espalda plana"
+      ],
+      "vo": "Claves: barra pegada a la tibia, espalda neutra, hombros apenas por delante y pausa con espalda plana.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "KNEE",
+              0.9
+            ],
+            [
+              "SETUP",
+              0.9
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "2 REPS"
+      ],
+      "sub": "@ 20 kg · con pausa",
+      "vo": "Dos repeticiones con pausa a la altura de la rodilla. Poco peso: acá importa la posición, no la carga.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.4
+        },
+        {
+          "label": "2 · PAUSA",
+          "at": 1.2
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 2.0
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "KNEE",
+              0.9
+            ],
+            [
+              "SETUP",
+              0.9
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "KNEE",
+    "grip": 1,
+    "zoom": 1.15,
+    "dy": 60
+  },
+  "youtube": {
+    "titulo": "Deadlift a la Rodilla 🏋️ Peso muerto parcial: salida de clean y snatch | CrossFit",
+    "tags": [
+      "deadlift to knee height",
+      "peso muerto a la rodilla",
+      "peso muerto parcial",
+      "deadlift",
+      "clean",
+      "snatch",
+      "arrancada",
+      "cargada",
+      "cadena posterior",
+      "fuerza",
+      "crossfit",
+      "halterofilia"
+    ],
+    "descripcion": "🔥 BARBELL DEADLIFT TO KNEE HEIGHT — La salida del clean y el snatch\n\n¿Se te despega la barra en el arranque? Practicar la salida hasta la rodilla fija la posición de base del clean y el snatch. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate con la barra sobre el medio del pie, pegada a la tibia, y agarrala por fuera de las piernas.\n2️⃣ Espalda neutra, pecho alto y hombros apenas por delante de la barra: braceá fuerte.\n3️⃣ Empujá el piso y subí con los hombros y la cadera a la vez, hasta la altura de la rodilla.\n4️⃣ Hacé una pausa breve con la espalda plana y la barra pegada al cuerpo.\n5️⃣ No redondees la espalda ni adelantes la cadera: eso despega la barra y rompe la posición.\n\n✅ CLAVES DE TÉCNICA\n• Barra pegada a la tibia\n• Espalda neutra, pecho alto\n• Hombros apenas por delante\n• Pausa con espalda plana\n\n🎯 QUÉ TRABAJA\nIsquiotibiales · Glúteo mayor · Erectores espinales · Trapecio\n\n⏱️ CUÁNTO\n2 repeticiones con pausa a la altura de la rodilla. Poco peso: la idea es la posición, no la carga.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nUsá un peso liviano y priorizá la posición. Si todavía no tenés la técnica del peso muerto, volvé a ese video primero.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Fuerza #Deadlift #Halterofilia #Entrenamiento"
+  }
+}

@@ -10,7 +10,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 4.8s
-- voiceover: "Dead Bug con banda: core antiextensión. Mantené la lumbar pegada al piso todo el tiempo."
+- voiceover: "Dead Bug with Band Resistance: core antiextensión. Mantené la lumbar pegada al piso todo el tiempo."
 - poses: —
 
 ## Frame 2 — POSICIÓN INICIAL BOCA ARRIBA CON BANDA

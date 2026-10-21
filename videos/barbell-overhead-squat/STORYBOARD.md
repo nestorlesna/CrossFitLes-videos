@@ -10,7 +10,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 4.8s
-- voiceover: "Overhead Squat: sentadilla completa con la barra bloqueada arriba de la cabeza. Movilidad y estabilidad."
+- voiceover: "Barbell Overhead Squat: sentadilla completa con la barra bloqueada arriba de la cabeza. Movilidad y estabilidad."
 - poses: HALF → BOTTOM → HALF → STAND
 
 ## Frame 2 — POSICIÓN INICIAL BARRA ARRIBA

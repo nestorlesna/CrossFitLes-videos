@@ -1,0 +1,488 @@
+{
+  "name": "Single-Leg Toes-to-Bar",
+  "category": "CROSSFIT · HABILIDAD",
+  "tags": [
+    "Core",
+    "Agarre",
+    "Dorsales"
+  ],
+  "descripcion": "Colgado de la barra, elevar una sola pierna extendida hasta tocar la barra con el pie, alternando el lado en cada repetición.",
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1504,
+    "scale": 0.66
+  },
+  "props": [
+    {
+      "type": "pullupbar",
+      "bar": [
+        0,
+        -1170
+      ],
+      "postX": -430
+    }
+  ],
+  "initialPose": "HANG",
+  "poses": {
+    "HANG": {
+      "hip": [
+        0,
+        -562
+      ],
+      "b": 0,
+      "t": 0,
+      "s": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40,
+      "t2": 0,
+      "s2": 0,
+      "ft2": 40
+    },
+    "HOLLOW": {
+      "hip": [
+        18.2,
+        -572.1
+      ],
+      "b": -12,
+      "t": -16,
+      "s": -16,
+      "hd": -10,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40,
+      "t2": -16,
+      "s2": -16,
+      "ft2": 40
+    },
+    "ARCH": {
+      "hip": [
+        -27.7,
+        -574.3
+      ],
+      "b": 14,
+      "t": 22,
+      "s": 30,
+      "hd": 12,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40,
+      "t2": 22,
+      "s2": 30,
+      "ft2": 40
+    },
+    "KNEES_1": {
+      "hip": [
+        18.2,
+        -580
+      ],
+      "b": -18,
+      "t": -100,
+      "s": -12,
+      "hd": -12,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 10,
+      "t2": 0,
+      "s2": 0,
+      "ft2": 40
+    },
+    "TTB_1": {
+      "hip": [
+        -38.8,
+        -686.7
+      ],
+      "b": -36.4,
+      "t": -170.3,
+      "s": -170.3,
+      "hd": -21.8,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": -60,
+      "t2": 0,
+      "s2": 0,
+      "ft2": 40
+    },
+    "TTB_2": {
+      "hip": [
+        -38.8,
+        -686.7
+      ],
+      "b": -36.4,
+      "t": 0,
+      "s": 0,
+      "hd": -21.8,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40,
+      "t2": -170.3,
+      "s2": -170.3,
+      "ft2": -60
+    },
+    "SWAY_BAD": {
+      "hip": [
+        30,
+        -556
+      ],
+      "b": 16,
+      "t": 30,
+      "s": 34,
+      "hd": 20,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40,
+      "t2": 0,
+      "s2": 0,
+      "ft2": 40
+    }
+  },
+  "slug": "single-leg-toes-to-bar",
+  "revisado": false,
+  "pronuncia": {
+    "Single-Leg Toes-to-Bar": "Single leg tous tu bar",
+    "toes to bar": "tous tu bar",
+    "single-leg": "single leg",
+    "ttb": "ti ti bi",
+    "kip": "kip",
+    "knees to chest": "nis tu chest"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · HABILIDAD",
+      "head": [
+        "SINGLE-LEG",
+        "TTB"
+      ],
+      "vo": "Single-Leg Toes-to-Bar: una pierna toca la barra, la otra queda colgando. Core, agarre y control del balanceo.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "KNEES_1",
+          "at": 0.9,
+          "dur": 0.5
+        },
+        {
+          "to": "TTB_1",
+          "at": 1.4,
+          "dur": 0.5
+        },
+        {
+          "to": "HANG",
+          "at": 2.6,
+          "dur": 0.6
+        },
+        {
+          "to": "KNEES_1",
+          "at": 3.3,
+          "dur": 0.5
+        },
+        {
+          "to": "TTB_2",
+          "at": 3.8,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "COLGADO",
+        "ACTIVO"
+      ],
+      "sub": "Brazos estirados",
+      "vo": "Colgate con las manos al ancho de los hombros, brazos estirados y las escápulas activas.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "HANG.S",
+            "dx": -30,
+            "dy": -300
+          },
+          "text": "HOMBROS ACTIVOS",
+          "anchor": "middle",
+          "at": 1.2,
+          "out": 4.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "UNA PIERNA",
+        "COLGANDO"
+      ],
+      "sub": "La otra trabaja",
+      "vo": "Paso uno. Elegí una pierna: esa va a subir. La otra queda estirada y colgando, activa para el equilibrio.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "HOLLOW",
+          "at": 0.6,
+          "dur": 0.5
+        },
+        {
+          "to": "ARCH",
+          "at": 1.2,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "SUBÍ LA",
+        "RODILLA"
+      ],
+      "sub": "Sin balanceo",
+      "vo": "Paso dos. Subí la rodilla de la pierna que trabaja, sin balanceo: el impulso sale del abdomen.",
+      "moves": [
+        {
+          "cut": "ARCH",
+          "at": 0
+        },
+        {
+          "to": "HOLLOW",
+          "at": 0.4,
+          "dur": 0.5
+        },
+        {
+          "to": "KNEES_1",
+          "at": 1.0,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "KNEES_1.K",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 58,
+          "at": 1.3
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "TOCÁ LA",
+        "BARRA"
+      ],
+      "sub": "Pie extendido",
+      "vo": "Paso tres. Estirá la pierna y tocá la barra con el pie. La otra pierna no se mueve, queda colgando.",
+      "moves": [
+        {
+          "cut": "KNEES_1",
+          "at": 0
+        },
+        {
+          "to": "TTB_1",
+          "at": 0.5,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "TTB_1.W",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 56,
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "BAJÁ Y",
+        "CAMBIÁ"
+      ],
+      "sub": "Alterná el lado",
+      "vo": "Paso cuatro. Bajá controlando y cambiá de pierna en la próxima repetición, sin cortar el ritmo.",
+      "moves": [
+        {
+          "cut": "TTB_1",
+          "at": 0
+        },
+        {
+          "to": "HANG",
+          "at": 0.6,
+          "dur": 0.7
+        },
+        {
+          "to": "SWAY_BAD",
+          "at": 1.6,
+          "dur": 0.5
+        },
+        {
+          "to": "HANG",
+          "at": 3.4,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "SWAY_BAD.H",
+            "dx": -40,
+            "dy": -330
+          },
+          "text": "ASÍ NO: COLUMPIARSE",
+          "anchor": "middle",
+          "at": 1.7,
+          "out": 3.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.6,
+      "keys": [
+        "Core comprimido",
+        "Sin balanceo excesivo",
+        "Pierna extendida al tocar",
+        "Alterná el lado"
+      ],
+      "vo": "Claves: core comprimido, sin balanceo, pierna extendida al tocar la barra y alterná el lado.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "12 REPS"
+      ],
+      "sub": "6 por lado",
+      "vo": "Doce repeticiones, seis por lado. Si se te desarma el balanceo, bajá el ritmo y volvé al control.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.4
+        },
+        {
+          "label": "2 · TOCÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · CAMBIÁ",
+          "at": 1.8
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "HANG",
+              0.4
+            ],
+            [
+              "KNEES_1",
+              0.5
+            ],
+            [
+              "TTB_1",
+              0.5
+            ],
+            [
+              "HANG",
+              0.5
+            ],
+            [
+              "KNEES_1",
+              0.5
+            ],
+            [
+              "TTB_2",
+              0.5
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "TTB_1",
+    "grip": 1,
+    "zoom": 1.0,
+    "dy": 160
+  },
+  "youtube": {
+    "titulo": "Single-Leg Toes to Bar 🔥 Una pierna a la barra con control | CrossFit",
+    "tags": [
+      "single-leg toes to bar",
+      "toes to bar",
+      "toes to bar una pierna",
+      "rodillas a la barra",
+      "core colgado",
+      "gimnásticos",
+      "crossfit",
+      "abdomen",
+      "agarre",
+      "dorsales",
+      "habilidad",
+      "barra de dominadas"
+    ],
+    "descripcion": "🔥 SINGLE-LEG TOES-TO-BAR — Una pierna a la barra\n\n¿El toes to bar te desarma el balanceo? Hacerlo con una pierna te obliga a controlar el core y el agarre de verdad. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Colgate con las manos al ancho de los hombros, brazos estirados y escápulas activas.\n2️⃣ Elegí una pierna: esa va a subir. La otra queda estirada y colgando.\n3️⃣ Subí la rodilla de la pierna que trabaja, sin balanceo: el impulso sale del abdomen.\n4️⃣ Estirá la pierna y tocá la barra con el pie.\n5️⃣ Bajá controlando y cambiá de pierna en la próxima repetición.\n\n✅ CLAVES DE TÉCNICA\n• Core comprimido durante todo el recorrido\n• Sin balanceo excesivo\n• Pierna extendida al tocar la barra\n• La pierna libre queda activa\n• Alterná el lado sin cortar el ritmo\n\n🎯 QUÉ TRABAJA\nCore y abdominales · Antebrazos (agarre) · Dorsales\n\n⏱️ CUÁNTO\n12 repeticiones (6 por lado). Habilidad y core, antes o después del WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi todavía no llegás a la barra, escalá con knees to chest de una pierna. Si nunca hiciste colgados, empezá con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Core #ToesToBar #Gimnasia #Entrenamiento"
+  }
+}

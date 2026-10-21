@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "roup climb: subir la cuerda hasta el tope con brazos, espalda y piernas. Técnica antes que velocidad."
+    },
+    {
+      "id": "02",
+      "text": "Parate al lado de la cuerda, con el pie bien cerca del extremo y las dos manos en la cuerda."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Saltá y agarrá la cuerda bien alto, con las manos firmes. La fuerza inicial la da el salto."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Tirá con los brazos y subí las manos mientras cerrás las piernas y enganchás la cuerda."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Trabá la cuerda con un pie y parate sobre ella. Ahí mandan las piernas y los brazos descansan."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Repetí subir manos, trabar el pie y pararse, hasta tocar el tope de la cuerda."
+    },
+    {
+      "id": "07",
+      "text": "Claves: agarre alto, tirar con los brazos, trabar la cuerda con el pie y alternar piernas y brazos."
+    },
+    {
+      "id": "08",
+      "text": "Subí la cuerda completa hasta el tope y bajá controlado, sin dejarte caer. Una subida por vez."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

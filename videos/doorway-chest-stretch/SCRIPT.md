@@ -27,7 +27,7 @@
 
 ## Line 6 — CLAVES (Frame 6)
 
-    Claves: el codo a la altura del hombro, el hombro relajado sin encoger, alejá el cuerpo sin caer el tronco hacia adelante y respirá aguantando el estiramiento sin rebotar.
+    Claves: el codo a la altura del hombro, el hombro relajado, alejá el cuerpo sin caer el tronco y respirá sin rebotar.
 
 ## Line 7 — A ENTRENAR (Frame 7)
 

@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Yoga push ap: perro boca abajo, flexión y perro boca arriba, en una sola secuencia fluida."
+      "en": "Yoga Push-Up",
+      "text": "Perro boca abajo, flexión y perro boca arriba, en una sola secuencia fluida."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

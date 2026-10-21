@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Kétol bel, gud mórnin: bisagra de cadera con la pesa al pecho. Activa glúteos, isquios y espalda."
+      "en": "Kettlebell Good Morning",
+      "text": "Bisagra de cadera con la pesa al pecho. Activa glúteos, isquios y espalda."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Barbell push pres: un dip corto y las piernas lanzan la barra. Los brazos solo terminan el trabajo arriba."
+      "en": "Barbell Push Press",
+      "text": "Un dip corto y las piernas lanzan la barra. Los brazos solo terminan el trabajo arriba."
     },
     {
       "id": "02",
@@ -30,7 +31,7 @@
     },
     {
       "id": "07",
-      "text": "Claves: dip corto y vertical, las piernas primero y los brazos después, la cabeza va atrás para dejar pasar la barra y adelante al bloquear, y el abdomen firme sin arquear la espalda."
+      "text": "Claves: dip corto y vertical, piernas primero y brazos después, la cabeza atrás para dejar pasar la barra y abdomen firme sin arquear."
     },
     {
       "id": "08",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

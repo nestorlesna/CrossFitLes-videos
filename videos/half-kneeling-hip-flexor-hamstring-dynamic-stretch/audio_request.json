@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Media rodilla: adelante estirás el flexor de cadera, atrás el isquiotibial. Dos estiramientos en un movimiento."
+    },
+    {
+      "id": "02",
+      "text": "Arrodillate a media rodilla, la de atrás apoyada en el piso y la de adelante a noventa grados."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Llevá la cadera hacia adelante sin arquear la lumbar: ahí estira el flexor de la pierna de atrás."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Sentate hacia atrás extendiendo la pierna de adelante, con la punta del pie hacia arriba y la espalda recta."
+    },
+    {
+      "id": "05",
+      "text": "Así no: si redondeás la espalda para llegar más lejos, no estirás el isquiotibial, lo compensás con la columna."
+    },
+    {
+      "id": "06",
+      "text": "Claves: tronco erguido, cadera adelante sin arquear, punta arriba, sin rebotes y cambiar de lado."
+    },
+    {
+      "id": "07",
+      "text": "Treinta segundos por lado alternando las dos posiciones, dos rondas. Movimiento lento, sin tirones."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

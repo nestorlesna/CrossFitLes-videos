@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "supáin figure four strech: boca arriba, cruzás un tobillo sobre la rodilla contraria y traés la pierna al pecho. Ideal para soltar glúteos y cadera."
+      "en": "Supine figure four stretch",
+      "text": "Boca arriba, cruzás un tobillo sobre la rodilla contraria y traés la pierna al pecho. Ideal para soltar glúteos y cadera."
     },
     {
       "id": "02",
@@ -22,11 +23,11 @@
     },
     {
       "id": "05",
-      "text": "Paso tres. Si levantás la cabeza haciendo fuerza con el cuello, o tirás de la pierna de golpe despegando la espalda del piso, no estirás mejor: cargás el cuello y la lumbar. Evitalo."
+      "text": "Paso tres. Si levantás la cabeza o tirás de golpe despegando la espalda del piso, no estirás mejor: cargás el cuello y la lumbar. Evitalo."
     },
     {
       "id": "06",
-      "text": "Claves: la cabeza y la espalda apoyadas, con el cuello suelto; el tobillo bien cruzado sobre la rodilla; la tracción suave y sostenida, sin rebotes; y respirá soltando con cada exhalación."
+      "text": "Claves: cabeza y espalda apoyadas con el cuello suelto, el tobillo bien cruzado sobre la rodilla, tracción suave sin rebotes, y soltá al exhalar."
     },
     {
       "id": "07",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

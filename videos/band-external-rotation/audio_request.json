@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Band extérnal roteishon: rotación externa del hombro con banda. Salud para el manguito rotador."
+      "en": "Band External Rotation",
+      "text": "Rotación externa del hombro con banda. Salud para el manguito rotador."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

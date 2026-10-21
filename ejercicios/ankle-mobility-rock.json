@@ -1,0 +1,381 @@
+{
+  "name": "Ankle Mobility Rock",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Tobillo",
+    "Gemelos",
+    "Movilidad"
+  ],
+  "descripcion": "Medio arrodillado: se lleva la rodilla de adelante sobre la punta del pie y se vuelve, sin despegar el talón. Gana dorsiflexión de tobillo.",
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 520,
+    "y": 1501,
+    "scale": 0.9
+  },
+  "floorScroll": 0,
+  "props": [],
+  "initialPose": "SETUP",
+  "poses": {
+    "SETUP": {
+      "rx": 250,
+      "ry": -0.5,
+      "s": 2.32,
+      "t": -94.38,
+      "s2": 96,
+      "t2": 18.19,
+      "ft": 0,
+      "ft2": 0,
+      "b": 3,
+      "hd": 0,
+      "g": 0,
+      "ua": 24,
+      "fa": 42,
+      "ua2": 20,
+      "fa2": 46
+    },
+    "PUSH": {
+      "rx": 250,
+      "ry": -0.5,
+      "s": 21.5,
+      "t": -94.42,
+      "s2": 96,
+      "t2": 27.95,
+      "ft": 0,
+      "ft2": 0,
+      "b": 8,
+      "hd": -2,
+      "g": 0,
+      "ua": 24,
+      "fa": 42,
+      "ua2": 20,
+      "fa2": 46
+    },
+    "HOLD": {
+      "rx": 250,
+      "ry": -0.5,
+      "s": 14.89,
+      "t": -94.97,
+      "s2": 96,
+      "t2": 24.72,
+      "ft": 0,
+      "ft2": 0,
+      "b": 6,
+      "hd": -1,
+      "g": 0,
+      "ua": 24,
+      "fa": 42,
+      "ua2": 20,
+      "fa2": 46
+    },
+    "TORSO_BAD": {
+      "rx": 250,
+      "ry": -0.5,
+      "s": 2.32,
+      "t": -94.38,
+      "s2": 96,
+      "t2": 18.19,
+      "ft": 0,
+      "ft2": 0,
+      "b": 30,
+      "hd": 26,
+      "g": 0,
+      "ua": 30,
+      "fa": 50,
+      "ua2": 26,
+      "fa2": 54
+    }
+  },
+  "slug": "ankle-mobility-rock",
+  "revisado": false,
+  "pronuncia": {
+    "Ankle Mobility Rock": "ánkel moubíliti rok",
+    "Ankle": "ánkel",
+    "Mobility": "moubíliti",
+    "Rock": "rok"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "MOVILIDAD · TOBILLO",
+      "head": [
+        "ANKLE",
+        "MOBILITY ROCK"
+      ],
+      "vo": "Ankle Mobility Rock: la rodilla va para adelante y el talón no se despega. Sin eso, el tobillo no se mueve.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "PUSH",
+              0.9
+            ],
+            [
+              "SETUP",
+              0.8
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "MEDIA",
+        "ARRODILLADA"
+      ],
+      "sub": "Manos en la cadera",
+      "vo": "Arrodillate a media rodilla: una rodilla en el piso, la otra pierna adelante y el pie bien apoyado.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            110,
+            1080
+          ],
+          "text": "RODILLA AL PISO",
+          "anchor": "start",
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            110,
+            1250
+          ],
+          "text": "PIE FIRME",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "RODILLA",
+        "ADELANTE"
+      ],
+      "sub": "Sobre los dedos del pie",
+      "vo": "Paso uno. Llevá la rodilla de adelante hacia el pie, despacio, sin levantar el talón ni rebotar.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "PUSH",
+          "at": 0.9,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "PUSH.A",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 42,
+          "at": 0.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            110,
+            1400
+          ],
+          "text": "TALÓN PEGADO",
+          "anchor": "start",
+          "at": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "VOLVÉ",
+        "ATRÁS"
+      ],
+      "sub": "Mismo ritmo, sin soltar",
+      "vo": "Paso dos. Volvé atrás al mismo ritmo, sin despegar el talón y sin dejar caer el peso de golpe.",
+      "moves": [
+        {
+          "cut": "PUSH",
+          "at": 0
+        },
+        {
+          "to": "SETUP",
+          "at": 0.8,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "SETUP.A",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 42,
+          "at": 0.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            110,
+            1400
+          ],
+          "text": "TALÓN APOYADO",
+          "anchor": "start",
+          "at": 0.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO:",
+        "TE VENCÉS"
+      ],
+      "sub": "El talón se despega",
+      "vo": "Así no: si el torso se va adelante o el talón se despega, no movés el tobillo, te estás cayendo.",
+      "moves": [
+        {
+          "cut": "PUSH",
+          "at": 0
+        },
+        {
+          "to": "TORSO_BAD",
+          "at": 1.1,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "TORSO_BAD.S",
+            "dx": -150,
+            "dy": -40
+          },
+          "text": "TORSO CAÍDO",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Talón siempre apoyado",
+        "Rodilla hacia el pie",
+        "Torso erguido",
+        "Sin rebotes",
+        "Cambiar de lado"
+      ],
+      "vo": "Claves: talón apoyado, rodilla hacia el pie, torso erguido, sin rebotes y cambiar de lado.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "PUSH",
+              0.9
+            ],
+            [
+              "SETUP",
+              0.9
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.4,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30",
+        "SEGUNDOS"
+      ],
+      "sub": "Por lado, sin rebotes",
+      "vo": "Treinta segundos por lado, dos rondas. Si el talón se despega, achicá el rango: no lo fuerces.",
+      "chips": [
+        {
+          "label": "1 — ADELANTE",
+          "at": 0.4
+        },
+        {
+          "label": "2 — ATRÁS",
+          "at": 1.0
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "PUSH",
+              1.0
+            ],
+            [
+              "SETUP",
+              1.0
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "PUSH",
+    "grip": 0,
+    "zoom": 1.7,
+    "dy": 195
+  },
+  "youtube": {
+    "titulo": "Ankle Mobility Rock 🎯 Movilidad de tobillo en media rodilla (sin levantar el talón)",
+    "tags": [
+      "ankle mobility",
+      "movilidad de tobillo",
+      "ankle mobility rock",
+      "tobillo",
+      "dorsiflexion",
+      "movilidad",
+      "entrada en calor",
+      "gemelos",
+      "sentadilla profunda",
+      "crossfit",
+      "wod",
+      "técnica"
+    ],
+    "descripcion": "🔥 ANKLE MOBILITY ROCK — Movilidad de tobillo\n\nSi en la sentadilla se te levantan los talones, el problema no son las piernas: es el tobillo. Mirá cómo se destraba. 💪\n\n📋 PASO A PASO\n1️⃣ Arrodillate a media rodilla con el pie de adelante bien apoyado.\n2️⃣ Llevá la rodilla hacia adelante por encima de los dedos del pie.\n3️⃣ Volvé atrás al mismo ritmo, sin despegar el talón.\n4️⃣ Mantené el torso erguido y el movimiento controlado.\n5️⃣ Cambiá de pierna al terminar el tiempo.\n\n✅ CLAVES DE TÉCNICA\n• Talón siempre apoyado\n• Rodilla hacia el pie\n• Torso erguido\n• Sin rebotes\n• Cambiar de lado\n\n🎯 QUÉ TRABAJA\nDorsiflexión del tobillo · Gastrocnemio · Sóleo · Recto femoral\n\n⏱️ CUÁNTO\n30 segundos por lado, 2 rondas antes de entrenar.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi no llegás a la posición de media rodilla, apoyate en un cajón: el objetivo es el tobillo, no la rodilla.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Movilidad #Tobillo #AnkleMobility #CrossFit #WOD #EntradaEnCalor #Técnica"
+  }
+}

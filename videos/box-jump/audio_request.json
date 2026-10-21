@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Box champ: salto con los dos pies arriba del cajón. Potencia de piernas en estado puro."
+      "en": "Box Jump",
+      "text": "Salto con los dos pies arriba del cajón. Potencia de piernas en estado puro."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

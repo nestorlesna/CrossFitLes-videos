@@ -353,15 +353,59 @@
     }
     if (pr.type === "wall") {
       // Pared fija (escenario) en x, de alto h.
-      const wx = pr.x ?? 420, h = pr.h ?? 1500;
-      el("rect", { x: wx, y: 34 - h, width: 60, height: h, fill: "#D9D2C5" }, propStatic);
+      const wx = pr.x ?? 420, h = pr.h ?? 1500, w = pr.w ?? 60;
+      el("rect", { x: wx, y: 34 - h, width: w, height: h, fill: "#D9D2C5" }, propStatic);
     }
     if (pr.type === "box") {
       // Cajón de salto de madera visto de costado, de x0 a x1 y alto h (piso en y = 34).
       const x0 = pr.x0 ?? -180, x1 = pr.x1 ?? 180, h = pr.h ?? 300, y0 = 34 - h;
       el("rect", { x: x0, y: y0, width: x1 - x0, height: h, rx: 10, fill: "#C9975B" }, propStatic);
-      el("rect", { x: x0 + 18, y: y0 + 18, width: x1 - x0 - 36, height: h - 36, rx: 6, fill: "none", stroke: "#A97A43", "stroke-width": 8 }, propStatic);
-      el("rect", { x: (x0 + x1) / 2 - 50, y: y0 + 46, width: 100, height: 30, rx: 15, fill: "#7E5A30" }, propStatic);
+      // Marco y manija solo si el cajón tiene alto: con h chico (plataforma de déficit) el alto interno daría negativo.
+      if (h > 44) el("rect", { x: x0 + 18, y: y0 + 18, width: x1 - x0 - 36, height: h - 36, rx: 6, fill: "none", stroke: "#A97A43", "stroke-width": 8 }, propStatic);
+      if (h > 90) el("rect", { x: (x0 + x1) / 2 - 50, y: y0 + 46, width: 100, height: 30, rx: 15, fill: "#7E5A30" }, propStatic);
+    }
+    if (pr.type === "plate") {
+      // Disco parado de canto apoyado en el piso (saltar por encima, apoyo). x en px rig; por defecto la base toca y = 34.
+      // layer "back" lo dibuja detras del atleta. Con `hand` el disco viaja con la mano (peso al pecho: off [dx,dy]).
+      const r = pr.r || 100;
+      if (pr.hand) {
+        const farP = pr.hand === "far", g = el("g", {}, farP ? propBack : propMid);
+        el("circle", { r, fill: PLATE_D }, g);
+        el("circle", { r: r * 0.72, fill: "none", stroke: "#4A4D53", "stroke-width": 7 }, g);
+        el("circle", { r: r * 0.26, fill: PLATE_L }, g);
+        el("circle", { r: r * 0.1, fill: "#3A3C41" }, g);
+        const off = pr.off || [0, 0];
+        propUpdates.push((n, f) => {
+          const w = (farP ? f : n).W;
+          g.setAttribute("transform", `translate(${f2(w.x + off[0])},${f2(w.y + off[1])})`);
+        });
+      } else {
+        const cx = pr.x ?? 0, cy = pr.y ?? 34 - r;
+        const g = el("g", {}, pr.layer === "back" ? propBack : propMid);
+        el("circle", { cx, cy, r, fill: PLATE }, g);
+        el("circle", { cx, cy, r: r * 0.72, fill: "none", stroke: PLATE_D, "stroke-width": 7 }, g);
+        el("circle", { cx, cy, r: r * 0.26, fill: PLATE_L }, g);
+        el("circle", { cx, cy, r: r * 0.1, fill: "#3A3C41" }, g);
+      }
+    }
+    if (pr.type === "bench") {
+      // Banco plano de costado: colchoneta de x0 a x1 a la altura h (piso en y = 34) con dos patas y caño central.
+      const x0 = pr.x0 ?? -230, x1 = pr.x1 ?? 250, h = pr.h ?? 250, y0 = 34 - h;
+      const g = el("g", {}, propStatic);
+      el("rect", { x: x0, y: y0, width: x1 - x0, height: 46, rx: 12, fill: "#3E4A5A" }, g);
+      el("rect", { x: x0 + 10, y: y0 + 6, width: x1 - x0 - 20, height: 10, rx: 5, fill: "#55637A" }, g);
+      el("rect", { x: x0 + 40, y: y0 + 46, width: 22, height: -y0, fill: "#2B2B2B" }, g);
+      el("rect", { x: x1 - 62, y: y0 + 46, width: 22, height: -y0, fill: "#2B2B2B" }, g);
+      el("rect", { x: x0 + 40, y: 34 - 20, width: x1 - x0 - 40, height: 20, rx: 6, fill: "#2B2B2B" }, g);
+    }
+    if (pr.type === "rope") {
+      // Cuerda fija que cuelga (trepar): x en px rig, de `top` a `bottom`; por delante del torso, debajo del brazo cercano.
+      const rx0 = pr.x ?? 0, top = pr.top ?? -2400, bot = pr.bottom ?? 34, w = pr.w ?? 18;
+      const g = el("g", { class: "prop-scenery" }, propMid);
+      el("rect", { x: rx0 - w / 2, y: top, width: w, height: bot - top, fill: "#C9A46A" }, g);
+      for (let y = top + 30; y < bot - 20; y += 58)
+        el("line", { x1: rx0 - w / 2 + 1, y1: y, x2: rx0 + w / 2 - 1, y2: y + 22, stroke: "#AD8646", "stroke-width": 5, "stroke-linecap": "round" }, g);
+      el("rect", { x: rx0 - w * 0.9, y: bot - 24, width: w * 1.8, height: 24, rx: 6, fill: "#AD8646" }, g);
     }
     if (pr.type === "wallball") {
       const off = pr.off || [0, 0], r = pr.r || 62, wx = pr.wallX ?? 520, ty = pr.target ?? -1300;

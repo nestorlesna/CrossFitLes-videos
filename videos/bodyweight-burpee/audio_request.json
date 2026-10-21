@@ -1,0 +1,43 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Burpee: del piso al salto en un solo movimiento. El ejercicio que te sube las pulsaciones en diez segundos."
+    },
+    {
+      "id": "02",
+      "text": "Arrancá de pie, con los pies al ancho de la cadera y los brazos sueltos al costado."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Flexioná las rodillas y apoyá las manos en el piso, delante de los pies."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Llevá los pies atrás a la plancha y bajá hasta que el pecho y los muslos toquen el piso."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Empujá para subir y traé los pies bien cerca de las manos, en un solo salto."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Parate y saltá con extensión completa de cadera, con un aplauso arriba de la cabeza."
+    },
+    {
+      "id": "07",
+      "text": "Claves: pecho y muslos al piso, pies cerca de las manos, extensión completa y ritmo constante."
+    },
+    {
+      "id": "08",
+      "text": "Cinco repeticiones. Si recién arrancás, hacelo sin salto y sumá velocidad de a poco."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

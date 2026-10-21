@@ -7,7 +7,7 @@
 
 ## Line 1 — CROSSFIT · WOD (Frame 1)
 
-    Sumo Deadlift High Pull: barra al piso, pies anchos y tirón explosivo hasta la barbilla. Potencia pura.
+    Barbell Sumo Deadlift High Pull: barra al piso, pies anchos y tirón explosivo hasta la barbilla. Potencia pura.
 
 ## Line 2 — POSICIÓN INICIAL (Frame 2)
 

@@ -1,0 +1,458 @@
+{
+  "name": "Deficit Banded Deadlift",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Cadena posterior",
+    "Glúteos",
+    "Espalda"
+  ],
+  "descripcion": "Peso muerto parado sobre una plataforma o discos (déficit) y con bandas elásticas enganchadas a la barra, que sumen resistencia hacia el final del recorrido.",
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.88
+  },
+  "props": [
+    {
+      "type": "box",
+      "x0": -220,
+      "x1": 90,
+      "h": 28
+    },
+    {
+      "type": "band",
+      "anchor": [
+        -70,
+        6
+      ],
+      "hand": "both"
+    },
+    {
+      "type": "barbell",
+      "r": 96
+    }
+  ],
+  "initialPose": "SETUP",
+  "poses": {
+    "STAND": {
+      "hip": [
+        0,
+        -498
+      ],
+      "ankle": [
+        0,
+        -28
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 6,
+      "fa": 6
+    },
+    "SETUP": {
+      "g": 1,
+      "ed": 1,
+      "hx": 30,
+      "hip": [
+        -150,
+        -313
+      ],
+      "ankle": [
+        0,
+        -28
+      ],
+      "b": 78,
+      "hd": 58,
+      "hy": -62
+    },
+    "KNEE": {
+      "g": 1,
+      "ed": 1,
+      "hx": 30,
+      "hip": [
+        -176.6,
+        -394.8
+      ],
+      "ankle": [
+        0,
+        -28
+      ],
+      "b": 52,
+      "hd": 40,
+      "hy": -242
+    },
+    "THIGH": {
+      "g": 1,
+      "ed": 1,
+      "hx": 30,
+      "hip": [
+        -82,
+        -483.5
+      ],
+      "ankle": [
+        0,
+        -28
+      ],
+      "b": 30,
+      "hd": 22,
+      "hy": -402
+    },
+    "LOCK": {
+      "g": 1,
+      "ed": 1,
+      "hx": 30,
+      "hip": [
+        0,
+        -498
+      ],
+      "ankle": [
+        0,
+        -28
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "hy": -452
+    },
+    "BAD_BACK": {
+      "g": 1,
+      "ed": 1,
+      "hx": 30,
+      "hip": [
+        -150,
+        -313
+      ],
+      "ankle": [
+        0,
+        -28
+      ],
+      "b": 86,
+      "hd": 84,
+      "cv": 40,
+      "hy": -62
+    }
+  },
+  "slug": "deficit-banded-deadlift",
+  "revisado": false,
+  "pronuncia": {
+    "Deficit Banded Deadlift": "Déficit banded dedlift",
+    "deadlift": "dedlift",
+    "déficit": "déficit",
+    "banded": "banded",
+    "cadena posterior": "cadena posterior"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "DEFICIT",
+        "BANDED DL"
+      ],
+      "vo": "Deficit banded deadlift: peso muerto desde una plataforma baja y con banda, para ganar fuerza en el arranque.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "KNEE",
+          "at": 0.9,
+          "dur": 0.7
+        },
+        {
+          "to": "LOCK",
+          "at": 1.7,
+          "dur": 0.7
+        },
+        {
+          "to": "KNEE",
+          "at": 2.9,
+          "dur": 0.6
+        },
+        {
+          "to": "SETUP",
+          "at": 3.6,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PIES EN",
+        "PLATAFORMA"
+      ],
+      "sub": "Barra pegada a las tibias",
+      "vo": "Parate sobre la plataforma con la barra sobre el medio del pie y las tibias casi tocándola.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            1180
+          ],
+          "text": "DÉFICIT CHICO",
+          "anchor": "start",
+          "at": 1.1,
+          "out": 4.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "TENSÁ",
+        "EL CUERPO"
+      ],
+      "sub": "Banda y barra cargadas",
+      "vo": "Paso uno. Tensá la banda y la barra antes de tirar: brazos estirados, pecho arriba y espalda neutra.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            110,
+            800
+          ],
+          "text": "ESPALDA NEUTRA",
+          "anchor": "start",
+          "at": 1.2,
+          "out": 4.4
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "EMPUJÁ",
+        "EL PISO"
+      ],
+      "sub": "Cadera y hombros juntos",
+      "vo": "Paso dos. Empujá el piso con los pies: cadera y hombros suben juntos y la barra sube pegada.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "KNEE",
+          "at": 0.6,
+          "dur": 1.0
+        },
+        {
+          "to": "THIGH",
+          "at": 1.7,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Espalda redonda",
+      "vo": "Paso tres. Si arrancás con la espalda redonda, el déficit se vuelve lesión. Pecho arriba y espalda neutra.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "BAD_BACK",
+          "at": 1.0,
+          "dur": 0.6
+        },
+        {
+          "to": "SETUP",
+          "at": 3.4,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "BAD_BACK.H",
+            "dx": -60,
+            "dy": -300
+          },
+          "text": "ASÍ NO: REDONDA",
+          "anchor": "end",
+          "at": 1.2,
+          "out": 3.3
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "BLOQUEÁ",
+        "SIN ARQUEAR"
+      ],
+      "sub": "Glúteo, no lumbar",
+      "vo": "Paso cuatro. Arriba bloqueá con el glúteo y quedate derecho, sin arquear la lumbar: la banda tira al final.",
+      "moves": [
+        {
+          "cut": "KNEE",
+          "at": 0
+        },
+        {
+          "to": "THIGH",
+          "at": 0.4,
+          "dur": 0.7
+        },
+        {
+          "to": "LOCK",
+          "at": 1.1,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "LOCK.H",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 60,
+          "at": 1.3
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.64,
+      "keys": [
+        "Déficit chico",
+        "Barra pegada a las tibias",
+        "Tensá antes de tirar",
+        "Bloqueá con el glúteo"
+      ],
+      "vo": "Claves: déficit chico, barra pegada, tensá antes de tirar y bloqueá con el glúteo, sin arquear.",
+      "moves": [
+        {
+          "cut": "THIGH",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "8 REPS @ 60 KG"
+      ],
+      "sub": "Apoyá en cada rep",
+      "vo": "Ocho repeticiones apoyando la barra en cada una. Si la banda te gana, bajá el peso o sacala.",
+      "chips": [
+        {
+          "label": "1 · TENSÁ",
+          "at": 0.4
+        },
+        {
+          "label": "2 · TIRÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.8
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "SETUP",
+              0.6
+            ],
+            [
+              "KNEE",
+              0.6
+            ],
+            [
+              "THIGH",
+              0.5
+            ],
+            [
+              "LOCK",
+              0.6
+            ],
+            [
+              "THIGH",
+              0.5
+            ],
+            [
+              "KNEE",
+              0.6
+            ],
+            [
+              "SETUP",
+              0.6
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "KNEE",
+    "grip": 1,
+    "zoom": 1.15,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Deficit Banded Deadlift 🔥 Peso muerto con déficit y banda para más fuerza | CrossFit",
+    "tags": [
+      "deficit banded deadlift",
+      "peso muerto con déficit",
+      "deadlift con banda",
+      "peso muerto",
+      "deadlift",
+      "banda elástica",
+      "fuerza",
+      "cadena posterior",
+      "crossfit",
+      "glúteos",
+      "espalda",
+      "tirón"
+    ],
+    "descripcion": "🔥 DEFICIT BANDED DEADLIFT — Peso muerto con déficit y banda\n\n¿Te trabás en el arranque del peso muerto? Sacar la barra del piso con déficit y banda te obliga a pelear el primer centímetro. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate sobre la plataforma (o discos) con la barra sobre el medio del pie y las tibias casi tocándola.\n2️⃣ Tensá la banda y la barra antes de tirar: brazos estirados, pecho arriba y espalda neutra.\n3️⃣ Empujá el piso: cadera y hombros suben juntos y la barra sube pegada al cuerpo.\n4️⃣ Bloqueá con el glúteo y quedate derecho, sin arquear la lumbar.\n5️⃣ Bajá por el mismo camino, controlando la banda, hasta apoyar la barra.\n\n✅ CLAVES DE TÉCNICA\n• Déficit chico (2 a 4 cm)\n• Barra pegada a las tibias\n• Tensá el cuerpo antes de tirar\n• Espalda neutra siempre\n• Bloqueá con el glúteo, no con la lumbar\n\n🎯 QUÉ TRABAJA\nGlúteo mayor · Bíceps femoral · Dorsal ancho · Erectores espinales · Flexores del antebrazo · Recto femoral · Semitendinoso\n\n⏱️ CUÁNTO\n8 repeticiones @ 60 kg. Trabajo de fuerza o como parte de un WOD de peso muerto.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste peso muerto con déficit, empezá con una plataforma bien baja (2 a 4 cm) y con un coach al lado. La banda suma tensión arriba: no hace falta mucho peso.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Fuerza #Deadlift #PesoMuerto #Entrenamiento"
+  }
+}

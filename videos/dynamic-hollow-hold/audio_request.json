@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Dainámic jólou jold: el jólou con disco y pequeños movimientos de brazos y piernas. Core de acero."
+      "en": "Dynamic Hollow Hold",
+      "text": "El jólou con disco y pequeños movimientos de brazos y piernas. Core de acero."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

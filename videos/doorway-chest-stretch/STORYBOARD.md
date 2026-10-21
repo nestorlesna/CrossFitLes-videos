@@ -45,7 +45,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 8.2s
-- voiceover: "Claves: el codo a la altura del hombro, el hombro relajado sin encoger, alejá el cuerpo sin caer el tronco hacia adelante y respirá aguantando el estiramiento sin rebotar."
+- voiceover: "Claves: el codo a la altura del hombro, el hombro relajado, alejá el cuerpo sin caer el tronco y respirá sin rebotar."
 - poses: —
 
 ## Frame 7 — A ENTRENAR 30 SEG POR LADO

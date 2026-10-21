@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Cósac scuat: la sentadilla cosaca. Bajás hacia un lado con la otra pierna estirada. Movilidad de cadera y tobillo."
+      "en": "Cossack Squat",
+      "text": "La sentadilla cosaca. Bajás hacia un lado con la otra pierna estirada. Movilidad de cadera y tobillo."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

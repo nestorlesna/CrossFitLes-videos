@@ -1,0 +1,422 @@
+{
+  "name": "Hamstring Stretch",
+  "category": "VUELTA A LA CALMA",
+  "tags": [
+    "Isquios",
+    "Movilidad",
+    "Piernas"
+  ],
+  "descripcion": "Talón apoyado adelante en un escalón bajo, pierna estirada: se inclina el tronco desde la cadera con la espalda larga.",
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.15,
+  "rig": {
+    "x": 520,
+    "y": 1500,
+    "scale": 0.8
+  },
+  "floorScroll": 0,
+  "props": [
+    {
+      "type": "box",
+      "x0": 250,
+      "x1": 470,
+      "h": 130
+    }
+  ],
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 2,
+      "ua2": 2,
+      "fa2": 0
+    },
+    "HINGE": {
+      "rx": 324,
+      "ry": -130,
+      "s": -46.3,
+      "t": -41,
+      "ft": -20,
+      "s2": 0,
+      "t2": 0,
+      "ft2": 0,
+      "b": 58,
+      "hd": 54,
+      "g": 0,
+      "ua": 36,
+      "fa": 6,
+      "ua2": 40,
+      "fa2": 4
+    },
+    "HOLD": {
+      "rx": 324,
+      "ry": -130,
+      "s": -46.3,
+      "t": -41,
+      "ft": -20,
+      "s2": 0,
+      "t2": 0,
+      "ft2": 0,
+      "b": 74,
+      "hd": 66,
+      "g": 0,
+      "ua": 50,
+      "fa": 8,
+      "ua2": 54,
+      "fa2": 6
+    },
+    "ROUND_BAD": {
+      "rx": 324,
+      "ry": -130,
+      "s": -46.3,
+      "t": -41,
+      "ft": -20,
+      "s2": 0,
+      "t2": 0,
+      "ft2": 0,
+      "b": 58,
+      "cv": 46,
+      "hd": 86,
+      "g": 0,
+      "ua": 44,
+      "fa": 12,
+      "ua2": 48,
+      "fa2": 10
+    },
+    "NO_HINGE": {
+      "rx": 324,
+      "ry": -130,
+      "s": -46.3,
+      "t": -41,
+      "ft": -20,
+      "s2": 0,
+      "t2": 0,
+      "ft2": 0,
+      "b": 18,
+      "hd": 30,
+      "g": 0,
+      "ua": 14,
+      "fa": 8,
+      "ua2": 16,
+      "fa2": 6
+    }
+  },
+  "slug": "standing-hamstring-stretch",
+  "revisado": false,
+  "pronuncia": {
+    "Standing Hamstring Stretch": "standing jámsstring strech",
+    "Hamstring": "jámsstring"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "VUELTA A LA CALMA",
+      "head": [
+        "HAMSTRING",
+        "STRETCH"
+      ],
+      "vo": "Estiramiento de isquios de pie: la espalda se mantiene larga y todo sale de la cadera. Sin redondear ni tirar.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "STAND",
+              0.8
+            ],
+            [
+              "HINGE",
+              0.9
+            ],
+            [
+              "HOLD",
+              1.0
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "TALÓN EN",
+        "EL ESCALÓN"
+      ],
+      "sub": "Pierna estirada",
+      "vo": "Apoyá el talón adelante en un escalón bajo, con la pierna estirada y los pies mirando al frente.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "HINGE",
+          "at": 1.2,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            110,
+            780
+          ],
+          "text": "ESCALÓN BAJO",
+          "anchor": "start",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "BISAGRA",
+        "DE CADERA"
+      ],
+      "sub": "Desde la ingle",
+      "vo": "Paso uno. Inclinate desde la cadera, como si empujaras la cola atrás. El movimiento nace en la ingle.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "HINGE",
+          "at": 0.9,
+          "dur": 0.55
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "HINGE.H",
+            "dx": -170,
+            "dy": -30
+          },
+          "text": "CADERA ATRÁS",
+          "anchor": "end",
+          "at": 1.1
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "ESPALDA",
+        "LARGA"
+      ],
+      "sub": "Mirada al piso",
+      "vo": "Paso dos. Bajá hasta donde llegues con la espalda larga y el pecho apuntando al pie. Ahí aparece el estiramiento.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "to": "HOLD",
+          "at": 0.9,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            110,
+            800
+          ],
+          "text": "ESPALDA LARGA, NO REDONDA",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "ASÍ NO:",
+        "ESPALDA",
+        "REDONDA"
+      ],
+      "sub": "No gana el que baja más",
+      "vo": "Paso tres. No redondees la espalda para llegar más lejos: el estiramiento se pierde y la lumbar se carga.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0
+        },
+        {
+          "to": "ROUND_BAD",
+          "at": 0.8,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "ROUND_BAD.S",
+            "dx": -150,
+            "dy": -30
+          },
+          "text": "ASÍ NO: SE REDONDEA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "SOSTENÉ",
+        "Y RESPIRÁ"
+      ],
+      "sub": "30 segundos",
+      "vo": "Paso cuatro. Sostené treinta segundos respirando parejo. No rebotes: la tensión es suave, nunca dolor.",
+      "moves": [
+        {
+          "cut": "NO_HINGE",
+          "at": 0
+        },
+        {
+          "to": "HINGE",
+          "at": 1.3,
+          "dur": 0.6
+        },
+        {
+          "to": "HOLD",
+          "at": 2.4,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            110,
+            1120
+          ],
+          "text": "SIN REBOTES",
+          "anchor": "start",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Talón en el escalón bajo",
+        "Bisagra de cadera",
+        "Espalda larga",
+        "Rodilla sin hiperextender",
+        "Sin rebotes, 30 segundos"
+      ],
+      "vo": "Claves: talón en el escalón, bisagra de cadera, espalda larga, rodilla sin hiperextender y sin rebotes.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "HINGE",
+              0.8
+            ],
+            [
+              "HOLD",
+              0.9
+            ],
+            [
+              "HINGE",
+              0.8
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.4,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30",
+        "SEGUNDOS"
+      ],
+      "sub": "Por pierna",
+      "vo": "Treinta segundos por pierna, dos o tres rondas. Cambiá de lado despacio, sin tirones.",
+      "chips": [
+        {
+          "label": "1 · ENTRÁ",
+          "at": 0.4
+        },
+        {
+          "label": "2 · SOSTENÉ",
+          "at": 1.1
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "HINGE",
+              0.7
+            ],
+            [
+              "HOLD",
+              1.6
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "HOLD",
+    "grip": 0,
+    "zoom": 1.04,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Standing Hamstring Stretch 🔥 Estirá los isquios sin redondear la espalda",
+    "tags": [
+      "standing hamstring stretch",
+      "estiramiento de isquios",
+      "isquiotibiales",
+      "estiramiento de pie",
+      "movilidad",
+      "vuelta a la calma",
+      "espalda",
+      "bisagra de cadera",
+      "crossfit",
+      "técnica",
+      "flexibilidad",
+      "piernas"
+    ],
+    "descripcion": "🔥 STANDING HAMSTRING STRETCH — Isquios de pie\n\nRedondear la espalda no te estira más: te carga la lumbar. La clave es la bisagra de cadera y la espalda larga. 💪\n\n📋 PASO A PASO\n1️⃣ Apoyá el talón adelante en un escalón bajo, pierna estirada.\n2️⃣ Inclinate desde la cadera, empujando la cola atrás.\n3️⃣ Bajá con la espalda larga, hasta donde llegues.\n4️⃣ Sostené 30 segundos respirando parejo, sin rebotes.\n5️⃣ Cambiá de pierna despacio.\n\n✅ CLAVES DE TÉCNICA\n• Bisagra de cadera\n• Espalda larga, sin redondear\n• Rodilla sin hiperextender\n• Tensión suave, no dolor\n• Sin rebotes\n\n🎯 QUÉ TRABAJA\nIsquiotibiales · Glúteos · Gemelos · Espalda baja\n\n⏱️ CUÁNTO\n30 segundos por pierna, 2 a 3 rondas.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi no llegás al pie, no pasa nada: la espalda larga estira igual. Sumá altura en el escalón cuando ganes rango.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Movilidad #Isquios #Estiramiento #CrossFit #VueltaALaCalma #Técnica"
+  }
+}

@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Cauch strech: de rodillas contra la pared, empujás las caderas adelante y abajo. Destraba el flexor de cadera y el cuádriceps."
+      "en": "Couch Stretch",
+      "text": "De rodillas contra la pared, empujás las caderas adelante y abajo. Destraba el flexor de cadera y el cuádriceps."
     },
     {
       "id": "02",
@@ -30,7 +31,7 @@
     },
     {
       "id": "07",
-      "text": "Claves: la rodilla trasera y el empeine bien apoyados, el glúteo de atrás apretado, la pelvis neutra sin arquear la lumbar, y subí el tronco de a poco a medida que afloja."
+      "text": "Claves: rodilla y empeine de atrás bien apoyados, glúteo apretado, pelvis neutra sin arquear la lumbar y subí el tronco de a poco."
     },
     {
       "id": "08",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

@@ -1,0 +1,490 @@
+{
+  "name": "Wall Ball Run",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Cardio",
+    "Piernas",
+    "Core"
+  ],
+  "descripcion": "Correr sosteniendo un wall ball contra el pecho durante la distancia indicada, manteniendo un ritmo constante.",
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "floorScroll": 260,
+  "props": [
+    {
+      "type": "wallball",
+      "wall": false,
+      "r": 56,
+      "off": [
+        34,
+        -34
+      ]
+    }
+  ],
+  "initialPose": "RUN_A",
+  "poses": {
+    "STAND": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "hb": 1,
+      "hx": 70,
+      "hy": 150,
+      "ed": 1
+    },
+    "RUN_A": {
+      "hip": [
+        0,
+        -415
+      ],
+      "s": 12,
+      "t": -62,
+      "s2": 52,
+      "t2": 28,
+      "b": 10,
+      "hd": 4,
+      "ft": -8,
+      "ft2": 40,
+      "g": 1,
+      "hb": 1,
+      "hx": 70,
+      "hy": 150,
+      "ed": 1
+    },
+    "RUN_B": {
+      "hip": [
+        0,
+        -415
+      ],
+      "s": 52,
+      "t": 28,
+      "s2": 12,
+      "t2": -62,
+      "b": 10,
+      "hd": 4,
+      "ft": 40,
+      "ft2": -8,
+      "g": 1,
+      "hb": 1,
+      "hx": 70,
+      "hy": 150,
+      "ed": 1
+    },
+    "PASS": {
+      "hip": [
+        0,
+        -425
+      ],
+      "s": 30,
+      "t": -16,
+      "s2": 30,
+      "t2": -16,
+      "b": 10,
+      "hd": 4,
+      "ft": 20,
+      "ft2": 20,
+      "g": 1,
+      "hb": 1,
+      "hx": 70,
+      "hy": 150,
+      "ed": 1
+    },
+    "LEAN_BAD": {
+      "hip": [
+        0,
+        -420
+      ],
+      "s": 16,
+      "t": -60,
+      "s2": 60,
+      "t2": 32,
+      "b": 34,
+      "hd": 30,
+      "ft": -8,
+      "ft2": 40,
+      "g": 1,
+      "hb": 1,
+      "hx": 70,
+      "hy": 150,
+      "ed": 1
+    },
+    "LOW_BAD": {
+      "hip": [
+        0,
+        -430
+      ],
+      "s": 20,
+      "t": -40,
+      "s2": 20,
+      "t2": -40,
+      "b": 18,
+      "hd": 12,
+      "g": 1,
+      "hb": 1,
+      "hx": 60,
+      "hy": 300,
+      "ed": 1
+    }
+  },
+  "slug": "wall-ball-run",
+  "revisado": false,
+  "pronuncia": {
+    "Wall Ball Run": "uol bol ron",
+    "Wall Ball": "uol bol"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "WALL BALL",
+        "RUN"
+      ],
+      "vo": "Wall ball run: correr con el balón al pecho. Cardio, piernas y hombros sostenidos sin perder el ritmo.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "RUN_A",
+              0.42
+            ],
+            [
+              "PASS",
+              0.26
+            ],
+            [
+              "RUN_B",
+              0.42
+            ],
+            [
+              "PASS",
+              0.26
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BALÓN",
+        "AL PECHO"
+      ],
+      "sub": "Pegado, codos abajo",
+      "vo": "Sostené el balón pegado al pecho, con los codos abajo y la mirada al frente. Nada de cargarlo al hombro.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "STAND.W",
+            "dx": 10,
+            "dy": -80
+          },
+          "text": "BALÓN PEGADO",
+          "anchor": "start",
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            120,
+            1180
+          ],
+          "text": "CODOS ABAJO",
+          "anchor": "start",
+          "at": 1.7,
+          "out": 4.4
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "CORRÉ",
+        "CON RITMO"
+      ],
+      "sub": "Pasos cortos y parejos",
+      "vo": "Paso uno. Corré con un ritmo constante y pasos cortos, como si no llevaras nada en los brazos.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "RUN_A",
+              0.42
+            ],
+            [
+              "PASS",
+              0.26
+            ],
+            [
+              "RUN_B",
+              0.42
+            ],
+            [
+              "PASS",
+              0.26
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "BALÓN",
+        "QUIETO"
+      ],
+      "sub": "Que no rebote",
+      "vo": "Paso dos. Mantené el balón quieto contra el pecho: que no rebote, que no se mueva con cada paso.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "RUN_A",
+              0.42
+            ],
+            [
+              "PASS",
+              0.26
+            ],
+            [
+              "RUN_B",
+              0.42
+            ],
+            [
+              "PASS",
+              0.26
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "RUN_A.W",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 56,
+          "at": 0.8,
+          "out": 5.8
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "MIRADA",
+        "AL FRENTE"
+      ],
+      "sub": "Hombros sueltos",
+      "vo": "Paso tres. Mirá al frente y respirá parejo. Si apretás los hombros y te encorvás, el balón se te escapa.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "RUN_A",
+              0.42
+            ],
+            [
+              "PASS",
+              0.26
+            ],
+            [
+              "RUN_B",
+              0.42
+            ],
+            [
+              "PASS",
+              0.26
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "RITMO",
+        "PAREJO"
+      ],
+      "sub": "Sin frenar en la curva",
+      "vo": "Paso cuatro. Mantené el ritmo parejo de principio a fin: no arranques rápido para frenar en la mitad.",
+      "moves": [
+        {
+          "cut": "RUN_A",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 0.8,
+          "dur": 0.4
+        },
+        {
+          "to": "RUN_B",
+          "at": 2.0,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "LEAN_BAD.S",
+            "dx": -150,
+            "dy": -30
+          },
+          "text": "ASÍ NO: ENCORVADO",
+          "anchor": "end",
+          "at": 0.9,
+          "out": 2.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Balón pegado al pecho",
+        "Codos abajo, hombros sueltos",
+        "Pasos cortos y parejos",
+        "Mirada al frente",
+        "Ritmo constante de principio a fin"
+      ],
+      "vo": "Claves: balón pegado al pecho, codos abajo, pasos cortos, mirada al frente y ritmo constante.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "RUN_A",
+              0.42
+            ],
+            [
+              "PASS",
+              0.26
+            ],
+            [
+              "RUN_B",
+              0.42
+            ],
+            [
+              "PASS",
+              0.26
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.4,
+      "badge": "A ENTRENAR",
+      "head": [
+        "25 A 50 M"
+      ],
+      "sub": "Ida y vuelta",
+      "vo": "Veinticinco a cincuenta metros corriendo con el balón al pecho, ida y vuelta, sin soltarlo.",
+      "chips": [
+        {
+          "label": "1 · 25 M",
+          "at": 0.4
+        },
+        {
+          "label": "2 · 50 M",
+          "at": 1.1
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "RUN_A",
+              0.42
+            ],
+            [
+              "PASS",
+              0.26
+            ],
+            [
+              "RUN_B",
+              0.42
+            ],
+            [
+              "PASS",
+              0.26
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "RUN_A",
+    "grip": 0,
+    "zoom": 1.05,
+    "dy": 170
+  },
+  "youtube": {
+    "titulo": "Wall Ball Run 🔥 Correr con el balón al pecho | CrossFit",
+    "tags": [
+      "wall ball run",
+      "wall ball",
+      "correr con balón",
+      "balón medicinal",
+      "running",
+      "cardio",
+      "crossfit",
+      "wod",
+      "resistencia",
+      "hombros",
+      "técnica",
+      "acondicionamiento"
+    ],
+    "descripcion": "🔥 WALL BALL RUN — Correr con el wall ball al pecho\n\n¿Te toca correr con el balón y no sabés dónde agarrarlo? Pegado al pecho, codos abajo y ritmo parejo: así se hace. 💪\n\n📋 PASO A PASO\n1️⃣ Sostené el balón pegado al pecho, con los codos abajo.\n2️⃣ Mirá al frente, con los hombros sueltos.\n3️⃣ Corré con pasos cortos y un ritmo constante.\n4️⃣ Mantené el balón quieto: que no rebote con cada paso.\n5️⃣ Sostené el ritmo de principio a fin, sin arranques.\n\n✅ CLAVES DE TÉCNICA\n• Balón pegado al pecho\n• Codos abajo y hombros sueltos\n• Pasos cortos y parejos\n• Mirada al frente\n• Ritmo constante\n\n🎯 QUÉ TRABAJA\nPiernas · Glúteos · Core · Hombros · Capacidad aeróbica\n\n⏱️ CUÁNTO\n25 a 50 metros ida y vuelta, 2 a 4 vueltas según el WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi el balón se te mueve, es señal de que estás apretando de más: relajá los hombros y respirá parejo.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WallBall #Running #Cardio #WOD #Acondicionamiento"
+  }
+}

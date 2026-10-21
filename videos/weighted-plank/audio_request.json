@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Uéited planc: la plancha baja con un disco en la espalda. Core de acero, sin moverse ni un milímetro."
+    },
+    {
+      "id": "02",
+      "text": "Apoyá los antebrazos y las puntas de los pies. Los codos justo debajo de los hombros y el cuerpo en línea."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Alineá la cabeza, la cadera y los talones en una línea recta. Nada de cadera caída."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. El disco va sobre la espalda alta, quieto. Apretá glúteos y abdomen y respirá normal."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si la cadera se hunde o sube, la línea se rompe y el disco carga la espalda. Evitalo."
+    },
+    {
+      "id": "06",
+      "text": "Claves: cuerpo en línea recta, codos bajo los hombros, apretá glúteos y abdomen, y respirá normal."
+    },
+    {
+      "id": "07",
+      "text": "Treinta segundos con un disco liviano. Progresá el peso de a poco y recién ahí sumá tiempo."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

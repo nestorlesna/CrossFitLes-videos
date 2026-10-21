@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Uol lat strech: estiramiento del dorsal contra la pared. Todo el costado largo y suelto."
+      "en": "Wall Lat Stretch",
+      "text": "Estiramiento del dorsal contra la pared. Todo el costado largo y suelto."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

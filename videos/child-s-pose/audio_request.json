@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Child's Pose, la postura del niño: la mejor forma de bajar pulsaciones después del WOD."
+      "en": "Child's Pose",
+      "text": "La postura del niño: la mejor forma de bajar pulsaciones después del WOD."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

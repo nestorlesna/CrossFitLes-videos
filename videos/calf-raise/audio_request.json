@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "Elevación de gemelos: subí hasta la punta y bajá lento. El rebote no cuenta: la fuerza está en el control."
+    },
+    {
+      "id": "02",
+      "text": "De pie, pies al ancho de cadera y rodillas extendidas. El peso repartido, sin trabarte en los talones."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Subí hasta la máxima extensión del tobillo, con el peso sobre el dedo gordo."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá en tres segundos hasta apoyar el talón, sin dejar caer el peso ni rebotar abajo."
+    },
+    {
+      "id": "05",
+      "text": "Así no: rebotar o quedarte a media altura no carga el gemelo. Rango completo o no cuenta."
+    },
+    {
+      "id": "06",
+      "text": "Claves: rodillas extendidas, subir al máximo, pausa arriba, bajar en tres segundos y nada de rebotes."
+    },
+    {
+      "id": "07",
+      "text": "Doce repeticiones con pausa arriba. Cuando salgan fáciles, sumá un disco o pasá a una sola pierna."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

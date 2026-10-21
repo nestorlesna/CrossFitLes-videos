@@ -7,7 +7,7 @@
 
 ## Line 1 — CROSSFIT · ACTIVACIÓN (Frame 1)
 
-    Dead Bug con banda: core antiextensión. Mantené la lumbar pegada al piso todo el tiempo.
+    Dead Bug with Band Resistance: core antiextensión. Mantené la lumbar pegada al piso todo el tiempo.
 
 ## Line 2 — POSICIÓN INICIAL (Frame 2)
 

@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Ski erg: el ergómetro de esquí. Tirás de las manijas de arriba hacia abajo, con core y cadera."
+      "en": "Ski erg",
+      "text": "El ergómetro de esquí. Tirás de las manijas de arriba hacia abajo, con core y cadera."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

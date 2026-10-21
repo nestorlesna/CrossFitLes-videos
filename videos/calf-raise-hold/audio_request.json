@@ -1,0 +1,39 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "text": "kalf raise hold: subís a la punta y te quedás ahí. Treinta segundos que te salvan la rodilla."
+    },
+    {
+      "id": "02",
+      "text": "De pie, pies al ancho de cadera y rodillas extendidas. Respiración tranquila antes de subir."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Subí a la punta lo más alto que puedas y quedate ahí, sin bajar a media altura."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Aguantá arriba respirando, con el peso sobre el dedo gordo y el talón sin caer."
+    },
+    {
+      "id": "05",
+      "text": "Así no: si bajás a media altura o apoyás el talón, el isométrico se corta y no trabaja."
+    },
+    {
+      "id": "06",
+      "text": "Claves: subir al máximo, sostener sin bajar, peso en el dedo gordo, respirar y bajar en tres segundos."
+    },
+    {
+      "id": "07",
+      "text": "Treinta segundos por serie, tres series. Si el talón se cae antes, aguantá lo que puedas y anotá el tiempo."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

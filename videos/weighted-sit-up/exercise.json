@@ -1,0 +1,447 @@
+{
+  "name": "Weighted Sit-Up",
+  "category": "ACTIVACIÓN · CORE",
+  "tags": [
+    "Core",
+    "Abdomen",
+    "Disco"
+  ],
+  "descripcion": "Sit-up completo con un disco en las manos extendidas sobre el pecho, rodillas flexionadas y pies anclados al piso.",
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 560,
+    "y": 1470,
+    "scale": 0.9
+  },
+  "floorScroll": 0,
+  "props": [
+    {
+      "type": "plate",
+      "hand": "near",
+      "off": [
+        0,
+        -34
+      ],
+      "r": 58
+    }
+  ],
+  "initialPose": "FLAT",
+  "poses": {
+    "FLAT": {
+      "hip": [
+        0,
+        -12
+      ],
+      "s": -28.6,
+      "t": -147.3,
+      "s2": -31,
+      "t2": -145,
+      "ft": 0,
+      "ft2": 0,
+      "b": -90,
+      "hd": -92,
+      "g": 0,
+      "ua": 174,
+      "fa": 4,
+      "ua2": 176,
+      "fa2": 2
+    },
+    "HALF": {
+      "hip": [
+        0,
+        -12
+      ],
+      "s": -28.6,
+      "t": -147.3,
+      "s2": -31,
+      "t2": -145,
+      "ft": 0,
+      "ft2": 0,
+      "b": -38,
+      "hd": -32,
+      "g": 0,
+      "ua": 172,
+      "fa": 6,
+      "ua2": 174,
+      "fa2": 4
+    },
+    "UP": {
+      "hip": [
+        0,
+        -12
+      ],
+      "s": -28.6,
+      "t": -147.3,
+      "s2": -31,
+      "t2": -145,
+      "ft": 0,
+      "ft2": 0,
+      "b": 58,
+      "hd": 50,
+      "g": 0,
+      "ua": 176,
+      "fa": 4,
+      "ua2": 174,
+      "fa2": 6
+    },
+    "NECK_BAD": {
+      "hip": [
+        0,
+        -12
+      ],
+      "s": -28.6,
+      "t": -147.3,
+      "s2": -31,
+      "t2": -145,
+      "ft": 0,
+      "ft2": 0,
+      "b": -64,
+      "hd": -124,
+      "g": 0,
+      "ua": 150,
+      "fa": 30,
+      "ua2": 152,
+      "fa2": 28
+    },
+    "LEGS_BAD": {
+      "hip": [
+        0,
+        -12
+      ],
+      "s": -78,
+      "t": -122,
+      "s2": -80,
+      "t2": -120,
+      "ft": -46,
+      "ft2": -46,
+      "b": 34,
+      "hd": 26,
+      "g": 0,
+      "ua": 168,
+      "fa": 10,
+      "ua2": 170,
+      "fa2": 8
+    }
+  },
+  "slug": "weighted-sit-up",
+  "revisado": false,
+  "pronuncia": {
+    "Weighted Sit-Up": "uéted sit ap",
+    "Sit-Up": "sit ap",
+    "Weighted": "uéted"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "ACTIVACIÓN · CORE",
+      "head": [
+        "WEIGHTED",
+        "SIT-UP"
+      ],
+      "vo": "Sit-up con disco: subir con el abdomen, no con el cuello. El peso suma resistencia, no hace el trabajo por vos.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "FLAT",
+              0.8
+            ],
+            [
+              "HALF",
+              0.7
+            ],
+            [
+              "UP",
+              0.9
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESPALDA",
+        "EN EL PISO"
+      ],
+      "sub": "Rodillas flexionadas",
+      "vo": "Acostate con las rodillas flexionadas y los pies anclados, el disco firme en las manos sobre el pecho.",
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            110,
+            780
+          ],
+          "text": "DISCO FIRME",
+          "anchor": "start",
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            110,
+            950
+          ],
+          "text": "PIES ANCLADOS",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "DISCO",
+        "BIEN ARRIBA"
+      ],
+      "sub": "Brazos extendidos",
+      "vo": "Paso uno. Sostené el disco con los brazos extendidos arriba del pecho y no lo muevas durante la subida.",
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            110,
+            900
+          ],
+          "text": "SIN MOVERLO",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "SUBÍ CON",
+        "EL ABDOMEN"
+      ],
+      "sub": "Redondo, no tirón",
+      "vo": "Paso dos. Enrollá el torso y subí con el abdomen, como si juntaras las costillas con la pelvis.",
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.7,
+          "dur": 0.5
+        },
+        {
+          "to": "UP",
+          "at": 1.8,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "UP.S",
+            "dx": -150,
+            "dy": 30
+          },
+          "text": "ABDOMEN",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "BAJÁ",
+        "CONTROLADO"
+      ],
+      "sub": "Hasta apoyar la espalda",
+      "vo": "Paso tres. Bajá controlado hasta apoyar la espalda en el piso, sin soltar el disco ni dejarte caer.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.8,
+          "dur": 0.55
+        },
+        {
+          "to": "FLAT",
+          "at": 2.0,
+          "dur": 0.55
+        }
+      ],
+      "overlays": []
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ASÍ NO:",
+        "TIRÁS DEL",
+        "CUELLO"
+      ],
+      "sub": "Y los pies, anclados",
+      "vo": "Paso cuatro. No tires del cuello ni despeguen los pies: el cuello no sube el torso y los pies son el ancla.",
+      "moves": [
+        {
+          "cut": "LEGS_BAD",
+          "at": 0
+        },
+        {
+          "to": "NECK_BAD",
+          "at": 1.4,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "NECK_BAD.N",
+            "dx": 0,
+            "dy": -70
+          },
+          "text": "CUELLO, NO TIRÓN",
+          "anchor": "middle",
+          "at": 0.9
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Pies anclados al piso",
+        "Disco firme arriba",
+        "Subir con el abdomen",
+        "Bajar controlado",
+        "Sin tirar del cuello"
+      ],
+      "vo": "Claves: pies anclados, disco firme, subir con el abdomen, bajar controlado y nunca tirar del cuello.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "FLAT",
+              0.8
+            ],
+            [
+              "HALF",
+              0.7
+            ],
+            [
+              "UP",
+              0.8
+            ],
+            [
+              "HALF",
+              0.7
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.4,
+      "badge": "A ENTRENAR",
+      "head": [
+        "12",
+        "REPS"
+      ],
+      "sub": "Bajada de 2 segundos",
+      "vo": "Doce repeticiones con disco, bajando en dos segundos. Si el disco te gana, bajá el peso y hacé la técnica bien.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.4
+        },
+        {
+          "label": "2 · BAJÁ LENTO",
+          "at": 1.1
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "FLAT",
+              0.7
+            ],
+            [
+              "HALF",
+              0.6
+            ],
+            [
+              "UP",
+              0.8
+            ],
+            [
+              "HALF",
+              0.6
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "grip": 0,
+    "zoom": 1.06,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Weighted Sit-Up 🔥 Sit-up con disco bien hecho (paso a paso) | Core",
+    "tags": [
+      "weighted sit up",
+      "sit up con disco",
+      "abdominales con peso",
+      "core",
+      "abdomen",
+      "disco",
+      "recto abdominal",
+      "crossfit",
+      "wod",
+      "técnica",
+      "core fuerte",
+      "gimnasio"
+    ],
+    "descripcion": "🔥 WEIGHTED SIT-UP — Sit-up con disco\n\nEl disco no hace el trabajo por vos: sube el abdomen. Si tiras del cuello, no entrenás el core, te lesionas. Mirá cómo se hace. 💪\n\n📋 PASO A PASO\n1️⃣ Acostate con las rodillas flexionadas y los pies anclados al piso.\n2️⃣ Sostené el disco con los brazos extendidos arriba del pecho.\n3️⃣ Enrollá el torso y subí con el abdomen, no con un tirón.\n4️⃣ Bajá controlado hasta apoyar la espalda.\n5️⃣ No tires del cuello ni despegues los pies.\n\n✅ CLAVES DE TÉCNICA\n• Pies anclados al piso\n• Disco firme arriba\n• Subir con el abdomen\n• Bajada controlada\n• Sin tirar del cuello\n\n🎯 QUÉ TRABAJA\nRecto abdominal · Oblicuos · Core · Flexores de cadera\n\n⏱️ CUÁNTO\n12 repeticiones, 3 a 4 series. Empezá con disco liviano.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi sentís el cuello, es que estás usando los brazos: bajá el disco y pensá en juntar costillas con pelvis.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Core #Abdominales #SitUp #CrossFit #WOD #Técnica"
+  }
+}

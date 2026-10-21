@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Sled push: empujar el trineo cargado con pasos cortos y potentes. Piernas a full."
+      "en": "Sled Push",
+      "text": "Empujar el trineo cargado con pasos cortos y potentes. Piernas a full."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

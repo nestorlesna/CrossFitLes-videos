@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Kettlebell Good Morning to Squat: bisagra más sentadilla. La entrada en calor ideal para cadera y piernas."
+      "en": "Kettlebell Good Morning to Squat",
+      "text": "Bisagra más sentadilla. La entrada en calor ideal para cadera y piernas."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

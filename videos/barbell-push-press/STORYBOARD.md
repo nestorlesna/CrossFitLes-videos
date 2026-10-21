@@ -52,7 +52,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 8s
-- voiceover: "Claves: dip corto y vertical, las piernas primero y los brazos después, la cabeza va atrás para dejar pasar la barra y adelante al bloquear, y el abdomen firme sin arquear la espalda."
+- voiceover: "Claves: dip corto y vertical, piernas primero y brazos después, la cabeza atrás para dejar pasar la barra y abdomen firme sin arquear."
 - poses: —
 
 ## Frame 8 — A ENTRENAR 5 REPS

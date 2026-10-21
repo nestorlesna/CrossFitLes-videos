@@ -31,7 +31,7 @@
 
 ## Line 7 — CLAVES (Frame 7)
 
-    Claves: la rodilla trasera y el empeine bien apoyados, el glúteo de atrás apretado, la pelvis neutra sin arquear la lumbar, y subí el tronco de a poco a medida que afloja.
+    Claves: rodilla y empeine de atrás bien apoyados, glúteo apretado, pelvis neutra sin arquear la lumbar y subí el tronco de a poco.
 
 ## Line 8 — A ENTRENAR (Frame 8)
 

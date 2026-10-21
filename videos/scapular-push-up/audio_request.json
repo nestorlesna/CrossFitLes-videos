@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Escápiular push ap: flexión de escápulas, sin doblar los codos. Hombros fuertes y estables."
+      "en": "Scapular Push-Up",
+      "text": "Flexión de escápulas, sin doblar los codos. Hombros fuertes y estables."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

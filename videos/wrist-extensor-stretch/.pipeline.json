@@ -1,9 +1,12 @@
 {
   "voz": true,
   "composicion": true,
-  "duracion": 41.351,
-  "check": false,
+  "duracion": 41.93,
+  "check": true,
   "miniatura": true,
-  "renderizado": "2026-10-15",
-  "renderHash": "7babd1e14a9b"
+  "renderizado": "2026-10-21",
+  "renderHash": "7babd1e14a9b",
+  "vozEn": "kokoro:af_heart",
+  "archivo": "wrist-extensor-stretch.mp4",
+  "renderVozEn": "kokoro:af_heart"
 }

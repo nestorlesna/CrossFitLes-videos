@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Rrouméinian dedlift: bisagra de cadera. La barra baja pegada a las piernas hasta sentir el estiramiento y vuelve subiendo con los glúteos."
+      "en": "Barbell Romanian Deadlift",
+      "text": "Bisagra de cadera. La barra baja pegada a las piernas y subís con los glúteos."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

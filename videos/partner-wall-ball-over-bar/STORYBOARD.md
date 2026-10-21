@@ -45,7 +45,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 8.2s
-- voiceover: "Claves: sentadilla completa antes de cada lanzamiento, lanzá con la extensión de cadera y no solo con los brazos, tirá el balón bien alto por encima de la barra y recibilo arriba, al pecho."
+- voiceover: "Claves: sentadilla completa antes de lanzar, la fuerza sale de la cadera y no de los brazos, el balón bien alto sobre la barra y recibilo al pecho."
 - poses: —
 
 ## Frame 7 — A ENTRENAR 50 REPS

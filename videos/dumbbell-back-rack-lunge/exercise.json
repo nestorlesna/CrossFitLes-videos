@@ -1,0 +1,465 @@
+{
+  "name": "Dumbbell Back Rack Lunge",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Piernas",
+    "Glúteos",
+    "Core"
+  ],
+  "descripcion": "Lunge (zancada) con una mancuerna sobre cada hombro, en la posicion de back rack (apoyadas sobre la parte superior de la espalda/hombros). Dar un paso, bajar hasta que la rodilla trasera roce el piso y volver.",
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 460,
+    "y": 1500,
+    "scale": 0.88
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "hand": "far",
+      "side": true,
+      "r": 44
+    },
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "side": true,
+      "r": 44
+    }
+  ],
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 0,
+      "fa": 186,
+      "ua2": 2,
+      "fa2": 184
+    },
+    "STEP": {
+      "s": 1,
+      "t": -45,
+      "s2": 72.4,
+      "t2": -21.6,
+      "b": 2,
+      "hd": 0,
+      "g": 0,
+      "ua": 0,
+      "fa": 186,
+      "ua2": 2,
+      "fa2": 184
+    },
+    "LUNGE": {
+      "s": 1.95,
+      "t": -82.31,
+      "s2": 89.94,
+      "t2": 10.81,
+      "b": 2,
+      "hd": 0,
+      "g": 0,
+      "ua": 0,
+      "fa": 186,
+      "ua2": 2,
+      "fa2": 184,
+      "rx": 290,
+      "ry": 0,
+      "ft": 0,
+      "ft2": 48
+    },
+    "LUNGE_F": {
+      "s": 89.94,
+      "t": 10.81,
+      "s2": 1.95,
+      "t2": -82.31,
+      "rx": -215,
+      "ry": -26,
+      "ft": 48,
+      "ft2": 0,
+      "b": 2,
+      "hd": 0,
+      "g": 0,
+      "ua": 0,
+      "fa": 186,
+      "ua2": 2,
+      "fa2": 184
+    },
+    "LEAN_BAD": {
+      "s": 1.95,
+      "t": -82.31,
+      "s2": 89.94,
+      "t2": 10.81,
+      "b": 28,
+      "hd": 22,
+      "g": 0,
+      "ua": 0,
+      "fa": 186,
+      "ua2": 2,
+      "fa2": 184,
+      "rx": 290,
+      "ry": 0,
+      "ft": 0,
+      "ft2": 48
+    },
+    "DROP_BAD": {
+      "s": 1.95,
+      "t": -82.31,
+      "s2": 89.94,
+      "t2": 10.81,
+      "b": 2,
+      "hd": 0,
+      "g": 0,
+      "ua": 42,
+      "fa": 26,
+      "ua2": 40,
+      "fa2": 28,
+      "rx": 290,
+      "ry": 0,
+      "ft": 0,
+      "ft2": 48
+    }
+  },
+  "slug": "dumbbell-back-rack-lunge",
+  "revisado": false,
+  "pronuncia": {
+    "Dumbbell Back Rack Lunge": "dámbel bac rac lany",
+    "Lunge": "lany",
+    "Back Rack": "bac rac"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "DUMBBELL",
+        "BACK RACK",
+        "LUNGE"
+      ],
+      "vo": "Mancuernas apoyadas al hombro y zancada: fuerza de piernas y estabilidad. Un clásico para sumar carga sin barra.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "STAND",
+              0.9
+            ],
+            [
+              "STEP",
+              0.7
+            ],
+            [
+              "LUNGE",
+              0.9
+            ],
+            [
+              "LUNGE_F",
+              0.9
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "MANCUERNAS",
+        "AL HOMBRO"
+      ],
+      "sub": "Apoyadas en la espalda alta",
+      "vo": "Una mancuerna en cada hombro, apoyadas atrás, con los codos abajo, el pecho arriba y la mirada al frente.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            120,
+            1180
+          ],
+          "text": "PECHO ARRIBA",
+          "anchor": "start",
+          "at": 1.8,
+          "out": 4.4
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "PASO AL",
+        "FRENTE"
+      ],
+      "sub": "Pie completo en el piso",
+      "vo": "Paso uno. Da un paso al frente, largo, y apoyá todo el pie. La rodilla de adelante sigue la punta del pie.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "LUNGE",
+          "at": 1.2,
+          "dur": 0.55
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "from": [
+            300,
+            1516
+          ],
+          "to": [
+            470,
+            1516
+          ],
+          "solid": true,
+          "at": 0.8,
+          "out": 3.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "BAJÁ",
+        "DERECHO"
+      ],
+      "sub": "Rodilla trasera al piso",
+      "vo": "Paso dos. Bajá derecho hasta que la rodilla de atrás roce el piso, sin inclinar el torso hacia adelante.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "LUNGE",
+          "at": 0.9,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            473,
+            1470
+          ],
+          "r": 44,
+          "at": 1.0,
+          "out": 5.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            120,
+            1080
+          ],
+          "text": "TORSO DERECHO",
+          "anchor": "start",
+          "at": 1.4,
+          "out": 4.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "EMPUJÁ",
+        "Y VOLVÉ"
+      ],
+      "sub": "Cambiá de pierna",
+      "vo": "Paso tres. Empujá con la pierna de adelante y volvé a pararte. Alterná la pierna en cada repetición.",
+      "moves": [
+        {
+          "cut": "LUNGE",
+          "at": 0
+        },
+        {
+          "to": "STAND",
+          "at": 0.7,
+          "dur": 0.5
+        },
+        {
+          "to": "LUNGE_F",
+          "at": 1.8,
+          "dur": 0.7
+        }
+      ],
+      "overlays": []
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "CADERA",
+        "ESTABLE"
+      ],
+      "sub": "Sin inclinar el torso",
+      "vo": "Paso cuatro. Mantené la cadera estable y el torso derecho. Si te inclinás, las mancuernas se te van adelante.",
+      "moves": [
+        {
+          "cut": "LUNGE",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 0.8,
+          "dur": 0.4
+        },
+        {
+          "to": "LUNGE_F",
+          "at": 2.0,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "LEAN_BAD.S",
+            "dx": -150,
+            "dy": -30
+          },
+          "text": "ASÍ NO: TE INCLINÁS",
+          "anchor": "end",
+          "at": 0.9,
+          "out": 2.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Mancuernas apoyadas atrás",
+        "Pecho arriba y mirada al frente",
+        "Paso largo, pie completo",
+        "Rodilla trasera roza el piso",
+        "Torso derecho, cadera estable"
+      ],
+      "vo": "Claves: mancuernas apoyadas atrás, pecho arriba, paso largo con pie completo, rodilla trasera al piso y torso derecho.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "LUNGE",
+              1.0
+            ],
+            [
+              "STAND",
+              0.5
+            ],
+            [
+              "LUNGE_F",
+              1.0
+            ],
+            [
+              "STAND",
+              0.5
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.4,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 POR",
+        "PIERNA"
+      ],
+      "sub": "Alternando piernas",
+      "vo": "Diez zancadas por pierna, alternando. Si las mancuernas se mueven, bajá el peso y priorizá la técnica.",
+      "chips": [
+        {
+          "label": "1 · PASO",
+          "at": 0.4
+        },
+        {
+          "label": "2 · BAJÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ",
+          "at": 1.8
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "LUNGE",
+              0.9
+            ],
+            [
+              "STAND",
+              0.35
+            ],
+            [
+              "LUNGE_F",
+              0.9
+            ],
+            [
+              "STAND",
+              0.35
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "LUNGE",
+    "grip": 0,
+    "zoom": 1.05,
+    "dy": 170
+  },
+  "youtube": {
+    "titulo": "Dumbbell Back Rack Lunge 🔥 Zancada con mancuernas al hombro | CrossFit",
+    "tags": [
+      "dumbbell back rack lunge",
+      "zancada",
+      "lunge",
+      "mancuernas",
+      "back rack",
+      "piernas",
+      "glúteos",
+      "crossfit",
+      "wod",
+      "fuerza",
+      "unilateral",
+      "técnica"
+    ],
+    "descripcion": "🔥 DUMBBELL BACK RACK LUNGE — Zancada con mancuernas al hombro\n\n¿Querés piernas fuertes sin barra? Con dos mancuernas apoyadas al hombro y una zancada bien hecha, alcanza. Mirá cómo se hace. 💪\n\n📋 PASO A PASO\n1️⃣ Una mancuerna en cada hombro, apoyadas en la espalda alta y los codos abajo.\n2️⃣ Pecho arriba y mirada al frente.\n3️⃣ Da un paso largo al frente y apoyá todo el pie.\n4️⃣ Bajá derecho hasta que la rodilla de atrás roce el piso.\n5️⃣ Empujá con la pierna de adelante y alterná en cada repetición.\n\n✅ CLAVES DE TÉCNICA\n• Mancuernas apoyadas atrás, no en el cuello\n• Torso derecho y pecho arriba\n• Paso largo con pie completo\n• Rodilla de adelante sigue la punta del pie\n• Cadera estable, sin bamboleo\n\n🎯 QUÉ TRABAJA\nCuádriceps · Glúteos · Isquios · Core · Estabilidad\n\n⏱️ CUÁNTO\n10 zancadas por pierna, 3 a 4 series con descanso entre series.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nEmpezá con mancuernas livianas: la zancada con carga al hombro castiga la estabilidad antes que la fuerza.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Lunge #Mancuernas #Piernas #Glúteos #WOD"
+  }
+}

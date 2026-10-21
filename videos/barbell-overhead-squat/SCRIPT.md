@@ -7,7 +7,7 @@
 
 ## Line 1 — CROSSFIT · FUERZA (Frame 1)
 
-    Overhead Squat: sentadilla completa con la barra bloqueada arriba de la cabeza. Movilidad y estabilidad.
+    Barbell Overhead Squat: sentadilla completa con la barra bloqueada arriba de la cabeza. Movilidad y estabilidad.
 
 ## Line 2 — POSICIÓN INICIAL (Frame 2)
 

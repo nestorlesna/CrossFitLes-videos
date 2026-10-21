@@ -10,7 +10,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 4.8s
-- voiceover: "Hang Power Clean: desde arriba de las rodillas hasta los hombros, en un solo movimiento explosivo."
+- voiceover: "Barbell Hang Power Clean: desde arriba de las rodillas hasta los hombros, en un solo movimiento explosivo."
 - poses: HANG → HIP → EXT → PULL_C → RACK_Q → RACK
 
 ## Frame 2 — POSICIÓN INICIAL BARRA EN LA CADERA

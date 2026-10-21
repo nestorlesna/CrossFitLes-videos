@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Barbell Front Squat: la sentadilla con la barra adelante. Torso vertical y codos bien altos."
+      "en": "Barbell Front Squat",
+      "text": "La sentadilla con la barra adelante. Torso vertical y codos bien altos."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

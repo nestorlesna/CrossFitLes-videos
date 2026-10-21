@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Vi ap: piernas y torso suben a la vez para formar una V. Abdominales a full."
+      "en": "V-Up",
+      "text": "Piernas y torso suben a la vez para formar una V. Abdominales a full."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

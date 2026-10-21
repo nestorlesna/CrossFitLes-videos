@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Shátol ran: carrera de ida y vuelta entre dos líneas. Acelerar, frenar y volver a salir."
+      "en": "Shuttle Run",
+      "text": "Carrera de ida y vuelta entre dos líneas. Acelerar, frenar y volver a salir."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

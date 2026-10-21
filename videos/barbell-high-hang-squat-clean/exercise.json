@@ -1,0 +1,458 @@
+{
+  "name": "High Hang Squat Clean",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Potencia",
+    "Cadera",
+    "Piernas"
+  ],
+  "descripcion": "Cargada desde el hang alto (barra en el pliegue de la cadera): dip corto, extensión explosiva y recepción en sentadilla frontal completa.",
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 450,
+    "y": 1503,
+    "scale": 0.84
+  },
+  "floorScroll": 0,
+  "props": [
+    {
+      "type": "barbell",
+      "torso": [
+        64,
+        36
+      ],
+      "r": 74,
+      "blend": true
+    }
+  ],
+  "initialPose": "HANG_H",
+  "poses": {
+    "STAND_BAR": {
+      "g": 1,
+      "ed": 1,
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "hx": 30,
+      "hy": -424
+    },
+    "HANG_H": {
+      "g": 1,
+      "ed": 1,
+      "s": 8,
+      "t": -16,
+      "b": 10,
+      "hd": 4,
+      "hx": 40,
+      "hy": -425
+    },
+    "DIP": {
+      "s": 16,
+      "t": -34,
+      "b": 16,
+      "hd": 8,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": 2,
+      "fa2": 0
+    },
+    "EXT": {
+      "s": -4,
+      "t": 4,
+      "b": -8,
+      "hd": -6,
+      "ft": -22,
+      "ft2": -22,
+      "g": 0,
+      "ua": 6,
+      "fa": 0,
+      "ua2": 6,
+      "fa2": 0
+    },
+    "PULL_C": {
+      "s": -2,
+      "t": 2,
+      "b": -4,
+      "hd": -4,
+      "ft": -16,
+      "ft2": -16,
+      "g": 0,
+      "ua": 70,
+      "fa": -110,
+      "ua2": 70,
+      "fa2": -110
+    },
+    "CATCH": {
+      "s": 40,
+      "t": -112,
+      "b": 20,
+      "hd": 8,
+      "g": 0,
+      "bf": 1,
+      "ua": 68,
+      "fa": 176,
+      "ua2": 72,
+      "fa2": 172
+    },
+    "RACK": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "bf": 1,
+      "ua": 90,
+      "fa": 176,
+      "ua2": 94,
+      "fa2": 172
+    },
+    "ELBOWS_LOW": {
+      "s": 40,
+      "t": -112,
+      "b": 38,
+      "hd": 24,
+      "g": 0,
+      "bf": 1,
+      "ua": 16,
+      "fa": 150,
+      "ua2": 20,
+      "fa2": 146
+    }
+  },
+  "slug": "barbell-high-hang-squat-clean",
+  "revisado": false,
+  "pronuncia": {
+    "Barbell High Hang Squat Clean": "bárbel jái jang skuót clin",
+    "Barbell": "bárbel",
+    "High Hang": "jái jang",
+    "Squat": "skuót",
+    "Clean": "clin"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "FUERZA · POTENCIA",
+      "head": [
+        "HIGH HANG",
+        "SQUAT CLEAN"
+      ],
+      "vo": "High hang squat clean: la barra sale de la cadera, no del piso. Extensión, tirón alto y caer abajo.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "HANG_H",
+              0.9
+            ],
+            [
+              "DIP",
+              0.7
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BARRA EN",
+        "LA CADERA"
+      ],
+      "sub": "Pies al ancho de cadera",
+      "vo": "Parate con la barra en el pliegue de la cadera, brazos largos y la espalda neutra. De ahí sale todo.",
+      "moves": [
+        {
+          "cut": "STAND_BAR",
+          "at": 0
+        },
+        {
+          "to": "HANG_H",
+          "at": 0.6,
+          "dur": 0.5
+        }
+      ],
+      "overlays": []
+    },
+    {
+      "min": 5.2,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "FLEXIÓN",
+        "CORTA"
+      ],
+      "sub": "Rodillas, no espalda",
+      "vo": "Paso uno. Bajá un cuarto de sentadilla con la barra pegada al muslo: cargás las piernas, no la espalda.",
+      "moves": [
+        {
+          "cut": "HANG_H",
+          "at": 0
+        },
+        {
+          "to": "DIP",
+          "at": 0.7,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "DIP.K",
+            "dx": -115,
+            "dy": 10
+          },
+          "text": "RODILLAS",
+          "anchor": "end",
+          "at": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "EXPLOTÁ",
+        "TODO"
+      ],
+      "sub": "Piernas y cadera",
+      "vo": "Paso dos. Extendé tobillo, rodilla y cadera de golpe, como si saltaras: eso es lo que sube la barra.",
+      "moves": [
+        {
+          "cut": "DIP",
+          "at": 0
+        },
+        {
+          "to": "EXT",
+          "at": 0.6,
+          "dur": 0.45
+        }
+      ],
+      "overlays": []
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "CODOS",
+        "ARRIBA"
+      ],
+      "sub": "La barra sube pegada",
+      "vo": "Paso tres. Después de la extensión, tirá con los codos altos y la barra pegada al cuerpo.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "PULL_C",
+          "at": 0.6,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "PULL_C.E",
+            "dx": 120,
+            "dy": -20
+          },
+          "text": "CODO ALTO",
+          "anchor": "middle",
+          "at": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "CAÉ",
+        "ABAJO"
+      ],
+      "sub": "Barra en los hombros",
+      "vo": "Paso cuatro. Meté los codos y caé bajo la barra en sentadilla frontal. Después te parás.",
+      "moves": [
+        {
+          "cut": "PULL_C",
+          "at": 0
+        },
+        {
+          "to": "CATCH",
+          "at": 0.5,
+          "dur": 0.4
+        },
+        {
+          "to": "RACK",
+          "at": 2.0,
+          "dur": 0.8
+        }
+      ],
+      "overlays": []
+    },
+    {
+      "min": 5.4,
+      "badge": "ERROR COMÚN",
+      "head": [
+        "ASÍ NO:",
+        "CODOS",
+        "BAJOS"
+      ],
+      "sub": "La barra se va al frente",
+      "vo": "Así no: si los codos quedan bajos, la barra se va al frente y te vence el peso. Codos altos siempre.",
+      "moves": [
+        {
+          "cut": "RACK",
+          "at": 0
+        },
+        {
+          "to": "ELBOWS_LOW",
+          "at": 1.2,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "ELBOWS_LOW.E",
+            "dx": 150,
+            "dy": -30
+          },
+          "text": "CODO CAÍDO",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Barra pegada al cuerpo",
+        "Extensión completa",
+        "Codos altos en el tirón",
+        "Caer rápido abajo",
+        "Frente arriba"
+      ],
+      "vo": "Claves: barra pegada, extensión completa, codos altos, caer rápido y mantener el frente arriba.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "DIP",
+              0.7
+            ],
+            [
+              "EXT",
+              0.6
+            ],
+            [
+              "PULL_C",
+              0.6
+            ],
+            [
+              "CATCH",
+              0.7
+            ],
+            [
+              "RACK",
+              0.8
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.4,
+      "badge": "A ENTRENAR",
+      "head": [
+        "5",
+        "REPS"
+      ],
+      "sub": "Peso que dominás",
+      "vo": "Cinco repeticiones por serie, con un peso que domines. Con treinta kilos alcanza para aprender el movimiento.",
+      "chips": [
+        {
+          "label": "1 — EXPLOTÁ",
+          "at": 0.4
+        },
+        {
+          "label": "2 — CAÉ ABAJO",
+          "at": 1.0
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "DIP",
+              0.6
+            ],
+            [
+              "EXT",
+              0.5
+            ],
+            [
+              "PULL_C",
+              0.5
+            ],
+            [
+              "CATCH",
+              0.6
+            ],
+            [
+              "RACK",
+              0.9
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "RACK",
+    "grip": 0,
+    "zoom": 1.45,
+    "dy": 268
+  },
+  "youtube": {
+    "titulo": "High Hang Squat Clean 🏋️ Cargada desde la cadera, paso a paso | Potencia",
+    "tags": [
+      "high hang squat clean",
+      "squat clean",
+      "cargada",
+      "halterofilia",
+      "pesas",
+      "barra olímpica",
+      "clean",
+      "potencia",
+      "crossfit",
+      "wod",
+      "técnica",
+      "weightlifting"
+    ],
+    "descripcion": "🎯 BARBELL HIGH HANG SQUAT CLEAN — Cargada desde la cadera\n\nLa barra no sale del piso: sale de la cadera. Si tirás con los brazos antes de extender las piernas, no hay cargada. 💪\n\n📌 PASO A PASO\n1️⃣ Parate con la barra en el pliegue de la cadera y los brazos largos.\n2️⃣ Bajá un cuarto de sentadilla con la barra pegada al muslo.\n3️⃣ Extendé tobillo, rodilla y cadera de golpe.\n4️⃣ Tirá con los codos altos y la barra pegada al cuerpo.\n5️⃣ Caé bajo la barra en sentadilla frontal y parate.\n\n✅ CLAVES DE TÉCNICA\n✔️ Barra pegada al cuerpo\n✔️ Extensión completa\n✔️ Codos altos en el tirón\n✔️ Caer rápido abajo\n✔️ Frente arriba\n\n🔥 QUÉ TRABAJA\nRecto femoral · Bíceps femoral · Glúteo mayor · Trapecio · Erectores espinales\n\n⏱️ CUÁNTO\n5 repeticiones x 4 series. Empezá liviano y priorizá la velocidad bajo la barra.\n\n📣 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSin primera tracción no hay excusa: la barra arranca arriba, así que el error siempre es la técnica, no la fuerza.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Halterofilia #SquatClean #Potencia #CrossFit #WOD #Técnica #Fuerza"
+  }
+}

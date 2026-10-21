@@ -10,7 +10,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 4.6s
-- voiceover: "Sled Push and Pull: empujar el trineo de ida y tirar de él de vuelta. Piernas y potencia a full."
+- voiceover: "Sled Push & Pull: empujar el trineo de ida y tirar de él de vuelta. Piernas y potencia a full."
 - poses: —
 
 ## Frame 2 — POSICIÓN INICIAL MANOS EN LOS PARANTES

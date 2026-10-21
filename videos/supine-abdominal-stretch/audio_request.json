@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Supáin abdóminal strech: estirá toda la parte de adelante del cuerpo, de las manos a los pies."
+      "en": "Supine Abdominal Stretch",
+      "text": "Estirá toda la parte de adelante del cuerpo, de las manos a los pies."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

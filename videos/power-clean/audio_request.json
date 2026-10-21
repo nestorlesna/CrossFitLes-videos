@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Páuer clin: potencia de cadera. La barra sale del piso y se recibe en los hombros, por encima del paralelo."
+      "en": "Power Clean",
+      "text": "Potencia de cadera. La barra sale del piso y se recibe en los hombros, por encima del paralelo."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

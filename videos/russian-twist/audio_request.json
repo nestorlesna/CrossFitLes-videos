@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Rashan tuist: rotación del tronco de lado a lado, con los pies arriba. Oblicuos y core a full."
+      "en": "Russian Twist",
+      "text": "Rotación del tronco de lado a lado, con los pies arriba. Oblicuos y core a full."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

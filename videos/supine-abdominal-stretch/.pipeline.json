@@ -1,9 +1,12 @@
 {
   "voz": true,
   "composicion": true,
-  "duracion": 40.953,
-  "check": false,
+  "duracion": 41.452,
+  "check": true,
   "miniatura": true,
-  "renderizado": "2026-10-15",
-  "renderHash": "76a5c07a6d25"
+  "renderizado": "2026-10-21",
+  "renderHash": "76a5c07a6d25",
+  "vozEn": "kokoro:af_heart",
+  "archivo": "supine-abdominal-stretch.mp4",
+  "renderVozEn": "kokoro:af_heart"
 }
