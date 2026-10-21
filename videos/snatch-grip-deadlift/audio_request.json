@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "snach grip dédlift: peso muerto con agarre ancho de arrancada. Más recorrido y más espalda alta que el peso muerto convencional."
+      "en": "Snatch Grip Deadlift",
+      "text": "Peso muerto con agarre ancho de arrancada. Más recorrido y más espalda alta que el peso muerto convencional."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

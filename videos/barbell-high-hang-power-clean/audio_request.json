@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "jái jang páuer clin: la cargada desde el pliegue de la cadera. Recorrido corto, todo depende de la extensión explosiva."
+      "en": "Barbell High Hang Power Clean",
+      "text": "La cargada desde el pliegue de la cadera. Recorrido corto, todo depende de la extensión explosiva."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

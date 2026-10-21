@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Tibialis reis: el músculo de la espinilla, el antagonista del gemelo. Clave para tobillos sanos."
+      "en": "Tibialis Raise",
+      "text": "El músculo de la espinilla, el antagonista del gemelo. Clave para tobillos sanos."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

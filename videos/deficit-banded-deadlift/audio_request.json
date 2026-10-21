@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Deficit banded dedlift: peso muerto desde una plataforma baja y con banda, para ganar fuerza en el arranque."
+      "en": "Deficit Banded Deadlift",
+      "text": "Peso muerto desde una plataforma baja y con banda, para ganar fuerza en el arranque."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

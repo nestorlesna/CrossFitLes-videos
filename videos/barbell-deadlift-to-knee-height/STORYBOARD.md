@@ -10,7 +10,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 4.8s
-- voiceover: "Deadlift a la altura de la rodilla: peso muerto parcial para fijar la posición de salida del clean y el snatch."
+- voiceover: "Barbell Deadlift to Knee Height: peso muerto parcial para fijar la posición de salida del clean y el snatch."
 - poses: —
 
 ## Frame 2 — POSICIÓN INICIAL BARRA EN EL PISO

@@ -7,7 +7,7 @@
 
 ## Line 1 — CROSSFIT · FUERZA (Frame 1)
 
-    Knees to Elbows estricto: colgado de la barra subís las rodillas hasta tocar los codos, sin impulso.
+    Strict Knees to Elbows: colgado de la barra subís las rodillas hasta tocar los codos, sin impulso.
 
 ## Line 2 — POSICIÓN INICIAL (Frame 2)
 

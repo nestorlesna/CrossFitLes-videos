@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "rok de tobillo: la rodilla va para adelante y el talón no se despega. Sin eso, el tobillo no se mueve."
+      "en": "Ankle Mobility Rock",
+      "text": "La rodilla va para adelante y el talón no se despega. Sin eso, el tobillo no se mueve."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

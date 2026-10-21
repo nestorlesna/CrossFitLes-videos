@@ -7,7 +7,7 @@
 
 ## Line 1 — CROSSFIT · FUERZA (Frame 1)
 
-    Hang clean y push jerk con mancuernas: dos movimientos en uno para ganar potencia de cadera y hombros.
+    DB Hang Clean + Jerk: dos movimientos en uno para ganar potencia de cadera y hombros.
 
 ## Line 2 — POSICIÓN INICIAL (Frame 2)
 

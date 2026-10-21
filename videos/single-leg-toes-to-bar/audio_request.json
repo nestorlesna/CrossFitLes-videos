@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Single-leg tous tu bar: una pierna toca la barra, la otra queda colgando. Core, agarre y control del balanceo."
+      "en": "Single-Leg Toes-to-Bar",
+      "text": "Una pierna toca la barra, la otra queda colgando. Core, agarre y control del balanceo."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Dainámic uórm ap: seis minutos para entrar en calor de verdad. Hombros, cadera y piernas, sin saltos."
+      "en": "Dynamic Warm-Up",
+      "text": "Seis minutos para entrar en calor de verdad. Hombros, cadera y piernas, sin saltos."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

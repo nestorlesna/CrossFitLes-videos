@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Dead Bug Hold con mancuerna: core firme y espalda baja protegida. Ahí se gana la estabilidad."
+      "en": "Dead Bug Hold with Dumbbell",
+      "text": "Core firme y espalda baja protegida. Ahí se gana la estabilidad."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

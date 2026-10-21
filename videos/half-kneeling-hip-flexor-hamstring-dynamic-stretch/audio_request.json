@@ -6,6 +6,7 @@
   "lines": [
     {
       "id": "01",
+      "en": "Half kneeling hip flexor and hamstring stretch",
       "text": "Media rodilla: adelante estirás el flexor de cadera, atrás el isquiotibial. Dos estiramientos en un movimiento."
     },
     {
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

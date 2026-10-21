@@ -6,6 +6,7 @@
   "lines": [
     {
       "id": "01",
+      "en": "Dumbbell Back Rack Lunge",
       "text": "Mancuernas apoyadas al hombro y zancada: fuerza de piernas y estabilidad. Un clásico para sumar carga sin barra."
     },
     {
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

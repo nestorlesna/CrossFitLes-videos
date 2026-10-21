@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Jólou jold: el isométrico de gimnasia que blinda tu core. La posición base de todo lo gimnástico."
+      "en": "Hollow Hold",
+      "text": "El isométrico de gimnasia que blinda tu core. La posición base de todo lo gimnástico."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

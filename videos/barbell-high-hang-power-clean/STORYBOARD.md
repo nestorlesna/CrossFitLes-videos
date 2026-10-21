@@ -10,7 +10,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 4.8s
-- voiceover: "High Hang Power Clean: la cargada desde el pliegue de la cadera. Recorrido corto, todo depende de la extensión explosiva."
+- voiceover: "Barbell High Hang Power Clean: la cargada desde el pliegue de la cadera. Recorrido corto, todo depende de la extensión explosiva."
 - poses: DIP → EXT → PULL_H → RACK_Q → RACK → STAND_BAR
 
 ## Frame 2 — POSICIÓN INICIAL BARRA EN EL PLIEGUE DE CADERA

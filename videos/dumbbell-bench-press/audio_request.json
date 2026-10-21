@@ -6,6 +6,7 @@
   "lines": [
     {
       "id": "01",
+      "en": "Dumbbell Bench Press",
       "text": "Press de pecho con mancuernas en banco: escápulas juntas, codos a cuarenta y cinco grados y empuje hasta bloquear."
     },
     {
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

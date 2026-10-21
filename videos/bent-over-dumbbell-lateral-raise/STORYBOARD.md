@@ -45,7 +45,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 8s
-- voiceover: "Claves: el torso queda casi paralelo y quieto, los codos apenas flexionados, subís al costado hasta la altura de los hombros y con las escápulas activas, sin impulso."
+- voiceover: "Claves: torso casi paralelo y quieto, codos apenas flexionados, subís al costado hasta la altura de los hombros y sin impulso."
 - poses: —
 
 ## Frame 7 — A ENTRENAR 12 REPS

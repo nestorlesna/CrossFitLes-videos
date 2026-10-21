@@ -7,7 +7,7 @@
 
 ## Line 1 — CROSSFIT · ACTIVACIÓN (Frame 1)
 
-    Dead Bug Hold con mancuerna: core firme y espalda baja protegida. Ahí se gana la estabilidad.
+    Dead Bug Hold with Dumbbell: core firme y espalda baja protegida. Ahí se gana la estabilidad.
 
 ## Line 2 — POSICIÓN INICIAL (Frame 2)
 

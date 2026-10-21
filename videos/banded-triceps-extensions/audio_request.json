@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Bandéd tráiceps exténshons: extensión de codo con banda, codos altos y quietos. Tríceps aislado en cualquier lado."
+      "en": "Banded Triceps Extensions",
+      "text": "Extensión de codo con banda, codos altos y quietos. Tríceps aislado en cualquier lado."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Push jerk: dip corto, impulso de piernas y meterse abajo. La barra sube porque el cuerpo baja, no por los brazos."
+      "en": "Barbell Push Jerk",
+      "text": "Dip corto, impulso de piernas y meterse abajo. La barra sube porque el cuerpo baja, no por los brazos."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

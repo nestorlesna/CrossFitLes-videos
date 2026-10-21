@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Súperman jold: la cadena de atrás completa, de la nuca a los talones. Espalda baja fuerte y sana."
+      "en": "Superman Hold",
+      "text": "La cadena de atrás completa, de la nuca a los talones. Espalda baja fuerte y sana."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Tou toch sit ap: sentado desde el piso tocás la punta de los pies. Recorrido completo, no cranch."
+      "en": "Toe Touch Sit-Up",
+      "text": "Sentado desde el piso tocás la punta de los pies. Recorrido completo, no cranch."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

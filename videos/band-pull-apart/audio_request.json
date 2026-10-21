@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Band pul apárt: la banda al pecho con los brazos rectos. El uno para activar los hombros."
+      "en": "Band Pull-Apart",
+      "text": "La banda al pecho con los brazos rectos. El uno para activar los hombros."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

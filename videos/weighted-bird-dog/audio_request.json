@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Uéited berd dog: en cuadrupedia extendés brazo y pierna opuestos con una mancuerna. Core y glúteos."
+      "en": "Weighted Bird Dog",
+      "text": "En cuadrupedia extendés brazo y pierna opuestos con una mancuerna. Core y glúteos."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

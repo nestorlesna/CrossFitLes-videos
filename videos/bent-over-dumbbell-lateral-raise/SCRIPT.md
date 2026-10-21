@@ -27,7 +27,7 @@
 
 ## Line 6 — CLAVES (Frame 6)
 
-    Claves: el torso queda casi paralelo y quieto, los codos apenas flexionados, subís al costado hasta la altura de los hombros y con las escápulas activas, sin impulso.
+    Claves: torso casi paralelo y quieto, codos apenas flexionados, subís al costado hasta la altura de los hombros y sin impulso.
 
 ## Line 7 — A ENTRENAR (Frame 7)
 

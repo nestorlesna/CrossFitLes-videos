@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Jólou rok: la mecedora que blinda tu core. El cuerpo se mueve como una sola pieza, sin flexionar la cadera."
+      "en": "Hollow Rock",
+      "text": "La mecedora que blinda tu core. El cuerpo se mueve como una sola pieza, sin flexionar la cadera."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

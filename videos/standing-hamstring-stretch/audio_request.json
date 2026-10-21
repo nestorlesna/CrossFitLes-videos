@@ -6,6 +6,7 @@
   "lines": [
     {
       "id": "01",
+      "en": "Hamstring Stretch",
       "text": "Estiramiento de isquios de pie: la espalda se mantiene larga y todo sale de la cadera. Sin redondear ni tirar."
     },
     {
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

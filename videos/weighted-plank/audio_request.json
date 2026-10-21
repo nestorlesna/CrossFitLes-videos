@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Uéited planc: la plancha baja con un disco en la espalda. Core de acero, sin moverse ni un milímetro."
+      "en": "Weighted Plank",
+      "text": "La plancha baja con un disco en la espalda. Core de acero, sin moverse ni un milímetro."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

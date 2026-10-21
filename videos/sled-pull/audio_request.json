@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "esled pul: arrastre de trineo con cuerda. Tirás caminando hacia atrás, con pasos cortos y la cadena posterior encendida."
+      "en": "Sled Pull",
+      "text": "Arrastre de trineo con cuerda. Tirás caminando hacia atrás, con pasos cortos y la cadena posterior encendida."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

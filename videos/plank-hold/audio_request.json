@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Planc jould: la plancha. Core activo de la cabeza a los talones, sin moverte."
+      "en": "Plank Hold",
+      "text": "La plancha. Core activo de la cabeza a los talones, sin moverte."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

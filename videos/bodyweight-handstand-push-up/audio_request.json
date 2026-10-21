@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Jands-tand puch ap: la flexión en pino. Deltoides y tríceps a full, con el cuerpo en línea."
+      "en": "Bodyweight Handstand Push-Up",
+      "text": "La flexión en pino. Deltoides y tríceps a full, con el cuerpo en línea."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

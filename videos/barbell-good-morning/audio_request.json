@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Bárbel gud mórnin: la bisagra de cadera con la barra en la espalda. Activa glúteos, isquios y espalda baja."
+      "en": "Barbell Good Morning",
+      "text": "La bisagra de cadera con la barra en la espalda. Activa glúteos, isquios y espalda baja."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

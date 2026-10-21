@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Burpee: del piso al salto en un solo movimiento. El ejercicio que te sube las pulsaciones en diez segundos."
+      "en": "Bodyweight Burpee",
+      "text": "Del piso al salto en un solo movimiento. El ejercicio que te sube las pulsaciones en diez segundos."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

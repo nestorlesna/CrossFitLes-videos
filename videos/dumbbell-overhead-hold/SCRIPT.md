@@ -23,11 +23,11 @@
 
 ## Line 5 — PASO 3 / 3 (Frame 5)
 
-    Paso tres. Si dejás los codos flexionados las mancuernas se van hacia adelante y el hombro trabaja de más; y si arqueás la lumbar para sostenerlas, la espalda sufre. Evitalo.
+    Paso tres. Con los codos flexionados las mancuernas se van adelante y el hombro trabaja de más; si arqueás la lumbar, sufre la espalda. Evitalo.
 
 ## Line 6 — CLAVES (Frame 6)
 
-    Claves: los codos completamente bloqueados, los bíceps cerca de las orejas, las costillas abajo con los glúteos firmes para no arquear la lumbar, y respirá sin perder la tensión.
+    Claves: codos bloqueados, bíceps cerca de las orejas, costillas abajo y glúteos firmes para no arquear, y respirá sin perder la tensión.
 
 ## Line 7 — A ENTRENAR (Frame 7)
 

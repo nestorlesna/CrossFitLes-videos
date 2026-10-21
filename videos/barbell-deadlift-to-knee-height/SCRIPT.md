@@ -7,7 +7,7 @@
 
 ## Line 1 — CROSSFIT · FUERZA (Frame 1)
 
-    Deadlift a la altura de la rodilla: peso muerto parcial para fijar la posición de salida del clean y el snatch.
+    Barbell Deadlift to Knee Height: peso muerto parcial para fijar la posición de salida del clean y el snatch.
 
 ## Line 2 — POSICIÓN INICIAL (Frame 2)
 

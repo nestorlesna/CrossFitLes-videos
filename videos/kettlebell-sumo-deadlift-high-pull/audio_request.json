@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "kételbel sumo dédlift jái pul: despegue sumo y tirón alto hasta el pecho con la kettlebell. Potencia pura de cadena posterior."
+      "en": "Kettlebell Sumo Deadlift High Pull",
+      "text": "Despegue sumo y tirón alto hasta el pecho con la kettlebell. Potencia pura de cadena posterior."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

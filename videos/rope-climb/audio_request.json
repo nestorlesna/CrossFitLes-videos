@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "roup climb: subir la cuerda hasta el tope con brazos, espalda y piernas. Técnica antes que velocidad."
+      "en": "Rope Climb",
+      "text": "Subir la cuerda hasta el tope con brazos, espalda y piernas. Técnica antes que velocidad."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

@@ -10,7 +10,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 4.8s
-- voiceover: "Push jerk: dip corto, impulso de piernas y meterse abajo. La barra sube porque el cuerpo baja, no por los brazos."
+- voiceover: "Barbell Push Jerk: dip corto, impulso de piernas y meterse abajo. La barra sube porque el cuerpo baja, no por los brazos."
 - poses: —
 
 ## Frame 2 — POSICIÓN INICIAL BARRA EN RACK FRONTAL

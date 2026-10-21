@@ -10,7 +10,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 4.8s
-- voiceover: "Dead Bug Hold con mancuerna: core firme y espalda baja protegida. Ahí se gana la estabilidad."
+- voiceover: "Dead Bug Hold with Dumbbell: core firme y espalda baja protegida. Ahí se gana la estabilidad."
 - poses: START
 
 ## Frame 2 — POSICIÓN INICIAL BOCA ARRIBA MANCUERNA ARRIBA

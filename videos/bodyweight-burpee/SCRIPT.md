@@ -7,7 +7,7 @@
 
 ## Line 1 — CROSSFIT · WOD (Frame 1)
 
-    Burpee: del piso al salto en un solo movimiento. El ejercicio que te sube las pulsaciones en diez segundos.
+    Bodyweight Burpee: del piso al salto en un solo movimiento. El ejercicio que te sube las pulsaciones en diez segundos.
 
 ## Line 2 — POSICIÓN INICIAL (Frame 2)
 

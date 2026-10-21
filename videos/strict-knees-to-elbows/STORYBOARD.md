@@ -10,7 +10,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 4.8s
-- voiceover: "Knees to Elbows estricto: colgado de la barra subís las rodillas hasta tocar los codos, sin impulso."
+- voiceover: "Strict Knees to Elbows: colgado de la barra subís las rodillas hasta tocar los codos, sin impulso."
 - poses: —
 
 ## Frame 2 — POSICIÓN INICIAL COLGADO ESTRICTO

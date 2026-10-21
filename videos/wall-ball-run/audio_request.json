@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Wall ball run: correr con el balón al pecho. Cardio, piernas y hombros sostenidos sin perder el ritmo."
+      "en": "Wall Ball Run",
+      "text": "Correr con el balón al pecho. Cardio, piernas y hombros sostenidos sin perder el ritmo."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

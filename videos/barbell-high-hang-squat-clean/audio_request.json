@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "High hang squat clean: la barra sale de la cadera, no del piso. Extensión, tirón alto y caer abajo."
+      "en": "High Hang Squat Clean",
+      "text": "La barra sale de la cadera, no del piso. Extensión, tirón alto y caer abajo."
     },
     {
       "id": "02",
@@ -43,5 +44,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

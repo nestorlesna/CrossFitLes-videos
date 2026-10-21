@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Uálkin: caminar tranquilo entre estaciones, para bajar pulsaciones sin frenar del todo el circuito."
+      "en": "Walking",
+      "text": "Caminar tranquilo entre estaciones, para bajar pulsaciones sin frenar del todo el circuito."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

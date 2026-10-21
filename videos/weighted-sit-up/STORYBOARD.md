@@ -10,7 +10,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 4.8s
-- voiceover: "Sit-up con disco: subir con el abdomen, no con el cuello. El peso suma resistencia, no hace el trabajo por vos."
+- voiceover: "Weighted Sit-Up: subir con el abdomen, no con el cuello. El peso suma resistencia, no hace el trabajo por vos."
 - poses: —
 
 ## Frame 2 — POSICIÓN INICIAL ESPALDA EN EL PISO

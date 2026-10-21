@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Knees to Elbows estricto: colgado de la barra subís las rodillas hasta tocar los codos, sin impulso."
+      "en": "Strict Knees to Elbows",
+      "text": "Colgado de la barra subís las rodillas hasta tocar los codos, sin impulso."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

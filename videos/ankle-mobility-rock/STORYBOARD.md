@@ -10,7 +10,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 4.8s
-- voiceover: "Rock de tobillo: la rodilla va para adelante y el talón no se despega. Sin eso, el tobillo no se mueve."
+- voiceover: "Ankle Mobility Rock: la rodilla va para adelante y el talón no se despega. Sin eso, el tobillo no se mueve."
 - poses: —
 
 ## Frame 2 — POSICIÓN INICIAL MEDIA ARRODILLADA

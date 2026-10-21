@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "dambel ouverjed jold: con dos mancuernas extendidas sobre la cabeza, aguantás la posición sin moverte. Hombros estables, core firme y codos bloqueados."
+      "en": "Dumbbell Overhead Hold",
+      "text": "Con dos mancuernas extendidas sobre la cabeza, aguantás la posición sin moverte. Hombros estables, core firme y codos bloqueados."
     },
     {
       "id": "02",
@@ -22,11 +23,11 @@
     },
     {
       "id": "05",
-      "text": "Paso tres. Si dejás los codos flexionados las mancuernas se van hacia adelante y el hombro trabaja de más; y si arqueás la lumbar para sostenerlas, la espalda sufre. Evitalo."
+      "text": "Paso tres. Con los codos flexionados las mancuernas se van adelante y el hombro trabaja de más; si arqueás la lumbar, sufre la espalda. Evitalo."
     },
     {
       "id": "06",
-      "text": "Claves: los codos completamente bloqueados, los bíceps cerca de las orejas, las costillas abajo con los glúteos firmes para no arquear la lumbar, y respirá sin perder la tensión."
+      "text": "Claves: codos bloqueados, bíceps cerca de las orejas, costillas abajo y glúteos firmes para no arquear, y respirá sin perder la tensión."
     },
     {
       "id": "07",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

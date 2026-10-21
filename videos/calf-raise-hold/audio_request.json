@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "kalf raise hold: subís a la punta y te quedás ahí. Treinta segundos que te salvan la rodilla."
+      "en": "Calf Raise Hold",
+      "text": "Subís a la punta y te quedás ahí. Treinta segundos que te salvan la rodilla."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

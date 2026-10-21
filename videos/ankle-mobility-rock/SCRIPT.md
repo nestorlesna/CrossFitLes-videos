@@ -7,7 +7,7 @@
 
 ## Line 1 — MOVILIDAD · TOBILLO (Frame 1)
 
-    Rock de tobillo: la rodilla va para adelante y el talón no se despega. Sin eso, el tobillo no se mueve.
+    Ankle Mobility Rock: la rodilla va para adelante y el talón no se despega. Sin eso, el tobillo no se mueve.
 
 ## Line 2 — POSICIÓN INICIAL (Frame 2)
 

@@ -6,6 +6,7 @@
   "lines": [
     {
       "id": "01",
+      "en": "Standing Quad Stretch",
       "text": "Estiramiento de cuádriceps de pie: talón a la cola, rodillas juntas y la cadera levemente adelante."
     },
     {
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

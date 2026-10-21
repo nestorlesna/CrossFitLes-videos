@@ -7,7 +7,7 @@
 
 ## Line 1 — CROSSFIT · HABILIDAD (Frame 1)
 
-    Single-leg toes to bar: una pierna toca la barra, la otra queda colgando. Core, agarre y control del balanceo.
+    Single-Leg Toes-to-Bar: una pierna toca la barra, la otra queda colgando. Core, agarre y control del balanceo.
 
 ## Line 2 — POSICIÓN INICIAL (Frame 2)
 

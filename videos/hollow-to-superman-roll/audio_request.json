@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "jólo tu súperman róul: pasás del hollow boca arriba al superman boca abajo girando de costado. Encendés el core y la espalda en un solo movimiento."
+      "en": "Hollow to Superman Roll",
+      "text": "Pasás del hollow boca arriba al superman boca abajo girando de costado. Encendés el core y la espalda en un solo movimiento."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

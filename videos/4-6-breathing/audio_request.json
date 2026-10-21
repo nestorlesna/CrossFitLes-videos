@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Cuatro seis bríthing: inhalá contando cuatro, exhalá contando seis. Un minuto para bajar las pulsaciones."
+      "en": "Four six breathing",
+      "text": "Inhalá contando cuatro, exhalá contando seis. Un minuto para bajar las pulsaciones."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

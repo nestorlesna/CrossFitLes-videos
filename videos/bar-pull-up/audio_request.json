@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Bar pul ap: la dominada estricta. Tirás hasta pasar la barbilla por encima de la barra."
+      "en": "Bar Pull Up",
+      "text": "La dominada estricta. Tirás hasta pasar la barbilla por encima de la barra."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

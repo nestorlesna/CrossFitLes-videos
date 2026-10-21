@@ -10,7 +10,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 4.8s
-- voiceover: "Single-leg toes to bar: una pierna toca la barra, la otra queda colgando. Core, agarre y control del balanceo."
+- voiceover: "Single-Leg Toes-to-Bar: una pierna toca la barra, la otra queda colgando. Core, agarre y control del balanceo."
 - poses: KNEES_1 → TTB_1 → HANG → KNEES_1 → TTB_2
 
 ## Frame 2 — POSICIÓN INICIAL COLGADO ACTIVO

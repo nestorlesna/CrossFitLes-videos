@@ -6,6 +6,7 @@
   "lines": [
     {
       "id": "01",
+      "en": "Calf Raise",
       "text": "Elevación de gemelos: subí hasta la punta y bajá lento. El rebote no cuenta: la fuerza está en el control."
     },
     {
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

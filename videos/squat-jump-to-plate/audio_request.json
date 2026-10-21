@@ -6,6 +6,7 @@
   "lines": [
     {
       "id": "01",
+      "en": "Squat Jump to Plate",
       "text": "Saltá de un lado al otro del disco: potencia de piernas, aterrizaje suave y ritmo. Un básico del WOD."
     },
     {
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

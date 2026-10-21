@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Ded bag: core anti-extensión. Bajás brazo y pierna contrarios sin despegar la lumbar del piso. Lento es la clave."
+      "en": "Dead Bug",
+      "text": "Core anti-extensión. Bajás brazo y pierna contrarios sin despegar la lumbar del piso. Lento es la clave."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

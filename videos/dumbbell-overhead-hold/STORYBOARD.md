@@ -38,14 +38,14 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 6.4s
-- voiceover: "Paso tres. Si dejás los codos flexionados las mancuernas se van hacia adelante y el hombro trabaja de más; y si arqueás la lumbar para sostenerlas, la espalda sufre. Evitalo."
+- voiceover: "Paso tres. Con los codos flexionados las mancuernas se van adelante y el hombro trabaja de más; si arqueás la lumbar, sufre la espalda. Evitalo."
 - poses: ELBOW_BAD → LOCK → ARCH_BAD → LOCK
 
 ## Frame 6 — CLAVES TÉCNICA
 
 - status: animated
 - min: 8.2s
-- voiceover: "Claves: los codos completamente bloqueados, los bíceps cerca de las orejas, las costillas abajo con los glúteos firmes para no arquear la lumbar, y respirá sin perder la tensión."
+- voiceover: "Claves: codos bloqueados, bíceps cerca de las orejas, costillas abajo y glúteos firmes para no arquear, y respirá sin perder la tensión."
 - poses: —
 
 ## Frame 7 — A ENTRENAR 30 SEG

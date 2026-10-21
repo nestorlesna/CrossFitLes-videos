@@ -7,7 +7,7 @@
 
 ## Line 1 — CROSSFIT · HABILIDAD (Frame 1)
 
-    Handstand Push-Up: la flexión en pino. Deltoides y tríceps a full, con el cuerpo en línea.
+    Bodyweight Handstand Push-Up: la flexión en pino. Deltoides y tríceps a full, con el cuerpo en línea.
 
 ## Line 2 — POSICIÓN INICIAL (Frame 2)
 

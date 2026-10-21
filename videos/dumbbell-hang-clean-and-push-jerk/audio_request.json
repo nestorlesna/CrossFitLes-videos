@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "jang clean y push jerk con mancuernas: dos movimientos en uno para ganar potencia de cadera y hombros."
+      "en": "Dumbbell hang clean and push jerk",
+      "text": "Dos movimientos en uno para ganar potencia de cadera y hombros."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

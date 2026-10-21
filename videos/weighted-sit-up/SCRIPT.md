@@ -7,7 +7,7 @@
 
 ## Line 1 — ACTIVACIÓN · CORE (Frame 1)
 
-    Sit-up con disco: subir con el abdomen, no con el cuello. El peso suma resistencia, no hace el trabajo por vos.
+    Weighted Sit-Up: subir con el abdomen, no con el cuello. El peso suma resistencia, no hace el trabajo por vos.
 
 ## Line 2 — POSICIÓN INICIAL (Frame 2)
 

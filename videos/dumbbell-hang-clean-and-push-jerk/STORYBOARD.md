@@ -10,7 +10,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 4.8s
-- voiceover: "Hang clean y push jerk con mancuernas: dos movimientos en uno para ganar potencia de cadera y hombros."
+- voiceover: "DB Hang Clean + Jerk: dos movimientos en uno para ganar potencia de cadera y hombros."
 - poses: —
 
 ## Frame 2 — POSICIÓN INICIAL MANCUERNAS EN HANG

@@ -7,7 +7,7 @@
 
 ## Line 1 — CROSSFIT · FUERZA (Frame 1)
 
-    High Hang Power Clean: la cargada desde el pliegue de la cadera. Recorrido corto, todo depende de la extensión explosiva.
+    Barbell High Hang Power Clean: la cargada desde el pliegue de la cadera. Recorrido corto, todo depende de la extensión explosiva.
 
 ## Line 2 — POSICIÓN INICIAL (Frame 2)
 

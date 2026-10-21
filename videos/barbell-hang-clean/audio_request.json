@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Hang Clean: la cargada que arranca colgada, sin pasar por el piso. Potencia de cadera en un movimiento corto."
+      "en": "Barbell Hang Clean",
+      "text": "La cargada que arranca colgada, sin pasar por el piso. Potencia de cadera en un movimiento corto."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

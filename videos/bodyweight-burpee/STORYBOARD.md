@@ -10,7 +10,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 4.8s
-- voiceover: "Burpee: del piso al salto en un solo movimiento. El ejercicio que te sube las pulsaciones en diez segundos."
+- voiceover: "Bodyweight Burpee: del piso al salto en un solo movimiento. El ejercicio que te sube las pulsaciones en diez segundos."
 - poses: SQUAT → PLANK → CHEST → PLANK → SQUAT → JUMP → LAND → STAND
 
 ## Frame 2 — POSICIÓN INICIAL DE PIE RELAJADO

@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Band pás zru: la banda que te devuelve movilidad de hombro. Pasar y volver, sin tirones."
+      "en": "Band Pass-Through",
+      "text": "La banda que te devuelve movilidad de hombro. Pasar y volver, sin tirones."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

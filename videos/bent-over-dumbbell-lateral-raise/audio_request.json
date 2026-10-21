@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Bent óuver dámbel láteral réis: deltoides posterior y espalda alta. Torso inclinado, brazos casi rectos que se abren a los costados."
+      "en": "Bent-Over Dumbbell Lateral Raise",
+      "text": "Deltoides posterior y espalda alta. Torso inclinado, brazos casi rectos que se abren a los costados."
     },
     {
       "id": "02",
@@ -26,7 +27,7 @@
     },
     {
       "id": "06",
-      "text": "Claves: el torso queda casi paralelo y quieto, los codos apenas flexionados, subís al costado hasta la altura de los hombros y con las escápulas activas, sin impulso."
+      "text": "Claves: torso casi paralelo y quieto, codos apenas flexionados, subís al costado hasta la altura de los hombros y sin impulso."
     },
     {
       "id": "07",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

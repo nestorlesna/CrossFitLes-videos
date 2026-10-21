@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "escuát pres áut: sentadilla con el disco presionado hacia adelante. El contrapeso te ayuda a mantener el torso erguido."
+      "en": "Squat Press-Out",
+      "text": "Sentadilla con el disco presionado hacia adelante. El contrapeso te ayuda a mantener el torso erguido."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

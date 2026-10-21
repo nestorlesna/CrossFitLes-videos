@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Sínguel leg caf reis: el gemelo, una pierna por vez. Subí bien alto y bajá con control."
+      "en": "Single-Leg Calf Raise",
+      "text": "El gemelo, una pierna por vez. Subí bien alto y bajá con control."
     },
     {
       "id": "02",
@@ -35,5 +36,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

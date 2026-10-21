@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Deadlift a la altura de la rodilla: peso muerto parcial para fijar la posición de salida del clin y el snach."
+      "en": "Barbell Deadlift to Knee Height",
+      "text": "Peso muerto parcial para fijar la posición de salida del clin y el snach."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

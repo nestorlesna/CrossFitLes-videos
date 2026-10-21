@@ -7,7 +7,7 @@
 
 ## Line 1 — FUERZA · HABILIDAD (Frame 1)
 
-    Push jerk: dip corto, impulso de piernas y meterse abajo. La barra sube porque el cuerpo baja, no por los brazos.
+    Barbell Push Jerk: dip corto, impulso de piernas y meterse abajo. La barra sube porque el cuerpo baja, no por los brazos.
 
 ## Line 2 — POSICIÓN INICIAL (Frame 2)
 

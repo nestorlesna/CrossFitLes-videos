@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Sit-up con disco: subir con el abdomen, no con el cuello. El peso suma resistencia, no hace el trabajo por vos."
+      "en": "Weighted Sit-Up",
+      "text": "Subir con el abdomen, no con el cuello. El peso suma resistencia, no hace el trabajo por vos."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

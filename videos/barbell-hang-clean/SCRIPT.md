@@ -7,7 +7,7 @@
 
 ## Line 1 — CROSSFIT · FUERZA (Frame 1)
 
-    Hang Clean: la cargada que arranca colgada, sin pasar por el piso. Potencia de cadera en un movimiento corto.
+    Barbell Hang Clean: la cargada que arranca colgada, sin pasar por el piso. Potencia de cadera en un movimiento corto.
 
 ## Line 2 — POSICIÓN INICIAL (Frame 2)
 
