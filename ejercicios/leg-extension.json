@@ -1,0 +1,867 @@
+{
+  "slug": "leg-extension",
+  "name": "Leg Extension",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Cuádriceps"
+  ],
+  "descripcion": "Ajustá el respaldo para que la rodilla quede alineada con el eje de la máquina y el rodillo sobre el tobillo. Extendé las piernas y bajá lento.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 700,
+    "y": 1504.8,
+    "scale": 0.8
+  },
+  "shadow": false,
+  "initialPose": "DOWN",
+  "props": [
+    {
+      "type": "legextension",
+      "pivot": [
+        0,
+        -345
+      ],
+      "seat": [
+        -330,
+        -30,
+        -300
+      ],
+      "back": [
+        -318,
+        -12,
+        430
+      ],
+      "stack": -600,
+      "handle": [
+        -180,
+        -330
+      ],
+      "roll": 205,
+      "pin": 5
+    }
+  ],
+  "poses": {
+    "DOWN": {
+      "t": -90,
+      "b": -12,
+      "hd": -4,
+      "g": 1,
+      "hx": -180,
+      "hy": -330,
+      "ed": 1,
+      "ft": 8,
+      "hip": [
+        -240,
+        -345
+      ],
+      "s": 6
+    },
+    "MID": {
+      "t": -90,
+      "b": -12,
+      "hd": -4,
+      "g": 1,
+      "hx": -180,
+      "hy": -330,
+      "ed": 1,
+      "ft": -20,
+      "hip": [
+        -240,
+        -345
+      ],
+      "s": -45
+    },
+    "UP": {
+      "t": -90,
+      "b": -12,
+      "hd": -4,
+      "g": 1,
+      "hx": -180,
+      "hy": -330,
+      "ed": 1,
+      "ft": -60,
+      "hip": [
+        -240,
+        -345
+      ],
+      "s": -86
+    },
+    "AXIS_BAD": {
+      "t": -90,
+      "b": -12,
+      "hd": -4,
+      "g": 1,
+      "hx": -150,
+      "hy": -330,
+      "ed": 1,
+      "ft": 8,
+      "hip": [
+        -175,
+        -345
+      ],
+      "s": 6
+    },
+    "KICK_BAD": {
+      "t": -82,
+      "b": -26,
+      "hd": -18,
+      "g": 1,
+      "hx": -180,
+      "hy": -330,
+      "ed": 1,
+      "ft": -70,
+      "hip": [
+        -236,
+        -392
+      ],
+      "s": -98
+    },
+    "LOCK_BAD": {
+      "t": -90,
+      "b": -12,
+      "hd": -4,
+      "g": 1,
+      "hx": -180,
+      "hy": -330,
+      "ed": 1,
+      "ft": -72,
+      "hip": [
+        -240,
+        -345
+      ],
+      "s": -99
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "LEG",
+        "EXTENSION"
+      ],
+      "sub": "Extensión de cuádriceps",
+      "vo": "Leg Extension: el sillón de cuádriceps. Aísla el frente del muslo, ideal para empezar y para terminar la rutina de piernas.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.0
+            ],
+            [
+              "DOWN",
+              1.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "También: sillón de cuádriceps",
+      "vo": "También le dicen sillón de cuádriceps. Trabaja solo el cuádriceps, sin cargar la espalda.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            820
+          ],
+          "text": "RESPALDO",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            700,
+            1229
+          ],
+          "r": 30,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "EJE ROJO",
+          "anchor": "end",
+          "at": 1.6
+        },
+        {
+          "type": "ring",
+          "pos": [
+            713,
+            1412
+          ],
+          "r": 40,
+          "at": 2.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1440
+          ],
+          "text": "RODILLO",
+          "anchor": "end",
+          "at": 2.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            880
+          ],
+          "text": "PILA DE PESO",
+          "anchor": "start",
+          "at": 3.2
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "EL",
+        "RESPALDO"
+      ],
+      "sub": "Rodilla alineada con el eje",
+      "vo": "Ajustá el respaldo hasta que la rodilla quede justo al lado del eje rojo de la máquina. Es el ajuste más importante.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            438,
+            1314
+          ],
+          "r": 26,
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            700,
+            1229
+          ],
+          "r": 34,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "RODILLA = EJE",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "RODILLO"
+      ],
+      "sub": "Sobre el tobillo, no el pie",
+      "vo": "Después bajá el rodillo hasta que apoye arriba del tobillo, no sobre el empeine. Y elegí el peso con el pasador.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            713,
+            1412
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1440
+          ],
+          "text": "ARRIBA DEL TOBILLO",
+          "anchor": "end",
+          "at": 1.2
+        },
+        {
+          "type": "ring",
+          "pos": [
+            261,
+            1381
+          ],
+          "r": 34,
+          "at": 3.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            880
+          ],
+          "text": "PASADOR",
+          "anchor": "start",
+          "at": 3.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BIEN",
+        "SENTADO"
+      ],
+      "sub": "Espalda apoyada, manos en manijas",
+      "vo": "Sentate bien atrás, con la espalda apoyada, y agarrate de las manijas de los costados. La cola no se mueve del asiento.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            556,
+            1241
+          ],
+          "r": 34,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            880
+          ],
+          "text": "MANOS EN MANIJAS",
+          "anchor": "start",
+          "at": 1.2
+        },
+        {
+          "type": "ring",
+          "pos": [
+            508,
+            1229
+          ],
+          "r": 64,
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 4",
+      "head": [
+        "EXTENDÉ"
+      ],
+      "sub": "Sin patear",
+      "vo": "Paso uno. Estirá las piernas empujando el rodillo hacia arriba, con fuerza pero sin patear.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            812,
+            1385
+          ],
+          "to": [
+            908,
+            1169
+          ],
+          "at": 0.8,
+          "dur": 1.2,
+          "bend": [
+            60,
+            10
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            900
+          ],
+          "text": "SIN PATEAR",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 4",
+      "head": [
+        "APRETÁ",
+        "ARRIBA"
+      ],
+      "sub": "Un segundo de pausa",
+      "vo": "Paso dos. Arriba, frená un segundo y apretá bien el cuádriceps, sin trabar la rodilla.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            612,
+            1229
+          ],
+          "r": 70,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            880
+          ],
+          "text": "APRETÁ 1 SEGUNDO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 4",
+      "head": [
+        "BAJÁ",
+        "LENTO"
+      ],
+      "sub": "En tres segundos",
+      "vo": "Paso tres. Bajá lento, en tres segundos, resistiendo el peso hasta que la rodilla quede en noventa grados.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.6,
+          "dur": 3.0
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            924,
+            1169
+          ],
+          "to": [
+            820,
+            1385
+          ],
+          "at": 0.8,
+          "dur": 2.6,
+          "bend": [
+            60,
+            10
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            900
+          ],
+          "text": "3 SEGUNDOS",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 4 / 4",
+      "head": [
+        "SIN",
+        "APOYAR"
+      ],
+      "sub": "Las placas no se tocan",
+      "vo": "Paso cuatro. Antes de que las placas se apoyen, arrancá la siguiente repetición. Así el músculo no descansa.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.4,
+          "dur": 2.2
+        }
+      ],
+      "numeral": "4",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            261,
+            1381
+          ],
+          "r": 40,
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            880
+          ],
+          "text": "SIN GOLPE",
+          "anchor": "start",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al subir",
+      "vo": "Soltá el aire mientras estirás las piernas y tomalo mientras bajás. Sin aguantar la respiración.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.2
+            ],
+            [
+              "DOWN",
+              2.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "EJE",
+        "CORRIDO"
+      ],
+      "sub": "La rodilla no coincide",
+      "vo": "Error: sentarte con la rodilla lejos del eje rojo. La rodilla trabaja forzada: ajustá el respaldo antes de empezar.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "AXIS_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            700,
+            1229
+          ],
+          "r": 30,
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            752,
+            1229
+          ],
+          "r": 44,
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "PATEAR",
+        "DE GOLPE"
+      ],
+      "sub": "Con impulso no sirve",
+      "vo": "Error: patear de golpe y levantar la cola del asiento. Es impulso, no músculo: bajá el peso y subí controlado.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "KICK_BAD",
+          "at": 0.5,
+          "dur": 0.35
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            511,
+            1191
+          ],
+          "r": 64,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "RODILLA",
+        "TRABADA"
+      ],
+      "sub": "Arriba, apenas flexionada",
+      "vo": "Error: trabar la rodilla arriba con mucho peso. Estirá casi del todo, pero sin bloquear la articulación.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "LOCK_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            700,
+            1229
+          ],
+          "r": 46,
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Rodilla en el eje rojo",
+        "Rodillo arriba del tobillo",
+        "Pausa de 1 segundo arriba",
+        "Bajá en 3 segundos"
+      ],
+      "vo": "Tips de profe: rodilla en el eje rojo, rodillo arriba del tobillo, pausa de un segundo arriba y bajá en tres segundos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.0
+            ],
+            [
+              "DOWN",
+              1.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Espalda apoyada",
+        "Manos en las manijas",
+        "Sin patear ni rebotar",
+        "Sin trabar la rodilla"
+      ],
+      "vo": "Claves: espalda apoyada, manos en las manijas, sin patear ni rebotar y sin trabar la rodilla arriba.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 15"
+      ],
+      "sub": "Un minuto de pausa",
+      "vo": "Tres series de doce a quince, con un minuto de pausa. Cuando las quince salen fáciles, subí una placa.",
+      "chips": [
+        {
+          "label": "1 · EXTENDÉ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ LENTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.0
+            ],
+            [
+              "DOWN",
+              1.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "grip": 1,
+    "zoom": 1.1,
+    "dy": 110
+  },
+  "youtube": {
+    "titulo": "Leg Extension 🔥 Cómo usar el sillón de cuádriceps bien | Gimnasio",
+    "tags": [
+      "leg extension",
+      "extensión de cuádriceps",
+      "sillón de cuádriceps",
+      "cómo usar el sillón de cuádriceps",
+      "cuádriceps",
+      "piernas",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "errores en el sillón de cuádriceps",
+      "rutina de piernas"
+    ],
+    "descripcion": "🔥 LEG EXTENSION (extensión de cuádriceps en sillón) — cuádriceps fuertes sin cargar la espalda\n\n¿Te molesta la rodilla en el sillón de cuádriceps? Casi siempre es el ajuste del respaldo o el rodillo mal puesto. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el respaldo hasta que la rodilla quede al lado del eje rojo de la máquina.\n2️⃣ Bajá el rodillo hasta que apoye arriba del tobillo, no sobre el empeine.\n3️⃣ Elegí el peso con el pasador: uno que puedas mover 15 veces sin patear.\n\n📋 PASO A PASO\n1️⃣ Sentate bien atrás, espalda apoyada y manos en las manijas.\n2️⃣ Estirá las piernas con fuerza pero sin patear.\n3️⃣ Arriba, pausa de un segundo apretando el cuádriceps, sin trabar la rodilla.\n4️⃣ Bajá lento, en 3 segundos, hasta unos 90°.\n5️⃣ Arrancá la siguiente antes de que las placas se apoyen.\n\n❌ ERRORES COMUNES\n• Eje mal alineado → ajustá el respaldo hasta que rodilla y eje coincidan.\n• Patear de golpe y levantar la cola → menos peso y subida controlada.\n• Usar impulso → cada repetición arranca desde quieto.\n• Trabar la rodilla con mucho peso → estirá casi del todo, sin bloquear.\n\n💡 TIPS DEL PROFE\n• Rodilla alineada con el eje rojo de la máquina.\n• Rodillo sobre el tobillo, no sobre el pie.\n• Agarrate de las manijas y no levantes la cola.\n• Pausa de un segundo arriba apretando el cuádriceps.\n• Bajá en 3 segundos.\n\n🎯 QUÉ TRABAJA\nCuádriceps\n\n⏱️ CUÁNTO\n3 series de 12–15 repeticiones, con 1 minuto de pausa. Cuando las 15 salen fáciles, subí una placa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #LegExtension #Piernas #Musculacion #Entrenamiento"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Stair Climber",
+      "text": "La escaladora. Subir escaleras sin fin: glúteos, piernas y mucho cardio."
+    },
+    {
+      "id": "02",
+      "text": "También le dicen stepper. Los escalones giran y vos subís siempre en el mismo lugar. Trabaja glúteos y cuádriceps."
+    },
+    {
+      "id": "03",
+      "text": "Subite con la máquina quieta, agarrate de las barandas y arrancá en el nivel más lento."
+    },
+    {
+      "id": "04",
+      "text": "Las manos van apoyadas en las barandas solo para el equilibrio, sin cargar el peso del cuerpo."
+    },
+    {
+      "id": "05",
+      "text": "Tronco erguido, apenas inclinado desde la cadera, y la mirada al frente."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Apoyá el pie completo en cada escalón, no solo la punta."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Empujá con el talón para subir: así trabaja más el glúteo."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Elegí un ritmo que puedas sostener sin colgarte de las barandas."
+    },
+    {
+      "id": "09",
+      "text": "Respirá parejo. Si no podés hablar con frases cortas, bajá el ritmo."
+    },
+    {
+      "id": "10",
+      "text": "Error: colgarte de las barandas con el cuerpo inclinado. Le sacás el trabajo a las piernas: bajá el ritmo."
+    },
+    {
+      "id": "11",
+      "text": "Error: pisar solo con la punta del pie. Se cargan los gemelos y perdés estabilidad: pie completo."
+    },
+    {
+      "id": "12",
+      "text": "Tips de profe: pie completo en cada escalón, manos solo para equilibrio, empujá con el talón y un ritmo que puedas sostener."
+    },
+    {
+      "id": "13",
+      "text": "Claves: tronco erguido, mirada al frente, sin colgarte de las barandas y arrancá lento."
+    },
+    {
+      "id": "14",
+      "text": "De diez a veinte minutos. Por ejemplo: tres minutos suave, nueve a ritmo y tres minutos suave."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

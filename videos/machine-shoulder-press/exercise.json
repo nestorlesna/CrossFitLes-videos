@@ -1,0 +1,759 @@
+{
+  "slug": "machine-shoulder-press",
+  "name": "Machine Shoulder Press",
+  "maquina": true,
+  "category": "GIMNASIO · HOMBROS",
+  "tags": [
+    "Hombros",
+    "Tríceps"
+  ],
+  "descripcion": "Ajustá el asiento para que las manijas queden a la altura de los hombros. Empujá hacia arriba sin trabar codos y bajá controlado.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 720,
+    "y": 1509.6,
+    "scale": 0.66
+  },
+  "shadow": false,
+  "initialPose": "DOWN",
+  "props": [
+    {
+      "type": "shoulderpress",
+      "pivot": [
+        -520,
+        -620
+      ],
+      "frameTop": -1080,
+      "stack": -660,
+      "seat": [
+        -390,
+        -90,
+        -184
+      ],
+      "back": [
+        -318,
+        -4,
+        470
+      ],
+      "pin": 5
+    }
+  ],
+  "poses": {
+    "DOWN": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -4,
+      "hd": 0,
+      "ua": 12,
+      "fa": 166
+    },
+    "MID": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -4,
+      "hd": 0,
+      "ua": 92,
+      "fa": 84
+    },
+    "UP": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -4,
+      "hd": 0,
+      "ua": 168,
+      "fa": 8
+    },
+    "ARCH_BAD": {
+      "hip": [
+        -226,
+        -236
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -22,
+      "hd": -12,
+      "cv": -30,
+      "ua": 172,
+      "fa": 6
+    },
+    "LOW_BAD": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -4,
+      "hd": 0,
+      "ua": -22,
+      "fa": 196
+    },
+    "LOCK_BAD": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -4,
+      "hd": 0,
+      "ua": 178,
+      "fa": -6
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · HOMBROS",
+      "head": [
+        "SHOULDER",
+        "PRESS"
+      ],
+      "sub": "Press de hombros en máquina",
+      "vo": "Machine Shoulder Press: el press de hombros en máquina. Hombros fuertes con la espalda bien apoyada.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.0
+            ],
+            [
+              "DOWN",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "También: shoulder press",
+      "vo": "También le dicen shoulder press. Trabaja los deltoides y suma tríceps y trapecio.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            760
+          ],
+          "text": "PILA DE PESO",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            576,
+            1179
+          ],
+          "r": 36,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            740
+          ],
+          "text": "MANIJAS",
+          "anchor": "end",
+          "at": 1.6
+        },
+        {
+          "type": "ring",
+          "pos": [
+            504,
+            1428
+          ],
+          "r": 26,
+          "at": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            690
+          ],
+          "text": "ALTURA DEL ASIENTO",
+          "anchor": "end",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "EL",
+        "ASIENTO"
+      ],
+      "sub": "Manijas a la altura del hombro",
+      "vo": "Ajustá el asiento para que, al empezar, las manijas queden a la altura de tus hombros.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            504,
+            1428
+          ],
+          "r": 28,
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            576,
+            1179
+          ],
+          "r": 36,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            740
+          ],
+          "text": "ALTURA DEL HOMBRO",
+          "anchor": "end",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "PESO"
+      ],
+      "sub": "Empezá liviano",
+      "vo": "Elegí el peso con el pasador. Empezá liviano: el hombro es una articulación delicada.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            318,
+            1407
+          ],
+          "r": 30,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            760
+          ],
+          "text": "PASADOR",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESPALDA",
+        "PEGADA"
+      ],
+      "sub": "Muñecas sobre los codos",
+      "vo": "Espalda pegada al respaldo, pies firmes en el piso y las muñecas justo arriba de los codos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            576,
+            1179
+          ],
+          "r": 36,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            740
+          ],
+          "text": "MUÑECAS FIRMES",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "EMPUJÁ",
+        "ARRIBA"
+      ],
+      "sub": "Sin arquear la espalda",
+      "vo": "Paso uno. Empujá las manijas hacia arriba, con la espalda pegada y sin arquear la zona lumbar.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            626,
+            1179
+          ],
+          "to": [
+            630,
+            997
+          ],
+          "at": 0.8,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "SIN",
+        "TRABAR"
+      ],
+      "sub": "Casi estirado arriba",
+      "vo": "Paso dos. Arriba, llegá casi a estirar los brazos, sin trabar los codos.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            572,
+            1062
+          ],
+          "r": 36,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            740
+          ],
+          "text": "SIN TRABAR",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "CONTROLADO"
+      ],
+      "sub": "Hasta la altura del hombro",
+      "vo": "Paso tres. Bajá controlado hasta que las manijas lleguen a la altura de los hombros, no más abajo.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.6,
+          "dur": 2.4
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            576,
+            1179
+          ],
+          "r": 40,
+          "at": 2.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            740
+          ],
+          "text": "HASTA EL HOMBRO",
+          "anchor": "end",
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al subir",
+      "vo": "Soltá el aire mientras empujás hacia arriba y tomalo mientras bajás.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.0
+            ],
+            [
+              "DOWN",
+              2.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "ESPALDA",
+        "ARQUEADA"
+      ],
+      "sub": "La lumbar pegada",
+      "vo": "Error: arquear la espalda para empujar. La zona lumbar sufre: apretá el abdomen y bajá el peso.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            571,
+            1354
+          ],
+          "r": 60,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "BAJAR",
+        "DE MÁS"
+      ],
+      "sub": "No pases el hombro con dolor",
+      "vo": "Error: bajar las manijas mucho más abajo que los hombros. Si molesta, frená a la altura del hombro.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "LOW_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            517,
+            1174
+          ],
+          "r": 40,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "CODOS",
+        "TRABADOS"
+      ],
+      "sub": "Casi estirado, nunca trabado",
+      "vo": "Error: trabar los codos arriba. Llegá casi estirado y empezá a bajar.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "LOCK_BAD",
+          "at": 0.5,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            553,
+            1060
+          ],
+          "r": 40,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Manijas a la altura del hombro",
+        "Lumbar pegada",
+        "Arriba sin trabar",
+        "Muñecas sobre los codos"
+      ],
+      "vo": "Tips de profe: manijas a la altura del hombro, lumbar pegada, arriba sin trabar y las muñecas sobre los codos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.0
+            ],
+            [
+              "DOWN",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Espalda pegada",
+        "Pies firmes en el piso",
+        "Bajá controlado",
+        "Sin impulso"
+      ],
+      "vo": "Claves: espalda pegada, pies firmes en el piso, bajá controlado y sin impulso.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12"
+      ],
+      "sub": "Un minuto y medio de pausa",
+      "vo": "Tres series de diez a doce, con un minuto y medio de pausa. Cuando las doce salen fáciles, subí una placa.",
+      "chips": [
+        {
+          "label": "1 · EMPUJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · SIN TRABAR",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ AL HOMBRO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.0
+            ],
+            [
+              "DOWN",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "grip": 0,
+    "zoom": 0.95,
+    "dy": 160
+  },
+  "youtube": {
+    "titulo": "Machine Shoulder Press 🔥 Press de hombros en máquina | Gimnasio",
+    "tags": [
+      "shoulder press",
+      "press de hombros en máquina",
+      "machine shoulder press",
+      "cómo usar shoulder press",
+      "hombros",
+      "deltoides",
+      "tríceps",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "rutina de hombros"
+    ],
+    "descripcion": "🔥 MACHINE SHOULDER PRESS (press de hombros en máquina) — hombros fuertes con la espalda apoyada\n\n¿Arqueás la espalda cuando empujás hacia arriba? Es la forma más rápida de lastimarte la lumbar. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el asiento para que las manijas empiecen a la altura de los hombros.\n2️⃣ Elegí un peso liviano con el pasador para empezar.\n\n📋 PASO A PASO\n1️⃣ Espalda pegada, pies firmes y muñecas arriba de los codos.\n2️⃣ Empujá hacia arriba sin arquear la lumbar.\n3️⃣ Llegá casi a estirar, sin trabar los codos.\n4️⃣ Bajá controlado hasta la altura de los hombros.\n\n❌ ERRORES COMUNES\n• Arquear la espalda → abdomen firme y menos peso.\n• Bajar más que los hombros con dolor → frená a la altura del hombro.\n• Trabar los codos → casi estirado, nunca trabado.\n\n💡 TIPS DEL PROFE\n• Manijas a la altura de los hombros al empezar.\n• Espalda pegada, sin arquear la lumbar.\n• Empujá arriba sin trabar codos.\n• Bajá controlado hasta la altura de los hombros.\n• Muñecas firmes sobre los codos.\n\n🎯 QUÉ TRABAJA\nDeltoides · Tríceps · Trapecio\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto y medio de pausa. Cuando las 12 salen fáciles, subí una placa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #ShoulderPress #Hombros #Musculacion #Entrenamiento"
+  }
+}

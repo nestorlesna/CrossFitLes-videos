@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Hip Thrust Machine",
+      "text": "El empuje de cadera en máquina. El ejercicio rey para los glúteos."
+    },
+    {
+      "id": "02",
+      "text": "También le dicen máquina de glúteos. Trabaja el glúteo mayor y suma los isquiotibiales."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá la almohadilla o el cinturón para que apoye sobre el hueso de la cadera, no sobre la panza."
+    },
+    {
+      "id": "04",
+      "text": "Elegí el peso con el pasador: uno que puedas subir doce veces con pausa arriba."
+    },
+    {
+      "id": "05",
+      "text": "Apoyá la espalda alta en el respaldo, pies firmes al ancho de la cadera y el mentón hacia el pecho."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá la cadera hacia arriba con los talones, hasta alinear el tronco con los muslos."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Arriba, pausa de uno a dos segundos apretando los glúteos. Las tibias quedan verticales."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá controlado hasta casi apoyar la cola, y volvé a subir."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras subís la cadera y tomalo mientras bajás."
+    },
+    {
+      "id": "10",
+      "text": "Error: arquear la zona lumbar arriba y mirar al techo. El movimiento es de cadera: costillas abajo y mentón al pecho."
+    },
+    {
+      "id": "11",
+      "text": "Error: empujar con la punta de los pies. Se cargan los cuádriceps: apoyá bien los talones."
+    },
+    {
+      "id": "12",
+      "text": "Error: subir y bajar rápido, sin pausa. El glúteo trabaja arriba: frená uno o dos segundos en cada repetición."
+    },
+    {
+      "id": "13",
+      "text": "Tips de profe: mentón al pecho, costillas abajo, tibias verticales arriba y pausa de uno a dos segundos apretando."
+    },
+    {
+      "id": "14",
+      "text": "Claves: empujá con los talones, almohadilla en la cadera, bajá controlado y arriba tronco y muslos alineados."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce, con un minuto y medio de pausa. Cuando las doce salen con pausa, subí el peso."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

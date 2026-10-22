@@ -1,0 +1,749 @@
+{
+  "slug": "smith-machine-bench-press",
+  "name": "Smith Machine Bench Press",
+  "maquina": true,
+  "category": "GIMNASIO · PECHO",
+  "tags": [
+    "Pectorales",
+    "Tríceps"
+  ],
+  "descripcion": "Banco plano centrado bajo la barra, que baje a la línea media del pecho. Topes de seguridad apenas por encima del pecho. Agarre algo más ancho que hombros, destrabá, bajá controlado al pecho y empujá.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1508.2,
+    "scale": 0.7
+  },
+  "shadow": false,
+  "initialPose": "TOP",
+  "props": [
+    {
+      "type": "bench",
+      "x0": -560,
+      "x1": 120,
+      "h": 200
+    },
+    {
+      "type": "smith",
+      "x": -200,
+      "top": -1180,
+      "stops": -300,
+      "track": "hands",
+      "r": 70
+    }
+  ],
+  "poses": {
+    "TOP": {
+      "hip": [
+        0,
+        -196
+      ],
+      "ankle": [
+        250,
+        0
+      ],
+      "b": -90,
+      "hd": -92,
+      "ft": 0,
+      "g": 1,
+      "hx": -200,
+      "hy": -516,
+      "ed": 1
+    },
+    "MID": {
+      "hip": [
+        0,
+        -196
+      ],
+      "ankle": [
+        250,
+        0
+      ],
+      "b": -90,
+      "hd": -92,
+      "ft": 0,
+      "g": 1,
+      "hx": -200,
+      "hy": -400,
+      "ed": 1
+    },
+    "BOTTOM": {
+      "hip": [
+        0,
+        -196
+      ],
+      "ankle": [
+        250,
+        0
+      ],
+      "b": -90,
+      "hd": -92,
+      "ft": 0,
+      "g": 1,
+      "hx": -200,
+      "hy": -292,
+      "ed": 1
+    },
+    "NECK_BAD": {
+      "hip": [
+        90,
+        -196
+      ],
+      "ankle": [
+        340,
+        0
+      ],
+      "b": -90,
+      "hd": -92,
+      "ft": 0,
+      "g": 1,
+      "hx": -200,
+      "hy": -292,
+      "ed": 1
+    },
+    "BUTT_BAD": {
+      "hip": [
+        0,
+        -262
+      ],
+      "ankle": [
+        250,
+        0
+      ],
+      "b": -104,
+      "hd": -100,
+      "ft": 0,
+      "g": 1,
+      "hx": -200,
+      "hy": -330,
+      "ed": 1,
+      "cv": -20
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PECHO",
+      "head": [
+        "SMITH",
+        "BENCH PRESS"
+      ],
+      "sub": "Press de banca en Smith",
+      "vo": "Smith Machine Bench Press: el press de banca en la Smith. La barra va guiada y podés entrenar pecho con más seguridad.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              1.8
+            ],
+            [
+              "TOP",
+              1.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "SMITH",
+        "+ BANCO"
+      ],
+      "sub": "Banco plano bajo la barra",
+      "vo": "Es la misma máquina Smith, con un banco plano debajo. Trabaja el pecho y suma tríceps y hombros.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            460,
+            1147
+          ],
+          "r": 80,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            820
+          ],
+          "text": "BARRA GUIADA",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            551,
+            1306
+          ],
+          "r": 40,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            820
+          ],
+          "text": "TOPES",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "EL",
+        "BANCO"
+      ],
+      "sub": "Barra a mitad del pecho",
+      "vo": "Centrá el banco para que la barra baje a la línea media del pecho, no al cuello ni a la panza.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            460,
+            1304
+          ],
+          "r": 80,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            820
+          ],
+          "text": "MITAD DEL PECHO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "LOS",
+        "TOPES"
+      ],
+      "sub": "Apenas arriba del pecho",
+      "vo": "Poné los topes apenas por encima del pecho. Si te quedás sin fuerza, la barra frena ahí.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            551,
+            1306
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            820
+          ],
+          "text": "TOPES PUESTOS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESCÁPULAS",
+        "JUNTAS"
+      ],
+      "sub": "Pies firmes en el piso",
+      "vo": "Acostate con las escápulas juntas y abajo, pies firmes en el piso, y agarrá la barra algo más ancho que los hombros.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            775,
+            1508
+          ],
+          "r": 50,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            820
+          ],
+          "text": "PIES FIRMES",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "DESTRABÁ",
+        "Y BAJÁ"
+      ],
+      "sub": "Controlado hasta el pecho",
+      "vo": "Paso uno. Girá la barra para destrabar y bajala controlado hasta tocar apenas el pecho.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.8,
+          "dur": 2.0
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            420,
+            900
+          ],
+          "to": [
+            420,
+            1060
+          ],
+          "at": 1.0,
+          "dur": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            820
+          ],
+          "text": "CONTROLADO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "CODOS",
+        "A 45°"
+      ],
+      "sub": "No abiertos a 90",
+      "vo": "Paso dos. Los codos van a unos cuarenta y cinco a sesenta grados del cuerpo, no abiertos en cruz.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            521,
+            1397
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            820
+          ],
+          "text": "CODOS A 45°",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "EMPUJÁ"
+      ],
+      "sub": "Sin rebotar",
+      "vo": "Paso tres. Empujá hasta casi estirar los brazos, sin rebotar la barra en el pecho. Al final, trabala.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            820
+          ],
+          "text": "SIN REBOTE",
+          "anchor": "end",
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            820
+          ],
+          "text": "TRABÁ AL TERMINAR",
+          "anchor": "start",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Aire al bajar, soltalo al subir",
+      "vo": "Tomá aire mientras bajás y soltalo mientras empujás.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              2.0
+            ],
+            [
+              "TOP",
+              1.4
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "BARRA AL",
+        "CUELLO"
+      ],
+      "sub": "Mal ubicado en el banco",
+      "vo": "Error: el banco mal ubicado y la barra que baja al cuello. Es peligroso: centrá el banco antes de empezar.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "cut": "NECK_BAD",
+          "at": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.2
+        },
+        {
+          "type": "ring",
+          "pos": [
+            460,
+            1304
+          ],
+          "r": 70,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "COLA",
+        "DESPEGADA"
+      ],
+      "sub": "Cola en el banco",
+      "vo": "Error: despegar la cola del banco para empujar. La lumbar se arquea de más: cola y escápulas apoyadas.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "BUTT_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            600,
+            1325
+          ],
+          "r": 60,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "REBOTAR",
+        "EN EL PECHO"
+      ],
+      "sub": "Tocá apenas",
+      "vo": "Error: rebotar la barra en el pecho para subir. Tocá apenas, frená y empujá.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              0.45
+            ],
+            [
+              "MID",
+              0.25
+            ]
+          ],
+          "at": 0.5,
+          "until": 4.0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 4.1,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            460,
+            1304
+          ],
+          "r": 70,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Escápulas juntas y abajo",
+        "Codos a 45–60°",
+        "Tocá apenas el pecho",
+        "Trabá antes de soltar"
+      ],
+      "vo": "Tips de profe: escápulas juntas y abajo, codos a cuarenta y cinco grados, tocá apenas el pecho y trabá antes de soltar.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              1.8
+            ],
+            [
+              "TOP",
+              1.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Banco centrado",
+        "Topes sobre el pecho",
+        "Pies firmes",
+        "Cola apoyada"
+      ],
+      "vo": "Claves: banco centrado, topes apenas sobre el pecho, pies firmes y la cola apoyada.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10"
+      ],
+      "sub": "Dos minutos de pausa",
+      "vo": "Tres series de ocho a diez, con dos minutos de pausa. Subí el peso de a poco, siempre con los topes puestos.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · TOCÁ APENAS",
+          "at": 1.1
+        },
+        {
+          "label": "3 · EMPUJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              1.8
+            ],
+            [
+              "TOP",
+              1.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "BOTTOM",
+    "grip": 1,
+    "zoom": 1.0,
+    "dy": 40
+  },
+  "youtube": {
+    "titulo": "Smith Machine Bench Press 🔥 Press de banca en Smith | Gimnasio",
+    "tags": [
+      "smith machine bench press",
+      "press de banca en smith",
+      "multipower",
+      "press de banca",
+      "cómo hacer press de banca",
+      "pecho",
+      "pectorales",
+      "tríceps",
+      "máquinas de gimnasio",
+      "gimnasio"
+    ],
+    "descripcion": "🔥 SMITH MACHINE BENCH PRESS (press de banca en Smith) — pecho fuerte con la barra guiada\n\n¿Usás la Smith para hacer pecho sin acomodar el banco? Ese detalle cambia todo. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Centrá el banco para que la barra baje a la mitad del pecho.\n2️⃣ Topes de seguridad apenas por encima del pecho.\n\n📋 PASO A PASO\n1️⃣ Escápulas juntas y abajo, pies firmes, agarre algo más ancho que los hombros.\n2️⃣ Destrabá girando la barra y bajala hasta tocar apenas el pecho.\n3️⃣ Codos a unos 45–60° del cuerpo.\n4️⃣ Empujá hasta casi estirar, sin rebotar, y trabá al terminar.\n\n❌ ERRORES COMUNES\n• No poner los topes → siempre puestos.\n• Barra al cuello o a la panza → centrá el banco.\n• Codos a 90° del cuerpo → a 45–60°.\n• Rebotar la barra en el pecho → tocá apenas.\n• Despegar la cola del banco → cola apoyada.\n\n💡 TIPS DEL PROFE\n• Escápulas juntas y abajo, pegadas al banco.\n• Codos a unos 45–60° del cuerpo.\n• La barra toca apenas el pecho, sin rebotar.\n• Pies firmes en el piso.\n• Trabá la barra girando antes de soltar.\n\n🎯 QUÉ TRABAJA\nPectorales · Tríceps · Hombros anteriores\n\n⏱️ CUÁNTO\n3 series de 8–10 repeticiones, con 2 minutos de pausa. Nivel: intermedio.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\nSi es tu primera vez en esta máquina, pedile al profe del gimnasio que te ajuste la máquina y te mire las primeras series.\n\nSi nunca usaste la Smith, pedile al profe que te ayude a ubicar los topes y la posición de los pies.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #SmithMachine #Pecho #Musculacion #Entrenamiento"
+  },
+  "pronuncia": {
+    "Smith": "Esmit"
+  }
+}

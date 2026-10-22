@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Machine Chest Press",
+      "text": "El press de pecho en máquina. La forma más segura de empezar a entrenar pecho."
+    },
+    {
+      "id": "02",
+      "text": "También le dicen chest press. Trabaja los pectorales y suma tríceps y la parte de adelante del hombro."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá la altura del asiento para que las manijas queden a la altura de la mitad del pecho."
+    },
+    {
+      "id": "04",
+      "text": "Elegí el peso con el pasador: uno que puedas empujar doce veces sin despegar la espalda."
+    },
+    {
+      "id": "05",
+      "text": "Sentate con la espalda pegada, juntá las escápulas y sacá pecho. Agarrá las manijas."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá las manijas hacia adelante, con los codos a unos cuarenta y cinco grados del cuerpo."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Llegá hasta casi estirar los brazos, sin trabar los codos."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Volvé lento hasta sentir que estira el pecho, sin que las placas se apoyen."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras empujás y tomalo mientras volvés."
+    },
+    {
+      "id": "10",
+      "text": "Error: el asiento muy bajo, con las manijas a la altura del cuello. El hombro sufre: subí el asiento."
+    },
+    {
+      "id": "11",
+      "text": "Error: despegar la espalda del respaldo para empujar. Escápulas juntas y pecho alto contra el respaldo."
+    },
+    {
+      "id": "12",
+      "text": "Error: trabar los codos de golpe al final. Llegá casi estirado y empezá a volver."
+    },
+    {
+      "id": "13",
+      "text": "Tips de profe: manijas a la mitad del pecho, escápulas juntas, codos a cuarenta y cinco grados y volvé sin tocar la pila."
+    },
+    {
+      "id": "14",
+      "text": "Claves: espalda pegada, pecho alto, sin trabar los codos y volvé lento."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce, con un minuto y medio de pausa. Cuando las doce salen fáciles, subí una placa."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

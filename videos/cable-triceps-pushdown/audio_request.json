@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Cable Triceps Pushdown",
+      "text": "La extensión de tríceps en polea alta. Simple, segura y perfecta para empezar."
+    },
+    {
+      "id": "02",
+      "text": "También le dicen tríceps en polea o pushdown. Trabaja solo el tríceps, la parte de atrás del brazo."
+    },
+    {
+      "id": "03",
+      "text": "Subí la polea hasta arriba con la perilla y enganchá la barra. Tiene que quedar más alta que tu cabeza."
+    },
+    {
+      "id": "04",
+      "text": "Elegí el peso con el pasador: uno que puedas bajar doce veces sin despegar los codos del cuerpo."
+    },
+    {
+      "id": "05",
+      "text": "Parate cerca de la polea, pies al ancho de la cadera, tronco apenas inclinado y los codos pegados al cuerpo."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá la barra hacia abajo moviendo solo los antebrazos. Los codos no se mueven."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Abajo, con los brazos estirados, apretá el tríceps un segundo."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Subí controlando hasta que el codo quede en noventa grados. Ni más arriba, ni de golpe."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras empujás hacia abajo y tomalo mientras subís."
+    },
+    {
+      "id": "10",
+      "text": "Error: separar los codos del cuerpo y llevarlos adelante. Ahí empuja el hombro: codos pegados, como con una toalla."
+    },
+    {
+      "id": "11",
+      "text": "Error: inclinarte encima de la barra para empujar con el cuerpo. Bajá el peso y dejá el tronco quieto."
+    },
+    {
+      "id": "12",
+      "text": "Error: subir la barra hasta la cara. El tríceps descansa y el codo se carga: frená en noventa grados."
+    },
+    {
+      "id": "13",
+      "text": "Tips de profe: codos pegados como con una toalla, solo se mueven los antebrazos, apretá abajo y con soga abrí las manos al final."
+    },
+    {
+      "id": "14",
+      "text": "Claves: polea alta, tronco apenas inclinado y quieto, codo a noventa grados arriba y sin impulso."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de doce, con un minuto de pausa. Cuando las doce salen fáciles, subí una placa."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

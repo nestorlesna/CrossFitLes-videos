@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Cable Face Pull",
+      "text": "El jalón a la cara con soga. El mejor amigo de tus hombros y de tu postura."
+    },
+    {
+      "id": "02",
+      "text": "Se hace con la polea a la altura de la cara y la soga. Trabaja la parte de atrás del hombro y la espalda alta."
+    },
+    {
+      "id": "03",
+      "text": "Poné la polea a la altura de tu cara o un poco más arriba, y enganchá la soga."
+    },
+    {
+      "id": "04",
+      "text": "Elegí un peso liviano. En este ejercicio manda la calidad del movimiento, no los kilos."
+    },
+    {
+      "id": "05",
+      "text": "Agarrá la soga con los pulgares hacia vos, da un paso atrás y estirá los brazos. Cuerpo firme y derecho."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Tirá la soga hacia la frente separando las manos, como si quisieras partirla al medio."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Los codos van altos y hacia atrás, a la altura de los hombros o más arriba. Mirá la vista de frente."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Pausa de un segundo apretando la espalda alta y volvé lento, sin que la soga te tire de golpe."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras tirás hacia la cara y tomalo mientras volvés."
+    },
+    {
+      "id": "10",
+      "text": "Error: tirarte para atrás con el cuerpo. Si necesitás el cuerpo, el peso es mucho: bajalo."
+    },
+    {
+      "id": "11",
+      "text": "Error: tirar con los codos bajos. Se vuelve un remo y deja de trabajar el hombro: subí los codos."
+    },
+    {
+      "id": "12",
+      "text": "Error: arquear la zona lumbar al tirar. Apretá el abdomen y la cola, y mantené el cuerpo derecho."
+    },
+    {
+      "id": "13",
+      "text": "Tips de profe: codos a la altura de los hombros, manos a los costados de la cara, pausa de un segundo y peso liviano."
+    },
+    {
+      "id": "14",
+      "text": "Claves: polea a la altura de la cara, pulgares hacia vos, el cuerpo quieto y volvé sin golpe."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de doce a quince, con un minuto de pausa. Ideal al final de la rutina de espalda u hombros."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

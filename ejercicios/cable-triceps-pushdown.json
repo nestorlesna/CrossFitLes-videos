@@ -1,0 +1,711 @@
+{
+  "slug": "cable-triceps-pushdown",
+  "name": "Cable Triceps Pushdown",
+  "maquina": true,
+  "category": "GIMNASIO · BRAZOS",
+  "tags": [
+    "Tríceps"
+  ],
+  "descripcion": "Polea alta con barra o cuerda. Codos pegados al cuerpo, empujá hacia abajo hasta estirar los brazos y volvé hasta ~90°.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 420,
+    "y": 1510.9,
+    "scale": 0.62
+  },
+  "shadow": false,
+  "initialPose": "UP",
+  "props": [
+    {
+      "type": "cable",
+      "x": 400,
+      "top": -1220,
+      "pulley": [
+        230,
+        -1110
+      ],
+      "track": 268,
+      "att": "bar",
+      "pin": 5
+    }
+  ],
+  "poses": {
+    "UP": {
+      "b": 8,
+      "hd": 6,
+      "g": 0,
+      "ft": 0,
+      "ua": 10,
+      "fa": 82
+    },
+    "MID": {
+      "b": 8,
+      "hd": 6,
+      "g": 0,
+      "ft": 0,
+      "ua": 8,
+      "fa": 42
+    },
+    "DOWN": {
+      "b": 8,
+      "hd": 6,
+      "g": 0,
+      "ft": 0,
+      "ua": 4,
+      "fa": 2
+    },
+    "ELBOWS_BAD": {
+      "b": 8,
+      "hd": 6,
+      "g": 0,
+      "ft": 0,
+      "ua": 48,
+      "fa": 52
+    },
+    "LEAN_BAD": {
+      "b": 34,
+      "hd": 38,
+      "g": 0,
+      "ft": 0,
+      "ua": 30,
+      "fa": 20
+    },
+    "HIGH_BAD": {
+      "b": 8,
+      "hd": 6,
+      "g": 0,
+      "ft": 0,
+      "ua": 6,
+      "fa": 150
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · BRAZOS",
+      "head": [
+        "TRICEPS",
+        "PUSHDOWN"
+      ],
+      "sub": "Extensión de tríceps en polea",
+      "vo": "Cable Triceps Pushdown: la extensión de tríceps en polea alta. Simple, segura y perfecta para empezar.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.0
+            ],
+            [
+              "UP",
+              1.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "POLEA"
+      ],
+      "sub": "También: tríceps polea",
+      "vo": "También le dicen tríceps en polea o pushdown. Trabaja solo el tríceps, la parte de atrás del brazo.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            563,
+            823
+          ],
+          "r": 34,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            860
+          ],
+          "text": "POLEA ALTA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            562,
+            1149
+          ],
+          "r": 34,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "BARRA",
+          "anchor": "end",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            700,
+            1415
+          ],
+          "r": 30,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1100
+          ],
+          "text": "PASADOR",
+          "anchor": "end",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "POLEA",
+        "ARRIBA"
+      ],
+      "sub": "Más alta que tu cabeza",
+      "vo": "Subí la polea hasta arriba con la perilla y enganchá la barra. Tiene que quedar más alta que tu cabeza.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            605,
+            823
+          ],
+          "r": 26,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            860
+          ],
+          "text": "POLEA ARRIBA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "PESO"
+      ],
+      "sub": "Que no te levante los codos",
+      "vo": "Elegí el peso con el pasador: uno que puedas bajar doce veces sin despegar los codos del cuerpo.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            700,
+            1415
+          ],
+          "r": 34,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1100
+          ],
+          "text": "PASADOR",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "CODOS",
+        "PEGADOS"
+      ],
+      "sub": "Cerca de la polea",
+      "vo": "Parate cerca de la polea, pies al ancho de la cadera, tronco apenas inclinado y los codos pegados al cuerpo.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            463,
+            1153
+          ],
+          "r": 36,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            860
+          ],
+          "text": "CODOS PEGADOS",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "EMPUJÁ",
+        "ABAJO"
+      ],
+      "sub": "Solo se mueven los antebrazos",
+      "vo": "Paso uno. Empujá la barra hacia abajo moviendo solo los antebrazos. Los codos no se mueven.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            463,
+            1153
+          ],
+          "r": 36,
+          "at": 0.8
+        },
+        {
+          "type": "arrow",
+          "from": [
+            622,
+            1149
+          ],
+          "to": [
+            532,
+            1253
+          ],
+          "at": 1.0,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "APRETÁ",
+        "ABAJO"
+      ],
+      "sub": "Un segundo, brazos estirados",
+      "vo": "Paso dos. Abajo, con los brazos estirados, apretá el tríceps un segundo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            462,
+            1253
+          ],
+          "r": 40,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            860
+          ],
+          "text": "APRETÁ 1 SEGUNDO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "SUBÍ",
+        "HASTA 90°"
+      ],
+      "sub": "Controlando el peso",
+      "vo": "Paso tres. Subí controlando hasta que el codo quede en noventa grados. Ni más arriba, ni de golpe.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.6,
+          "dur": 2.0
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            860
+          ],
+          "text": "CODO A 90°",
+          "anchor": "start",
+          "at": 1.6
+        },
+        {
+          "type": "ring",
+          "pos": [
+            463,
+            1153
+          ],
+          "r": 36,
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al empujar",
+      "vo": "Soltá el aire mientras empujás hacia abajo y tomalo mientras subís.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.0
+            ],
+            [
+              "UP",
+              1.8
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "CODOS",
+        "SEPARADOS"
+      ],
+      "sub": "Pegados al cuerpo",
+      "vo": "Error: separar los codos del cuerpo y llevarlos adelante. Ahí empuja el hombro: codos pegados, como con una toalla.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "ELBOWS_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            523,
+            1119
+          ],
+          "r": 40,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "EMPUJAR",
+        "CON EL CUERPO"
+      ],
+      "sub": "El tronco queda quieto",
+      "vo": "Error: inclinarte encima de la barra para empujar con el cuerpo. Bajá el peso y dejá el tronco quieto.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            517,
+            1076
+          ],
+          "r": 60,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "SUBIR DE",
+        "MÁS"
+      ],
+      "sub": "Hasta 90°, no más",
+      "vo": "Error: subir la barra hasta la cara. El tríceps descansa y el codo se carga: frená en noventa grados.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "HIGH_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            496,
+            1063
+          ],
+          "r": 40,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Codos con una toalla",
+        "Solo los antebrazos",
+        "Apretá 1 segundo abajo",
+        "Con soga, abrí al final"
+      ],
+      "vo": "Tips de profe: codos pegados como con una toalla, solo se mueven los antebrazos, apretá abajo y con soga abrí las manos al final.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.0
+            ],
+            [
+              "UP",
+              1.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Polea alta",
+        "Tronco apenas inclinado",
+        "Codo a 90° arriba",
+        "Sin impulso"
+      ],
+      "vo": "Claves: polea alta, tronco apenas inclinado y quieto, codo a noventa grados arriba y sin impulso.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12"
+      ],
+      "sub": "Un minuto de pausa",
+      "vo": "Tres series de doce, con un minuto de pausa. Cuando las doce salen fáciles, subí una placa.",
+      "chips": [
+        {
+          "label": "1 · CODOS PEGADOS",
+          "at": 0.6
+        },
+        {
+          "label": "2 · EMPUJÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SUBÍ A 90°",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.0
+            ],
+            [
+              "UP",
+              1.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "DOWN",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Cable Triceps Pushdown 🔥 Tríceps en polea bien hecho | Gimnasio",
+    "tags": [
+      "triceps pushdown",
+      "extensión de tríceps en polea",
+      "tríceps polea",
+      "pushdown",
+      "cómo hacer tríceps en polea",
+      "tríceps",
+      "brazos",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de brazos"
+    ],
+    "descripcion": "🔥 CABLE TRICEPS PUSHDOWN (extensión de tríceps en polea) — tríceps firmes con un ejercicio simple y seguro\n\n¿Sentís el tríceps en polea más en los hombros que en el brazo? Casi siempre son los codos. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Subí la polea hasta arriba y enganchá la barra o la soga.\n2️⃣ Elegí un peso que puedas bajar 12 veces sin despegar los codos.\n\n📋 PASO A PASO\n1️⃣ Parate cerca de la polea, pies al ancho de la cadera, tronco apenas inclinado.\n2️⃣ Codos pegados al cuerpo.\n3️⃣ Empujá hacia abajo moviendo solo los antebrazos.\n4️⃣ Abajo, brazos estirados, apretá un segundo.\n5️⃣ Subí controlando hasta 90° de codo.\n\n❌ ERRORES COMUNES\n• Separar los codos → pegados al cuerpo, como con una toalla debajo.\n• Inclinarte encima para empujar con el cuerpo → tronco quieto y menos peso.\n• Subir más allá de 90° → frená con el codo en ángulo recto.\n\n💡 TIPS DEL PROFE\n• Codos pegados al cuerpo como si tuvieras una toalla debajo.\n• Solo se mueven los antebrazos.\n• Tronco apenas inclinado y quieto.\n• Apretá abajo un segundo.\n• Con soga, separá las manos al final.\n\n🎯 QUÉ TRABAJA\nTríceps\n\n⏱️ CUÁNTO\n3 series de 12 repeticiones, con 1 minuto de pausa. Cuando las 12 salen fáciles, subí una placa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #TricepsPushdown #Brazos #Musculacion #Entrenamiento"
+  }
+}

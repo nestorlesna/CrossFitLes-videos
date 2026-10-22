@@ -1,0 +1,885 @@
+{
+  "slug": "hack-squat",
+  "name": "Hack Squat",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Cuádriceps",
+    "Glúteos"
+  ],
+  "descripcion": "Espalda contra el respaldo, hombros bajo las almohadillas, pies al ancho de hombros. Destrabá, bajá controlado y subí empujando con todo el pie.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 700,
+    "y": 1507.5,
+    "scale": 0.72
+  },
+  "shadow": false,
+  "initialPose": "TOP",
+  "props": [
+    {
+      "type": "hacksquat",
+      "hip": [
+        -297.8,
+        -394.7
+      ],
+      "lean": -36,
+      "foot": [
+        0,
+        -60
+      ],
+      "plat": -14,
+      "len": 300,
+      "rail": [
+        -470,
+        620
+      ],
+      "stops": -330,
+      "hand": [
+        140.6,
+        -99.6
+      ]
+    }
+  ],
+  "poses": {
+    "TOP": {
+      "hip": [
+        -297.8,
+        -394.7
+      ],
+      "ankle": [
+        0,
+        -60
+      ],
+      "b": -36,
+      "hd": -6,
+      "ft": -14,
+      "g": 0,
+      "ua": 16,
+      "fa": 118
+    },
+    "MID": {
+      "hip": [
+        -228.0,
+        -298.6
+      ],
+      "ankle": [
+        0,
+        -60
+      ],
+      "b": -36,
+      "hd": -6,
+      "ft": -14,
+      "g": 0,
+      "ua": 16,
+      "fa": 118
+    },
+    "BOTTOM": {
+      "hip": [
+        -187.5,
+        -243.0
+      ],
+      "ankle": [
+        0,
+        -60
+      ],
+      "b": -36,
+      "hd": -6,
+      "ft": -14,
+      "g": 0,
+      "ua": 16,
+      "fa": 118
+    },
+    "LOCK_BAD": {
+      "hip": [
+        -309.6,
+        -411.0
+      ],
+      "ankle": [
+        0,
+        -60
+      ],
+      "b": -36,
+      "hd": -6,
+      "ft": -14,
+      "g": 0,
+      "ua": 16,
+      "fa": 118
+    },
+    "HEELS_BAD": {
+      "hip": [
+        -187.5,
+        -243.0
+      ],
+      "ankle": [
+        8,
+        -96
+      ],
+      "b": -36,
+      "hd": -6,
+      "ft": 22,
+      "g": 0,
+      "ua": 16,
+      "fa": 118
+    },
+    "BACK_BAD": {
+      "hip": [
+        -117.5,
+        -273.0
+      ],
+      "ankle": [
+        0,
+        -60
+      ],
+      "b": -2,
+      "hd": 14,
+      "ft": -14,
+      "g": 0,
+      "ua": -10,
+      "fa": 120,
+      "cv": 24
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "HACK",
+        "SQUAT"
+      ],
+      "sub": "Sentadilla hack",
+      "vo": "Hack Squat: la sentadilla hack, guiada sobre rieles. Muchísimo cuádriceps con la espalda apoyada.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              2.0
+            ],
+            [
+              "TOP",
+              1.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "También: hack o sentadilla hack",
+      "vo": "También le dicen hack. Trabaja cuádriceps y glúteos, y suma aductores e isquiotibiales.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            800
+          ],
+          "text": "RESPALDO",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            960
+          ],
+          "text": "DISCOS",
+          "anchor": "end",
+          "at": 1.6
+        },
+        {
+          "type": "ring",
+          "pos": [
+            714,
+            1479
+          ],
+          "r": 60,
+          "at": 2.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1340
+          ],
+          "text": "PLATAFORMA",
+          "anchor": "end",
+          "at": 2.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            561,
+            1462
+          ],
+          "r": 30,
+          "at": 3.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1180
+          ],
+          "text": "TOPE DE SEGURIDAD",
+          "anchor": "end",
+          "at": 3.2
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "LOS",
+        "TOPES"
+      ],
+      "sub": "Tu red de seguridad",
+      "vo": "Antes de cargar, poné los topes de seguridad a una altura que te frene si no podés subir.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            561,
+            1462
+          ],
+          "r": 34,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1180
+          ],
+          "text": "TOPES",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "PESO"
+      ],
+      "sub": "Primero sin discos",
+      "vo": "Cargá discos parejos de los dos lados. La primera vez, probá el movimiento con la máquina sola, sin discos.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            305,
+            1208
+          ],
+          "r": 80,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            960
+          ],
+          "text": "IGUAL DE CADA LADO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESPALDA",
+        "APOYADA"
+      ],
+      "sub": "Hombros bajo las almohadillas",
+      "vo": "Espalda y cadera contra el respaldo, hombros bajo las almohadillas y pies al ancho de los hombros, en el medio.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            484,
+            1099
+          ],
+          "r": 40,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            800
+          ],
+          "text": "HOMBROS ABAJO",
+          "anchor": "start",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            714,
+            1479
+          ],
+          "r": 60,
+          "at": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1340
+          ],
+          "text": "PIES AL MEDIO",
+          "anchor": "end",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 4",
+      "head": [
+        "DESTRABÁ"
+      ],
+      "sub": "Empujá y abrí las trabas",
+      "vo": "Paso uno. Empujá apenas para subir el carro y abrí las trabas de las manijas. Recién ahí empieza la bajada.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            484,
+            1099
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            800
+          ],
+          "text": "ABRÍ LAS TRABAS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 4",
+      "head": [
+        "BAJÁ",
+        "CONTROLADO"
+      ],
+      "sub": "Dos o tres segundos",
+      "vo": "Paso dos. Bajá controlado, en dos o tres segundos, dejando que las rodillas avancen sobre los pies.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.6,
+          "dur": 2.6
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            390,
+            1040
+          ],
+          "to": [
+            484,
+            1169
+          ],
+          "at": 0.8,
+          "dur": 2.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "2 A 3 SEGUNDOS",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 4",
+      "head": [
+        "MUSLOS",
+        "PARALELOS"
+      ],
+      "sub": "O un poco más",
+      "vo": "Paso tres. Bajá hasta que los muslos queden paralelos a la plataforma, o un poco más, sin despegar la espalda.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            735,
+            1302
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "MUSLOS PARALELOS",
+          "anchor": "end",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            565,
+            1333
+          ],
+          "r": 66,
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 4 / 4",
+      "head": [
+        "EMPUJÁ"
+      ],
+      "sub": "Con todo el pie",
+      "vo": "Paso cuatro. Subí empujando con todo el pie, talones firmes, hasta casi estirar las piernas.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.7,
+          "dur": 1.3
+        }
+      ],
+      "numeral": "4",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            714,
+            1479
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1340
+          ],
+          "text": "TALONES FIRMES",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Aire arriba, soltalo al subir",
+      "vo": "Tomá aire arriba antes de bajar y soltalo mientras empujás para subir.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              2.2
+            ],
+            [
+              "TOP",
+              1.4
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "TALONES",
+        "ARRIBA"
+      ],
+      "sub": "Todo el pie apoyado",
+      "vo": "Error: levantar los talones abajo. Toda la carga va a la rodilla: pies un poco más arriba y talones firmes.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.4,
+          "dur": 1.2
+        },
+        {
+          "to": "HEELS_BAD",
+          "at": 1.7,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 2.2
+        },
+        {
+          "type": "ring",
+          "pos": [
+            707,
+            1464
+          ],
+          "r": 56,
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "ESPALDA",
+        "DESPEGADA"
+      ],
+      "sub": "Pegada al respaldo",
+      "vo": "Error: despegar la espalda y la cadera del respaldo. La lumbar queda sin apoyo: bajá solo hasta donde la mantenés.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.4,
+          "dur": 1.2
+        },
+        {
+          "to": "BACK_BAD",
+          "at": 1.7,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 2.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            615,
+            1311
+          ],
+          "r": 64,
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "RODILLAS",
+        "TRABADAS"
+      ],
+      "sub": "Siempre un poco flexionadas",
+      "vo": "Error: trabar las rodillas arriba con todo el peso. Terminá cada repetición con las rodillas apenas flexionadas.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "LOCK_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            603,
+            1330
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Pies al medio, ancho hombros",
+        "Espalda y cadera pegadas",
+        "Muslos paralelos o más",
+        "Empujá con todo el pie"
+      ],
+      "vo": "Tips de profe: pies al medio, espalda y cadera pegadas, bajá hasta muslos paralelos y empujá con todo el pie.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              2.0
+            ],
+            [
+              "TOP",
+              1.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Topes a tu altura",
+        "Rodillas en línea con pies",
+        "Talones firmes",
+        "Nunca trabes las rodillas"
+      ],
+      "vo": "Claves: topes a tu altura, rodillas en línea con los pies, talones firmes y nunca trabes las rodillas.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10"
+      ],
+      "sub": "Dos minutos de pausa",
+      "vo": "Tres series de ocho a diez, con dos minutos de pausa. Subí el peso solo si la técnica sale perfecta.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ LENTO",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PARALELO",
+          "at": 1.1
+        },
+        {
+          "label": "3 · EMPUJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              2.0
+            ],
+            [
+              "TOP",
+              1.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.2,
+      "badge": "AL TERMINAR",
+      "head": [
+        "TRABÁ Y",
+        "DESCARGÁ"
+      ],
+      "sub": "Dejala lista",
+      "vo": "Al terminar, arriba y con las piernas estiradas, cerrá las trabas antes de salir. Después descargá los discos.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            484,
+            1099
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            800
+          ],
+          "text": "CERRÁ LAS TRABAS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "BOTTOM",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 110
+  },
+  "youtube": {
+    "titulo": "Hack Squat 🔥 Cómo hacer la sentadilla hack sin lastimarte | Gimnasio",
+    "tags": [
+      "hack squat",
+      "sentadilla hack",
+      "máquina hack",
+      "cómo hacer sentadilla hack",
+      "cuádriceps",
+      "glúteos",
+      "piernas",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "errores sentadilla hack",
+      "rutina de piernas"
+    ],
+    "descripcion": "🔥 HACK SQUAT (sentadilla hack) — cuádriceps enormes con la espalda apoyada\n\n¿Te duelen las rodillas o la lumbar en la hack? Casi siempre son los talones, la espalda o las rodillas trabadas. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Poné los topes de seguridad a una altura que te frene.\n2️⃣ Cargá discos parejos; la primera vez, probá sin discos.\n3️⃣ Pies al ancho de los hombros, en el medio de la plataforma.\n\n📋 PASO A PASO\n1️⃣ Espalda y cadera contra el respaldo, hombros bajo las almohadillas.\n2️⃣ Empujá apenas y abrí las trabas.\n3️⃣ Bajá en 2–3 segundos dejando que las rodillas avancen sobre los pies.\n4️⃣ Bajá hasta muslos paralelos o un poco más, sin despegar la espalda.\n5️⃣ Subí empujando con todo el pie hasta casi estirar.\n6️⃣ Al terminar, cerrá las trabas antes de salir.\n\n❌ ERRORES COMUNES\n• Rodillas hacia adentro → en la línea de la punta de los pies.\n• Levantar los talones → pies un poco más arriba y talones firmes.\n• Despegar la espalda → bajá solo hasta donde la mantenés pegada.\n• Trabar las rodillas con peso → terminá apenas flexionado.\n\n💡 TIPS DEL PROFE\n• Pies en el medio de la plataforma, al ancho de hombros.\n• Espalda y cadera pegadas al respaldo.\n• Bajá hasta muslos paralelos o un poco más, sin perder la espalda.\n• Empujá con todo el pie.\n• No trabes las rodillas arriba.\n\n🎯 QUÉ TRABAJA\nCuádriceps · Glúteos · Aductores · Isquiotibiales\n\n⏱️ CUÁNTO\n3 series de 8–10 repeticiones, con 2 minutos de pausa. Subí el peso solo si la técnica sale perfecta. Nivel: avanzado.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\nSi es tu primera vez en esta máquina, pedile al profe del gimnasio que te ajuste la máquina y te mire las primeras series.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #HackSquat #Piernas #Musculacion #Entrenamiento"
+  }
+}

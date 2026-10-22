@@ -1,0 +1,764 @@
+{
+  "slug": "lying-leg-curl",
+  "name": "Lying Leg Curl",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Isquiotibiales",
+    "Gemelos"
+  ],
+  "descripcion": "Acostate boca abajo, rodilla alineada con el eje, rodillo arriba del talón. Flexioná llevando los talones a la cola y bajá controlado.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 480,
+    "y": 1506.8,
+    "scale": 0.74
+  },
+  "shadow": false,
+  "initialPose": "EXT",
+  "props": [
+    {
+      "type": "lyinglegcurl",
+      "pivot": [
+        -240,
+        -460
+      ],
+      "top": -414,
+      "x0": -200,
+      "x1": 440,
+      "stack": 610,
+      "handle": [
+        372,
+        -362
+      ],
+      "roll": 215,
+      "pin": 5
+    }
+  ],
+  "poses": {
+    "EXT": {
+      "t": 90,
+      "b": 92,
+      "hd": 74,
+      "g": 1,
+      "hx": 372,
+      "hy": -362,
+      "ed": -1,
+      "hip": [
+        0,
+        -460
+      ],
+      "s": 92,
+      "ft": 92
+    },
+    "MID": {
+      "t": 90,
+      "b": 92,
+      "hd": 74,
+      "g": 1,
+      "hx": 372,
+      "hy": -362,
+      "ed": -1,
+      "hip": [
+        0,
+        -460
+      ],
+      "s": 145,
+      "ft": 145
+    },
+    "CURL": {
+      "t": 90,
+      "b": 92,
+      "hd": 74,
+      "g": 1,
+      "hx": 372,
+      "hy": -362,
+      "ed": -1,
+      "hip": [
+        0,
+        -460
+      ],
+      "s": 200,
+      "ft": 196
+    },
+    "HIP_BAD": {
+      "t": 71,
+      "b": 110,
+      "hd": 92,
+      "g": 1,
+      "hx": 372,
+      "hy": -362,
+      "ed": -1,
+      "hip": [
+        8,
+        -548
+      ],
+      "s": 196,
+      "ft": 192
+    },
+    "POINT_BAD": {
+      "t": 90,
+      "b": 92,
+      "hd": 74,
+      "g": 1,
+      "hx": 372,
+      "hy": -362,
+      "ed": -1,
+      "hip": [
+        0,
+        -460
+      ],
+      "s": 196,
+      "ft": 260
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "LYING",
+        "LEG CURL"
+      ],
+      "sub": "Curl femoral acostado",
+      "vo": "Lying Leg Curl: el curl femoral acostado, en la camilla. Isquiotibiales fuertes para proteger tus rodillas.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CURL",
+              1.0
+            ],
+            [
+              "EXT",
+              2.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "CAMILLA"
+      ],
+      "sub": "También: camilla de femorales",
+      "vo": "También le dicen camilla de femorales. Trabaja los isquiotibiales y suma los gemelos.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            900
+          ],
+          "text": "CAMILLA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            302,
+            1166
+          ],
+          "r": 30,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            1050
+          ],
+          "text": "EJE ROJO",
+          "anchor": "start",
+          "at": 1.6
+        },
+        {
+          "type": "ring",
+          "pos": [
+            140,
+            1119
+          ],
+          "r": 40,
+          "at": 2.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            900
+          ],
+          "text": "PILA DE PESO",
+          "anchor": "end",
+          "at": 3.2
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "EL",
+        "RODILLO"
+      ],
+      "sub": "Arriba del talón",
+      "vo": "Ajustá el rodillo para que apoye justo arriba del talón, en la parte de abajo de la pantorrilla.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            140,
+            1119
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            900
+          ],
+          "text": "ARRIBA DEL TALÓN",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "PESO"
+      ],
+      "sub": "Empezá liviano",
+      "vo": "Elegí el peso con el pasador. Arrancá liviano: los femorales se cansan rápido y la cadera empieza a hacer trampa.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            969,
+            1392
+          ],
+          "r": 34,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            900
+          ],
+          "text": "PASADOR",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "RODILLA",
+        "EN EL BORDE"
+      ],
+      "sub": "Alineada con el eje",
+      "vo": "Acostate boca abajo con la rodilla apenas fuera del borde, alineada con el eje rojo. Agarrá las manijas.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            302,
+            1166
+          ],
+          "r": 36,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            1050
+          ],
+          "text": "RODILLA = EJE",
+          "anchor": "start",
+          "at": 1.2
+        },
+        {
+          "type": "ring",
+          "pos": [
+            755,
+            1239
+          ],
+          "r": 34,
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 4",
+      "head": [
+        "PIES EN",
+        "FLEXIÓN"
+      ],
+      "sub": "Puntas hacia la tibia",
+      "vo": "Paso uno. Poné los pies en flexión, con las puntas hacia la tibia. Así trabajan más los femorales.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            132,
+            1160
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            900
+          ],
+          "text": "PUNTAS A LA TIBIA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 4",
+      "head": [
+        "TALONES",
+        "A LA COLA"
+      ],
+      "sub": "En un segundo",
+      "vo": "Paso dos. Flexioná las rodillas llevando los talones hacia la cola, en un segundo, con la cadera pegada.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "CURL",
+          "at": 0.6,
+          "dur": 1.1
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            95,
+            1107
+          ],
+          "to": [
+            310,
+            944
+          ],
+          "at": 0.8,
+          "dur": 1.0,
+          "bend": [
+            -60,
+            -60
+          ]
+        },
+        {
+          "type": "ring",
+          "pos": [
+            480,
+            1166
+          ],
+          "r": 64,
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 4",
+      "head": [
+        "BAJÁ",
+        "LENTO"
+      ],
+      "sub": "En tres segundos",
+      "vo": "Paso tres. Bajá controlado, en tres segundos, sin dejar que el peso te estire las piernas de golpe.",
+      "moves": [
+        {
+          "cut": "CURL",
+          "at": 0
+        },
+        {
+          "to": "EXT",
+          "at": 0.6,
+          "dur": 3.0
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            900
+          ],
+          "text": "3 SEGUNDOS",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 4 / 4",
+      "head": [
+        "CASI",
+        "ESTIRADO"
+      ],
+      "sub": "Sin golpe abajo",
+      "vo": "Paso cuatro. Abajo frená antes de estirar del todo, sin golpe, y arrancá la siguiente.",
+      "moves": [
+        {
+          "cut": "CURL",
+          "at": 0
+        },
+        {
+          "to": "EXT",
+          "at": 0.4,
+          "dur": 2.4
+        }
+      ],
+      "numeral": "4",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            969,
+            1392
+          ],
+          "r": 40,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            900
+          ],
+          "text": "SIN GOLPE",
+          "anchor": "end",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al subir los talones",
+      "vo": "Soltá el aire mientras llevás los talones a la cola y tomalo mientras bajás.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CURL",
+              1.0
+            ],
+            [
+              "EXT",
+              2.4
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 2",
+      "head": [
+        "CADERA",
+        "ARRIBA"
+      ],
+      "sub": "La cadera queda pegada",
+      "vo": "Error: levantar la cadera de la camilla para subir el peso. La cadera queda pegada todo el tiempo: bajá el peso.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "HIP_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            486,
+            1101
+          ],
+          "r": 70,
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 2",
+      "head": [
+        "DEJAR",
+        "CAER"
+      ],
+      "sub": "El peso no te gana",
+      "vo": "Error: subir con impulso y dejar caer el peso. Sin balanceo: un segundo para subir y tres para bajar.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CURL",
+              0.3
+            ],
+            [
+              "EXT",
+              0.3
+            ]
+          ],
+          "at": 0.5,
+          "until": 4.0
+        },
+        {
+          "to": "CURL",
+          "at": 4.1,
+          "dur": 0.3
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            969,
+            1392
+          ],
+          "r": 40,
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            900
+          ],
+          "text": "SIN CONTROL",
+          "anchor": "end",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Rodilla en el eje",
+        "Cadera pegada siempre",
+        "Puntas hacia la tibia",
+        "Subí en 1, bajá en 3"
+      ],
+      "vo": "Tips de profe: rodilla en el eje, cadera siempre pegada, puntas hacia la tibia y subí en un segundo, bajá en tres.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CURL",
+              1.0
+            ],
+            [
+              "EXT",
+              2.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Rodillo arriba del talón",
+        "Manos en las manijas",
+        "Sin balanceo",
+        "Sin golpe abajo"
+      ],
+      "vo": "Claves: rodillo arriba del talón, manos en las manijas, sin balanceo y sin golpe abajo.",
+      "moves": [
+        {
+          "cut": "CURL",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12"
+      ],
+      "sub": "Un minuto y medio de pausa",
+      "vo": "Tres series de diez a doce, con un minuto y medio de pausa. Cuando las doce salen fáciles, subí una placa.",
+      "chips": [
+        {
+          "label": "1 · TALONES A LA COLA",
+          "at": 0.6
+        },
+        {
+          "label": "2 · CADERA PEGADA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ EN 3",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CURL",
+              1.0
+            ],
+            [
+              "EXT",
+              2.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "CURL",
+    "grip": 1,
+    "zoom": 1.0,
+    "dy": 40
+  },
+  "youtube": {
+    "titulo": "Lying Leg Curl 🔥 Cómo usar la camilla de femorales | Gimnasio",
+    "tags": [
+      "lying leg curl",
+      "curl femoral acostado",
+      "camilla de femorales",
+      "leg curl",
+      "cómo hacer curl femoral",
+      "isquiotibiales",
+      "femorales",
+      "piernas",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes"
+    ],
+    "descripcion": "🔥 LYING LEG CURL (curl femoral acostado) — femorales fuertes para cuidar las rodillas\n\n¿Se te levanta la cadera en la camilla? Es el error número uno, y casi siempre es por el peso. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el rodillo para que apoye justo arriba del talón.\n2️⃣ Elegí un peso liviano con el pasador para empezar.\n\n📋 PASO A PASO\n1️⃣ Boca abajo, rodilla apenas fuera del borde y alineada con el eje rojo; manos en las manijas.\n2️⃣ Pies en flexión, con las puntas hacia la tibia.\n3️⃣ Llevá los talones hacia la cola en un segundo, con la cadera pegada.\n4️⃣ Bajá controlado en tres segundos.\n5️⃣ Frená antes de estirar del todo, sin golpe.\n\n❌ ERRORES COMUNES\n• Levantar la cadera de la camilla → bajá el peso, la cadera queda pegada.\n• Balancear el cuerpo → movimiento solo de rodillas.\n• Dejar caer el peso → tres segundos para bajar.\n\n💡 TIPS DEL PROFE\n• Rodilla apenas fuera del borde, alineada con el eje.\n• Cadera pegada a la camilla todo el tiempo.\n• Pies en flexión (puntas hacia la tibia).\n• Subí en 1 segundo, bajá en 3.\n• Sin llegar a estirar del todo con golpe.\n\n🎯 QUÉ TRABAJA\nIsquiotibiales · Gemelos\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto y medio de pausa. Cuando las 12 salen fáciles, subí una placa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #LyingLegCurl #Piernas #Musculacion #Entrenamiento"
+  }
+}

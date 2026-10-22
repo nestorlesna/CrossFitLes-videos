@@ -1,0 +1,716 @@
+{
+  "slug": "stair-climber",
+  "name": "Stair Climber",
+  "maquina": true,
+  "category": "GIMNASIO · CARDIO",
+  "tags": [
+    "Glúteos",
+    "Cardio"
+  ],
+  "descripcion": "Subite y empezá a ritmo lento. Pisá con el pie completo, tronco erguido, manos apenas apoyadas para equilibrio.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 540,
+    "y": 1506.2,
+    "scale": 0.76
+  },
+  "shadow": false,
+  "initialPose": "STEP_A",
+  "props": [
+    {
+      "type": "stairclimber",
+      "base": [
+        -460,
+        34
+      ],
+      "x": 340,
+      "rail": -700
+    }
+  ],
+  "poses": {
+    "STEP_A": {
+      "hip": [
+        -10,
+        -496
+      ],
+      "ankle": [
+        80,
+        -150
+      ],
+      "ankle2": [
+        -30,
+        -40
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "b": 10,
+      "hd": 4,
+      "g": 1,
+      "hx": 200,
+      "hy": -700,
+      "ed": -1
+    },
+    "STEP_B": {
+      "hip": [
+        -10,
+        -496
+      ],
+      "ankle": [
+        -30,
+        -40
+      ],
+      "ankle2": [
+        80,
+        -150
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "b": 10,
+      "hd": 4,
+      "g": 1,
+      "hx": 200,
+      "hy": -700,
+      "ed": -1
+    },
+    "MID": {
+      "hip": [
+        -10,
+        -520
+      ],
+      "ankle": [
+        50,
+        -95
+      ],
+      "ankle2": [
+        0,
+        -95
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "b": 10,
+      "hd": 4,
+      "g": 1,
+      "hx": 200,
+      "hy": -700,
+      "ed": -1
+    },
+    "HANG_BAD": {
+      "hip": [
+        -40,
+        -450
+      ],
+      "ankle": [
+        80,
+        -150
+      ],
+      "ankle2": [
+        -30,
+        -40
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "b": 42,
+      "hd": 30,
+      "g": 1,
+      "hx": 150,
+      "hy": -640,
+      "ed": -1
+    },
+    "TOES_BAD": {
+      "hip": [
+        -10,
+        -496
+      ],
+      "ankle": [
+        80,
+        -150
+      ],
+      "ankle2": [
+        -30,
+        -40
+      ],
+      "ft": 36,
+      "ft2": 36,
+      "b": 10,
+      "hd": 4,
+      "g": 1,
+      "hx": 200,
+      "hy": -700,
+      "ed": -1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · CARDIO",
+      "head": [
+        "STAIR",
+        "CLIMBER"
+      ],
+      "sub": "Escaladora",
+      "vo": "Stair Climber: la escaladora. Subir escaleras sin fin: glúteos, piernas y mucho cardio.",
+      "moves": [
+        {
+          "cut": "STEP_A",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "STEP_A",
+              0.45
+            ],
+            [
+              "STEP_B",
+              0.45
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "ESCALADORA"
+      ],
+      "sub": "También: stepper o escalera",
+      "vo": "También le dicen stepper. Los escalones giran y vos subís siempre en el mismo lugar. Trabaja glúteos y cuádriceps.",
+      "moves": [
+        {
+          "cut": "STEP_A",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            616,
+            1430
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            820
+          ],
+          "text": "ESCALONES",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            646,
+            974
+          ],
+          "r": 34,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            820
+          ],
+          "text": "BARANDAS",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "RITMO",
+        "LENTO"
+      ],
+      "sub": "Para empezar",
+      "vo": "Subite con la máquina quieta, agarrate de las barandas y arrancá en el nivel más lento.",
+      "moves": [
+        {
+          "cut": "STEP_A",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            820
+          ],
+          "text": "NIVEL BAJO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "MANOS",
+        "APENAS"
+      ],
+      "sub": "Solo para el equilibrio",
+      "vo": "Las manos van apoyadas en las barandas solo para el equilibrio, sin cargar el peso del cuerpo.",
+      "moves": [
+        {
+          "cut": "STEP_A",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            646,
+            974
+          ],
+          "r": 40,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            820
+          ],
+          "text": "SOLO EQUILIBRIO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "TRONCO",
+        "ERGUIDO"
+      ],
+      "sub": "Apenas inclinado desde la cadera",
+      "vo": "Tronco erguido, apenas inclinado desde la cadera, y la mirada al frente.",
+      "moves": [
+        {
+          "cut": "STEP_A",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            820
+          ],
+          "text": "TRONCO ERGUIDO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "PIE",
+        "COMPLETO"
+      ],
+      "sub": "En cada escalón",
+      "vo": "Paso uno. Apoyá el pie completo en cada escalón, no solo la punta.",
+      "moves": [
+        {
+          "cut": "STEP_A",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "STEP_A",
+              0.45
+            ],
+            [
+              "STEP_B",
+              0.45
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            616,
+            1430
+          ],
+          "r": 60,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            820
+          ],
+          "text": "PIE COMPLETO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "EMPUJÁ CON",
+        "EL TALÓN"
+      ],
+      "sub": "Para sentir el glúteo",
+      "vo": "Paso dos. Empujá con el talón para subir: así trabaja más el glúteo.",
+      "moves": [
+        {
+          "cut": "STEP_A",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "STEP_A",
+              0.45
+            ],
+            [
+              "STEP_B",
+              0.45
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            820
+          ],
+          "text": "EMPUJÁ CON EL TALÓN",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "RITMO",
+        "SOSTENIBLE"
+      ],
+      "sub": "Sin colgarte",
+      "vo": "Paso tres. Elegí un ritmo que puedas sostener sin colgarte de las barandas.",
+      "moves": [
+        {
+          "cut": "STEP_A",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "STEP_A",
+              0.45
+            ],
+            [
+              "STEP_B",
+              0.45
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            820
+          ],
+          "text": "SIN COLGARTE",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Parejo",
+      "vo": "Respirá parejo. Si no podés hablar con frases cortas, bajá el ritmo.",
+      "moves": [
+        {
+          "cut": "STEP_A",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "STEP_A",
+              0.45
+            ],
+            [
+              "STEP_B",
+              0.45
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 2",
+      "head": [
+        "COLGARTE DE",
+        "LAS BARANDAS"
+      ],
+      "sub": "El cuerpo lo sostienen las piernas",
+      "vo": "Error: colgarte de las barandas con el cuerpo inclinado. Le sacás el trabajo a las piernas: bajá el ritmo.",
+      "moves": [
+        {
+          "cut": "STEP_A",
+          "at": 0
+        },
+        {
+          "to": "HANG_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            652,
+            1006
+          ],
+          "r": 56,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 2",
+      "head": [
+        "SOLO LA",
+        "PUNTA"
+      ],
+      "sub": "Pie completo",
+      "vo": "Error: pisar solo con la punta del pie. Se cargan los gemelos y perdés estabilidad: pie completo.",
+      "moves": [
+        {
+          "cut": "STEP_A",
+          "at": 0
+        },
+        {
+          "to": "TOES_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            601,
+            1392
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Pie completo en cada escalón",
+        "Manos solo para equilibrio",
+        "Empujá con el talón",
+        "Ritmo que puedas sostener"
+      ],
+      "vo": "Tips de profe: pie completo en cada escalón, manos solo para equilibrio, empujá con el talón y un ritmo que puedas sostener.",
+      "moves": [
+        {
+          "cut": "STEP_A",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "STEP_A",
+              0.45
+            ],
+            [
+              "STEP_B",
+              0.45
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Tronco erguido",
+        "Mirada al frente",
+        "Sin colgarte",
+        "Arrancá lento"
+      ],
+      "vo": "Claves: tronco erguido, mirada al frente, sin colgarte de las barandas y arrancá lento.",
+      "moves": [
+        {
+          "cut": "STEP_A",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "STEP_A",
+              0.45
+            ],
+            [
+              "STEP_B",
+              0.45
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "15 MIN"
+      ],
+      "sub": "3 suave · 9 a ritmo · 3 suave",
+      "vo": "De diez a veinte minutos. Por ejemplo: tres minutos suave, nueve a ritmo y tres minutos suave.",
+      "chips": [
+        {
+          "label": "3 MIN SUAVE",
+          "at": 0.6
+        },
+        {
+          "label": "9 MIN RITMO",
+          "at": 1.1
+        },
+        {
+          "label": "3 MIN SUAVE",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "STEP_A",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "STEP_A",
+              0.45
+            ],
+            [
+              "STEP_B",
+              0.45
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "STEP_A",
+    "grip": 1,
+    "zoom": 1.05,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Stair Climber 🔥 Cómo usar la escaladora bien | Gimnasio",
+    "tags": [
+      "stair climber",
+      "escaladora",
+      "stepper",
+      "escalera",
+      "cómo usar la escaladora",
+      "glúteos",
+      "cardio",
+      "piernas",
+      "máquinas de gimnasio",
+      "gimnasio"
+    ],
+    "descripcion": "🔥 STAIR CLIMBER (escaladora) — glúteos, piernas y mucho cardio\n\n¿Subís la escaladora colgado de las barandas? Así trabaja la mitad. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Subite con la máquina quieta y arrancá en el nivel más lento.\n2️⃣ Manos apoyadas solo para el equilibrio.\n\n📋 PASO A PASO\n1️⃣ Tronco erguido, apenas inclinado desde la cadera.\n2️⃣ Pie completo en cada escalón.\n3️⃣ Empujá con el talón para sentir el glúteo.\n4️⃣ Ritmo que puedas sostener sin colgarte.\n\n❌ ERRORES COMUNES\n• Colgarse de las barandas → bajá el ritmo.\n• Pisar solo con la punta → pie completo.\n• Ir más rápido de lo que podés controlar → ritmo sostenible.\n\n💡 TIPS DEL PROFE\n• Pie completo en cada escalón.\n• Tronco erguido, apenas inclinado desde la cadera.\n• Las manos solo para equilibrio.\n• Elegí un ritmo que puedas sostener sin colgarte.\n• Empujá con el talón para sentir el glúteo.\n\n🎯 QUÉ TRABAJA\nGlúteos · Cuádriceps · Isquiotibiales · Gemelos · Sistema cardiovascular\n\n⏱️ CUÁNTO\n10–20 minutos. Por ejemplo: 3 minutos suave, 9 a ritmo y 3 suave. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #StairClimber #Cardio #Gluteos #Entrenamiento"
+  }
+}

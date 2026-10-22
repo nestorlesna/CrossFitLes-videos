@@ -1,0 +1,69 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Hip Abduction Machine",
+      "text": "La máquina de abductores. Abrís las piernas y trabajás el costado del glúteo."
+    },
+    {
+      "id": "02",
+      "text": "Te sentás con las almohadillas del lado de afuera de las rodillas. Trabaja el glúteo medio, el que estabiliza la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el respaldo y apoyá los pies en los estribos, con las almohadillas afuera de las rodillas."
+    },
+    {
+      "id": "04",
+      "text": "Elegí el peso con el pasador: uno que puedas abrir quince veces sin rebotar."
+    },
+    {
+      "id": "05",
+      "text": "Empezá con las piernas juntas, la espalda apoyada y las manos en las manijas."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Abrí las piernas empujando las almohadillas hacia afuera, controlado. Mirá la vista de arriba."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Abierto, hacé una pausa de un segundo apretando el costado de la cola."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Cerrá lento, sin dejar que las placas choquen, y arrancá la siguiente."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras abrís y tomalo mientras cerrás."
+    },
+    {
+      "id": "10",
+      "text": "Error: rebotar en los extremos y cerrar de golpe. Usá un rango cómodo y controlá la vuelta."
+    },
+    {
+      "id": "11",
+      "text": "Error: despegar la espalda y tirarte adelante para abrir. Bajá el peso y quedate apoyado."
+    },
+    {
+      "id": "12",
+      "text": "Tips de profe: pausa abierto, inclinarte apenas adelante suma glúteo, el peso no toca la pila y sin dolor en la ingle."
+    },
+    {
+      "id": "13",
+      "text": "Claves: espalda apoyada, pies en los estribos, un rango cómodo y cerrá controlado."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de quince, con un minuto de pausa. Cuando las quince salen fáciles, subí una placa."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

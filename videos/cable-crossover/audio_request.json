@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Cable Crossover",
+      "text": "El cruce de poleas, las aperturas de pecho con cables. Pecho trabajado de punta a punta."
+    },
+    {
+      "id": "02",
+      "text": "Son dos columnas, una a cada lado, con la polea arriba. Trabaja el pecho y suma la parte de adelante del hombro."
+    },
+    {
+      "id": "03",
+      "text": "Subí las dos poleas arriba, a la misma altura, y enganchá una manija en cada una."
+    },
+    {
+      "id": "04",
+      "text": "Poné el mismo peso en las dos pilas, y empezá liviano: el hombro queda muy expuesto si cargás de más."
+    },
+    {
+      "id": "05",
+      "text": "Agarrá las manijas, da un paso adelante con los pies escalonados y el tronco apenas inclinado. Pecho alto."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Dejá los codos apenas flexionados y fijos. Ese ángulo no cambia en todo el recorrido."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Juntá las manos adelante y abajo, a la altura del ombligo, como si abrazaras un árbol."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Abrí despacio hasta sentir que estira el pecho, sin pasar la línea de los hombros."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras juntás las manos y tomalo mientras abrís."
+    },
+    {
+      "id": "10",
+      "text": "Error: dejar que el cable te lleve los brazos atrás. El hombro queda forzado: abrí solo hasta la línea del hombro."
+    },
+    {
+      "id": "11",
+      "text": "Error: doblar y estirar los codos. Se vuelve un press y el pecho trabaja menos: codos fijos."
+    },
+    {
+      "id": "12",
+      "text": "Error: tirarte adelante con todo el cuerpo para mover el peso. Bajá los kilos y dejá el tronco quieto."
+    },
+    {
+      "id": "13",
+      "text": "Tips de profe: codos fijos y apenas doblados, manos al ombligo, abrí hasta la línea del hombro y exhalá al juntar."
+    },
+    {
+      "id": "14",
+      "text": "Claves: pies escalonados, pecho alto, el mismo peso de cada lado y sin impulso."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de doce a quince, con un minuto de pausa. Buscá sentir el pecho, no mover mucho peso."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

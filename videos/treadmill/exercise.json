@@ -1,0 +1,866 @@
+{
+  "slug": "treadmill",
+  "name": "Treadmill",
+  "maquina": true,
+  "category": "GIMNASIO · CARDIO",
+  "tags": [
+    "Cardio",
+    "Piernas"
+  ],
+  "descripcion": "Subite con la cinta detenida, pies a los costados. Arrancá a velocidad baja (3–4 km/h) y subí de a poco. Mirada al frente, brazos sueltos. Podés usar inclinación para más intensidad.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1508.2,
+    "scale": 0.7
+  },
+  "shadow": false,
+  "initialPose": "STAND",
+  "props": [
+    {
+      "type": "treadmill",
+      "deck": [
+        -520,
+        380,
+        -40
+      ],
+      "console": [
+        330,
+        -1000
+      ],
+      "rail": -760,
+      "clip": true
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "hip": [
+        0,
+        -544
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 6,
+      "fa": 6
+    },
+    "WALK_A": {
+      "hip": [
+        0,
+        -536
+      ],
+      "s": 6,
+      "t": -22,
+      "s2": -14,
+      "t2": 16,
+      "b": 2,
+      "hd": 2,
+      "ua": -20,
+      "fa": 20,
+      "ua2": 20,
+      "fa2": 24,
+      "ft": 0,
+      "ft2": 10
+    },
+    "WALK_B": {
+      "hip": [
+        0,
+        -536
+      ],
+      "s": -14,
+      "t": 16,
+      "s2": 6,
+      "t2": -22,
+      "b": 2,
+      "hd": 2,
+      "ua": 20,
+      "fa": 24,
+      "ua2": -20,
+      "fa2": 20,
+      "ft": 10,
+      "ft2": 0
+    },
+    "RUN_A": {
+      "hip": [
+        0,
+        -489
+      ],
+      "s": 12,
+      "t": -62,
+      "s2": 52,
+      "t2": 28,
+      "b": 10,
+      "hd": 4,
+      "ua": -42,
+      "fa": 95,
+      "ua2": 40,
+      "fa2": 82,
+      "ft": -8,
+      "ft2": 40
+    },
+    "RUN_B": {
+      "hip": [
+        0,
+        -489
+      ],
+      "s": 52,
+      "t": 28,
+      "s2": 12,
+      "t2": -62,
+      "b": 10,
+      "hd": 4,
+      "ua": 40,
+      "fa": 82,
+      "ua2": -42,
+      "fa2": 95,
+      "ft": 40,
+      "ft2": -8
+    },
+    "HOLD_BAD": {
+      "hip": [
+        0,
+        -514
+      ],
+      "s": 10,
+      "t": -20,
+      "s2": -10,
+      "t2": 18,
+      "b": 24,
+      "hd": 18,
+      "g": 1,
+      "hx": 190,
+      "hy": -760,
+      "ed": -1
+    },
+    "LOOK_BAD": {
+      "hip": [
+        0,
+        -489
+      ],
+      "s": 12,
+      "t": -62,
+      "s2": 52,
+      "t2": 28,
+      "b": 18,
+      "hd": 48,
+      "ua": -42,
+      "fa": 95,
+      "ua2": 40,
+      "fa2": 82,
+      "ft": -8,
+      "ft2": 40
+    },
+    "STRIDE_BAD": {
+      "hip": [
+        0,
+        -514
+      ],
+      "s": -30,
+      "t": -48,
+      "s2": 40,
+      "t2": 30,
+      "b": 0,
+      "hd": 0,
+      "ua": -40,
+      "fa": 90,
+      "ua2": 40,
+      "fa2": 80,
+      "ft": -30,
+      "ft2": 30
+    },
+    "SIDE": {
+      "hip": [
+        0,
+        -560
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 6,
+      "fa": 6
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · CARDIO",
+      "head": [
+        "TREADMILL"
+      ],
+      "sub": "Cinta de correr",
+      "vo": "Treadmill: la cinta de correr. Caminar o correr sin salir del gimnasio, a tu ritmo y con control.",
+      "moves": [
+        {
+          "cut": "WALK_A",
+          "at": 0
+        },
+        {
+          "loop": [
+            "RUN_A",
+            "RUN_B"
+          ],
+          "at": 0.3,
+          "step": 0.34,
+          "until": "end"
+        }
+      ],
+      "scroll": 300
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "CINTA"
+      ],
+      "sub": "También: caminadora",
+      "vo": "También le dicen caminadora. Trabaja piernas y glúteos, y sobre todo el corazón y los pulmones.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "scroll": 0,
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            731,
+            808
+          ],
+          "r": 70,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            780
+          ],
+          "text": "CONSOLA",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            430,
+            976
+          ],
+          "r": 34,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            780
+          ],
+          "text": "BARANDAS",
+          "anchor": "start",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            444,
+            1480
+          ],
+          "r": 60,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            1250
+          ],
+          "text": "CINTA",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "EL CLIP",
+        "DE SEGURIDAD"
+      ],
+      "sub": "Siempre puesto",
+      "vo": "Antes de arrancar, enganchá el clip de seguridad en la ropa. Si te caés o te alejás, la cinta frena sola.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "scroll": 0,
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            689,
+            843
+          ],
+          "r": 34,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            780
+          ],
+          "text": "CLIP DE SEGURIDAD",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "SUBITE",
+        "QUIETO"
+      ],
+      "sub": "Pies a los costados",
+      "vo": "Subite con la cinta detenida y los pies sobre los costados. Arrancá a tres o cuatro kilómetros por hora.",
+      "moves": [
+        {
+          "cut": "SIDE",
+          "at": 0
+        }
+      ],
+      "scroll": 0,
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            780
+          ],
+          "text": "CINTA DETENIDA",
+          "anchor": "end",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            689,
+            843
+          ],
+          "r": 34,
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "CAMINÁ",
+        "PRIMERO"
+      ],
+      "sub": "Velocidad baja",
+      "vo": "Empezá caminando unos minutos para entrar en calor, y subí la velocidad de a poco.",
+      "moves": [
+        {
+          "cut": "WALK_A",
+          "at": 0
+        },
+        {
+          "loop": [
+            "WALK_A",
+            "WALK_B"
+          ],
+          "at": 0.3,
+          "step": 0.5,
+          "until": "end"
+        }
+      ],
+      "scroll": 140,
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            780
+          ],
+          "text": "3 A 4 KM/H",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "MIRADA",
+        "AL FRENTE"
+      ],
+      "sub": "Brazos sueltos",
+      "vo": "Paso uno. Mirada al frente, tronco erguido y los brazos sueltos, acompañando el paso.",
+      "moves": [
+        {
+          "cut": "WALK_A",
+          "at": 0
+        },
+        {
+          "loop": [
+            "WALK_A",
+            "WALK_B"
+          ],
+          "at": 0.3,
+          "step": 0.5,
+          "until": "end"
+        }
+      ],
+      "numeral": "1",
+      "scroll": 140,
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            780
+          ],
+          "text": "MIRADA AL FRENTE",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "PISÁ",
+        "DEBAJO"
+      ],
+      "sub": "De la cadera, no adelante",
+      "vo": "Paso dos. Pisá debajo de la cadera, con pasos cortos y livianos, no estirando la pierna adelante.",
+      "moves": [
+        {
+          "cut": "RUN_A",
+          "at": 0
+        },
+        {
+          "loop": [
+            "RUN_A",
+            "RUN_B"
+          ],
+          "at": 0.3,
+          "step": 0.34,
+          "until": "end"
+        }
+      ],
+      "numeral": "2",
+      "scroll": 300,
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            615,
+            1402
+          ],
+          "r": 50,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            780
+          ],
+          "text": "PASOS CORTOS",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "INCLINACIÓN",
+        "Y RITMO"
+      ],
+      "sub": "Más intensidad sin correr más",
+      "vo": "Paso tres. Para más intensidad podés subir la inclinación: ahí acortá el paso y bajá un poco la velocidad.",
+      "moves": [
+        {
+          "cut": "WALK_A",
+          "at": 0
+        },
+        {
+          "loop": [
+            "WALK_A",
+            "WALK_B"
+          ],
+          "at": 0.3,
+          "step": 0.5,
+          "until": "end"
+        }
+      ],
+      "numeral": "3",
+      "scroll": 140,
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            731,
+            808
+          ],
+          "r": 70,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            780
+          ],
+          "text": "INCLINACIÓN",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Que puedas hablar",
+      "vo": "Respirá parejo. Si caminás o trotás suave, tenés que poder hablar sin ahogarte.",
+      "moves": [
+        {
+          "cut": "RUN_A",
+          "at": 0
+        },
+        {
+          "loop": [
+            "RUN_A",
+            "RUN_B"
+          ],
+          "at": 0.3,
+          "step": 0.34,
+          "until": "end"
+        }
+      ],
+      "scroll": 300
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "COLGARTE",
+        "DE LA BARANDA"
+      ],
+      "sub": "Si te agarrás, bajá la velocidad",
+      "vo": "Error: agarrarte de las barandas todo el tiempo. Si necesitás agarrarte, la velocidad es mucha: bajala.",
+      "moves": [
+        {
+          "cut": "WALK_A",
+          "at": 0
+        },
+        {
+          "cut": "HOLD_BAD",
+          "at": 0.6
+        }
+      ],
+      "scroll": 140,
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.2
+        },
+        {
+          "type": "ring",
+          "pos": [
+            430,
+            976
+          ],
+          "r": 40,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "MIRAR",
+        "LOS PIES"
+      ],
+      "sub": "Mirada al frente",
+      "vo": "Error: correr mirando los pies. Te encorvás y perdés el equilibrio: mirá al frente.",
+      "moves": [
+        {
+          "cut": "RUN_A",
+          "at": 0
+        },
+        {
+          "cut": "LOOK_BAD",
+          "at": 0.6
+        }
+      ],
+      "scroll": 300,
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.2
+        },
+        {
+          "type": "ring",
+          "pos": [
+            577,
+            965
+          ],
+          "r": 56,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "PASO",
+        "LARGO"
+      ],
+      "sub": "El pie cae adelante",
+      "vo": "Error: estirar la pierna y pisar muy adelante con el talón. Frena cada paso: pisá debajo de la cadera.",
+      "moves": [
+        {
+          "cut": "RUN_A",
+          "at": 0
+        },
+        {
+          "cut": "STRIDE_BAD",
+          "at": 0.6
+        }
+      ],
+      "scroll": 300,
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.2
+        },
+        {
+          "type": "ring",
+          "pos": [
+            705,
+            1400
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Clip de seguridad puesto",
+        "Pisá debajo de la cadera",
+        "Si te agarrás, bajá",
+        "Frená antes de bajarte"
+      ],
+      "vo": "Tips de profe: clip de seguridad puesto, pisá debajo de la cadera, si te agarrás bajá la velocidad y frená antes de bajarte.",
+      "moves": [
+        {
+          "cut": "RUN_A",
+          "at": 0
+        },
+        {
+          "loop": [
+            "RUN_A",
+            "RUN_B"
+          ],
+          "at": 0.3,
+          "step": 0.34,
+          "until": "end"
+        }
+      ],
+      "scroll": 300
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Arrancá caminando",
+        "Mirada al frente",
+        "Brazos sueltos",
+        "Con inclinación, pasos cortos"
+      ],
+      "vo": "Claves: arrancá caminando, mirada al frente, brazos sueltos y con inclinación, pasos más cortos.",
+      "moves": [
+        {
+          "cut": "WALK_A",
+          "at": 0
+        },
+        {
+          "loop": [
+            "WALK_A",
+            "WALK_B"
+          ],
+          "at": 0.3,
+          "step": 0.5,
+          "until": "end"
+        }
+      ],
+      "scroll": 140
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "15 MIN"
+      ],
+      "sub": "2 suave · 11 a ritmo · 2 suave",
+      "vo": "De diez a veinte minutos. Por ejemplo: dos minutos suave, once a tu ritmo y dos minutos suave para terminar.",
+      "chips": [
+        {
+          "label": "2 MIN SUAVE",
+          "at": 0.6
+        },
+        {
+          "label": "11 MIN RITMO",
+          "at": 1.1
+        },
+        {
+          "label": "2 MIN SUAVE",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "RUN_A",
+          "at": 0
+        },
+        {
+          "loop": [
+            "RUN_A",
+            "RUN_B"
+          ],
+          "at": 0.3,
+          "step": 0.34,
+          "until": "end"
+        }
+      ],
+      "scroll": 300
+    },
+    {
+      "min": 6.4,
+      "badge": "AL TERMINAR",
+      "head": [
+        "FRENÁ",
+        "PRIMERO"
+      ],
+      "sub": "Después bajate",
+      "vo": "Al terminar, bajá la velocidad, frená la cinta del todo y recién ahí bajate. Nunca con la cinta andando.",
+      "moves": [
+        {
+          "cut": "WALK_A",
+          "at": 0
+        },
+        {
+          "loop": [
+            "WALK_A",
+            "WALK_B"
+          ],
+          "at": 0.3,
+          "step": 0.5,
+          "until": "end"
+        }
+      ],
+      "scroll": 60,
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            689,
+            843
+          ],
+          "r": 34,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            780
+          ],
+          "text": "CINTA DETENIDA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "floorScroll": 0,
+  "miniatura": {
+    "pose": "RUN_A",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 140
+  },
+  "youtube": {
+    "titulo": "Treadmill 🔥 Cómo usar la cinta de correr bien | Gimnasio",
+    "tags": [
+      "treadmill",
+      "cinta de correr",
+      "caminadora",
+      "cómo usar la cinta",
+      "correr en cinta",
+      "cardio",
+      "caminar",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes"
+    ],
+    "descripcion": "🔥 TREADMILL (cinta de correr) — cardio a tu ritmo y con control\n\n¿Te agarrás de las barandas o corrés mirando los pies? Son los dos errores más comunes en la cinta. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Enganchá el clip de seguridad en la ropa.\n2️⃣ Subite con la cinta detenida y los pies a los costados.\n3️⃣ Arrancá a 3–4 km/h y subí de a poco.\n\n📋 PASO A PASO\n1️⃣ Caminá unos minutos para entrar en calor.\n2️⃣ Mirada al frente, tronco erguido y brazos sueltos.\n3️⃣ Pisá debajo de la cadera, con pasos cortos.\n4️⃣ Con inclinación, acortá el paso y bajá un poco la velocidad.\n5️⃣ Al terminar, frená la cinta del todo y recién ahí bajate.\n\n❌ ERRORES COMUNES\n• Agarrarte de las barandas todo el tiempo → bajá la velocidad.\n• Correr mirando los pies → mirada al frente.\n• Bajarte con la cinta en movimiento → frená primero.\n• Arrancar a velocidad alta sin calentar → empezá caminando.\n\n💡 TIPS DEL PROFE\n• Ponete el clip de seguridad.\n• Pisá debajo de la cadera, no adelante.\n• Si te agarrás de las barandas, bajá la velocidad.\n• Para la inclinación, pasos más cortos.\n• Al bajar, frená la cinta primero.\n\n🎯 QUÉ TRABAJA\nCuádriceps · Isquiotibiales · Glúteos · Gemelos · Core · Sistema cardiovascular\n\n⏱️ CUÁNTO\n10–20 minutos. Por ejemplo: 2 minutos suave, 11 a tu ritmo y 2 suave. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Treadmill #Cardio #Entrenamiento #Correr"
+  }
+}

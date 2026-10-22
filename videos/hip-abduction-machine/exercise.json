@@ -1,0 +1,709 @@
+{
+  "slug": "hip-abduction-machine",
+  "name": "Hip Abduction Machine",
+  "maquina": true,
+  "category": "GIMNASIO · GLÚTEOS",
+  "tags": [
+    "Glúteo medio"
+  ],
+  "descripcion": "Sentate con la espalda apoyada y las almohadillas en la cara externa de las rodillas. Abrí las piernas controlado y volvé sin dejar que las placas choquen.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 700,
+    "y": 1504.8,
+    "scale": 0.8
+  },
+  "shadow": false,
+  "initialPose": "CLOSED",
+  "props": [
+    {
+      "type": "hipabduction",
+      "seat": [
+        -380,
+        -60,
+        -300
+      ],
+      "back": [
+        -326,
+        -18,
+        450
+      ],
+      "stack": -620,
+      "rest": [
+        20,
+        -120
+      ],
+      "pin": 5,
+      "k": 160
+    }
+  ],
+  "poses": {
+    "CLOSED": {
+      "hip": [
+        -240,
+        -345
+      ],
+      "ankle": [
+        20,
+        -120
+      ],
+      "b": -18,
+      "hd": -8,
+      "ft": 0,
+      "g": 1,
+      "hx": -170,
+      "hy": -330,
+      "ed": 1,
+      "cs": 0
+    },
+    "MID": {
+      "hip": [
+        -240,
+        -345
+      ],
+      "ankle": [
+        20,
+        -120
+      ],
+      "b": -18,
+      "hd": -8,
+      "ft": 0,
+      "g": 1,
+      "hx": -170,
+      "hy": -330,
+      "ed": 1,
+      "cs": 0.5
+    },
+    "OPEN": {
+      "hip": [
+        -240,
+        -345
+      ],
+      "ankle": [
+        20,
+        -120
+      ],
+      "b": -18,
+      "hd": -8,
+      "ft": 0,
+      "g": 1,
+      "hx": -170,
+      "hy": -330,
+      "ed": 1,
+      "cs": 1
+    },
+    "BOUNCE_BAD": {
+      "hip": [
+        -240,
+        -345
+      ],
+      "ankle": [
+        20,
+        -120
+      ],
+      "b": -18,
+      "hd": -8,
+      "ft": 0,
+      "g": 1,
+      "hx": -170,
+      "hy": -330,
+      "ed": 1,
+      "cs": 1.15
+    },
+    "BACK_BAD": {
+      "hip": [
+        -240,
+        -345
+      ],
+      "ankle": [
+        20,
+        -120
+      ],
+      "b": 14,
+      "hd": 24,
+      "ft": 0,
+      "g": 1,
+      "hx": -150,
+      "hy": -330,
+      "ed": 1,
+      "cs": 1,
+      "cv": 22
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · GLÚTEOS",
+      "head": [
+        "HIP",
+        "ABDUCTION"
+      ],
+      "sub": "Máquina de abductores",
+      "vo": "Hip Abduction Machine: la máquina de abductores. Abrís las piernas y trabajás el costado del glúteo.",
+      "moves": [
+        {
+          "cut": "CLOSED",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "OPEN",
+              1.4
+            ],
+            [
+              "CLOSED",
+              1.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Almohadillas afuera de las rodillas",
+      "vo": "Te sentás con las almohadillas del lado de afuera de las rodillas. Trabaja el glúteo medio, el que estabiliza la cadera.",
+      "moves": [
+        {
+          "cut": "CLOSED",
+          "at": 0
+        }
+      ],
+      "topview": {
+        "mode": "abd",
+        "pads": "out",
+        "label": "ABRÍ LAS PIERNAS"
+      },
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            700,
+            1226
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            900
+          ],
+          "text": "ALMOHADILLAS AFUERA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            245,
+            1381
+          ],
+          "r": 30,
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "EL",
+        "RESPALDO"
+      ],
+      "sub": "Espalda bien apoyada",
+      "vo": "Ajustá el respaldo y apoyá los pies en los estribos, con las almohadillas afuera de las rodillas.",
+      "moves": [
+        {
+          "cut": "CLOSED",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            431,
+            1314
+          ],
+          "r": 26,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            900
+          ],
+          "text": "ESPALDA APOYADA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "PESO"
+      ],
+      "sub": "Con el pasador",
+      "vo": "Elegí el peso con el pasador: uno que puedas abrir quince veces sin rebotar.",
+      "moves": [
+        {
+          "cut": "CLOSED",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            245,
+            1381
+          ],
+          "r": 30,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            900
+          ],
+          "text": "PASADOR",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PIERNAS",
+        "JUNTAS"
+      ],
+      "sub": "Pies en los estribos",
+      "vo": "Empezá con las piernas juntas, la espalda apoyada y las manos en las manijas.",
+      "moves": [
+        {
+          "cut": "CLOSED",
+          "at": 0
+        }
+      ],
+      "topview": {
+        "mode": "abd",
+        "pads": "out",
+        "label": "ABRÍ LAS PIERNAS"
+      },
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            900
+          ],
+          "text": "PIES EN LOS ESTRIBOS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "ABRÍ",
+        "LAS PIERNAS"
+      ],
+      "sub": "Controlado",
+      "vo": "Paso uno. Abrí las piernas empujando las almohadillas hacia afuera, controlado. Mirá la vista de arriba.",
+      "moves": [
+        {
+          "cut": "CLOSED",
+          "at": 0
+        },
+        {
+          "to": "OPEN",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ],
+      "numeral": "1",
+      "topview": {
+        "mode": "abd",
+        "pads": "out",
+        "label": "ABRÍ LAS PIERNAS"
+      },
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            900
+          ],
+          "text": "CONTROLADO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "PAUSA",
+        "1 SEGUNDO"
+      ],
+      "sub": "Abierto, apretando",
+      "vo": "Paso dos. Abierto, hacé una pausa de un segundo apretando el costado de la cola.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "topview": {
+        "mode": "abd",
+        "pads": "out",
+        "label": "ABRÍ LAS PIERNAS"
+      },
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            900
+          ],
+          "text": "APRETÁ",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "CERRÁ",
+        "LENTO"
+      ],
+      "sub": "Sin que las placas choquen",
+      "vo": "Paso tres. Cerrá lento, sin dejar que las placas choquen, y arrancá la siguiente.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "to": "CLOSED",
+          "at": 0.6,
+          "dur": 2.4
+        }
+      ],
+      "numeral": "3",
+      "topview": {
+        "mode": "abd",
+        "pads": "out",
+        "label": "ABRÍ LAS PIERNAS"
+      },
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            245,
+            1381
+          ],
+          "r": 34,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            900
+          ],
+          "text": "SIN GOLPE",
+          "anchor": "start",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al abrir",
+      "vo": "Soltá el aire mientras abrís y tomalo mientras cerrás.",
+      "moves": [
+        {
+          "cut": "CLOSED",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "OPEN",
+              1.4
+            ],
+            [
+              "CLOSED",
+              2.0
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ],
+      "topview": {
+        "mode": "abd",
+        "pads": "out",
+        "label": "ABRÍ LAS PIERNAS"
+      }
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 2",
+      "head": [
+        "REBOTAR",
+        "Y GOLPEAR"
+      ],
+      "sub": "Sin rebote en las puntas",
+      "vo": "Error: rebotar en los extremos y cerrar de golpe. Usá un rango cómodo y controlá la vuelta.",
+      "moves": [
+        {
+          "cut": "CLOSED",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOUNCE_BAD",
+              0.35
+            ],
+            [
+              "CLOSED",
+              0.3
+            ]
+          ],
+          "at": 0.5,
+          "until": 4.0
+        },
+        {
+          "to": "BOUNCE_BAD",
+          "at": 4.1,
+          "dur": 0.4
+        }
+      ],
+      "topview": {
+        "mode": "abd",
+        "pads": "out",
+        "label": "ABRÍ LAS PIERNAS"
+      },
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            245,
+            1381
+          ],
+          "r": 34,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 2",
+      "head": [
+        "ESPALDA",
+        "DESPEGADA"
+      ],
+      "sub": "Apoyada todo el tiempo",
+      "vo": "Error: despegar la espalda y tirarte adelante para abrir. Bajá el peso y quedate apoyado.",
+      "moves": [
+        {
+          "cut": "CLOSED",
+          "at": 0
+        },
+        {
+          "to": "BACK_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            562,
+            1011
+          ],
+          "r": 56,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Pausa de 1 segundo abierto",
+        "Apenas adelante: más glúteo",
+        "Sin tocar la pila",
+        "Sin dolor en la ingle"
+      ],
+      "vo": "Tips de profe: pausa abierto, inclinarte apenas adelante suma glúteo, el peso no toca la pila y sin dolor en la ingle.",
+      "moves": [
+        {
+          "cut": "CLOSED",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "OPEN",
+              1.4
+            ],
+            [
+              "CLOSED",
+              1.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Espalda apoyada",
+        "Pies en los estribos",
+        "Rango cómodo",
+        "Cerrá controlado"
+      ],
+      "vo": "Claves: espalda apoyada, pies en los estribos, un rango cómodo y cerrá controlado.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 15"
+      ],
+      "sub": "Un minuto de pausa",
+      "vo": "Tres series de quince, con un minuto de pausa. Cuando las quince salen fáciles, subí una placa.",
+      "chips": [
+        {
+          "label": "1 · ABRÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PAUSA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · CERRÁ LENTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "CLOSED",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "OPEN",
+              1.4
+            ],
+            [
+              "CLOSED",
+              1.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "OPEN",
+    "grip": 1,
+    "zoom": 1.1,
+    "dy": 100
+  },
+  "youtube": {
+    "titulo": "Hip Abduction Machine 🔥 Máquina de abductores bien usada | Gimnasio",
+    "tags": [
+      "hip abduction",
+      "máquina de abductores",
+      "abductores",
+      "glúteo medio",
+      "cómo usar la máquina de abductores",
+      "glúteos",
+      "cadera",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes"
+    ],
+    "descripcion": "🔥 HIP ABDUCTION MACHINE (máquina de abductores) — glúteo medio fuerte y cadera estable\n\n¿Usás la máquina de abductores rebotando? Así se pierde casi todo el trabajo. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el respaldo y apoyá los pies en los estribos.\n2️⃣ Almohadillas en la cara externa de las rodillas.\n3️⃣ Elegí un peso que puedas abrir 15 veces sin rebotar.\n\n📋 PASO A PASO\n1️⃣ Piernas juntas, espalda apoyada y manos en las manijas.\n2️⃣ Abrí las piernas controlado.\n3️⃣ Pausa de un segundo abierto, apretando.\n4️⃣ Cerrá lento, sin que las placas choquen.\n\n❌ ERRORES COMUNES\n• Rebotar en los extremos → rango cómodo y controlado.\n• Despegar la espalda → apoyado todo el tiempo.\n• Usar más rango del que tu cadera permite → abrí hasta donde no molesta.\n• Cerrar de golpe → vuelta lenta.\n\n💡 TIPS DEL PROFE\n• Pausa de un segundo abierto.\n• Inclinarte apenas adelante suma glúteo.\n• El peso no toca la pila entre reps.\n• Pies apoyados en los estribos.\n• Rango cómodo, sin dolor en la ingle.\n\n🎯 QUÉ TRABAJA\nGlúteo medio · Glúteo menor · Tensor de la fascia lata\n\n⏱️ CUÁNTO\n3 series de 15 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #HipAbduction #Gluteos #Musculacion #Entrenamiento"
+  }
+}

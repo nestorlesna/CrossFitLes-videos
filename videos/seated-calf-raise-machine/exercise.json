@@ -1,0 +1,727 @@
+{
+  "slug": "seated-calf-raise-machine",
+  "name": "Seated Calf Raise Machine",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Sóleo",
+    "Gemelos"
+  ],
+  "descripcion": "Sentate con la almohadilla sobre los muslos, cerca de la rodilla, y la punta del pie en el borde. Destrabá, bajá el talón despacio y subí lo más alto posible.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 680,
+    "y": 1504.8,
+    "scale": 0.8
+  },
+  "shadow": false,
+  "initialPose": "DOWN",
+  "props": [
+    {
+      "type": "seatedcalf",
+      "step": [
+        20,
+        180,
+        -96
+      ],
+      "seat": [
+        -380,
+        -60,
+        -300
+      ],
+      "stack": -600,
+      "pivot": [
+        300,
+        -200
+      ],
+      "pin": 5,
+      "k": 1.6
+    }
+  ],
+  "poses": {
+    "DOWN": {
+      "hip": [
+        -240,
+        -345
+      ],
+      "ankle": [
+        -37.8,
+        -98.6
+      ],
+      "ft": -24,
+      "b": 4,
+      "hd": 6,
+      "g": 1,
+      "hx": -40,
+      "hy": -420,
+      "ed": 1
+    },
+    "MID": {
+      "hip": [
+        -240,
+        -345
+      ],
+      "ankle": [
+        -27.5,
+        -134.8
+      ],
+      "ft": 4,
+      "b": 4,
+      "hd": 6,
+      "g": 1,
+      "hx": -40,
+      "hy": -420,
+      "ed": 1
+    },
+    "UP": {
+      "hip": [
+        -240,
+        -345
+      ],
+      "ankle": [
+        1.0,
+        -163.3
+      ],
+      "ft": 34,
+      "b": 4,
+      "hd": 6,
+      "g": 1,
+      "hx": -40,
+      "hy": -420,
+      "ed": 1
+    },
+    "PUSH_BAD": {
+      "hip": [
+        -240,
+        -345
+      ],
+      "ankle": [
+        -3.6,
+        -160.4
+      ],
+      "ft": 30,
+      "b": 34,
+      "hd": 44,
+      "g": 1,
+      "hx": 20,
+      "hy": -400,
+      "ed": 1,
+      "cv": 20
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "SEATED",
+        "CALF RAISE"
+      ],
+      "sub": "Gemelos sentado en máquina",
+      "vo": "Seated Calf Raise Machine: los gemelos sentado. Con la rodilla doblada trabaja sobre todo el sóleo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.4
+            ],
+            [
+              "DOWN",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Almohadilla sobre los muslos",
+      "vo": "Tiene una almohadilla que va sobre los muslos y un escalón para la punta del pie. Trabaja sóleo y gemelos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            639,
+            1203
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "ALMOHADILLA",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            760,
+            1428
+          ],
+          "r": 50,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1300
+          ],
+          "text": "ESCALÓN",
+          "anchor": "end",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            241,
+            1381
+          ],
+          "r": 30,
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "LA",
+        "ALMOHADILLA"
+      ],
+      "sub": "Cerca de la rodilla",
+      "vo": "Ajustá la almohadilla sobre los muslos, cerca de la rodilla. Si queda lejos, el ejercicio pierde fuerza.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            639,
+            1203
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "CERCA DE LA RODILLA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "LOS",
+        "PIES"
+      ],
+      "sub": "La punta en el borde",
+      "vo": "Apoyá la punta del pie en el borde del escalón, con el talón en el aire. Después destrabá la palanca.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            760,
+            1428
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1300
+          ],
+          "text": "SOLO LA PUNTA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "SENTADO",
+        "DERECHO"
+      ],
+      "sub": "Las manos solo sostienen",
+      "vo": "Sentado derecho, con las manos sobre la almohadilla. Las manos sostienen, no empujan.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "MANOS SIN EMPUJAR",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ EL",
+        "TALÓN"
+      ],
+      "sub": "Despacio",
+      "vo": "Paso uno. Bajá el talón despacio hasta estirar bien la pantorrilla.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.6,
+          "dur": 1.8
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            650,
+            1426
+          ],
+          "r": 44,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "ESTIRÁ ABAJO",
+          "anchor": "end",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "PAUSA",
+        "ABAJO"
+      ],
+      "sub": "Sin rebote",
+      "vo": "Paso dos. Abajo, pausa estirando. Nada de rebotar.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            650,
+            1426
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "PAUSA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "SUBÍ",
+        "Y APRETÁ"
+      ],
+      "sub": "Lento, bien arriba",
+      "vo": "Paso tres. Subí lento lo más alto que puedas y apretá arriba un segundo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            681,
+            1374
+          ],
+          "r": 44,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "BIEN ARRIBA",
+          "anchor": "end",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al subir",
+      "vo": "Soltá el aire mientras subís y tomalo mientras bajás.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.4
+            ],
+            [
+              "DOWN",
+              2.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 2",
+      "head": [
+        "REBOTAR",
+        "ABAJO"
+      ],
+      "sub": "Pausa, no resorte",
+      "vo": "Error: rebotar abajo y hacer el recorrido corto. Bajá todo, pausa y subí todo.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              0.3
+            ],
+            [
+              "MID",
+              0.3
+            ]
+          ],
+          "at": 0.5,
+          "until": 4.0
+        },
+        {
+          "to": "DOWN",
+          "at": 4.1,
+          "dur": 0.3
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            650,
+            1426
+          ],
+          "r": 44,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 2",
+      "head": [
+        "EMPUJAR CON",
+        "EL CUERPO"
+      ],
+      "sub": "Las manos no empujan",
+      "vo": "Error: empujar con las manos o tirar el tronco adelante. Si hace falta, el peso es mucho: bajalo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "PUSH_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            613,
+            1043
+          ],
+          "r": 56,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Sentado trabaja el sóleo",
+        "Pausa abajo estirando",
+        "Subí lento y apretá",
+        "Manos sin empujar"
+      ],
+      "vo": "Tips de profe: sentado trabaja más el sóleo, pausa abajo estirando, subí lento y apretá, y las manos no empujan.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.4
+            ],
+            [
+              "DOWN",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Almohadilla cerca de la rodilla",
+        "Punta en el borde",
+        "Rango completo",
+        "Trabá al terminar"
+      ],
+      "vo": "Claves: almohadilla cerca de la rodilla, la punta en el borde, rango completo y trabá la palanca al terminar.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 15"
+      ],
+      "sub": "Un minuto de pausa",
+      "vo": "Tres series de quince, con un minuto de pausa. Cuando las quince salen fáciles, subí el peso.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PAUSA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SUBÍ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.4
+            ],
+            [
+              "DOWN",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.2,
+      "badge": "AL TERMINAR",
+      "head": [
+        "TRABÁ LA",
+        "PALANCA"
+      ],
+      "sub": "Antes de salir",
+      "vo": "Al terminar, con los talones arriba, trabá la palanca antes de sacar las piernas.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            639,
+            1203
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "TRABÁ ANTES",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "grip": 1,
+    "zoom": 1.1,
+    "dy": 100
+  },
+  "youtube": {
+    "titulo": "Seated Calf Raise Machine 🔥 Gemelos sentado en máquina | Gimnasio",
+    "tags": [
+      "seated calf raise",
+      "gemelos sentado",
+      "máquina de gemelos sentado",
+      "sóleo",
+      "cómo entrenar gemelos",
+      "pantorrillas",
+      "gemelos",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "piernas"
+    ],
+    "descripcion": "🔥 SEATED CALF RAISE MACHINE (gemelos sentado en máquina) — sóleo fuerte para pantorrillas completas\n\n¿Sabías que con la rodilla doblada trabaja otro músculo de la pantorrilla? Este ejercicio lo aprovecha. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Almohadilla sobre los muslos, cerca de la rodilla.\n2️⃣ Punta del pie en el borde del escalón y destrabá la palanca.\n\n📋 PASO A PASO\n1️⃣ Sentado derecho, con las manos sobre la almohadilla sin empujar.\n2️⃣ Bajá el talón despacio hasta estirar.\n3️⃣ Pausa abajo, sin rebote.\n4️⃣ Subí lento lo más alto que puedas y apretá.\n5️⃣ Al terminar, trabá la palanca antes de salir.\n\n❌ ERRORES COMUNES\n• Rebotar abajo → pausa estirando.\n• Empujar con las manos o el tronco → menos peso.\n• Rango corto → bajá y subí todo.\n• Almohadilla demasiado lejos de las rodillas → acercala a la rodilla.\n\n💡 TIPS DEL PROFE\n• Sentado trabaja más el sóleo.\n• Pausa abajo estirando.\n• Subí lento y apretá arriba.\n• Las manos solo sostienen, no empujan.\n• Trabá la palanca al terminar.\n\n🎯 QUÉ TRABAJA\nSóleo · Gemelos\n\n⏱️ CUÁNTO\n3 series de 15 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #SeatedCalfRaise #Piernas #Musculacion #Entrenamiento"
+  }
+}

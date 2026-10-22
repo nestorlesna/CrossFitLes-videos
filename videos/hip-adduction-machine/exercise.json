@@ -1,0 +1,692 @@
+{
+  "slug": "hip-adduction-machine",
+  "name": "Hip Adduction Machine",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Aductores"
+  ],
+  "descripcion": "Sentate con la espalda apoyada y las almohadillas en la cara interna de las rodillas. Empezá con una apertura cómoda, cerrá las piernas controlado y abrí despacio.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 700,
+    "y": 1504.8,
+    "scale": 0.8
+  },
+  "shadow": false,
+  "initialPose": "OPEN",
+  "props": [
+    {
+      "type": "hipadduction",
+      "seat": [
+        -380,
+        -60,
+        -300
+      ],
+      "back": [
+        -326,
+        -18,
+        450
+      ],
+      "stack": -620,
+      "rest": [
+        20,
+        -120
+      ],
+      "pin": 5,
+      "k": 160,
+      "open": 1
+    }
+  ],
+  "poses": {
+    "OPEN": {
+      "hip": [
+        -240,
+        -345
+      ],
+      "ankle": [
+        20,
+        -120
+      ],
+      "b": -18,
+      "hd": -8,
+      "ft": 0,
+      "g": 1,
+      "hx": -170,
+      "hy": -330,
+      "ed": 1,
+      "cs": 1
+    },
+    "MID": {
+      "hip": [
+        -240,
+        -345
+      ],
+      "ankle": [
+        20,
+        -120
+      ],
+      "b": -18,
+      "hd": -8,
+      "ft": 0,
+      "g": 1,
+      "hx": -170,
+      "hy": -330,
+      "ed": 1,
+      "cs": 0.5
+    },
+    "CLOSED": {
+      "hip": [
+        -240,
+        -345
+      ],
+      "ankle": [
+        20,
+        -120
+      ],
+      "b": -18,
+      "hd": -8,
+      "ft": 0,
+      "g": 1,
+      "hx": -170,
+      "hy": -330,
+      "ed": 1,
+      "cs": 0
+    },
+    "WIDE_BAD": {
+      "hip": [
+        -240,
+        -345
+      ],
+      "ankle": [
+        20,
+        -120
+      ],
+      "b": -18,
+      "hd": -8,
+      "ft": 0,
+      "g": 1,
+      "hx": -170,
+      "hy": -330,
+      "ed": 1,
+      "cs": 1.35
+    },
+    "BACK_BAD": {
+      "hip": [
+        -240,
+        -345
+      ],
+      "ankle": [
+        20,
+        -120
+      ],
+      "b": 14,
+      "hd": 24,
+      "ft": 0,
+      "g": 1,
+      "hx": -150,
+      "hy": -330,
+      "ed": 1,
+      "cs": 0,
+      "cv": 22
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "HIP",
+        "ADDUCTION"
+      ],
+      "sub": "Máquina de aductores",
+      "vo": "Hip Adduction Machine: la máquina de aductores. Cerrás las piernas y trabajás la cara interna del muslo.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CLOSED",
+              1.4
+            ],
+            [
+              "OPEN",
+              1.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Almohadillas adentro de las rodillas",
+      "vo": "Te sentás con las almohadillas del lado de adentro de las rodillas. Trabaja los aductores, la cara interna del muslo.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        }
+      ],
+      "topview": {
+        "mode": "abd",
+        "pads": "in",
+        "label": "CERRÁ LAS PIERNAS"
+      },
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            700,
+            1226
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            900
+          ],
+          "text": "ALMOHADILLAS ADENTRO",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            245,
+            1381
+          ],
+          "r": 30,
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "LA",
+        "APERTURA"
+      ],
+      "sub": "Cómoda, con la palanca",
+      "vo": "Elegí con la palanca una apertura inicial cómoda. Si tira la ingle, achicala.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        }
+      ],
+      "topview": {
+        "mode": "abd",
+        "pads": "in",
+        "label": "CERRÁ LAS PIERNAS"
+      },
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            900
+          ],
+          "text": "APERTURA CÓMODA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "PESO"
+      ],
+      "sub": "Con el pasador",
+      "vo": "Elegí el peso con el pasador: uno que puedas cerrar quince veces sin impulso.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            245,
+            1381
+          ],
+          "r": 30,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            900
+          ],
+          "text": "PASADOR",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PIERNAS",
+        "ABIERTAS"
+      ],
+      "sub": "Espalda pegada",
+      "vo": "Empezá con las piernas abiertas en la apertura cómoda, la espalda pegada y los pies en los estribos.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        }
+      ],
+      "topview": {
+        "mode": "abd",
+        "pads": "in",
+        "label": "CERRÁ LAS PIERNAS"
+      },
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            431,
+            1314
+          ],
+          "r": 26,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            900
+          ],
+          "text": "ESPALDA PEGADA",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "CERRÁ",
+        "LAS PIERNAS"
+      ],
+      "sub": "Controlado",
+      "vo": "Paso uno. Cerrá las piernas controlado, hasta que las almohadillas se toquen sin golpe.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "to": "CLOSED",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ],
+      "numeral": "1",
+      "topview": {
+        "mode": "abd",
+        "pads": "in",
+        "label": "CERRÁ LAS PIERNAS"
+      },
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            900
+          ],
+          "text": "SIN GOLPE",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "APRETÁ",
+        "1 SEGUNDO"
+      ],
+      "sub": "Piernas juntas",
+      "vo": "Paso dos. Con las piernas juntas, apretá un segundo la cara interna del muslo.",
+      "moves": [
+        {
+          "cut": "CLOSED",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "topview": {
+        "mode": "abd",
+        "pads": "in",
+        "label": "CERRÁ LAS PIERNAS"
+      },
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            900
+          ],
+          "text": "APRETÁ",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ABRÍ",
+        "EN 3"
+      ],
+      "sub": "Despacio",
+      "vo": "Paso tres. Abrí despacio, en tres segundos, hasta la apertura cómoda del principio.",
+      "moves": [
+        {
+          "cut": "CLOSED",
+          "at": 0
+        },
+        {
+          "to": "OPEN",
+          "at": 0.6,
+          "dur": 3.0
+        }
+      ],
+      "numeral": "3",
+      "topview": {
+        "mode": "abd",
+        "pads": "in",
+        "label": "CERRÁ LAS PIERNAS"
+      },
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            900
+          ],
+          "text": "3 SEGUNDOS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al cerrar",
+      "vo": "Soltá el aire mientras cerrás y tomalo mientras abrís.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CLOSED",
+              1.4
+            ],
+            [
+              "OPEN",
+              2.4
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ],
+      "topview": {
+        "mode": "abd",
+        "pads": "in",
+        "label": "CERRÁ LAS PIERNAS"
+      }
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 2",
+      "head": [
+        "APERTURA",
+        "DE MÁS"
+      ],
+      "sub": "La ingle no se fuerza",
+      "vo": "Error: arrancar con una apertura más grande de la que tu cadera permite. La ingle sufre: achicá la apertura.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "to": "WIDE_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "topview": {
+        "mode": "abd",
+        "pads": "in",
+        "label": "CERRÁ LAS PIERNAS"
+      },
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            900
+          ],
+          "text": "TIRA LA INGLE",
+          "anchor": "start",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 2",
+      "head": [
+        "IMPULSO Y",
+        "ESPALDA AFUERA"
+      ],
+      "sub": "Pegado al respaldo",
+      "vo": "Error: cerrar con impulso despegando la espalda. Bajá el peso, espalda pegada y movimiento controlado.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "to": "BACK_BAD",
+          "at": 0.5,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            562,
+            1011
+          ],
+          "r": 56,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Apertura inicial cómoda",
+        "Juntá sin golpe",
+        "Abrí en 3 segundos",
+        "Si tira la ingle, achicá"
+      ],
+      "vo": "Tips de profe: apertura inicial cómoda, juntá sin golpe, abrí en tres segundos y si tira la ingle, achicá el rango.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CLOSED",
+              1.4
+            ],
+            [
+              "OPEN",
+              1.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Espalda pegada",
+        "Pies en los estribos",
+        "Sin rebote al abrir",
+        "Sin impulso"
+      ],
+      "vo": "Claves: espalda pegada, pies en los estribos, sin rebote al abrir y sin impulso.",
+      "moves": [
+        {
+          "cut": "CLOSED",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 15"
+      ],
+      "sub": "Un minuto de pausa",
+      "vo": "Tres series de quince, con un minuto de pausa. Cuando las quince salen fáciles, subí una placa.",
+      "chips": [
+        {
+          "label": "1 · CERRÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · ABRÍ EN 3",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CLOSED",
+              1.4
+            ],
+            [
+              "OPEN",
+              1.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "CLOSED",
+    "grip": 1,
+    "zoom": 1.1,
+    "dy": 100
+  },
+  "youtube": {
+    "titulo": "Hip Adduction Machine 🔥 Máquina de aductores bien usada | Gimnasio",
+    "tags": [
+      "hip adduction",
+      "máquina de aductores",
+      "aductores",
+      "cara interna del muslo",
+      "cómo usar la máquina de aductores",
+      "piernas",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes"
+    ],
+    "descripcion": "🔥 HIP ADDUCTION MACHINE (máquina de aductores) — aductores fuertes sin forzar la ingle\n\n¿Te tira la ingle en la máquina de aductores? Casi siempre es la apertura inicial. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Elegí con la palanca una apertura inicial cómoda.\n2️⃣ Almohadillas en la cara interna de las rodillas.\n3️⃣ Elegí un peso que puedas cerrar 15 veces sin impulso.\n\n📋 PASO A PASO\n1️⃣ Piernas abiertas en la apertura cómoda, espalda pegada.\n2️⃣ Cerrá controlado hasta que las almohadillas se toquen sin golpe.\n3️⃣ Apretá un segundo con las piernas juntas.\n4️⃣ Abrí despacio, en 3 segundos.\n\n❌ ERRORES COMUNES\n• Arrancar con más apertura de la que tu cadera permite → achicá la apertura.\n• Rebotar al abrir → vuelta lenta.\n• Despegar la espalda → pegado al respaldo.\n• Cerrar con impulso → menos peso y control.\n\n💡 TIPS DEL PROFE\n• Elegí una apertura inicial cómoda (se regula con la palanca).\n• Juntá hasta que las almohadillas se toquen, sin golpe.\n• Abrí en 3 segundos.\n• Espalda pegada al respaldo.\n• Si tira la ingle, achicá el rango.\n\n🎯 QUÉ TRABAJA\nAductores · Recto interno\n\n⏱️ CUÁNTO\n3 series de 15 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #HipAdduction #Piernas #Musculacion #Entrenamiento"
+  }
+}

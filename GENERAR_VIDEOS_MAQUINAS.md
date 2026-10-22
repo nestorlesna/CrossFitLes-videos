@@ -80,6 +80,10 @@ música base, `revisado: false`, no tocar `salida/subidos/`, no commitear sin pe
 - Si el usuario agrega máquinas a la planilla: agregá la(s) fila(s) a `maquinas.csv` a mano (un video por ejercicio)
   y corré `node plantilla/make-exercise.mjs --checklist`.
 - Podés mejorar `tips_profe` o `que_no_hacer` en el CSV con criterio de profe de musculación; anotalo en el reporte.
+- **Ojo con las filas partidas de una máquina multiuso** (polea, Smith, asistida, abductores/aductores, gemelos): al
+  armar el CSV quedaron con los datos genéricos de la máquina (`musculos_principales` "Depende del ejercicio…",
+  `zona` "Cuerpo completo", `otros_nombres` de otro ejercicio). Antes de escribir la ficha, revisá que esas columnas
+  hablen de **ese** ejercicio (el 2026-10-22 se corrigieron las 11 filas de los lotes 2, 4 y 5).
 
 ---
 
@@ -97,6 +101,9 @@ se programa para una sirve para las siguientes.
 | 4 · cadera y gemelos | `hip-thrust-machine`, `hip-abduction-machine`, `hip-adduction-machine`, `standing-calf-raise-machine`, `seated-calf-raise-machine` | aductor/abductor (necesitan `topview`), gemelos (escalón + almohadillas) |
 | 5 · Smith, asistidas y core | `smith-machine-squat`, `smith-machine-bench-press`, `assisted-pull-up-machine`, `assisted-dip-machine`, `ab-crunch-machine`, `back-extension-45` | `smith` (rieles + barra guiada + topes), `assisted` (plataforma de rodillas + manijas), crunch, banco 45° |
 | 6 · cardio | `treadmill`, `stationary-bike`, `elliptical-trainer`, `rowing-machine`, `stair-climber` | cinta (con `floorScroll`), bici, elíptico, escaladora. `rowing-machine` usa el `rower` que ya existe |
+
+**Estado (2026-10-22):** el piloto se aprobó el 2026-10-21 y los 31 videos restantes (lotes 1–6) ya tienen la máquina
+dibujada en `runtime.js` y ficha. Si se suman máquinas nuevas, seguí este mismo plan por familias.
 
 **Regla del piloto:** hasta que el usuario apruebe el lote 0 (`"revisado": true` en `leg-press` y `lat-pulldown`),
 **no arranques el lote 1**. Si el usuario pide cambios de estilo/duración/estructura en el piloto, actualizá este
@@ -124,6 +131,16 @@ Seguí `GENERAR_VIDEOS.md` §4.4 y mirá en `runtime.js` cómo están hechos `ro
   quedar en y ≥ ~760 de pantalla**: más arriba pisa los chips de la portada (piloto: jalón con `scale 0.66`).
 - Labels: en el margen izquierdo (`[130, y]`, `anchor: "start"`) o a la derecha de la columna (`[870, y]`, `start`);
   en el medio caen sobre las guías de la pila. Escenas `keys` con `"shrink": 0.78` (0.62 deja la máquina diminuta).
+- **Antes de poner un label, calculá dónde termina la máquina en pantalla** (`y = rig.y + scale × y_rig` de la parte
+  más alta del lado del label). Si la pila está a la izquierda, un label `[130, 1000]` cae justo sobre el techo de la
+  pila (pasó en todo el lote 1): subilo por encima de la máquina (`y ≈ 760–900`) o pasalo al lado libre
+  (`[1000, y]`, `anchor: "end"`). Regla rápida: **lado de la pila → labels arriba de la máquina; lado libre → a la
+  altura de la cabeza**.
+- En escenas con tarjeta `topview` la tarjeta ocupa `x 720–1020, y 820–1240`: ahí no va ningún label (usá
+  `[130, 760]` o `[130, 900]`).
+- Cuando el error **no se ve de perfil** (abrir/cerrar piernas, aperturas, codos altos), sumá la tarjeta `topview`
+  correspondiente en los pasos y en el ASÍ NO: `fly` (aperturas, clave `al`), `abd` (abductores/aductores, clave `cs`),
+  `front` (hombros, `face pull`, elevaciones laterales).
 - Fichas de referencia ya hechas: **`leg-press`** (máquina de discos con carro sobre riel) y **`lat-pulldown`**
   (máquina de pila con polea). Copiá la más parecida.
 - Las regulaciones que se explican en el video (altura del asiento, respaldo, rodillo, topes) tienen que existir
@@ -147,6 +164,26 @@ corresponde, y la pila de peso sube y baja.
 
 ---
 
+### 4.4 Generador de fichas (lo que mejor funcionó, 31 máquinas en una sesión)
+
+Las fichas de máquinas se arman con Python, no a mano. En `plantilla/maquinas/` quedan:
+
+- `common.py` — **FK idéntica a `runtime.js`** (`fk(pose)` devuelve A K H S N E W en px del rig, respeta `hip`/`ankle`
+  IK, `al`, `ul`, `fl`), `check(poses)` (avisa si la mano no llega: > 331 px), `Stage(rig)` (rig → pantalla para los
+  overlays), helpers `hook/step/keys/reps/ring/lab/arrow/NO`, `yt_desc()` con la estructura del §9, `base_spec()`
+  (escribe props/poses/rig desde el CSV) y `save()` (valida `vo` ≤ 135, labels ≤ 22 caracteres dentro del lienzo,
+  poses existentes en los moves, `seq` con `until`, título y tags de YouTube).
+- `lN_poses.py` / `lN_frames.py` — uno por lote: primero poses + props (correr, pose-lab, mirar, ajustar), después
+  escenas + YouTube + miniatura.
+
+Flujo por lote: `python plantilla/maquinas/lN_poses.py` → `node plantilla/pose-lab.mjs <clave>` de cada una (de a
+una si hay renders corriendo) → mirar las hojas → `python plantilla/maquinas/lN_frames.py` → `make-exercise` de a 3
+→ contact sheets → `--render` de a 2. Para muchos videos, `plantilla/maquinas/cola.sh`:
+`bash plantilla/maquinas/cola.sh render <claves…>` (renders de a 2) y, a la vez, `bash plantilla/maquinas/cola.sh build
+<claves…>` (make-exercise de a 1); al final imprime duración, check y archivo de cada video. Con 2 renders + 1 build
+en paralelo no falla el navegador. Los overlays se ubican con las articulaciones de `fk()` pasadas por `Stage`,
+nunca a ojo. Ring del pasador de una pila `weightStack(…, x, 10, {n: 12, pin})`: `(x + 51, -254 + (pin − 0,5) × 22)`.
+
 ## 5. Estructura de escenas (14–18 escenas, 90–150 s)
 
 Las mismas reglas de `GENERAR_VIDEOS.md` §6.2 por escena (**`vo` ≤ ~130 caracteres**, head ≤ ~14 caracteres, labels
@@ -167,6 +204,8 @@ Las mismas reglas de `GENERAR_VIDEOS.md` §6.2 por escena (**`vo` ≤ ~130 carac
 | 16 | `kind: "reps"` · `A ENTRENAR` | dosis + descanso + cómo progresar | "Tres series de diez a doce, con un minuto y medio de pausa. Subí el peso cuando las doce salgan fáciles." | 7–8 |
 | 17 *(opcional)* | `AL TERMINAR` | trabar la máquina, descargar, dejarla lista | "Al terminar, trabá la máquina antes de sacar los pies y descargá los discos." | 5–6 |
 
+- Con `vo` de ~110–130 caracteres cada escena dura ~7 s: **14 escenas ≈ 95–100 s, 15–17 ≈ 105–120 s**. Máquinas
+  simples: 14 (2 ASÍ NO, sin AL TERMINAR) alcanza para pasar los 90 s.
 - Total esperable: **90–150 s**. Menos de 90 s → faltan errores, ajustes o tips; más de 150 s → recortá escenas,
   no texto. La música base dura 177 s: no pases de ~170 s.
 - Máquinas simples (gemelos, abductor) pueden tener 2 escenas ASÍ NO y una sola de ajuste; las complejas (Smith,
@@ -189,6 +228,11 @@ Es la parte más importante para el usuario: mostrar el error y su corrección.
 - `vo` con la estructura **"Error: <qué pasa>. <Corrección en voseo>."** (≤ 130 caracteres).
 - Terminá la escena **en la pose mala** (`{cut: BUENA, at: 0}`, `{to: MALA, at: 0.5}`) y arrancá la siguiente con
   `cut` a la buena (BITÁCORA 10-21: si vuelve a la buena, el contact sheet no muestra el error).
+- Errores de **ritmo** (rebotar, impulso, dejar caer el peso, recorrido corto): un `seq` rápido entre las dos poses
+  (`[["MALA", 0.3], ["BUENA", 0.3]]` con `until: 4.0`) y un `to` final a la pose mala, con un label ("SIN CONTROL",
+  "DE GOLPE") — el contact sheet así muestra la pose mala.
+- Errores de **ubicación** (banco corrido, pies muy adelante, rodilla fuera del eje): moviendo `hip`/`ankle` de la pose,
+  la máquina queda fija y se ve la diferencia (ring en la articulación y en el eje/tope).
 - Si el error no se ve de perfil (rodillas hacia adentro, codos abiertos), usá `topview` (`GENERAR_VIDEOS.md` §6.6) o
   un overlay explícito (flechas + label), nunca solo la voz.
 
@@ -269,7 +313,8 @@ Igual que `GENERAR_VIDEOS.md` §5.5–5.7, §8 y §9, con estos agregados:
 
 1. `node plantilla/make-exercise.mjs <clave>` → revisá **todas** las hojas del contact sheet y la miniatura.
    Duración esperable 90–150 s (el builder la imprime: `✓ index.html — N escenas, Xs`).
-2. Render: con estas duraciones tarda más (~10–15 min por video): de a **2** en paralelo como máximo.
+2. Render: con estas duraciones tarda ~10–13 min por par: de a **2** en paralelo como máximo. Mientras renderiza se
+   puede correr el pose-lab del lote siguiente **de a uno** (no falla); `make-exercise` de a 3 cuando no hay renders.
 3. `node plantilla/make-exercise.mjs --checklist` → en la sección **🏋️ Máquinas de gimnasio** cada video tiene que
    tener Ficha, Voz, Composición, Check, Render, YouTube, Miniatura y Nombre EN en ✅, y la columna Implemento sin
    «(falta dibujar)».

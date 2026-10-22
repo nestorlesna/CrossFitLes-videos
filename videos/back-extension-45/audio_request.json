@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Forty five degree back extension",
+      "text": "Las hiperextensiones en banco a cuarenta y cinco grados. Espalda baja y glúteos fuertes."
+    },
+    {
+      "id": "02",
+      "text": "También le dicen banco romano o lumbar. Trabaja los músculos de la espalda baja y los glúteos."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá la altura para que la almohadilla quede justo debajo del hueso de la cadera. Así podés doblarte bien."
+    },
+    {
+      "id": "04",
+      "text": "Apoyá los pies en la plataforma con los talones o las pantorrillas firmes contra el rodillo."
+    },
+    {
+      "id": "05",
+      "text": "Empezá con el cuerpo en línea, de los talones a la cabeza, y los brazos cruzados sobre el pecho."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Bajá el tronco con la espalda recta, doblándote desde la cadera, como una bisagra."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Subí apretando los glúteos hasta que el cuerpo quede alineado otra vez."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Frená cuando el cuerpo queda en línea. Más arriba no suma nada y carga la lumbar."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire mientras bajás y soltalo mientras subís."
+    },
+    {
+      "id": "10",
+      "text": "Error: subir más allá de la línea del cuerpo y arquear la espalda. Frená cuando quedás alineado."
+    },
+    {
+      "id": "11",
+      "text": "Error: redondear la espalda al bajar. El movimiento sale de la cadera: espalda recta todo el tiempo."
+    },
+    {
+      "id": "12",
+      "text": "Error: hacerlo rápido, con impulso. Bajá en dos segundos y subí controlado."
+    },
+    {
+      "id": "13",
+      "text": "Tips de profe: almohadilla bajo la cadera, espalda recta como bisagra, subí hasta la línea y apretá los glúteos arriba."
+    },
+    {
+      "id": "14",
+      "text": "Claves: pies firmes, brazos cruzados al pecho, sin impulso y peso extra solo cuando domines la técnica."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de doce a quince, con un minuto de pausa. Primero dominá la técnica, después sumá un disco al pecho."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

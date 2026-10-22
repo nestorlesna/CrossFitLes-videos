@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Leg Extension",
+      "text": "El sillón de cuádriceps. Aísla el frente del muslo, ideal para empezar y para terminar la rutina de piernas."
+    },
+    {
+      "id": "02",
+      "text": "También le dicen sillón de cuádriceps. Trabaja solo el cuádriceps, sin cargar la espalda."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el respaldo hasta que la rodilla quede justo al lado del eje rojo de la máquina. Es el ajuste más importante."
+    },
+    {
+      "id": "04",
+      "text": "Después bajá el rodillo hasta que apoye arriba del tobillo, no sobre el empeine. Y elegí el peso con el pasador."
+    },
+    {
+      "id": "05",
+      "text": "Sentate bien atrás, con la espalda apoyada, y agarrate de las manijas de los costados. La cola no se mueve del asiento."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Estirá las piernas empujando el rodillo hacia arriba, con fuerza pero sin patear."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Arriba, frená un segundo y apretá bien el cuádriceps, sin trabar la rodilla."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá lento, en tres segundos, resistiendo el peso hasta que la rodilla quede en noventa grados."
+    },
+    {
+      "id": "09",
+      "text": "Paso cuatro. Antes de que las placas se apoyen, arrancá la siguiente repetición. Así el músculo no descansa."
+    },
+    {
+      "id": "10",
+      "text": "Soltá el aire mientras estirás las piernas y tomalo mientras bajás. Sin aguantar la respiración."
+    },
+    {
+      "id": "11",
+      "text": "Error: sentarte con la rodilla lejos del eje rojo. La rodilla trabaja forzada: ajustá el respaldo antes de empezar."
+    },
+    {
+      "id": "12",
+      "text": "Error: patear de golpe y levantar la cola del asiento. Es impulso, no músculo: bajá el peso y subí controlado."
+    },
+    {
+      "id": "13",
+      "text": "Error: trabar la rodilla arriba con mucho peso. Estirá casi del todo, pero sin bloquear la articulación."
+    },
+    {
+      "id": "14",
+      "text": "Tips de profe: rodilla en el eje rojo, rodillo arriba del tobillo, pausa de un segundo arriba y bajá en tres segundos."
+    },
+    {
+      "id": "15",
+      "text": "Claves: espalda apoyada, manos en las manijas, sin patear ni rebotar y sin trabar la rodilla arriba."
+    },
+    {
+      "id": "16",
+      "text": "Tres series de doce a quince, con un minuto de pausa. Cuando las quince salen fáciles, subí una placa."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

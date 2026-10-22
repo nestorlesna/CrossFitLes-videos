@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Smith Machine Squat",
+      "text": "La sentadilla en la máquina Esmit. La barra va guiada, ideal para aprender a cargar con seguridad."
+    },
+    {
+      "id": "02",
+      "text": "También le dicen multipower. La barra sube y baja guiada por dos rieles, con ganchos y topes de seguridad."
+    },
+    {
+      "id": "03",
+      "text": "Poné los topes de seguridad un poco por debajo de tu punto más bajo. Si no podés subir, la barra queda ahí."
+    },
+    {
+      "id": "04",
+      "text": "Probá sin peso dónde van tus pies. Como la barra baja recta, los pies van apenas adelante."
+    },
+    {
+      "id": "05",
+      "text": "Ubicate bajo la barra, apoyada en la parte alta de la espalda, y agarrala un poco más ancho que los hombros."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá apenas hacia arriba y girá la barra para sacarla de los ganchos."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Bajá controlado, con el pecho alto, llevando la cadera atrás y abajo."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá hasta que los muslos queden paralelos al piso, con los talones bien apoyados."
+    },
+    {
+      "id": "09",
+      "text": "Paso cuatro. Subí empujando el piso. Al terminar la serie, girá la barra para trabarla en los ganchos."
+    },
+    {
+      "id": "10",
+      "text": "Tomá aire arriba, bajá con el abdomen firme y soltá el aire mientras subís."
+    },
+    {
+      "id": "11",
+      "text": "Error: los pies muy adelante. Quedás colgado de la barra y la lumbar sufre: acercá los pies."
+    },
+    {
+      "id": "12",
+      "text": "Error: los pies muy atrás, debajo de la barra. Las rodillas se van muy adelante y la espalda se inclina."
+    },
+    {
+      "id": "13",
+      "text": "Error: despegar los talones abajo. Toda la carga va a la rodilla: talones firmes en el piso."
+    },
+    {
+      "id": "14",
+      "text": "Tips de profe: probá sin peso dónde van tus pies, pies apenas adelante, topes siempre puestos y trabá antes de soltar."
+    },
+    {
+      "id": "15",
+      "text": "Claves: rodillas en la línea de las puntas, talones firmes, pecho alto y bajada controlada."
+    },
+    {
+      "id": "16",
+      "text": "Tres series de ocho a diez, con dos minutos de pausa. Subí el peso de a poco, siempre con los topes puestos."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

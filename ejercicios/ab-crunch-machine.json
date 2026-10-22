@@ -1,0 +1,677 @@
+{
+  "slug": "ab-crunch-machine",
+  "name": "Ab Crunch Machine",
+  "maquina": true,
+  "category": "GIMNASIO · CORE",
+  "tags": [
+    "Abdominales"
+  ],
+  "descripcion": "Sentate con los pies trabados, agarrá las manijas y enrollá el tronco hacia adelante con el abdomen. Volvé lento.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 720,
+    "y": 1509.6,
+    "scale": 0.66
+  },
+  "shadow": false,
+  "initialPose": "UP",
+  "props": [
+    {
+      "type": "abcrunch",
+      "seat": [
+        -390,
+        -90,
+        -184
+      ],
+      "pivot": [
+        -300,
+        -820
+      ],
+      "stack": -640,
+      "feet": [
+        60,
+        -20
+      ],
+      "pin": 5
+    }
+  ],
+  "poses": {
+    "UP": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        60,
+        -20
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -6,
+      "hd": -2,
+      "ua": 24,
+      "fa": 150
+    },
+    "MID": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        60,
+        -20
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": 14,
+      "hd": 24,
+      "cv": 14,
+      "ua": 44,
+      "fa": 150
+    },
+    "CRUNCH": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        60,
+        -20
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": 32,
+      "hd": 52,
+      "cv": 30,
+      "ua": 62,
+      "fa": 150
+    },
+    "ARMS_BAD": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        60,
+        -20
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": 14,
+      "hd": 14,
+      "ua": 70,
+      "fa": 40
+    },
+    "NECK_BAD": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        60,
+        -20
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": 8,
+      "hd": 80,
+      "ua": 38,
+      "fa": 150
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · CORE",
+      "head": [
+        "AB CRUNCH",
+        "MACHINE"
+      ],
+      "sub": "Crunch abdominal en máquina",
+      "vo": "Ab Crunch Machine: el crunch abdominal en máquina. Abdominales con carga, sin tirar del cuello.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CRUNCH",
+              1.2
+            ],
+            [
+              "UP",
+              2.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Manijas y rodillos",
+      "vo": "Te sentás con los pies trabados y las manijas sobre los hombros. Trabaja el recto abdominal y suma los oblicuos.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            562,
+            1194
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "MANIJAS",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            766,
+            1462
+          ],
+          "r": 40,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1300
+          ],
+          "text": "RODILLOS",
+          "anchor": "end",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            331,
+            1407
+          ],
+          "r": 30,
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "ASIENTO",
+        "Y PIES"
+      ],
+      "sub": "Pies bien trabados",
+      "vo": "Ajustá el asiento y trabá los pies bajo los rodillos. Las manijas quedan a la altura de los hombros.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            766,
+            1462
+          ],
+          "r": 40,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1300
+          ],
+          "text": "PIES TRABADOS",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "PESO",
+        "MODERADO"
+      ],
+      "sub": "Con el pasador",
+      "vo": "Elegí un peso moderado con el pasador. Si tirás con los brazos, es mucho.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            331,
+            1407
+          ],
+          "r": 30,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            900
+          ],
+          "text": "PASADOR",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESPALDA",
+        "DERECHA"
+      ],
+      "sub": "Los brazos solo sostienen",
+      "vo": "Sentate derecho y agarrá las manijas. Los brazos solo sostienen: no tiran.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "BRAZOS SIN TIRAR",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "ENROLLÁ",
+        "EL TRONCO"
+      ],
+      "sub": "Costillas a la cadera",
+      "vo": "Paso uno. Enrollá el tronco hacia adelante, pensando en acercar las costillas a la cadera.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "CRUNCH",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "COSTILLAS A LA CADERA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "EXHALÁ",
+        "Y APRETÁ"
+      ],
+      "sub": "Todo el aire afuera",
+      "vo": "Paso dos. Abajo, soltá todo el aire y apretá el abdomen un segundo. Cuello largo, mirada al ombligo.",
+      "moves": [
+        {
+          "cut": "CRUNCH",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            562,
+            1358
+          ],
+          "r": 70,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "MIRADA AL OMBLIGO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "VOLVÉ",
+        "LENTO"
+      ],
+      "sub": "Sin tocar la pila",
+      "vo": "Paso tres. Volvé lento hasta sentarte derecho, sin que las placas toquen la pila.",
+      "moves": [
+        {
+          "cut": "CRUNCH",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.6,
+          "dur": 2.4
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            331,
+            1407
+          ],
+          "r": 34,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            900
+          ],
+          "text": "SIN TOCAR LA PILA",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al cerrar",
+      "vo": "Soltá todo el aire mientras cerrás y tomalo mientras volvés.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CRUNCH",
+              1.2
+            ],
+            [
+              "UP",
+              2.4
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 2",
+      "head": [
+        "TIRAR CON",
+        "LOS BRAZOS"
+      ],
+      "sub": "El abdomen hace el trabajo",
+      "vo": "Error: tirar con los brazos y usar mucho peso. Bajá la carga: el que enrolla es el abdomen.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "ARMS_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            812,
+            1181
+          ],
+          "r": 44,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 2",
+      "head": [
+        "TIRAR DEL",
+        "CUELLO"
+      ],
+      "sub": "Cuello largo",
+      "vo": "Error: tirar del cuello hacia abajo. El cuello sufre y el abdomen no trabaja: cuello largo, mirada al ombligo.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "NECK_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            608,
+            1171
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Costillas a la cadera",
+        "Los brazos no tiran",
+        "Exhalá todo al cerrar",
+        "Volvé sin tocar la pila"
+      ],
+      "vo": "Tips de profe: costillas a la cadera, los brazos no tiran, exhalá todo al cerrar y volvé sin tocar la pila.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CRUNCH",
+              1.2
+            ],
+            [
+              "UP",
+              2.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Pies trabados",
+        "Cuello largo",
+        "Peso moderado",
+        "Movimiento lento"
+      ],
+      "vo": "Claves: pies trabados, cuello largo, peso moderado y movimiento lento.",
+      "moves": [
+        {
+          "cut": "CRUNCH",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 15"
+      ],
+      "sub": "Un minuto de pausa",
+      "vo": "Tres series de doce a quince, con un minuto de pausa. Cuando las quince salen fáciles, subí una placa.",
+      "chips": [
+        {
+          "label": "1 · ENROLLÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · EXHALÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ LENTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CRUNCH",
+              1.2
+            ],
+            [
+              "UP",
+              2.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "CRUNCH",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 110
+  },
+  "youtube": {
+    "titulo": "Ab Crunch Machine 🔥 Abdominales en máquina sin tirar del cuello | Gimnasio",
+    "tags": [
+      "ab crunch machine",
+      "crunch abdominal en máquina",
+      "abdominales en máquina",
+      "cómo hacer abdominales",
+      "abdomen",
+      "core",
+      "recto abdominal",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes"
+    ],
+    "descripcion": "🔥 AB CRUNCH MACHINE (crunch abdominal en máquina) — abdominales con carga sin dolor de cuello\n\n¿Terminás las abdominales con dolor de cuello? En la máquina se evita, si sabés estos detalles. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el asiento y trabá los pies bajo los rodillos.\n2️⃣ Elegí un peso moderado con el pasador.\n\n📋 PASO A PASO\n1️⃣ Sentate derecho con las manos en las manijas, sin tirar.\n2️⃣ Enrollá el tronco acercando las costillas a la cadera.\n3️⃣ Soltá todo el aire y apretá un segundo, mirada al ombligo.\n4️⃣ Volvé lento sin que las placas toquen la pila.\n\n❌ ERRORES COMUNES\n• Tirar con los brazos → los brazos solo sostienen.\n• Usar mucho peso → peso moderado.\n• Tirar del cuello → cuello largo.\n\n💡 TIPS DEL PROFE\n• Pensá en acercar las costillas a la cadera.\n• Los brazos solo sostienen: no tires.\n• Exhalá todo el aire al cerrar.\n• Volvé lento sin que el peso toque la pila.\n• Cuello largo, mirada al ombligo.\n\n🎯 QUÉ TRABAJA\nRecto abdominal · Oblicuos\n\n⏱️ CUÁNTO\n3 series de 12–15 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #AbCrunch #Core #Musculacion #Entrenamiento"
+  }
+}

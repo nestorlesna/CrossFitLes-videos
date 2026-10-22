@@ -1,0 +1,81 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Rowing Machine",
+      "text": "El remo ergómetro. Cardio que trabaja el cuerpo entero: piernas, espalda y brazos."
+    },
+    {
+      "id": "02",
+      "text": "También le dicen remo o rower. Trabaja dorsales, cuádriceps y glúteos, y suma bíceps, core y hombros."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el apoyo para que la correa cruce la parte más ancha del pie, y apretala bien."
+    },
+    {
+      "id": "04",
+      "text": "Poné la palanca de resistencia, el damper, entre cuatro y seis. Al máximo no es mejor: cansa la espalda."
+    },
+    {
+      "id": "05",
+      "text": "Empezá adelante: tibias casi verticales, brazos estirados y el tronco apenas inclinado."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá con las piernas, con los brazos todavía estirados. El sesenta por ciento sale de acá."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Cuando las piernas terminan, inclinás el tronco un poco hacia atrás."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Por último tirás con los brazos hasta el abdomen, con la manija debajo del mentón."
+    },
+    {
+      "id": "09",
+      "text": "Paso cuatro. Volvés al revés: estirás los brazos, inclinás el tronco y recién ahí doblás las rodillas."
+    },
+    {
+      "id": "10",
+      "text": "Soltá el aire en el tirón y tomalo mientras volvés hacia adelante."
+    },
+    {
+      "id": "11",
+      "text": "Error: tirar con los brazos antes de empujar con las piernas. Se pierde la fuerza grande: piernas primero."
+    },
+    {
+      "id": "12",
+      "text": "Error: redondear la espalda en el ataque. La lumbar sufre: llegá adelante con el pecho alto."
+    },
+    {
+      "id": "13",
+      "text": "Error: subir la manija hasta el pecho o el cuello. Viaja en línea recta y llega al abdomen."
+    },
+    {
+      "id": "14",
+      "text": "Error: doblar las rodillas antes de que pasen las manos. La manija choca con las rodillas: brazos primero."
+    },
+    {
+      "id": "15",
+      "text": "Tips de profe: piernas, tronco y brazos al ir; el sesenta por ciento sale de las piernas, manija recta y damper entre cuatro y seis."
+    },
+    {
+      "id": "16",
+      "text": "Claves: volvé al revés, pecho alto, soltá el aire en el tirón y ritmo parejo."
+    },
+    {
+      "id": "17",
+      "text": "De quinientos a dos mil metros. Para empezar, mil metros a ritmo parejo, sin salir a fondo."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

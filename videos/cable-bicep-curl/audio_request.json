@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Cable Bicep Curl",
+      "text": "El curl de bíceps en polea baja. La polea te mantiene la tensión en todo el recorrido."
+    },
+    {
+      "id": "02",
+      "text": "Se hace en la polea baja, con barra o con soga. Trabaja el bíceps y suma el braquial y los antebrazos."
+    },
+    {
+      "id": "03",
+      "text": "Bajá la polea hasta abajo con la perilla y enganchá la barra recta o la soga."
+    },
+    {
+      "id": "04",
+      "text": "Elegí el peso con el pasador: uno que puedas subir doce veces sin balancearte."
+    },
+    {
+      "id": "05",
+      "text": "Parate cerca de la polea, pies al ancho de la cadera, brazos estirados y codos pegados a las costillas."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Flexioná los codos llevando las manos hacia los hombros, en un segundo, sin mover los codos."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Arriba apretá el bíceps un segundo, con las muñecas firmes y alineadas con el antebrazo."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá lento, en tres segundos, hasta casi estirar los brazos. La polea sigue tirando: aprovechala."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras subís y tomalo mientras bajás."
+    },
+    {
+      "id": "10",
+      "text": "Error: llevar los codos hacia adelante al subir. Trabaja el hombro, no el bíceps: los codos quedan quietos."
+    },
+    {
+      "id": "11",
+      "text": "Error: tirarte para atrás para subir la barra. La lumbar sufre: bajá el peso y dejá el tronco quieto."
+    },
+    {
+      "id": "12",
+      "text": "Error: pararte muy lejos de la polea. El cable te tira los brazos adelante: acercate hasta que tire casi vertical."
+    },
+    {
+      "id": "13",
+      "text": "Tips de profe: codos pegados a las costillas, aprovechá la tensión de abajo, muñecas firmes y subí en uno, bajá en tres."
+    },
+    {
+      "id": "14",
+      "text": "Claves: cerca de la polea, tronco quieto, sin bajar de golpe y brazos casi estirados abajo."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce, con un minuto de pausa. Cuando las doce salen fáciles, subí una placa."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

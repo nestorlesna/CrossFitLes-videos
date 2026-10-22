@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Machine Shoulder Press",
+      "text": "El press de hombros en máquina. Hombros fuertes con la espalda bien apoyada."
+    },
+    {
+      "id": "02",
+      "text": "También le dicen shoulder press. Trabaja los deltoides y suma tríceps y trapecio."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el asiento para que, al empezar, las manijas queden a la altura de tus hombros."
+    },
+    {
+      "id": "04",
+      "text": "Elegí el peso con el pasador. Empezá liviano: el hombro es una articulación delicada."
+    },
+    {
+      "id": "05",
+      "text": "Espalda pegada al respaldo, pies firmes en el piso y las muñecas justo arriba de los codos."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá las manijas hacia arriba, con la espalda pegada y sin arquear la zona lumbar."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Arriba, llegá casi a estirar los brazos, sin trabar los codos."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá controlado hasta que las manijas lleguen a la altura de los hombros, no más abajo."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras empujás hacia arriba y tomalo mientras bajás."
+    },
+    {
+      "id": "10",
+      "text": "Error: arquear la espalda para empujar. La zona lumbar sufre: apretá el abdomen y bajá el peso."
+    },
+    {
+      "id": "11",
+      "text": "Error: bajar las manijas mucho más abajo que los hombros. Si molesta, frená a la altura del hombro."
+    },
+    {
+      "id": "12",
+      "text": "Error: trabar los codos arriba. Llegá casi estirado y empezá a bajar."
+    },
+    {
+      "id": "13",
+      "text": "Tips de profe: manijas a la altura del hombro, lumbar pegada, arriba sin trabar y las muñecas sobre los codos."
+    },
+    {
+      "id": "14",
+      "text": "Claves: espalda pegada, pies firmes en el piso, bajá controlado y sin impulso."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce, con un minuto y medio de pausa. Cuando las doce salen fáciles, subí una placa."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

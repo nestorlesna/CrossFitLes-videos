@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Assisted Pull-Up Machine",
+      "text": "Las dominadas asistidas. El camino más seguro para llegar a tu primera dominada."
+    },
+    {
+      "id": "02",
+      "text": "Te arrodillás en una plataforma que te empuja hacia arriba. Trabaja dorsales y bíceps."
+    },
+    {
+      "id": "03",
+      "text": "Elegí el contrapeso con el pasador. Ojo: acá es al revés, más peso es más ayuda."
+    },
+    {
+      "id": "04",
+      "text": "Subí por los escalones, agarrá las manijas de arriba y recién ahí apoyá las rodillas en la plataforma."
+    },
+    {
+      "id": "05",
+      "text": "Empezá colgado con los brazos estirados y los hombros activos: bajalos un poco, no quedes flojo."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Tirá llevando el pecho hacia las manos, con los codos hacia abajo."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Subí hasta que el mentón pase por arriba de las manos."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá en dos o tres segundos hasta estirar los brazos, sin soltarte de golpe."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras subís y tomalo mientras bajás."
+    },
+    {
+      "id": "10",
+      "text": "Error: subir con impulso, balanceando las piernas. Subí lento y con la espalda: si no sale, poné más ayuda."
+    },
+    {
+      "id": "11",
+      "text": "Error: soltarte de golpe al bajar. El hombro recibe todo el tirón: controlá la bajada hasta el final."
+    },
+    {
+      "id": "12",
+      "text": "Tips de profe: hombros activos, pecho a las manos, bajá en dos o tres segundos y cada semana bajá un poco la ayuda."
+    },
+    {
+      "id": "13",
+      "text": "Claves: más peso es más ayuda, mentón sobre las manos, sin impulso y bajate de la plataforma con cuidado."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de seis a diez, con dos minutos de pausa. Cuando las diez salen fáciles, sacá un poco de ayuda."
+    },
+    {
+      "id": "15",
+      "text": "Al terminar, con los brazos estirados, apoyá los pies en los escalones y recién ahí soltá las manijas."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

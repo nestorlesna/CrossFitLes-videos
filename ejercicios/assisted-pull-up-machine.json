@@ -1,0 +1,699 @@
+{
+  "slug": "assisted-pull-up-machine",
+  "name": "Assisted Pull-Up Machine",
+  "maquina": true,
+  "category": "GIMNASIO · ESPALDA",
+  "tags": [
+    "Dorsales",
+    "Bíceps"
+  ],
+  "descripcion": "Elegí el contrapeso: más peso es más ayuda. Subí a los escalones, agarrá las manijas de arriba y apoyá las rodillas en la plataforma. Tirá hasta pasar el mentón por arriba de las manos y bajá controlado.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 560,
+    "y": 1512.3,
+    "scale": 0.58
+  },
+  "shadow": false,
+  "initialPose": "HANG",
+  "props": [
+    {
+      "type": "assisted",
+      "stack": 420,
+      "grip": [
+        60,
+        -1240
+      ],
+      "dip": [
+        60,
+        -760
+      ],
+      "pivot": [
+        300,
+        -260
+      ],
+      "rest": -657,
+      "pin": 6,
+      "k": 1
+    }
+  ],
+  "poses": {
+    "HANG": {
+      "hip": [
+        39.3,
+        -643.5
+      ],
+      "s": 92,
+      "t": 4,
+      "b": -6,
+      "hd": -6,
+      "ft": 80,
+      "g": 1,
+      "hx": 60,
+      "hy": -1240,
+      "ed": -1
+    },
+    "MID": {
+      "hip": [
+        28.6,
+        -764.3
+      ],
+      "s": 92,
+      "t": 4,
+      "b": -10,
+      "hd": -10,
+      "ft": 80,
+      "g": 1,
+      "hx": 60,
+      "hy": -1240,
+      "ed": -1
+    },
+    "TOP": {
+      "hip": [
+        28.2,
+        -896.1
+      ],
+      "s": 92,
+      "t": 4,
+      "b": -12,
+      "hd": -12,
+      "ft": 80,
+      "g": 1,
+      "hx": 60,
+      "hy": -1240,
+      "ed": -1
+    },
+    "KIP_BAD": {
+      "hip": [
+        142.7,
+        -788.3
+      ],
+      "s": 120,
+      "t": 40,
+      "b": -26,
+      "hd": -26,
+      "ft": 80,
+      "g": 1,
+      "hx": 60,
+      "hy": -1240,
+      "ed": -1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · ESPALDA",
+      "head": [
+        "ASSISTED",
+        "PULL-UP"
+      ],
+      "sub": "Dominadas asistidas en máquina",
+      "vo": "Assisted Pull-Up Machine: las dominadas asistidas. El camino más seguro para llegar a tu primera dominada.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.4
+            ],
+            [
+              "HANG",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Te ayuda a subir",
+      "vo": "Te arrodillás en una plataforma que te empuja hacia arriba. Trabaja dorsales y bíceps.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            595,
+            793
+          ],
+          "r": 40,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            700
+          ],
+          "text": "MANIJAS ALTAS",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            573,
+            1305
+          ],
+          "r": 56,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            700
+          ],
+          "text": "PLATAFORMA",
+          "anchor": "start",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            833,
+            1435
+          ],
+          "r": 30,
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "AJUSTE 1",
+      "head": [
+        "EL",
+        "CONTRAPESO"
+      ],
+      "sub": "Más peso, más ayuda",
+      "vo": "Elegí el contrapeso con el pasador. Ojo: acá es al revés, más peso es más ayuda.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            833,
+            1435
+          ],
+          "r": 34,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            700
+          ],
+          "text": "MÁS PESO = MÁS AYUDA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "SUBÍ CON",
+        "CUIDADO"
+      ],
+      "sub": "Por los escalones",
+      "vo": "Subí por los escalones, agarrá las manijas de arriba y recién ahí apoyá las rodillas en la plataforma.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            418,
+            1402
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            700
+          ],
+          "text": "ESCALONES",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "HOMBROS",
+        "ACTIVOS"
+      ],
+      "sub": "Colgado, pero firme",
+      "vo": "Empezá colgado con los brazos estirados y los hombros activos: bajalos un poco, no quedes flojo.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            700
+          ],
+          "text": "HOMBROS ABAJO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "PECHO A",
+        "LAS MANOS"
+      ],
+      "sub": "Tirá con la espalda",
+      "vo": "Paso uno. Tirá llevando el pecho hacia las manos, con los codos hacia abajo.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            480,
+            1180
+          ],
+          "to": [
+            480,
+            1000
+          ],
+          "at": 0.8,
+          "dur": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            700
+          ],
+          "text": "PECHO ARRIBA",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "MENTÓN",
+        "ARRIBA"
+      ],
+      "sub": "Por encima de las manos",
+      "vo": "Paso dos. Subí hasta que el mentón pase por arriba de las manos.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            539,
+            816
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            700
+          ],
+          "text": "MENTÓN ARRIBA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "EN 3"
+      ],
+      "sub": "Hasta estirar los brazos",
+      "vo": "Paso tres. Bajá en dos o tres segundos hasta estirar los brazos, sin soltarte de golpe.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "HANG",
+          "at": 0.6,
+          "dur": 2.6
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            700
+          ],
+          "text": "2 A 3 SEGUNDOS",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al subir",
+      "vo": "Soltá el aire mientras subís y tomalo mientras bajás.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.4
+            ],
+            [
+              "HANG",
+              2.4
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 2",
+      "head": [
+        "SUBIR CON",
+        "IMPULSO"
+      ],
+      "sub": "Sin balanceo",
+      "vo": "Error: subir con impulso, balanceando las piernas. Subí lento y con la espalda: si no sale, poné más ayuda.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "KIP_BAD",
+          "at": 0.5,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            643,
+            1055
+          ],
+          "r": 60,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 2",
+      "head": [
+        "SOLTARTE",
+        "DE GOLPE"
+      ],
+      "sub": "Bajada controlada",
+      "vo": "Error: soltarte de golpe al bajar. El hombro recibe todo el tirón: controlá la bajada hasta el final.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "HANG",
+          "at": 0.8,
+          "dur": 0.3
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            700
+          ],
+          "text": "DE GOLPE",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Hombros activos colgado",
+        "Pecho a las manos",
+        "Bajá en 2 a 3 segundos",
+        "Cada semana, menos ayuda"
+      ],
+      "vo": "Tips de profe: hombros activos, pecho a las manos, bajá en dos o tres segundos y cada semana bajá un poco la ayuda.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.4
+            ],
+            [
+              "HANG",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Más peso = más ayuda",
+        "Mentón sobre las manos",
+        "Sin impulso",
+        "Bajate con cuidado"
+      ],
+      "vo": "Claves: más peso es más ayuda, mentón sobre las manos, sin impulso y bajate de la plataforma con cuidado.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 8"
+      ],
+      "sub": "Dos minutos de pausa",
+      "vo": "Tres series de seis a diez, con dos minutos de pausa. Cuando las diez salen fáciles, sacá un poco de ayuda.",
+      "chips": [
+        {
+          "label": "1 · PECHO ARRIBA",
+          "at": 0.6
+        },
+        {
+          "label": "2 · MENTÓN",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ LENTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.4
+            ],
+            [
+              "HANG",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.2,
+      "badge": "AL TERMINAR",
+      "head": [
+        "BAJATE",
+        "CON CUIDADO"
+      ],
+      "sub": "Primero los pies al escalón",
+      "vo": "Al terminar, con los brazos estirados, apoyá los pies en los escalones y recién ahí soltá las manijas.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            418,
+            1402
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            700
+          ],
+          "text": "PIES AL ESCALÓN",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "TOP",
+    "grip": 1,
+    "zoom": 0.95,
+    "dy": 160
+  },
+  "youtube": {
+    "titulo": "Assisted Pull-Up Machine 🔥 Dominadas asistidas paso a paso | Gimnasio",
+    "tags": [
+      "assisted pull up",
+      "dominadas asistidas",
+      "máquina de dominadas asistidas",
+      "primera dominada",
+      "cómo hacer dominadas",
+      "dorsales",
+      "bíceps",
+      "espalda",
+      "máquinas de gimnasio",
+      "gimnasio"
+    ],
+    "descripcion": "🔥 ASSISTED PULL-UP MACHINE (dominadas asistidas en máquina) — el camino seguro a tu primera dominada\n\n¿Todavía no te sale una dominada? Esta máquina es tu mejor aliada, si la usás bien. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Elegí el contrapeso: acá más peso es más ayuda.\n2️⃣ Subí por los escalones, agarrá las manijas y apoyá las rodillas en la plataforma.\n\n📋 PASO A PASO\n1️⃣ Colgado, brazos estirados y hombros activos.\n2️⃣ Tirá llevando el pecho a las manos.\n3️⃣ Subí hasta pasar el mentón por arriba de las manos.\n4️⃣ Bajá en 2–3 segundos hasta estirar los brazos.\n5️⃣ Al terminar, pies al escalón antes de soltar.\n\n❌ ERRORES COMUNES\n• Soltar de golpe → bajada controlada.\n• No controlar la bajada → 2–3 segundos.\n• Subir con impulso → más ayuda y sin balanceo.\n• Quedarte siempre con mucha ayuda → bajala un poco cada semana.\n\n💡 TIPS DEL PROFE\n• Empezá colgado con los hombros activos, no flojos.\n• Llevá el pecho a las manos.\n• Bajá en 2–3 segundos hasta estirar los brazos.\n• Cada semana bajá un poco la ayuda.\n• Bajate de la plataforma con cuidado.\n\n🎯 QUÉ TRABAJA\nDorsales · Bíceps · Romboides · Antebrazos\n\n⏱️ CUÁNTO\n3 series de 6–10 repeticiones, con 2 minutos de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #AssistedPullUp #Espalda #Musculacion #Entrenamiento"
+  }
+}

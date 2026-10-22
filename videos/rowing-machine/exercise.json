@@ -1,0 +1,967 @@
+{
+  "slug": "rowing-machine",
+  "name": "Rowing Machine",
+  "maquina": true,
+  "category": "GIMNASIO · CARDIO",
+  "tags": [
+    "Espalda",
+    "Piernas"
+  ],
+  "descripcion": "Orden: empujás con piernas → inclinás el tronco atrás → tirás con brazos al abdomen. Volvés al revés: brazos → tronco → piernas.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 720,
+    "y": 1504,
+    "scale": 0.78
+  },
+  "shadow": false,
+  "initialPose": "CATCH",
+  "props": [
+    {
+      "type": "rower",
+      "foot": [
+        0,
+        -40
+      ],
+      "fly": [
+        230,
+        -175
+      ],
+      "seatY": -150,
+      "railY": -110,
+      "railFrom": -860
+    }
+  ],
+  "poses": {
+    "CATCH": {
+      "ankle": [
+        0,
+        -40
+      ],
+      "hip": [
+        -250,
+        -190
+      ],
+      "ft": -40,
+      "b": 22,
+      "hd": 12,
+      "g": 1,
+      "ed": -1,
+      "hx": 40,
+      "hy": -230
+    },
+    "LEGS": {
+      "ankle": [
+        0,
+        -40
+      ],
+      "hip": [
+        -430,
+        -190
+      ],
+      "ft": -40,
+      "b": 22,
+      "hd": 12,
+      "g": 1,
+      "ed": -1,
+      "hx": -60,
+      "hy": -260
+    },
+    "BODY": {
+      "ankle": [
+        0,
+        -40
+      ],
+      "hip": [
+        -450,
+        -190
+      ],
+      "ft": -40,
+      "b": -22,
+      "hd": -12,
+      "g": 1,
+      "ed": -1,
+      "hx": -280,
+      "hy": -290
+    },
+    "FINISH": {
+      "ankle": [
+        0,
+        -40
+      ],
+      "hip": [
+        -450,
+        -190
+      ],
+      "ft": -40,
+      "b": -25,
+      "hd": -14,
+      "g": 1,
+      "ed": -1,
+      "hx": -430,
+      "hy": -330
+    },
+    "ARMS_BAD": {
+      "ankle": [
+        0,
+        -40
+      ],
+      "hip": [
+        -250,
+        -190
+      ],
+      "ft": -40,
+      "b": 18,
+      "hd": 12,
+      "g": 1,
+      "ed": -1,
+      "hx": -60,
+      "hy": -300
+    },
+    "ROUND_BAD": {
+      "ankle": [
+        0,
+        -40
+      ],
+      "hip": [
+        -250,
+        -190
+      ],
+      "ft": -40,
+      "b": 44,
+      "hd": 40,
+      "g": 1,
+      "ed": -1,
+      "hx": 60,
+      "hy": -210,
+      "cv": 40
+    },
+    "HIGH_BAD": {
+      "ankle": [
+        0,
+        -40
+      ],
+      "hip": [
+        -450,
+        -190
+      ],
+      "ft": -40,
+      "b": -25,
+      "hd": -14,
+      "g": 1,
+      "ed": -1,
+      "hx": -430,
+      "hy": -460
+    },
+    "KNEES_BAD": {
+      "ankle": [
+        0,
+        -40
+      ],
+      "hip": [
+        -300,
+        -190
+      ],
+      "ft": -40,
+      "b": -10,
+      "hd": -6,
+      "g": 1,
+      "ed": -1,
+      "hx": -200,
+      "hy": -300
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · CARDIO",
+      "head": [
+        "ROWING",
+        "MACHINE"
+      ],
+      "sub": "Remo ergómetro",
+      "vo": "Rowing Machine: el remo ergómetro. Cardio que trabaja el cuerpo entero: piernas, espalda y brazos.",
+      "moves": [
+        {
+          "cut": "CATCH",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CATCH",
+              0.3
+            ],
+            [
+              "LEGS",
+              0.25
+            ],
+            [
+              "BODY",
+              0.2
+            ],
+            [
+              "FINISH",
+              0.25
+            ],
+            [
+              "BODY",
+              0.3
+            ],
+            [
+              "LEGS",
+              0.3
+            ],
+            [
+              "CATCH",
+              0.45
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "EL",
+        "REMO"
+      ],
+      "sub": "También: rower",
+      "vo": "También le dicen remo o rower. Trabaja dorsales, cuádriceps y glúteos, y suma bíceps, core y hombros.",
+      "moves": [
+        {
+          "cut": "CATCH",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            899,
+            1368
+          ],
+          "r": 100,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "VOLANTE Y DAMPER",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            720,
+            1473
+          ],
+          "r": 60,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            860
+          ],
+          "text": "APOYO DE PIES",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "LOS",
+        "PIES"
+      ],
+      "sub": "Correa sobre el empeine",
+      "vo": "Ajustá el apoyo para que la correa cruce la parte más ancha del pie, y apretala bien.",
+      "moves": [
+        {
+          "cut": "CATCH",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            720,
+            1473
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            860
+          ],
+          "text": "CORREA AJUSTADA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "DAMPER"
+      ],
+      "sub": "Entre 4 y 6",
+      "vo": "Poné la palanca de resistencia, el damper, entre cuatro y seis. Al máximo no es mejor: cansa la espalda.",
+      "moves": [
+        {
+          "cut": "CATCH",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            899,
+            1368
+          ],
+          "r": 100,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "DAMPER 4 A 6",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "EL",
+        "ATAQUE"
+      ],
+      "sub": "Tibias verticales, brazos estirados",
+      "vo": "Empezá adelante: tibias casi verticales, brazos estirados y el tronco apenas inclinado.",
+      "moves": [
+        {
+          "cut": "CATCH",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            702,
+            1294
+          ],
+          "r": 46,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "TIBIAS VERTICALES",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 4",
+      "head": [
+        "EMPUJÁ CON",
+        "LAS PIERNAS"
+      ],
+      "sub": "Primero las piernas",
+      "vo": "Paso uno. Empujá con las piernas, con los brazos todavía estirados. El sesenta por ciento sale de acá.",
+      "moves": [
+        {
+          "cut": "CATCH",
+          "at": 0
+        },
+        {
+          "to": "LEGS",
+          "at": 0.6,
+          "dur": 0.9
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "PIERNAS",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 4",
+      "head": [
+        "TRONCO",
+        "ATRÁS"
+      ],
+      "sub": "Después el tronco",
+      "vo": "Paso dos. Cuando las piernas terminan, inclinás el tronco un poco hacia atrás.",
+      "moves": [
+        {
+          "cut": "LEGS",
+          "at": 0
+        },
+        {
+          "to": "BODY",
+          "at": 0.6,
+          "dur": 0.8
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "TRONCO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 4",
+      "head": [
+        "BRAZOS AL",
+        "ABDOMEN"
+      ],
+      "sub": "Por último, los brazos",
+      "vo": "Paso tres. Por último tirás con los brazos hasta el abdomen, con la manija debajo del mentón.",
+      "moves": [
+        {
+          "cut": "BODY",
+          "at": 0
+        },
+        {
+          "to": "FINISH",
+          "at": 0.6,
+          "dur": 0.8
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            385,
+            1247
+          ],
+          "r": 40,
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "BRAZOS",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 4 / 4",
+      "head": [
+        "VOLVÉ AL",
+        "REVÉS"
+      ],
+      "sub": "Brazos, tronco, piernas",
+      "vo": "Paso cuatro. Volvés al revés: estirás los brazos, inclinás el tronco y recién ahí doblás las rodillas.",
+      "moves": [
+        {
+          "cut": "FINISH",
+          "at": 0
+        },
+        {
+          "to": "BODY",
+          "at": 0.5,
+          "dur": 0.7
+        },
+        {
+          "to": "LEGS",
+          "at": 1.3,
+          "dur": 0.7
+        },
+        {
+          "to": "CATCH",
+          "at": 2.1,
+          "dur": 1.0
+        }
+      ],
+      "numeral": "4",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "AL REVÉS",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire en el tirón",
+      "vo": "Soltá el aire en el tirón y tomalo mientras volvés hacia adelante.",
+      "moves": [
+        {
+          "cut": "CATCH",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CATCH",
+              0.3
+            ],
+            [
+              "LEGS",
+              0.25
+            ],
+            [
+              "BODY",
+              0.2
+            ],
+            [
+              "FINISH",
+              0.25
+            ],
+            [
+              "BODY",
+              0.3
+            ],
+            [
+              "LEGS",
+              0.3
+            ],
+            [
+              "CATCH",
+              0.45
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 4",
+      "head": [
+        "BRAZOS",
+        "PRIMERO"
+      ],
+      "sub": "El orden es piernas, tronco, brazos",
+      "vo": "Error: tirar con los brazos antes de empujar con las piernas. Se pierde la fuerza grande: piernas primero.",
+      "moves": [
+        {
+          "cut": "CATCH",
+          "at": 0
+        },
+        {
+          "to": "ARMS_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            548,
+            1275
+          ],
+          "r": 44,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 4",
+      "head": [
+        "ESPALDA",
+        "REDONDA"
+      ],
+      "sub": "Pecho alto adelante",
+      "vo": "Error: redondear la espalda en el ataque. La lumbar sufre: llegá adelante con el pecho alto.",
+      "moves": [
+        {
+          "cut": "CATCH",
+          "at": 0
+        },
+        {
+          "to": "ROUND_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            677,
+            1199
+          ],
+          "r": 56,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 4",
+      "head": [
+        "MANIJA",
+        "AL PECHO"
+      ],
+      "sub": "Debajo del mentón",
+      "vo": "Error: subir la manija hasta el pecho o el cuello. Viaja en línea recta y llega al abdomen.",
+      "moves": [
+        {
+          "cut": "BODY",
+          "at": 0
+        },
+        {
+          "to": "HIGH_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            385,
+            1145
+          ],
+          "r": 40,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 4 / 4",
+      "head": [
+        "RODILLAS",
+        "ANTES"
+      ],
+      "sub": "Primero pasan las manos",
+      "vo": "Error: doblar las rodillas antes de que pasen las manos. La manija choca con las rodillas: brazos primero.",
+      "moves": [
+        {
+          "cut": "FINISH",
+          "at": 0
+        },
+        {
+          "to": "KNEES_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            665,
+            1302
+          ],
+          "r": 46,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Piernas, tronco, brazos",
+        "60% sale de las piernas",
+        "Manija en línea recta",
+        "Damper entre 4 y 6"
+      ],
+      "vo": "Tips de profe: piernas, tronco y brazos al ir; el sesenta por ciento sale de las piernas, manija recta y damper entre cuatro y seis.",
+      "moves": [
+        {
+          "cut": "CATCH",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CATCH",
+              0.3
+            ],
+            [
+              "LEGS",
+              0.25
+            ],
+            [
+              "BODY",
+              0.2
+            ],
+            [
+              "FINISH",
+              0.25
+            ],
+            [
+              "BODY",
+              0.3
+            ],
+            [
+              "LEGS",
+              0.3
+            ],
+            [
+              "CATCH",
+              0.45
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Volvé al revés",
+        "Pecho alto",
+        "Exhalá en el tirón",
+        "Ritmo parejo"
+      ],
+      "vo": "Claves: volvé al revés, pecho alto, soltá el aire en el tirón y ritmo parejo.",
+      "moves": [
+        {
+          "cut": "CATCH",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CATCH",
+              0.3
+            ],
+            [
+              "LEGS",
+              0.25
+            ],
+            [
+              "BODY",
+              0.2
+            ],
+            [
+              "FINISH",
+              0.25
+            ],
+            [
+              "BODY",
+              0.3
+            ],
+            [
+              "LEGS",
+              0.3
+            ],
+            [
+              "CATCH",
+              0.45
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "1000 M"
+      ],
+      "sub": "Ritmo parejo, sin sprint",
+      "vo": "De quinientos a dos mil metros. Para empezar, mil metros a ritmo parejo, sin salir a fondo.",
+      "chips": [
+        {
+          "label": "1 · PIERNAS",
+          "at": 0.6
+        },
+        {
+          "label": "2 · TRONCO",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BRAZOS",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "CATCH",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CATCH",
+              0.3
+            ],
+            [
+              "LEGS",
+              0.25
+            ],
+            [
+              "BODY",
+              0.2
+            ],
+            [
+              "FINISH",
+              0.25
+            ],
+            [
+              "BODY",
+              0.3
+            ],
+            [
+              "LEGS",
+              0.3
+            ],
+            [
+              "CATCH",
+              0.45
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "FINISH",
+    "grip": 1,
+    "zoom": 1.0,
+    "dy": 40
+  },
+  "youtube": {
+    "titulo": "Rowing Machine 🔥 Cómo usar el remo ergómetro bien | Gimnasio",
+    "tags": [
+      "rowing machine",
+      "remo ergómetro",
+      "remo",
+      "rower",
+      "cómo usar el remo",
+      "técnica de remo",
+      "cardio",
+      "cuerpo completo",
+      "máquinas de gimnasio",
+      "gimnasio"
+    ],
+    "descripcion": "🔥 ROWING MACHINE (remo ergómetro) — cardio de cuerpo entero\n\n¿Remás tirando con los brazos? Es el error más común: la fuerza está en las piernas. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Correa sobre la parte más ancha del pie, bien ajustada.\n2️⃣ Damper (resistencia) entre 4 y 6, no al máximo.\n\n📋 PASO A PASO\n1️⃣ Empezá adelante: tibias verticales, brazos estirados.\n2️⃣ Empujá con las piernas.\n3️⃣ Inclinás el tronco un poco atrás.\n4️⃣ Tirás con los brazos hasta el abdomen.\n5️⃣ Volvés al revés: brazos, tronco, piernas.\n\n❌ ERRORES COMUNES\n• Tirar con los brazos primero → piernas, tronco, brazos.\n• Redondear la espalda → pecho alto.\n• Subir el manillar hasta el pecho → línea recta al abdomen.\n• Flexionar rodillas antes de que pasen las manos → brazos primero.\n\n💡 TIPS DEL PROFE\n• Piernas, tronco, brazos al ir; brazos, tronco, piernas al volver.\n• El 60% de la fuerza sale de las piernas.\n• El manillar viaja en línea recta, debajo del mentón.\n• Damper (resistencia) en 4–6, no al máximo.\n• Respirá: exhalá en el tirón.\n\n🎯 QUÉ TRABAJA\nDorsales · Cuádriceps · Glúteos · Bíceps · Core · Hombros posteriores\n\n⏱️ CUÁNTO\nDe 500 a 2000 metros. Para empezar, 1000 metros a ritmo parejo. Nivel: intermedio.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\nSi es tu primera vez en esta máquina, pedile al profe del gimnasio que te ajuste la máquina y te mire las primeras series.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #RowingMachine #Cardio #Entrenamiento #Remo"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Machine Preacher Curl",
+      "text": "El curl de bíceps en máquina Scott. Brazos apoyados, cero trampa, bíceps a fondo."
+    },
+    {
+      "id": "02",
+      "text": "También le dicen Scott o predicador. Trabaja el bíceps y suma el braquial y los antebrazos."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el asiento para que las axilas queden justo en el borde del apoyo y el codo al lado del eje rojo."
+    },
+    {
+      "id": "04",
+      "text": "Elegí el peso con el pasador: uno que puedas subir doce veces sin despegar los brazos del apoyo."
+    },
+    {
+      "id": "05",
+      "text": "Apoyá los brazos con los tríceps pegados a la almohadilla y agarrá las manijas. La cola, en el asiento."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Flexioná los codos llevando las manos hacia los hombros, sin despegar los brazos del apoyo."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Arriba, apretá el bíceps un segundo."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá lento y frená antes de estirar del todo el codo. Así cuidás el tendón."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras subís y tomalo mientras bajás."
+    },
+    {
+      "id": "10",
+      "text": "Error: despegar los brazos del apoyo para subir. Deja de ser un curl aislado: tríceps pegados todo el tiempo."
+    },
+    {
+      "id": "11",
+      "text": "Error: dejar caer el peso y estirar el codo de golpe abajo. El tendón del bíceps sufre: frená antes."
+    },
+    {
+      "id": "12",
+      "text": "Error: tirarte atrás y despegar la cola para ayudarte. Bajá el peso y subí solo con los brazos."
+    },
+    {
+      "id": "13",
+      "text": "Tips de profe: axilas en el borde del apoyo, codo alineado con el eje, tríceps pegados y frená antes de estirar del todo."
+    },
+    {
+      "id": "14",
+      "text": "Claves: subí en un segundo, bajá en tres, sin despegar la cola y con las muñecas firmes."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce, con un minuto de pausa. Cuando las doce salen fáciles, subí una placa."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

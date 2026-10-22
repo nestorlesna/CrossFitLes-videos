@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Seated Cable Row",
+      "text": "El remo sentado en polea baja. Espalda gruesa y fuerte, con el tronco quieto."
+    },
+    {
+      "id": "02",
+      "text": "También le dicen remo bajo. Trabaja dorsales y romboides, y suma bíceps y trapecio medio."
+    },
+    {
+      "id": "03",
+      "text": "Enganchá la manija de agarre cerrado, o una barra si querés un agarre más ancho."
+    },
+    {
+      "id": "04",
+      "text": "Elegí el peso con el pasador: uno que puedas tirar doce veces sin balancear el tronco."
+    },
+    {
+      "id": "05",
+      "text": "Sentate con los pies en el apoyo, rodillas apenas flexionadas y la espalda recta. Brazos estirados."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Antes de doblar los brazos, sacá pecho y juntá los omóplatos. Así arranca la espalda."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Tirá la manija hacia el abdomen, con los codos rozando el cuerpo hacia atrás."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Pausa de un segundo con la manija en el abdomen y el tronco erguido. No es un remo de bote."
+    },
+    {
+      "id": "09",
+      "text": "Paso cuatro. Volvé estirando los brazos adelante, lento, sin redondear la espalda."
+    },
+    {
+      "id": "10",
+      "text": "Soltá el aire mientras tirás y tomalo mientras estirás los brazos."
+    },
+    {
+      "id": "11",
+      "text": "Error: balancear el tronco atrás y adelante para mover el peso. El tronco queda quieto y erguido."
+    },
+    {
+      "id": "12",
+      "text": "Error: redondear la espalda al estirar los brazos. Llegá adelante solo hasta donde la espalda sigue recta."
+    },
+    {
+      "id": "13",
+      "text": "Error: subir los hombros y tirar alto, hacia el pecho. Hombros abajo y la manija al abdomen."
+    },
+    {
+      "id": "14",
+      "text": "Tips de profe: primero juntá los omóplatos, codos rozando el cuerpo, tronco quieto y pausa con la manija en el abdomen."
+    },
+    {
+      "id": "15",
+      "text": "Claves: rodillas apenas flexionadas, espalda siempre recta, hombros abajo y volvé lento."
+    },
+    {
+      "id": "16",
+      "text": "Tres series de diez a doce, con un minuto y medio de pausa. Cuando las doce salen fáciles, subí una placa."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,69 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Hip Adduction Machine",
+      "text": "La máquina de aductores. Cerrás las piernas y trabajás la cara interna del muslo."
+    },
+    {
+      "id": "02",
+      "text": "Te sentás con las almohadillas del lado de adentro de las rodillas. Trabaja los aductores, la cara interna del muslo."
+    },
+    {
+      "id": "03",
+      "text": "Elegí con la palanca una apertura inicial cómoda. Si tira la ingle, achicala."
+    },
+    {
+      "id": "04",
+      "text": "Elegí el peso con el pasador: uno que puedas cerrar quince veces sin impulso."
+    },
+    {
+      "id": "05",
+      "text": "Empezá con las piernas abiertas en la apertura cómoda, la espalda pegada y los pies en los estribos."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Cerrá las piernas controlado, hasta que las almohadillas se toquen sin golpe."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Con las piernas juntas, apretá un segundo la cara interna del muslo."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Abrí despacio, en tres segundos, hasta la apertura cómoda del principio."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras cerrás y tomalo mientras abrís."
+    },
+    {
+      "id": "10",
+      "text": "Error: arrancar con una apertura más grande de la que tu cadera permite. La ingle sufre: achicá la apertura."
+    },
+    {
+      "id": "11",
+      "text": "Error: cerrar con impulso despegando la espalda. Bajá el peso, espalda pegada y movimiento controlado."
+    },
+    {
+      "id": "12",
+      "text": "Tips de profe: apertura inicial cómoda, juntá sin golpe, abrí en tres segundos y si tira la ingle, achicá el rango."
+    },
+    {
+      "id": "13",
+      "text": "Claves: espalda pegada, pies en los estribos, sin rebote al abrir y sin impulso."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de quince, con un minuto de pausa. Cuando las quince salen fáciles, subí una placa."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

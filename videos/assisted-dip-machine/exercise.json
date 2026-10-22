@@ -1,0 +1,672 @@
+{
+  "slug": "assisted-dip-machine",
+  "name": "Assisted Dip Machine",
+  "maquina": true,
+  "category": "GIMNASIO · PECHO",
+  "tags": [
+    "Pecho",
+    "Tríceps"
+  ],
+  "descripcion": "Elegí el contrapeso: más peso es más ayuda. Agarrá las paralelas, apoyá las rodillas en la plataforma con los brazos estirados. Bajá doblando los codos hasta unos 90° y empujá hasta volver arriba.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 560,
+    "y": 1512.3,
+    "scale": 0.58
+  },
+  "shadow": false,
+  "initialPose": "TOP",
+  "props": [
+    {
+      "type": "assisted",
+      "stack": 420,
+      "grip": [
+        60,
+        -1240
+      ],
+      "dip": [
+        60,
+        -760
+      ],
+      "pivot": [
+        300,
+        -260
+      ],
+      "rest": -567,
+      "pin": 6,
+      "k": 1
+    }
+  ],
+  "poses": {
+    "TOP": {
+      "hip": [
+        -18.6,
+        -806.3
+      ],
+      "s": 92,
+      "t": 4,
+      "b": 10,
+      "hd": 10,
+      "ft": 80,
+      "g": 1,
+      "hx": 60,
+      "hy": -750,
+      "ed": -1
+    },
+    "MID": {
+      "hip": [
+        -18.6,
+        -716.3
+      ],
+      "s": 92,
+      "t": 4,
+      "b": 10,
+      "hd": 10,
+      "ft": 80,
+      "g": 1,
+      "hx": 60,
+      "hy": -750,
+      "ed": -1
+    },
+    "BOTTOM": {
+      "hip": [
+        -56.5,
+        -655.7
+      ],
+      "s": 92,
+      "t": 4,
+      "b": 18,
+      "hd": 18,
+      "ft": 80,
+      "g": 1,
+      "hx": 60,
+      "hy": -750,
+      "ed": -1
+    },
+    "DEEP_BAD": {
+      "hip": [
+        -74.9,
+        -572.4
+      ],
+      "s": 92,
+      "t": 4,
+      "b": 22,
+      "hd": 22,
+      "ft": 80,
+      "g": 1,
+      "hx": 60,
+      "hy": -750,
+      "ed": -1
+    },
+    "SHRUG_BAD": {
+      "hip": [
+        -56.5,
+        -655.7
+      ],
+      "s": 92,
+      "t": 4,
+      "b": 18,
+      "hd": 50,
+      "ft": 80,
+      "g": 1,
+      "hx": 60,
+      "hy": -750,
+      "ed": -1,
+      "cv": 26
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PECHO",
+      "head": [
+        "ASSISTED",
+        "DIP"
+      ],
+      "sub": "Fondos asistidos en máquina",
+      "vo": "Assisted Dip Machine: los fondos asistidos. Pecho y tríceps fuertes, con la ayuda justa.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              2.0
+            ],
+            [
+              "TOP",
+              1.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Paralelas y plataforma",
+      "vo": "Agarrás las paralelas y te arrodillás en una plataforma que te ayuda a subir. Trabaja pecho y tríceps.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            595,
+            1072
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            700
+          ],
+          "text": "PARALELAS",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            540,
+            1210
+          ],
+          "r": 56,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            700
+          ],
+          "text": "PLATAFORMA",
+          "anchor": "start",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            833,
+            1435
+          ],
+          "r": 30,
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "EL",
+        "CONTRAPESO"
+      ],
+      "sub": "Más peso, más ayuda",
+      "vo": "Elegí el contrapeso con el pasador. Igual que en las dominadas asistidas: más peso es más ayuda.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            833,
+            1435
+          ],
+          "r": 34,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            700
+          ],
+          "text": "MÁS PESO = MÁS AYUDA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "TRONCO"
+      ],
+      "sub": "Pecho o tríceps",
+      "vo": "Tronco apenas inclinado adelante trabaja más pecho; más vertical, más tríceps.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            577,
+            885
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            700
+          ],
+          "text": "APENAS ADELANTE",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BRAZOS",
+        "ESTIRADOS"
+      ],
+      "sub": "Rodillas en la plataforma",
+      "vo": "Agarrá las paralelas, apoyá las rodillas en la plataforma y empezá arriba, con los brazos estirados.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            700
+          ],
+          "text": "HOMBROS ABAJO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ",
+        "LENTO"
+      ],
+      "sub": "Codos hacia atrás",
+      "vo": "Paso uno. Bajá doblando los codos hacia atrás, no hacia los costados.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.6,
+          "dur": 2.2
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            700
+          ],
+          "text": "CODOS ATRÁS",
+          "anchor": "end",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            507,
+            1048
+          ],
+          "r": 44,
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "HASTA",
+        "90°"
+      ],
+      "sub": "Brazo paralelo al piso",
+      "vo": "Paso dos. Bajá hasta que el brazo quede paralelo al piso, con el codo en noventa grados. No más.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            507,
+            1048
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            700
+          ],
+          "text": "CODO A 90°",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "EMPUJÁ"
+      ],
+      "sub": "Sin trabar arriba",
+      "vo": "Paso tres. Empujá hasta volver arriba, casi estirado, sin trabar los codos.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            700
+          ],
+          "text": "SIN TRABAR",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Aire al bajar, soltalo al subir",
+      "vo": "Tomá aire mientras bajás y soltalo mientras empujás.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              2.2
+            ],
+            [
+              "TOP",
+              1.4
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 2",
+      "head": [
+        "BAJAR",
+        "DE MÁS"
+      ],
+      "sub": "Castiga los hombros",
+      "vo": "Error: bajar demasiado, con el hombro por debajo del codo. Castiga el hombro: frená en noventa grados.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "DEEP_BAD",
+          "at": 0.5,
+          "dur": 1.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            577,
+            1030
+          ],
+          "r": 50,
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 2",
+      "head": [
+        "HOMBROS",
+        "ENCOGIDOS"
+      ],
+      "sub": "Lejos de las orejas",
+      "vo": "Error: encoger los hombros hacia las orejas. Bajá los hombros y mantené el cuello largo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "SHRUG_BAD",
+          "at": 0.5,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            592,
+            966
+          ],
+          "r": 54,
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Brazo paralelo al piso",
+        "Hombros lejos de las orejas",
+        "Codos hacia atrás",
+        "Subí sin trabar"
+      ],
+      "vo": "Tips de profe: brazo paralelo al piso, hombros lejos de las orejas, codos hacia atrás y subí sin trabar.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              2.0
+            ],
+            [
+              "TOP",
+              1.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Más peso = más ayuda",
+        "Bajada controlada",
+        "Sin soltarte de golpe",
+        "Tronco estable"
+      ],
+      "vo": "Claves: más peso es más ayuda, bajada controlada, sin soltarte de golpe y el tronco estable.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10"
+      ],
+      "sub": "Dos minutos de pausa",
+      "vo": "Tres series de ocho a diez, con dos minutos de pausa. Cuando las diez salen fáciles, sacá un poco de ayuda.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · A 90°",
+          "at": 1.1
+        },
+        {
+          "label": "3 · EMPUJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              2.0
+            ],
+            [
+              "TOP",
+              1.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "BOTTOM",
+    "grip": 1,
+    "zoom": 1.0,
+    "dy": 140
+  },
+  "youtube": {
+    "titulo": "Assisted Dip Machine 🔥 Fondos asistidos bien hechos | Gimnasio",
+    "tags": [
+      "assisted dip",
+      "fondos asistidos",
+      "máquina de fondos asistidos",
+      "fondos en paralelas",
+      "cómo hacer fondos",
+      "pecho",
+      "tríceps",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes"
+    ],
+    "descripcion": "🔥 ASSISTED DIP MACHINE (fondos asistidos en máquina) — pecho y tríceps fuertes con la ayuda justa\n\n¿Te duelen los hombros con los fondos? Seguro estás bajando de más. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Elegí el contrapeso: más peso es más ayuda.\n2️⃣ Tronco apenas adelante para pecho, más vertical para tríceps.\n\n📋 PASO A PASO\n1️⃣ Paralelas agarradas, rodillas en la plataforma, brazos estirados.\n2️⃣ Bajá doblando los codos hacia atrás.\n3️⃣ Frená con el brazo paralelo al piso, codo a 90°.\n4️⃣ Empujá hasta arriba sin trabar.\n\n❌ ERRORES COMUNES\n• Bajar demasiado → frená con el codo a 90°.\n• Soltar de golpe → bajada controlada.\n• Encoger los hombros → hombros abajo.\n• No controlar la bajada → 2–3 segundos.\n\n💡 TIPS DEL PROFE\n• Bajá hasta que el brazo quede paralelo al piso, no más.\n• Hombros abajo, lejos de las orejas.\n• Tronco apenas inclinado adelante para pecho, más vertical para tríceps.\n• Codos hacia atrás, no abiertos.\n• Subí sin trabar.\n\n🎯 QUÉ TRABAJA\nPecho · Tríceps · Hombros anteriores\n\n⏱️ CUÁNTO\n3 series de 8–10 repeticiones, con 2 minutos de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #AssistedDip #Pecho #Musculacion #Entrenamiento"
+  }
+}

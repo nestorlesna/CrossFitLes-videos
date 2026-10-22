@@ -139,6 +139,40 @@
     const max = o.max ?? guide - n * ph - 40;
     return { top: top - 60, lift: (px) => { const v = Math.max(0, Math.min(max, px)); mov.setAttribute("transform", `translate(0,${f2(-v)})`); return v; } };
   }
+  // Helpers de dibujo de máquinas: caño entre dos puntos, punto desde [x, y], tapizado (línea gruesa redondeada).
+  const tubeL = (parent, a, b, w, c) => el("line", { x1: f2(a.x), y1: f2(a.y), x2: f2(b.x), y2: f2(b.y), stroke: c || METAL_D, "stroke-width": w, "stroke-linecap": "round" }, parent);
+  const P2 = (a) => ({ x: a[0], y: a[1] });
+  const unit = (p, q) => { const d = Math.hypot(q.x - p.x, q.y - p.y) || 1; return { x: (q.x - p.x) / d, y: (q.y - p.y) / d }; };
+  // Palanca con rodillo que sigue a la tibia cercana (sillón de cuádriceps, femorales): eje fijo `pv` (ACCENT, encima de
+  // todo), brazo detrás de la pierna y rodillo a `at` px del eje, del lado `side` (+1 = adelante/arriba de la tibia,
+  // −1 = atrás/del lado del talón). Devuelve update(n) → ángulo de la tibia (grados) para mover la pila.
+  function shinLever(pv, at, side, o = {}) {
+    const arm = tubeL(propBack, pv, pv, 20, METAL), knob = el("circle", { r: 10, fill: ACCENT }, propBack);
+    const roll = el("g", {}, propFront);
+    el("circle", { r: o.r ?? 34, fill: PAD }, roll);
+    el("circle", { r: 13, fill: PAD_L }, roll);
+    el("circle", { cx: pv.x, cy: pv.y, r: 26, fill: METAL }, propBack);
+    el("circle", { cx: pv.x, cy: pv.y, r: 15, fill: ACCENT }, propFront); // eje de la máquina (alinear la rodilla)
+    return (n) => {
+      const d = unit(n.K, n.A), nr = side > 0 ? { x: d.y, y: -d.x } : { x: -d.y, y: d.x }, off = (o.r ?? 34) + 22;
+      const R = { x: pv.x + d.x * at + nr.x * off, y: pv.y + d.y * at + nr.y * off };
+      setL(arm, pv, R);
+      knob.setAttribute("cx", f2(pv.x + (R.x - pv.x) * 0.62)); knob.setAttribute("cy", f2(pv.y + (R.y - pv.y) * 0.62));
+      roll.setAttribute("transform", `translate(${f2(R.x)},${f2(R.y)})`);
+      return (Math.atan2(d.y, d.x) * 180) / Math.PI;
+    };
+  }
+  // Asiento + respaldo de las máquinas sentadas: asiento de x0 a x1 con la cara de arriba en y; respaldo desde (bx, y)
+  // inclinado `lean` grados (− = hacia atrás) y `len` de largo; perilla (ACCENT) del riel del respaldo. Devuelve la perilla.
+  function chair(g, x0, x1, y, bx, lean, len) {
+    el("rect", { x: (x0 + x1) / 2 - 18, y: y + 40, width: 36, height: 34 - y - 40, fill: METAL_D }, g); // poste
+    el("rect", { x: x0 - 30, y: y + 52, width: x1 - x0 + 30, height: 18, rx: 6, fill: METAL_D }, g); // riel del respaldo
+    const u = up(lean, 1), b0 = { x: bx, y: y + 6 }, b1 = { x: bx + u.x * len, y: y + 6 + u.y * len };
+    tubeL(g, { x: bx - 10, y: y + 60 }, { x: b0.x + u.x * 120 - 30, y: b0.y + u.y * 120 }, 18); // soporte del respaldo
+    tubeL(g, b0, b1, 52, PAD);
+    el("rect", { x: x0, y, width: x1 - x0, height: 44, rx: 16, fill: PAD }, g);
+    return el("circle", { cx: bx - 10, cy: y + 61, r: 14, fill: ACCENT }, g);
+  }
   (C.props || []).forEach((pr) => {
     if (pr.type === "legpress") {
       // Prensa 45°: asiento + respaldo reclinado (fijos), riel inclinado `ang` grados y carro con plataforma + discos que
@@ -227,6 +261,550 @@
         const len = Math.hypot(n.W.x - top.x, n.W.y - top.y);
         if (L0 == null) L0 = pr.rest ?? len; // primera pose dibujada (initialPose) = pila apoyada
         toStack.setAttribute("y1", f2(ws.top - ws.lift(len - L0)));
+      });
+    }
+    if (pr.type === "legextension" || pr.type === "seatedlegcurl") {
+      // Sillón de cuádriceps / femoral sentado: pila atrás (stack = x), asiento (seat [x0, x1, y]) + respaldo regulable
+      // (back [x, lean, len]), manijas (handle [x, y]) y palanca con rodillo que sigue a la tibia (eje fijo pivot [x, y],
+      // rodillo a `roll` px del eje: adelante de la tibia en el sillón, atrás del tobillo en el femoral). El femoral suma la
+      // traba de muslos (thigh [x, y]). La pila sube k px por grado que gira la tibia respecto de la primera pose dibujada.
+      const curl = pr.type === "seatedlegcurl", pv = P2(pr.pivot || [0, -345]), [x0, x1, sy] = pr.seat || [-330, -30, -300];
+      const [bx, lean, blen] = pr.back || [x0 + 30, -12, 430], stx = pr.stack ?? -600, hd = pr.handle || [-180, -330];
+      const g = el("g", {}, propBack);
+      el("rect", { x: stx - 110, y: 18, width: pv.x - stx + 260, height: 16, rx: 8, fill: METAL_D }, g);
+      const ws = weightStack(g, stx, 10, { n: 12, pin: pr.pin ?? 5, guide: 620 });
+      el("rect", { x: stx - 100, y: -640, width: 200, height: 30, rx: 8, fill: METAL_D }, g);
+      el("rect", { x: stx + 90, y: -640, width: 30, height: 674, fill: METAL_D }, g);
+      el("line", { x1: stx + 105, y1: sy + 61, x2: x0, y2: sy + 61, stroke: METAL_D, "stroke-width": 18 }, g);
+      tubeL(g, { x: pv.x + 40, y: 26 }, { x: pv.x + 10, y: pv.y + 20 }, 34, METAL); // poste del eje
+      tubeL(g, { x: x1 - 40, y: sy + 70 }, { x: pv.x + 30, y: sy + 70 }, 18);
+      const knob = chair(g, x0, x1, sy, bx, lean, blen);
+      el("rect", { x: hd[0] - 10, y: hd[1], width: 20, height: sy - hd[1] + 10, fill: METAL }, g); // manija
+      el("rect", { x: hd[0] - 34, y: hd[1] - 14, width: 68, height: 26, rx: 12, fill: PAD }, propFront);
+      if (curl && pr.thigh) {
+        const tp = P2(pr.thigh); // traba de muslos: almohadilla sobre el muslo, colgada de un brazo que baja del frente
+        tubeL(g, { x: pv.x + 30, y: pv.y - 40 }, { x: pv.x + 30, y: tp.y - 120 }, 18);
+        tubeL(g, { x: pv.x + 30, y: tp.y - 120 }, { x: tp.x, y: tp.y - 120 }, 18);
+        tubeL(g, { x: tp.x, y: tp.y - 120 }, tp, 16, METAL);
+        el("circle", { cx: pv.x + 30, cy: tp.y - 120, r: 12, fill: ACCENT }, g);
+        const tpad = el("rect", { x: tp.x - 70, y: tp.y - 26, width: 140, height: 52, rx: 24, fill: PAD }, propFront);
+        propUpdates.push((n, f, st) => tpad.setAttribute("transform", `translate(0,${f2(-(st.bf || 0) * 90)})`)); // bf 1 = traba abierta
+      }
+      const lever = shinLever(pv, pr.roll ?? 200, curl ? -1 : 1);
+      let a0 = null;
+      propUpdates.push((n) => {
+        const a = lever(n);
+        if (a0 == null) a0 = a;
+        ws.lift(Math.abs(a - a0) * (pr.k ?? 2.2));
+      });
+      void knob;
+    }
+    if (pr.type === "lyinglegcurl") {
+      // Camilla de femorales: boca abajo, cabeza a la derecha. Colchoneta de x0 a x1 con la cara de arriba en top (con la
+      // parte del pecho más alta: chest), manijas adelante (handle [x, y]), pila a la derecha (stack = x) y palanca con
+      // rodillo atrás del tobillo (eje pivot [x, y] = rodilla, apenas fuera del borde). Ver lying-leg-curl.
+      const pv = P2(pr.pivot || [-240, -460]), top = pr.top ?? -414, x0 = pr.x0 ?? -205, x1 = pr.x1 ?? 430;
+      const stx = pr.stack ?? 640, hd = pr.handle || [380, -360], chest = pr.chest ?? 0;
+      const g = el("g", {}, propBack);
+      el("rect", { x: pv.x - 120, y: 18, width: stx - pv.x + 240, height: 16, rx: 8, fill: METAL_D }, g);
+      const ws = weightStack(g, stx, 10, { n: 12, pin: pr.pin ?? 5, guide: 560 });
+      el("rect", { x: stx - 100, y: -580, width: 200, height: 30, rx: 8, fill: METAL_D }, g);
+      tubeL(g, { x: pv.x, y: 26 }, pv, 32, METAL); // poste del eje
+      tubeL(g, { x: x0 + 60, y: top + 60 }, { x: x0 + 60, y: 26 }, 24);
+      tubeL(g, { x: x1 - 80, y: top + 60 }, { x: x1 - 80, y: 26 }, 24);
+      tubeL(g, { x: pv.x, y: top + 90 }, { x: stx - 80, y: top + 90 }, 20);
+      tubeL(g, { x: hd[0], y: hd[1] }, { x: hd[0] + 40, y: top + 90 }, 16, METAL); // manijas
+      el("rect", { x: x0, y: top, width: (x1 - x0) * 0.45, height: 46, rx: 16, fill: PAD }, g); // muslos / cadera
+      el("rect", { x: x0 + (x1 - x0) * 0.42, y: top - chest, width: (x1 - x0) * 0.58, height: 46 + chest, rx: 16, fill: PAD }, g); // pecho
+      el("rect", { x: hd[0] - 30, y: hd[1] - 14, width: 60, height: 28, rx: 12, fill: PAD }, propFront);
+      const lever = shinLever(pv, pr.roll ?? 215, -1);
+      let a0 = null;
+      propUpdates.push((n) => {
+        const a = lever(n);
+        if (a0 == null) a0 = a;
+        ws.lift(Math.abs(a - a0) * (pr.k ?? 2.0));
+      });
+    }
+    if (pr.type === "hacksquat") {
+      // Sentadilla hack: rieles inclinados paralelos al tronco (lean = b de las poses) por detrás de la espalda; el carro
+      // (respaldo + hombreras + manijas + discos) sigue a la cadera proyectada sobre el riel. hip = cadera de la primera
+      // pose (las demás se mueven sobre la línea del riel), foot [x, y] = tobillo sobre la plataforma fija (plat = grados).
+      const H0 = P2(pr.hip || [-170, -430]), lean = pr.lean ?? -40, u = up(lean, 1), bk = { x: u.y, y: -u.x }, fr = { x: -bk.x, y: -bk.y };
+      const ft = P2(pr.foot || [0, -60]), plat = pr.plat ?? -12;
+      const at = (d, k) => ({ x: H0.x + u.x * d + bk.x * k, y: H0.y + u.y * d + bk.y * k });
+      const g = el("g", {}, propBack);
+      const [d0, d1] = pr.rail || [-420, 700], r0 = at(d0, 110), r1 = at(d1, 110); // riel
+      el("rect", { x: Math.min(r0.x, r1.x) - 140, y: 18, width: Math.abs(r1.x - r0.x) + 420, height: 16, rx: 8, fill: METAL_D }, g);
+      tubeL(g, r1, { x: r1.x, y: 26 }, 26);
+      tubeL(g, at(300, 110), { x: at(300, 110).x, y: 26 }, 22);
+      tubeL(g, r0, r1, 30, METAL);
+      const stop = at(pr.stops ?? -220, 110); // tope de seguridad
+      el("rect", { x: f2(stop.x - 18), y: f2(stop.y - 18), width: 36, height: 36, rx: 6, fill: ACCENT }, g);
+      // plataforma fija bajo la suela
+      const pc = { x: ft.x + 28, y: ft.y + 44 };
+      el("rect", { x: f2(pc.x - 150), y: f2(pc.y - 4), width: 300, height: 30, rx: 8, fill: METAL_D, transform: `rotate(${plat} ${f2(pc.x)} ${f2(pc.y)})` }, g);
+      tubeL(g, { x: pc.x + 60, y: pc.y + 20 }, { x: pc.x + 60, y: 26 }, 26);
+      tubeL(g, { x: pc.x - 80, y: pc.y + 20 }, r0, 22);
+      // carro
+      const car = el("g", {}, propBack), carF = el("g", {}, propFront), L = pr.len ?? 300; // L: cadera → hombro
+      tubeL(car, at(-60, 62), at(L + 130, 62), 54, PAD); // respaldo
+      tubeL(car, at(-40, 92), at(L + 100, 92), 14, METAL_D);
+      const sp = at(L + 6, 24), hd2 = pr.hand || [L - 20, -100], hand = at(hd2[0], hd2[1]); // hombrera (detrás del cuello) y manija
+      tubeL(car, at(L + 40, 70), sp, 18, METAL_D);
+      el("circle", { cx: f2(sp.x), cy: f2(sp.y), r: 30, fill: PAD }, car);
+      tubeL(car, at(L - 50, 70), hand, 16, METAL);
+      el("rect", { x: f2(hand.x - 14), y: f2(hand.y - 30), width: 28, height: 60, rx: 12, fill: PAD, transform: `rotate(${lean} ${f2(hand.x)} ${f2(hand.y)})` }, carF);
+      const horn = at(L * 0.55, 190);
+      el("circle", { cx: f2(horn.x), cy: f2(horn.y), r: 88, fill: PLATE }, car);
+      el("circle", { cx: f2(horn.x), cy: f2(horn.y), r: 62, fill: "none", stroke: PLATE_D, "stroke-width": 6 }, car);
+      el("circle", { cx: f2(horn.x), cy: f2(horn.y), r: 20, fill: PLATE_L }, car);
+      el("rect", { x: f2(hand.x - 8), y: f2(hand.y + 34), width: 16, height: 34, rx: 6, fill: ACCENT }, car); // traba
+      propUpdates.push((n) => {
+        const d = (n.H.x - H0.x) * u.x + (n.H.y - H0.y) * u.y, tr = `translate(${f2(u.x * d)},${f2(u.y * d)})`;
+        car.setAttribute("transform", tr); carF.setAttribute("transform", tr);
+      });
+    }
+    if (pr.type === "pendulum") {
+      // Sentadilla péndulo: el carro (respaldo + hombreras + manijas) cuelga de un brazo que gira alrededor de pivot [x, y]
+      // (atrás de la cadera); la cadera hace un arco y el tronco gira lo mismo que el brazo (b de las poses = lean + giro).
+      // hip = cadera de la primera pose, lean = su b; foot [x, y] = tobillo sobre la plataforma fija (plat = grados).
+      const H0 = P2(pr.hip || [-200, -440]), PV = P2(pr.pivot || [-700, -590]), lean = pr.lean ?? -24, u = up(lean, 1);
+      const bk = { x: u.y, y: -u.x }, ft = P2(pr.foot || [0, -60]), plat = pr.plat ?? -14, L = pr.len ?? 300;
+      const at = (d, k) => ({ x: H0.x + u.x * d + bk.x * k, y: H0.y + u.y * d + bk.y * k });
+      const a0 = Math.atan2(H0.y - PV.y, H0.x - PV.x);
+      const g = el("g", {}, propBack);
+      el("rect", { x: PV.x - 160, y: 18, width: ft.x - PV.x + 420, height: 16, rx: 8, fill: METAL_D }, g);
+      tubeL(g, { x: PV.x - 60, y: 26 }, PV, 34, METAL); // parante del eje
+      tubeL(g, { x: PV.x + 90, y: 26 }, { x: PV.x + 10, y: PV.y + 30 }, 22);
+      const pc = { x: ft.x + 28, y: ft.y + 44 };
+      el("rect", { x: f2(pc.x - 150), y: f2(pc.y - 4), width: 300, height: 30, rx: 8, fill: METAL_D, transform: `rotate(${plat} ${f2(pc.x)} ${f2(pc.y)})` }, g);
+      tubeL(g, { x: pc.x + 60, y: pc.y + 20 }, { x: pc.x + 60, y: 26 }, 26);
+      tubeL(g, { x: pc.x - 70, y: pc.y + 20 }, { x: pc.x - 160, y: 26 }, 22);
+      const car = el("g", {}, propBack), carF = el("g", {}, propFront);
+      const hb = at(40, 110);
+      tubeL(car, PV, hb, 30, METAL); // brazo del péndulo
+      const horn = { x: PV.x + (hb.x - PV.x) * 0.42, y: PV.y + (hb.y - PV.y) * 0.42 + 60 };
+      tubeL(car, { x: horn.x, y: horn.y - 60 }, horn, 18, METAL_D);
+      el("circle", { cx: f2(horn.x), cy: f2(horn.y), r: 84, fill: PLATE }, car);
+      el("circle", { cx: f2(horn.x), cy: f2(horn.y), r: 60, fill: "none", stroke: PLATE_D, "stroke-width": 6 }, car);
+      el("circle", { cx: f2(horn.x), cy: f2(horn.y), r: 20, fill: PLATE_L }, car);
+      tubeL(car, at(-40, 62), at(L + 130, 62), 54, PAD); // respaldo
+      tubeL(car, at(0, 100), at(L + 100, 100), 16, METAL_D);
+      const sp = at(L + 6, 24), hd2 = pr.hand || [L - 20, -100], hand = at(hd2[0], hd2[1]); // hombrera (detrás del cuello) y manija
+      tubeL(car, at(L + 40, 70), sp, 18, METAL_D);
+      el("circle", { cx: f2(sp.x), cy: f2(sp.y), r: 30, fill: PAD }, car);
+      tubeL(car, at(L - 50, 70), hand, 16, METAL);
+      el("rect", { x: f2(hand.x - 14), y: f2(hand.y - 30), width: 28, height: 60, rx: 12, fill: PAD, transform: `rotate(${lean} ${f2(hand.x)} ${f2(hand.y)})` }, carF);
+      el("circle", { cx: PV.x, cy: PV.y, r: 30, fill: METAL_D }, propBack);
+      el("circle", { cx: PV.x, cy: PV.y, r: 13, fill: ACCENT }, propBack);
+      propUpdates.push((n) => {
+        const a = ((Math.atan2(n.H.y - PV.y, n.H.x - PV.x) - a0) * 180) / Math.PI, tr = `rotate(${f2(a)} ${PV.x} ${PV.y})`;
+        car.setAttribute("transform", tr); carF.setAttribute("transform", tr);
+      });
+    }
+    if (pr.type === "cable" || pr.type === "cablerow") {
+      // Columna de polea con pila de peso (x = centro de la pila, top = alto de la columna) y polea regulable sobre un riel
+      // del lado del atleta (pulley [x, y]; perilla ACCENT). Cable de la polea a las manos y accesorio en las manos:
+      // att "bar" (barra de punta), "rope" (soga), "handle" (manija). La pila sube lo que se alarga el cable respecto de
+      // la primera pose dibujada. cablerow suma el banco bajo (seat [x0, x1, y]) y el apoyo de pies (foot [x, y], ang).
+      const cx = pr.x ?? 360, top = pr.top ?? -1500, pu = P2(pr.pulley || [cx - 130, -1300]), tx = pr.track ?? cx - 130;
+      const g = el("g", {}, propBack);
+      el("rect", { x: cx - 140, y: 18, width: 300, height: 16, rx: 8, fill: METAL_D }, g);
+      el("rect", { x: cx + 100, y: top, width: 34, height: 34 - top, fill: METAL_D }, g); // parante de atrás
+      el("rect", { x: tx - 14, y: top, width: 28, height: 34 - top, fill: METAL }, g); // riel de la polea
+      el("rect", { x: tx - 20, y: top - 24, width: cx + 154 - tx, height: 34, rx: 8, fill: METAL_D }, g); // techo
+      const ws = weightStack(g, cx, 10, { n: 12, pin: pr.pin ?? 5, guide: Math.min(700, -top - 200) });
+      el("line", { x1: cx, y1: ws.top, x2: cx, y2: top + 10, stroke: "#1A1A1A", "stroke-width": 5 }, g);
+      el("rect", { x: tx - 26, y: pu.y - 34, width: 52, height: 68, rx: 12, fill: METAL_D }, g); // carro de la polea
+      el("circle", { cx: tx + 30, cy: pu.y, r: 13, fill: ACCENT }, g); // perilla de altura
+      el("circle", { cx: pu.x, cy: pu.y, r: 20, fill: METAL }, g);
+      el("circle", { cx: pu.x, cy: pu.y, r: 7, fill: METAL_D }, g);
+      if (pr.type === "cablerow") {
+        const [x0, x1, sy] = pr.seat || [-520, -120, -170], fp = P2(pr.foot || [40, -110]);
+        el("rect", { x: x0, y: sy, width: x1 - x0, height: 40, rx: 14, fill: PAD }, g);
+        el("rect", { x: x0 + 30, y: sy + 40, width: 26, height: 34 - sy - 40, fill: METAL_D }, g);
+        el("rect", { x: x1 - 56, y: sy + 40, width: 26, height: 34 - sy - 40, fill: METAL_D }, g);
+        el("rect", { x: x0 - 20, y: 14, width: cx - x0 + 40, height: 20, rx: 6, fill: METAL_D }, g);
+        el("rect", { x: f2(fp.x + 48), y: f2(fp.y - 90), width: 26, height: 180, rx: 8, fill: METAL_D, transform: `rotate(${pr.ang ?? -20} ${f2(fp.x + 60)} ${f2(fp.y)})` }, g);
+        tubeL(g, { x: fp.x + 70, y: fp.y + 70 }, { x: fp.x + 90, y: 26 }, 22);
+      }
+      const cable = el("line", { stroke: "#1A1A1A", "stroke-width": 5 }, propBack);
+      const att = pr.att || "bar", front = el("g", {}, att === "bar" ? propFront : propMid), rope = att === "rope" ? tubeL(propMid, { x: 0, y: 0 }, { x: 0, y: 0 }, 14, "#1A1A1A") : null;
+      if (att === "bar") { el("circle", { r: 22, fill: METAL_D }, front); el("circle", { r: 9, fill: "#8A8F99" }, front); }
+      else if (att === "rope") el("circle", { r: 15, fill: "#1A1A1A" }, front);
+      else el("rect", { x: -14, y: -32, width: 28, height: 64, rx: 12, fill: "#1A1A1A" }, front);
+      let L0 = null;
+      propUpdates.push((n) => {
+        const d = unit(n.W, pu), end = att === "rope" ? { x: n.W.x + d.x * 70, y: n.W.y + d.y * 70 } : n.W;
+        setL(cable, pu, end);
+        if (rope) setL(rope, end, n.W);
+        front.setAttribute("transform", `translate(${f2(n.W.x)},${f2(n.W.y)})`);
+        const len = Math.hypot(n.W.x - pu.x, n.W.y - pu.y);
+        if (L0 == null) L0 = pr.rest ?? len;
+        ws.lift((len - L0) * (pr.ratio ?? 1));
+      });
+    }
+    if (pr.type === "cablecrossover") {
+      // Cruce de poleas: dos columnas a los costados del atleta (de perfil se superponen detrás de él, la lejana corrida
+      // FAR) con las poleas altas en pulley [x, y]; un cable y una manija por mano. La pila sube lo que se alarga el cable.
+      const cx = pr.x ?? -260, top = pr.top ?? -1560, pu = P2(pr.pulley || [cx + 70, -1420]);
+      const col = (dx, dy, parent) => {
+        const g = el("g", { transform: `translate(${dx},${dy})` }, parent);
+        el("rect", { x: cx - 150, y: 18, width: 300, height: 16, rx: 8, fill: METAL_D }, g);
+        el("rect", { x: cx - 120, y: top, width: 30, height: 34 - top, fill: METAL_D }, g);
+        el("rect", { x: cx + 56, y: top, width: 28, height: 34 - top, fill: METAL }, g);
+        el("rect", { x: cx - 120, y: top - 24, width: 230, height: 32, rx: 8, fill: METAL_D }, g);
+        const ws = weightStack(g, cx - 20, 10, { n: 12, pin: pr.pin ?? 4, guide: 640 });
+        el("rect", { x: cx + 44, y: pu.y - 36, width: 52, height: 70, rx: 12, fill: METAL_D }, g);
+        el("circle", { cx: cx + 100, cy: pu.y, r: 12, fill: ACCENT }, g);
+        el("circle", { cx: pu.x, cy: pu.y, r: 19, fill: METAL }, g);
+        return ws;
+      };
+      const wsF = col(FAR.dx * 3, FAR.dy * 3, propBack), wsN = col(0, 0, propBack);
+      const cN = el("line", { stroke: "#1A1A1A", "stroke-width": 5 }, propBack), cF = el("line", { stroke: "#1A1A1A", "stroke-width": 4 }, propBack);
+      const hN = el("rect", { x: -13, y: -30, width: 26, height: 60, rx: 11, fill: "#1A1A1A" }, propMid), hF = el("rect", { x: -12, y: -28, width: 24, height: 56, rx: 10, fill: "#1A1A1A" }, propBack);
+      let L0 = null;
+      propUpdates.push((n, f) => {
+        const pf = { x: pu.x + FAR.dx * 3, y: pu.y + FAR.dy * 3 };
+        setL(cN, pu, n.W); setL(cF, pf, f.W);
+        hN.setAttribute("transform", `translate(${f2(n.W.x)},${f2(n.W.y)})`); hF.setAttribute("transform", `translate(${f2(f.W.x)},${f2(f.W.y)})`);
+        const len = Math.hypot(n.W.x - pu.x, n.W.y - pu.y);
+        if (L0 == null) L0 = pr.rest ?? len;
+        const v = (len - L0) * (pr.ratio ?? 1); wsN.lift(v); wsF.lift(v);
+      });
+    }
+    if (pr.type === "chestpress" || pr.type === "shoulderpress" || pr.type === "pecdeck" || pr.type === "lateralraise" || pr.type === "preachercurl") {
+      // Máquinas de tren superior sentado: pila atrás (stack = x), asiento (seat [x0, x1, y]) + respaldo (back [x, lean, len];
+      // sin back = sin respaldo) y un brazo de palanca desde el eje pivot [x, y] (ACCENT) hasta la manija en la mano cercana:
+      //   chestpress / shoulderpress / preachercurl: palanca recta eje → mano (preacher: pivot = codo, con el apoyo inclinado pad [x0, y0, x1, y1]);
+      //   pecdeck: el eje está arriba del hombro y la palanca baja en L hasta la mano (con al < 1 la mano se ve al costado);
+      //   lateralraise: almohadilla sobre el brazo (hombro → codo) y eje en el hombro; chest [x, y] = apoyo de pecho.
+      // La pila sube k × lo que se movió la mano (lateralraise: el codo) desde la primera pose dibujada.
+      const t = pr.type, pv = P2(pr.pivot || [0, -900]), stx = pr.stack ?? -640, [x0, x1, sy] = pr.seat || [-380, -100, -184];
+      const g = el("g", {}, propBack);
+      el("rect", { x: stx - 110, y: 18, width: Math.max(pv.x, x1) - stx + 260, height: 16, rx: 8, fill: METAL_D }, g);
+      const ws = weightStack(g, stx, 10, { n: 12, pin: pr.pin ?? 5, guide: pr.guide ?? 700 });
+      const ty = pr.frameTop ?? -1180;
+      el("rect", { x: stx - 100, y: ty, width: 200, height: 30, rx: 8, fill: METAL_D }, g);
+      el("rect", { x: stx + 90, y: ty, width: 30, height: 34 - ty, fill: METAL_D }, g);
+      el("line", { x1: stx + 105, y1: sy + 61, x2: x0, y2: sy + 61, stroke: METAL_D, "stroke-width": 18 }, g);
+      if (pr.back) { const [bx, lean, blen] = pr.back; chair(g, x0, x1, sy, bx, lean, blen); }
+      else {
+        el("rect", { x: (x0 + x1) / 2 - 18, y: sy + 40, width: 36, height: 34 - sy - 40, fill: METAL_D }, g);
+        el("rect", { x: x0, y: sy, width: x1 - x0, height: 44, rx: 16, fill: PAD }, g);
+        el("circle", { cx: (x0 + x1) / 2, cy: sy + 90, r: 13, fill: ACCENT }, g); // perilla del asiento
+      }
+      if (pr.chest) { const c = P2(pr.chest); tubeL(g, { x: c.x + 60, y: c.y + 40 }, { x: c.x + 90, y: sy + 61 }, 18); el("rect", { x: c.x - 22, y: c.y - 110, width: 44, height: 220, rx: 20, fill: PAD }, g); }
+      tubeL(g, { x: stx + 105, y: ty + 15 }, { x: pv.x, y: ty + 15 }, 26); // viga hasta el eje
+      tubeL(g, { x: pv.x, y: ty + 15 }, pv, 20);
+      if (pr.pad) { const [a0, b0, a1, b1] = pr.pad; tubeL(g, { x: a1 + 10, y: b1 + 30 }, { x: a1 + 30, y: 26 }, 22); tubeL(propMid, { x: a0, y: b0 }, { x: a1, y: b1 }, 40, PAD); }
+      const arm = el("polyline", { fill: "none", stroke: METAL, "stroke-width": 18, "stroke-linecap": "round", "stroke-linejoin": "round" }, t === "lateralraise" ? propBack : propBack);
+      el("circle", { cx: pv.x, cy: pv.y, r: 24, fill: METAL_D }, propBack);
+      const axis = el("circle", { cx: pv.x, cy: pv.y, r: 13, fill: ACCENT }, t === "preachercurl" || t === "lateralraise" ? propFront : propBack);
+      const grip = t === "lateralraise" ? el("rect", { x: -22, y: -70, width: 44, height: 140, rx: 20, fill: PAD }, propFront)
+        : el("rect", { x: -13, y: -32, width: 26, height: 64, rx: 11, fill: "#1A1A1A" }, propMid);
+      let W0 = null;
+      propUpdates.push((n) => {
+        let tip = n.W;
+        if (t === "lateralraise") {
+          tip = n.E; const a = (Math.atan2(n.E.x - n.S.x, n.E.y - n.S.y) * 180) / Math.PI, m = lerp(n.S, n.E, 0.62);
+          const k = Math.max(0.3, Math.min(1, Math.hypot(n.E.x - n.S.x, n.E.y - n.S.y) / L.upper)); // escorzo: brazo hacia la cámara
+          grip.setAttribute("transform", `translate(${f2(m.x)},${f2(m.y)}) rotate(${f2(-a)}) scale(1,${f2(k)})`);
+          arm.setAttribute("points", `${f2(pv.x)},${f2(pv.y)} ${f2(m.x)},${f2(m.y)}`);
+        } else {
+          grip.setAttribute("transform", `translate(${f2(n.W.x)},${f2(n.W.y)})`);
+          const pts = t === "pecdeck" ? [pv, { x: n.W.x, y: pv.y }, n.W] : [pv, n.W];
+          arm.setAttribute("points", pts.map((p) => `${f2(p.x)},${f2(p.y)}`).join(" "));
+        }
+        if (W0 == null) W0 = pr.rest ? P2(pr.rest) : { x: tip.x, y: tip.y };
+        ws.lift(Math.hypot(tip.x - W0.x, tip.y - W0.y) * (pr.k ?? 1));
+      });
+      void axis;
+    }
+    if (pr.type === "hipthrust") {
+      // Hip thrust en máquina: respaldo bajo para la espalda alta (back [x, y] = centro del borde donde apoyan los
+      // omóplatos), asiento bajo (seat [x0, x1, y]), almohadilla sobre la cadera que cuelga de una palanca con eje adelante
+      // (pivot [x, y]) y pila atrás (stack = x). La almohadilla sigue a la cadera; la pila sube k × lo que sube la cadera.
+      const bk = P2(pr.back || [-330, -360]), pv = P2(pr.pivot || [380, -330]), stx = pr.stack ?? -700, [x0, x1, sy] = pr.seat || [-260, 0, -80];
+      const g = el("g", {}, propBack);
+      el("rect", { x: stx - 110, y: 18, width: pv.x - stx + 260, height: 16, rx: 8, fill: METAL_D }, g);
+      const ws = weightStack(g, stx, 10, { n: 12, pin: pr.pin ?? 6, guide: 600 });
+      el("rect", { x: stx - 100, y: -620, width: 200, height: 30, rx: 8, fill: METAL_D }, g);
+      el("rect", { x: stx + 90, y: -620, width: 30, height: 654, fill: METAL_D }, g);
+      tubeL(g, { x: stx + 105, y: -605 }, { x: pv.x, y: -605 }, 24); tubeL(g, { x: pv.x, y: -605 }, pv, 22); tubeL(g, { x: pv.x + 40, y: 26 }, pv, 26);
+      tubeL(g, { x: bk.x - 60, y: bk.y + 40 }, { x: bk.x - 80, y: 26 }, 24);
+      tubeL(g, { x: bk.x + 10, y: bk.y + 10 }, { x: bk.x - 150, y: bk.y + 120 }, 64, PAD); // respaldo
+      el("rect", { x: x0, y: sy, width: x1 - x0, height: 40, rx: 14, fill: PAD }, g);
+      el("rect", { x: (x0 + x1) / 2 - 16, y: sy + 40, width: 32, height: 34 - sy - 40, fill: METAL_D }, g);
+      const lever = tubeL(propBack, pv, pv, 18, METAL), pad = el("rect", { x: -70, y: -24, width: 140, height: 48, rx: 22, fill: PAD }, propFront);
+      el("circle", { cx: pv.x, cy: pv.y, r: 14, fill: ACCENT }, propBack);
+      let y0 = null;
+      propUpdates.push((n) => {
+        const p = { x: n.H.x + 10, y: n.H.y - 64 };
+        setL(lever, pv, p); pad.setAttribute("transform", `translate(${f2(p.x)},${f2(p.y)})`);
+        if (y0 == null) y0 = p.y;
+        ws.lift((y0 - p.y) * (pr.k ?? 1));
+      });
+    }
+    if (pr.type === "hipabduction" || pr.type === "hipadduction") {
+      // Abductores / aductores: sentado, respaldo reclinado, piernas sobre los apoyos (rest [x, y] = pie) y almohadilla en la
+      // rodilla (del lado de afuera en abducción, de adentro en aductores: de perfil, la de afuera tapa la rodilla). El
+      // movimiento real (abrir / cerrar) se cuenta con la tarjeta topview mode "abd" (clave cs: 0 juntas, 1 abiertas); la pila
+      // sube k × cs (abductores) o k × (open − cs) (aductores).
+      const stx = pr.stack ?? -640, [x0, x1, sy] = pr.seat || [-380, -60, -300], [bx, lean, blen] = pr.back || [-330, -20, 450];
+      const g = el("g", {}, propBack);
+      el("rect", { x: stx - 110, y: 18, width: x1 - stx + 380, height: 16, rx: 8, fill: METAL_D }, g);
+      const ws = weightStack(g, stx, 10, { n: 12, pin: pr.pin ?? 5, guide: 620 });
+      el("rect", { x: stx - 100, y: -640, width: 200, height: 30, rx: 8, fill: METAL_D }, g);
+      el("rect", { x: stx + 90, y: -640, width: 30, height: 674, fill: METAL_D }, g);
+      el("line", { x1: stx + 105, y1: sy + 61, x2: x0, y2: sy + 61, stroke: METAL_D, "stroke-width": 18 }, g);
+      chair(g, x0, x1, sy, bx, lean, blen);
+      const rs = P2(pr.rest || [40, -160]);
+      tubeL(g, { x: x1 - 20, y: sy + 60 }, { x: rs.x + 40, y: rs.y + 50 }, 18);
+      el("rect", { x: rs.x - 40, y: rs.y + 34, width: 120, height: 22, rx: 8, fill: METAL_D }, g); // apoyo de pies
+      const kp = el("g", {}, pr.type === "hipabduction" ? propFront : propBack);
+      el("rect", { x: -40, y: -46, width: 80, height: 92, rx: 30, fill: PAD }, kp);
+      el("circle", { cx: 0, cy: 0, r: 12, fill: PAD_L }, kp);
+      propUpdates.push((n, f, st) => {
+        kp.setAttribute("transform", `translate(${f2(n.K.x - 10)},${f2(n.K.y)})`);
+        ws.lift((pr.type === "hipabduction" ? st.cs || 0 : (pr.open ?? 1) - (st.cs || 0)) * (pr.k ?? 160));
+      });
+    }
+    if (pr.type === "standingcalf" || pr.type === "seatedcalf") {
+      // Gemelos: escalón (step [x0, x1, y] = cara de arriba) bajo la punta del pie y almohadilla que sigue al cuerpo:
+      // de pie = hombreras sobre los hombros (carro en un riel vertical, column = x); sentado = almohadilla sobre los muslos
+      // cerca de la rodilla (seat [x0, x1, y]) con la palanca al eje pivot [x, y]. La pila (o los discos) sube con el cuerpo.
+      const [s0, s1, syp] = pr.step || [-20, 140, -40], stx = pr.stack ?? -560, sitting = pr.type === "seatedcalf";
+      const g = el("g", {}, propBack);
+      el("rect", { x: stx - 110, y: 18, width: s1 - stx + 260, height: 16, rx: 8, fill: METAL_D }, g);
+      el("rect", { x: s0, y: syp, width: s1 - s0, height: 34 - syp, rx: 8, fill: METAL_D }, propStatic); // escalón (delante de los talones)
+      el("rect", { x: s0 + 6, y: syp + 4, width: s1 - s0 - 12, height: 10, rx: 4, fill: "#5C6270" }, propStatic);
+      const ws = weightStack(g, stx, 10, { n: 12, pin: pr.pin ?? 6, guide: sitting ? 560 : 900 });
+      const top = sitting ? -600 : -1260;
+      el("rect", { x: stx - 100, y: top, width: 200, height: 30, rx: 8, fill: METAL_D }, g);
+      el("rect", { x: stx + 90, y: top, width: 30, height: 34 - top, fill: METAL_D }, g);
+      const mov = el("g", {}, propBack), movF = el("g", {}, propFront);
+      let ref = null;
+      if (!sitting) {
+        const cx = pr.column ?? -240, px = pr.padX ?? 0; // riel del carro detrás del atleta; hombrera centrada en x = padX
+        el("rect", { x: cx - 16, y: top, width: 32, height: 34 - top, fill: METAL }, g); // riel del carro
+        tubeL(g, { x: stx + 105, y: top + 15 }, { x: cx, y: top + 15 }, 24);
+        el("rect", { x: cx - 30, y: -60, width: 60, height: 160, rx: 10, fill: METAL_D }, mov); // carro
+        tubeL(mov, { x: cx, y: 0 }, { x: px - 40, y: 0 }, 20);
+        el("rect", { x: px - 62, y: -36, width: 124, height: 40, rx: 18, fill: PAD }, movF); // hombrera
+        el("circle", { cx: cx, cy: 70, r: 12, fill: ACCENT }, mov);
+        propUpdates.push((n) => {
+          const y = n.S.y - 26;
+          mov.setAttribute("transform", `translate(0,${f2(y)})`); movF.setAttribute("transform", `translate(0,${f2(y)})`);
+          if (ref == null) ref = y;
+          ws.lift((ref - y) * (pr.k ?? 1.6));
+        });
+      } else {
+        const [x0, x1, sy] = pr.seat || [-330, -40, -300], pv = P2(pr.pivot || [260, -180]);
+        el("rect", { x: x0, y: sy, width: x1 - x0, height: 44, rx: 16, fill: PAD }, g);
+        el("rect", { x: (x0 + x1) / 2 - 18, y: sy + 40, width: 36, height: 34 - sy - 40, fill: METAL_D }, g);
+        tubeL(g, { x: stx + 105, y: top + 15 }, { x: pv.x, y: top + 15 }, 20); tubeL(g, { x: pv.x, y: top + 15 }, pv, 20);
+        const lever = tubeL(propBack, pv, pv, 18, METAL);
+        el("circle", { cx: pv.x, cy: pv.y, r: 14, fill: ACCENT }, propBack);
+        el("rect", { x: -80, y: -24, width: 160, height: 48, rx: 22, fill: PAD }, movF); // almohadilla de rodillas
+        propUpdates.push((n) => {
+          const p = { x: n.K.x - 50, y: n.K.y - 52 };
+          setL(lever, pv, p);
+          movF.setAttribute("transform", `translate(${f2(p.x)},${f2(p.y)})`);
+          if (ref == null) ref = p.y;
+          ws.lift((ref - p.y) * (pr.k ?? 1.6));
+        });
+      }
+    }
+    if (pr.type === "smith") {
+      // Máquina Smith (multipower): dos parantes con la barra guiada que sube y baja en línea recta en x (rail).
+      // track "back" = la barra sigue al punto del tronco torso [fx, dy] (sentadilla, como barbell.torso); "hands" = a la
+      // mano cercana (press de banca). Solo se usa la altura: la barra nunca se corre de x. stops = altura de los topes
+      // (ACCENT); ganchos cada 120 px en el parante. La barra de punta (con discos) se dibuja encima del cuerpo.
+      const rx = pr.x ?? 0, top = pr.top ?? -1500, gap = pr.gap ?? 130;
+      const g = el("g", {}, propBack);
+      el("rect", { x: rx - gap - 140, y: 18, width: 2 * gap + 280, height: 16, rx: 8, fill: METAL_D }, g);
+      [[-gap, METAL_D], [gap, METAL]].forEach(([dx, c]) => el("rect", { x: rx + dx - 15, y: top, width: 30, height: 34 - top, fill: c }, g));
+      el("rect", { x: rx - gap - 30, y: top - 24, width: 2 * gap + 60, height: 34, rx: 8, fill: METAL_D }, g);
+      for (let y = -240; y > top + 60; y -= 120) el("rect", { x: rx + gap - 26, y, width: 22, height: 10, rx: 3, fill: "#2A2D33" }, g); // ganchos
+      const st = pr.stops ?? -300;
+      [[-gap, 0], [gap, 0]].forEach(([dx]) => el("rect", { x: rx + dx - 34, y: st, width: 68, height: 22, rx: 6, fill: ACCENT }, g)); // topes
+      const bar = el("g", {}, propFront), r = pr.r ?? 72;
+      el("circle", { r, fill: PLATE }, bar);
+      el("circle", { r: r * 0.72, fill: "none", stroke: PLATE_D, "stroke-width": 6 }, bar);
+      el("circle", { r: r * 0.24, fill: PLATE_L }, bar);
+      el("rect", { x: -40, y: -10, width: 80, height: 20, rx: 6, fill: METAL_D, transform: `translate(0,${-r - 12})` }, bar); // gancho de la barra
+      propUpdates.push((n, f, s) => {
+        let y = n.W.y;
+        if ((pr.track ?? "back") === "back") { const [fx, dy] = pr.torso || [-34, 18], b = rad(s.b); y = n.S.y + Math.sin(b) * fx + Math.cos(b) * dy; }
+        bar.setAttribute("transform", `translate(${rx},${f2(y)})`);
+      });
+    }
+    if (pr.type === "assisted") {
+      // Máquina de dominadas / fondos asistidos: torre con la pila (stack = x) adelante, manijas altas (grip [x, y]) para
+      // dominadas y paralelas (dip [x, y]) para fondos, escalones atrás y plataforma de rodillas que sube y baja con la
+      // rodilla cercana (sobre una palanca con eje pivot [x, y]). La pila (contrapeso) sube cuando el cuerpo baja:
+      // lift = k × (K.y − rest), con rest = altura de la rodilla arriba.
+      const stx = pr.stack ?? 420, gp = P2(pr.grip || [60, -1400]), dp = pr.dip ? P2(pr.dip) : null, pv = P2(pr.pivot || [300, -380]);
+      const g = el("g", {}, propBack), top = Math.min(gp.y - 80, -1300);
+      el("rect", { x: -400, y: 18, width: stx + 560, height: 16, rx: 8, fill: METAL_D }, g);
+      el("rect", { x: stx + 90, y: top, width: 34, height: 34 - top, fill: METAL_D }, g);
+      el("rect", { x: -340, y: top, width: 30, height: 34 - top, fill: METAL_D }, g);
+      el("rect", { x: -340, y: top - 20, width: stx + 464, height: 32, rx: 8, fill: METAL_D }, g);
+      const ws = weightStack(g, stx, 10, { n: 12, pin: pr.pin ?? 6, guide: 700 });
+      tubeL(g, { x: gp.x + 60, y: top }, { x: gp.x + 40, y: gp.y }, 18);
+      el("rect", { x: gp.x - 20, y: gp.y - 12, width: 80, height: 24, rx: 12, fill: PAD }, propFront); // manija alta
+      if (dp) { tubeL(g, { x: stx + 90, y: dp.y }, { x: dp.x - 60, y: dp.y }, 18); el("rect", { x: dp.x - 70, y: dp.y - 14, width: 140, height: 28, rx: 14, fill: PAD }, propFront); }
+      el("rect", { x: -300, y: -260, width: 110, height: 22, rx: 6, fill: METAL }, g); // escalones
+      el("rect", { x: -300, y: -120, width: 110, height: 22, rx: 6, fill: METAL }, g);
+      tubeL(g, { x: pv.x, y: 26 }, pv, 26);
+      const lever = tubeL(propBack, pv, pv, 18, METAL), plat = el("g", {}, propBack);
+      el("rect", { x: -120, y: 0, width: 200, height: 40, rx: 16, fill: PAD }, plat); // plataforma de rodillas
+      el("circle", { cx: pv.x, cy: pv.y, r: 14, fill: ACCENT }, propBack);
+      propUpdates.push((n) => {
+        const p = { x: n.K.x - 10, y: n.K.y + 26 };
+        plat.setAttribute("transform", `translate(${f2(p.x)},${f2(p.y)})`); setL(lever, pv, { x: p.x + 60, y: p.y + 20 });
+        ws.lift((n.K.y - (pr.rest ?? n.K.y)) * (pr.k ?? 1));
+      });
+    }
+    if (pr.type === "abcrunch") {
+      // Crunch abdominal en máquina: asiento (seat [x0, x1, y]) con respaldo bajo, rodillos para los pies (feet [x, y]),
+      // manijas/almohadillas sobre los hombros que siguen al hombro cercano, colgadas de una palanca con eje pivot [x, y].
+      // La pila sube k × lo que se mueve el hombro desde la primera pose dibujada.
+      const [x0, x1, sy] = pr.seat || [-380, -90, -184], pv = P2(pr.pivot || [-330, -760]), stx = pr.stack ?? -640, ft = P2(pr.feet || [40, -60]);
+      const g = el("g", {}, propBack);
+      el("rect", { x: stx - 110, y: 18, width: ft.x - stx + 260, height: 16, rx: 8, fill: METAL_D }, g);
+      const ws = weightStack(g, stx, 10, { n: 12, pin: pr.pin ?? 5, guide: 640 });
+      el("rect", { x: stx + 90, y: -900, width: 30, height: 934, fill: METAL_D }, g);
+      tubeL(g, { x: stx + 105, y: -880 }, { x: pv.x, y: -880 }, 24); tubeL(g, { x: pv.x, y: -880 }, pv, 20);
+      el("rect", { x: (x0 + x1) / 2 - 18, y: sy + 40, width: 36, height: 34 - sy - 40, fill: METAL_D }, g);
+      tubeL(g, { x: x0 + 20, y: sy - 10 }, { x: x0 + 10, y: sy - 230 }, 50, PAD); // respaldo bajo
+      el("rect", { x: x0, y: sy, width: x1 - x0, height: 44, rx: 16, fill: PAD }, g);
+      tubeL(g, { x: x1 - 20, y: sy + 60 }, { x: ft.x, y: ft.y + 30 }, 18);
+      el("circle", { cx: ft.x + 10, cy: ft.y - 52, r: 26, fill: PAD }, propFront); // rodillo de pies (sobre el empeine)
+      const lever = tubeL(propBack, pv, pv, 18, METAL), pad = el("rect", { x: -18, y: -50, width: 36, height: 100, rx: 16, fill: PAD }, propMid);
+      el("circle", { cx: pv.x, cy: pv.y, r: 14, fill: ACCENT }, propBack);
+      let S0 = null;
+      propUpdates.push((n, f, s) => {
+        const p = { x: n.S.x + 30, y: n.S.y + 30 };
+        setL(lever, pv, p); pad.setAttribute("transform", `translate(${f2(p.x)},${f2(p.y)}) rotate(${f2(s.b)})`);
+        if (S0 == null) S0 = { x: n.S.x, y: n.S.y };
+        ws.lift(Math.hypot(n.S.x - S0.x, n.S.y - S0.y) * (pr.k ?? 1));
+      });
+    }
+    if (pr.type === "backext45") {
+      // Banco romano 45°: plataforma de pies inclinada en foot [x, y] (tobillo), rodillo detrás de las pantorrillas y
+      // almohadilla bajo la cadera (pad [x, y], rotada ang grados = inclinación de las piernas); roll [x, y] = rodillo. Todo fijo.
+      const fp = P2(pr.foot || [0, -60]), pd = P2(pr.pad || [370, -330]), ang = pr.ang ?? 45, u = { x: Math.sin(rad(ang)), y: -Math.cos(rad(ang)) };
+      const g = el("g", {}, propBack);
+      el("rect", { x: fp.x - 200, y: 18, width: pd.x - fp.x + 360, height: 16, rx: 8, fill: METAL_D }, g);
+      tubeL(g, { x: fp.x - 150, y: 26 }, { x: pd.x + 40, y: pd.y + 80 }, 30, METAL); // viga inclinada
+      tubeL(g, { x: pd.x + 40, y: pd.y + 80 }, { x: pd.x + 120, y: 26 }, 26);
+      tubeL(g, { x: fp.x + 40, y: fp.y + 60 }, { x: fp.x + 40, y: 26 }, 22);
+      el("rect", { x: f2(fp.x - 50), y: f2(fp.y + 36), width: 170, height: 22, rx: 8, fill: METAL_D, transform: `rotate(${f2(ang)} ${f2(fp.x + 30)} ${f2(fp.y + 40)})` }, g); // plataforma (paralela a la suela con ft = ang)
+      const roll = P2(pr.roll || [fp.x - 40, fp.y - 150]); // rodillo detrás de las pantorrillas
+      tubeL(g, roll, { x: fp.x + 40, y: fp.y + 60 }, 14);
+      el("circle", { cx: roll.x, cy: roll.y, r: 30, fill: PAD }, propFront);
+      el("circle", { cx: roll.x, cy: roll.y, r: 12, fill: PAD_L }, propFront);
+      el("rect", { x: f2(pd.x - 90), y: f2(pd.y - 28), width: 180, height: 56, rx: 26, fill: PAD, transform: `rotate(${f2(ang - 90)} ${f2(pd.x)} ${f2(pd.y)})` }, propFront); // almohadilla
+      el("circle", { cx: pd.x + 40, cy: pd.y + 80, r: 12, fill: ACCENT }, g); // perilla de altura
+    }
+    if (pr.type === "treadmill") {
+      // Cinta de correr: plataforma (deck [x0, x1, y] = cara de arriba de la cinta), parante adelante con la consola
+      // (console [x, y]) y barandas a la altura hand (y). Con clip: true, la cuerda roja del clip de seguridad va de la
+      // consola a la cadera. Las rayas de la cinta se mueven con floorScroll / scroll de la escena (ver timeline).
+      const [x0, x1, dy] = pr.deck || [-520, 360, -40], cs = P2(pr.console || [330, -1000]), ry = pr.rail ?? -760;
+      const g = el("g", {}, propBack);
+      el("rect", { x: x0 - 20, y: dy, width: x1 - x0 + 40, height: 34 - dy + 4, rx: 18, fill: METAL_D }, g);
+      el("rect", { x: x0, y: dy - 2, width: x1 - x0, height: 14, rx: 7, fill: "#1A1A1A" }, g); // cinta
+      el("rect", { x: x0 - 30, y: dy + 6, width: 40, height: 22, rx: 8, fill: METAL }, g); // rodillo atrás
+      tubeL(g, { x: x1 - 20, y: dy + 10 }, { x: cs.x - 10, y: cs.y + 60 }, 30, METAL); // parante
+      tubeL(g, { x: cs.x - 30, y: ry }, { x: x0 + 260, y: ry }, 16); // baranda
+      tubeL(g, { x: x0 + 260, y: ry }, { x: x0 + 300, y: dy + 10 }, 12);
+      el("rect", { x: cs.x - 110, y: cs.y - 40, width: 170, height: 100, rx: 14, fill: METAL_D, transform: `rotate(-20 ${cs.x} ${cs.y})` }, g); // consola
+      el("rect", { x: cs.x - 96, y: cs.y - 28, width: 140, height: 56, rx: 8, fill: "#9FD8D2", transform: `rotate(-20 ${cs.x} ${cs.y})` }, g);
+      el("circle", { cx: cs.x - 60, cy: cs.y + 50, r: 12, fill: ACCENT }, g); // botón de parada
+      if (pr.clip) {
+        const cord = el("path", { fill: "none", stroke: ACCENT, "stroke-width": 5 }, propBack);
+        propUpdates.push((n) => {
+          const a = { x: cs.x - 60, y: cs.y + 50 }, b = { x: n.H.x + 30, y: n.H.y - 20 }, m = { x: (a.x + b.x) / 2, y: Math.max(a.y, b.y) + 60 };
+          cord.setAttribute("d", `M ${f2(a.x)} ${f2(a.y)} Q ${f2(m.x)} ${f2(m.y)} ${f2(b.x)} ${f2(b.y)}`);
+        });
+      }
+    }
+    if (pr.type === "stationarybike") {
+      // Bicicleta fija: cuadro con asiento regulable (seat [x, y] = cara de arriba del asiento; perilla ACCENT en el caño),
+      // manubrio (bar [x, y]), volante adelante (fly [x, y]) y bielas del centro crank [x, y] a cada pedal (debajo del pie,
+      // como el airbike). Poses: hip + ankle + ankle2 sobre el círculo de la biela (radio r).
+      const cr = P2(pr.crank || [60, -170]), sp = P2(pr.seat || [-170, -466]), bp = P2(pr.bar || [150, -640]), fl = P2(pr.fly || [300, -260]);
+      const g = el("g", {}, propBack);
+      el("rect", { x: sp.x - 160, y: 18, width: fl.x - sp.x + 320, height: 16, rx: 8, fill: METAL_D }, g);
+      tubeL(g, { x: sp.x - 120, y: 26 }, cr, 30, METAL); tubeL(g, { x: fl.x + 140, y: 26 }, cr, 30, METAL);
+      tubeL(g, cr, { x: sp.x + 10, y: sp.y + 120 }, 30, METAL); // caño del asiento (fijo)
+      tubeL(g, { x: sp.x + 10, y: sp.y + 140 }, { x: sp.x + 4, y: sp.y + 20 }, 20, METAL_D); // tija regulable
+      el("circle", { cx: sp.x + 32, cy: sp.y + 110, r: 13, fill: ACCENT }, g); // perilla del asiento
+      el("rect", { x: sp.x - 85, y: sp.y, width: 170, height: 34, rx: 14, fill: PAD }, g); // asiento
+      tubeL(g, cr, { x: bp.x - 40, y: bp.y + 120 }, 26, METAL); tubeL(g, { x: bp.x - 40, y: bp.y + 120 }, bp, 20, METAL_D);
+      el("rect", { x: bp.x - 30, y: bp.y - 16, width: 100, height: 30, rx: 14, fill: PAD }, propFront); // manubrio
+      el("circle", { cx: fl.x, cy: fl.y, r: 130, fill: METAL }, g); el("circle", { cx: fl.x, cy: fl.y, r: 96, fill: METAL_D }, g);
+      el("circle", { cx: fl.x - 60, cy: fl.y - 150, r: 14, fill: ACCENT }, g); // perilla de resistencia
+      tubeL(g, { x: fl.x - 60, y: fl.y - 150 }, { x: fl.x - 40, y: fl.y - 110 }, 10);
+      const spin = el("g", {}, g);
+      for (let i = 0; i < 4; i++) el("rect", { x: -6, y: -90, width: 12, height: 180, fill: "#5C6270", transform: `rotate(${i * 45})` }, spin);
+      el("circle", { cx: fl.x, cy: fl.y, r: 22, fill: ACCENT }, g);
+      const farC = tubeL(propBack, cr, cr, 12), nearC = tubeL(propMid, cr, cr, 14);
+      el("circle", { cx: cr.x, cy: cr.y, r: 26, fill: METAL_D }, propBack);
+      const pedalOf = (A) => ({ x: A.x + 30, y: A.y + 36 });
+      propUpdates.push((n, f) => {
+        setL(nearC, cr, pedalOf(n.A)); setL(farC, { x: cr.x + FAR.dx, y: cr.y + FAR.dy }, pedalOf(f.A));
+        const p = pedalOf(n.A), a = (Math.atan2(p.y - cr.y, p.x - cr.x) * 180) / Math.PI;
+        spin.setAttribute("transform", `translate(${fl.x},${fl.y}) rotate(${f2(a * 2)})`);
+      });
+    }
+    if (pr.type === "elliptical") {
+      // Elíptico: riel bajo, volante adelante (fly [x, y]) y dos pedales que siguen a cada tobillo (el recorrido elíptico
+      // está en las poses: ankle / ankle2), con su biela al volante; manijas largas que giran en pivot [x, y] hasta cada mano.
+      const fl = P2(pr.fly || [330, -170]), pv = P2(pr.pivot || [300, -420]), x0 = pr.x0 ?? -360;
+      const g = el("g", {}, propBack);
+      el("rect", { x: x0, y: 10, width: fl.x - x0 + 180, height: 24, rx: 10, fill: METAL_D }, g);
+      el("circle", { cx: fl.x, cy: fl.y, r: 150, fill: METAL }, g); el("circle", { cx: fl.x, cy: fl.y, r: 110, fill: METAL_D }, g);
+      tubeL(g, { x: fl.x + 20, y: fl.y }, { x: fl.x - 30, y: -1000 }, 30, METAL); // parante de la consola
+      el("rect", { x: fl.x - 120, y: -1080, width: 160, height: 90, rx: 12, fill: METAL_D }, g);
+      el("rect", { x: fl.x - 108, y: -1068, width: 136, height: 54, rx: 8, fill: "#9FD8D2" }, g);
+      el("circle", { cx: pv.x, cy: pv.y, r: 18, fill: METAL_D }, g);
+      const mk = (parent, w) => ({ link: tubeL(parent, fl, fl, w, METAL), pedal: el("rect", { x: -80, y: 0, width: 170, height: 18, rx: 8, fill: "#1A1A1A" }, parent), arm: tubeL(parent, pv, pv, w + 4, METAL_D) });
+      const F_ = mk(propBack, 12), N_ = mk(propMid, 14);
+      const grip = el("rect", { x: -13, y: -36, width: 26, height: 72, rx: 11, fill: PAD }, propFront);
+      el("circle", { cx: fl.x, cy: fl.y, r: 20, fill: ACCENT }, g);
+      const set = (o, A, W, off) => {
+        const P = { x: A.x + 26, y: A.y + 38 };
+        o.pedal.setAttribute("transform", `translate(${f2(P.x)},${f2(P.y)})`);
+        setL(o.link, { x: fl.x + off.x, y: fl.y + off.y }, { x: P.x + 70, y: P.y + 8 });
+        const d = unit(pv, W); setL(o.arm, { x: pv.x + off.x, y: pv.y + off.y }, { x: W.x + d.x * 60, y: W.y + d.y * 60 });
+      };
+      propUpdates.push((n, f) => {
+        set(N_, n.A, n.W, { x: 0, y: 0 }); set(F_, f.A, f.W, { x: FAR.dx, y: FAR.dy });
+        grip.setAttribute("transform", `translate(${f2(n.W.x)},${f2(n.W.y)})`);
+      });
+    }
+    if (pr.type === "stairclimber") {
+      // Escaladora: escalera giratoria detrás (escalones fijos de fondo desde base [x, y], alto rise, profundidad run) y un
+      // escalón bajo cada pie que sigue al tobillo; parante adelante con barandas a la altura rail (y) y consola.
+      const [bx, by] = pr.base || [-460, 34], rise = pr.rise ?? 120, run = pr.run ?? 170, n = pr.steps ?? 6, cx = pr.x ?? 330;
+      const g = el("g", {}, propBack);
+      el("rect", { x: bx - 40, y: 10, width: cx - bx + 200, height: 24, rx: 10, fill: METAL_D }, g);
+      for (let i = 0; i < n; i++) el("rect", { x: bx + i * run * 0.55, y: by - (i + 1) * rise * 0.55 - 10, width: run * 0.9, height: 22, rx: 6, fill: i % 2 ? "#3A3E47" : "#454A55" }, g);
+      el("path", { d: `M ${bx} 20 L ${bx + n * run * 0.55} ${by - n * rise * 0.55 - 10} L ${bx + n * run * 0.55 + 60} ${by - n * rise * 0.55 - 10} L ${bx + 120} 20 Z`, fill: METAL_D, opacity: 0.55 }, g);
+      tubeL(g, { x: cx, y: 20 }, { x: cx - 60, y: -1000 }, 34, METAL);
+      el("rect", { x: cx - 160, y: -1080, width: 170, height: 90, rx: 12, fill: METAL_D }, g);
+      el("rect", { x: cx - 148, y: -1068, width: 146, height: 54, rx: 8, fill: "#9FD8D2" }, g);
+      const ry = pr.rail ?? -720;
+      tubeL(g, { x: cx - 40, y: ry }, { x: cx - 360, y: ry }, 16); tubeL(g, { x: cx - 360, y: ry }, { x: cx - 360, y: ry + 140 }, 14);
+      const mkStep = (parent, c) => el("rect", { x: -70, y: 0, width: 170, height: 26, rx: 6, fill: c }, parent);
+      const sF = mkStep(propBack, "#2A2D33"), sN = mkStep(propMid, "#1F2228");
+      propUpdates.push((nn, f) => {
+        sN.setAttribute("transform", `translate(${f2(nn.A.x + 20)},${f2(nn.A.y + 36)})`);
+        sF.setAttribute("transform", `translate(${f2(f.A.x + 20)},${f2(f.A.y + 36)})`);
       });
     }
     if (pr.type === "rower") {
@@ -596,6 +1174,43 @@
       setL(fo, E, W); setC(hd, W); setL(bd, { x: 214, y: 40 }, W);
     };
   });
+  // Tarjeta "aperturas" (topview mode "fly"): vista de arriba; los brazos (codo apenas doblado) van del costado al frente
+  // según al (1 = al frente, juntos; menos = abiertos: el ángulo sale de acos(al)). Cruce de poleas, pec deck.
+  const flyCards = C.frames.filter((f) => f.topview && f.topview.mode === "fly").map((f) => {
+    const q = (k) => document.getElementById(`${k}-${f.id}`);
+    const parts = [["L", -1, { x: 14, y: 208 }], ["R", 1, { x: 238, y: 208 }]].map(([sd, sg, pul]) => ({ sg, pul, a: q(`fla${sd}`), h: q(`flh${sd}`), c: q(`flc${sd}`) }));
+    return (st) => {
+      const k = Math.max(0.05, Math.min(1, st.al ?? 1)), ang = Math.acos(k);
+      parts.forEach((p) => {
+        if (!p.a) return;
+        const S = { x: 126 + p.sg * 40, y: 152 }, d = { x: p.sg * Math.sin(ang), y: -Math.cos(ang) };
+        const n = { x: p.sg * Math.cos(ang), y: Math.sin(ang) }; // codo apenas doblado: hacia afuera / atrás
+        const e = { x: S.x + d.x * 52 + n.x * 10, y: S.y + d.y * 52 + n.y * 10 };
+        const w = { x: Math.max(18, Math.min(234, e.x + d.x * 54 - p.sg * 6)), y: e.y + d.y * 54 };
+        p.a.setAttribute("points", `${f2(S.x)},${f2(S.y)} ${f2(e.x)},${f2(e.y)} ${f2(w.x)},${f2(w.y)}`);
+        setC(p.h, w);
+        if (p.c) setL(p.c, p.pul, w);
+      });
+    };
+  });
+  // Tarjeta "abductores" (topview mode "abd"): vista de arriba sentado; los muslos se abren según la clave cs de la pose
+  // (0 = juntos, 1 ≈ 43° cada pierna; de perfil no se ve). pads "out" = almohadillas del lado de afuera de las rodillas (abductores), "in" = de adentro (aductores).
+  const abdCards = C.frames.filter((f) => f.topview && f.topview.mode === "abd").map((f) => {
+    const q = (k) => document.getElementById(`${k}-${f.id}`);
+    const parts = [["L", -1], ["R", 1]].map(([sd, sg]) => ({ sg, t: q(`abt${sd}`), p: q(`abp${sd}`), ft: q(`abf${sd}`) }));
+    const inside = f.topview.pads === "in";
+    return (st) => {
+      const a = Math.max(0, Math.min(1.2, st.cs || 0)) * 0.75;
+      parts.forEach((p) => {
+        if (!p.t) return;
+        const H = { x: 126 + p.sg * 20, y: 176 }, d = { x: p.sg * Math.sin(a), y: -Math.cos(a) }, K = { x: H.x + d.x * 92, y: H.y + d.y * 92 };
+        setL(p.t, H, K);
+        const o = inside ? -1 : 1, P = { x: K.x + o * 24 * p.sg * Math.cos(a), y: K.y + o * 24 * Math.sin(a) }; // del lado de afuera / adentro de la rodilla
+        p.p.setAttribute("transform", `translate(${f2(P.x)},${f2(P.y)}) rotate(${f2((p.sg * a * 180) / Math.PI)})`);
+        setC(p.ft, { x: K.x + d.x * 26, y: K.y + d.y * 26 });
+      });
+    };
+  });
   // Tarjeta "cossack" (topview mode "cossack"): vista de frente con los pies abiertos; la cadera se corre según cs
   // (1 = sentadilla sobre la pierna izquierda de la tarjeta, −1 = sobre la derecha) y la otra pierna queda estirada.
   const csCards = C.frames.filter((f) => f.topview && f.topview.mode === "cossack").map((f) => {
@@ -638,6 +1253,8 @@
     frontCards.forEach((u) => u(n));
     erCards.forEach((u) => u(state));
     csCards.forEach((u) => u(state));
+    flyCards.forEach((u) => u(state));
+    abdCards.forEach((u) => u(state));
     const fx = state.fx ?? 1;
     rig.setAttribute("transform", fx === 1 ? RIG0 : `${RIG0} translate(${f2(n.H.x)},0) scale(${f2(fx)},1) translate(${f2(-n.H.x)},0)`);
   }
@@ -720,8 +1337,11 @@
   if (C.frames.some((f) => speed(f))) {
     // Dashed strip under the floor line that slides left → reads as forward motion (running in place).
     // Each frame may set its own speed (scroll; negative = walking backwards, 0 = still).
-    const fy = R.y + 34 * R.scale + 36;
-    const dash = el("line", { x1: 60, y1: fy, x2: 1020, y2: fy, stroke: "#1A1A1A", "stroke-width": 8, "stroke-dasharray": "50 70", opacity: 0.35 }, $("overlays"));
+    // Con una cinta de correr (prop treadmill) las rayas van sobre la cinta, no bajo el piso.
+    const tm = (C.props || []).find((p) => p.type === "treadmill"), deck = tm ? tm.deck || [-520, 360, -40] : null;
+    const fy = deck ? R.y + (deck[1 + 1] + 5) * R.scale : R.y + 34 * R.scale + 36;
+    const fx0 = deck ? R.x + deck[0] * R.scale + 8 : 60, fx1 = deck ? R.x + deck[1] * R.scale - 8 : 1020;
+    const dash = el("line", { x1: fx0, y1: fy, x2: fx1, y2: fy, stroke: deck ? "#5C6270" : "#1A1A1A", "stroke-width": 8, "stroke-dasharray": "50 70", opacity: deck ? 0.9 : 0.35 }, $("overlays"));
     let off = 0;
     C.frames.forEach((f) => {
       const d = speed(f) * f.dur;
@@ -754,7 +1374,7 @@
       // Tarjeta "vista de arriba" (torsión acostado): las piernas giran hacia un lado con los hombros fijos.
       const tv = f.topview;
       fadeIn(`#topcard-${f.id}`, f.start + 0.4, { x: 60 }, { x: 0 });
-      if (tv.mode === "front" || tv.mode === "er" || tv.mode === "cossack") {
+      if (tv.mode === "front" || tv.mode === "er" || tv.mode === "cossack" || tv.mode === "fly" || tv.mode === "abd") {
         fadeIn(`#topcard-${f.id}`, f.start + 0.4, { x: 60 }, { x: 0 });
         tl.to(`#topcard-${f.id}`, { opacity: 0, duration: 0.3 }, f.start + f.dur - 0.35);
         return;

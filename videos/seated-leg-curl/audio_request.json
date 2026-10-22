@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Seated Leg Curl",
+      "text": "El curl femoral sentado. Trabaja la parte de atrás del muslo con la espalda apoyada."
+    },
+    {
+      "id": "02",
+      "text": "También le dicen femoral sentado. Trabaja los isquiotibiales y un poco los gemelos."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el respaldo para que la rodilla quede alineada con el eje rojo, igual que en el sillón de cuádriceps."
+    },
+    {
+      "id": "04",
+      "text": "Bajá la traba hasta que apriete los muslos justo arriba de la rodilla. Rodillo detrás del tobillo y elegí el peso."
+    },
+    {
+      "id": "05",
+      "text": "Empezá con las piernas casi estiradas, la espalda pegada al respaldo y las manos firmes en las manijas."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Flexioná las rodillas llevando los talones hacia abajo, empujando el rodillo con fuerza."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Seguí hasta que los talones queden bien atrás, casi debajo del asiento. Ahí apretá."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Volvé lento, en tres segundos, hasta casi estirar las piernas, sin que las placas golpeen."
+    },
+    {
+      "id": "09",
+      "text": "Paso cuatro. En toda la serie, la espalda queda pegada al respaldo y los muslos trabados. Solo se mueven las rodillas."
+    },
+    {
+      "id": "10",
+      "text": "Soltá el aire mientras flexionás y tomalo mientras volvés. Ritmo parejo."
+    },
+    {
+      "id": "11",
+      "text": "Error: dejar la traba floja. Los muslos se levantan y la cadera se despega: bajá la almohadilla hasta que apriete."
+    },
+    {
+      "id": "12",
+      "text": "Error: despegar la espalda y tirarte hacia adelante para ayudarte. Si pasa, el peso es mucho: bajalo."
+    },
+    {
+      "id": "13",
+      "text": "Error: movimientos cortos y rápidos. Llevá los talones bien atrás y volvé lento: el recorrido completo es lo que sirve."
+    },
+    {
+      "id": "14",
+      "text": "Tips de profe: muslos bien trabados, talones debajo del asiento, volvé lento hasta casi estirar y la espalda siempre pegada."
+    },
+    {
+      "id": "15",
+      "text": "Claves: rodilla alineada con el eje, rodillo detrás del tobillo, manos en las manijas y sin golpes de la pila."
+    },
+    {
+      "id": "16",
+      "text": "Tres series de diez a doce, con un minuto y medio de pausa. Cuando las doce salen fáciles, subí una placa."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

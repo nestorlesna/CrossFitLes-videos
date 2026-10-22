@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Machine Lateral Raise",
+      "text": "Las elevaciones laterales en máquina. Hombros más anchos, con el movimiento guiado."
+    },
+    {
+      "id": "02",
+      "text": "Te sentás de frente al apoyo de pecho y empujás con los brazos contra las almohadillas. Trabaja el hombro lateral."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el asiento para que tu hombro quede alineado con el eje rojo de la máquina."
+    },
+    {
+      "id": "04",
+      "text": "Elegí un peso liviano con el pasador. El hombro lateral es un músculo chico y se cansa rápido."
+    },
+    {
+      "id": "05",
+      "text": "Pecho contra el apoyo, brazos contra las almohadillas y hombros abajo, lejos de las orejas."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Elevá los brazos al costado, pensando en llevar los codos hacia afuera, no hacia arriba."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Subí hasta que los brazos queden a la altura de los hombros. No más arriba."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá lento, en tres segundos, sin que las placas se apoyen entre repeticiones."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras subís los brazos y tomalo mientras bajás."
+    },
+    {
+      "id": "10",
+      "text": "Error: subir los brazos más arriba de los hombros. Entra el trapecio y se carga el hombro: frená a la altura."
+    },
+    {
+      "id": "11",
+      "text": "Error: encoger los hombros hacia las orejas. Trabaja el trapecio, no el hombro: bajá el peso y hombros abajo."
+    },
+    {
+      "id": "12",
+      "text": "Error: tirarte atrás para impulsar los brazos. El pecho queda apoyado: si no podés, es mucho peso."
+    },
+    {
+      "id": "13",
+      "text": "Tips de profe: hombro alineado con el eje, codos hacia afuera, subí hasta el hombro y bajá en tres segundos."
+    },
+    {
+      "id": "14",
+      "text": "Claves: pecho apoyado, hombros abajo, peso liviano y sin impulso."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de doce a quince, con un minuto de pausa. Subí el peso de a una placa, sin perder la técnica."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

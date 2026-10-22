@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Treadmill",
+      "text": "La cinta de correr. Caminar o correr sin salir del gimnasio, a tu ritmo y con control."
+    },
+    {
+      "id": "02",
+      "text": "También le dicen caminadora. Trabaja piernas y glúteos, y sobre todo el corazón y los pulmones."
+    },
+    {
+      "id": "03",
+      "text": "Antes de arrancar, enganchá el clip de seguridad en la ropa. Si te caés o te alejás, la cinta frena sola."
+    },
+    {
+      "id": "04",
+      "text": "Subite con la cinta detenida y los pies sobre los costados. Arrancá a tres o cuatro kilómetros por hora."
+    },
+    {
+      "id": "05",
+      "text": "Empezá caminando unos minutos para entrar en calor, y subí la velocidad de a poco."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Mirada al frente, tronco erguido y los brazos sueltos, acompañando el paso."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Pisá debajo de la cadera, con pasos cortos y livianos, no estirando la pierna adelante."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Para más intensidad podés subir la inclinación: ahí acortá el paso y bajá un poco la velocidad."
+    },
+    {
+      "id": "09",
+      "text": "Respirá parejo. Si caminás o trotás suave, tenés que poder hablar sin ahogarte."
+    },
+    {
+      "id": "10",
+      "text": "Error: agarrarte de las barandas todo el tiempo. Si necesitás agarrarte, la velocidad es mucha: bajala."
+    },
+    {
+      "id": "11",
+      "text": "Error: correr mirando los pies. Te encorvás y perdés el equilibrio: mirá al frente."
+    },
+    {
+      "id": "12",
+      "text": "Error: estirar la pierna y pisar muy adelante con el talón. Frena cada paso: pisá debajo de la cadera."
+    },
+    {
+      "id": "13",
+      "text": "Tips de profe: clip de seguridad puesto, pisá debajo de la cadera, si te agarrás bajá la velocidad y frená antes de bajarte."
+    },
+    {
+      "id": "14",
+      "text": "Claves: arrancá caminando, mirada al frente, brazos sueltos y con inclinación, pasos más cortos."
+    },
+    {
+      "id": "15",
+      "text": "De diez a veinte minutos. Por ejemplo: dos minutos suave, once a tu ritmo y dos minutos suave para terminar."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, bajá la velocidad, frená la cinta del todo y recién ahí bajate. Nunca con la cinta andando."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

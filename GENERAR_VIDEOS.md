@@ -170,6 +170,7 @@ Si algo de esto falla y no lo podés arreglar, frená y avisale al usuario qué 
 | Compañero | `partner` | `partner-wall-ball-sit-up` |
 | 🏋️ Prensa 45° (máquina) | `legpress` | `leg-press` (ver `GENERAR_VIDEOS_MAQUINAS.md`) |
 | 🏋️ Jalón al pecho (máquina, pila de peso) | `latpulldown` | `lat-pulldown` (ver `GENERAR_VIDEOS_MAQUINAS.md`) |
+| 🏋️ Resto de las máquinas de gimnasio (33) | ver la tabla de Implementos de `plantilla/README.md` | la ficha de esa máquina (`GENERAR_VIDEOS_MAQUINAS.md`) |
 
 4. **Si el implemento NO está en la tabla** (ej. anillas, cuerda de trepar, GHD, paralelas): hay que programarlo en
    `plantilla/runtime.js` (bloque PROPS). Si no te sentís seguro de hacerlo bien, **salteá ese ejercicio**, tomá el

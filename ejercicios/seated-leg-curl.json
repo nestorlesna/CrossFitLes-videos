@@ -1,0 +1,875 @@
+{
+  "slug": "seated-leg-curl",
+  "name": "Seated Leg Curl",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Isquiotibiales",
+    "Gemelos"
+  ],
+  "descripcion": "Sentate con la rodilla alineada al eje, bajá la traba sobre los muslos. Rodillo detrás del tobillo, flexioná hacia abajo y volvé lento.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 700,
+    "y": 1504.8,
+    "scale": 0.8
+  },
+  "shadow": false,
+  "initialPose": "EXT",
+  "props": [
+    {
+      "type": "seatedlegcurl",
+      "pivot": [
+        0,
+        -345
+      ],
+      "seat": [
+        -330,
+        -30,
+        -300
+      ],
+      "back": [
+        -322,
+        -14,
+        430
+      ],
+      "stack": -600,
+      "handle": [
+        -180,
+        -330
+      ],
+      "roll": 212,
+      "thigh": [
+        -70,
+        -401
+      ],
+      "pin": 5
+    }
+  ],
+  "poses": {
+    "EXT": {
+      "t": -90,
+      "b": -14,
+      "hd": -6,
+      "g": 1,
+      "hx": -180,
+      "hy": -330,
+      "ed": 1,
+      "hip": [
+        -240,
+        -345
+      ],
+      "s": -84,
+      "ft": -70
+    },
+    "MID": {
+      "t": -90,
+      "b": -14,
+      "hd": -6,
+      "g": 1,
+      "hx": -180,
+      "hy": -330,
+      "ed": 1,
+      "hip": [
+        -240,
+        -345
+      ],
+      "s": -32,
+      "ft": -20
+    },
+    "CURL": {
+      "t": -90,
+      "b": -14,
+      "hd": -6,
+      "g": 1,
+      "hx": -180,
+      "hy": -330,
+      "ed": 1,
+      "hip": [
+        -240,
+        -345
+      ],
+      "s": 26,
+      "ft": 20
+    },
+    "THIGH_BAD": {
+      "t": -100,
+      "b": -24,
+      "hd": -16,
+      "g": 1,
+      "hx": -180,
+      "hy": -330,
+      "ed": 1,
+      "hip": [
+        -240,
+        -392
+      ],
+      "s": -10,
+      "ft": 0,
+      "bf": 1
+    },
+    "BACK_BAD": {
+      "t": -90,
+      "b": 18,
+      "hd": 30,
+      "g": 1,
+      "hx": -150,
+      "hy": -340,
+      "ed": 1,
+      "hip": [
+        -240,
+        -345
+      ],
+      "cv": 26,
+      "s": 20,
+      "ft": 16
+    },
+    "SHORT_BAD": {
+      "t": -90,
+      "b": -14,
+      "hd": -6,
+      "g": 1,
+      "hx": -180,
+      "hy": -330,
+      "ed": 1,
+      "hip": [
+        -240,
+        -345
+      ],
+      "s": -55,
+      "ft": -40
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "SEATED",
+        "LEG CURL"
+      ],
+      "sub": "Curl femoral sentado",
+      "vo": "Seated Leg Curl: el curl femoral sentado. Trabaja la parte de atrás del muslo con la espalda apoyada.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CURL",
+              1.2
+            ],
+            [
+              "EXT",
+              2.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "También: femoral sentado",
+      "vo": "También le dicen femoral sentado. Trabaja los isquiotibiales y un poco los gemelos.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            820
+          ],
+          "text": "RESPALDO",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            644,
+            1184
+          ],
+          "r": 56,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "TRABA DE MUSLOS",
+          "anchor": "end",
+          "at": 1.6
+        },
+        {
+          "type": "ring",
+          "pos": [
+            875,
+            1288
+          ],
+          "r": 40,
+          "at": 2.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1440
+          ],
+          "text": "RODILLO",
+          "anchor": "end",
+          "at": 2.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            880
+          ],
+          "text": "PILA DE PESO",
+          "anchor": "start",
+          "at": 3.2
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "RODILLA",
+        "Y EJE"
+      ],
+      "sub": "Con el respaldo",
+      "vo": "Ajustá el respaldo para que la rodilla quede alineada con el eje rojo, igual que en el sillón de cuádriceps.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            434,
+            1314
+          ],
+          "r": 26,
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            700,
+            1229
+          ],
+          "r": 34,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1440
+          ],
+          "text": "RODILLA = EJE",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2",
+      "head": [
+        "TRABÁ",
+        "LOS MUSLOS"
+      ],
+      "sub": "La almohadilla bien firme",
+      "vo": "Bajá la traba hasta que apriete los muslos justo arriba de la rodilla. Rodillo detrás del tobillo y elegí el peso.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            644,
+            1184
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "MUSLOS TRABADOS",
+          "anchor": "end",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            875,
+            1288
+          ],
+          "r": 40,
+          "at": 2.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            261,
+            1381
+          ],
+          "r": 34,
+          "at": 3.4
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PIERNAS",
+        "ESTIRADAS"
+      ],
+      "sub": "Espalda pegada, manos firmes",
+      "vo": "Empezá con las piernas casi estiradas, la espalda pegada al respaldo y las manos firmes en las manijas.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            556,
+            1241
+          ],
+          "r": 34,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            880
+          ],
+          "text": "MANOS EN MANIJAS",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 4",
+      "head": [
+        "FLEXIONÁ"
+      ],
+      "sub": "Talones hacia abajo y atrás",
+      "vo": "Paso uno. Flexioná las rodillas llevando los talones hacia abajo, empujando el rodillo con fuerza.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            908,
+            1305
+          ],
+          "to": [
+            820,
+            1457
+          ],
+          "at": 0.8,
+          "dur": 1.0,
+          "bend": [
+            60,
+            20
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            900
+          ],
+          "text": "TALONES ABAJO",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 4",
+      "head": [
+        "BIEN",
+        "ATRÁS"
+      ],
+      "sub": "Debajo del asiento",
+      "vo": "Paso dos. Seguí hasta que los talones queden bien atrás, casi debajo del asiento. Ahí apretá.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "to": "CURL",
+          "at": 0.4,
+          "dur": 1.0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            619,
+            1394
+          ],
+          "r": 50,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            880
+          ],
+          "text": "TALONES ATRÁS",
+          "anchor": "start",
+          "at": 1.3
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 4",
+      "head": [
+        "VOLVÉ",
+        "LENTO"
+      ],
+      "sub": "Hasta casi estirar",
+      "vo": "Paso tres. Volvé lento, en tres segundos, hasta casi estirar las piernas, sin que las placas golpeen.",
+      "moves": [
+        {
+          "cut": "CURL",
+          "at": 0
+        },
+        {
+          "to": "EXT",
+          "at": 0.6,
+          "dur": 3.0
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            652,
+            1473
+          ],
+          "to": [
+            900,
+            1297
+          ],
+          "at": 0.8,
+          "dur": 2.6,
+          "bend": [
+            80,
+            40
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            900
+          ],
+          "text": "3 SEGUNDOS",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ESPALDA",
+        "PEGADA"
+      ],
+      "sub": "Todo el tiempo",
+      "vo": "Paso cuatro. En toda la serie, la espalda queda pegada al respaldo y los muslos trabados. Solo se mueven las rodillas.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CURL",
+              1.2
+            ],
+            [
+              "EXT",
+              2.0
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ],
+      "numeral": "4",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            820
+          ],
+          "text": "ESPALDA PEGADA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al flexionar",
+      "vo": "Soltá el aire mientras flexionás y tomalo mientras volvés. Ritmo parejo.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CURL",
+              1.2
+            ],
+            [
+              "EXT",
+              2.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "SIN",
+        "TRABAR"
+      ],
+      "sub": "La cadera se levanta",
+      "vo": "Error: dejar la traba floja. Los muslos se levantan y la cadera se despega: bajá la almohadilla hasta que apriete.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "THIGH_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            644,
+            1113
+          ],
+          "r": 60,
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "ESPALDA",
+        "DESPEGADA"
+      ],
+      "sub": "No te tires adelante",
+      "vo": "Error: despegar la espalda y tirarte hacia adelante para ayudarte. Si pasa, el peso es mucho: bajalo.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "BACK_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            577,
+            1016
+          ],
+          "r": 70,
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "CORTO Y",
+        "RÁPIDO"
+      ],
+      "sub": "Recorrido completo",
+      "vo": "Error: movimientos cortos y rápidos. Llevá los talones bien atrás y volvé lento: el recorrido completo es lo que sirve.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "SHORT_BAD",
+              0.35
+            ],
+            [
+              "EXT",
+              0.35
+            ]
+          ],
+          "at": 0.5,
+          "until": 4.2
+        },
+        {
+          "to": "SHORT_BAD",
+          "at": 4.3,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            900
+          ],
+          "text": "MEDIO RECORRIDO",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Muslos bien trabados",
+        "Talones debajo del asiento",
+        "Volvé lento, casi estirado",
+        "Espalda pegada"
+      ],
+      "vo": "Tips de profe: muslos bien trabados, talones debajo del asiento, volvé lento hasta casi estirar y la espalda siempre pegada.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CURL",
+              1.2
+            ],
+            [
+              "EXT",
+              2.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Rodilla alineada al eje",
+        "Rodillo detrás del tobillo",
+        "Manos en las manijas",
+        "Sin golpes de la pila"
+      ],
+      "vo": "Claves: rodilla alineada con el eje, rodillo detrás del tobillo, manos en las manijas y sin golpes de la pila.",
+      "moves": [
+        {
+          "cut": "CURL",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12"
+      ],
+      "sub": "Un minuto y medio de pausa",
+      "vo": "Tres series de diez a doce, con un minuto y medio de pausa. Cuando las doce salen fáciles, subí una placa.",
+      "chips": [
+        {
+          "label": "1 · FLEXIONÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · TALONES ATRÁS",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ LENTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CURL",
+              1.2
+            ],
+            [
+              "EXT",
+              2.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "CURL",
+    "grip": 1,
+    "zoom": 1.1,
+    "dy": 110
+  },
+  "youtube": {
+    "titulo": "Seated Leg Curl 🔥 Cómo usar el femoral sentado bien | Gimnasio",
+    "tags": [
+      "seated leg curl",
+      "curl femoral sentado",
+      "femoral sentado",
+      "cómo usar el femoral sentado",
+      "isquiotibiales",
+      "femorales",
+      "piernas",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de piernas"
+    ],
+    "descripcion": "🔥 SEATED LEG CURL (curl femoral sentado) — isquiotibiales fuertes y rodillas protegidas\n\n¿No sentís los femorales en esta máquina? Seguro falta trabar bien los muslos o hacés el recorrido corto. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el respaldo hasta que la rodilla quede alineada con el eje rojo.\n2️⃣ Bajá la traba hasta que apriete los muslos justo arriba de la rodilla.\n3️⃣ Rodillo detrás del tobillo y peso con el pasador.\n\n📋 PASO A PASO\n1️⃣ Piernas casi estiradas, espalda pegada y manos en las manijas.\n2️⃣ Flexioná llevando los talones hacia abajo.\n3️⃣ Seguí hasta que los talones queden debajo del asiento y apretá.\n4️⃣ Volvé lento, en 3 segundos, hasta casi estirar.\n5️⃣ Toda la serie: espalda pegada y muslos trabados.\n\n❌ ERRORES COMUNES\n• No trabar los muslos → bajá la almohadilla hasta que apriete.\n• Despegar la espalda → menos peso y espalda pegada al respaldo.\n• Movimiento corto y rápido → recorrido completo y vuelta lenta.\n\n💡 TIPS DEL PROFE\n• Trabá bien los muslos con la almohadilla.\n• Espalda pegada al respaldo, agarrado de las manijas.\n• Llevá los talones bien atrás, debajo del asiento.\n• Volvé lento hasta casi estirar.\n• Inclinarte apenas adelante estira más el femoral.\n\n🎯 QUÉ TRABAJA\nIsquiotibiales · Gemelos\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto y medio de pausa. Cuando las 12 salen fáciles, subí una placa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #SeatedLegCurl #Piernas #Musculacion #Entrenamiento"
+  }
+}

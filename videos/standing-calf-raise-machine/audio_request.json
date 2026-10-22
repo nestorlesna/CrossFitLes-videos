@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Standing Calf Raise Machine",
+      "text": "Los gemelos de pie en máquina. Pantorrillas fuertes con un movimiento simple."
+    },
+    {
+      "id": "02",
+      "text": "Tiene hombreras que se apoyan sobre los hombros y un escalón para la punta del pie. Trabaja gemelos y sóleo."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá la altura de las hombreras para entrar con las rodillas casi rectas."
+    },
+    {
+      "id": "04",
+      "text": "Apoyá solo la punta del pie en el borde del escalón, con los pies paralelos. El talón queda en el aire."
+    },
+    {
+      "id": "05",
+      "text": "Parate bajo las hombreras con las rodillas casi rectas, pero sin trabarlas. Destrabá la máquina."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Bajá el talón despacio por debajo del escalón, hasta sentir que estira la pantorrilla."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Abajo, pausa de uno o dos segundos. Así el gemelo no rebota como un resorte."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Subí lo más alto posible, sobre el dedo gordo, y apretá arriba un segundo."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras subís y tomalo mientras bajás. Ritmo lento."
+    },
+    {
+      "id": "10",
+      "text": "Error: rebotar abajo para subir con impulso. Pausa abajo y subí lento: el trabajo es del músculo."
+    },
+    {
+      "id": "11",
+      "text": "Error: flexionar las rodillas para ayudarte a subir. Rodillas casi rectas y quietas: solo se mueve el tobillo."
+    },
+    {
+      "id": "12",
+      "text": "Error: apoyar el arco del pie en vez de la punta. Así el talón no puede bajar: corré el pie hasta la punta."
+    },
+    {
+      "id": "13",
+      "text": "Tips de profe: rodillas casi rectas, pausa abajo estirando, subí sobre el dedo gordo y ritmo lento, sin rebote."
+    },
+    {
+      "id": "14",
+      "text": "Claves: la punta en el borde del escalón, pies paralelos, rango completo y apretá arriba."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de doce a quince, con un minuto de pausa. Cuando las quince salen fáciles, subí el peso."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

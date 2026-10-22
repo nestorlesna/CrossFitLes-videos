@@ -167,7 +167,7 @@ export function buildIndex(projectDir, { thumb = false } = {}) {
 
   const runtimeFrames = frames.map((f) => {
     const rf = { id: f.id, start: f.start, dur: f.dur, kind: f.kind || "step", numeral: f.numeral || null, stance: !!f.stance, shrink: f.shrink, scroll: thumb ? 0 : f.scroll ?? null };
-    if (f.topview) rf.topview = { angle: f.topview.angle ?? -62, at: f.topview.at === null ? null : f.topview.at ?? 1.0, dur: f.topview.dur ?? 1.6, back: f.topview.back ?? null, mode: f.topview.mode || null, from: f.topview.from ?? 1, plates: !!f.topview.plates };
+    if (f.topview) rf.topview = { angle: f.topview.angle ?? -62, at: f.topview.at === null ? null : f.topview.at ?? 1.0, dur: f.topview.dur ?? 1.6, back: f.topview.back ?? null, mode: f.topview.mode || null, from: f.topview.from ?? 1, plates: !!f.topview.plates, pads: f.topview.pads || null, cable: !!f.topview.cable };
     if (f.keys) {
       const v = voice[f.id];
       rf.keyTimes = f.keys.map((k, i) => {
@@ -242,6 +242,38 @@ export function buildIndex(projectDir, { thumb = false } = {}) {
             <line id="csar-${f.id}" stroke="#E8B383" stroke-width="12" stroke-linecap="round"/>
             <circle id="cshd-${f.id}" r="20" fill="#6B3B1F"/>
             <text x="126" y="294" text-anchor="middle" font-family="Inter" font-weight="800" font-size="20" fill="#1A1A1A">${esc(f.topview.label || "PIERNA ESTIRADA")}</text>
+          </svg>
+        </div>
+      </div>`);
+    else if (f.topview?.mode === "fly")
+      // Aperturas vistas de arriba (runtime: flyCards): los brazos van del costado (abiertos) al frente (juntos) según la
+      // clave al de la pose (1 = brazos al frente, ~0,3 = abiertos). cable: true dibuja los cables a las poleas de los costados.
+      extras.push(`<div id="fx-${f.id}" class="clip" data-start="${f.start}" data-duration="${f.dur}" data-track-index="4">
+        <div id="topcard-${f.id}" class="feetcard topcard"><div class="lbl">VISTA DE ARRIBA</div>
+          <svg viewBox="0 0 252 300">
+            ${f.topview.cable ? `<rect x="6" y="196" width="24" height="24" rx="5" fill="#2E323B"/><rect x="222" y="196" width="24" height="24" rx="5" fill="#2E323B"/>
+            ${["L", "R"].map((sd) => `<line id="flc${sd}-${f.id}" stroke="#1A1A1A" stroke-width="4"/>`).join("")}` : ""}
+            <rect x="80" y="134" width="92" height="56" rx="26" fill="#2FB3A6"/>
+            ${["L", "R"].map((sd) => `<polyline id="fla${sd}-${f.id}" fill="none" stroke="#E8B383" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle id="flh${sd}-${f.id}" r="9" fill="#E8B383"/>`).join("")}
+            <circle cx="126" cy="160" r="24" fill="#6B3B1F"/>
+            <path d="M116 138 L126 124 L136 138 Z" fill="#E8B383"/>
+            <text x="126" y="294" text-anchor="middle" font-family="Inter" font-weight="800" font-size="20" fill="#1A1A1A">${esc(f.topview.label || "CODOS FIJOS")}</text>
+          </svg>
+        </div>
+      </div>`);
+    else if (f.topview?.mode === "abd")
+      // Abductores / aductores vistos de arriba (runtime: abdCards): sentado, los muslos se abren según la clave cs de la pose (0 juntas, 1 abiertas).
+      extras.push(`<div id="fx-${f.id}" class="clip" data-start="${f.start}" data-duration="${f.dur}" data-track-index="4">
+        <div id="topcard-${f.id}" class="feetcard topcard"><div class="lbl">VISTA DE ARRIBA</div>
+          <svg viewBox="0 0 252 300">
+            <rect x="70" y="150" width="112" height="70" rx="18" fill="#1A1A1A"/>
+            ${["L", "R"].map((sd) => `<line id="abt${sd}-${f.id}" stroke="#3F3F9A" stroke-width="26" stroke-linecap="round"/>
+            <circle id="abf${sd}-${f.id}" r="13" fill="#3B3FA3"/>
+            <rect id="abp${sd}-${f.id}" x="-9" y="-26" width="18" height="52" rx="8" fill="#1A1A1A"/>`).join("")}
+            <rect x="88" y="196" width="76" height="40" rx="18" fill="#2FB3A6"/>
+            <circle cx="126" cy="230" r="22" fill="#6B3B1F"/>
+            <text x="126" y="294" text-anchor="middle" font-family="Inter" font-weight="800" font-size="20" fill="#1A1A1A">${esc(f.topview.label || "ABRÍ LAS PIERNAS")}</text>
           </svg>
         </div>
       </div>`);

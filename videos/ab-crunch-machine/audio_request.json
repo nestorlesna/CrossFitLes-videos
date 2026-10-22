@@ -1,0 +1,69 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Ab Crunch Machine",
+      "text": "El crunch abdominal en máquina. Abdominales con carga, sin tirar del cuello."
+    },
+    {
+      "id": "02",
+      "text": "Te sentás con los pies trabados y las manijas sobre los hombros. Trabaja el recto abdominal y suma los oblicuos."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el asiento y trabá los pies bajo los rodillos. Las manijas quedan a la altura de los hombros."
+    },
+    {
+      "id": "04",
+      "text": "Elegí un peso moderado con el pasador. Si tirás con los brazos, es mucho."
+    },
+    {
+      "id": "05",
+      "text": "Sentate derecho y agarrá las manijas. Los brazos solo sostienen: no tiran."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Enrollá el tronco hacia adelante, pensando en acercar las costillas a la cadera."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Abajo, soltá todo el aire y apretá el abdomen un segundo. Cuello largo, mirada al ombligo."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Volvé lento hasta sentarte derecho, sin que las placas toquen la pila."
+    },
+    {
+      "id": "09",
+      "text": "Soltá todo el aire mientras cerrás y tomalo mientras volvés."
+    },
+    {
+      "id": "10",
+      "text": "Error: tirar con los brazos y usar mucho peso. Bajá la carga: el que enrolla es el abdomen."
+    },
+    {
+      "id": "11",
+      "text": "Error: tirar del cuello hacia abajo. El cuello sufre y el abdomen no trabaja: cuello largo, mirada al ombligo."
+    },
+    {
+      "id": "12",
+      "text": "Tips de profe: costillas a la cadera, los brazos no tiran, exhalá todo al cerrar y volvé sin tocar la pila."
+    },
+    {
+      "id": "13",
+      "text": "Claves: pies trabados, cuello largo, peso moderado y movimiento lento."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de doce a quince, con un minuto de pausa. Cuando las quince salen fáciles, subí una placa."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

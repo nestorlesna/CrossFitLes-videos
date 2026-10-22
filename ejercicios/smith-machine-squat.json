@@ -1,0 +1,796 @@
+{
+  "slug": "smith-machine-squat",
+  "name": "Smith Machine Squat",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Cuádriceps",
+    "Glúteos"
+  ],
+  "descripcion": "Ajustá los topes de seguridad un poco por debajo de tu punto más bajo. Ubicate bajo la barra, apoyada en la parte alta de la espalda, pies apenas adelantados. Destrabá girando la barra, bajá controlado y subí. Trabá girando al terminar.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 560,
+    "y": 1508.9,
+    "scale": 0.68
+  },
+  "shadow": false,
+  "initialPose": "TOP",
+  "props": [
+    {
+      "type": "smith",
+      "x": 0,
+      "top": -1100,
+      "stops": -440,
+      "track": "back",
+      "torso": [
+        -34,
+        18
+      ],
+      "r": 70
+    }
+  ],
+  "poses": {
+    "TOP": {
+      "hip": [
+        6.4,
+        -462
+      ],
+      "ankle": [
+        70,
+        0
+      ],
+      "b": 6,
+      "hd": 2.4,
+      "ft": 0,
+      "g": 0,
+      "ua": -18,
+      "fa": 178
+    },
+    "MID": {
+      "hip": [
+        -48.6,
+        -360
+      ],
+      "ankle": [
+        70,
+        0
+      ],
+      "b": 18,
+      "hd": 7.2,
+      "ft": 0,
+      "g": 0,
+      "ua": -30,
+      "fa": 178
+    },
+    "BOTTOM": {
+      "hip": [
+        -101.6,
+        -262
+      ],
+      "ankle": [
+        70,
+        0
+      ],
+      "b": 30,
+      "hd": 12.0,
+      "ft": 0,
+      "g": 0,
+      "ua": -42,
+      "fa": 178
+    },
+    "FWD_BAD": {
+      "hip": [
+        24.8,
+        -300
+      ],
+      "ankle": [
+        250,
+        0
+      ],
+      "b": 2,
+      "hd": 0.8,
+      "ft": 0,
+      "g": 0,
+      "ua": -14,
+      "fa": 178
+    },
+    "BACK_BAD": {
+      "hip": [
+        -157.5,
+        -280
+      ],
+      "ankle": [
+        -40,
+        0
+      ],
+      "b": 44,
+      "hd": 17.6,
+      "ft": 0,
+      "g": 0,
+      "ua": -56,
+      "fa": 178
+    },
+    "HEELS_BAD": {
+      "hip": [
+        -101.6,
+        -262
+      ],
+      "ankle": [
+        80,
+        -40
+      ],
+      "b": 30,
+      "hd": 12.0,
+      "ft": 28,
+      "g": 0,
+      "ua": -42,
+      "fa": 178
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "SMITH",
+        "SQUAT"
+      ],
+      "sub": "Sentadilla en Smith (multipower)",
+      "vo": "Smith Machine Squat: la sentadilla en la máquina Smith. La barra va guiada, ideal para aprender a cargar con seguridad.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              2.0
+            ],
+            [
+              "TOP",
+              1.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "SMITH"
+      ],
+      "sub": "También: multipower",
+      "vo": "También le dicen multipower. La barra sube y baja guiada por dos rieles, con ganchos y topes de seguridad.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            860
+          ],
+          "text": "RIELES",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            560,
+            1018
+          ],
+          "r": 80,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "BARRA GUIADA",
+          "anchor": "end",
+          "at": 1.6
+        },
+        {
+          "type": "ring",
+          "pos": [
+            648,
+            1217
+          ],
+          "r": 40,
+          "at": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1250
+          ],
+          "text": "TOPES",
+          "anchor": "end",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "LOS",
+        "TOPES"
+      ],
+      "sub": "Siempre puestos",
+      "vo": "Poné los topes de seguridad un poco por debajo de tu punto más bajo. Si no podés subir, la barra queda ahí.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            648,
+            1217
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1250
+          ],
+          "text": "SIEMPRE PUESTOS",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "LOS",
+        "PIES"
+      ],
+      "sub": "Apenas adelante de la barra",
+      "vo": "Probá sin peso dónde van tus pies. Como la barra baja recta, los pies van apenas adelante.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            608,
+            1509
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "PIES APENAS ADELANTE",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BARRA EN",
+        "LA ESPALDA"
+      ],
+      "sub": "Parte alta, no el cuello",
+      "vo": "Ubicate bajo la barra, apoyada en la parte alta de la espalda, y agarrala un poco más ancho que los hombros.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            560,
+            1018
+          ],
+          "r": 80,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            860
+          ],
+          "text": "ESPALDA ALTA",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 4",
+      "head": [
+        "DESTRABÁ"
+      ],
+      "sub": "Girando la barra",
+      "vo": "Paso uno. Empujá apenas hacia arriba y girá la barra para sacarla de los ganchos.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            560,
+            1018
+          ],
+          "r": 80,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            860
+          ],
+          "text": "GIRÁ LA BARRA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 4",
+      "head": [
+        "BAJÁ",
+        "CONTROLADO"
+      ],
+      "sub": "Cadera atrás y abajo",
+      "vo": "Paso dos. Bajá controlado, con el pecho alto, llevando la cadera atrás y abajo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.6,
+          "dur": 2.4
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            260,
+            1040
+          ],
+          "to": [
+            260,
+            1180
+          ],
+          "at": 0.8,
+          "dur": 2.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "PECHO ALTO",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 4",
+      "head": [
+        "MUSLOS",
+        "PARALELOS"
+      ],
+      "sub": "Talones apoyados",
+      "vo": "Paso tres. Bajá hasta que los muslos queden paralelos al piso, con los talones bien apoyados.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            652,
+            1359
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "MUSLOS PARALELOS",
+          "anchor": "end",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            608,
+            1509
+          ],
+          "r": 54,
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 4 / 4",
+      "head": [
+        "SUBÍ",
+        "Y TRABÁ"
+      ],
+      "sub": "Girá la barra al terminar",
+      "vo": "Paso cuatro. Subí empujando el piso. Al terminar la serie, girá la barra para trabarla en los ganchos.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ],
+      "numeral": "4",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            860
+          ],
+          "text": "TRABÁ AL TERMINAR",
+          "anchor": "start",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Aire arriba, soltalo al subir",
+      "vo": "Tomá aire arriba, bajá con el abdomen firme y soltá el aire mientras subís.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              2.2
+            ],
+            [
+              "TOP",
+              1.4
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "PIES MUY",
+        "ADELANTE"
+      ],
+      "sub": "Te quedás sentado atrás",
+      "vo": "Error: los pies muy adelante. Quedás colgado de la barra y la lumbar sufre: acercá los pies.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "FWD_BAD",
+          "at": 0.5,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            730,
+            1509
+          ],
+          "r": 54,
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "PIES MUY",
+        "ATRÁS"
+      ],
+      "sub": "Las rodillas se van adelante",
+      "vo": "Error: los pies muy atrás, debajo de la barra. Las rodillas se van muy adelante y la espalda se inclina.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "BACK_BAD",
+          "at": 0.5,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            607,
+            1371
+          ],
+          "r": 50,
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "TALONES",
+        "ARRIBA"
+      ],
+      "sub": "Todo el pie apoyado",
+      "vo": "Error: despegar los talones abajo. Toda la carga va a la rodilla: talones firmes en el piso.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.4,
+          "dur": 1.2
+        },
+        {
+          "to": "HEELS_BAD",
+          "at": 1.7,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 2.2
+        },
+        {
+          "type": "ring",
+          "pos": [
+            614,
+            1488
+          ],
+          "r": 54,
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Probá sin peso los pies",
+        "Pies apenas adelante",
+        "Topes siempre puestos",
+        "Trabá antes de soltar"
+      ],
+      "vo": "Tips de profe: probá sin peso dónde van tus pies, pies apenas adelante, topes siempre puestos y trabá antes de soltar.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              2.0
+            ],
+            [
+              "TOP",
+              1.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Rodillas en línea con pies",
+        "Talones firmes",
+        "Pecho alto",
+        "Bajada controlada"
+      ],
+      "vo": "Claves: rodillas en la línea de las puntas, talones firmes, pecho alto y bajada controlada.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10"
+      ],
+      "sub": "Dos minutos de pausa",
+      "vo": "Tres series de ocho a diez, con dos minutos de pausa. Subí el peso de a poco, siempre con los topes puestos.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PARALELO",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SUBÍ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              2.0
+            ],
+            [
+              "TOP",
+              1.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "BOTTOM",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Smith Machine Squat 🔥 Sentadilla en Smith sin lastimarte | Gimnasio",
+    "tags": [
+      "smith machine squat",
+      "sentadilla en smith",
+      "multipower",
+      "máquina smith",
+      "cómo hacer sentadilla en smith",
+      "cuádriceps",
+      "glúteos",
+      "piernas",
+      "máquinas de gimnasio",
+      "gimnasio"
+    ],
+    "descripcion": "🔥 SMITH MACHINE SQUAT (sentadilla en Smith o multipower) — sentadilla guiada para cargar con seguridad\n\n¿La Smith te parece fácil? Tiene un truco: la barra baja recta, y si los pies no están bien, la espalda o las rodillas lo pagan. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Poné los topes de seguridad un poco por debajo de tu punto más bajo.\n2️⃣ Probá sin peso dónde van tus pies: apenas adelante de la barra.\n\n📋 PASO A PASO\n1️⃣ Barra en la parte alta de la espalda, agarre algo más ancho que los hombros.\n2️⃣ Destrabá girando la barra.\n3️⃣ Bajá controlado, pecho alto, cadera atrás y abajo.\n4️⃣ Bajá hasta muslos paralelos con los talones apoyados.\n5️⃣ Subí empujando el piso y al terminar trabá la barra girándola.\n\n❌ ERRORES COMUNES\n• No poner los topes → siempre puestos.\n• Pies muy adelante o muy atrás → apenas adelante de la barra.\n• Rodillas hacia adentro → en la línea de las puntas.\n• Olvidar trabar la barra → girala antes de soltar.\n• Despegar los talones → talones firmes.\n\n💡 TIPS DEL PROFE\n• Probá primero sin peso dónde quedan tus pies.\n• La barra baja en línea recta: los pies van apenas adelante.\n• Topes siempre puestos.\n• Rodillas en la línea de las puntas.\n• Trabá la barra antes de soltar.\n\n🎯 QUÉ TRABAJA\nCuádriceps · Glúteos · Isquiotibiales · Core\n\n⏱️ CUÁNTO\n3 series de 8–10 repeticiones, con 2 minutos de pausa. Nivel: intermedio.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\nSi es tu primera vez en esta máquina, pedile al profe del gimnasio que te ajuste la máquina y te mire las primeras series.\n\nSi nunca usaste la Smith, pedile al profe que te ayude a ubicar los topes y la posición de los pies.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #SmithMachine #Piernas #Musculacion #Entrenamiento"
+  },
+  "pronuncia": {
+    "Smith": "Esmit"
+  }
+}

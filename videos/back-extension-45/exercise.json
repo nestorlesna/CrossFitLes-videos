@@ -1,0 +1,716 @@
+{
+  "slug": "back-extension-45",
+  "name": "45 Degree Back Extension",
+  "maquina": true,
+  "category": "GIMNASIO · ESPALDA BAJA",
+  "tags": [
+    "Lumbares",
+    "Glúteos"
+  ],
+  "descripcion": "Ajustá para que la almohadilla quede bajo la cadera. Bajá el tronco con la espalda recta y subí hasta quedar alineado.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1506.8,
+    "scale": 0.74
+  },
+  "shadow": false,
+  "initialPose": "TOP",
+  "props": [
+    {
+      "type": "backext45",
+      "foot": [
+        0,
+        -60
+      ],
+      "pad": [
+        359,
+        -332
+      ],
+      "roll": [
+        69,
+        -203
+      ],
+      "ang": 45
+    }
+  ],
+  "poses": {
+    "TOP": {
+      "hip": [
+        329.5,
+        -389.5
+      ],
+      "ankle": [
+        0,
+        -60
+      ],
+      "ft": 45,
+      "g": 0,
+      "b": 45,
+      "hd": 50,
+      "ua": -19,
+      "fa": 140
+    },
+    "MID": {
+      "hip": [
+        329.5,
+        -389.5
+      ],
+      "ankle": [
+        0,
+        -60
+      ],
+      "ft": 45,
+      "g": 0,
+      "b": 100,
+      "hd": 110,
+      "ua": -74,
+      "fa": 140
+    },
+    "BOTTOM": {
+      "hip": [
+        329.5,
+        -389.5
+      ],
+      "ankle": [
+        0,
+        -60
+      ],
+      "ft": 45,
+      "g": 0,
+      "b": 140,
+      "hd": 155,
+      "ua": -114,
+      "fa": 140
+    },
+    "HYPER_BAD": {
+      "hip": [
+        329.5,
+        -389.5
+      ],
+      "ankle": [
+        0,
+        -60
+      ],
+      "ft": 45,
+      "g": 0,
+      "b": 12,
+      "hd": 0,
+      "cv": -20,
+      "ua": 14,
+      "fa": 140
+    },
+    "ROUND_BAD": {
+      "hip": [
+        329.5,
+        -389.5
+      ],
+      "ankle": [
+        0,
+        -60
+      ],
+      "ft": 45,
+      "g": 0,
+      "b": 140,
+      "hd": 170,
+      "cv": 44,
+      "ua": -114,
+      "fa": 140
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · ESPALDA BAJA",
+      "head": [
+        "45° BACK",
+        "EXTENSION"
+      ],
+      "sub": "Banco romano / hiperextensiones",
+      "vo": "45 Degree Back Extension: las hiperextensiones en banco a cuarenta y cinco grados. Espalda baja y glúteos fuertes.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              2.0
+            ],
+            [
+              "TOP",
+              1.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "EL",
+        "BANCO"
+      ],
+      "sub": "También: banco lumbar",
+      "vo": "También le dicen banco romano o lumbar. Trabaja los músculos de la espalda baja y los glúteos.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            736,
+            1261
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            800
+          ],
+          "text": "ALMOHADILLA",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            521,
+            1357
+          ],
+          "r": 40,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            800
+          ],
+          "text": "RODILLO",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "LA",
+        "ALMOHADILLA"
+      ],
+      "sub": "Debajo del hueso de la cadera",
+      "vo": "Ajustá la altura para que la almohadilla quede justo debajo del hueso de la cadera. Así podés doblarte bien.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            736,
+            1261
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            800
+          ],
+          "text": "BAJO LA CADERA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "LOS",
+        "PIES"
+      ],
+      "sub": "Talones contra el rodillo",
+      "vo": "Apoyá los pies en la plataforma con los talones o las pantorrillas firmes contra el rodillo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            521,
+            1357
+          ],
+          "r": 40,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            800
+          ],
+          "text": "PIES FIRMES",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "CUERPO",
+        "ALINEADO"
+      ],
+      "sub": "Brazos cruzados al pecho",
+      "vo": "Empezá con el cuerpo en línea, de los talones a la cabeza, y los brazos cruzados sobre el pecho.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            800
+          ],
+          "text": "CUERPO EN LÍNEA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ",
+        "RECTO"
+      ],
+      "sub": "Bisagra de cadera",
+      "vo": "Paso uno. Bajá el tronco con la espalda recta, doblándote desde la cadera, como una bisagra.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.6,
+          "dur": 2.4
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            800
+          ],
+          "text": "ESPALDA RECTA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "SUBÍ HASTA",
+        "LA LÍNEA"
+      ],
+      "sub": "Apretando los glúteos",
+      "vo": "Paso dos. Subí apretando los glúteos hasta que el cuerpo quede alineado otra vez.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.6,
+          "dur": 1.6
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            714,
+            1219
+          ],
+          "r": 60,
+          "at": 2.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            800
+          ],
+          "text": "APRETÁ GLÚTEOS",
+          "anchor": "end",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "NO",
+        "MÁS ARRIBA"
+      ],
+      "sub": "Ahí frená",
+      "vo": "Paso tres. Frená cuando el cuerpo queda en línea. Más arriba no suma nada y carga la lumbar.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            800
+          ],
+          "text": "FRENÁ EN LA LÍNEA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Aire al bajar, soltalo al subir",
+      "vo": "Tomá aire mientras bajás y soltalo mientras subís.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              2.2
+            ],
+            [
+              "TOP",
+              1.6
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "SUBIR",
+        "DE MÁS"
+      ],
+      "sub": "No hiperextiendas",
+      "vo": "Error: subir más allá de la línea del cuerpo y arquear la espalda. Frená cuando quedás alineado.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "HYPER_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            714,
+            1219
+          ],
+          "r": 60,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "ESPALDA",
+        "REDONDA"
+      ],
+      "sub": "Bisagra, no enrollarse",
+      "vo": "Error: redondear la espalda al bajar. El movimiento sale de la cadera: espalda recta todo el tiempo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "ROUND_BAD",
+          "at": 0.5,
+          "dur": 1.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            847,
+            1377
+          ],
+          "r": 60,
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "RÁPIDO",
+        "Y CON IMPULSO"
+      ],
+      "sub": "Lento y controlado",
+      "vo": "Error: hacerlo rápido, con impulso. Bajá en dos segundos y subí controlado.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              0.4
+            ],
+            [
+              "TOP",
+              0.4
+            ]
+          ],
+          "at": 0.5,
+          "until": 4.0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 4.1,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            800
+          ],
+          "text": "CON IMPULSO",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Almohadilla bajo la cadera",
+        "Espalda recta, bisagra",
+        "Subí hasta la línea",
+        "Apretá glúteos arriba"
+      ],
+      "vo": "Tips de profe: almohadilla bajo la cadera, espalda recta como bisagra, subí hasta la línea y apretá los glúteos arriba.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              2.0
+            ],
+            [
+              "TOP",
+              1.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Pies firmes",
+        "Brazos cruzados al pecho",
+        "Sin impulso",
+        "Peso solo con técnica"
+      ],
+      "vo": "Claves: pies firmes, brazos cruzados al pecho, sin impulso y peso extra solo cuando domines la técnica.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 15"
+      ],
+      "sub": "Un minuto de pausa",
+      "vo": "Tres series de doce a quince, con un minuto de pausa. Primero dominá la técnica, después sumá un disco al pecho.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ RECTO",
+          "at": 0.6
+        },
+        {
+          "label": "2 · SUBÍ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · APRETÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              2.0
+            ],
+            [
+              "TOP",
+              1.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "nombreEnVoz": "Forty five degree back extension",
+  "miniatura": {
+    "pose": "TOP",
+    "grip": 0,
+    "zoom": 1.0,
+    "dy": 80
+  },
+  "youtube": {
+    "titulo": "45 Degree Back Extension 🔥 Hiperextensiones en banco romano | Gimnasio",
+    "tags": [
+      "back extension",
+      "hiperextensiones",
+      "banco romano",
+      "banco lumbar",
+      "45 degree back extension",
+      "lumbares",
+      "espalda baja",
+      "glúteos",
+      "máquinas de gimnasio",
+      "gimnasio"
+    ],
+    "descripcion": "🔥 45 DEGREE BACK EXTENSION (banco romano o hiperextensiones a 45°) — espalda baja y glúteos fuertes\n\n¿Te duele la lumbar en las hiperextensiones? Casi siempre es por subir de más. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Almohadilla justo debajo del hueso de la cadera.\n2️⃣ Pies en la plataforma y talones firmes contra el rodillo.\n\n📋 PASO A PASO\n1️⃣ Cuerpo en línea y brazos cruzados al pecho.\n2️⃣ Bajá con la espalda recta, doblándote desde la cadera.\n3️⃣ Subí apretando los glúteos hasta quedar alineado.\n4️⃣ Frená en la línea del cuerpo, no más arriba.\n\n❌ ERRORES COMUNES\n• Subir más allá de la línea del cuerpo (hiperextender) → frená alineado.\n• Hacerlo rápido → bajada y subida controladas.\n• Redondear la espalda → bisagra de cadera con espalda recta.\n\n💡 TIPS DEL PROFE\n• Almohadilla justo debajo del hueso de la cadera.\n• Bajá con la espalda recta, bisagra de cadera.\n• Subí hasta alinear el cuerpo, no más.\n• Apretá glúteos arriba.\n• Brazos cruzados al pecho; con peso, solo cuando domines la técnica.\n\n🎯 QUÉ TRABAJA\nErectores espinales · Glúteos · Isquiotibiales\n\n⏱️ CUÁNTO\n3 series de 12–15 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #BackExtension #EspaldaBaja #Musculacion #Entrenamiento"
+  }
+}

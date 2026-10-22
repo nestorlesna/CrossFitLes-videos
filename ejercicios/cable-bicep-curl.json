@@ -1,0 +1,680 @@
+{
+  "slug": "cable-bicep-curl",
+  "name": "Cable Bicep Curl",
+  "maquina": true,
+  "category": "GIMNASIO · BRAZOS",
+  "tags": [
+    "Bíceps"
+  ],
+  "descripcion": "Polea baja con barra o soga. Parate cerca, pies al ancho de cadera, codos pegados al cuerpo. Flexioná llevando las manos a los hombros y bajá lento hasta casi estirar.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 420,
+    "y": 1509.6,
+    "scale": 0.66
+  },
+  "shadow": false,
+  "initialPose": "DOWN",
+  "props": [
+    {
+      "type": "cable",
+      "x": 400,
+      "top": -1100,
+      "pulley": [
+        230,
+        -70
+      ],
+      "track": 268,
+      "att": "bar",
+      "pin": 6
+    }
+  ],
+  "poses": {
+    "DOWN": {
+      "b": 2,
+      "hd": 2,
+      "g": 0,
+      "ft": 0,
+      "ua": 3,
+      "fa": 8
+    },
+    "MID": {
+      "b": 2,
+      "hd": 2,
+      "g": 0,
+      "ft": 0,
+      "ua": 4,
+      "fa": 80
+    },
+    "UP": {
+      "b": 2,
+      "hd": 2,
+      "g": 0,
+      "ft": 0,
+      "ua": 6,
+      "fa": 140
+    },
+    "ELBOWS_BAD": {
+      "b": 2,
+      "hd": 2,
+      "g": 0,
+      "ft": 0,
+      "ua": 50,
+      "fa": 112
+    },
+    "SWING_BAD": {
+      "b": -18,
+      "hd": -10,
+      "g": 0,
+      "ft": 0,
+      "ua": 12,
+      "fa": 132,
+      "rx": -12
+    },
+    "FAR_BAD": {
+      "b": 10,
+      "hd": 8,
+      "g": 0,
+      "ft": 0,
+      "ua": 26,
+      "fa": 30,
+      "rx": -230
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · BRAZOS",
+      "head": [
+        "CABLE",
+        "BICEP CURL"
+      ],
+      "sub": "Curl de bíceps en polea",
+      "vo": "Cable Bicep Curl: el curl de bíceps en polea baja. La polea te mantiene la tensión en todo el recorrido.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.0
+            ],
+            [
+              "DOWN",
+              2.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "POLEA"
+      ],
+      "sub": "Polea baja con barra o soga",
+      "vo": "Se hace en la polea baja, con barra o con soga. Trabaja el bíceps y suma el braquial y los antebrazos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            572,
+            1463
+          ],
+          "r": 34,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            1450
+          ],
+          "text": "POLEA BAJA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            750
+          ],
+          "text": "PILA DE PESO",
+          "anchor": "end",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "POLEA",
+        "ABAJO"
+      ],
+      "sub": "Bien abajo y la barra",
+      "vo": "Bajá la polea hasta abajo con la perilla y enganchá la barra recta o la soga.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            617,
+            1463
+          ],
+          "r": 26,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            1450
+          ],
+          "text": "POLEA ABAJO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "PESO"
+      ],
+      "sub": "Sin balancear el cuerpo",
+      "vo": "Elegí el peso con el pasador: uno que puedas subir doce veces sin balancearte.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            718,
+            1422
+          ],
+          "r": 34,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            750
+          ],
+          "text": "PASADOR",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "CERCA DE",
+        "LA POLEA"
+      ],
+      "sub": "Codos pegados a las costillas",
+      "vo": "Parate cerca de la polea, pies al ancho de la cadera, brazos estirados y codos pegados a las costillas.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            432,
+            1128
+          ],
+          "r": 36,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            860
+          ],
+          "text": "CODOS PEGADOS",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SUBÍ",
+        "LAS MANOS"
+      ],
+      "sub": "Hacia los hombros",
+      "vo": "Paso uno. Flexioná los codos llevando las manos hacia los hombros, en un segundo, sin mover los codos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.6,
+          "dur": 1.0
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            432,
+            1128
+          ],
+          "r": 36,
+          "at": 0.8
+        },
+        {
+          "type": "arrow",
+          "from": [
+            523,
+            1232
+          ],
+          "to": [
+            567,
+            1040
+          ],
+          "at": 1.0,
+          "dur": 0.9,
+          "bend": [
+            70,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "APRETÁ",
+        "ARRIBA"
+      ],
+      "sub": "Muñecas firmes",
+      "vo": "Paso dos. Arriba apretá el bíceps un segundo, con las muñecas firmes y alineadas con el antebrazo.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            497,
+            1040
+          ],
+          "r": 38,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            860
+          ],
+          "text": "MUÑECAS FIRMES",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "EN 3"
+      ],
+      "sub": "Hasta casi estirar",
+      "vo": "Paso tres. Bajá lento, en tres segundos, hasta casi estirar los brazos. La polea sigue tirando: aprovechala.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.6,
+          "dur": 3.0
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            860
+          ],
+          "text": "3 SEGUNDOS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al subir",
+      "vo": "Soltá el aire mientras subís y tomalo mientras bajás.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.0
+            ],
+            [
+              "DOWN",
+              2.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "CODOS",
+        "ADELANTE"
+      ],
+      "sub": "Quietos al costado",
+      "vo": "Error: llevar los codos hacia adelante al subir. Trabaja el hombro, no el bíceps: los codos quedan quietos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "ELBOWS_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            513,
+            1088
+          ],
+          "r": 40,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "BALANCEAR",
+        "EL TRONCO"
+      ],
+      "sub": "Si te balanceás, es mucho peso",
+      "vo": "Error: tirarte para atrás para subir la barra. La lumbar sufre: bajá el peso y dejá el tronco quieto.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "SWING_BAD",
+          "at": 0.5,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            412,
+            1199
+          ],
+          "r": 56,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "MUY",
+        "LEJOS"
+      ],
+      "sub": "Cerca de la polea",
+      "vo": "Error: pararte muy lejos de la polea. El cable te tira los brazos adelante: acercate hasta que tire casi vertical.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "FAR_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            750
+          ],
+          "text": "MUY LEJOS",
+          "anchor": "end",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Codos pegados a las costillas",
+        "Tensión también abajo",
+        "Muñecas firmes",
+        "Subí en 1, bajá en 3"
+      ],
+      "vo": "Tips de profe: codos pegados a las costillas, aprovechá la tensión de abajo, muñecas firmes y subí en uno, bajá en tres.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.0
+            ],
+            [
+              "DOWN",
+              2.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Cerca de la polea",
+        "Tronco quieto",
+        "Sin bajar de golpe",
+        "Casi estirado abajo"
+      ],
+      "vo": "Claves: cerca de la polea, tronco quieto, sin bajar de golpe y brazos casi estirados abajo.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12"
+      ],
+      "sub": "Un minuto de pausa",
+      "vo": "Tres series de diez a doce, con un minuto de pausa. Cuando las doce salen fáciles, subí una placa.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ EN 1",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ EN 3",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.0
+            ],
+            [
+              "DOWN",
+              2.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Cable Bicep Curl 🔥 Curl de bíceps en polea paso a paso | Gimnasio",
+    "tags": [
+      "cable bicep curl",
+      "curl de bíceps en polea",
+      "curl en polea baja",
+      "bíceps polea",
+      "cómo hacer curl de bíceps",
+      "bíceps",
+      "brazos",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "rutina de brazos"
+    ],
+    "descripcion": "🔥 CABLE BICEP CURL (curl de bíceps en polea) — bíceps con tensión de principio a fin\n\n¿Balanceás el cuerpo para subir la barra? En la polea es más fácil hacerlo bien, si sabés estos detalles. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Bajá la polea hasta abajo y enganchá la barra o la soga.\n2️⃣ Elegí un peso que puedas subir 12 veces sin balancearte.\n\n📋 PASO A PASO\n1️⃣ Parate cerca de la polea, pies al ancho de la cadera, codos pegados.\n2️⃣ Subí las manos hacia los hombros en 1 segundo, sin mover los codos.\n3️⃣ Arriba, apretá un segundo con las muñecas firmes.\n4️⃣ Bajá en 3 segundos hasta casi estirar.\n\n❌ ERRORES COMUNES\n• Mover los codos hacia adelante → quietos, pegados a las costillas.\n• Balancear el tronco → menos peso y tronco quieto.\n• Bajar de golpe → tres segundos para bajar.\n• Pararte muy lejos de la polea → acercate hasta que el cable tire casi vertical.\n\n💡 TIPS DEL PROFE\n• Codos quietos, pegados a las costillas.\n• La polea mantiene tensión abajo: aprovechala.\n• Muñecas firmes, alineadas.\n• Subí en 1 segundo, bajá en 3.\n• Tronco quieto.\n\n🎯 QUÉ TRABAJA\nBíceps · Braquial · Antebrazos\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto de pausa. Cuando las 12 salen fáciles, subí una placa. Nivel: intermedio.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\nSi es tu primera vez en esta máquina, pedile al profe del gimnasio que te ajuste la máquina y te mire las primeras series.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #CableBicepCurl #Brazos #Musculacion #Entrenamiento"
+  }
+}

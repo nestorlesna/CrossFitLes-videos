@@ -1,0 +1,69 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Assisted Dip Machine",
+      "text": "Los fondos asistidos. Pecho y tríceps fuertes, con la ayuda justa."
+    },
+    {
+      "id": "02",
+      "text": "Agarrás las paralelas y te arrodillás en una plataforma que te ayuda a subir. Trabaja pecho y tríceps."
+    },
+    {
+      "id": "03",
+      "text": "Elegí el contrapeso con el pasador. Igual que en las dominadas asistidas: más peso es más ayuda."
+    },
+    {
+      "id": "04",
+      "text": "Tronco apenas inclinado adelante trabaja más pecho; más vertical, más tríceps."
+    },
+    {
+      "id": "05",
+      "text": "Agarrá las paralelas, apoyá las rodillas en la plataforma y empezá arriba, con los brazos estirados."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Bajá doblando los codos hacia atrás, no hacia los costados."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Bajá hasta que el brazo quede paralelo al piso, con el codo en noventa grados. No más."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Empujá hasta volver arriba, casi estirado, sin trabar los codos."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire mientras bajás y soltalo mientras empujás."
+    },
+    {
+      "id": "10",
+      "text": "Error: bajar demasiado, con el hombro por debajo del codo. Castiga el hombro: frená en noventa grados."
+    },
+    {
+      "id": "11",
+      "text": "Error: encoger los hombros hacia las orejas. Bajá los hombros y mantené el cuello largo."
+    },
+    {
+      "id": "12",
+      "text": "Tips de profe: brazo paralelo al piso, hombros lejos de las orejas, codos hacia atrás y subí sin trabar."
+    },
+    {
+      "id": "13",
+      "text": "Claves: más peso es más ayuda, bajada controlada, sin soltarte de golpe y el tronco estable."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de ocho a diez, con dos minutos de pausa. Cuando las diez salen fáciles, sacá un poco de ayuda."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

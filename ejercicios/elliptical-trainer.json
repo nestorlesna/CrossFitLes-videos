@@ -1,0 +1,1047 @@
+{
+  "slug": "elliptical-trainer",
+  "name": "Elliptical Trainer",
+  "maquina": true,
+  "category": "GIMNASIO · CARDIO",
+  "tags": [
+    "Cardio",
+    "Cuerpo completo"
+  ],
+  "descripcion": "Pies apoyados completos en los pedales, agarrá las manijas móviles y empujá/tirá alternando mientras pedaleás. Postura erguida.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1505.5,
+    "scale": 0.78
+  },
+  "shadow": false,
+  "initialPose": "E0",
+  "props": [
+    {
+      "type": "elliptical",
+      "fly": [
+        360,
+        -170
+      ],
+      "pivot": [
+        330,
+        -430
+      ],
+      "x0": -380
+    }
+  ],
+  "poses": {
+    "E0": {
+      "hip": [
+        0,
+        -624.0
+      ],
+      "ankle": [
+        140.0,
+        -186.0
+      ],
+      "ankle2": [
+        -60.0,
+        -186.0
+      ],
+      "ft": -8.0,
+      "ft2": 8.0,
+      "b": 4,
+      "hd": 2,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "ed2": -1,
+      "hx": 80.0,
+      "hy": -820,
+      "hx2": 220.0,
+      "hy2": -820
+    },
+    "E1": {
+      "hip": [
+        0,
+        -617.1
+      ],
+      "ankle": [
+        90.0,
+        -151.4
+      ],
+      "ankle2": [
+        -10.0,
+        -220.6
+      ],
+      "ft": -4.0,
+      "ft2": 4.0,
+      "b": 4,
+      "hd": 2,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "ed2": -1,
+      "hx": 115.0,
+      "hy": -820,
+      "hx2": 185.0,
+      "hy2": -820
+    },
+    "E2": {
+      "hip": [
+        0,
+        -630.9
+      ],
+      "ankle": [
+        -10.0,
+        -151.4
+      ],
+      "ankle2": [
+        90.0,
+        -220.6
+      ],
+      "ft": 4.0,
+      "ft2": -4.0,
+      "b": 4,
+      "hd": 2,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "ed2": -1,
+      "hx": 185.0,
+      "hy": -820,
+      "hx2": 115.0,
+      "hy2": -820
+    },
+    "E3": {
+      "hip": [
+        0,
+        -624.0
+      ],
+      "ankle": [
+        -60.0,
+        -186.0
+      ],
+      "ankle2": [
+        140.0,
+        -186.0
+      ],
+      "ft": 8.0,
+      "ft2": -8.0,
+      "b": 4,
+      "hd": 2,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "ed2": -1,
+      "hx": 220.0,
+      "hy": -820,
+      "hx2": 80.0,
+      "hy2": -820
+    },
+    "E4": {
+      "hip": [
+        0,
+        -617.1
+      ],
+      "ankle": [
+        -10.0,
+        -220.6
+      ],
+      "ankle2": [
+        90.0,
+        -151.4
+      ],
+      "ft": 4.0,
+      "ft2": -4.0,
+      "b": 4,
+      "hd": 2,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "ed2": -1,
+      "hx": 185.0,
+      "hy": -820,
+      "hx2": 115.0,
+      "hy2": -820
+    },
+    "E5": {
+      "hip": [
+        0,
+        -630.9
+      ],
+      "ankle": [
+        90.0,
+        -220.6
+      ],
+      "ankle2": [
+        -10.0,
+        -151.4
+      ],
+      "ft": -4.0,
+      "ft2": 4.0,
+      "b": 4,
+      "hd": 2,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "ed2": -1,
+      "hx": 115.0,
+      "hy": -820,
+      "hx2": 185.0,
+      "hy2": -820
+    },
+    "LEAN_BAD": {
+      "hip": [
+        20,
+        -600
+      ],
+      "ankle": [
+        140.0,
+        -186.0
+      ],
+      "ankle2": [
+        -60.0,
+        -186.0
+      ],
+      "ft": -8.0,
+      "ft2": 8.0,
+      "b": 34,
+      "hd": 24,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "ed2": -1,
+      "hx": 80.0,
+      "hy": -820,
+      "hx2": 220.0,
+      "hy2": -820
+    },
+    "TOES_BAD": {
+      "hip": [
+        0,
+        -624.0
+      ],
+      "ankle": [
+        -60.0,
+        -186.0
+      ],
+      "ankle2": [
+        140.0,
+        -186.0
+      ],
+      "ft": 30,
+      "ft2": 30,
+      "b": 4,
+      "hd": 2,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "ed2": -1,
+      "hx": 220.0,
+      "hy": -820,
+      "hx2": 80.0,
+      "hy2": -820
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · CARDIO",
+      "head": [
+        "ELLIPTICAL",
+        "TRAINER"
+      ],
+      "sub": "Elíptico",
+      "vo": "Elliptical Trainer: el elíptico. Cardio de cuerpo completo, sin impacto en las rodillas.",
+      "moves": [
+        {
+          "cut": "E0",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "E0",
+              0.22
+            ],
+            [
+              "E1",
+              0.22
+            ],
+            [
+              "E2",
+              0.22
+            ],
+            [
+              "E3",
+              0.22
+            ],
+            [
+              "E4",
+              0.22
+            ],
+            [
+              "E5",
+              0.22
+            ]
+          ],
+          "at": 0.3,
+          "until": "end",
+          "ease": "none"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "EL",
+        "ELÍPTICO"
+      ],
+      "sub": "También: elíptica",
+      "vo": "También le dicen elíptica. Trabaja piernas y glúteos y, si usás las manijas, también pecho, espalda y brazos.",
+      "moves": [
+        {
+          "cut": "E0",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            599,
+            1392
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            820
+          ],
+          "text": "PEDALES",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            532,
+            866
+          ],
+          "r": 40,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            820
+          ],
+          "text": "MANIJAS MÓVILES",
+          "anchor": "end",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            751,
+            1373
+          ],
+          "r": 90,
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "LA",
+        "RESISTENCIA"
+      ],
+      "sub": "Que no vayas por inercia",
+      "vo": "Elegí una resistencia que te haga empujar. Sin resistencia, las piernas van solas por inercia.",
+      "moves": [
+        {
+          "cut": "E0",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            751,
+            1373
+          ],
+          "r": 90,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            820
+          ],
+          "text": "RESISTENCIA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "PIES",
+        "COMPLETOS"
+      ],
+      "sub": "Bien apoyados en los pedales",
+      "vo": "Subite con la máquina quieta y apoyá los pies completos en los pedales, en el centro.",
+      "moves": [
+        {
+          "cut": "E0",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            599,
+            1392
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            820
+          ],
+          "text": "PIE COMPLETO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "TRONCO",
+        "ERGUIDO"
+      ],
+      "sub": "Mirada al frente",
+      "vo": "Tronco erguido, mirada al frente y las manos en las manijas móviles.",
+      "moves": [
+        {
+          "cut": "E0",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            820
+          ],
+          "text": "MIRADA AL FRENTE",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "PEDALEÁ"
+      ],
+      "sub": "Movimiento continuo",
+      "vo": "Paso uno. Pedaleá con un movimiento continuo, empujando con todo el pie.",
+      "moves": [
+        {
+          "cut": "E0",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "E0",
+              0.22
+            ],
+            [
+              "E1",
+              0.22
+            ],
+            [
+              "E2",
+              0.22
+            ],
+            [
+              "E3",
+              0.22
+            ],
+            [
+              "E4",
+              0.22
+            ],
+            [
+              "E5",
+              0.22
+            ]
+          ],
+          "at": 0.3,
+          "until": "end",
+          "ease": "none"
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            599,
+            1392
+          ],
+          "r": 60,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            820
+          ],
+          "text": "TODO EL PIE",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "EMPUJÁ",
+        "Y TIRÁ"
+      ],
+      "sub": "Las manijas trabajan los brazos",
+      "vo": "Paso dos. Empujá y tirá de las manijas alternando con las piernas: así trabajan también los brazos.",
+      "moves": [
+        {
+          "cut": "E0",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "E0",
+              0.22
+            ],
+            [
+              "E1",
+              0.22
+            ],
+            [
+              "E2",
+              0.22
+            ],
+            [
+              "E3",
+              0.22
+            ],
+            [
+              "E4",
+              0.22
+            ],
+            [
+              "E5",
+              0.22
+            ]
+          ],
+          "at": 0.3,
+          "until": "end",
+          "ease": "none"
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            532,
+            866
+          ],
+          "r": 40,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            820
+          ],
+          "text": "EMPUJÁ Y TIRÁ",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "CAMBIÁ EL",
+        "SENTIDO"
+      ],
+      "sub": "Hacia atrás también vale",
+      "vo": "Paso tres. Podés pedalear hacia atrás un rato para cambiar el estímulo.",
+      "moves": [
+        {
+          "cut": "E5",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "E5",
+              0.22
+            ],
+            [
+              "E4",
+              0.22
+            ],
+            [
+              "E3",
+              0.22
+            ],
+            [
+              "E2",
+              0.22
+            ],
+            [
+              "E1",
+              0.22
+            ],
+            [
+              "E0",
+              0.22
+            ]
+          ],
+          "at": 0.3,
+          "until": "end",
+          "ease": "none"
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            820
+          ],
+          "text": "HACIA ATRÁS",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Parejo",
+      "vo": "Respirá parejo. A ritmo moderado tenés que poder hablar con frases cortas.",
+      "moves": [
+        {
+          "cut": "E0",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "E0",
+              0.22
+            ],
+            [
+              "E1",
+              0.22
+            ],
+            [
+              "E2",
+              0.22
+            ],
+            [
+              "E3",
+              0.22
+            ],
+            [
+              "E4",
+              0.22
+            ],
+            [
+              "E5",
+              0.22
+            ]
+          ],
+          "at": 0.3,
+          "until": "end",
+          "ease": "none"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "COLGARTE DE",
+        "LAS MANIJAS"
+      ],
+      "sub": "El peso va en las piernas",
+      "vo": "Error: inclinarte y apoyar todo el peso en las manijas. Tronco erguido: el peso va en las piernas.",
+      "moves": [
+        {
+          "cut": "E0",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            608,
+            856
+          ],
+          "r": 56,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "TALONES",
+        "ARRIBA"
+      ],
+      "sub": "Todo el pie apoyado",
+      "vo": "Error: levantar los talones y pedalear en punta de pie. Se cargan los gemelos y los pies: apoyá todo el pie.",
+      "moves": [
+        {
+          "cut": "E0",
+          "at": 0
+        },
+        {
+          "to": "TOES_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            423,
+            1360
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "SIN",
+        "RESISTENCIA"
+      ],
+      "sub": "No vayas por inercia",
+      "vo": "Error: ir sin resistencia, rapidísimo, dejando que la máquina te lleve. Subí la resistencia y controlá.",
+      "moves": [
+        {
+          "cut": "E0",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "E0",
+              0.08
+            ],
+            [
+              "E1",
+              0.08
+            ],
+            [
+              "E2",
+              0.08
+            ],
+            [
+              "E3",
+              0.08
+            ],
+            [
+              "E4",
+              0.08
+            ],
+            [
+              "E5",
+              0.08
+            ]
+          ],
+          "at": 0.3,
+          "until": "end",
+          "ease": "none"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            751,
+            1373
+          ],
+          "r": 90,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Talón siempre apoyado",
+        "Empujá y tirá las manijas",
+        "Tronco erguido",
+        "Probá hacia atrás"
+      ],
+      "vo": "Tips de profe: el talón no se despega, empujá y tirá de las manijas, tronco erguido y probá pedalear hacia atrás.",
+      "moves": [
+        {
+          "cut": "E0",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "E0",
+              0.22
+            ],
+            [
+              "E1",
+              0.22
+            ],
+            [
+              "E2",
+              0.22
+            ],
+            [
+              "E3",
+              0.22
+            ],
+            [
+              "E4",
+              0.22
+            ],
+            [
+              "E5",
+              0.22
+            ]
+          ],
+          "at": 0.3,
+          "until": "end",
+          "ease": "none"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Pies completos",
+        "Mirada al frente",
+        "Resistencia que se sienta",
+        "Ritmo parejo"
+      ],
+      "vo": "Claves: pies completos en los pedales, mirada al frente, una resistencia que se sienta y ritmo parejo.",
+      "moves": [
+        {
+          "cut": "E0",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "E0",
+              0.22
+            ],
+            [
+              "E1",
+              0.22
+            ],
+            [
+              "E2",
+              0.22
+            ],
+            [
+              "E3",
+              0.22
+            ],
+            [
+              "E4",
+              0.22
+            ],
+            [
+              "E5",
+              0.22
+            ]
+          ],
+          "at": 0.3,
+          "until": "end",
+          "ease": "none"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "20 MIN"
+      ],
+      "sub": "3 suave · 14 a ritmo · 3 suave",
+      "vo": "De quince a treinta minutos. Por ejemplo: tres minutos suave, catorce a ritmo y tres minutos suave.",
+      "chips": [
+        {
+          "label": "3 MIN SUAVE",
+          "at": 0.6
+        },
+        {
+          "label": "14 MIN RITMO",
+          "at": 1.1
+        },
+        {
+          "label": "3 MIN SUAVE",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "E0",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "E0",
+              0.22
+            ],
+            [
+              "E1",
+              0.22
+            ],
+            [
+              "E2",
+              0.22
+            ],
+            [
+              "E3",
+              0.22
+            ],
+            [
+              "E4",
+              0.22
+            ],
+            [
+              "E5",
+              0.22
+            ]
+          ],
+          "at": 0.3,
+          "until": "end",
+          "ease": "none"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "E0",
+    "grip": 1,
+    "zoom": 1.05,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Elliptical Trainer 🔥 Cómo usar el elíptico bien | Gimnasio",
+    "tags": [
+      "elliptical",
+      "elíptico",
+      "elíptica",
+      "cómo usar el elíptico",
+      "cardio sin impacto",
+      "cardio",
+      "cuerpo completo",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes"
+    ],
+    "descripcion": "🔥 ELLIPTICAL TRAINER (elíptico) — cardio de cuerpo completo sin impacto\n\n¿Vas en el elíptico colgado de las manijas o en punta de pie? Así se pierde gran parte del trabajo. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Elegí una resistencia que te haga empujar.\n2️⃣ Subite con la máquina quieta y apoyá los pies completos en los pedales.\n\n📋 PASO A PASO\n1️⃣ Tronco erguido, mirada al frente, manos en las manijas móviles.\n2️⃣ Pedaleá con un movimiento continuo, empujando con todo el pie.\n3️⃣ Empujá y tirá de las manijas alternando con las piernas.\n4️⃣ Probá pedalear hacia atrás un rato.\n\n❌ ERRORES COMUNES\n• Apoyar todo el peso en las manijas → tronco erguido.\n• Levantar los talones → todo el pie apoyado.\n• Inclinarse hacia adelante → mirada al frente.\n• Ir sin resistencia, por inercia → subí la resistencia.\n\n💡 TIPS DEL PROFE\n• El talón no se despega del pedal.\n• Empujá y tirá de las manijas: trabajan los brazos.\n• Tronco erguido, mirada al frente.\n• Probá pedalear hacia atrás para cambiar el estímulo.\n• Subí la resistencia para no ir solo por inercia.\n\n🎯 QUÉ TRABAJA\nCuádriceps · Glúteos · Isquiotibiales · Pecho · Espalda · Brazos\n\n⏱️ CUÁNTO\n15–30 minutos. Por ejemplo: 3 minutos suave, 14 a ritmo y 3 suave. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Eliptico #Cardio #Entrenamiento #SinImpacto"
+  }
+}

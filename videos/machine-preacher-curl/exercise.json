@@ -1,0 +1,754 @@
+{
+  "slug": "machine-preacher-curl",
+  "name": "Machine Preacher Curl",
+  "maquina": true,
+  "category": "GIMNASIO · BRAZOS",
+  "tags": [
+    "Bíceps"
+  ],
+  "descripcion": "Ajustá el asiento para que las axilas queden en el borde del apoyo. Flexioná llevando las manos a los hombros y bajá lento sin estirar de golpe.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 720,
+    "y": 1509.6,
+    "scale": 0.66
+  },
+  "shadow": false,
+  "initialPose": "DOWN",
+  "props": [
+    {
+      "type": "preachercurl",
+      "pivot": [
+        -57,
+        -374
+      ],
+      "frameTop": -1000,
+      "stack": -660,
+      "seat": [
+        -390,
+        -90,
+        -184
+      ],
+      "pad": [
+        -192,
+        -457,
+        -79,
+        -333
+      ],
+      "pin": 5
+    }
+  ],
+  "poses": {
+    "DOWN": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": 14,
+      "hd": 12,
+      "ua": 42,
+      "fa": 22
+    },
+    "MID": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": 14,
+      "hd": 12,
+      "ua": 42,
+      "fa": 80
+    },
+    "UP": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": 14,
+      "hd": 12,
+      "ua": 42,
+      "fa": 132
+    },
+    "OFF_BAD": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": 2,
+      "hd": 2,
+      "ua": 14,
+      "fa": 120
+    },
+    "DROP_BAD": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": 14,
+      "hd": 12,
+      "ua": 42,
+      "fa": -4
+    },
+    "SWING_BAD": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -10,
+      "hd": -6,
+      "ua": 30,
+      "fa": 128
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · BRAZOS",
+      "head": [
+        "PREACHER",
+        "CURL"
+      ],
+      "sub": "Curl de bíceps en máquina Scott",
+      "vo": "Machine Preacher Curl: el curl de bíceps en máquina Scott. Brazos apoyados, cero trampa, bíceps a fondo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.0
+            ],
+            [
+              "DOWN",
+              2.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "También: Scott o predicador",
+      "vo": "También le dicen Scott o predicador. Trabaja el bíceps y suma el braquial y los antebrazos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            760
+          ],
+          "text": "PILA DE PESO",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            631,
+            1249
+          ],
+          "r": 50,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            740
+          ],
+          "text": "APOYO DE BRAZOS",
+          "anchor": "end",
+          "at": 1.6
+        },
+        {
+          "type": "ring",
+          "pos": [
+            682,
+            1263
+          ],
+          "r": 26,
+          "at": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            690
+          ],
+          "text": "EJE ROJO",
+          "anchor": "end",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "EL",
+        "ASIENTO"
+      ],
+      "sub": "Axilas en el borde del apoyo",
+      "vo": "Ajustá el asiento para que las axilas queden justo en el borde del apoyo y el codo al lado del eje rojo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            562,
+            1448
+          ],
+          "r": 26,
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            682,
+            1263
+          ],
+          "r": 30,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            740
+          ],
+          "text": "CODO = EJE",
+          "anchor": "end",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "PESO"
+      ],
+      "sub": "Con el pasador",
+      "vo": "Elegí el peso con el pasador: uno que puedas subir doce veces sin despegar los brazos del apoyo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            318,
+            1407
+          ],
+          "r": 30,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            760
+          ],
+          "text": "PASADOR",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BRAZOS",
+        "APOYADOS"
+      ],
+      "sub": "Tríceps pegados a la almohadilla",
+      "vo": "Apoyá los brazos con los tríceps pegados a la almohadilla y agarrá las manijas. La cola, en el asiento.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            631,
+            1249
+          ],
+          "r": 50,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            740
+          ],
+          "text": "TRÍCEPS PEGADOS",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SUBÍ",
+        "A LOS HOMBROS"
+      ],
+      "sub": "Sin despegar los brazos",
+      "vo": "Paso uno. Flexioná los codos llevando las manos hacia los hombros, sin despegar los brazos del apoyo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.6,
+          "dur": 1.0
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            817,
+            1309
+          ],
+          "to": [
+            743,
+            1178
+          ],
+          "at": 0.8,
+          "dur": 0.9,
+          "bend": [
+            70,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "APRETÁ",
+        "ARRIBA"
+      ],
+      "sub": "Un segundo",
+      "vo": "Paso dos. Arriba, apretá el bíceps un segundo.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            693,
+            1158
+          ],
+          "r": 38,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            740
+          ],
+          "text": "APRETÁ 1 SEGUNDO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "LENTO"
+      ],
+      "sub": "Frená antes de estirar",
+      "vo": "Paso tres. Bajá lento y frená antes de estirar del todo el codo. Así cuidás el tendón.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.6,
+          "dur": 3.0
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            740
+          ],
+          "text": "SIN ESTIRAR DE GOLPE",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al subir",
+      "vo": "Soltá el aire mientras subís y tomalo mientras bajás.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.0
+            ],
+            [
+              "DOWN",
+              2.6
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "BRAZOS",
+        "DESPEGADOS"
+      ],
+      "sub": "Tríceps siempre apoyados",
+      "vo": "Error: despegar los brazos del apoyo para subir. Deja de ser un curl aislado: tríceps pegados todo el tiempo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "OFF_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            596,
+            1283
+          ],
+          "r": 44,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "ESTIRAR",
+        "DE GOLPE"
+      ],
+      "sub": "Cuidá el tendón",
+      "vo": "Error: dejar caer el peso y estirar el codo de golpe abajo. El tendón del bíceps sufre: frená antes.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DROP_BAD",
+          "at": 0.5,
+          "dur": 0.35
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            682,
+            1263
+          ],
+          "r": 44,
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "BALANCEAR",
+        "EL CUERPO"
+      ],
+      "sub": "La cola no se despega",
+      "vo": "Error: tirarte atrás y despegar la cola para ayudarte. Bajá el peso y subí solo con los brazos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "SWING_BAD",
+          "at": 0.5,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            530,
+            1176
+          ],
+          "r": 56,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Axilas en el borde",
+        "Codo alineado con el eje",
+        "Tríceps pegados",
+        "Frená antes de estirar"
+      ],
+      "vo": "Tips de profe: axilas en el borde del apoyo, codo alineado con el eje, tríceps pegados y frená antes de estirar del todo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.0
+            ],
+            [
+              "DOWN",
+              2.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Subí en 1 segundo",
+        "Bajá en 3 segundos",
+        "Sin despegar la cola",
+        "Muñecas firmes"
+      ],
+      "vo": "Claves: subí en un segundo, bajá en tres, sin despegar la cola y con las muñecas firmes.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12"
+      ],
+      "sub": "Un minuto de pausa",
+      "vo": "Tres series de diez a doce, con un minuto de pausa. Cuando las doce salen fáciles, subí una placa.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ LENTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.0
+            ],
+            [
+              "DOWN",
+              2.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 110
+  },
+  "youtube": {
+    "titulo": "Machine Preacher Curl 🔥 Curl Scott en máquina bien hecho | Gimnasio",
+    "tags": [
+      "preacher curl",
+      "curl scott",
+      "curl de bíceps en máquina",
+      "predicador",
+      "machine preacher curl",
+      "bíceps",
+      "brazos",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de brazos"
+    ],
+    "descripcion": "🔥 MACHINE PREACHER CURL (curl de bíceps en máquina Scott) — bíceps a fondo sin hacer trampa\n\n¿Estirás el codo de golpe abajo en el Scott? Es la forma más común de lastimar el tendón del bíceps. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el asiento para que las axilas queden en el borde del apoyo.\n2️⃣ Codo alineado con el eje rojo de la máquina.\n3️⃣ Elegí un peso que puedas subir 12 veces sin despegar los brazos.\n\n📋 PASO A PASO\n1️⃣ Brazos apoyados, tríceps pegados a la almohadilla y la cola en el asiento.\n2️⃣ Subí las manos hacia los hombros sin despegar los brazos.\n3️⃣ Arriba, apretá el bíceps un segundo.\n4️⃣ Bajá lento y frená antes de estirar del todo.\n\n❌ ERRORES COMUNES\n• Despegar los brazos del apoyo → tríceps pegados todo el tiempo.\n• Extender de golpe abajo (tendón) → frená antes de estirar.\n• Balancear el cuerpo → la cola no se despega del asiento.\n\n💡 TIPS DEL PROFE\n• Axilas en el borde del apoyo.\n• Codo alineado con el eje de la máquina.\n• Tríceps pegados a la almohadilla todo el tiempo.\n• Abajo frená antes de estirar del todo.\n• Subí sin despegar la cola.\n\n🎯 QUÉ TRABAJA\nBíceps · Braquial · Antebrazos\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto de pausa. Cuando las 12 salen fáciles, subí una placa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #PreacherCurl #Brazos #Musculacion #Entrenamiento"
+  }
+}

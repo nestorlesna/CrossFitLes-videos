@@ -1,0 +1,761 @@
+{
+  "slug": "standing-calf-raise-machine",
+  "name": "Standing Calf Raise Machine",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Gemelos",
+    "Sóleo"
+  ],
+  "descripcion": "Hombros bajo las almohadillas y la punta del pie en el borde del escalón. Bajá el talón despacio por debajo del escalón y subí lo más alto posible, con pausa arriba.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1510.9,
+    "scale": 0.62
+  },
+  "shadow": false,
+  "initialPose": "DOWN",
+  "props": [
+    {
+      "type": "standingcalf",
+      "step": [
+        -35,
+        190,
+        -70
+      ],
+      "stack": -560,
+      "column": -220,
+      "padX": -38,
+      "pin": 6,
+      "k": 1.6
+    }
+  ],
+  "poses": {
+    "DOWN": {
+      "hip": [
+        -55.6,
+        -541.3
+      ],
+      "ankle": [
+        -47.6,
+        -75.3
+      ],
+      "ft": -22,
+      "b": 0,
+      "hd": 2,
+      "g": 0,
+      "ua": 4,
+      "fa": 12
+    },
+    "MID": {
+      "hip": [
+        -45.5,
+        -574.8
+      ],
+      "ankle": [
+        -37.5,
+        -108.8
+      ],
+      "ft": 4,
+      "b": 0,
+      "hd": 2,
+      "g": 0,
+      "ua": 4,
+      "fa": 12
+    },
+    "UP": {
+      "hip": [
+        -17.0,
+        -603.3
+      ],
+      "ankle": [
+        -9.0,
+        -137.3
+      ],
+      "ft": 34,
+      "b": 0,
+      "hd": 2,
+      "g": 0,
+      "ua": 4,
+      "fa": 12
+    },
+    "KNEES_BAD": {
+      "hip": [
+        -41.0,
+        -515.6
+      ],
+      "ankle": [
+        -33.0,
+        -115.6
+      ],
+      "ft": 10,
+      "b": 0,
+      "hd": 2,
+      "g": 0,
+      "ua": 4,
+      "fa": 12
+    },
+    "ARCH_BAD": {
+      "hip": [
+        52.0,
+        -570.0
+      ],
+      "ankle": [
+        60.0,
+        -104.0
+      ],
+      "ft": 0,
+      "b": 0,
+      "hd": 2,
+      "g": 0,
+      "ua": 4,
+      "fa": 12
+    },
+    "SHORT_BAD": {
+      "hip": [
+        -39.4,
+        -583.8
+      ],
+      "ankle": [
+        -31.4,
+        -117.8
+      ],
+      "ft": 12,
+      "b": 0,
+      "hd": 2,
+      "g": 0,
+      "ua": 4,
+      "fa": 12
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "STANDING",
+        "CALF RAISE"
+      ],
+      "sub": "Gemelos de pie en máquina",
+      "vo": "Standing Calf Raise Machine: los gemelos de pie en máquina. Pantorrillas fuertes con un movimiento simple.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.6
+            ],
+            [
+              "DOWN",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Hombreras y escalón",
+      "vo": "Tiene hombreras que se apoyan sobre los hombros y un escalón para la punta del pie. Trabaja gemelos y sóleo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            576,
+            986
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "HOMBRERAS",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            656,
+            1468
+          ],
+          "r": 50,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1300
+          ],
+          "text": "ESCALÓN",
+          "anchor": "end",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            284,
+            1428
+          ],
+          "r": 30,
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "LAS",
+        "HOMBRERAS"
+      ],
+      "sub": "A tu altura",
+      "vo": "Ajustá la altura de las hombreras para entrar con las rodillas casi rectas.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            576,
+            986
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "A TU ALTURA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "LOS",
+        "PIES"
+      ],
+      "sub": "Solo la punta en el escalón",
+      "vo": "Apoyá solo la punta del pie en el borde del escalón, con los pies paralelos. El talón queda en el aire.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            656,
+            1468
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1300
+          ],
+          "text": "SOLO LA PUNTA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "RODILLAS",
+        "CASI RECTAS"
+      ],
+      "sub": "Sin trabar",
+      "vo": "Parate bajo las hombreras con las rodillas casi rectas, pero sin trabarlas. Destrabá la máquina.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            593,
+            1302
+          ],
+          "r": 44,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "SIN TRABAR",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ EL",
+        "TALÓN"
+      ],
+      "sub": "Despacio, hasta estirar",
+      "vo": "Paso uno. Bajá el talón despacio por debajo del escalón, hasta sentir que estira la pantorrilla.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.6,
+          "dur": 1.8
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            570,
+            1464
+          ],
+          "r": 44,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "ESTIRÁ ABAJO",
+          "anchor": "end",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "PAUSA",
+        "ABAJO"
+      ],
+      "sub": "Uno o dos segundos",
+      "vo": "Paso dos. Abajo, pausa de uno o dos segundos. Así el gemelo no rebota como un resorte.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            570,
+            1464
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "1 A 2 SEGUNDOS",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "SUBÍ",
+        "BIEN ALTO"
+      ],
+      "sub": "Sobre el dedo gordo",
+      "vo": "Paso tres. Subí lo más alto posible, sobre el dedo gordo, y apretá arriba un segundo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            594,
+            1426
+          ],
+          "r": 44,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "BIEN ARRIBA",
+          "anchor": "end",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al subir",
+      "vo": "Soltá el aire mientras subís y tomalo mientras bajás. Ritmo lento.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.6
+            ],
+            [
+              "DOWN",
+              2.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "REBOTAR",
+        "ABAJO"
+      ],
+      "sub": "Pausa, no resorte",
+      "vo": "Error: rebotar abajo para subir con impulso. Pausa abajo y subí lento: el trabajo es del músculo.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              0.3
+            ],
+            [
+              "UP",
+              0.3
+            ]
+          ],
+          "at": 0.5,
+          "until": 4.0
+        },
+        {
+          "to": "DOWN",
+          "at": 4.1,
+          "dur": 0.3
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            570,
+            1464
+          ],
+          "r": 44,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "RODILLAS",
+        "FLEXIONADAS"
+      ],
+      "sub": "No te ayudes con las piernas",
+      "vo": "Error: flexionar las rodillas para ayudarte a subir. Rodillas casi rectas y quietas: solo se mueve el tobillo.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "to": "KNEES_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            654,
+            1317
+          ],
+          "r": 46,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "EL ARCO EN",
+        "EL ESCALÓN"
+      ],
+      "sub": "Solo la punta del pie",
+      "vo": "Error: apoyar el arco del pie en vez de la punta. Así el talón no puede bajar: corré el pie hasta la punta.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "cut": "ARCH_BAD",
+          "at": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.2
+        },
+        {
+          "type": "ring",
+          "pos": [
+            637,
+            1446
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Rodillas casi rectas",
+        "Pausa abajo estirando",
+        "Subí sobre el dedo gordo",
+        "Ritmo lento, sin resorte"
+      ],
+      "vo": "Tips de profe: rodillas casi rectas, pausa abajo estirando, subí sobre el dedo gordo y ritmo lento, sin rebote.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.6
+            ],
+            [
+              "DOWN",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Punta en el borde",
+        "Pies paralelos",
+        "Rango completo",
+        "Apretá arriba"
+      ],
+      "vo": "Claves: la punta en el borde del escalón, pies paralelos, rango completo y apretá arriba.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 15"
+      ],
+      "sub": "Un minuto de pausa",
+      "vo": "Tres series de doce a quince, con un minuto de pausa. Cuando las quince salen fáciles, subí el peso.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PAUSA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SUBÍ ALTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.6
+            ],
+            [
+              "DOWN",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "grip": 0,
+    "zoom": 1.0,
+    "dy": 160
+  },
+  "youtube": {
+    "titulo": "Standing Calf Raise Machine 🔥 Gemelos de pie en máquina | Gimnasio",
+    "tags": [
+      "standing calf raise",
+      "gemelos de pie",
+      "máquina de gemelos",
+      "calf raise",
+      "cómo entrenar gemelos",
+      "pantorrillas",
+      "gemelos",
+      "sóleo",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "piernas"
+    ],
+    "descripcion": "🔥 STANDING CALF RAISE MACHINE (gemelos de pie en máquina) — pantorrillas fuertes con un movimiento simple\n\n¿Hacés gemelos rápido y rebotando? Ahí se pierde la mitad del trabajo. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá las hombreras para entrar con las rodillas casi rectas.\n2️⃣ Solo la punta del pie en el borde del escalón, pies paralelos.\n\n📋 PASO A PASO\n1️⃣ Rodillas casi rectas, sin trabar, y destrabá la máquina.\n2️⃣ Bajá el talón despacio hasta estirar la pantorrilla.\n3️⃣ Pausa de 1–2 segundos abajo.\n4️⃣ Subí lo más alto posible, sobre el dedo gordo, y apretá.\n\n❌ ERRORES COMUNES\n• Rebotar abajo → pausa y subida lenta.\n• Flexionar las rodillas para ayudarte → rodillas casi rectas y quietas.\n• Rango corto → bajá y subí todo lo que puedas.\n• Apoyar el arco del pie → solo la punta en el escalón.\n\n💡 TIPS DEL PROFE\n• Rodillas casi rectas pero sin trabar.\n• Pausa de 1–2 segundos abajo estirando.\n• Subí bien arriba, sobre el dedo gordo.\n• Ritmo lento: el gemelo rebota como resorte.\n• Pies paralelos.\n\n🎯 QUÉ TRABAJA\nGemelos · Sóleo\n\n⏱️ CUÁNTO\n3 series de 12–15 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #CalfRaise #Piernas #Musculacion #Entrenamiento"
+  }
+}

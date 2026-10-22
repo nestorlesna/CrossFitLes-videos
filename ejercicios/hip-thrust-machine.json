@@ -1,0 +1,781 @@
+{
+  "slug": "hip-thrust-machine",
+  "name": "Hip Thrust Machine",
+  "maquina": true,
+  "category": "GIMNASIO · GLÚTEOS",
+  "tags": [
+    "Glúteos",
+    "Isquiotibiales"
+  ],
+  "descripcion": "Espalda alta apoyada, cinturón/almohadilla sobre la cadera, pies firmes. Empujá la cadera hacia arriba hasta alinear tronco y muslos, apretá glúteos y bajá.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 640,
+    "y": 1507.5,
+    "scale": 0.72
+  },
+  "shadow": false,
+  "initialPose": "DOWN",
+  "props": [
+    {
+      "type": "hipthrust",
+      "back": [
+        -320,
+        -246
+      ],
+      "pivot": [
+        330,
+        -560
+      ],
+      "stack": -700,
+      "seat": [
+        -250,
+        -40,
+        -56
+      ],
+      "pin": 6
+    }
+  ],
+  "poses": {
+    "DOWN": {
+      "hip": [
+        -128.6,
+        -105.5
+      ],
+      "ankle": [
+        200,
+        0
+      ],
+      "b": -46.0,
+      "hd": -56.0,
+      "ft": 0,
+      "g": 0,
+      "ua": 38.0,
+      "fa": 26
+    },
+    "MID": {
+      "hip": [
+        -70.4,
+        -195.1
+      ],
+      "ankle": [
+        200,
+        0
+      ],
+      "b": -68.0,
+      "hd": -78.0,
+      "ft": 0,
+      "g": 0,
+      "ua": 60.0,
+      "fa": 26
+    },
+    "UP": {
+      "hip": [
+        -50.0,
+        -300.0
+      ],
+      "ankle": [
+        200,
+        0
+      ],
+      "b": -90.0,
+      "hd": -100.0,
+      "ft": 0,
+      "g": 0,
+      "ua": 82.0,
+      "fa": 26
+    },
+    "ARCH_BAD": {
+      "hip": [
+        -56.1,
+        -358.2
+      ],
+      "ankle": [
+        200,
+        0
+      ],
+      "b": -102.0,
+      "hd": -130,
+      "ft": 0,
+      "g": 0,
+      "ua": 94.0,
+      "fa": 26,
+      "cv": -34
+    },
+    "TOES_BAD": {
+      "hip": [
+        -50.0,
+        -300.0
+      ],
+      "ankle": [
+        200,
+        -40
+      ],
+      "b": -90.0,
+      "hd": -100.0,
+      "ft": 40,
+      "g": 0,
+      "ua": 82.0,
+      "fa": 26
+    },
+    "FAR_BAD": {
+      "hip": [
+        -50.0,
+        -300.0
+      ],
+      "ankle": [
+        300,
+        0
+      ],
+      "b": -90.0,
+      "hd": -100.0,
+      "ft": 0,
+      "g": 0,
+      "ua": 82.0,
+      "fa": 26
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · GLÚTEOS",
+      "head": [
+        "HIP THRUST",
+        "MACHINE"
+      ],
+      "sub": "Hip thrust en máquina",
+      "vo": "Hip Thrust Machine: el empuje de cadera en máquina. El ejercicio rey para los glúteos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.6
+            ],
+            [
+              "DOWN",
+              1.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "También: máquina de glúteos",
+      "vo": "También le dicen máquina de glúteos. Trabaja el glúteo mayor y suma los isquiotibiales.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            410,
+            1330
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            860
+          ],
+          "text": "RESPALDO",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            547,
+            1432
+          ],
+          "r": 60,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "ALMOHADILLA",
+          "anchor": "end",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            173,
+            1412
+          ],
+          "r": 30,
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "LA",
+        "ALMOHADILLA"
+      ],
+      "sub": "Sobre la cadera, no la panza",
+      "vo": "Ajustá la almohadilla o el cinturón para que apoye sobre el hueso de la cadera, no sobre la panza.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            547,
+            1432
+          ],
+          "r": 64,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "SOBRE LA CADERA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "PESO"
+      ],
+      "sub": "Con el pasador",
+      "vo": "Elegí el peso con el pasador: uno que puedas subir doce veces con pausa arriba.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            173,
+            1412
+          ],
+          "r": 30,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            860
+          ],
+          "text": "PASADOR",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESPALDA",
+        "ALTA"
+      ],
+      "sub": "Omóplatos en el respaldo",
+      "vo": "Apoyá la espalda alta en el respaldo, pies firmes al ancho de la cadera y el mentón hacia el pecho.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            410,
+            1330
+          ],
+          "r": 50,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            860
+          ],
+          "text": "OMÓPLATOS APOYADOS",
+          "anchor": "start",
+          "at": 1.2
+        },
+        {
+          "type": "ring",
+          "pos": [
+            798,
+            1508
+          ],
+          "r": 50,
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "EMPUJÁ",
+        "LA CADERA"
+      ],
+      "sub": "Con los talones",
+      "vo": "Paso uno. Empujá la cadera hacia arriba con los talones, hasta alinear el tronco con los muslos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            547,
+            1372
+          ],
+          "to": [
+            604,
+            1222
+          ],
+          "at": 0.8,
+          "dur": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            798,
+            1508
+          ],
+          "r": 50,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "EMPUJÁ CON TALONES",
+          "anchor": "end",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "APRETÁ",
+        "ARRIBA"
+      ],
+      "sub": "Pausa de 1 a 2 segundos",
+      "vo": "Paso dos. Arriba, pausa de uno a dos segundos apretando los glúteos. Las tibias quedan verticales.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            604,
+            1292
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "TIBIAS VERTICALES",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "CONTROLADO"
+      ],
+      "sub": "Sin apoyar el peso",
+      "vo": "Paso tres. Bajá controlado hasta casi apoyar la cola, y volvé a subir.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.6,
+          "dur": 2.0
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "CONTROLADO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al subir",
+      "vo": "Soltá el aire mientras subís la cadera y tomalo mientras bajás.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.8
+            ],
+            [
+              "DOWN",
+              1.6
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "LUMBAR",
+        "ARQUEADA"
+      ],
+      "sub": "Costillas abajo",
+      "vo": "Error: arquear la zona lumbar arriba y mirar al techo. El movimiento es de cadera: costillas abajo y mentón al pecho.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 0.5,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            600,
+            1250
+          ],
+          "r": 60,
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "EN PUNTA",
+        "DE PIE"
+      ],
+      "sub": "Empujá con los talones",
+      "vo": "Error: empujar con la punta de los pies. Se cargan los cuádriceps: apoyá bien los talones.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "TOES_BAD",
+          "at": 0.5,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            784,
+            1479
+          ],
+          "r": 50,
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "RÁPIDO Y",
+        "SIN PAUSA"
+      ],
+      "sub": "Arriba se aprieta",
+      "vo": "Error: subir y bajar rápido, sin pausa. El glúteo trabaja arriba: frená uno o dos segundos en cada repetición.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              0.4
+            ],
+            [
+              "DOWN",
+              0.4
+            ]
+          ],
+          "at": 0.5,
+          "until": 4.0
+        },
+        {
+          "to": "UP",
+          "at": 4.1,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "SIN PAUSA",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Mentón al pecho",
+        "Costillas abajo",
+        "Tibias verticales arriba",
+        "Pausa de 1 a 2 segundos"
+      ],
+      "vo": "Tips de profe: mentón al pecho, costillas abajo, tibias verticales arriba y pausa de uno a dos segundos apretando.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.6
+            ],
+            [
+              "DOWN",
+              1.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Empujá con los talones",
+        "Almohadilla en la cadera",
+        "Bajá controlado",
+        "Tronco y muslos alineados"
+      ],
+      "vo": "Claves: empujá con los talones, almohadilla en la cadera, bajá controlado y arriba tronco y muslos alineados.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12"
+      ],
+      "sub": "Un minuto y medio de pausa",
+      "vo": "Tres series de diez a doce, con un minuto y medio de pausa. Cuando las doce salen con pausa, subí el peso.",
+      "chips": [
+        {
+          "label": "1 · EMPUJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ LENTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.6
+            ],
+            [
+              "DOWN",
+              1.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "grip": 0,
+    "zoom": 1.0,
+    "dy": 40
+  },
+  "youtube": {
+    "titulo": "Hip Thrust Machine 🔥 Glúteos con el hip thrust en máquina | Gimnasio",
+    "tags": [
+      "hip thrust",
+      "hip thrust en máquina",
+      "máquina de glúteos",
+      "empuje de cadera",
+      "cómo hacer hip thrust",
+      "glúteos",
+      "isquiotibiales",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "rutina de glúteos"
+    ],
+    "descripcion": "🔥 HIP THRUST MACHINE (hip thrust en máquina) — glúteos fuertes con el ejercicio rey\n\n¿Sentís el hip thrust en la espalda baja y no en los glúteos? Estás arqueando la lumbar. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Almohadilla o cinturón sobre el hueso de la cadera, no sobre la panza.\n2️⃣ Elegí un peso que puedas subir 12 veces con pausa arriba.\n\n📋 PASO A PASO\n1️⃣ Espalda alta en el respaldo, pies al ancho de la cadera y mentón al pecho.\n2️⃣ Empujá la cadera hacia arriba con los talones.\n3️⃣ Arriba, tronco y muslos alineados: pausa de 1–2 segundos apretando glúteos.\n4️⃣ Bajá controlado hasta casi apoyar.\n\n❌ ERRORES COMUNES\n• Arquear la zona lumbar arriba → costillas abajo y mentón al pecho.\n• Empujar con la punta del pie → talones firmes.\n• Hacerlo rápido sin pausa → 1–2 segundos arriba.\n\n💡 TIPS DEL PROFE\n• Mentón al pecho y mirada adelante, no al techo.\n• Costillas abajo: el movimiento es de cadera, no de lumbar.\n• Tibias verticales arriba.\n• Pausa de 1–2 segundos apretando glúteos.\n• Empujá con los talones.\n\n🎯 QUÉ TRABAJA\nGlúteo mayor · Isquiotibiales\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto y medio de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #HipThrust #Gluteos #Musculacion #Entrenamiento"
+  }
+}

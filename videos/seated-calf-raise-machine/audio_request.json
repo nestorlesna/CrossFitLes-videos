@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Seated Calf Raise Machine",
+      "text": "Los gemelos sentado. Con la rodilla doblada trabaja sobre todo el sóleo."
+    },
+    {
+      "id": "02",
+      "text": "Tiene una almohadilla que va sobre los muslos y un escalón para la punta del pie. Trabaja sóleo y gemelos."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá la almohadilla sobre los muslos, cerca de la rodilla. Si queda lejos, el ejercicio pierde fuerza."
+    },
+    {
+      "id": "04",
+      "text": "Apoyá la punta del pie en el borde del escalón, con el talón en el aire. Después destrabá la palanca."
+    },
+    {
+      "id": "05",
+      "text": "Sentado derecho, con las manos sobre la almohadilla. Las manos sostienen, no empujan."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Bajá el talón despacio hasta estirar bien la pantorrilla."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Abajo, pausa estirando. Nada de rebotar."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Subí lento lo más alto que puedas y apretá arriba un segundo."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras subís y tomalo mientras bajás."
+    },
+    {
+      "id": "10",
+      "text": "Error: rebotar abajo y hacer el recorrido corto. Bajá todo, pausa y subí todo."
+    },
+    {
+      "id": "11",
+      "text": "Error: empujar con las manos o tirar el tronco adelante. Si hace falta, el peso es mucho: bajalo."
+    },
+    {
+      "id": "12",
+      "text": "Tips de profe: sentado trabaja más el sóleo, pausa abajo estirando, subí lento y apretá, y las manos no empujan."
+    },
+    {
+      "id": "13",
+      "text": "Claves: almohadilla cerca de la rodilla, la punta en el borde, rango completo y trabá la palanca al terminar."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de quince, con un minuto de pausa. Cuando las quince salen fáciles, subí el peso."
+    },
+    {
+      "id": "15",
+      "text": "Al terminar, con los talones arriba, trabá la palanca antes de sacar las piernas."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

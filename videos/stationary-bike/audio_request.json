@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Stationary Bike",
+      "text": "La bicicleta fija. Cardio sin impacto, ideal para cuidar las rodillas."
+    },
+    {
+      "id": "02",
+      "text": "También le dicen bici estática. Trabaja cuádriceps y glúteos, y sobre todo el sistema cardiovascular."
+    },
+    {
+      "id": "03",
+      "text": "Parado al lado de la bici, subí el asiento hasta la altura de tu cadera. Es el ajuste más importante."
+    },
+    {
+      "id": "04",
+      "text": "Con el pedal abajo, la rodilla tiene que quedar apenas flexionada. Si queda estirada o muy doblada, corregí."
+    },
+    {
+      "id": "05",
+      "text": "Sentate con la espalda recta y las manos en el manubrio, con los codos sueltos. No cargues el peso ahí."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Pedaleá en círculo completo: empujá hacia abajo y tirá hacia arriba."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Subí la resistencia antes que la velocidad: pedalear sin carga y rapidísimo no sirve."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Buscá un ritmo parejo que puedas sostener varios minutos, con la cadera quieta en el asiento."
+    },
+    {
+      "id": "09",
+      "text": "Respirá parejo. A ritmo moderado tenés que poder decir una frase corta sin ahogarte."
+    },
+    {
+      "id": "10",
+      "text": "Error: el asiento muy bajo. Las rodillas suben mucho y sufren: subilo a la altura de la cadera."
+    },
+    {
+      "id": "11",
+      "text": "Error: el asiento muy alto. La pierna se estira de más y la cadera se balancea en cada pedalada."
+    },
+    {
+      "id": "12",
+      "text": "Error: encorvarte y apoyar todo el peso en el manubrio. Espalda recta y codos sueltos."
+    },
+    {
+      "id": "13",
+      "text": "Tips de profe: asiento a la altura de la cadera, rodilla apenas flexionada, empujá y tirá del pedal, y resistencia antes que velocidad."
+    },
+    {
+      "id": "14",
+      "text": "Claves: espalda recta, codos sueltos, cadera quieta en el asiento y ritmo parejo."
+    },
+    {
+      "id": "15",
+      "text": "De quince a treinta minutos. Por ejemplo: tres minutos suave, catorce a ritmo y tres minutos suave."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,873 @@
+{
+  "slug": "pendulum-squat",
+  "name": "Pendulum Squat",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Cuádriceps",
+    "Glúteos"
+  ],
+  "descripcion": "Similar al hack pero con recorrido en arco. Espalda apoyada, bajá profundo controlado y subí sin trabar las rodillas.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 680,
+    "y": 1507.5,
+    "scale": 0.72
+  },
+  "shadow": false,
+  "initialPose": "TOP",
+  "props": [
+    {
+      "type": "pendulum",
+      "hip": [
+        -150,
+        -470
+      ],
+      "pivot": [
+        -670,
+        -590
+      ],
+      "lean": -26,
+      "foot": [
+        0,
+        -60
+      ],
+      "plat": -14,
+      "len": 300,
+      "hand": [
+        183.1,
+        -141.3
+      ]
+    }
+  ],
+  "poses": {
+    "TOP": {
+      "hip": [
+        -150.0,
+        -470.0
+      ],
+      "ankle": [
+        0,
+        -60
+      ],
+      "b": -26,
+      "hd": 0,
+      "ft": -16,
+      "g": 0,
+      "ua": 26,
+      "fa": 118
+    },
+    "MID": {
+      "hip": [
+        -194.5,
+        -347.8
+      ],
+      "ankle": [
+        0,
+        -60
+      ],
+      "b": -12,
+      "hd": 14,
+      "ft": -16,
+      "g": 0,
+      "ua": 40,
+      "fa": 118
+    },
+    "BOTTOM": {
+      "hip": [
+        -261.2,
+        -247.0
+      ],
+      "ankle": [
+        0,
+        -60
+      ],
+      "b": 1,
+      "hd": 27,
+      "ft": -16,
+      "g": 0,
+      "ua": 53,
+      "fa": 118
+    },
+    "LOCK_BAD": {
+      "hip": [
+        -142.9,
+        -506.6
+      ],
+      "ankle": [
+        0,
+        -60
+      ],
+      "b": -30,
+      "hd": -4,
+      "ft": -16,
+      "g": 0,
+      "ua": 22,
+      "fa": 118
+    },
+    "BOUNCE_BAD": {
+      "hip": [
+        -299.2,
+        -206.1
+      ],
+      "ankle": [
+        0,
+        -60
+      ],
+      "b": 7,
+      "hd": 33,
+      "ft": -16,
+      "g": 0,
+      "ua": 59,
+      "fa": 118
+    },
+    "HEELS_BAD": {
+      "hip": [
+        -261.2,
+        -247.0
+      ],
+      "ankle": [
+        8,
+        -96
+      ],
+      "b": 1,
+      "hd": 27,
+      "ft": 22,
+      "g": 0,
+      "ua": 53,
+      "fa": 118
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "PENDULUM",
+        "SQUAT"
+      ],
+      "sub": "Sentadilla péndulo",
+      "vo": "Pendulum Squat: la sentadilla péndulo. Bajás en arco, con la espalda apoyada, y el cuádriceps hace casi todo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              2.0
+            ],
+            [
+              "TOP",
+              1.3
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Un brazo que se mueve en arco",
+      "vo": "Es parecida a la hack, pero el respaldo cuelga de un brazo que gira. Trabaja sobre todo cuádriceps y glúteos.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            198,
+            1083
+          ],
+          "r": 34,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            860
+          ],
+          "text": "EJE DEL PÉNDULO",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            1020
+          ],
+          "text": "DISCOS",
+          "anchor": "start",
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "RESPALDO",
+          "anchor": "end",
+          "at": 2.6
+        },
+        {
+          "type": "ring",
+          "pos": [
+            694,
+            1479
+          ],
+          "r": 60,
+          "at": 3.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1340
+          ],
+          "text": "PLATAFORMA",
+          "anchor": "end",
+          "at": 3.4
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "LOS",
+        "PIES"
+      ],
+      "sub": "Al ancho de hombros",
+      "vo": "Ubicá los pies en el medio de la plataforma, al ancho de los hombros, con todo el pie apoyado.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            694,
+            1479
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1340
+          ],
+          "text": "PIES AL MEDIO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "PESO"
+      ],
+      "sub": "Empezá liviano",
+      "vo": "Empezá liviano: esta máquina carga mucho las rodillas. Discos parejos de los dos lados.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            320,
+            1166
+          ],
+          "r": 84,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            900
+          ],
+          "text": "LIVIANO AL PRINCIPIO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESPALDA",
+        "APOYADA"
+      ],
+      "sub": "Hombros bajo las almohadillas",
+      "vo": "Espalda contra el respaldo, hombros bajo las almohadillas y manos en las manijas. Destrabá y arrancá.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            606,
+            1006
+          ],
+          "r": 40,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "MANOS EN MANIJAS",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 4",
+      "head": [
+        "DEJATE",
+        "GUIAR"
+      ],
+      "sub": "El arco lo marca la máquina",
+      "vo": "Paso uno. Bajá dejando que la máquina te guíe: la cadera hace un arco hacia abajo y un poco hacia atrás.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 2.0
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            594,
+            1148
+          ],
+          "to": [
+            514,
+            1292
+          ],
+          "at": 0.8,
+          "dur": 1.8,
+          "bend": [
+            -40,
+            0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "EN ARCO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 4",
+      "head": [
+        "BAJÁ",
+        "PROFUNDO"
+      ],
+      "sub": "Si la espalda sigue pegada",
+      "vo": "Paso dos. Bajá profundo solo si la espalda queda pegada al respaldo. Ese es tu límite.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.5,
+          "dur": 1.6
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            492,
+            1330
+          ],
+          "r": 66,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "ESPALDA PEGADA",
+          "anchor": "end",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 4",
+      "head": [
+        "PAUSA",
+        "CORTA"
+      ],
+      "sub": "Sin rebote",
+      "vo": "Paso tres. Abajo hacé una pausa corta, sin rebotar. El músculo frena el peso, no la articulación.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            662,
+            1300
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "SIN REBOTE",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 4 / 4",
+      "head": [
+        "SUBÍ"
+      ],
+      "sub": "Sin trabar las rodillas",
+      "vo": "Paso cuatro. Subí empujando con todo el pie, hasta casi estirar, sin trabar las rodillas.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.7,
+          "dur": 1.4
+        }
+      ],
+      "numeral": "4",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            694,
+            1479
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1340
+          ],
+          "text": "TODO EL PIE",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Aire arriba, soltalo al subir",
+      "vo": "Tomá aire arriba antes de bajar y soltalo mientras subís.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              2.2
+            ],
+            [
+              "TOP",
+              1.4
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "REBOTAR",
+        "ABAJO"
+      ],
+      "sub": "Pausa corta, sin rebote",
+      "vo": "Error: rebotar abajo para salir con impulso. Las rodillas pagan el precio: frená, pausa corta y subí.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOUNCE_BAD",
+              0.7
+            ],
+            [
+              "MID",
+              0.25
+            ]
+          ],
+          "at": 0.4,
+          "until": 3.6
+        },
+        {
+          "to": "BOUNCE_BAD",
+          "at": 3.7,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.2
+        },
+        {
+          "type": "ring",
+          "pos": [
+            629,
+            1307
+          ],
+          "r": 56,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "TALONES",
+        "ARRIBA"
+      ],
+      "sub": "Más de lo que tu movilidad da",
+      "vo": "Error: bajar más de lo que tu movilidad permite, hasta levantar los talones. Bajá solo hasta donde controlás.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.4,
+          "dur": 1.2
+        },
+        {
+          "to": "HEELS_BAD",
+          "at": 1.7,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 2.2
+        },
+        {
+          "type": "ring",
+          "pos": [
+            687,
+            1464
+          ],
+          "r": 56,
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "RODILLAS",
+        "TRABADAS"
+      ],
+      "sub": "Arriba, apenas flexionadas",
+      "vo": "Error: trabar las rodillas arriba con mucho peso. Terminá cada repetición con las piernas casi estiradas.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "LOCK_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            641,
+            1303
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Dejá que la máquina guíe",
+        "Profundo con espalda pegada",
+        "Pausa corta, sin rebote",
+        "Empezá liviano"
+      ],
+      "vo": "Tips de profe: dejá que la máquina te guíe, bajá profundo solo con la espalda pegada, pausa sin rebote y empezá liviano.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              2.0
+            ],
+            [
+              "TOP",
+              1.3
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Pies al ancho de hombros",
+        "Todo el pie apoyado",
+        "Subí sin trabar",
+        "Rodillas en línea con pies"
+      ],
+      "vo": "Claves: pies al ancho de los hombros, todo el pie apoyado, subí sin trabar y rodillas en línea con los pies.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10"
+      ],
+      "sub": "Dos minutos de pausa",
+      "vo": "Tres series de ocho a diez, con dos minutos de pausa. Subí el peso de a poco y solo con buena técnica.",
+      "chips": [
+        {
+          "label": "1 · EN ARCO",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PAUSA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SUBÍ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              2.0
+            ],
+            [
+              "TOP",
+              1.3
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.2,
+      "badge": "AL TERMINAR",
+      "head": [
+        "TRABÁ",
+        "ARRIBA"
+      ],
+      "sub": "Antes de salir",
+      "vo": "Al terminar, arriba y con las piernas casi estiradas, trabá la máquina antes de sacar los hombros.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            606,
+            1006
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "TRABÁ ANTES",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "BOTTOM",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 110
+  },
+  "youtube": {
+    "titulo": "Pendulum Squat 🔥 Cómo hacer la sentadilla péndulo bien | Gimnasio",
+    "tags": [
+      "pendulum squat",
+      "sentadilla péndulo",
+      "péndulo",
+      "cómo hacer sentadilla péndulo",
+      "cuádriceps",
+      "glúteos",
+      "piernas",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "rutina de piernas"
+    ],
+    "descripcion": "🔥 PENDULUM SQUAT (sentadilla péndulo) — cuádriceps a fondo con la espalda protegida\n\n¿Viste la máquina péndulo y no sabés cómo usarla? Es muy parecida a la hack, pero en arco. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Pies en el medio de la plataforma, al ancho de los hombros.\n2️⃣ Empezá liviano y con discos parejos de los dos lados.\n\n📋 PASO A PASO\n1️⃣ Espalda contra el respaldo, hombros bajo las almohadillas y manos en las manijas.\n2️⃣ Bajá dejando que la máquina te guíe en arco.\n3️⃣ Bajá profundo solo si la espalda sigue pegada.\n4️⃣ Pausa corta abajo, sin rebote.\n5️⃣ Subí con todo el pie hasta casi estirar.\n6️⃣ Al terminar, trabá la máquina antes de salir.\n\n❌ ERRORES COMUNES\n• Rebotar abajo → pausa corta y subida controlada.\n• Bajar más de lo que tu movilidad permite → bajá hasta donde controlás.\n• Mucho peso sin control → empezá liviano.\n• Trabar las rodillas arriba → terminá casi estirado.\n\n💡 TIPS DEL PROFE\n• Bajá profundo solo si la espalda queda pegada.\n• Recorrido en arco: dejá que la máquina te guíe.\n• Pausa corta abajo, sin rebote.\n• Subí sin trabar las rodillas.\n• Empezá liviano: carga mucho las rodillas.\n\n🎯 QUÉ TRABAJA\nCuádriceps · Glúteos\n\n⏱️ CUÁNTO\n3 series de 8–10 repeticiones, con 2 minutos de pausa. Subí el peso de a poco. Nivel: avanzado.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\nSi es tu primera vez en esta máquina, pedile al profe del gimnasio que te ajuste la máquina y te mire las primeras series.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #PendulumSquat #Piernas #Musculacion #Entrenamiento"
+  }
+}

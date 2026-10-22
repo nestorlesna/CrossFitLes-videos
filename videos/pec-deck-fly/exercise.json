@@ -1,0 +1,760 @@
+{
+  "slug": "pec-deck-fly",
+  "name": "Pec Deck Fly",
+  "maquina": true,
+  "category": "GIMNASIO · PECHO",
+  "tags": [
+    "Pectorales"
+  ],
+  "descripcion": "Sentate con la espalda apoyada, manijas a la altura del pecho, codos levemente flexionados. Juntá los brazos adelante y abrí despacio.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 740,
+    "y": 1509.6,
+    "scale": 0.66
+  },
+  "shadow": false,
+  "initialPose": "OPEN",
+  "props": [
+    {
+      "type": "pecdeck",
+      "pivot": [
+        -230,
+        -839
+      ],
+      "frameTop": -1060,
+      "stack": -640,
+      "seat": [
+        -390,
+        -90,
+        -184
+      ],
+      "back": [
+        -318,
+        -4,
+        470
+      ],
+      "pin": 4
+    }
+  ],
+  "poses": {
+    "OPEN": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -4,
+      "hd": 0,
+      "ua": 84,
+      "fa": -6,
+      "al": 0.3
+    },
+    "MID": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -4,
+      "hd": 0,
+      "ua": 84,
+      "fa": -4,
+      "al": 0.72
+    },
+    "CLOSED": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -4,
+      "hd": 0,
+      "ua": 84,
+      "fa": -2,
+      "al": 1
+    },
+    "BACK_BAD": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -4,
+      "hd": 0,
+      "ua": 96,
+      "fa": -10,
+      "al": 0.12
+    },
+    "PRESS_BAD": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -4,
+      "hd": 0,
+      "ua": 40,
+      "fa": 100,
+      "al": 1
+    },
+    "SHRUG_BAD": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": 10,
+      "hd": 18,
+      "cv": 18,
+      "ua": 90,
+      "fa": -2,
+      "al": 1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PECHO",
+      "head": [
+        "PEC DECK",
+        "FLY"
+      ],
+      "sub": "Pec deck o contractor",
+      "vo": "Pec Deck Fly: las aperturas en máquina, el famoso contractor. Pecho bien aislado y sin complicaciones.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CLOSED",
+              1.0
+            ],
+            [
+              "OPEN",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "También: contractor o butterfly",
+      "vo": "También le dicen contractor o butterfly. Trabaja los pectorales y suma la parte de adelante del hombro.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            760
+          ],
+          "text": "PILA DE PESO",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            588,
+            956
+          ],
+          "r": 26,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            760
+          ],
+          "text": "EJE",
+          "anchor": "middle",
+          "at": 1.6
+        },
+        {
+          "type": "ring",
+          "pos": [
+            524,
+            1428
+          ],
+          "r": 26,
+          "at": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            690
+          ],
+          "text": "ASIENTO",
+          "anchor": "end",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "EL",
+        "ASIENTO"
+      ],
+      "sub": "Manijas a la altura del pecho",
+      "vo": "Ajustá el asiento para que las manijas queden a la altura del pecho, con los brazos casi horizontales.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            524,
+            1428
+          ],
+          "r": 28,
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            634,
+            1184
+          ],
+          "r": 36,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            740
+          ],
+          "text": "ALTURA DEL PECHO",
+          "anchor": "end",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "PESO"
+      ],
+      "sub": "Liviano para empezar",
+      "vo": "Elegí el peso con el pasador. Empezá liviano: en la apertura el hombro queda expuesto.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            351,
+            1393
+          ],
+          "r": 30,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            760
+          ],
+          "text": "PASADOR",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESPALDA",
+        "APOYADA"
+      ],
+      "sub": "Codos apenas flexionados",
+      "vo": "Espalda apoyada, hombros abajo, lejos de las orejas, y los codos apenas flexionados. Mirá la vista de arriba.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        }
+      ],
+      "topview": {
+        "mode": "fly",
+        "label": "CODOS FIJOS"
+      },
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            760
+          ],
+          "text": "HOMBROS ABAJO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "JUNTÁ",
+        "LOS BRAZOS"
+      ],
+      "sub": "Adelante del pecho",
+      "vo": "Paso uno. Juntá los brazos adelante, en un arco, como si abrazaras un árbol. Los codos no cambian.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "to": "CLOSED",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ],
+      "numeral": "1",
+      "topview": {
+        "mode": "fly",
+        "label": "CODOS FIJOS"
+      },
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            760
+          ],
+          "text": "EN ARCO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "APRETÁ",
+        "1 SEGUNDO"
+      ],
+      "sub": "Manos juntas",
+      "vo": "Paso dos. Con las manos juntas, apretá el pecho un segundo.",
+      "moves": [
+        {
+          "cut": "CLOSED",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "topview": {
+        "mode": "fly",
+        "label": "CODOS FIJOS"
+      },
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            786,
+            1200
+          ],
+          "r": 40,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            760
+          ],
+          "text": "APRETÁ EL PECHO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ABRÍ",
+        "DESPACIO"
+      ],
+      "sub": "Hasta la línea del hombro",
+      "vo": "Paso tres. Abrí despacio hasta la línea de los hombros, no más atrás, sin que las placas se apoyen.",
+      "moves": [
+        {
+          "cut": "CLOSED",
+          "at": 0
+        },
+        {
+          "to": "OPEN",
+          "at": 0.6,
+          "dur": 2.4
+        }
+      ],
+      "numeral": "3",
+      "topview": {
+        "mode": "fly",
+        "label": "CODOS FIJOS"
+      },
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            760
+          ],
+          "text": "HASTA EL HOMBRO",
+          "anchor": "start",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al juntar",
+      "vo": "Soltá el aire mientras juntás los brazos y tomalo mientras abrís.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CLOSED",
+              1.0
+            ],
+            [
+              "OPEN",
+              2.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "ABRIR",
+        "DE MÁS"
+      ],
+      "sub": "No pases la línea del hombro",
+      "vo": "Error: abrir los brazos más atrás de la línea del hombro. Lo fuerza de más: abrí solo hasta ahí.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "to": "BACK_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            569,
+            1173
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "DOBLAR",
+        "LOS CODOS"
+      ],
+      "sub": "Se vuelve un press",
+      "vo": "Error: doblar y estirar los codos. Se vuelve un press: los codos quedan fijos, apenas flexionados.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "to": "PRESS_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            642,
+            1260
+          ],
+          "r": 40,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "MUCHO",
+        "PESO"
+      ],
+      "sub": "Te despega de la máquina",
+      "vo": "Error: usar tanto peso que te despegás del respaldo y subís los hombros. Bajá el peso y espalda apoyada.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "to": "SHRUG_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            614,
+            1176
+          ],
+          "r": 56,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Codos fijos y apenas doblados",
+        "Manijas a la altura del pecho",
+        "Apretá 1 segundo",
+        "Hombros lejos de las orejas"
+      ],
+      "vo": "Tips de profe: codos fijos, manijas a la altura del pecho, apretá un segundo y hombros lejos de las orejas.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CLOSED",
+              1.0
+            ],
+            [
+              "OPEN",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Espalda apoyada",
+        "Abrí hasta el hombro",
+        "Sin apoyar las placas",
+        "Peso que controles"
+      ],
+      "vo": "Claves: espalda apoyada, abrí hasta la línea del hombro, sin apoyar las placas y con un peso que controles.",
+      "moves": [
+        {
+          "cut": "CLOSED",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 15"
+      ],
+      "sub": "Un minuto de pausa",
+      "vo": "Tres series de doce a quince, con un minuto de pausa. Buscá sentir el pecho en cada repetición.",
+      "chips": [
+        {
+          "label": "1 · JUNTÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · ABRÍ LENTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CLOSED",
+              1.0
+            ],
+            [
+              "OPEN",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "CLOSED",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 110
+  },
+  "youtube": {
+    "titulo": "Pec Deck Fly 🔥 Aperturas en máquina (contractor) bien hechas | Gimnasio",
+    "tags": [
+      "pec deck",
+      "pec deck fly",
+      "contractor",
+      "aperturas en máquina",
+      "butterfly",
+      "cómo usar el pec deck",
+      "pecho",
+      "pectorales",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes"
+    ],
+    "descripcion": "🔥 PEC DECK FLY (pec deck o contractor) — pecho bien aislado y sin complicaciones\n\n¿Te duelen los hombros en el contractor? Seguro estás abriendo de más. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el asiento para que las manijas queden a la altura del pecho.\n2️⃣ Elegí un peso liviano con el pasador para empezar.\n\n📋 PASO A PASO\n1️⃣ Espalda apoyada, hombros abajo y codos apenas flexionados.\n2️⃣ Juntá los brazos adelante en un arco, sin cambiar los codos.\n3️⃣ Con las manos juntas, apretá el pecho un segundo.\n4️⃣ Abrí despacio hasta la línea del hombro, sin apoyar las placas.\n\n❌ ERRORES COMUNES\n• Abrir más allá de la línea del hombro → frená en la línea del hombro.\n• Doblar y estirar los codos (se vuelve press) → codos fijos.\n• Usar peso excesivo → peso que controles con la espalda apoyada.\n\n💡 TIPS DEL PROFE\n• Codos apenas flexionados y fijos todo el recorrido.\n• Manijas a la altura del pecho.\n• Abrí hasta la línea del hombro, no más atrás.\n• Apretá el pecho un segundo con las manos juntas.\n• Hombros abajo, lejos de las orejas.\n\n🎯 QUÉ TRABAJA\nPectorales · Hombros anteriores\n\n⏱️ CUÁNTO\n3 series de 12–15 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #PecDeck #Pecho #Musculacion #Entrenamiento"
+  }
+}
