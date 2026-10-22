@@ -1,0 +1,817 @@
+{
+  "slug": "lat-pulldown",
+  "name": "Lat Pulldown",
+  "maquina": true,
+  "category": "GIMNASIO · ESPALDA",
+  "tags": [
+    "Dorsales",
+    "Bíceps"
+  ],
+  "descripcion": "Sentate con los muslos trabados bajo el rodillo. Agarre algo más ancho que los hombros. Bajá la barra al pecho sacando pecho y llevando los codos abajo. Subí controlado.",
+  "revisado": true,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · ESPALDA",
+      "head": [
+        "LAT",
+        "PULLDOWN"
+      ],
+      "sub": "Jalón al pecho",
+      "vo": "Lat Pulldown: el jalón al pecho en polea alta. Construye una espalda ancha y te prepara para las dominadas.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "PULL",
+              1.2
+            ],
+            [
+              "TOP",
+              1.4
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "También: polea alta o jalón",
+      "vo": "También le dicen polea alta o jalón. Trabaja los dorsales y suma bíceps, romboides y la parte de atrás del hombro.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            750
+          ],
+          "text": "POLEA ALTA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            360,
+            965
+          ],
+          "text": "BARRA",
+          "anchor": "end",
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            570,
+            1240
+          ],
+          "text": "RODILLO",
+          "anchor": "start",
+          "at": 2.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            870,
+            1100
+          ],
+          "text": "PLACAS",
+          "anchor": "start",
+          "at": 3.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AJUSTE 1",
+      "head": [
+        "EL",
+        "RODILLO"
+      ],
+      "sub": "Muslos bien trabados",
+      "vo": "Ajustá el rodillo para que los muslos queden trabados: así no te levantás del asiento cuando el peso tira.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            514,
+            1313
+          ],
+          "r": 52,
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            468,
+            1372
+          ],
+          "r": 26,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            1250
+          ],
+          "text": "MUSLOS TRABADOS",
+          "anchor": "start",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "PESO"
+      ],
+      "sub": "Con el pasador de la pila",
+      "vo": "Elegí el peso con el pasador. Arrancá con uno que puedas bajar doce veces sin balancear el cuerpo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            792,
+            1393
+          ],
+          "r": 40,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            870,
+            1250
+          ],
+          "text": "PASADOR",
+          "anchor": "start",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "AGARRE",
+        "ANCHO"
+      ],
+      "sub": "Un poco más que los hombros",
+      "vo": "Agarrá la barra un poco más ancho que los hombros, sentate y estirá los brazos arriba, con el pecho alto.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            418,
+            962
+          ],
+          "r": 44,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            820
+          ],
+          "text": "AGARRE ANCHO",
+          "anchor": "start",
+          "at": 1.3
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            1010
+          ],
+          "text": "PECHO ALTO",
+          "anchor": "start",
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 4",
+      "head": [
+        "HOMBROS",
+        "ABAJO"
+      ],
+      "sub": "Primero bajan los omóplatos",
+      "vo": "Paso uno. Antes de doblar los brazos, bajá los hombros y juntá los omóplatos. Ahí se activan los dorsales.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            250,
+            1040
+          ],
+          "to": [
+            250,
+            1140
+          ],
+          "at": 0.8,
+          "dur": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            990
+          ],
+          "text": "HOMBROS ABAJO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 4",
+      "head": [
+        "CODOS",
+        "ABAJO"
+      ],
+      "sub": "Hacia los bolsillos",
+      "vo": "Paso dos. Tirá llevando los codos hacia abajo y atrás, como si los quisieras meter en los bolsillos.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 1.0
+        },
+        {
+          "to": "PULL",
+          "at": 1.6,
+          "dur": 0.9
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            980
+          ],
+          "text": "CODOS AL BOLSILLO",
+          "anchor": "start",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 4",
+      "head": [
+        "AL",
+        "PECHO"
+      ],
+      "sub": "Parte alta del pecho",
+      "vo": "Paso tres. Bajá la barra hasta la parte alta del pecho, con el tronco apenas inclinado hacia atrás.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            410,
+            1194
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            980
+          ],
+          "text": "PARTE ALTA DEL PECHO",
+          "anchor": "start",
+          "at": 1.1
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 4 / 4",
+      "head": [
+        "SUBÍ",
+        "LENTO"
+      ],
+      "sub": "Hasta estirar los brazos",
+      "vo": "Paso cuatro. Subí controlando el peso hasta estirar los brazos, sin que las placas choquen arriba.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.8,
+          "dur": 2.0
+        }
+      ],
+      "numeral": "4",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            300,
+            1150
+          ],
+          "to": [
+            300,
+            900
+          ],
+          "at": 0.8,
+          "dur": 2.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            870,
+            1000
+          ],
+          "text": "SIN GOLPE",
+          "anchor": "start",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al bajar la barra",
+      "vo": "Soltá el aire mientras bajás la barra y tomalo mientras subís. Ritmo parejo, sin apurarte.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "PULL",
+              1.4
+            ],
+            [
+              "TOP",
+              2.0
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "DETRÁS DE",
+        "LA NUCA"
+      ],
+      "sub": "Siempre adelante, al pecho",
+      "vo": "Error: bajar la barra por detrás de la nuca. Fuerza el hombro y el cuello: llevala siempre adelante, al pecho.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "NECK_BAD",
+          "at": 0.6,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "TIRARTE",
+        "ATRÁS"
+      ],
+      "sub": "El tronco casi quieto",
+      "vo": "Error: tirarte muy atrás para ayudarte con el cuerpo. Si te balanceás, bajá el peso y dejá trabajar la espalda.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 0.6,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "SOLO",
+        "BRAZOS"
+      ],
+      "sub": "Tirá con la espalda",
+      "vo": "Error: tirar solo con los brazos, con los codos adelante y los hombros encogidos. Pensá en los codos, no en las manos.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "ARMS_BAD",
+          "at": 0.6,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Codos al bolsillo",
+        "Pecho alto, apenas atrás",
+        "Barra al pecho",
+        "Subí controlado"
+      ],
+      "vo": "Tips de profe: pensá en los codos y no en las manos, pecho alto, barra al pecho y subí sin dejar que el peso te tire.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "PULL",
+              1.2
+            ],
+            [
+              "TOP",
+              1.4
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Muslos trabados",
+        "Agarre algo más ancho",
+        "Primero bajan los hombros",
+        "Nunca detrás de la nuca"
+      ],
+      "vo": "Claves: muslos trabados, agarre un poco más ancho que los hombros, primero bajan los hombros y nunca detrás de la nuca.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12"
+      ],
+      "sub": "Minuto y medio de pausa",
+      "vo": "Tres series de diez a doce, con un minuto y medio de pausa. Cuando las doce salen fáciles, subí una placa.",
+      "chips": [
+        {
+          "label": "1 · HOMBROS ABAJO",
+          "at": 0.6
+        },
+        {
+          "label": "2 · AL PECHO",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SUBÍ LENTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "PULL",
+              1.2
+            ],
+            [
+              "TOP",
+              1.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.2,
+      "badge": "AL TERMINAR",
+      "head": [
+        "SIN",
+        "SOLTAR"
+      ],
+      "sub": "Acompañá la barra arriba",
+      "vo": "Al terminar, acompañá la barra hasta arriba antes de soltarla. Si la soltás de golpe, las placas chocan.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.6,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            870,
+            1000
+          ],
+          "text": "SIN GOLPE",
+          "anchor": "start",
+          "at": 2.0
+        }
+      ]
+    }
+  ],
+  "rig": {
+    "x": 560,
+    "y": 1509.6,
+    "scale": 0.66
+  },
+  "shadow": false,
+  "initialPose": "TOP",
+  "props": [
+    {
+      "type": "latpulldown",
+      "x": 300,
+      "pulley": [
+        -215,
+        -1130
+      ],
+      "seat": -186,
+      "pad": [
+        -70,
+        -298
+      ],
+      "pin": 6,
+      "rest": 307
+    }
+  ],
+  "poses": {
+    "TOP": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 1,
+      "ed": -1,
+      "b": 0,
+      "hd": 2,
+      "hx": -215,
+      "hy": -830
+    },
+    "MID": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 1,
+      "ed": -1,
+      "b": -8,
+      "hd": -2,
+      "hx": -196,
+      "hy": -680
+    },
+    "PULL": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 1,
+      "ed": -1,
+      "b": -12,
+      "hd": -6,
+      "hx": -228,
+      "hy": -478
+    },
+    "NECK_BAD": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 1,
+      "ed": -1,
+      "b": 16,
+      "hd": 34,
+      "hx": -228,
+      "hy": -585
+    },
+    "LEAN_BAD": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 1,
+      "ed": -1,
+      "b": -40,
+      "hd": -22,
+      "hx": -318,
+      "hy": -440
+    },
+    "ARMS_BAD": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 1,
+      "ed": 1,
+      "b": 0,
+      "hd": 4,
+      "hx": -150,
+      "hy": -560
+    }
+  },
+  "miniatura": {
+    "pose": "PULL",
+    "grip": 1,
+    "zoom": 1.0,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Lat Pulldown 🔥 Cómo hacer bien el jalón al pecho | Gimnasio",
+    "tags": [
+      "lat pulldown",
+      "jalón al pecho",
+      "polea alta",
+      "cómo hacer jalón al pecho",
+      "dorsales",
+      "espalda ancha",
+      "espalda en el gimnasio",
+      "máquinas de gimnasio",
+      "gimnasio para principiantes",
+      "errores jalón al pecho",
+      "rutina de espalda",
+      "dominadas"
+    ],
+    "descripcion": "🔥 LAT PULLDOWN (jalón al pecho) — una espalda ancha y el camino a las dominadas\n\n¿Sentís el jalón en los brazos y no en la espalda? Es el error más común en esta máquina, y se arregla con dos ideas simples. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el rodillo para que los muslos queden bien trabados.\n2️⃣ Elegí el peso con el pasador: uno que puedas bajar 12 veces sin balancearte.\n\n📋 PASO A PASO\n1️⃣ Agarrá la barra un poco más ancho que los hombros y sentate con los brazos estirados.\n2️⃣ Antes de doblar los brazos, bajá los hombros y juntá los omóplatos.\n3️⃣ Tirá llevando los codos hacia abajo y atrás, hacia los bolsillos.\n4️⃣ Bajá la barra hasta la parte alta del pecho, con el tronco apenas inclinado.\n5️⃣ Subí controlando hasta estirar los brazos, sin que las placas choquen.\n\n❌ ERRORES COMUNES\n• Bajar la barra detrás de la nuca → siempre adelante, al pecho.\n• Tirarte muy atrás con el cuerpo → tronco casi quieto y menos peso.\n• Tirar solo con los brazos → pensá en los codos, no en las manos.\n• Soltar la barra de golpe arriba → acompañala hasta el final.\n\n💡 TIPS DEL PROFE\n• Pensá en llevar los codos al bolsillo, no en bajar la barra.\n• Pecho alto, apenas inclinado atrás (10–15°).\n• Exhalá al bajar.\n• Si todavía no te salen dominadas, esta máquina es tu mejor aliada.\n\n🎯 QUÉ TRABAJA\nDorsales · Bíceps · Romboides · Deltoides posterior\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto y medio de pausa. Cuando las 12 salen fáciles, subí una placa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #LatPulldown #Espalda #Musculacion #Entrenamiento"
+  }
+}

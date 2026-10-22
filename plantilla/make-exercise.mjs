@@ -4,7 +4,7 @@
 //   node plantilla/make-exercise.mjs <slug> --render   además renderiza y copia a salida/<slug>.mp4
 //   node plantilla/make-exercise.mjs --checklist       solo regenera CHECKLIST.md (+ salida/<slug>.youtube.txt)
 //   node plantilla/make-exercise.mjs <slug> --miniatura  solo regenera salida/<slug>.miniatura.png (miniatura de YouTube)
-//   node plantilla/make-exercise.mjs <slug> --info     muestra la fila de ejercicios/ejercicios.csv (datos para la ficha)
+//   node plantilla/make-exercise.mjs <slug> --info     muestra la fila de ejercicios/ejercicios.csv o maquinas.csv (datos para la ficha)
 //
 // Flags: --force-tts (regenera la voz aunque el texto no cambió) · --no-check · --no-snapshot
 //        --prefijo=OC (con --render: el video sale como salida/OC_<slug>.mp4; sin prefijo, salida/<slug>.mp4)
@@ -37,8 +37,9 @@ const today = () => new Date().toISOString().slice(0, 10);
 
 // Lista maestra de ejercicios (export de la app del box): ejercicios/ejercicios.csv, ";" con comillas, UTF-8 con BOM.
 // El orden de las filas es el orden en que se van a hacer los videos.
-export function readCsv() {
-  const file = join(ROOT, "ejercicios", "ejercicios.csv");
+// readCsv("maquinas.csv"): lista de videos de máquinas de gimnasio (sale de maquinas_gimnasio.xlsx, una fila por video).
+export function readCsv(name = "ejercicios.csv") {
+  const file = join(ROOT, "ejercicios", name);
   if (!existsSync(file)) return [];
   const t = readFileSync(file, "utf8").replace(/^﻿/, "");
   const rows = [];
@@ -94,6 +95,7 @@ function exportYoutube(spec, conEn = false) {
 
 function writeDocs(dir, spec) {
   const frames = spec.frames.map((f, i) => ({ ...f, id: f.id || String(i + 1).padStart(2, "0") }));
+  const audience = spec.maquina ? "alumnos de gimnasio (máquinas)" : "alumnos de CrossFit";
   writeFileSync(join(dir, "BRIEF.md"), `---
 workflow: faceless-explainer
 flow: automation
@@ -102,7 +104,7 @@ message: "Cómo ejecutar ${spec.name} paso a paso"
 destination: reels
 aspect: 1080x1920
 language: es
-audience: alumnos de CrossFit
+audience: ${audience}
 angle: how-to
 ---
 
@@ -118,7 +120,7 @@ Descripción (verbatim): "${spec.descripcion}"
   writeFileSync(join(dir, "STORYBOARD.md"), `---
 format: 1080x1920
 message: "Cómo ejecutar ${spec.name} paso a paso"
-audience: alumnos de CrossFit
+audience: ${audience}
 mode: autonomous
 music: plantilla/musica/bgm-base.wav
 ---
@@ -227,8 +229,12 @@ export function checklist() {
       return [spec.slug, { spec, file: join(ROOT, "ejercicios", f) }];
     }),
   );
-  // Primero las fichas que no están en la lista (p. ej. squat-to-stand), después la lista en su orden.
-  const inCsv = new Set(csv.map((r) => r.clave));
+  // Máquinas de gimnasio: lista aparte (ejercicios/maquinas.csv), tabla aparte y numeración M1, M2…
+  const maq = readCsv("maquinas.csv");
+  const runtime = readFileSync(join(HERE, "runtime.js"), "utf8");
+  const dibujada = (prop) => runtime.includes(`pr.type === "${prop}"`);
+  // Primero las fichas que no están en ninguna lista (p. ej. squat-to-stand), después la lista en su orden.
+  const inCsv = new Set([...csv, ...maq].map((r) => r.clave));
   const items = [
     ...Object.keys(specs).filter((k) => !inCsv.has(k)).sort().map((k) => ({ slug: k, n: "—" })),
     ...csv.map((r, i) => ({ slug: r.clave, n: String(i + 1), row: r })),
@@ -236,7 +242,7 @@ export function checklist() {
   const ok = (b) => (b ? "✅" : "⬜");
   let done = 0, fichas = 0, yts = 0, subidos = 0, next = null;
   const conEn = [], sinEn = []; // videos en salida/ (no subidos) ya re-renderizados / pendientes con el nombre en inglés
-  const rows = items.map(({ slug, n, row }) => {
+  const fila = ({ slug, n, row }) => {
     const s = specs[slug];
     const st = readStatus(join(ROOT, "videos", slug));
     const mp4 = st.archivo || `${slug}.mp4`; // archivo = nombre con prefijo del último render (--prefijo)
@@ -244,11 +250,14 @@ export function checklist() {
     const out = outPath(mp4), subido = !!(subidoPath(mp4) || subidoPath(`${slug}.mp4`));
     const rendered = existsSync(out);
     const name = s?.spec.name || row?.nombre || slug;
-    const impl = row?.implemento || (s ? "Ninguno" : "");
+    // Máquina: 🏋️ + nombre en castellano + prop de runtime.js (y si todavía hay que dibujarla).
+    const impl = row?.prop
+      ? `🏋️ ${row.nombre_es} · \`${row.prop}\`${dibujada(row.prop) ? "" : " (falta dibujar)"}`
+      : row?.implemento || (s ? "Ninguno" : "");
     if (!s) {
       next ??= `${n} · ${name}`;
-      const faltan = [!row?.descripcion && "descripción", !row?.tecnica_coach && "técnica"].filter(Boolean);
-      const nota = faltan.length ? `falta ${faltan.join(" y ")} en el CSV` : "";
+      const faltan = row?.prop ? [] : [!row?.descripcion && "descripción", !row?.tecnica_coach && "técnica"].filter(Boolean);
+      const nota = faltan.length ? `falta ${faltan.join(" y ")} en el CSV` : row?.prop ? `Lote ${row.lote} · Nivel ${row.nivel} · ${row.dosis}` : "";
       return `| ${n} | ${name} | ${impl} | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | ${nota} |`;
     }
     fichas++;
@@ -264,7 +273,25 @@ export function checklist() {
     if (rendered && st.renderVozEn) { en = "✅"; if (!subido) conEn.push(slug); }
     else if (rendered && !subido && spec.nombreEn !== false) { en = "⬜"; sinEn.push(`${slug}${mp4 !== `${slug}.mp4` ? ` (${mp4})` : ""}`); }
     return `| ${n} | ${name} | ${impl} | ✅ | ${ok(st.voz)} | ${ok(st.composicion)} | ${st.check == null ? "⬜" : st.check ? "✅" : "❌"} | ${rendered ? (stale ? "⚠️ desactualizado" : "✅") : "⬜"} | ${yt ? `[✅](${rel(outPath(`${slug}.youtube.txt`))})` : "⬜"} | ${existsSync(outPath(`${slug}.miniatura.png`)) ? `[✅](${rel(outPath(`${slug}.miniatura.png`))})` : "⬜"} | ${dur} | ${rendered ? `[${mp4}](${rel(out)})` : "—"} | ${en} | ${ok(spec.revisado)} | ${ok(subido)} | ${st.renderizado || "—"} | ${spec.notas || ""} |`;
-  });
+  };
+  const rows = items.map(fila);
+  const cf = { done, fichas, yts, subidos, next, total: items.length };
+  done = fichas = yts = subidos = 0; next = null;
+  const rowsMaq = maq.map((r, i) => fila({ slug: r.clave, n: `M${i + 1}`, row: r }));
+  const mq = { done, fichas, yts, subidos, next, total: maq.length };
+  const head = `| # | Ejercicio | Implemento | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Nombre EN | Revisado | Subido | Fecha render | Notas |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|`;
+  const resumen = (c) => `**Renderizados:** ${c.done} / ${c.total} · **Fichas:** ${c.fichas} · **Descripción YouTube:** ${c.yts} · **Subidos:** ${c.subidos}${c.next ? ` · **Próximo:** ${c.next}` : ""}`;
+  const faltaDibujar = [...new Set(maq.filter((r) => !dibujada(r.prop)).map((r) => r.prop))];
+  const tablaMaq = maq.length
+    ? `\n## 🏋️ Máquinas de gimnasio\n
+Videos de máquinas (no CrossFit): se hacen con \`GENERAR_VIDEOS_MAQUINAS.md\`. La lista y su orden salen de
+\`ejercicios/maquinas.csv\` (armada desde \`maquinas_gimnasio.xlsx\`, un video por ejercicio). Duran 90–150 s.
+La columna Implemento dice la máquina y el prop de \`plantilla/runtime.js\` que la dibuja.\n
+${resumen(mq)}${faltaDibujar.length ? ` · **Máquinas sin dibujar:** ${faltaDibujar.length}` : ""}\n
+${head}
+${rowsMaq.join("\n")}\n`
+    : "";
   // Plan de re-render con el nombre en inglés: lotes de 10 en el orden de la tabla (plantilla/revoz-en.mjs toma el primero).
   const lotes = [];
   for (let i = 0; i < sinEn.length; i += 10) lotes.push(sinEn.slice(i, i + 10));
@@ -282,25 +309,25 @@ La lista y su orden salen de \`ejercicios/ejercicios.csv\`; el estado, de \`ejer
 \`videos/<clave>/.pipeline.json\` y \`salida/\`. Para aprobar un video: \`"revisado": true\` en su JSON; las notas salen de \`"notas"\`.
 Subido = el .mp4 está en \`salida/subidos/\` (se mueve a mano después de publicarlo en YouTube).
 
-**Renderizados:** ${done} / ${items.length} · **Fichas:** ${fichas} · **Descripción YouTube:** ${yts} · **Subidos:** ${subidos}${next ? ` · **Próximo:** ${next}` : ""}
+${resumen(cf)}
 
-| # | Ejercicio | Implemento | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Nombre EN | Revisado | Subido | Fecha render | Notas |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+${head}
 ${rows.join("\n")}
 
 Leyenda: ✅ listo · ⬜ pendiente · ❌ falló · ⚠️ lo que se ve/escucha en la ficha cambió después del último render (volver a renderizar).
 Nombre EN: ✅ el nombre lo dice la voz en inglés · ⬜ falta re-renderizar · — no aplica (subido a YouTube, sin render o nombre en castellano).
 Implemento distinto de "Ninguno": el personaje todavía no lo tiene; hay que agregarlo a \`plantilla/runtime.js\` antes de hacer ese video.
-${plan}`;
+🏋️ = ejercicio de máquina de gimnasio (tabla aparte, al final).
+${plan}${tablaMaq}`;
   writeFileSync(join(ROOT, "CHECKLIST.md"), md);
-  console.log(`✓ CHECKLIST.md (${done}/${items.length} renderizados, ${fichas} fichas, ${yts} con descripción YouTube)`);
+  console.log(`✓ CHECKLIST.md (${cf.done}/${cf.total} renderizados, ${cf.fichas} fichas, ${cf.yts} con descripción YouTube · máquinas ${mq.done}/${mq.total})`);
 }
 
 function main() {
   if (has("--checklist") && !slug) return checklist();
   if (has("--info")) {
-    const row = readCsv().find((r) => r.clave === slug);
-    if (!row) throw new Error(`${slug} no está en ejercicios/ejercicios.csv`);
+    const row = [...readCsv(), ...readCsv("maquinas.csv")].find((r) => r.clave === slug);
+    if (!row) throw new Error(`${slug} no está en ejercicios/ejercicios.csv ni en ejercicios/maquinas.csv`);
     return console.log(JSON.stringify(row, null, 2));
   }
   if (has("--miniatura")) {

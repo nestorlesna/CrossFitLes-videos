@@ -1,0 +1,81 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lat Pulldown",
+      "text": "El jalón al pecho en polea alta. Construye una espalda ancha y te prepara para las dominadas."
+    },
+    {
+      "id": "02",
+      "text": "También le dicen polea alta o jalón. Trabaja los dorsales y suma bíceps, romboides y la parte de atrás del hombro."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el rodillo para que los muslos queden trabados: así no te levantás del asiento cuando el peso tira."
+    },
+    {
+      "id": "04",
+      "text": "Elegí el peso con el pasador. Arrancá con uno que puedas bajar doce veces sin balancear el cuerpo."
+    },
+    {
+      "id": "05",
+      "text": "Agarrá la barra un poco más ancho que los hombros, sentate y estirá los brazos arriba, con el pecho alto."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Antes de doblar los brazos, bajá los hombros y juntá los omóplatos. Ahí se activan los dorsales."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Tirá llevando los codos hacia abajo y atrás, como si los quisieras meter en los bolsillos."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá la barra hasta la parte alta del pecho, con el tronco apenas inclinado hacia atrás."
+    },
+    {
+      "id": "09",
+      "text": "Paso cuatro. Subí controlando el peso hasta estirar los brazos, sin que las placas choquen arriba."
+    },
+    {
+      "id": "10",
+      "text": "Soltá el aire mientras bajás la barra y tomalo mientras subís. Ritmo parejo, sin apurarte."
+    },
+    {
+      "id": "11",
+      "text": "Error: bajar la barra por detrás de la nuca. Fuerza el hombro y el cuello: llevala siempre adelante, al pecho."
+    },
+    {
+      "id": "12",
+      "text": "Error: tirarte muy atrás para ayudarte con el cuerpo. Si te balanceás, bajá el peso y dejá trabajar la espalda."
+    },
+    {
+      "id": "13",
+      "text": "Error: tirar solo con los brazos, con los codos adelante y los hombros encogidos. Pensá en los codos, no en las manos."
+    },
+    {
+      "id": "14",
+      "text": "Tips de profe: pensá en los codos y no en las manos, pecho alto, barra al pecho y subí sin dejar que el peso te tire."
+    },
+    {
+      "id": "15",
+      "text": "Claves: muslos trabados, agarre un poco más ancho que los hombros, primero bajan los hombros y nunca detrás de la nuca."
+    },
+    {
+      "id": "16",
+      "text": "Tres series de diez a doce, con un minuto y medio de pausa. Cuando las doce salen fáciles, subí una placa."
+    },
+    {
+      "id": "17",
+      "text": "Al terminar, acompañá la barra hasta arriba antes de soltarla. Si la soltás de golpe, las placas chocan."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

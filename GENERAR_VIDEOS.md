@@ -3,6 +3,9 @@
 > **Para el modelo / agente que lee esto:** este archivo es una orden de trabajo completa. Seguilo paso a paso, en orden,
 > sin saltear verificaciones. Está escrito para que lo pueda ejecutar cualquier herramienta (Claude Code, opencode,
 > ChatGPT/Codex, Cursor, Aider…) y cualquier modelo. No asumas nada que no esté acá o en los archivos que se indican.
+>
+> **Videos de máquinas de gimnasio** (lista `ejercicios/maquinas.csv`, sección 🏋️ del CHECKLIST, `#` M1, M2…):
+> seguí además **`GENERAR_VIDEOS_MAQUINAS.md`**, que cambia la lista, la duración (90–150 s), las escenas y YouTube.
 
 ---
 
@@ -75,6 +78,8 @@ de CrossFit y anotalo en el reporte final; solo preguntá si es una duda real qu
 ejercicios/ejercicios.csv   lista maestra (separador ";", UTF-8 con BOM). Orden de filas = orden de producción
 ejercicios/<slug>.json      ficha del ejercicio (la escribís vos)
 ejercicios/completados.csv  huecos del CSV que completaste vos (clave;campo;valor)
+ejercicios/maquinas.csv     lista de videos de máquinas de gimnasio (ver GENERAR_VIDEOS_MAQUINAS.md)
+maquinas_gimnasio.xlsx      planilla de máquinas del usuario (no editar: de ahí sale maquinas.csv)
 videos/<slug>/              proyecto HyperFrames generado (no editar a mano: index.html se regenera siempre)
 videos/_poselab/<slug>/     laboratorio de poses
 salida/[PREFIJO_]<slug>.mp4 video final
@@ -137,7 +142,9 @@ Si algo de esto falla y no lo podés arreglar, frená y avisale al usuario qué 
 
 ## 4. Elegir los ejercicios
 
-1. Corré `node plantilla/make-exercise.mjs --checklist` y abrí `CHECKLIST.md`.
+1. Corré `node plantilla/make-exercise.mjs --checklist` y abrí `CHECKLIST.md`. Los videos de este archivo son los de
+   la tabla principal; **no tomes filas de la sección 🏋️ Máquinas** salvo que el usuario lo pida (esas van con
+   `GENERAR_VIDEOS_MAQUINAS.md`).
 2. Si el usuario dio `EJERCICIOS`, usá esos. Si no, tomá los **primeros `CANTIDAD` de la tabla que tengan Ficha ⬜**,
    en el orden de la tabla (= orden del CSV). La línea "**Próximo:**" arriba de la tabla dice cuál es el primero.
 3. Para cada uno mirá la columna **Implemento**. Implementos que ya están dibujados en `runtime.js` (prop → ficha ejemplo):
@@ -161,6 +168,8 @@ Si algo de esto falla y no lo podés arreglar, frená y avisale al usuario qué 
 | Pared | `wall` | `wall-sit`, `wall-lat-stretch`, `wall-thoracic-extensions` |
 | Banda elástica | `band` | `band-triceps-pushdown`, `band-external-rotation` |
 | Compañero | `partner` | `partner-wall-ball-sit-up` |
+| 🏋️ Prensa 45° (máquina) | `legpress` | `leg-press` (ver `GENERAR_VIDEOS_MAQUINAS.md`) |
+| 🏋️ Jalón al pecho (máquina, pila de peso) | `latpulldown` | `lat-pulldown` (ver `GENERAR_VIDEOS_MAQUINAS.md`) |
 
 4. **Si el implemento NO está en la tabla** (ej. anillas, cuerda de trepar, GHD, paralelas): hay que programarlo en
    `plantilla/runtime.js` (bloque PROPS). Si no te sentís seguro de hacerlo bien, **salteá ese ejercicio**, tomá el

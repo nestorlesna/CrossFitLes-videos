@@ -341,3 +341,48 @@ Subido = el .mp4 está en `salida/subidos/` (se mueve a mano después de publica
 Leyenda: ✅ listo · ⬜ pendiente · ❌ falló · ⚠️ lo que se ve/escucha en la ficha cambió después del último render (volver a renderizar).
 Nombre EN: ✅ el nombre lo dice la voz en inglés · ⬜ falta re-renderizar · — no aplica (subido a YouTube, sin render o nombre en castellano).
 Implemento distinto de "Ninguno": el personaje todavía no lo tiene; hay que agregarlo a `plantilla/runtime.js` antes de hacer ese video.
+🏋️ = ejercicio de máquina de gimnasio (tabla aparte, al final).
+
+## 🏋️ Máquinas de gimnasio
+
+Videos de máquinas (no CrossFit): se hacen con `GENERAR_VIDEOS_MAQUINAS.md`. La lista y su orden salen de
+`ejercicios/maquinas.csv` (armada desde `maquinas_gimnasio.xlsx`, un video por ejercicio). Duran 90–150 s.
+La columna Implemento dice la máquina y el prop de `plantilla/runtime.js` que la dibuja.
+
+**Renderizados:** 2 / 33 · **Fichas:** 2 · **Descripción YouTube:** 2 · **Subidos:** 0 · **Próximo:** M3 · Leg Extension · **Máquinas sin dibujar:** 26
+
+| # | Ejercicio | Implemento | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Nombre EN | Revisado | Subido | Fecha render | Notas |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| M1 | Leg Press | 🏋️ Prensa de piernas 45° · `legpress` | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/leg-press.youtube.txt) | [✅](salida/leg-press.miniatura.png) | 118.6 s | [leg-press.mp4](salida/leg-press.mp4) | ✅ | ✅ | ⬜ | 2026-10-22 |  |
+| M2 | Lat Pulldown | 🏋️ Jalón al pecho · `latpulldown` | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/lat-pulldown.youtube.txt) | [✅](salida/lat-pulldown.miniatura.png) | 118.0 s | [lat-pulldown.mp4](salida/lat-pulldown.mp4) | ✅ | ✅ | ⬜ | 2026-10-22 |  |
+| M3 | Leg Extension | 🏋️ Extensión de cuádriceps (sillón) · `legextension` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 1 · piernas guiadas · Nivel 1 · 3 × 12–15 |
+| M4 | Seated Leg Curl | 🏋️ Curl femoral sentado · `seatedlegcurl` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 1 · piernas guiadas · Nivel 1 · 3 × 10–12 |
+| M5 | Lying Leg Curl | 🏋️ Curl femoral acostado (camilla) · `lyinglegcurl` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 1 · piernas guiadas · Nivel 1 · 3 × 10–12 |
+| M6 | Hack Squat | 🏋️ Sentadilla hack · `hacksquat` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 1 · piernas guiadas · Nivel 4 · 3 × 8–10 |
+| M7 | Pendulum Squat | 🏋️ Sentadilla péndulo · `pendulum` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 1 · piernas guiadas · Nivel 4 · 3 × 8–10 |
+| M8 | Seated Cable Row | 🏋️ Remo sentado en polea baja · `cablerow` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 2 · poleas · Nivel 2 · 3 × 10–12 |
+| M9 | Cable Triceps Pushdown | 🏋️ Extensión de tríceps en polea · `cable` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 2 · poleas · Nivel 1 · 3 × 12 |
+| M10 | Cable Bicep Curl | 🏋️ Curl de bíceps en polea · `cable` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 2 · poleas · Nivel 3 · 3 × 10–12 |
+| M11 | Cable Face Pull | 🏋️ Face pull en polea · `cable` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 2 · poleas · Nivel 3 · 3 × 12–15 |
+| M12 | Cable Crossover | 🏋️ Cruce de poleas (aperturas de pecho) · `cablecrossover` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 2 · poleas · Nivel 3 · 3 × 12–15 |
+| M13 | Machine Chest Press | 🏋️ Press de pecho en máquina · `chestpress` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 3 · tren superior sentado · Nivel 1 · 3 × 10–12 |
+| M14 | Machine Shoulder Press | 🏋️ Press de hombros en máquina · `shoulderpress` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 3 · tren superior sentado · Nivel 2 · 3 × 10–12 |
+| M15 | Pec Deck Fly | 🏋️ Pec deck / Contractor (aperturas) · `pecdeck` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 3 · tren superior sentado · Nivel 1 · 3 × 12–15 |
+| M16 | Machine Lateral Raise | 🏋️ Elevaciones laterales en máquina · `lateralraise` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 3 · tren superior sentado · Nivel 1 · 3 × 12–15 |
+| M17 | Machine Preacher Curl | 🏋️ Curl de bíceps en máquina (Scott) · `preachercurl` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 3 · tren superior sentado · Nivel 1 · 3 × 10–12 |
+| M18 | Hip Thrust Machine | 🏋️ Hip thrust en máquina · `hipthrust` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 4 · cadera y gemelos · Nivel 2 · 3 × 10–12 |
+| M19 | Hip Abduction Machine | 🏋️ Máquina de abductores (abrir) · `hipabduction` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 4 · cadera y gemelos · Nivel 1 · 3 × 15 |
+| M20 | Hip Adduction Machine | 🏋️ Máquina de aductores (cerrar) · `hipadduction` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 4 · cadera y gemelos · Nivel 1 · 3 × 15 |
+| M21 | Standing Calf Raise Machine | 🏋️ Gemelos de pie en máquina · `standingcalf` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 4 · cadera y gemelos · Nivel 1 · 3 × 12–15 |
+| M22 | Seated Calf Raise Machine | 🏋️ Gemelos sentado en máquina · `seatedcalf` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 4 · cadera y gemelos · Nivel 1 · 3 × 15 |
+| M23 | Smith Machine Squat | 🏋️ Sentadilla en Smith (multipower) · `smith` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 5 · Smith, asistidas y core · Nivel 3 · 3 × 8–10 |
+| M24 | Smith Machine Bench Press | 🏋️ Press de banca en Smith · `smith` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 5 · Smith, asistidas y core · Nivel 3 · 3 × 8–10 |
+| M25 | Assisted Pull-Up Machine | 🏋️ Dominadas asistidas en máquina · `assisted` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 5 · Smith, asistidas y core · Nivel 2 · 3 × 6–10 |
+| M26 | Assisted Dip Machine | 🏋️ Fondos asistidos en máquina · `assisted` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 5 · Smith, asistidas y core · Nivel 2 · 3 × 8–10 |
+| M27 | Ab Crunch Machine | 🏋️ Crunch abdominal en máquina · `abcrunch` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 5 · Smith, asistidas y core · Nivel 1 · 3 × 12–15 |
+| M28 | 45 Degree Back Extension | 🏋️ Banco romano / Hiperextensiones 45° · `backext45` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 5 · Smith, asistidas y core · Nivel 2 · 3 × 12–15 |
+| M29 | Treadmill | 🏋️ Cinta de correr · `treadmill` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 6 · cardio · Nivel 1 · 10–20 min |
+| M30 | Stationary Bike | 🏋️ Bicicleta fija · `stationarybike` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 6 · cardio · Nivel 1 · 15–30 min |
+| M31 | Elliptical Trainer | 🏋️ Elíptico · `elliptical` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 6 · cardio · Nivel 1 · 15–30 min |
+| M32 | Rowing Machine | 🏋️ Remo ergómetro · `rower` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 6 · cardio · Nivel 3 · 500 m – 2000 m |
+| M33 | Stair Climber | 🏋️ Escaladora · `stairclimber` (falta dibujar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote 6 · cardio · Nivel 2 · 10–20 min |

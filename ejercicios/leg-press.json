@@ -1,0 +1,893 @@
+{
+  "slug": "leg-press",
+  "name": "Leg Press",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Cuádriceps",
+    "Glúteos"
+  ],
+  "descripcion": "Sentate con la espalda y la cadera pegadas al respaldo, pies al ancho de los hombros en el centro de la plataforma. Destrabá, bajá controlado hasta unos 90° de rodilla y empujá con los talones.",
+  "revisado": true,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "LEG",
+        "PRESS"
+      ],
+      "sub": "Prensa de piernas 45°",
+      "vo": "Leg Press: la prensa de piernas a 45 grados. Fuerza en cuádriceps y glúteos, con la espalda bien apoyada.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              1.6
+            ],
+            [
+              "TOP",
+              1.1
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "También le dicen prensa 45",
+      "vo": "También le dicen prensa cuarenta y cinco. Trabaja cuádriceps y glúteos, y suma isquiotibiales y aductores.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            960
+          ],
+          "text": "RESPALDO",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            700,
+            880
+          ],
+          "text": "PLATAFORMA",
+          "anchor": "middle",
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            960
+          ],
+          "text": "DISCOS",
+          "anchor": "end",
+          "at": 2.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            427,
+            1270
+          ],
+          "r": 46,
+          "at": 3.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            150,
+            1470
+          ],
+          "text": "MANIJAS Y TRABAS",
+          "anchor": "start",
+          "at": 3.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AJUSTE 1",
+      "head": [
+        "EL",
+        "RESPALDO"
+      ],
+      "sub": "Cadera y espalda apoyadas",
+      "vo": "Antes de cargar, ajustá el respaldo: la cadera y toda la espalda tienen que quedar bien apoyadas.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            397,
+            1278
+          ],
+          "r": 72,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            150,
+            1000
+          ],
+          "text": "CADERA PEGADA",
+          "anchor": "start",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "PESO"
+      ],
+      "sub": "Empezá liviano",
+      "vo": "Cargá discos parejos de los dos lados. Empezá liviano: un peso que puedas mover doce veces con control.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            822,
+            1077
+          ],
+          "r": 104,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            880
+          ],
+          "text": "IGUAL DE CADA LADO",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PIES AL",
+        "ANCHO"
+      ],
+      "sub": "En el centro de la plataforma",
+      "vo": "Sentate bien atrás, con los pies al ancho de los hombros en el centro de la plataforma. Agarrá las manijas.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            678,
+            1081
+          ],
+          "r": 70,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            700,
+            860
+          ],
+          "text": "PIES AL CENTRO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            427,
+            1270
+          ],
+          "r": 46,
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 4",
+      "head": [
+        "DESTRABÁ"
+      ],
+      "sub": "Con las piernas casi estiradas",
+      "vo": "Paso uno. Empujá apenas la plataforma y abrí las trabas de los costados. Recién ahí empieza el movimiento.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            427,
+            1270
+          ],
+          "r": 46,
+          "at": 1.0
+        },
+        {
+          "type": "arrow",
+          "from": [
+            250,
+            960
+          ],
+          "to": [
+            400,
+            1230
+          ],
+          "at": 1.2,
+          "dur": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            920
+          ],
+          "text": "ABRÍ LAS TRABAS",
+          "anchor": "start",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 4",
+      "head": [
+        "BAJÁ",
+        "LENTO"
+      ],
+      "sub": "Dos o tres segundos",
+      "vo": "Paso dos. Bajá lento, en dos o tres segundos, doblando las rodillas hacia el pecho.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.6,
+          "dur": 2.4
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            760,
+            1000
+          ],
+          "to": [
+            660,
+            1070
+          ],
+          "at": 0.8,
+          "dur": 2.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            760,
+            900
+          ],
+          "text": "2 A 3 SEGUNDOS",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 4",
+      "head": [
+        "HASTA",
+        "90°"
+      ],
+      "sub": "La cola no se despega",
+      "vo": "Paso tres. Frená cuando la rodilla llegue a unos noventa grados, sin que la cola se despegue del asiento.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            433,
+            1099
+          ],
+          "r": 58,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            440,
+            930
+          ],
+          "text": "RODILLA A 90°",
+          "anchor": "middle",
+          "at": 1.1
+        },
+        {
+          "type": "ring",
+          "pos": [
+            397,
+            1278
+          ],
+          "r": 70,
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 4 / 4",
+      "head": [
+        "EMPUJÁ"
+      ],
+      "sub": "Con todo el pie",
+      "vo": "Paso cuatro. Empujá con todo el pie, apoyando fuerte los talones, hasta casi estirar las piernas.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.8,
+          "dur": 1.2
+        }
+      ],
+      "numeral": "4",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            600,
+            1130
+          ],
+          "to": [
+            700,
+            1060
+          ],
+          "at": 0.8,
+          "dur": 0.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            720,
+            880
+          ],
+          "text": "EMPUJÁ CON TALONES",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Aire al bajar, soltalo al subir",
+      "vo": "Tomá aire mientras bajás y soltalo mientras empujás. No aguantes la respiración en cada repetición.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              2.0
+            ],
+            [
+              "TOP",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "RODILLAS",
+        "TRABADAS"
+      ],
+      "sub": "Siempre un poco flexionadas",
+      "vo": "Error: trabar las rodillas arriba. Con peso es peligroso: dejalas apenas flexionadas al terminar cada repetición.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "LOCK_BAD",
+          "at": 0.6,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            539,
+            1164
+          ],
+          "r": 56,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "COLA",
+        "DESPEGADA"
+      ],
+      "sub": "No bajes de más",
+      "vo": "Error: bajar tanto que la cola se despega del asiento. La lumbar se redondea: bajá solo hasta noventa grados.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "DEEP_BAD",
+          "at": 0.6,
+          "dur": 1.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 2.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            418,
+            1249
+          ],
+          "r": 66,
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "MANOS EN",
+        "RODILLAS"
+      ],
+      "sub": "Las manos van en las manijas",
+      "vo": "Error: empujar las rodillas con las manos o meterlas hacia adentro. Manos en las manijas y rodillas alineadas.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "HANDS_BAD",
+          "at": 0.6,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            433,
+            1099
+          ],
+          "r": 58,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Lumbar pegada al respaldo",
+        "Talones firmes",
+        "Bajá en 2 a 3 segundos",
+        "Exhalá al empujar"
+      ],
+      "vo": "Tips de profe: la lumbar nunca se despega, los talones firmes, bajá en dos o tres segundos y soltá el aire al empujar.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              1.6
+            ],
+            [
+              "TOP",
+              1.1
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Pies al ancho de hombros",
+        "Rodilla a 90°, no más",
+        "Nunca trabes las rodillas",
+        "Rodillas en línea con pies"
+      ],
+      "vo": "Claves: pies al ancho de los hombros, bajá hasta noventa grados, nunca trabes las rodillas y mantenelas en línea con los pies.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12"
+      ],
+      "sub": "Minuto y medio de pausa",
+      "vo": "Tres series de diez a doce, con un minuto y medio de pausa. Subí el peso cuando las doce salgan fáciles.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ LENTO",
+          "at": 0.6
+        },
+        {
+          "label": "2 · HASTA 90°",
+          "at": 1.1
+        },
+        {
+          "label": "3 · EMPUJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              1.6
+            ],
+            [
+              "TOP",
+              1.1
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.2,
+      "badge": "AL TERMINAR",
+      "head": [
+        "TRABÁ Y",
+        "DESCARGÁ"
+      ],
+      "sub": "Dejala lista para el próximo",
+      "vo": "Al terminar, con las piernas estiradas, cerrá las trabas, sacá los pies y descargá los discos.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            427,
+            1270
+          ],
+          "r": 46,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            150,
+            1000
+          ],
+          "text": "CERRÁ LAS TRABAS",
+          "anchor": "start",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            822,
+            1077
+          ],
+          "r": 104,
+          "at": 2.6
+        }
+      ]
+    }
+  ],
+  "rig": {
+    "x": 640,
+    "y": 1506,
+    "scale": 0.76
+  },
+  "shadow": false,
+  "initialPose": "TOP",
+  "props": [
+    {
+      "type": "legpress",
+      "hip": [
+        -320,
+        -300
+      ],
+      "ang": 35,
+      "lean": -45,
+      "stops": 300
+    }
+  ],
+  "poses": {
+    "TOP": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "ft": -128,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle": [
+        50.3,
+        -559.3
+      ]
+    },
+    "BOTTOM": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "ft": -128,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle": [
+        -45.6,
+        -492.1
+      ]
+    },
+    "MID": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "ft": -128,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle": [
+        3.6,
+        -526.6
+      ]
+    },
+    "LOCK_BAD": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "ft": -128,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle": [
+        64.2,
+        -569.0
+      ]
+    },
+    "DEEP_BAD": {
+      "hip": [
+        -292,
+        -338
+      ],
+      "b": -36,
+      "hd": -6,
+      "ft": -128,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "cv": 22,
+      "ankle": [
+        -111.1,
+        -446.3
+      ]
+    },
+    "HEELS_BAD": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "ft": -100,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle": [
+        -45.6,
+        -492.1
+      ]
+    },
+    "HANDS_BAD": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "ft": -128,
+      "g": 1,
+      "hx": -282,
+      "hy": -525,
+      "ed": 1,
+      "ankle": [
+        -45.6,
+        -492.1
+      ]
+    }
+  },
+  "miniatura": {
+    "pose": "BOTTOM",
+    "grip": 1,
+    "zoom": 1.15,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Leg Press 🔥 Cómo usar la prensa de piernas sin lastimarte | Gimnasio",
+    "tags": [
+      "leg press",
+      "prensa de piernas",
+      "prensa 45",
+      "cómo usar la prensa",
+      "prensa de piernas técnica",
+      "cuádriceps",
+      "glúteos",
+      "piernas en el gimnasio",
+      "máquinas de gimnasio",
+      "gimnasio para principiantes",
+      "errores en la prensa",
+      "rutina de piernas"
+    ],
+    "descripcion": "🔥 LEG PRESS (prensa de piernas 45°) — piernas fuertes sin cargar la espalda\n\n¿Te duele la espalda o las rodillas cuando usás la prensa? Casi siempre es el ajuste o un par de errores muy comunes. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el respaldo: la cadera y toda la espalda bien apoyadas.\n2️⃣ Cargá discos parejos de los dos lados y empezá liviano.\n3️⃣ Pies al ancho de los hombros, en el centro de la plataforma.\n\n📋 PASO A PASO\n1️⃣ Empujá apenas la plataforma y abrí las trabas de los costados.\n2️⃣ Bajá lento, en 2 a 3 segundos, llevando las rodillas hacia el pecho.\n3️⃣ Frená cuando la rodilla llegue a unos 90°, sin que la cola se despegue.\n4️⃣ Empujá con todo el pie y los talones firmes hasta casi estirar.\n5️⃣ Al terminar, con las piernas estiradas, cerrá las trabas y descargá.\n\n❌ ERRORES COMUNES\n• Trabar las rodillas arriba → dejalas apenas flexionadas.\n• Bajar tanto que se levanta la cola → bajá solo hasta 90°.\n• Rodillas hacia adentro → en la línea de la punta de los pies.\n• Empujar las rodillas con las manos → manos en las manijas.\n• Cargar más de lo que controlás → peso que puedas mover 12 veces bien.\n\n💡 TIPS DEL PROFE\n• Bajá en 2–3 segundos y subí en 1.\n• La zona lumbar nunca se despega del respaldo.\n• Exhalá al empujar.\n• Pies más arriba en la plataforma = más glúteo; más abajo = más cuádriceps.\n\n🎯 QUÉ TRABAJA\nCuádriceps · Glúteos · Isquiotibiales · Aductores\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto y medio de pausa. Subí el peso cuando las 12 salgan fáciles. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #LegPress #Piernas #Musculacion #Entrenamiento"
+  }
+}

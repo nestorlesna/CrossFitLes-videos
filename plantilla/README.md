@@ -29,6 +29,20 @@ Separador `;`, UTF-8 con BOM. La `clave` es el slug del video. Las columnas que 
   `ejercicios/completados.csv` (`clave;campo;valor`, para que el profe lo revise e importe en su app). Ante una duda real
   sobre la técnica, preguntarle. `ejercicios.original.csv` es el export sin tocar.
 
+## Máquinas de gimnasio (`ejercicios/maquinas.csv`)
+
+Segunda lista, para videos de máquinas (no CrossFit), armada desde `maquinas_gimnasio.xlsx` (planilla del usuario, no
+se edita): una fila por video (las máquinas multiuso se parten en un video por ejercicio), mismo formato `;` + BOM.
+Columnas: `clave, lote, nombre` (inglés)`, nombre_es, otros_nombres, maquina_excel, fila_excel, tipo, zona,
+musculos_principales, musculos_secundarios, como_se_usa, que_no_hacer, tips_profe, nivel, nivel_texto, dosis, prop, vista`.
+
+- El CHECKLIST las muestra en la sección **🏋️ Máquinas de gimnasio** (al final), numeradas `M1, M2…`; la columna
+  Implemento dice 🏋️ + la máquina + el prop de `runtime.js`, con «(falta dibujar)» si `runtime.js` no tiene
+  `pr.type === "<prop>"`.
+- La ficha lleva `"maquina": true` (el BRIEF/STORYBOARD dicen "alumnos de gimnasio"). `--info` busca en las dos listas.
+- Procedimiento, estructura de 14–18 escenas (90–150 s), escenas ASÍ NO, tips del profe y YouTube:
+  **`GENERAR_VIDEOS_MAQUINAS.md`**.
+
 ## Pasos para un ejercicio nuevo
 
 1. `--info <slug>` → leer descripción, técnica del coach, zonas, dosis, posición e implemento.
@@ -69,6 +83,7 @@ Flujo recomendado: escribir la ficha → `make-exercise <slug>` → mirar el con
   // voz: Piper + Daniela (es_AR) por defecto, no hace falta ponerla. "voiceProvider": "kokoro" + "voice": "em_alex" = motor viejo
   "voiceSpeed": 1.0,
   "revisado": false, "notas": "",       // columnas del checklist
+  "maquina": true,                      // solo videos de máquinas de gimnasio (lista ejercicios/maquinas.csv)
   "youtube": { "titulo": "...", "descripcion": "...", "tags": [...] },  // ver "Descripción de YouTube"
   "miniatura": { "pose": "CHEST", "grip": 1 },  // ver "Miniatura de YouTube"
   "music": true, "musicVolume": 0.18,
@@ -175,6 +190,12 @@ Se dibujan en `runtime.js` (bloque PROPS) en coordenadas del rig; las partes mó
 | type | parámetros | qué sigue a qué |
 |---|---|---|
 | `rower` | `foot [x,y]`, `fly [x,y]`, `seatY`, `railY`, `railFrom` | asiento → cadera; cadena y manija → manos |
+| `legpress` 🏋️ | `hip [x,y]`, `ang` (35), `lean` (-45), `stops`, `handle [x,y]`, `gap` | prensa 45°: asiento + respaldo reclinado + manijas/trabas fijos; riel a `ang` grados que pasa por `hip`; el carro (plataforma + discos) sigue al tobillo cercano proyectado sobre el riel. Poses: `hip` fijo + `ankle` sobre la línea del riel, `ft -128` (suela contra la plataforma). Ver `leg-press` |
+| `latpulldown` 🏋️ | `x` (columna), `pulley [x,y]`, `seat`, `pad [x,y]`, `pin`, `rest` | jalón al pecho: columna con pila de peso, viga y polea arriba, asiento y rodillo de muslos; barra de punta en las manos y cable a la polea. La pila sube lo que se alarga el cable respecto de la primera pose dibujada (`initialPose` = pila apoyada; `rest` lo fija a mano). Ver `lat-pulldown` |
+
+Helper de máquinas en `runtime.js`: **`weightStack(parent, x, y, {n, ph, w, pin, guide, max})`** dibuja la pila de placas
+con guías, varilla y pasador (ACCENT) y devuelve `{ top, lift(px) }`: `lift` sube las placas de arriba del pasador y
+devuelve cuánto subió. Usarlo en toda máquina con pila (ver `GENERAR_VIDEOS_MAQUINAS.md` §4.2).
 | `kettlebell` | `off [dx,dy]` | manija en la mano cercana (+off), la pesa cuelga; se dibuja debajo del brazo cercano |
 | `barbell` | `r` (radio del disco), `off` o `torso [fx, dy]` | disco de costado en la mano (+off) o, con `torso`, fijo al tronco (fx adelante, dy hacia abajo desde el hombro: barra en la espalda `[-34, 18]`); disco cercano encima del cuerpo |
 | `wallball` | `off`, `r`, `wallX`, `target` | balón en las manos (+off); con `bf: 1` en la pose queda libre en `bx, by` (lanzado). Pared en `x = wallX` y marca en `y = target` (px del rig) |

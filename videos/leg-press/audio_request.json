@@ -1,0 +1,81 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Leg Press",
+      "text": "La prensa de piernas a 45 grados. Fuerza en cuádriceps y glúteos, con la espalda bien apoyada."
+    },
+    {
+      "id": "02",
+      "text": "También le dicen prensa cuarenta y cinco. Trabaja cuádriceps y glúteos, y suma isquiotibiales y aductores."
+    },
+    {
+      "id": "03",
+      "text": "Antes de cargar, ajustá el respaldo: la cadera y toda la espalda tienen que quedar bien apoyadas."
+    },
+    {
+      "id": "04",
+      "text": "Cargá discos parejos de los dos lados. Empezá liviano: un peso que puedas mover doce veces con control."
+    },
+    {
+      "id": "05",
+      "text": "Sentate bien atrás, con los pies al ancho de los hombros en el centro de la plataforma. Agarrá las manijas."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá apenas la plataforma y abrí las trabas de los costados. Recién ahí empieza el movimiento."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Bajá lento, en dos o tres segundos, doblando las rodillas hacia el pecho."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Frená cuando la rodilla llegue a unos noventa grados, sin que la cola se despegue del asiento."
+    },
+    {
+      "id": "09",
+      "text": "Paso cuatro. Empujá con todo el pie, apoyando fuerte los talones, hasta casi estirar las piernas."
+    },
+    {
+      "id": "10",
+      "text": "Tomá aire mientras bajás y soltalo mientras empujás. No aguantes la respiración en cada repetición."
+    },
+    {
+      "id": "11",
+      "text": "Error: trabar las rodillas arriba. Con peso es peligroso: dejalas apenas flexionadas al terminar cada repetición."
+    },
+    {
+      "id": "12",
+      "text": "Error: bajar tanto que la cola se despega del asiento. La lumbar se redondea: bajá solo hasta noventa grados."
+    },
+    {
+      "id": "13",
+      "text": "Error: empujar las rodillas con las manos o meterlas hacia adentro. Manos en las manijas y rodillas alineadas."
+    },
+    {
+      "id": "14",
+      "text": "Tips de profe: la lumbar nunca se despega, los talones firmes, bajá en dos o tres segundos y soltá el aire al empujar."
+    },
+    {
+      "id": "15",
+      "text": "Claves: pies al ancho de los hombros, bajá hasta noventa grados, nunca trabes las rodillas y mantenelas en línea con los pies."
+    },
+    {
+      "id": "16",
+      "text": "Tres series de diez a doce, con un minuto y medio de pausa. Subí el peso cuando las doce salgan fáciles."
+    },
+    {
+      "id": "17",
+      "text": "Al terminar, con las piernas estiradas, cerrá las trabas, sacá los pies y descargá los discos."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}
