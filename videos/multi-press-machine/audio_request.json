@@ -1,0 +1,85 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Multi Press Machine",
+      "text": "El pres múltiple. Una máquina, tres ejercicios: pecho, inclinado y hombros."
+    },
+    {
+      "id": "02",
+      "text": "Es una máquina de pres con el asiento sobre un riel. Trabaja pectorales y hombros, y suma tríceps."
+    },
+    {
+      "id": "03",
+      "text": "Corré el asiento: bien reclinado es pres de pecho, en el medio inclinado y casi derecho, hombros."
+    },
+    {
+      "id": "04",
+      "text": "Los tres dibujos de la placa te muestran cada posición. Elegí una y trabá el pasador del riel."
+    },
+    {
+      "id": "05",
+      "text": "Elegí el peso con el pasador de la pila: uno que puedas empujar doce veces sin despegar la espalda."
+    },
+    {
+      "id": "06",
+      "text": "Sentate con la espalda pegada al respaldo, juntá las escápulas y agarrá las manijas."
+    },
+    {
+      "id": "07",
+      "text": "Pres de pecho, con el respaldo bien reclinado. Empujá las manijas hacia arriba sin trabar los codos."
+    },
+    {
+      "id": "08",
+      "text": "Volvé lento hasta sentir que estira el pecho, sin que las placas se apoyen."
+    },
+    {
+      "id": "09",
+      "text": "Pres inclinado, con el asiento en el medio. Empujá hacia arriba y adelante, con los codos bajo las manos."
+    },
+    {
+      "id": "10",
+      "text": "Bajá controlado hasta que las manijas lleguen a la parte alta del pecho y volvé a empujar."
+    },
+    {
+      "id": "11",
+      "text": "Pres de hombros, con el respaldo casi derecho. Empujá hacia arriba sin arquear la espalda."
+    },
+    {
+      "id": "12",
+      "text": "Bajá controlado hasta que las manijas lleguen a la altura de los hombros, no más abajo."
+    },
+    {
+      "id": "13",
+      "text": "Error: arquear la espalda para empujar más. La zona lumbar sufre: apretá el abdomen y bajá el peso."
+    },
+    {
+      "id": "14",
+      "text": "Error: trabar los codos de golpe arriba. Llegá casi estirado y empezá a volver."
+    },
+    {
+      "id": "15",
+      "text": "Error: bajar de golpe y dejar que la pila choque. Volvé en dos o tres segundos, con control."
+    },
+    {
+      "id": "16",
+      "text": "Tips de profe: elegí la posición mirando la placa, trabá el pasador, escápulas juntas y volvé sin tocar la pila."
+    },
+    {
+      "id": "17",
+      "text": "Claves: espalda pegada, pies firmes en el piso, sin trabar los codos y volvé lento."
+    },
+    {
+      "id": "18",
+      "text": "Tres series de diez a doce, con un minuto y medio de pausa. Cuando las doce salen fáciles, subí una placa."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

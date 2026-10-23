@@ -170,7 +170,7 @@ Si algo de esto falla y no lo podés arreglar, frená y avisale al usuario qué 
 | Compañero | `partner` | `partner-wall-ball-sit-up` |
 | 🏋️ Prensa 45° (máquina) | `legpress` | `leg-press` (ver `GENERAR_VIDEOS_MAQUINAS.md`) |
 | 🏋️ Jalón al pecho (máquina, pila de peso) | `latpulldown` | `lat-pulldown` (ver `GENERAR_VIDEOS_MAQUINAS.md`) |
-| 🏋️ Resto de las máquinas de gimnasio (33) | ver la tabla de Implementos de `plantilla/README.md` | la ficha de esa máquina (`GENERAR_VIDEOS_MAQUINAS.md`) |
+| 🏋️ Resto de las máquinas de gimnasio (35) | ver la tabla de Implementos de `plantilla/README.md` | la ficha de esa máquina (`GENERAR_VIDEOS_MAQUINAS.md`) |
 
 4. **Si el implemento NO está en la tabla** (ej. anillas, cuerda de trepar, GHD, paralelas): hay que programarlo en
    `plantilla/runtime.js` (bloque PROPS). Si no te sentís seguro de hacerlo bien, **salteá ese ejercicio**, tomá el
@@ -483,6 +483,7 @@ Conserva el nombre del archivo (`OC_` sigue `OC_`). El plan y el avance están a
 | Contact sheet / pose-lab vacío | Error de JS en `runtime.js` o pose inválida |
 | `npx hyperframes` tarda minutos | Ya se usa `--prefer-offline`; la primera vez correr uno solo (descarga) |
 | `npm ECOMPROMISED` | Correr un solo `make-exercise` primero, después en paralelo |
+| `npm error notarget No matching version found for hyperframes@x.y.z` | El `latest` del registro todavía no se baja: `export HF_PKG=hyperframes@<versión en caché>` (ej. `0.8.171`) y repetir |
 | `Browser process did not exit` / timeout | No es de contenido: menos procesos en paralelo y repetir |
 | Heredoc de bash se corta | Escribir el script en un archivo y ejecutarlo |
 | Cajón alto: la pierna no llega | Cajón `h 220` (cadera–tobillo ≤ 470) |

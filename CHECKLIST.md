@@ -349,12 +349,12 @@ Videos de máquinas (no CrossFit): se hacen con `GENERAR_VIDEOS_MAQUINAS.md`. La
 `ejercicios/maquinas.csv` (armada desde `maquinas_gimnasio.xlsx`, un video por ejercicio). Duran 90–150 s.
 La columna Implemento dice la máquina y el prop de `plantilla/runtime.js` que la dibuja.
 
-**Renderizados:** 33 / 33 · **Fichas:** 33 · **Descripción YouTube:** 33 · **Subidos:** 5
+**Renderizados:** 36 / 36 · **Fichas:** 36 · **Descripción YouTube:** 36 · **Subidos:** 9
 
 | # | Ejercicio | Implemento | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Nombre EN | Revisado | Subido | Fecha render | Notas |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | M1 | Leg Press | 🏋️ Prensa de piernas 45° · `legpress` | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/leg-press.youtube.txt) | [✅](salida/leg-press.miniatura.png) | 118.6 s | [leg-press.mp4](salida/leg-press.mp4) | ✅ | ✅ | ⬜ | 2026-10-22 |  |
-| M2 | Lat Pulldown | 🏋️ Jalón al pecho · `latpulldown` | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/lat-pulldown.youtube.txt) | [✅](salida/lat-pulldown.miniatura.png) | 118.0 s | [lat-pulldown.mp4](salida/lat-pulldown.mp4) | ✅ | ✅ | ⬜ | 2026-10-22 |  |
+| M2 | Lat Pulldown | 🏋️ Jalón al pecho · `latpulldown` | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/lat-pulldown.youtube.txt) | [✅](salida/subidos/lat-pulldown.miniatura.png) | 118.0 s | [lat-pulldown.mp4](salida/subidos/lat-pulldown.mp4) | ✅ | ✅ | ✅ | 2026-10-22 |  |
 | M3 | Leg Extension | 🏋️ Extensión de cuádriceps (sillón) · `legextension` | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/leg-extension.youtube.txt) | [✅](salida/leg-extension.miniatura.png) | 114.3 s | [leg-extension.mp4](salida/leg-extension.mp4) | ✅ | ⬜ | ⬜ | 2026-10-22 |  |
 | M4 | Seated Leg Curl | 🏋️ Curl femoral sentado · `seatedlegcurl` | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/seated-leg-curl.youtube.txt) | [✅](salida/seated-leg-curl.miniatura.png) | 112.7 s | [seated-leg-curl.mp4](salida/seated-leg-curl.mp4) | ✅ | ⬜ | ⬜ | 2026-10-22 |  |
 | M5 | Lying Leg Curl | 🏋️ Curl femoral acostado (camilla) · `lyinglegcurl` | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/lying-leg-curl.youtube.txt) | [✅](salida/lying-leg-curl.miniatura.png) | 105.5 s | [lying-leg-curl.mp4](salida/lying-leg-curl.mp4) | ✅ | ⬜ | ⬜ | 2026-10-22 |  |
@@ -386,3 +386,6 @@ La columna Implemento dice la máquina y el prop de `plantilla/runtime.js` que l
 | M31 | Elliptical Trainer | 🏋️ Elíptico · `elliptical` | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/elliptical-trainer.youtube.txt) | [✅](salida/elliptical-trainer.miniatura.png) | 105.1 s | [elliptical-trainer.mp4](salida/elliptical-trainer.mp4) | ✅ | ⬜ | ⬜ | 2026-10-22 |  |
 | M32 | Rowing Machine | 🏋️ Remo ergómetro · `rower` | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/rowing-machine.youtube.txt) | [✅](salida/rowing-machine.miniatura.png) | 119.7 s | [rowing-machine.mp4](salida/rowing-machine.mp4) | ✅ | ⬜ | ⬜ | 2026-10-22 |  |
 | M33 | Stair Climber | 🏋️ Escaladora · `stairclimber` | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/stair-climber.youtube.txt) | [✅](salida/stair-climber.miniatura.png) | 98.3 s | [stair-climber.mp4](salida/stair-climber.mp4) | ✅ | ⬜ | ⬜ | 2026-10-22 |  |
+| M34 | Multi Hip Machine | 🏋️ Máquina multicadera (de pie) · `multihip` | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/multi-hip-machine.youtube.txt) | [✅](salida/subidos/multi-hip-machine.miniatura.png) | 133.8 s | [multi-hip-machine.mp4](salida/subidos/multi-hip-machine.mp4) | ✅ | ✅ | ✅ | 2026-10-23 |  |
+| M35 | Multi Press Machine | 🏋️ Press múltiple (pecho, inclinado y hombros) · `multipress` | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/multi-press-machine.youtube.txt) | [✅](salida/subidos/multi-press-machine.miniatura.png) | 127.6 s | [multi-press-machine.mp4](salida/subidos/multi-press-machine.mp4) | ✅ | ✅ | ✅ | 2026-10-23 |  |
+| M36 | Seated Dip Machine | 🏋️ Fondos de tríceps sentado en máquina · `seateddip` | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/seated-dip-machine.youtube.txt) | [✅](salida/subidos/seated-dip-machine.miniatura.png) | 106.1 s | [seated-dip-machine.mp4](salida/subidos/seated-dip-machine.mp4) | ✅ | ✅ | ✅ | 2026-10-23 |  |

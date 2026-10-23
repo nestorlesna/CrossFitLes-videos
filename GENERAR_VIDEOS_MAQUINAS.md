@@ -101,9 +101,16 @@ se programa para una sirve para las siguientes.
 | 4 · cadera y gemelos | `hip-thrust-machine`, `hip-abduction-machine`, `hip-adduction-machine`, `standing-calf-raise-machine`, `seated-calf-raise-machine` | aductor/abductor (necesitan `topview`), gemelos (escalón + almohadillas) |
 | 5 · Smith, asistidas y core | `smith-machine-squat`, `smith-machine-bench-press`, `assisted-pull-up-machine`, `assisted-dip-machine`, `ab-crunch-machine`, `back-extension-45` | `smith` (rieles + barra guiada + topes), `assisted` (plataforma de rodillas + manijas), crunch, banco 45° |
 | 6 · cardio | `treadmill`, `stationary-bike`, `elliptical-trainer`, `rowing-machine`, `stair-climber` | cinta (con `floorScroll`), bici, elíptico, escaladora. `rowing-machine` usa el `rower` que ya existe |
+| 7 · máquinas nuevas | `multi-hip-machine`, `multi-press-machine`, `seated-dip-machine` | `multihip` (multicadera de pie: eje + disco de agujeros, rodillo en 4 posiciones, tarjeta `topview mode hip`), `multipress` (asiento sobre riel en arco que cambia el ángulo) |
 
 **Estado (2026-10-22):** el piloto se aprobó el 2026-10-21 y los 31 videos restantes (lotes 1–6) ya tienen la máquina
 dibujada en `runtime.js` y ficha. Si se suman máquinas nuevas, seguí este mismo plan por familias.
+
+**Máquinas nuevas que describe el usuario en el chat** (lote 7, 2026-10-22): agregá una fila a `maquinas.csv` a mano
+(`maquina_excel` = "(agregada a mano <fecha>)", `fila_excel` = "—"), **antes** revisá que no exista ya (el «curl de bíceps
+tipo Scott» ya era M17 `machine-preacher-curl`: el usuario pidió omitirlo). Si la máquina sirve para varios ejercicios
+y el usuario pide **un video por máquina**, hacé uno solo con una escena `USO n / N` por ejercicio (multicadera: 4 usos,
+press múltiple: 3 posiciones × 2 escenas) y 3–4 ASÍ NO: queda en ~125–135 s. Generador: `plantilla/maquinas/l7_*.py`. Una máquina suelta que entra en una familia ya dibujada (ej. `seated-dip-machine` = familia `chestpress`): sumá el tipo a ese `if` de `runtime.js` y escribí un generador de un solo archivo (`l8_seated_dip.py poses` → pose-lab → `l8_seated_dip.py` sin argumentos), copiando la ficha más parecida: ~15 escenas ≈ 106 s.
 
 **Regla del piloto:** hasta que el usuario apruebe el lote 0 (`"revisado": true` en `leg-press` y `lat-pulldown`),
 **no arranques el lote 1**. Si el usuario pide cambios de estilo/duración/estructura en el piloto, actualizá este

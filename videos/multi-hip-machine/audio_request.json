@@ -1,0 +1,85 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Multi Hip Machine",
+      "text": "La multicadera de pie. Una sola máquina para cuatro ejercicios de cadera y glúteos."
+    },
+    {
+      "id": "02",
+      "text": "También le dicen multi-hip. Sirve para patada atrás, abrir la pierna, cerrarla y subir la rodilla."
+    },
+    {
+      "id": "03",
+      "text": "Subí o bajá el eje hasta que quede justo a la altura de tu cadera. Es el ajuste más importante."
+    },
+    {
+      "id": "04",
+      "text": "El rodillo va a la altura de la pierna, justo arriba de la rodilla. Nunca sobre el tobillo."
+    },
+    {
+      "id": "05",
+      "text": "El disco con agujeros regula el ángulo: elegí desde dónde arranca la palanca y trabá el pasador."
+    },
+    {
+      "id": "06",
+      "text": "Elegí el peso con el pasador de la pila. Empezá liviano: son músculos chicos que se cansan rápido."
+    },
+    {
+      "id": "07",
+      "text": "Parate de costado a la máquina, agarrate de la manija y dejá la pierna de apoyo apenas flexionada."
+    },
+    {
+      "id": "08",
+      "text": "Uno: patada de glúteo. Con el rodillo atrás del muslo, llevá la pierna hacia atrás y volvé lento."
+    },
+    {
+      "id": "09",
+      "text": "Dos: abducción. Con el rodillo del lado de afuera, abrí la pierna al costado y volvé sin golpe."
+    },
+    {
+      "id": "10",
+      "text": "Tres: aducción. Con el rodillo del lado de adentro, arrancá abierto y cerrá la pierna cruzando apenas."
+    },
+    {
+      "id": "11",
+      "text": "Cuatro: elevación de rodilla. Con el rodillo arriba del muslo, subí la rodilla hasta la altura de la cadera."
+    },
+    {
+      "id": "12",
+      "text": "Error: llevar la pierna tan atrás que se arquea la lumbar. Recorrido corto: la patada sale del glúteo."
+    },
+    {
+      "id": "13",
+      "text": "Error: encorvar el tronco para subir más la rodilla. Pecho alto y la rodilla solo hasta la cadera."
+    },
+    {
+      "id": "14",
+      "text": "Error: balancear el cuerpo para mover la pierna con impulso. Bajá el peso y hacelo lento."
+    },
+    {
+      "id": "15",
+      "text": "Error: abrir la pierna más de lo que da tu cadera, inclinando el tronco. Abrí hasta donde llegás derecho."
+    },
+    {
+      "id": "16",
+      "text": "Tips de profe: eje a la altura de la cadera, rodillo arriba de la rodilla, y hacé todas las reps de una pierna antes de cambiar."
+    },
+    {
+      "id": "17",
+      "text": "Claves: agarrado de la manija, tronco quieto, recorrido corto y sin que la pila choque."
+    },
+    {
+      "id": "18",
+      "text": "Tres series de doce a quince por pierna, con un minuto de pausa. Cuando salen fáciles, subí una placa."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

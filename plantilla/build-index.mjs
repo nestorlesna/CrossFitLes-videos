@@ -277,6 +277,26 @@ export function buildIndex(projectDir, { thumb = false } = {}) {
           </svg>
         </div>
       </div>`);
+    else if (f.topview?.mode === "hip")
+      // Multicadera de frente, de pie (runtime: hipCards): la pierna de la derecha se abre (cs > 0) o cruza (cs < 0); rodillo afuera / adentro.
+      extras.push(`<div id="fx-${f.id}" class="clip" data-start="${f.start}" data-duration="${f.dur}" data-track-index="4">
+        <div id="topcard-${f.id}" class="feetcard topcard"><div class="lbl">VISTA DE FRENTE</div>
+          <svg viewBox="0 0 252 300">
+            <line x1="14" y1="276" x2="238" y2="276" stroke="#D9D2C5" stroke-width="6" stroke-linecap="round"/>
+            <line x1="112" y1="168" x2="110" y2="264" stroke="#3F3F9A" stroke-width="18" stroke-linecap="round"/>
+            <rect x="96" y="262" width="28" height="12" rx="6" fill="#3B3FA3"/>
+            <line id="hpl-${f.id}" stroke="#3F3F9A" stroke-width="18" stroke-linecap="round"/>
+            <circle id="hps-${f.id}" r="9" fill="#3B3FA3"/>
+            <g id="hpp-${f.id}"><rect x="-9" y="-24" width="18" height="48" rx="8" fill="#1A1A1A"/></g>
+            <rect x="100" y="84" width="52" height="94" rx="18" fill="#2FB3A6"/>
+            <line x1="104" y1="96" x2="92" y2="170" stroke="#E8B383" stroke-width="12" stroke-linecap="round"/>
+            <line x1="148" y1="96" x2="160" y2="170" stroke="#E8B383" stroke-width="12" stroke-linecap="round"/>
+            <circle cx="126" cy="60" r="20" fill="#E8B383"/>
+            <path d="M106 56 C 106 32 146 32 146 56 C 138 46 114 46 106 56 Z" fill="#6B3B1F"/>
+            <text x="126" y="296" text-anchor="middle" font-family="Inter" font-weight="800" font-size="20" fill="#1A1A1A">${esc(f.topview.label || "ABRÍ LA PIERNA")}</text>
+          </svg>
+        </div>
+      </div>`);
     else if (f.topview?.mode === "er")
       // Rotación externa vista de arriba (runtime: erCards): codo pegado al cuerpo, el antebrazo gira hacia afuera contra la banda.
       extras.push(`<div id="fx-${f.id}" class="clip" data-start="${f.start}" data-duration="${f.dur}" data-track-index="4">

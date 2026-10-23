@@ -7,6 +7,8 @@ import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { buildIndex, collectShots } from "./build-index.mjs";
+// Paquete de HyperFrames para npx: HF_PKG=hyperframes@0.8.171 fija una versión (si el "latest" del registro todavía no se puede bajar).
+const HF = process.env.HF_PKG || "hyperframes";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const [slug, only] = process.argv.slice(2);
@@ -26,6 +28,6 @@ writeFileSync(join(LAB, "exercise.json"), JSON.stringify(lab));
 const b = buildIndex(LAB);
 rmSync(join(LAB, "snapshots"), { recursive: true, force: true });
 const at = b.frames.map((f) => (f.start + 1.2).toFixed(2)).join(",");
-spawnSync(`npx --prefer-offline hyperframes snapshot . --at ${at} --no-end --describe false`, { cwd: LAB, shell: true, stdio: "inherit" });
+spawnSync(`npx --prefer-offline ${HF} snapshot . --at ${at} --no-end --describe false`, { cwd: LAB, shell: true, stdio: "inherit" });
 collectShots(LAB);
 console.log(`· ${names.length} poses → videos/_poselab/${slug}/snapshots/contact-sheet.jpg`);

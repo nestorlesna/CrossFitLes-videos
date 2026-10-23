@@ -1,0 +1,1140 @@
+{
+  "slug": "multi-hip-machine",
+  "name": "Multi Hip Machine",
+  "maquina": true,
+  "category": "GIMNASIO · GLÚTEOS",
+  "tags": [
+    "Glúteos",
+    "Cadera"
+  ],
+  "descripcion": "De pie, de costado a la máquina. Subí o bajá el eje hasta que quede a la altura de tu cadera. El rodillo va a la altura de la pierna (arriba de la rodilla) y el disco con agujeros regula el ángulo de arranque. Sirve para cuatro ejercicios: patada de glúteo hacia atrás, abducción (abrir), aducción (cerrar) y elevación de rodilla. Agarrate de la manija, tronco quieto, y mové solo la pierna.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 690,
+    "y": 1509.6,
+    "scale": 0.66
+  },
+  "shadow": false,
+  "initialPose": "KB_START",
+  "props": [
+    {
+      "type": "multihip",
+      "pivot": [
+        0,
+        -470
+      ],
+      "stack": -520,
+      "at": 210,
+      "handle": [
+        230,
+        -560
+      ],
+      "deck": [
+        -240,
+        260
+      ],
+      "pin": 5,
+      "k": 2.2,
+      "kc": 110
+    }
+  ],
+  "poses": {
+    "KB_START": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "s2": 0,
+      "t2": 0,
+      "ft": 0,
+      "ft2": 0,
+      "b": 6,
+      "hd": 4,
+      "g": 1,
+      "hx": 230,
+      "hy": -560,
+      "ed": 1,
+      "cs": 0,
+      "by": 0,
+      "bf": -1
+    },
+    "KB_MID": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 40,
+      "t": 16,
+      "s2": 0,
+      "t2": 0,
+      "ft": 30,
+      "ft2": 0,
+      "b": 6,
+      "hd": 4,
+      "g": 1,
+      "hx": 230,
+      "hy": -560,
+      "ed": 1,
+      "cs": 0,
+      "by": 0,
+      "bf": -1
+    },
+    "KB_TOP": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 62,
+      "t": 32,
+      "s2": 0,
+      "t2": 0,
+      "ft": 40,
+      "ft2": 0,
+      "b": 10,
+      "hd": 8,
+      "g": 1,
+      "hx": 230,
+      "hy": -560,
+      "ed": 1,
+      "cs": 0,
+      "by": 0,
+      "bf": -1
+    },
+    "KB_BAD": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 86,
+      "t": 58,
+      "s2": 0,
+      "t2": 0,
+      "ft": 46,
+      "ft2": 0,
+      "b": -12,
+      "hd": -14,
+      "g": 1,
+      "hx": 230,
+      "hy": -560,
+      "ed": 1,
+      "cs": 0,
+      "by": 0,
+      "bf": -1,
+      "cv": -26
+    },
+    "KR_START": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "s2": 0,
+      "t2": 0,
+      "ft": 0,
+      "ft2": 0,
+      "b": 6,
+      "hd": 4,
+      "g": 1,
+      "hx": 230,
+      "hy": -560,
+      "ed": 1,
+      "cs": 0,
+      "by": 0,
+      "bf": 1
+    },
+    "KR_MID": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": -4,
+      "t": -46,
+      "s2": 0,
+      "t2": 0,
+      "ft": 10,
+      "ft2": 0,
+      "b": 6,
+      "hd": 4,
+      "g": 1,
+      "hx": 230,
+      "hy": -560,
+      "ed": 1,
+      "cs": 0,
+      "by": 0,
+      "bf": 1
+    },
+    "KR_TOP": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": -90,
+      "s2": 0,
+      "t2": 0,
+      "ft": 22,
+      "ft2": 0,
+      "b": 6,
+      "hd": 4,
+      "g": 1,
+      "hx": 230,
+      "hy": -560,
+      "ed": 1,
+      "cs": 0,
+      "by": 0,
+      "bf": 1
+    },
+    "KR_BAD": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 6,
+      "t": -100,
+      "s2": 0,
+      "t2": 0,
+      "ft": 22,
+      "ft2": 0,
+      "b": 24,
+      "hd": 26,
+      "g": 1,
+      "hx": 250,
+      "hy": -540,
+      "ed": 1,
+      "cs": 0,
+      "by": 0,
+      "bf": 1,
+      "cv": 24
+    },
+    "AB_START": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "s2": 0,
+      "t2": 0,
+      "ft": 0,
+      "ft2": 0,
+      "b": 6,
+      "hd": 4,
+      "g": 1,
+      "hx": 230,
+      "hy": -560,
+      "ed": 1,
+      "cs": 0,
+      "by": 0,
+      "bf": 0
+    },
+    "AB_OUT": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "s2": 0,
+      "t2": 0,
+      "ft": 0,
+      "ft2": 0,
+      "b": 6,
+      "hd": 4,
+      "g": 1,
+      "hx": 230,
+      "hy": -560,
+      "ed": 1,
+      "cs": 1,
+      "by": 0,
+      "bf": 0
+    },
+    "AB_BAD": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "s2": 0,
+      "t2": 0,
+      "ft": 0,
+      "ft2": 0,
+      "b": 2,
+      "hd": 4,
+      "g": 1,
+      "hx": 230,
+      "hy": -560,
+      "ed": 1,
+      "cs": 1.4,
+      "by": 0,
+      "bf": 0
+    },
+    "AD_START": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "s2": 0,
+      "t2": 0,
+      "ft": 0,
+      "ft2": 0,
+      "b": 6,
+      "hd": 4,
+      "g": 1,
+      "hx": 230,
+      "hy": -560,
+      "ed": 1,
+      "cs": 0.7,
+      "by": 0.7,
+      "bf": 2
+    },
+    "AD_IN": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "s2": 0,
+      "t2": 0,
+      "ft": 0,
+      "ft2": 0,
+      "b": 6,
+      "hd": 4,
+      "g": 1,
+      "hx": 230,
+      "hy": -560,
+      "ed": 1,
+      "cs": -0.25,
+      "by": 0.7,
+      "bf": 2
+    },
+    "SWING_BAD": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 70,
+      "t": 46,
+      "s2": 0,
+      "t2": 0,
+      "ft": 40,
+      "ft2": 0,
+      "b": 30,
+      "hd": 30,
+      "g": 1,
+      "hx": 270,
+      "hy": -520,
+      "ed": 1,
+      "cs": 0,
+      "by": 0,
+      "bf": -1,
+      "cv": 10
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · GLÚTEOS",
+      "head": [
+        "MULTI HIP",
+        "MACHINE"
+      ],
+      "sub": "Máquina multicadera de pie",
+      "vo": "Multi Hip Machine: la multicadera de pie. Una sola máquina para cuatro ejercicios de cadera y glúteos.",
+      "moves": [
+        {
+          "cut": "KB_START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "KB_TOP",
+              1.4
+            ],
+            [
+              "KB_START",
+              1.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "También: multi-hip",
+      "vo": "También le dicen multi-hip. Sirve para patada atrás, abrir la pierna, cerrarla y subir la rodilla.",
+      "moves": [
+        {
+          "cut": "KB_START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            760
+          ],
+          "text": "PILA DE PESO",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            690,
+            1199
+          ],
+          "r": 70,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "EJE Y DISCO",
+          "anchor": "end",
+          "at": 1.6
+        },
+        {
+          "type": "ring",
+          "pos": [
+            656,
+            1338
+          ],
+          "r": 46,
+          "at": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            920
+          ],
+          "text": "RODILLO",
+          "anchor": "end",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "ALTURA",
+        "DEL EJE"
+      ],
+      "sub": "A la altura de tu cadera",
+      "vo": "Subí o bajá el eje hasta que quede justo a la altura de tu cadera. Es el ajuste más importante.",
+      "moves": [
+        {
+          "cut": "KB_START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            591,
+            1265
+          ],
+          "r": 26,
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            690,
+            1199
+          ],
+          "r": 70,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "EJE = CADERA",
+          "anchor": "end",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "RODILLO"
+      ],
+      "sub": "Arriba de la rodilla",
+      "vo": "El rodillo va a la altura de la pierna, justo arriba de la rodilla. Nunca sobre el tobillo.",
+      "moves": [
+        {
+          "cut": "KB_START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            656,
+            1338
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "ARRIBA DE LA RODILLA",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 3",
+      "head": [
+        "EL",
+        "DISCO"
+      ],
+      "sub": "Regula el ángulo",
+      "vo": "El disco con agujeros regula el ángulo: elegí desde dónde arranca la palanca y trabá el pasador.",
+      "moves": [
+        {
+          "cut": "KB_START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            690,
+            1199
+          ],
+          "r": 74,
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            690,
+            1228
+          ],
+          "r": 18,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "PASADOR DEL ÁNGULO",
+          "anchor": "end",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 4",
+      "head": [
+        "EL",
+        "PESO"
+      ],
+      "sub": "Empezá liviano",
+      "vo": "Elegí el peso con el pasador de la pila. Empezá liviano: son músculos chicos que se cansan rápido.",
+      "moves": [
+        {
+          "cut": "KB_START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            380,
+            1407
+          ],
+          "r": 30,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            760
+          ],
+          "text": "PASADOR",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE",
+        "COSTADO"
+      ],
+      "sub": "Agarrado de la manija",
+      "vo": "Parate de costado a la máquina, agarrate de la manija y dejá la pierna de apoyo apenas flexionada.",
+      "moves": [
+        {
+          "cut": "KB_START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            842,
+            1140
+          ],
+          "r": 40,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "MANIJA",
+          "anchor": "end",
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            920
+          ],
+          "text": "TRONCO QUIETO",
+          "anchor": "end",
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 7.6,
+      "badge": "USO 1 / 4",
+      "head": [
+        "PATADA",
+        "ATRÁS"
+      ],
+      "sub": "Rodillo atrás del muslo",
+      "vo": "Uno: patada de glúteo. Con el rodillo atrás del muslo, llevá la pierna hacia atrás y volvé lento.",
+      "moves": [
+        {
+          "cut": "KB_START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "KB_TOP",
+              1.4
+            ],
+            [
+              "KB_START",
+              1.4
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "APRETÁ EL GLÚTEO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.6,
+      "badge": "USO 2 / 4",
+      "head": [
+        "ABRÍ"
+      ],
+      "sub": "Abducción: rodillo afuera",
+      "vo": "Dos: abducción. Con el rodillo del lado de afuera, abrí la pierna al costado y volvé sin golpe.",
+      "moves": [
+        {
+          "cut": "AB_START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "AB_OUT",
+              1.4
+            ],
+            [
+              "AB_START",
+              1.4
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ],
+      "numeral": "2",
+      "topview": {
+        "mode": "hip",
+        "pads": "out",
+        "label": "ABRÍ LA PIERNA"
+      },
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            760
+          ],
+          "text": "RODILLO AFUERA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.6,
+      "badge": "USO 3 / 4",
+      "head": [
+        "CERRÁ"
+      ],
+      "sub": "Aducción: rodillo adentro",
+      "vo": "Tres: aducción. Con el rodillo del lado de adentro, arrancá abierto y cerrá la pierna cruzando apenas.",
+      "moves": [
+        {
+          "cut": "AD_START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "AD_IN",
+              1.4
+            ],
+            [
+              "AD_START",
+              1.4
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ],
+      "numeral": "3",
+      "topview": {
+        "mode": "hip",
+        "pads": "in",
+        "label": "CERRÁ LA PIERNA"
+      },
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            760
+          ],
+          "text": "RODILLO ADENTRO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.6,
+      "badge": "USO 4 / 4",
+      "head": [
+        "SUBÍ LA",
+        "RODILLA"
+      ],
+      "sub": "Rodillo arriba del muslo",
+      "vo": "Cuatro: elevación de rodilla. Con el rodillo arriba del muslo, subí la rodilla hasta la altura de la cadera.",
+      "moves": [
+        {
+          "cut": "KR_START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "KR_TOP",
+              1.4
+            ],
+            [
+              "KR_START",
+              1.4
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ],
+      "numeral": "4",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "HASTA LA CADERA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "ASÍ NO · 1 / 4",
+      "head": [
+        "LUMBAR",
+        "ARQUEADA"
+      ],
+      "sub": "La patada sale del glúteo",
+      "vo": "Error: llevar la pierna tan atrás que se arquea la lumbar. Recorrido corto: la patada sale del glúteo.",
+      "moves": [
+        {
+          "cut": "KB_START",
+          "at": 0
+        },
+        {
+          "to": "KB_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            690,
+            1199
+          ],
+          "r": 64,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "ASÍ NO · 2 / 4",
+      "head": [
+        "TRONCO",
+        "ENCORVADO"
+      ],
+      "sub": "Subí solo la rodilla",
+      "vo": "Error: encorvar el tronco para subir más la rodilla. Pecho alto y la rodilla solo hasta la cadera.",
+      "moves": [
+        {
+          "cut": "KR_START",
+          "at": 0
+        },
+        {
+          "to": "KR_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            765,
+            1031
+          ],
+          "r": 64,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "ASÍ NO · 3 / 4",
+      "head": [
+        "CON",
+        "IMPULSO"
+      ],
+      "sub": "Lento y controlado",
+      "vo": "Error: balancear el cuerpo para mover la pierna con impulso. Bajá el peso y hacelo lento.",
+      "moves": [
+        {
+          "cut": "KB_START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "SWING_BAD",
+              0.35
+            ],
+            [
+              "KB_START",
+              0.35
+            ]
+          ],
+          "at": 0.4,
+          "until": 3.6
+        },
+        {
+          "to": "SWING_BAD",
+          "at": 3.7,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            860
+          ],
+          "text": "SIN CONTROL",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "ASÍ NO · 4 / 4",
+      "head": [
+        "ABRIR",
+        "DE MÁS"
+      ],
+      "sub": "Un rango cómodo",
+      "vo": "Error: abrir la pierna más de lo que da tu cadera, inclinando el tronco. Abrí hasta donde llegás derecho.",
+      "moves": [
+        {
+          "cut": "AB_START",
+          "at": 0
+        },
+        {
+          "to": "AB_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "topview": {
+        "mode": "hip",
+        "pads": "out",
+        "label": "ABRÍ DE MÁS"
+      },
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            300,
+            760
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Eje a la altura de la cadera",
+        "Rodillo arriba de la rodilla",
+        "Solo se mueve la pierna",
+        "Todas las reps y cambiá"
+      ],
+      "vo": "Tips de profe: eje a la altura de la cadera, rodillo arriba de la rodilla, y hacé todas las reps de una pierna antes de cambiar.",
+      "moves": [
+        {
+          "cut": "KB_START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "KB_TOP",
+              1.4
+            ],
+            [
+              "KB_START",
+              1.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Agarrado de la manija",
+        "Tronco quieto",
+        "Recorrido corto",
+        "Sin que choque la pila"
+      ],
+      "vo": "Claves: agarrado de la manija, tronco quieto, recorrido corto y sin que la pila choque.",
+      "moves": [
+        {
+          "cut": "KB_TOP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 15"
+      ],
+      "sub": "Por pierna, en cada ejercicio",
+      "vo": "Tres series de doce a quince por pierna, con un minuto de pausa. Cuando salen fáciles, subí una placa.",
+      "chips": [
+        {
+          "label": "1 · AJUSTÁ EL EJE",
+          "at": 0.6
+        },
+        {
+          "label": "2 · MOVÉ LA PIERNA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ LENTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "KB_START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "KB_TOP",
+              1.4
+            ],
+            [
+              "KB_START",
+              1.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "KB_TOP",
+    "grip": 1,
+    "zoom": 1.0,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Multi Hip Machine 🔥 Multicadera: 4 ejercicios de glúteos y cadera | Gimnasio",
+    "tags": [
+      "multi hip",
+      "máquina multicadera",
+      "multicadera",
+      "patada de glúteo en máquina",
+      "abducción de cadera de pie",
+      "aducción de cadera",
+      "elevación de rodilla",
+      "glúteos",
+      "glúteo medio",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes"
+    ],
+    "descripcion": "🔥 MULTI HIP MACHINE (máquina multicadera de pie) — cuatro ejercicios de cadera en una sola máquina\n\n¿Viste esa máquina con un disco con agujeros y un rodillo, y no sabés cómo se usa? Sirve para cuatro ejercicios. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Subí o bajá el eje hasta que quede a la altura de tu cadera.\n2️⃣ Poné el rodillo justo arriba de la rodilla, nunca en el tobillo.\n3️⃣ Con el disco con agujeros elegí el ángulo de arranque y trabá el pasador.\n4️⃣ Elegí un peso liviano con el pasador de la pila.\n\n📋 PASO A PASO\n1️⃣ Parate de costado a la máquina, agarrado de la manija, con la pierna de apoyo apenas flexionada.\n2️⃣ Patada de glúteo: rodillo atrás del muslo, llevá la pierna hacia atrás y volvé lento.\n3️⃣ Abducción: rodillo del lado de afuera, abrí la pierna al costado y volvé sin golpe.\n4️⃣ Aducción: rodillo del lado de adentro, arrancá abierto y cerrá la pierna cruzando apenas.\n5️⃣ Elevación de rodilla: rodillo arriba del muslo, subí la rodilla hasta la altura de la cadera.\n\n❌ ERRORES COMUNES\n• Eje más alto o más bajo que la cadera → alinealo con la cadera antes de empezar.\n• Arquear la lumbar en la patada atrás → recorrido corto, la patada sale del glúteo.\n• Encorvar o inclinar el tronco para subir más la pierna → tronco quieto y rango cómodo.\n• Balancear y usar impulso → menos peso y movimiento lento.\n• Dejar que la pila choque entre repeticiones → volvé controlado.\n\n💡 TIPS DEL PROFE\n• Eje de la máquina a la altura de la cadera.\n• Rodillo justo arriba de la rodilla, no en el tobillo.\n• Agarrate de la manija y tronco quieto: solo se mueve la pierna.\n• Recorrido corto y controlado: el glúteo trabaja, no la lumbar.\n• Hacé todas las reps de una pierna y después cambiá.\n\n🎯 QUÉ TRABAJA\nGlúteo mayor · Glúteo medio · Aductores · Flexores de cadera · Core\n\n⏱️ CUÁNTO\n3 series de 12–15 repeticiones por pierna en cada ejercicio, con 1 minuto de pausa. Cuando salen fáciles, subí una placa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #MultiHip #Gluteos #Musculacion #Entrenamiento"
+  }
+}
