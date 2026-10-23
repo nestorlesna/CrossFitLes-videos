@@ -389,3 +389,1245 @@ La columna Implemento dice la máquina y el prop de `plantilla/runtime.js` que l
 | M34 | Multi Hip Machine | 🏋️ Máquina multicadera (de pie) · `multihip` | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/multi-hip-machine.youtube.txt) | [✅](salida/subidos/multi-hip-machine.miniatura.png) | 133.8 s | [multi-hip-machine.mp4](salida/subidos/multi-hip-machine.mp4) | ✅ | ✅ | ✅ | 2026-10-23 |  |
 | M35 | Multi Press Machine | 🏋️ Press múltiple (pecho, inclinado y hombros) · `multipress` | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/multi-press-machine.youtube.txt) | [✅](salida/subidos/multi-press-machine.miniatura.png) | 127.6 s | [multi-press-machine.mp4](salida/subidos/multi-press-machine.mp4) | ✅ | ✅ | ✅ | 2026-10-23 |  |
 | M36 | Seated Dip Machine | 🏋️ Fondos de tríceps sentado en máquina · `seateddip` | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/subidos/seated-dip-machine.youtube.txt) | [✅](salida/subidos/seated-dip-machine.miniatura.png) | 106.1 s | [seated-dip-machine.mp4](salida/subidos/seated-dip-machine.mp4) | ✅ | ✅ | ✅ | 2026-10-23 |  |
+
+## 📚 Dataset de ejercicios (pendientes)
+
+Ejercicios del dataset externo (exercises-dataset, 1324 ejercicios) que no están en las tablas de arriba. Se hacen con
+`GENERAR_VIDEOS_DATASET.md`. La lista y su orden salen de `ejercicios/dataset.csv` (la arma
+`node plantilla/dataset-import.mjs`; los que ya tenemos con otro nombre van en `ejercicios/dataset-equivalencias.csv`).
+Notas: lote, formato (máquina 90–150 s · corto 40–52 s) y el ejercicio nuestro más parecido (pista, no equivalencia).
+
+**Renderizados:** 0 / 1230 · **Fichas:** 0 · **Descripción YouTube:** 0 · **Subidos:** 0 · **Próximo:** D1 · Lever Seated Crunch (Chest Pad) · **Props sin dibujar:** 15 (lever, leverrow, levershrug, handbike, trapbar, ezbar, dipbars, bosu, stabilityball, abwheel, battlerope, foamroller, sledgehammer, tire, strap)
+
+| # | Ejercicio | Implemento | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Nombre EN | Revisado | Subido | Fecha render | Notas |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| D1 | Lever Seated Crunch (Chest Pad) | Máquina de palanca · `abcrunch` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D01 · formato máquina |
+| D2 | Lever Seated Crunch v. 2 | Máquina de palanca · `abcrunch` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D01 · formato máquina |
+| D3 | Lever Seated Leg Raise Crunch | Máquina de palanca · `abcrunch` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D01 · formato máquina · parecido a seated-calf-raise-machine |
+| D4 | Assisted Parallel Close Grip Pull-up | Máquina de palanca · `assisted` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D01 · formato máquina |
+| D5 | Assisted Standing Chin-up | Máquina de palanca · `assisted` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D01 · formato máquina |
+| D6 | Assisted Standing Pull-up | Máquina de palanca · `assisted` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D01 · formato máquina · parecido a assisted-pull-up-machine |
+| D7 | Lever Assisted Chin-up | Máquina de palanca · `assisted` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D01 · formato máquina · parecido a assisted-pull-up-machine |
+| D8 | Lever Back Extension | Máquina de palanca · `backext45` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D01 · formato máquina · parecido a ghd-back-extension |
+| D9 | Lever Reverse Hyperextension | Máquina de palanca · `backext45` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D01 · formato máquina |
+| D10 | Lever Decline Chest Press | Máquina de palanca · `chestpress` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D01 · formato máquina · parecido a machine-chest-press |
+| D11 | Lever Incline Chest Press | Máquina de palanca · `chestpress` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D02 · formato máquina · parecido a machine-chest-press |
+| D12 | Lever Incline Chest Press v. 2 | Máquina de palanca · `chestpress` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D02 · formato máquina · parecido a machine-chest-press |
+| D13 | Lever Standing Chest Press | Máquina de palanca · `chestpress` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D02 · formato máquina · parecido a machine-chest-press |
+| D14 | Machine Inner Chest Press | Máquina de palanca · `chestpress` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D02 · formato máquina · parecido a machine-chest-press |
+| D15 | Lever Front Pulldown | Máquina de palanca · `latpulldown` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D02 · formato máquina |
+| D16 | Lever One Arm Lateral Wide Pulldown | Máquina de palanca · `latpulldown` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D02 · formato máquina |
+| D17 | Lever Reverse Grip Lateral Pulldown | Máquina de palanca · `latpulldown` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D02 · formato máquina |
+| D18 | Reverse Grip Machine Lat Pulldown | Máquina de palanca · `latpulldown` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D02 · formato máquina |
+| D19 | Lever Alternate Leg Press | Máquina de palanca · `legpress` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D02 · formato máquina · parecido a leg-press |
+| D20 | Lever Horizontal One Leg Press | Máquina de palanca · `legpress` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D02 · formato máquina |
+| D21 | Lever Seated Squat Calf Raise on Leg Press Machine | Máquina de palanca · `legpress` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D03 · formato máquina · parecido a seated-calf-raise-machine |
+| D22 | Lever Lying Two-one Leg Curl | Máquina de palanca · `lyinglegcurl` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D03 · formato máquina · parecido a lying-leg-curl |
+| D23 | Lever Seated Reverse Fly | Máquina de palanca · `pecdeck` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D03 · formato máquina |
+| D24 | Lever Seated Reverse Fly (Parallel Grip) | Máquina de palanca · `pecdeck` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D03 · formato máquina |
+| D25 | Lever Hammer Grip Preacher Curl | Máquina de palanca · `preachercurl` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D03 · formato máquina · parecido a machine-preacher-curl |
+| D26 | Lever Preacher Curl v. 2 | Máquina de palanca · `preachercurl` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D03 · formato máquina · parecido a machine-preacher-curl |
+| D27 | Lever Reverse Grip Preacher Curl | Máquina de palanca · `preachercurl` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D03 · formato máquina · parecido a machine-preacher-curl |
+| D28 | Lever Seated Calf Press | Máquina de palanca · `seatedcalf` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D03 · formato máquina · parecido a seated-calf-raise-machine |
+| D29 | Assisted Chest Dip (Kneeling) | Máquina de palanca · `seateddip` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D03 · formato máquina |
+| D30 | Assisted Triceps Dip (Kneeling) | Máquina de palanca · `seateddip` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D03 · formato máquina |
+| D31 | Assisted Wide-grip Chest Dip (Kneeling) | Máquina de palanca · `seateddip` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D04 · formato máquina |
+| D32 | Lever Overhand Triceps Dip | Máquina de palanca · `seateddip` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D04 · formato máquina |
+| D33 | Lever Kneeling Leg Curl | Máquina de palanca · `seatedlegcurl` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D04 · formato máquina |
+| D34 | Lever Military Press | Máquina de palanca · `shoulderpress` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D04 · formato máquina · parecido a machine-chest-press |
+| D35 | Lever One Arm Shoulder Press | Máquina de palanca · `shoulderpress` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D04 · formato máquina · parecido a machine-shoulder-press |
+| D36 | Lever Shoulder Press v. 2 | Máquina de palanca · `shoulderpress` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D04 · formato máquina · parecido a machine-shoulder-press |
+| D37 | Lever Shoulder Press v. 3 | Máquina de palanca · `shoulderpress` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D04 · formato máquina · parecido a machine-shoulder-press |
+| D38 | Lever Calf Press | Máquina de palanca · `standingcalf` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D04 · formato máquina · parecido a machine-chest-press |
+| D39 | Lever Donkey Calf Raise | Máquina de palanca · `standingcalf` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D04 · formato máquina · parecido a standing-calf-raise-machine |
+| D40 | Lever Rotary Calf | Máquina de palanca · `standingcalf` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D04 · formato máquina |
+| D41 | Cycle Cross Trainer | Máquina de palanca · `lever` (falta dibujar lever) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D05 · formato máquina |
+| D42 | Lever Bicep Curl | Máquina de palanca · `lever` (falta dibujar lever) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D05 · formato máquina · parecido a barbell-bicep-curl |
+| D43 | Lever Deadlift | Máquina de palanca · `lever` (falta dibujar lever) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D05 · formato máquina |
+| D44 | Lever Gripper Hands | Máquina de palanca · `lever` (falta dibujar lever) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D05 · formato máquina |
+| D45 | Lever Hip Extension v. 2 | Máquina de palanca · `lever` (falta dibujar lever) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D05 · formato máquina |
+| D46 | Lever Kneeling Twist | Máquina de palanca · `lever` (falta dibujar lever) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D05 · formato máquina |
+| D47 | Lever Pullover | Máquina de palanca · `lever` (falta dibujar lever) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D05 · formato máquina |
+| D48 | Lever Seated Good Morning | Máquina de palanca · `lever` (falta dibujar lever) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D05 · formato máquina |
+| D49 | Lever Triceps Extension | Máquina de palanca · `lever` (falta dibujar lever) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D05 · formato máquina · parecido a banded-triceps-extensions |
+| D50 | Lever Alternating Narrow Grip Seated Row | Máquina de palanca · `leverrow` (falta dibujar leverrow) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D05 · formato máquina |
+| D51 | Lever Bent-over Row with V-Bar | Máquina de palanca · `leverrow` (falta dibujar leverrow) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D06 · formato máquina · parecido a barbell-bent-over-row |
+| D52 | Lever High Row | Máquina de palanca · `leverrow` (falta dibujar leverrow) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D06 · formato máquina |
+| D53 | Lever Narrow Grip Seated Row | Máquina de palanca · `leverrow` (falta dibujar leverrow) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D06 · formato máquina |
+| D54 | Lever One Arm Lateral High Row | Máquina de palanca · `leverrow` (falta dibujar leverrow) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D06 · formato máquina |
+| D55 | Lever Reverse Grip Vertical Row | Máquina de palanca · `leverrow` (falta dibujar leverrow) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D06 · formato máquina |
+| D56 | Lever Reverse T-bar Row | Máquina de palanca · `leverrow` (falta dibujar leverrow) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D06 · formato máquina |
+| D57 | Lever Seated Row | Máquina de palanca · `leverrow` (falta dibujar leverrow) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D06 · formato máquina · parecido a seated-cable-row |
+| D58 | Lever T Bar Row | Máquina de palanca · `leverrow` (falta dibujar leverrow) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D06 · formato máquina |
+| D59 | Lever T-bar Reverse Grip Row | Máquina de palanca · `leverrow` (falta dibujar leverrow) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D06 · formato máquina |
+| D60 | Lever Unilateral Row | Máquina de palanca · `leverrow` (falta dibujar leverrow) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D06 · formato máquina |
+| D61 | Lever Gripless Shrug | Máquina de palanca · `levershrug` (falta dibujar levershrug) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D07 · formato máquina |
+| D62 | Lever Gripless Shrug v. 2 | Máquina de palanca · `levershrug` (falta dibujar levershrug) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D07 · formato máquina |
+| D63 | Lever Shrug | Máquina de palanca · `levershrug` (falta dibujar levershrug) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D07 · formato máquina |
+| D64 | Hack Calf Raise | Prensa de trineo · `hacksquat` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D08 · formato máquina · parecido a calf-raise |
+| D65 | Hack One Leg Calf Raise | Prensa de trineo · `hacksquat` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D08 · formato máquina · parecido a single-leg-calf-raise |
+| D66 | Sled Closer Hack Squat | Prensa de trineo · `hacksquat` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D08 · formato máquina · parecido a hack-squat |
+| D67 | Sled Hack Squat | Prensa de trineo · `hacksquat` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D08 · formato máquina · parecido a hack-squat |
+| D68 | Sled 45 Degrees One Leg Press | Prensa de trineo · `legpress` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D08 · formato máquina |
+| D69 | Sled 45° Calf Press | Prensa de trineo · `legpress` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D08 · formato máquina |
+| D70 | Sled 45° Leg Wide Press | Prensa de trineo · `legpress` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D08 · formato máquina |
+| D71 | Sled Calf Press on Leg Press | Prensa de trineo · `legpress` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D08 · formato máquina · parecido a leg-press |
+| D72 | Sled Forward Angled Calf Raise | Prensa de trineo · `legpress` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D08 · formato máquina |
+| D73 | Sled Lying Calf Press | Prensa de trineo · `legpress` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D08 · formato máquina |
+| D74 | Sled Lying Squat | Prensa de trineo · `legpress` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D09 · formato máquina |
+| D75 | Sled One Leg Calf Press on Leg Press | Prensa de trineo · `legpress` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D09 · formato máquina |
+| D76 | Smith Back Shrug | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D10 · formato máquina |
+| D77 | Smith Behind Neck Press | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D10 · formato máquina · parecido a push-press-behind-the-neck |
+| D78 | Smith Bent Knee Good Morning | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D10 · formato máquina |
+| D79 | Smith Bent Over Row | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D10 · formato máquina · parecido a barbell-bent-over-row |
+| D80 | Smith Chair Squat | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D10 · formato máquina · parecido a smith-machine-squat |
+| D81 | Smith Deadlift | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D10 · formato máquina |
+| D82 | Smith Front Squat (Clean Grip) | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D10 · formato máquina |
+| D83 | Smith Full Squat | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D10 · formato máquina · parecido a smith-machine-squat |
+| D84 | Smith Hack Squat | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D10 · formato máquina · parecido a hack-squat |
+| D85 | Smith Hip Raise | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D10 · formato máquina |
+| D86 | Smith Leg Press | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D11 · formato máquina · parecido a leg-press |
+| D87 | Smith Low Bar Squat | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D11 · formato máquina |
+| D88 | Smith Machine Bicep Curl | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D11 · formato máquina |
+| D89 | Smith Narrow Row | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D11 · formato máquina |
+| D90 | Smith One Arm Row | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D11 · formato máquina |
+| D91 | Smith One Leg Floor Calf Raise | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D11 · formato máquina |
+| D92 | Smith Rear Delt Row | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D11 · formato máquina |
+| D93 | Smith Reverse Calf Raises | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D11 · formato máquina · parecido a calf-raise |
+| D94 | Smith Reverse Grip Bent Over Row | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D11 · formato máquina |
+| D95 | Smith Reverse-grip Press | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D11 · formato máquina |
+| D96 | Smith Shoulder Press | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D12 · formato máquina · parecido a shoulder-press |
+| D97 | Smith Shrug | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D12 · formato máquina |
+| D98 | Smith Single Leg Split Squat | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D12 · formato máquina |
+| D99 | Smith Sprint Lunge | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D12 · formato máquina |
+| D100 | Smith Standing Back Wrist Curl | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D12 · formato máquina |
+| D101 | Smith Standing Behind Head Military Press | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D12 · formato máquina |
+| D102 | Smith Standing Leg Calf Raise | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D12 · formato máquina · parecido a single-leg-calf-raise |
+| D103 | Smith Standing Military Press | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D12 · formato máquina |
+| D104 | Smith Sumo Squat | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D12 · formato máquina · parecido a smith-machine-squat |
+| D105 | Smith Toe Raise | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D12 · formato máquina · parecido a squat-to-toe-raise |
+| D106 | Smith Upright Row | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D13 · formato máquina · parecido a kettlebell-upright-row |
+| D107 | Smith Close-grip Bench Press | Máquina Smith · `smith + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D13 · formato máquina · parecido a smith-machine-bench-press |
+| D108 | Smith Decline Bench Press | Máquina Smith · `smith + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D13 · formato máquina · parecido a smith-machine-bench-press |
+| D109 | Smith Decline Reverse-grip Press | Máquina Smith · `smith + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D13 · formato máquina |
+| D110 | Smith Incline Bench Press | Máquina Smith · `smith + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D13 · formato máquina · parecido a smith-machine-bench-press |
+| D111 | Smith Incline Reverse-grip Press | Máquina Smith · `smith + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D13 · formato máquina |
+| D112 | Smith Incline Shoulder Raises | Máquina Smith · `smith + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D13 · formato máquina |
+| D113 | Smith Machine Decline Close Grip Bench Press | Máquina Smith · `smith + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D13 · formato máquina · parecido a smith-machine-bench-press |
+| D114 | Smith Machine Incline Tricep Extension | Máquina Smith · `smith + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D13 · formato máquina |
+| D115 | Smith Machine Reverse Decline Close Grip Bench Press | Máquina Smith · `smith + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D13 · formato máquina · parecido a smith-machine-bench-press |
+| D116 | Smith Seated One Leg Calf Raise | Máquina Smith · `smith + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D14 · formato máquina |
+| D117 | Smith Seated Shoulder Press | Máquina Smith · `smith + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D14 · formato máquina · parecido a shoulder-press |
+| D118 | Smith Seated Wrist Curl | Máquina Smith · `smith + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D14 · formato máquina |
+| D119 | Smith Wide Grip Bench Press | Máquina Smith · `smith + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D14 · formato máquina · parecido a smith-machine-bench-press |
+| D120 | Smith Wide Grip Decline Bench Press | Máquina Smith · `smith + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D14 · formato máquina |
+| D121 | Cable Alternate Shoulder Press | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D15 · formato máquina · parecido a shoulder-press |
+| D122 | Cable Alternate Triceps Extension | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D15 · formato máquina |
+| D123 | Cable Assisted Inverse Leg Curl | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D15 · formato máquina |
+| D124 | Cable Bench Press | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D15 · formato máquina · parecido a dumbbell-bench-press |
+| D125 | Cable Close Grip Curl | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D15 · formato máquina |
+| D126 | Cable Concentration Curl | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D15 · formato máquina · parecido a cable-bicep-curl |
+| D127 | Cable Concentration Extension (On Knee) | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D15 · formato máquina |
+| D128 | Cable Deadlift | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D15 · formato máquina |
+| D129 | Cable Decline One Arm Press | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D15 · formato máquina |
+| D130 | Cable Decline Press | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D15 · formato máquina |
+| D131 | Cable Drag Curl | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D16 · formato máquina · parecido a cable-bicep-curl |
+| D132 | Cable Forward Raise | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D16 · formato máquina |
+| D133 | Cable Front Raise | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D16 · formato máquina · parecido a dumbbell-front-raise |
+| D134 | Cable Front Shoulder Raise | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D16 · formato máquina |
+| D135 | Cable Hammer Curl (With Rope) | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D16 · formato máquina |
+| D136 | Cable High Pulley Overhead Tricep Extension | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D16 · formato máquina |
+| D137 | Cable High Row (Kneeling) | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D16 · formato máquina |
+| D138 | Cable Hip Adduction | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D16 · formato máquina · parecido a hip-adduction-machine |
+| D139 | Cable Incline Bench Press | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D16 · formato máquina |
+| D140 | Cable Incline Bench Row | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D16 · formato máquina |
+| D141 | Cable Incline Pushdown | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D17 · formato máquina · parecido a cable-triceps-pushdown |
+| D142 | Cable Incline Triceps Extension | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D17 · formato máquina |
+| D143 | Cable Judo Flip | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D17 · formato máquina |
+| D144 | Cable Kickback | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D17 · formato máquina |
+| D145 | Cable Kneeling Crunch | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D17 · formato máquina |
+| D146 | Cable Kneeling Rear Delt Row (With Rope) | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D17 · formato máquina |
+| D147 | Cable Kneeling Triceps Extension | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D17 · formato máquina |
+| D148 | Cable Lateral Raise | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D17 · formato máquina · parecido a lateral-raise-to-overhead |
+| D149 | Cable Lying Bicep Curl | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D17 · formato máquina · parecido a cable-bicep-curl |
+| D150 | Cable Lying Close-grip Curl | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D17 · formato máquina |
+| D151 | Cable Lying Extension Pullover (With Rope Attachment) | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D18 · formato máquina |
+| D152 | Cable Lying Triceps Extension v. 2 | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D18 · formato máquina |
+| D153 | Cable One Arm Bent Over Row | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D18 · formato máquina |
+| D154 | Cable One Arm Curl | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D18 · formato máquina |
+| D155 | Cable One Arm Incline Press | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D18 · formato máquina |
+| D156 | Cable One Arm Incline Press on Exercise Ball | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D18 · formato máquina |
+| D157 | Cable One Arm Lateral Bent-over | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D18 · formato máquina |
+| D158 | Cable One Arm Lateral Raise | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D18 · formato máquina |
+| D159 | Cable One Arm Preacher Curl | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D18 · formato máquina |
+| D160 | Cable One Arm Press on Exercise Ball | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D18 · formato máquina |
+| D161 | Cable One Arm Reverse Preacher Curl | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D19 · formato máquina |
+| D162 | Cable One Arm Straight Back High Row (Kneeling) | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D19 · formato máquina |
+| D163 | Cable One Arm Tricep Pushdown | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D19 · formato máquina · parecido a cable-triceps-pushdown |
+| D164 | Cable Overhead Curl | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D19 · formato máquina · parecido a cable-bicep-curl |
+| D165 | Cable Overhead Curl on Exercise Ball | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D19 · formato máquina |
+| D166 | Cable Overhead Triceps Extension (Rope Attachment) | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D19 · formato máquina |
+| D167 | Cable Palm Rotational Row | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D19 · formato máquina |
+| D168 | Cable Preacher Curl | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D19 · formato máquina · parecido a cable-bicep-curl |
+| D169 | Cable Press on Exercise Ball | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D19 · formato máquina |
+| D170 | Cable Pull Through (With Rope) | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D19 · formato máquina |
+| D171 | Cable Pushdown (Straight Arm) v. 2 | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D20 · formato máquina |
+| D172 | Cable Pushdown (With Rope Attachment) | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D20 · formato máquina |
+| D173 | Cable Rear Delt Row (Stirrups) | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D20 · formato máquina |
+| D174 | Cable Rear Delt Row (With Rope) | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D20 · formato máquina |
+| D175 | Cable Rear Drive | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D20 · formato máquina |
+| D176 | Cable Reverse Crunch | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D20 · formato máquina |
+| D177 | Cable Reverse Curl | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D20 · formato máquina · parecido a cable-bicep-curl |
+| D178 | Cable Reverse Grip Triceps Pushdown (Sz-bar) (With Arm Blaster) | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D20 · formato máquina |
+| D179 | Cable Reverse One Arm Curl | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D20 · formato máquina |
+| D180 | Cable Reverse Preacher Curl | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D20 · formato máquina |
+| D181 | Cable Reverse Wrist Curl | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D21 · formato máquina |
+| D182 | Cable Reverse-grip Pushdown | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D21 · formato máquina |
+| D183 | Cable Rope Extension Incline Bench Row | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D21 · formato máquina |
+| D184 | Cable Rope Hammer Preacher Curl | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D21 · formato máquina |
+| D185 | Cable Rope High Pulley Overhead Tricep Extension | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D21 · formato máquina |
+| D186 | Cable Rope Incline Tricep Extension | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D21 · formato máquina |
+| D187 | Cable Rope Lying on Floor Tricep Extension | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D21 · formato máquina |
+| D188 | Cable Rope One Arm Hammer Preacher Curl | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D21 · formato máquina |
+| D189 | Cable Russian Twists (On Stability Ball) | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D21 · formato máquina |
+| D190 | Cable Seated Chest Press | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D21 · formato máquina |
+| D191 | Cable Seated Crunch | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D22 · formato máquina · parecido a seated-cable-row |
+| D192 | Cable Seated Curl | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D22 · formato máquina · parecido a seated-leg-curl |
+| D193 | Cable Seated One Arm Concentration Curl | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D22 · formato máquina |
+| D194 | Cable Seated Overhead Curl | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D22 · formato máquina |
+| D195 | Cable Seated Rear Lateral Raise | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D22 · formato máquina |
+| D196 | Cable Seated Shoulder Internal Rotation | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D22 · formato máquina |
+| D197 | Cable Seated Twist | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D22 · formato máquina · parecido a seated-cable-row |
+| D198 | Cable Shoulder Press | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D22 · formato máquina · parecido a shoulder-press |
+| D199 | Cable Shrug | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D22 · formato máquina |
+| D200 | Cable Side Bend | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D22 · formato máquina |
+| D201 | Cable Side Bend Crunch (Bosu Ball) | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D23 · formato máquina |
+| D202 | Cable Side Crunch | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D23 · formato máquina |
+| D203 | Cable Squat Row (With Rope Attachment) | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D23 · formato máquina |
+| D204 | Cable Squatting Curl | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D23 · formato máquina · parecido a cable-bicep-curl |
+| D205 | Cable Standing Back Wrist Curl | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D23 · formato máquina |
+| D206 | Cable Standing Calf Raise | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D23 · formato máquina · parecido a standing-calf-raise-machine |
+| D207 | Cable Standing Crunch | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D23 · formato máquina · parecido a standing-cross-crunch |
+| D208 | Cable Standing Crunch (With Rope Attachment) | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D23 · formato máquina |
+| D209 | Cable Standing Hip Extension | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D23 · formato máquina |
+| D210 | Cable Standing Inner Curl | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D23 · formato máquina |
+| D211 | Cable Standing Lift | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D24 · formato máquina |
+| D212 | Cable Standing One Arm Triceps Extension | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D24 · formato máquina |
+| D213 | Cable Standing One Leg Calf Raise | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D24 · formato máquina |
+| D214 | Cable Standing Rear Delt Row (With Rope) | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D24 · formato máquina |
+| D215 | Cable Standing Reverse Grip One Arm Overhead Tricep Extension | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D24 · formato máquina |
+| D216 | Cable Standing Row (V-Bar) | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D24 · formato máquina |
+| D217 | Cable Standing Shoulder External Rotation | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D24 · formato máquina · parecido a wall-shoulder-external-rotation |
+| D218 | Cable Standing Twist Row (V-Bar) | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D24 · formato máquina |
+| D219 | Cable Thibaudeau Kayak Row | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D24 · formato máquina |
+| D220 | Cable Triceps Pushdown (V-Bar) | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D24 · formato máquina · parecido a cable-triceps-pushdown |
+| D221 | Cable Triceps Pushdown (V-Bar) (With Arm Blaster) | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D25 · formato máquina · parecido a cable-triceps-pushdown |
+| D222 | Cable Tuck Reverse Crunch | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D25 · formato máquina |
+| D223 | Cable Twist | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D25 · formato máquina |
+| D224 | Cable Twist (Up-down) | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D25 · formato máquina |
+| D225 | Cable Twisting Pull | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D25 · formato máquina · parecido a cable-face-pull |
+| D226 | Cable Two Arm Curl on Incline Bench | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D25 · formato máquina |
+| D227 | Cable Two Arm Tricep Kickback | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D25 · formato máquina |
+| D228 | Cable Upper Row | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D25 · formato máquina · parecido a seated-cable-row |
+| D229 | Cable Upright Row | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D25 · formato máquina · parecido a kettlebell-upright-row |
+| D230 | Cable Wrist Curl | Polea · `cable` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D25 · formato máquina · parecido a cable-bicep-curl |
+| D231 | Cable Cross-over Lateral Pulldown | Polea · `cablecrossover` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D26 · formato máquina |
+| D232 | Cable Cross-over Revers Fly | Polea · `cablecrossover` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D26 · formato máquina |
+| D233 | Cable Cross-over Variation | Polea · `cablecrossover` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D26 · formato máquina |
+| D234 | Cable Decline Fly | Polea · `cablecrossover` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D26 · formato máquina |
+| D235 | Cable Incline Fly | Polea · `cablecrossover` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D26 · formato máquina |
+| D236 | Cable Incline Fly (On Stability Ball) | Polea · `cablecrossover` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D26 · formato máquina |
+| D237 | Cable Low Fly | Polea · `cablecrossover` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D26 · formato máquina |
+| D238 | Cable Lying Fly | Polea · `cablecrossover` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D26 · formato máquina |
+| D239 | Cable Middle Fly | Polea · `cablecrossover` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D26 · formato máquina |
+| D240 | Cable One Arm Decline Chest Fly | Polea · `cablecrossover` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D26 · formato máquina |
+| D241 | Cable One Arm Fly on Exercise Ball | Polea · `cablecrossover` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D27 · formato máquina |
+| D242 | Cable One Arm Incline Fly on Exercise Ball | Polea · `cablecrossover` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D27 · formato máquina |
+| D243 | Cable Rope Crossover Seated Row | Polea · `cablecrossover` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D27 · formato máquina · parecido a seated-cable-row |
+| D244 | Cable Standing Cross-over High Reverse Fly | Polea · `cablecrossover` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D27 · formato máquina |
+| D245 | Cable Standing Fly | Polea · `cablecrossover` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D27 · formato máquina |
+| D246 | Cable Standing Up Straight Crossovers | Polea · `cablecrossover` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D27 · formato máquina |
+| D247 | Cable Supine Reverse Fly | Polea · `cablecrossover` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D27 · formato máquina |
+| D248 | Cable Upper Chest Crossovers | Polea · `cablecrossover` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D27 · formato máquina |
+| D249 | Cable Decline Seated Wide-grip Row | Polea · `cablerow` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D27 · formato máquina · parecido a seated-cable-row |
+| D250 | Cable Floor Seated Wide-grip Row | Polea · `cablerow` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D27 · formato máquina · parecido a seated-cable-row |
+| D251 | Cable Reverse-grip Straight Back Seated High Row | Polea · `cablerow` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D28 · formato máquina |
+| D252 | Cable Rope Elevated Seated Row | Polea · `cablerow` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D28 · formato máquina · parecido a seated-cable-row |
+| D253 | Cable Rope Seated Row | Polea · `cablerow` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D28 · formato máquina · parecido a seated-cable-row |
+| D254 | Cable Seated High Row (V-Bar) | Polea · `cablerow` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D28 · formato máquina · parecido a seated-cable-row |
+| D255 | Cable Seated One Arm Alternate Row | Polea · `cablerow` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D28 · formato máquina · parecido a seated-cable-row |
+| D256 | Cable Seated Wide-grip Row | Polea · `cablerow` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D28 · formato máquina · parecido a seated-cable-row |
+| D257 | Cable Straight Back Seated Row | Polea · `cablerow` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D28 · formato máquina · parecido a seated-cable-row |
+| D258 | Alternate Lateral Pulldown | Polea · `latpulldown` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D28 · formato máquina |
+| D259 | Cable Bar Lateral Pulldown | Polea · `latpulldown` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D28 · formato máquina |
+| D260 | Cable Lateral Pulldown (With Rope Attachment) | Polea · `latpulldown` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D28 · formato máquina |
+| D261 | Cable Lateral Pulldown with V-Bar | Polea · `latpulldown` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D29 · formato máquina |
+| D262 | Cable One Arm Pulldown | Polea · `latpulldown` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D29 · formato máquina |
+| D263 | Cable Pulldown (Pro Lat Bar) | Polea · `latpulldown` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D29 · formato máquina |
+| D264 | Cable Pulldown Bicep Curl | Polea · `latpulldown` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D29 · formato máquina · parecido a cable-bicep-curl |
+| D265 | Cable Rear Pulldown | Polea · `latpulldown` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D29 · formato máquina |
+| D266 | Cable Standing Pulldown (With Rope) | Polea · `latpulldown` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D29 · formato máquina |
+| D267 | Cable Straight Arm Pulldown | Polea · `latpulldown` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D29 · formato máquina |
+| D268 | Cable Straight Arm Pulldown (With Rope) | Polea · `latpulldown` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D29 · formato máquina |
+| D269 | Cable Underhand Pulldown | Polea · `latpulldown` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D29 · formato máquina |
+| D270 | Cable Wide Grip Rear Pulldown Behind Neck | Polea · `latpulldown` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D29 · formato máquina |
+| D271 | Twin Handle Parallel Grip Lat Pulldown | Polea · `latpulldown` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D30 · formato máquina |
+| D272 | Hands Bike | Ergómetro de brazos · `handbike` (falta dibujar handbike) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D31 · formato máquina |
+| D273 | Barbell Alternate Biceps Curl | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D32 · formato corto · parecido a barbell-bicep-curl |
+| D274 | Barbell Biceps Curl (With Arm Blaster) | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D32 · formato corto · parecido a barbell-bicep-curl |
+| D275 | Barbell Clean and Press | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D32 · formato corto · parecido a barbell-hang-muscle-clean-and-press |
+| D276 | Barbell Clean-grip Front Squat | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D32 · formato corto · parecido a barbell-front-squat |
+| D277 | Barbell Curl | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D32 · formato corto · parecido a barbell-bicep-curl |
+| D278 | Barbell Drag Curl | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D32 · formato corto · parecido a barbell-bicep-curl |
+| D279 | Barbell Floor Calf Raise | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D32 · formato corto · parecido a calf-raise |
+| D280 | Barbell Front Chest Squat | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D32 · formato corto · parecido a barbell-front-squat |
+| D281 | Barbell Front Raise | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D32 · formato corto · parecido a barbell-front-squat |
+| D282 | Barbell Full Zercher Squat | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D32 · formato corto |
+| D283 | Barbell Glute Bridge | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D33 · formato corto · parecido a bodyweight-glute-bridge |
+| D284 | Barbell Hack Squat | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D33 · formato corto · parecido a hack-squat |
+| D285 | Barbell High Bar Squat | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D33 · formato corto · parecido a barbell-high-hang-squat-clean |
+| D286 | Barbell Jefferson Squat | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D33 · formato corto · parecido a barbell-front-squat |
+| D287 | Barbell Jump Squat | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D33 · formato corto · parecido a jump-squat |
+| D288 | Barbell Lateral Lunge | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D33 · formato corto · parecido a lateral-lunge |
+| D289 | Barbell Low Bar Squat | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D33 · formato corto |
+| D290 | Barbell Narrow Stance Squat | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D33 · formato corto |
+| D291 | Barbell One Arm Bent Over Row | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D33 · formato corto · parecido a barbell-bent-over-row |
+| D292 | Barbell One Arm Floor Press | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D33 · formato corto |
+| D293 | Barbell One Arm Side Deadlift | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D34 · formato corto |
+| D294 | Barbell One Arm Snatch | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D34 · formato corto |
+| D295 | Barbell One Leg Squat | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D34 · formato corto |
+| D296 | Barbell Pendlay Row | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D34 · formato corto · parecido a barbell-upright-row |
+| D297 | Barbell Pin Presses | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D34 · formato corto |
+| D298 | Barbell Press Sit-up | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D34 · formato corto |
+| D299 | Barbell Rack Pull | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D34 · formato corto |
+| D300 | Barbell Rear Delt Raise | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D34 · formato corto |
+| D301 | Barbell Rear Delt Row | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D34 · formato corto |
+| D302 | Barbell Rear Lunge | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D34 · formato corto · parecido a barbell-lunge |
+| D303 | Barbell Rear Lunge v. 2 | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D35 · formato corto · parecido a barbell-lunge |
+| D304 | Barbell Revers Wrist Curl v. 2 | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D35 · formato corto |
+| D305 | Barbell Reverse Curl | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D35 · formato corto · parecido a barbell-bicep-curl |
+| D306 | Barbell Reverse Grip Bent Over Row | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D35 · formato corto · parecido a barbell-bent-over-row |
+| D307 | Barbell Reverse Wrist Curl | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D35 · formato corto |
+| D308 | Barbell Rollerout | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D35 · formato corto |
+| D309 | Barbell Side Bent v. 2 | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D35 · formato corto |
+| D310 | Barbell Side Split Squat | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D35 · formato corto |
+| D311 | Barbell Side Split Squat v. 2 | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D35 · formato corto |
+| D312 | Barbell Single Leg Deadlift | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D35 · formato corto · parecido a barbell-stiff-leg-deadlift |
+| D313 | Barbell Single Leg Split Squat | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D36 · formato corto |
+| D314 | Barbell Sitted Alternate Leg Raise | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D36 · formato corto |
+| D315 | Barbell Skier | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D36 · formato corto |
+| D316 | Barbell Speed Squat | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D36 · formato corto · parecido a barbell-front-squat |
+| D317 | Barbell Split Squat v. 2 | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D36 · formato corto |
+| D318 | Barbell Squat (On Knees) | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D36 · formato corto · parecido a barbell-front-squat |
+| D319 | Barbell Squat Jump Step Rear Lunge | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D36 · formato corto |
+| D320 | Barbell Standing Ab Rollerout | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D36 · formato corto |
+| D321 | Barbell Standing Back Wrist Curl | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D36 · formato corto |
+| D322 | Barbell Standing Bradford Press | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D36 · formato corto |
+| D323 | Barbell Standing Calf Raise | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D37 · formato corto · parecido a standing-calf-raise-machine |
+| D324 | Barbell Standing Close Grip Curl | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D37 · formato corto |
+| D325 | Barbell Standing Close Grip Military Press | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D37 · formato corto |
+| D326 | Barbell Standing Concentration Curl | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D37 · formato corto |
+| D327 | Barbell Standing Front Raise Over Head | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D37 · formato corto |
+| D328 | Barbell Standing Leg Calf Raise | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D37 · formato corto · parecido a single-leg-calf-raise |
+| D329 | Barbell Standing Overhead Triceps Extension | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D37 · formato corto |
+| D330 | Barbell Standing Reverse Grip Curl | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D37 · formato corto |
+| D331 | Barbell Standing Rocking Leg Calf Raise | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D37 · formato corto |
+| D332 | Barbell Standing Twist | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D37 · formato corto |
+| D333 | Barbell Standing Wide Grip Biceps Curl | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D38 · formato corto · parecido a barbell-bicep-curl |
+| D334 | Barbell Standing Wide Military Press | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D38 · formato corto |
+| D335 | Barbell Standing Wide-grip Curl | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D38 · formato corto |
+| D336 | Barbell Step-up | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D38 · formato corto · parecido a box-step-up |
+| D337 | Barbell Stiff Leg Good Morning | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D38 · formato corto · parecido a barbell-good-morning |
+| D338 | Barbell Straight Leg Deadlift | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D38 · formato corto · parecido a barbell-stiff-leg-deadlift |
+| D339 | Barbell Sumo Deadlift | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D38 · formato corto · parecido a barbell-deadlift |
+| D340 | Barbell Upright Row v. 2 | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D38 · formato corto · parecido a barbell-upright-row |
+| D341 | Barbell Upright Row v. 3 | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D38 · formato corto · parecido a barbell-upright-row |
+| D342 | Barbell Wide Squat | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D38 · formato corto · parecido a barbell-front-squat |
+| D343 | Barbell Wide-grip Upright Row | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D39 · formato corto · parecido a barbell-upright-row |
+| D344 | Barbell Wrist Curl | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D39 · formato corto · parecido a barbell-bicep-curl |
+| D345 | Barbell Wrist Curl v. 2 | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D39 · formato corto |
+| D346 | Barbell Zercher Squat | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D39 · formato corto · parecido a barbell-front-squat |
+| D347 | Finger Curls | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D39 · formato corto |
+| D348 | Floor Fly (With Barbell) | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D39 · formato corto |
+| D349 | Frankenstein Squat | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D39 · formato corto |
+| D350 | Kneeling Jump Squat | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D39 · formato corto · parecido a jump-squat |
+| D351 | Landmine 180 | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D39 · formato corto |
+| D352 | Landmine Lateral Raise | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D39 · formato corto · parecido a lateral-raise-to-overhead |
+| D353 | Lever Bent Over Row | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D40 · formato corto · parecido a barbell-bent-over-row |
+| D354 | Lever One Arm Bent Over Row | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D40 · formato corto |
+| D355 | Olympic Barbell Hammer Curl | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D40 · formato corto |
+| D356 | Olympic Barbell Triceps Extension | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D40 · formato corto |
+| D357 | Snatch Pull | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D40 · formato corto · parecido a snatch-high-pull |
+| D358 | Squat Jerk | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D40 · formato corto |
+| D359 | Standing Behind Neck Press | Barra olímpica · `barbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D40 · formato corto · parecido a push-press-behind-the-neck |
+| D360 | Barbell Bench Front Squat | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D40 · formato corto · parecido a barbell-front-squat |
+| D361 | Barbell Bench Squat | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D40 · formato corto · parecido a barbell-front-squat |
+| D362 | Barbell Bent Arm Pullover | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D40 · formato corto |
+| D363 | Barbell Close-grip Bench Press | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D41 · formato corto · parecido a barbell-bench-press |
+| D364 | Barbell Decline Bench Press | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D41 · formato corto · parecido a barbell-bench-press |
+| D365 | Barbell Decline Bent Arm Pullover | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D41 · formato corto |
+| D366 | Barbell Decline Close Grip to Skull Press | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D41 · formato corto |
+| D367 | Barbell Decline Pullover | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D41 · formato corto |
+| D368 | Barbell Decline Wide-grip Press | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D41 · formato corto |
+| D369 | Barbell Decline Wide-grip Pullover | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D41 · formato corto |
+| D370 | Barbell Front Raise and Pullover | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D41 · formato corto |
+| D371 | Barbell Glute Bridge Two Legs on Bench | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D41 · formato corto |
+| D372 | Barbell Guillotine Bench Press | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D41 · formato corto · parecido a barbell-bench-press |
+| D373 | Barbell Incline Bench Press | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D42 · formato corto · parecido a barbell-bench-press |
+| D374 | Barbell Incline Close Grip Bench Press | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D42 · formato corto · parecido a barbell-bench-press |
+| D375 | Barbell Incline Reverse-grip Press | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D42 · formato corto |
+| D376 | Barbell Incline Row | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D42 · formato corto · parecido a barbell-upright-row |
+| D377 | Barbell Incline Shoulder Raise | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D42 · formato corto |
+| D378 | Barbell JM Bench Press | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D42 · formato corto · parecido a barbell-bench-press |
+| D379 | Barbell Lying Back of the Head Tricep Extension | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D42 · formato corto |
+| D380 | Barbell Lying Close-grip Press | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D42 · formato corto |
+| D381 | Barbell Lying Close-grip Triceps Extension | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D42 · formato corto |
+| D382 | Barbell Lying Extension | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D42 · formato corto |
+| D383 | Barbell Lying Lifting (On Hip) | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D43 · formato corto |
+| D384 | Barbell Lying Preacher Curl | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D43 · formato corto |
+| D385 | Barbell Lying Triceps Extension | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D43 · formato corto |
+| D386 | Barbell Lying Triceps Extension Skull Crusher | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D43 · formato corto |
+| D387 | Barbell Palms Down Wrist Curl Over a Bench | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D43 · formato corto |
+| D388 | Barbell Palms Up Wrist Curl Over a Bench | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D43 · formato corto |
+| D389 | Barbell Preacher Curl | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D43 · formato corto · parecido a barbell-bicep-curl |
+| D390 | Barbell Prone Incline Curl | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D43 · formato corto |
+| D391 | Barbell Pullover | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D43 · formato corto |
+| D392 | Barbell Pullover to Press | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D43 · formato corto · parecido a barbell-push-press |
+| D393 | Barbell Reverse Close-grip Bench Press | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D44 · formato corto · parecido a barbell-bench-press |
+| D394 | Barbell Reverse Grip Decline Bench Press | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D44 · formato corto · parecido a barbell-bench-press |
+| D395 | Barbell Reverse Grip Incline Bench Press | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D44 · formato corto · parecido a barbell-bench-press |
+| D396 | Barbell Reverse Grip Incline Bench Row | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D44 · formato corto |
+| D397 | Barbell Reverse Grip Skullcrusher | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D44 · formato corto |
+| D398 | Barbell Reverse Preacher Curl | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D44 · formato corto |
+| D399 | Barbell Rollerout From Bench | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D44 · formato corto |
+| D400 | Barbell Seated Behind Head Military Press | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D44 · formato corto |
+| D401 | Barbell Seated Bradford Rocky Press | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D44 · formato corto |
+| D402 | Barbell Seated Calf Raise | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D44 · formato corto · parecido a seated-calf-raise-machine |
+| D403 | Barbell Seated Close Grip Behind Neck Triceps Extension | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D45 · formato corto |
+| D404 | Barbell Seated Close-grip Concentration Curl | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D45 · formato corto |
+| D405 | Barbell Seated Good Morning | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D45 · formato corto · parecido a barbell-good-morning |
+| D406 | Barbell Seated Overhead Press | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D45 · formato corto |
+| D407 | Barbell Seated Overhead Triceps Extension | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D45 · formato corto |
+| D408 | Barbell Seated Twist | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D45 · formato corto |
+| D409 | Barbell Wide Bench Press | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D45 · formato corto · parecido a barbell-bench-press |
+| D410 | Barbell Wide Reverse Grip Bench Press | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D45 · formato corto · parecido a barbell-bench-press |
+| D411 | Cambered Bar Lying Row | Barra olímpica · `barbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D45 · formato corto |
+| D412 | Trap Bar Deadlift | Barra hexagonal · `trapbar` (falta dibujar trapbar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D45 · formato corto |
+| D413 | EZ Bar French Press on Exercise Ball | Barra Z · `ezbar` (falta dibujar ezbar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D46 · formato corto |
+| D414 | EZ Bar Reverse Grip Bent Over Row | Barra Z · `ezbar` (falta dibujar ezbar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D46 · formato corto |
+| D415 | EZ Bar Standing French Press | Barra Z · `ezbar` (falta dibujar ezbar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D46 · formato corto |
+| D416 | EZ Barbell Anti Gravity Press | Barra Z · `ezbar` (falta dibujar ezbar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D46 · formato corto |
+| D417 | EZ Barbell Close-grip Curl | Barra Z · `ezbar` (falta dibujar ezbar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D46 · formato corto |
+| D418 | EZ Barbell Curl | Barra Z · `ezbar` (falta dibujar ezbar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D46 · formato corto · parecido a barbell-bicep-curl |
+| D419 | EZ Barbell Reverse Grip Curl | Barra Z · `ezbar` (falta dibujar ezbar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D46 · formato corto |
+| D420 | EZ Barbell Spider Curl | Barra Z · `ezbar` (falta dibujar ezbar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D46 · formato corto |
+| D421 | EZ-bar Biceps Curl (With Arm Blaster) | Barra Z · `ezbar` (falta dibujar ezbar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D46 · formato corto |
+| D422 | EZ-barbell Standing Wide Grip Biceps Curl | Barra Z · `ezbar` (falta dibujar ezbar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D46 · formato corto |
+| D423 | EZ Bar Lying Bent Arms Pullover | Barra Z · `ezbar + bench` (falta dibujar ezbar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D47 · formato corto |
+| D424 | EZ Bar Lying Close Grip Triceps Extension Behind Head | Barra Z · `ezbar + bench` (falta dibujar ezbar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D47 · formato corto |
+| D425 | EZ Bar Seated Close Grip Concentration Curl | Barra Z · `ezbar + bench` (falta dibujar ezbar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D47 · formato corto |
+| D426 | EZ Barbell Close Grip Preacher Curl | Barra Z · `ezbar + bench` (falta dibujar ezbar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D47 · formato corto |
+| D427 | EZ Barbell Decline Close Grip Face Press | Barra Z · `ezbar + bench` (falta dibujar ezbar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D47 · formato corto |
+| D428 | EZ Barbell Decline Triceps Extension | Barra Z · `ezbar + bench` (falta dibujar ezbar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D47 · formato corto |
+| D429 | EZ Barbell Incline Triceps Extension | Barra Z · `ezbar + bench` (falta dibujar ezbar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D47 · formato corto |
+| D430 | EZ Barbell JM Bench Press | Barra Z · `ezbar + bench` (falta dibujar ezbar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D47 · formato corto · parecido a barbell-bench-press |
+| D431 | EZ Barbell Reverse Grip Preacher Curl | Barra Z · `ezbar + bench` (falta dibujar ezbar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D47 · formato corto |
+| D432 | EZ Barbell Seated Curls | Barra Z · `ezbar + bench` (falta dibujar ezbar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D47 · formato corto |
+| D433 | EZ Barbell Seated Triceps Extension | Barra Z · `ezbar + bench` (falta dibujar ezbar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D48 · formato corto |
+| D434 | EZ-bar Close-grip Bench Press | Barra Z · `ezbar + bench` (falta dibujar ezbar) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D48 · formato corto |
+| D435 | Deep Push Up | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D49 · formato corto · parecido a yoga-push-up |
+| D436 | Dumbbell Alternate Biceps Curl | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D49 · formato corto · parecido a dumbbell-bicep-curl |
+| D437 | Dumbbell Alternate Biceps Curl (With Arm Blaster) | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D49 · formato corto · parecido a dumbbell-bicep-curl |
+| D438 | Dumbbell Alternate Side Press | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D49 · formato corto |
+| D439 | Dumbbell Alternating Bicep Curl with Leg Raised on Exercise Ball | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D49 · formato corto |
+| D440 | Dumbbell Arnold Press | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D49 · formato corto · parecido a dumbbell-push-press |
+| D441 | Dumbbell Arnold Press v. 2 | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D49 · formato corto |
+| D442 | Dumbbell Bent Over Row | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D49 · formato corto · parecido a barbell-bent-over-row |
+| D443 | Dumbbell Bicep Curl Lunge with Bowling Motion | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D49 · formato corto · parecido a dumbbell-bicep-curl |
+| D444 | Dumbbell Bicep Curl on Exercise Ball with Leg Raised | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D49 · formato corto |
+| D445 | Dumbbell Bicep Curl with Stork Stance | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D50 · formato corto · parecido a dumbbell-bicep-curl |
+| D446 | Dumbbell Biceps Curl (With Arm Blaster) | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D50 · formato corto · parecido a dumbbell-bicep-curl |
+| D447 | Dumbbell Biceps Curl Reverse | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D50 · formato corto · parecido a dumbbell-bicep-curl |
+| D448 | Dumbbell Biceps Curl Squat | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D50 · formato corto · parecido a dumbbell-bicep-curl |
+| D449 | Dumbbell Biceps Curl V Sit on Bosu Ball | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D50 · formato corto · parecido a dumbbell-bicep-curl |
+| D450 | Dumbbell Burpee | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D50 · formato corto · parecido a dumbbell-burpee-snatch |
+| D451 | Dumbbell Clean | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D50 · formato corto · parecido a dumbbell-split-clean |
+| D452 | Dumbbell Close Grip Press | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D50 · formato corto |
+| D453 | Dumbbell Close-grip Press | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D50 · formato corto |
+| D454 | Dumbbell Concentration Curl | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D50 · formato corto · parecido a dumbbell-bicep-curl |
+| D455 | Dumbbell Contralateral Forward Lunge | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D51 · formato corto |
+| D456 | Dumbbell Cross Body Hammer Curl | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D51 · formato corto |
+| D457 | Dumbbell Cross Body Hammer Curl v. 2 | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D51 · formato corto |
+| D458 | Dumbbell Cuban Press | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D51 · formato corto · parecido a cuban-press |
+| D459 | Dumbbell Cuban Press v. 2 | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D51 · formato corto · parecido a cuban-press |
+| D460 | Dumbbell Finger Curls | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D51 · formato corto · parecido a dumbbell-bicep-curl |
+| D461 | Dumbbell Forward Lunge Triceps Extension | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D51 · formato corto |
+| D462 | Dumbbell Front Raise v. 2 | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D51 · formato corto · parecido a dumbbell-front-raise |
+| D463 | Dumbbell Full Can Lateral Raise | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D51 · formato corto |
+| D464 | Dumbbell Goblet Squat | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D51 · formato corto · parecido a goblet-squat |
+| D465 | Dumbbell Hammer Curl | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D52 · formato corto · parecido a dumbbell-bicep-curl |
+| D466 | Dumbbell Hammer Curl on Exercise Ball | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D52 · formato corto |
+| D467 | Dumbbell Hammer Curl v. 2 | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D52 · formato corto |
+| D468 | Dumbbell Hammer Curls (With Arm Blaster) | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D52 · formato corto |
+| D469 | Dumbbell High Curl | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D52 · formato corto · parecido a dumbbell-bicep-curl |
+| D470 | Dumbbell Iron Cross | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D52 · formato corto |
+| D471 | Dumbbell Kickback | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D52 · formato corto |
+| D472 | Dumbbell Kickbacks on Exercise Ball | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D52 · formato corto |
+| D473 | Dumbbell Kneeling Bicep Curl Exercise Ball | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D52 · formato corto · parecido a dumbbell-bicep-curl |
+| D474 | Dumbbell Lateral Raise | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D52 · formato corto · parecido a bent-over-dumbbell-lateral-raise |
+| D475 | Dumbbell Lateral to Front Raise | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D53 · formato corto · parecido a dumbbell-front-raise |
+| D476 | Dumbbell Lunge | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D53 · formato corto · parecido a dumbbell-reverse-lunge |
+| D477 | Dumbbell Lunge with Bicep Curl | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D53 · formato corto · parecido a dumbbell-bicep-curl |
+| D478 | Dumbbell Lying on Floor Rear Delt Raise | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D53 · formato corto |
+| D479 | Dumbbell Lying Pronation on Floor | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D53 · formato corto |
+| D480 | Dumbbell Lying Supination on Floor | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D53 · formato corto |
+| D481 | Dumbbell One Arm Bent-over Row | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D53 · formato corto |
+| D482 | Dumbbell One Arm Concentration Curl (On Stability Ball) | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D53 · formato corto |
+| D483 | Dumbbell One Arm French Press on Exercise Ball | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D53 · formato corto |
+| D484 | Dumbbell One Arm Hammer Press on Exercise Ball | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D53 · formato corto |
+| D485 | Dumbbell One Arm Kickback | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D54 · formato corto · parecido a dumbbell-one-arm-overhead-lunge |
+| D486 | Dumbbell One Arm Lateral Raise | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D54 · formato corto |
+| D487 | Dumbbell One Arm Lateral Raise with Support | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D54 · formato corto |
+| D488 | Dumbbell One Arm Press on Exercise Ball | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D54 · formato corto |
+| D489 | Dumbbell One Arm Prone Curl | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D54 · formato corto |
+| D490 | Dumbbell One Arm Prone Hammer Curl | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D54 · formato corto |
+| D491 | Dumbbell One Arm Reverse Grip Press | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D54 · formato corto |
+| D492 | Dumbbell One Arm Reverse Spider Curl | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D54 · formato corto |
+| D493 | Dumbbell One Arm Reverse Wrist Curl | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D54 · formato corto |
+| D494 | Dumbbell One Arm Shoulder Press | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D54 · formato corto |
+| D495 | Dumbbell One Arm Shoulder Press v. 2 | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D55 · formato corto |
+| D496 | Dumbbell One Arm Snatch | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D55 · formato corto · parecido a dumbbell-one-arm-overhead-lunge |
+| D497 | Dumbbell One Arm Standing Curl | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D55 · formato corto |
+| D498 | Dumbbell One Arm Standing Hammer Curl | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D55 · formato corto |
+| D499 | Dumbbell One Arm Upright Row | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D55 · formato corto |
+| D500 | Dumbbell One Arm Wrist Curl | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D55 · formato corto |
+| D501 | Dumbbell Palm Rotational Bent Over Row | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D55 · formato corto |
+| D502 | Dumbbell Peacher Hammer Curl | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D55 · formato corto |
+| D503 | Dumbbell Plyo Squat | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D55 · formato corto |
+| D504 | Dumbbell Press on Exercise Ball | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D55 · formato corto |
+| D505 | Dumbbell Pronate-grip Triceps Extension | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D56 · formato corto |
+| D506 | Dumbbell Raise | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D56 · formato corto · parecido a dumbbell-front-raise |
+| D507 | Dumbbell Rear Delt Raise | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D56 · formato corto |
+| D508 | Dumbbell Rear Delt Row_shoulder | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D56 · formato corto |
+| D509 | Dumbbell Rear Lateral Raise | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D56 · formato corto · parecido a bent-over-dumbbell-lateral-raise |
+| D510 | Dumbbell Rear Lateral Raise (Support Head) | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D56 · formato corto |
+| D511 | Dumbbell Rear Lunge | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D56 · formato corto · parecido a dumbbell-reverse-lunge |
+| D512 | Dumbbell Revers Grip Biceps Curl | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D56 · formato corto · parecido a dumbbell-bicep-curl |
+| D513 | Dumbbell Reverse Grip Row | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D56 · formato corto · parecido a dumbbell-row |
+| D514 | Dumbbell Reverse Spider Curl | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D56 · formato corto |
+| D515 | Dumbbell Reverse Wrist Curl | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D57 · formato corto |
+| D516 | Dumbbell Scott Press | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D57 · formato corto · parecido a dumbbell-push-press |
+| D517 | Dumbbell Shrug | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D57 · formato corto |
+| D518 | Dumbbell Side Bend | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D57 · formato corto |
+| D519 | Dumbbell Single Arm Overhead Carry | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D57 · formato corto |
+| D520 | Dumbbell Single Leg Calf Raise | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D57 · formato corto · parecido a single-leg-calf-raise |
+| D521 | Dumbbell Single Leg Deadlift | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D57 · formato corto · parecido a single-leg-dumbbell-romanian-deadlift |
+| D522 | Dumbbell Single Leg Deadlift with Stepbox Support | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D57 · formato corto · parecido a single-leg-dumbbell-romanian-deadlift |
+| D523 | Dumbbell Single Leg Split Squat | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D57 · formato corto |
+| D524 | Dumbbell Single Leg Squat | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D57 · formato corto · parecido a single-leg-dumbbell-romanian-deadlift |
+| D525 | Dumbbell Squat | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D58 · formato corto |
+| D526 | Dumbbell Standing Alternate Hammer Curl and Press | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D58 · formato corto |
+| D527 | Dumbbell Standing Alternate Overhead Press | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D58 · formato corto |
+| D528 | Dumbbell Standing Alternate Raise | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D58 · formato corto |
+| D529 | Dumbbell Standing Alternating Tricep Kickback | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D58 · formato corto |
+| D530 | Dumbbell Standing Around World | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D58 · formato corto |
+| D531 | Dumbbell Standing Bent Over One Arm Triceps Extension | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D58 · formato corto |
+| D532 | Dumbbell Standing Bent Over Two Arm Triceps Extension | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D58 · formato corto |
+| D533 | Dumbbell Standing Biceps Curl | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D58 · formato corto · parecido a dumbbell-bicep-curl |
+| D534 | Dumbbell Standing Calf Raise | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D58 · formato corto · parecido a standing-calf-raise-machine |
+| D535 | Dumbbell Standing Concentration Curl | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D59 · formato corto |
+| D536 | Dumbbell Standing Front Raise Above Head | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D59 · formato corto · parecido a dumbbell-front-raise |
+| D537 | Dumbbell Standing Inner Biceps Curl v. 2 | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D59 · formato corto · parecido a dumbbell-bicep-curl |
+| D538 | Dumbbell Standing Kickback | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D59 · formato corto |
+| D539 | Dumbbell Standing One Arm Concentration Curl | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D59 · formato corto |
+| D540 | Dumbbell Standing One Arm Extension | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D59 · formato corto |
+| D541 | Dumbbell Standing One Arm Palm in Press | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D59 · formato corto |
+| D542 | Dumbbell Standing One Arm Reverse Curl | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D59 · formato corto |
+| D543 | Dumbbell Standing Overhead Press | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D59 · formato corto |
+| D544 | Dumbbell Standing Palms in Press | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D59 · formato corto |
+| D545 | Dumbbell Standing Reverse Curl | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D60 · formato corto |
+| D546 | Dumbbell Standing Triceps Extension | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D60 · formato corto |
+| D547 | Dumbbell Step Up Single Leg Balance with Bicep Curl | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D60 · formato corto |
+| D548 | Dumbbell Step-up | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D60 · formato corto · parecido a box-step-up |
+| D549 | Dumbbell Step-up Lunge | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D60 · formato corto |
+| D550 | Dumbbell Step-up Split Squat | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D60 · formato corto |
+| D551 | Dumbbell Stiff Leg Deadlift | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D60 · formato corto · parecido a barbell-stiff-leg-deadlift |
+| D552 | Dumbbell Straight Leg Deadlift | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D60 · formato corto · parecido a single-leg-dumbbell-romanian-deadlift |
+| D553 | Dumbbell Sumo Pull Through | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D60 · formato corto |
+| D554 | Dumbbell Supported Squat | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D60 · formato corto |
+| D555 | Dumbbell Tate Press | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D61 · formato corto · parecido a dumbbell-push-press |
+| D556 | Dumbbell Tricep Kickback with Stork Stance | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D61 · formato corto |
+| D557 | Dumbbell Upright Row | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D61 · formato corto · parecido a dumbbell-row |
+| D558 | Dumbbell Upright Shoulder External Rotation | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D61 · formato corto · parecido a wall-shoulder-external-rotation |
+| D559 | Dumbbell W-press | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D61 · formato corto · parecido a dumbbell-push-press |
+| D560 | Dumbbell Waiter Biceps Curl | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D61 · formato corto · parecido a dumbbell-bicep-curl |
+| D561 | Dumbbell Zottman Curl | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D61 · formato corto · parecido a dumbbell-bicep-curl |
+| D562 | Exercise Ball on the Wall Calf Raise | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D61 · formato corto |
+| D563 | Exercise Ball on the Wall Calf Raise (Tennis Ball Between Ankles) | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D61 · formato corto |
+| D564 | Exercise Ball on the Wall Calf Raise (Tennis Ball Between Knees) | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D61 · formato corto |
+| D565 | Exercise Ball Supine Triceps Extension | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D62 · formato corto |
+| D566 | Push-up Close-grip Off Dumbbell | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D62 · formato corto |
+| D567 | Single Leg Calf Raise (On a Dumbbell) | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D62 · formato corto · parecido a single-leg-calf-raise |
+| D568 | Spell Caster | Mancuernas · `dumbbell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D62 · formato corto |
+| D569 | Dumbbell Alternate Hammer Preacher Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D62 · formato corto |
+| D570 | Dumbbell Alternate Preacher Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D62 · formato corto |
+| D571 | Dumbbell Alternate Seated Hammer Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D62 · formato corto |
+| D572 | Dumbbell Alternating Seated Bicep Curl on Exercise Ball | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D62 · formato corto |
+| D573 | Dumbbell Around Pullover | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D62 · formato corto |
+| D574 | Dumbbell Bench Seated Press | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D62 · formato corto · parecido a dumbbell-bench-press |
+| D575 | Dumbbell Bench Squat | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D63 · formato corto · parecido a dumbbell-bench-press |
+| D576 | Dumbbell Decline Bench Press | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D63 · formato corto · parecido a dumbbell-bench-press |
+| D577 | Dumbbell Decline Fly | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D63 · formato corto |
+| D578 | Dumbbell Decline Hammer Press | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D63 · formato corto |
+| D579 | Dumbbell Decline One Arm Fly | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D63 · formato corto |
+| D580 | Dumbbell Decline One Arm Hammer Press | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D63 · formato corto |
+| D581 | Dumbbell Decline Shrug | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D63 · formato corto |
+| D582 | Dumbbell Decline Shrug v. 2 | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D63 · formato corto |
+| D583 | Dumbbell Decline Triceps Extension | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D63 · formato corto |
+| D584 | Dumbbell Decline Twist Fly | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D63 · formato corto |
+| D585 | Dumbbell Fly | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D64 · formato corto |
+| D586 | Dumbbell Fly on Exercise Ball | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D64 · formato corto |
+| D587 | Dumbbell Incline Alternate Press | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D64 · formato corto |
+| D588 | Dumbbell Incline Bench Press | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D64 · formato corto · parecido a dumbbell-bench-press |
+| D589 | Dumbbell Incline Biceps Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D64 · formato corto · parecido a dumbbell-bicep-curl |
+| D590 | Dumbbell Incline Breeding | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D64 · formato corto |
+| D591 | Dumbbell Incline Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D64 · formato corto · parecido a dumbbell-bicep-curl |
+| D592 | Dumbbell Incline Curl v. 2 | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D64 · formato corto |
+| D593 | Dumbbell Incline Fly | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D64 · formato corto |
+| D594 | Dumbbell Incline Fly on Exercise Ball | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D64 · formato corto |
+| D595 | Dumbbell Incline Hammer Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D65 · formato corto |
+| D596 | Dumbbell Incline Hammer Press | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D65 · formato corto |
+| D597 | Dumbbell Incline Hammer Press on Exercise Ball | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D65 · formato corto |
+| D598 | Dumbbell Incline Inner Biceps Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D65 · formato corto · parecido a dumbbell-bicep-curl |
+| D599 | Dumbbell Incline One Arm Fly | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D65 · formato corto |
+| D600 | Dumbbell Incline One Arm Fly on Exercise Ball | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D65 · formato corto |
+| D601 | Dumbbell Incline One Arm Hammer Press | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D65 · formato corto |
+| D602 | Dumbbell Incline One Arm Hammer Press on Exercise Ball | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D65 · formato corto |
+| D603 | Dumbbell Incline One Arm Lateral Raise | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D65 · formato corto |
+| D604 | Dumbbell Incline One Arm Press | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D65 · formato corto |
+| D605 | Dumbbell Incline One Arm Press on Exercise Ball | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D66 · formato corto |
+| D606 | Dumbbell Incline Palm-in Press | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D66 · formato corto |
+| D607 | Dumbbell Incline Press on Exercise Ball | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D66 · formato corto |
+| D608 | Dumbbell Incline Raise | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D66 · formato corto · parecido a dumbbell-front-raise |
+| D609 | Dumbbell Incline Rear Lateral Raise | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D66 · formato corto |
+| D610 | Dumbbell Incline Row | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D66 · formato corto · parecido a dumbbell-row |
+| D611 | Dumbbell Incline Shoulder Raise | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D66 · formato corto |
+| D612 | Dumbbell Incline Shrug | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D66 · formato corto |
+| D613 | Dumbbell Incline T-raise | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D66 · formato corto |
+| D614 | Dumbbell Incline Triceps Extension | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D66 · formato corto |
+| D615 | Dumbbell Incline Twisted Flyes | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D67 · formato corto |
+| D616 | Dumbbell Incline Two Arm Extension | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D67 · formato corto |
+| D617 | Dumbbell Incline Y-raise | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D67 · formato corto · parecido a y-raises |
+| D618 | Dumbbell Lying Alternate Extension | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D67 · formato corto |
+| D619 | Dumbbell Lying Elbow Press | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D67 · formato corto |
+| D620 | Dumbbell Lying Extension (Across Face) | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D67 · formato corto |
+| D621 | Dumbbell Lying External Shoulder Rotation | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D67 · formato corto · parecido a wall-shoulder-external-rotation |
+| D622 | Dumbbell Lying Femoral | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D67 · formato corto |
+| D623 | Dumbbell Lying Hammer Press | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D67 · formato corto |
+| D624 | Dumbbell Lying One Arm Deltoid Rear | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D67 · formato corto |
+| D625 | Dumbbell Lying One Arm Press | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D68 · formato corto |
+| D626 | Dumbbell Lying One Arm Press v. 2 | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D68 · formato corto |
+| D627 | Dumbbell Lying One Arm Pronated Triceps Extension | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D68 · formato corto |
+| D628 | Dumbbell Lying One Arm Rear Lateral Raise | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D68 · formato corto |
+| D629 | Dumbbell Lying One Arm Supinated Triceps Extension | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D68 · formato corto |
+| D630 | Dumbbell Lying Pronation | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D68 · formato corto |
+| D631 | Dumbbell Lying Pullover on Exercise Ball | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D68 · formato corto |
+| D632 | Dumbbell Lying Rear Delt Row | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D68 · formato corto |
+| D633 | Dumbbell Lying Rear Lateral Raise | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D68 · formato corto |
+| D634 | Dumbbell Lying Single Extension | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D68 · formato corto |
+| D635 | Dumbbell Lying Supination | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D69 · formato corto |
+| D636 | Dumbbell Lying Supine Biceps Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D69 · formato corto · parecido a dumbbell-bicep-curl |
+| D637 | Dumbbell Lying Supine Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D69 · formato corto |
+| D638 | Dumbbell Lying Triceps Extension | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D69 · formato corto |
+| D639 | Dumbbell Lying Wide Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D69 · formato corto |
+| D640 | Dumbbell Neutral Grip Bench Press | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D69 · formato corto · parecido a dumbbell-bench-press |
+| D641 | Dumbbell One Arm Bench Fly | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D69 · formato corto |
+| D642 | Dumbbell One Arm Chest Fly on Exercise Ball | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D69 · formato corto |
+| D643 | Dumbbell One Arm Decline Chest Press | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D69 · formato corto |
+| D644 | Dumbbell One Arm Fly on Exercise Ball | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D69 · formato corto |
+| D645 | Dumbbell One Arm Hammer Preacher Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D70 · formato corto |
+| D646 | Dumbbell One Arm Incline Chest Press | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D70 · formato corto |
+| D647 | Dumbbell One Arm Pullover on Exercise Ball | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D70 · formato corto |
+| D648 | Dumbbell One Arm Reverse Fly (With Support) | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D70 · formato corto |
+| D649 | Dumbbell One Arm Reverse Preacher Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D70 · formato corto |
+| D650 | Dumbbell One Arm Seated Bicep Curl on Exercise Ball | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D70 · formato corto |
+| D651 | Dumbbell One Arm Seated Hammer Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D70 · formato corto |
+| D652 | Dumbbell One Arm Seated Neutral Wrist Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D70 · formato corto |
+| D653 | Dumbbell One Arm Triceps Extension (On Bench) | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D70 · formato corto |
+| D654 | Dumbbell One Arm Zottman Preacher Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D70 · formato corto |
+| D655 | Dumbbell One Leg Fly on Exercise Ball | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D71 · formato corto |
+| D656 | Dumbbell Over Bench Neutral Wrist Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D71 · formato corto |
+| D657 | Dumbbell Over Bench One Arm Neutral Wrist Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D71 · formato corto |
+| D658 | Dumbbell Over Bench One Arm Reverse Wrist Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D71 · formato corto |
+| D659 | Dumbbell Over Bench One Arm Wrist Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D71 · formato corto |
+| D660 | Dumbbell Over Bench Revers Wrist Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D71 · formato corto |
+| D661 | Dumbbell Over Bench Wrist Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D71 · formato corto |
+| D662 | Dumbbell Palms in Incline Bench Press | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D71 · formato corto · parecido a dumbbell-bench-press |
+| D663 | Dumbbell Preacher Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D71 · formato corto · parecido a dumbbell-bicep-curl |
+| D664 | Dumbbell Preacher Curl Over Exercise Ball | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D71 · formato corto |
+| D665 | Dumbbell Prone Incline Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D72 · formato corto |
+| D666 | Dumbbell Prone Incline Hammer Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D72 · formato corto |
+| D667 | Dumbbell Pullover | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D72 · formato corto |
+| D668 | Dumbbell Pullover Hip Extension on Exercise Ball | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D72 · formato corto |
+| D669 | Dumbbell Pullover on Exercise Ball | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D72 · formato corto |
+| D670 | Dumbbell Rear Fly | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D72 · formato corto |
+| D671 | Dumbbell Reverse Bench Press | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D72 · formato corto · parecido a dumbbell-bench-press |
+| D672 | Dumbbell Reverse Fly | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D72 · formato corto · parecido a dumbbell-reverse-lunge |
+| D673 | Dumbbell Reverse Grip Incline Bench One Arm Row | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D72 · formato corto |
+| D674 | Dumbbell Reverse Grip Incline Bench Two Arm Row | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D72 · formato corto |
+| D675 | Dumbbell Reverse Preacher Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D73 · formato corto |
+| D676 | Dumbbell Rotation Reverse Fly | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D73 · formato corto |
+| D677 | Dumbbell Seated Alternate Front Raise | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D73 · formato corto · parecido a dumbbell-front-raise |
+| D678 | Dumbbell Seated Alternate Hammer Curl on Exercise Ball | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D73 · formato corto |
+| D679 | Dumbbell Seated Alternate Press | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D73 · formato corto |
+| D680 | Dumbbell Seated Alternate Shoulder | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D73 · formato corto |
+| D681 | Dumbbell Seated Bench Extension | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D73 · formato corto |
+| D682 | Dumbbell Seated Bent Arm Lateral Raise | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D73 · formato corto · parecido a bent-over-dumbbell-lateral-raise |
+| D683 | Dumbbell Seated Bent Over Alternate Kickback | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D73 · formato corto |
+| D684 | Dumbbell Seated Bent Over Triceps Extension | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D73 · formato corto |
+| D685 | Dumbbell Seated Bicep Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D74 · formato corto · parecido a dumbbell-bicep-curl |
+| D686 | Dumbbell Seated Biceps Curl (On Stability Ball) | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D74 · formato corto · parecido a dumbbell-bicep-curl |
+| D687 | Dumbbell Seated Biceps Curl to Shoulder Press | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D74 · formato corto · parecido a dumbbell-bicep-curl |
+| D688 | Dumbbell Seated Calf Raise | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D74 · formato corto · parecido a seated-calf-raise-machine |
+| D689 | Dumbbell Seated Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D74 · formato corto · parecido a dumbbell-bicep-curl |
+| D690 | Dumbbell Seated Front Raise | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D74 · formato corto · parecido a dumbbell-front-raise |
+| D691 | Dumbbell Seated Hammer Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D74 · formato corto |
+| D692 | Dumbbell Seated Inner Biceps Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D74 · formato corto · parecido a dumbbell-bicep-curl |
+| D693 | Dumbbell Seated Kickback | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D74 · formato corto |
+| D694 | Dumbbell Seated Lateral Raise | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D74 · formato corto · parecido a bent-over-dumbbell-lateral-raise |
+| D695 | Dumbbell Seated Lateral Raise v. 2 | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D75 · formato corto |
+| D696 | Dumbbell Seated Neutral Wrist Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D75 · formato corto |
+| D697 | Dumbbell Seated One Arm Bicep Curl on Exercise Ball with Leg Raised | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D75 · formato corto |
+| D698 | Dumbbell Seated One Arm Kickback | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D75 · formato corto |
+| D699 | Dumbbell Seated One Arm Rotate | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D75 · formato corto |
+| D700 | Dumbbell Seated One Leg Calf Raise | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D75 · formato corto |
+| D701 | Dumbbell Seated One Leg Calf Raise - Hammer Grip | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D75 · formato corto |
+| D702 | Dumbbell Seated One Leg Calf Raise - Palm Up | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D75 · formato corto |
+| D703 | Dumbbell Seated Palms Up Wrist Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D75 · formato corto |
+| D704 | Dumbbell Seated Preacher Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D75 · formato corto |
+| D705 | Dumbbell Seated Revers Grip Concentration Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D76 · formato corto |
+| D706 | Dumbbell Seated Reverse Grip One Arm Overhead Tricep Extension | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D76 · formato corto |
+| D707 | Dumbbell Seated Shoulder Press | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D76 · formato corto · parecido a shoulder-press |
+| D708 | Dumbbell Seated Shoulder Press (Parallel Grip) | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D76 · formato corto |
+| D709 | Dumbbell Seated Triceps Extension | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D76 · formato corto |
+| D710 | Dumbbell Side Lying One Hand Raise | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D76 · formato corto |
+| D711 | Dumbbell Side Plank with Rear Fly | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D76 · formato corto |
+| D712 | Dumbbell Standing One Arm Curl (Over Incline Bench) | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D76 · formato corto |
+| D713 | Dumbbell Standing One Arm Curl Over Incline Bench | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D76 · formato corto |
+| D714 | Dumbbell Standing Preacher Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D76 · formato corto |
+| D715 | Dumbbell Standing Zottman Preacher Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D77 · formato corto |
+| D716 | Dumbbell Straight Arm Pullover | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D77 · formato corto |
+| D717 | Dumbbell Twisting Bench Press | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D77 · formato corto · parecido a dumbbell-bench-press |
+| D718 | Dumbbell Zottman Preacher Curl | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D77 · formato corto |
+| D719 | Dumbbells Seated Triceps Extension | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D77 · formato corto |
+| D720 | Hyght Dumbbell Fly | Mancuernas · `dumbbell + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D77 · formato corto |
+| D721 | Kettlebell Advanced Windmill | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D78 · formato corto · parecido a kettlebell-windmill |
+| D722 | Kettlebell Alternating Hang Clean | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D78 · formato corto · parecido a alternating-kettlebell-clean-and-press |
+| D723 | Kettlebell Alternating Press | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D78 · formato corto · parecido a alternating-kettlebell-clean-and-press |
+| D724 | Kettlebell Alternating Press on Floor | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D78 · formato corto · parecido a alternating-kettlebell-clean-and-press |
+| D725 | Kettlebell Alternating Renegade Row | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D78 · formato corto · parecido a alternating-kettlebell-row |
+| D726 | Kettlebell Arnold Press | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D78 · formato corto |
+| D727 | Kettlebell Bent Press | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D78 · formato corto |
+| D728 | Kettlebell Bottoms Up Clean From the Hang Position | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D78 · formato corto |
+| D729 | Kettlebell Double Alternating Hang Clean | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D78 · formato corto · parecido a alternating-kettlebell-clean-and-press |
+| D730 | Kettlebell Double Jerk | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D78 · formato corto · parecido a kettlebell-clean-and-jerk |
+| D731 | Kettlebell Double Push Press | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D79 · formato corto |
+| D732 | Kettlebell Double Snatch | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D79 · formato corto · parecido a kettlebell-snatch |
+| D733 | Kettlebell Double Windmill | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D79 · formato corto · parecido a kettlebell-windmill |
+| D734 | Kettlebell Extended Range One Arm Press on Floor | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D79 · formato corto |
+| D735 | Kettlebell Figure 8 | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D79 · formato corto |
+| D736 | Kettlebell Hang Clean | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D79 · formato corto · parecido a barbell-hang-clean |
+| D737 | Kettlebell Lunge Pass Through | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D79 · formato corto |
+| D738 | Kettlebell One Arm Clean and Jerk | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D79 · formato corto · parecido a kettlebell-clean-and-jerk |
+| D739 | Kettlebell One Arm Floor Press | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D79 · formato corto |
+| D740 | Kettlebell One Arm Jerk | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D79 · formato corto |
+| D741 | Kettlebell One Arm Military Press to the Side | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D80 · formato corto |
+| D742 | Kettlebell One Arm Push Press | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D80 · formato corto |
+| D743 | Kettlebell One Arm Row | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D80 · formato corto |
+| D744 | Kettlebell Pirate Supper Legs | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D80 · formato corto |
+| D745 | Kettlebell Pistol Squat | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D80 · formato corto · parecido a kettlebell-front-squat |
+| D746 | Kettlebell Plyo Push-up | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D80 · formato corto · parecido a kettlebell-push-up |
+| D747 | Kettlebell Seated Press | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D80 · formato corto |
+| D748 | Kettlebell Seated Two Arm Military Press | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D80 · formato corto |
+| D749 | Kettlebell Seesaw Press | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D80 · formato corto |
+| D750 | Kettlebell Sumo High Pull | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D80 · formato corto · parecido a kettlebell-sumo-deadlift-high-pull |
+| D751 | Kettlebell Thruster | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D81 · formato corto |
+| D752 | Kettlebell Turkish Get Up (Squat Style) | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D81 · formato corto |
+| D753 | Kettlebell Two Arm Clean | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D81 · formato corto |
+| D754 | Kettlebell Two Arm Military Press | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D81 · formato corto |
+| D755 | Kettlebell Two Arm Row | Kettlebell · `kettlebell` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D81 · formato corto |
+| D756 | Band Alternating Biceps Curl | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D82 · formato corto |
+| D757 | Band Alternating V-up | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D82 · formato corto |
+| D758 | Band Assisted Pull-up | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D82 · formato corto · parecido a assisted-pull-up-machine |
+| D759 | Band Assisted Wheel Rollerout | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D82 · formato corto |
+| D760 | Band Bench Press | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D82 · formato corto · parecido a dumbbell-bench-press |
+| D761 | Band Bent-over Hip Extension | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D82 · formato corto |
+| D762 | Band Bicycle Crunch | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D82 · formato corto · parecido a bicycle-crunch |
+| D763 | Band Close-grip Pulldown | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D82 · formato corto |
+| D764 | Band Close-grip Push-up | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D82 · formato corto |
+| D765 | Band Concentration Curl | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D82 · formato corto |
+| D766 | Band Fixed Back Close Grip Pulldown | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D83 · formato corto |
+| D767 | Band Fixed Back Underhand Pulldown | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D83 · formato corto |
+| D768 | Band Front Lateral Raise | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D83 · formato corto · parecido a band-squat-to-front-raise |
+| D769 | Band Front Raise | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D83 · formato corto · parecido a band-squat-to-front-raise |
+| D770 | Band Hip Lift | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D83 · formato corto |
+| D771 | Band Horizontal Pallof Press | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D83 · formato corto |
+| D772 | Band Jack Knife Sit-up | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D83 · formato corto |
+| D773 | Band Kneeling One Arm Pulldown | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D83 · formato corto |
+| D774 | Band Kneeling Twisting Crunch | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D83 · formato corto |
+| D775 | Band Lying Hip Internal Rotation | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D83 · formato corto |
+| D776 | Band Lying Straight Leg Raise | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D84 · formato corto · parecido a lying-leg-raise |
+| D777 | Band One Arm Overhead Biceps Curl | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D84 · formato corto |
+| D778 | Band One Arm Single Leg Split Squat | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D84 · formato corto |
+| D779 | Band One Arm Standing Low Row | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D84 · formato corto |
+| D780 | Band One Arm Twisting Chest Press | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D84 · formato corto |
+| D781 | Band One Arm Twisting Seated Row | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D84 · formato corto |
+| D782 | Band Pull Through | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D84 · formato corto · parecido a band-pull-apart |
+| D783 | Band Push Sit-up | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D84 · formato corto |
+| D784 | Band Reverse Fly | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D84 · formato corto |
+| D785 | Band Reverse Wrist Curl | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D84 · formato corto |
+| D786 | Band Seated Hip Internal Rotation | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D85 · formato corto |
+| D787 | Band Seated Twist | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D85 · formato corto |
+| D788 | Band Shoulder Press | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D85 · formato corto · parecido a shoulder-press |
+| D789 | Band Shrug | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D85 · formato corto |
+| D790 | Band Side Triceps Extension | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D85 · formato corto |
+| D791 | Band Single Leg Calf Raise | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D85 · formato corto · parecido a single-leg-calf-raise |
+| D792 | Band Single Leg Reverse Calf Raise | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D85 · formato corto · parecido a single-leg-calf-raise |
+| D793 | Band Single Leg Split Squat | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D85 · formato corto |
+| D794 | Band Squat | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D85 · formato corto · parecido a band-squat-to-front-raise |
+| D795 | Band Squat Row | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D85 · formato corto · parecido a band-row |
+| D796 | Band Standing Crunch | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D86 · formato corto · parecido a standing-cross-crunch |
+| D797 | Band Standing Rear Delt Row | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D86 · formato corto |
+| D798 | Band Standing Twisting Crunch | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D86 · formato corto |
+| D799 | Band Step-up | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D86 · formato corto · parecido a box-step-up |
+| D800 | Band Stiff Leg Deadlift | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D86 · formato corto · parecido a barbell-stiff-leg-deadlift |
+| D801 | Band Straight Back Stiff Leg Deadlift | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D86 · formato corto |
+| D802 | Band Straight Leg Deadlift | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D86 · formato corto |
+| D803 | Band Twisting Overhead Press | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D86 · formato corto |
+| D804 | Band Two Legs Calf Raise - (Band Under Both Legs) v. 2 | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D86 · formato corto |
+| D805 | Band Underhand Pulldown | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D86 · formato corto |
+| D806 | Band V-up | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D87 · formato corto · parecido a v-up |
+| D807 | Band Vertical Pallof Press | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D87 · formato corto |
+| D808 | Band Wrist Curl | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D87 · formato corto |
+| D809 | Band Y-raise | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D87 · formato corto · parecido a y-raises |
+| D810 | Resistance Band Hip Thrusts on Knees | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D87 · formato corto |
+| D811 | Resistance Band Leg Extension | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D87 · formato corto · parecido a leg-extension |
+| D812 | Resistance Band Seated Biceps Curl | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D87 · formato corto |
+| D813 | Resistance Band Seated Chest Press | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D87 · formato corto |
+| D814 | Resistance Band Seated Hip Abduction | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D87 · formato corto |
+| D815 | Resistance Band Seated Shoulder Press | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D87 · formato corto |
+| D816 | Resistance Band Seated Straight Back Row | Banda elástica · `band` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D88 · formato corto |
+| D817 | Otis Up | Disco / lastre · `plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D89 · formato corto · parecido a v-up |
+| D818 | Weighted Cossack Squats | Disco / lastre · `plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D89 · formato corto · parecido a cossack-squat |
+| D819 | Weighted Crunch | Disco / lastre · `plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D89 · formato corto |
+| D820 | Weighted Donkey Calf Raise | Disco / lastre · `plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D89 · formato corto · parecido a calf-raise |
+| D821 | Weighted Drop Push Up | Disco / lastre · `plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D89 · formato corto |
+| D822 | Weighted Front Raise | Disco / lastre · `plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D89 · formato corto · parecido a dumbbell-front-raise |
+| D823 | Weighted Hyperextension (On Stability Ball) | Disco / lastre · `plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D89 · formato corto |
+| D824 | Weighted Kneeling Step with Swing | Disco / lastre · `plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D89 · formato corto |
+| D825 | Weighted Lunge with Swing | Disco / lastre · `plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D89 · formato corto · parecido a weighted-lunge |
+| D826 | Weighted One Hand Pull Up | Disco / lastre · `plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D89 · formato corto |
+| D827 | Weighted Overhead Crunch (On Stability Ball) | Disco / lastre · `plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D90 · formato corto · parecido a stability-ball-plate-crunch |
+| D828 | Weighted Round Arm | Disco / lastre · `plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D90 · formato corto |
+| D829 | Weighted Russian Twist (Legs Up) | Disco / lastre · `plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D90 · formato corto |
+| D830 | Weighted Russian Twist v. 2 | Disco / lastre · `plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D90 · formato corto · parecido a russian-twist |
+| D831 | Weighted Side Bend (On Stability Ball) | Disco / lastre · `plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D90 · formato corto |
+| D832 | Weighted Sissy Squat | Disco / lastre · `plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D90 · formato corto |
+| D833 | Weighted Squat | Disco / lastre · `plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D90 · formato corto |
+| D834 | Weighted Standing Curl | Disco / lastre · `plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D90 · formato corto |
+| D835 | Weighted Standing Hand Squeeze | Disco / lastre · `plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D90 · formato corto |
+| D836 | Weighted Stretch Lunge | Disco / lastre · `plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D90 · formato corto · parecido a weighted-lunge |
+| D837 | Weighted Svend Press | Disco / lastre · `plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D91 · formato corto |
+| D838 | Wrist Rollerer | Disco / lastre · `plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D91 · formato corto |
+| D839 | Weighted Decline Sit-up | Disco / lastre · `plate + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D91 · formato corto · parecido a weighted-sit-up |
+| D840 | Weighted Seated Twist (On Stability Ball) | Disco / lastre · `plate + bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D91 · formato corto |
+| D841 | Weighted Close Grip Chin-up on Dip Cage | Disco / lastre · `pullupbar + plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D91 · formato corto |
+| D842 | Weighted Hanging Leg-hip Raise | Disco / lastre · `pullupbar + plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D91 · formato corto |
+| D843 | Weighted Muscle Up | Disco / lastre · `pullupbar + plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D91 · formato corto · parecido a weighted-sit-up |
+| D844 | Weighted Muscle Up (On Bar) | Disco / lastre · `pullupbar + plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D91 · formato corto · parecido a bar-muscle-up |
+| D845 | Weighted Pull-up | Disco / lastre · `pullupbar + plate` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D91 · formato corto · parecido a bar-pull-up |
+| D846 | Weighted Bench Dip | Disco / lastre · `dipbars + plate` (falta dibujar dipbars) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D91 · formato corto |
+| D847 | Weighted Straight Bar Dip | Disco / lastre · `dipbars + plate` (falta dibujar dipbars) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D92 · formato corto |
+| D848 | Weighted Three Bench Dips | Disco / lastre · `dipbars + plate` (falta dibujar dipbars) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D92 · formato corto |
+| D849 | Weighted Tricep Dips | Disco / lastre · `dipbars + plate` (falta dibujar dipbars) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D92 · formato corto |
+| D850 | Weighted Triceps Dip on High Parallel Bars | Disco / lastre · `dipbars + plate` (falta dibujar dipbars) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D92 · formato corto |
+| D851 | Assisted Motion Russian Twist | Balón medicinal · `wallball` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D93 · formato corto · parecido a russian-twist |
+| D852 | Medicine Ball Catch and Overhead Throw | Balón medicinal · `wallball` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D93 · formato corto |
+| D853 | Medicine Ball Chest Pass | Balón medicinal · `wallball` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D93 · formato corto |
+| D854 | Medicine Ball Chest Push From 3 Point Stance | Balón medicinal · `wallball` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D93 · formato corto |
+| D855 | Medicine Ball Chest Push Multiple Response | Balón medicinal · `wallball` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D93 · formato corto |
+| D856 | Medicine Ball Chest Push Single Response | Balón medicinal · `wallball` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D93 · formato corto |
+| D857 | Medicine Ball Chest Push with Run Release | Balón medicinal · `wallball` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D93 · formato corto |
+| D858 | Medicine Ball Close Grip Push Up | Balón medicinal · `wallball` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D93 · formato corto |
+| D859 | Medicine Ball Overhead Slam | Balón medicinal · `wallball` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D93 · formato corto |
+| D860 | Medicine Ball Supine Chest Throw | Balón medicinal · `wallball` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D93 · formato corto |
+| D861 | One Arm Slam (With Medicine Ball) | Balón medicinal · `wallball` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D94 · formato corto |
+| D862 | Push-up Medicine Ball | Balón medicinal · `wallball` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D94 · formato corto |
+| D863 | Weighted Seated Bicep Curl (On Stability Ball) | Balón medicinal · `wallball` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D94 · formato corto |
+| D864 | Push Up on Bosu Ball | Bosu · `bosu` (falta dibujar bosu) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D94 · formato corto |
+| D865 | Push-up (Bosu Ball) | Bosu · `bosu` (falta dibujar bosu) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D94 · formato corto |
+| D866 | Squat on Bosu Ball | Bosu · `bosu` (falta dibujar bosu) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D94 · formato corto |
+| D867 | Back Extension on Exercise Ball | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D94 · formato corto |
+| D868 | Chest Stretch with Exercise Ball | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D94 · formato corto |
+| D869 | Crunch (On Stability Ball, Arms Straight) | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D94 · formato corto · parecido a stability-ball-plate-crunch |
+| D870 | Crunch (On Stability Ball) | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D94 · formato corto · parecido a stability-ball-plate-crunch |
+| D871 | Exercise Ball Alternating Arm Ups | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D95 · formato corto |
+| D872 | Exercise Ball Back Extension with Arms Extended | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D95 · formato corto |
+| D873 | Exercise Ball Back Extension with Hands Behind Head | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D95 · formato corto |
+| D874 | Exercise Ball Back Extension with Knees Off Ground | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D95 · formato corto |
+| D875 | Exercise Ball Back Extension with Rotation | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D95 · formato corto |
+| D876 | Exercise Ball Dip | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D95 · formato corto |
+| D877 | Exercise Ball Hip Flexor Stretch | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D95 · formato corto |
+| D878 | Exercise Ball Hug | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D95 · formato corto |
+| D879 | Exercise Ball Lat Stretch | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D95 · formato corto |
+| D880 | Exercise Ball Lower Back Stretch (Pyramid) | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D95 · formato corto |
+| D881 | Exercise Ball Lying Side Lat Stretch | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D96 · formato corto |
+| D882 | Exercise Ball One Leg Prone Lower Body Rotation | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D96 · formato corto |
+| D883 | Exercise Ball One Legged Diagonal Kick Hamstring Curl | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D96 · formato corto |
+| D884 | Exercise Ball Pike Push Up | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D96 · formato corto |
+| D885 | Exercise Ball Prone Leg Raise | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D96 · formato corto |
+| D886 | Exercise Ball Seated Hamstring Stretch | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D96 · formato corto |
+| D887 | Exercise Ball Seated Triceps Stretch | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D96 · formato corto |
+| D888 | Narrow Push-up on Exercise Ball | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D96 · formato corto |
+| D889 | Prone Twist on Stability Ball | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D96 · formato corto |
+| D890 | Pull-in (On Stability Ball) | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D96 · formato corto |
+| D891 | Push-up (On Stability Ball) | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D97 · formato corto |
+| D892 | Reverse Hyper Extension (On Stability Ball) | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D97 · formato corto |
+| D893 | Stability Ball Crunch (Full Range Hands Behind Head) | Fitball · `stabilityball` (falta dibujar stabilityball) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D97 · formato corto |
+| D894 | Standing Wheel Rollerout | Rueda abdominal · `abwheel` (falta dibujar abwheel) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D98 · formato corto |
+| D895 | Battling Ropes | Soga · `battlerope` (falta dibujar battlerope) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D98 · formato corto |
+| D896 | Roller Back Stretch | Rodillo de espuma · `foamroller` (falta dibujar foamroller) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D98 · formato corto |
+| D897 | Roller Body Saw | Rodillo de espuma · `foamroller` (falta dibujar foamroller) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D98 · formato corto |
+| D898 | Roller Hip Lat Stretch | Rodillo de espuma · `foamroller` (falta dibujar foamroller) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D98 · formato corto |
+| D899 | Roller Hip Stretch | Rodillo de espuma · `foamroller` (falta dibujar foamroller) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D98 · formato corto |
+| D900 | Roller Reverse Crunch | Rodillo de espuma · `foamroller` (falta dibujar foamroller) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D98 · formato corto |
+| D901 | Roller Seated Shoulder Flexor Depresor Retractor | Rodillo de espuma · `foamroller` (falta dibujar foamroller) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D98 · formato corto |
+| D902 | Roller Seated Single Leg Shoulder Flexor Depresor Retractor | Rodillo de espuma · `foamroller` (falta dibujar foamroller) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D98 · formato corto |
+| D903 | Roller Side Lat Stretch | Rodillo de espuma · `foamroller` (falta dibujar foamroller) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D98 · formato corto |
+| D904 | Sledge Hammer | Maza · `sledgehammer + tire` (falta dibujar sledgehammer, tire) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D99 · formato corto |
+| D905 | Calf Stretch with Rope | Soga · `strap` (falta dibujar strap) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D99 · formato corto |
+| D906 | Intermediate Hip Flexor and Quad Stretch | Soga · `strap` (falta dibujar strap) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D99 · formato corto |
+| D907 | London Bridge | Soga · `strap` (falta dibujar strap) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D99 · formato corto |
+| D908 | Peroneals Stretch | Soga · `strap` (falta dibujar strap) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D99 · formato corto |
+| D909 | Posterior Tibialis Stretch | Soga · `strap` (falta dibujar strap) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D99 · formato corto |
+| D910 | Reclining Big Toe Pose with Rope | Soga · `strap` (falta dibujar strap) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D99 · formato corto |
+| D911 | Standing Hamstring and Calf Stretch with Strap | Soga · `strap` (falta dibujar strap) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D99 · formato corto · parecido a standing-hamstring-stretch |
+| D912 | Tire Flip | Cubierta de tractor · `tire` (falta dibujar tire) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D99 · formato corto |
+| D913 | Assisted Lying Calves Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D100 · formato corto |
+| D914 | Assisted Lying Glutes Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D100 · formato corto |
+| D915 | Assisted Lying Gluteus and Piriformis Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D100 · formato corto |
+| D916 | Assisted Lying Leg Raise with Lateral Throw Down | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D100 · formato corto |
+| D917 | Assisted Lying Leg Raise with Throw Down | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D100 · formato corto · parecido a lying-leg-raise |
+| D918 | Assisted Prone Hamstring | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D100 · formato corto |
+| D919 | Assisted Prone Lying Quads Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D100 · formato corto |
+| D920 | Assisted Prone Rectus Femoris Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D100 · formato corto |
+| D921 | Assisted Seated Pectoralis Major Stretch with Stability Ball | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D100 · formato corto |
+| D922 | Assisted Side Lying Adductor Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D100 · formato corto |
+| D923 | Assisted Sit-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D101 · formato corto · parecido a weighted-sit-up |
+| D924 | Assisted Standing Triceps Extension (With Towel) | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D101 · formato corto |
+| D925 | Behind Head Chest Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D101 · formato corto |
+| D926 | Assisted Hanging Knee Raise | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D101 · formato corto |
+| D927 | Assisted Hanging Knee Raise with Throw Down | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D101 · formato corto |
+| D928 | 3/4 Sit-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D102 · formato corto |
+| D929 | 45° Side Bend | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D102 · formato corto |
+| D930 | All Fours Squad Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D102 · formato corto |
+| D931 | Alternate Heel Touchers | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D102 · formato corto |
+| D932 | Ankle Circles | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D102 · formato corto |
+| D933 | Archer Pull Up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D102 · formato corto · parecido a bar-pull-up |
+| D934 | Archer Push Up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D102 · formato corto · parecido a yoga-push-up |
+| D935 | Arms Apart Circular Toe Touch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D102 · formato corto |
+| D936 | Arms Overhead Full Sit-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D102 · formato corto |
+| D937 | Astride Jumps | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D102 · formato corto |
+| D938 | Back and Forth Step | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D103 · formato corto |
+| D939 | Back Lever | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D103 · formato corto |
+| D940 | Back Pec Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D103 · formato corto |
+| D941 | Backward Jump | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D103 · formato corto |
+| D942 | Balance Board | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D103 · formato corto |
+| D943 | Basic Toe Touch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D103 · formato corto · parecido a toe-touch-crunch |
+| D944 | Bear Crawl | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D103 · formato corto · parecido a bear-crawl-hold |
+| D945 | Bent Knee Lying Twist | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D103 · formato corto |
+| D946 | Biceps Leg Concentration Curl | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D103 · formato corto |
+| D947 | Body-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D103 · formato corto · parecido a v-up |
+| D948 | Bodyweight Drop Jump Squat | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D104 · formato corto · parecido a jump-squat |
+| D949 | Bodyweight Incline Side Plank | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D104 · formato corto · parecido a side-plank |
+| D950 | Bodyweight Kneeling Triceps Extension | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D104 · formato corto |
+| D951 | Bodyweight Side Lying Biceps Curl | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D104 · formato corto |
+| D952 | Bodyweight Squatting Row | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D104 · formato corto |
+| D953 | Bodyweight Squatting Row (With Towel) | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D104 · formato corto |
+| D954 | Bodyweight Standing Close-grip One Arm Row | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D104 · formato corto |
+| D955 | Bodyweight Standing Close-grip Row | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D104 · formato corto |
+| D956 | Bodyweight Standing One Arm Row | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D104 · formato corto |
+| D957 | Bodyweight Standing One Arm Row (With Towel) | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D104 · formato corto |
+| D958 | Bodyweight Standing Row | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D105 · formato corto |
+| D959 | Bodyweight Standing Row (With Towel) | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D105 · formato corto |
+| D960 | Bottoms-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D105 · formato corto · parecido a v-up |
+| D961 | Bridge - Mountain Climber (Cross Body) | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D105 · formato corto · parecido a cross-body-mountain-climbers |
+| D962 | Butt-ups | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D105 · formato corto |
+| D963 | Butterfly Yoga Pose | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D105 · formato corto |
+| D964 | Captains Chair Straight Leg Raise | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D105 · formato corto |
+| D965 | Chair Leg Extended Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D105 · formato corto |
+| D966 | Chest and Front of Shoulder Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D105 · formato corto |
+| D967 | Chest Tap Push-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D105 · formato corto |
+| D968 | Circles Knee Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D106 · formato corto |
+| D969 | Clap Push Up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D106 · formato corto · parecido a yoga-push-up |
+| D970 | Clock Push-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D106 · formato corto · parecido a yoga-push-up |
+| D971 | Close-grip Push-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D106 · formato corto |
+| D972 | Close-grip Push-up (On Knees) | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D106 · formato corto |
+| D973 | Cocoons | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D106 · formato corto |
+| D974 | Crab Twist Toe Touch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D106 · formato corto |
+| D975 | Cross Body Crunch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D106 · formato corto · parecido a standing-cross-crunch |
+| D976 | Crunch (Hands Overhead) | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D106 · formato corto |
+| D977 | Crunch Floor | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D106 · formato corto |
+| D978 | Curl-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D107 · formato corto · parecido a v-up |
+| D979 | Curtsey Squat | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D107 · formato corto |
+| D980 | Decline Crunch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D107 · formato corto |
+| D981 | Decline Push-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D107 · formato corto · parecido a yoga-push-up |
+| D982 | Decline Sit-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D107 · formato corto · parecido a weighted-sit-up |
+| D983 | Diamond Push-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D107 · formato corto · parecido a yoga-push-up |
+| D984 | Donkey Calf Raise | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D107 · formato corto · parecido a calf-raise |
+| D985 | Drop Push Up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D107 · formato corto · parecido a yoga-push-up |
+| D986 | Dynamic Chest Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D107 · formato corto · parecido a doorway-chest-stretch |
+| D987 | Elbow Dips | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D107 · formato corto |
+| D988 | Elbow Lift - Reverse Push-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D108 · formato corto |
+| D989 | Elbow-to-knee | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D108 · formato corto |
+| D990 | Elevator | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D108 · formato corto |
+| D991 | Flag | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D108 · formato corto |
+| D992 | Flexion Leg Sit Up (Bent Knee) | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D108 · formato corto |
+| D993 | Flexion Leg Sit Up (Straight Arm) | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D108 · formato corto |
+| D994 | Flutter Kicks | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D108 · formato corto · parecido a hanging-flutter-kicks |
+| D995 | Forward Jump | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D108 · formato corto |
+| D996 | Forward Lunge | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D108 · formato corto |
+| D997 | Frog Crunch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D108 · formato corto |
+| D998 | Frog Planche | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D109 · formato corto |
+| D999 | Front Lever | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D109 · formato corto |
+| D1000 | Front Lever Reps | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D109 · formato corto |
+| D1001 | Front Plank with Twist | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D109 · formato corto |
+| D1002 | Full Maltese | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D109 · formato corto |
+| D1003 | Full Planche | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D109 · formato corto |
+| D1004 | Full Planche Push-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D109 · formato corto |
+| D1005 | Gironda Sternum Chin | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D109 · formato corto |
+| D1006 | Glute Bridge March | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D109 · formato corto · parecido a bodyweight-glute-bridge |
+| D1007 | Glute-ham Raise | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D109 · formato corto |
+| D1008 | Gorilla Chin | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D110 · formato corto |
+| D1009 | Groin Crunch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D110 · formato corto |
+| D1010 | Half Knee Bends | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D110 · formato corto |
+| D1011 | Half Sit-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D110 · formato corto · parecido a weighted-sit-up |
+| D1012 | Hamstring Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D110 · formato corto · parecido a standing-hamstring-stretch |
+| D1013 | Hands Clasped Circular Toe Touch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D110 · formato corto |
+| D1014 | Hands Reversed Clasped Circular Toe Touch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D110 · formato corto |
+| D1015 | Handstand | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D110 · formato corto |
+| D1016 | Handstand Push-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D110 · formato corto · parecido a bodyweight-handstand-push-up |
+| D1017 | Hip Raise (Bent Knee) | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D110 · formato corto |
+| D1018 | Hug Keens to Chest | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D111 · formato corto |
+| D1019 | Inchworm v. 2 | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D111 · formato corto · parecido a inchworm |
+| D1020 | Incline Close-grip Push-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D111 · formato corto |
+| D1021 | Incline Leg Hip Raise (Leg Straight) | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D111 · formato corto |
+| D1022 | Incline Push Up Depth Jump | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D111 · formato corto |
+| D1023 | Incline Push-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D111 · formato corto · parecido a yoga-push-up |
+| D1024 | Incline Reverse Grip Push-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D111 · formato corto |
+| D1025 | Incline Scapula Push Up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D111 · formato corto |
+| D1026 | Incline Twisting Sit-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D111 · formato corto |
+| D1027 | Inverted Row Bent Knees | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D111 · formato corto |
+| D1028 | Inverted Row v. 2 | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D112 · formato corto · parecido a barbell-inverted-row |
+| D1029 | Inverted Row with Straps | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D112 · formato corto · parecido a barbell-inverted-row |
+| D1030 | Iron Cross Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D112 · formato corto |
+| D1031 | Isometric Chest Squeeze | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D112 · formato corto |
+| D1032 | Isometric Wipers | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D112 · formato corto |
+| D1033 | Jack Burpee | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D112 · formato corto |
+| D1034 | Jack Jump | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D112 · formato corto |
+| D1035 | Jackknife Sit-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D112 · formato corto · parecido a weighted-sit-up |
+| D1036 | Janda Sit-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D112 · formato corto · parecido a weighted-sit-up |
+| D1037 | Jump Squat v. 2 | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D112 · formato corto · parecido a jump-squat |
+| D1038 | Kick Out Sit | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D113 · formato corto |
+| D1039 | Knee Touch Crunch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D113 · formato corto · parecido a toe-touch-crunch |
+| D1040 | Kneeling Lat Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D113 · formato corto · parecido a wall-lat-stretch |
+| D1041 | Kneeling Plank Tap Shoulder | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D113 · formato corto |
+| D1042 | Kneeling Push-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D113 · formato corto · parecido a yoga-push-up |
+| D1043 | L-sit on Floor | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D113 · formato corto · parecido a l-sit-hold |
+| D1044 | Lean Planche | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D113 · formato corto |
+| D1045 | Leg Up Hamstring Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D113 · formato corto |
+| D1046 | Low Glute Bridge on Floor | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D113 · formato corto |
+| D1047 | Lower Back Curl | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D113 · formato corto |
+| D1048 | Lunge with Jump | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D114 · formato corto |
+| D1049 | Lunge with Twist | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D114 · formato corto |
+| D1050 | Lying (Side) Quads Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D114 · formato corto |
+| D1051 | Lying Elbow to Knee | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D114 · formato corto |
+| D1052 | Lying Leg-hip Raise | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D114 · formato corto · parecido a lying-leg-raise |
+| D1053 | Modified Hindu Push-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D114 · formato corto |
+| D1054 | Modified Push Up to Lower Arms | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D114 · formato corto |
+| D1055 | Monster Walk | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D114 · formato corto |
+| D1056 | Neck Side Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D114 · formato corto |
+| D1057 | Negative Crunch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D114 · formato corto |
+| D1058 | Oblique Crunch v. 2 | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D115 · formato corto · parecido a oblique-crunch |
+| D1059 | Oblique Crunches Floor | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D115 · formato corto |
+| D1060 | One Arm Dip | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D115 · formato corto |
+| D1061 | One Arm Towel Row | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D115 · formato corto |
+| D1062 | One Leg Donkey Calf Raise | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D115 · formato corto · parecido a single-leg-calf-raise |
+| D1063 | One Leg Floor Calf Raise | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D115 · formato corto · parecido a single-leg-calf-raise |
+| D1064 | One Leg Squat | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D115 · formato corto |
+| D1065 | Outside Leg Kick Push-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D115 · formato corto |
+| D1066 | Pelvic Tilt | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D115 · formato corto |
+| D1067 | Pelvic Tilt Into Bridge | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D115 · formato corto |
+| D1068 | Pike-to-cobra Push-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D116 · formato corto |
+| D1069 | Plyo Push Up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D116 · formato corto · parecido a yoga-push-up |
+| D1070 | Posterior Step to Overhead Reach | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D116 · formato corto |
+| D1071 | Potty Squat | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D116 · formato corto |
+| D1072 | Potty Squat with Support | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D116 · formato corto |
+| D1073 | Power Point Plank | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D116 · formato corto |
+| D1074 | Prisoner Half Sit-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D116 · formato corto |
+| D1075 | Pull Up (Neutral Grip) | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D116 · formato corto |
+| D1076 | Push and Pull Bodyweight | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D116 · formato corto · parecido a sled-push-pull |
+| D1077 | Push to Run | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D116 · formato corto |
+| D1078 | Push-up Inside Leg Kick | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D117 · formato corto |
+| D1079 | Push-up on Lower Arms | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D117 · formato corto |
+| D1080 | Push-up Plus | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D117 · formato corto · parecido a yoga-push-up |
+| D1081 | Push-up to Side Plank | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D117 · formato corto · parecido a side-plank |
+| D1082 | Quads | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D117 · formato corto |
+| D1083 | Quarter Sit-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D117 · formato corto · parecido a weighted-sit-up |
+| D1084 | Quick Feet v. 2 | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D117 · formato corto |
+| D1085 | Raise Single Arm Push-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D117 · formato corto |
+| D1086 | Rear Decline Bridge | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D117 · formato corto |
+| D1087 | Rear Deltoid Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D117 · formato corto |
+| D1088 | Reverse Crunch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D118 · formato corto |
+| D1089 | Reverse Dip | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D118 · formato corto |
+| D1090 | Reverse Plank with Leg Lift | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D118 · formato corto |
+| D1091 | Rocking Frog Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D118 · formato corto |
+| D1092 | Runners Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D118 · formato corto |
+| D1093 | Scapula Dips | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D118 · formato corto |
+| D1094 | Scapula Push-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D118 · formato corto · parecido a yoga-push-up |
+| D1095 | Scissor Jumps | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D118 · formato corto |
+| D1096 | Seated Calf Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D118 · formato corto · parecido a seated-quad-stretch |
+| D1097 | Seated Glute Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D118 · formato corto · parecido a seated-quad-stretch |
+| D1098 | Seated Leg Raise | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D119 · formato corto · parecido a seated-leg-tucks |
+| D1099 | Seated Lower Back Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D119 · formato corto |
+| D1100 | Seated Piriformis Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D119 · formato corto · parecido a seated-quad-stretch |
+| D1101 | Seated Wide Angle Pose Sequence | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D119 · formato corto |
+| D1102 | Self Assisted Inverse Leg Curl | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D119 · formato corto |
+| D1103 | Self Assisted Inverse Leg Curl (On Floor) | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D119 · formato corto |
+| D1104 | Semi Squat Jump | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D119 · formato corto · parecido a jump-squat |
+| D1105 | Short Stride Run | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D119 · formato corto |
+| D1106 | Shoulder Tap | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D119 · formato corto |
+| D1107 | Shoulder Tap Push-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D119 · formato corto |
+| D1108 | Side Bridge Hip Abduction | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D120 · formato corto |
+| D1109 | Side Bridge v. 2 | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D120 · formato corto |
+| D1110 | Side Hip Abduction | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D120 · formato corto · parecido a hip-abduction-machine |
+| D1111 | Side Lying Floor Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D120 · formato corto |
+| D1112 | Side Lying Hip Adduction | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D120 · formato corto |
+| D1113 | Side Plank Hip Adduction | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D120 · formato corto · parecido a side-plank |
+| D1114 | Side Push Neck Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D120 · formato corto |
+| D1115 | Side Push-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D120 · formato corto · parecido a yoga-push-up |
+| D1116 | Side Wrist Pull Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D120 · formato corto |
+| D1117 | Side-to-side Chin | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D120 · formato corto |
+| D1118 | Side-to-side Toe Touch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D121 · formato corto · parecido a toe-touch-crunch |
+| D1119 | Single Arm Push-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D121 · formato corto · parecido a single-arm-dumbbell-push-press |
+| D1120 | Single Leg Bridge with Outstretched Leg | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D121 · formato corto |
+| D1121 | Single Leg Platform Slide | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D121 · formato corto |
+| D1122 | Single Leg Squat (Pistol) | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D121 · formato corto |
+| D1123 | Sissy Squat | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D121 · formato corto |
+| D1124 | Sit-up v. 2 | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D121 · formato corto · parecido a weighted-sit-up |
+| D1125 | Sit-up with Arms on Chest | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D121 · formato corto |
+| D1126 | Skater Hops | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D121 · formato corto |
+| D1127 | Ski Step | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D121 · formato corto |
+| D1128 | Sphinx | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D122 · formato corto |
+| D1129 | Spider Crawl Push Up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D122 · formato corto |
+| D1130 | Spine Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D122 · formato corto |
+| D1131 | Spine Twist | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D122 · formato corto |
+| D1132 | Split Squats | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D122 · formato corto · parecido a bulgarian-split-squat |
+| D1133 | Squat to Overhead Reach | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D122 · formato corto · parecido a overhead-squat |
+| D1134 | Squat to Overhead Reach with Twist | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D122 · formato corto · parecido a overhead-squat |
+| D1135 | Stalder Press | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D122 · formato corto |
+| D1136 | Standing Archer | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D122 · formato corto |
+| D1137 | Standing Calf Raise (On a Staircase) | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D122 · formato corto · parecido a standing-calf-raise-machine |
+| D1138 | Standing Calves | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D123 · formato corto |
+| D1139 | Standing Calves Calf Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D123 · formato corto |
+| D1140 | Standing Lateral Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D123 · formato corto · parecido a standing-biceps-stretch |
+| D1141 | Standing Pelvic Tilt | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D123 · formato corto |
+| D1142 | Standing Single Leg Curl | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D123 · formato corto |
+| D1143 | Star Jump | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D123 · formato corto |
+| D1144 | Straddle Maltese | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D123 · formato corto |
+| D1145 | Straddle Planche | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D123 · formato corto |
+| D1146 | Straight Leg Outer Hip Abductor | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D123 · formato corto |
+| D1147 | Superman Push-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D123 · formato corto · parecido a yoga-push-up |
+| D1148 | Suspended Abdominal Fallout | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D124 · formato corto |
+| D1149 | Suspended Push-up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D124 · formato corto · parecido a yoga-push-up |
+| D1150 | Suspended Reverse Crunch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D124 · formato corto |
+| D1151 | Suspended Row | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D124 · formato corto |
+| D1152 | Suspended Split Squat | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D124 · formato corto · parecido a bulgarian-split-squat |
+| D1153 | Swimmer Kicks v. 2 | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D124 · formato corto |
+| D1154 | Swing 360 | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D124 · formato corto |
+| D1155 | Triceps Dip | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D124 · formato corto |
+| D1156 | Triceps Dips Floor | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D124 · formato corto |
+| D1157 | Triceps Press | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D124 · formato corto |
+| D1158 | Tuck Crunch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D125 · formato corto |
+| D1159 | Twist Hip Lift | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D125 · formato corto |
+| D1160 | Twisted Leg Raise | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D125 · formato corto · parecido a lying-leg-raise |
+| D1161 | Two Toe Touch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D125 · formato corto · parecido a toe-touch-crunch |
+| D1162 | Upper Back Stretch | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D125 · formato corto |
+| D1163 | Upward Facing Dog | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D125 · formato corto · parecido a upward-to-downward-dog |
+| D1164 | V-sit on Floor | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D125 · formato corto |
+| D1165 | Walking High Knees Lunge | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D125 · formato corto · parecido a walking-lunge |
+| D1166 | Wheel Run | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D125 · formato corto |
+| D1167 | Wide Hand Push Up | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D125 · formato corto · parecido a wide-negative-push-up |
+| D1168 | Wind Sprints | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D126 · formato corto |
+| D1169 | Wrist Circles | Ninguno | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D126 · formato corto |
+| D1170 | Bench Dip (Knees Bent) | Ninguno · `bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D126 · formato corto |
+| D1171 | Bench Dip on Floor | Ninguno · `bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D126 · formato corto |
+| D1172 | Bench Hip Extension | Ninguno · `bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D126 · formato corto |
+| D1173 | Glute Bridge Two Legs on Bench | Ninguno · `bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D126 · formato corto |
+| D1174 | Hyperextension (On Bench) | Ninguno · `bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D126 · formato corto |
+| D1175 | Inverse Leg Curl (Bench Support) | Ninguno · `bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D126 · formato corto |
+| D1176 | Inverted Row on Bench | Ninguno · `bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D126 · formato corto · parecido a barbell-inverted-row |
+| D1177 | Leg Pull in Flat Bench | Ninguno · `bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D126 · formato corto |
+| D1178 | Lying Leg Raise Flat Bench | Ninguno · `bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D127 · formato corto · parecido a lying-leg-raise |
+| D1179 | Reverse Hyper on Flat Bench | Ninguno · `bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D127 · formato corto |
+| D1180 | Three Bench Dip | Ninguno · `bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D127 · formato corto |
+| D1181 | Triceps Dip (Bench Leg) | Ninguno · `bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D127 · formato corto |
+| D1182 | Triceps Dip (Between Benches) | Ninguno · `bench` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D127 · formato corto |
+| D1183 | Box Jump Down with One Leg Stabilization | Ninguno · `box` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D127 · formato corto |
+| D1184 | Incline Push-up (On Box) | Ninguno · `box` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D127 · formato corto |
+| D1185 | Left Hook. Boxing | Ninguno · `box` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D127 · formato corto |
+| D1186 | Arm Slingers Hanging Bent Knee Legs | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D127 · formato corto |
+| D1187 | Arm Slingers Hanging Straight Legs | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D127 · formato corto |
+| D1188 | Bench Pull-ups | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D128 · formato corto |
+| D1189 | Biceps Narrow Pull-ups | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D128 · formato corto |
+| D1190 | Biceps Pull-up | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D128 · formato corto · parecido a bar-pull-up |
+| D1191 | Chest Dip (On Dip-pull-up Cage) | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D128 · formato corto · parecido a chest-to-bar-pull-up |
+| D1192 | Chin-up | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D128 · formato corto · parecido a v-up |
+| D1193 | Chin-ups (Narrow Parallel Grip) | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D128 · formato corto |
+| D1194 | Close Grip Chin-up | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D128 · formato corto |
+| D1195 | Hanging Leg Hip Raise | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D128 · formato corto |
+| D1196 | Hanging Leg Raise | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D128 · formato corto · parecido a hanging-leg-raise-with-rotation-over-box |
+| D1197 | Hanging Oblique Knee Raise | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D128 · formato corto |
+| D1198 | Hanging Pike | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D129 · formato corto |
+| D1199 | Hanging Straight Leg Hip Raise | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D129 · formato corto |
+| D1200 | Hanging Straight Leg Raise | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D129 · formato corto |
+| D1201 | Hanging Straight Twisting Leg Hip Raise | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D129 · formato corto |
+| D1202 | Inverse Leg Curl (On Pull-up Cable Machine) | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D129 · formato corto |
+| D1203 | Kipping Muscle Up | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D129 · formato corto · parecido a bar-muscle-up |
+| D1204 | L-pull-up | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D129 · formato corto · parecido a bar-pull-up |
+| D1205 | Mixed Grip Chin-up | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D129 · formato corto |
+| D1206 | Muscle-up (On Vertical Bar) | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D129 · formato corto · parecido a bar-muscle-up |
+| D1207 | One Arm Chin-up | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D129 · formato corto |
+| D1208 | Rear Pull-up | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D130 · formato corto · parecido a bar-pull-up |
+| D1209 | Reverse Grip Pull-up | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D130 · formato corto |
+| D1210 | Rocky Pull-up Pulldown | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D130 · formato corto |
+| D1211 | Scapular Pull-up | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D130 · formato corto · parecido a scapular-push-up |
+| D1212 | Shoulder Grip Pull-up | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D130 · formato corto |
+| D1213 | Skin the Cat | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D130 · formato corto |
+| D1214 | Wide Grip Pull-up | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D130 · formato corto |
+| D1215 | Wide Grip Rear Pull-up | Ninguno · `pullupbar` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D130 · formato corto |
+| D1216 | Calf Push Stretch with Hands Against Wall | Ninguno · `wall` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D130 · formato corto |
+| D1217 | Calf Stretch with Hands Against Wall | Ninguno · `wall` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D130 · formato corto |
+| D1218 | High Knee Against Wall | Ninguno · `wall` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D131 · formato corto |
+| D1219 | March Sit (Wall) | Ninguno · `wall` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D131 · formato corto · parecido a wall-sit |
+| D1220 | One Arm Against Wall | Ninguno · `wall` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D131 · formato corto |
+| D1221 | Push-up (Wall) | Ninguno · `wall` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D131 · formato corto · parecido a yoga-push-up |
+| D1222 | Push-up (Wall) v. 2 | Ninguno · `wall` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D131 · formato corto |
+| D1223 | Seated Side Crunch (Wall) | Ninguno · `wall` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D131 · formato corto |
+| D1224 | Chest Dip | Ninguno · `dipbars` (falta dibujar dipbars) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D131 · formato corto |
+| D1225 | Chest Dip on Straight Bar | Ninguno · `dipbars` (falta dibujar dipbars) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D131 · formato corto |
+| D1226 | Impossible Dips | Ninguno · `dipbars` (falta dibujar dipbars) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D131 · formato corto |
+| D1227 | Korean Dips | Ninguno · `dipbars` (falta dibujar dipbars) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D131 · formato corto |
+| D1228 | Side Hip (On Parallel Bars) | Ninguno · `dipbars` (falta dibujar dipbars) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D132 · formato corto |
+| D1229 | Vertical Leg Raise (On Parallel Bars) | Ninguno · `dipbars` (falta dibujar dipbars) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D132 · formato corto |
+| D1230 | Wide-grip Chest Dip on High Parallel Bars | Ninguno · `dipbars` (falta dibujar dipbars) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | Lote D132 · formato corto |

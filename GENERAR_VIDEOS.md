@@ -80,6 +80,7 @@ ejercicios/<slug>.json      ficha del ejercicio (la escribís vos)
 ejercicios/completados.csv  huecos del CSV que completaste vos (clave;campo;valor)
 ejercicios/maquinas.csv     lista de videos de máquinas de gimnasio (ver GENERAR_VIDEOS_MAQUINAS.md)
 maquinas_gimnasio.xlsx      planilla de máquinas del usuario (no editar: de ahí sale maquinas.csv)
+ejercicios/dataset.csv      ejercicios del dataset externo que faltan (ver GENERAR_VIDEOS_DATASET.md; lo arma plantilla/dataset-import.mjs)
 videos/<slug>/              proyecto HyperFrames generado (no editar a mano: index.html se regenera siempre)
 videos/_poselab/<slug>/     laboratorio de poses
 salida/[PREFIJO_]<slug>.mp4 video final

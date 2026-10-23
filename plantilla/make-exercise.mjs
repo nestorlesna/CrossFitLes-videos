@@ -4,7 +4,7 @@
 //   node plantilla/make-exercise.mjs <slug> --render   además renderiza y copia a salida/<slug>.mp4
 //   node plantilla/make-exercise.mjs --checklist       solo regenera CHECKLIST.md (+ salida/<slug>.youtube.txt)
 //   node plantilla/make-exercise.mjs <slug> --miniatura  solo regenera salida/<slug>.miniatura.png (miniatura de YouTube)
-//   node plantilla/make-exercise.mjs <slug> --info     muestra la fila de ejercicios/ejercicios.csv o maquinas.csv (datos para la ficha)
+//   node plantilla/make-exercise.mjs <slug> --info     muestra la fila de ejercicios/ejercicios.csv, maquinas.csv o dataset.csv (datos para la ficha)
 //
 // Flags: --force-tts (regenera la voz aunque el texto no cambió) · --no-check · --no-snapshot
 //        --prefijo=OC (con --render: el video sale como salida/OC_<slug>.mp4; sin prefijo, salida/<slug>.mp4)
@@ -40,6 +40,7 @@ const today = () => new Date().toISOString().slice(0, 10);
 // Lista maestra de ejercicios (export de la app del box): ejercicios/ejercicios.csv, ";" con comillas, UTF-8 con BOM.
 // El orden de las filas es el orden en que se van a hacer los videos.
 // readCsv("maquinas.csv"): lista de videos de máquinas de gimnasio (sale de maquinas_gimnasio.xlsx, una fila por video).
+// readCsv("dataset.csv"): ejercicios del dataset externo que faltan (sale de plantilla/dataset-import.mjs, no editar a mano).
 export function readCsv(name = "ejercicios.csv") {
   const file = join(ROOT, "ejercicios", name);
   if (!existsSync(file)) return [];
@@ -235,8 +236,11 @@ export function checklist() {
   const maq = readCsv("maquinas.csv");
   const runtime = readFileSync(join(HERE, "runtime.js"), "utf8");
   const dibujada = (prop) => runtime.includes(`pr.type === "${prop}"`);
+  // Dataset externo (ejercicios/dataset.csv): tercera tabla, numeración D1, D2… Sus props van separados por " + ".
+  const ds = readCsv("dataset.csv");
+  const faltanProps = (props) => props.split(" + ").filter((p) => p && !dibujada(p));
   // Primero las fichas que no están en ninguna lista (p. ej. squat-to-stand), después la lista en su orden.
-  const inCsv = new Set([...csv, ...maq].map((r) => r.clave));
+  const inCsv = new Set([...csv, ...maq, ...ds].map((r) => r.clave));
   const items = [
     ...Object.keys(specs).filter((k) => !inCsv.has(k)).sort().map((k) => ({ slug: k, n: "—" })),
     ...csv.map((r, i) => ({ slug: r.clave, n: String(i + 1), row: r })),
@@ -255,11 +259,15 @@ export function checklist() {
     // Máquina: 🏋️ + nombre en castellano + prop de runtime.js (y si todavía hay que dibujarla).
     const impl = row?.prop
       ? `🏋️ ${row.nombre_es} · \`${row.prop}\`${dibujada(row.prop) ? "" : " (falta dibujar)"}`
-      : row?.implemento || (s ? "Ninguno" : "");
+      : row?.props != null
+        ? `${row.implemento}${row.props ? ` · \`${row.props}\`` : ""}${faltanProps(row.props).length ? ` (falta dibujar ${faltanProps(row.props).join(", ")})` : ""}`
+        : row?.implemento || (s ? "Ninguno" : "");
     if (!s) {
       next ??= `${n} · ${name}`;
-      const faltan = row?.prop ? [] : [!row?.descripcion && "descripción", !row?.tecnica_coach && "técnica"].filter(Boolean);
-      const nota = faltan.length ? `falta ${faltan.join(" y ")} en el CSV` : row?.prop ? `Lote ${row.lote} · Nivel ${row.nivel} · ${row.dosis}` : "";
+      const faltan = row?.prop || row?.props != null ? [] : [!row?.descripcion && "descripción", !row?.tecnica_coach && "técnica"].filter(Boolean);
+      const nota = faltan.length ? `falta ${faltan.join(" y ")} en el CSV`
+        : row?.prop ? `Lote ${row.lote} · Nivel ${row.nivel} · ${row.dosis}`
+        : row?.props != null ? `Lote ${row.lote.split(" · ")[0]} · ${row.formato === "maquina" ? "formato máquina" : "formato corto"}${row.similar_a ? ` · parecido a ${row.similar_a}` : ""}` : "";
       return `| ${n} | ${name} | ${impl} | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | ${nota} |`;
     }
     fichas++;
@@ -281,6 +289,9 @@ export function checklist() {
   done = fichas = yts = subidos = 0; next = null;
   const rowsMaq = maq.map((r, i) => fila({ slug: r.clave, n: `M${i + 1}`, row: r }));
   const mq = { done, fichas, yts, subidos, next, total: maq.length };
+  done = fichas = yts = subidos = 0; next = null;
+  const rowsDs = ds.map((r, i) => fila({ slug: r.clave, n: `D${i + 1}`, row: r }));
+  const dc = { done, fichas, yts, subidos, next, total: ds.length };
   const head = `| # | Ejercicio | Implemento | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Nombre EN | Revisado | Subido | Fecha render | Notas |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|`;
   const resumen = (c) => `**Renderizados:** ${c.done} / ${c.total} · **Fichas:** ${c.fichas} · **Descripción YouTube:** ${c.yts} · **Subidos:** ${c.subidos}${c.next ? ` · **Próximo:** ${c.next}` : ""}`;
@@ -293,6 +304,18 @@ La columna Implemento dice la máquina y el prop de \`plantilla/runtime.js\` que
 ${resumen(mq)}${faltaDibujar.length ? ` · **Máquinas sin dibujar:** ${faltaDibujar.length}` : ""}\n
 ${head}
 ${rowsMaq.join("\n")}\n`
+    : "";
+  const propsDs = [...new Set(ds.flatMap((r) => faltanProps(r.props)))];
+  const tablaDs = ds.length
+    ? `\n## 📚 Dataset de ejercicios (pendientes)\n
+Ejercicios del dataset externo (exercises-dataset, 1324 ejercicios) que no están en las tablas de arriba. Se hacen con
+\`GENERAR_VIDEOS_DATASET.md\`. La lista y su orden salen de \`ejercicios/dataset.csv\` (la arma
+\`node plantilla/dataset-import.mjs\`; los que ya tenemos con otro nombre van en \`ejercicios/dataset-equivalencias.csv\`).
+Notas: lote, formato (máquina 90–150 s · corto 40–52 s) y el ejercicio nuestro más parecido (pista, no equivalencia).\n
+${resumen(dc)}${propsDs.length ? ` · **Props sin dibujar:** ${propsDs.length} (${propsDs.join(", ")})` : ""}\n
+${head}
+${rowsDs.join("\n")}
+`
     : "";
   // Plan de re-render con el nombre en inglés: lotes de 10 en el orden de la tabla (plantilla/revoz-en.mjs toma el primero).
   const lotes = [];
@@ -320,16 +343,16 @@ Leyenda: ✅ listo · ⬜ pendiente · ❌ falló · ⚠️ lo que se ve/escucha
 Nombre EN: ✅ el nombre lo dice la voz en inglés · ⬜ falta re-renderizar · — no aplica (subido a YouTube, sin render o nombre en castellano).
 Implemento distinto de "Ninguno": el personaje todavía no lo tiene; hay que agregarlo a \`plantilla/runtime.js\` antes de hacer ese video.
 🏋️ = ejercicio de máquina de gimnasio (tabla aparte, al final).
-${plan}${tablaMaq}`;
+${plan}${tablaMaq}${tablaDs}`;
   writeFileSync(join(ROOT, "CHECKLIST.md"), md);
-  console.log(`✓ CHECKLIST.md (${cf.done}/${cf.total} renderizados, ${cf.fichas} fichas, ${cf.yts} con descripción YouTube · máquinas ${mq.done}/${mq.total})`);
+  console.log(`✓ CHECKLIST.md (${cf.done}/${cf.total} renderizados, ${cf.fichas} fichas, ${cf.yts} con descripción YouTube · máquinas ${mq.done}/${mq.total} · dataset ${dc.done}/${dc.total})`);
 }
 
 function main() {
   if (has("--checklist") && !slug) return checklist();
   if (has("--info")) {
-    const row = [...readCsv(), ...readCsv("maquinas.csv")].find((r) => r.clave === slug);
-    if (!row) throw new Error(`${slug} no está en ejercicios/ejercicios.csv ni en ejercicios/maquinas.csv`);
+    const row = [...readCsv(), ...readCsv("maquinas.csv"), ...readCsv("dataset.csv")].find((r) => r.clave === slug);
+    if (!row) throw new Error(`${slug} no está en ejercicios/ejercicios.csv, maquinas.csv ni dataset.csv`);
     return console.log(JSON.stringify(row, null, 2));
   }
   if (has("--miniatura")) {
