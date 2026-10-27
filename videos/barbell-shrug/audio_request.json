@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Barbell Shrug",
+      "text": "Encogimiento de hombros con barra. Fortalece el trapecio y te ayuda a sostener cargas pesadas."
+    },
+    {
+      "id": "02",
+      "text": "Parate con la barra colgando al frente, brazos extendidos, pies al ancho de cadera y la mirada al frente."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Subí los hombros directo hacia las orejas, como si quisieras taparte los oídos."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Hacé una pausa breve arriba, apretando el trapecio. Los codos siguen estirados."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Bajá los hombros despacio, con control, hasta volver a la posición inicial."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Los codos no se flexionan: si doblás los brazos, trabajás bíceps y no trapecio."
+    },
+    {
+      "id": "07",
+      "text": "Claves: se mueven solo los hombros, codos estirados, pausa breve arriba y bajada controlada sin rebotar."
+    },
+    {
+      "id": "08",
+      "text": "Doce repeticiones con cincuenta kilos. Subí, pausa breve y bajá con control. Si no sostenés la barra, bajá la carga."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

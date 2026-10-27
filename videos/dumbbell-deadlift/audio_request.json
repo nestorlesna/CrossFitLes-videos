@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Dumbbell Deadlift",
+      "text": "Peso muerto con mancuernas. Trabaja isquios y glúteos con la espalda siempre neutra."
+    },
+    {
+      "id": "02",
+      "text": "Pies al ancho de cadera y una mancuerna a cada lado, apoyadas en el piso. Pecho arriba y espalda neutra."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Llevá la cadera atrás, bajá con la espalda neutra y agarrá las mancuernas a los costados."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Empujá el piso con los pies y subí. El movimiento lo inicia la cadera, no los brazos."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Terminá parado, con las caderas extendidas y los glúteos apretados. Sin inclinarte hacia atrás."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Cuidá la espalda: si se redondea, bajá el peso. Pecho arriba y mirada al frente."
+    },
+    {
+      "id": "07",
+      "text": "Claves: pies al ancho de cadera, espalda neutra, la cadera inicia el movimiento y las mancuernas van pegadas al cuerpo."
+    },
+    {
+      "id": "08",
+      "text": "Seis repeticiones con diez kilos. Bajá con control, tocá el piso con las mancuernas y subí empujando con la cadera."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

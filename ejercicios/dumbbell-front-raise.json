@@ -1,0 +1,381 @@
+{
+  "slug": "dumbbell-front-raise",
+  "name": "Dumbbell Front Raise",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Hombros",
+    "Trapecio",
+    "Core"
+  ],
+  "descripcion": "De pie con una mancuerna en cada mano, brazos al costado. Elevar ambos brazos rectos hacia adelante hasta ~90° (altura de hombros). Bajar controlado.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1501,
+    "scale": 0.9
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "hand": "far",
+      "side": true,
+      "r": 40
+    },
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "side": true,
+      "r": 40
+    }
+  ],
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 3,
+      "fa": 0,
+      "ua2": 3,
+      "fa2": 0
+    },
+    "MID": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 46,
+      "fa": 0,
+      "ua2": 46,
+      "fa2": 0
+    },
+    "RAISE": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 88,
+      "fa": 0,
+      "ua2": 88,
+      "fa2": 0
+    },
+    "SWING_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": -18,
+      "hd": -6,
+      "g": 0,
+      "ua": 122,
+      "fa": 0,
+      "ua2": 122,
+      "fa2": 0
+    },
+    "ELBOW_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 62,
+      "fa": 74,
+      "ua2": 62,
+      "fa2": 74
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "DUMBBELL",
+        "FRONT RAISE"
+      ],
+      "vo": "Dumbbell Front Raise: elevación frontal con mancuernas. Fortalece el hombro.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "STAND",
+              0.8
+            ],
+            [
+              "RAISE",
+              0.9
+            ],
+            [
+              "RAISE",
+              0.4
+            ],
+            [
+              "STAND",
+              0.9
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.3,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE",
+        "CON MANCUERNAS"
+      ],
+      "sub": "Brazos al costado",
+      "vo": "De pie con una mancuerna en cada mano, brazos estirados al costado y el abdomen firme.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "ABDOMEN FIRME",
+          "anchor": "middle",
+          "at": 1.2,
+          "out": 4.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 1 / 4",
+      "head": [
+        "ELEVÁ",
+        "AL FRENTE"
+      ],
+      "sub": "Brazos rectos",
+      "vo": "Paso uno. Elevá las dos mancuernas hacia adelante con los brazos rectos, sin balancear el cuerpo.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 0.8
+        },
+        {
+          "to": "RAISE",
+          "at": 1.5,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "BRAZOS RECTOS",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ],
+      "numeral": "1"
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 2 / 4",
+      "head": [
+        "HASTA LOS",
+        "HOMBROS"
+      ],
+      "sub": "Altura de hombros (90°)",
+      "vo": "Paso dos. Subí hasta la altura de los hombros, a unos noventa grados, y hacé una pausa corta arriba.",
+      "moves": [
+        {
+          "cut": "RAISE",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "ALTURA DE HOMBROS",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ],
+      "numeral": "2"
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 3 / 4",
+      "head": [
+        "BAJÁ",
+        "CONTROLADO"
+      ],
+      "sub": "Sin soltarlas",
+      "vo": "Paso tres. Bajá despacio, con control, hasta los muslos. Sin soltar las mancuernas.",
+      "moves": [
+        {
+          "cut": "RAISE",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 1.0
+        },
+        {
+          "to": "STAND",
+          "at": 1.7,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "BAJÁ DESPACIO",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ],
+      "numeral": "3"
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 4 / 4",
+      "head": [
+        "TORSO",
+        "QUIETO"
+      ],
+      "sub": "No te balancees",
+      "vo": "Paso cuatro. Mantené el torso quieto: si te inclinás hacia atrás para subir, bajá el peso.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "SWING_BAD",
+          "at": 0.8,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            680,
+            1000
+          ],
+          "text": "ASÍ NO: BALANCEO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ],
+      "numeral": "4"
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Brazos rectos hasta los hombros",
+        "Torso quieto, abdomen firme",
+        "Subí y bajá con control",
+        "Sin balancear ni impulsarte"
+      ],
+      "vo": "Claves: brazos rectos hasta la altura de los hombros, torso quieto con el abdomen firme, y subida y bajada con control.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Con 12,5 kg",
+      "vo": "Diez repeticiones con doce kilos y medio. Subí hasta los hombros, pausa corta y bajá despacio. Podés alternar los brazos.",
+      "chips": [
+        {
+          "label": "1 · ELEVÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PAUSA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "RAISE",
+              0.9
+            ],
+            [
+              "STAND",
+              1.0
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "RAISE",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 170
+  },
+  "youtube": {
+    "titulo": "Dumbbell Front Raise 🔥 Hombros fuertes con mancuernas | CrossFit",
+    "tags": [
+      "dumbbell front raise",
+      "elevación frontal con mancuernas",
+      "elevaciones frontales",
+      "deltoides anterior",
+      "hombros",
+      "mancuernas",
+      "accesorio",
+      "fuerza",
+      "crossfit",
+      "trapecio"
+    ],
+    "descripcion": "🔥 DUMBBELL FRONT RAISE — Elevación frontal con mancuernas para el deltoides anterior\n\n¿Querés hombros más fuertes para empujar y levantar por arriba de la cabeza? La elevación frontal es simple y efectiva. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ De pie con una mancuerna en cada mano, brazos estirados al costado.\n2️⃣ Elevá las dos mancuernas hacia adelante con los brazos rectos.\n3️⃣ Subí hasta la altura de los hombros, unos 90°, con una pausa corta.\n4️⃣ Bajá despacio y con control hasta los muslos.\n5️⃣ Mantené el torso quieto: si te balanceás, bajá el peso.\n\n✅ CLAVES DE TÉCNICA\n• Focaliza el deltoides anterior\n• Core activo, torso quieto\n• Brazos rectos hasta 90°\n• Podés alternar un brazo y el otro\n\n🎯 QUÉ TRABAJA\nDeltoides anterior · Trapecio (superior)\n\n⏱️ CUÁNTO\n10 repeticiones con 12,5 kg. Va como accesorio de fuerza o al final de una sesión de hombros.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #FrontRaise #Hombros #Mancuernas #Entrenamiento"
+  }
+}

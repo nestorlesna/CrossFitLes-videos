@@ -1,0 +1,411 @@
+{
+  "slug": "dumbbell-reverse-lunge",
+  "name": "Dumbbell Reverse Lunge",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Piernas",
+    "Glúteos",
+    "Core"
+  ],
+  "descripcion": "Con una mancuerna en cada mano a los costados, dar un paso largo hacia atrás y bajar hasta que la rodilla de atrás casi toque el piso, luego empujar con el pie de adelante para volver a la posición inicial.",
+  "revisado": false,
+  "notas": "Pierna de adelante = cercana con rx fijo (como barbell-front-rack-reverse-lunge); poses de brazos libres colgando.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 440,
+    "y": 1501,
+    "scale": 0.88
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "hand": "far",
+      "side": true,
+      "r": 44
+    },
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "side": true,
+      "r": 44
+    }
+  ],
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "rx": 290,
+      "ry": 0,
+      "s": 0,
+      "t": 0,
+      "s2": 0,
+      "t2": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": 2,
+      "fa2": 0
+    },
+    "STEP": {
+      "rx": 290,
+      "ry": 0,
+      "s": 1,
+      "t": -45,
+      "s2": 72.4,
+      "t2": -21.6,
+      "b": 2,
+      "hd": 0,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": 2,
+      "fa2": 0
+    },
+    "LUNGE": {
+      "rx": 290,
+      "ry": 0,
+      "s": 1.95,
+      "t": -82.31,
+      "s2": 89.94,
+      "t2": 10.81,
+      "b": 2,
+      "hd": 0,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": 2,
+      "fa2": 0
+    },
+    "LEAN_BAD": {
+      "rx": 290,
+      "ry": 0,
+      "s": 1.95,
+      "t": -82.31,
+      "s2": 89.94,
+      "t2": 10.81,
+      "b": 28,
+      "hd": 20,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": 2,
+      "fa2": 0
+    },
+    "SHORT_BAD": {
+      "rx": 290,
+      "ry": 0,
+      "s": -14,
+      "t": -52,
+      "s2": 60,
+      "t2": -6,
+      "b": 2,
+      "hd": 0,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": 2,
+      "fa2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "DUMBBELL",
+        "REVERSE LUNGE"
+      ],
+      "vo": "Dumbbell Reverse Lunge: zancada hacia atrás con mancuernas. Trabaja piernas y glúteos.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "STAND",
+              0.8
+            ],
+            [
+              "STEP",
+              0.6
+            ],
+            [
+              "LUNGE",
+              0.9
+            ],
+            [
+              "STAND",
+              0.9
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.3,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "MANCUERNAS",
+        "A LOS COSTADOS"
+      ],
+      "sub": "Torso erguido",
+      "vo": "De pie con una mancuerna en cada mano, brazos a los costados, pecho arriba y abdomen firme.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "PECHO ARRIBA",
+          "anchor": "middle",
+          "at": 1.2,
+          "out": 4.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 1 / 4",
+      "head": [
+        "PASO ATRÁS",
+        "LARGO"
+      ],
+      "sub": "Apoyá la punta del pie",
+      "vo": "Paso uno. Da un paso largo hacia atrás y apoyá la punta del pie. La pierna de adelante queda firme.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "STEP",
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "to": "LUNGE",
+          "at": 1.6,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "PASO LARGO ATRÁS",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ],
+      "numeral": "1"
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 2 / 4",
+      "head": [
+        "BAJÁ",
+        "DERECHO"
+      ],
+      "sub": "Rodilla trasera casi al piso",
+      "vo": "Paso dos. Bajá derecho hasta que la rodilla de atrás casi toque el piso. La de adelante queda sobre el tobillo.",
+      "moves": [
+        {
+          "cut": "LUNGE",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "LUNGE.K",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "TORSO DERECHO",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ],
+      "numeral": "2"
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 3 / 4",
+      "head": [
+        "EMPUJÁ",
+        "Y VOLVÉ"
+      ],
+      "sub": "Con el talón de adelante",
+      "vo": "Paso tres. Empujá con el talón de adelante y volvé a la posición inicial.",
+      "moves": [
+        {
+          "cut": "LUNGE",
+          "at": 0
+        },
+        {
+          "to": "STEP",
+          "at": 0.6,
+          "dur": 0.6
+        },
+        {
+          "to": "STAND",
+          "at": 1.3,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "EMPUJÁ CON EL TALÓN",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ],
+      "numeral": "3"
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 4 / 4",
+      "head": [
+        "TORSO",
+        "ERGUIDO"
+      ],
+      "sub": "No te dejes caer",
+      "vo": "Paso cuatro. Mantené el torso erguido: si te inclinás, perdés estabilidad y cargás las rodillas.",
+      "moves": [
+        {
+          "cut": "LUNGE",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 0.8,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "ASÍ NO: TE INCLINÁS",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ],
+      "numeral": "4"
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Paso largo hacia atrás",
+        "Torso erguido, abdomen firme",
+        "Rodilla de adelante sobre el tobillo",
+        "Empujá con el talón de adelante"
+      ],
+      "vo": "Claves: paso largo hacia atrás, torso erguido, rodilla de adelante sobre el tobillo y empuje con el talón de adelante.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "12 REPS"
+      ],
+      "sub": "En 1 minuto, 10 kg",
+      "vo": "Doce repeticiones en un minuto con diez kilos. Alterná las piernas, bajá con control y mantené el torso erguido.",
+      "chips": [
+        {
+          "label": "1 · PASO ATRÁS",
+          "at": 0.6
+        },
+        {
+          "label": "2 · BAJÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "LUNGE",
+              0.9
+            ],
+            [
+              "STAND",
+              0.8
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "LUNGE",
+    "grip": 0,
+    "zoom": 1.05,
+    "dy": 170
+  },
+  "youtube": {
+    "titulo": "Dumbbell Reverse Lunge 🔥 Zancada hacia atrás con mancuernas | CrossFit",
+    "tags": [
+      "dumbbell reverse lunge",
+      "zancada hacia atrás",
+      "zancada con mancuernas",
+      "reverse lunge",
+      "estocada",
+      "piernas",
+      "glúteos",
+      "unilateral",
+      "wod",
+      "crossfit"
+    ],
+    "descripcion": "🔥 DUMBBELL REVERSE LUNGE — Zancada hacia atrás con mancuernas: piernas y glúteos sin castigar las rodillas\n\n¿Las zancadas hacia adelante te molestan las rodillas? Dar el paso hacia atrás es más amable y igual de efectivo. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ De pie con una mancuerna en cada mano, brazos estirados a los costados.\n2️⃣ Da un paso largo hacia atrás y apoyá primero la punta del pie.\n3️⃣ Bajá derecho hasta que la rodilla de atrás casi toque el piso.\n4️⃣ Empujá con el talón de adelante y volvé a la posición inicial.\n5️⃣ Mantené el torso erguido y alterná las piernas.\n\n✅ CLAVES DE TÉCNICA\n• Torso erguido y core activo\n• Rodilla de adelante sobre el tobillo, sin colapsar hacia adentro\n• Aterrizá con la punta del pie de atrás\n• Empujá con el talón de adelante\n\n🎯 QUÉ TRABAJA\nRecto femoral · Bíceps femoral · Glúteo mayor · Glúteo medio · Vasto lateral · Vasto medial\n\n⏱️ CUÁNTO\n12 repeticiones en 1 minuto con 10 kg. Va como fuerza o dentro de un WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste zancadas con carga, empezá sin peso y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #ReverseLunge #Zancada #Piernas #Entrenamiento"
+  }
+}

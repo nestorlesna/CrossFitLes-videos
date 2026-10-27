@@ -65,7 +65,7 @@ musculos_principales, musculos_secundarios, como_se_usa, que_no_hacer, tips_prof
 | `node plantilla/make-exercise.mjs <slug> --info` | muestra la fila del CSV de ese ejercicio |
 | `npx hyperframes preview` (dentro de `videos/<slug>`) | revisar en el Studio |
 
-Flags: `--force-tts`, `--no-check`, `--no-snapshot`, `--prefijo=OC` (con `--render`: el video sale como `salida/OC_<slug>.mp4`; el nombre queda en `.pipeline.json` → `archivo` y el CHECKLIST lo encuentra).
+Flags: `--force-tts`, `--no-check`, `--no-snapshot`, `--prefijo=OC` o `--prefijo=OC_2` (con `--render`: el video sale como `salida/OC_<slug>.mp4` / `salida/OC_2_<slug>.mp4`; el `_` final lo agrega el script; el nombre queda en `.pipeline.json` → `archivo` y el CHECKLIST lo encuentra).
 
 Para generar varios videos con otra herramienta o modelo: seguir **`GENERAR_VIDEOS.md`** (raíz del proyecto).
 

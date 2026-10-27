@@ -1,0 +1,386 @@
+{
+  "slug": "barbell-shrug",
+  "name": "Barbell Shrug",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Trapecio",
+    "Hombros",
+    "Antebrazos"
+  ],
+  "descripcion": "De pie sosteniendo la barra al frente con brazos extendidos, encoger los hombros llevándolos hacia las orejas para trabajar el trapecio, bajar controlado.",
+  "revisado": false,
+  "notas": "Los hombros no suben en el rig: el encogimiento se muestra acortando el brazo libre (al 0.82) + flecha y label.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1501,
+    "scale": 0.9
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "r": 90
+    }
+  ],
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 3,
+      "fa": 0,
+      "ua2": 3,
+      "fa2": 0
+    },
+    "SHRUG": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": -4,
+      "g": 0,
+      "ua": 3,
+      "fa": 0,
+      "ua2": 3,
+      "fa2": 0,
+      "al": 0.82
+    },
+    "ELBOW_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 8,
+      "fa": 62,
+      "ua2": 8,
+      "fa2": 62
+    },
+    "KNEES_BAD": {
+      "hip": [
+        -30,
+        -425
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 8,
+      "hd": 0,
+      "g": 0,
+      "ua": 3,
+      "fa": 0,
+      "ua2": 3,
+      "fa2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "BARBELL",
+        "SHRUG"
+      ],
+      "vo": "Barbell Shrug: encogimiento de hombros con barra. Fortalece el trapecio y te ayuda a sostener cargas pesadas.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "STAND",
+              0.9
+            ],
+            [
+              "SHRUG",
+              0.8
+            ],
+            [
+              "SHRUG",
+              0.5
+            ],
+            [
+              "STAND",
+              0.9
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.3,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE",
+        "CON LA BARRA"
+      ],
+      "sub": "Brazos estirados al frente",
+      "vo": "Parate con la barra colgando al frente, brazos extendidos, pies al ancho de cadera y la mirada al frente.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "BRAZOS ESTIRADOS",
+          "anchor": "middle",
+          "at": 1.2,
+          "out": 4.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 1 / 4",
+      "head": [
+        "ENCOGÉ",
+        "LOS HOMBROS"
+      ],
+      "sub": "Hacia las orejas",
+      "vo": "Paso uno. Subí los hombros directo hacia las orejas, como si quisieras taparte los oídos.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "SHRUG",
+          "at": 0.8,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            640,
+            1010
+          ],
+          "to": [
+            640,
+            880
+          ],
+          "bend": [
+            0,
+            0
+          ],
+          "at": 0.8,
+          "dur": 0.7
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "HACIA LAS OREJAS",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ],
+      "numeral": "1"
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 2 / 4",
+      "head": [
+        "PAUSA",
+        "ARRIBA"
+      ],
+      "sub": "Un segundo bien alto",
+      "vo": "Paso dos. Hacé una pausa breve arriba, apretando el trapecio. Los codos siguen estirados.",
+      "moves": [
+        {
+          "cut": "SHRUG",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "SHRUG.S",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 64,
+          "at": 0.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "PAUSA 1 SEG",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ],
+      "numeral": "2"
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 3 / 4",
+      "head": [
+        "BAJÁ",
+        "CONTROLADO"
+      ],
+      "sub": "Sin rebotar",
+      "vo": "Paso tres. Bajá los hombros despacio, con control, hasta volver a la posición inicial.",
+      "moves": [
+        {
+          "cut": "SHRUG",
+          "at": 0
+        },
+        {
+          "to": "STAND",
+          "at": 0.7,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "BAJÁ DESPACIO",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ],
+      "numeral": "3"
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 4 / 4",
+      "head": [
+        "CODOS",
+        "ESTIRADOS"
+      ],
+      "sub": "No es un curl",
+      "vo": "Paso cuatro. Los codos no se flexionan: si doblás los brazos, trabajás bíceps y no trapecio.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "ELBOW_BAD",
+          "at": 0.8,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "ASÍ NO: CODOS",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ],
+      "numeral": "4"
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Se mueven solo los hombros",
+        "Codos estirados, sin curl",
+        "Pausa breve arriba",
+        "Bajá controlado, sin rebotar"
+      ],
+      "vo": "Claves: se mueven solo los hombros, codos estirados, pausa breve arriba y bajada controlada sin rebotar.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "12 REPS"
+      ],
+      "sub": "Con 50 kg",
+      "vo": "Doce repeticiones con cincuenta kilos. Subí, pausa breve y bajá con control. Si no sostenés la barra, bajá la carga.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PAUSA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "SHRUG",
+              0.8
+            ],
+            [
+              "STAND",
+              0.9
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "SHRUG",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 170
+  },
+  "youtube": {
+    "titulo": "Barbell Shrug 🔥 Trapecio fuerte con barra paso a paso | CrossFit",
+    "tags": [
+      "barbell shrug",
+      "encogimiento de hombros con barra",
+      "trapecio",
+      "shrug",
+      "encogimientos",
+      "hombros",
+      "fuerza",
+      "accesorio",
+      "crossfit",
+      "barra olímpica"
+    ],
+    "descripcion": "🔥 BARBELL SHRUG — Encogimiento de hombros con barra para un trapecio fuerte\n\n¿Te cuesta sostener cargas pesadas o sentís el cuello flojo? El shrug con barra fortalece el trapecio de forma simple. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ De pie con la barra colgando al frente, brazos extendidos y pies al ancho de cadera.\n2️⃣ Subí los hombros directo hacia las orejas.\n3️⃣ Pausa breve arriba, apretando el trapecio.\n4️⃣ Bajá despacio y con control, sin rebotar.\n5️⃣ Mantené los codos estirados todo el tiempo: no es un curl.\n\n✅ CLAVES DE TÉCNICA\n• Se mueven solo los hombros\n• Codos estirados, sin flexionar\n• No rotes los hombros\n• Pausa breve arriba y bajada controlada\n\n🎯 QUÉ TRABAJA\nTrapecio · Antebrazos · Deltoides\n\n⏱️ CUÁNTO\n12 repeticiones con 50 kg. Va como accesorio de fuerza, después de los levantamientos pesados.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste shrugs con barra, empezá con poco peso y con un coach al lado: la carga es alta para el cuello.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Shrug #BarbellShrug #Trapecio #Entrenamiento"
+  }
+}

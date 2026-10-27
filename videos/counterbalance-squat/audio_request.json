@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Counterbalance Squat",
+      "text": "Sentadilla con contrapeso al frente. Te ayuda a bajar profundo con el torso vertical."
+    },
+    {
+      "id": "02",
+      "text": "Pies al ancho de hombros y un disco o una mancuerna liviana al frente, con los brazos extendidos a la altura del pecho."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá la cadera hacia atrás y abajo, con los brazos extendidos al frente como contrapeso."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. El contrapeso te deja bajar profundo manteniendo el torso vertical y el pecho bien arriba."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Los talones quedan pegados al piso y las rodillas siguen la línea de los pies."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Subí empujando el piso con todo el pie, sin dejar caer los brazos ni el torso hacia adelante."
+    },
+    {
+      "id": "07",
+      "text": "Claves: pies al ancho de hombros, brazos estirados como contrapeso, torso vertical con el pecho arriba y talones apoyados."
+    },
+    {
+      "id": "08",
+      "text": "Treinta segundos de sentadillas con contrapeso. Bajá profundo, subí con control y mantené los brazos estirados."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

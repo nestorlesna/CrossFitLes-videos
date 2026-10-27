@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Dumbbell Front Raise",
+      "text": "Elevación frontal con mancuernas. Fortalece el hombro."
+    },
+    {
+      "id": "02",
+      "text": "De pie con una mancuerna en cada mano, brazos estirados al costado y el abdomen firme."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Elevá las dos mancuernas hacia adelante con los brazos rectos, sin balancear el cuerpo."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Subí hasta la altura de los hombros, a unos noventa grados, y hacé una pausa corta arriba."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Bajá despacio, con control, hasta los muslos. Sin soltar las mancuernas."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Mantené el torso quieto: si te inclinás hacia atrás para subir, bajá el peso."
+    },
+    {
+      "id": "07",
+      "text": "Claves: brazos rectos hasta la altura de los hombros, torso quieto con el abdomen firme, y subida y bajada con control."
+    },
+    {
+      "id": "08",
+      "text": "Diez repeticiones con doce kilos y medio. Subí hasta los hombros, pausa corta y bajá despacio. Podés alternar los brazos."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

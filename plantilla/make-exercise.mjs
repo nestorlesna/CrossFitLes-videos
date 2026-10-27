@@ -24,7 +24,7 @@ const args = process.argv.slice(2);
 const has = (f) => args.includes(f);
 const slug = args.find((a) => !a.startsWith("--"));
 // Prefijo opcional del .mp4 (lo pide el usuario según la herramienta que genera: OC_ = opencode, etc.).
-const PREFIJO = (args.find((a) => a.startsWith("--prefijo=")) || "").slice(10).replace(/[^A-Za-z0-9-]/g, "");
+const PREFIJO = (args.find((a) => a.startsWith("--prefijo=")) || "").slice(10).replace(/[^A-Za-z0-9_-]/g, "").replace(/_+$/, ""); // guion bajo interno permitido (OC_2); el final lo agrega mp4Name
 const mp4Name = (s) => `${PREFIJO ? `${PREFIJO}_` : ""}${s}.mp4`;
 
 const sh = (cmd, cwd, inherit = true) => {

@@ -1,0 +1,418 @@
+{
+  "slug": "counterbalance-squat",
+  "name": "Counterbalance Squat",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Piernas",
+    "Glúteos",
+    "Core"
+  ],
+  "descripcion": "Sentadilla con los pies al ancho de hombros sosteniendo un contrapeso (disco, mancuerna o kettlebell liviana) frente al pecho con los brazos extendidos. Al descender, los brazos se mantienen extendidos hacia adelante sirviendo como contrapeso para facilitar llegar a mayor profundidad con el torso más vertical.",
+  "revisado": false,
+  "notas": "Contrapeso = disco chico (barbell r 40) en las manos, brazos a 90°.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1501,
+    "scale": 0.9
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "r": 40
+    }
+  ],
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "HOLD": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 88,
+      "fa": 0
+    },
+    "HALF": {
+      "hip": [
+        -80,
+        -380
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 14,
+      "hd": 8,
+      "g": 0,
+      "ua": 88,
+      "fa": 0
+    },
+    "BOTTOM": {
+      "hip": [
+        -140,
+        -205
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 24,
+      "hd": 12,
+      "g": 0,
+      "ua": 92,
+      "fa": 0
+    },
+    "HEELS_BAD": {
+      "hip": [
+        -60,
+        -240
+      ],
+      "ankle": [
+        30,
+        -30
+      ],
+      "ft": -30,
+      "ft2": -30,
+      "b": 20,
+      "hd": 12,
+      "g": 0,
+      "ua": 92,
+      "fa": 0
+    },
+    "FALL_BAD": {
+      "hip": [
+        -170,
+        -215
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 66,
+      "hd": 50,
+      "g": 0,
+      "ua": 30,
+      "fa": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "COUNTERBALANCE",
+        "SQUAT"
+      ],
+      "vo": "Counterbalance Squat: sentadilla con contrapeso al frente. Te ayuda a bajar profundo con el torso vertical.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "HOLD",
+              0.8
+            ],
+            [
+              "HALF",
+              0.6
+            ],
+            [
+              "BOTTOM",
+              0.9
+            ],
+            [
+              "HALF",
+              0.7
+            ],
+            [
+              "HOLD",
+              0.8
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.3,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PIES AL ANCHO",
+        "CONTRAPESO"
+      ],
+      "sub": "Brazos estirados al frente",
+      "vo": "Pies al ancho de hombros y un disco o una mancuerna liviana al frente, con los brazos extendidos a la altura del pecho.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "HOLD",
+          "at": 0.8,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "BRAZOS ESTIRADOS",
+          "anchor": "middle",
+          "at": 1.6,
+          "out": 4.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 1 / 4",
+      "head": [
+        "BAJÁ",
+        "LA CADERA"
+      ],
+      "sub": "Brazos siempre estirados",
+      "vo": "Paso uno. Bajá la cadera hacia atrás y abajo, con los brazos extendidos al frente como contrapeso.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "to": "BOTTOM",
+          "at": 1.7,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "CONTRAPESO AL FRENTE",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ],
+      "numeral": "1"
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 2 / 4",
+      "head": [
+        "TORSO",
+        "VERTICAL"
+      ],
+      "sub": "Pecho arriba",
+      "vo": "Paso dos. El contrapeso te deja bajar profundo manteniendo el torso vertical y el pecho bien arriba.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "PECHO ARRIBA",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ],
+      "numeral": "2"
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 3 / 4",
+      "head": [
+        "TALONES",
+        "APOYADOS"
+      ],
+      "sub": "Rodillas siguen los pies",
+      "vo": "Paso tres. Los talones quedan pegados al piso y las rodillas siguen la línea de los pies.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "HEELS_BAD",
+          "at": 0.8,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "ASÍ NO: TALONES",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ],
+      "numeral": "3"
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 4 / 4",
+      "head": [
+        "SUBÍ",
+        "EMPUJANDO"
+      ],
+      "sub": "Sin caer hacia adelante",
+      "vo": "Paso cuatro. Subí empujando el piso con todo el pie, sin dejar caer los brazos ni el torso hacia adelante.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "FALL_BAD",
+          "at": 0.4,
+          "dur": 0.5
+        },
+        {
+          "to": "BOTTOM",
+          "at": 1.9,
+          "dur": 0.5
+        },
+        {
+          "to": "HALF",
+          "at": 2.7,
+          "dur": 0.7
+        },
+        {
+          "to": "HOLD",
+          "at": 3.5,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "ASÍ NO: TE CAÉS",
+          "anchor": "middle",
+          "at": 0.6,
+          "out": 1.8
+        }
+      ],
+      "numeral": "4"
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Pies al ancho de hombros",
+        "Brazos estirados al frente",
+        "Torso vertical, pecho arriba",
+        "Talones apoyados"
+      ],
+      "vo": "Claves: pies al ancho de hombros, brazos estirados como contrapeso, torso vertical con el pecho arriba y talones apoyados.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEG"
+      ],
+      "sub": "Bajá y subí sin pausa",
+      "vo": "Treinta segundos de sentadillas con contrapeso. Bajá profundo, subí con control y mantené los brazos estirados.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PECHO ARRIBA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SUBÍ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              1.0
+            ],
+            [
+              "HOLD",
+              1.0
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "BOTTOM",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Counterbalance Squat 🔥 Sentadilla profunda con contrapeso | CrossFit",
+    "tags": [
+      "counterbalance squat",
+      "sentadilla con contrapeso",
+      "sentadilla profunda",
+      "squat",
+      "movilidad de tobillo",
+      "entrada en calor",
+      "activación",
+      "piernas",
+      "glúteos",
+      "crossfit"
+    ],
+    "descripcion": "🔥 COUNTERBALANCE SQUAT — La sentadilla con contrapeso para aprender a bajar profundo\n\n¿Te cuesta bajar en la sentadilla sin que el torso caiga hacia adelante? Con un contrapeso al frente todo se acomoda. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Pies al ancho de hombros y un disco o mancuerna liviana al frente con los brazos extendidos.\n2️⃣ Bajá la cadera hacia atrás y abajo, con los brazos estirados como contrapeso.\n3️⃣ Mantené el torso vertical y el pecho arriba.\n4️⃣ Talones pegados al piso y rodillas siguiendo la línea de los pies.\n5️⃣ Subí empujando el piso con todo el pie, sin dejar caer el torso.\n\n✅ CLAVES DE TÉCNICA\n• Brazos estirados al frente todo el tiempo\n• El contrapeso permite bajar más con el torso vertical\n• Talones apoyados\n• Ideal para movilidad de tobillo, cadera y torácica\n\n🎯 QUÉ TRABAJA\nRecto femoral · Bíceps femoral · Glúteo mayor · Recto abdominal\n\n⏱️ CUÁNTO\n30 segundos. Ideal como entrada en calor o para enseñar la sentadilla profunda.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #CounterbalanceSquat #Sentadilla #Movilidad #Entrenamiento"
+  }
+}

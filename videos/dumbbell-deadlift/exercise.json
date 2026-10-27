@@ -1,0 +1,430 @@
+{
+  "slug": "dumbbell-deadlift",
+  "name": "Dumbbell Deadlift",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Isquios",
+    "Glúteos",
+    "Core"
+  ],
+  "descripcion": "Peso muerto con mancuernas. Desde el suelo con mancuernas al costado del cuerpo, flexionar caderas y rodillas para descender y luego extender para subir manteniendo la espalda neutra.",
+  "revisado": false,
+  "notas": "Dos mancuernas de costado con agarre IK (g 1 / g2 1); la SETUP queda con las mancuernas casi en el piso.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1501,
+    "scale": 0.9
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "hand": "far",
+      "side": true,
+      "r": 44
+    },
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "side": true,
+      "r": 44
+    }
+  ],
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "g2": 0,
+      "ua": 3,
+      "fa": 0,
+      "ua2": 3,
+      "fa2": 0
+    },
+    "SETUP": {
+      "hip": [
+        -185,
+        -290
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 66,
+      "hd": 46,
+      "g": 1,
+      "g2": 1,
+      "ed": 1,
+      "hx": 8,
+      "hy": -4,
+      "hx2": -14,
+      "hy2": -4
+    },
+    "KNEE": {
+      "s": 5,
+      "t": -55,
+      "b": 52,
+      "hd": 40,
+      "g": 1,
+      "g2": 1,
+      "ed": 1,
+      "hx": 8,
+      "hy": -215,
+      "hx2": -14,
+      "hy2": -215
+    },
+    "THIGH": {
+      "s": 0,
+      "t": -20,
+      "b": 30,
+      "hd": 22,
+      "g": 1,
+      "g2": 1,
+      "ed": 1,
+      "hx": 8,
+      "hy": -380,
+      "hx2": -14,
+      "hy2": -380
+    },
+    "LOCK": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "g2": 1,
+      "ed": 1,
+      "hx": 8,
+      "hy": -424,
+      "hx2": -14,
+      "hy2": -424
+    },
+    "ROUND_BAD": {
+      "s": 4,
+      "t": -12,
+      "b": 80,
+      "hd": 70,
+      "cv": 30,
+      "g": 1,
+      "g2": 1,
+      "ed": 1,
+      "hx": 8,
+      "hy": -120,
+      "hx2": -14,
+      "hy2": -120
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "DUMBBELL",
+        "DEADLIFT"
+      ],
+      "vo": "Dumbbell Deadlift: peso muerto con mancuernas. Trabaja isquios y glúteos con la espalda siempre neutra.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "STAND",
+              0.8
+            ],
+            [
+              "KNEE",
+              0.8
+            ],
+            [
+              "SETUP",
+              0.9
+            ],
+            [
+              "KNEE",
+              0.7
+            ],
+            [
+              "LOCK",
+              0.9
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.3,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "MANCUERNAS",
+        "A LOS COSTADOS"
+      ],
+      "sub": "Pies al ancho de cadera",
+      "vo": "Pies al ancho de cadera y una mancuerna a cada lado, apoyadas en el piso. Pecho arriba y espalda neutra.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "ESPALDA NEUTRA",
+          "anchor": "middle",
+          "at": 1.2,
+          "out": 4.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 1 / 4",
+      "head": [
+        "CADERA",
+        "ATRÁS"
+      ],
+      "sub": "Agarrá las mancuernas",
+      "vo": "Paso uno. Llevá la cadera atrás, bajá con la espalda neutra y agarrá las mancuernas a los costados.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "KNEE",
+          "at": 0.6,
+          "dur": 1.0
+        },
+        {
+          "to": "SETUP",
+          "at": 1.8,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "CADERA ATRÁS",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ],
+      "numeral": "1"
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 2 / 4",
+      "head": [
+        "EMPUJÁ",
+        "EL PISO"
+      ],
+      "sub": "Mancuernas pegadas al cuerpo",
+      "vo": "Paso dos. Empujá el piso con los pies y subí. El movimiento lo inicia la cadera, no los brazos.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "KNEE",
+          "at": 0.6,
+          "dur": 1.0
+        },
+        {
+          "to": "THIGH",
+          "at": 1.7,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "LA CADERA MANDA",
+          "anchor": "middle",
+          "at": 0.9
+        }
+      ],
+      "numeral": "2"
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 3 / 4",
+      "head": [
+        "EXTENDÉ",
+        "ARRIBA"
+      ],
+      "sub": "Glúteos apretados",
+      "vo": "Paso tres. Terminá parado, con las caderas extendidas y los glúteos apretados. Sin inclinarte hacia atrás.",
+      "moves": [
+        {
+          "cut": "THIGH",
+          "at": 0
+        },
+        {
+          "to": "LOCK",
+          "at": 0.6,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "LOCK.H",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 70,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "APRETÁ GLÚTEOS",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ],
+      "numeral": "3"
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ESPALDA",
+        "NEUTRA"
+      ],
+      "sub": "Nunca redonda",
+      "vo": "Paso cuatro. Cuidá la espalda: si se redondea, bajá el peso. Pecho arriba y mirada al frente.",
+      "moves": [
+        {
+          "cut": "LOCK",
+          "at": 0
+        },
+        {
+          "to": "ROUND_BAD",
+          "at": 0.8,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "ESPALDA REDONDA NO",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ],
+      "numeral": "4"
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Pies al ancho de cadera",
+        "Espalda neutra, pecho arriba",
+        "La cadera inicia el movimiento",
+        "Mancuernas pegadas al cuerpo"
+      ],
+      "vo": "Claves: pies al ancho de cadera, espalda neutra, la cadera inicia el movimiento y las mancuernas van pegadas al cuerpo.",
+      "moves": [
+        {
+          "cut": "LOCK",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "6 REPS"
+      ],
+      "sub": "Con 10 kg",
+      "vo": "Seis repeticiones con diez kilos. Bajá con control, tocá el piso con las mancuernas y subí empujando con la cadera.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · EMPUJÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · EXTENDÉ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "to": "SETUP",
+          "at": 0.3,
+          "dur": 0.9
+        },
+        {
+          "to": "KNEE",
+          "at": 1.3,
+          "dur": 0.7
+        },
+        {
+          "to": "LOCK",
+          "at": 2.1,
+          "dur": 0.9
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "SETUP",
+    "grip": 1,
+    "zoom": 1.15,
+    "dy": 100
+  },
+  "youtube": {
+    "titulo": "Dumbbell Deadlift 🔥 Peso muerto con mancuernas paso a paso | CrossFit",
+    "tags": [
+      "dumbbell deadlift",
+      "peso muerto con mancuernas",
+      "peso muerto",
+      "deadlift",
+      "isquiotibiales",
+      "glúteos",
+      "mancuernas",
+      "fuerza",
+      "wod",
+      "crossfit"
+    ],
+    "descripcion": "🔥 DUMBBELL DEADLIFT — Peso muerto con mancuernas: isquios y glúteos con espalda neutra\n\n¿Querés aprender el peso muerto sin una barra pesada? Con mancuernas es más fácil acomodar la espalda y sentir los glúteos. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Pies al ancho de cadera y una mancuerna a cada lado, apoyadas en el piso.\n2️⃣ Llevá la cadera atrás y agarrá las mancuernas con la espalda neutra.\n3️⃣ Empujá el piso con los pies y subí. Inicia la cadera, no los brazos.\n4️⃣ Terminá parado, con las caderas extendidas y los glúteos apretados.\n5️⃣ Cuidá la espalda: si se redondea, bajá el peso.\n\n✅ CLAVES DE TÉCNICA\n• Espalda neutra en todo el recorrido\n• El movimiento lo inicia la cadera\n• Core activo\n• Mancuernas pegadas al cuerpo\n\n🎯 QUÉ TRABAJA\nBíceps femoral · Glúteo mayor · Recto abdominal · Recto femoral\n\n⏱️ CUÁNTO\n6 repeticiones con 10 kg. Va en bloques de fuerza o dentro de un WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste peso muerto, empezá con poco peso y con un coach al lado cuidando tu espalda.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #PesoMuerto #DumbbellDeadlift #Isquios #Fuerza"
+  }
+}
