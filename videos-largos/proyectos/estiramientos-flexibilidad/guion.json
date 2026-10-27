@@ -1,0 +1,1945 @@
+{
+  "slug": "estiramientos-flexibilidad",
+  "name": "Estiramientos para ganar flexibilidad",
+  "category": "RUTINA GUIADA · ESTIRAMIENTOS",
+  "tags": [
+    "Cadera",
+    "Piernas",
+    "Espalda"
+  ],
+  "fuente": {
+    "url": "https://www.youtube.com/watch?v=xNXcOU8lM2s",
+    "canal": "gymvirtual",
+    "titulo": "GANAR FLEXIBILIDAD | EJERCICIOS DE ESTIRAMIENTOS",
+    "duracion": 976,
+    "nota": "Misma secuencia de estiramientos, guion propio en rioplatense + consejos de postura. No se usa audio ni imagen del original."
+  },
+  "revisado": false,
+  "notas": "Primer video largo (piloto del formato 16:9).",
+  "voiceSpeed": 1.0,
+  "music": true,
+  "musicVolume": 0.12,
+  "rig": {
+    "x": 1400,
+    "y": 838,
+    "scale": 0.95
+  },
+  "initialPose": "CROSS",
+  "props": [],
+  "poses": {
+    "CROSS": {
+      "hip": [
+        -120,
+        0
+      ],
+      "ankle": [
+        70,
+        26
+      ],
+      "lr": 76,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 24,
+      "fa": 40,
+      "ft": 10
+    },
+    "ARMS_UP": {
+      "hip": [
+        -120,
+        0
+      ],
+      "ankle": [
+        70,
+        26
+      ],
+      "lr": 76,
+      "b": -2,
+      "hd": -6,
+      "g": 0,
+      "ua": 176,
+      "fa": 0,
+      "ft": 10
+    },
+    "CROSS_ARMS": {
+      "hip": [
+        -120,
+        0
+      ],
+      "ankle": [
+        70,
+        26
+      ],
+      "lr": 76,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 18,
+      "fa": 136,
+      "ft": 10
+    },
+    "CROSS_ARMS_A": {
+      "hip": [
+        -120,
+        0
+      ],
+      "ankle": [
+        70,
+        26
+      ],
+      "lr": 76,
+      "b": 7,
+      "hd": 4,
+      "g": 0,
+      "ua": 11,
+      "fa": 136,
+      "ft": 10
+    },
+    "CROSS_ARMS_B": {
+      "hip": [
+        -120,
+        0
+      ],
+      "ankle": [
+        70,
+        26
+      ],
+      "lr": 76,
+      "b": -5,
+      "hd": -3,
+      "g": 0,
+      "ua": 23,
+      "fa": 136,
+      "ft": 10
+    },
+    "TWIST_A": {
+      "hip": [
+        -120,
+        0
+      ],
+      "ankle": [
+        70,
+        26
+      ],
+      "lr": 76,
+      "b": 2,
+      "hd": -38,
+      "g": 0,
+      "ua": -38,
+      "fa": 12,
+      "ua2": 52,
+      "fa2": 30,
+      "ft": 10
+    },
+    "TWIST_B": {
+      "hip": [
+        -120,
+        0
+      ],
+      "ankle": [
+        70,
+        26
+      ],
+      "lr": 76,
+      "b": 2,
+      "hd": 34,
+      "g": 0,
+      "ua": 56,
+      "fa": 34,
+      "ua2": -34,
+      "fa2": 10,
+      "ft": 10
+    },
+    "BUTTERFLY": {
+      "hip": [
+        -120,
+        0
+      ],
+      "ankle": [
+        110,
+        20
+      ],
+      "lr": 40,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": 120,
+      "hy": 8,
+      "ft": 0
+    },
+    "BUTTERFLY_DOWN": {
+      "hip": [
+        -120,
+        0
+      ],
+      "ankle": [
+        110,
+        20
+      ],
+      "lr": 70,
+      "b": 2,
+      "hd": 0,
+      "g": 1,
+      "hx": 124,
+      "hy": 10,
+      "ft": 0
+    },
+    "BUTTERFLY_DEEP": {
+      "hip": [
+        -120,
+        0
+      ],
+      "ankle": [
+        110,
+        20
+      ],
+      "lr": 78,
+      "b": 6,
+      "hd": 2,
+      "g": 1,
+      "hx": 126,
+      "hy": 12,
+      "ft": 0
+    },
+    "SIDE_SIT": {
+      "hip": [
+        -230,
+        0
+      ],
+      "ankle": [
+        240,
+        0
+      ],
+      "ankle2": [
+        -40,
+        28
+      ],
+      "ft": -90,
+      "ft2": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": 20,
+      "hy": -6
+    },
+    "SIDE_REACH": {
+      "hip": [
+        -230,
+        0
+      ],
+      "ankle": [
+        240,
+        0
+      ],
+      "ankle2": [
+        -40,
+        28
+      ],
+      "ft": -90,
+      "ft2": 0,
+      "b": 20,
+      "hd": 14,
+      "g": 0,
+      "ua": 150,
+      "fa": 18,
+      "g2": 1,
+      "hx2": 150,
+      "hy2": -8
+    },
+    "SIDE_OTHER": {
+      "hip": [
+        -230,
+        0
+      ],
+      "ankle": [
+        240,
+        0
+      ],
+      "ankle2": [
+        -40,
+        28
+      ],
+      "ft": -90,
+      "ft2": 0,
+      "b": -10,
+      "hd": -6,
+      "g": 0,
+      "ua": 10,
+      "fa": 10,
+      "ua2": 172,
+      "fa2": 20,
+      "g2": 0
+    },
+    "SEAT_LONG": {
+      "hip": [
+        -230,
+        0
+      ],
+      "ankle": [
+        240,
+        0
+      ],
+      "ankle2": [
+        -40,
+        28
+      ],
+      "ft": -90,
+      "ft2": 0,
+      "b": 3,
+      "hd": 0,
+      "g": 0,
+      "ua": 174,
+      "fa": 0,
+      "ua2": 174,
+      "fa2": 0
+    },
+    "FOLD_LEG": {
+      "hip": [
+        -230,
+        0
+      ],
+      "ankle": [
+        240,
+        0
+      ],
+      "ankle2": [
+        -40,
+        28
+      ],
+      "ft": -90,
+      "ft2": 0,
+      "b": 60,
+      "hd": 76,
+      "g": 1,
+      "hx": 290,
+      "hy": -30
+    },
+    "FOLD_LEG_IN": {
+      "hip": [
+        -230,
+        0
+      ],
+      "ankle": [
+        240,
+        0
+      ],
+      "ankle2": [
+        -40,
+        28
+      ],
+      "ft": -90,
+      "ft2": 0,
+      "b": 68,
+      "hd": 84,
+      "g": 1,
+      "hx": 310,
+      "hy": -26
+    },
+    "FOLD_BAD": {
+      "hip": [
+        -230,
+        0
+      ],
+      "ankle": [
+        240,
+        0
+      ],
+      "ankle2": [
+        -40,
+        28
+      ],
+      "ft": -90,
+      "ft2": 0,
+      "b": 50,
+      "hd": 128,
+      "cv": 46,
+      "g": 1,
+      "hx": 220,
+      "hy": -30
+    },
+    "FIG4_SIT": {
+      "hip": [
+        -150,
+        0
+      ],
+      "s": -160,
+      "t": -110,
+      "ll": 0.6,
+      "s2": -33.3,
+      "t2": -143.1,
+      "ft": -20,
+      "ft2": 0,
+      "b": 2,
+      "hd": 0,
+      "g": 1,
+      "hx": -20,
+      "hy": -150
+    },
+    "FIG4_BACK": {
+      "hip": [
+        -150,
+        0
+      ],
+      "s": -160,
+      "t": -110,
+      "ll": 0.6,
+      "s2": -33.3,
+      "t2": -143.1,
+      "ft": -20,
+      "ft2": 0,
+      "b": -16,
+      "hd": -6,
+      "g": 1,
+      "hx": -380,
+      "hy": 15,
+      "ed": -1
+    },
+    "FIG4_LIFT": {
+      "hip": [
+        -150,
+        0
+      ],
+      "s": -160,
+      "t": -110,
+      "ll": 0.6,
+      "s2": -33.3,
+      "t2": -143.1,
+      "ft": -20,
+      "ft2": 0,
+      "b": -8,
+      "hd": -4,
+      "g": 1,
+      "hx": -350,
+      "hy": 15,
+      "ed": -1
+    },
+    "FIG4_PRESS": {
+      "hip": [
+        -150,
+        0
+      ],
+      "s": -160,
+      "t": -110,
+      "ll": 0.6,
+      "s2": -33.3,
+      "t2": -143.1,
+      "ft": -20,
+      "ft2": 0,
+      "b": -4,
+      "hd": -2,
+      "g": 1,
+      "hx": -40,
+      "hy": -70,
+      "ed": 1,
+      "g2": 1,
+      "hx2": -380,
+      "hy2": 15,
+      "ed2": -1
+    },
+    "FIG4_HUG": {
+      "hip": [
+        -150,
+        0
+      ],
+      "s": -160,
+      "t": -110,
+      "ll": 0.6,
+      "s2": -33.3,
+      "t2": -143.1,
+      "ft": -20,
+      "ft2": 0,
+      "b": 26,
+      "hd": 20,
+      "g": 1,
+      "hx": 40,
+      "hy": -200
+    },
+    "FIG4_HUG_IN": {
+      "hip": [
+        -150,
+        0
+      ],
+      "s": -160,
+      "t": -110,
+      "ll": 0.6,
+      "s2": -33.3,
+      "t2": -143.1,
+      "ft": -20,
+      "ft2": 0,
+      "b": 34,
+      "hd": 28,
+      "g": 1,
+      "hx": 50,
+      "hy": -190
+    },
+    "KNEEL_TALL": {
+      "hip": [
+        -200,
+        -250
+      ],
+      "s": 90,
+      "t": 0,
+      "s2": 90,
+      "t2": 0,
+      "ft": 172,
+      "ft2": 172,
+      "b": 0,
+      "hd": 0,
+      "ua": 6,
+      "fa": 6
+    },
+    "SIT_HEELS": {
+      "hip": [
+        -200,
+        -72
+      ],
+      "s": 90,
+      "t": -70,
+      "s2": 90,
+      "t2": -70,
+      "ft": 172,
+      "ft2": 172,
+      "b": 2,
+      "hd": 0,
+      "ua": 4,
+      "fa": 10
+    },
+    "CHILD": {
+      "hip": [
+        -200,
+        -110
+      ],
+      "s": 90,
+      "t": -60,
+      "s2": 90,
+      "t2": -60,
+      "ft": 172,
+      "ft2": 172,
+      "b": 86,
+      "hd": 104,
+      "g": 1,
+      "hx": 400,
+      "hy": 15
+    },
+    "PRONE": {
+      "hip": [
+        -30,
+        -8
+      ],
+      "s": 90,
+      "t": 90,
+      "s2": 90,
+      "t2": 90,
+      "ft": 175,
+      "ft2": 175,
+      "b": 92,
+      "hd": 72,
+      "g": 1,
+      "hx": 200,
+      "hy": 15,
+      "ed": -1
+    },
+    "COBRA": {
+      "hip": [
+        -30,
+        -8
+      ],
+      "s": 90,
+      "t": 90,
+      "s2": 90,
+      "t2": 90,
+      "ft": 175,
+      "ft2": 175,
+      "b": 46,
+      "hd": 22,
+      "g": 1,
+      "hx": 165,
+      "hy": 15,
+      "ed": -1
+    },
+    "QUAD": {
+      "hip": [
+        -40,
+        -231
+      ],
+      "s": 90,
+      "t": 0,
+      "s2": 90,
+      "t2": 0,
+      "ft": 172,
+      "ft2": 172,
+      "b": 72,
+      "hd": 100,
+      "g": 1,
+      "hx": 226,
+      "hy": 15
+    },
+    "LUNGE_LOW": {
+      "hip": [
+        -60,
+        -150
+      ],
+      "ankle": [
+        200,
+        0
+      ],
+      "s2": 90,
+      "t2": 48,
+      "ft2": 172,
+      "b": 62,
+      "hd": 80,
+      "g": 1,
+      "hx": 236,
+      "hy": 15
+    },
+    "LUNGE_UP": {
+      "hip": [
+        -60,
+        -200
+      ],
+      "ankle": [
+        200,
+        0
+      ],
+      "ankle2": [
+        -480,
+        0
+      ],
+      "ft2": -30,
+      "b": 60,
+      "hd": 78,
+      "g": 1,
+      "hx": 236,
+      "hy": 15
+    },
+    "LUNGE_TWIST": {
+      "hip": [
+        -60,
+        -200
+      ],
+      "ankle": [
+        200,
+        0
+      ],
+      "ankle2": [
+        -480,
+        0
+      ],
+      "ft2": -30,
+      "b": 46,
+      "hd": -24,
+      "g": 0,
+      "ua": 196,
+      "fa": 0,
+      "g2": 1,
+      "hx2": 236,
+      "hy2": 15
+    },
+    "LIZARD": {
+      "hip": [
+        -60,
+        -110
+      ],
+      "ankle": [
+        200,
+        0
+      ],
+      "s2": 90,
+      "t2": 60,
+      "ft2": 172,
+      "b": 80,
+      "hd": 96,
+      "g": 1,
+      "hx": 380,
+      "hy": 15,
+      "ed": -1
+    },
+    "KNEE_FWD": {
+      "hip": [
+        0,
+        -200
+      ],
+      "s": 90,
+      "t": -29,
+      "s2": 90,
+      "t2": 29,
+      "ft": 172,
+      "b": 70,
+      "hd": 100,
+      "g": 1,
+      "hx": 280,
+      "hy": 15
+    },
+    "PIGEON_UP": {
+      "hip": [
+        0,
+        -120
+      ],
+      "s": 90,
+      "t": -57,
+      "s2": 90,
+      "t2": 57,
+      "ft": 172,
+      "b": 15,
+      "hd": 8,
+      "g": 1,
+      "hx": 150,
+      "hy": -60
+    },
+    "PIGEON_FOLD": {
+      "hip": [
+        0,
+        -110
+      ],
+      "s": 90,
+      "t": -60,
+      "s2": 90,
+      "t2": 60,
+      "ft": 172,
+      "b": 82,
+      "hd": 115,
+      "g": 0,
+      "ua": 25,
+      "fa": 65
+    },
+    "DOWNDOG": {
+      "s": 30,
+      "t": 30,
+      "rx": -330,
+      "ry": 0,
+      "b": 133.77,
+      "hd": 161.8,
+      "g": 1,
+      "hx": 345,
+      "hy": 15,
+      "ft": 0
+    },
+    "PEDAL_A": {
+      "hip": [
+        -95,
+        -407
+      ],
+      "ankle": [
+        -300,
+        -28
+      ],
+      "ft": -38,
+      "s2": 30,
+      "t2": 30,
+      "ft2": 0,
+      "b": 133.77,
+      "hd": 161.8,
+      "g": 1,
+      "hx": 345,
+      "hy": 15
+    },
+    "PEDAL_B": {
+      "hip": [
+        -95,
+        -407
+      ],
+      "ankle": [
+        -330,
+        0
+      ],
+      "ankle2": [
+        -300,
+        -28
+      ],
+      "ft": 0,
+      "ft2": -38,
+      "b": 133.77,
+      "hd": 161.8,
+      "g": 1,
+      "hx": 345,
+      "hy": 15
+    }
+  },
+  "capitulos": [
+    {
+      "titulo": "Intro y reglas para estirar bien",
+      "head": [
+        "ESTIRAMIENTOS",
+        "FLEXIBILIDAD"
+      ],
+      "hero": true,
+      "numero": false,
+      "badge": "RUTINA GUIADA · 10 MIN",
+      "escenas": [
+        {
+          "tags": true,
+          "sub": "Seguila a tu ritmo",
+          "vo": "Rutina de estiramientos para ganar flexibilidad. Diez minutos en el piso, guiados paso a paso, para cadera, piernas y espalda.",
+          "min": 7,
+          "moves": [
+            {
+              "seq": [
+                [
+                  "ARMS_UP",
+                  2.2
+                ],
+                [
+                  "CROSS",
+                  2.2
+                ]
+              ],
+              "at": 1.2,
+              "until": "end"
+            }
+          ]
+        },
+        {
+          "step": "ANTES DE EMPEZAR",
+          "keys": [
+            {
+              "text": "Colchoneta y ropa cómoda",
+              "cue": "colchoneta"
+            },
+            {
+              "text": "Tensión sí, dolor no",
+              "cue": "tension"
+            },
+            {
+              "text": "Nunca rebotes",
+              "cue": "rebotes"
+            },
+            {
+              "text": "Respirá lento",
+              "cue": "exhalas"
+            }
+          ],
+          "vo": "Antes de arrancar: buscá una colchoneta y ropa cómoda. Estirá hasta sentir tensión, nunca dolor, y no rebotes. Cada vez que exhalás, aflojás un poquito más.",
+          "min": 10,
+          "moves": [
+            {
+              "to": "CROSS",
+              "at": 0.3,
+              "dur": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Mariposa (aductores)",
+      "head": [
+        "MARIPOSA",
+        "ADUCTORES"
+      ],
+      "escenas": [
+        {
+          "step": "POSICIÓN",
+          "sub": "Plantas de los pies juntas",
+          "vo": "Sentate y juntá las plantas de los pies. Agarralos con las manos, abrí las rodillas hacia los costados y sacá pecho.",
+          "min": 6,
+          "moves": [
+            {
+              "cut": "BUTTERFLY",
+              "at": 0
+            }
+          ],
+          "card": {
+            "tipo": "mariposa",
+            "label": "RODILLAS AFUERA",
+            "desde": 0,
+            "anim": [
+              [
+                0.35,
+                1.4,
+                1.6
+              ]
+            ]
+          }
+        },
+        {
+          "step": "BAJÁ LAS RODILLAS",
+          "sub": "Con cada exhalación",
+          "vo": "Con cada exhalación, dejá que las rodillas bajen despacio hacia el piso. Vas a sentir cómo tira la parte interna de los muslos.",
+          "moves": [
+            {
+              "to": "BUTTERFLY_DOWN",
+              "at": 1.0,
+              "dur": 3.0
+            }
+          ],
+          "card": {
+            "tipo": "mariposa",
+            "label": "RODILLAS AFUERA",
+            "anim": [
+              [
+                0.85,
+                1.0,
+                3.0
+              ]
+            ]
+          }
+        },
+        {
+          "step": "AGUANTÁ",
+          "tip": "Si la espalda se redondea, sentate sobre una toalla doblada: la cadera sube y el pecho se acomoda solo.",
+          "vo": "No empujes las rodillas con los codos: dejalas caer por su propio peso. Abrí el pecho y aguantá respirando.",
+          "hold": 20,
+          "moves": [
+            {
+              "to": "BUTTERFLY_DEEP",
+              "hold": true
+            }
+          ],
+          "card": {
+            "tipo": "mariposa",
+            "label": "RODILLAS AFUERA",
+            "anim": [
+              [
+                0.97,
+                "hold",
+                8
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Inclinación lateral · pierna derecha",
+      "head": [
+        "INCLINACIÓN",
+        "LATERAL"
+      ],
+      "escenas": [
+        {
+          "step": "PIERNA DERECHA",
+          "sub": "Una estirada, la otra flexionada",
+          "vo": "Estirá la pierna derecha hacia el costado y flexioná la izquierda, con el pie cerca de la ingle. Espalda larga y hombros relajados.",
+          "min": 6,
+          "moves": [
+            {
+              "cut": "SIDE_SIT",
+              "at": 0
+            }
+          ],
+          "card": {
+            "tipo": "lateral",
+            "lado": 1,
+            "label": "ALARGÁ EL COSTADO",
+            "desde": 0
+          }
+        },
+        {
+          "step": "DE LADO A LADO",
+          "vo": "Inhalá subiendo el brazo y, al exhalar, inclinate hacia la pierna estirada. Volvé al centro y andá hacia el otro lado. Sin apuro.",
+          "min": 16,
+          "moves": [
+            {
+              "seq": [
+                [
+                  "SIDE_REACH",
+                  2.6
+                ],
+                [
+                  "SIDE_SIT",
+                  1.2
+                ],
+                [
+                  "SIDE_OTHER",
+                  2.6
+                ],
+                [
+                  "SIDE_SIT",
+                  1.2
+                ]
+              ],
+              "until": "end",
+              "at": 0.6
+            }
+          ],
+          "card": {
+            "tipo": "lateral",
+            "lado": 1,
+            "label": "ALARGÁ EL COSTADO",
+            "vaiven": {
+              "de": -1,
+              "a": 0.8,
+              "dur": 3.8,
+              "at": 0.6
+            }
+          }
+        },
+        {
+          "step": "QUEDATE ABAJO",
+          "tip": "Imaginá que estás entre dos paredes: el pecho mira al frente, no al piso.",
+          "vo": "Ahora quedate del lado de la pierna estirada. Alargá todo el costado y, con cada exhalación, bajá un poquito más.",
+          "hold": 15,
+          "moves": [
+            {
+              "to": "SIDE_REACH",
+              "at": 0.4,
+              "dur": 1.4
+            }
+          ],
+          "card": {
+            "tipo": "lateral",
+            "lado": 1,
+            "label": "ALARGÁ EL COSTADO",
+            "anim": [
+              [
+                -1,
+                0.4,
+                1.4
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Pecho a la rodilla · pierna derecha",
+      "head": [
+        "PECHO A",
+        "LA RODILLA"
+      ],
+      "escenas": [
+        {
+          "step": "GIRÁ EL PECHO",
+          "sub": "Mirá hacia la rodilla",
+          "vo": "Girá el pecho para que mire a la rodilla de la pierna estirada. Inhalá y crecé, como si te tiraran de la cabeza hacia el techo.",
+          "min": 6,
+          "moves": [
+            {
+              "to": "SEAT_LONG",
+              "at": 0.4,
+              "dur": 1.4
+            }
+          ]
+        },
+        {
+          "step": "BAJÁ LARGO",
+          "vo": "Al exhalar, bajá llevando el pecho hacia el muslo, no la cabeza a la rodilla. Si hace falta, levantá un poco los glúteos o flexioná la rodilla.",
+          "moves": [
+            {
+              "to": "FOLD_LEG",
+              "at": 1.0,
+              "dur": 2.5
+            }
+          ],
+          "overlays": [
+            {
+              "type": "arrow",
+              "from": {
+                "j": "SEAT_LONG.S",
+                "dx": 30,
+                "dy": -40
+              },
+              "to": {
+                "j": "FOLD_LEG.S",
+                "dx": 70,
+                "dy": -50
+              },
+              "bend": [
+                60,
+                -40
+              ],
+              "at": 1.0,
+              "dur": 1.2
+            },
+            {
+              "type": "label",
+              "pos": [
+                1560,
+                560
+              ],
+              "text": "PECHO AL MUSLO",
+              "anchor": "middle",
+              "at": 1.6
+            }
+          ]
+        },
+        {
+          "step": "ASÍ NO",
+          "vo": "Así no: si encorvás la espalda y tirás la cabeza hacia abajo, el estiramiento se va a la espalda en vez de a la parte de atrás de la pierna.",
+          "moves": [
+            {
+              "to": "FOLD_BAD",
+              "at": 0.4,
+              "dur": 1.2
+            },
+            {
+              "to": "FOLD_LEG",
+              "at": 7.4,
+              "dur": 1.2
+            }
+          ],
+          "overlays": [
+            {
+              "type": "label",
+              "pos": [
+                1560,
+                560
+              ],
+              "text": "ESPALDA REDONDA: NO",
+              "anchor": "middle",
+              "at": 0.9,
+              "out": 7.2
+            }
+          ]
+        },
+        {
+          "step": "AGUANTÁ",
+          "tip": "¿No llegás al pie? Agarrá una toalla por la planta: mejor espalda larga que mano en el pie.",
+          "vo": "Aguantá respirando. En cada exhalación bajás un poquito más, sin agobiarte: cada uno a su ritmo.",
+          "hold": 20,
+          "moves": [
+            {
+              "to": "FOLD_LEG_IN",
+              "hold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Figura 4 hacia atrás (glúteo)",
+      "head": [
+        "FIGURA 4",
+        "GLÚTEO"
+      ],
+      "escenas": [
+        {
+          "step": "POSICIÓN",
+          "sub": "Tobillo sobre la rodilla",
+          "vo": "Flexioná la pierna izquierda con el pie apoyado y cruzá el tobillo derecho sobre esa rodilla. Apoyá las manos atrás.",
+          "moves": [
+            {
+              "cut": "FIG4_SIT",
+              "at": 0
+            },
+            {
+              "to": "FIG4_BACK",
+              "at": 4.2,
+              "dur": 1.4
+            }
+          ]
+        },
+        {
+          "step": "PECHO ARRIBA",
+          "vo": "Empujá el piso con las manos para levantar el pecho y alargar la espalda. Vas a sentir cómo estira el glúteo derecho.",
+          "moves": [
+            {
+              "to": "FIG4_LIFT",
+              "at": 0.6,
+              "dur": 1.6
+            }
+          ],
+          "overlays": [
+            {
+              "type": "ring",
+              "pos": {
+                "j": "FIG4_LIFT.H",
+                "dx": -10,
+                "dy": -20
+              },
+              "r": 70,
+              "at": 3.2
+            },
+            {
+              "type": "label",
+              "pos": [
+                1040,
+                640
+              ],
+              "text": "GLÚTEO",
+              "anchor": "end",
+              "at": 3.4
+            }
+          ]
+        },
+        {
+          "step": "MÁS INTENSIDAD",
+          "tip": "¿Es mucho? Alejá un poco el pie de apoyo del cuerpo. ¿Querés más? Acercalo.",
+          "vo": "Si querés más, presioná suave la rodilla de arriba con la mano. Si no, quedate así. Y no te olvides de respirar.",
+          "hold": 20,
+          "moves": [
+            {
+              "to": "FIG4_PRESS",
+              "at": 0.6,
+              "dur": 1.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Inclinación lateral · pierna izquierda",
+      "head": [
+        "INCLINACIÓN",
+        "OTRO LADO"
+      ],
+      "escenas": [
+        {
+          "step": "PIERNA IZQUIERDA",
+          "vo": "Cambiamos de lado: estirá la pierna izquierda, flexioná la derecha y repetimos la inclinación, de un lado al otro, sin prisa.",
+          "min": 16,
+          "moves": [
+            {
+              "cut": "SIDE_SIT",
+              "at": 0
+            },
+            {
+              "seq": [
+                [
+                  "SIDE_REACH",
+                  2.6
+                ],
+                [
+                  "SIDE_SIT",
+                  1.2
+                ],
+                [
+                  "SIDE_OTHER",
+                  2.6
+                ],
+                [
+                  "SIDE_SIT",
+                  1.2
+                ]
+              ],
+              "until": "end",
+              "at": 2.0
+            }
+          ],
+          "card": {
+            "tipo": "lateral",
+            "lado": -1,
+            "label": "ALARGÁ EL COSTADO",
+            "desde": 0,
+            "vaiven": {
+              "de": -1,
+              "a": 0.8,
+              "dur": 3.8,
+              "at": 2.0
+            }
+          }
+        },
+        {
+          "step": "QUEDATE ABAJO",
+          "tip": "El hombro de arriba va un poco hacia atrás: así el estiramiento queda en el costado.",
+          "vo": "Quedate del lado de la pierna estirada. Notá cómo se alarga todo el lateral y bajá un poquito más con la respiración.",
+          "hold": 15,
+          "moves": [
+            {
+              "to": "SIDE_REACH",
+              "at": 0.4,
+              "dur": 1.4
+            }
+          ],
+          "card": {
+            "tipo": "lateral",
+            "lado": -1,
+            "label": "ALARGÁ EL COSTADO",
+            "anim": [
+              [
+                -1,
+                0.4,
+                1.4
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Pecho a la rodilla · pierna izquierda",
+      "head": [
+        "PECHO A",
+        "LA RODILLA"
+      ],
+      "escenas": [
+        {
+          "step": "PIERNA IZQUIERDA",
+          "vo": "Girá el pecho hacia la rodilla, levantá un poco los glúteos del piso y dejá caer el pecho hacia adelante.",
+          "moves": [
+            {
+              "to": "SEAT_LONG",
+              "at": 0.4,
+              "dur": 1.2
+            },
+            {
+              "to": "FOLD_LEG",
+              "at": 3.2,
+              "dur": 2.4
+            }
+          ]
+        },
+        {
+          "step": "AGUANTÁ",
+          "tip": "Si sentís que la espalda se encoge, corregí: subí un poco, alargá y volvé a bajar.",
+          "vo": "Si no llegás, flexioná un poco la rodilla. Lo importante es alargar, no llevar la cabeza a la rodilla. Con paciencia, vas bajando.",
+          "hold": 20,
+          "moves": [
+            {
+              "to": "FOLD_LEG_IN",
+              "hold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Figura 4 abrazada (glúteo)",
+      "head": [
+        "GLÚTEO",
+        "ABRAZADO"
+      ],
+      "escenas": [
+        {
+          "step": "POSICIÓN",
+          "sub": "Pecho hacia la pierna",
+          "vo": "Apoyá el tobillo sobre la rodilla de la otra pierna. Crecé con la espalda y llevá el pecho hacia la pierna, abrazándola.",
+          "moves": [
+            {
+              "cut": "FIG4_SIT",
+              "at": 0
+            },
+            {
+              "to": "FIG4_HUG",
+              "at": 3.6,
+              "dur": 2.0
+            }
+          ]
+        },
+        {
+          "step": "AGUANTÁ",
+          "tip": "No te dejes caer hacia atrás: la espalda queda larga y es el pecho el que se acerca a la pierna.",
+          "vo": "No te dejes caer: espalda larga y pecho hacia la pierna. Aguantá y sentí cómo estira el glúteo.",
+          "hold": 20,
+          "moves": [
+            {
+              "to": "FIG4_HUG_IN",
+              "hold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Balanceo lateral sentado",
+      "head": [
+        "BALANCEO",
+        "LATERAL"
+      ],
+      "escenas": [
+        {
+          "step": "POSICIÓN",
+          "sub": "Piernas y brazos cruzados",
+          "vo": "Sentate con las piernas cruzadas y los brazos cruzados al pecho. Dejate caer suave hacia un lado, pasá por el centro y andá al otro.",
+          "min": 10,
+          "moves": [
+            {
+              "cut": "CROSS_ARMS",
+              "at": 0
+            },
+            {
+              "seq": [
+                [
+                  "CROSS_ARMS_A",
+                  1.3
+                ],
+                [
+                  "CROSS_ARMS_B",
+                  1.3
+                ]
+              ],
+              "at": 2.0,
+              "until": "end"
+            }
+          ],
+          "card": {
+            "tipo": "balanceo",
+            "label": "DE LADO A LADO",
+            "desde": 0,
+            "vaiven": {
+              "de": -1,
+              "a": 1,
+              "dur": 2.6,
+              "at": 2.0
+            }
+          }
+        },
+        {
+          "step": "SIN APURO",
+          "tip": "Movimiento lento y controlado: la idea es soltar la espalda baja, no hacer fuerza.",
+          "vo": "A un lado y al otro, sin prisa, acompañando con la respiración. Una vez más y volvemos al centro.",
+          "min": 10,
+          "moves": [
+            {
+              "seq": [
+                [
+                  "CROSS_ARMS_A",
+                  1.3
+                ],
+                [
+                  "CROSS_ARMS_B",
+                  1.3
+                ]
+              ],
+              "at": 0.0,
+              "until": "end"
+            }
+          ],
+          "card": {
+            "tipo": "balanceo",
+            "label": "DE LADO A LADO",
+            "vaiven": {
+              "de": -1,
+              "a": 1,
+              "dur": 2.6,
+              "at": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Postura del niño y cobra",
+      "head": [
+        "NIÑO",
+        "Y COBRA"
+      ],
+      "escenas": [
+        {
+          "step": "POSTURA DEL NIÑO",
+          "sub": "Glúteos a los talones",
+          "vo": "Ponete de rodillas, llevá los glúteos a los talones y estirá los brazos bien largos hacia adelante. Soltá la espalda.",
+          "moves": [
+            {
+              "cut": "KNEEL_TALL",
+              "at": 0
+            },
+            {
+              "to": "SIT_HEELS",
+              "at": 1.4,
+              "dur": 1.0
+            },
+            {
+              "to": "CHILD",
+              "at": 3.0,
+              "dur": 1.8
+            }
+          ]
+        },
+        {
+          "step": "COBRA",
+          "sub": "Abrí el pecho",
+          "vo": "Ahora deslizate hacia adelante, apoyá la cadera en el piso y subí el pecho empujando con las manos.",
+          "moves": [
+            {
+              "to": "PRONE",
+              "at": 0.6,
+              "dur": 1.8
+            },
+            {
+              "to": "COBRA",
+              "at": 2.8,
+              "dur": 1.6
+            }
+          ]
+        },
+        {
+          "step": "COMBINALOS",
+          "tip": "En la cobra, hombros lejos de las orejas y cola apretada: la zona lumbar no tiene que doler.",
+          "vo": "Combinamos los dos: atrás al niño, adelante a la cobra, siguiendo la respiración. Inhalás en la cobra, exhalás en el niño.",
+          "min": 18,
+          "moves": [
+            {
+              "seq": [
+                [
+                  "CHILD",
+                  2.4
+                ],
+                [
+                  "CHILD",
+                  0.8
+                ],
+                [
+                  "PRONE",
+                  1.6
+                ],
+                [
+                  "COBRA",
+                  1.6
+                ],
+                [
+                  "COBRA",
+                  0.8
+                ]
+              ],
+              "at": 0.4,
+              "until": "end"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Estocada baja con rotación · pierna derecha",
+      "head": [
+        "ESTOCADA",
+        "BAJA"
+      ],
+      "escenas": [
+        {
+          "step": "PIERNA DERECHA",
+          "sub": "Rodilla de atrás apoyada",
+          "vo": "Desde cuatro apoyos, llevá el pie derecho entre las manos y estirá la pierna de atrás, con la rodilla apoyada en el piso.",
+          "moves": [
+            {
+              "cut": "QUAD",
+              "at": 0
+            },
+            {
+              "to": "LUNGE_LOW",
+              "at": 2.4,
+              "dur": 1.8
+            }
+          ]
+        },
+        {
+          "step": "GIRÁ Y ABRÍ",
+          "vo": "Levantá la rodilla de atrás, girá el pecho y subí el brazo hacia el techo. Volvé a apoyar la mano, bajá la rodilla y repetí.",
+          "min": 14,
+          "moves": [
+            {
+              "seq": [
+                [
+                  "LUNGE_UP",
+                  1.4
+                ],
+                [
+                  "LUNGE_TWIST",
+                  1.6
+                ],
+                [
+                  "LUNGE_UP",
+                  1.4
+                ],
+                [
+                  "LUNGE_LOW",
+                  1.4
+                ]
+              ],
+              "until": "end",
+              "at": 0.4
+            }
+          ]
+        },
+        {
+          "step": "LAGARTIJA",
+          "tip": "La rodilla de adelante apunta al pie, no se va hacia adentro. Y apretá el glúteo de la pierna de atrás.",
+          "vo": "Si ya sentís que trabaja, quedate acá. Si no, bajá a los antebrazos y aguantá respirando.",
+          "hold": 15,
+          "moves": [
+            {
+              "to": "LUNGE_LOW",
+              "at": 0.3,
+              "dur": 1.0
+            },
+            {
+              "to": "LIZARD",
+              "at": 2.4,
+              "dur": 1.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Estocada baja con rotación · pierna izquierda",
+      "head": [
+        "ESTOCADA",
+        "OTRO LADO"
+      ],
+      "escenas": [
+        {
+          "step": "PIERNA IZQUIERDA",
+          "vo": "Cambiamos de pierna: las manos a la altura del talón, apretá el glúteo, estirá la pierna, girá y volvé.",
+          "min": 14,
+          "moves": [
+            {
+              "cut": "LUNGE_LOW",
+              "at": 0
+            },
+            {
+              "seq": [
+                [
+                  "LUNGE_UP",
+                  1.4
+                ],
+                [
+                  "LUNGE_TWIST",
+                  1.6
+                ],
+                [
+                  "LUNGE_UP",
+                  1.4
+                ],
+                [
+                  "LUNGE_LOW",
+                  1.4
+                ]
+              ],
+              "until": "end",
+              "at": 1.4
+            }
+          ]
+        },
+        {
+          "step": "LAGARTIJA",
+          "tip": "Aprovechá la respiración: en cada exhalación, la cadera baja un poquito más hacia el piso.",
+          "vo": "Bajá a los antebrazos o quedate arriba, como te sientas mejor, y aguantá unos segundos.",
+          "hold": 15,
+          "moves": [
+            {
+              "to": "LUNGE_LOW",
+              "at": 0.3,
+              "dur": 1.0
+            },
+            {
+              "to": "LIZARD",
+              "at": 2.0,
+              "dur": 1.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Paloma (glúteo y cadera)",
+      "head": [
+        "PALOMA",
+        "GLÚTEO"
+      ],
+      "escenas": [
+        {
+          "step": "PIERNA DERECHA",
+          "sub": "Rodilla adelante, pierna atrás",
+          "vo": "Desde cuatro apoyos, llevá la rodilla derecha hacia adelante y estirá la pierna de atrás. Podés abrir un poco el talón.",
+          "moves": [
+            {
+              "cut": "QUAD",
+              "at": 0
+            },
+            {
+              "to": "KNEE_FWD",
+              "at": 1.6,
+              "dur": 1.2
+            },
+            {
+              "to": "PIGEON_UP",
+              "at": 3.2,
+              "dur": 1.6
+            }
+          ]
+        },
+        {
+          "step": "DEJATE CAER",
+          "tip": "Cadera derecha, mirando al frente. Si se te va de costado, poné una toalla debajo del glúteo.",
+          "vo": "Dejate caer hacia adelante, apoyá los antebrazos y soltá el peso. Respirá profundo y aguantá.",
+          "hold": 20,
+          "moves": [
+            {
+              "to": "PIGEON_FOLD",
+              "at": 0.6,
+              "dur": 2.0
+            }
+          ]
+        },
+        {
+          "step": "PIERNA IZQUIERDA",
+          "vo": "Subí despacio y cambiamos: la otra rodilla adelante, acomodás el talón y abajo.",
+          "hold": 20,
+          "holdAt": 8.0,
+          "moves": [
+            {
+              "to": "PIGEON_UP",
+              "at": 0.4,
+              "dur": 1.4
+            },
+            {
+              "cut": "QUAD",
+              "at": 2.2
+            },
+            {
+              "to": "KNEE_FWD",
+              "at": 3.0,
+              "dur": 1.0
+            },
+            {
+              "to": "PIGEON_UP",
+              "at": 4.2,
+              "dur": 1.2
+            },
+            {
+              "to": "PIGEON_FOLD",
+              "at": 5.8,
+              "dur": 1.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Perro boca abajo con pedaleo",
+      "head": [
+        "PERRO",
+        "BOCA ABAJO"
+      ],
+      "escenas": [
+        {
+          "step": "POSICIÓN",
+          "sub": "Una V invertida",
+          "vo": "Volvé a cuatro apoyos y subí la cadera hacia el techo, estirando brazos y piernas. Tu cuerpo forma una V invertida.",
+          "moves": [
+            {
+              "cut": "QUAD",
+              "at": 0
+            },
+            {
+              "to": "DOWNDOG",
+              "at": 2.0,
+              "dur": 2.0
+            }
+          ]
+        },
+        {
+          "step": "PEDALEÁ",
+          "vo": "Flexioná una rodilla y después la otra, como pedaleando, buscando llevar cada talón hacia el piso.",
+          "min": 12,
+          "moves": [
+            {
+              "seq": [
+                [
+                  "PEDAL_A",
+                  1.2
+                ],
+                [
+                  "PEDAL_B",
+                  1.2
+                ]
+              ],
+              "at": 0.5,
+              "until": "end"
+            }
+          ]
+        },
+        {
+          "step": "TALONES ABAJO",
+          "tip": "Primero espalda larga, después piernas: si tenés que flexionar las rodillas para no redondear, hacelo.",
+          "vo": "Ahora los dos talones hacia el piso. Aguantá: con cada respiración bajan un poquito más.",
+          "hold": 15,
+          "moves": [
+            {
+              "to": "DOWNDOG",
+              "at": 0.4,
+              "dur": 1.2
+            }
+          ]
+        },
+        {
+          "step": "DESCANSÁ",
+          "sub": "Postura del niño",
+          "vo": "Bajá las rodillas, llevá los glúteos a los talones y descansá un momento en la postura del niño.",
+          "min": 7,
+          "moves": [
+            {
+              "to": "QUAD",
+              "at": 0.4,
+              "dur": 1.6
+            },
+            {
+              "to": "CHILD",
+              "at": 2.4,
+              "dur": 1.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Torsión sentado",
+      "head": [
+        "TORSIÓN",
+        "SENTADO"
+      ],
+      "escenas": [
+        {
+          "step": "HACIA LA DERECHA",
+          "sub": "Mano a la rodilla contraria",
+          "vo": "Sentate con las piernas cruzadas. Agarrá la rodilla derecha con la mano izquierda, presioná y girá el tronco hacia la derecha.",
+          "moves": [
+            {
+              "cut": "CROSS",
+              "at": 0
+            },
+            {
+              "to": "TWIST_A",
+              "at": 3.0,
+              "dur": 1.8
+            }
+          ],
+          "card": {
+            "tipo": "torsion",
+            "label": "GIRÁ EL TRONCO",
+            "desde": 0,
+            "anim": [
+              [
+                1,
+                3.0,
+                1.8
+              ]
+            ]
+          }
+        },
+        {
+          "step": "AGUANTÁ",
+          "tip": "Primero crecé con la espalda y después girá: la torsión sale de la columna larga, no de tirar con el brazo.",
+          "vo": "Aguantá sin trabar la respiración. En cada exhalación, girás un poquito más.",
+          "hold": 15,
+          "card": {
+            "tipo": "torsion",
+            "label": "GIRÁ EL TRONCO"
+          }
+        },
+        {
+          "step": "HACIA LA IZQUIERDA",
+          "vo": "Cambiamos: la mano derecha a la rodilla izquierda, presionás y girás hacia el otro lado.",
+          "hold": 15,
+          "moves": [
+            {
+              "to": "CROSS",
+              "at": 0.4,
+              "dur": 1.2
+            },
+            {
+              "to": "TWIST_B",
+              "at": 1.9,
+              "dur": 1.8
+            }
+          ],
+          "card": {
+            "tipo": "torsion",
+            "label": "GIRÁ EL TRONCO",
+            "anim": [
+              [
+                0,
+                0.4,
+                1.2
+              ],
+              [
+                -1,
+                1.9,
+                1.8
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Cierre",
+      "head": [
+        "¡LISTO!",
+        "BUEN TRABAJO"
+      ],
+      "numero": false,
+      "badge": "RUTINA TERMINADA",
+      "escenas": [
+        {
+          "step": "SOLTÁ LOS HOMBROS",
+          "vo": "Para terminar, hacé círculos con los hombros hacia atrás y hacia adelante, y soltá todo. Inhalá profundo y exhalá lento.",
+          "min": 10,
+          "moves": [
+            {
+              "to": "CROSS",
+              "at": 0.3,
+              "dur": 1.2
+            },
+            {
+              "seq": [
+                [
+                  "ARMS_UP",
+                  2.4
+                ],
+                [
+                  "CROSS",
+                  2.4
+                ]
+              ],
+              "at": 3.0,
+              "until": "end"
+            }
+          ]
+        },
+        {
+          "step": "CUÁNDO HACERLA",
+          "keys": [
+            {
+              "text": "Después de entrenar",
+              "cue": "despues"
+            },
+            {
+              "text": "O sola, 3 veces por semana",
+              "cue": "sesion"
+            },
+            {
+              "text": "Constancia, no fuerza",
+              "cue": "constancia"
+            }
+          ],
+          "vo": "Hacé esta rutina después de entrenar o como sesión aparte, tres veces por semana. La flexibilidad llega con constancia, no forzando. ¡Nos vemos!",
+          "min": 9,
+          "moves": [
+            {
+              "to": "CROSS",
+              "at": 0.2,
+              "dur": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "FOLD_LEG",
+    "grip": 1,
+    "badge": "ESTIRAMIENTOS · RUTINA GUIADA",
+    "head": [
+      "GANÁ",
+      "FLEXIBILIDAD"
+    ],
+    "chip": "10 MIN EN EL PISO",
+    "size": 170,
+    "zoom": 1.3,
+    "dx": 0,
+    "dy": 40
+  },
+  "youtube": {
+    "titulo": "Estiramientos para GANAR FLEXIBILIDAD 🧘 Rutina guiada de 10 min en el piso",
+    "descripcion": "🧘 ESTIRAMIENTOS PARA GANAR FLEXIBILIDAD — rutina completa y guiada, en el piso\n\n¿Te cuesta tocarte los pies, sentís la cadera dura o la espalda cargada después de entrenar? Esta rutina es para vos: 14 estiramientos encadenados, con cuenta regresiva en cada posición y consejos de técnica para que estires bien y sin lastimarte. 💪\n\n⏱️ CAPÍTULOS\n{{CAPITULOS}}\n\n📋 QUÉ VAS A HACER\n1️⃣ Mariposa (aductores)\n2️⃣ Inclinación lateral con la pierna estirada (costado y espalda)\n3️⃣ Pecho a la rodilla (parte de atrás de la pierna)\n4️⃣ Figura 4 hacia atrás y abrazada (glúteo)\n5️⃣ Balanceo lateral sentado (espalda baja)\n6️⃣ Postura del niño + cobra (espalda y abdomen)\n7️⃣ Estocada baja con rotación y lagartija (flexores de cadera)\n8️⃣ Paloma (glúteo y cadera)\n9️⃣ Perro boca abajo con pedaleo (gemelos e isquiotibiales)\n🔟 Torsión sentado (columna)\n\n✅ CLAVES PARA ESTIRAR BIEN\n• Tensión sí, dolor no: si duele, aflojá.\n• Nunca rebotes: entrá despacio y quedate.\n• Respirá lento: en cada exhalación aflojás un poquito más.\n• Primero espalda larga, después profundidad.\n• Hacé los dos lados igual, aunque uno te cueste más.\n\n🎯 QUÉ TRABAJA\nCadera · Isquiotibiales · Aductores · Glúteos · Espalda · Gemelos\n\n⏱️ CUÁNDO\nDespués de entrenar, como vuelta a la calma, o como sesión aparte tres veces por semana. La flexibilidad llega con constancia, no forzando.\n\n🙌 Si te sirvió, dejá tu like, guardala y compartila con alguien que necesite estirar.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Estiramientos #Flexibilidad #Movilidad #Elongacion #RutinaGuiada",
+    "tags": [
+      "estiramientos",
+      "rutina de estiramientos",
+      "ganar flexibilidad",
+      "flexibilidad",
+      "elongación",
+      "estiramientos en el piso",
+      "estiramientos de cadera",
+      "estiramientos isquiotibiales",
+      "estiramientos después de entrenar",
+      "vuelta a la calma",
+      "movilidad",
+      "postura de la paloma",
+      "mariposa estiramiento",
+      "rutina guiada",
+      "stretching"
+    ]
+  }
+}

@@ -160,6 +160,23 @@ La miniatura **no queda puesta por la API**: el script dice `✓ Miniatura`, per
 
 > Pedíselo a Claude así: *"subí lat-pulldown privado, ponele la miniatura con Chrome y pasalo a público"*. Claude hace los pasos 2 a 4 con la extensión Claude in Chrome. Para cargar el archivo usa `file_upload` sobre el input oculto `#file-loader`, sin hacer clic en el botón, porque así no se abre el selector de Windows.
 
+## 6 ter. Videos largos (16:9)
+
+Están en `videos-largos\salida` (no en `salida`) y la miniatura **sí queda puesta por la API** (no van como Shorts), así
+que no hace falta `--no-thumbnail`. Probado el 2026-10-26 con `estiramientos-flexibilidad` (<https://youtu.be/wpKXHIQ3hCM>)
+y `flexibilidad-cuerpo-completo` (<https://youtu.be/KlVTaJ-CIho>).
+
+```powershell
+& $PY $SK --channel fitlesuy "C:\DATOS\DESARROLLOS\Hyperframes\VidesoEjercicios\videos-largos\salida" --privacy private --dry-run
+& $PY $SK --channel fitlesuy "C:\DATOS\DESARROLLOS\Hyperframes\VidesoEjercicios\videos-largos\salida" --privacy private
+```
+
+Después: mirar la miniatura en Studio, pasar a **Público** (pasos 4 y 5 de 6 bis) y correr
+`node plantilla/largo/make-largo.mjs --lista`. Detalle completo en `GENERAR_VIDEOS_LARGOS.md` §4.7.
+
+> Si `--auth` abre otro navegador (Brave) en vez de Chrome: antes de correrlo, en la misma terminal,
+> `$env:BROWSER = '"C:/Program Files/Google/Chrome/Application/chrome.exe" %s'`.
+
 ---
 
 ## 7. Problemas comunes

@@ -35,3 +35,18 @@ desktop.ini
 *.log
 plantilla/voces-piper/
 plantilla/voces-kokoro/
+
+# Videos largos (videos-largos/): se versionan fichas, fuentes (sin fotogramas), miniatura y texto de YouTube
+videos-largos/salida/*.mp4
+videos-largos/salida/subidos/**/*.mp4
+videos-largos/fuentes/*/_frames/
+videos-largos/proyectos/_poselab/
+videos-largos/proyectos/*/renders/
+videos-largos/proyectos/*/snapshots/
+videos-largos/proyectos/*/assets/
+videos-largos/proyectos/*/miniatura/
+videos-largos/proyectos/*/.media/
+videos-largos/proyectos/*/.thumbnails/
+videos-largos/proyectos/*/.waveform-cache/
+videos-largos/proyectos/*/.hyperframes/
+videos-largos/proyectos/*/public/
