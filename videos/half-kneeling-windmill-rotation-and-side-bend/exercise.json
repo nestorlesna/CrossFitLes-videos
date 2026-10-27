@@ -1,0 +1,308 @@
+{
+  "slug": "half-kneeling-windmill-rotation-and-side-bend",
+  "name": "Half-Kneeling Windmill",
+  "category": "CROSSFIT · MOVILIDAD",
+  "tags": [
+    "Oblicuos",
+    "Hombro",
+    "Cadera"
+  ],
+  "descripcion": "De rodillas, con un brazo arriba, se rota el torso y se suma un side bend suave. Abre la espalda alta, el hombro y la cadera al mismo tiempo.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Half-Kneeling Windmill 🎯 rotación y side bend de rodillas | CrossFit",
+    "tags": [
+      "half kneeling windmill",
+      "molino de rodillas",
+      "rotación torácica",
+      "side bend",
+      "movilidad de cadera",
+      "movilidad de hombro",
+      "crossfit",
+      "entrada en calor",
+      "oblicuos",
+      "movilidad"
+    ],
+    "descripcion": "🎬 HALF-KNEELING WINDMILL - rotación y side bend de rodillas\n\n¿Sentís la espalda alta rígida después de un día sentado? Este molino de rodillas junta rotación y flexión lateral en un solo movimiento suave. 🌪️\n\n📝 PASO A PASO\n1️⃣ Arrodillate sobre una rodilla y apoyá bien el pie de adelante.\n2️⃣ Subí un brazo bien arriba, del lado del pie que está adelante.\n3️⃣ Rotá el torso hacia ese brazo, siguiéndolo con la mirada y sin mover la cadera.\n4️⃣ Desde ahí, inclinate de costado hacia el pie de adelante y volvé sin rebotes.\n\n✅ CLAVES DE TÉCNICA\n✔️ Rodilla de atrás apoyada\n✔️ Cadera estable, sin girar\n✔️ Rotación desde la espalda alta\n✔️ Sin rebotes\n\n💪 QUÉ TRABAJA\nOblicuos · Deltoides anterior · Erectores · Cadera\n\n⏱️ CUÁNTO\n6 repeticiones por lado, sin apuro. Ideal antes de entrenar o al final del día.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi sentís pinchazos en la rodilla de apoyo, sumá una almohada o una colchoneta debajo.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Movilidad #Windmill #RotacionToracica #SideBend"
+  },
+  "miniatura": {
+    "pose": "BEND",
+    "zoom": 1.0,
+    "dy": 180
+  },
+  "initialPose": "KNEEL",
+  "rig": {
+    "x": 540,
+    "y": 1502,
+    "scale": 0.92
+  },
+  "poses": {
+    "KNEEL": {
+      "rx": 250,
+      "ry": -0.5,
+      "s": 2.32,
+      "t": -94.38,
+      "s2": 96,
+      "t2": 18.19,
+      "ft": 0,
+      "ft2": 0,
+      "b": 2,
+      "hd": 0,
+      "ua": 8,
+      "fa": 10,
+      "ua2": 22,
+      "fa2": 40
+    },
+    "REACH": {
+      "rx": 250,
+      "ry": -0.5,
+      "s": 2.32,
+      "t": -94.38,
+      "s2": 96,
+      "t2": 18.19,
+      "ft": 0,
+      "ft2": 0,
+      "b": 4,
+      "hd": -4,
+      "ua": 178,
+      "fa": 2,
+      "ua2": 22,
+      "fa2": 40
+    },
+    "ROT": {
+      "rx": 250,
+      "ry": -0.5,
+      "s": 2.32,
+      "t": -94.38,
+      "s2": 96,
+      "t2": 18.19,
+      "ft": 0,
+      "ft2": 0,
+      "b": 10,
+      "hd": -12,
+      "ua": 188,
+      "fa": -4,
+      "ua2": -8,
+      "fa2": 26
+    },
+    "BEND": {
+      "rx": 250,
+      "ry": -0.5,
+      "s": 2.32,
+      "t": -94.38,
+      "s2": 96,
+      "t2": 18.19,
+      "ft": 0,
+      "ft2": 0,
+      "b": 34,
+      "hd": 22,
+      "ua": 200,
+      "fa": 0,
+      "ua2": 66,
+      "fa2": 8
+    },
+    "BAD": {
+      "rx": 250,
+      "ry": -0.5,
+      "s": 2.32,
+      "t": -94.38,
+      "s2": 96,
+      "t2": 18.19,
+      "ft": 0,
+      "ft2": 0,
+      "b": 64,
+      "hd": 78,
+      "cv": 32,
+      "ua": 150,
+      "fa": 18,
+      "ua2": 74,
+      "fa2": 4
+    }
+  },
+  "props": [],
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · MOVILIDAD",
+      "head": [
+        "HALF-KNEELING",
+        "WINDMILL"
+      ],
+      "vo": "Half-Kneeling Windmill: de rodillas, rotá el torso hacia el brazo de arriba y sumá un side bend suave.",
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        },
+        {
+          "to": "REACH",
+          "at": 0.6,
+          "dur": 1.2
+        },
+        {
+          "to": "BEND",
+          "at": 3.0,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": null,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "MEDIA",
+        "RODILLA"
+      ],
+      "sub": "Rodilla de atrás apoyada",
+      "vo": "Arrodillate sobre una rodilla, con el pie de adelante bien apoyado y la cadera estable.",
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BRAZO",
+        "ARRIBA"
+      ],
+      "sub": "Del lado del pie de adelante",
+      "vo": "Paso uno. Subí un brazo bien arriba, del lado del pie que está adelante.",
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        },
+        {
+          "to": "REACH",
+          "at": 0.6,
+          "dur": 1.3
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ROTÁ EL",
+        "TORSO"
+      ],
+      "sub": "Mirá la mano",
+      "vo": "Paso dos. Rotá el torso hacia ese brazo, siguiéndolo con la mirada, sin mover la cadera.",
+      "moves": [
+        {
+          "cut": "REACH",
+          "at": 0
+        },
+        {
+          "to": "ROT",
+          "at": 0.7,
+          "dur": 1.2
+        },
+        {
+          "to": "REACH",
+          "at": 2.8,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "SIDE BEND"
+      ],
+      "sub": "Sin mover la cadera",
+      "vo": "Paso tres. Desde ahí, inclinate de costado hacia el pie de adelante y volvé. Nada de rebotes.",
+      "moves": [
+        {
+          "cut": "REACH",
+          "at": 0
+        },
+        {
+          "to": "BEND",
+          "at": 0.8,
+          "dur": 1.3
+        },
+        {
+          "to": "REACH",
+          "at": 3.0,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Rodilla de atrás apoyada",
+        "Cadera estable, sin girar",
+        "Rotación desde la espalda alta",
+        "Sin rebotes"
+      ],
+      "vo": "Claves: rodilla de atrás apoyada, cadera quieta, rotación desde la espalda alta y movimiento sin rebotes.",
+      "moves": [
+        {
+          "cut": "REACH",
+          "at": 0.1
+        }
+      ],
+      "shrink": 0.7
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "6 REPS"
+      ],
+      "sub": "Por lado",
+      "chips": [
+        {
+          "label": "1 · ROTÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · INCLINÁ",
+          "at": 2.4
+        }
+      ],
+      "vo": "Seis repeticiones por lado. Alterná lados y hacé la misma cantidad con cada uno.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "REACH",
+              1.2
+            ],
+            [
+              "ROT",
+              1.2
+            ],
+            [
+              "BEND",
+              1.4
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Bulgarian Split Squat",
+      "text": "El pie de atrás en el cajón y todo el peso en la pierna de adelante."
+    },
+    {
+      "id": "02",
+      "text": "Apoyá el empeine del pie de atrás en el cajón y adelantá el pie de trabajo, con la ketelbel al pecho."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Con la ketelbel al pecho, bajá la cadera en línea con la pierna de adelante."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá hasta que el muslo de adelante quede paralelo al piso, con la rodilla alineada."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si el torso se va adelante o la cadera se va atrás, el cuádriceps deja de trabajar. Quedate arriba."
+    },
+    {
+      "id": "06",
+      "text": "Claves: peso en la pierna de adelante, rodilla alineada, torso firme y la cadera abajo."
+    },
+    {
+      "id": "07",
+      "text": "Ocho repeticiones por lado con dieciséis kilos, tres series. Si perdés el equilibrio, achicá el rango."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

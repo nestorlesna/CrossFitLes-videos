@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Weighted Side Plank",
+      "text": "Plancha lateral con disco. Oblicuos y glúteo medio trabajando de punta a punta."
+    },
+    {
+      "id": "02",
+      "text": "Apoyate de costado sobre el antebrazo, con el codo justo debajo del hombro y los pies uno encima del otro."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Subí la cadera y alineá la cabeza, el tronco y los pies en una sola línea."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Sostené el disco con el brazo de arriba bien extendido, sin encoger el hombro."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si la cadera se cae, el oblicuo deja de trabajar. Mantenela arriba, en línea con el cuerpo."
+    },
+    {
+      "id": "06",
+      "text": "Claves: codo bajo el hombro, cadera arriba, cuerpo en una línea y respiración tranquila durante todo el isométrico."
+    },
+    {
+      "id": "07",
+      "text": "Treinta segundos por lado. Si la cadera baja antes de tiempo, terminá la serie y descansá."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

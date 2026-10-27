@@ -1,0 +1,383 @@
+{
+  "slug": "toe-touch-crunch",
+  "name": "Toe Touch Crunch",
+  "category": "CROSSFIT · CORE",
+  "tags": [
+    "Core",
+    "Abdominales",
+    "Activación"
+  ],
+  "descripcion": "Acostado boca arriba con las piernas extendidas hacia arriba, contraés el abdomen levantando los hombros del piso y llevás las manos hacia la punta de los pies.",
+  "revisado": false,
+  "notas": "Misma convención supina que `toe-touch-sit-up`: hip [0,-12], piernas verticales con t/s 180 y las manos con grip (g 1) al objetivo de los pies.",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Toe Touch Crunch 🎯 crunch tocando los pies | Core",
+    "tags": [
+      "toe touch crunch",
+      "crunch",
+      "abdominales",
+      "core",
+      "recto abdominal",
+      "piso",
+      "sin equipo",
+      "activacion",
+      "abdomen",
+      "crossfit"
+    ],
+    "descripcion": "🎬 Toe Touch Crunch 🎯 crunch tocando los pies | Core\nPiernas arriba, lumbar pegada al piso y el torso sube a tocar los pies. Un crunch corto que trabaja el recto abdominal sin tirar del cuello. 🔥\n\n📝 PASO A PASO\n1️⃣ Acostate boca arriba con las piernas extendidas hacia arriba, verticales.\n2️⃣ Exhalá y subí los hombros del piso llevando las manos hacia la punta de los pies.\n3️⃣ Bajá controlado sin soltar la lumbar del piso y repetí.\n4️⃣ Si las piernas se van hacia la cara o la lumbar se despega, bajá un poco las piernas.\n\n✅ CLAVES DE TÉCNICA\n✔️ Lumbar apoyada en el piso\n✔️ Movimiento del torso, no de los brazos\n✔️ Exhalá al subir\n✔️ Cuello relajado\n\n💪 QUÉ TRABAJA\nRecto abdominal · Oblicuos · Recto femoral · Bíceps femoral (estabilizan)\n\n⏱️ CUÁNTO\n10 repeticiones, 3 series. Sin peso: la calidad manda.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nSi sentís que tira el cuello, estás tirando con los brazos: dejá los brazos largos y subí con el abdomen. La lumbar no se despega en ningún momento.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Core #Abdominales #Crunch #Activacion"
+  },
+  "miniatura": {
+    "pose": "CRUNCH",
+    "grip": 1,
+    "zoom": 1.2,
+    "dy": 250
+  },
+  "initialPose": "FLAT",
+  "rig": {
+    "x": 660,
+    "y": 1500,
+    "scale": 0.72
+  },
+  "props": [],
+  "poses": {
+    "FLAT": {
+      "hip": [
+        0,
+        -12
+      ],
+      "t": 180,
+      "s": 180,
+      "ft": 0,
+      "ft2": 0,
+      "b": -90,
+      "hd": -92,
+      "g": 0,
+      "ua": 268,
+      "fa": 8,
+      "ua2": 268,
+      "fa2": 8
+    },
+    "HALF": {
+      "hip": [
+        0,
+        -12
+      ],
+      "t": 180,
+      "s": 180,
+      "ft": 0,
+      "ft2": 0,
+      "b": -70,
+      "hd": -74,
+      "g": 0,
+      "ua": 250,
+      "fa": 14,
+      "ua2": 250,
+      "fa2": 14
+    },
+    "CRUNCH": {
+      "hip": [
+        0,
+        -12
+      ],
+      "t": 180,
+      "s": 180,
+      "ft": 0,
+      "ft2": 0,
+      "b": -42,
+      "hd": -48,
+      "g": 1,
+      "ed": 1,
+      "hx": -30,
+      "hy": -450
+    },
+    "ARM_BAD": {
+      "hip": [
+        0,
+        -12
+      ],
+      "t": 180,
+      "s": 180,
+      "ft": 0,
+      "ft2": 0,
+      "b": -86,
+      "hd": -70,
+      "g": 1,
+      "ed": 1,
+      "hx": 0,
+      "hy": -440,
+      "cv": 18
+    },
+    "LEGS_BAD": {
+      "hip": [
+        0,
+        -12
+      ],
+      "t": -140,
+      "s": -140,
+      "ft": 40,
+      "ft2": 40,
+      "b": -64,
+      "hd": -62,
+      "g": 0,
+      "ua": 240,
+      "fa": 0,
+      "ua2": 240,
+      "fa2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · CORE",
+      "head": [
+        "TOE TOUCH",
+        "CRUNCH"
+      ],
+      "vo": "Toe Touch Crunch: piernas arriba y el torso sube a tocar la punta de los pies.",
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.5,
+          "dur": 0.5
+        },
+        {
+          "to": "CRUNCH",
+          "at": 1.1,
+          "dur": 0.5
+        },
+        {
+          "to": "HALF",
+          "at": 2.0,
+          "dur": 0.5
+        },
+        {
+          "to": "FLAT",
+          "at": 2.6,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BOCA ARRIBA",
+        "PIERNAS ARRIBA"
+      ],
+      "sub": "Lumbar pegada al piso",
+      "vo": "Acostate boca arriba con las piernas extendidas hacia arriba y los brazos extendidos por encima de la cabeza.",
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            1240
+          ],
+          "text": "PIERNAS VERTICALES",
+          "anchor": "start",
+          "at": 1.0,
+          "out": 4.0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SUBÍ EL",
+        "TORSO"
+      ],
+      "sub": "Exhalá al subir",
+      "vo": "Paso uno. Exhalá y subí los hombros del piso llevando las manos hacia la punta de los pies.",
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.5,
+          "dur": 0.5
+        },
+        {
+          "to": "CRUNCH",
+          "at": 1.1,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "TOCÁ",
+        "Y BAJÁ"
+      ],
+      "sub": "La lumbar no se despega",
+      "vo": "Paso dos. Tocá los pies arriba y bajá controlado, sin que la lumbar se despegue del piso.",
+      "moves": [
+        {
+          "cut": "CRUNCH",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.7,
+          "dur": 0.5
+        },
+        {
+          "to": "FLAT",
+          "at": 1.4,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "CRUNCH.W"
+          },
+          "r": 70,
+          "at": 0.2,
+          "out": 1.8
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Tirar con los brazos o bajar las piernas",
+      "vo": "Paso tres. Si tirás con los brazos y el torso no sube, el abdomen no trabaja. Y si las piernas bajan, el crunch se vuelve un sit-up.",
+      "moves": [
+        {
+          "cut": "CRUNCH",
+          "at": 0
+        },
+        {
+          "to": "ARM_BAD",
+          "at": 0.6,
+          "dur": 0.8
+        },
+        {
+          "to": "CRUNCH",
+          "at": 2.2,
+          "dur": 0.7
+        },
+        {
+          "to": "LEGS_BAD",
+          "at": 3.1,
+          "dur": 0.8
+        },
+        {
+          "to": "FLAT",
+          "at": 4.6,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Lumbar pegada al piso",
+        "Sube el torso, no los brazos",
+        "Exhalá al subir",
+        "Cuello relajado"
+      ],
+      "vo": "Claves: lumbar pegada al piso, sube el torso y no los brazos, exhalá al subir y el cuello queda relajado.",
+      "moves": [
+        {
+          "cut": "CRUNCH",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPETICIONES"
+      ],
+      "sub": "3 series",
+      "chips": [
+        {
+          "label": "10 reps",
+          "at": 0.6
+        },
+        {
+          "label": "3 series",
+          "at": 1.2
+        },
+        {
+          "label": "Sin peso",
+          "at": 1.8
+        }
+      ],
+      "vo": "Diez repeticiones, tres series. Sin peso: la calidad manda.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "HALF",
+              0.35
+            ],
+            [
+              "CRUNCH",
+              0.45
+            ],
+            [
+              "HALF",
+              0.4
+            ],
+            [
+              "FLAT",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "pronuncia": {
+    "Kettlebell": "Ketelbel",
+    "kettlebell": "ketelbel",
+    "clean": "clin",
+    "press": "pres",
+    "rack": "rac",
+    "row": "rou",
+    "crunch": "cranch",
+    "toe touch": "tou toch",
+    "Deadlift": "dedlift",
+    "Romanian": "Rrouméinian",
+    "Single-Leg": "singol leg",
+    "Ab Wheel": "ab güil",
+    "rollout": "rolaut",
+    "Dumbbell": "dambel"
+  }
+}

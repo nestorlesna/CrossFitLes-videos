@@ -1,0 +1,310 @@
+{
+  "slug": "quadruped-thoracic-rotation",
+  "name": "Quadruped Rotation",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Espalda alta",
+    "Core",
+    "Hombro"
+  ],
+  "descripcion": "En cuatro apoyos, el codo entra por debajo del cuerpo y después abre el pecho hacia el techo. La cadera no se mueve: todo sale de la espalda alta.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Quadruped Thoracic Rotation 🎯 rotación torácica en cuadrupedia | CrossFit",
+    "tags": [
+      "quadruped thoracic rotation",
+      "rotacion toracica",
+      "cuadrupedia",
+      "movilidad de espalda",
+      "crossfit",
+      "activacion",
+      "hombro",
+      "trapecio",
+      "entrada en calor",
+      "movilidad"
+    ],
+    "descripcion": "🎬 QUADRUPED THORACIC ROTATION - rotación torácica en cuadrupedia\n\nSi tu espalda alta no gira, el hombro paga la cuenta. Esta rotación en cuadrupedia lo trabaja con la cadera quieta. 🔄\n\n📝 PASO A PASO\n1️⃣ Ponete en cuatro apoyos, manos bajo los hombros y rodillas bajo la cadera.\n2️⃣ Llevá un codo por debajo del cuerpo, redondeando un poco la espalda alta.\n3️⃣ Abrí ese brazo hacia el techo y seguí el codo con la mirada.\n4️⃣ Volvé despacio y hacé todas las reps de un lado antes de cambiar.\n\n✅ CLAVES DE TÉCNICA\n✔️ Cadera y rodillas quietas\n✔️ Rotación de espalda alta\n✔️ Codo sigue la mirada\n✔️ Lento, sin apuro\n\n💪 QUÉ TRABAJA\nTrapecio · Dorsales · Core\n\n⏱️ CUÁNTO\n10 repeticiones con cada brazo. Perfecto en la activación, antes de press o dominadas.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi la muñeca molesta en el apoyo, cerrá el puño o apoyate en un cajón.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Movilidad #RotacionToracica #Activacion #EspaldaAlta"
+  },
+  "miniatura": {
+    "pose": "OPEN",
+    "zoom": 1.1,
+    "dy": 250
+  },
+  "initialPose": "QUAD",
+  "rig": {
+    "x": 480,
+    "y": 1502,
+    "scale": 0.82
+  },
+  "poses": {
+    "QUAD": {
+      "hip": [
+        0,
+        -231
+      ],
+      "s": 90,
+      "t": 0,
+      "s2": 90,
+      "t2": 0,
+      "ft": 172,
+      "ft2": 172,
+      "b": 74,
+      "hd": 100,
+      "g": 1,
+      "hx": 268,
+      "hy": 15,
+      "ed": 1,
+      "g2": 1,
+      "hx2": 268,
+      "hy2": 15
+    },
+    "TUCK": {
+      "hip": [
+        0,
+        -231
+      ],
+      "s": 90,
+      "t": 0,
+      "s2": 90,
+      "t2": 0,
+      "ft": 172,
+      "ft2": 172,
+      "b": 66,
+      "hd": 150,
+      "g": 0,
+      "ua": -38,
+      "fa": -24,
+      "g2": 1,
+      "hx2": 268,
+      "hy2": 15,
+      "ed2": 1,
+      "cv": 18
+    },
+    "OPEN": {
+      "hip": [
+        0,
+        -231
+      ],
+      "s": 90,
+      "t": 0,
+      "s2": 90,
+      "t2": 0,
+      "ft": 172,
+      "ft2": 172,
+      "b": 70,
+      "hd": 26,
+      "g": 0,
+      "ua": 206,
+      "fa": 0,
+      "g2": 1,
+      "hx2": 268,
+      "hy2": 15,
+      "ed2": 1,
+      "cv": -14
+    },
+    "HIP_BAD": {
+      "hip": [
+        0,
+        -218
+      ],
+      "s": 90,
+      "t": 0,
+      "s2": 96,
+      "t2": 10,
+      "ft": 172,
+      "ft2": 172,
+      "b": 64,
+      "hd": 34,
+      "g": 0,
+      "ua": 206,
+      "fa": 0,
+      "g2": 1,
+      "hx2": 268,
+      "hy2": 15,
+      "ed2": 1,
+      "cv": -20
+    }
+  },
+  "props": [],
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "QUADRUPED",
+        "ROTATION"
+      ],
+      "vo": "Quadruped Rotation: rotación torácica en cuatro apoyos. El codo entra y después abre el pecho.",
+      "moves": [
+        {
+          "cut": "QUAD",
+          "at": 0
+        },
+        {
+          "to": "TUCK",
+          "at": 0.6,
+          "dur": 1.1
+        },
+        {
+          "to": "OPEN",
+          "at": 2.4,
+          "dur": 1.2
+        },
+        {
+          "to": "QUAD",
+          "at": 4.0,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": null,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "CUATRO",
+        "APOYOS"
+      ],
+      "sub": "Manos bajo hombros",
+      "vo": "Manos bajo los hombros y rodillas bajo la cadera, con la espalda larga.",
+      "moves": [
+        {
+          "cut": "QUAD",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "CODO",
+        "ADENTRO"
+      ],
+      "sub": "Por debajo del cuerpo",
+      "vo": "Paso uno. Llevá el codo por debajo del cuerpo, redondeando un poco la espalda alta.",
+      "moves": [
+        {
+          "cut": "QUAD",
+          "at": 0
+        },
+        {
+          "to": "TUCK",
+          "at": 0.6,
+          "dur": 1.3
+        }
+      ]
+    },
+    {
+      "min": 6.2,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ABRÍ EL",
+        "PECHO"
+      ],
+      "sub": "Seguí el codo",
+      "vo": "Paso dos. Abrí el brazo hacia el techo y seguí el codo con la mirada.",
+      "moves": [
+        {
+          "cut": "TUCK",
+          "at": 0
+        },
+        {
+          "to": "OPEN",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Cadera que se mueve",
+      "vo": "Paso tres. Si la cadera se mueve o las rodillas se despegan, la rotación se pierde. Quedate quieto abajo.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "to": "HIP_BAD",
+          "at": 0.6,
+          "dur": 0.8
+        },
+        {
+          "to": "OPEN",
+          "at": 2.4,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Cadera y rodillas quietas",
+        "Rotación de espalda alta",
+        "Codo sigue la mirada",
+        "Lento, sin apuro"
+      ],
+      "vo": "Claves: cadera y rodillas quietas, rotación desde la espalda alta, mirada en el codo y nada de apuro.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0.1
+        }
+      ],
+      "shrink": 0.8
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Cada brazo",
+      "chips": [
+        {
+          "label": "1 · ADENTRO",
+          "at": 0.6
+        },
+        {
+          "label": "2 · ARRIBA",
+          "at": 2.4
+        }
+      ],
+      "vo": "Diez repeticiones con cada brazo. Cambiá de lado y mantené la cadera fija.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "TUCK",
+              1.2
+            ],
+            [
+              "OPEN",
+              1.6
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

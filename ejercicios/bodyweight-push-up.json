@@ -1,0 +1,285 @@
+{
+  "slug": "bodyweight-push-up",
+  "name": "Bodyweight Push Up",
+  "category": "CROSSFIT · HABILIDAD",
+  "tags": [
+    "Pecho",
+    "Tríceps",
+    "Core"
+  ],
+  "descripcion": "En plancha alta, se baja el cuerpo en bloque hasta tocar el piso con el pecho y se empuja hasta extender los brazos. El clásico que no perdona la cadera floja.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Bodyweight Push Up 🎯 flexiones con técnica | CrossFit",
+    "tags": [
+      "push up",
+      "flexiones",
+      "flexion de brazos",
+      "push up tecnica",
+      "crossfit",
+      "peso corporal",
+      "pecho",
+      "triceps",
+      "core"
+    ],
+    "descripcion": "🎬 BODYWEIGHT PUSH UP - flexiones con técnica\n\nLa flexión parece simple hasta que la cadera se hunde. Bajar en bloque y empujar parejo es toda la diferencia. 💪\n\n📝 PASO A PASO\n1️⃣ Arrancá en plancha alta, manos algo más anchas que los hombros y cuerpo en línea.\n2️⃣ Bajá todo el cuerpo junto hasta que el pecho toque el piso.\n3️⃣ Empujá el piso y volvé a extender los brazos sin perder la línea.\n4️⃣ Si cuesta, apoyá las rodillas o subí las manos a un cajón.\n\n✅ CLAVES DE TÉCNICA\n✔️ Cuerpo en línea\n✔️ Codos a 45°\n✔️ Pecho al piso\n✔️ Abdomen firme\n\n💪 QUÉ TRABAJA\nPectoral mayor · Deltoides anterior · Tríceps · Core\n\n⏱️ CUÁNTO\n10 repeticiones, 3 series. Base de todo WOD con peso corporal.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi la muñeca o el hombro molestan, usá un cajón para descargar peso.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #PushUp #PesoCorporal #Triceps #Core"
+  },
+  "miniatura": {
+    "pose": "DOWN",
+    "grip": 1,
+    "zoom": 1.12,
+    "dy": 39
+  },
+  "initialPose": "TOP",
+  "rig": {
+    "x": 230,
+    "y": 1504,
+    "scale": 0.85
+  },
+  "poses": {
+    "TOP": {
+      "s": 68.41,
+      "t": 68.41,
+      "rx": -20,
+      "ry": -40,
+      "ft": 118,
+      "b": 68.41,
+      "hd": 78,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": 15
+    },
+    "DOWN": {
+      "hip": [
+        400,
+        -165
+      ],
+      "ankle": [
+        -20,
+        -40
+      ],
+      "ft": 118,
+      "b": 84,
+      "hd": 96,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": 15
+    },
+    "SAG_BAD": {
+      "hip": [
+        430,
+        -150
+      ],
+      "ankle": [
+        -20,
+        -40
+      ],
+      "ft": 118,
+      "b": 55,
+      "hd": 70,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": 15
+    },
+    "PIKE_BAD": {
+      "hip": [
+        340,
+        -320
+      ],
+      "ankle": [
+        -20,
+        -40
+      ],
+      "ft": 118,
+      "b": 135,
+      "hd": 100,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": 15
+    }
+  },
+  "props": null,
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · HABILIDAD",
+      "head": [
+        "BODYWEIGHT",
+        "PUSH UP"
+      ],
+      "vo": "Bodyweight Push Up: la flexión de siempre, pero con el cuerpo en bloque y los codos a cuarenta y cinco.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 1.0,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": null,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PLANCHA",
+        "ALTA"
+      ],
+      "sub": "Manos bajo hombros",
+      "vo": "Arrancá en plancha alta, manos algo más anchas que los hombros y cuerpo en línea.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ",
+        "EN BLOQUE"
+      ],
+      "sub": "Pecho al piso",
+      "vo": "Paso uno. Bajá todo el cuerpo junto hasta que el pecho toque el piso.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.7,
+          "dur": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "EMPUJÁ",
+        "ARRIBA"
+      ],
+      "sub": "Brazos extendidos",
+      "vo": "Paso dos. Empujá el piso y volvé a extender los brazos sin perder la línea.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.6,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Cadera que se hunde",
+      "vo": "Paso tres. Si la cadera se hunde o se sube, el pecho no baja parejo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "SAG_BAD",
+          "at": 0.7,
+          "dur": 0.8
+        },
+        {
+          "to": "PIKE_BAD",
+          "at": 2.4,
+          "dur": 0.7
+        },
+        {
+          "to": "TOP",
+          "at": 3.6,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Cuerpo en línea",
+        "Codos a 45°",
+        "Pecho al piso",
+        "Abdomen firme"
+      ],
+      "vo": "Claves: cuerpo en línea, codos a cuarenta y cinco, pecho al piso y abdomen firme.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "3 series",
+      "chips": [
+        {
+          "label": "10 reps",
+          "at": 0.6
+        },
+        {
+          "label": "3 series",
+          "at": 1.2
+        },
+        {
+          "label": "60 s",
+          "at": 1.8
+        }
+      ],
+      "vo": "Diez repeticiones, tres series. Si se complica, apoyá las rodillas.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.1
+            ],
+            [
+              "TOP",
+              1.1
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

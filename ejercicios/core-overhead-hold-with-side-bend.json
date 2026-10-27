@@ -1,0 +1,260 @@
+{
+  "slug": "core-overhead-hold-with-side-bend",
+  "name": "Core Overhead Side Bend",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Core",
+    "Oblicuos",
+    "Hombro"
+  ],
+  "descripcion": "De pie, sostener una mancuerna con un brazo extendido sobre la cabeza. Realizar una flexión lateral del torso manteniendo el brazo overhead. Trabaja la estabilidad del core y el hombro.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Core Overhead Side Bend 🔥 Cintura y hombro firme paso a paso | CrossFit",
+    "tags": [
+      "core overhead hold with side bend",
+      "flexión lateral con mancuerna",
+      "core",
+      "oblicuos",
+      "hombro",
+      "mancuerna",
+      "crossfit",
+      "activación",
+      "fuerza",
+      "estabilidad"
+    ],
+    "descripcion": "🔥 CORE OVERHEAD SIDE BEND — core lateral y hombro estable con una mancuerna arriba\n\nSostener peso arriba mientras te inclinás de costado suena simple, hasta que el codo empieza a doblarse. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate con los pies al ancho de los hombros y la mancuerna bloqueada arriba, con el brazo alineado con el hombro.\n2️⃣ Inclinate de costado sin rotar el tronco ni la cadera, como si estuvieras entre dos vidrios.\n3️⃣ Mantené el abdomen firme y el brazo bloqueado arriba durante toda la bajada.\n4️⃣ Volvé lento al centro y cambiá de lado.\n\n✅ CLAVES DE TÉCNICA\n• Brazo bloqueado y alineado con el hombro\n• Inclinarse de costado, no rotar\n• Cadera quieta, sin acompañar el movimiento\n• Bajar y subir lento, con el abdomen firme\n• Mirada al frente, no al piso\n\n🎯 QUÉ TRABAJA\nCore lateral · Oblicuos · Deltoides anterior · Trapecio superior\n\n⏱️ CUÁNTO\n10 repeticiones por lado con 15 kg. Ideal como activación o accesorio de hombro y core.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés molestias en el hombro con peso arriba, empeá con una mancuerna liviana o sin carga y sumá de a poco.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Core #Oblicuos #Hombro #Mancuerna"
+  },
+  "miniatura": {
+    "pose": "LEAN",
+    "grip": 1,
+    "zoom": 1.25,
+    "dy": 235
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 180,
+      "fa": 0,
+      "ua2": 8,
+      "fa2": 8
+    },
+    "LEAN": {
+      "s": 0,
+      "t": 0,
+      "b": -3,
+      "hd": -5,
+      "g": 0,
+      "ua": 186,
+      "fa": 2,
+      "ua2": 10,
+      "fa2": 12,
+      "rx": 26
+    },
+    "BAD": {
+      "s": 0,
+      "t": 0,
+      "b": -2,
+      "hd": 8,
+      "g": 0,
+      "ua": 140,
+      "fa": 70,
+      "ua2": 6,
+      "fa2": 10,
+      "rx": 10
+    }
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "side": true,
+      "hand": "near"
+    }
+  ],
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "CORE OVERHEAD",
+        "SIDE BEND"
+      ],
+      "vo": "Core Overhead Hold with Side Bend: mancuerna arriba y una flexión lateral que enciende todo el costado.",
+      "topview": {
+        "mode": "lean",
+        "angle": -18,
+        "dur": 1.6,
+        "label": "SIN ROTAR",
+        "at": 0.6,
+        "back": 3.2
+      },
+      "moves": [
+        {
+          "to": "LEAN",
+          "at": 0.6,
+          "dur": 1.2
+        },
+        {
+          "to": "STAND",
+          "at": 3.2,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BRAZO",
+        "ARRIBA"
+      ],
+      "sub": "Mancuerna bloqueada",
+      "vo": "Parate con los pies al ancho de los hombros y la mancuerna bloqueada arriba, con el brazo alineado con el hombro.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "INCLINATE",
+        "DE COSTADO"
+      ],
+      "sub": "Como entre dos vidrios",
+      "vo": "Paso uno. Inclinate de costado sin rotar el tronco ni la cadera, como si estuvieras entre dos vidrios.",
+      "topview": {
+        "mode": "lean",
+        "angle": -18,
+        "dur": 1.4,
+        "label": "SIN ROTAR",
+        "at": 0.6
+      },
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "LEAN",
+          "at": 0.6,
+          "dur": 1.5
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ABDOMEN",
+        "FIRME"
+      ],
+      "sub": "Brazo bloqueado",
+      "vo": "Paso dos. Mantené el abdomen firme y el brazo bloqueado arriba durante toda la bajada.",
+      "moves": [
+        {
+          "cut": "LEAN",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 6.2,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Codo doblado y mirada abajo",
+      "vo": "Paso tres. Si doblás el codo o mirás al piso, la carga se va del core. Brazo largo y mirada al frente.",
+      "moves": [
+        {
+          "cut": "LEAN",
+          "at": 0
+        },
+        {
+          "to": "BAD",
+          "at": 1.0,
+          "dur": 0.8
+        },
+        {
+          "to": "LEAN",
+          "at": 2.8,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Brazo bloqueado arriba",
+        "Sin rotar el tronco",
+        "Cadera quieta",
+        "Bajar y subir lento"
+      ],
+      "vo": "Claves: brazo bloqueado, sin rotar el tronco, cadera quieta y un ritmo lento en cada repetición.",
+      "moves": [
+        {
+          "cut": "LEAN",
+          "at": 0.1
+        }
+      ],
+      "shrink": 0.7
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 POR LADO"
+      ],
+      "sub": "Con 15 kg",
+      "chips": [
+        {
+          "label": "1 · INCLINÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · VOLVÉ",
+          "at": 2.0
+        }
+      ],
+      "vo": "Diez repeticiones por lado con quince kilos. Si el brazo se dobla, bajá el peso antes que la técnica.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "LEAN",
+              1.4
+            ],
+            [
+              "STAND",
+              1.2
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

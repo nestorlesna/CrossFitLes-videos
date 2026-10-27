@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Band Row",
+      "text": "Con la banda anclada adelante, tirás del remo sin levantar el torso."
+    },
+    {
+      "id": "02",
+      "text": "Anclá la banda a la altura de la cadera y agarrá las puntas con una bisagra firme."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Llevá los codos atrás, pegados al cuerpo, hasta la cadera, apretando la espalda."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Volvé controlado hasta estirar los brazos, sin perder la bisagra ni redondear."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si el torso se levanta o la espalda se redondea, la banda te está ganando: aflojá."
+    },
+    {
+      "id": "06",
+      "text": "Claves: torso firme, codos pegados, espalda neutra y la banda siempre tensa."
+    },
+    {
+      "id": "07",
+      "text": "Quince repeticiones, tres series. Elegí una banda que te deje terminar la última serie."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

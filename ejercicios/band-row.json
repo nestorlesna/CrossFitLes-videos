@@ -1,0 +1,379 @@
+{
+  "slug": "band-row",
+  "name": "Band Row",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Dorsal",
+    "Espalda alta",
+    "Bíceps"
+  ],
+  "descripcion": "Remo con banda elástica: con la banda anclada al frente y una bisagra firme, tirás los codos atrás hacia la cadera. Espalda sin cargar la lumbar.",
+  "revisado": false,
+  "notas": "Bisagra de barbell-bent-over-row (hip+ankle) sin barra: la mano se ubica con g 1 + hx/hy y la banda va del ancla frontal a las dos manos.",
+  "youtube": {
+    "titulo": "Band Row 🎯 remo con banda elástica | CrossFit",
+    "tags": [
+      "band row",
+      "remo con banda",
+      "remo elastico",
+      "banda elastica",
+      "espalda",
+      "dorsal",
+      "crossfit",
+      "fuerza",
+      "remo"
+    ],
+    "descripcion": "🎬 Band Row 🎯 remo con banda elástica | CrossFit\nSin barra y sin polea: una banda anclada al frente y la misma bisagra del remo. Ideal para sumar volumen de espalda sin castigar la lumbar. 🎯\n\n📝 PASO A PASO\n1️⃣ Anclá la banda a la altura de la cadera y agarrá las puntas con las dos manos.\n2️⃣ Hacé bisagra de cadera con la espalda neutra y las rodillas suaves.\n3️⃣ Tirá los codos atrás, pegados al cuerpo, hasta la cadera.\n4️⃣ Volvé controlado hasta estirar los brazos, sin perder la bisagra.\n\n✅ CLAVES DE TÉCNICA\n✔️ Torso firme\n✔️ Codos pegados al cuerpo\n✔️ Espalda neutra\n✔️ La banda siempre tensa\n\n💪 QUÉ TRABAJA\nDorsal · Bíceps · Trapecio medio · Romboides · Isquios (sostienen la bisagra)\n\n⏱️ CUÁNTO\n15 repeticiones, 3 series. Elegí una banda que te deje terminar la última serie.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nLa banda tiene que quedar tensa desde el arranque: si al estirar los brazos se afloja, acortá el agarre o alejate del ancla.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #BandRow #Espalda #Dorsal #BandaElastica"
+  },
+  "miniatura": {
+    "pose": "PULL",
+    "grip": 1,
+    "zoom": 1.12,
+    "dy": 150
+  },
+  "initialPose": "SET",
+  "rig": {
+    "x": 470,
+    "y": 1500,
+    "scale": 0.8
+  },
+  "props": [
+    {
+      "type": "band",
+      "anchor": [
+        500,
+        -300
+      ],
+      "post": [
+        520,
+        1240
+      ],
+      "hand": "both"
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 8,
+      "fa": 8,
+      "ua2": 8,
+      "fa2": 8
+    },
+    "SET": {
+      "hip": [
+        -150,
+        -300
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 44,
+      "hd": 40,
+      "g": 1,
+      "hx": 130,
+      "hy": -190,
+      "g2": 0,
+      "ua2": 24,
+      "fa2": 8
+    },
+    "PULL": {
+      "hip": [
+        -150,
+        -300
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 44,
+      "hd": 40,
+      "g": 1,
+      "hx": 20,
+      "hy": -305,
+      "ed": -1,
+      "g2": 0,
+      "ua2": 24,
+      "fa2": 8
+    },
+    "ROUND_BAD": {
+      "hip": [
+        -150,
+        -300
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 44,
+      "hd": 80,
+      "cv": 30,
+      "g": 1,
+      "hx": 130,
+      "hy": -190,
+      "g2": 0,
+      "ua2": 24,
+      "fa2": 8
+    },
+    "STAND_BAD": {
+      "hip": [
+        -30,
+        -400
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 16,
+      "hd": 8,
+      "g": 1,
+      "hx": 120,
+      "hy": -420,
+      "g2": 0,
+      "ua2": 24,
+      "fa2": 8
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "BAND",
+        "ROW"
+      ],
+      "vo": "Band Row: con la banda anclada adelante, tirás del remo sin levantar el torso.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "SET",
+              0.5
+            ],
+            [
+              "PULL",
+              0.45
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BISAGRA",
+        "Y BANDA"
+      ],
+      "sub": "Ancla a la altura de la cadera",
+      "vo": "Anclá la banda a la altura de la cadera y agarrá las puntas con una bisagra firme.",
+      "moves": [
+        {
+          "cut": "SET",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "PASO 1 / 3",
+      "numeral": "1",
+      "head": [
+        "CODO",
+        "A LA CADERA"
+      ],
+      "sub": "Pegado al cuerpo",
+      "vo": "Paso uno. Llevá los codos atrás, pegados al cuerpo, hasta la cadera, apretando la espalda.",
+      "moves": [
+        {
+          "cut": "SET",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.7,
+          "dur": 0.6
+        },
+        {
+          "to": "SET",
+          "at": 2.2,
+          "dur": 0.7
+        },
+        {
+          "to": "PULL",
+          "at": 3.4,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "PASO 2 / 3",
+      "numeral": "2",
+      "head": [
+        "VOLVÉ",
+        "CONTROLADO"
+      ],
+      "sub": "Sin perder la bisagra",
+      "vo": "Paso dos. Volvé controlado hasta estirar los brazos, sin perder la bisagra ni redondear.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "SET",
+          "at": 0.7,
+          "dur": 0.8
+        },
+        {
+          "to": "PULL",
+          "at": 2.4,
+          "dur": 0.6
+        },
+        {
+          "to": "SET",
+          "at": 3.4,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "PASO 3 / 3",
+      "numeral": "3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Torso arriba o espalda redonda",
+      "vo": "Paso tres. Si el torso se levanta o la espalda se redondea, la banda te está ganando: aflojá.",
+      "moves": [
+        {
+          "cut": "SET",
+          "at": 0
+        },
+        {
+          "to": "STAND_BAD",
+          "at": 1.2,
+          "dur": 0.6
+        },
+        {
+          "to": "SET",
+          "at": 2.4,
+          "dur": 0.6
+        },
+        {
+          "to": "ROUND_BAD",
+          "at": 3.4,
+          "dur": 0.6
+        },
+        {
+          "to": "SET",
+          "at": 4.4,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "shrink": 0.7,
+      "head": [
+        "TÉCNICA"
+      ],
+      "vo": "Claves: torso firme, codos pegados, espalda neutra y la banda siempre tensa.",
+      "keys": [
+        "Torso firme",
+        "Codos pegados",
+        "Espalda neutra",
+        "Banda tensa"
+      ],
+      "moves": [
+        {
+          "cut": "SET",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "SET",
+              0.5
+            ],
+            [
+              "PULL",
+              0.45
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "sub": "Ritmo controlado",
+      "head": [
+        "15 REPETICIONES"
+      ],
+      "vo": "Quince repeticiones, tres series. Elegí una banda que te deje terminar la última serie.",
+      "chips": [
+        {
+          "label": "1 · TIRÁ",
+          "at": 0.4
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 0.9
+        },
+        {
+          "label": "3 · VOLVÉ",
+          "at": 1.2
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "SET",
+              0.5
+            ],
+            [
+              "PULL",
+              0.45
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "music": true,
+  "musicVolume": 0.18,
+  "pronuncia": {
+    "Kettlebell": "Ketelbel",
+    "kettlebell": "ketelbel",
+    "clean": "clin",
+    "press": "pres",
+    "rack": "rac",
+    "row": "rou",
+    "crunch": "cranch",
+    "toe touch": "tou toch",
+    "Deadlift": "dedlift",
+    "Romanian": "Rrouméinian",
+    "Single-Leg": "singol leg",
+    "Ab Wheel": "ab güil",
+    "rollout": "rolaut",
+    "Dumbbell": "dambel"
+  }
+}

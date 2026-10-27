@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Clamshell Hold",
+      "text": "La almeja. Glúteo medio encendido y rodilla más estable en un isométrico corto."
+    },
+    {
+      "id": "02",
+      "text": "Acostate de costado con las rodillas flexionadas y los pies juntos. La cadera y los hombros quedan apilados."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Abrí la rodilla de arriba como una almeja, sin mover el pie ni la cadera."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Sostené arriba con el glúteo apretado. No hace falta abrir más: la apertura es corta y firme."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si girás la pelvis hacia atrás para abrir más, el glúteo deja de trabajar. Quedate de perfil."
+    },
+    {
+      "id": "06",
+      "text": "Claves: pelvis de perfil, pies juntos, apertura corta y sostenida, y nada de impulso para subir la rodilla."
+    },
+    {
+      "id": "07",
+      "text": "Veinticinco segundos por lado. Va perfecto en la activación, antes de sentadillas o de correr."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

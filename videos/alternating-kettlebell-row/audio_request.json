@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Alternating Kettlebell Row",
+      "text": "Bisagra firme y el codo tira hacia la cadera, un brazo por vez."
+    },
+    {
+      "id": "02",
+      "text": "Bisagra de cadera con la espalda neutra, las rodillas suaves y una ketelbel en cada mano."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Remá un brazo llevando el codo pegado al cuerpo, hacia la cadera, mientras el otro brazo cuelga."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá controlado y cambiá de brazo, sin rotar el tronco ni levantarlo de la bisagra."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si levantás el torso lo convertís en un remo parado, y si redondeás la espalda el peso se va a la lumbar."
+    },
+    {
+      "id": "06",
+      "text": "Claves: torso firme y paralelo al piso, codo pegado al cuerpo, sin rotar el tronco y espalda neutra."
+    },
+    {
+      "id": "07",
+      "text": "Doce repeticiones con quince kilos, tres series. Alterná un brazo por vez."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

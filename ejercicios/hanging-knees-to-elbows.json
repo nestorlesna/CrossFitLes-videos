@@ -1,0 +1,290 @@
+{
+  "slug": "hanging-knees-to-elbows",
+  "name": "Hanging Knees to Elbows",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Core",
+    "Colgado",
+    "Compresión"
+  ],
+  "descripcion": "Colgado de la barra, llevar las rodillas a tocar los codos. Core y flexores de cadera.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Hanging Knees to Elbows 🎯 rodillas a los codos colgado de la barra | CrossFit",
+    "tags": [
+      "hanging knees to elbows",
+      "rodillas a los codos",
+      "core",
+      "barra",
+      "colgado",
+      "crossfit",
+      "wod",
+      "flexores de cadera",
+      "abdominales",
+      "compresion"
+    ],
+    "descripcion": "🎬 HANGING KNEES TO ELBOWS - rodillas a los codos\nColgado de la barra, el objetivo es comprimir: rodillas al codo sin columpiarte de más. Parece de brazos, pero el que trabaja es el core. 💪\n\n📝 PASO A PASO\n1️⃣ Colgate con las escápulas activas y el agarre firme.\n2️⃣ Hacé un balanceo corto y controlado, escápulas atrás y adelante.\n3️⃣ Llevá las rodillas a tocar los codos redondeando la espalda (compresión).\n4️⃣ Bajá controlado, sin perder el ritmo, y encadená la próxima.\n\n✅ CLAVES DE TÉCNICA\n✔️ Escápulas activas\n✔️ Rodillas al codo\n✔️ Espalda redondeada arriba\n✔️ Bajada controlada\n\n💪 QUÉ TRABAJA\nRecto abdominal · Oblicuos · Flexores de cadera · Dorsal ancho\n\n⏱️ CUÁNTO\n7 repeticiones, 3 series. Si te cuesta la compresión, empezá con rodillas altas sin llegar al codo.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nSi la barra te queda alta, usá un cajón para llegar y bajá con control. Nunca sueltes de golpe.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Core #Barra #WOD #Compresion"
+  },
+  "miniatura": {
+    "pose": "KNEES",
+    "grip": 1,
+    "zoom": 1.4,
+    "dy": 460
+  },
+  "initialPose": "HANG",
+  "rig": {
+    "x": 600,
+    "y": 1504,
+    "scale": 0.66
+  },
+  "props": [
+    {
+      "type": "pullupbar",
+      "bar": [
+        0,
+        -1170
+      ],
+      "postX": -430
+    }
+  ],
+  "poses": {
+    "HANG": {
+      "hip": [
+        0.0,
+        -562.0
+      ],
+      "b": 0,
+      "t": 0,
+      "s": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40
+    },
+    "HOLLOW": {
+      "hip": [
+        18.2,
+        -572.1
+      ],
+      "b": -12,
+      "t": -16,
+      "s": -16,
+      "hd": -10,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40
+    },
+    "KNEES": {
+      "hip": [
+        0.0,
+        -780.0
+      ],
+      "b": -30.0,
+      "t": -172.2,
+      "s": -6,
+      "hd": -24,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 10
+    },
+    "SWING_BAD": {
+      "hip": [
+        40.0,
+        -556.0
+      ],
+      "b": 22,
+      "t": 40,
+      "s": 34,
+      "hd": 26,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "HANGING",
+        "KNEES TO ELBOWS"
+      ],
+      "vo": "Hanging Knees to Elbows: colgado de la barra, rodillas a los codos. Core que comprime.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "KNEES",
+          "at": 0.8,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "COLGADO",
+        "DE LA BARRA"
+      ],
+      "sub": "Escápulas activas",
+      "vo": "Colgate con las escápulas activas y el agarre firme, sin perder la tensión.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BALANCEO",
+        "CORTO"
+      ],
+      "sub": "Sin columpiarte",
+      "vo": "Paso uno. Hacé un balanceo corto y controlado, llevando las escápulas atrás y adelante.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "HOLLOW",
+          "at": 0.8,
+          "dur": 0.7
+        },
+        {
+          "to": "HANG",
+          "at": 1.8,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "RODILLAS",
+        "A LOS CODOS"
+      ],
+      "sub": "Redondeá la espalda",
+      "vo": "Paso dos. Llevá las rodillas a tocar los codos redondeando la espalda en la compresión.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "KNEES",
+          "at": 0.7,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Columpio sin compresión",
+      "vo": "Paso tres. Si te columpiás y no comprimís, las rodillas nunca llegan a los codos.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "SWING_BAD",
+          "at": 0.7,
+          "dur": 0.8
+        },
+        {
+          "to": "HANG",
+          "at": 2.6,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Escápulas activas",
+        "Rodillas al codo",
+        "Espalda redondeada",
+        "Bajada controlada"
+      ],
+      "vo": "Claves: escápulas activas, rodillas al codo, espalda redondeada arriba y bajada controlada.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "7 REPETICIONES"
+      ],
+      "sub": "3 series",
+      "chips": [
+        {
+          "label": "7 reps",
+          "at": 0.6
+        },
+        {
+          "label": "3 series",
+          "at": 1.2
+        },
+        {
+          "label": "60 s",
+          "at": 1.8
+        }
+      ],
+      "vo": "Siete repeticiones, tres series. Bajá controlado y mantené el ritmo.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "HANG",
+              0.7
+            ],
+            [
+              "KNEES",
+              0.8
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

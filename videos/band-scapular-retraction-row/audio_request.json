@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Band Scapular Retraction Row",
+      "text": "Un remo corto, con los brazos rectos, para activar la espalda alta."
+    },
+    {
+      "id": "02",
+      "text": "Banda anclada al frente, brazos extendidos y la espalda apenas redondeada, sin peso."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Sin doblar los codos, llevá los omóplatos atrás y abajo: el movimiento es corto."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Sostené un segundo y volvé despacio, dejando que los hombros se vayan adelante."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si doblás los codos se convierte en un remo común, y si estirás el cuello no trabaja la espalda alta."
+    },
+    {
+      "id": "06",
+      "text": "Claves: codos rectos, omóplatos atrás y abajo, recorrido corto y sin encoger el cuello."
+    },
+    {
+      "id": "07",
+      "text": "Doce repeticiones lentas, tres series. Es activación: no busques peso, buscá sentir la espalda."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

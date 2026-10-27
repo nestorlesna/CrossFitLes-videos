@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Bird Dog Hold",
+      "text": "Un brazo, la pierna contraria y la cadera quieta, sin arquear la lumbar."
+    },
+    {
+      "id": "02",
+      "text": "Cuadrupedia con las manos bajo los hombros, las rodillas bajo la cadera y la espalda plana."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Extendé un brazo al frente y la pierna contraria atrás, a la altura de la cadera."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Sostené sin que la cadera gire ni la lumbar se arquee. El abdomen va firme."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si la cadera gira o la pierna sube más que el torso, perdés el control. Bajá el rango."
+    },
+    {
+      "id": "06",
+      "text": "Claves: cadera nivelada, brazo y pierna a la altura del torso, lumbar neutra y sin girar."
+    },
+    {
+      "id": "07",
+      "text": "Veinte segundos por lado, tres series. Si la cadera gira, bajá el rango de la pierna."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

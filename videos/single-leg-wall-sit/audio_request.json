@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Single-Leg Wall Sit",
+      "text": "Sentadilla isométrica en la pared con una pierna extendida. Cuádriceps y core en llamas."
+    },
+    {
+      "id": "02",
+      "text": "Espalda y cadera pegadas a la pared, pies alejados y rodillas a noventa grados."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Deslizate hasta que los muslos queden paralelos al piso y las rodillas a noventa."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Levantá una pierna y extendela al frente, sin mover la cadera ni la espalda."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si la cadera se despega de la pared o la rodilla se va para adentro, acomodate."
+    },
+    {
+      "id": "06",
+      "text": "Claves: espalda y cadera en la pared, rodilla alineada con el pie, pierna extendida y core activo."
+    },
+    {
+      "id": "07",
+      "text": "Veinte segundos con cada pierna. Bajá y cambiá de lado sin apuro."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

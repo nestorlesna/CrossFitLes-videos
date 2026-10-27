@@ -69,6 +69,9 @@ Flags: `--force-tts`, `--no-check`, `--no-snapshot`, `--prefijo=OC` (con `--rend
 
 Para generar varios videos con otra herramienta o modelo: seguir **`GENERAR_VIDEOS.md`** (raíz del proyecto).
 
+**Videos largos 16:9** (rutinas o explicaciones a partir de un video de YouTube, con capítulos, cuenta regresiva y
+consejos): **`GENERAR_VIDEOS_LARGOS.md`** + `plantilla/largo/` (usa este mismo personaje y las mismas poses).
+
 Flujo recomendado: escribir la ficha → `make-exercise <slug>` → mirar el contact sheet / preview → ajustar poses → `--render` → cuando el profe lo aprueba, `"revisado": true` y `--checklist`.
 
 ## Formato de la ficha

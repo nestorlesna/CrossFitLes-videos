@@ -1,0 +1,321 @@
+{
+  "slug": "single-leg-wall-sit",
+  "name": "Single-Leg Wall Sit",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Cuádriceps",
+    "Core",
+    "Glúteo"
+  ],
+  "descripcion": "Sentadilla isométrica contra la pared con una pierna extendida al frente. Todo el peso queda en la pierna de apoyo, con la espalda bien pegada.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Single-Leg Wall Sit 🎯 isométrico a una pierna en la pared | CrossFit",
+    "tags": [
+      "single leg wall sit",
+      "sentadilla en la pared",
+      "isometrico",
+      "una pierna",
+      "crossfit",
+      "fuerza",
+      "cuadriceps",
+      "core",
+      "wall sit",
+      "piernas"
+    ],
+    "descripcion": "🎬 SINGLE-LEG WALL SIT - isométrico a una pierna en la pared\n\n¿Aguantas una sentadilla en la pared? Ahora hacelo con una sola pierna. Este isométrico quema cuádriceps y enciende el core. 🧱\n\n📝 PASO A PASO\n1️⃣ Apoyá la espalda y la cadera en la pared, con los pies alejados de la pared.\n2️⃣ Deslizate hasta que los muslos queden paralelos al piso y las rodillas a 90 grados.\n3️⃣ Levantá una pierna y extendela al frente, sin mover la cadera ni la espalda.\n4️⃣ Sostené y cambiá de pierna. Si la cadera se despega, acomodate.\n\n✅ CLAVES DE TÉCNICA\n✔️ Espalda y cadera en la pared\n✔️ Rodilla alineada con el pie\n✔️ Pierna extendida\n✔️ Core activo\n\n💪 QUÉ TRABAJA\nCuádriceps · Glúteos · Core\n\n⏱️ CUÁNTO\n20 segundos con cada pierna. Si todavía no llegás, hacelo con las dos y andá progresando.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi sentís dolor en la rodilla de apoyo, subí un poco menos y revisá que la rodilla no se vaya para adentro.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Fuerza #WallSit #Isometrico #Cuadriceps"
+  },
+  "miniatura": {
+    "pose": "ONE_LEG",
+    "zoom": 1.2,
+    "dy": 160
+  },
+  "initialPose": "STAND",
+  "rig": {
+    "x": 520,
+    "y": 1500,
+    "scale": 0.88
+  },
+  "poses": {
+    "STAND": {
+      "hip": [
+        -200,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "HALF": {
+      "hip": [
+        -240,
+        -320
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "ua": 90,
+      "fa": 0
+    },
+    "SIT": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "ua": 90,
+      "fa": 0
+    },
+    "ONE_LEG": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        229,
+        -232
+      ],
+      "ft2": -30,
+      "b": 2,
+      "hd": 4,
+      "ua": 90,
+      "fa": 0
+    },
+    "GAP_BAD": {
+      "hip": [
+        -205,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        264,
+        -232
+      ],
+      "ft2": -30,
+      "b": 12,
+      "hd": 12,
+      "ua": 90,
+      "fa": 0
+    }
+  },
+  "props": [
+    {
+      "type": "wall",
+      "x": -330,
+      "h": 760
+    }
+  ],
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "SINGLE-LEG",
+        "WALL SIT"
+      ],
+      "vo": "Single-Leg Wall Sit: sentadilla isométrica en la pared con una pierna extendida. Cuádriceps y core en llamas.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "to": "SIT",
+          "at": 1.6,
+          "dur": 0.9
+        },
+        {
+          "to": "ONE_LEG",
+          "at": 3.0,
+          "dur": 1.1
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": null,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESPALDA",
+        "EN LA PARED"
+      ],
+      "sub": "Pies alejados de la pared",
+      "vo": "Espalda y cadera pegadas a la pared, pies alejados y rodillas a noventa grados.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.8,
+          "dur": 1.0
+        },
+        {
+          "to": "SIT",
+          "at": 1.9,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ A",
+        "NOVENTA"
+      ],
+      "sub": "Rodillas a 90°",
+      "vo": "Paso uno. Deslizate hasta que los muslos queden paralelos al piso y las rodillas a noventa.",
+      "moves": [
+        {
+          "cut": "SIT",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 2.0,
+          "dur": 0.6
+        },
+        {
+          "to": "SIT",
+          "at": 2.9,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 6.2,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "UNA PIERNA",
+        "AL FRENTE"
+      ],
+      "sub": "Sin mover la cadera",
+      "vo": "Paso dos. Levantá una pierna y extendela al frente, sin mover la cadera ni la espalda.",
+      "moves": [
+        {
+          "cut": "SIT",
+          "at": 0
+        },
+        {
+          "to": "ONE_LEG",
+          "at": 0.6,
+          "dur": 1.3
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Cadera que se despega",
+      "vo": "Paso tres. Si la cadera se despega de la pared o la rodilla se va para adentro, acomodate.",
+      "moves": [
+        {
+          "cut": "ONE_LEG",
+          "at": 0
+        },
+        {
+          "to": "GAP_BAD",
+          "at": 0.6,
+          "dur": 0.8
+        },
+        {
+          "to": "ONE_LEG",
+          "at": 2.4,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Espalda y cadera en la pared",
+        "Rodilla alineada con el pie",
+        "Pierna extendida",
+        "Core activo"
+      ],
+      "vo": "Claves: espalda y cadera en la pared, rodilla alineada con el pie, pierna extendida y core activo.",
+      "moves": [
+        {
+          "cut": "ONE_LEG",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "20 SEGUNDOS"
+      ],
+      "sub": "Por pierna",
+      "chips": [
+        {
+          "label": "1 · SOSTENÉ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · CAMBIÁ",
+          "at": 3.0
+        }
+      ],
+      "vo": "Veinte segundos con cada pierna. Bajá y cambiá de lado sin apuro.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "ONE_LEG",
+              2.6
+            ],
+            [
+              "SIT",
+              0.8
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

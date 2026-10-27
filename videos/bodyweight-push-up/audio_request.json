@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Bodyweight Push Up",
+      "text": "La flexión de siempre, pero con el cuerpo en bloque y los codos a cuarenta y cinco."
+    },
+    {
+      "id": "02",
+      "text": "Arrancá en plancha alta, manos algo más anchas que los hombros y cuerpo en línea."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá todo el cuerpo junto hasta que el pecho toque el piso."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Empujá el piso y volvé a extender los brazos sin perder la línea."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si la cadera se hunde o se sube, el pecho no baja parejo."
+    },
+    {
+      "id": "06",
+      "text": "Claves: cuerpo en línea, codos a cuarenta y cinco, pecho al piso y abdomen firme."
+    },
+    {
+      "id": "07",
+      "text": "Diez repeticiones, tres series. Si se complica, apoyá las rodillas."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

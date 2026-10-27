@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Bodyweight Glute Bridge",
+      "text": "Subí la cadera empujando con los talones. Glúteo puro, sin arquear."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba con las rodillas flexionadas y los pies al ancho de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Empujá con los talones y subí la cadera hasta alinear rodillas, cadera y hombros."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Arriba, apretá el glúteo un segundo con las costillas abajo, sin arquear la lumbar."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si subís de más y arquís la lumbar, el glúteo deja de trabajar y aparece la espalda."
+    },
+    {
+      "id": "06",
+      "text": "Claves: empujá con los talones, costillas abajo, rodillas alineadas y pausa arriba."
+    },
+    {
+      "id": "07",
+      "text": "Diez repeticiones, tres series. Pausá un segundo arriba en cada una."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

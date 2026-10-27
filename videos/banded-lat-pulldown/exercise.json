@@ -1,0 +1,350 @@
+{
+  "slug": "banded-lat-pulldown",
+  "name": "Banded Lat Pulldown",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Dorsal",
+    "Espalda",
+    "Bíceps"
+  ],
+  "descripcion": "Jalón al pecho con banda anclada arriba: los codos bajan hacia las costillas y la espalda hace el trabajo. La versión casera de la polea alta.",
+  "revisado": false,
+  "notas": "Banda anclada arriba (post 1400) y manos con ua/fa: UP brazos extendidos sobre la cabeza, DOWN codos abajo con las manos al pecho (ua 120 / fa 140).",
+  "youtube": {
+    "titulo": "Banded Lat Pulldown 🎯 jalón al pecho con banda | CrossFit",
+    "tags": [
+      "banded lat pulldown",
+      "jalon con banda",
+      "lat pulldown",
+      "dorsal",
+      "espalda",
+      "banda elastica",
+      "crossfit",
+      "gimnasio",
+      "tiron"
+    ],
+    "descripcion": "🎬 Banded Lat Pulldown 🎯 jalón al pecho con banda | CrossFit\nLa polea alta son dos metros de banda y un ancla. El jalón trabaja el dorsal sin sacarte de la barra: codos abajo, pecho arriba. 🎯\n\n📝 PASO A PASO\n1️⃣ Anclá la banda bien arriba y agarrá las puntas con los brazos extendidos.\n2️⃣ Bajá los codos hacia las costillas llevando la banda al pecho, sin mover el torso.\n3️⃣ Apretá un segundo abajo, con los omóplatos juntos.\n4️⃣ Volvé controlando la banda hasta estirar los brazos del todo.\n\n✅ CLAVES DE TÉCNICA\n✔️ Codos abajo y atrás\n✔️ Pecho arriba\n✔️ Sin encogerte\n✔️ La banda siempre tensa\n\n💪 QUÉ TRABAJA\nDorsal ancho · Bíceps · Trapecio medio · Romboides · Core (sostiene el torso)\n\n⏱️ CUÁNTO\n12 repeticiones, 3 series. Si te sobra banda, acortá el agarre o cambiá a una más fuerte.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nEl jalón se mide en los codos: si bajan hacia las costillas, el dorsal tira. Si el cuerpo se va atrás para llegar, el peso es demasiado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Dorsal #Espalda #BandaElastica #Jalon"
+  },
+  "miniatura": {
+    "pose": "DOWN",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 250
+  },
+  "initialPose": "UP",
+  "rig": {
+    "x": 480,
+    "y": 1500,
+    "scale": 0.8
+  },
+  "props": [
+    {
+      "type": "band",
+      "anchor": [
+        200,
+        -1400
+      ],
+      "post": [
+        220,
+        1400
+      ],
+      "hand": "both"
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 8,
+      "fa": 8,
+      "ua2": 8,
+      "fa2": 8
+    },
+    "UP": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 172,
+      "fa": 0,
+      "ua2": 172,
+      "fa2": 0
+    },
+    "DOWN": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 22,
+      "fa": 138,
+      "ua2": 22,
+      "fa2": 138
+    },
+    "SHRUG_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 100,
+      "fa": 80,
+      "ua2": 100,
+      "fa2": 80
+    },
+    "LEAN_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": -26,
+      "hd": -14,
+      "cv": -20,
+      "g": 0,
+      "ua": 22,
+      "fa": 138,
+      "ua2": 22,
+      "fa2": 138
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "LAT",
+        "PULLDOWN"
+      ],
+      "vo": "Banded Lat Pulldown: la banda arriba y los codos abajo, sin encoger los hombros.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "UP",
+              0.6
+            ],
+            [
+              "DOWN",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BANDA",
+        "BIEN ARRIBA"
+      ],
+      "sub": "Brazos extendidos",
+      "vo": "Anclá la banda bien arriba y agarrá las puntas con los brazos extendidos sobre la cabeza.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "PASO 1 / 3",
+      "numeral": "1",
+      "head": [
+        "CODO",
+        "A LA COSTILLA"
+      ],
+      "sub": "La banda al pecho",
+      "vo": "Paso uno. Bajá los codos hacia las costillas y llevá la banda al pecho, sin mover el torso.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.7,
+          "dur": 0.7
+        },
+        {
+          "to": "UP",
+          "at": 2.4,
+          "dur": 0.8
+        },
+        {
+          "to": "DOWN",
+          "at": 3.6,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "PASO 2 / 3",
+      "numeral": "2",
+      "head": [
+        "APRETÁ",
+        "Y VOLVÉ"
+      ],
+      "sub": "Un segundo abajo",
+      "vo": "Paso dos. Apretá un segundo abajo y volvé controlando la banda hasta estirar los brazos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 1.0,
+          "dur": 0.9
+        },
+        {
+          "to": "DOWN",
+          "at": 2.8,
+          "dur": 0.7
+        },
+        {
+          "to": "UP",
+          "at": 4.0,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "PASO 3 / 3",
+      "numeral": "3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Codos altos o colgado atrás",
+      "vo": "Paso tres. Si los codos se van para arriba o te colgás atrás, el dorsal deja de trabajar: quedate firme.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "SHRUG_BAD",
+          "at": 1.2,
+          "dur": 0.6
+        },
+        {
+          "to": "DOWN",
+          "at": 2.4,
+          "dur": 0.6
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 3.4,
+          "dur": 0.6
+        },
+        {
+          "to": "DOWN",
+          "at": 4.6,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "shrink": 0.7,
+      "head": [
+        "TÉCNICA"
+      ],
+      "vo": "Claves: codos abajo y atrás, pecho arriba, sin encogerte y la banda siempre tensa.",
+      "keys": [
+        "Codos abajo",
+        "Pecho arriba",
+        "Sin encogerte",
+        "Banda tensa"
+      ],
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              0.6
+            ],
+            [
+              "DOWN",
+              0.5
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "sub": "Codos hacia las costillas",
+      "head": [
+        "12 REPETICIONES"
+      ],
+      "vo": "Doce repeticiones, tres series. Si te sobra banda, acortá el agarre o cambiá a una más fuerte.",
+      "chips": [
+        {
+          "label": "1 · ARRIBA",
+          "at": 0.4
+        },
+        {
+          "label": "2 · TIRÁ",
+          "at": 0.9
+        },
+        {
+          "label": "3 · APRETÁ",
+          "at": 1.2
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "UP",
+              0.6
+            ],
+            [
+              "DOWN",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "music": true,
+  "musicVolume": 0.18,
+  "pronuncia": {
+    "Kettlebell": "Ketelbel",
+    "kettlebell": "ketelbel",
+    "clean": "clin",
+    "press": "pres",
+    "rack": "rac",
+    "row": "rou",
+    "crunch": "cranch",
+    "toe touch": "tou toch",
+    "Deadlift": "dedlift",
+    "Romanian": "Rrouméinian",
+    "Single-Leg": "singol leg",
+    "Ab Wheel": "ab güil",
+    "rollout": "rolaut",
+    "Dumbbell": "dambel"
+  }
+}

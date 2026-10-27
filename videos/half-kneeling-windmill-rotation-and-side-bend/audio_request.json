@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Half-Kneeling Windmill",
+      "text": "De rodillas, rotá el torso hacia el brazo de arriba y sumá un side bend suave."
+    },
+    {
+      "id": "02",
+      "text": "Arrodillate sobre una rodilla, con el pie de adelante bien apoyado y la cadera estable."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Subí un brazo bien arriba, del lado del pie que está adelante."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Rotá el torso hacia ese brazo, siguiéndolo con la mirada, sin mover la cadera."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Desde ahí, inclinate de costado hacia el pie de adelante y volvé. Nada de rebotes."
+    },
+    {
+      "id": "06",
+      "text": "Claves: rodilla de atrás apoyada, cadera quieta, rotación desde la espalda alta y movimiento sin rebotes."
+    },
+    {
+      "id": "07",
+      "text": "Seis repeticiones por lado. Alterná lados y hacé la misma cantidad con cada uno."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

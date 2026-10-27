@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Toe Touch Crunch",
+      "text": "Piernas arriba y el torso sube a tocar la punta de los pies."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba con las piernas extendidas hacia arriba y los brazos extendidos por encima de la cabeza."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Exhalá y subí los hombros del piso llevando las manos hacia la punta de los pies."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Tocá los pies arriba y bajá controlado, sin que la lumbar se despegue del piso."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si tirás con los brazos y el torso no sube, el abdomen no trabaja. Y si las piernas bajan, el cranch se vuelve un sit-up."
+    },
+    {
+      "id": "06",
+      "text": "Claves: lumbar pegada al piso, sube el torso y no los brazos, exhalá al subir y el cuello queda relajado."
+    },
+    {
+      "id": "07",
+      "text": "Diez repeticiones, tres series. Sin peso: la calidad manda."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

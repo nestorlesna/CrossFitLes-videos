@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Kettlebell Front Squat",
+      "text": "La pesa en rack frontal obliga al core a sostener todo el peso adelante."
+    },
+    {
+      "id": "02",
+      "text": "Parate con la kettlebell pegada al pecho, las muñecas rectas y los codos cerca del cuerpo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá a la sentadilla completa con el pecho arriba y los talones apoyados."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Subí empujando el piso, sin que la pesa te tire el tronco hacia adelante."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si el pecho se cae al fondo, la pesa te gana: bajá el peso o mejorá la movilidad."
+    },
+    {
+      "id": "06",
+      "text": "Claves: pesa pegada al pecho, codos adentro, pecho arriba y talones apoyados."
+    },
+    {
+      "id": "07",
+      "text": "Cinco repeticiones, cuatro series. Subí el peso recién cuando la técnica quede limpia."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

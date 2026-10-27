@@ -1,0 +1,430 @@
+{
+  "slug": "single-leg-dumbbell-romanian-deadlift",
+  "name": "Single-Leg Dumbbell Romanian Deadlift",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Cadera",
+    "Isquios",
+    "Equilibrio"
+  ],
+  "descripcion": "Peso muerto rumano a una pierna con mancuerna. Con la pierna de apoyo apenas flexionada, hacés bisagra de cadera, bajás el torso mientras la pierna libre sube atrás y volvés a pararte.",
+  "revisado": false,
+  "notas": "Bisagra con hip/ankle IK de la pierna de apoyo; la pierna libre va con t2/s2 fijos (extendida atrás) y la mancuerna cuelga de la mano cercana.",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Single-Leg Dumbbell Romanian Deadlift 🎯 rumano a una pierna | CrossFit",
+    "tags": [
+      "single leg romanian deadlift",
+      "rumano a una pierna",
+      "peso muerto rumano",
+      "mancuerna",
+      "isquios",
+      "gluteo",
+      "equilibrio",
+      "unilateral",
+      "crossfit",
+      "fuerza"
+    ],
+    "descripcion": "🎬 Single-Leg Dumbbell Romanian Deadlift 🎯 rumano a una pierna | CrossFit\nUna pierna, una mancuerna y toda la cadena de atrás. El rumano a una pierna suma equilibrio y saca las diferencias entre lados. ⚖️\n\n📝 PASO A PASO\n1️⃣ Pie de apoyo firme, rodilla apenas flexionada y la mancuerna en la mano contraria a la pierna que sube.\n2️⃣ Llevá la cadera atrás y bajá el torso: la pierna libre sube extendida, sin abrir la cadera.\n3️⃣ Frená cuando sientas el estiramiento del isquio y volvé apretando el glúteo.\n4️⃣ Hacé todas las repeticiones de un lado y después cambiá.\n\n✅ CLAVES DE TÉCNICA\n✔️ Cadera y hombros nivelados\n✔️ Espalda neutra\n✔️ Pierna libre extendida\n✔️ Rodilla de apoyo suave\n\n💪 QUÉ TRABAJA\nIsquiotibiales · Glúteo · Core · Estabilizadores de la cadera\n\n⏱️ CUÁNTO\n8 repeticiones por lado, 3 series. Si perdés el equilibrio en cada repetición, bajá el rango.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nEl equilibrio es parte del ejercicio: si te tambaleás, achicá el rango y volvé a crecer. Cambiar de lado no es opcional: el objetivo es que los dos lados hagan lo mismo.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #RomanianDeadlift #Unilateral #Isquios #Gluteo"
+  },
+  "miniatura": {
+    "pose": "BOTTOM",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 230
+  },
+  "initialPose": "STAND",
+  "rig": {
+    "x": 620,
+    "y": 1509,
+    "scale": 0.72
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "side": true,
+      "r": 40
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 3,
+      "fa": 0,
+      "ua2": 3,
+      "fa2": 0
+    },
+    "HINGE": {
+      "hip": [
+        -140,
+        -470
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 38,
+      "hd": 28,
+      "g": 0,
+      "ua": 3,
+      "fa": 0,
+      "ua2": 8,
+      "fa2": 4,
+      "t2": 100,
+      "s2": 100,
+      "ft2": -20
+    },
+    "BOTTOM": {
+      "hip": [
+        -190,
+        -430
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 58,
+      "hd": 42,
+      "g": 0,
+      "ua": 3,
+      "fa": 0,
+      "ua2": 10,
+      "fa2": 4,
+      "t2": 122,
+      "s2": 122,
+      "ft2": -34
+    },
+    "ROUND_BAD": {
+      "hip": [
+        -190,
+        -430
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 66,
+      "hd": 82,
+      "cv": 38,
+      "g": 0,
+      "ua": 3,
+      "fa": 0,
+      "ua2": 10,
+      "fa2": 4,
+      "t2": 122,
+      "s2": 122,
+      "ft2": -34
+    },
+    "KNEE_BAD": {
+      "hip": [
+        -120,
+        -380
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 52,
+      "hd": 40,
+      "g": 0,
+      "ua": 3,
+      "fa": 0,
+      "ua2": 10,
+      "fa2": 4,
+      "t2": 122,
+      "s2": 122,
+      "ft2": -34
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "SINGLE-LEG",
+        "RDL"
+      ],
+      "vo": "Single-Leg Dumbbell Romanian Deadlift: a una pierna, bisagra de cadera y la mancuerna baja pegada a la pierna.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "HINGE",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "BOTTOM",
+          "at": 1.2,
+          "dur": 0.7
+        },
+        {
+          "to": "HINGE",
+          "at": 2.1,
+          "dur": 0.6
+        },
+        {
+          "to": "STAND",
+          "at": 2.9,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "UNA PIERNA",
+        "Y MANCUERNA"
+      ],
+      "sub": "Rodilla de apoyo suave",
+      "vo": "Parate en una pierna con la rodilla apenas flexionada y la mancuerna en la mano contraria a la pierna que sube.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "STAND.K"
+          },
+          "r": 74,
+          "at": 0.8,
+          "out": 3.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1010
+          ],
+          "text": "RODILLA SUAVE",
+          "anchor": "end",
+          "at": 1.0,
+          "out": 3.6
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "CADERA",
+        "ATRÁS"
+      ],
+      "sub": "La mancuerna roza la pierna",
+      "vo": "Paso uno. Llevá la cadera atrás y bajá el torso: la pierna libre sube extendida y la mancuerna baja pegada a la pierna de apoyo.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "HINGE",
+          "at": 0.6,
+          "dur": 1.1
+        },
+        {
+          "to": "BOTTOM",
+          "at": 1.9,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            300,
+            940
+          ],
+          "text": "CADERA ATRÁS",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "HASTA EL",
+        "ESTIRAMIENTO"
+      ],
+      "sub": "Cadera y hombros nivelados",
+      "vo": "Paso dos. Bajá hasta sentir el estiramiento del isquio, con cadera y hombros nivelados. Frená ahí y volvé apretando el glúteo.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "HINGE",
+          "at": 0.8,
+          "dur": 0.7
+        },
+        {
+          "to": "STAND",
+          "at": 1.6,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "BOTTOM.A"
+          },
+          "r": 80,
+          "at": 0.3,
+          "out": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            930
+          ],
+          "text": "HOMBROS NIVELADOS",
+          "anchor": "end",
+          "at": 0.5,
+          "out": 3.0
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Redondear la espalda o flexionar la rodilla",
+      "vo": "Paso tres. Si redondeás la espalda o flexionás la rodilla de apoyo, el peso se va a la lumbar. La pierna libre queda en línea con el torso.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "ROUND_BAD",
+          "at": 0.6,
+          "dur": 0.8
+        },
+        {
+          "to": "BOTTOM",
+          "at": 2.2,
+          "dur": 0.7
+        },
+        {
+          "to": "KNEE_BAD",
+          "at": 3.1,
+          "dur": 0.8
+        },
+        {
+          "to": "BOTTOM",
+          "at": 4.6,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Cadera y hombros nivelados",
+        "Espalda neutra",
+        "Pierna libre extendida",
+        "Rodilla de apoyo suave"
+      ],
+      "vo": "Claves: cadera y hombros nivelados, espalda neutra, pierna libre extendida y rodilla de apoyo suave.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "8 REPETICIONES"
+      ],
+      "sub": "Por lado, 3 series",
+      "chips": [
+        {
+          "label": "8 por lado",
+          "at": 0.6
+        },
+        {
+          "label": "3 series",
+          "at": 1.2
+        },
+        {
+          "label": "2 lados",
+          "at": 1.8
+        }
+      ],
+      "vo": "Ocho repeticiones por lado, tres series. Si perdés el equilibrio en cada repetición, bajá el rango.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "HINGE",
+              0.4
+            ],
+            [
+              "BOTTOM",
+              0.5
+            ],
+            [
+              "HINGE",
+              0.5
+            ],
+            [
+              "STAND",
+              0.6
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "pronuncia": {
+    "Kettlebell": "Ketelbel",
+    "kettlebell": "ketelbel",
+    "clean": "clin",
+    "press": "pres",
+    "rack": "rac",
+    "row": "rou",
+    "crunch": "cranch",
+    "toe touch": "tou toch",
+    "Deadlift": "dedlift",
+    "Romanian": "Rrouméinian",
+    "Single-Leg": "singol leg",
+    "Ab Wheel": "ab güil",
+    "rollout": "rolaut",
+    "Dumbbell": "dambel"
+  }
+}

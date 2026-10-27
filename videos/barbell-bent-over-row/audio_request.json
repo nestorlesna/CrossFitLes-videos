@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Barbell Bent Over Row",
+      "text": "Bisagra de cadera y la barra al abdomen. Espalda que construye."
+    },
+    {
+      "id": "02",
+      "text": "Hacé bisagra de cadera con las rodillas blandas, la espalda recta y la barra colgando."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Tirá la barra hacia el abdomen llevando los codos atrás, sin mover el tronco."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá la barra controlado hasta estirar los brazos, manteniendo la espalda recta."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si el tronco sube y bajás a los tirones, el remo se vuelve un peso muerto mal hecho."
+    },
+    {
+      "id": "06",
+      "text": "Claves: espalda recta, codos atrás, tronco quieto y bajada controlada."
+    },
+    {
+      "id": "07",
+      "text": "Ocho repeticiones, cuatro series. Si el tronco se levanta, bajá el peso."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

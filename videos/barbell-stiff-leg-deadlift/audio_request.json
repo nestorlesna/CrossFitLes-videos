@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Barbell Stiff-Leg Deadlift",
+      "text": "Rodillas casi extendidas y toda la bisagra en la cadera."
+    },
+    {
+      "id": "02",
+      "text": "Parate con la barra en las manos, los pies al ancho de cadera y las rodillas casi extendidas."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Llevá la cadera atrás y bajá la barra pegada a las piernas, con la espalda neutra."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Frená cuando el isquio tire y volvé apretando el glúteo, sin redondear la espalda."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si flexionás la rodilla o redondeás la espalda, el peso se va a la lumbar. Bajá el rango."
+    },
+    {
+      "id": "06",
+      "text": "Claves: rodillas casi extendidas, barra pegada, espalda neutra y bisagra de cadera."
+    },
+    {
+      "id": "07",
+      "text": "Ocho repeticiones, tres series. Si la espalda se redondea, bajá el rango antes que el peso."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

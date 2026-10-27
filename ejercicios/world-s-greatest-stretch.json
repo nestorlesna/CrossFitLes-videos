@@ -1,0 +1,278 @@
+{
+  "slug": "world-s-greatest-stretch",
+  "name": "World's Greatest Stretch",
+  "category": "CROSSFIT · MOVILIDAD",
+  "tags": [
+    "Cadera",
+    "Espalda alta",
+    "Isquios"
+  ],
+  "descripcion": "Desde una estocada profunda con las manos en el piso, se rota el torso y se abre el pecho. Cadera, isquios y espalda alta en un solo movimiento.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "World's Greatest Stretch 🎯 la movilidad más completa | CrossFit",
+    "tags": [
+      "world's greatest stretch",
+      "movilidad de cadera",
+      "estiramiento de cadera",
+      "rotacion toracica",
+      "crossfit",
+      "entrada en calor",
+      "isquios",
+      "movilidad"
+    ],
+    "descripcion": "🎬 WORLD'S GREATEST STRETCH - la movilidad más completa\n\nSi tenés un solo movimiento para la entrada en calor, es este: estocada, mano al piso y rotación. Cadera, isquios y espalda alta de una. 🏆\n\n📝 PASO A PASO\n1️⃣ Dá un paso largo, bajá la cadera y apoyá las manos adentro del pie de adelante.\n2️⃣ Con las manos en el piso, sentí el estiramiento de la cadera de atrás.\n3️⃣ Abrí un brazo al techo y rotá la espalda alta sin levantar la cadera.\n4️⃣ Volvé suave y cambiá de lado.\n\n✅ CLAVES DE TÉCNICA\n✔️ Cadera baja y estable\n✔️ Rodilla de atrás extendida\n✔️ Rotación torácica\n✔️ Mirada en la mano\n\n💪 QUÉ TRABAJA\nGlúteo mayor · Isquios · Erectores · Oblicuos\n\n⏱️ CUÁNTO\n5 repeticiones lentas por lado, 30 segundos. Perfecto antes de sentadillas o peso muerto.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi la rodilla de atrás molesta, apoyala en el piso o acortá el paso.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Movilidad #Cadera #RotacionToracica #EntradaEnCalor"
+  },
+  "miniatura": {
+    "pose": "ROT",
+    "zoom": 1.1,
+    "dy": 67
+  },
+  "initialPose": "LUNGE",
+  "rig": {
+    "x": 520,
+    "y": 1502,
+    "scale": 0.8
+  },
+  "poses": {
+    "LUNGE": {
+      "hip": [
+        -180,
+        -300
+      ],
+      "ankle": [
+        -40,
+        0
+      ],
+      "ankle2": [
+        -520,
+        0
+      ],
+      "ft2": -30,
+      "b": 90,
+      "hd": 130,
+      "g": 1,
+      "ed": 1,
+      "hx": 30,
+      "hy": 14,
+      "g2": 1,
+      "hx2": 50,
+      "hy2": 18,
+      "ed2": -1
+    },
+    "ROT": {
+      "hip": [
+        -180,
+        -300
+      ],
+      "ankle": [
+        -40,
+        0
+      ],
+      "ankle2": [
+        -520,
+        0
+      ],
+      "ft2": -30,
+      "b": 78,
+      "hd": -20,
+      "ua": 160,
+      "fa": 4,
+      "g2": 1,
+      "hx2": 40,
+      "hy2": 16,
+      "ed2": -1,
+      "g": 0
+    },
+    "HIP_BAD": {
+      "hip": [
+        -180,
+        -390
+      ],
+      "ankle": [
+        -40,
+        0
+      ],
+      "ankle2": [
+        -520,
+        0
+      ],
+      "ft2": -30,
+      "b": 30,
+      "hd": 25,
+      "ua": 10,
+      "fa": 25,
+      "g": 0
+    }
+  },
+  "props": null,
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · MOVILIDAD",
+      "head": [
+        "WORLD'S",
+        "GREATEST STRETCH"
+      ],
+      "vo": "World's Greatest Stretch: estocada, mano al piso y rotación. La entrada en calor más completa.",
+      "moves": [
+        {
+          "cut": "LUNGE",
+          "at": 0
+        },
+        {
+          "to": "ROT",
+          "at": 0.8,
+          "dur": 1.1
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": null,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESTOCADA",
+        "LARGA"
+      ],
+      "sub": "Pie adelante firme",
+      "vo": "Dá un paso largo, bajá la cadera y apoyá las dos manos adentro del pie de adelante.",
+      "moves": [
+        {
+          "cut": "LUNGE",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "MANOS",
+        "AL PISO"
+      ],
+      "sub": "Dentro del pie",
+      "vo": "Paso uno. Con las manos en el piso, sentí el estiramiento de la cadera de atrás.",
+      "moves": [
+        {
+          "cut": "LUNGE",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 6.2,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ABRÍ",
+        "EL BRAZO"
+      ],
+      "sub": "Mirá la mano",
+      "vo": "Paso dos. Abrí un brazo al techo y rotá la espalda alta sin levantar la cadera.",
+      "moves": [
+        {
+          "cut": "LUNGE",
+          "at": 0
+        },
+        {
+          "to": "ROT",
+          "at": 0.7,
+          "dur": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Cadera al cielo",
+      "vo": "Paso tres. Si la cadera sube y el torso se endereza, la rotación se pierde.",
+      "moves": [
+        {
+          "cut": "ROT",
+          "at": 0
+        },
+        {
+          "to": "HIP_BAD",
+          "at": 0.7,
+          "dur": 0.9
+        },
+        {
+          "to": "ROT",
+          "at": 2.8,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Cadera baja y estable",
+        "Rodilla de atrás extendida",
+        "Rotación torácica",
+        "Mirada en la mano"
+      ],
+      "vo": "Claves: cadera baja, rodilla de atrás extendida, rotación desde la espalda alta y mirada en la mano.",
+      "moves": [
+        {
+          "cut": "ROT",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "5 POR LADO"
+      ],
+      "sub": "Sin apuro",
+      "chips": [
+        {
+          "label": "5 reps",
+          "at": 0.6
+        },
+        {
+          "label": "Por lado",
+          "at": 1.2
+        },
+        {
+          "label": "30 s",
+          "at": 1.8
+        }
+      ],
+      "vo": "Cinco repeticiones lentas por lado. Respirá profundo en cada rotación.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "LUNGE",
+              1.2
+            ],
+            [
+              "ROT",
+              1.8
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

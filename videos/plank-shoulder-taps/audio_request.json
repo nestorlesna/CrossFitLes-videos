@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Plank Shoulder Taps",
+      "text": "Tocar el hombro contrario sin mover la cadera. Core que no se mueve."
+    },
+    {
+      "id": "02",
+      "text": "Plancha alta con las manos bajo los hombros y los pies un poco separados para estabilizar."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Levantá una mano y tocá el hombro del otro lado, sin apuro."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Volvé a apoyar y repetí con la otra mano, alternando."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si la cadera se hamaca o se hunde, el core dejó de trabajar."
+    },
+    {
+      "id": "06",
+      "text": "Claves: cadera quieta, manos bajo los hombros, core activo y ritmo parejo."
+    },
+    {
+      "id": "07",
+      "text": "Cuarenta segundos, dos series. Cambiá de mano cada dos o tres toques."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

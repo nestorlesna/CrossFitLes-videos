@@ -1,0 +1,306 @@
+{
+  "slug": "kettlebell-front-squat",
+  "name": "Kettlebell Front Squat",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Piernas",
+    "Core",
+    "Rack frontal"
+  ],
+  "descripcion": "Sentadilla con kettlebell en posición de rack frontal. Exige movilidad de muñeca, codo y cadera.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Kettlebell Front Squat 🎯 sentadilla frontal con pesa rusa | CrossFit",
+    "tags": [
+      "kettlebell front squat",
+      "sentadilla frontal",
+      "kettlebell",
+      "pesa rusa",
+      "piernas",
+      "crossfit",
+      "fuerza",
+      "rack frontal",
+      "sentadilla",
+      "gluteo"
+    ],
+    "descripcion": "🎬 KETTLEBELL FRONT SQUAT - sentadilla frontal\nLa pesa en rack frontal cambia todo: el core sostiene el peso adelante y la sentadilla se vuelve más exigente. Pecho arriba, codos adentro. 💪\n\n📝 PASO A PASO\n1️⃣ Sostené la kettlebell en rack frontal, pegada al pecho y con los codos adentro.\n2️⃣ Bajá a sentadilla completa con el pecho arriba y los talones apoyados.\n3️⃣ Subí empujando el piso, sin dejar que la pesa te tire el tronco adelante.\n4️⃣ Terminá de pie con las costillas abajo y el core firme.\n\n✅ CLAVES DE TÉCNICA\n✔️ Pesa pegada al pecho\n✔️ Codos adentro\n✔️ Pecho arriba\n✔️ Talones apoyados\n\n💪 QUÉ TRABAJA\nGlúteo mayor · Cuádriceps · Recto abdominal · Erectores espinales\n\n⏱️ CUÁNTO\n5 repeticiones, 4 series. Subí el peso solo cuando la técnica quede limpia.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nSi no llegás al fondo sin que el pecho se caiga, abrí un poco los pies o subí los talones.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Kettlebell #Sentadilla #Fuerza #Piernas"
+  },
+  "miniatura": {
+    "pose": "BOTTOM",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 180
+  },
+  "initialPose": "STAND",
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "props": [
+    {
+      "type": "kettlebell",
+      "off": [
+        0,
+        10
+      ]
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 14,
+      "fa": 140,
+      "ua2": 10,
+      "fa2": 144
+    },
+    "HALF": {
+      "hip": [
+        -80,
+        -380
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 20,
+      "hd": 10,
+      "g": 0,
+      "ua": 12,
+      "fa": 142,
+      "ua2": 8,
+      "fa2": 146
+    },
+    "BOTTOM": {
+      "hip": [
+        -150,
+        -205
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 38,
+      "hd": 22,
+      "g": 0,
+      "ua": 10,
+      "fa": 144,
+      "ua2": 6,
+      "fa2": 148
+    },
+    "CHEST_BAD": {
+      "hip": [
+        -150,
+        -205
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 58,
+      "hd": 46,
+      "g": 0,
+      "ua": 30,
+      "fa": 118,
+      "ua2": 26,
+      "fa2": 122
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "KETTLEBELL",
+        "FRONT SQUAT"
+      ],
+      "vo": "Kettlebell Front Squat: la pesa en rack frontal obliga al core a sostener todo el peso adelante.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.6,
+          "dur": 0.5
+        },
+        {
+          "to": "BOTTOM",
+          "at": 1.2,
+          "dur": 0.6
+        },
+        {
+          "to": "STAND",
+          "at": 1.9,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "RACK",
+        "FRONTAL"
+      ],
+      "sub": "Codos adentro",
+      "vo": "Parate con la kettlebell pegada al pecho, las muñecas rectas y los codos cerca del cuerpo.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ",
+        "COMPLETO"
+      ],
+      "sub": "Pecho arriba",
+      "vo": "Paso uno. Bajá a la sentadilla completa con el pecho arriba y los talones apoyados.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.5,
+          "dur": 0.7
+        },
+        {
+          "to": "BOTTOM",
+          "at": 1.3,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "SUBÍ",
+        "PECHO ARRIBA"
+      ],
+      "sub": "Empujá el piso",
+      "vo": "Paso dos. Subí empujando el piso, sin que la pesa te tire el tronco hacia adelante.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "STAND",
+          "at": 1.2,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "El pecho se cae",
+      "vo": "Paso tres. Si el pecho se cae al fondo, la pesa te gana: bajá el peso o mejorá la movilidad.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "CHEST_BAD",
+          "at": 0.7,
+          "dur": 0.8
+        },
+        {
+          "to": "BOTTOM",
+          "at": 2.6,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Pesa pegada al pecho",
+        "Codos adentro",
+        "Pecho arriba",
+        "Talones apoyados"
+      ],
+      "vo": "Claves: pesa pegada al pecho, codos adentro, pecho arriba y talones apoyados.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "5 REPETICIONES"
+      ],
+      "sub": "4 series",
+      "chips": [
+        {
+          "label": "5 reps",
+          "at": 0.6
+        },
+        {
+          "label": "4 series",
+          "at": 1.2
+        },
+        {
+          "label": "90 s",
+          "at": 1.8
+        }
+      ],
+      "vo": "Cinco repeticiones, cuatro series. Subí el peso recién cuando la técnica quede limpia.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              0.8
+            ],
+            [
+              "STAND",
+              0.7
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

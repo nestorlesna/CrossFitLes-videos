@@ -1,0 +1,342 @@
+{
+  "slug": "bear-crawl-hold",
+  "name": "Bear Crawl Hold",
+  "category": "CROSSFIT · CORE",
+  "tags": [
+    "Core",
+    "Hombro",
+    "Estabilidad"
+  ],
+  "descripcion": "Cuadrupedia con las rodillas separadas del piso: espalda plana, cadera quieta y abdomen firme. La base del bear crawl, sostenida.",
+  "revisado": false,
+  "notas": "Base de bird-dog-crunch: cuadrupedia con hip [0,-231] y manos en (268,15); en el hold la cadera sube a -262 y las rodillas quedan ~30 px arriba del piso.",
+  "youtube": {
+    "titulo": "Bear Crawl Hold 🎯 plancha en cuadrupedia con rodillas arriba | CrossFit",
+    "tags": [
+      "bear crawl hold",
+      "bear crawl",
+      "cuadrupedia",
+      "core",
+      "isometrico",
+      "crossfit",
+      "estabilidad",
+      "hombro"
+    ],
+    "descripcion": "🎬 Bear Crawl Hold 🎯 plancha en cuadrupedia con rodillas arriba | CrossFit\nManos y pies en el piso, rodillas flotando y la espalda como una mesa. El bear crawl hold es core y hombro en el mismo paquete. 🎯\n\n📝 PASO A PASO\n1️⃣ Ponete en cuadrupedia con las manos abajo de los hombros y las rodillas abajo de la cadera.\n2️⃣ Separá las rodillas del piso unos centímetros y sostené.\n3️⃣ Espalda plana, cadera quieta y abdomen firme: no dejes caer la cadera.\n4️⃣ Respirá y aguantá el tiempo: si la espalda se hunde, terminá la serie.\n\n✅ CLAVES DE TÉCNICA\n✔️ Espalda plana\n✔️ Rodillas apenas arriba\n✔️ Cadera quieta\n✔️ Abdomen firme\n\n💪 QUÉ TRABAJA\nCore · Hombro · Tríceps · Cuádriceps (isométrico) · Muñeca\n\n⏱️ CUÁNTO\n30 segundos, 3 series. Si la cadera se hunde antes, bajá a 20 segundos.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nEl error clásico es sentarse atrás y dejar que la cadera suba: la espalda tiene que quedar horizontal y las rodillas a un par de centímetros del piso.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #BearCrawl #Core #Isometrico #Gimnasia"
+  },
+  "miniatura": {
+    "pose": "HOVER",
+    "grip": 1,
+    "zoom": 1.0,
+    "dy": 200
+  },
+  "initialPose": "QUAD",
+  "rig": {
+    "x": 480,
+    "y": 1500,
+    "scale": 0.8
+  },
+  "poses": {
+    "QUAD": {
+      "hip": [
+        0,
+        -231
+      ],
+      "s": 90,
+      "t": 0,
+      "s2": 90,
+      "t2": 0,
+      "ft": 172,
+      "ft2": 172,
+      "b": 74,
+      "hd": 100,
+      "g": 1,
+      "hx": 268,
+      "hy": 15,
+      "ed": 1,
+      "cv": 0,
+      "g2": 1,
+      "hx2": 268,
+      "hy2": 15
+    },
+    "HOVER": {
+      "hip": [
+        0,
+        -280
+      ],
+      "ankle": [
+        -230,
+        9
+      ],
+      "ankle2": [
+        -230,
+        9
+      ],
+      "ft": 172,
+      "ft2": 172,
+      "b": 86,
+      "hd": 96,
+      "g": 1,
+      "hx": 268,
+      "hy": 15,
+      "ed": 1,
+      "cv": 0,
+      "g2": 1,
+      "hx2": 268,
+      "hy2": 15
+    },
+    "SAG_BAD": {
+      "hip": [
+        0,
+        -232
+      ],
+      "s": 96,
+      "t": 0,
+      "s2": 96,
+      "t2": 0,
+      "ft": 172,
+      "ft2": 172,
+      "b": 62,
+      "hd": 76,
+      "g": 1,
+      "hx": 268,
+      "hy": 15,
+      "ed": 1,
+      "cv": -22,
+      "g2": 1,
+      "hx2": 268,
+      "hy2": 15
+    },
+    "HIGH_BAD": {
+      "hip": [
+        -40,
+        -330
+      ],
+      "s": 108,
+      "t": 24,
+      "s2": 108,
+      "t2": 24,
+      "ft": 172,
+      "ft2": 172,
+      "b": 96,
+      "hd": 110,
+      "g": 1,
+      "hx": 268,
+      "hy": 15,
+      "ed": 1,
+      "cv": 10,
+      "g2": 1,
+      "hx2": 268,
+      "hy2": 15
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · CORE",
+      "head": [
+        "BEAR CRAWL",
+        "HOLD"
+      ],
+      "vo": "Bear Crawl Hold: cuadrupedia con las rodillas separadas del piso y la espalda plana.",
+      "moves": [
+        {
+          "cut": "QUAD",
+          "at": 0
+        },
+        {
+          "to": "HOVER",
+          "at": 0.8,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "CUATRO",
+        "APOYOS"
+      ],
+      "sub": "Manos bajo los hombros",
+      "vo": "Ponete en cuadrupedia con las manos abajo de los hombros y las rodillas abajo de la cadera.",
+      "moves": [
+        {
+          "cut": "QUAD",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "PASO 1 / 3",
+      "numeral": "1",
+      "head": [
+        "RODILLAS",
+        "ARRIBA"
+      ],
+      "sub": "Un par de centímetros",
+      "vo": "Paso uno. Separá las rodillas del piso unos centímetros y sostenerla ahí, sin mover la cadera.",
+      "moves": [
+        {
+          "cut": "QUAD",
+          "at": 0
+        },
+        {
+          "to": "HOVER",
+          "at": 0.8,
+          "dur": 0.6
+        },
+        {
+          "to": "QUAD",
+          "at": 2.6,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "PASO 2 / 3",
+      "numeral": "2",
+      "head": [
+        "ESPALDA",
+        "PLANA"
+      ],
+      "sub": "Cadera quieta",
+      "vo": "Paso dos. Espalda plana, cadera quieta y abdomen firme. La cabeza sigue la línea de la espalda.",
+      "moves": [
+        {
+          "cut": "HOVER",
+          "at": 0
+        },
+        {
+          "to": "SAG_BAD",
+          "at": 1.2,
+          "dur": 0.7
+        },
+        {
+          "to": "HOVER",
+          "at": 2.4,
+          "dur": 0.7
+        },
+        {
+          "to": "HIGH_BAD",
+          "at": 3.4,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "PASO 3 / 3",
+      "numeral": "3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Cadera que se hunde o se sube",
+      "vo": "Paso tres. Si la cadera se hunde o se sube, la espalda deja de estar plana. Terminá la serie ahí.",
+      "moves": [
+        {
+          "cut": "SAG_BAD",
+          "at": 0
+        },
+        {
+          "to": "HIGH_BAD",
+          "at": 1.4,
+          "dur": 0.7
+        },
+        {
+          "to": "HOVER",
+          "at": 2.8,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "shrink": 0.7,
+      "head": [
+        "TÉCNICA"
+      ],
+      "vo": "Claves: espalda plana, rodillas apenas arriba, cadera quieta y abdomen firme.",
+      "keys": [
+        "Espalda plana",
+        "Rodillas arriba",
+        "Cadera quieta",
+        "Abdomen firme"
+      ],
+      "moves": [
+        {
+          "cut": "QUAD",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "QUAD",
+              0.5
+            ],
+            [
+              "HOVER",
+              0.6
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "sub": "Isométrico",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "vo": "Treinta segundos, tres series. Si la cadera se hunde antes, bajá a veinte segundos.",
+      "chips": [
+        {
+          "label": "1 · CUATRO APOYOS",
+          "at": 0.4
+        },
+        {
+          "label": "2 · RODILLAS ARRIBA",
+          "at": 1.0
+        }
+      ],
+      "moves": [
+        {
+          "cut": "QUAD",
+          "at": 0
+        },
+        {
+          "to": "HOVER",
+          "at": 0.8,
+          "dur": 0.7
+        }
+      ]
+    }
+  ],
+  "music": true,
+  "musicVolume": 0.18,
+  "pronuncia": {
+    "Kettlebell": "Ketelbel",
+    "kettlebell": "ketelbel",
+    "clean": "clin",
+    "press": "pres",
+    "rack": "rac",
+    "row": "rou",
+    "crunch": "cranch",
+    "toe touch": "tou toch",
+    "Deadlift": "dedlift",
+    "Romanian": "Rrouméinian",
+    "Single-Leg": "singol leg",
+    "Ab Wheel": "ab güil",
+    "rollout": "rolaut",
+    "Dumbbell": "dambel"
+  }
+}

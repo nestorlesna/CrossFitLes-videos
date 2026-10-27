@@ -1,0 +1,275 @@
+{
+  "slug": "high-pull-external-rotation",
+  "name": "High Pull + External Rotation",
+  "category": "CROSSFIT · HOMBRO",
+  "tags": [
+    "Hombro",
+    "Activación",
+    "Disco"
+  ],
+  "descripcion": "Tirón alto con disco y rotación externa de hombro: activa trapecio, deltoides posterior y rotadores.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.16,
+  "youtube": {
+    "titulo": "High Pull + External Rotation 🎯 tirón alto y rotación externa con disco | CrossFit",
+    "tags": [
+      "high pull",
+      "rotacion externa",
+      "hombro",
+      "disco",
+      "activacion",
+      "crossfit",
+      "trapecio",
+      "deltoides posterior",
+      "calentamiento",
+      "manguito rotador"
+    ],
+    "descripcion": "🎬 HIGH PULL + EXTERNAL ROTATION - tirón alto y rotación\nUn clásico de activación de hombro: tirón alto con el disco y rotación externa arriba. Trapecio, deltoides posterior y rotadores despiertan. 🎯\n\n📝 PASO A PASO\n1️⃣ Sostené el disco con las dos manos a la altura de la cadera.\n2️⃣ Tirá alto llevando los codos hacia arriba, con el disco al mentón.\n3️⃣ Arriba, rotá los antebrazos hacia afuera sin bajar los codos.\n4️⃣ Volvé controlado a la posición inicial y repetí.\n\n✅ CLAVES DE TÉCNICA\n✔️ Codos altos\n✔️ Disco al mentón\n✔️ Rotación suave\n✔️ Sin encogerte de más\n\n💪 QUÉ TRABAJA\nTrapecio superior · Deltoides lateral y posterior · Romboides · Rotadores externos\n\n⏱️ CUÁNTO\n10 repeticiones, 3 series con disco de 2.5 kg. Es activación: peso liviano.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nSi te tira el hombro, bajá el rango del tirón y hacé solo la rotación externa.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Hombro #Activacion #Disco #Calentamiento"
+  },
+  "miniatura": {
+    "pose": "ROT",
+    "grip": 0,
+    "zoom": 1.02,
+    "dy": 170
+  },
+  "initialPose": "HOLD",
+  "rig": {
+    "x": 480,
+    "y": 1504,
+    "scale": 0.86
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "r": 46
+    }
+  ],
+  "poses": {
+    "HOLD": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 22,
+      "fa": 6,
+      "ua2": 18,
+      "fa2": 10
+    },
+    "PULL": {
+      "s": 0,
+      "t": 0,
+      "b": 4,
+      "hd": -6,
+      "g": 0,
+      "ua": 62,
+      "fa": 126,
+      "ua2": 58,
+      "fa2": 130
+    },
+    "ROT": {
+      "s": 0,
+      "t": 0,
+      "b": 4,
+      "hd": -6,
+      "g": 0,
+      "ua": 58,
+      "fa": 104,
+      "ua2": 54,
+      "fa2": 108,
+      "fl": 0.42
+    },
+    "SHRUG_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": 8,
+      "hd": 6,
+      "g": 0,
+      "ua": 84,
+      "fa": 40,
+      "ua2": 80,
+      "fa2": 44
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · HOMBRO",
+      "head": [
+        "HIGH PULL",
+        "+ EXTERNAL ROTATION"
+      ],
+      "vo": "High Pull más External Rotation: tirón alto con el disco y rotación externa arriba. Hombro que despierta.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.6,
+          "dur": 0.6
+        },
+        {
+          "to": "ROT",
+          "at": 1.3,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DISCO",
+        "A LA CADERA"
+      ],
+      "sub": "Dos manos",
+      "vo": "Sostené el disco con las dos manos a la altura de la cadera y los brazos relajados.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "TIRÁ",
+        "ALTO"
+      ],
+      "sub": "Codos arriba",
+      "vo": "Paso uno. Tirá alto llevando los codos hacia arriba, con el disco cerca del mentón.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.6,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ROTÁ",
+        "AFUERA"
+      ],
+      "sub": "Antebrazos",
+      "vo": "Paso dos. Arriba, rotá los antebrazos hacia afuera sin bajar los codos.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "ROT",
+          "at": 0.6,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Tirás con los hombros",
+      "vo": "Paso tres. Si encogés los hombros y tirás con los brazos bajos, el trabajo se va al cuello.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0
+        },
+        {
+          "to": "SHRUG_BAD",
+          "at": 0.7,
+          "dur": 0.8
+        },
+        {
+          "to": "HOLD",
+          "at": 2.6,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Codos altos",
+        "Disco al mentón",
+        "Rotación suave",
+        "Peso liviano"
+      ],
+      "vo": "Claves: codos altos, disco al mentón, rotación suave y peso liviano.",
+      "moves": [
+        {
+          "cut": "ROT",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPETICIONES"
+      ],
+      "sub": "3 series",
+      "chips": [
+        {
+          "label": "10 reps",
+          "at": 0.6
+        },
+        {
+          "label": "3 series",
+          "at": 1.2
+        },
+        {
+          "label": "2.5 kg",
+          "at": 1.8
+        }
+      ],
+      "vo": "Diez repeticiones, tres series con disco de dos kilos y medio. Es activación.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "PULL",
+              0.5
+            ],
+            [
+              "ROT",
+              0.5
+            ],
+            [
+              "HOLD",
+              0.7
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

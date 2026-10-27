@@ -10,7 +10,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 4.8s
-- voiceover: "Hang Power Snatch: desde arriba de las rodillas hasta arriba de la cabeza, en un solo movimiento."
+- voiceover: "Barbell Hang Power Snatch: desde arriba de las rodillas hasta arriba de la cabeza, en un solo movimiento."
 - poses: HANG → HIP → EXT → PULL → CATCH → OH
 
 ## Frame 2 — POSICIÓN INICIAL DE PIE AGARRE ANCHO

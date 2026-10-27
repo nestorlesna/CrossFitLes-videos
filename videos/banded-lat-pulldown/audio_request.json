@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Banded Lat Pulldown",
+      "text": "La banda arriba y los codos abajo, sin encoger los hombros."
+    },
+    {
+      "id": "02",
+      "text": "Anclá la banda bien arriba y agarrá las puntas con los brazos extendidos sobre la cabeza."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá los codos hacia las costillas y llevá la banda al pecho, sin mover el torso."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Apretá un segundo abajo y volvé controlando la banda hasta estirar los brazos."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si los codos se van para arriba o te colgás atrás, el dorsal deja de trabajar: quedate firme."
+    },
+    {
+      "id": "06",
+      "text": "Claves: codos abajo y atrás, pecho arriba, sin encogerte y la banda siempre tensa."
+    },
+    {
+      "id": "07",
+      "text": "Doce repeticiones, tres series. Si te sobra banda, acortá el agarre o cambiá a una más fuerte."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

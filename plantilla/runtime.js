@@ -1100,16 +1100,16 @@
     if (pr.type === "band") {
       // Banda elástica: de un ancla fija a la mano cercana (hand "near") o a las dos ("both"). post: parante del rack
       // (x, h) detrás del atleta; layer "mid" = la banda pasa por delante del torso (rotación externa: cruza el cuerpo).
-      const an = pr.anchor || [330, -1300], col = pr.color || "#3FA34D", both = pr.hand === "both";
+      const an = pr.anchor || [330, -1300], col = pr.color || "#3FA34D", both = pr.hand === "both", bw = pr.w ?? 13;
       if (pr.post) {
         const [px, ph] = pr.post;
         const g = el("g", { class: "prop-scenery" }, propStatic); // se atenúa en la escena de claves (la lista lo cruza)
         el("rect", { x: px - 24, y: 34 - ph, width: 48, height: ph, fill: METAL_D }, g);
         el("rect", { x: px - 60, y: 22, width: 120, height: 14, rx: 7, fill: METAL_D }, g);
       }
-      const farB = both ? el("line", { stroke: col, "stroke-width": 11, "stroke-linecap": "round" }, propBack) : null;
-      const nearB = el("line", { stroke: col, "stroke-width": 13, "stroke-linecap": "round" }, pr.layer === "back" ? propBack : propMid);
-      el("circle", { cx: an[0], cy: an[1], r: 14, fill: METAL }, propBack);
+      const farB = both ? el("line", { stroke: col, "stroke-width": bw - 2, "stroke-linecap": "round" }, propBack) : null;
+      const nearB = el("line", { stroke: col, "stroke-width": bw, "stroke-linecap": "round" }, pr.layer === "back" ? propBack : propMid);
+      if (pr.ring !== false) el("circle", { cx: an[0], cy: an[1], r: 14, fill: METAL }, propBack);
       propUpdates.push((n, f) => {
         const a = { x: an[0], y: an[1] };
         setL(nearB, a, n.W);

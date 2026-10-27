@@ -1,0 +1,376 @@
+{
+  "slug": "band-scapular-retraction-row",
+  "name": "Band Scapular Retraction Row",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Espalda alta",
+    "Escápulas",
+    "Postura"
+  ],
+  "descripcion": "Remo corto con brazos rectos: sólo se mueven los omóplatos, hacia atrás y abajo. Activación de espalda alta para antes de los WODs de tirón.",
+  "revisado": false,
+  "notas": "El recorrido es chico (hx 120→40 y cv 10→-6): sirve abrir el pecho para que se lea el retraer escapular; el error es doblar los codos.",
+  "youtube": {
+    "titulo": "Band Scapular Retraction Row 🎯 remo corto para la espalda alta | CrossFit",
+    "tags": [
+      "scapular retraction",
+      "retraccion escapular",
+      "remo con banda",
+      "espalda alta",
+      "postura",
+      "activacion escapular",
+      "crossfit",
+      "banda elastica"
+    ],
+    "descripcion": "🎬 Band Scapular Retraction Row 🎯 remo corto para la espalda alta | CrossFit\nNo es un remo común: los brazos quedan rectos y el movimiento sale de los omóplatos. Activación de espalda alta en dos minutos. 🎯\n\n📝 PASO A PASO\n1️⃣ Banda anclada al frente, tomada con las dos manos y los brazos extendidos.\n2️⃣ Sin doblar los codos, llevá los omóplatos atrás y abajo: el recorrido es corto.\n3️⃣ Sostené un segundo, sintiendo la espalda alta, y volvé despacio.\n4️⃣ Los hombros vuelven adelante al estirar: es un recorrido chico y controlado.\n\n✅ CLAVES DE TÉCNICA\n✔️ Codos rectos\n✔️ Omóplatos atrás y abajo\n✔️ Recorrido corto\n✔️ Sin encoger el cuello\n\n💪 QUÉ TRABAJA\nTrapecio medio e inferior · Romboides · Estabilizadores de la escápula\n\n⏱️ CUÁNTO\n12 repeticiones lentas, 3 series. Es activación: no busques peso, buscá sentir la espalda.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nSi sentís el trabajo en el cuello, estás encogiendo en vez de retraer: bajá los hombros y pensá en guardar los omóplatos en el bolsillo de atrás.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Escapulas #EspaldaAlta #Activacion #BandaElastica"
+  },
+  "miniatura": {
+    "pose": "PULL",
+    "grip": 0,
+    "zoom": 1.12,
+    "dy": 150
+  },
+  "initialPose": "SET",
+  "rig": {
+    "x": 470,
+    "y": 1500,
+    "scale": 0.8
+  },
+  "props": [
+    {
+      "type": "band",
+      "anchor": [
+        500,
+        -300
+      ],
+      "post": [
+        520,
+        1240
+      ],
+      "hand": "both"
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 8,
+      "fa": 8,
+      "ua2": 8,
+      "fa2": 8
+    },
+    "SET": {
+      "hip": [
+        -150,
+        -300
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 42,
+      "hd": 40,
+      "cv": 10,
+      "g": 0,
+      "ua": 44,
+      "fa": 0,
+      "ua2": 44,
+      "fa2": 0
+    },
+    "PULL": {
+      "hip": [
+        -175,
+        -305
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 36,
+      "hd": 34,
+      "cv": -6,
+      "g": 0,
+      "ua": 34,
+      "fa": 0,
+      "ua2": 34,
+      "fa2": 0
+    },
+    "ELBOW_BAD": {
+      "hip": [
+        -175,
+        -305
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 36,
+      "hd": 34,
+      "cv": -6,
+      "g": 0,
+      "ua": 34,
+      "fa": 58,
+      "ua2": 34,
+      "fa2": 58
+    },
+    "NECK_BAD": {
+      "hip": [
+        -175,
+        -305
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 36,
+      "hd": -30,
+      "cv": -6,
+      "g": 0,
+      "ua": 34,
+      "fa": 0,
+      "ua2": 34,
+      "fa2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "JUNTÁ",
+        "LOS OMÓPLATOS"
+      ],
+      "vo": "Band Scapular Retraction Row: un remo corto, con los brazos rectos, para activar la espalda alta.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "SET",
+              0.6
+            ],
+            [
+              "PULL",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BRAZOS",
+        "RECTOS"
+      ],
+      "sub": "Banda al frente",
+      "vo": "Banda anclada al frente, brazos extendidos y la espalda apenas redondeada, sin peso.",
+      "moves": [
+        {
+          "cut": "SET",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "PASO 1 / 3",
+      "numeral": "1",
+      "head": [
+        "ATRÁS",
+        "Y ABAJO"
+      ],
+      "sub": "Sin doblar los codos",
+      "vo": "Paso uno. Sin doblar los codos, llevá los omóplatos atrás y abajo: el movimiento es corto.",
+      "moves": [
+        {
+          "cut": "SET",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.7,
+          "dur": 0.7
+        },
+        {
+          "to": "SET",
+          "at": 2.4,
+          "dur": 0.8
+        },
+        {
+          "to": "PULL",
+          "at": 3.6,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "PASO 2 / 3",
+      "numeral": "2",
+      "head": [
+        "SOSTENÉ",
+        "UN SEGUNDO"
+      ],
+      "sub": "Y volvé despacio",
+      "vo": "Paso dos. Sostené un segundo y volvé despacio, dejando que los hombros se vayan adelante.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "SET",
+          "at": 1.0,
+          "dur": 0.8
+        },
+        {
+          "to": "PULL",
+          "at": 2.6,
+          "dur": 0.7
+        },
+        {
+          "to": "SET",
+          "at": 3.8,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "PASO 3 / 3",
+      "numeral": "3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Codos doblados o cuello estirado",
+      "vo": "Paso tres. Si doblás los codos se convierte en un remo común, y si estirás el cuello no trabaja la espalda alta.",
+      "moves": [
+        {
+          "cut": "SET",
+          "at": 0
+        },
+        {
+          "to": "ELBOW_BAD",
+          "at": 1.2,
+          "dur": 0.6
+        },
+        {
+          "to": "SET",
+          "at": 2.4,
+          "dur": 0.6
+        },
+        {
+          "to": "NECK_BAD",
+          "at": 3.4,
+          "dur": 0.6
+        },
+        {
+          "to": "SET",
+          "at": 4.4,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "shrink": 0.7,
+      "head": [
+        "TÉCNICA"
+      ],
+      "vo": "Claves: codos rectos, omóplatos atrás y abajo, recorrido corto y sin encoger el cuello.",
+      "keys": [
+        "Codos rectos",
+        "Omóplatos atrás",
+        "Recorrido corto",
+        "Cuello relajado"
+      ],
+      "moves": [
+        {
+          "cut": "SET",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "SET",
+              0.6
+            ],
+            [
+              "PULL",
+              0.5
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "sub": "Activación, no fuerza",
+      "head": [
+        "12 LENTAS"
+      ],
+      "vo": "Doce repeticiones lentas, tres series. Es activación: no busques peso, buscá sentir la espalda.",
+      "chips": [
+        {
+          "label": "1 · ATRÁS",
+          "at": 0.4
+        },
+        {
+          "label": "2 · SOSTENÉ",
+          "at": 0.9
+        },
+        {
+          "label": "3 · SOLTÁ",
+          "at": 1.2
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "SET",
+              0.6
+            ],
+            [
+              "PULL",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "music": true,
+  "musicVolume": 0.18,
+  "pronuncia": {
+    "Kettlebell": "Ketelbel",
+    "kettlebell": "ketelbel",
+    "clean": "clin",
+    "press": "pres",
+    "rack": "rac",
+    "row": "rou",
+    "crunch": "cranch",
+    "toe touch": "tou toch",
+    "Deadlift": "dedlift",
+    "Romanian": "Rrouméinian",
+    "Single-Leg": "singol leg",
+    "Ab Wheel": "ab güil",
+    "rollout": "rolaut",
+    "Dumbbell": "dambel"
+  }
+}

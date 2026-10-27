@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Jumping Lunge",
+      "text": "Estocada, salto y cambio de pierna en el aire. Caída suave y controlada."
+    },
+    {
+      "id": "02",
+      "text": "Arrancá en estocada con la rodilla de adelante a noventa grados y el torso erguido."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Saltá y cambiá de pierna en el aire, con los brazos acompañando el movimiento."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Caé en estocada con la rodilla de adelante alineada con el pie y absorbé el impacto."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si caés con el torso adelante y la rodilla se va para adentro, la rodilla cobra la factura."
+    },
+    {
+      "id": "06",
+      "text": "Claves: caída suave, rodilla alineada, torso erguido y cambio completo."
+    },
+    {
+      "id": "07",
+      "text": "Diez repeticiones, tres series. Si la caída suena fuerte, bajá la altura del salto."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

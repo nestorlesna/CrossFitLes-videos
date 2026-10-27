@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Bodyweight Hollow Body Hold",
+      "text": "Lumbares pegadas al piso, brazos y piernas en banana. Core puro."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba y pegá la lumbar al piso llevando el pubis hacia el ombligo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Elevá los hombros y las piernas formando una banana, con las costillas abajo."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Sostené la posición con los brazos extendidos al lado de las orejas y respirá corto."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si la lumbar se despega del piso, el hollow se rompe: bajá las piernas o flexioná."
+    },
+    {
+      "id": "06",
+      "text": "Claves: lumbar pegada, costillas abajo, respiración corta y brazos firmes."
+    },
+    {
+      "id": "07",
+      "text": "Veinte segundos, tres series. Si perdés la lumbar, cortá la serie ahí mismo."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

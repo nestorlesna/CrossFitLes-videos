@@ -7,7 +7,7 @@
 
 ## Line 1 — CROSSFIT · FUERZA (Frame 1)
 
-    Hang Power Snatch: desde arriba de las rodillas hasta arriba de la cabeza, en un solo movimiento.
+    Barbell Hang Power Snatch: desde arriba de las rodillas hasta arriba de la cabeza, en un solo movimiento.
 
 ## Line 2 — POSICIÓN INICIAL (Frame 2)
 

@@ -1,0 +1,249 @@
+{
+  "slug": "pike-hold",
+  "name": "Pike Hold",
+  "category": "CROSSFIT · GIMNASIA",
+  "tags": [
+    "Hombro",
+    "Core",
+    "Isométrico"
+  ],
+  "descripcion": "Pike hold: cadera alta y manos en el piso con piernas rectas. Isométrico de hombro y core.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.16,
+  "youtube": {
+    "titulo": "Pike Hold 🎯 isométrico de pike con piernas rectas | CrossFit",
+    "tags": [
+      "pike hold",
+      "pike",
+      "isometrico",
+      "hombro",
+      "core",
+      "crossfit",
+      "gimnasia",
+      "deltoides",
+      "isquiotibiales",
+      "sin material"
+    ],
+    "descripcion": "🎬 PIKE HOLD - isométrico de pike\nCadera alta, piernas rectas y manos en el piso. Un isométrico que te carga el hombro, el core y te estira los isquios de paso. 🔺\n\n📝 PASO A PASO\n1️⃣ De pie, flexioná la cadera y llevá las manos al piso, bien adelante de los pies.\n2️⃣ Empujá el piso y subí la cadera lo más alto posible, con las piernas rectas.\n3️⃣ Llevá las orejas entre los brazos y empujá el piso con las palmas.\n4️⃣ Sostené sin perder la línea de la espalda y respirá.\n\n✅ CLAVES DE TÉCNICA\n✔️ Cadera alta\n✔️ Piernas rectas\n✔️ Orejas entre los brazos\n✔️ Empujá el piso\n\n💪 QUÉ TRABAJA\nDeltoides anterior · Tríceps · Recto abdominal · Isquiotibiales\n\n⏱️ CUÁNTO\n25 segundos, 3 series. Si se doblan las rodillas, acortá un poco el rango.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nSi no llegás al piso, apoyá las manos en un cajón y andá bajando de a poco.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #PikeHold #Hombro #Core #Gimnasia"
+  },
+  "miniatura": {
+    "pose": "PIKE",
+    "grip": 1,
+    "zoom": 1.12,
+    "dy": 120
+  },
+  "initialPose": "PIKE",
+  "rig": {
+    "x": 480,
+    "y": 1502,
+    "scale": 0.9
+  },
+  "props": null,
+  "poses": {
+    "FOLD": {
+      "s": 0,
+      "t": 0,
+      "b": 100,
+      "hd": 100,
+      "g": 1,
+      "hx": 300,
+      "hy": 15,
+      "ed": 1
+    },
+    "PIKE": {
+      "s": 0,
+      "t": 0,
+      "b": 130,
+      "hd": 104,
+      "g": 1,
+      "hx": 320,
+      "hy": 15,
+      "ed": 1
+    },
+    "KNEE_BAD": {
+      "hip": [
+        0,
+        -400
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 120,
+      "hd": 100,
+      "g": 1,
+      "hx": 300,
+      "hy": 15,
+      "ed": 1
+    },
+    "ROUND_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": 130,
+      "hd": 120,
+      "g": 1,
+      "hx": 320,
+      "hy": 15,
+      "ed": 1,
+      "cv": 32
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · GIMNASIA",
+      "head": [
+        "PIKE",
+        "HOLD"
+      ],
+      "vo": "Pike Hold: cadera alta, piernas rectas y manos en el piso. Isométrico de hombro y core.",
+      "moves": [
+        {
+          "cut": "FOLD",
+          "at": 0
+        },
+        {
+          "to": "PIKE",
+          "at": 0.8,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "MANOS",
+        "AL PISO"
+      ],
+      "sub": "Adelante de los pies",
+      "vo": "De pie, flexioná la cadera y llevá las manos al piso bien adelante de los pies.",
+      "moves": [
+        {
+          "cut": "FOLD",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SUBÍ",
+        "LA CADERA"
+      ],
+      "sub": "Piernas rectas",
+      "vo": "Paso uno. Empujá el piso y subí la cadera lo más alto posible, con las piernas rectas.",
+      "moves": [
+        {
+          "cut": "FOLD",
+          "at": 0
+        },
+        {
+          "to": "PIKE",
+          "at": 0.7,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "OREJAS ENTRE",
+        "LOS BRAZOS"
+      ],
+      "sub": "Empujá el piso",
+      "vo": "Paso dos. Llevá las orejas entre los brazos y empujá el piso con las palmas.",
+      "moves": [
+        {
+          "cut": "PIKE",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Rodillas dobladas",
+      "vo": "Paso tres. Si se doblan las rodillas y la espalda se redondea, no es un pike: es una flexión.",
+      "moves": [
+        {
+          "cut": "PIKE",
+          "at": 0
+        },
+        {
+          "to": "KNEE_BAD",
+          "at": 0.7,
+          "dur": 0.8
+        },
+        {
+          "to": "PIKE",
+          "at": 2.6,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Cadera alta",
+        "Piernas rectas",
+        "Orejas entre brazos",
+        "Empujá el piso"
+      ],
+      "vo": "Claves: cadera alta, piernas rectas, orejas entre los brazos y empujá el piso.",
+      "moves": [
+        {
+          "cut": "PIKE",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "25 SEGUNDOS"
+      ],
+      "sub": "3 series",
+      "chips": [
+        {
+          "label": "25 s",
+          "at": 0.6
+        },
+        {
+          "label": "3 series",
+          "at": 1.2
+        },
+        {
+          "label": "45 s",
+          "at": 1.8
+        }
+      ],
+      "vo": "Veinticinco segundos, tres series. Si se doblan las rodillas, acortá un poco el rango.",
+      "moves": [
+        {
+          "cut": "PIKE",
+          "at": 0.1,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

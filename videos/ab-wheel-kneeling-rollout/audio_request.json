@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Ab Wheel Kneeling Rollout",
+      "text": "De rodillas, la rueda va adelante y el abdomen la trae de vuelta."
+    },
+    {
+      "id": "02",
+      "text": "Arrancá de rodillas con las manos en la rueda, debajo de los hombros y los brazos extendidos."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Apretá glúteos y abdomen, y rodá hacia adelante extendiendo el cuerpo sin arquear la espalda."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Volvé tirando con el abdomen, no sentándote hacia atrás con la cadera."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si la cadera se hunde y la lumbar se arquea, el abdomen deja de sostener. Cortá el recorrido antes de perder la pelvis."
+    },
+    {
+      "id": "06",
+      "text": "Claves: pelvis en retroversión, glúteos apretados, lumbar neutra y volver con el abdomen."
+    },
+    {
+      "id": "07",
+      "text": "Cuarenta y cinco segundos de trabajo, tres series. Si la lumbar se hunde, acortá el rango."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

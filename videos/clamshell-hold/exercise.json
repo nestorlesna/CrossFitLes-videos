@@ -1,0 +1,267 @@
+{
+  "slug": "clamshell-hold",
+  "name": "Clamshell Hold",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Glúteo medio",
+    "Cadera",
+    "Core"
+  ],
+  "descripcion": "De costado con rodillas flexionadas y pies juntos, se abre la rodilla de arriba como una almeja y se sostiene. El glúteo medio débil es una de las causas más comunes de dolor de rodilla en escaleras.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Clamshell Hold 🔥 Glúteo medio fuerte paso a paso | CrossFit",
+    "tags": [
+      "clamshell hold",
+      "almeja ejercicio",
+      "glúteo medio",
+      "activación de glúteos",
+      "cadera",
+      "rodilla",
+      "isométrico",
+      "crossfit",
+      "entrada en calor",
+      "activación"
+    ],
+    "descripcion": "🔥 CLAMSHELL HOLD — glúteo medio y rodillas más estables\n\n¿Te duelen las rodillas al subir escaleras o después de correr? Muchas veces el problema arranca en el glúteo medio. Este isométrico es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Acostate de costado con las rodillas flexionadas y los pies juntos. La cadera y los hombros quedan apilados.\n2️⃣ Abrí la rodilla de arriba como una almeja, sin mover el pie ni la cadera.\n3️⃣ Sostené arriba con el glúteo apretado: la apertura es corta y firme.\n4️⃣ Bajá controlado y repetí del otro lado.\n\n✅ CLAVES DE TÉCNICA\n• No rotar la pelvis hacia atrás para abrir más\n• Quedate “de perfil perfecto”\n• Los pies no se separan\n• Apertura corta y sostenida, sin impulso\n• El movimiento es de la cadera, no de la espalda\n\n🎯 QUÉ TRABAJA\nGlúteo medio · Glúteo mayor · Core\n\n⏱️ CUÁNTO\n25 segundos por lado. Ideal en la activación, antes de sentadillas, correr o subir escaleras.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi sentís pinchazos en la cadera o la rodilla al abrir, reducí la apertura y consultá con un profesional.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Activación #Clamshell #GlúteoMedio #Cadera"
+  },
+  "miniatura": {
+    "pose": "OPEN",
+    "grip": 0,
+    "zoom": 1.25,
+    "dy": 255
+  },
+  "initialPose": "CLOSED",
+  "rig": {
+    "x": 560,
+    "y": 1520,
+    "scale": 1.05
+  },
+  "poses": {
+    "CLOSED": {
+      "hip": [
+        0,
+        -95
+      ],
+      "t": -75.7,
+      "s": 84.7,
+      "t2": -75.7,
+      "s2": 84.7,
+      "ft": 0,
+      "ft2": 0,
+      "b": -90,
+      "hd": -92,
+      "al": 0.5,
+      "ua": -95,
+      "fa": 95,
+      "ua2": -80,
+      "fa2": 100
+    },
+    "OPEN": {
+      "hip": [
+        0,
+        -95
+      ],
+      "t": -111,
+      "s": 30,
+      "t2": -75.7,
+      "s2": 84.7,
+      "ft": 0,
+      "ft2": 0,
+      "b": -90,
+      "hd": -92,
+      "al": 0.5,
+      "ua": -95,
+      "fa": 95,
+      "ua2": -80,
+      "fa2": 100
+    },
+    "PELVIS_BAD": {
+      "hip": [
+        0,
+        -78
+      ],
+      "t": -128,
+      "s": 22,
+      "t2": -72,
+      "s2": 80,
+      "ft": 0,
+      "ft2": 0,
+      "b": -104,
+      "hd": -96,
+      "al": 0.5,
+      "ua": -95,
+      "fa": 95,
+      "ua2": -80,
+      "fa2": 100
+    }
+  },
+  "props": [],
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "CLAMSHELL",
+        "HOLD"
+      ],
+      "vo": "Clamshell Hold: la almeja. Glúteo medio encendido y rodilla más estable en un isométrico corto.",
+      "moves": [
+        {
+          "cut": "CLOSED",
+          "at": 0
+        },
+        {
+          "to": "OPEN",
+          "at": 0.6,
+          "dur": 1.2
+        },
+        {
+          "to": "CLOSED",
+          "at": 3.4,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE COSTADO"
+      ],
+      "sub": "Rodillas y pies juntos",
+      "vo": "Acostate de costado con las rodillas flexionadas y los pies juntos. La cadera y los hombros quedan apilados.",
+      "moves": [
+        {
+          "cut": "CLOSED",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "ABRÍ LA",
+        "RODILLA"
+      ],
+      "sub": "Como una almeja",
+      "vo": "Paso uno. Abrí la rodilla de arriba como una almeja, sin mover el pie ni la cadera.",
+      "moves": [
+        {
+          "cut": "CLOSED",
+          "at": 0
+        },
+        {
+          "to": "OPEN",
+          "at": 0.6,
+          "dur": 1.3
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "SOSTENÉ"
+      ],
+      "sub": "Apertura corta y firme",
+      "vo": "Paso dos. Sostené arriba con el glúteo apretado. No hace falta abrir más: la apertura es corta y firme.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 6.2,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Pelvis para atrás",
+      "vo": "Paso tres. Si girás la pelvis hacia atrás para abrir más, el glúteo deja de trabajar. Quedate de perfil.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "to": "PELVIS_BAD",
+          "at": 1.0,
+          "dur": 0.8
+        },
+        {
+          "to": "OPEN",
+          "at": 2.8,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Pelvis de perfil, sin girar",
+        "Pies juntos, no se separan",
+        "Apertura corta y sostenida",
+        "Sin impulso"
+      ],
+      "vo": "Claves: pelvis de perfil, pies juntos, apertura corta y sostenida, y nada de impulso para subir la rodilla.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "25 SEGUNDOS"
+      ],
+      "sub": "Por lado",
+      "chips": [
+        {
+          "label": "1 · ABRÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · SOSTENÉ",
+          "at": 2.2
+        }
+      ],
+      "vo": "Veinticinco segundos por lado. Va perfecto en la activación, antes de sentadillas o de correr.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "CLOSED",
+              1.0
+            ],
+            [
+              "OPEN",
+              2.0
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

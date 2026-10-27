@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Band Alternating Pass-Through",
+      "text": "Pasás la banda por arriba de la cabeza, un brazo por vez."
+    },
+    {
+      "id": "02",
+      "text": "Parate con la banda tomada con una mano y el brazo extendido al frente, a la altura del pecho."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Subí el brazo extendido por encima de la cabeza, sin doblar el codo, y llevá la banda atrás."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Volvé por el mismo camino, controlando la banda, y cambiá de brazo."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si el codo se dobla o el hombro se cierra, ampliá el agarre antes de forzar."
+    },
+    {
+      "id": "06",
+      "text": "Claves: codo extendido, hombro relajado, sin tirones y un brazo por vez."
+    },
+    {
+      "id": "07",
+      "text": "Diez pasadas por brazo. Ideal en la entrada en calor, antes de un WOD con pres o dominadas."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

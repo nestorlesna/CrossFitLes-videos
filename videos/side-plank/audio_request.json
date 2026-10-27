@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Side Plank",
+      "text": "Un codo al piso, el cuerpo en una línea y el core sosteniendo todo."
+    },
+    {
+      "id": "02",
+      "text": "Acostate de costado, apoyá el codo abajo del hombro y las piernas estiradas."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Elevá la cadera hasta que cabeza, cadera y pies queden en línea."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Subí el brazo de arriba al techo y abrí el pecho."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si la cadera se cae o se va atrás, el oblicuo deja de sostener."
+    },
+    {
+      "id": "06",
+      "text": "Claves: codo bajo el hombro, cadera alta, cuerpo en línea y respiración pareja."
+    },
+    {
+      "id": "07",
+      "text": "Treinta segundos por lado, dos rondas. Si cuesta, apoyá la rodilla de abajo."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

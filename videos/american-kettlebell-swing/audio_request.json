@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "American Kettlebell Swing",
+      "text": "La pesa sube hasta arriba de la cabeza, con los brazos rectos y el core firme."
+    },
+    {
+      "id": "02",
+      "text": "Parate con los pies al ancho de cadera, la ketelbel tomada con las dos manos y los brazos largos."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Llevá la pesa atrás entre las piernas con bisagra de cadera: no es una sentadilla."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Extendé la cadera y dejá que la pesa suba sola hasta pasar la cabeza: los brazos no tiran."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si los codos se doblan o la lumbar se arquea, la pesa no llega al bloqueo. Frená y bajá el peso."
+    },
+    {
+      "id": "06",
+      "text": "Claves: bisagra de cadera, brazos rectos, costillas abajo y la pesa arriba de la cabeza."
+    },
+    {
+      "id": "07",
+      "text": "Diez repeticiones a ritmo constante, tres series. El americano sube siempre al bloqueo."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,323 @@
+{
+  "slug": "overhead-squat",
+  "name": "Overhead Squat",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Piernas",
+    "Hombros",
+    "Core"
+  ],
+  "descripcion": "Sentadilla completa con la barra sostenida sobre la cabeza y los codos trabados. Es el ejercicio que más pide de hombros, cadera y tobillos a la vez.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Overhead Squat 🎯 sentadilla con barra arriba | CrossFit",
+    "tags": [
+      "overhead squat",
+      "sentadilla overhead",
+      "sentadilla con barra arriba",
+      "barra olimpica",
+      "crossfit",
+      "fuerza",
+      "movilidad de hombros",
+      "sentadilla profunda",
+      "snatch",
+      "tecnica"
+    ],
+    "descripcion": "🎬 OVERHEAD SQUAT - sentadilla con barra arriba\n\nLa sentadilla con la barra sobre la cabeza es el examen más honesto de tu movilidad. Si los codos se doblan, la barra se viene. 🏋️\n\n📝 PASO A PASO\n1️⃣ Poné la barra sobre la cabeza con agarre bien abierto y codos trabados.\n2️⃣ Bajá controlado, manteniendo la barra justo sobre el centro del pie.\n3️⃣ Llegá a profundidad completa con el torso lo más vertical posible.\n4️⃣ Subí empujando la barra hacia arriba y repetí sin perder la posición.\n\n✅ CLAVES DE TÉCNICA\n✔️ Codos extendidos\n✔️ Hombros activos, barra firme\n✔️ Torso vertical\n✔️ Talones apoyados\n\n💪 QUÉ TRABAJA\nCuádriceps · Glúteos · Hombros · Core\n\n⏱️ CUÁNTO\n15 repeticiones con la barra estable. Si perdés la posición, bajá el peso y sumá movilidad.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi los talones se despegan o los codos se doblan, no fuerces la profundidad: trabajá la movilidad primero.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #OverheadSquat #Fuerza #Sentadilla #Movilidad"
+  },
+  "miniatura": {
+    "pose": "BOTTOM",
+    "zoom": 1.35,
+    "dy": 200
+  },
+  "initialPose": "STAND",
+  "rig": {
+    "x": 500,
+    "y": 1506,
+    "scale": 0.78
+  },
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "s2": 0,
+      "t2": 0,
+      "b": 0,
+      "hd": 2,
+      "ua": 178,
+      "fa": 2,
+      "ua2": 176,
+      "fa2": 2
+    },
+    "DESCEND": {
+      "hip": [
+        -75,
+        -380
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 20,
+      "hd": 8,
+      "ua": 176,
+      "fa": 4,
+      "ua2": 174,
+      "fa2": 4
+    },
+    "BOTTOM": {
+      "hip": [
+        -135,
+        -212
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 32,
+      "hd": 16,
+      "ua": 172,
+      "fa": 6,
+      "ua2": 170,
+      "fa2": 6
+    },
+    "ELBOW_BAD": {
+      "hip": [
+        -135,
+        -212
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 44,
+      "hd": 24,
+      "ua": 118,
+      "fa": 62,
+      "ua2": 114,
+      "fa2": 66
+    },
+    "LEAN_BAD": {
+      "hip": [
+        -120,
+        -212
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 66,
+      "hd": 40,
+      "ua": 170,
+      "fa": 6,
+      "ua2": 168,
+      "fa2": 6
+    }
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "off": [
+        0,
+        -4
+      ],
+      "r": 66
+    }
+  ],
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "OVERHEAD",
+        "SQUAT"
+      ],
+      "vo": "Overhead Squat: la sentadilla con la barra sobre la cabeza. Pide hombros, cadera y tobillos, y no perdona codos flojos.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.6,
+          "dur": 1.4
+        },
+        {
+          "to": "STAND",
+          "at": 3.2,
+          "dur": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": null,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BARRA",
+        "ARRIBA"
+      ],
+      "sub": "Agarre bien abierto",
+      "vo": "Pies al ancho de hombros, barra arriba con agarre bien abierto y codos trabados.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ",
+        "CONTROLADO"
+      ],
+      "sub": "Barra sobre el centro del pie",
+      "vo": "Paso uno. Bajá controlado, manteniendo la barra justo sobre el centro del pie.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "DESCEND",
+          "at": 0.5,
+          "dur": 1.1
+        },
+        {
+          "to": "BOTTOM",
+          "at": 1.8,
+          "dur": 1.1
+        }
+      ]
+    },
+    {
+      "min": 6.2,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "PROFUNDIDAD",
+        "COMPLETA"
+      ],
+      "sub": "Torso vertical",
+      "vo": "Paso dos. Llegá a profundidad completa con el torso lo más vertical posible y los codos extendidos.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "DESCEND",
+          "at": 2.2,
+          "dur": 0.9
+        },
+        {
+          "to": "BOTTOM",
+          "at": 3.2,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 6.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Codos flojos o torso adelante",
+      "vo": "Paso tres. Si se doblan los codos o el torso se va adelante, la barra se cae. Volvé a subir.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "ELBOW_BAD",
+          "at": 0.6,
+          "dur": 0.7
+        },
+        {
+          "to": "BOTTOM",
+          "at": 1.9,
+          "dur": 0.7
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 2.9,
+          "dur": 0.7
+        },
+        {
+          "to": "BOTTOM",
+          "at": 4.2,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Codos extendidos",
+        "Hombros activos, barra firme",
+        "Torso vertical",
+        "Talones apoyados"
+      ],
+      "vo": "Claves: codos extendidos, hombros activos empujando la barra hacia arriba, torso vertical y talones apoyados.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0.1
+        }
+      ],
+      "shrink": 0.75
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "15 REPS"
+      ],
+      "sub": "Barra estable",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · SUBÍ",
+          "at": 2.4
+        }
+      ],
+      "vo": "Quince repeticiones con la barra estable. Si perdés la posición, bajá el peso.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "STAND",
+              1.0
+            ],
+            [
+              "BOTTOM",
+              1.6
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

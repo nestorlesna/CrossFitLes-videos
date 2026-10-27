@@ -1,0 +1,362 @@
+{
+  "slug": "american-kettlebell-swing",
+  "name": "American Kettlebell Swing",
+  "category": "CROSSFIT · POTENCIA",
+  "tags": [
+    "Potencia",
+    "Hombro",
+    "Core"
+  ],
+  "descripcion": "Swing americano: la kettlebell sube por encima de la cabeza hasta el bloqueo, con los brazos rectos y el core firme. Es el swing que usa CrossFit en los WODs.",
+  "revisado": false,
+  "notas": "Misma geometría que kettlebell-swing (rig chico 0.68, swing:true) pero el tope es OH (ua 184) y el error es quedar corto en la altura de los ojos o doblar los codos.",
+  "youtube": {
+    "titulo": "American Kettlebell Swing 🎯 swing por arriba de la cabeza | CrossFit",
+    "tags": [
+      "american kettlebell swing",
+      "swing americano",
+      "kettlebell swing",
+      "crossfit",
+      "potencia",
+      "gluteo",
+      "hombro",
+      "core",
+      "hip hinge",
+      "kettlebell"
+    ],
+    "descripcion": "🎬 American Kettlebell Swing 🎯 swing por arriba de la cabeza | CrossFit\nLa kettlebell vuela hasta arriba de la cabeza. El americano es el swing de CrossFit: misma cadera, más altura y brazos rectos. 🎯\n\n📝 PASO A PASO\n1️⃣ Pies al ancho de cadera y la kettlebell tomada con las dos manos, brazos largos.\n2️⃣ Llevá la pesa atrás entre las piernas con bisagra de cadera, sin sentarte.\n3️⃣ Extendé la cadera y dejá que la pesa suba sola hasta pasar la cabeza.\n4️⃣ Arriba, costillas abajo y brazos rectos: la pesa queda encima de la cabeza.\n\n✅ CLAVES DE TÉCNICA\n✔️ Bisagra, no sentadilla\n✔️ Brazos rectos\n✔️ La fuerza sale del glúteo\n✔️ Costillas abajo y sin arquear\n\n💪 QUÉ TRABAJA\nGlúteo · Isquios · Erectores · Hombro · Core\n\n⏱️ CUÁNTO\n10 repeticiones a ritmo constante, 3 series. El americano sube siempre al bloqueo.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nEl americano no es un press: los brazos no empujan la pesa, la pesa sube por la cadera. Si tenés que ayudar con los brazos, bajá el peso.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #KettlebellSwing #Potencia #Kettlebell #Gluteo"
+  },
+  "miniatura": {
+    "pose": "OH",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 120
+  },
+  "initialPose": "STAND",
+  "rig": {
+    "x": 400,
+    "y": 1508,
+    "scale": 0.68
+  },
+  "props": [
+    {
+      "type": "kettlebell",
+      "off": [
+        0,
+        0
+      ],
+      "swing": true
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 0,
+      "ua2": 4,
+      "fa2": 0
+    },
+    "HIKE": {
+      "s": 8,
+      "t": -22,
+      "b": 66,
+      "hd": 54,
+      "g": 0,
+      "ua": -44,
+      "fa": 0,
+      "ua2": -44,
+      "fa2": 0
+    },
+    "EYE": {
+      "s": 0,
+      "t": 0,
+      "b": -3,
+      "hd": -2,
+      "g": 0,
+      "ua": 92,
+      "fa": 0,
+      "ua2": 92,
+      "fa2": 0
+    },
+    "OH": {
+      "s": 0,
+      "t": 0,
+      "b": -2,
+      "hd": 6,
+      "g": 0,
+      "ua": 184,
+      "fa": 0,
+      "ua2": 184,
+      "fa2": 0
+    },
+    "SHORT_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": -3,
+      "hd": -2,
+      "g": 0,
+      "ua": 92,
+      "fa": 0,
+      "ua2": 92,
+      "fa2": 0
+    },
+    "BENT_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": -2,
+      "hd": 6,
+      "g": 0,
+      "ua": 152,
+      "fa": 62,
+      "ua2": 152,
+      "fa2": 62
+    },
+    "ARCH_BAD": {
+      "s": 0,
+      "t": 4,
+      "b": -14,
+      "hd": -10,
+      "cv": -22,
+      "g": 0,
+      "ua": 176,
+      "fa": 0,
+      "ua2": 176,
+      "fa2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · POTENCIA",
+      "head": [
+        "AMERICAN",
+        "SWING"
+      ],
+      "vo": "American Kettlebell Swing: la pesa sube hasta arriba de la cabeza, con los brazos rectos y el core firme.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "HIKE",
+              0.5
+            ],
+            [
+              "OH",
+              0.45
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DOS MANOS",
+        "BRAZOS LARGOS"
+      ],
+      "sub": "Pies al ancho de cadera",
+      "vo": "Parate con los pies al ancho de cadera, la kettlebell tomada con las dos manos y los brazos largos.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 1 / 3",
+      "numeral": "1",
+      "head": [
+        "BISAGRA",
+        "NO SENTADILLA"
+      ],
+      "sub": "La pesa va atrás",
+      "vo": "Paso uno. Llevá la pesa atrás entre las piernas con bisagra de cadera: no es una sentadilla.",
+      "moves": [
+        {
+          "to": "HIKE",
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "to": "STAND",
+          "at": 2.6,
+          "dur": 0.6
+        },
+        {
+          "to": "HIKE",
+          "at": 3.4,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 2 / 3",
+      "numeral": "2",
+      "head": [
+        "DEJALA",
+        "SUBIR"
+      ],
+      "sub": "Los brazos son cuerdas",
+      "vo": "Paso dos. Extendé la cadera y dejá que la pesa suba sola hasta pasar la cabeza: los brazos no tiran.",
+      "moves": [
+        {
+          "cut": "HIKE",
+          "at": 0
+        },
+        {
+          "to": "EYE",
+          "at": 0.6,
+          "dur": 0.45,
+          "ease": "power2.out"
+        },
+        {
+          "to": "OH",
+          "at": 1.4,
+          "dur": 0.5,
+          "ease": "power2.out"
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "PASO 3 / 3",
+      "numeral": "3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Cortar el recorrido o doblar el codo",
+      "vo": "Paso tres. Si los codos se doblan o la lumbar se arquea, la pesa no llega al bloqueo. Frená y bajá el peso.",
+      "moves": [
+        {
+          "cut": "OH",
+          "at": 0
+        },
+        {
+          "to": "SHORT_BAD",
+          "at": 1.4,
+          "dur": 0.5
+        },
+        {
+          "to": "BENT_BAD",
+          "at": 2.6,
+          "dur": 0.5
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 3.8,
+          "dur": 0.5
+        },
+        {
+          "to": "OH",
+          "at": 4.8,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "shrink": 0.7,
+      "head": [
+        "TÉCNICA"
+      ],
+      "vo": "Claves: bisagra de cadera, brazos rectos, costillas abajo y la pesa arriba de la cabeza.",
+      "keys": [
+        "Bisagra, no sentadilla",
+        "Brazos rectos",
+        "Costillas abajo",
+        "La pesa al bloqueo"
+      ],
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "HIKE",
+              0.5
+            ],
+            [
+              "OH",
+              0.45
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "sub": "Ritmo constante",
+      "head": [
+        "10 REPETICIONES"
+      ],
+      "vo": "Diez repeticiones a ritmo constante, tres series. El americano sube siempre al bloqueo.",
+      "chips": [
+        {
+          "label": "1 · ATRÁS",
+          "at": 0.4
+        },
+        {
+          "label": "2 · CADERA",
+          "at": 0.9
+        },
+        {
+          "label": "3 · ARRIBA",
+          "at": 1.2
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "HIKE",
+              0.5
+            ],
+            [
+              "OH",
+              0.45
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "music": true,
+  "musicVolume": 0.18,
+  "pronuncia": {
+    "Kettlebell": "Ketelbel",
+    "kettlebell": "ketelbel",
+    "clean": "clin",
+    "press": "pres",
+    "rack": "rac",
+    "row": "rou",
+    "crunch": "cranch",
+    "toe touch": "tou toch",
+    "Deadlift": "dedlift",
+    "Romanian": "Rrouméinian",
+    "Single-Leg": "singol leg",
+    "Ab Wheel": "ab güil",
+    "rollout": "rolaut",
+    "Dumbbell": "dambel"
+  }
+}

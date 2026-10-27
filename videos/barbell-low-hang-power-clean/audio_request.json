@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Barbell Low Hang Power Clean",
+      "text": "La barra arranca abajo de la rodilla y la cadera la manda al rac."
+    },
+    {
+      "id": "02",
+      "text": "Parate con la barra en las manos y hacé bisagra hasta dejarla abajo de la rodilla, espalda neutra."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Extendé la cadera y las rodillas de golpe: la barra sube pegada al cuerpo."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Tirá los codos y recibí la barra en los hombros, con los codos altos y el torso firme."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si los codos quedan bajos o la barra se va del cuerpo, la recepción se cae. Acelerá el peso."
+    },
+    {
+      "id": "06",
+      "text": "Claves: la barra pegada al cuerpo, cadera y rodillas juntas, codos altos y sin sentadilla."
+    },
+    {
+      "id": "07",
+      "text": "Cinco repeticiones, cuatro series. Con un peso que puedas acelerar: la velocidad es el punto."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

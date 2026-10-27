@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Pigeon Rotation",
+      "text": "Desde la paloma, abrí el brazo y rotá la espalda alta. Movilidad de cadera y torácica juntas."
+    },
+    {
+      "id": "02",
+      "text": "Pierna de adelante doblada, la de atrás extendida y la cadera bien apoyada y cuadrada."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Con el torso erguido, apoyá las manos en el piso y sentí la cadera asentada."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Abrí un brazo hacia arriba y rotá el torso hacia ese lado, mirando la mano."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si la cadera se despega o rebotás, la rotación no sale de la espalda. Volvé suave."
+    },
+    {
+      "id": "06",
+      "text": "Claves: cadera apoyada y cuadrada, rotación desde la espalda alta, mirada en la mano y cero dolor de rodilla."
+    },
+    {
+      "id": "07",
+      "text": "Treinta segundos por lado. Si la rodilla molesta, acortá el rango y consultá."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

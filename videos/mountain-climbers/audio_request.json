@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Mountain Climbers",
+      "text": "En plancha, rodillas al pecho alternando rápido. Cardio y core a la vez."
+    },
+    {
+      "id": "02",
+      "text": "Armá una plancha alta con las manos bajo los hombros y los pies cómodos."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Llevá una rodilla al pecho sin levantar la cadera ni perder la línea."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Cambiá de pierna alternando rápido, con ritmo parejo y constante."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si la cadera se levanta y rebota, el core se apaga y el ritmo se rompe."
+    },
+    {
+      "id": "06",
+      "text": "Claves: cadera baja, manos bajo los hombros, ritmo parejo y core activo."
+    },
+    {
+      "id": "07",
+      "text": "Treinta segundos, tres rondas. Descansá treinta entre rondas."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

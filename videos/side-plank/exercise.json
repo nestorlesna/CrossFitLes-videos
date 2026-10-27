@@ -1,0 +1,259 @@
+{
+  "slug": "side-plank",
+  "name": "Side Plank",
+  "category": "CROSSFIT · CORE",
+  "tags": [
+    "Core",
+    "Oblicuos",
+    "Estabilidad"
+  ],
+  "descripcion": "De costado, apoyando el codo bajo el hombro, se eleva la cadera hasta dejar el cuerpo en una línea. Isométrico puro para oblicuos y estabilidad lateral.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Side Plank 🎯 plancha lateral isométrica | CrossFit",
+    "tags": [
+      "side plank",
+      "plancha lateral",
+      "oblicuos",
+      "core lateral",
+      "crossfit",
+      "estabilidad",
+      "isometrico",
+      "core",
+      "plancha"
+    ],
+    "descripcion": "🎬 SIDE PLANK - plancha lateral isométrica\n\nUn codo al piso, el cuerpo en una línea y el core sosteniendo todo. La plancha lateral no perdona la cadera caída. 📐\n\n📝 PASO A PASO\n1️⃣ Acostate de costado y apoyá el codo abajo del hombro, piernas estiradas.\n2️⃣ Elevá la cadera hasta que cabeza, cadera y pies queden en línea.\n3️⃣ Subí el brazo de arriba al techo y abrí el pecho.\n4️⃣ Sostené respirando y cambiá de lado.\n\n✅ CLAVES DE TÉCNICA\n✔️ Codo bajo el hombro\n✔️ Cadera alta\n✔️ Cuerpo en línea\n✔️ Respirá parejo\n\n💪 QUÉ TRABAJA\nOblicuos · Cuadrado lumbar · Glúteo medio · Hombro\n\n⏱️ CUÁNTO\n30 segundos por lado, 2 rondas. Base para cualquier WOD con carga unilateral.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi cuesta, apoyá la rodilla de abajo o acortá el tiempo. No dejes caer la cadera.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Core #PlanchaLateral #Oblicuos #Estabilidad"
+  },
+  "miniatura": {
+    "pose": "PLANK",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 105
+  },
+  "initialPose": "PLANK",
+  "rig": {
+    "x": 540,
+    "y": 1504,
+    "scale": 0.8
+  },
+  "poses": {
+    "LOW": {
+      "hip": [
+        141.6,
+        -222.8
+      ],
+      "ankle": [
+        -300,
+        -62
+      ],
+      "ft": 55,
+      "b": 70,
+      "hd": 74,
+      "g2": 1,
+      "hx2": 405,
+      "hy2": 15,
+      "ed2": 1,
+      "ua": -70,
+      "fa": 6,
+      "ua2": 8,
+      "fa2": 8
+    },
+    "PLANK": {
+      "hip": [
+        141.6,
+        -222.8
+      ],
+      "ankle": [
+        -300,
+        -62
+      ],
+      "ft": 55,
+      "b": 70,
+      "hd": 74,
+      "g2": 1,
+      "hx2": 405,
+      "hy2": 15,
+      "ed2": 1,
+      "ua": 175,
+      "fa": 4
+    },
+    "HIP_DROP_BAD": {
+      "hip": [
+        175.7,
+        -154.3
+      ],
+      "ankle": [
+        -280,
+        -62
+      ],
+      "ft": 55,
+      "b": 55,
+      "hd": 60,
+      "g2": 1,
+      "hx2": 405,
+      "hy2": 15,
+      "ed2": 1,
+      "ua": 150,
+      "fa": 14
+    }
+  },
+  "props": null,
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · CORE",
+      "head": [
+        "SIDE",
+        "PLANK"
+      ],
+      "vo": "Side Plank: un codo al piso, el cuerpo en una línea y el core sosteniendo todo.",
+      "moves": [
+        {
+          "cut": "LOW",
+          "at": 0
+        },
+        {
+          "to": "PLANK",
+          "at": 0.7,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": null,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE COSTADO"
+      ],
+      "sub": "Codo bajo el hombro",
+      "vo": "Acostate de costado, apoyá el codo abajo del hombro y las piernas estiradas.",
+      "moves": [
+        {
+          "cut": "LOW",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "UNA LÍNEA",
+        "RECTA"
+      ],
+      "sub": "Cabeza a pies",
+      "vo": "Paso uno. Elevá la cadera hasta que cabeza, cadera y pies queden en línea.",
+      "moves": [
+        {
+          "cut": "LOW",
+          "at": 0
+        },
+        {
+          "to": "PLANK",
+          "at": 0.7,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "BRAZO",
+        "ARRIBA"
+      ],
+      "sub": "Al techo",
+      "vo": "Paso dos. Subí el brazo de arriba al techo y abrí el pecho.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Cadera que cae",
+      "vo": "Paso tres. Si la cadera se cae o se va atrás, el oblicuo deja de sostener.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        },
+        {
+          "to": "HIP_DROP_BAD",
+          "at": 0.7,
+          "dur": 0.8
+        },
+        {
+          "to": "PLANK",
+          "at": 2.8,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Codo bajo el hombro",
+        "Cadera alta",
+        "Cuerpo en línea",
+        "Respirá parejo"
+      ],
+      "vo": "Claves: codo bajo el hombro, cadera alta, cuerpo en línea y respiración pareja.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "Cada lado",
+      "chips": [
+        {
+          "label": "30 s",
+          "at": 0.6
+        },
+        {
+          "label": "Por lado",
+          "at": 1.2
+        },
+        {
+          "label": "2 rondas",
+          "at": 1.8
+        }
+      ],
+      "vo": "Treinta segundos por lado, dos rondas. Si cuesta, apoyá la rodilla de abajo.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0.2
+        }
+      ]
+    }
+  ]
+}

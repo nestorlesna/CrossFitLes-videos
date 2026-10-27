@@ -1,0 +1,263 @@
+{
+  "slug": "plank-shoulder-taps",
+  "name": "Plank Shoulder Taps",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Core",
+    "Hombro",
+    "Estabilidad"
+  ],
+  "descripcion": "En plancha alta, se toca el hombro contrario con cada mano manteniendo la cadera quieta. Core y hombros trabajando contra la rotación.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Plank Shoulder Taps 🎯 plancha con toques de hombro | CrossFit",
+    "tags": [
+      "plank shoulder taps",
+      "plancha con toques",
+      "core",
+      "estabilidad",
+      "crossfit",
+      "activacion",
+      "plancha",
+      "hombro",
+      "isometrico"
+    ],
+    "descripcion": "🎬 PLANK SHOULDER TAPS - plancha con toques de hombro\n\nTocar el hombro contrario parece fácil hasta que la cadera empieza a bailar. Ahí está el trabajo real. 🤝\n\n📝 PASO A PASO\n1️⃣ Plancha alta, manos bajo los hombros y pies un poco separados.\n2️⃣ Levantá una mano y tocá el hombro del otro lado, sin apuro.\n3️⃣ Volvé a apoyar y repetí con la otra mano, alternando.\n4️⃣ Mantené la cadera quieta y el abdomen firme todo el tiempo.\n\n✅ CLAVES DE TÉCNICA\n✔️ Cadera quieta\n✔️ Manos bajo hombros\n✔️ Core y glúteos activos\n✔️ Alterná lento\n\n💪 QUÉ TRABAJA\nRecto abdominal · Oblicuos · Deltoides anterior · Tríceps\n\n⏱️ CUÁNTO\n40 segundos, 2 series. Ideal en la activación o como remate de core.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi la cadera se mueve mucho, abrí más los pies o apoyá las rodillas.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Core #Plancha #Activacion #Estabilidad"
+  },
+  "miniatura": {
+    "pose": "TAP",
+    "grip": 1,
+    "zoom": 1.12,
+    "dy": 118
+  },
+  "initialPose": "PLANK",
+  "rig": {
+    "x": 230,
+    "y": 1504,
+    "scale": 0.85
+  },
+  "poses": {
+    "PLANK": {
+      "s": 68.41,
+      "t": 68.41,
+      "rx": -20,
+      "ry": -40,
+      "ft": 118,
+      "b": 68.41,
+      "hd": 78,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": 15
+    },
+    "TAP": {
+      "s": 68.41,
+      "t": 68.41,
+      "rx": -20,
+      "ry": -40,
+      "ft": 118,
+      "b": 68.41,
+      "hd": 78,
+      "g": 1,
+      "ed": -1,
+      "hx": 645,
+      "hy": -215,
+      "g2": 1,
+      "hx2": 675,
+      "hy2": 15,
+      "ed2": 1
+    },
+    "HIP_BAD": {
+      "hip": [
+        420,
+        -175
+      ],
+      "ankle": [
+        -20,
+        -40
+      ],
+      "ft": 118,
+      "b": 60,
+      "hd": 66,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": 15
+    }
+  },
+  "props": null,
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "PLANK",
+        "SHOULDER TAPS"
+      ],
+      "vo": "Plank Shoulder Taps: tocar el hombro contrario sin mover la cadera. Core que no se mueve.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        },
+        {
+          "to": "TAP",
+          "at": 0.8,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": null,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PLANCHA",
+        "ALTA"
+      ],
+      "sub": "Pies separados",
+      "vo": "Plancha alta con las manos bajo los hombros y los pies un poco separados para estabilizar.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "UNA MANO",
+        "AL HOMBRO"
+      ],
+      "sub": "Contrario",
+      "vo": "Paso uno. Levantá una mano y tocá el hombro del otro lado, sin apuro.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        },
+        {
+          "to": "TAP",
+          "at": 0.7,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "VOLVÉ",
+        "AL PISO"
+      ],
+      "sub": "Alterná lados",
+      "vo": "Paso dos. Volvé a apoyar y repetí con la otra mano, alternando.",
+      "moves": [
+        {
+          "cut": "TAP",
+          "at": 0
+        },
+        {
+          "to": "PLANK",
+          "at": 0.6,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Cadera que baila",
+      "vo": "Paso tres. Si la cadera se hamaca o se hunde, el core dejó de trabajar.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        },
+        {
+          "to": "HIP_BAD",
+          "at": 0.7,
+          "dur": 0.8
+        },
+        {
+          "to": "PLANK",
+          "at": 2.6,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Cadera quieta",
+        "Manos bajo hombros",
+        "Core y glúteos activos",
+        "Alterná lento"
+      ],
+      "vo": "Claves: cadera quieta, manos bajo los hombros, core activo y ritmo parejo.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "40 SEGUNDOS"
+      ],
+      "sub": "2 series",
+      "chips": [
+        {
+          "label": "40 s",
+          "at": 0.6
+        },
+        {
+          "label": "2 series",
+          "at": 1.2
+        },
+        {
+          "label": "30 s",
+          "at": 1.8
+        }
+      ],
+      "vo": "Cuarenta segundos, dos series. Cambiá de mano cada dos o tres toques.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "TAP",
+              0.8
+            ],
+            [
+              "PLANK",
+              0.8
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Quadruped Rotation",
+      "text": "Rotación torácica en cuatro apoyos. El codo entra y después abre el pecho."
+    },
+    {
+      "id": "02",
+      "text": "Manos bajo los hombros y rodillas bajo la cadera, con la espalda larga."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Llevá el codo por debajo del cuerpo, redondeando un poco la espalda alta."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Abrí el brazo hacia el techo y seguí el codo con la mirada."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si la cadera se mueve o las rodillas se despegan, la rotación se pierde. Quedate quieto abajo."
+    },
+    {
+      "id": "06",
+      "text": "Claves: cadera y rodillas quietas, rotación desde la espalda alta, mirada en el codo y nada de apuro."
+    },
+    {
+      "id": "07",
+      "text": "Diez repeticiones con cada brazo. Cambiá de lado y mantené la cadera fija."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

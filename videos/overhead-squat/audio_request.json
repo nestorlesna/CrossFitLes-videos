@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Overhead Squat",
+      "text": "La sentadilla con la barra sobre la cabeza. Pide hombros, cadera y tobillos, y no perdona codos flojos."
+    },
+    {
+      "id": "02",
+      "text": "Pies al ancho de hombros, barra arriba con agarre bien abierto y codos trabados."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá controlado, manteniendo la barra justo sobre el centro del pie."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Llegá a profundidad completa con el torso lo más vertical posible y los codos extendidos."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si se doblan los codos o el torso se va adelante, la barra se cae. Volvé a subir."
+    },
+    {
+      "id": "06",
+      "text": "Claves: codos extendidos, hombros activos empujando la barra hacia arriba, torso vertical y talones apoyados."
+    },
+    {
+      "id": "07",
+      "text": "Quince repeticiones con la barra estable. Si perdés la posición, bajá el peso."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

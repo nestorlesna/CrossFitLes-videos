@@ -1,0 +1,305 @@
+{
+  "slug": "single-arm-dumbbell-push-press",
+  "name": "Single-Arm Dumbbell Push Press",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Hombro",
+    "Fuerza",
+    "Mancuerna"
+  ],
+  "descripcion": "Press de mancuerna con un solo brazo usando impulso de piernas. Dip rápido con rodillas seguido de extensión completa del brazo sobre la cabeza.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Single-Arm Dumbbell Push Press 🎯 press a un brazo con impulso | CrossFit",
+    "tags": [
+      "single arm push press",
+      "push press",
+      "mancuerna",
+      "hombro",
+      "crossfit",
+      "fuerza",
+      "press militar",
+      "triceps",
+      "un brazo",
+      "wod"
+    ],
+    "descripcion": "🎬 SINGLE-ARM DUMBBELL PUSH PRESS - press a un brazo\nUn brazo, una mancuerna y el impulso de las piernas. El dip es corto y el bloqueo es arriba, sin inclinarte al costado. 💪\n\n📝 PASO A PASO\n1️⃣ Mancuerna apoyada en el hombro con el codo al frente y la otra mano libre.\n2️⃣ Hacé un dip corto con los talones apoyados y el tronco recto.\n3️⃣ Empujá con las piernas y terminá con el brazo bloqueado arriba.\n4️⃣ Bajá la mancuerna al hombro controlado y repetí.\n\n✅ CLAVES DE TÉCNICA\n✔️ Codo al frente\n✔️ Dip corto\n✔️ Bloqueo arriba\n✔️ Sin inclinarte al costado\n\n💪 QUÉ TRABAJA\nDeltoides anterior · Tríceps · Core · Cuádriceps (impulso)\n\n⏱️ CUÁNTO\n20 repeticiones con 15 kg, 3 series. Si el bloqueo se pierde, bajá el peso.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nEl impulso de piernas te da el arranque; el brazo solo termina el trabajo. Si te inclinás al costado, el core no está sosteniendo nada: bajá el peso hasta que la línea quede derecha.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #PushPress #Mancuerna #Hombro #Fuerza"
+  },
+  "miniatura": {
+    "pose": "LOCK",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 60
+  },
+  "initialPose": "RACK",
+  "rig": {
+    "x": 470,
+    "y": 1509,
+    "scale": 0.7
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "side": true,
+      "r": 40
+    }
+  ],
+  "poses": {
+    "RACK": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 14,
+      "fa": 160,
+      "ua2": 6,
+      "fa2": 4
+    },
+    "DIP": {
+      "s": 14,
+      "t": -30,
+      "b": 2,
+      "hd": 2,
+      "g": 0,
+      "ua": 14,
+      "fa": 160,
+      "ua2": 6,
+      "fa2": 4
+    },
+    "DRIVE": {
+      "s": -4,
+      "t": 4,
+      "b": -2,
+      "hd": -2,
+      "ft": -16,
+      "ft2": -16,
+      "g": 0,
+      "ua": 14,
+      "fa": 160,
+      "ua2": 6,
+      "fa2": 4
+    },
+    "LOCK": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 6,
+      "g": 0,
+      "ua": 172,
+      "fa": 0,
+      "ua2": 14,
+      "fa2": 8
+    },
+    "DIP_BAD": {
+      "s": 26,
+      "t": -72,
+      "b": 30,
+      "hd": 24,
+      "g": 0,
+      "ua": 14,
+      "fa": 160,
+      "ua2": 6,
+      "fa2": 4
+    },
+    "PRESS_BAD": {
+      "s": 4,
+      "t": 10,
+      "b": -16,
+      "hd": -10,
+      "g": 0,
+      "ua": 160,
+      "fa": 26,
+      "ua2": 10,
+      "fa2": 6
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "SINGLE-ARM",
+        "PUSH PRESS"
+      ],
+      "vo": "Single-Arm Dumbbell Push Press: un brazo, una mancuerna y el impulso de las piernas.",
+      "moves": [
+        {
+          "cut": "RACK",
+          "at": 0
+        },
+        {
+          "to": "DIP",
+          "at": 0.4,
+          "dur": 0.4
+        },
+        {
+          "to": "LOCK",
+          "at": 1.0,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "MANCUERNA",
+        "AL HOMBRO"
+      ],
+      "sub": "Codo al frente",
+      "vo": "Arrancá con la mancuerna apoyada en el hombro, el codo al frente y la otra mano libre.",
+      "moves": [
+        {
+          "cut": "RACK",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "DIP",
+        "CORTO"
+      ],
+      "sub": "Talones apoyados",
+      "vo": "Paso uno. Hacé un dip corto con los talones apoyados y el tronco recto.",
+      "moves": [
+        {
+          "cut": "RACK",
+          "at": 0
+        },
+        {
+          "to": "DIP",
+          "at": 0.5,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "EMPUJÁ",
+        "Y BLOQUEÁ"
+      ],
+      "sub": "Brazo arriba",
+      "vo": "Paso dos. Empujá con las piernas y terminá con el brazo bloqueado arriba, sin inclinarte.",
+      "moves": [
+        {
+          "cut": "DIP",
+          "at": 0
+        },
+        {
+          "to": "DRIVE",
+          "at": 0.3,
+          "dur": 0.3
+        },
+        {
+          "to": "LOCK",
+          "at": 0.7,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Dip profundo y pecho abajo",
+      "vo": "Paso tres. Si el dip es profundo y el pecho se cae, perdés el impulso y el press se vuelve un tirón.",
+      "moves": [
+        {
+          "cut": "DIP",
+          "at": 0
+        },
+        {
+          "to": "DIP_BAD",
+          "at": 0.7,
+          "dur": 0.8
+        },
+        {
+          "to": "DIP",
+          "at": 2.4,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Codo al frente",
+        "Dip corto",
+        "Bloqueo arriba",
+        "Tronco derecho"
+      ],
+      "vo": "Claves: codo al frente, dip corto, bloqueo arriba y tronco derecho.",
+      "moves": [
+        {
+          "cut": "LOCK",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "20 REPETICIONES"
+      ],
+      "sub": "3 series",
+      "chips": [
+        {
+          "label": "20 reps",
+          "at": 0.6
+        },
+        {
+          "label": "3 series",
+          "at": 1.2
+        },
+        {
+          "label": "15 kg",
+          "at": 1.8
+        }
+      ],
+      "vo": "Veinte repeticiones con quince kilos, tres series. Si el bloqueo se pierde, bajá el peso.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "DIP",
+              0.35
+            ],
+            [
+              "LOCK",
+              0.5
+            ],
+            [
+              "RACK",
+              0.6
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

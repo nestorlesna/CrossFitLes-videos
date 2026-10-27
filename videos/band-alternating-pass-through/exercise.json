@@ -1,0 +1,345 @@
+{
+  "slug": "band-alternating-pass-through",
+  "name": "Band Alternating Pass-Through",
+  "category": "CROSSFIT · MOVILIDAD",
+  "tags": [
+    "Hombro",
+    "Movilidad",
+    "Entrada en calor"
+  ],
+  "descripcion": "Pasadas con banda, un brazo por vez: el brazo sube extendido, lleva la banda atrás de la cabeza y vuelve. Movilidad de hombro antes de cualquier WOD.",
+  "revisado": false,
+  "notas": "El prop dibuja la banda del ancla a la mano cercana, así que la pasada se muestra con un brazo (el lejano queda al costado) y la alternancia se cuenta en la VO.",
+  "youtube": {
+    "titulo": "Band Alternating Pass-Through 🎯 movilidad de hombro un brazo por vez | CrossFit",
+    "tags": [
+      "band pass through",
+      "pasadas con banda",
+      "movilidad de hombro",
+      "shoulder mobility",
+      "entrada en calor",
+      "crossfit",
+      "banda elastica",
+      "hombro"
+    ],
+    "descripcion": "🎬 Band Alternating Pass-Through 🎯 movilidad de hombro un brazo por vez | CrossFit\nUna banda, un brazo y todo el arco del hombro. Las pasadas alternadas son la entrada en calor más corta para press y dominadas. 🎯\n\n📝 PASO A PASO\n1️⃣ Banda anclada atrás y arriba, tomada con una mano, brazo extendido al frente.\n2️⃣ Subí el brazo extendido por encima de la cabeza, sin doblar el codo.\n3️⃣ Llevá la banda atrás de la cabeza y volvé por el mismo camino.\n4️⃣ Repetí con el otro brazo, siempre lento y sin tirones.\n\n✅ CLAVES DE TÉCNICA\n✔️ Codo siempre extendido\n✔️ Hombro relajado\n✔️ Sin tirones\n✔️ Un brazo por vez\n\n💪 QUÉ TRABAJA\nHombro · Manguito rotador · Espalda alta\n\n⏱️ CUÁNTO\n10 pasadas por brazo. Ideal en la entrada en calor, antes de un WOD con press o dominadas.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nSi el hombro se cierra o el codo se dobla para pasar, la banda está muy corta: alejate del ancla y volvé a probar.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Movilidad #Hombro #BandaElastica #WarmUp"
+  },
+  "miniatura": {
+    "pose": "OVER",
+    "grip": 0,
+    "zoom": 1.05,
+    "dy": 160
+  },
+  "initialPose": "FRONT",
+  "rig": {
+    "x": 560,
+    "y": 1500,
+    "scale": 0.78
+  },
+  "props": [
+    {
+      "type": "band",
+      "anchor": [
+        -180,
+        -1120
+      ],
+      "post": [
+        -300,
+        1240
+      ],
+      "hand": "near"
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 8,
+      "fa": 8,
+      "ua2": 8,
+      "fa2": 8
+    },
+    "FRONT": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 96,
+      "fa": 0,
+      "ua2": 8,
+      "fa2": 8
+    },
+    "OVER": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 176,
+      "fa": 0,
+      "ua2": 8,
+      "fa2": 8
+    },
+    "BACK": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 262,
+      "fa": 0,
+      "ua2": 8,
+      "fa2": 8
+    },
+    "ELBOW_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 96,
+      "fa": 46,
+      "ua2": 8,
+      "fa2": 8
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · MOVILIDAD",
+      "head": [
+        "PASÁ",
+        "LA BANDA"
+      ],
+      "vo": "Band Alternating Pass-Through: pasás la banda por arriba de la cabeza, un brazo por vez.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "FRONT",
+              0.5
+            ],
+            [
+              "OVER",
+              0.45
+            ],
+            [
+              "BACK",
+              0.6
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BRAZO",
+        "EXTENDIDO"
+      ],
+      "sub": "Banda anclada arriba",
+      "vo": "Parate con la banda tomada con una mano y el brazo extendido al frente, a la altura del pecho.",
+      "moves": [
+        {
+          "cut": "FRONT",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "PASO 1 / 3",
+      "numeral": "1",
+      "head": [
+        "SUBÍ",
+        "EL BRAZO"
+      ],
+      "sub": "Codo recto",
+      "vo": "Paso uno. Subí el brazo extendido por encima de la cabeza, sin doblar el codo, y llevá la banda atrás.",
+      "moves": [
+        {
+          "cut": "FRONT",
+          "at": 0
+        },
+        {
+          "to": "OVER",
+          "at": 0.6,
+          "dur": 0.8
+        },
+        {
+          "to": "BACK",
+          "at": 1.8,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "PASO 2 / 3",
+      "numeral": "2",
+      "head": [
+        "VOLVÉ",
+        "Y CAMBIÁ"
+      ],
+      "sub": "Mismo camino",
+      "vo": "Paso dos. Volvé por el mismo camino, controlando la banda, y cambiá de brazo.",
+      "moves": [
+        {
+          "cut": "BACK",
+          "at": 0
+        },
+        {
+          "to": "OVER",
+          "at": 0.6,
+          "dur": 0.8
+        },
+        {
+          "to": "FRONT",
+          "at": 1.8,
+          "dur": 0.8
+        },
+        {
+          "to": "FRONT",
+          "at": 3.2,
+          "dur": 0.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "PASO 3 / 3",
+      "numeral": "3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Codo doblado o tirón",
+      "vo": "Paso tres. Si el codo se dobla o el hombro se cierra, ampliá el agarre antes de forzar.",
+      "moves": [
+        {
+          "cut": "FRONT",
+          "at": 0
+        },
+        {
+          "to": "ELBOW_BAD",
+          "at": 1.2,
+          "dur": 0.5
+        },
+        {
+          "to": "FRONT",
+          "at": 3.0,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "shrink": 0.7,
+      "head": [
+        "TÉCNICA"
+      ],
+      "vo": "Claves: codo extendido, hombro relajado, sin tirones y un brazo por vez.",
+      "keys": [
+        "Codo extendido",
+        "Hombro relajado",
+        "Sin tirones",
+        "Un brazo por vez"
+      ],
+      "moves": [
+        {
+          "cut": "FRONT",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "FRONT",
+              0.5
+            ],
+            [
+              "OVER",
+              0.45
+            ],
+            [
+              "BACK",
+              0.6
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "sub": "Sin tirones",
+      "head": [
+        "10 POR BRAZO"
+      ],
+      "vo": "Diez pasadas por brazo. Ideal en la entrada en calor, antes de un WOD con press o dominadas.",
+      "chips": [
+        {
+          "label": "1 · ADELANTE",
+          "at": 0.4
+        },
+        {
+          "label": "2 · ARRIBA",
+          "at": 0.9
+        },
+        {
+          "label": "3 · ATRÁS",
+          "at": 1.2
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "FRONT",
+              0.5
+            ],
+            [
+              "OVER",
+              0.45
+            ],
+            [
+              "BACK",
+              0.6
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "music": true,
+  "musicVolume": 0.18,
+  "pronuncia": {
+    "Kettlebell": "Ketelbel",
+    "kettlebell": "ketelbel",
+    "clean": "clin",
+    "press": "pres",
+    "rack": "rac",
+    "row": "rou",
+    "crunch": "cranch",
+    "toe touch": "tou toch",
+    "Deadlift": "dedlift",
+    "Romanian": "Rrouméinian",
+    "Single-Leg": "singol leg",
+    "Ab Wheel": "ab güil",
+    "rollout": "rolaut",
+    "Dumbbell": "dambel"
+  }
+}

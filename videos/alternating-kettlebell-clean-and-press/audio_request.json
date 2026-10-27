@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Alternating Kettlebell Clean and Press",
+      "text": "Del piso al hombro y de ahí arriba, alternando el brazo."
+    },
+    {
+      "id": "02",
+      "text": "Arrancá en bisagra con la ketelbel en el piso, la cadera atrás y la espalda neutra."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Extendé la cadera y llevá la ketelbel al hombro: sube pegada y la muñeca gira sin golpear el antebrazo."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Recibí en el rac: codo cerca de la cadera, la pesa en el antebrazo y el puño al hombro."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Con el core firme, empujá la pesa hasta bloquear el codo con el bíceps junto a la oreja."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Codo bajo y adelante manda la pesa lejos del cuerpo. Si arqueás la lumbar, el hombro no llega al bloqueo."
+    },
+    {
+      "id": "07",
+      "text": "Claves: la cadera inicia el tirón, la pesa sube pegada, el codo en el rac y el core firme."
+    },
+    {
+      "id": "08",
+      "text": "Ocho repeticiones por brazo con doce kilos y medio, tres series. Si el rac te golpea, bajá el peso."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Single-Leg Dumbbell Romanian Deadlift",
+      "text": "A una pierna, bisagra de cadera y la mancuerna baja pegada a la pierna."
+    },
+    {
+      "id": "02",
+      "text": "Parate en una pierna con la rodilla apenas flexionada y la mancuerna en la mano contraria a la pierna que sube."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Llevá la cadera atrás y bajá el torso: la pierna libre sube extendida y la mancuerna baja pegada a la pierna de apoyo."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá hasta sentir el estiramiento del isquio, con cadera y hombros nivelados. Frená ahí y volvé apretando el glúteo."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si redondeás la espalda o flexionás la rodilla de apoyo, el peso se va a la lumbar. La pierna libre queda en línea con el torso."
+    },
+    {
+      "id": "06",
+      "text": "Claves: cadera y hombros nivelados, espalda neutra, pierna libre extendida y rodilla de apoyo suave."
+    },
+    {
+      "id": "07",
+      "text": "Ocho repeticiones por lado, tres series. Si perdés el equilibrio en cada repetición, bajá el rango."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

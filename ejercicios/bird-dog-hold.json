@@ -1,0 +1,337 @@
+{
+  "slug": "bird-dog-hold",
+  "name": "Bird Dog Hold",
+  "category": "CROSSFIT · CORE",
+  "tags": [
+    "Core",
+    "Lumbar",
+    "Equilibrio"
+  ],
+  "descripcion": "En cuadrupedia, extendés un brazo y la pierna contraria y sostenés: la cadera no gira y la lumbar no se arquea. El antirotador más simple.",
+  "revisado": false,
+  "notas": "Base de bird-dog-crunch sin la fase de crunch: EXT_A/EXT_B de esa ficha sostenidos, con la cadera quieta en hip [0,-231].",
+  "youtube": {
+    "titulo": "Bird Dog Hold 🎯 brazo y pierna contraria sostenidos | CrossFit",
+    "tags": [
+      "bird dog hold",
+      "bird dog",
+      "cuadrupedia",
+      "core",
+      "lumbar",
+      "antirrotacion",
+      "crossfit",
+      "estabilidad"
+    ],
+    "descripcion": "🎬 Bird Dog Hold 🎯 brazo y pierna contraria sostenidos | CrossFit\nUn brazo, la pierna contraria y la cadera quieta. El bird dog hold es control lumbar puro: si te movés, se cae el ejercicio. 🎯\n\n📝 PASO A PASO\n1️⃣ Cuadrupedia con manos bajo los hombros y rodillas bajo la cadera.\n2️⃣ Extendé un brazo al frente y la pierna contraria atrás, a la altura de la cadera.\n3️⃣ Sostené sin que la cadera gire ni la lumbar se arquee.\n4️⃣ Cambiá de lado manteniendo el abdomen firme.\n\n✅ CLAVES DE TÉCNICA\n✔️ Cadera nivelada\n✔️ Brazo y pierna a la altura del torso\n✔️ Lumbar neutra\n✔️ Sin girar el tronco\n\n💪 QUÉ TRABAJA\nCore · Erectores lumbares · Glúteo · Deltoides posterior\n\n⏱️ CUÁNTO\n20 segundos por lado, 3 series. Si la cadera gira, bajá el rango de la pierna.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nPensá que tenés un vaso de agua en la espalda baja: si se derrama, la cadera se movió. Es mejor un rango corto y firme que uno largo y torcido.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #BirdDog #Core #Lumbar #Estabilidad"
+  },
+  "miniatura": {
+    "pose": "HOLD_A",
+    "grip": 0,
+    "zoom": 1.0,
+    "dy": 200
+  },
+  "initialPose": "QUAD",
+  "rig": {
+    "x": 480,
+    "y": 1500,
+    "scale": 0.8
+  },
+  "poses": {
+    "QUAD": {
+      "hip": [
+        0,
+        -231
+      ],
+      "s": 90,
+      "t": 0,
+      "s2": 90,
+      "t2": 0,
+      "ft": 172,
+      "ft2": 172,
+      "b": 74,
+      "hd": 100,
+      "g": 1,
+      "hx": 268,
+      "hy": 15,
+      "ed": 1,
+      "cv": 0,
+      "g2": 1,
+      "hx2": 268,
+      "hy2": 15
+    },
+    "HOLD_A": {
+      "hip": [
+        0,
+        -231
+      ],
+      "s": 90,
+      "t": 0,
+      "s2": 98,
+      "t2": 98,
+      "ft": 172,
+      "ft2": 104,
+      "b": 74,
+      "hd": 86,
+      "g": 0,
+      "ed": 1,
+      "cv": 0,
+      "ua": 110,
+      "fa": 0,
+      "g2": 1,
+      "hx2": 268,
+      "hy2": 15
+    },
+    "HOLD_B": {
+      "hip": [
+        0,
+        -231
+      ],
+      "s": 98,
+      "t": 98,
+      "s2": 90,
+      "t2": 0,
+      "ft": 104,
+      "ft2": 172,
+      "b": 74,
+      "hd": 86,
+      "g": 1,
+      "hx": 268,
+      "hy": 15,
+      "ed": 1,
+      "cv": 0,
+      "g2": 0,
+      "ua2": 110,
+      "fa2": 0
+    },
+    "HIP_BAD": {
+      "hip": [
+        0,
+        -231
+      ],
+      "s": 90,
+      "t": 0,
+      "s2": 124,
+      "t2": 124,
+      "ft": 172,
+      "ft2": 104,
+      "b": 62,
+      "hd": 70,
+      "g": 0,
+      "ed": 1,
+      "cv": -24,
+      "ua": 110,
+      "fa": 0,
+      "g2": 1,
+      "hx2": 268,
+      "hy2": 15
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · CORE",
+      "head": [
+        "BIRD DOG",
+        "HOLD"
+      ],
+      "vo": "Bird Dog Hold: un brazo, la pierna contraria y la cadera quieta, sin arquear la lumbar.",
+      "moves": [
+        {
+          "cut": "QUAD",
+          "at": 0
+        },
+        {
+          "to": "HOLD_A",
+          "at": 0.8,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "CUATRO",
+        "APOYOS"
+      ],
+      "sub": "Espalda plana",
+      "vo": "Cuadrupedia con las manos bajo los hombros, las rodillas bajo la cadera y la espalda plana.",
+      "moves": [
+        {
+          "cut": "QUAD",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "PASO 1 / 3",
+      "numeral": "1",
+      "head": [
+        "BRAZO",
+        "Y PIERNA"
+      ],
+      "sub": "Contrarios",
+      "vo": "Paso uno. Extendé un brazo al frente y la pierna contraria atrás, a la altura de la cadera.",
+      "moves": [
+        {
+          "cut": "QUAD",
+          "at": 0
+        },
+        {
+          "to": "HOLD_A",
+          "at": 0.8,
+          "dur": 0.7
+        },
+        {
+          "to": "HOLD_B",
+          "at": 2.8,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "PASO 2 / 3",
+      "numeral": "2",
+      "head": [
+        "SOSTENÉ",
+        "SIN GIRAR"
+      ],
+      "sub": "Cadera nivelada",
+      "vo": "Paso dos. Sostené sin que la cadera gire ni la lumbar se arquee. El abdomen va firme.",
+      "moves": [
+        {
+          "cut": "HOLD_A",
+          "at": 0
+        },
+        {
+          "to": "HOLD_B",
+          "at": 2.2,
+          "dur": 0.9
+        },
+        {
+          "to": "HOLD_A",
+          "at": 4.0,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "PASO 3 / 3",
+      "numeral": "3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Cadera que gira",
+      "vo": "Paso tres. Si la cadera gira o la pierna sube más que el torso, perdés el control. Bajá el rango.",
+      "moves": [
+        {
+          "cut": "HOLD_A",
+          "at": 0
+        },
+        {
+          "to": "HIP_BAD",
+          "at": 1.4,
+          "dur": 0.7
+        },
+        {
+          "to": "HOLD_A",
+          "at": 3.0,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "shrink": 0.7,
+      "head": [
+        "TÉCNICA"
+      ],
+      "vo": "Claves: cadera nivelada, brazo y pierna a la altura del torso, lumbar neutra y sin girar.",
+      "keys": [
+        "Cadera nivelada",
+        "A la altura",
+        "Lumbar neutra",
+        "Sin girar"
+      ],
+      "moves": [
+        {
+          "cut": "QUAD",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "QUAD",
+              0.5
+            ],
+            [
+              "HOLD_A",
+              0.7
+            ],
+            [
+              "HOLD_B",
+              0.9
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "sub": "Por lado",
+      "head": [
+        "20 SEGUNDOS"
+      ],
+      "vo": "Veinte segundos por lado, tres series. Si la cadera gira, bajá el rango de la pierna.",
+      "chips": [
+        {
+          "label": "1 · EXTENDÉ",
+          "at": 0.4
+        },
+        {
+          "label": "2 · SOSTENÉ",
+          "at": 1.0
+        }
+      ],
+      "moves": [
+        {
+          "cut": "QUAD",
+          "at": 0
+        },
+        {
+          "to": "HOLD_A",
+          "at": 0.8,
+          "dur": 0.7
+        }
+      ]
+    }
+  ],
+  "music": true,
+  "musicVolume": 0.18,
+  "pronuncia": {
+    "Kettlebell": "Ketelbel",
+    "kettlebell": "ketelbel",
+    "clean": "clin",
+    "press": "pres",
+    "rack": "rac",
+    "row": "rou",
+    "crunch": "cranch",
+    "toe touch": "tou toch",
+    "Deadlift": "dedlift",
+    "Romanian": "Rrouméinian",
+    "Single-Leg": "singol leg",
+    "Ab Wheel": "ab güil",
+    "rollout": "rolaut",
+    "Dumbbell": "dambel"
+  }
+}

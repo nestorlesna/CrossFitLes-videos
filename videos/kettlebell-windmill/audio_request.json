@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Kettlebell Windmill",
+      "text": "El molino. Bloqueá la pesa arriba y bajá en bisagra lateral, con el core firme."
+    },
+    {
+      "id": "02",
+      "text": "Parate con los pies bien abiertos y la kettlebell bloqueada arriba, con el codo estirado y la mirada en la pesa."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Girá los pies hacia el lado de la pesa y llevá la cadera atrás, sin perder el brazo bloqueado."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá el torso en bisagra lateral y dejá que la mano libre descienda por la pierna hasta cerca del piso."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Volvé a la vertical empujando con la cadera, siempre con el brazo de la pesa apuntando al techo."
+    },
+    {
+      "id": "06",
+      "text": "Claves: mirada en la pesa, codo bloqueado, el movimiento sale de la cadera y la espalda queda larga."
+    },
+    {
+      "id": "07",
+      "text": "Cuarenta segundos con cada brazo, a ritmo controlado. Si perdés el bloqueo, volvé arriba y reiniciá."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Jang páuer snach: desde arriba de las rodillas hasta arriba de la cabeza, en un solo movimiento."
+      "en": "Barbell Hang Power Snatch",
+      "text": "Desde arriba de las rodillas hasta arriba de la cabeza, en un solo movimiento."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

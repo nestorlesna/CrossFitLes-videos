@@ -1,0 +1,284 @@
+{
+  "slug": "weighted-side-plank",
+  "name": "Weighted Side Plank",
+  "category": "CROSSFIT · ACCESORIO",
+  "tags": [
+    "Oblicuos",
+    "Glúteo medio",
+    "Core"
+  ],
+  "descripcion": "En posición de plancha lateral (side plank), apoyado sobre un antebrazo y el costado del pie inferior, con el cuerpo en línea recta. Sostener una pesa o disco con la mano libre (brazo superior) extendida hacia arriba. Mantener la posición el tiempo indicado.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Weighted Side Plank 🔥 Oblicuos de acero paso a paso | CrossFit",
+    "tags": [
+      "weighted side plank",
+      "plancha lateral con peso",
+      "plancha lateral",
+      "oblicuos",
+      "core lateral",
+      "glúteo medio",
+      "disco",
+      "crossfit",
+      "accesorio",
+      "isométrico"
+    ],
+    "descripcion": "🔥 WEIGHTED SIDE PLANK — oblicuos y glúteo medio con carga extra\n\nLa plancha lateral ya es dura. Con un disco arriba, el core lateral no tiene dónde esconderse. Si querés estabilidad de verdad, este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Apoyate de costado sobre el antebrazo, con el codo justo debajo del hombro y los pies uno encima del otro.\n2️⃣ Subí la cadera y alineá la cabeza, el tronco y los pies en una sola línea.\n3️⃣ Sostené el disco con el brazo de arriba bien extendido, sin encoger el hombro.\n4️⃣ Mantené la posición el tiempo indicado y cambiá de lado.\n\n✅ CLAVES DE TÉCNICA\n• Codo siempre debajo del hombro\n• Cadera elevada, en línea con el tronco\n• El peso extra no puede romper la línea\n• Pies uno encima del otro, sin separarlos\n• Respirá: no aguantes la respiración\n\n🎯 QUÉ TRABAJA\nOblicuos · Core lateral · Glúteo medio · Recto abdominal\n\n⏱️ CUÁNTO\n30 segundos por lado. Usalo como accesorio después del trabajo principal o al final de la sesión.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste plancha lateral con peso, empeá con la plancha lateral común o con un disco liviano y sumá carga de a poco.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Accesorio #SidePlank #Core #Oblicuos"
+  },
+  "miniatura": {
+    "pose": "PLANK",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 245
+  },
+  "initialPose": "LOW",
+  "rig": {
+    "x": 540,
+    "y": 1504,
+    "scale": 0.8
+  },
+  "poses": {
+    "LOW": {
+      "hip": [
+        141.6,
+        -222.8
+      ],
+      "ankle": [
+        -300,
+        -62
+      ],
+      "ft": 55,
+      "b": 70,
+      "hd": 74,
+      "g2": 1,
+      "hx2": 405,
+      "hy2": 15,
+      "ed2": 1,
+      "ua": -70,
+      "fa": 6,
+      "ua2": 8,
+      "fa2": 8
+    },
+    "PLANK": {
+      "hip": [
+        141.6,
+        -222.8
+      ],
+      "ankle": [
+        -300,
+        -62
+      ],
+      "ft": 55,
+      "b": 70,
+      "hd": 74,
+      "g2": 1,
+      "hx2": 405,
+      "hy2": 15,
+      "ed2": 1,
+      "ua": 175,
+      "fa": 4
+    },
+    "SAG_BAD": {
+      "hip": [
+        175.7,
+        -154.3
+      ],
+      "ankle": [
+        -280,
+        -62
+      ],
+      "ft": 55,
+      "b": 55,
+      "hd": 60,
+      "g2": 1,
+      "hx2": 405,
+      "hy2": 15,
+      "ed2": 1,
+      "ua": 150,
+      "fa": 14
+    }
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "r": 44
+    }
+  ],
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACCESORIO",
+      "head": [
+        "WEIGHTED",
+        "SIDE PLANK"
+      ],
+      "vo": "Weighted Side Plank: plancha lateral con disco. Oblicuos y glúteo medio trabajando de punta a punta.",
+      "moves": [
+        {
+          "cut": "LOW",
+          "at": 0
+        },
+        {
+          "to": "PLANK",
+          "at": 0.6,
+          "dur": 1.1
+        },
+        {
+          "to": "LOW",
+          "at": 3.2,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE COSTADO",
+        "SOBRE EL CODO"
+      ],
+      "sub": "Codo bajo el hombro",
+      "vo": "Apoyate de costado sobre el antebrazo, con el codo justo debajo del hombro y los pies uno encima del otro.",
+      "moves": [
+        {
+          "cut": "LOW",
+          "at": 0
+        },
+        {
+          "to": "PLANK",
+          "at": 1.2,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "UNA LÍNEA",
+        "RECTA"
+      ],
+      "sub": "Cabeza a pies",
+      "vo": "Paso uno. Subí la cadera y alineá la cabeza, el tronco y los pies en una sola línea.",
+      "overlays": [
+        {
+          "type": "line",
+          "from": {
+            "j": "PLANK.A",
+            "dx": -10,
+            "dy": -40
+          },
+          "to": {
+            "j": "PLANK.S",
+            "dx": 20,
+            "dy": -30
+          },
+          "solid": true,
+          "width": 8,
+          "at": 1.2
+        }
+      ],
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "DISCO",
+        "ARRIBA"
+      ],
+      "sub": "Brazo extendido",
+      "vo": "Paso dos. Sostené el disco con el brazo de arriba bien extendido, sin encoger el hombro.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 6.2,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Cadera que se cae",
+      "vo": "Paso tres. Si la cadera se cae, el oblicuo deja de trabajar. Mantenela arriba, en línea con el cuerpo.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        },
+        {
+          "to": "SAG_BAD",
+          "at": 1.0,
+          "dur": 0.8
+        },
+        {
+          "to": "PLANK",
+          "at": 2.8,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Codo bajo el hombro",
+        "Cadera siempre arriba",
+        "Cuerpo en una línea",
+        "Respirá sin perder la posición"
+      ],
+      "vo": "Claves: codo bajo el hombro, cadera arriba, cuerpo en una línea y respiración tranquila durante todo el isométrico.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "Por lado",
+      "chips": [
+        {
+          "label": "1 · SOSTENÉ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · CAMBIÁ",
+          "at": 2.6
+        }
+      ],
+      "vo": "Treinta segundos por lado. Si la cadera baja antes de tiempo, terminá la serie y descansá.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0.2
+        }
+      ]
+    }
+  ]
+}

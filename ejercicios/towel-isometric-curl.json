@@ -1,0 +1,261 @@
+{
+  "slug": "towel-isometric-curl",
+  "name": "Towel Isometric Curl",
+  "category": "CROSSFIT · ACCESORIO",
+  "tags": [
+    "Bíceps",
+    "Fuerza",
+    "Isométrico"
+  ],
+  "descripcion": "De pie, con un pie sobre un extremo de la toalla y el codo a 90°, se tira hacia arriba sin que la toalla ceda. Un curl de bíceps isométrico sin pesas.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Towel Isometric Curl 🎯 curl isométrico con toalla | CrossFit",
+    "tags": [
+      "towel curl",
+      "curl isometrico",
+      "biceps con toalla",
+      "isometrico",
+      "curl de biceps",
+      "crossfit",
+      "accesorio",
+      "sin pesas",
+      "brazo",
+      "fuerza"
+    ],
+    "descripcion": "🎬 TOWEL ISOMETRIC CURL - curl isométrico con toalla\n\nSin mancuernas, sin barra, sin excusas: una toalla y un codo quieto alcanzan para castigar el bíceps. 🧻\n\n📝 PASO A PASO\n1️⃣ Pisá un extremo de la toalla con el pie y agarrá el otro con la palma hacia arriba.\n2️⃣ Pegá el codo al costado del cuerpo y dejá el antebrazo a 90°.\n3️⃣ Tirá de la toalla al 70-80% de tu fuerza, sin que ceda.\n4️⃣ Sostené 20-25 segundos respirando y cambiá de brazo.\n\n✅ CLAVES DE TÉCNICA\n✔️ Codo pegado al cuerpo\n✔️ Toalla tirante\n✔️ Torso vertical\n✔️ Respirá sin cortar\n\n💪 QUÉ TRABAJA\nBíceps braquial · Flexores del antebrazo\n\n⏱️ CUÁNTO\n25 segundos por brazo, 2 rondas. Ideal como accesorio después de dominadas o remo.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nNo te cuelgues del hombro ni aprietes tanto como para aguantar la respiración: tirá al 70-80%.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Biceps #Isometrico #Fuerza #Accesorio"
+  },
+  "miniatura": {
+    "pose": "PULL",
+    "zoom": 1.15,
+    "dy": 170
+  },
+  "initialPose": "STAND",
+  "rig": {
+    "x": 500,
+    "y": 1502,
+    "scale": 0.9
+  },
+  "poses": {
+    "STAND": {
+      "hip": [
+        -190,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 0,
+      "fa": 100
+    },
+    "PULL": {
+      "hip": [
+        -190,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 2,
+      "hd": 4,
+      "ua": -6,
+      "fa": 130
+    },
+    "ELBOW_BAD": {
+      "hip": [
+        -190,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 2,
+      "hd": 8,
+      "ua": 18,
+      "fa": 112
+    },
+    "LEAN_BAD": {
+      "hip": [
+        -190,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": -12,
+      "hd": -6,
+      "ua": 18,
+      "fa": 112
+    }
+  },
+  "props": [
+    {
+      "type": "band",
+      "anchor": [
+        -100,
+        12
+      ],
+      "hand": "near",
+      "color": "#D9CBA6",
+      "w": 17,
+      "ring": false
+    }
+  ],
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACCESORIO",
+      "head": [
+        "TOWEL",
+        "ISOMETRIC CURL"
+      ],
+      "vo": "Towel Isometric Curl: una toalla y un codo quieto alcanzan para trabajar el bíceps sin pesas.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": null,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PISÁ",
+        "LA TOALLA"
+      ],
+      "sub": "Pie en el centro",
+      "vo": "Pisá un extremo de la toalla y agarrá el otro con la palma hacia arriba.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "CODO",
+        "A 90°"
+      ],
+      "sub": "Pegado al cuerpo",
+      "vo": "Paso uno. Pegá el codo al costado y dejá el antebrazo a noventa grados.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.8,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "TIRÁ",
+        "AL 75%"
+      ],
+      "sub": "La toalla no cede",
+      "vo": "Paso dos. Tirá de la toalla al setenta u ochenta por ciento y sostené sin que ceda.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Se escapa la fuerza",
+      "vo": "Paso tres. Si el codo se va adelante o te tirás atrás, la tensión se escapa.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "ELBOW_BAD",
+          "at": 0.6,
+          "dur": 0.8
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 2.4,
+          "dur": 0.6
+        },
+        {
+          "to": "PULL",
+          "at": 3.6,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Codo pegado al cuerpo",
+        "Toalla tirante",
+        "Torso vertical",
+        "Respirá sin cortar"
+      ],
+      "vo": "Claves: codo pegado, toalla tirante, torso vertical y respiración tranquila.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "25 SEGUNDOS"
+      ],
+      "sub": "Cada brazo",
+      "chips": [
+        {
+          "label": "25 s",
+          "at": 0.6
+        },
+        {
+          "label": "2 rondas",
+          "at": 1.2
+        },
+        {
+          "label": "30 s de descanso",
+          "at": 1.8
+        }
+      ],
+      "vo": "Veinticinco segundos por brazo, dos rondas. Aflojá treinta segundos entre series.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0.2
+        }
+      ]
+    }
+  ]
+}

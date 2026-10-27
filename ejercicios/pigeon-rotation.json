@@ -1,0 +1,278 @@
+{
+  "slug": "pigeon-rotation",
+  "name": "Pigeon Rotation",
+  "category": "CROSSFIT · MOVILIDAD",
+  "tags": [
+    "Cadera",
+    "Espalda alta",
+    "Glúteo"
+  ],
+  "descripcion": "Desde la paloma, con la cadera apoyada, se abre un brazo y se rota la espalda alta. Junta movilidad de cadera y de columna en un solo movimiento.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Pigeon Rotation 🎯 paloma con rotación de espalda | CrossFit",
+    "tags": [
+      "pigeon rotation",
+      "paloma yoga",
+      "rotacion de cadera",
+      "movilidad de cadera",
+      "rotacion toracica",
+      "crossfit",
+      "entrada en calor",
+      "vuelta a la calma",
+      "gluteo",
+      "movilidad"
+    ],
+    "descripcion": "🎬 PIGEON ROTATION - paloma con rotación de espalda\n\nLa paloma abre la cadera, pero si te quedás ahí te perdés la mitad. Sumale rotación de espalda alta y ganás en un solo movimiento. 🕊️\n\n📝 PASO A PASO\n1️⃣ Apoyá la cadera con la pierna de adelante doblada y la de atrás extendida.\n2️⃣ Con el torso erguido, apoyá las manos y sentí la cadera asentada y cuadrada.\n3️⃣ Abrí un brazo hacia arriba y rotá el torso hacia ese lado, mirando la mano.\n4️⃣ Volvé suave y cambiá de lado. Si la rodilla molesta, acortá el rango.\n\n✅ CLAVES DE TÉCNICA\n✔️ Cadera apoyada y cuadrada\n✔️ Rotación de espalda alta\n✔️ Mirada en la mano\n✔️ Sin dolor de rodilla\n\n💪 QUÉ TRABAJA\nGlúteo mayor y medio · Aductores · Oblicuos · Erectores\n\n⏱️ CUÁNTO\n30 segundos por lado, respirando. Ideal en la entrada en calor o en la vuelta a la calma.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi sentís dolor en la rodilla de adelante, sentate sobre una almohada o acortá la flexión.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Movilidad #PigeonPose #RotacionToracica #Cadera"
+  },
+  "miniatura": {
+    "pose": "REACH",
+    "zoom": 0.98,
+    "dy": 110
+  },
+  "initialPose": "PIGEON",
+  "rig": {
+    "x": 520,
+    "y": 1504,
+    "scale": 0.82
+  },
+  "poses": {
+    "PIGEON": {
+      "s": 90,
+      "t": -57,
+      "s2": 90,
+      "t2": 57,
+      "ft": 172,
+      "b": 12,
+      "hd": 6,
+      "g": 1,
+      "hx": 150,
+      "hy": -55,
+      "ed": 1,
+      "g2": 1,
+      "hx2": 200,
+      "hy2": -35,
+      "hip": [
+        0,
+        -120
+      ]
+    },
+    "REACH": {
+      "s": 90,
+      "t": -57,
+      "s2": 90,
+      "t2": 57,
+      "ft": 172,
+      "b": 10,
+      "hd": -6,
+      "g": 0,
+      "ua": 190,
+      "fa": 4,
+      "g2": 1,
+      "hx2": 200,
+      "hy2": -35,
+      "ed2": 1,
+      "hip": [
+        0,
+        -120
+      ],
+      "hx": 150,
+      "hy": -55
+    },
+    "LEAN_BAD": {
+      "s": 90,
+      "t": -57,
+      "s2": 90,
+      "t2": 57,
+      "ft": 172,
+      "b": -18,
+      "hd": -22,
+      "g": 0,
+      "ua": 176,
+      "fa": 6,
+      "g2": 1,
+      "hx2": 200,
+      "hy2": -35,
+      "ed2": 1,
+      "hip": [
+        0,
+        -120
+      ],
+      "hx": 150,
+      "hy": -55
+    }
+  },
+  "props": [],
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · MOVILIDAD",
+      "head": [
+        "PIGEON",
+        "ROTATION"
+      ],
+      "vo": "Pigeon Rotation: desde la paloma, abrí el brazo y rotá la espalda alta. Movilidad de cadera y torácica juntas.",
+      "moves": [
+        {
+          "cut": "PIGEON",
+          "at": 0
+        },
+        {
+          "to": "REACH",
+          "at": 0.8,
+          "dur": 1.4
+        },
+        {
+          "to": "PIGEON",
+          "at": 3.4,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": null,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "CADERA",
+        "APOYADA"
+      ],
+      "sub": "La de atrás extendida",
+      "vo": "Pierna de adelante doblada, la de atrás extendida y la cadera bien apoyada y cuadrada.",
+      "moves": [
+        {
+          "cut": "PIGEON",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "TORSO",
+        "ERGUIDO"
+      ],
+      "sub": "Manos al piso",
+      "vo": "Paso uno. Con el torso erguido, apoyá las manos en el piso y sentí la cadera asentada.",
+      "moves": [
+        {
+          "cut": "PIGEON",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 6.2,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ABRÍ EL",
+        "BRAZO"
+      ],
+      "sub": "Mirá la mano",
+      "vo": "Paso dos. Abrí un brazo hacia arriba y rotá el torso hacia ese lado, mirando la mano.",
+      "moves": [
+        {
+          "cut": "PIGEON",
+          "at": 0
+        },
+        {
+          "to": "REACH",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Cadera que se despega",
+      "vo": "Paso tres. Si la cadera se despega o rebotás, la rotación no sale de la espalda. Volvé suave.",
+      "moves": [
+        {
+          "cut": "REACH",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 0.6,
+          "dur": 0.7
+        },
+        {
+          "to": "REACH",
+          "at": 2.2,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Cadera apoyada y cuadrada",
+        "Rotación de espalda alta",
+        "Mirada en la mano",
+        "Sin dolor de rodilla"
+      ],
+      "vo": "Claves: cadera apoyada y cuadrada, rotación desde la espalda alta, mirada en la mano y cero dolor de rodilla.",
+      "moves": [
+        {
+          "cut": "REACH",
+          "at": 0.1
+        }
+      ],
+      "shrink": 1.0
+    },
+    {
+      "kind": "reps",
+      "min": 7.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEG",
+        "POR LADO"
+      ],
+      "sub": "Cambiá de pierna",
+      "chips": [
+        {
+          "label": "1 · ABRÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · VOLVÉ",
+          "at": 2.6
+        }
+      ],
+      "vo": "Treinta segundos por lado. Si la rodilla molesta, acortá el rango y consultá.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "REACH",
+              2.0
+            ],
+            [
+              "PIGEON",
+              1.4
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

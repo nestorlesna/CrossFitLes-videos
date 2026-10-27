@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "World's Greatest Stretch",
+      "text": "Estocada, mano al piso y rotación. La entrada en calor más completa."
+    },
+    {
+      "id": "02",
+      "text": "Dá un paso largo, bajá la cadera y apoyá las dos manos adentro del pie de adelante."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Con las manos en el piso, sentí el estiramiento de la cadera de atrás."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Abrí un brazo al techo y rotá la espalda alta sin levantar la cadera."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si la cadera sube y el torso se endereza, la rotación se pierde."
+    },
+    {
+      "id": "06",
+      "text": "Claves: cadera baja, rodilla de atrás extendida, rotación desde la espalda alta y mirada en la mano."
+    },
+    {
+      "id": "07",
+      "text": "Cinco repeticiones lentas por lado. Respirá profundo en cada rotación."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

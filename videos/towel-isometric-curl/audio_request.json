@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Towel Isometric Curl",
+      "text": "Una toalla y un codo quieto alcanzan para trabajar el bíceps sin pesas."
+    },
+    {
+      "id": "02",
+      "text": "Pisá un extremo de la toalla y agarrá el otro con la palma hacia arriba."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Pegá el codo al costado y dejá el antebrazo a noventa grados."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Tirá de la toalla al setenta u ochenta por ciento y sostené sin que ceda."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si el codo se va adelante o te tirás atrás, la tensión se escapa."
+    },
+    {
+      "id": "06",
+      "text": "Claves: codo pegado, toalla tirante, torso vertical y respiración tranquila."
+    },
+    {
+      "id": "07",
+      "text": "Veinticinco segundos por brazo, dos rondas. Aflojá treinta segundos entre series."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

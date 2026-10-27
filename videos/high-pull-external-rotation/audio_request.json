@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "High Pull + External Rotation",
+      "text": "High Pull más External Rotation: tirón alto con el disco y rotación externa arriba. Hombro que despierta."
+    },
+    {
+      "id": "02",
+      "text": "Sostené el disco con las dos manos a la altura de la cadera y los brazos relajados."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Tirá alto llevando los codos hacia arriba, con el disco cerca del mentón."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Arriba, rotá los antebrazos hacia afuera sin bajar los codos."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si encogés los hombros y tirás con los brazos bajos, el trabajo se va al cuello."
+    },
+    {
+      "id": "06",
+      "text": "Claves: codos altos, disco al mentón, rotación suave y peso liviano."
+    },
+    {
+      "id": "07",
+      "text": "Diez repeticiones, tres series con disco de dos kilos y medio. Es activación."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -52,7 +52,7 @@ export function normalizePose(p) {
 //                                                  until: "end" = hasta el final de la escena (se expande ya con la duración real)
 //   { seq: [["A", dur], ["B", dur], …], at, count | until }  repeats a sequence of poses with their own durations
 //   { cut: "POSE", at }                            hides the athlete ~0.45 s and jumps to POSE (unrelated positions)
-function expandMoves(f, frameDur) {
+export function expandMoves(f, frameDur) {
   const out = [], cuts = [];
   for (const m of f.moves || []) {
     if ((m.loop || m.seq) && m.until === "end" && frameDur == null) continue; // still unknown: no extiende la escena

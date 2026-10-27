@@ -1,0 +1,291 @@
+{
+  "slug": "barbell-bent-over-row",
+  "name": "Barbell Bent Over Row",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Espalda",
+    "Bisagra",
+    "Fuerza"
+  ],
+  "descripcion": "Remo inclinado con barra: bisagra de cadera, espalda recta y tirar la barra hacia el abdomen.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Barbell Bent Over Row 🎯 remo inclinado con barra | CrossFit",
+    "tags": [
+      "barbell bent over row",
+      "remo inclinado",
+      "remo con barra",
+      "espalda",
+      "dorsal",
+      "crossfit",
+      "fuerza",
+      "bisagra de cadera",
+      "trapecio",
+      "biceps"
+    ],
+    "descripcion": "🎬 BARBELL BENT OVER ROW - remo inclinado\nEl remo que construye espalda: bisagra de cadera, espalda recta y la barra al abdomen. Sin tirones de lumbar. 🔥\n\n📝 PASO A PASO\n1️⃣ Hacé bisagra de cadera con las rodillas blandas y la espalda recta.\n2️⃣ Dejá la barra colgando con los brazos extendidos.\n3️⃣ Tirá la barra hacia el abdomen llevando los codos atrás, sin mover el tronco.\n4️⃣ Bajá controlado hasta estirar los brazos y repetí.\n\n✅ CLAVES DE TÉCNICA\n✔️ Espalda recta\n✔️ Codos atrás\n✔️ Tronco quieto\n✔️ Bajada controlada\n\n💪 QUÉ TRABAJA\nDorsal ancho · Romboides · Trapecio medio · Bíceps · Erectores espinales\n\n⏱️ CUÁNTO\n8 repeticiones, 4 series. Si el tronco se levanta, bajá el peso.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nSi sentís la lumbar, revisá la bisagra: cadera atrás, costillas abajo y mirada al piso.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Remo #Espalda #Fuerza #Barra"
+  },
+  "miniatura": {
+    "pose": "ROW",
+    "grip": 1,
+    "zoom": 1.1,
+    "dy": 140
+  },
+  "initialPose": "HINGE",
+  "rig": {
+    "x": 470,
+    "y": 1500,
+    "scale": 0.8
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "r": 96
+    }
+  ],
+  "poses": {
+    "HINGE": {
+      "hip": [
+        -150,
+        -300
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 62,
+      "hd": 48,
+      "g": 1,
+      "ed": 1,
+      "hx": 30,
+      "hy": -95
+    },
+    "ROW": {
+      "hip": [
+        -150,
+        -300
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 62,
+      "hd": 48,
+      "g": 1,
+      "ed": -1,
+      "hx": 150,
+      "hy": -250
+    },
+    "SWING_BAD": {
+      "hip": [
+        -150,
+        -300
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 40,
+      "hd": 30,
+      "g": 1,
+      "ed": 1,
+      "hx": 60,
+      "hy": -180
+    },
+    "BACK_BAD": {
+      "hip": [
+        -150,
+        -300
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 70,
+      "hd": 100,
+      "cv": 30,
+      "g": 1,
+      "ed": 1,
+      "hx": 30,
+      "hy": -90
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "BARBELL",
+        "BENT OVER ROW"
+      ],
+      "vo": "Barbell Bent Over Row: bisagra de cadera y la barra al abdomen. Espalda que construye.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "to": "ROW",
+          "at": 0.8,
+          "dur": 0.6
+        },
+        {
+          "to": "HINGE",
+          "at": 1.6,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BISAGRA",
+        "ESPALDA RECTA"
+      ],
+      "sub": "Rodillas blandas",
+      "vo": "Hacé bisagra de cadera con las rodillas blandas, la espalda recta y la barra colgando.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "TIRÁ",
+        "AL ABDOMEN"
+      ],
+      "sub": "Codos atrás",
+      "vo": "Paso uno. Tirá la barra hacia el abdomen llevando los codos atrás, sin mover el tronco.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "to": "ROW",
+          "at": 0.7,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "BAJÁ",
+        "CONTROLADO"
+      ],
+      "sub": "Estirá los brazos",
+      "vo": "Paso dos. Bajá la barra controlado hasta estirar los brazos, manteniendo la espalda recta.",
+      "moves": [
+        {
+          "cut": "ROW",
+          "at": 0
+        },
+        {
+          "to": "HINGE",
+          "at": 0.6,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Tirón de espalda",
+      "vo": "Paso tres. Si el tronco sube y bajás a los tirones, el remo se vuelve un peso muerto mal hecho.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "to": "SWING_BAD",
+          "at": 0.7,
+          "dur": 0.8
+        },
+        {
+          "to": "HINGE",
+          "at": 2.6,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Espalda recta",
+        "Codos atrás",
+        "Tronco quieto",
+        "Bajada controlada"
+      ],
+      "vo": "Claves: espalda recta, codos atrás, tronco quieto y bajada controlada.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "8 REPETICIONES"
+      ],
+      "sub": "4 series",
+      "chips": [
+        {
+          "label": "8 reps",
+          "at": 0.6
+        },
+        {
+          "label": "4 series",
+          "at": 1.2
+        },
+        {
+          "label": "90 s",
+          "at": 1.8
+        }
+      ],
+      "vo": "Ocho repeticiones, cuatro series. Si el tronco se levanta, bajá el peso.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "ROW",
+              0.7
+            ],
+            [
+              "HINGE",
+              0.7
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

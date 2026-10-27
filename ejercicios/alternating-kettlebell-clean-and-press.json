@@ -1,0 +1,442 @@
+{
+  "slug": "alternating-kettlebell-clean-and-press",
+  "name": "Alternating Kettlebell Clean and Press",
+  "category": "CROSSFIT · FUERZA · WOD",
+  "tags": [
+    "Hombro",
+    "Potencia",
+    "Kettlebell"
+  ],
+  "descripcion": "Con una kettlebell en una mano, la llevás del piso al rack en el hombro (clean) y la empujás por encima de la cabeza hasta bloquear el codo (press). Se alterna el brazo.",
+  "revisado": false,
+  "notas": "Una sola kettlebell con `swing: true`: la pesa sigue la línea hombro-mano (en el piso queda apoyada en la bisagra y arriba pasa por encima de la mano). El brazo lejano cuelga con `g2 0`.",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Alternating Kettlebell Clean and Press 🎯 clean + press alternado | CrossFit",
+    "tags": [
+      "kettlebell clean and press",
+      "clean",
+      "press",
+      "kettlebell",
+      "alternado",
+      "hombro",
+      "potencia",
+      "crossfit",
+      "wod",
+      "unilateral"
+    ],
+    "descripcion": "🎬 Alternating Kettlebell Clean and Press 🎯 clean + press alternado | CrossFit\nClean y press con una sola kettlebell: la cadera arranca, la pesa sube pegada al cuerpo y el press termina con el bíceps al lado de la oreja. 🔥\n\n📝 PASO A PASO\n1️⃣ Con la pesa en el piso, hacé bisagra y agarrá el asa.\n2️⃣ Extendé la cadera y llevá la kettlebell al rack del hombro, rotando la muñeca sin golpear el antebrazo.\n3️⃣ Desde el rack, apretá el core y empujá arriba hasta bloquear el codo con el bíceps junto a la oreja.\n4️⃣ Bajá al rack controlado y alterná el brazo en la próxima repetición.\n\n✅ CLAVES DE TÉCNICA\n✔️ La cadera inicia el tirón\n✔️ La pesa sube pegada\n✔️ Codo en el rack, cerca de la cadera\n✔️ Core firme, sin arquear\n\n💪 QUÉ TRABAJA\nGlúteo · Isquios · Deltoides · Tríceps · Trapecio · Core\n\n⏱️ CUÁNTO\n8 repeticiones por brazo con 12,5 kg, 3 series. Si el rack te golpea el antebrazo, bajá el peso.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nEl clean no es un curl: la pesa sube por el tirón de la cadera y la muñeca gira para que el asa quede en la palma. Si el press se tuerce, el core no está sosteniendo: apretá el abdomen y volvé a bloquear.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Kettlebell #CleanAndPress #Hombro #Potencia"
+  },
+  "miniatura": {
+    "pose": "PRESS",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 90
+  },
+  "initialPose": "FLOOR",
+  "rig": {
+    "x": 450,
+    "y": 1509,
+    "scale": 0.7
+  },
+  "props": [
+    {
+      "type": "kettlebell",
+      "hand": "near",
+      "swing": true,
+      "off": [
+        0,
+        26
+      ]
+    }
+  ],
+  "poses": {
+    "FLOOR": {
+      "hip": [
+        -150,
+        -330
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 66,
+      "hd": 54,
+      "g": 1,
+      "ed": 1,
+      "hx": 250,
+      "hy": -130,
+      "g2": 0,
+      "ua2": 6,
+      "fa2": 2
+    },
+    "HANG": {
+      "s": 8,
+      "t": -22,
+      "b": 55,
+      "hd": 40,
+      "g": 0,
+      "ua": -40,
+      "fa": 0,
+      "ua2": 6,
+      "fa2": 2
+    },
+    "RACK": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 14,
+      "fa": 160,
+      "ua2": 6,
+      "fa2": 2
+    },
+    "PRESS": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 4,
+      "g": 0,
+      "ua": 172,
+      "fa": 0,
+      "ua2": 6,
+      "fa2": 2
+    },
+    "RACK_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": 6,
+      "hd": 8,
+      "g": 0,
+      "ua": 10,
+      "fa": 120,
+      "ua2": 6,
+      "fa2": 2
+    },
+    "ARCH_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": -14,
+      "hd": -12,
+      "cv": -20,
+      "g": 0,
+      "ua": 166,
+      "fa": 8,
+      "ua2": 6,
+      "fa2": 2
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA · WOD",
+      "head": [
+        "KETTLEBELL",
+        "CLEAN + PRESS"
+      ],
+      "vo": "Alternating Kettlebell Clean and Press: del piso al hombro y de ahí arriba, alternando el brazo.",
+      "moves": [
+        {
+          "cut": "FLOOR",
+          "at": 0
+        },
+        {
+          "to": "HANG",
+          "at": 0.5,
+          "dur": 0.4
+        },
+        {
+          "to": "RACK",
+          "at": 1.0,
+          "dur": 0.4
+        },
+        {
+          "to": "PRESS",
+          "at": 1.6,
+          "dur": 0.5
+        },
+        {
+          "to": "RACK",
+          "at": 2.4,
+          "dur": 0.4
+        },
+        {
+          "to": "FLOOR",
+          "at": 3.0,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BISAGRA",
+        "Y ASA"
+      ],
+      "sub": "Pesa en el piso",
+      "vo": "Arrancá en bisagra con la kettlebell en el piso, la cadera atrás y la espalda neutra.",
+      "moves": [
+        {
+          "cut": "FLOOR",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "FLOOR.W"
+          },
+          "r": 74,
+          "at": 0.9,
+          "out": 3.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            940
+          ],
+          "text": "ESPALDA NEUTRA",
+          "anchor": "end",
+          "at": 1.1,
+          "out": 3.6
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "EL CLEAN",
+        "SALE DE LA CADERA"
+      ],
+      "sub": "La pesa va pegada",
+      "vo": "Paso uno. Extendé la cadera y llevá la kettlebell al hombro: sube pegada y la muñeca gira sin golpear el antebrazo.",
+      "moves": [
+        {
+          "cut": "FLOOR",
+          "at": 0
+        },
+        {
+          "to": "HANG",
+          "at": 0.5,
+          "dur": 0.4
+        },
+        {
+          "to": "RACK",
+          "at": 1.1,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            330,
+            900
+          ],
+          "text": "CADERA, NO BRAZO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "RACK",
+        "AL HOMBRO"
+      ],
+      "sub": "Codo cerca de la cadera",
+      "vo": "Paso dos. Recibí en el rack: codo cerca de la cadera, la pesa en el antebrazo y el puño al hombro.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "RACK",
+          "at": 0.3,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "RACK.W"
+          },
+          "r": 68,
+          "at": 0.5,
+          "out": 3.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "PRESS",
+        "ARRIBA"
+      ],
+      "sub": "Bíceps junto a la oreja",
+      "vo": "Paso tres. Con el core firme, empujá la pesa hasta bloquear el codo con el bíceps junto a la oreja.",
+      "moves": [
+        {
+          "cut": "RACK",
+          "at": 0
+        },
+        {
+          "to": "PRESS",
+          "at": 0.5,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "PRESS.W"
+          },
+          "r": 70,
+          "at": 0.4,
+          "out": 3.4
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Codo bajo en el rack o lumbar arqueada",
+      "vo": "Paso cuatro. Codo bajo y adelante manda la pesa lejos del cuerpo. Si arqueás la lumbar, el hombro no llega al bloqueo.",
+      "moves": [
+        {
+          "cut": "RACK",
+          "at": 0
+        },
+        {
+          "to": "RACK_BAD",
+          "at": 0.6,
+          "dur": 0.8
+        },
+        {
+          "to": "RACK",
+          "at": 2.1,
+          "dur": 0.6
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 2.9,
+          "dur": 0.8
+        },
+        {
+          "to": "RACK",
+          "at": 4.4,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "La cadera inicia el tirón",
+        "La pesa sube pegada",
+        "Codo en el rack",
+        "Core firme, sin arquear"
+      ],
+      "vo": "Claves: la cadera inicia el tirón, la pesa sube pegada, el codo en el rack y el core firme.",
+      "moves": [
+        {
+          "cut": "PRESS",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "8 POR BRAZO"
+      ],
+      "sub": "3 series",
+      "chips": [
+        {
+          "label": "8 por brazo",
+          "at": 0.6
+        },
+        {
+          "label": "3 series",
+          "at": 1.2
+        },
+        {
+          "label": "12,5 kg",
+          "at": 1.8
+        }
+      ],
+      "vo": "Ocho repeticiones por brazo con doce kilos y medio, tres series. Si el rack te golpea, bajá el peso.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "HANG",
+              0.3
+            ],
+            [
+              "RACK",
+              0.4
+            ],
+            [
+              "PRESS",
+              0.5
+            ],
+            [
+              "RACK",
+              0.4
+            ],
+            [
+              "FLOOR",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "pronuncia": {
+    "Kettlebell": "Ketelbel",
+    "kettlebell": "ketelbel",
+    "clean": "clin",
+    "press": "pres",
+    "rack": "rac",
+    "row": "rou",
+    "crunch": "cranch",
+    "toe touch": "tou toch",
+    "Deadlift": "dedlift",
+    "Romanian": "Rrouméinian",
+    "Single-Leg": "singol leg",
+    "Ab Wheel": "ab güil",
+    "rollout": "rolaut",
+    "Dumbbell": "dambel"
+  }
+}

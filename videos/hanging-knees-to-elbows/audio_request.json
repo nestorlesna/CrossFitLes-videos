@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Hanging Knees to Elbows",
+      "text": "Colgado de la barra, rodillas a los codos. Core que comprime."
+    },
+    {
+      "id": "02",
+      "text": "Colgate con las escápulas activas y el agarre firme, sin perder la tensión."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Hacé un balanceo corto y controlado, llevando las escápulas atrás y adelante."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Llevá las rodillas a tocar los codos redondeando la espalda en la compresión."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si te columpiás y no comprimís, las rodillas nunca llegan a los codos."
+    },
+    {
+      "id": "06",
+      "text": "Claves: escápulas activas, rodillas al codo, espalda redondeada arriba y bajada controlada."
+    },
+    {
+      "id": "07",
+      "text": "Siete repeticiones, tres series. Bajá controlado y mantené el ritmo."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Bear Crawl Hold",
+      "text": "Cuadrupedia con las rodillas separadas del piso y la espalda plana."
+    },
+    {
+      "id": "02",
+      "text": "Ponete en cuadrupedia con las manos abajo de los hombros y las rodillas abajo de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Separá las rodillas del piso unos centímetros y sostenerla ahí, sin mover la cadera."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Espalda plana, cadera quieta y abdomen firme. La cabeza sigue la línea de la espalda."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si la cadera se hunde o se sube, la espalda deja de estar plana. Terminá la serie ahí."
+    },
+    {
+      "id": "06",
+      "text": "Claves: espalda plana, rodillas apenas arriba, cadera quieta y abdomen firme."
+    },
+    {
+      "id": "07",
+      "text": "Treinta segundos, tres series. Si la cadera se hunde antes, bajá a veinte segundos."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

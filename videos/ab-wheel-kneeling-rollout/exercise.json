@@ -1,0 +1,407 @@
+{
+  "slug": "ab-wheel-kneeling-rollout",
+  "name": "Ab Wheel Kneeling Rollout",
+  "category": "CROSSFIT · CORE",
+  "tags": [
+    "Abdomen",
+    "Core",
+    "Accesorio"
+  ],
+  "descripcion": "De rodillas, con las manos en la rueda abdominal debajo de los hombros, rodás hacia adelante extendiendo el cuerpo sin arquear la espalda y volvés tirando con el abdomen.",
+  "revisado": false,
+  "notas": "La rueda es un `plate` con `hand: \"near\"` (r 52): el centro de la rueda queda en la mano y el borde toca el piso. Rodillas apoyadas con t/s calculados (cadera sola) y las dos manos con grip al mismo punto.",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Ab Wheel Kneeling Rollout 🎯 rueda abdominal de rodillas | Core",
+    "tags": [
+      "ab wheel",
+      "rueda abdominal",
+      "rollout",
+      "core",
+      "abdomen",
+      "lumbar",
+      "de rodillas",
+      "accesorio",
+      "crossfit",
+      "gimnasia"
+    ],
+    "descripcion": "🎬 Ab Wheel Kneeling Rollout 🎯 rueda abdominal de rodillas | Core\nLa rueda abdominal no perdona: si la lumbar se hunde, el abdomen deja de trabajar. Rodá solo hasta donde podés sostener la pelvis. 🎯\n\n📝 PASO A PASO\n1️⃣ Apoyá las rodillas y las manos en la rueda, debajo de los hombros.\n2️⃣ Apretá glúteos y abdomen (pelvis en retroversión) y rodá hacia adelante.\n3️⃣ Avanzá solo hasta donde la lumbar siga neutra; volvé tirando con el abdomen.\n4️⃣ Si no controlás la vuelta, acortá el recorrido: es mejor corto y limpio.\n\n✅ CLAVES DE TÉCNICA\n✔️ Pelvis en retroversión\n✔️ Glúteos apretados\n✔️ Lumbar sin hundirse\n✔️ Volver con el abdomen\n\n💪 QUÉ TRABAJA\nRecto abdominal · Oblicuos · Dorsal · Serrato\n\n⏱️ CUÁNTO\n45 segundos de trabajo, 3 series. Si la lumbar se hunde, acortá el rango.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nEl error más común es rodar de más: la cadera se hunde, la lumbar se arquea y el abdomen deja de sostener. Cortá el recorrido donde la pelvis sigue apretada.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #AbWheel #Core #Abdomen #Gimnasia"
+  },
+  "miniatura": {
+    "pose": "KNEEL",
+    "grip": 1,
+    "zoom": 1.3,
+    "dy": 60
+  },
+  "initialPose": "KNEEL",
+  "rig": {
+    "x": 520,
+    "y": 1509,
+    "scale": 0.9
+  },
+  "props": [
+    {
+      "type": "plate",
+      "hand": "near",
+      "r": 64,
+      "off": [
+        0,
+        0
+      ]
+    }
+  ],
+  "poses": {
+    "KNEEL": {
+      "hip": [
+        -40,
+        -206
+      ],
+      "t": 31,
+      "s": 90,
+      "ft": 170,
+      "ft2": 170,
+      "b": 62,
+      "hd": 74,
+      "g": 1,
+      "g2": 1,
+      "ed": 1,
+      "ed2": 1,
+      "hx": 300,
+      "hy": -30,
+      "hx2": 300,
+      "hy2": -38
+    },
+    "OUT": {
+      "hip": [
+        -40,
+        -160
+      ],
+      "t": 50,
+      "s": 90,
+      "ft": 170,
+      "ft2": 170,
+      "b": 82,
+      "hd": 82,
+      "g": 1,
+      "g2": 1,
+      "ed": 1,
+      "ed2": 1,
+      "hx": 540,
+      "hy": -30,
+      "hx2": 540,
+      "hy2": -38
+    },
+    "MAX": {
+      "hip": [
+        -40,
+        -118
+      ],
+      "t": 60,
+      "s": 90,
+      "ft": 170,
+      "ft2": 170,
+      "b": 88,
+      "hd": 88,
+      "g": 1,
+      "g2": 1,
+      "ed": 1,
+      "ed2": 1,
+      "hx": 565,
+      "hy": -30,
+      "hx2": 565,
+      "hy2": -38
+    },
+    "ARCH_BAD": {
+      "hip": [
+        -40,
+        -95
+      ],
+      "t": 68,
+      "s": 90,
+      "ft": 170,
+      "ft2": 170,
+      "b": 96,
+      "hd": 118,
+      "cv": -22,
+      "g": 1,
+      "g2": 1,
+      "ed": 1,
+      "ed2": 1,
+      "hx": 570,
+      "hy": -70,
+      "hx2": 570,
+      "hy2": -78
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · CORE",
+      "head": [
+        "AB WHEEL",
+        "ROLLOUT"
+      ],
+      "vo": "Ab Wheel Kneeling Rollout: de rodillas, la rueda va adelante y el abdomen la trae de vuelta.",
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        },
+        {
+          "to": "OUT",
+          "at": 0.6,
+          "dur": 0.7
+        },
+        {
+          "to": "MAX",
+          "at": 1.4,
+          "dur": 0.7
+        },
+        {
+          "to": "OUT",
+          "at": 2.4,
+          "dur": 0.6
+        },
+        {
+          "to": "KNEEL",
+          "at": 3.1,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "RODILLAS",
+        "Y RUEDA"
+      ],
+      "sub": "Manos bajo los hombros",
+      "vo": "Arrancá de rodillas con las manos en la rueda, debajo de los hombros y los brazos extendidos.",
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "KNEEL.W"
+          },
+          "r": 72,
+          "at": 0.9,
+          "out": 4.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            880
+          ],
+          "text": "MANOS BAJO EL HOMBRO",
+          "anchor": "end",
+          "at": 1.1,
+          "out": 4.0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "RODÁ",
+        "ADELANTE"
+      ],
+      "sub": "Glúteos y abdomen apretados",
+      "vo": "Paso uno. Apretá glúteos y abdomen, y rodá hacia adelante extendiendo el cuerpo sin arquear la espalda.",
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        },
+        {
+          "to": "OUT",
+          "at": 0.6,
+          "dur": 1.0
+        },
+        {
+          "to": "MAX",
+          "at": 1.7,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            470,
+            1120
+          ],
+          "to": [
+            690,
+            1120
+          ],
+          "bend": [
+            0,
+            -120
+          ],
+          "at": 0.7,
+          "dur": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            706,
+            980
+          ],
+          "text": "PELVIS APRETADA",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "VOLVÉ CON",
+        "EL ABDOMEN"
+      ],
+      "sub": "No con la cadera",
+      "vo": "Paso dos. Volvé tirando con el abdomen, no sentándote hacia atrás con la cadera.",
+      "moves": [
+        {
+          "cut": "MAX",
+          "at": 0
+        },
+        {
+          "to": "OUT",
+          "at": 0.7,
+          "dur": 0.8
+        },
+        {
+          "to": "KNEEL",
+          "at": 1.6,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "La lumbar se hunde",
+      "vo": "Paso tres. Si la cadera se hunde y la lumbar se arquea, el abdomen deja de sostener. Cortá el recorrido antes de perder la pelvis.",
+      "moves": [
+        {
+          "cut": "MAX",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 0.6,
+          "dur": 0.8
+        },
+        {
+          "to": "MAX",
+          "at": 2.2,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Pelvis en retroversión",
+        "Glúteos apretados",
+        "Lumbar neutra",
+        "Volver con el abdomen"
+      ],
+      "vo": "Claves: pelvis en retroversión, glúteos apretados, lumbar neutra y volver con el abdomen.",
+      "moves": [
+        {
+          "cut": "OUT",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "45 SEGUNDOS"
+      ],
+      "sub": "3 series",
+      "chips": [
+        {
+          "label": "45 s",
+          "at": 0.6
+        },
+        {
+          "label": "3 series",
+          "at": 1.2
+        },
+        {
+          "label": "Rango corto si hace falta",
+          "at": 1.8
+        }
+      ],
+      "vo": "Cuarenta y cinco segundos de trabajo, tres series. Si la lumbar se hunde, acortá el rango.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "OUT",
+              0.6
+            ],
+            [
+              "MAX",
+              0.6
+            ],
+            [
+              "OUT",
+              0.6
+            ],
+            [
+              "KNEEL",
+              0.6
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "pronuncia": {
+    "Kettlebell": "Ketelbel",
+    "kettlebell": "ketelbel",
+    "clean": "clin",
+    "press": "pres",
+    "rack": "rac",
+    "row": "rou",
+    "crunch": "cranch",
+    "toe touch": "tou toch",
+    "Deadlift": "dedlift",
+    "Romanian": "Rrouméinian",
+    "Single-Leg": "singol leg",
+    "Ab Wheel": "ab güil",
+    "rollout": "rolaut",
+    "Dumbbell": "dambel"
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "slug": "jumping-lunge",
+  "name": "Jumping Lunge",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Piernas",
+    "Pliometría",
+    "Cardio"
+  ],
+  "descripcion": "Estocada con salto: cambiar de pierna en el aire y caer en estocada controlada.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.2,
+  "youtube": {
+    "titulo": "Jumping Lunge 🎯 estocada con salto, cambio de pierna en el aire | CrossFit",
+    "tags": [
+      "jumping lunge",
+      "estocada con salto",
+      "estocada",
+      "pliometria",
+      "piernas",
+      "crossfit",
+      "wod",
+      "gluteo",
+      "cardio",
+      "sin material"
+    ],
+    "descripcion": "🎬 JUMPING LUNGE - estocada con salto\nEstocada, salto y cambio de pierna en el aire. Piernas, glúteo y pulmones: la caída tiene que ser suave y controlada. 🔥\n\n📝 PASO A PASO\n1️⃣ Arrancá en estocada con la rodilla de adelante a 90° y el torso erguido.\n2️⃣ Saltá y cambiá de pierna en el aire, con los brazos acompañando.\n3️⃣ Caé en estocada con la rodilla de adelante alineada con el pie.\n4️⃣ Absorbé la caída y encadená el próximo salto.\n\n✅ CLAVES DE TÉCNICA\n✔️ Caída suave\n✔️ Rodilla alineada\n✔️ Torso erguido\n✔️ Cambio completo\n\n💪 QUÉ TRABAJA\nCuádriceps · Glúteo mayor · Isquiotibiales · Gemelos\n\n⏱️ CUÁNTO\n10 repeticiones, 3 series. Si la caída suena fuerte, bajá la altura del salto.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nRodilla sensible: hacé estocadas sin salto o bajá a media estocada caminando.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Piernas #Pliometria #JumpingLunge #WOD"
+  },
+  "miniatura": {
+    "pose": "JUMP",
+    "grip": 0,
+    "zoom": 1.12,
+    "dy": 120
+  },
+  "initialPose": "LUNGE_N",
+  "rig": {
+    "x": 440,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "props": null,
+  "poses": {
+    "LUNGE_N": {
+      "s": 1.95,
+      "t": -82.31,
+      "s2": 89.94,
+      "t2": 10.81,
+      "rx": 290,
+      "ry": 0,
+      "ft": 0,
+      "ft2": 48,
+      "b": 2,
+      "hd": 0,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": -2,
+      "fa2": 0
+    },
+    "JUMP": {
+      "hip": [
+        30,
+        -350
+      ],
+      "ankle": [
+        200,
+        -110
+      ],
+      "ft": 25,
+      "ankle2": [
+        -215,
+        -75
+      ],
+      "ft2": 55,
+      "b": 6,
+      "hd": 0,
+      "g": 0,
+      "ua": 26,
+      "fa": 6,
+      "ua2": 22,
+      "fa2": 10
+    },
+    "LUNGE_F": {
+      "s": 89.94,
+      "t": 10.81,
+      "s2": 1.95,
+      "t2": -82.31,
+      "rx": -215,
+      "ry": -26,
+      "ft": 48,
+      "ft2": 0,
+      "b": 2,
+      "hd": 0,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": -2,
+      "fa2": 0
+    },
+    "LEAN_BAD": {
+      "s": 1.95,
+      "t": -82.31,
+      "s2": 89.94,
+      "t2": 10.81,
+      "rx": 290,
+      "ry": 0,
+      "ft": 0,
+      "ft2": 48,
+      "b": 32,
+      "hd": 26,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": -2,
+      "fa2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "JUMPING",
+        "LUNGE"
+      ],
+      "vo": "Jumping Lunge: estocada, salto y cambio de pierna en el aire. Caída suave y controlada.",
+      "moves": [
+        {
+          "cut": "LUNGE_N",
+          "at": 0
+        },
+        {
+          "to": "JUMP",
+          "at": 0.6,
+          "dur": 0.4
+        },
+        {
+          "to": "LUNGE_F",
+          "at": 1.1,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESTOCADA",
+        "RODILLA A 90°"
+      ],
+      "sub": "Torso erguido",
+      "vo": "Arrancá en estocada con la rodilla de adelante a noventa grados y el torso erguido.",
+      "moves": [
+        {
+          "cut": "LUNGE_N",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SALTÁ Y",
+        "CAMBIÁ"
+      ],
+      "sub": "En el aire",
+      "vo": "Paso uno. Saltá y cambiá de pierna en el aire, con los brazos acompañando el movimiento.",
+      "moves": [
+        {
+          "cut": "LUNGE_N",
+          "at": 0
+        },
+        {
+          "to": "JUMP",
+          "at": 0.6,
+          "dur": 0.45
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "CAÉ EN",
+        "ESTOCADA"
+      ],
+      "sub": "Rodilla alineada",
+      "vo": "Paso dos. Caé en estocada con la rodilla de adelante alineada con el pie y absorbé el impacto.",
+      "moves": [
+        {
+          "cut": "JUMP",
+          "at": 0
+        },
+        {
+          "to": "LUNGE_F",
+          "at": 0.4,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Te tirás adelante",
+      "vo": "Paso tres. Si caés con el torso adelante y la rodilla se va para adentro, la rodilla cobra la factura.",
+      "moves": [
+        {
+          "cut": "LUNGE_N",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 0.7,
+          "dur": 0.8
+        },
+        {
+          "to": "LUNGE_N",
+          "at": 2.6,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Caída suave",
+        "Rodilla alineada",
+        "Torso erguido",
+        "Cambio completo"
+      ],
+      "vo": "Claves: caída suave, rodilla alineada, torso erguido y cambio completo.",
+      "moves": [
+        {
+          "cut": "LUNGE_N",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPETICIONES"
+      ],
+      "sub": "3 series",
+      "chips": [
+        {
+          "label": "10 reps",
+          "at": 0.6
+        },
+        {
+          "label": "3 series",
+          "at": 1.2
+        },
+        {
+          "label": "90 s",
+          "at": 1.8
+        }
+      ],
+      "vo": "Diez repeticiones, tres series. Si la caída suena fuerte, bajá la altura del salto.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "JUMP",
+              0.35
+            ],
+            [
+              "LUNGE_F",
+              0.5
+            ],
+            [
+              "JUMP",
+              0.35
+            ],
+            [
+              "LUNGE_N",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Pike Hold",
+      "text": "Cadera alta, piernas rectas y manos en el piso. Isométrico de hombro y core."
+    },
+    {
+      "id": "02",
+      "text": "De pie, flexioná la cadera y llevá las manos al piso bien adelante de los pies."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Empujá el piso y subí la cadera lo más alto posible, con las piernas rectas."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Llevá las orejas entre los brazos y empujá el piso con las palmas."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si se doblan las rodillas y la espalda se redondea, no es un pike: es una flexión."
+    },
+    {
+      "id": "06",
+      "text": "Claves: cadera alta, piernas rectas, orejas entre los brazos y empujá el piso."
+    },
+    {
+      "id": "07",
+      "text": "Veinticinco segundos, tres series. Si se doblan las rodillas, acortá un poco el rango."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

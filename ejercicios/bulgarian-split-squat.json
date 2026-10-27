@@ -1,0 +1,390 @@
+{
+  "slug": "bulgarian-split-squat",
+  "name": "Bulgarian Split Squat",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Cuádriceps",
+    "Glúteo",
+    "Unilateral"
+  ],
+  "descripcion": "Sentadilla búlgara con kettlebell en goblet: el pie de atrás apoyado en un cajón y todo el peso en la pierna de adelante. Unilateral y sin escapatoria.",
+  "revisado": false,
+  "notas": "Cajón detrás con el pie de atrás arriba (ankle2), pierna de adelante con hip+ankle IK y la kettlebell en goblet (g 1 en las dos manos).",
+  "youtube": {
+    "titulo": "Bulgarian Split Squat 🎯 sentadilla búlgara con kettlebell | CrossFit",
+    "tags": [
+      "bulgarian split squat",
+      "sentadilla bulgara",
+      "kettlebell",
+      "unilateral",
+      "cuadriceps",
+      "gluteo",
+      "crossfit",
+      "goblet"
+    ],
+    "descripcion": "🎬 Bulgarian Split Squat 🎯 sentadilla búlgara con kettlebell | CrossFit\nUna pierna hace todo el trabajo y la de atrás sólo apoya. La búlgara con kettlebell en goblet es fuerza unilateral sin pedirle nada a la lumbar. 🎯\n\n📝 PASO A PASO\n1️⃣ Apoyá el empeine del pie de atrás en un cajón y adelantá el pie de trabajo.\n2️⃣ Con la kettlebell al pecho, bajá la cadera en línea con la pierna de adelante.\n3️⃣ Bajá hasta que el muslo de adelante quede paralelo al piso, sin que la rodilla se vaya adentro.\n4️⃣ Subí empujando el piso con la pierna de adelante y cambiá de lado.\n\n✅ CLAVES DE TÉCNICA\n✔️ Peso en la pierna de adelante\n✔️ Rodilla alineada con el pie\n✔️ Torso firme\n✔️ Cadera abajo, no atrás\n\n💪 QUÉ TRABAJA\nCuádriceps · Glúteo · Aductores · Core · Estabilizadores de cadera\n\n⏱️ CUÁNTO\n8 repeticiones por lado con 16 kg, 3 series. Si perdés el equilibrio, achicá el rango.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nLa pierna de atrás no empuja: si te ayuda a subir, el cajón está muy bajo o el pie de adelante muy cerca. Probá alejarlo un poco.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #BulgarianSplitSquat #Unilateral #Kettlebell #Cuadriceps"
+  },
+  "miniatura": {
+    "pose": "DOWN",
+    "grip": 1,
+    "zoom": 1.05,
+    "dy": 130
+  },
+  "initialPose": "SET",
+  "rig": {
+    "x": 450,
+    "y": 1500,
+    "scale": 0.85
+  },
+  "props": [
+    {
+      "type": "box",
+      "x0": 150,
+      "x1": 470,
+      "h": 280
+    },
+    {
+      "type": "kettlebell",
+      "hand": "near",
+      "off": [
+        0,
+        0
+      ]
+    }
+  ],
+  "poses": {
+    "SET": {
+      "hip": [
+        20,
+        -360
+      ],
+      "ankle": [
+        -200,
+        0
+      ],
+      "ankle2": [
+        280,
+        -250
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "b": 10,
+      "hd": 6,
+      "g": 1,
+      "hx": -110,
+      "hy": -580,
+      "ed": 1,
+      "g2": 1,
+      "hx2": -110,
+      "hy2": -580
+    },
+    "DOWN": {
+      "hip": [
+        20,
+        -270
+      ],
+      "ankle": [
+        -200,
+        0
+      ],
+      "ankle2": [
+        280,
+        -250
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "b": 14,
+      "hd": 10,
+      "g": 1,
+      "hx": -110,
+      "hy": -490,
+      "ed": 1,
+      "g2": 1,
+      "hx2": -110,
+      "hy2": -490
+    },
+    "TORSO_BAD": {
+      "hip": [
+        20,
+        -270
+      ],
+      "ankle": [
+        -200,
+        0
+      ],
+      "ankle2": [
+        280,
+        -250
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "b": 44,
+      "hd": 34,
+      "g": 1,
+      "hx": -230,
+      "hy": -420,
+      "ed": 1,
+      "g2": 1,
+      "hx2": -230,
+      "hy2": -420
+    },
+    "KNEE_BAD": {
+      "hip": [
+        -110,
+        -300
+      ],
+      "ankle": [
+        -200,
+        0
+      ],
+      "ankle2": [
+        280,
+        -250
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "b": 16,
+      "hd": 12,
+      "g": 1,
+      "hx": -230,
+      "hy": -540,
+      "ed": 1,
+      "g2": 1,
+      "hx2": -230,
+      "hy2": -540
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "BULGARIAN",
+        "SPLIT SQUAT"
+      ],
+      "vo": "Bulgarian Split Squat: el pie de atrás en el cajón y todo el peso en la pierna de adelante.",
+      "moves": [
+        {
+          "cut": "SET",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.7,
+          "dur": 0.6
+        },
+        {
+          "to": "SET",
+          "at": 1.6,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PIE ATRÁS",
+        "EN EL CAJÓN"
+      ],
+      "sub": "Empeine apoyado",
+      "vo": "Apoyá el empeine del pie de atrás en el cajón y adelantá el pie de trabajo, con la kettlebell al pecho.",
+      "moves": [
+        {
+          "cut": "SET",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "PASO 1 / 3",
+      "numeral": "1",
+      "head": [
+        "BAJÁ",
+        "LA CADERA"
+      ],
+      "sub": "En línea con el pie",
+      "vo": "Paso uno. Con la kettlebell al pecho, bajá la cadera en línea con la pierna de adelante.",
+      "moves": [
+        {
+          "cut": "SET",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.7,
+          "dur": 0.6
+        },
+        {
+          "to": "SET",
+          "at": 1.8,
+          "dur": 0.7
+        },
+        {
+          "to": "DOWN",
+          "at": 2.8,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "PASO 2 / 3",
+      "numeral": "2",
+      "head": [
+        "MUSLO",
+        "PARALELO"
+      ],
+      "sub": "Sin que la rodilla se vaya adentro",
+      "vo": "Paso dos. Bajá hasta que el muslo de adelante quede paralelo al piso, con la rodilla alineada.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "SET",
+          "at": 0.8,
+          "dur": 0.8
+        },
+        {
+          "to": "DOWN",
+          "at": 2.4,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "PASO 3 / 3",
+      "numeral": "3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Torso adelante o cadera atrás",
+      "vo": "Paso tres. Si el torso se va adelante o la cadera se va atrás, el cuádriceps deja de trabajar. Quedate arriba.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "TORSO_BAD",
+          "at": 1.2,
+          "dur": 0.6
+        },
+        {
+          "to": "DOWN",
+          "at": 2.4,
+          "dur": 0.6
+        },
+        {
+          "to": "KNEE_BAD",
+          "at": 3.4,
+          "dur": 0.6
+        },
+        {
+          "to": "SET",
+          "at": 4.6,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "shrink": 0.7,
+      "head": [
+        "TÉCNICA"
+      ],
+      "vo": "Claves: peso en la pierna de adelante, rodilla alineada, torso firme y la cadera abajo.",
+      "keys": [
+        "Peso adelante",
+        "Rodilla alineada",
+        "Torso firme",
+        "Cadera abajo"
+      ],
+      "moves": [
+        {
+          "cut": "SET",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "SET",
+              0.6
+            ],
+            [
+              "DOWN",
+              0.6
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "sub": "Por lado",
+      "head": [
+        "8 POR LADO"
+      ],
+      "vo": "Ocho repeticiones por lado con dieciséis kilos, tres series. Si perdés el equilibrio, achicá el rango.",
+      "chips": [
+        {
+          "label": "1 · PIE ATRÁS",
+          "at": 0.4
+        },
+        {
+          "label": "2 · BAJÁ",
+          "at": 0.9
+        },
+        {
+          "label": "3 · SUBÍ",
+          "at": 1.2
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "SET",
+              0.6
+            ],
+            [
+              "DOWN",
+              0.6
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "pronuncia": {
+    "Kettlebell": "Ketelbel",
+    "kettlebell": "ketelbel",
+    "clean": "clin",
+    "press": "pres",
+    "rack": "rac",
+    "row": "rou",
+    "crunch": "cranch",
+    "toe touch": "tou toch",
+    "Deadlift": "dedlift",
+    "Romanian": "Rrouméinian",
+    "Single-Leg": "singol leg",
+    "Ab Wheel": "ab güil",
+    "rollout": "rolaut",
+    "Dumbbell": "dambel"
+  },
+  "music": true,
+  "musicVolume": 0.18
+}

@@ -1,0 +1,280 @@
+{
+  "slug": "kettlebell-windmill",
+  "name": "Kettlebell Windmill",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Core",
+    "Deltoides",
+    "Isquios"
+  ],
+  "descripcion": "De pie con las piernas abiertas y una kettlebell bloqueada overhead, girar los pies hacia un costado y bajar el torso en bisagra lateral mientras la mano libre desciende por la pierna hasta cerca del suelo. Volver a la vertical sin perder el bloqueo del brazo que sostiene la pesa.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Kettlebell Windmill 🔥 Core y movilidad de cadera paso a paso | CrossFit",
+    "tags": [
+      "kettlebell windmill",
+      "molino con kettlebell",
+      "windmill crossfit",
+      "movilidad de cadera",
+      "core",
+      "oblicuos",
+      "estabilidad de hombro",
+      "kettlebell",
+      "crossfit",
+      "entrada en calor",
+      "activación core"
+    ],
+    "descripcion": "🔥 KETTLEBELL WINDMILL — core fuerte y cadera libre en un solo movimiento\n\n¿Se te escapa la cadera cuando trabajás con peso arriba? El windmill te enseña a bajar sin perder el control del hombro ni de la columna. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate con los pies bien abiertos y la kettlebell bloqueada arriba, con el codo estirado y la mirada en la pesa.\n2️⃣ Girá los pies hacia el lado de la pesa y llevá la cadera atrás, sin perder el brazo bloqueado.\n3️⃣ Bajá el torso en bisagra lateral y dejá que la mano libre descienda por la pierna hasta cerca del piso.\n4️⃣ Volvé a la vertical empujando con la cadera, siempre con el brazo de la pesa apuntando al techo.\n\n✅ CLAVES DE TÉCNICA\n• Mirada siempre en la kettlebell\n• Codo bloqueado, brazo pegado a la oreja\n• El movimiento viene de la cadera, no de la columna\n• La pierna del lado de la pesa queda extendida\n• Bajá solo hasta donde la espalda siga larga\n\n🎯 QUÉ TRABAJA\nCore · Oblicuos · Deltoides · Glúteos · Isquiotibiales\n\n⏱️ CUÁNTO\n40 segundos con cada brazo. Ideal en la entrada en calor o como activación antes del WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #KettlebellWindmill #Core #Movilidad"
+  },
+  "miniatura": {
+    "pose": "DOWN",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 250
+  },
+  "initialPose": "STAND",
+  "rig": {
+    "x": 520,
+    "y": 1500,
+    "scale": 0.95
+  },
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "s2": 0,
+      "t2": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 180,
+      "fa": 0,
+      "ua2": 8,
+      "fa2": 8
+    },
+    "HALF": {
+      "s": 0,
+      "t": 0,
+      "s2": 18,
+      "t2": -18,
+      "b": 54,
+      "hd": 38,
+      "g": 0,
+      "ua": 180,
+      "fa": 0,
+      "ua2": -22,
+      "fa2": 4
+    },
+    "DOWN": {
+      "s": 0,
+      "t": 0,
+      "s2": 28,
+      "t2": -28,
+      "b": 118,
+      "hd": 104,
+      "cv": 4,
+      "g": 0,
+      "ua": 180,
+      "fa": 0,
+      "ua2": 0,
+      "fa2": 0
+    },
+    "BAD": {
+      "s": 0,
+      "t": 0,
+      "s2": 26,
+      "t2": -26,
+      "b": 100,
+      "hd": 96,
+      "cv": 38,
+      "g": 0,
+      "ua": 158,
+      "fa": 16,
+      "ua2": 8,
+      "fa2": 0
+    }
+  },
+  "props": [
+    {
+      "type": "kettlebell",
+      "swing": true
+    }
+  ],
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "KETTLEBELL",
+        "WINDMILL"
+      ],
+      "vo": "Kettlebell Windmill: el molino. Bloqueá la pesa arriba y bajá en bisagra lateral, con el core firme.",
+      "moves": [
+        {
+          "to": "HALF",
+          "at": 0.6,
+          "dur": 1.2
+        },
+        {
+          "to": "DOWN",
+          "at": 1.9,
+          "dur": 1.4
+        },
+        {
+          "to": "HALF",
+          "at": 3.5,
+          "dur": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PIES",
+        "ABIERTOS"
+      ],
+      "sub": "Pesa bloqueada arriba",
+      "vo": "Parate con los pies bien abiertos y la kettlebell bloqueada arriba, con el codo estirado y la mirada en la pesa.",
+      "stance": true,
+      "stanceLabel": "PIES ABIERTOS",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "GIRÁ",
+        "LOS PIES"
+      ],
+      "sub": "Hacia la pesa",
+      "vo": "Paso uno. Girá los pies hacia el lado de la pesa y llevá la cadera atrás, sin perder el brazo bloqueado.",
+      "moves": [
+        {
+          "cut": "HALF",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "BAJÁ EN",
+        "BISAGRA"
+      ],
+      "sub": "La mano libre al piso",
+      "vo": "Paso dos. Bajá el torso en bisagra lateral y dejá que la mano libre descienda por la pierna hasta cerca del piso.",
+      "moves": [
+        {
+          "cut": "HALF",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.5,
+          "dur": 1.6
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "VOLVÉ",
+        "ARRIBA"
+      ],
+      "sub": "Sin perder el bloqueo",
+      "vo": "Paso tres. Volvé a la vertical empujando con la cadera, siempre con el brazo de la pesa apuntando al techo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "STAND",
+          "at": 0.5,
+          "dur": 1.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Mirada en la kettlebell",
+        "Codo bloqueado",
+        "La cadera manda, no la columna",
+        "Espalda larga, sin redondear"
+      ],
+      "vo": "Claves: mirada en la pesa, codo bloqueado, el movimiento sale de la cadera y la espalda queda larga.",
+      "moves": [
+        {
+          "cut": "HALF",
+          "at": 0.1
+        }
+      ],
+      "shrink": 0.7
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "40 SEGUNDOS"
+      ],
+      "sub": "Cada brazo",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · VOLVÉ",
+          "at": 2.4
+        }
+      ],
+      "vo": "Cuarenta segundos con cada brazo, a ritmo controlado. Si perdés el bloqueo, volvé arriba y reiniciá.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "HALF",
+              1.2
+            ],
+            [
+              "DOWN",
+              1.4
+            ],
+            [
+              "HALF",
+              1.2
+            ],
+            [
+              "STAND",
+              1.0
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}
