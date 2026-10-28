@@ -1,0 +1,144 @@
+{
+  "slug": "supinated-band-pull-apart",
+  "name": "Supinated Band Pull-Apart",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Hombros",
+    "Deltoides posterior",
+    "Activación"
+  ],
+  "descripcion": "De pie con palmas hacia arriba sosteniendo banda al frente, brazos extendidos a la altura del pecho. Separar hasta juntar escápulas.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 360,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "initialPose": "FRONT_SUP",
+  "props": [
+    {
+      "type": "band",
+      "anchor": [
+        400,
+        -750
+      ],
+      "hand": "both",
+      "layer": "mid"
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "FRONT_SUP": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 50,
+      "fa": 0,
+      "ua2": 50,
+      "fa2": 0
+    },
+    "APART_SUP": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 0,
+      "ua2": 90,
+      "fa2": 0
+    },
+    "ELBOW_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 50,
+      "fa": 42,
+      "ua2": 50,
+      "fa2": 42
+    },
+    "SHRUG_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": -8,
+      "hd": -10,
+      "g": 0,
+      "ua": 50,
+      "fa": 0,
+      "ua2": 50,
+      "fa2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "SUPINATED",
+        "BAND PULL-APART"
+      ],
+      "topview": {
+        "mode": "front",
+        "label": "PALMAS HACIA ARRIBA"
+      },
+      "vo": "Supinated Band Pull-Apart: con las palmas hacia arriba y los brazos rectos. Para activar el deltoides posterior.",
+      "moves": [
+        {
+          "to": "FRONT_SUP",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "APART_SUP",
+              0.8
+            ],
+            [
+              "FRONT_SUP",
+              0.8
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "APART_SUP",
+    "zoom": 1,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Supinated Band Pull-Apart | CrossFit",
+    "tags": [
+      "supinated band pull apart",
+      "banda elástica",
+      "deltoides posterior",
+      "hombros",
+      "activación",
+      "crossfit"
+    ],
+    "descripcion": "TEST"
+  },
+  "pronuncia": {
+    "Supinated Band Pull-Apart": "Supineited band pul apárt"
+  }
+}

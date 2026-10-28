@@ -1,0 +1,303 @@
+{
+  "slug": "cross-body-mountain-climbers",
+  "name": "Cross Body Mountain Climbers",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Core",
+    "Oblicuos",
+    "Cardio"
+  ],
+  "descripcion": "En plancha alta, llevar la rodilla hacia el codo contrario cruzando el cuerpo, alternando lados a ritmo controlado.",
+  "revisado": false,
+  "notas": "Enfoque en oblicuos con cruce; mantener cadera baja y estable.",
+  "music": true,
+  "musicVolume": 0.2,
+  "youtube": {
+    "titulo": "Mountain Climbers 🎯 escaladores en plancha, core y cardio | CrossFit",
+    "tags": [
+      "mountain climbers",
+      "escaladores",
+      "plancha",
+      "core",
+      "cardio",
+      "crossfit",
+      "wod",
+      "abdomen",
+      "sin material",
+      "full body"
+    ],
+    "descripcion": "🎬 MOUNTAIN CLIMBERS - escaladores\nPlancha alta y rodillas al pecho, alternando rápido. Cardio y core en el mismo movimiento, sin mover la cadera de más. 🔥\n\n📝 PASO A PASO\n1️⃣ Armá una plancha alta con las manos bajo los hombros.\n2️⃣ Llevá una rodilla al pecho sin levantar la cadera.\n3️⃣ Cambiá de pierna alternando, con ritmo parejo y constante.\n4️⃣ Mantené el core firme y la mirada al piso durante todo el ejercicio.\n\n✅ CLAVES DE TÉCNICA\n✔️ Cadera baja y quieta\n✔️ Manos bajo hombros\n✔️ Ritmo parejo\n✔️ Core activo\n\n💪 QUÉ TRABAJA\nRecto abdominal · Oblicuos · Deltoides anterior · Flexores de cadera\n\n⏱️ CUÁNTO\n30 segundos, 3 rondas. Descansá 30 s entre rondas.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nSi la cadera se levanta, bajá la velocidad: primero técnica, después ritmo.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #MountainClimbers #Core #Cardio #WOD"
+  },
+  "miniatura": {
+    "pose": "DRIVE_N",
+    "grip": 1,
+    "zoom": 1.12,
+    "dy": 118
+  },
+  "initialPose": "PLANK",
+  "rig": {
+    "x": 230,
+    "y": 1504,
+    "scale": 0.85
+  },
+  "props": null,
+  "poses": {
+    "PLANK": {
+      "s": 68.41,
+      "t": 68.41,
+      "rx": -20,
+      "ry": -40,
+      "ft": 118,
+      "b": 68.41,
+      "hd": 78,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": 15
+    },
+    "DRIVE_N": {
+      "hip": [
+        417,
+        -213
+      ],
+      "ankle": [
+        250,
+        -95
+      ],
+      "ft": 100,
+      "ankle2": [
+        -20,
+        -40
+      ],
+      "ft2": 118,
+      "b": 68.41,
+      "hd": 84,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": 15
+    },
+    "DRIVE_F": {
+      "hip": [
+        417,
+        -213
+      ],
+      "ankle": [
+        -20,
+        -40
+      ],
+      "ft": 118,
+      "ankle2": [
+        250,
+        -95
+      ],
+      "ft2": 100,
+      "b": 68.41,
+      "hd": 84,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": 15
+    },
+    "PIKE_BAD": {
+      "hip": [
+        380,
+        -250
+      ],
+      "ankle": [
+        -20,
+        -40
+      ],
+      "ft": 118,
+      "ankle2": [
+        -20,
+        -40
+      ],
+      "ft2": 118,
+      "b": 78,
+      "hd": 95,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": 15
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "MOUNTAIN",
+        "CLIMBERS"
+      ],
+      "vo": "Mountain Climbers: en plancha, rodillas al pecho alternando rápido. Cardio y core a la vez.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        },
+        {
+          "to": "DRIVE_N",
+          "at": 0.7,
+          "dur": 0.5
+        },
+        {
+          "to": "DRIVE_F",
+          "at": 1.2,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PLANCHA",
+        "ALTA"
+      ],
+      "sub": "Manos bajo hombros",
+      "vo": "Armá una plancha alta con las manos bajo los hombros y los pies cómodos.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "RODILLA",
+        "AL PECHO"
+      ],
+      "sub": "Cadera quieta",
+      "vo": "Paso uno. Llevá una rodilla al pecho sin levantar la cadera ni perder la línea.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        },
+        {
+          "to": "DRIVE_N",
+          "at": 0.7,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ALTERNÁ",
+        "RÁPIDO"
+      ],
+      "sub": "Ritmo parejo",
+      "vo": "Paso dos. Cambiá de pierna alternando rápido, con ritmo parejo y constante.",
+      "moves": [
+        {
+          "cut": "DRIVE_N",
+          "at": 0
+        },
+        {
+          "to": "DRIVE_F",
+          "at": 0.6,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Cadera que sube",
+      "vo": "Paso tres. Si la cadera se levanta y rebota, el core se apaga y el ritmo se rompe.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        },
+        {
+          "to": "PIKE_BAD",
+          "at": 0.7,
+          "dur": 0.8
+        },
+        {
+          "to": "PLANK",
+          "at": 2.6,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Cadera baja y quieta",
+        "Manos bajo hombros",
+        "Ritmo parejo",
+        "Core activo"
+      ],
+      "vo": "Claves: cadera baja, manos bajo los hombros, ritmo parejo y core activo.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "3 rondas",
+      "chips": [
+        {
+          "label": "30 s",
+          "at": 0.6
+        },
+        {
+          "label": "3 rondas",
+          "at": 1.2
+        },
+        {
+          "label": "30 s",
+          "at": 1.8
+        }
+      ],
+      "vo": "Treinta segundos, tres rondas. Descansá treinta entre rondas.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "DRIVE_N",
+              0.45
+            ],
+            [
+              "DRIVE_F",
+              0.45
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "pronuncia": {
+    "Cross Body Mountain Climbers": "Cross bódi máuntin kláimars"
+  }
+}

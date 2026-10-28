@@ -1,0 +1,721 @@
+{
+  "slug": "db-lateral-step-over",
+  "name": "DB Lateral Step-Over",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Piernas",
+    "Glúteos",
+    "Estabilidad"
+  ],
+  "descripcion": "Con una mancuerna en cada mano, dar un paso lateral sobre un obstáculo o caja, cruzando la pierna y colocando el pie al otro lado con control, alternando o en recorrido.",
+  "revisado": false,
+  "notas": "Paso lateral controlado sobre obstáculo; mantener estable con mancuernas.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 520,
+    "y": 1510,
+    "scale": 0.78
+  },
+  "shadow": false,
+  "props": [
+    {
+      "type": "box",
+      "x": 500,
+      "y": 1360,
+      "w": 200,
+      "h": 180
+    },
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "side": 1
+    },
+    {
+      "type": "dumbbell",
+      "hand": "far",
+      "side": 1
+    }
+  ],
+  "pronuncia": {
+    "DB Lateral Step-Over": "Di bíi láteral stép óuver"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "hip": [
+        -330,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 8,
+      "fa": 10,
+      "ua2": -6,
+      "fa2": 10
+    },
+    "STEP_N": {
+      "hip": [
+        -330,
+        -470
+      ],
+      "ankle": [
+        -120,
+        -222
+      ],
+      "ankle2": [
+        -330,
+        0
+      ],
+      "b": 4,
+      "hd": 2,
+      "ua": 8,
+      "fa": 10,
+      "ua2": -6,
+      "fa2": 10
+    },
+    "LEAN_N": {
+      "hip": [
+        -260,
+        -480
+      ],
+      "ankle": [
+        -120,
+        -222
+      ],
+      "ankle2": [
+        -330,
+        -20
+      ],
+      "b": 22,
+      "hd": 14,
+      "ft2": 30,
+      "ua": -20,
+      "fa": 20,
+      "ua2": 20,
+      "fa2": 20
+    },
+    "UP_N": {
+      "hip": [
+        -110,
+        -690
+      ],
+      "ankle": [
+        -120,
+        -222
+      ],
+      "ankle2": [
+        -210,
+        -260
+      ],
+      "b": 4,
+      "hd": 2,
+      "ft2": 20,
+      "ua": 10,
+      "fa": 10,
+      "ua2": -10,
+      "fa2": 10
+    },
+    "TOP": {
+      "hip": [
+        -80,
+        -692
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 8,
+      "fa": 10,
+      "ua2": -6,
+      "fa2": 10
+    },
+    "DOWN_F": {
+      "hip": [
+        -200,
+        -450
+      ],
+      "ankle": [
+        -120,
+        -222
+      ],
+      "ankle2": [
+        -310,
+        0
+      ],
+      "b": 8,
+      "hd": 4,
+      "ua": 8,
+      "fa": 10,
+      "ua2": -6,
+      "fa2": 10
+    },
+    "PUSH_BAD": {
+      "hip": [
+        -330,
+        -470
+      ],
+      "ankle": [
+        -120,
+        -222
+      ],
+      "ankle2": [
+        -330,
+        -40
+      ],
+      "b": 34,
+      "hd": 20,
+      "ft2": 40,
+      "ua": -30,
+      "fa": 30,
+      "ua2": -24,
+      "fa2": 30
+    },
+    "STEP_F": {
+      "hip": [
+        -330,
+        -470
+      ],
+      "ankle": [
+        -330,
+        0
+      ],
+      "ankle2": [
+        -120,
+        -222
+      ],
+      "b": 4,
+      "hd": 2,
+      "ua": 8,
+      "fa": 10,
+      "ua2": -6,
+      "fa2": 10
+    },
+    "LEAN_F": {
+      "hip": [
+        -260,
+        -480
+      ],
+      "ankle": [
+        -330,
+        -20
+      ],
+      "ankle2": [
+        -120,
+        -222
+      ],
+      "b": 22,
+      "hd": 14,
+      "ft": 30,
+      "ua": 20,
+      "fa": 20,
+      "ua2": -20,
+      "fa2": 20
+    },
+    "UP_F": {
+      "hip": [
+        -110,
+        -690
+      ],
+      "ankle": [
+        -210,
+        -260
+      ],
+      "ankle2": [
+        -120,
+        -222
+      ],
+      "b": 4,
+      "hd": 2,
+      "ft": 20,
+      "ua": -10,
+      "fa": 10,
+      "ua2": 10,
+      "fa2": 10
+    },
+    "DOWN_N": {
+      "hip": [
+        -200,
+        -450
+      ],
+      "ankle": [
+        -310,
+        0
+      ],
+      "ankle2": [
+        -120,
+        -222
+      ],
+      "b": 8,
+      "hd": 4,
+      "ua": 8,
+      "fa": 10,
+      "ua2": -6,
+      "fa2": 10
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "BOX",
+        "STEP-UP"
+      ],
+      "vo": "Box Step-Up: subir al cajón con un pie y después el otro. Piernas y glúteos, paso a paso.",
+      "moves": [
+        {
+          "to": "STEP_N",
+          "at": 0.4,
+          "dur": 0.5
+        },
+        {
+          "to": "LEAN_N",
+          "at": 0.9,
+          "dur": 0.35
+        },
+        {
+          "to": "UP_N",
+          "at": 1.25,
+          "dur": 0.45
+        },
+        {
+          "to": "TOP",
+          "at": 1.7000000000000002,
+          "dur": 0.35
+        },
+        {
+          "to": "DOWN_F",
+          "at": 2.4,
+          "dur": 0.55
+        },
+        {
+          "to": "STAND",
+          "at": 2.9499999999999997,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 4.6,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "FRENTE",
+        "AL CAJÓN"
+      ],
+      "sub": "Cerca, de pie",
+      "vo": "Parate de frente al cajón, cerca, con los pies al ancho de la cadera.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "PIE",
+        "COMPLETO"
+      ],
+      "sub": "Todo el pie en el cajón",
+      "vo": "Paso uno. Apoyá un pie completo arriba del cajón, no solo la punta.",
+      "moves": [
+        {
+          "to": "STEP_N",
+          "at": 0.6,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "bar",
+          "pos": [
+            540.6,
+            1388.2
+          ],
+          "w": 130,
+          "h": 12,
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            540.6,
+            785
+          ],
+          "text": "PIE COMPLETO",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "EMPUJÁ",
+        "CON EL TALÓN"
+      ],
+      "sub": "La pierna de arriba trabaja",
+      "vo": "Paso dos. Empujá con el talón del pie de arriba y extendé la pierna. Sin impulsarte con la de abajo.",
+      "moves": [
+        {
+          "cut": "STEP_N",
+          "at": 0
+        },
+        {
+          "to": "LEAN_N",
+          "at": 0.5,
+          "dur": 0.4
+        },
+        {
+          "to": "UP_N",
+          "at": 0.9,
+          "dur": 0.6
+        },
+        {
+          "to": "TOP",
+          "at": 1.5,
+          "dur": 0.4
+        },
+        {
+          "to": "STEP_N",
+          "at": 2.8,
+          "dur": 0.1
+        },
+        {
+          "to": "PUSH_BAD",
+          "at": 2.9,
+          "dur": 0.5
+        },
+        {
+          "to": "STEP_N",
+          "at": 4,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            573.6,
+            1049
+          ],
+          "at": 0.6,
+          "dur": 0.8,
+          "from": [
+            573.6,
+            1313
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            699,
+            818
+          ],
+          "text": "EMPUJÁ ARRIBA",
+          "anchor": "start",
+          "at": 1.2,
+          "out": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            699,
+            818
+          ],
+          "text": "REBOTE ABAJO NO",
+          "anchor": "start",
+          "at": 3.1,
+          "out": 4
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "TORSO",
+        "ERGUIDO"
+      ],
+      "sub": "Parate completo arriba",
+      "vo": "Paso tres. Torso erguido y parate completo arriba del cajón, con las dos piernas estiradas.",
+      "moves": [
+        {
+          "cut": "UP_N",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.6,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "color": "ink",
+          "width": 6,
+          "to": [
+            547.2,
+            818
+          ],
+          "at": 1.2,
+          "from": [
+            547.2,
+            1049
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            626.4,
+            851
+          ],
+          "text": "ERGUIDO",
+          "anchor": "start",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "BAJÁ",
+        "Y ALTERNÁ"
+      ],
+      "sub": "Primero la pierna de atrás",
+      "vo": "Paso cuatro. Bajá controlado apoyando primero la pierna de atrás, y en la próxima liderá con la otra.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "DOWN_F",
+          "at": 0.5,
+          "dur": 0.7
+        },
+        {
+          "to": "STAND",
+          "at": 1.2,
+          "dur": 0.5
+        },
+        {
+          "to": "STEP_F",
+          "at": 2,
+          "dur": 0.5
+        },
+        {
+          "to": "LEAN_F",
+          "at": 2.5,
+          "dur": 0.35
+        },
+        {
+          "to": "UP_F",
+          "at": 2.85,
+          "dur": 0.45
+        },
+        {
+          "to": "TOP",
+          "at": 3.3,
+          "dur": 0.35
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            270,
+            930.2
+          ],
+          "text": "CONTROLADO",
+          "anchor": "middle",
+          "at": 0.8,
+          "out": 2
+        },
+        {
+          "type": "label",
+          "pos": [
+            270,
+            930.2
+          ],
+          "text": "LA OTRA PIERNA",
+          "anchor": "middle",
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.75,
+      "keys": [
+        "Pie completo en el cajón",
+        "Empujá con el talón",
+        "Torso erguido",
+        "Alterná la pierna líder"
+      ],
+      "vo": "Claves: pie completo arriba del cajón, empujá con el talón, torso erguido y alterná la pierna que sube primero.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0.1
+        },
+        {
+          "to": "STEP_N",
+          "at": 0.6,
+          "dur": 0.5
+        },
+        {
+          "to": "LEAN_N",
+          "at": 1.1,
+          "dur": 0.35
+        },
+        {
+          "to": "UP_N",
+          "at": 1.45,
+          "dur": 0.45
+        },
+        {
+          "to": "TOP",
+          "at": 1.9,
+          "dur": 0.35
+        },
+        {
+          "to": "DOWN_F",
+          "at": 2.6,
+          "dur": 0.55
+        },
+        {
+          "to": "STAND",
+          "at": 3.15,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7,
+      "badge": "A ENTRENAR",
+      "head": [
+        "6 REPS"
+      ],
+      "sub": "Alternando piernas",
+      "vo": "Seis repeticiones alternando la pierna líder. Ideal para la entrada en calor y la activación.",
+      "chips": [
+        {
+          "label": "1 · UNA PIERNA",
+          "at": 0.4
+        },
+        {
+          "label": "2 · LA OTRA",
+          "at": 3.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "STEP_N",
+          "at": 0.4,
+          "dur": 0.5
+        },
+        {
+          "to": "LEAN_N",
+          "at": 0.9,
+          "dur": 0.35
+        },
+        {
+          "to": "UP_N",
+          "at": 1.25,
+          "dur": 0.45
+        },
+        {
+          "to": "TOP",
+          "at": 1.7000000000000002,
+          "dur": 0.35
+        },
+        {
+          "to": "DOWN_F",
+          "at": 2.4,
+          "dur": 0.55
+        },
+        {
+          "to": "STAND",
+          "at": 2.9499999999999997,
+          "dur": 0.5
+        },
+        {
+          "to": "STEP_F",
+          "at": 3.6,
+          "dur": 0.5
+        },
+        {
+          "to": "LEAN_F",
+          "at": 4.1,
+          "dur": 0.35
+        },
+        {
+          "to": "UP_F",
+          "at": 4.45,
+          "dur": 0.45
+        },
+        {
+          "to": "TOP",
+          "at": 4.9,
+          "dur": 0.35
+        },
+        {
+          "to": "DOWN_N",
+          "at": 5.6,
+          "dur": 0.55
+        },
+        {
+          "to": "STAND",
+          "at": 6.15,
+          "dur": 0.5
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP_N",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Box Step-Up 📦 Subida al cajón paso a paso | CrossFit",
+    "tags": [
+      "box step up",
+      "step up",
+      "subida al cajón",
+      "subida al banco",
+      "step up con cajón",
+      "glúteos",
+      "piernas",
+      "entrada en calor",
+      "crossfit",
+      "activación"
+    ],
+    "descripcion": "📦 BOX STEP-UP — Subí al cajón con una pierna: glúteos y cuádriceps a full\n\n¿Querés activar piernas y glúteos sin impacto? El step-up trabaja cada pierna por separado y corrige diferencias. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate de frente al cajón, cerca, con los pies al ancho de la cadera.\n2️⃣ Apoyá un pie completo arriba del cajón, no solo la punta.\n3️⃣ Empujá con el talón del pie de arriba y extendé la pierna, sin impulsarte con la de abajo.\n4️⃣ Torso erguido: parate completo arriba del cajón.\n5️⃣ Bajá controlado apoyando primero la pierna de atrás, y en la próxima liderá con la otra.\n\n✅ CLAVES DE TÉCNICA\n• El pie de subida totalmente apoyado en el cajón\n• Empujá con el talón\n• Torso erguido\n• Alterná la pierna líder en cada repetición\n\n🎯 QUÉ TRABAJA\nRecto femoral · Bíceps femoral · Glúteo mayor · Glúteo medio · Vasto lateral\n\n⏱️ CUÁNTO\n6 repeticiones alternando piernas. Va en la entrada en calor, la activación o en WODs.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #StepUp #Gluteos #Entrenamiento"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "DB Lateral Step-Over",
+      "text": "Box Step-Up: subir al cajón con un pie y después el otro. Piernas y glúteos, paso a paso."
+    },
+    {
+      "id": "02",
+      "text": "Parate de frente al cajón, cerca, con los pies al ancho de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Apoyá un pie completo arriba del cajón, no solo la punta."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Empujá con el talón del pie de arriba y extendé la pierna. Sin impulsarte con la de abajo."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Torso erguido y parate completo arriba del cajón, con las dos piernas estiradas."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Bajá controlado apoyando primero la pierna de atrás, y en la próxima liderá con la otra."
+    },
+    {
+      "id": "07",
+      "text": "Claves: pie completo arriba del cajón, empujá con el talón, torso erguido y alterná la pierna que sube primero."
+    },
+    {
+      "id": "08",
+      "text": "Seis repeticiones alternando la pierna líder. Ideal para la entrada en calor y la activación."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,762 @@
+{
+  "slug": "burpee-to-bar",
+  "name": "Burpee to Bar",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Pecho",
+    "Core",
+    "Tracción"
+  ],
+  "descripcion": "Burpee hasta plancha, bajar al pecho, empujar y saltar para agarrar la barra de dominadas con salto, bajando controlado.",
+  "revisado": false,
+  "notas": "Transición burpee → salto a barra; coordinación y tracción.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 620,
+    "y": 1508,
+    "scale": 0.68
+  },
+  "props": [
+    {
+      "type": "pullupbar",
+      "x": 700,
+      "y": 1200,
+      "h": 900
+    }
+  ],
+  "pronuncia": {
+    "Burpee to Bar": "Burpii tú bar"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 6,
+      "fa": 6,
+      "pz": 0
+    },
+    "STAND_B": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 6,
+      "fa": 6,
+      "pz": 1
+    },
+    "DOWN": {
+      "hip": [
+        -60,
+        -170
+      ],
+      "s": 38,
+      "t": -112,
+      "b": 62,
+      "hd": 60,
+      "g": 1,
+      "hx": 100,
+      "hy": 15,
+      "pz": 0
+    },
+    "DOWN_B": {
+      "hip": [
+        -60,
+        -170
+      ],
+      "s": 38,
+      "t": -112,
+      "b": 62,
+      "hd": 60,
+      "g": 1,
+      "hx": 100,
+      "hy": 15,
+      "pz": 1
+    },
+    "PLANK": {
+      "hip": [
+        -290,
+        -240
+      ],
+      "s": 78,
+      "t": 78,
+      "s2": 78,
+      "t2": 78,
+      "ft": 170,
+      "ft2": 170,
+      "b": 80,
+      "hd": 86,
+      "g": 1,
+      "hx": 10,
+      "hy": 15,
+      "ed": -1,
+      "pz": 0
+    },
+    "PLANK_B": {
+      "hip": [
+        -290,
+        -240
+      ],
+      "s": 78,
+      "t": 78,
+      "s2": 78,
+      "t2": 78,
+      "ft": 170,
+      "ft2": 170,
+      "b": 80,
+      "hd": 86,
+      "g": 1,
+      "hx": 10,
+      "hy": 15,
+      "ed": -1,
+      "pz": 1
+    },
+    "CHEST": {
+      "hip": [
+        -290,
+        -8
+      ],
+      "s": 90,
+      "t": 90,
+      "s2": 90,
+      "t2": 90,
+      "ft": 175,
+      "ft2": 175,
+      "b": 92,
+      "hd": 72,
+      "g": 0,
+      "ua": -120,
+      "fa": 168,
+      "ua2": -116,
+      "fa2": 166,
+      "pz": 0
+    },
+    "CHEST_B": {
+      "hip": [
+        -290,
+        -8
+      ],
+      "s": 90,
+      "t": 90,
+      "s2": 90,
+      "t2": 90,
+      "ft": 175,
+      "ft2": 175,
+      "b": 92,
+      "hd": 72,
+      "g": 0,
+      "ua": -120,
+      "fa": 168,
+      "ua2": -116,
+      "fa2": 166,
+      "pz": 1
+    },
+    "LOAD": {
+      "hip": [
+        -20,
+        -340
+      ],
+      "s": 26,
+      "t": -62,
+      "b": 40,
+      "hd": 30,
+      "ua": -40,
+      "fa": 10,
+      "ua2": -36,
+      "fa2": 10,
+      "pz": 0
+    },
+    "LOAD_B": {
+      "hip": [
+        -20,
+        -340
+      ],
+      "s": 26,
+      "t": -62,
+      "b": 40,
+      "hd": 30,
+      "ua": -40,
+      "fa": 10,
+      "ua2": -36,
+      "fa2": 10,
+      "pz": 1
+    },
+    "HOP": {
+      "hip": [
+        0,
+        -660
+      ],
+      "s": 44,
+      "t": -62,
+      "s2": 40,
+      "t2": -58,
+      "ft": 30,
+      "ft2": 30,
+      "b": 10,
+      "hd": 4,
+      "ua": 150,
+      "fa": 10,
+      "ua2": 144,
+      "fa2": 10,
+      "pz": 0.5
+    },
+    "HOP_B": {
+      "hip": [
+        0,
+        -660
+      ],
+      "s": 44,
+      "t": -62,
+      "s2": 40,
+      "t2": -58,
+      "ft": 30,
+      "ft2": 30,
+      "b": 10,
+      "hd": 4,
+      "ua": 150,
+      "fa": 10,
+      "ua2": 144,
+      "fa2": 10,
+      "pz": 0.49
+    },
+    "LAND": {
+      "hip": [
+        0,
+        -360
+      ],
+      "s": 24,
+      "t": -58,
+      "b": 30,
+      "hd": 20,
+      "ua": 40,
+      "fa": 20,
+      "ua2": 34,
+      "fa2": 20,
+      "pz": 0
+    },
+    "LAND_B": {
+      "hip": [
+        0,
+        -360
+      ],
+      "s": 24,
+      "t": -58,
+      "b": 30,
+      "hd": 20,
+      "ua": 40,
+      "fa": 20,
+      "ua2": 34,
+      "fa2": 20,
+      "pz": 1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "BURPEE",
+        "OVER THE BAR"
+      ],
+      "vo": "Burpee Over the Bar: burpee al lado de la barra y salto lateral por encima. Un clásico de los WODs.",
+      "moves": [
+        {
+          "to": "DOWN",
+          "at": 0.6,
+          "dur": 0.4
+        },
+        {
+          "to": "PLANK",
+          "at": 1,
+          "dur": 0.35
+        },
+        {
+          "to": "CHEST",
+          "at": 1.35,
+          "dur": 0.35
+        },
+        {
+          "to": "PLANK",
+          "at": 1.7000000000000002,
+          "dur": 0.35
+        },
+        {
+          "to": "DOWN",
+          "at": 2.05,
+          "dur": 0.35
+        },
+        {
+          "to": "STAND",
+          "at": 2.4,
+          "dur": 0.35
+        },
+        {
+          "to": "LOAD",
+          "at": 2.8,
+          "dur": 0.3
+        },
+        {
+          "to": "HOP",
+          "at": 3.0999999999999996,
+          "dur": 0.3,
+          "ease": "power2.out"
+        },
+        {
+          "to": "LAND_B",
+          "at": 3.4,
+          "dur": 0.3,
+          "ease": "power2.in"
+        },
+        {
+          "to": "STAND_B",
+          "at": 3.75,
+          "dur": 0.35
+        }
+      ]
+    },
+    {
+      "min": 5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "AL LADO",
+        "DE LA BARRA"
+      ],
+      "sub": "De costado, pies juntos",
+      "vo": "Parate al lado de la barra, de costado a ella, con los pies juntos.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "topview": {
+        "mode": "bar",
+        "at": null,
+        "label": "DE COSTADO"
+      },
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            395.4,
+            1337.4
+          ],
+          "text": "BARRA ATRÁS",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "PECHO",
+        "AL PISO"
+      ],
+      "sub": "Y los muslos también",
+      "vo": "Paso uno. Manos al piso, saltá atrás y bajá hasta que el pecho y los muslos toquen el piso.",
+      "moves": [
+        {
+          "to": "DOWN",
+          "at": 0.5,
+          "dur": 0.7
+        },
+        {
+          "to": "PLANK",
+          "at": 1.3,
+          "dur": 0.5
+        },
+        {
+          "to": "CHEST",
+          "at": 2,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "CHEST.S",
+            "dx": 30
+          },
+          "r": 55,
+          "at": 2.6
+        },
+        {
+          "type": "ring",
+          "pos": {
+            "j": "CHEST.K",
+            "dx": 60
+          },
+          "r": 55,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "CHEST.H",
+            "dy": -300
+          },
+          "text": "PECHO Y MUSLOS",
+          "anchor": "middle",
+          "at": 3
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "PIES A",
+        "LAS MANOS"
+      ],
+      "sub": "Y parate",
+      "vo": "Paso dos. Empujá, llevá los pies cerca de las manos y parate, siempre de costado a la barra.",
+      "moves": [
+        {
+          "cut": "CHEST",
+          "at": 0
+        },
+        {
+          "to": "PLANK",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "DOWN",
+          "at": 1.3,
+          "dur": 0.6
+        },
+        {
+          "to": "STAND",
+          "at": 2.2,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "min": 6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "SALTÁ",
+        "LA BARRA"
+      ],
+      "sub": "Con los dos pies a la vez",
+      "vo": "Paso tres. Saltá de costado por encima de la barra, con los dos pies a la vez, y caé del otro lado.",
+      "moves": [
+        {
+          "to": "LOAD",
+          "at": 0.8,
+          "dur": 0.5
+        },
+        {
+          "to": "HOP",
+          "at": 1.3,
+          "dur": 0.45,
+          "ease": "power2.out"
+        },
+        {
+          "to": "LAND_B",
+          "at": 1.75,
+          "dur": 0.4,
+          "ease": "power2.in"
+        },
+        {
+          "to": "STAND_B",
+          "at": 2.4,
+          "dur": 0.5
+        }
+      ],
+      "topview": {
+        "mode": "bar",
+        "at": 1.3,
+        "dur": 0.8,
+        "label": "SALTO LATERAL"
+      },
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            395.4,
+            953
+          ],
+          "text": "DOS PIES A LA VEZ",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "Y OTRA",
+        "VEZ"
+      ],
+      "sub": "Ahora del otro lado",
+      "vo": "Paso cuatro. Del otro lado, otro burpee, y volvé a saltar. Respirá abajo, en el piso.",
+      "moves": [
+        {
+          "cut": "STAND_B",
+          "at": 0
+        },
+        {
+          "to": "DOWN_B",
+          "at": 0.4,
+          "dur": 0.4
+        },
+        {
+          "to": "PLANK_B",
+          "at": 0.8,
+          "dur": 0.35
+        },
+        {
+          "to": "CHEST_B",
+          "at": 1.15,
+          "dur": 0.35
+        },
+        {
+          "to": "PLANK_B",
+          "at": 1.5,
+          "dur": 0.35
+        },
+        {
+          "to": "DOWN_B",
+          "at": 1.85,
+          "dur": 0.35
+        },
+        {
+          "to": "STAND_B",
+          "at": 2.2,
+          "dur": 0.35
+        },
+        {
+          "to": "LOAD_B",
+          "at": 2.6,
+          "dur": 0.3
+        },
+        {
+          "to": "HOP_B",
+          "at": 2.9,
+          "dur": 0.3,
+          "ease": "power2.out"
+        },
+        {
+          "to": "LAND",
+          "at": 3.2,
+          "dur": 0.3,
+          "ease": "power2.in"
+        },
+        {
+          "to": "STAND",
+          "at": 3.55,
+          "dur": 0.35
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            395.4,
+            1337.4
+          ],
+          "text": "RESPIRÁ ABAJO",
+          "anchor": "middle",
+          "at": 1,
+          "out": 2.5
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Pecho y muslos al piso",
+        "De costado a la barra",
+        "Saltá con los dos pies",
+        "Ritmo que puedas sostener"
+      ],
+      "vo": "Claves: pecho y muslos al piso, de costado a la barra, salto con los dos pies y un ritmo que puedas sostener.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7,
+      "badge": "A ENTRENAR",
+      "head": [
+        "12 REPS"
+      ],
+      "sub": "Respirá abajo",
+      "vo": "Doce repeticiones, a un ritmo que puedas sostener todo el WOD.",
+      "chips": [
+        {
+          "label": "1 · BURPEE",
+          "at": 0.4
+        },
+        {
+          "label": "2 · SALTO",
+          "at": 2.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.4,
+          "dur": 0.4
+        },
+        {
+          "to": "PLANK",
+          "at": 0.8,
+          "dur": 0.35
+        },
+        {
+          "to": "CHEST",
+          "at": 1.15,
+          "dur": 0.35
+        },
+        {
+          "to": "PLANK",
+          "at": 1.5,
+          "dur": 0.35
+        },
+        {
+          "to": "DOWN",
+          "at": 1.85,
+          "dur": 0.35
+        },
+        {
+          "to": "STAND",
+          "at": 2.2,
+          "dur": 0.35
+        },
+        {
+          "to": "LOAD",
+          "at": 2.6,
+          "dur": 0.3
+        },
+        {
+          "to": "HOP",
+          "at": 2.9,
+          "dur": 0.3,
+          "ease": "power2.out"
+        },
+        {
+          "to": "LAND_B",
+          "at": 3.2,
+          "dur": 0.3,
+          "ease": "power2.in"
+        },
+        {
+          "to": "STAND_B",
+          "at": 3.55,
+          "dur": 0.35
+        },
+        {
+          "to": "DOWN_B",
+          "at": 4,
+          "dur": 0.4
+        },
+        {
+          "to": "PLANK_B",
+          "at": 4.4,
+          "dur": 0.35
+        },
+        {
+          "to": "CHEST_B",
+          "at": 4.75,
+          "dur": 0.35
+        },
+        {
+          "to": "PLANK_B",
+          "at": 5.1,
+          "dur": 0.35
+        },
+        {
+          "to": "DOWN_B",
+          "at": 5.45,
+          "dur": 0.35
+        },
+        {
+          "to": "STAND_B",
+          "at": 5.8,
+          "dur": 0.35
+        },
+        {
+          "to": "LOAD_B",
+          "at": 6.2,
+          "dur": 0.3
+        },
+        {
+          "to": "HOP_B",
+          "at": 6.5,
+          "dur": 0.3,
+          "ease": "power2.out"
+        },
+        {
+          "to": "LAND",
+          "at": 6.8,
+          "dur": 0.3,
+          "ease": "power2.in"
+        },
+        {
+          "to": "STAND",
+          "at": 7.15,
+          "dur": 0.35
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "HOP",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 160
+  },
+  "youtube": {
+    "titulo": "Burpee Over the Bar 🔥 Burpee con salto lateral paso a paso | CrossFit",
+    "tags": [
+      "burpee over the bar",
+      "lateral burpee over bar",
+      "burpee sobre la barra",
+      "burpee lateral",
+      "burpees",
+      "crossfit",
+      "wod",
+      "cardio",
+      "ejercicio de cuerpo completo",
+      "salto lateral",
+      "acondicionamiento"
+    ],
+    "descripcion": "🔥 BURPEE OVER THE BAR — Burpee y salto lateral sobre la barra: cardio y potencia sin parar\n\n¿Te toca un WOD con burpees sobre la barra y a la tercera ronda ya no saltás? Con buena técnica y un ritmo inteligente llegás entero. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate al lado de la barra, de costado a ella, con los pies juntos.\n2️⃣ Manos al piso, saltá atrás y bajá hasta que el pecho y los muslos toquen el piso.\n3️⃣ Empujá, llevá los pies cerca de las manos y parate, siempre de costado a la barra.\n4️⃣ Saltá de costado por encima de la barra, con los dos pies a la vez, y caé del otro lado.\n5️⃣ Del otro lado, otro burpee, y volvé a saltar. Respirá abajo, en el piso.\n\n✅ CLAVES DE TÉCNICA\n• Pecho y muslos tocan el piso en cada burpee\n• Siempre de costado a la barra\n• Saltá con los dos pies a la vez por encima de la barra\n• Respirá abajo, en el piso\n• Mantené un ritmo que puedas sostener\n\n🎯 QUÉ TRABAJA\nPectoral mayor · Deltoides anterior · Glúteo mayor · Recto femoral · Tríceps braquial\n\n⏱️ CUÁNTO\n12 repeticiones (o lo que marque el WOD). Va en WODs de cardio y acondicionamiento.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés molestias en hombros, muñecas o rodillas, empezá con burpees sin salto y pasando la barra caminando, y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #BurpeeOverTheBar #Burpees #Entrenamiento"
+  }
+}

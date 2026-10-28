@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Banded Ankle Dorsiflexion Stretch",
+      "text": "Band External Rotation: rotación externa del hombro con banda. Salud para el manguito rotador."
+    },
+    {
+      "id": "02",
+      "text": "Parate de costado al ancla, con la banda a la altura de la cintura. Codo pegado al cuerpo, doblado a noventa grados."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Rotá el antebrazo hacia afuera contra la resistencia de la banda, como una puerta que se abre."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. El codo no se separa del cuerpo en ningún momento. Es la clave del ejercicio."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Rango controlado y sin tirones: salí y volvé lento, sin girar el torso."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Terminá las repeticiones y cambiá de lado: cada brazo por separado."
+    },
+    {
+      "id": "07",
+      "text": "Claves: codo pegado al cuerpo y a noventa grados, movimiento controlado sin tirones y cada lado por separado."
+    },
+    {
+      "id": "08",
+      "text": "Seis repeticiones por lado. Fundamental para cuidar los hombros antes de la arrancada."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

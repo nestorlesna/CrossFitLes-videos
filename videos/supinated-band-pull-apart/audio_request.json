@@ -1,0 +1,17 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Supinated Band Pull-Apart",
+      "text": "Con las palmas hacia arriba y los brazos rectos. Para activar el deltoides posterior."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

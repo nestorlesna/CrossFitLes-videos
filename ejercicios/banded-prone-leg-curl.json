@@ -1,0 +1,452 @@
+{
+  "slug": "banded-prone-leg-curl",
+  "name": "Banded Prone Leg Curl",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Isquiotibiales",
+    "Piernas",
+    "Activación"
+  ],
+  "descripcion": "Acostado boca abajo con una banda elástica anclada a los tobillos o con la banda bajo el pie, flexionar la rodilla llevando el talón hacia los glúteos contra la resistencia y volver controlado.",
+  "revisado": false,
+  "notas": "Boca abajo con banda elástica para trabajar la flexión de rodilla; movimiento controlado sin tirar con impulso.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1508,
+    "scale": 0.8
+  },
+  "props": [
+    {
+      "type": "band",
+      "anchor": [
+        400,
+        900
+      ],
+      "post": [
+        420,
+        1300
+      ],
+      "hand": "both"
+    }
+  ],
+  "pronuncia": {
+    "Banded Prone Leg Curl": "Bánded prón leg córl"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 6,
+      "fa": 6,
+      "ua2": 4,
+      "fa2": 6
+    },
+    "TOP": {
+      "s": 6,
+      "t": -12,
+      "b": 10,
+      "hd": 4,
+      "g": 0,
+      "ua": -6,
+      "fa": 104,
+      "ua2": -8,
+      "fa2": 104
+    },
+    "DOWN": {
+      "s": 6,
+      "t": -12,
+      "b": 10,
+      "hd": 4,
+      "g": 0,
+      "ua": -6,
+      "fa": 6,
+      "ua2": -8,
+      "fa2": 6
+    },
+    "SWING_BAD": {
+      "s": 10,
+      "t": -30,
+      "b": 34,
+      "hd": 20,
+      "g": 0,
+      "ua": 30,
+      "fa": 30,
+      "ua2": 28,
+      "fa2": 30
+    },
+    "ELBOW_BAD": {
+      "s": 6,
+      "t": -12,
+      "b": 10,
+      "hd": 4,
+      "g": 0,
+      "ua": 40,
+      "fa": 70,
+      "ua2": 38,
+      "fa2": 70
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "BAND TRICEPS",
+        "PUSHDOWN"
+      ],
+      "vo": "Band Triceps Pushdown: extensión de codos contra una banda elástica. Tríceps aislado.",
+      "moves": [
+        {
+          "to": "TOP",
+          "at": 0.2,
+          "dur": 0.5
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              0.6
+            ],
+            [
+              "TOP",
+              0.8
+            ]
+          ],
+          "at": 0.8,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BANDA",
+        "ANCLADA ARRIBA"
+      ],
+      "sub": "Codos pegados al cuerpo",
+      "vo": "Anclá la banda en alto, tomala con las dos manos y pegá los codos al cuerpo, con el torso apenas inclinado.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.8,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            423.4,
+            1098.9
+          ],
+          "r": 56,
+          "at": 2
+        },
+        {
+          "type": "label",
+          "pos": [
+            358.6,
+            1106.1
+          ],
+          "text": "CODOS PEGADOS",
+          "anchor": "end",
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "EXTENDÉ",
+        "HACIA ABAJO"
+      ],
+      "sub": "Hasta estirar los brazos",
+      "vo": "Paso uno. Extendé los antebrazos hacia abajo hasta estirar por completo los codos.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.6,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            488.2,
+            1199.7
+          ],
+          "bend": [
+            70,
+            0
+          ],
+          "at": 0.6,
+          "dur": 0.8,
+          "from": [
+            595.1,
+            1082.9
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            531.4,
+            1113.3
+          ],
+          "text": "ESTIRÁ",
+          "anchor": "start",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "SOLO",
+        "EL ANTEBRAZO"
+      ],
+      "sub": "Los codos no se mueven",
+      "vo": "Paso dos. Solo se mueve el antebrazo: los codos quedan fijos al costado del torso todo el tiempo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.4,
+          "dur": 0.7
+        },
+        {
+          "to": "ELBOW_BAD",
+          "at": 2,
+          "dur": 0.6
+        },
+        {
+          "to": "TOP",
+          "at": 3.4,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            358.6,
+            1106.1
+          ],
+          "text": "CODOS FIJOS",
+          "anchor": "end",
+          "at": 0.9,
+          "out": 2
+        },
+        {
+          "type": "label",
+          "pos": [
+            358.6,
+            1106.1
+          ],
+          "text": "ASÍ NO",
+          "anchor": "end",
+          "at": 2.4,
+          "out": 3.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "SIN",
+        "BALANCEO"
+      ],
+      "sub": "El cuerpo quieto",
+      "vo": "Paso tres. No balancees el cuerpo para generar impulso: el torso queda quieto y el tríceps hace el trabajo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "SWING_BAD",
+          "at": 0.6,
+          "dur": 0.5
+        },
+        {
+          "to": "TOP",
+          "at": 1.8,
+          "dur": 0.6
+        },
+        {
+          "to": "DOWN",
+          "at": 2.8,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            103.2,
+            788
+          ],
+          "text": "BALANCEO NO",
+          "anchor": "start",
+          "at": 0.9,
+          "out": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            103.2,
+            788
+          ],
+          "text": "CUERPO QUIETO",
+          "anchor": "start",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "VOLVÉ",
+        "CONTROLADO"
+      ],
+      "sub": "Sin que la banda te tire",
+      "vo": "Paso cuatro. Volvé controlado hasta que los antebrazos queden paralelos al piso, sin que la banda te tire.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.75,
+      "keys": [
+        "Codos pegados al cuerpo",
+        "Solo se mueve el antebrazo",
+        "Sin balanceo",
+        "Vuelta controlada"
+      ],
+      "vo": "Claves: codos pegados al cuerpo, solo se mueve el antebrazo, sin balancear el cuerpo y la vuelta siempre controlada.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              0.6
+            ],
+            [
+              "TOP",
+              0.8
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "21 REPS"
+      ],
+      "sub": "Controladas",
+      "vo": "Veintiuna repeticiones controladas. Elegí una banda que te deje terminarlas con buena técnica.",
+      "chips": [
+        {
+          "label": "1 · ABAJO",
+          "at": 0.5
+        },
+        {
+          "label": "2 · ARRIBA",
+          "at": 1.1
+        }
+      ],
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              0.6
+            ],
+            [
+              "TOP",
+              0.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "TOP",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 160
+  },
+  "youtube": {
+    "titulo": "Band Triceps Pushdown 💪 Tríceps con banda elástica | CrossFit",
+    "tags": [
+      "band triceps pushdown",
+      "tríceps con banda",
+      "extensión de tríceps",
+      "banda elástica",
+      "triceps pushdown",
+      "tríceps",
+      "brazos",
+      "crossfit",
+      "wod",
+      "entrenamiento con bandas"
+    ],
+    "descripcion": "💪 BAND TRICEPS PUSHDOWN — Tríceps aislado con una banda elástica\n\n¿Querés más fuerza para los presses y las flexiones? El pushdown con banda aísla el tríceps y lo hacés en cualquier lado. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Anclá la banda en alto, tomala con las dos manos y pegá los codos al cuerpo, con el torso apenas inclinado.\n2️⃣ Extendé los antebrazos hacia abajo hasta estirar por completo los codos.\n3️⃣ Solo se mueve el antebrazo: los codos quedan fijos al costado del torso.\n4️⃣ No balancees el cuerpo para generar impulso.\n5️⃣ Volvé controlado hasta que los antebrazos queden paralelos al piso.\n\n✅ CLAVES DE TÉCNICA\n• Los codos fijos junto al torso todo el movimiento\n• Solo se mueve el antebrazo\n• Sin balancear el cuerpo para generar impulso\n• Vuelta lenta y controlada\n\n🎯 QUÉ TRABAJA\nTríceps braquial\n\n⏱️ CUÁNTO\n21 repeticiones. Va en WODs o como accesorio de brazos.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #Triceps #Bandas #Entrenamiento"
+  }
+}
