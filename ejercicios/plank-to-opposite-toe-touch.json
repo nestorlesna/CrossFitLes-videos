@@ -1,0 +1,414 @@
+{
+  "slug": "plank-to-opposite-toe-touch",
+  "name": "Plank to Opposite Toe Touch",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Core",
+    "Hombros",
+    "Glúteos"
+  ],
+  "descripcion": "Desde plancha alta, elevar la cadera tipo pike y llevar una mano al pie contrario. Volver a plancha y alternar lados.",
+  "notas": "PIKE y TOE: pies adelantados (s=t=0) con las manos plantadas; TOE_B invierte la mano que toca. El error es la cadera caída (SAG_BAD).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 460,
+    "y": 1504,
+    "scale": 0.8
+  },
+  "props": [],
+  "initialPose": "PLANK",
+  "poses": {
+    "PLANK": {
+      "hip": [
+        141.6,
+        -222.8
+      ],
+      "ankle": [
+        -300,
+        -62
+      ],
+      "ft": 55,
+      "b": 70,
+      "hd": 74,
+      "g": 1,
+      "hx": 405,
+      "hy": 15,
+      "ed": 1,
+      "g2": 1,
+      "hx2": 405,
+      "hy2": 15,
+      "ed2": 1
+    },
+    "PIKE": {
+      "s": 0,
+      "t": 0,
+      "b": 130,
+      "hd": 104,
+      "g": 1,
+      "hx": 320,
+      "hy": 15,
+      "ed": 1,
+      "g2": 1,
+      "hx2": 320,
+      "hy2": 15,
+      "ed2": 1
+    },
+    "TOE": {
+      "s": 0,
+      "t": 0,
+      "b": 132,
+      "hd": 108,
+      "g": 1,
+      "hx": 55,
+      "hy": 10,
+      "ed": 1,
+      "g2": 1,
+      "hx2": 255,
+      "hy2": 10,
+      "ed2": 1
+    },
+    "TOE_B": {
+      "s": 0,
+      "t": 0,
+      "b": 132,
+      "hd": 108,
+      "g": 1,
+      "hx": 255,
+      "hy": 10,
+      "ed": 1,
+      "g2": 1,
+      "hx2": 55,
+      "hy2": 10,
+      "ed2": 1
+    },
+    "SAG_BAD": {
+      "hip": [
+        167,
+        -110
+      ],
+      "ankle": [
+        -300,
+        -62
+      ],
+      "ft": 55,
+      "b": 49,
+      "hd": 70,
+      "g": 1,
+      "hx": 405,
+      "hy": 15,
+      "ed": 1,
+      "g2": 1,
+      "hx2": 405,
+      "hy2": 15,
+      "ed2": 1
+    }
+  },
+  "pronuncia": {
+    "plank": "plank"
+  },
+  "revisado": false,
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "PLANK TO OPPOSITE",
+        "TOE TOUCH"
+      ],
+      "vo": "Plank to Opposite Toe Touch: de plancha a pike tocando el pie contrario. Core y coordinación.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "PLANK",
+              0.7
+            ],
+            [
+              "PIKE",
+              0.6
+            ],
+            [
+              "TOE",
+              0.6
+            ],
+            [
+              "PIKE",
+              0.5
+            ],
+            [
+              "PLANK",
+              0.7
+            ],
+            [
+              "PIKE",
+              0.6
+            ],
+            [
+              "TOE_B",
+              0.6
+            ],
+            [
+              "PIKE",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PLANCHA",
+        "ALTA"
+      ],
+      "sub": "Manos bajo los hombros",
+      "vo": "Plancha alta con las manos bajo los hombros, el cuerpo en línea recta y el abdomen firme.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "CADERA",
+        "ARRIBA"
+      ],
+      "sub": "Hacia el techo",
+      "vo": "Paso uno. Llevá la cadera hacia arriba y atrás, en forma de pike, con los brazos estirados.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        },
+        {
+          "to": "PIKE",
+          "at": 0.7,
+          "dur": 1.1
+        }
+      ],
+      "numeral": "1"
+    },
+    {
+      "min": 5.8,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "TOCÁ EL PIE",
+        "CONTRARIO"
+      ],
+      "sub": "Mano contraria",
+      "vo": "Paso dos. Llevá una mano al pie contrario sin bajar la cadera y volvé a la plancha.",
+      "moves": [
+        {
+          "cut": "PIKE",
+          "at": 0
+        },
+        {
+          "to": "TOE",
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "to": "PIKE",
+          "at": 2.0,
+          "dur": 0.7
+        },
+        {
+          "to": "PLANK",
+          "at": 3.0,
+          "dur": 0.9
+        }
+      ],
+      "numeral": "2"
+    },
+    {
+      "min": 6.0,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Cadera que cae",
+      "vo": "Paso tres. Si al volver la cadera se hunde, el abdomen se apagó. Alterná de lado en cada repetición.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        },
+        {
+          "to": "SAG_BAD",
+          "at": 0.7,
+          "dur": 0.8
+        },
+        {
+          "to": "PLANK",
+          "at": 2.6,
+          "dur": 0.8
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            900,
+            1100
+          ],
+          "text": "CADERA CAÍDA",
+          "anchor": "end",
+          "at": 1.5,
+          "out": 2.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Cadera arriba en el pike",
+        "Mano al pie contrario",
+        "Cadera sin hundirse",
+        "Alterná los lados"
+      ],
+      "vo": "Claves: cadera arriba en el pike, mano al pie contrario, cadera que no se hunde en la plancha y lados alternados.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "PLANK",
+              0.7
+            ],
+            [
+              "PIKE",
+              0.6
+            ],
+            [
+              "TOE",
+              0.6
+            ],
+            [
+              "PIKE",
+              0.5
+            ],
+            [
+              "PLANK",
+              0.7
+            ],
+            [
+              "PIKE",
+              0.6
+            ],
+            [
+              "TOE_B",
+              0.6
+            ],
+            [
+              "PIKE",
+              0.5
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ],
+      "shrink": 0.8
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "40 SEGUNDOS"
+      ],
+      "sub": "Alterná los lados",
+      "chips": [
+        {
+          "label": "1 · PIKE",
+          "at": 0.6
+        },
+        {
+          "label": "2 · TOCÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · PLANCHA",
+          "at": 1.6
+        }
+      ],
+      "vo": "Cuarenta segundos alternando los lados. Controlá la bajada a la plancha.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "PLANK",
+              0.7
+            ],
+            [
+              "PIKE",
+              0.6
+            ],
+            [
+              "TOE",
+              0.6
+            ],
+            [
+              "PIKE",
+              0.5
+            ],
+            [
+              "PLANK",
+              0.7
+            ],
+            [
+              "PIKE",
+              0.6
+            ],
+            [
+              "TOE_B",
+              0.6
+            ],
+            [
+              "PIKE",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "nombreEnVoz": "Plank to opposite toe touch",
+  "miniatura": {
+    "pose": "TOE",
+    "grip": 1,
+    "zoom": 1.1,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Plank to Opposite Toe Touch 🔥 core y coordinación paso a paso | CrossFit",
+    "descripcion": "🔥 PLANK TO OPPOSITE TOE TOUCH — plancha y pike con toque cruzado\n\nIr de la plancha al pike tocando el pie contrario exige core, hombros y coordinación juntos. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Plancha alta con las manos bajo los hombros y el cuerpo en línea recta.\n2️⃣ Subí la cadera en forma de pike con los brazos estirados.\n3️⃣ Tocá el pie contrario con una mano sin bajar la cadera.\n4️⃣ Volvé a la plancha y alterná el lado en cada repetición.\n\n✅ CLAVES DE TÉCNICA\n• Cadera arriba en el pike\n• Mano al pie contrario\n• Core activo, la cadera no se hunde\n• Movimiento controlado, alternando los lados\n\n🎯 QUÉ TRABAJA\nRecto abdominal · Deltoides anterior · Glúteo mayor\n\n⏱️ CUÁNTO\n40 segundos alternando los lados. Ideal en la entrada en calor o como activación de core.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Core #PlankToOppositeToeTouch #Plancha #Entrenamiento",
+    "tags": [
+      "plank to opposite toe touch",
+      "plancha toque de pie",
+      "plancha pike",
+      "core",
+      "abdomen",
+      "crossfit",
+      "activacion",
+      "entrada en calor",
+      "crossbody plank toe touch"
+    ]
+  }
+}

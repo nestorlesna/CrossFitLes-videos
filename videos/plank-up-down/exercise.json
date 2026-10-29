@@ -1,0 +1,308 @@
+{
+  "slug": "plank-up-down",
+  "name": "Plank Up-Down",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Core",
+    "Hombros",
+    "Tríceps"
+  ],
+  "descripcion": "Desde plancha alta, descender a plancha baja sobre los antebrazos y volver a subir, manteniendo las caderas estables. Alternar el brazo que lidera.",
+  "notas": "Piernas rectas con ankle fijo [-300,-62] y cadera calculada (b = 70 / 76.7 / 83.3); el antebrazo apoya con ua -14 / fa 90 bajo el hombro.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 460,
+    "y": 1504,
+    "scale": 0.8
+  },
+  "props": [],
+  "initialPose": "PLANK",
+  "poses": {
+    "PLANK": {
+      "hip": [
+        141.6,
+        -222.8
+      ],
+      "ankle": [
+        -300,
+        -62
+      ],
+      "ft": 55,
+      "b": 70,
+      "hd": 74,
+      "g": 1,
+      "hx": 405,
+      "hy": 15,
+      "ed": 1,
+      "g2": 1,
+      "hx2": 405,
+      "hy2": 15,
+      "ed2": 1
+    },
+    "FOREARM": {
+      "hip": [
+        166.8,
+        -116.8
+      ],
+      "ankle": [
+        -300,
+        -62
+      ],
+      "ft": 55,
+      "b": 83.3,
+      "hd": 87.3,
+      "g": 0,
+      "ua": -14,
+      "fa": 104,
+      "g2": 0,
+      "ua2": -14,
+      "fa2": 104
+    },
+    "SAG_BAD": {
+      "hip": [
+        170,
+        -60
+      ],
+      "ankle": [
+        -300,
+        -62
+      ],
+      "ft": 55,
+      "b": 71.5,
+      "hd": 75.5,
+      "g": 0,
+      "ua": -11,
+      "fa": 101,
+      "g2": 0,
+      "ua2": -11,
+      "fa2": 101
+    }
+  },
+  "pronuncia": {
+    "plank": "plank"
+  },
+  "revisado": false,
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "PLANK",
+        "UP-DOWN"
+      ],
+      "vo": "Plank Up-Down: de plancha alta a plancha baja, de a un brazo. Core y hombros trabajando juntos.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "PLANK",
+              0.8
+            ],
+            [
+              "FOREARM",
+              0.9
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PLANCHA",
+        "ALTA"
+      ],
+      "sub": "Manos bajo los hombros",
+      "vo": "Plancha alta con las manos bajo los hombros, el cuerpo en línea recta y el abdomen firme.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ UN",
+        "ANTEBRAZO"
+      ],
+      "sub": "Un brazo a la vez",
+      "vo": "Paso uno. Bajá un brazo a la vez hasta apoyar el antebrazo, y después el otro.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        },
+        {
+          "to": "FOREARM",
+          "at": 0.7,
+          "dur": 1.4
+        }
+      ],
+      "numeral": "1"
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "VOLVÉ",
+        "ARRIBA"
+      ],
+      "sub": "Empujá con las manos",
+      "vo": "Paso dos. Volvé a la plancha alta empujando una mano a la vez. Alterná qué brazo arranca.",
+      "moves": [
+        {
+          "cut": "FOREARM",
+          "at": 0
+        },
+        {
+          "to": "PLANK",
+          "at": 0.7,
+          "dur": 1.4
+        }
+      ],
+      "numeral": "2"
+    },
+    {
+      "min": 6.0,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Cadera que se hunde",
+      "vo": "Paso tres. Si la cadera se hunde o se hamaca, el abdomen dejó de trabajar. Mantenela quieta.",
+      "moves": [
+        {
+          "cut": "FOREARM",
+          "at": 0
+        },
+        {
+          "to": "SAG_BAD",
+          "at": 0.7,
+          "dur": 0.8
+        },
+        {
+          "to": "FOREARM",
+          "at": 2.6,
+          "dur": 0.8
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            900,
+            1100
+          ],
+          "text": "CADERA CAÍDA",
+          "anchor": "end",
+          "at": 1.5,
+          "out": 2.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Cadera quieta, sin rotar",
+        "Core siempre activo",
+        "Un brazo a la vez",
+        "Alterná el brazo que arranca"
+      ],
+      "vo": "Claves: cadera quieta y sin rotar, core siempre activo, un brazo a la vez y alterná el que arranca.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "PLANK",
+              0.8
+            ],
+            [
+              "FOREARM",
+              0.9
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ],
+      "shrink": 0.8
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "12 REPS"
+      ],
+      "sub": "Alterná el brazo",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · BAJÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SUBÍ",
+          "at": 1.6
+        }
+      ],
+      "vo": "Doce repeticiones. Alterná el brazo que arranca en cada una y mantené la cadera estable.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "PLANK",
+              0.8
+            ],
+            [
+              "FOREARM",
+              0.9
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "nombreEnVoz": "Plank up down",
+  "miniatura": {
+    "pose": "FOREARM",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Plank Up-Down 🔥 plancha alta y baja paso a paso | CrossFit",
+    "descripcion": "🔥 PLANK UP-DOWN — plancha alta y baja para core y hombros\n\nSubir y bajar de la plancha sin que la cadera baile parece fácil hasta que lo probás. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Plancha alta con las manos bajo los hombros y el cuerpo en línea recta.\n2️⃣ Bajá un brazo a la vez hasta apoyar los antebrazos.\n3️⃣ Volvé a la plancha alta empujando una mano a la vez.\n4️⃣ Alterná el brazo que arranca en cada repetición.\n\n✅ CLAVES DE TÉCNICA\n• Cadera estable, sin rotar\n• Core siempre activo\n• Un brazo a la vez\n• Alterná el brazo de inicio\n\n🎯 QUÉ TRABAJA\nRecto abdominal · Deltoides anterior · Pectoral mayor · Tríceps braquial\n\n⏱️ CUÁNTO\n12 repeticiones alternando el brazo. Ideal en la entrada en calor o dentro del WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Core #PlankUpDown #Plancha #Entrenamiento",
+    "tags": [
+      "plank up down",
+      "plancha arriba abajo",
+      "plancha alta y baja",
+      "core",
+      "abdomen",
+      "hombros",
+      "triceps",
+      "crossfit",
+      "activacion",
+      "wod"
+    ]
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "slug": "lateral-raise-to-overhead",
+  "name": "Lateral Raise to Overhead",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Hombros",
+    "Deltoides",
+    "Trapecio"
+  ],
+  "descripcion": "De pie con discos muy livianos, elevar los brazos lateralmente hasta la horizontal y continuar el arco hasta overhead. Bajar por el mismo camino.",
+  "notas": "Los brazos van al frente en el perfil (al 1) y la tarjeta 'vista de frente' (topview front, plates) muestra la apertura lateral.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 520,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "props": [
+    {
+      "type": "plate",
+      "hand": "near",
+      "off": [
+        0,
+        -12
+      ],
+      "r": 40
+    },
+    {
+      "type": "plate",
+      "hand": "far",
+      "off": [
+        0,
+        -12
+      ],
+      "r": 40
+    }
+  ],
+  "initialPose": "DOWN",
+  "poses": {
+    "DOWN": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 4,
+      "ua2": 2,
+      "fa2": 2
+    },
+    "SIDE": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 0,
+      "ua2": 88,
+      "fa2": 0
+    },
+    "OH": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 176,
+      "fa": 0,
+      "ua2": 174,
+      "fa2": 0
+    },
+    "ARCH_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": -12,
+      "hd": -4,
+      "cv": -18,
+      "g": 0,
+      "ua": 176,
+      "fa": 0,
+      "ua2": 174,
+      "fa2": 0
+    }
+  },
+  "pronuncia": {},
+  "revisado": false,
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "LATERAL RAISE",
+        "TO OVERHEAD"
+      ],
+      "vo": "Lateral Raise to Overhead: elevación lateral que sigue hasta arriba de la cabeza. Activa los hombros.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "DOWN",
+              0.6
+            ],
+            [
+              "SIDE",
+              0.9
+            ],
+            [
+              "OH",
+              0.9
+            ],
+            [
+              "SIDE",
+              0.8
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ],
+      "topview": {
+        "mode": "front",
+        "plates": true,
+        "label": "VISTA DE FRENTE"
+      }
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DISCOS",
+        "LIVIANOS"
+      ],
+      "sub": "Brazos al costado",
+      "vo": "Parate derecho con un disco liviano en cada mano, de dos kilos y medio, y los brazos relajados al costado del cuerpo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "topview": {
+        "mode": "front",
+        "plates": true,
+        "label": "VISTA DE FRENTE"
+      }
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "ELEVÁ A",
+        "LOS COSTADOS"
+      ],
+      "sub": "Hasta la altura del hombro",
+      "vo": "Paso uno. Subí los brazos hacia los costados hasta la altura de los hombros, sin encogerlos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "SIDE",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "numeral": "1",
+      "topview": {
+        "mode": "front",
+        "plates": true,
+        "label": "VISTA DE FRENTE"
+      }
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "SEGUÍ",
+        "ARRIBA"
+      ],
+      "sub": "Un solo arco",
+      "vo": "Paso dos. Sin frenar, seguí el arco hasta tener los brazos estirados arriba de la cabeza.",
+      "moves": [
+        {
+          "cut": "SIDE",
+          "at": 0
+        },
+        {
+          "to": "OH",
+          "at": 0.5,
+          "dur": 1.2
+        }
+      ],
+      "numeral": "2",
+      "topview": {
+        "mode": "front",
+        "plates": true,
+        "label": "VISTA DE FRENTE"
+      }
+    },
+    {
+      "min": 6.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ POR",
+        "EL MISMO ARCO"
+      ],
+      "sub": "Fluido y sin pausa",
+      "vo": "Paso tres. Bajá por el mismo camino, fluido y sin pausas, con el abdomen firme. Sin arquear la espalda.",
+      "moves": [
+        {
+          "cut": "OH",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "OH",
+          "at": 2.0,
+          "dur": 0.6
+        },
+        {
+          "to": "SIDE",
+          "at": 3.0,
+          "dur": 1.0
+        },
+        {
+          "to": "DOWN",
+          "at": 4.1,
+          "dur": 0.9
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1000
+          ],
+          "text": "ASÍ NO: ARQUEÁS",
+          "anchor": "end",
+          "at": 0.9,
+          "out": 2.0
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Peso muy liviano",
+        "Movimiento continuo, sin pausa",
+        "Abdomen firme",
+        "Sin encoger los hombros"
+      ],
+      "vo": "Claves: peso muy liviano, movimiento continuo y fluido, abdomen firme y los hombros lejos de las orejas.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "DOWN",
+              0.6
+            ],
+            [
+              "SIDE",
+              0.9
+            ],
+            [
+              "OH",
+              0.9
+            ],
+            [
+              "SIDE",
+              0.8
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ],
+      "shrink": 0.8
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Con 2,5 kg",
+      "chips": [
+        {
+          "label": "1 · LATERAL",
+          "at": 0.6
+        },
+        {
+          "label": "2 · ARRIBA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "vo": "Diez repeticiones con discos de dos kilos y medio. Antes de arrancadas o cualquier trabajo de hombros.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "DOWN",
+              0.6
+            ],
+            [
+              "SIDE",
+              0.9
+            ],
+            [
+              "OH",
+              0.9
+            ],
+            [
+              "SIDE",
+              0.8
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "nombreEnVoz": "Lateral raise to overhead",
+  "miniatura": {
+    "pose": "SIDE",
+    "grip": 0,
+    "zoom": 1.2,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Lateral Raise to Overhead 🔥 hombros activados paso a paso | CrossFit",
+    "descripcion": "🔥 LATERAL RAISE TO OVERHEAD — hombros listos para empujar\n\nAntes de cargar cualquier cosa arriba de la cabeza, los hombros tienen que estar despiertos. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate derecho con un disco liviano en cada mano.\n2️⃣ Subí los brazos a los costados hasta la altura de los hombros.\n3️⃣ Seguí el arco hasta estirar los brazos arriba de la cabeza.\n4️⃣ Bajá por el mismo camino, fluido y sin pausas.\n\n✅ CLAVES DE TÉCNICA\n• Pesos muy livianos\n• Movimiento continuo y fluido, sin pausa\n• Core activo, sin arquear la espalda\n• No te encojas de hombros\n\n🎯 QUÉ TRABAJA\nDeltoides anterior · Deltoides medio · Trapecio superior\n\n⏱️ CUÁNTO\n10 repeticiones con discos de 2,5 kg. Ideal en la entrada en calor antes de arrancadas y trabajos overhead.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Activacion #LateralRaiseToOverhead #Hombros #Entrenamiento",
+    "tags": [
+      "lateral raise to overhead",
+      "elevacion lateral",
+      "elevacion lateral hasta arriba",
+      "hombros",
+      "deltoides",
+      "crossfit",
+      "activacion",
+      "entrada en calor",
+      "disco"
+    ]
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "slug": "heel-elevated-goblet-squat",
+  "name": "Heel-Elevated Goblet Squat",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Cuádriceps",
+    "Glúteos",
+    "Movilidad"
+  ],
+  "descripcion": "Sentadilla goblet con los talones elevados sobre una cuña o discos. La elevación permite más profundidad manteniendo el torso erguido.",
+  "notas": "Cuña = prop box bajo todo el pie (h 30), tobillo en [0,-30]; la mancuerna va en goblet (dumbbell side).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "props": [
+    {
+      "type": "box",
+      "x0": -70,
+      "x1": 150,
+      "h": 30
+    },
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "side": true,
+      "r": 42
+    }
+  ],
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "hip": [
+        0,
+        -500
+      ],
+      "ankle": [
+        0,
+        -30
+      ],
+      "ft": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 12,
+      "fa": 142,
+      "ua2": 8,
+      "fa2": 146
+    },
+    "HALF": {
+      "hip": [
+        -80,
+        -375
+      ],
+      "ankle": [
+        0,
+        -30
+      ],
+      "ft": 0,
+      "b": 20,
+      "hd": 10,
+      "g": 0,
+      "ua": -6,
+      "fa": 142,
+      "ua2": -10,
+      "fa2": 146
+    },
+    "BOTTOM": {
+      "hip": [
+        -145,
+        -225
+      ],
+      "ankle": [
+        0,
+        -30
+      ],
+      "ft": 0,
+      "b": 34,
+      "hd": 22,
+      "g": 0,
+      "ua": -22,
+      "fa": 142,
+      "ua2": -26,
+      "fa2": 146
+    },
+    "FWD_BAD": {
+      "hip": [
+        -120,
+        -245
+      ],
+      "ankle": [
+        0,
+        -30
+      ],
+      "ft": 0,
+      "b": 62,
+      "hd": 46,
+      "g": 0,
+      "ua": -18,
+      "fa": 142,
+      "ua2": -22,
+      "fa2": 146
+    }
+  },
+  "pronuncia": {
+    "goblet": "góblet"
+  },
+  "revisado": false,
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "HEEL-ELEVATED",
+        "GOBLET SQUAT"
+      ],
+      "vo": "Heel-Elevated Goblet Squat: sentadilla con talones elevados. Más profundidad con el torso erguido.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "STAND",
+              0.7
+            ],
+            [
+              "HALF",
+              0.6
+            ],
+            [
+              "BOTTOM",
+              0.9
+            ],
+            [
+              "HALF",
+              0.6
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "TALONES",
+        "ELEVADOS"
+      ],
+      "sub": "Sobre la cuña",
+      "vo": "Parate con los talones y la planta sobre la cuña y sostené la mancuerna contra el pecho, con los codos hacia abajo.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            440,
+            1500
+          ],
+          "text": "CUÑA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ",
+        "ERGUIDO"
+      ],
+      "sub": "Rodillas hacia afuera",
+      "vo": "Paso uno. Bajá abriendo las rodillas hacia afuera, con el torso lo más erguido posible.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.7,
+          "dur": 1.0
+        }
+      ],
+      "numeral": "1"
+    },
+    {
+      "min": 6.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "CADERA",
+        "BAJO RODILLAS"
+      ],
+      "sub": "Codos adentro",
+      "vo": "Paso dos. Seguí hasta que la cadera pase la línea de las rodillas y los codos queden por dentro. Si el torso cae, no es esto.",
+      "moves": [
+        {
+          "cut": "HALF",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.6,
+          "dur": 1.0
+        },
+        {
+          "to": "FWD_BAD",
+          "at": 3.0,
+          "dur": 0.7
+        },
+        {
+          "to": "BOTTOM",
+          "at": 4.3,
+          "dur": 0.7
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1000
+          ],
+          "text": "TORSO ERGUIDO",
+          "anchor": "end",
+          "at": 1.8,
+          "out": 3.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1000
+          ],
+          "text": "ASÍ NO: SE VUELCA",
+          "anchor": "end",
+          "at": 3.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "SUBÍ",
+        "EMPUJANDO"
+      ],
+      "sub": "Planta apoyada",
+      "vo": "Paso tres. Subí empujando el piso con toda la planta apoyada y sin despegar los talones de la cuña.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "to": "STAND",
+          "at": 1.7,
+          "dur": 0.9
+        }
+      ],
+      "numeral": "3"
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Torso erguido",
+        "Codos dentro de las rodillas",
+        "Cadera bajo las rodillas",
+        "Talones en la cuña"
+      ],
+      "vo": "Claves: torso erguido, codos dentro de las rodillas, cadera por debajo de ellas y los talones siempre apoyados en la cuña.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "STAND",
+              0.7
+            ],
+            [
+              "HALF",
+              0.6
+            ],
+            [
+              "BOTTOM",
+              0.9
+            ],
+            [
+              "HALF",
+              0.6
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Con 15 kilos",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · FONDO",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SUBÍ",
+          "at": 1.6
+        }
+      ],
+      "vo": "Diez repeticiones con una mancuerna de quince kilos. Bajá controlado y subí con fuerza.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "STAND",
+              0.7
+            ],
+            [
+              "HALF",
+              0.6
+            ],
+            [
+              "BOTTOM",
+              0.9
+            ],
+            [
+              "HALF",
+              0.6
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "nombreEnVoz": "Heel elevated goblet squat",
+  "miniatura": {
+    "pose": "BOTTOM",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Heel-Elevated Goblet Squat 🔥 sentadilla con talones elevados paso a paso | CrossFit",
+    "descripcion": "🔥 HEEL-ELEVATED GOBLET SQUAT — sentadilla goblet con talones elevados\n\nSi no te sale bajar sin que se te caiga el pecho o se te levanten los talones, apoyarte sobre una cuña te cambia la sentadilla. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate con talones y planta sobre la cuña y la mancuerna contra el pecho.\n2️⃣ Bajá abriendo las rodillas, con el torso lo más erguido posible.\n3️⃣ Llegá con la cadera por debajo de las rodillas y los codos adentro.\n4️⃣ Subí empujando el piso con toda la planta apoyada.\n\n✅ CLAVES DE TÉCNICA\n• Torso erguido todo el recorrido\n• Codos dentro de las rodillas en el fondo\n• Cadera bajo la línea de las rodillas\n• Talones y planta apoyados en la cuña, sin volcarte al frente\n\n🎯 QUÉ TRABAJA\nRecto femoral · Vasto lateral · Vasto medial · Glúteo mayor · Erectores espinales\n\n⏱️ CUÁNTO\n10 repeticiones con una mancuerna de 15 kg. Ideal en la entrada en calor o como accesorio de piernas.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste sentadillas con carga, empezá sin peso y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Activacion #HeelElevatedGobletSquat #Piernas #Entrenamiento",
+    "tags": [
+      "heel elevated goblet squat",
+      "sentadilla goblet",
+      "sentadilla talones elevados",
+      "sentadilla con mancuerna",
+      "crossfit",
+      "activacion",
+      "cuadriceps",
+      "gluteos",
+      "movilidad de tobillo",
+      "entrada en calor"
+    ]
+  }
+}

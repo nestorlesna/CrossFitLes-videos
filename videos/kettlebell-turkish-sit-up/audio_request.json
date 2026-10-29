@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Kettlebell Turkish sit up",
+      "text": "Sentarte con la kételbel arriba. Abdomen y hombro estable."
+    },
+    {
+      "id": "02",
+      "text": "Acostado boca arriba, rodillas dobladas y pies apoyados. La kételbel va estirada hacia el techo con el brazo bloqueado."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Mirando la kételbel, empezá a subir el torso con el abdomen, sin empujar con la mano libre."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Seguí hasta sentarte con el torso erguido y el brazo vertical y bloqueado. Si se dobla, la kételbel se te viene."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Bajá con control, apoyando de a poco la espalda, hasta volver a acostarte."
+    },
+    {
+      "id": "06",
+      "text": "Claves: brazo vertical y bloqueado, mirada en la kételbel, pies apoyados y nada de empujar con la mano libre."
+    },
+    {
+      "id": "07",
+      "text": "Doce repeticiones. Hacé las repeticiones de un lado y después cambiá de brazo."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

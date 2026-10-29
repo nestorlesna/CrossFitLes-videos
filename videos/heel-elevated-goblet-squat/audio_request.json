@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Heel elevated goblet squat",
+      "text": "Sentadilla con talones elevados. Más profundidad con el torso erguido."
+    },
+    {
+      "id": "02",
+      "text": "Parate con los talones y la planta sobre la cuña y sostené la mancuerna contra el pecho, con los codos hacia abajo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá abriendo las rodillas hacia afuera, con el torso lo más erguido posible."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Seguí hasta que la cadera pase la línea de las rodillas y los codos queden por dentro. Si el torso cae, no es esto."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Subí empujando el piso con toda la planta apoyada y sin despegar los talones de la cuña."
+    },
+    {
+      "id": "06",
+      "text": "Claves: torso erguido, codos dentro de las rodillas, cadera por debajo de ellas y los talones siempre apoyados en la cuña."
+    },
+    {
+      "id": "07",
+      "text": "Diez repeticiones con una mancuerna de quince kilos. Bajá controlado y subí con fuerza."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

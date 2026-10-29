@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Plank to opposite toe touch",
+      "text": "De plancha a pike tocando el pie contrario. Core y coordinación."
+    },
+    {
+      "id": "02",
+      "text": "Plancha alta con las manos bajo los hombros, el cuerpo en línea recta y el abdomen firme."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Llevá la cadera hacia arriba y atrás, en forma de pike, con los brazos estirados."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Llevá una mano al pie contrario sin bajar la cadera y volvé a la plancha."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si al volver la cadera se hunde, el abdomen se apagó. Alterná de lado en cada repetición."
+    },
+    {
+      "id": "06",
+      "text": "Claves: cadera arriba en el pike, mano al pie contrario, cadera que no se hunde en la plancha y lados alternados."
+    },
+    {
+      "id": "07",
+      "text": "Cuarenta segundos alternando los lados. Controlá la bajada a la plancha."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

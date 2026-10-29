@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lateral raise to overhead",
+      "text": "Elevación lateral que sigue hasta arriba de la cabeza. Activa los hombros."
+    },
+    {
+      "id": "02",
+      "text": "Parate derecho con un disco liviano en cada mano, de dos kilos y medio, y los brazos relajados al costado del cuerpo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Subí los brazos hacia los costados hasta la altura de los hombros, sin encogerlos."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Sin frenar, seguí el arco hasta tener los brazos estirados arriba de la cabeza."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Bajá por el mismo camino, fluido y sin pausas, con el abdomen firme. Sin arquear la espalda."
+    },
+    {
+      "id": "06",
+      "text": "Claves: peso muy liviano, movimiento continuo y fluido, abdomen firme y los hombros lejos de las orejas."
+    },
+    {
+      "id": "07",
+      "text": "Diez repeticiones con discos de dos kilos y medio. Antes de arrancadas o cualquier trabajo de hombros."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}
