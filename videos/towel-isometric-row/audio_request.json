@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Towel Isometric Row",
+      "text": "Con una toalla en los pies, tirás como un remo sin que ceda. Espalda y brazos, sin pesas."
+    },
+    {
+      "id": "02",
+      "text": "Sentate con las piernas extendidas, pasá la toalla por las plantas y tomá las puntas."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Sentate alto, con la espalda derecha y el pecho orgulloso. No te encorves."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Tirá de la toalla al setenta u ochenta por ciento, llevando los codos atrás y juntando los omóplatos."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Sostené la tensión respirando corto y seguido. Nunca aguantes el aire."
+    },
+    {
+      "id": "06",
+      "text": "Claves: espalda derecha, codos atrás, toalla tirante y respiración corta."
+    },
+    {
+      "id": "07",
+      "text": "Treinta segundos sostenidos, tres rondas. Trabajá al setenta u ochenta por ciento, no al máximo."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

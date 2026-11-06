@@ -1,0 +1,307 @@
+{
+  "slug": "y-raises",
+  "name": "Y-Raises",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Espalda baja",
+    "Glúteos",
+    "Core"
+  ],
+  "descripcion": "Boca abajo con los brazos en forma de Y arriba de la cabeza, elevar los brazos unos centímetros y bajar con control, sin levantar el pecho.",
+  "revisado": false,
+  "notas": "Elevación de brazos en Y en prono; trabajo de espalda alta y escápula.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 490,
+    "y": 1500,
+    "scale": 0.84
+  },
+  "initialPose": "DOWN",
+  "poses": {
+    "DOWN": {
+      "hip": [
+        -30,
+        -8
+      ],
+      "s": 90,
+      "t": 90,
+      "ft": 175,
+      "ft2": 175,
+      "b": 92,
+      "hd": 100,
+      "g": 0,
+      "ua": 150,
+      "fa": 0,
+      "ua2": 150,
+      "fa2": 0
+    },
+    "UP": {
+      "hip": [
+        -30,
+        -8
+      ],
+      "s": 90,
+      "t": 90,
+      "ft": 175,
+      "ft2": 175,
+      "b": 80,
+      "hd": 96,
+      "g": 0,
+      "ua": 168,
+      "fa": 0,
+      "ua2": 168,
+      "fa2": 0
+    },
+    "SHRUG_BAD": {
+      "hip": [
+        -30,
+        -8
+      ],
+      "s": 90,
+      "t": 90,
+      "ft": 175,
+      "ft2": 175,
+      "b": 68,
+      "hd": 84,
+      "g": 0,
+      "ua": 150,
+      "fa": 0,
+      "ua2": 150,
+      "fa2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ESPALDA",
+      "head": [
+        "Y",
+        "RAISES"
+      ],
+      "vo": "Y-Raises: boca abajo, brazos en Y y elevación corta. Espalda alta y escápulas.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "DOWN",
+              0.8
+            ],
+            [
+              "UP",
+              0.8
+            ],
+            [
+              "DOWN",
+              0.8
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BOCA",
+        "ABAJO"
+      ],
+      "sub": "Brazos en Y",
+      "vo": "Acostate boca abajo con los brazos extendidos arriba de la cabeza, formando una Y con el cuerpo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "ELEVÁ",
+        "LOS BRAZOS"
+      ],
+      "sub": "Poco recorrido",
+      "vo": "Paso uno. Elevá los brazos unos centímetros, como si quisieras tocar el techo con las manos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.7,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "POCOS CM",
+          "anchor": "middle",
+          "at": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "APRETÁ",
+        "ESCÁPULAS"
+      ],
+      "sub": "Hombros lejos",
+      "vo": "Paso dos. Apretá las escápulas y mantené los hombros lejos de las orejas.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            900
+          ],
+          "text": "ESCÁPULAS",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "ASÍ NO",
+      "head": [
+        "LEVANTAR",
+        "EL PECHO"
+      ],
+      "sub": "No es un superman",
+      "vo": "Así no. Si levantás el pecho y la cabeza, el movimiento se va a la lumbar. Dejá el pecho abajo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "SHRUG_BAD",
+          "at": 0.8,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1000
+          ],
+          "text": "PECHO ABAJO",
+          "anchor": "middle",
+          "at": 0.9
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Brazos en Y",
+        "Elevación corta",
+        "Escápulas apretadas",
+        "Pecho abajo"
+      ],
+      "vo": "Claves: brazos en Y, elevación corta, escápulas apretadas y pecho abajo.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "12 REPS"
+      ],
+      "sub": "Pausa arriba",
+      "vo": "Doce repeticiones con pausa arriba. Subí, apretá las escápulas y bajá controlando.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "UP",
+              0.8
+            ],
+            [
+              "DOWN",
+              0.9
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "grip": 0,
+    "zoom": 1.0,
+    "dy": 250
+  },
+  "youtube": {
+    "titulo": "Y-Raises 🔥 Espalda alta y escápulas boca abajo | CrossFit",
+    "tags": [
+      "y raises",
+      "y-raises",
+      "espalda alta",
+      "escapulas",
+      "prono",
+      "hombros",
+      "postura",
+      "crossfit",
+      "movilidad",
+      "fuerza"
+    ],
+    "descripcion": "🔥 Y-RAISES — elevación de brazos en Y boca abajo\n\nSi pasás el día con los hombros adelante, los Y-raises te devuelven la espalda alta. Poco recorrido, mucha calidad. 💪\n\n📋 PASO A PASO\n1️⃣ Acostate boca abajo con los brazos extendidos arriba de la cabeza, en Y.\n2️⃣ Elevá los brazos unos centímetros.\n3️⃣ Apretá las escápulas y mantené los hombros lejos de las orejas.\n4️⃣ Bajá con control sin levantar el pecho.\n5️⃣ Repetí con pausa arriba.\n\n✅ CLAVES DE TÉCNICA\n• Brazos en Y\n• Elevación corta\n• Escápulas apretadas\n• Pecho abajo\n• Sin arquear la lumbar\n\n🎯 QUÉ TRABAJA\nEspalda alta · Trapecio inferior · Romboides · Deltoides posterior\n\n⏱️ CUÁNTO\n12 repeticiones con pausa arriba. Tres series.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi no sentís la espalda alta, bajá el rango y pensá en llevar los omóplatos al bolsillo de atrás.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #YRaises #EspaldaAlta #Escapulas #Postura"
+  },
+  "pronuncia": {
+    "Superman Hold": "Súperman jold",
+    "superman": "súperman"
+  }
+}

@@ -989,7 +989,7 @@
       const [bx, by] = pr.bar || [0, -1170], px = pr.postX ?? bx - 430;
       el("rect", { x: px - 24, y: by - 30, width: 48, height: 34 - by + 30, fill: METAL_D }, propBack); // upright
       el("rect", { x: px - 50, y: 22, width: 100, height: 14, rx: 7, fill: METAL_D }, propBack);
-      el("rect", { x: px, y: by - 13, width: bx - px, height: 26, fill: METAL }, propBack); // beam
+      el("rect", { x: Math.min(px, bx), y: by - 13, width: Math.abs(bx - px), height: 26, fill: METAL }, propBack); // beam
       el("circle", { cx: bx, cy: by, r: 22, fill: METAL_D }, propFront); // bar end-on, over the hands
       el("circle", { cx: bx, cy: by, r: 10, fill: "#8A8F99" }, propFront);
     }
@@ -1101,6 +1101,8 @@
       // Banda elástica: de un ancla fija a la mano cercana (hand "near") o a las dos ("both"). post: parante del rack
       // (x, h) detrás del atleta; layer "mid" = la banda pasa por delante del torso (rotación externa: cruza el cuerpo).
       const an = pr.anchor || [330, -1300], col = pr.color || "#3FA34D", both = pr.hand === "both", bw = pr.w ?? 13;
+      // hand "ankle": la banda se ata al tobillo cercano (patadas de glúteo, dorsiflexión).
+      const toAnkle = pr.hand === "ankle";
       if (pr.post) {
         const [px, ph] = pr.post;
         const g = el("g", { class: "prop-scenery" }, propStatic); // se atenúa en la escena de claves (la lista lo cruza)
@@ -1109,10 +1111,14 @@
       }
       const farB = both ? el("line", { stroke: col, "stroke-width": bw - 2, "stroke-linecap": "round" }, propBack) : null;
       const nearB = el("line", { stroke: col, "stroke-width": bw, "stroke-linecap": "round" }, pr.layer === "back" ? propBack : propMid);
+      const cuff = toAnkle ? el("circle", { r: bw * 1.1, fill: "none", stroke: col, "stroke-width": bw * 0.7 }, propMid) : null;
       if (pr.ring !== false) el("circle", { cx: an[0], cy: an[1], r: 14, fill: METAL }, propBack);
       propUpdates.push((n, f) => {
         const a = { x: an[0], y: an[1] };
-        setL(nearB, a, n.W);
+        if (toAnkle) {
+          setL(nearB, a, n.A);
+          cuff.setAttribute("cx", f2(n.A.x)); cuff.setAttribute("cy", f2(n.A.y));
+        } else setL(nearB, a, n.W);
         if (farB) setL(farB, { x: a.x + FAR.dx, y: a.y + FAR.dy }, f.W);
       });
     }
@@ -1177,6 +1183,72 @@
       for (let y = top + 30; y < bot - 20; y += 58)
         el("line", { x1: rx0 - w / 2 + 1, y1: y, x2: rx0 + w / 2 - 1, y2: y + 22, stroke: "#AD8646", "stroke-width": 5, "stroke-linecap": "round" }, g);
       el("rect", { x: rx0 - w * 0.9, y: bot - 24, width: w * 1.8, height: 24, rx: 6, fill: "#AD8646" }, g);
+    }
+    if (pr.type === "sandbag") {
+      // Sandbag (saco de arena) de costado: rectángulo redondeado w×h con costuras. En las manos (+off) o fijo al tronco
+      // (torso [fx, dy] desde el hombro, gira con el torso); blend: bf 1 = en el tronco, 0 = en las manos. Con hand "far" va atrás.
+      const w = pr.w || 230, h = pr.h || 120, off = pr.off || [0, 0], far = pr.hand === "far";
+      const g = el("g", {}, far ? propBack : propMid);
+      el("rect", { x: -w / 2, y: -h / 2, width: w, height: h, rx: h * 0.42, fill: "#6B5B3E" }, g);
+      el("rect", { x: -w / 2 + 8, y: -h / 2 + 8, width: w - 16, height: h * 0.32, rx: h * 0.16, fill: "#8B7852" }, g);
+      el("line", { x1: -w * 0.12, y1: -h / 2 + 6, x2: -w * 0.12, y2: h / 2 - 6, stroke: "#4B3F2A", "stroke-width": 5, "stroke-linecap": "round" }, g);
+      el("line", { x1: w * 0.18, y1: -h / 2 + 6, x2: w * 0.18, y2: h / 2 - 6, stroke: "#4B3F2A", "stroke-width": 5, "stroke-linecap": "round" }, g);
+      el("rect", { x: -w * 0.34, y: -h * 0.18, width: w * 0.2, height: h * 0.36, rx: 6, fill: ACCENT }, g);
+      propUpdates.push((n, f, st) => {
+        const j = far ? f : n;
+        let c = { x: j.W.x + off[0], y: j.W.y + off[1] }, a = pr.rot || 0;
+        if (pr.static) { c = { x: pr.x ?? 300, y: pr.y ?? 34 - h / 2 }; a = 0; }
+        else if (pr.torso) {
+          const b = rad(st.b), [fx, dy] = pr.torso;
+          const t = { x: j.S.x + Math.cos(b) * fx - Math.sin(b) * dy, y: j.S.y + Math.sin(b) * fx + Math.cos(b) * dy };
+          const k = pr.blend ? (st.bf || 0) : 1;
+          c = lerp(c, t, k); a = lerp({ x: a, y: 0 }, { x: st.b + (pr.rot || 0), y: 0 }, k).x;
+        }
+        g.setAttribute("transform", `translate(${f2(c.x)},${f2(c.y)}) rotate(${f2(a)})`);
+      });
+    }
+    if (pr.type === "rings") {
+      // Anillas: dos correas desde una viga (ancla en `anchor`, visto de punta como la barra de dominadas) hasta cada mano;
+      // la anilla se dibuja en la mano (con agarre g 1). strap: largo máximo no se limita (siguen la mano).
+      const [ax, ay] = pr.anchor || [0, -1500], px = pr.postX ?? ax - 430;
+      const sc = el("g", { class: "prop-scenery" }, propBack);
+      el("rect", { x: px - 24, y: ay - 30, width: 48, height: 34 - ay + 30, fill: METAL_D }, sc);
+      el("rect", { x: px - 50, y: 22, width: 100, height: 14, rx: 7, fill: METAL_D }, sc);
+      el("rect", { x: Math.min(px, ax), y: ay - 13, width: Math.abs(ax - px), height: 26, fill: METAL }, sc);
+      el("circle", { cx: ax, cy: ay, r: 20, fill: METAL_D }, propFront);
+      const sF = el("line", { stroke: "#D8C9A3", "stroke-width": 10 }, propBack), sN = el("line", { stroke: "#E8DBB8", "stroke-width": 12 }, propMid);
+      const rF = el("circle", { r: 30, fill: "none", stroke: "#2B2B2B", "stroke-width": 9 }, propBack), rN = el("circle", { r: 32, fill: "none", stroke: "#1A1A1A", "stroke-width": 10 }, propFront);
+      propUpdates.push((n, f) => {
+        const fa = { x: ax + FAR.dx * 0.5, y: ay + FAR.dy * 0.5 };
+        const sl = (ln, a, w) => { ln.setAttribute("x1", f2(a.x)); ln.setAttribute("y1", f2(a.y)); ln.setAttribute("x2", f2(w.x)); ln.setAttribute("y2", f2(w.y - 4)); };
+        sl(sN, { x: ax, y: ay }, n.W); sl(sF, fa, f.W);
+        rN.setAttribute("cx", f2(n.W.x)); rN.setAttribute("cy", f2(n.W.y - 4)); rF.setAttribute("cx", f2(f.W.x)); rF.setAttribute("cy", f2(f.W.y - 4));
+      });
+    }
+    if (pr.type === "parallettes") {
+      // Paralelas / barras de fondos vistas de punta: poste desde el piso hasta la barra en (x, y) (rig px); la barra lejana va detrás.
+      // Se dibujan en el piso (y = 34) con base; la barra cercana por encima de la mano.
+      const bx = pr.x ?? 0, by = pr.y ?? -260;
+      const sc = el("g", { class: "prop-scenery" }, propBack);
+      el("rect", { x: bx - 12, y: by, width: 24, height: 34 - by, fill: METAL_D }, sc);
+      el("rect", { x: bx - 90, y: 22, width: 180, height: 14, rx: 7, fill: METAL_D }, sc);
+      el("circle", { cx: bx + FAR.dx * 0.6, cy: by + FAR.dy * 0.6, r: 20, fill: METAL }, propBack);
+      el("circle", { cx: bx, cy: by, r: 22, fill: METAL_D }, propFront);
+      el("circle", { cx: bx, cy: by, r: 10, fill: "#8A8F99" }, propFront);
+    }
+    if (pr.type === "ghd") {
+      // GHD (glute-ham developer) de costado: base con patas, columna hasta el almohadón de cadera en `pad` [x, y] (centro) y
+      // plataforma de pies con rodillos en `foot` [x, y]. El atleta apoya la cadera sobre el almohadón y los tobillos bajo los rodillos.
+      const [px, py] = pr.pad || [0, -300], [fx, fy] = pr.foot || [-420, -190];
+      const g = el("g", { class: "prop-scenery" }, propStatic);
+      el("rect", { x: Math.min(fx, px) - 140, y: 22, width: Math.abs(px - fx) + 280, height: 14, rx: 7, fill: METAL_D }, g);
+      el("line", { x1: px, y1: 28, x2: px, y2: py + 40, stroke: METAL, "stroke-width": 40, "stroke-linecap": "round" }, g);
+      el("line", { x1: fx, y1: 28, x2: fx, y2: fy + 40, stroke: METAL, "stroke-width": 34, "stroke-linecap": "round" }, g);
+      el("rect", { x: px - 60, y: py - 40, width: 150, height: 80, rx: 36, fill: PAD }, g);
+      el("rect", { x: px - 40, y: py - 34, width: 110, height: 16, rx: 8, fill: PAD_L }, g);
+      el("rect", { x: fx - 70, y: fy - 4, width: 140, height: 22, rx: 8, fill: METAL_D }, g);
+      el("circle", { cx: fx + 10, cy: fy - 46, r: 30, fill: PAD }, g);
+      el("circle", { cx: fx + 10, cy: fy - 46, r: 12, fill: PAD_L }, g);
     }
     if (pr.type === "wallball") {
       const off = pr.off || [0, 0], r = pr.r || 62, wx = pr.wallX ?? 520, ty = pr.target ?? -1300;

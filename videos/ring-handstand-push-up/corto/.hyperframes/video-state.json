@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "cf267645-0784-4cd8-abc5-b59bc018a3e8",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "443f0829bf0e606c65b1e04d2444e44cc67edb491befc24f4c73ab60696cb58d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\cf267645-0784-4cd8-abc5-b59bc018a3e8\\blobs\\44\\443f0829bf0e606c65b1e04d2444e44cc67edb491befc24f4c73ab60696cb58d"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\cf267645-0784-4cd8-abc5-b59bc018a3e8\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "08e5cd699eba87bcc3e200202d97b58de13be306a677b2ef93833126ff7595f1",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\cf267645-0784-4cd8-abc5-b59bc018a3e8\\blobs\\08\\08e5cd699eba87bcc3e200202d97b58de13be306a677b2ef93833126ff7595f1"
+    },
+    "meta.json": {
+      "hash": "551267771e4f1163f2ba715960c5d0882cf4ec1920014b44811d3c603d4cbfe8",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\cf267645-0784-4cd8-abc5-b59bc018a3e8\\blobs\\55\\551267771e4f1163f2ba715960c5d0882cf4ec1920014b44811d3c603d4cbfe8"
+    },
+    "package.json": {
+      "hash": "ea2bb0b12d255f637eba41c2129a3b83ad2a9cb2d30493593d47e6c1682a633b",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\cf267645-0784-4cd8-abc5-b59bc018a3e8\\blobs\\ea\\ea2bb0b12d255f637eba41c2129a3b83ad2a9cb2d30493593d47e6c1682a633b"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "042cc987-22c3-4de6-b26e-d2262de610c9",
+      "completedAt": 1793878552765,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\ring-handstand-push-up\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Band Hammer Curl to Triceps Kickback",
+      "text": "Un combo de bíceps y tríceps con la misma banda pisada."
+    },
+    {
+      "id": "02",
+      "text": "Pisá la banda con los dos pies firmes y agarrá una punta con cada mano, con las palmas enfrentadas."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Subí las dos manos en paralelo hasta los hombros, sin despegar los codos del costado."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá con control hasta estirar el brazo del todo, sin dejar que la banda te gane."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Inclinate con la espalda recta y llevá los codos atrás, pegados al torso."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Extendé los antebrazos hacia atrás con el codo quieto y volvé sin soltar la tensión."
+    },
+    {
+      "id": "07",
+      "text": "Claves: codos pegados en el curl, espalda recta al inclinarte, codo trabado en la patada y bajada controlada."
+    },
+    {
+      "id": "08",
+      "text": "Doce repeticiones, tres series. Curl, bajada, patada y de vuelta."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

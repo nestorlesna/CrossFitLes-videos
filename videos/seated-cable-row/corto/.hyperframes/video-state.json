@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "9b2865ee-0beb-43ea-a6e4-be3bb6a9c69e",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "0c87bd0d12702d140c61ad33b594c5791d5de1e0df87268a512abeea8efcc584",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\9b2865ee-0beb-43ea-a6e4-be3bb6a9c69e\\blobs\\0c\\0c87bd0d12702d140c61ad33b594c5791d5de1e0df87268a512abeea8efcc584"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\9b2865ee-0beb-43ea-a6e4-be3bb6a9c69e\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "04c090b5a2542bfba1fc3723a9ea9a28aad5517addf643953f1d6c63652acd6b",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\9b2865ee-0beb-43ea-a6e4-be3bb6a9c69e\\blobs\\04\\04c090b5a2542bfba1fc3723a9ea9a28aad5517addf643953f1d6c63652acd6b"
+    },
+    "meta.json": {
+      "hash": "1088fcab1b93e1b246b2820f45c4d58ac4b92ba7b0c163c66e78003cdf2e8fe2",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\9b2865ee-0beb-43ea-a6e4-be3bb6a9c69e\\blobs\\10\\1088fcab1b93e1b246b2820f45c4d58ac4b92ba7b0c163c66e78003cdf2e8fe2"
+    },
+    "package.json": {
+      "hash": "c58e37db8cb3f337d095ea74150da3c2781a25704601a9e3b03e853c75ce3292",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\9b2865ee-0beb-43ea-a6e4-be3bb6a9c69e\\blobs\\c5\\c58e37db8cb3f337d095ea74150da3c2781a25704601a9e3b03e853c75ce3292"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "ca5324a2-0abb-48e3-9202-4ec49f205649",
+      "completedAt": 1793880376849,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\seated-cable-row\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Er scuat: la sentadilla con peso corporal. La base de todo lo que hacés en el box."
+      "en": "Air Squat",
+      "text": "La sentadilla con peso corporal. La base de todo lo que hacés en el box."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

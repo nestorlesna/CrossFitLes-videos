@@ -1,0 +1,390 @@
+{
+  "name": "Split Squat Calf Raise",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Gemelos",
+    "Glúteos",
+    "Equilibrio"
+  ],
+  "descripcion": "En posición de split squat (una pierna adelante, una atrás), elevar ambos talones del piso quedándose en puntillas, mantener brevemente y bajar. Trabaja pantorrillas y estabilidad en posición unilateral.",
+  "notas": "Talones arriba con ft positivo (la puntera queda en la línea del piso). La pierna de atrás sale de isometric-split-squat-hold.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 440,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "initialPose": "SPLIT",
+  "poses": {
+    "SPLIT": {
+      "s": 1.95,
+      "t": -82.31,
+      "b": 2,
+      "hd": 0,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": -2,
+      "fa2": 0,
+      "hip": [
+        60,
+        -262
+      ],
+      "ft": 0,
+      "s2": 89.94,
+      "t2": 10.81,
+      "ft2": 48
+    },
+    "MID": {
+      "s": 1.95,
+      "t": -82.31,
+      "b": 2,
+      "hd": 0,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": -2,
+      "fa2": 0,
+      "hip": [
+        60,
+        -284
+      ],
+      "ft": 16,
+      "s2": 86,
+      "t2": 10.81,
+      "ft2": 50
+    },
+    "UP": {
+      "s": 1.95,
+      "t": -82.31,
+      "b": 2,
+      "hd": 0,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": -2,
+      "fa2": 0,
+      "hip": [
+        60,
+        -307
+      ],
+      "ft": 32,
+      "s2": 80,
+      "t2": 10.81,
+      "ft2": 56
+    },
+    "HALF_BAD": {
+      "s": 1.95,
+      "t": -82.31,
+      "b": 4,
+      "hd": 2,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": -2,
+      "fa2": 0,
+      "hip": [
+        60,
+        -276
+      ],
+      "ft": 10,
+      "s2": 88,
+      "t2": 10.81,
+      "ft2": 49
+    }
+  },
+  "slug": "split-squat-calf-raise",
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "SPLIT SQUAT",
+        "CALF RAISE"
+      ],
+      "vo": "Split Squat Calf Raise: en zancada, subí los dos talones y quedate en puntillas.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "UP",
+              0.8
+            ],
+            [
+              "SPLIT",
+              0.8
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ZANCADA",
+        "FIRME"
+      ],
+      "sub": "Un pie adelante, uno atrás",
+      "vo": "Una pierna adelante y otra atrás, torso erguido y el peso repartido en los dos pies.",
+      "moves": [
+        {
+          "cut": "SPLIT",
+          "at": 0
+        }
+      ],
+      "overlays": []
+    },
+    {
+      "min": 5.2,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SUBÍ",
+        "LOS TALONES"
+      ],
+      "sub": "En puntillas",
+      "vo": "Paso uno. Empujá con la punta de los pies y subí los dos talones lo más alto posible.",
+      "moves": [
+        {
+          "cut": "SPLIT",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.7,
+          "dur": 0.5
+        },
+        {
+          "to": "UP",
+          "at": 1.2,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            760,
+            1480
+          ],
+          "to": [
+            760,
+            1350
+          ],
+          "at": 1.2,
+          "dur": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            120,
+            900
+          ],
+          "text": "TALÓN BIEN ARRIBA",
+          "anchor": "start",
+          "at": 1.7
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "MANTENÉ",
+        "UN SEGUNDO"
+      ],
+      "sub": "Torso erguido",
+      "vo": "Paso dos. Mantené un segundo arriba, con el torso erguido y sin perder el equilibrio.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            120,
+            900
+          ],
+          "text": "TORSO ERGUIDO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "LENTO"
+      ],
+      "sub": "Y repetí",
+      "vo": "Paso tres. Bajá lento hasta apoyar los talones y repetí sin mover los pies.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.8,
+          "dur": 0.8
+        },
+        {
+          "to": "SPLIT",
+          "at": 1.7,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "ASÍ NO",
+      "head": [
+        "MEDIA",
+        "ALTURA"
+      ],
+      "sub": "O rebotar",
+      "vo": "Así no: si subís a medias o rebotás, el gemelo no trabaja el rango completo.",
+      "moves": [
+        {
+          "cut": "HALF_BAD",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 1.8,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            120,
+            900
+          ],
+          "text": "SUBIDA COMPLETA",
+          "anchor": "start",
+          "at": 0.8,
+          "out": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            120,
+            900
+          ],
+          "text": "TALÓN ARRIBA",
+          "anchor": "start",
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Torso erguido",
+        "Talones bien altos",
+        "Subida máxima",
+        "Bajada controlada"
+      ],
+      "vo": "Claves: torso erguido, talones bien altos, subida máxima y bajada controlada.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "12 REPS"
+      ],
+      "sub": "Y cambiá de pierna",
+      "vo": "Doce repeticiones y cambiá de pierna. Sin descanso entre lados.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · ARRIBA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "SPLIT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "MID",
+              0.35
+            ],
+            [
+              "UP",
+              0.5
+            ],
+            [
+              "MID",
+              0.4
+            ],
+            [
+              "SPLIT",
+              0.5
+            ]
+          ],
+          "at": 0.8,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "grip": 0,
+    "zoom": 1.05,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Split Squat Calf Raise 🔥 Gemelos en zancada paso a paso | CrossFit",
+    "tags": [
+      "split squat calf raise",
+      "gemelos en zancada",
+      "elevación de talones",
+      "gemelos",
+      "pantorrilla",
+      "tobillo",
+      "equilibrio",
+      "entrada en calor",
+      "crossfit",
+      "unilateral"
+    ],
+    "descripcion": "🔥 SPLIT SQUAT CALF RAISE — gemelos y estabilidad en zancada\n\n¿Corrés, saltás y sentís que el tobillo no responde? El gemelo en zancada suma fuerza unilateral y equilibrio. Ideal para meter en la entrada en calor. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Una pierna adelante y otra atrás, torso erguido y el peso repartido en los dos pies.\n2️⃣ Empujá con la punta de los pies y subí los dos talones lo más alto posible.\n3️⃣ Mantené un segundo arriba, con el torso erguido y sin perder el equilibrio.\n4️⃣ Bajá lento hasta apoyar los talones y repetí sin mover los pies.\n\n✅ CLAVES DE TÉCNICA\n• Torso erguido y core firme para el equilibrio\n• Elevación máxima del talón\n• Movimiento controlado, sin rebotes\n• Rodillas alineadas con los pies\n• Cambiá de pierna al terminar las repeticiones\n\n🎯 QUÉ TRABAJA\nGastrocnemio (gemelos) · Glúteo mayor · Recto femoral · Recto abdominal\n\n⏱️ CUÁNTO\n12 repeticiones y cambiá de pierna. Va en la entrada en calor o como activación antes del WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés molestias en el tendón de Aquiles, empezá sin rango máximo y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #Gemelos #Tobillo #Entrenamiento"
+  }
+}

@@ -1,0 +1,461 @@
+{
+  "slug": "dumbbell-front-rack-lunge",
+  "name": "Dumbbell Front Rack Lunge",
+  "category": "CROSSFIT — FUERZA",
+  "tags": [
+    "Piernas",
+    "Glúteos",
+    "Mancuernas"
+  ],
+  "descripcion": "Zancadas alternadas con las dos mancuernas apoyadas en los hombros, codos adelante y tronco erguido, bajando hasta rozar el piso con la rodilla trasera.",
+  "revisado": false,
+  "notas": "Front rack con dos dumbbells (near/far, side, r 40, off [0,18]) y brazos ua 50/fa 118. Alterna LUNGE_N y LUNGE_F con STAND en el medio; el error baja los codos (ua 24/fa 150).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 440,
+    "y": 1501,
+    "scale": 0.86
+  },
+  "pronuncia": {
+    "Dumbbell Front Rack Lunge": "dámbel front rac lanch",
+    "Front Rack Lunge": "front rac lanch"
+  },
+  "initialPose": "STAND",
+  "props": [
+    {
+      "type": "dumbbell",
+      "hand": "far",
+      "side": true,
+      "r": 40,
+      "off": [
+        0,
+        18
+      ]
+    },
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "side": true,
+      "r": 40,
+      "off": [
+        0,
+        18
+      ]
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "ua": 50,
+      "fa": 118,
+      "ua2": 53,
+      "fa2": 114,
+      "ed": 1,
+      "hd": 0,
+      "s": 0,
+      "t": 0,
+      "s2": 0,
+      "t2": 0,
+      "b": 0,
+      "ft": 0,
+      "ft2": 0
+    },
+    "LUNGE_N": {
+      "ua": 50,
+      "fa": 118,
+      "ua2": 53,
+      "fa2": 114,
+      "ed": 1,
+      "hd": 0,
+      "s": 1.95,
+      "t": -82.31,
+      "s2": 89.94,
+      "t2": 10.81,
+      "rx": 290,
+      "ry": 0,
+      "ft": 0,
+      "ft2": 48,
+      "b": 2
+    },
+    "LUNGE_F": {
+      "ua": 50,
+      "fa": 118,
+      "ua2": 53,
+      "fa2": 114,
+      "ed": 1,
+      "hd": 0,
+      "s": 89.94,
+      "t": 10.81,
+      "s2": 1.95,
+      "t2": -82.31,
+      "rx": -215,
+      "ry": -26,
+      "ft": 48,
+      "ft2": 0,
+      "b": 2
+    },
+    "LEAN_BAD": {
+      "ua": 50,
+      "fa": 118,
+      "ua2": 53,
+      "fa2": 114,
+      "ed": 1,
+      "hd": 22,
+      "s": 1.95,
+      "t": -82.31,
+      "s2": 89.94,
+      "t2": 10.81,
+      "rx": 290,
+      "ry": 0,
+      "ft": 0,
+      "ft2": 48,
+      "b": 30
+    },
+    "ELBOWS_BAD": {
+      "ua": 24,
+      "fa": 150,
+      "ua2": 28,
+      "fa2": 146,
+      "ed": 1,
+      "hd": 0,
+      "s": 1.95,
+      "t": -82.31,
+      "s2": 89.94,
+      "t2": 10.81,
+      "rx": 290,
+      "ry": 0,
+      "ft": 0,
+      "ft2": 48,
+      "b": 2
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "badge": "CROSSFIT — FUERZA",
+      "head": [
+        "FRONT RACK",
+        "LUNGE"
+      ],
+      "vo": "Dumbbell Front Rack Lunge: mancuernas apoyadas en los hombros y zancadas alternadas. Core y hombros trabajando de estabilidad.",
+      "min": 4.8,
+      "moves": [
+        {
+          "seq": [
+            [
+              "LUNGE_N",
+              0.9
+            ],
+            [
+              "STAND",
+              0.8
+            ],
+            [
+              "LUNGE_F",
+              0.9
+            ],
+            [
+              "STAND",
+              0.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "RACK",
+        "FRONTAL"
+      ],
+      "sub": "Mancuernas en los hombros",
+      "vo": "De pie, con las dos mancuernas apoyadas en los hombros y los codos bien adelante y arriba.",
+      "min": 5.4,
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "STAND.S",
+            "dx": 34,
+            "dy": 54
+          },
+          "r": 44,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            356,
+            806
+          ],
+          "text": "EN LOS HOMBROS",
+          "anchor": "end",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "badge": "PASO 1 / 3",
+      "head": [
+        "PASO",
+        "LARGO"
+      ],
+      "sub": "Pie adelante",
+      "numeral": "1",
+      "vo": "Paso uno. Da un paso largo hacia adelante, con el talón apoyado y la rodilla alineada con el pie.",
+      "min": 5.6,
+      "moves": [
+        {
+          "to": "LUNGE_N",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "TALÓN APOYADO",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "badge": "PASO 2 / 3",
+      "head": [
+        "BAJÁ",
+        "LA RODILLA"
+      ],
+      "sub": "Casi al piso",
+      "numeral": "2",
+      "vo": "Paso dos. Bajá derecho hasta que la rodilla de atrás casi toque el piso, sin perder el rack.",
+      "min": 5.8,
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "LUNGE_N",
+          "at": 0.5,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            425,
+            1462
+          ],
+          "r": 42,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "SIN PERDER EL RACK",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "badge": "PASO 3 / 3",
+      "head": [
+        "EMPUJÁ",
+        "Y CAMBIÁ"
+      ],
+      "sub": "Alternando piernas",
+      "numeral": "3",
+      "vo": "Paso tres. Empujá con el talón, volvé arriba y pasá a la otra pierna manteniendo los codos altos.",
+      "min": 5.8,
+      "moves": [
+        {
+          "cut": "LUNGE_N",
+          "at": 0
+        },
+        {
+          "to": "STAND",
+          "at": 0.6,
+          "dur": 0.8
+        },
+        {
+          "to": "LUNGE_F",
+          "at": 1.7,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "CODOS SIEMPRE ALTOS",
+          "anchor": "middle",
+          "at": 0.9
+        }
+      ]
+    },
+    {
+      "badge": "ERROR TÍPICO",
+      "head": [
+        "ASÍ NO:",
+        "CODOS ABAJO"
+      ],
+      "sub": "El rack se cae",
+      "bad": true,
+      "vo": "Así no. Si los codos caen, las mancuernas se despegan del hombro y el core pierde el control.",
+      "min": 5.8,
+      "moves": [
+        {
+          "cut": "LUNGE_N",
+          "at": 0
+        },
+        {
+          "to": "ELBOWS_BAD",
+          "at": 0.7,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "EL RACK SE DESARMA",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "vo": "Claves: mancuernas pegadas al hombro, codos altos y adelante, tronco erguido y rodilla trasera que roza el piso.",
+      "min": 8.0,
+      "moves": [
+        {
+          "seq": [
+            [
+              "LUNGE_N",
+              0.9
+            ],
+            [
+              "STAND",
+              0.8
+            ],
+            [
+              "LUNGE_F",
+              0.9
+            ],
+            [
+              "STAND",
+              0.8
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ],
+      "keys": [
+        "Codos altos y adelante",
+        "Mancuernas en el hombro",
+        "Tronco erguido",
+        "Rodilla trasera al piso"
+      ]
+    },
+    {
+      "kind": "reps",
+      "badge": "A ENTRENAR",
+      "head": [
+        "24 REPS"
+      ],
+      "sub": "12 por pierna",
+      "vo": "Veinticuatro repeticiones alternadas con veintidós kilos. Si el rack se desarma, bajá el peso.",
+      "min": 6.6,
+      "moves": [
+        {
+          "seq": [
+            [
+              "LUNGE_N",
+              0.9
+            ],
+            [
+              "STAND",
+              0.8
+            ],
+            [
+              "LUNGE_F",
+              0.9
+            ],
+            [
+              "STAND",
+              0.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ],
+      "chips": [
+        {
+          "label": "1 · PASO",
+          "at": 0.6
+        },
+        {
+          "label": "2 · BAJÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · CAMBIÁ",
+          "at": 1.6
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "LUNGE_N",
+    "grip": 0,
+    "zoom": 1.05,
+    "dy": 180
+  },
+  "youtube": {
+    "titulo": "Dumbbell Front Rack Lunge 🔥 zancadas con mancuernas al hombro | CrossFit",
+    "descripcion": "🔥 DUMBBELL FRONT RACK LUNGE — zancadas con las mancuernas en el hombro\n\nLas mancuernas apoyadas en el hombro obligan a todo el torso a trabajar para no perder el rack. Piernas, glúteos y core en un solo movimiento. 💪\n\n📋 PASO A PASO\n1️⃣ De pie, con las dos mancuernas apoyadas en los hombros y los codos adelante.\n2️⃣ Da un paso largo hacia adelante, con el talón apoyado.\n3️⃣ Bajá derecho hasta que la rodilla de atrás casi toque el piso.\n4️⃣ Empujá con el talón y volvé arriba.\n5️⃣ Pasá a la otra pierna y seguí alternando.\n\n✅ CLAVES DE TÉCNICA\n• Mancuernas pegadas al hombro y codos altos\n• Tronco erguido, sin inclinarte hacia adelante\n• Rodilla delantera alineada con el pie\n• La rodilla de atrás roza suave el piso\n• Si el rack se desarma, bajá el peso\n\n🎯 QUÉ TRABAJA\nGlúteo mayor · Recto femoral · Vasto lateral · Bíceps femoral · Recto abdominal · Vasto medial\n\n⏱️ CUÁNTO\n24 repeticiones alternadas con 22 kg. Ideal como accesorio de piernas o dentro del WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Fuerza #FrontRackLunge #Zancadas #Mancuernas",
+    "tags": [
+      "dumbbell front rack lunge",
+      "front rack lunge",
+      "zancadas con mancuernas",
+      "estocadas con mancuernas",
+      "front rack",
+      "piernas y glúteos",
+      "crossfit",
+      "wod",
+      "tecnica de zancada",
+      "core estabilidad"
+    ]
+  }
+}

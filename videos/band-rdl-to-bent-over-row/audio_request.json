@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Band RDL to Bent Over Row",
+      "text": "Bajá bisagrando la cadera, remá abajo y volvé a subir."
+    },
+    {
+      "id": "02",
+      "text": "Pisá la banda con los dos pies al ancho de la cadera y agarrá una punta con cada mano."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá bisagrando la cadera, con la espalda neutra y las rodillas apenas flexionadas."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Ahí abajo remá: llevá los codos atrás juntando las escápulas."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Estirá los brazos y subí extendiendo la cadera, con el glúteo apretado arriba."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Si la espalda se redondea, la bisagra se va a la lumbar."
+    },
+    {
+      "id": "07",
+      "text": "Claves: espalda neutra, remo con las escápulas, rodillas apenas flexionadas y glúteo apretado arriba."
+    },
+    {
+      "id": "08",
+      "text": "Veinte segundos seguidos: bajá, remá, subí y repetí sin soltar la banda."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

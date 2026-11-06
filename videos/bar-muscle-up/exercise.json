@@ -1,0 +1,415 @@
+{
+  "slug": "bar-muscle-up",
+  "name": "Bar Muscle-Up",
+  "category": "CROSSFIT · HABILIDAD",
+  "tags": [
+    "Espalda",
+    "Pecho",
+    "Tríceps"
+  ],
+  "descripcion": "Muscle-up en barra fija: dominada explosiva con transición a fondos sobre la barra. Requiere coordinación y fuerza gimnástica.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1500,
+    "scale": 0.55
+  },
+  "pronuncia": {
+    "Bar Muscle-Up": "Bar mósol ap"
+  },
+  "initialPose": "HANG",
+  "props": [
+    {
+      "type": "pullupbar",
+      "bar": [
+        0,
+        -1170
+      ],
+      "postX": -430
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "HANG": {
+      "hip": [
+        0,
+        -562
+      ],
+      "b": 0,
+      "t": 0,
+      "s": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40
+    },
+    "KIP": {
+      "hip": [
+        60,
+        -566
+      ],
+      "b": -14,
+      "t": -20,
+      "s": -14,
+      "hd": -8,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40
+    },
+    "ARCH": {
+      "hip": [
+        -50,
+        -570
+      ],
+      "b": 16,
+      "t": 24,
+      "s": 30,
+      "hd": 12,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40
+    },
+    "PULL": {
+      "hip": [
+        90,
+        -800
+      ],
+      "b": -10,
+      "t": -10,
+      "s": 0,
+      "hd": -4,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": -1,
+      "ft": 40
+    },
+    "TRANS": {
+      "hip": [
+        60,
+        -960
+      ],
+      "b": 4,
+      "t": -6,
+      "s": 6,
+      "hd": 6,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": -1,
+      "ft": 40
+    },
+    "TOP": {
+      "hip": [
+        20,
+        -1060
+      ],
+      "b": 4,
+      "t": 0,
+      "s": 0,
+      "hd": 2,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": -1,
+      "ft": 40
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · HABILIDAD",
+      "head": [
+        "BAR",
+        "MUSCLE-UP"
+      ],
+      "vo": "Bar Muscle-Up: pasar de dominada a fondo sobre la barra. El gran movimiento de gimnasia.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "KIP",
+              0.4
+            ],
+            [
+              "ARCH",
+              0.4
+            ],
+            [
+              "PULL",
+              0.5
+            ],
+            [
+              "TRANS",
+              0.4
+            ],
+            [
+              "TOP",
+              0.5
+            ],
+            [
+              "HANG",
+              0.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "COLGADO DE",
+        "LA BARRA"
+      ],
+      "sub": "Agarre firme, cuerpo hueco",
+      "vo": "Colgate de la barra con un agarre firme y el cuerpo en posición de hollow, con las piernas juntas.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "KIPPING",
+        "FUERTE"
+      ],
+      "sub": "Hollow y arco",
+      "vo": "Paso uno. Generá un kipping fuerte, pasando de hollow a arco para ganar impulso.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "KIP",
+          "at": 0.4,
+          "dur": 0.5
+        },
+        {
+          "to": "ARCH",
+          "at": 1,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "EMPUJÁ LA",
+        "BARRA A LA CADERA"
+      ],
+      "sub": "Tirá explosivo",
+      "vo": "Paso dos. Tirá explosivo empujando la barra hacia la cadera, para que el pecho suba sobre la barra.",
+      "moves": [
+        {
+          "cut": "ARCH",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.6,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            260,
+            800
+          ],
+          "text": "BARRA A LA CADERA",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "PECHO SOBRE",
+        "LA BARRA"
+      ],
+      "sub": "Transición rápida",
+      "vo": "Paso tres. Llevá el pecho por encima de la barra y pasá los codos hacia arriba en la transición.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "TRANS",
+          "at": 0.6,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "FONDO Y",
+        "BLOQUEÁ"
+      ],
+      "sub": "Brazos extendidos",
+      "vo": "Paso cuatro. Terminá con un fondo sobre la barra hasta bloquear los brazos arriba.",
+      "moves": [
+        {
+          "cut": "TRANS",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.6,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            260,
+            800
+          ],
+          "text": "BLOQUEÁ ARRIBA",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Kipping fuerte",
+        "Barra hacia la cadera",
+        "Pecho sobre la barra",
+        "Fondo con brazos bloqueados"
+      ],
+      "vo": "Claves: kipping fuerte, barra hacia la cadera, pecho por encima de la barra y fondo con los brazos bloqueados.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "9 REPS"
+      ],
+      "sub": "Si podés, en series cortas",
+      "vo": "Nueve repeticiones, en series cortas si hace falta. Calidad en cada una.",
+      "chips": [
+        {
+          "label": "1 · KIPPING",
+          "at": 0.6
+        },
+        {
+          "label": "2 · TIRÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · FONDO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "KIP",
+              0.4
+            ],
+            [
+              "ARCH",
+              0.4
+            ],
+            [
+              "PULL",
+              0.5
+            ],
+            [
+              "TRANS",
+              0.4
+            ],
+            [
+              "TOP",
+              0.5
+            ],
+            [
+              "HANG",
+              0.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "TRANS",
+    "grip": 1,
+    "zoom": 1,
+    "dy": 160
+  },
+  "youtube": {
+    "titulo": "Bar Muscle-Up 🔥 gimnasia avanzada paso a paso | CrossFit",
+    "descripcion": "🔥 BAR MUSCLE-UP — gimnasia avanzada: tracción y empuje en una sola repetición.\n\nSi ya hacés dominadas pecho a la barra y fondos sólidos, este es tu próximo objetivo. 💪\n\n📋 PASO A PASO\n1️⃣ Colgate de la barra con un agarre firme y el cuerpo en posición de hollow, con las piernas juntas.\n2️⃣ Generá un kipping fuerte, pasando de hollow a arco para ganar impulso.\n3️⃣ Tirá explosivo empujando la barra hacia la cadera, para que el pecho suba sobre la barra.\n4️⃣ Llevá el pecho por encima de la barra y pasá los codos hacia arriba en la transición.\n5️⃣ Terminá con un fondo sobre la barra hasta bloquear los brazos arriba.\n\n✅ CLAVES DE TÉCNICA\n• Kipping fuerte\n• Empujar la barra hacia la cadera para subir\n• Llevar el pecho por encima de la barra\n• Terminar con un fondo, brazos bloqueados\n\n🎯 QUÉ TRABAJA\nBíceps braquial · Dorsal ancho · Pectoral mayor · Tríceps braquial · Deltoides anterior · Recto abdominal · Trapecio inferior\n\n⏱️ CUÁNTO\n9 repeticiones (en series cortas si hace falta), como habilidad o dentro de un WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nRequiere dominadas pecho a la barra y fondos sólidos: practicalo con un coach al lado y con progresiones.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\r\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Habilidad #BarMuscleUp #Gimnasia #Entrenamiento",
+    "tags": [
+      "bar muscle up",
+      "muscle up en barra",
+      "muscle-up",
+      "gimnasia",
+      "crossfit",
+      "barra fija",
+      "dominadas",
+      "habilidad",
+      "calistenia",
+      "tracción"
+    ]
+  }
+}

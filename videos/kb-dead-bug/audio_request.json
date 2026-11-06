@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "KB Dead Bug",
+      "text": "Core estable con una kettlebell arriba. La lumbar no se despega del piso."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba con las rodillas y las caderas a noventa grados."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Sostené la kettlebell con un brazo extendido arriba y no la muevas."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Extendé la pierna contraria sin que la lumbar se despegue del piso."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Volvé y cambiá de pierna, manteniendo la kettlebell quieta arriba."
+    },
+    {
+      "id": "06",
+      "text": "Claves: lumbar pegada, extendé sin arquear, kettlebell estable y respirá controlando el ritmo."
+    },
+    {
+      "id": "07",
+      "text": "Treinta segundos alternando piernas con veinte kilos. Si la lumbar se despega, frená."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

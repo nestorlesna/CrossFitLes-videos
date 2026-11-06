@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "6abf52cf-b942-4cb1-9e6d-33ecef3b4e9f",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "2f5c5707835ff5ee136f2a87da31dbaeebc298b0114b510067570c2d11c80cca",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\6abf52cf-b942-4cb1-9e6d-33ecef3b4e9f\\blobs\\2f\\2f5c5707835ff5ee136f2a87da31dbaeebc298b0114b510067570c2d11c80cca"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\6abf52cf-b942-4cb1-9e6d-33ecef3b4e9f\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "019169d842abb6d397369582ce594a09adfca77744934354111f516e101360dd",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\6abf52cf-b942-4cb1-9e6d-33ecef3b4e9f\\blobs\\01\\019169d842abb6d397369582ce594a09adfca77744934354111f516e101360dd"
+    },
+    "meta.json": {
+      "hash": "af3dc4e573ab4faa8d1aea06eb5c7b1d75f83b31c1e899e62d49fd30c79141c8",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\6abf52cf-b942-4cb1-9e6d-33ecef3b4e9f\\blobs\\af\\af3dc4e573ab4faa8d1aea06eb5c7b1d75f83b31c1e899e62d49fd30c79141c8"
+    },
+    "package.json": {
+      "hash": "999e9dc821a01fe2cb782b8bfa1fa6513d1bf6a8f6c39908b20858c89e24a834",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\6abf52cf-b942-4cb1-9e6d-33ecef3b4e9f\\blobs\\99\\999e9dc821a01fe2cb782b8bfa1fa6513d1bf6a8f6c39908b20858c89e24a834"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "d9375aea-5f8e-4821-9657-60999913721b",
+      "completedAt": 1793879622605,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\pike-walk\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

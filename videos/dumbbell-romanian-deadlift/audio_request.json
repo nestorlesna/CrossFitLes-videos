@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Dumbbell Romanian Deadlift",
+      "text": "Peso muerto rumano con mancuernas. Bisagra de cadera para isquios y glúteos."
+    },
+    {
+      "id": "02",
+      "text": "De pie, una mancuerna en cada mano y los pies al ancho de la cadera. Rodillas suaves, casi fijas: el movimiento es de cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Llevá la cadera bien atrás y acompañá las mancuernas pegadas a las piernas, sin doblar las rodillas."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá hasta sentir el estiramiento en los isquiotibiales. Si la espalda se redondea, ese es tu tope."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Subí empujando la cadera adelante y apretando los glúteos. Arriba quedá en línea, sin arquear la lumbar."
+    },
+    {
+      "id": "06",
+      "text": "Claves: bisagra de cadera y no sentadilla, mancuernas pegadas a las piernas, espalda neutra y arriba apretá los glúteos."
+    },
+    {
+      "id": "07",
+      "text": "Doce repeticiones con diez kilos. Bajá con control, sentí el estiramiento y no pierdas la espalda neutra."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

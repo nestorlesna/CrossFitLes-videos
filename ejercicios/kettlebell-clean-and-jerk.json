@@ -1,0 +1,497 @@
+{
+  "slug": "kettlebell-clean-and-jerk",
+  "name": "Kettlebell Clean and Jerk",
+  "category": "CROSSFIT · POTENCIA",
+  "tags": [
+    "Kettlebell",
+    "Potencia",
+    "Hombro"
+  ],
+  "descripcion": "Cargada de kettlebell al rack de un brazo + envió overhead: clean, dip corto y bloqueo con la pesa arriba.",
+  "revisado": false,
+  "notas": "Base `alternating-kettlebell-clean-and-press` (poses `FLOOR`/`HANG`/`RACK`/`PRESS`). Se agrega `DIP` (rack con rodillas flexionadas, `hip [0,-435]`) y `JERK` (`hip [0,-470]`, brazos bloqueados); el error es `ARCH_BAD` (lumbar arqueada, `cv -20`). Una sola kettlebell con `swing: true`; brazo lejano colgando (`g2 0`).",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Kettlebell Clean and Jerk 🎯 del piso al rack y a la cabeza | CrossFit",
+    "tags": [
+      "kettlebell clean and jerk",
+      "clean and jerk",
+      "kettlebell",
+      "potencia",
+      "envion",
+      "hombro",
+      "crossfit",
+      "wod",
+      "unilateral",
+      "32 kg"
+    ],
+    "descripcion": "🏋️ KETTLEBELL CLEAN AND JERK — del piso al rack y de ahí a la cabeza\nDos tiempos con una sola pesa: clean desde la cadera hasta el hombro, dip corto y envío overhead. Potencia de un solo lado. 🔥\n\n📋 PASO A PASO\n1️⃣ Bisagra con la pesa entre los pies, espalda neutra y cadera atrás.\n2️⃣ Extendé la cadera y llevá la kettlebell al rack: sube pegada y la muñeca gira sin golpear el antebrazo.\n3️⃣ Rack firme: codo cerca de la cadera, la pesa apoyada en el antebrazo y el puño al hombro.\n4️⃣ Dip corto, empujá con las piernas y meté el cuerpo abajo hasta bloquear el codo arriba.\n\n🎯 CLAVES DE TÉCNICA\n✅ La cadera inicia el clean\n✅ La pesa sube pegada al cuerpo\n✅ Rack firme, codo cerca\n✅ Dip corto antes de empujar\n✅ Bloqueo con el core, sin arquear\n\n🏋️ QUÉ TRABAJA\nGlúteo · Isquios · Deltoides · Tríceps · Trapecio · Core\n\n⏱️ CUÁNTO\n12 repeticiones con 32 kg. Si la muñeca se abre o el rack te golpea el antebrazo, bajá el peso.\n\n💪 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nEl jerk no es un press de brazo: las piernas hacen el trabajo y el cuerpo se mete abajo de la pesa. Si la lumbar se arquea, el core no está sosteniendo.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🙌\n\n#CrossFit #Kettlebell #CleanAndJerk #Potencia #Hombro"
+  },
+  "miniatura": {
+    "pose": "JERK",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 90
+  },
+  "initialPose": "FLOOR",
+  "rig": {
+    "x": 450,
+    "y": 1509,
+    "scale": 0.7
+  },
+  "props": [
+    {
+      "type": "kettlebell",
+      "hand": "near",
+      "swing": true,
+      "off": [
+        0,
+        26
+      ]
+    }
+  ],
+  "poses": {
+    "FLOOR": {
+      "hip": [
+        -150,
+        -330
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 66,
+      "hd": 54,
+      "g": 1,
+      "ed": 1,
+      "hx": 250,
+      "hy": -130,
+      "g2": 0,
+      "ua2": 6,
+      "fa2": 2
+    },
+    "HANG": {
+      "s": 8,
+      "t": -22,
+      "b": 55,
+      "hd": 40,
+      "g": 0,
+      "ua": -40,
+      "fa": 0,
+      "ua2": 6,
+      "fa2": 2
+    },
+    "RACK": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 14,
+      "fa": 160,
+      "ua2": 6,
+      "fa2": 2
+    },
+    "DIP": {
+      "hip": [
+        0,
+        -435
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 4,
+      "hd": 2,
+      "g": 0,
+      "ua": 14,
+      "fa": 160,
+      "ua2": 6,
+      "fa2": 2
+    },
+    "JERK": {
+      "hip": [
+        0,
+        -470
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": -2,
+      "hd": 2,
+      "g": 0,
+      "ua": 176,
+      "fa": 0,
+      "ua2": 6,
+      "fa2": 2
+    },
+    "RACK_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": 6,
+      "hd": 8,
+      "g": 0,
+      "ua": 10,
+      "fa": 120,
+      "ua2": 6,
+      "fa2": 2
+    },
+    "ARCH_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": -14,
+      "hd": -12,
+      "cv": -20,
+      "g": 0,
+      "ua": 166,
+      "fa": 8,
+      "ua2": 6,
+      "fa2": 2
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · POTENCIA",
+      "head": [
+        "KETTLEBELL",
+        "CLEAN + JERK"
+      ],
+      "vo": "Kettlebell Clean and Jerk: del piso al rack y de ahí a la cabeza, con un dip corto y bloqueo firme.",
+      "moves": [
+        {
+          "cut": "FLOOR",
+          "at": 0
+        },
+        {
+          "to": "HANG",
+          "at": 0.5,
+          "dur": 0.4
+        },
+        {
+          "to": "RACK",
+          "at": 1.0,
+          "dur": 0.4
+        },
+        {
+          "to": "DIP",
+          "at": 1.5,
+          "dur": 0.3
+        },
+        {
+          "to": "JERK",
+          "at": 2.0,
+          "dur": 0.5
+        },
+        {
+          "to": "RACK",
+          "at": 2.9,
+          "dur": 0.4
+        },
+        {
+          "to": "DIP",
+          "at": 3.4,
+          "dur": 0.3
+        },
+        {
+          "to": "HANG",
+          "at": 3.9,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BISAGRA",
+        "Y ASA"
+      ],
+      "sub": "Pesa entre los pies",
+      "vo": "Arrancá en bisagra con la pesa entre los pies, la cadera atrás y la espalda neutra.",
+      "moves": [
+        {
+          "cut": "FLOOR",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "FLOOR.W"
+          },
+          "r": 74,
+          "at": 0.9,
+          "out": 3.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            940
+          ],
+          "text": "ESPALDA NEUTRA",
+          "anchor": "end",
+          "at": 1.1,
+          "out": 3.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "EL CLEAN",
+        "DESDE LA CADERA"
+      ],
+      "sub": "La pesa va pegada",
+      "vo": "Paso uno. Extendé la cadera y llevá la pesa al hombro: sube pegada y la muñeca gira sin golpear el antebrazo.",
+      "moves": [
+        {
+          "cut": "FLOOR",
+          "at": 0
+        },
+        {
+          "to": "HANG",
+          "at": 0.5,
+          "dur": 0.4
+        },
+        {
+          "to": "RACK",
+          "at": 1.1,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            330,
+            900
+          ],
+          "text": "CADERA, NO BRAZO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "RACK",
+        "AL HOMBRO"
+      ],
+      "sub": "Codo cerca de la cadera",
+      "vo": "Paso dos. Recibí en el rack: codo cerca de la cadera, la pesa en el antebrazo y el puño al hombro.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "RACK",
+          "at": 0.3,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "RACK.W"
+          },
+          "r": 68,
+          "at": 0.5,
+          "out": 3.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "DIP",
+        "Y BLOQUEO"
+      ],
+      "sub": "Dip corto",
+      "vo": "Paso tres. Dip corto con las piernas, empujá la pesa y meté el cuerpo abajo hasta bloquear el codo.",
+      "moves": [
+        {
+          "cut": "RACK",
+          "at": 0
+        },
+        {
+          "to": "DIP",
+          "at": 0.6,
+          "dur": 0.4
+        },
+        {
+          "to": "JERK",
+          "at": 1.4,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            540,
+            1010
+          ],
+          "at": 0.5,
+          "dur": 0.7,
+          "from": [
+            520,
+            1260
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            700,
+            1230
+          ],
+          "text": "DIP CORTO",
+          "anchor": "start",
+          "at": 1.0,
+          "out": 3.6
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "min": 5.3,
+      "badge": "ERROR COMÚN",
+      "head": [
+        "LUMBAR",
+        "ARQUEADA"
+      ],
+      "sub": "Core firme, sin arquear",
+      "vo": "El error: arquear la lumbar con la pesa arriba. Apretá el core y bloqueá con las costillas abajo.",
+      "moves": [
+        {
+          "cut": "JERK",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 1.0,
+          "dur": 0.7
+        },
+        {
+          "to": "JERK",
+          "at": 3.0,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            300,
+            1290
+          ],
+          "text": "COSTILLAS ABAJO",
+          "anchor": "start",
+          "at": 1.6,
+          "out": 4.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "La cadera inicia el clean",
+        "La pesa sube pegada al cuerpo",
+        "Rack firme, codo cerca",
+        "Dip corto antes de empujar",
+        "Bloqueo con el core, sin arquear"
+      ],
+      "vo": "Claves: cadera primero, pesa pegada, rack firme, dip corto y bloqueo con el core.",
+      "moves": [
+        {
+          "cut": "JERK",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "12 REPS"
+      ],
+      "sub": "32 kg",
+      "vo": "Doce repeticiones con treinta y dos kilos. Si la muñeca se abre o el rack te golpea, bajá el peso.",
+      "chips": [
+        {
+          "label": "1 · CLEAN",
+          "at": 0.6
+        },
+        {
+          "label": "2 · DIP",
+          "at": 1.1
+        },
+        {
+          "label": "3 · JERK",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "RACK",
+              0.45
+            ],
+            [
+              "DIP",
+              0.25
+            ],
+            [
+              "JERK",
+              0.45
+            ],
+            [
+              "RACK",
+              0.3
+            ],
+            [
+              "HANG",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "pronuncia": {
+    "Kettlebell": "Ketelbel",
+    "kettlebell": "ketelbel",
+    "Clean and Jerk": "clin an yerk",
+    "clean": "clin",
+    "jerk": "yerk",
+    "dip": "dip",
+    "rack": "rac"
+  }
+}

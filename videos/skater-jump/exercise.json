@@ -1,0 +1,354 @@
+{
+  "slug": "skater-jump",
+  "name": "Skater Jump",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Glúteos",
+    "Piernas",
+    "Cardio"
+  ],
+  "descripcion": "Salto lateral de una pierna a la otra, cruzando la pierna libre por detrás y tocando el suelo con la mano del lado del apoyo.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.85
+  },
+  "pronuncia": {
+    "Skater Jump": "Skéiter yamp"
+  },
+  "initialPose": "STAND",
+  "props": [],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "SK_R": {
+      "hip": [
+        40,
+        -425
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        -210,
+        -120
+      ],
+      "b": 30,
+      "hd": 12,
+      "g": 0,
+      "ua": 20,
+      "fa": 10,
+      "ua2": -70,
+      "fa2": 10
+    },
+    "FLIGHT": {
+      "hip": [
+        20,
+        -520
+      ],
+      "ankle": [
+        0,
+        -90
+      ],
+      "ankle2": [
+        -190,
+        -230
+      ],
+      "b": 22,
+      "hd": 8,
+      "g": 0,
+      "ua": 40,
+      "fa": 20,
+      "ua2": -50,
+      "fa2": 10
+    },
+    "SK_L": {
+      "fx": -1,
+      "hip": [
+        40,
+        -425
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        -210,
+        -120
+      ],
+      "b": 30,
+      "hd": 12,
+      "g": 0,
+      "ua": 20,
+      "fa": 10,
+      "ua2": -70,
+      "fa2": 10
+    },
+    "KNEE_BAD": {
+      "hip": [
+        40,
+        -400
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        -210,
+        -120
+      ],
+      "b": 55,
+      "hd": 20,
+      "g": 0,
+      "ua": 20,
+      "fa": 10,
+      "ua2": -70,
+      "fa2": 10
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "SKATER",
+        "JUMP"
+      ],
+      "vo": "Skater Jump: el salto lateral de patinador. Piernas potentes, equilibrio y cardio.",
+      "moves": [
+        {
+          "cut": "SK_R",
+          "at": 0.2
+        },
+        {
+          "loop": [
+            "FLIGHT",
+            "SK_L",
+            "FLIGHT",
+            "SK_R"
+          ],
+          "at": 0.8,
+          "step": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "APOYO",
+        "EN UNA PIERNA"
+      ],
+      "sub": "Rodilla flexionada, torso inclinado",
+      "vo": "Apoyate en una pierna con la rodilla flexionada y el torso apenas inclinado. La otra pierna cruza por detrás.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "SK_R",
+          "at": 0.8,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "EMPUJÁ",
+        "LATERAL"
+      ],
+      "sub": "Con la pierna de apoyo",
+      "vo": "Paso uno. Empujá con la pierna de apoyo y saltá hacia el costado, estirando la cadera.",
+      "moves": [
+        {
+          "cut": "SK_R",
+          "at": 0
+        },
+        {
+          "to": "FLIGHT",
+          "at": 0.6,
+          "dur": 0.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "ATERRIZÁ",
+        "EN UNA"
+      ],
+      "sub": "Amortiguá con la cadera",
+      "vo": "Paso dos. Aterrizá sobre la pierna opuesta y amortiguá con la cadera hacia atrás, no con la rodilla.",
+      "moves": [
+        {
+          "cut": "FLIGHT",
+          "at": 0
+        },
+        {
+          "to": "SK_L",
+          "at": 0.6,
+          "dur": 0.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "TOCÁ EL",
+        "PISO"
+      ],
+      "sub": "Mano del lado del apoyo",
+      "vo": "Paso tres. Cruzá la pierna libre por detrás y tocá el suelo con la mano del lado de apoyo.",
+      "moves": [
+        {
+          "cut": "SK_L",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            780,
+            1050
+          ],
+          "text": "TOCÁ EL PISO",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ALTERNÁ",
+        "LADOS"
+      ],
+      "sub": "Ritmo constante",
+      "vo": "Paso cuatro. Alterná de lado sin pausa, con saltos controlados y la rodilla siempre alineada con el pie.",
+      "moves": [
+        {
+          "cut": "SK_R",
+          "at": 0
+        },
+        {
+          "loop": [
+            "FLIGHT",
+            "SK_L",
+            "FLIGHT",
+            "SK_R"
+          ],
+          "at": 0.4,
+          "step": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Amortiguar con la cadera",
+        "Rodilla alineada con el pie",
+        "Pierna libre cruza por detrás",
+        "Torso inclinado, mirada al frente"
+      ],
+      "vo": "Claves: amortiguá con la cadera, rodilla alineada con el pie, la pierna libre cruza por detrás y el torso apenas inclinado.",
+      "moves": [
+        {
+          "cut": "SK_R",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "20 SEG"
+      ],
+      "sub": "Alterná lados",
+      "vo": "Veinte segundos alternando lados. Saltá, aterrizá firme y tocá el piso.",
+      "chips": [
+        {
+          "label": "1 · EMPUJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · VOLÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · ATERRIZÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "SK_R",
+          "at": 0
+        },
+        {
+          "loop": [
+            "FLIGHT",
+            "SK_L",
+            "FLIGHT",
+            "SK_R"
+          ],
+          "at": 0.5,
+          "step": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "SK_R",
+    "grip": 0
+  },
+  "youtube": {
+    "titulo": "Skater Jump 🔥 glúteos potentes y cardio paso a paso | CrossFit",
+    "descripcion": "🔥 SKATER JUMP — potencia lateral de piernas y glúteos con cardio.\n\nSi buscás cardio y glúteos activos sin implementos, este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Apoyate en una pierna con la rodilla flexionada y el torso apenas inclinado, con la otra pierna cruzada por detrás.\n2️⃣ Empujá con la pierna de apoyo y saltá hacia el costado, estirando la cadera.\n3️⃣ Aterrizá sobre la pierna opuesta y amortiguá con la cadera hacia atrás, no con la rodilla.\n4️⃣ Cruzá la pierna libre por detrás y tocá el suelo con la mano del lado de apoyo.\n5️⃣ Alterná de lado sin pausa, con saltos controlados y la rodilla siempre alineada con el pie.\n\n✅ CLAVES DE TÉCNICA\n• Aterrizar amortiguando con la cadera, no con la rodilla\n• La rodilla de apoyo no se va hacia adentro\n• Pierna libre cruzada por detrás\n• Torso apenas inclinado y mirada al frente\n\n🎯 QUÉ TRABAJA\nGlúteo medio · Gemelos · Glúteo mayor · Recto femoral · Vasto lateral\n\n⏱️ CUÁNTO\n20 segundos alternando lados, en la entrada en calor o dentro de un WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés molestias en rodillas o tobillos, empezá con pasos laterales sin salto y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\r\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Activacion #SkaterJump #Gluteos #Entrenamiento",
+    "tags": [
+      "skater jump",
+      "salto lateral",
+      "saltos de patinador",
+      "glúteo medio",
+      "cardio",
+      "activación",
+      "crossfit",
+      "ejercicio pliométrico",
+      "sin equipo",
+      "entrenamiento de piernas"
+    ]
+  }
+}

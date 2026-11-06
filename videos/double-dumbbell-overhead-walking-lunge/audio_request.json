@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Double Dumbbell Overhead Walking Lunge",
+      "text": "Las mancuernas bloqueadas arriba y pasos largos bajando a fondo. Piernas y glúteos."
+    },
+    {
+      "id": "02",
+      "text": "Parate derecho con las dos mancuernas arriba de la cabeza, los brazos estirados y los bíceps junto a las orejas."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Da un paso largo hacia adelante sin mover las mancuernas del lugar."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá hasta que la rodilla de atrás casi toque el piso, con el torso erguido y las costillas abajo."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Empujá con el talón, subí y pasá a la otra pierna sin dejar caer las mancuernas."
+    },
+    {
+      "id": "06",
+      "text": "Así no. Con los codos doblados las mancuernas se van para adelante y perdés el control del paso."
+    },
+    {
+      "id": "07",
+      "text": "Claves: brazos bloqueados y bíceps junto a las orejas, torso erguido, abdomen firme y pasos controlados."
+    },
+    {
+      "id": "08",
+      "text": "Veinticuatro metros con veintidós kilos. Si las mancuernas se van para adelante, parar y estabilizar antes de seguir."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

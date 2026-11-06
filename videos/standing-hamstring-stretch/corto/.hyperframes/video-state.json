@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "c60c182e-77ae-4232-a837-d034ed1eb1b7",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "330ea4244c0fd3f6aacb2db0cfb523518453811019a9a9ee62940692828bf80f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\c60c182e-77ae-4232-a837-d034ed1eb1b7\\blobs\\33\\330ea4244c0fd3f6aacb2db0cfb523518453811019a9a9ee62940692828bf80f"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\c60c182e-77ae-4232-a837-d034ed1eb1b7\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "617b7eb7ef542ee115b1db8e27a8929a482742ac7abf8d02ca768a3f5467bb05",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\c60c182e-77ae-4232-a837-d034ed1eb1b7\\blobs\\61\\617b7eb7ef542ee115b1db8e27a8929a482742ac7abf8d02ca768a3f5467bb05"
+    },
+    "meta.json": {
+      "hash": "4958e0c8f51f361f3640c62bd9518b544bc2889dd682a66c543c36697e5d9c45",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\c60c182e-77ae-4232-a837-d034ed1eb1b7\\blobs\\49\\4958e0c8f51f361f3640c62bd9518b544bc2889dd682a66c543c36697e5d9c45"
+    },
+    "package.json": {
+      "hash": "dc5f6003e979955bff2f081b9485c0bd967560d50af51c882da2634dbdaa1432",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\c60c182e-77ae-4232-a837-d034ed1eb1b7\\blobs\\dc\\dc5f6003e979955bff2f081b9485c0bd967560d50af51c882da2634dbdaa1432"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "7bcecbab-16f9-4b0e-8ba1-17d10bf47b92",
+      "completedAt": 1793874159655,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\standing-hamstring-stretch\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "0beba691-c266-49c0-8cd8-02014f0d5137",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "eacf44515d3b45ea3abb5e54601176226aca436e4a7f4f0a8c2d5d68e073228b",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0beba691-c266-49c0-8cd8-02014f0d5137\\blobs\\ea\\eacf44515d3b45ea3abb5e54601176226aca436e4a7f4f0a8c2d5d68e073228b"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0beba691-c266-49c0-8cd8-02014f0d5137\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "edbe6a05d458cd59acc7784def4044f84d01ae4c9a5ea1d10dda6e42b4ee6e23",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0beba691-c266-49c0-8cd8-02014f0d5137\\blobs\\ed\\edbe6a05d458cd59acc7784def4044f84d01ae4c9a5ea1d10dda6e42b4ee6e23"
+    },
+    "meta.json": {
+      "hash": "f7b0d65090f28ef3bfffadbac03626a26215658c1ec6a143993ad069864f8b4e",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0beba691-c266-49c0-8cd8-02014f0d5137\\blobs\\f7\\f7b0d65090f28ef3bfffadbac03626a26215658c1ec6a143993ad069864f8b4e"
+    },
+    "package.json": {
+      "hash": "9d1b18080214751212ef3881b0a2cc85725880eaf433c3f9a2ba30481e645376",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0beba691-c266-49c0-8cd8-02014f0d5137\\blobs\\9d\\9d1b18080214751212ef3881b0a2cc85725880eaf433c3f9a2ba30481e645376"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "561f2802-1952-4e72-9679-228a2487de75",
+      "completedAt": 1793873337484,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\alternating-90-90-into-shin-box\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

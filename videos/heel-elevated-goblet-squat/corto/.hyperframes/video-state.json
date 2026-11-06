@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "5039e649-de1c-4e42-a629-341219f9a707",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "c1bb32f428965549041997f909ed4612b99f0cc6af254d158d5998faafc4b6fd",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\5039e649-de1c-4e42-a629-341219f9a707\\blobs\\c1\\c1bb32f428965549041997f909ed4612b99f0cc6af254d158d5998faafc4b6fd"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\5039e649-de1c-4e42-a629-341219f9a707\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "1e6824dcbf155b2b6de4896f32d9d8fc2a6803452c0b19696dd22ffd11fec1ed",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\5039e649-de1c-4e42-a629-341219f9a707\\blobs\\1e\\1e6824dcbf155b2b6de4896f32d9d8fc2a6803452c0b19696dd22ffd11fec1ed"
+    },
+    "meta.json": {
+      "hash": "747309fed05c14248c426bff9dd96d5ed89d4841d4340aedc6feb5c771daddc0",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\5039e649-de1c-4e42-a629-341219f9a707\\blobs\\74\\747309fed05c14248c426bff9dd96d5ed89d4841d4340aedc6feb5c771daddc0"
+    },
+    "package.json": {
+      "hash": "183cf77e4b63dc27cf90b12233c3d7fee4770d29b5035246ded711f915a2e14e",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\5039e649-de1c-4e42-a629-341219f9a707\\blobs\\18\\183cf77e4b63dc27cf90b12233c3d7fee4770d29b5035246ded711f915a2e14e"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "853f3a01-9cb2-4885-bf9a-c0be3ca7f423",
+      "completedAt": 1793876339135,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\heel-elevated-goblet-squat\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

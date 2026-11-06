@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Kettlebell Deadlift",
+      "text": "Peso muerto con kettlebell entre los pies. Bisagra de cadera y espalda neutra."
+    },
+    {
+      "id": "02",
+      "text": "Parate con los pies al ancho de las caderas y la kettlebell en el piso, entre los pies."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Hacé bisagra, llevá la cola atrás y agarrá el asa con las dos manos."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Empujá el piso y subí extendiendo rodillas y cadera, con la campana pegada al cuerpo."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Bloqueá arriba apretando el glúteo, sin arquear la lumbar."
+    },
+    {
+      "id": "06",
+      "text": "Claves: espalda neutra, pecho arriba, empujá el piso y la campana viaja pegada a las piernas."
+    },
+    {
+      "id": "07",
+      "text": "Treinta segundos con doce kilos y medio. Subí y bajá con control, sin perder la espalda."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

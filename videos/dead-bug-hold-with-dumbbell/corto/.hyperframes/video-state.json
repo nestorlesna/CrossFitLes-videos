@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "a198e9e9-e2d1-4e9a-abdf-aa608375b3b9",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "50b2e1b3b6895a34ffe11f338583fe3afda9e5663cd9e1b32980fdbeee0c4c32",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a198e9e9-e2d1-4e9a-abdf-aa608375b3b9\\blobs\\50\\50b2e1b3b6895a34ffe11f338583fe3afda9e5663cd9e1b32980fdbeee0c4c32"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a198e9e9-e2d1-4e9a-abdf-aa608375b3b9\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "4c799edf2e518a05a4eca1e17997c9af20ad40e925c221ccda9e484872f4070f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a198e9e9-e2d1-4e9a-abdf-aa608375b3b9\\blobs\\4c\\4c799edf2e518a05a4eca1e17997c9af20ad40e925c221ccda9e484872f4070f"
+    },
+    "meta.json": {
+      "hash": "6f51353846a03d31808b61e0a2d8ee633d5d88f4b46b9d42a6c4ebc5d57382a3",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a198e9e9-e2d1-4e9a-abdf-aa608375b3b9\\blobs\\6f\\6f51353846a03d31808b61e0a2d8ee633d5d88f4b46b9d42a6c4ebc5d57382a3"
+    },
+    "package.json": {
+      "hash": "ea6d5e68638ce353ae6c1f5c5b4a9559df87ea99d1c629e73e88cac048b89122",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a198e9e9-e2d1-4e9a-abdf-aa608375b3b9\\blobs\\ea\\ea6d5e68638ce353ae6c1f5c5b4a9559df87ea99d1c629e73e88cac048b89122"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "3f5d464f-4e48-4774-8dc1-1f82547fa6d2",
+      "completedAt": 1793873258297,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\dead-bug-hold-with-dumbbell\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

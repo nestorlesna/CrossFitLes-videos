@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "dd9dfa3e-b256-4f5b-b908-d96c93e16911",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "cc762dfdea5c323576081b489edc6b47aac158e91fbc43caf609c2835a158971",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\dd9dfa3e-b256-4f5b-b908-d96c93e16911\\blobs\\cc\\cc762dfdea5c323576081b489edc6b47aac158e91fbc43caf609c2835a158971"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\dd9dfa3e-b256-4f5b-b908-d96c93e16911\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "b5a0d299863be5247469673420a0a45f30a1441c4ac6b3ee45f257014a698bf1",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\dd9dfa3e-b256-4f5b-b908-d96c93e16911\\blobs\\b5\\b5a0d299863be5247469673420a0a45f30a1441c4ac6b3ee45f257014a698bf1"
+    },
+    "meta.json": {
+      "hash": "c8444fd2f0cb871842875cacaf3597a9ec6b0f8722922cb229166be0f1b1ab4c",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\dd9dfa3e-b256-4f5b-b908-d96c93e16911\\blobs\\c8\\c8444fd2f0cb871842875cacaf3597a9ec6b0f8722922cb229166be0f1b1ab4c"
+    },
+    "package.json": {
+      "hash": "2a3b86f7497f3fff231cd19c49094dfa4b4fefce90718509645f2dbe3d10dab3",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\dd9dfa3e-b256-4f5b-b908-d96c93e16911\\blobs\\2a\\2a3b86f7497f3fff231cd19c49094dfa4b4fefce90718509645f2dbe3d10dab3"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "000e225a-6421-49fb-b15e-93614976d4d0",
+      "completedAt": 1793878715861,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\band-shoulder-toss\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

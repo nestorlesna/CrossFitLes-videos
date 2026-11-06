@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Dumbbell Front Rack Lunge",
+      "text": "Mancuernas apoyadas en los hombros y zancadas alternadas. Core y hombros trabajando de estabilidad."
+    },
+    {
+      "id": "02",
+      "text": "De pie, con las dos mancuernas apoyadas en los hombros y los codos bien adelante y arriba."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Da un paso largo hacia adelante, con el talón apoyado y la rodilla alineada con el pie."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá derecho hasta que la rodilla de atrás casi toque el piso, sin perder el rack."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Empujá con el talón, volvé arriba y pasá a la otra pierna manteniendo los codos altos."
+    },
+    {
+      "id": "06",
+      "text": "Así no. Si los codos caen, las mancuernas se despegan del hombro y el core pierde el control."
+    },
+    {
+      "id": "07",
+      "text": "Claves: mancuernas pegadas al hombro, codos altos y adelante, tronco erguido y rodilla trasera que roza el piso."
+    },
+    {
+      "id": "08",
+      "text": "Veinticuatro repeticiones alternadas con veintidós kilos. Si el rack se desarma, bajá el peso."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

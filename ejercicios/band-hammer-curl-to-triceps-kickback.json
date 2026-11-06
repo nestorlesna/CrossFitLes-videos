@@ -1,0 +1,414 @@
+{
+  "slug": "band-hammer-curl-to-triceps-kickback",
+  "name": "Band Hammer Curl to Triceps Kickback",
+  "category": "CROSSFIT · ACCESORIO",
+  "tags": [
+    "Bíceps",
+    "Tríceps",
+    "Antebrazo"
+  ],
+  "descripcion": "Combo de brazo con banda elástica: curl martillo de pie para bíceps y antebrazo, y patada de tríceps inclinado con el codo trabado arriba. Un solo implemento, dos movimientos.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Band Hammer Curl to Triceps Kickback 🎯 bíceps y tríceps con banda | CrossFit",
+    "tags": [
+      "band hammer curl",
+      "triceps kickback",
+      "curl martillo con banda",
+      "patada de triceps",
+      "banda elastica biceps",
+      "banda elastica triceps",
+      "crossfit",
+      "accesorio brazos",
+      "biceps",
+      "triceps"
+    ],
+    "descripcion": "🎬 BAND HAMMER CURL TO TRICEPS KICKBACK - dos ejercicios, una banda\n\nCurl martillo para bíceps y antebrazo, patada para tríceps. Se hace todo con la misma banda pisada y sin soltar la tensión. 💪\n\n📝 PASO A PASO\n1️⃣ Pisá la banda con los dos pies firmes y agarrá una punta con cada mano, palmas enfrentadas.\n2️⃣ Curl martillo: subí las manos en paralelo hasta los hombros sin mover los codos del costado.\n3️⃣ Bajá con control hasta estirar el brazo del todo.\n4️⃣ Inclinate con la espalda recta, llevá los codos atrás y extendé los antebrazos para la patada de tríceps.\n5️⃣ Volvé a la posición de pie y repetí el combo completo.\n\n✅ CLAVES DE TÉCNICA\n✔️ Codos pegados al costado en el curl\n✔️ Espalda recta al inclinarte\n✔️ Codo trabado arriba en la patada\n✔️ Bajada controlada\n\n💪 QUÉ TRABAJA\nBíceps braquial · Braquiorradial · Tríceps · Core estabilizador\n\n⏱️ CUÁNTO\n12 a 15 repeticiones por serie, 3 series. Banda firme, sin rebote.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi la banda te queda muy dura, alejá los pies del agarre o usá una más fina.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #BandWork #Biceps #Triceps #Accesorios"
+  },
+  "miniatura": {
+    "pose": "CURL",
+    "grip": 1,
+    "zoom": 1.26,
+    "dy": 150
+  },
+  "initialPose": "STAND",
+  "rig": {
+    "x": 470,
+    "y": 1500,
+    "scale": 0.8
+  },
+  "poses": {
+    "STAND": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "ed": 1,
+      "hx": 20,
+      "hy": -430,
+      "g2": 1,
+      "hx2": 20,
+      "hy2": -430,
+      "ed2": 1
+    },
+    "CURL": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "ed": -1,
+      "hx": 120,
+      "hy": -660,
+      "g2": 1,
+      "hx2": 120,
+      "hy2": -660,
+      "ed2": -1
+    },
+    "HINGE": {
+      "hip": [
+        -60,
+        -360
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 52,
+      "hd": 46,
+      "g": 1,
+      "ed": 1,
+      "hx": 200,
+      "hy": -320,
+      "g2": 1,
+      "hx2": 200,
+      "hy2": -320,
+      "ed2": 1
+    },
+    "KICK": {
+      "hip": [
+        -60,
+        -360
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 52,
+      "hd": 46,
+      "g": 1,
+      "ed": -1,
+      "hx": -135,
+      "hy": -446,
+      "g2": 1,
+      "hx2": -135,
+      "hy2": -446,
+      "ed2": -1
+    },
+    "SWING_BAD": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": -16,
+      "hd": -8,
+      "g": 1,
+      "ed": -1,
+      "hx": 60,
+      "hy": -520,
+      "g2": 1,
+      "hx2": 60,
+      "hy2": -520,
+      "ed2": -1
+    }
+  },
+  "props": [
+    {
+      "type": "band",
+      "anchor": [
+        60,
+        18
+      ],
+      "hand": "both",
+      "ring": false,
+      "w": 13
+    }
+  ],
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACCESORIO",
+      "head": [
+        "CURL",
+        "Y PATADA"
+      ],
+      "vo": "Band Hammer Curl to Triceps Kickback: un combo de bíceps y tríceps con la misma banda pisada.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "CURL",
+          "at": 0.5,
+          "dur": 0.5
+        },
+        {
+          "to": "STAND",
+          "at": 1.2,
+          "dur": 0.5
+        },
+        {
+          "to": "HINGE",
+          "at": 1.9,
+          "dur": 0.5
+        },
+        {
+          "to": "KICK",
+          "at": 2.5,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BANDA",
+        "PISADA"
+      ],
+      "sub": "Palmas enfrentadas",
+      "vo": "Pisá la banda con los dos pies firmes y agarrá una punta con cada mano, con las palmas enfrentadas.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "CURL",
+        "MARTILLO"
+      ],
+      "sub": "Codos al costado",
+      "vo": "Paso uno. Subí las dos manos en paralelo hasta los hombros, sin despegar los codos del costado.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "CURL",
+          "at": 0.8,
+          "dur": 1
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "BAJÁ",
+        "CON CONTROL"
+      ],
+      "sub": "Brazo estirado",
+      "vo": "Paso dos. Bajá con control hasta estirar el brazo del todo, sin dejar que la banda te gane.",
+      "moves": [
+        {
+          "cut": "CURL",
+          "at": 0
+        },
+        {
+          "to": "STAND",
+          "at": 0.6,
+          "dur": 1
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "INCLINATE",
+        "ESPALDA RECTA"
+      ],
+      "sub": "Codos atrás",
+      "vo": "Paso tres. Inclinate con la espalda recta y llevá los codos atrás, pegados al torso.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "HINGE",
+          "at": 0.6,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "PATADA",
+        "DE TRÍCEPS"
+      ],
+      "sub": "Codo trabado arriba",
+      "vo": "Paso cuatro. Extendé los antebrazos hacia atrás con el codo quieto y volvé sin soltar la tensión.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "to": "KICK",
+          "at": 0.7,
+          "dur": 0.7
+        },
+        {
+          "to": "HINGE",
+          "at": 1.8,
+          "dur": 0.7
+        },
+        {
+          "to": "STAND",
+          "at": 2.7,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Codos pegados en el curl",
+        "Espalda recta al inclinarte",
+        "Codo trabado en la patada",
+        "Bajada controlada"
+      ],
+      "vo": "Claves: codos pegados en el curl, espalda recta al inclinarte, codo trabado en la patada y bajada controlada.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "12 REPS"
+      ],
+      "sub": "3 series",
+      "vo": "Doce repeticiones, tres series. Curl, bajada, patada y de vuelta.",
+      "chips": [
+        {
+          "label": "12 reps",
+          "at": 0.6
+        },
+        {
+          "label": "3 series",
+          "at": 1.3
+        },
+        {
+          "label": "45 s",
+          "at": 2
+        }
+      ],
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "CURL",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "STAND",
+          "at": 1.3,
+          "dur": 0.6
+        },
+        {
+          "to": "HINGE",
+          "at": 2.1,
+          "dur": 0.6
+        },
+        {
+          "to": "KICK",
+          "at": 2.9,
+          "dur": 0.6
+        },
+        {
+          "to": "HINGE",
+          "at": 3.7,
+          "dur": 0.5
+        },
+        {
+          "to": "STAND",
+          "at": 4.3,
+          "dur": 0.6
+        },
+        {
+          "to": "CURL",
+          "at": 5,
+          "dur": 0.6
+        },
+        {
+          "to": "STAND",
+          "at": 5.8,
+          "dur": 0.6
+        },
+        {
+          "to": "HINGE",
+          "at": 6.6,
+          "dur": 0.6
+        },
+        {
+          "to": "KICK",
+          "at": 7.4,
+          "dur": 0.6
+        },
+        {
+          "to": "HINGE",
+          "at": 8.2,
+          "dur": 0.5
+        },
+        {
+          "to": "STAND",
+          "at": 8.8,
+          "dur": 0.6
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Isometric Push-Up Hold",
+      "text": "Congelado a mitad de la flexión, codos a noventa, el cuerpo en tabla. Fuerza sin moverte."
+    },
+    {
+      "id": "02",
+      "text": "Arrancá en plancha alta, manos algo más anchas que los hombros y el cuerpo en línea."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá hasta la mitad, con los codos a noventa grados y apuntando hacia atrás, no en cruz."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Sostené ahí: cadera ni arriba ni abajo, abdomen firme y respiración normal."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si la cadera se hunde o se sube, el cuerpo deja de ser una tabla y el hombro carga de más."
+    },
+    {
+      "id": "06",
+      "text": "Claves: codos a cuarenta y cinco, cuerpo en línea, cadera quieta y respiración normal."
+    },
+    {
+      "id": "07",
+      "text": "Veinticinco segundos por serie, tres series. Si no llegás, apoyá las rodillas."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

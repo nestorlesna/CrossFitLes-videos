@@ -1,0 +1,431 @@
+{
+  "slug": "nordic-hamstring-curl",
+  "name": "Nordic Hamstring Curl",
+  "category": "CROSSFIT — ACCESORIO",
+  "tags": [
+    "Isquios",
+    "Prevención",
+    "Sin material"
+  ],
+  "descripcion": "Curl nórdico: de rodillas con los tobillos fijos, bajar el torso en excéntrico controlado manteniendo el cuerpo en una sola línea y volver ayudándose con las manos.",
+  "revisado": false,
+  "notas": "Tobillos fijos con hip+ankle IK (knee back) y el pie con ft 196. La cadera avanza al bajar (hip 0,-242 → 238,-58) para no quebrar la línea. El error sienta la cadera (hip 64,-206 con b 42).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 320,
+    "y": 1503,
+    "scale": 0.8
+  },
+  "pronuncia": {
+    "Nordic Hamstring Curl": "nórdic jamstrin curl",
+    "Hamstring Curl": "jamstrin curl"
+  },
+  "initialPose": "KNEEL",
+  "props": [],
+  "poses": {
+    "KNEEL": {
+      "hip": [
+        0,
+        -242
+      ],
+      "ankle": [
+        -238,
+        -10
+      ],
+      "knee": "back",
+      "ft": 196,
+      "ft2": 196,
+      "b": 0,
+      "hd": 0,
+      "ua": 8,
+      "fa": 6,
+      "ua2": 11,
+      "fa2": 10
+    },
+    "HALF": {
+      "hip": [
+        148,
+        -188
+      ],
+      "ankle": [
+        -238,
+        -10
+      ],
+      "knee": "back",
+      "ft": 196,
+      "ft2": 196,
+      "b": 44,
+      "hd": 8,
+      "ua": 40,
+      "fa": 20,
+      "ua2": 43,
+      "fa2": 24
+    },
+    "DOWN": {
+      "hip": [
+        238,
+        -58
+      ],
+      "ankle": [
+        -238,
+        -10
+      ],
+      "knee": "back",
+      "ft": 196,
+      "ft2": 196,
+      "b": 86,
+      "hd": 26,
+      "ua": 48,
+      "fa": 18,
+      "ua2": 51,
+      "fa2": 22
+    },
+    "HANDS": {
+      "hip": [
+        238,
+        -58
+      ],
+      "ankle": [
+        -238,
+        -10
+      ],
+      "knee": "back",
+      "ft": 196,
+      "ft2": 196,
+      "b": 86,
+      "hd": 26,
+      "ua": 34,
+      "fa": 10,
+      "ua2": 37,
+      "fa2": 14
+    },
+    "HIP_BAD": {
+      "hip": [
+        -148,
+        -112
+      ],
+      "ankle": [
+        -238,
+        -10
+      ],
+      "knee": "back",
+      "ft": 196,
+      "ft2": 196,
+      "b": 18,
+      "hd": 10,
+      "ua": 8,
+      "fa": 4,
+      "ua2": 11,
+      "fa2": 8
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "badge": "CROSSFIT — ACCESORIO",
+      "head": [
+        "NORDIC",
+        "HAMSTRING CURL"
+      ],
+      "vo": "Nordic Hamstring Curl: de rodillas y con los tobillos fijos, bajá el cuerpo frenando con los isquios. El preventivo número uno.",
+      "min": 4.8,
+      "moves": [
+        {
+          "seq": [
+            [
+              "KNEEL",
+              1.0
+            ],
+            [
+              "DOWN",
+              1.6
+            ],
+            [
+              "KNEEL",
+              1.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE RODILLAS",
+        "EN LÍNEA"
+      ],
+      "sub": "Tobillos fijos",
+      "vo": "Arrodillate con el cuerpo derecho de rodillas a cabeza, la cadera extendida y los tobillos bien fijos.",
+      "min": 5.6,
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "KNEEL.A",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 46,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            196,
+            1368
+          ],
+          "text": "TOBILLOS FIJOS",
+          "anchor": "start",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ",
+        "LENTO"
+      ],
+      "sub": "Frenando con los isquios",
+      "numeral": "1",
+      "vo": "Paso uno. Bajá el torso en excéntrico, lo más lento posible, sin quebrar la cadera.",
+      "min": 5.8,
+      "moves": [
+        {
+          "to": "HALF",
+          "at": 0.6,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "SIN QUEBRAR LA CADERA",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "badge": "PASO 2 / 3",
+      "head": [
+        "FRENÁ",
+        "HASTA EL FINAL"
+      ],
+      "sub": "Cuerpo en línea",
+      "numeral": "2",
+      "vo": "Paso dos. Seguí frenando hasta donde puedas, con el cuerpo en una sola línea de rodillas a la cabeza.",
+      "min": 5.8,
+      "moves": [
+        {
+          "cut": "HALF",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.6,
+          "dur": 1.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "UNA SOLA LÍNEA",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "badge": "PASO 3 / 3",
+      "head": [
+        "AMORTIGUÁ",
+        "Y VOLVÉ"
+      ],
+      "sub": "Con las manos",
+      "numeral": "3",
+      "vo": "Paso tres. Amortiguá con las manos y volvé ayudándote con los brazos, sin tirar de la lumbar.",
+      "min": 6.0,
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "HANDS",
+          "at": 0.6,
+          "dur": 0.7
+        },
+        {
+          "to": "KNEEL",
+          "at": 5.0,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "MANOS DE APOYO",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "badge": "ERROR TÍPICO",
+      "head": [
+        "ASÍ NO:",
+        "CADERA ATRÁS"
+      ],
+      "sub": "Se rompe la línea",
+      "bad": true,
+      "vo": "Así no. Si sentás la cadera y flexionás la cadera, el ejercicio deja de trabajar los isquios.",
+      "min": 5.8,
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        },
+        {
+          "to": "HIP_BAD",
+          "at": 0.7,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "CADERA FLEXIONADA",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "vo": "Claves: tobillos fijos, cuerpo en una sola línea, bajada lentísima y vuelta ayudada con las manos.",
+      "min": 8.0,
+      "moves": [
+        {
+          "seq": [
+            [
+              "KNEEL",
+              1.0
+            ],
+            [
+              "DOWN",
+              1.6
+            ],
+            [
+              "KNEEL",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ],
+      "keys": [
+        "Tobillos bien fijos",
+        "Cuerpo en línea",
+        "Bajada lentísima",
+        "Vuelta con las manos"
+      ]
+    },
+    {
+      "kind": "reps",
+      "badge": "A ENTRENAR",
+      "head": [
+        "8 REPS"
+      ],
+      "sub": "Excéntrico puro",
+      "vo": "Ocho repeticiones lentas. Si al final no podés frenar, soltá las manos al piso y volvé desde ahí.",
+      "min": 6.4,
+      "moves": [
+        {
+          "seq": [
+            [
+              "KNEEL",
+              1.0
+            ],
+            [
+              "DOWN",
+              1.6
+            ],
+            [
+              "KNEEL",
+              1.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ],
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · FRENÁ",
+          "at": 1.2
+        },
+        {
+          "label": "3 · VOLVÉ",
+          "at": 1.8
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "DOWN",
+    "grip": 0,
+    "zoom": 1.02,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Nordic Hamstring Curl 🔥 excéntrico para isquiotibiales | CrossFit",
+    "descripcion": "🔥 NORDIC HAMSTRING CURL — el excéntrico que blinda los isquios\n\nDe rodillas y con los tobillos fijos, el cuerpo baja en una sola línea frenando con los isquiotibiales. Es el ejercicio preventivo de lesión de isquios más eficiente que existe. 💪\n\n📋 PASO A PASO\n1️⃣ Arrodillate con el cuerpo derecho de rodillas a cabeza y la cadera extendida.\n2️⃣ Fijá bien los tobillos (con un compañero, una barra o un cajón).\n3️⃣ Bajá el torso lentísimo, frenando con los isquios.\n4️⃣ Llegá hasta donde puedas mantener la línea.\n5️⃣ Amortiguá con las manos y volvé ayudándote con los brazos.\n\n✅ CLAVES DE TÉCNICA\n• Tobillos bien fijos: son el ancla de todo\n• Cuerpo en una sola línea de rodillas a la cabeza\n• Bajada lentísima, sin quebrar la cadera\n• Vuelta ayudada con las manos, sin tirar de la lumbar\n• Si no frenás más, soltá al piso y volvé desde ahí\n\n🎯 QUÉ TRABAJA\nBíceps femoral · Semimembranoso · Semitendinoso · Erectores espinales · Gastrocnemio\n\n⏱️ CUÁNTO\n8 repeticiones lentas. Ideal como accesorio preventivo al final de la clase.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #NordicCurl #Isquiotibiales #Prevencion #Accesorio",
+    "tags": [
+      "nordic hamstring curl",
+      "curl nordico",
+      "isquiotibiales",
+      "excéntrico",
+      "prevencion de lesiones",
+      "crossfit",
+      "wod",
+      "accesorio",
+      "isquios",
+      "tecnica curl nordico"
+    ]
+  }
+}

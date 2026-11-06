@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "f867bd2b-654b-4075-83d1-4f05785b0d7c",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "6afc709bb8af650dd3f97e57d384e96baaf664c3bee8fa31b17727389912e382",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\f867bd2b-654b-4075-83d1-4f05785b0d7c\\blobs\\6a\\6afc709bb8af650dd3f97e57d384e96baaf664c3bee8fa31b17727389912e382"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\f867bd2b-654b-4075-83d1-4f05785b0d7c\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "46f74aab12ef1cd92963772276330e12b655bed8f35c475c73a599265c43e42a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\f867bd2b-654b-4075-83d1-4f05785b0d7c\\blobs\\46\\46f74aab12ef1cd92963772276330e12b655bed8f35c475c73a599265c43e42a"
+    },
+    "meta.json": {
+      "hash": "d21d53e5002269fa1fc6060112b4c114597bd1ce22bc1b9f6d124c6b9af4a06b",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\f867bd2b-654b-4075-83d1-4f05785b0d7c\\blobs\\d2\\d21d53e5002269fa1fc6060112b4c114597bd1ce22bc1b9f6d124c6b9af4a06b"
+    },
+    "package.json": {
+      "hash": "3f11fcd10b6871e9cdfd50489dca4e8e5e50fe55225a26adb7a7de598abbbb35",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\f867bd2b-654b-4075-83d1-4f05785b0d7c\\blobs\\3f\\3f11fcd10b6871e9cdfd50489dca4e8e5e50fe55225a26adb7a7de598abbbb35"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "dd476d40-7b90-4567-8e55-2a8a1024994f",
+      "completedAt": 1793873651569,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\strict-knees-to-elbows\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Barbell Upright Row",
+      "text": "Remo al mentón con barra. Hombros y trapecio, codos altos y sin impulso."
+    },
+    {
+      "id": "02",
+      "text": "De pie, con la barra tomada al ancho de los hombros frente a los muslos y los codos apenas flexionados."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Tirá hacia arriba llevando los codos por encima de las manos, no el mentón adelante."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Subí hasta la altura del pecho, sin encoger los hombros ni usar impulso."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Bajá la barra con control, manteniendo los codos cerca del cuerpo."
+    },
+    {
+      "id": "06",
+      "text": "Claves: los codos guían, subí hasta el pecho, no encojas los hombros y evitá el impulso de cadera."
+    },
+    {
+      "id": "07",
+      "text": "Doce repeticiones con veinte kilos. Subí y bajá con control, sin usar la cadera para tirar."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "7bb43718-66d9-4102-ba66-dcf3ae5a8f2e",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "958c912cd7c4e9bacf212c4dc4d215820e576565c96bb3fdf618a409dff0a7b9",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7bb43718-66d9-4102-ba66-dcf3ae5a8f2e\\blobs\\95\\958c912cd7c4e9bacf212c4dc4d215820e576565c96bb3fdf618a409dff0a7b9"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7bb43718-66d9-4102-ba66-dcf3ae5a8f2e\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "80426e6dc6a4b652abcf3acb8dfe522373905af2cb42484a023f8321d7b3e56a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7bb43718-66d9-4102-ba66-dcf3ae5a8f2e\\blobs\\80\\80426e6dc6a4b652abcf3acb8dfe522373905af2cb42484a023f8321d7b3e56a"
+    },
+    "meta.json": {
+      "hash": "19e662479e099d0eea046414144ffdb50d7b473b3244a922163973d94f2d469c",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7bb43718-66d9-4102-ba66-dcf3ae5a8f2e\\blobs\\19\\19e662479e099d0eea046414144ffdb50d7b473b3244a922163973d94f2d469c"
+    },
+    "package.json": {
+      "hash": "929eb2f08659b2bb5b098abf5f49d4c55f6c33df332798c3326e5fdebae03461",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7bb43718-66d9-4102-ba66-dcf3ae5a8f2e\\blobs\\92\\929eb2f08659b2bb5b098abf5f49d4c55f6c33df332798c3326e5fdebae03461"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "1957c5f0-79f8-4466-8432-662e8c8ad379",
+      "completedAt": 1793840204454,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\kettlebell-ankle-mobility-drill\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

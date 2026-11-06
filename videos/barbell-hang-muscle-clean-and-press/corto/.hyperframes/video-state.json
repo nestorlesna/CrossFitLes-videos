@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "66d9395a-96f3-4911-b426-67639fbcd60f",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "cc762dfdea5c323576081b489edc6b47aac158e91fbc43caf609c2835a158971",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\66d9395a-96f3-4911-b426-67639fbcd60f\\blobs\\cc\\cc762dfdea5c323576081b489edc6b47aac158e91fbc43caf609c2835a158971"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\66d9395a-96f3-4911-b426-67639fbcd60f\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "cd1620c3043475061e409424447dfda1fdffa1f1c384e7057db1f01fb6bfef96",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\66d9395a-96f3-4911-b426-67639fbcd60f\\blobs\\cd\\cd1620c3043475061e409424447dfda1fdffa1f1c384e7057db1f01fb6bfef96"
+    },
+    "meta.json": {
+      "hash": "322110d3172304d8d593330c25344b6bc3c76ec304446a726bec634aa66c3001",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\66d9395a-96f3-4911-b426-67639fbcd60f\\blobs\\32\\322110d3172304d8d593330c25344b6bc3c76ec304446a726bec634aa66c3001"
+    },
+    "package.json": {
+      "hash": "ed5a9028ab34182865574cea7c79a91d5040befbace4c4fd7c4f981dda6536fa",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\66d9395a-96f3-4911-b426-67639fbcd60f\\blobs\\ed\\ed5a9028ab34182865574cea7c79a91d5040befbace4c4fd7c4f981dda6536fa"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "ca53ed4d-1639-4893-abdd-101386ac654c",
+      "completedAt": 1793878907813,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\barbell-hang-muscle-clean-and-press\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

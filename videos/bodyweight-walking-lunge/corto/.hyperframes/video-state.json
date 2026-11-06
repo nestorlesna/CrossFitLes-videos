@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "72b431ae-2eb2-42ff-9f5c-f04500dbd44f",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "64c639fc9388566105804d035c6b54281809b865df99ab13e956d224e746cfe3",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\72b431ae-2eb2-42ff-9f5c-f04500dbd44f\\blobs\\64\\64c639fc9388566105804d035c6b54281809b865df99ab13e956d224e746cfe3"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\72b431ae-2eb2-42ff-9f5c-f04500dbd44f\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "051b47285cd363b9d0b146e083d558887c6f14d4c37683baf57c0b23fec00534",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\72b431ae-2eb2-42ff-9f5c-f04500dbd44f\\blobs\\05\\051b47285cd363b9d0b146e083d558887c6f14d4c37683baf57c0b23fec00534"
+    },
+    "meta.json": {
+      "hash": "c4c759af8fcbde3a07f401b8d05467b17a36132eb57cbe362075434f08826e35",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\72b431ae-2eb2-42ff-9f5c-f04500dbd44f\\blobs\\c4\\c4c759af8fcbde3a07f401b8d05467b17a36132eb57cbe362075434f08826e35"
+    },
+    "package.json": {
+      "hash": "1d5134fe636d4ad8591443533444c8cb55e678153fc397b180cda1abc57e2f6f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\72b431ae-2eb2-42ff-9f5c-f04500dbd44f\\blobs\\1d\\1d5134fe636d4ad8591443533444c8cb55e678153fc397b180cda1abc57e2f6f"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "d0209bfa-18ba-41ee-ba4d-d45d261d1c0a",
+      "completedAt": 1793877882183,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\bodyweight-walking-lunge\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

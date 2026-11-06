@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "de75c5ed-9836-4650-a4ef-ef8e17e51cdd",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "0c87bd0d12702d140c61ad33b594c5791d5de1e0df87268a512abeea8efcc584",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\de75c5ed-9836-4650-a4ef-ef8e17e51cdd\\blobs\\0c\\0c87bd0d12702d140c61ad33b594c5791d5de1e0df87268a512abeea8efcc584"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\de75c5ed-9836-4650-a4ef-ef8e17e51cdd\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "65c74d134e443798bc84793bfb2271a8760d11713d097370429c710172de15e3",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\de75c5ed-9836-4650-a4ef-ef8e17e51cdd\\blobs\\65\\65c74d134e443798bc84793bfb2271a8760d11713d097370429c710172de15e3"
+    },
+    "meta.json": {
+      "hash": "50aa07c6e07408cf35e198a5a3d60cd506cb4e70c3f668a13a1a79cab7ca0a5e",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\de75c5ed-9836-4650-a4ef-ef8e17e51cdd\\blobs\\50\\50aa07c6e07408cf35e198a5a3d60cd506cb4e70c3f668a13a1a79cab7ca0a5e"
+    },
+    "package.json": {
+      "hash": "6b7fedac63bbc3f7e5cef331a3d78c2d2e18c221ee4aeeefa74e09242256213c",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\de75c5ed-9836-4650-a4ef-ef8e17e51cdd\\blobs\\6b\\6b7fedac63bbc3f7e5cef331a3d78c2d2e18c221ee4aeeefa74e09242256213c"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "ad1badd0-bb83-4b08-8820-a52e40fe0871",
+      "completedAt": 1793880022568,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\upward-to-downward-dog\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "ded7a7b0-1d18-40e6-8c33-2fd216a9a737",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "101af7a336a104b09d765f08b4489c5be2ded3a58ab0b0dd1c29ba2f6c10618a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ded7a7b0-1d18-40e6-8c33-2fd216a9a737\\blobs\\10\\101af7a336a104b09d765f08b4489c5be2ded3a58ab0b0dd1c29ba2f6c10618a"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ded7a7b0-1d18-40e6-8c33-2fd216a9a737\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "10d414ac6c49782f8d3d22ff75fe8199af24679da8229b184cdc8911c6d72338",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ded7a7b0-1d18-40e6-8c33-2fd216a9a737\\blobs\\10\\10d414ac6c49782f8d3d22ff75fe8199af24679da8229b184cdc8911c6d72338"
+    },
+    "meta.json": {
+      "hash": "ebdde820a4513cc1c7f2064818fda51584bf719525e6c0ac81b99b679d583d30",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ded7a7b0-1d18-40e6-8c33-2fd216a9a737\\blobs\\eb\\ebdde820a4513cc1c7f2064818fda51584bf719525e6c0ac81b99b679d583d30"
+    },
+    "package.json": {
+      "hash": "879700cccff65eaca804e459a0788a22a3e00fa6e7704c1f5f9e64efcd9a0ae0",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ded7a7b0-1d18-40e6-8c33-2fd216a9a737\\blobs\\87\\879700cccff65eaca804e459a0788a22a3e00fa6e7704c1f5f9e64efcd9a0ae0"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "8c080ef1-b8bd-4c8b-8d77-19399a54f691",
+      "completedAt": 1793877364263,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\stability-ball-plate-crunch\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

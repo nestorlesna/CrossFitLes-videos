@@ -1,0 +1,491 @@
+{
+  "slug": "bodyweight-pistol-squat",
+  "name": "Bodyweight Pistol Squat",
+  "category": "CROSSFIT · HABILIDAD",
+  "tags": [
+    "Piernas",
+    "Equilibrio",
+    "Habilidad"
+  ],
+  "descripcion": "Sentadilla a una pierna: bajás sobre el talón de apoyo con la otra pierna extendida al frente y volvés a pararte sin apoyarla.",
+  "revisado": false,
+  "notas": "Sentadilla pistol a una pierna: la cercana trabaja (ankle por IK) y la lejana queda extendida al frente con ankle2. Error HEEL_BAD: talón que se levanta (ankle con y negativa y ft girado).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "pronuncia": {
+    "Bodyweight Pistol Squat": "Bo di ueit pistol scuat",
+    "Pistol Squat": "Pistol scuat"
+  },
+  "initialPose": "BALANCE",
+  "poses": {
+    "BALANCE": {
+      "hip": [
+        -8,
+        -452
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        392,
+        -424
+      ],
+      "ft2": -22,
+      "b": 3,
+      "hd": 2,
+      "g": 0,
+      "ua": 26,
+      "fa": 14,
+      "ua2": 14,
+      "fa2": 10
+    },
+    "ARMS": {
+      "hip": [
+        -8,
+        -452
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        392,
+        -424
+      ],
+      "ft2": -22,
+      "b": 4,
+      "hd": 2,
+      "g": 0,
+      "ua": 88,
+      "fa": 2,
+      "ua2": 80,
+      "fa2": 2
+    },
+    "HALF": {
+      "hip": [
+        -104,
+        -336
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        236,
+        -292
+      ],
+      "ft2": -22,
+      "b": 26,
+      "hd": 14,
+      "g": 0,
+      "ua": 88,
+      "fa": 0,
+      "ua2": 80,
+      "fa2": 0
+    },
+    "BOTTOM": {
+      "hip": [
+        -176,
+        -204
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        262,
+        -196
+      ],
+      "ft2": -24,
+      "b": 44,
+      "hd": 24,
+      "g": 0,
+      "ua": 94,
+      "fa": 0,
+      "ua2": 86,
+      "fa2": 0
+    },
+    "HEEL_BAD": {
+      "hip": [
+        -176,
+        -204
+      ],
+      "ankle": [
+        26,
+        -34
+      ],
+      "ankle2": [
+        262,
+        -196
+      ],
+      "ft2": -24,
+      "ft": -30,
+      "b": 52,
+      "hd": 34,
+      "g": 0,
+      "ua": 94,
+      "fa": 0,
+      "ua2": 86,
+      "fa2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · HABILIDAD",
+      "head": [
+        "PISTOL",
+        "SQUAT"
+      ],
+      "vo": "Bodyweight Pistol Squat: la sentadilla a una pierna. Equilibrio, fuerza y control sobre un solo pie.",
+      "moves": [
+        {
+          "to": "ARMS",
+          "at": 0.3,
+          "dur": 0.4
+        },
+        {
+          "seq": [
+            [
+              "HALF",
+              0.5
+            ],
+            [
+              "BOTTOM",
+              0.5
+            ],
+            [
+              "HALF",
+              0.45
+            ],
+            [
+              "ARMS",
+              0.45
+            ]
+          ],
+          "at": 0.8,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "UNA",
+        "PIERNA"
+      ],
+      "sub": "La otra extendida al frente",
+      "vo": "Parate sobre una pierna, la otra extendida al frente y los brazos adelante. El talón de apoyo, abajo.",
+      "moves": [
+        {
+          "cut": "BALANCE",
+          "at": 0
+        },
+        {
+          "to": "ARMS",
+          "at": 0.6,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "BAJÁ CON",
+        "CONTROL"
+      ],
+      "sub": "Cadera atrás y abajo",
+      "vo": "Paso uno. Bajá con control, cadera atrás y abajo, pecho arriba y la pierna libre al frente.",
+      "moves": [
+        {
+          "cut": "ARMS",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 1.0,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            300.0,
+            1210.0
+          ],
+          "at": 1.0,
+          "dur": 0.8,
+          "from": [
+            410.0,
+            1090.0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            276.0,
+            1000.0
+          ],
+          "text": "CADERA ATRÁS",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "SENTADILLA",
+        "COMPLETA"
+      ],
+      "sub": "Hasta abajo, talón fijo",
+      "vo": "Paso dos. Seguí hasta la sentadilla completa sobre el talón, con la otra pierna bien extendida.",
+      "moves": [
+        {
+          "cut": "HALF",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.6,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "bar",
+          "pos": [
+            501.0,
+            1527.0
+          ],
+          "w": 170,
+          "h": 12,
+          "at": 1.0,
+          "out": 3.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            300.0,
+            1478.0
+          ],
+          "text": "TALÓN APOYADO",
+          "anchor": "middle",
+          "at": 1.4,
+          "out": 3.6
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "TALÓN",
+        "ABAJO"
+      ],
+      "sub": "No lo despegues",
+      "vo": "Paso tres. El talón no se despega: si se levanta, perdés base y la rodilla se escapa.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "HEEL_BAD",
+          "at": 1.5,
+          "dur": 0.5
+        },
+        {
+          "to": "BOTTOM",
+          "at": 3.4,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            268.0,
+            760.0
+          ],
+          "text": "TALÓN APOYADO",
+          "anchor": "middle",
+          "at": 0.5,
+          "out": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            268.0,
+            760.0
+          ],
+          "text": "TALÓN ARRIBA NO",
+          "anchor": "middle",
+          "at": 1.9,
+          "out": 3.6
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "SUBÍ",
+        "EMPUJANDO"
+      ],
+      "sub": "Sin apoyar la otra pierna",
+      "vo": "Paso cuatro. Subí empujando el piso con todo el pie y extendé la cadera hasta pararte.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.6,
+          "dur": 0.7
+        },
+        {
+          "to": "BALANCE",
+          "at": 1.4,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            296.0,
+            1010.0
+          ],
+          "at": 0.6,
+          "dur": 0.9,
+          "from": [
+            296.0,
+            1320.0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            250.0,
+            902.0
+          ],
+          "text": "EMPUJÁ EL PISO",
+          "anchor": "middle",
+          "at": 1.7
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Talón de apoyo siempre en el piso",
+        "Rodilla en línea con el pie",
+        "Brazos al frente para equilibrar",
+        "Escalá con un cajón o un soporte"
+      ],
+      "vo": "Claves: talón apoyado, rodilla en línea con el pie, brazos al frente. Si cuesta, usá un cajón o un soporte.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Por pierna, con control",
+      "vo": "Diez repeticiones por pierna, con control. Bajá profundo y subí sin rebotar.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · COMPLETA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SUBÍ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "ARMS",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "HALF",
+              0.5
+            ],
+            [
+              "BOTTOM",
+              0.5
+            ],
+            [
+              "HALF",
+              0.45
+            ],
+            [
+              "ARMS",
+              0.45
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "HALF",
+    "grip": 0,
+    "zoom": 1.12,
+    "dy": 160
+  },
+  "youtube": {
+    "titulo": "Bodyweight Pistol Squat 🔥 Sentadilla a una pierna paso a paso | CrossFit",
+    "tags": [
+      "pistol squat",
+      "bodyweight pistol squat",
+      "sentadilla a una pierna",
+      "sentadilla pistol",
+      "equilibrio",
+      "piernas",
+      "calistenia",
+      "tecnica",
+      "crossfit",
+      "habilidad"
+    ],
+    "descripcion": "🔥 BODYWEIGHT PISTOL SQUAT — sentadilla a una pierna\n\nToda tu fuerza y tu equilibrio sobre un solo pie: el pistol es la prueba de control que se gana con paciencia. 💪\n\n📋 PASO A PASO\n1️⃣ Parate sobre una pierna, con la otra extendida al frente y los brazos adelante.\n2️⃣ Bajá con control llevando la cadera atrás y abajo, pecho arriba.\n3️⃣ Seguí hasta la sentadilla completa sobre el talón de apoyo.\n4️⃣ El talón no se despega: mantené la rodilla alineada con el pie.\n5️⃣ Subí empujando el piso y extendé la cadera, sin apoyar la otra pierna.\n\n✅ CLAVES DE TÉCNICA\n• Talón de apoyo siempre en el piso\n• Rodilla en línea con el pie\n• Brazos al frente para equilibrar\n• Bajá profundo, sin rebotar\n• Si te cuesta, sentate a un cajón o tomate de un soporte\n\n🎯 QUÉ TRABAJA\nCuádriceps · Glúteo mayor · Isquiotibiales · Gemelos · Core\n\n⏱️ CUÁNTO\n10 repeticiones por pierna, con control.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #PistolSquat #Sentadilla #Piernas #Equilibrio"
+  }
+}

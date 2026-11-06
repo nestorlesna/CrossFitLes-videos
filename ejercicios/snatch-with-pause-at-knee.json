@@ -1,0 +1,564 @@
+{
+  "name": "Snatch with Pause at Knee",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Cadera",
+    "Espalda",
+    "Potencia"
+  ],
+  "descripcion": "Arrancada completa con una pausa de 2 segundos cuando la barra pasa la altura de las rodillas. Se trabaja la posición crítica de la primera y segunda tracción antes de la extensión final.",
+  "notas": "Misma geometría que snatch; la pausa en la rodilla se cuenta con chips y un anillo que late.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1509,
+    "scale": 0.8
+  },
+  "pronuncia": {
+    "Snatch": "Snach",
+    "Snatch with Pause at Knee": "Snach uif pous at ni"
+  },
+  "initialPose": "SETUP",
+  "props": [
+    {
+      "type": "barbell",
+      "torso": [
+        64,
+        36
+      ],
+      "r": 74,
+      "blend": true
+    }
+  ],
+  "poses": {
+    "SETUP": {
+      "g": 1,
+      "ed": 1,
+      "hip": [
+        -150,
+        -285
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 72,
+      "hd": 56,
+      "hx": 30,
+      "hy": -40
+    },
+    "KNEE": {
+      "g": 1,
+      "ed": 1,
+      "s": 5,
+      "t": -55,
+      "b": 52,
+      "hd": 40,
+      "hx": 30,
+      "hy": -215
+    },
+    "HIP": {
+      "s": 18,
+      "t": -38,
+      "b": 18,
+      "hd": 10,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": 2,
+      "fa2": 0
+    },
+    "EXT": {
+      "s": -4,
+      "t": 4,
+      "b": -8,
+      "hd": -6,
+      "ft": -22,
+      "ft2": -22,
+      "g": 0,
+      "ua": 6,
+      "fa": 0,
+      "ua2": 6,
+      "fa2": 0
+    },
+    "PULL": {
+      "s": -2,
+      "t": 2,
+      "b": -4,
+      "hd": -4,
+      "ft": -16,
+      "ft2": -16,
+      "g": 0,
+      "ua": 100,
+      "fa": -106,
+      "ua2": 100,
+      "fa2": -106
+    },
+    "RECEIVE": {
+      "hip": [
+        -135,
+        -212
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 32,
+      "hd": 16,
+      "ua": 172,
+      "fa": 6,
+      "ua2": 170,
+      "fa2": 6
+    },
+    "LOCK": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 2,
+      "ua": 178,
+      "fa": 2,
+      "ua2": 176,
+      "fa2": 2
+    },
+    "ELBOW_BAD": {
+      "hip": [
+        -135,
+        -212
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 36,
+      "hd": 18,
+      "ua": 150,
+      "fa": 40,
+      "ua2": 148,
+      "fa2": 44
+    },
+    "ROUND_BAD": {
+      "g": 1,
+      "ed": 1,
+      "hip": [
+        -150,
+        -285
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 78,
+      "hd": 74,
+      "cv": 40,
+      "hx": 30,
+      "hy": -40
+    },
+    "PAUSE": {
+      "g": 1,
+      "ed": 1,
+      "s": 6,
+      "t": -42,
+      "b": 46,
+      "hd": 34,
+      "hx": 30,
+      "hy": -228,
+      "ft": 0,
+      "ft2": 0
+    },
+    "PAUSE_BAD": {
+      "g": 1,
+      "ed": 1,
+      "hip": [
+        -150,
+        -285
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 74,
+      "hd": 70,
+      "cv": 34,
+      "hx": 30,
+      "hy": -228
+    }
+  },
+  "slug": "snatch-with-pause-at-knee",
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "SNATCH",
+        "+ PAUSA"
+      ],
+      "vo": "Snatch with Pause at Knee: la arrancada con una pausa de dos segundos en la rodilla.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "SETUP",
+              0.25
+            ],
+            [
+              "KNEE",
+              0.3
+            ],
+            [
+              "PAUSE",
+              0.7
+            ],
+            [
+              "EXT",
+              0.14
+            ],
+            [
+              "PULL",
+              0.14
+            ],
+            [
+              "RECEIVE",
+              0.28
+            ],
+            [
+              "LOCK",
+              0.35
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "MISMA",
+        "SALIDA"
+      ],
+      "sub": "Agarre ancho",
+      "vo": "Misma salida que el snatch: agarre ancho, espalda neutra y hombros sobre la barra.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SUBÍ",
+        "A LA RODILLA"
+      ],
+      "sub": "Y frená",
+      "vo": "Paso uno. Subí la barra hasta la rodilla y frená ahí dos segundos completos.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "KNEE",
+          "at": 0.5,
+          "dur": 0.9
+        },
+        {
+          "to": "PAUSE",
+          "at": 1.4,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            120,
+            1120
+          ],
+          "text": "ALTURA DE RODILLA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "PAUSA",
+        "2 SEGUNDOS"
+      ],
+      "sub": "Ahí quieto",
+      "vo": "Paso dos. En la pausa: espalda plana, hombros delante de la barra y peso en el mediopié.",
+      "moves": [
+        {
+          "cut": "PAUSE",
+          "at": 0
+        },
+        {
+          "to": "PAUSE_BAD",
+          "at": 3.0,
+          "dur": 0.5
+        },
+        {
+          "to": "PAUSE",
+          "at": 4.0,
+          "dur": 0.5
+        }
+      ],
+      "chips": [
+        {
+          "label": "1 s",
+          "at": 0.6
+        },
+        {
+          "label": "2 s",
+          "at": 1.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            430,
+            1290
+          ],
+          "r": 92,
+          "at": 0.6,
+          "out": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            140,
+            900
+          ],
+          "text": "ESPALDA PLANA",
+          "anchor": "start",
+          "at": 1.0,
+          "out": 3.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            140,
+            900
+          ],
+          "text": "ESPALDA CURVA NO",
+          "anchor": "start",
+          "at": 3.2,
+          "out": 4.0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "REANUDÁ",
+        "Y RECIBÍ"
+      ],
+      "sub": "Explosivo",
+      "vo": "Paso tres. Reanudá con extensión explosiva y recibí arriba, con los brazos bloqueados.",
+      "moves": [
+        {
+          "cut": "PAUSE",
+          "at": 0
+        },
+        {
+          "to": "EXT",
+          "at": 0.5,
+          "dur": 0.2,
+          "ease": "power2.out"
+        },
+        {
+          "to": "PULL",
+          "at": 0.7,
+          "dur": 0.14
+        },
+        {
+          "to": "RECEIVE",
+          "at": 0.9,
+          "dur": 0.3,
+          "ease": "power2.out"
+        },
+        {
+          "to": "LOCK",
+          "at": 2.6,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            430,
+            1250
+          ],
+          "to": [
+            430,
+            900
+          ],
+          "at": 0.6,
+          "dur": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            120,
+            820
+          ],
+          "text": "BRAZOS FIRMES",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "ASÍ NO",
+      "head": [
+        "PAUSA",
+        "REDONDEADA"
+      ],
+      "sub": "Perdés la posición",
+      "vo": "Así no: si en la pausa redondeás la espalda, perdés la posición y la barra se va.",
+      "moves": [
+        {
+          "cut": "PAUSE",
+          "at": 0
+        },
+        {
+          "to": "PAUSE_BAD",
+          "at": 0.7,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            950,
+            1080
+          ],
+          "text": "ESPALDA CURVA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.9,
+      "keys": [
+        "Pausa quieta, sin rebote",
+        "Espalda plana",
+        "Hombros delante de la barra",
+        "Menos peso que el snatch"
+      ],
+      "vo": "Claves: pausa quieta, espalda plana, hombros delante de la barra y menos peso que el snatch.",
+      "moves": [
+        {
+          "cut": "PAUSE",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 REPS"
+      ],
+      "sub": "Con pausa real",
+      "vo": "Tres repeticiones por serie, sin apuro. La pausa se siente, no se rebota.",
+      "chips": [
+        {
+          "label": "1 · PAUSA",
+          "at": 0.6
+        },
+        {
+          "label": "2 · EXTENDÉ",
+          "at": 2.6
+        },
+        {
+          "label": "3 · RECIBÍ",
+          "at": 3.2
+        }
+      ],
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "KNEE",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "PAUSE",
+          "at": 1.1,
+          "dur": 0.4
+        },
+        {
+          "to": "EXT",
+          "at": 3.4,
+          "dur": 0.2,
+          "ease": "power2.out"
+        },
+        {
+          "to": "PULL",
+          "at": 3.6,
+          "dur": 0.14
+        },
+        {
+          "to": "RECEIVE",
+          "at": 3.8,
+          "dur": 0.3,
+          "ease": "power2.out"
+        },
+        {
+          "to": "LOCK",
+          "at": 5.0,
+          "dur": 0.6
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "PAUSE",
+    "grip": 1,
+    "zoom": 1.15,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Snatch con pausa en la rodilla 🔥 Potencia y posición paso a paso | CrossFit",
+    "tags": [
+      "snatch con pausa",
+      "snatch pause at knee",
+      "snatch",
+      "arrancada",
+      "pausa en la rodilla",
+      "halterofilia",
+      "levantamiento olímpico",
+      "barra",
+      "técnica",
+      "crossfit"
+    ],
+    "descripcion": "🔥 SNATCH CON PAUSA EN LA RODILLA — la arrancada con una pausa de 2 segundos que te ordena la posición\n\nSi la barra se te escapa adelante o salís con la espalda redonda, la pausa en la rodilla te enseña a sentir la posición correcta. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Misma salida que el snatch: agarre ancho, espalda neutra y hombros sobre la barra.\n2️⃣ Subí la barra hasta la rodilla y frená ahí dos segundos completos.\n3️⃣ En la pausa: espalda plana, hombros delante de la barra y peso en el mediopié.\n4️⃣ Reanudá con extensión explosiva y recibí arriba, con los brazos bloqueados.\n\n✅ CLAVES DE TÉCNICA\n• Durante la pausa: espalda plana y hombros delante de la barra\n• Peso en el mediopié, sin rebotar\n• Reanudá con potencia explosiva\n• Usar menos peso que el snatch normal\n• La pausa enseña a sentir la posición antes de la extensión\n\n🎯 QUÉ TRABAJA\nRecto femoral · Deltoides anterior · Glúteo mayor · Recto abdominal · Trapecio superior\n\n⏱️ CUÁNTO\n3 repeticiones por serie. Va en bloques de halterofilia y habilidad, antes de los WODs.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nEs un ejercicio técnico: usá menos peso que en el snatch y hacelo con un coach al lado si recién arrancás.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Halterofilia #Snatch #Técnica #Entrenamiento"
+  }
+}

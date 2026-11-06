@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "317c7fbb-5fb1-4b98-9700-c5dc2a6c7707",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "b6664855e11bd166db94395166e9da8eaac82899d72d6d6495f78006b82dfb42",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\317c7fbb-5fb1-4b98-9700-c5dc2a6c7707\\blobs\\b6\\b6664855e11bd166db94395166e9da8eaac82899d72d6d6495f78006b82dfb42"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\317c7fbb-5fb1-4b98-9700-c5dc2a6c7707\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "3785935d284993327a3bb8e1cd1b310a0c7833777c95be0d744e277efc4ff065",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\317c7fbb-5fb1-4b98-9700-c5dc2a6c7707\\blobs\\37\\3785935d284993327a3bb8e1cd1b310a0c7833777c95be0d744e277efc4ff065"
+    },
+    "meta.json": {
+      "hash": "eceb33861e746e654d91446a1a30b87a98449014eb6bbdb80e58a7110306cb26",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\317c7fbb-5fb1-4b98-9700-c5dc2a6c7707\\blobs\\ec\\eceb33861e746e654d91446a1a30b87a98449014eb6bbdb80e58a7110306cb26"
+    },
+    "package.json": {
+      "hash": "6e47840c82467e423cc2dfe636580d21faf300952536bbeb4c2aeb55aa299905",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\317c7fbb-5fb1-4b98-9700-c5dc2a6c7707\\blobs\\6e\\6e47840c82467e423cc2dfe636580d21faf300952536bbeb4c2aeb55aa299905"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "75cf0ea2-6532-4f16-9e2a-9fd1e3a49112",
+      "completedAt": 1793877429857,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\tempo-squat-3-1-3\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

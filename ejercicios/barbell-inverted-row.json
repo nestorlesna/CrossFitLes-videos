@@ -1,0 +1,378 @@
+{
+  "slug": "barbell-inverted-row",
+  "name": "Barbell Inverted Row",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Espalda",
+    "Bíceps",
+    "Tracción"
+  ],
+  "descripcion": "Acostado boca arriba debajo de una barra fija a la altura de la cadera, agarrar la barra a ancho de hombros y, con el cuerpo rígido como una tabla y los talones apoyados, llevar el pecho hacia la barra. Bajar controlado hasta extender los brazos.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 150,
+    "y": 1500,
+    "scale": 0.62
+  },
+  "pronuncia": {
+    "Barbell Inverted Row": "Bárbel invérted ro",
+    "barbell": "bárbel"
+  },
+  "initialPose": "EXT",
+  "props": [
+    {
+      "type": "pullupbar",
+      "bar": [
+        730,
+        -640
+      ],
+      "postX": 1020
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "EXT": {
+      "hip": [
+        433,
+        -184
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 67,
+      "hd": 50,
+      "ft": 0,
+      "g": 1,
+      "hx": 730,
+      "hy": -640,
+      "ed": 1
+    },
+    "MID": {
+      "hip": [
+        415,
+        -222
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 62,
+      "hd": 46,
+      "ft": 0,
+      "g": 1,
+      "hx": 730,
+      "hy": -640,
+      "ed": -1
+    },
+    "PULL": {
+      "hip": [
+        390,
+        -263
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 56,
+      "hd": 42,
+      "ft": 0,
+      "g": 1,
+      "hx": 730,
+      "hy": -640,
+      "ed": -1
+    },
+    "SAG_BAD": {
+      "hip": [
+        433,
+        -120
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 76,
+      "hd": 56,
+      "ft": 0,
+      "g": 1,
+      "hx": 730,
+      "hy": -640,
+      "ed": 1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "BARBELL",
+        "INVERTED ROW"
+      ],
+      "vo": "Barbell Inverted Row: el remo invertido con barra. Espalda fuerte y base para dominadas.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "MID",
+              0.5
+            ],
+            [
+              "PULL",
+              0.5
+            ],
+            [
+              "MID",
+              0.5
+            ],
+            [
+              "EXT",
+              0.5
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DEBAJO",
+        "DE LA BARRA"
+      ],
+      "sub": "Agarre al ancho de hombros",
+      "vo": "Acostate boca arriba debajo de la barra, a la altura de la cadera. Agarrala al ancho de los hombros y apoyá los talones.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "CUERPO",
+        "EN TABLA"
+      ],
+      "sub": "De talones a cabeza",
+      "vo": "Paso uno. Apretá glúteos y abdomen para que el cuerpo quede recto como una tabla, de los talones a la cabeza.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "SAG_BAD",
+          "at": 0.6,
+          "dur": 0.5
+        },
+        {
+          "to": "EXT",
+          "at": 1.8,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            780,
+            1450
+          ],
+          "text": "CADERA CAÍDA: NO",
+          "anchor": "middle",
+          "at": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "JUNTÁ LAS",
+        "ESCÁPULAS"
+      ],
+      "sub": "Antes de doblar los codos",
+      "vo": "Paso dos. Empezá juntando las escápulas y después flexioná los codos para subir.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "PECHO A",
+        "LA BARRA"
+      ],
+      "sub": "Sin perder la tabla",
+      "vo": "Paso tres. Llevá el pecho hacia la barra, sin que la cadera se caiga.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.6,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            780,
+            1450
+          ],
+          "text": "PECHO A LA BARRA",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "BAJÁ",
+        "CONTROLADO"
+      ],
+      "sub": "Hasta extender",
+      "vo": "Paso cuatro. Bajá controlado hasta extender los brazos. Para escalar, doblá las rodillas o subí la barra.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "EXT",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Cuerpo recto de talones a cabeza",
+        "Escápulas primero, codos después",
+        "Pecho a la barra",
+        "Escalar: rodillas dobladas"
+      ],
+      "vo": "Claves: cuerpo recto de talones a cabeza, primero escápulas y luego codos, pecho a la barra, y escalá doblando las rodillas.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "8 REPS"
+      ],
+      "sub": "Controlado",
+      "vo": "Ocho repeticiones. Subí con la espalda, mantené la tabla y bajá con control.",
+      "chips": [
+        {
+          "label": "1 · TIRÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PECHO",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "MID",
+              0.5
+            ],
+            [
+              "PULL",
+              0.5
+            ],
+            [
+              "MID",
+              0.5
+            ],
+            [
+              "EXT",
+              0.5
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "PULL",
+    "grip": 1,
+    "zoom": 1,
+    "dy": 160
+  },
+  "youtube": {
+    "titulo": "Barbell Inverted Row 🔥 espalda fuerte paso a paso | CrossFit",
+    "descripcion": "🔥 BARBELL INVERTED ROW — espalda y bíceps con el peso de tu cuerpo.\n\nSi querés una espalda fuerte y mejorar tus dominadas, este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Acostate boca arriba debajo de la barra, a la altura de la cadera. Agarrala al ancho de los hombros y apoyá los talones.\n2️⃣ Apretá glúteos y abdomen para que el cuerpo quede recto como una tabla, de los talones a la cabeza.\n3️⃣ Empezá juntando las escápulas y después flexioná los codos para subir.\n4️⃣ Llevá el pecho hacia la barra, sin que la cadera se caiga.\n5️⃣ Bajá controlado hasta extender los brazos. Para escalar, doblá las rodillas o subí la barra.\n\n✅ CLAVES DE TÉCNICA\n• Cuerpo en línea recta de talones a cabeza (glúteos y abdomen firmes)\n• Iniciar juntando escápulas y luego flexionar los codos\n• Llevar el pecho a la barra\n• Escalar doblando las rodillas o subiendo la barra\n\n🎯 QUÉ TRABAJA\nDorsal ancho · Bíceps braquial · Deltoides posterior · Flexores del antebrazo · Romboides · Trapecio medio\n\n⏱️ CUÁNTO\n8 repeticiones, como trabajo de fuerza o accesorio de dominadas.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\r\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Fuerza #BarbellInvertedRow #Espalda #Entrenamiento",
+    "tags": [
+      "barbell inverted row",
+      "remo invertido con barra",
+      "remo australiano",
+      "espalda",
+      "dominadas progresión",
+      "crossfit",
+      "tracción",
+      "bíceps",
+      "fuerza",
+      "barra"
+    ]
+  }
+}

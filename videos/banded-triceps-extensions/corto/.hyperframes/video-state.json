@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "59faee83-1f95-4302-8083-11a93e087a19",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "eacf44515d3b45ea3abb5e54601176226aca436e4a7f4f0a8c2d5d68e073228b",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\59faee83-1f95-4302-8083-11a93e087a19\\blobs\\ea\\eacf44515d3b45ea3abb5e54601176226aca436e4a7f4f0a8c2d5d68e073228b"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\59faee83-1f95-4302-8083-11a93e087a19\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "65107dd7a319ffb578ff3afc37b1bd1b32f05f5c77b9475e1119e44b1e5e20a2",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\59faee83-1f95-4302-8083-11a93e087a19\\blobs\\65\\65107dd7a319ffb578ff3afc37b1bd1b32f05f5c77b9475e1119e44b1e5e20a2"
+    },
+    "meta.json": {
+      "hash": "233d40fe2dd4314b00d947f979e7001d2daab2b8902a3f7b2aa09dd8d8e2a1ab",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\59faee83-1f95-4302-8083-11a93e087a19\\blobs\\23\\233d40fe2dd4314b00d947f979e7001d2daab2b8902a3f7b2aa09dd8d8e2a1ab"
+    },
+    "package.json": {
+      "hash": "b9bd9e6608afe54528f309d7713425c23655de2cc05c7e73fae76a00a6da9ec8",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\59faee83-1f95-4302-8083-11a93e087a19\\blobs\\b9\\b9bd9e6608afe54528f309d7713425c23655de2cc05c7e73fae76a00a6da9ec8"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "beadd08b-623f-47f2-8148-4711c3b2ef80",
+      "completedAt": 1793873337662,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\banded-triceps-extensions\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

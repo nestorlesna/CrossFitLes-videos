@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "1cbdcd13-24f9-4df5-8434-3a9a40f1abc4",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "3759298eaca69caca51dc2aa950dc106710448f45d3d5172b5b12cd7fce59084",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1cbdcd13-24f9-4df5-8434-3a9a40f1abc4\\blobs\\37\\3759298eaca69caca51dc2aa950dc106710448f45d3d5172b5b12cd7fce59084"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1cbdcd13-24f9-4df5-8434-3a9a40f1abc4\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "18346731da671d95ef07be5bef4b0c2a5c33c31574028433adc92d0bec8ffbdf",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1cbdcd13-24f9-4df5-8434-3a9a40f1abc4\\blobs\\18\\18346731da671d95ef07be5bef4b0c2a5c33c31574028433adc92d0bec8ffbdf"
+    },
+    "meta.json": {
+      "hash": "899d558957ea75b18da8cdd4baf2c964bc8578663d2db9a63b297cfc3d23ab48",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1cbdcd13-24f9-4df5-8434-3a9a40f1abc4\\blobs\\89\\899d558957ea75b18da8cdd4baf2c964bc8578663d2db9a63b297cfc3d23ab48"
+    },
+    "package.json": {
+      "hash": "ef524c44bfa8621c023371f9d5720d72c0cdeb1af62c91685d5b48afe5e4d2ca",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1cbdcd13-24f9-4df5-8434-3a9a40f1abc4\\blobs\\ef\\ef524c44bfa8621c023371f9d5720d72c0cdeb1af62c91685d5b48afe5e4d2ca"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "5c317e2f-f6e1-4a23-9861-addc45f6b55a",
+      "completedAt": 1793877338342,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\snatch-with-pause-at-knee\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

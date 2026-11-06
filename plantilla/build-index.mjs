@@ -92,15 +92,55 @@ export function collectShots(dir) {
   return out;
 }
 
+// ── Video corto (sin voz): la escena de portada (título + tags + movimiento) con 2–3 repeticiones del ejercicio ──
+// Toma los `moves` de la portada de la ficha: si traen un ciclo (`seq` / `loop` con until "end") lo repite `n` veces (count);
+// si son solo transiciones (`to`/`cut`), repite toda la cadena n veces. n = 3 por defecto; 2 si el video pasaría de CORTO_MAX s;
+// si queda por debajo de CORTO_MIN s (ejercicios muy rápidos: correr, saltos) suma repeticiones hasta llegar.
+export const CORTO_MIN = 8, CORTO_MAX = 16, CORTO_COLA = 0.8, CORTO_GAP = 0.35;
+function pickReps(lead, cyc) {
+  let n = 3;
+  if (lead + n * cyc + CORTO_COLA > CORTO_MAX) n = 2;
+  while (lead + n * cyc + CORTO_COLA < CORTO_MIN && n < 40) n++;
+  return n;
+}
+export function cortoMoves(hook, initialPose) {
+  const ms = hook.moves || [];
+  const S = ms.find((m) => (m.loop || m.seq) && m.until === "end");
+  if (S) {
+    const cyc = (S.seq || S.loop.map((k) => [k, S.step || 0.4])).reduce((a, [, d]) => a + d, 0);
+    const n = pickReps(S.at, cyc);
+    const { until, ...rest } = S;
+    return { moves: [...ms.filter((m) => m !== S), { ...rest, count: n }], reps: n, total: +(S.at + n * cyc + CORTO_COLA).toFixed(2) };
+  }
+  const end = (m) => m.at + (m.dur ?? 0.3);
+  const D = Math.max(0.5, ...ms.map(end));
+  const first = ms.find((m) => m.cut || m.to), last = [...ms].reverse().find((m) => m.to || m.cut);
+  const startPose = first?.cut || initialPose, endPose = last?.to || last?.cut;
+  const reset = endPose !== startPose && !first?.cut; // la cadena no vuelve a la pose inicial y no empieza con corte: volver con un `to`
+  const R = reset ? 0.4 : 0, C = D + CORTO_GAP + R;
+  const n = pickReps(0, C);
+  const out = [];
+  for (let r = 0; r < n; r++) {
+    const off = +(r * C).toFixed(3);
+    if (r > 0 && reset) out.push({ to: startPose, at: +(off - R).toFixed(3), dur: 0.3 });
+    ms.forEach((m) => {
+      if (r > 0 && m.cut && endPose === startPose) return; // la rep anterior ya terminó en la pose inicial: sin corte
+      out.push({ ...m, at: +(m.at + off).toFixed(3) });
+    });
+  }
+  return { moves: out, reps: n, total: +(n * C - CORTO_GAP + CORTO_COLA).toFixed(2) };
+}
+
 export const THUMB_AT = 2.6; // instante de la miniatura: entradas de texto, tags y personaje ya completas
 
-export function buildIndex(projectDir, { thumb = false } = {}) {
+export function buildIndex(projectDir, { thumb = false, corto = false } = {}) {
   const P = resolve(projectDir);
   const spec = JSON.parse(readFileSync(join(P, "exercise.json"), "utf8"));
   const metaPath = join(P, "audio_engine_meta.json");
   const meta = existsSync(metaPath) ? JSON.parse(readFileSync(metaPath, "utf8")) : { voices: [] };
   const voice = Object.fromEntries((meta.voices || []).map((v) => [v.id, v]));
   const warnings = [];
+  const OUTDIR = thumb ? join(P, "miniatura") : corto ? join(P, "corto") : P;
 
   const poses = Object.fromEntries(Object.entries(spec.poses).map(([k, v]) => [k, normalizePose(v)]));
   const RIGX = { ...RIG, ...(spec.rig || {}) };
@@ -115,13 +155,23 @@ export function buildIndex(projectDir, { thumb = false } = {}) {
     voice[hook.id] = undefined;
   }
 
+  let cortoInfo = null;
+  if (corto) {
+    const hook = frames.find((f) => f.kind === "hook") || frames[0];
+    cortoInfo = cortoMoves({ ...hook, moves: hook.rawMoves }, spec.initialPose || Object.keys(poses)[0]);
+    frames = [{ ...hook, moves: [], rawMoves: cortoInfo.moves, cutsRel: [], min: cortoInfo.total }];
+    frames[0].moves = expandMoves({ moves: cortoInfo.moves }).moves;
+    frames[0].cutsRel = expandMoves({ moves: cortoInfo.moves }).cuts;
+    Object.keys(voice).forEach((k) => (voice[k] = undefined));
+  }
+
   // Durations: voice-driven, never shorter than the frame's last scheduled action.
   let t = 0;
   for (const f of frames) {
     const v = voice[f.id];
     const acts = [...(f.moves || []).map((m) => m.at + m.dur), ...(f.overlays || []).map((o) => o.at + 0.6), ...(f.chips || []).map((c) => c.at + 0.5)];
     const need = Math.max(f.min || 4, v ? VO_LEAD + v.duration_s + TAIL : 0, acts.length ? Math.max(...acts) + 0.45 : 0);
-    if (!v && !thumb) warnings.push(`frame ${f.id}: sin voz generada`);
+    if (!v && !thumb && !corto) warnings.push(`frame ${f.id}: sin voz generada`);
     f.start = +t.toFixed(3);
     f.dur = +need.toFixed(3);
     t += f.dur;
@@ -194,7 +244,7 @@ export function buildIndex(projectDir, { thumb = false } = {}) {
     return clip(`txt-${f.id}`, f, "scene-text", inner, 3);
   });
   const numerals = frames.filter((f) => f.numeral).map((f) => clip(`num-${f.id}`, f, "numeral", esc(f.numeral), 1, ' data-layout-ignore aria-hidden="true"'));
-  const subs = thumb ? [] : frames.map((f) => clip(`sub-${f.id}`, f, "subtitle", `<p>${esc(f.vo)}</p>`, 5));
+  const subs = thumb || corto ? [] : frames.map((f) => clip(`sub-${f.id}`, f, "subtitle", `<p>${esc(f.vo)}</p>`, 5));
   const extras = [];
   frames.forEach((f) => {
     if (f.stance)
@@ -428,15 +478,15 @@ export function buildIndex(projectDir, { thumb = false } = {}) {
   });
 
   const audio = frames
-    .filter((f) => voice[f.id] && !thumb)
+    .filter((f) => voice[f.id] && !thumb && !corto)
     .map((f) => `<audio id="vo-${f.id}" src="${voice[f.id].path}" data-start="${+(f.start + VO_LEAD).toFixed(3)}" data-duration="${voice[f.id].duration_s}" data-track-index="10" data-volume="1"></audio>`);
 
   // Shared music bed (plantilla/musica/bgm-base.wav, ~177s, pre-looped with crossfades) trimmed to length.
   let bgm = "";
   const bed = join(HERE, "musica", "bgm-base.wav");
   if (!thumb && spec.music !== false && existsSync(bed)) {
-    mkdirSync(join(P, "assets", "bgm"), { recursive: true });
-    const out = join(P, "assets", "bgm", "track-long.wav");
+    mkdirSync(join(OUTDIR, "assets", "bgm"), { recursive: true });
+    const out = join(OUTDIR, "assets", "bgm", "track-long.wav");
     const r = spawnSync("ffmpeg", ["-y", "-loglevel", "error", "-i", bed, "-t", String(total + 1), out]);
     if (r.status === 0) {
       const vol = spec.musicVolume ?? 0.18;
@@ -477,7 +527,7 @@ ${css}${thumb ? `
           <g id="overlays"></g>
         </svg>
       </div>
-      ${thumb ? "" : `<div id="topbar" class="clip" data-start="${f2.start}" data-duration="${+(total - f2.start).toFixed(3)}" data-track-index="4"><div class="inner"><span><b>${esc(spec.name.toUpperCase())}</b></span><span>${esc(spec.category || "CROSSFIT")}</span></div></div>`}
+      ${thumb || corto ? "" : `<div id="topbar" class="clip" data-start="${f2.start}" data-duration="${+(total - f2.start).toFixed(3)}" data-track-index="4"><div class="inner"><span><b>${esc(spec.name.toUpperCase())}</b></span><span>${esc(spec.category || "CROSSFIT")}</span></div></div>`}
       ${textBlocks.join("\n      ")}
       ${extras.join("\n      ")}
       ${subs.join("\n      ")}
@@ -498,6 +548,13 @@ ${runtime}
     for (const f of ["hyperframes.json", "meta.json", "package.json"]) if (existsSync(join(P, f))) writeFileSync(join(T, f), readFileSync(join(P, f)));
     writeFileSync(join(T, "index.html"), html);
     return { dir: T, at: THUMB_AT, pose: initialPose };
+  }
+  if (corto) {
+    const C = join(P, "corto");
+    mkdirSync(C, { recursive: true });
+    for (const f of ["hyperframes.json", "meta.json", "package.json"]) if (existsSync(join(P, f))) writeFileSync(join(C, f), readFileSync(join(P, f)));
+    writeFileSync(join(C, "index.html"), html);
+    return { dir: C, total, reps: cortoInfo.reps, music: !!bgm, warnings };
   }
   writeFileSync(join(P, "index.html"), html);
   return { total, frames: frames.map((f) => ({ id: f.id, start: f.start, dur: f.dur })), warnings, voices: Object.keys(voice).length, music: !!bgm };

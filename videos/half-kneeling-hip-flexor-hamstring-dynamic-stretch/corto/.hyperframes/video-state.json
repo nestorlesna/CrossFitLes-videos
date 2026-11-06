@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "ee515069-3e53-4bd7-970c-8f4b82db2c0a",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "eacf44515d3b45ea3abb5e54601176226aca436e4a7f4f0a8c2d5d68e073228b",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ee515069-3e53-4bd7-970c-8f4b82db2c0a\\blobs\\ea\\eacf44515d3b45ea3abb5e54601176226aca436e4a7f4f0a8c2d5d68e073228b"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ee515069-3e53-4bd7-970c-8f4b82db2c0a\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "80c8b26e3b9dbf688e3c294366023a3b1dbe1a40f6d49685b2c18aeb2208b04e",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ee515069-3e53-4bd7-970c-8f4b82db2c0a\\blobs\\80\\80c8b26e3b9dbf688e3c294366023a3b1dbe1a40f6d49685b2c18aeb2208b04e"
+    },
+    "meta.json": {
+      "hash": "712a2ed06be6a596577a049e5371b62be1e37118a676910969ed9c11e987d69f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ee515069-3e53-4bd7-970c-8f4b82db2c0a\\blobs\\71\\712a2ed06be6a596577a049e5371b62be1e37118a676910969ed9c11e987d69f"
+    },
+    "package.json": {
+      "hash": "2bfeb86614d064108e0afed73a0cc2a1ae59d2d367bcd17dd02c71a0e75b2e53",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ee515069-3e53-4bd7-970c-8f4b82db2c0a\\blobs\\2b\\2bfeb86614d064108e0afed73a0cc2a1ae59d2d367bcd17dd02c71a0e75b2e53"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "773d1d89-eedc-40a9-9b27-79df479150a9",
+      "completedAt": 1793874450981,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\half-kneeling-hip-flexor-hamstring-dynamic-stretch\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

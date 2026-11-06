@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Jumping Jack",
+      "text": "El salto abriendo y cerrando piernas y brazos. El clásico para entrar en calor."
+    },
+    {
+      "id": "02",
+      "text": "Parate con los pies juntos y los brazos pegados a los costados. Mirada al frente y abdomen firme."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Saltá abriendo las piernas más allá del ancho de los hombros y subí los brazos por los costados."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Arriba, los brazos se juntan sobre la cabeza sin bloquear los codos. Aterrizá suave sobre la planta del pie."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Saltá otra vez juntando los pies y bajando los brazos a los costados."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Encadená los saltos a ritmo parejo: abrir, cerrar, abrir. Que el aterrizaje sea liviano y silencioso."
+    },
+    {
+      "id": "07",
+      "text": "Claves: rodillas alineadas con la punta de los pies, codos sin bloquear arriba, aterrizaje liviano sobre la planta y abdomen firme."
+    },
+    {
+      "id": "08",
+      "text": "Veinte segundos a ritmo continuo. Abrí, cerrá y mantené el aterrizaje liviano."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

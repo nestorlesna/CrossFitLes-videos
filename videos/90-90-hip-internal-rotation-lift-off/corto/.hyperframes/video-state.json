@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "3a384c31-02a9-42a1-abee-4dcf0041e8f7",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "4b1fd92902b8cf8c08594bf99b34b4ca7e54314f2782d43a8fa1472380efeff5",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\3a384c31-02a9-42a1-abee-4dcf0041e8f7\\blobs\\4b\\4b1fd92902b8cf8c08594bf99b34b4ca7e54314f2782d43a8fa1472380efeff5"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\3a384c31-02a9-42a1-abee-4dcf0041e8f7\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "fe3332d4e8dee6ab49dee4c1275c17ccaa1ac0df2d804e4f0e516990e279aeb0",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\3a384c31-02a9-42a1-abee-4dcf0041e8f7\\blobs\\fe\\fe3332d4e8dee6ab49dee4c1275c17ccaa1ac0df2d804e4f0e516990e279aeb0"
+    },
+    "meta.json": {
+      "hash": "520451b86b9d0ddba592fdb042dc88cb1928df5f3bc7b8475eba6991872b98eb",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\3a384c31-02a9-42a1-abee-4dcf0041e8f7\\blobs\\52\\520451b86b9d0ddba592fdb042dc88cb1928df5f3bc7b8475eba6991872b98eb"
+    },
+    "package.json": {
+      "hash": "894a9024de82512ba10dbe027093ab4da93d153e25aebd57a1efade35f6581e2",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\3a384c31-02a9-42a1-abee-4dcf0041e8f7\\blobs\\89\\894a9024de82512ba10dbe027093ab4da93d153e25aebd57a1efade35f6581e2"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "e751cfe7-5b5d-43c5-ae85-9b13a5ae738c",
+      "completedAt": 1793875020314,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\90-90-hip-internal-rotation-lift-off\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

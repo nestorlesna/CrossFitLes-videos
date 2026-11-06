@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "ed7710cc-4fc3-462a-a1cc-52869d5b3108",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "6afc709bb8af650dd3f97e57d384e96baaf664c3bee8fa31b17727389912e382",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ed7710cc-4fc3-462a-a1cc-52869d5b3108\\blobs\\6a\\6afc709bb8af650dd3f97e57d384e96baaf664c3bee8fa31b17727389912e382"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ed7710cc-4fc3-462a-a1cc-52869d5b3108\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "d15b03fe430265d9f38d003b82811cbe2b526ac05827634203fec531c97f7bd2",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ed7710cc-4fc3-462a-a1cc-52869d5b3108\\blobs\\d1\\d15b03fe430265d9f38d003b82811cbe2b526ac05827634203fec531c97f7bd2"
+    },
+    "meta.json": {
+      "hash": "6873f5bee29e271f6703942b41909022aec642e7f991057712af395f75683711",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ed7710cc-4fc3-462a-a1cc-52869d5b3108\\blobs\\68\\6873f5bee29e271f6703942b41909022aec642e7f991057712af395f75683711"
+    },
+    "package.json": {
+      "hash": "425249328c5e7d6f8c73928b6e66b72461ad3fe95c9bd7e4328541b7f12119f7",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ed7710cc-4fc3-462a-a1cc-52869d5b3108\\blobs\\42\\425249328c5e7d6f8c73928b6e66b72461ad3fe95c9bd7e4328541b7f12119f7"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "1b0b5858-5f08-426e-949d-93aa2db60f14",
+      "completedAt": 1793877061048,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\reverse-snow-angels\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

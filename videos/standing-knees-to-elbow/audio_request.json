@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Standing Knees to Elbow",
+      "text": "Rodillas al codo de pie. Cardio y abdomen en un solo movimiento."
+    },
+    {
+      "id": "02",
+      "text": "Parate con los pies al ancho de la cadera y los brazos arriba, con las manos detrás de la cabeza o estirados."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Subí una rodilla hacia el codo, del mismo lado o del contrario, contrayendo el abdomen."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Al contraer, redondeá levemente la espalda alta para acercar codo y rodilla. No hace falta saltar."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Subí la rodilla hasta la altura de la cadera. Si queda muy baja, el abdomen casi no trabaja."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Alterná a ritmo de cardio, manteniendo el equilibrio sobre la pierna de apoyo."
+    },
+    {
+      "id": "07",
+      "text": "Claves: rodilla a la altura de la cadera, redondeá la espalda alta al contraer, equilibrio firme y sin saltar."
+    },
+    {
+      "id": "08",
+      "text": "Treinta segundos a ritmo de cardio. Rodilla alta, abdomen firme y sin saltar."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

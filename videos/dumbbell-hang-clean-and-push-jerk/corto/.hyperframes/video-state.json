@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "963b7dbf-518a-40fc-9871-b2a601415f7c",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "958c912cd7c4e9bacf212c4dc4d215820e576565c96bb3fdf618a409dff0a7b9",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\963b7dbf-518a-40fc-9871-b2a601415f7c\\blobs\\95\\958c912cd7c4e9bacf212c4dc4d215820e576565c96bb3fdf618a409dff0a7b9"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\963b7dbf-518a-40fc-9871-b2a601415f7c\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "68605bddb3929839bda1c163d2037be5ed230b0540e09823cb00b9a69ea36d89",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\963b7dbf-518a-40fc-9871-b2a601415f7c\\blobs\\68\\68605bddb3929839bda1c163d2037be5ed230b0540e09823cb00b9a69ea36d89"
+    },
+    "meta.json": {
+      "hash": "cd8b877ae444d60e7cba387aaace63f200ba077dbec51a0520e1d20bfc480e87",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\963b7dbf-518a-40fc-9871-b2a601415f7c\\blobs\\cd\\cd8b877ae444d60e7cba387aaace63f200ba077dbec51a0520e1d20bfc480e87"
+    },
+    "package.json": {
+      "hash": "a84c4d02509b3248711c96b207c8b31d703591efba9901853271e26f9fa8cae4",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\963b7dbf-518a-40fc-9871-b2a601415f7c\\blobs\\a8\\a84c4d02509b3248711c96b207c8b31d703591efba9901853271e26f9fa8cae4"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "ba9dc8d4-2ee1-476e-87d0-ffc4cdfbf24c",
+      "completedAt": 1793874036400,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\dumbbell-hang-clean-and-push-jerk\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

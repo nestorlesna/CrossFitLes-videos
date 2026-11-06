@@ -1,0 +1,307 @@
+{
+  "slug": "towel-isometric-row",
+  "name": "Towel Isometric Row",
+  "category": "CROSSFIT · ACCESORIO",
+  "tags": [
+    "Dorsal",
+    "Espalda",
+    "Isométrico"
+  ],
+  "descripcion": "Sentado en el piso con una toalla pasada por las plantas de los pies, se tira como remando sin que la toalla ceda. Tensión máxima en la espalda sin equipamiento.",
+  "revisado": false,
+  "notas": "La toalla se dibuja con el prop band (w 22, ring false) anclado a las plantas de los pies; el tirón es isométrico, con la espalda alta y los codos atrás.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 520,
+    "y": 1504,
+    "scale": 0.82
+  },
+  "pronuncia": {
+    "Towel": "táuel",
+    "Isometric": "aisométric",
+    "Row": "rou"
+  },
+  "initialPose": "SET",
+  "props": [
+    {
+      "type": "band",
+      "anchor": [
+        470,
+        0
+      ],
+      "hand": "near",
+      "color": "#C9B27E",
+      "w": 22,
+      "ring": false
+    }
+  ],
+  "poses": {
+    "SET": {
+      "hip": [
+        0,
+        0
+      ],
+      "s": -90,
+      "t": -90,
+      "ft": -90,
+      "ft2": -90,
+      "b": 4,
+      "hd": 2,
+      "g": 1,
+      "hx": 250,
+      "hy": -40,
+      "ed": -1,
+      "g2": 0,
+      "ua2": 30,
+      "fa2": 10
+    },
+    "PULL": {
+      "hip": [
+        0,
+        0
+      ],
+      "s": -90,
+      "t": -90,
+      "ft": -90,
+      "ft2": -90,
+      "b": -14,
+      "hd": -6,
+      "g": 1,
+      "hx": 120,
+      "hy": -190,
+      "ed": -1,
+      "cv": -8,
+      "g2": 0,
+      "ua2": 30,
+      "fa2": 10,
+      "hx2": 120,
+      "hy2": -190
+    },
+    "ROUND_BAD": {
+      "hip": [
+        0,
+        0
+      ],
+      "s": -90,
+      "t": -90,
+      "ft": -90,
+      "ft2": -90,
+      "b": 22,
+      "hd": 42,
+      "cv": 30,
+      "g": 0,
+      "ua": 62,
+      "fa": 30,
+      "ua2": 62,
+      "fa2": 30
+    },
+    "ELBOW_BAD": {
+      "hip": [
+        0,
+        0
+      ],
+      "s": -90,
+      "t": -90,
+      "ft": -90,
+      "ft2": -90,
+      "b": 2,
+      "hd": 4,
+      "g": 0,
+      "ua": 34,
+      "fa": 112,
+      "ua2": 34,
+      "fa2": 112
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACCESORIO",
+      "head": [
+        "TOWEL",
+        "ISOMETRIC ROW"
+      ],
+      "vo": "Towel Isometric Row: con una toalla en los pies, tirás como un remo sin que ceda. Espalda y brazos, sin pesas.",
+      "moves": [
+        {
+          "cut": "SET",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "PULL",
+              1.2
+            ],
+            [
+              "SET",
+              1.2
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "SENTADO",
+        "TOALLA EN",
+        "LOS PIES"
+      ],
+      "sub": "Piernas extendidas",
+      "vo": "Sentate con las piernas extendidas, pasá la toalla por las plantas y tomá las puntas.",
+      "moves": [
+        {
+          "cut": "SET",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "ESPALDA",
+        "DERECHA"
+      ],
+      "sub": "Pecho orgulloso",
+      "vo": "Paso uno. Sentate alto, con la espalda derecha y el pecho orgulloso. No te encorves.",
+      "moves": [
+        {
+          "cut": "SET",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "TIRÁ",
+        "AL 75%"
+      ],
+      "sub": "Codos atrás",
+      "vo": "Paso dos. Tirá de la toalla al setenta u ochenta por ciento, llevando los codos atrás y juntando los omóplatos.",
+      "moves": [
+        {
+          "cut": "SET",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.7,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "SOSTENÉ",
+        "Y RESPIRÁ"
+      ],
+      "sub": "Sin aguantar el aire",
+      "vo": "Paso tres. Sostené la tensión respirando corto y seguido. Nunca aguantes el aire.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            900
+          ],
+          "text": "RESPIRÁ CORTO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Espalda derecha",
+        "Codos atrás",
+        "Toalla tirante",
+        "Respirá corto"
+      ],
+      "vo": "Claves: espalda derecha, codos atrás, toalla tirante y respiración corta.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "Tensión pareja",
+      "chips": [
+        {
+          "label": "70-80%",
+          "at": 0.6
+        },
+        {
+          "label": "RESPIRÁ",
+          "at": 1.1
+        },
+        {
+          "label": "SIN CEDER",
+          "at": 1.6
+        }
+      ],
+      "vo": "Treinta segundos sostenidos, tres rondas. Trabajá al setenta u ochenta por ciento, no al máximo.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "PULL",
+    "grip": 1,
+    "zoom": 1.1,
+    "dy": 160
+  },
+  "youtube": {
+    "titulo": "Towel Isometric Row 🔥 remo isométrico con toalla | CrossFit",
+    "tags": [
+      "towel row",
+      "remo con toalla",
+      "remo isometrico",
+      "espalda con toalla",
+      "dorsal",
+      "isometrico",
+      "sin pesas",
+      "crossfit",
+      "accesorio",
+      "espalda"
+    ],
+    "descripcion": "🔥 TOWEL ISOMETRIC ROW — remo isométrico para la espalda sin equipamiento\n\n¿No tenés banda ni mancuernas? Una toalla y tus pies alcanzan para encender la espalda. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Sentate con las piernas extendidas y pasá la toalla por las plantas.\n2️⃣ Tomá las puntas y sentate alto, con el pecho orgulloso.\n3️⃣ Tirá de la toalla al 70-80%, llevando los codos atrás.\n4️⃣ Juntá los omóplatos y sostené sin que la toalla ceda.\n5️⃣ Respirá corto y seguido: nunca aguantes el aire.\n\n✅ CLAVES DE TÉCNICA\n• Espalda derecha\n• Codos atrás\n• Toalla tirante\n• Trabajá al 70-80%\n\n🎯 QUÉ TRABAJA\nDorsal ancho · Bíceps braquial · Flexores del antebrazo · Trapecio superior\n\n⏱️ CUÁNTO\n30 segundos sostenidos, 3 rondas. Ideal como accesorio de espalda o para viajar sin equipo.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés presión alta o mareos, no hagas apneas: respirá durante todo el isométrico.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #TowelRow #Espalda #Isometrico #Entrenamiento"
+  }
+}

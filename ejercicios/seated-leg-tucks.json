@@ -1,0 +1,370 @@
+{
+  "slug": "seated-leg-tucks",
+  "name": "Seated Leg Tucks",
+  "category": "CROSSFIT - CORE",
+  "tags": [
+    "Abdomen",
+    "Core",
+    "Peso corporal"
+  ],
+  "descripcion": "Sentado en el piso con el torso inclinado hacia atrás y las manos apoyadas, extender las piernas hacia adelante y tirar las rodillas al pecho de forma controlada, sin apoyar los pies ni la espalda.",
+  "revisado": false,
+  "notas": "El abdomen no se relaja: ni la espalda ni los pies tocan el piso entre repeticiones. La pose RECOSTADO es el error (descansar apoyado).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 520,
+    "y": 1504,
+    "scale": 0.82
+  },
+  "pronuncia": {
+    "Seated Leg Tucks": "Síted leg taks",
+    "Seated": "síted",
+    "Leg Tucks": "leg taks"
+  },
+  "initialPose": "SEATED",
+  "props": [],
+  "poses": {
+    "SEATED": {
+      "hip": [
+        -230,
+        0
+      ],
+      "s": -90,
+      "t": -90,
+      "ft": -90,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": -190,
+      "hy": 15
+    },
+    "LEAN_BACK": {
+      "hip": [
+        -230,
+        0
+      ],
+      "s": -90,
+      "t": -90,
+      "ft": -90,
+      "b": -32,
+      "hd": -24,
+      "g": 1,
+      "hx": -300,
+      "hy": 12
+    },
+    "LEGS_UP": {
+      "hip": [
+        -230,
+        0
+      ],
+      "s": -102,
+      "t": -102,
+      "ft": -74,
+      "b": -34,
+      "hd": -26,
+      "g": 1,
+      "hx": -300,
+      "hy": 12
+    },
+    "TUCK": {
+      "hip": [
+        -230,
+        0
+      ],
+      "s": 68,
+      "t": -162,
+      "ft": 40,
+      "b": -20,
+      "hd": -12,
+      "g": 1,
+      "hx": -200,
+      "hy": 15
+    },
+    "RECOSTADO": {
+      "hip": [
+        -110,
+        -6
+      ],
+      "s": -90,
+      "t": -90,
+      "ft": -90,
+      "b": -88,
+      "hd": -86,
+      "g": 0,
+      "ua": 88,
+      "fa": 6,
+      "ua2": 92,
+      "fa2": 4
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT - CORE",
+      "head": [
+        "SEATED",
+        "LEG TUCKS"
+      ],
+      "vo": "Seated Leg Tucks: sentado, llevás las rodillas al pecho sin apoyar los pies.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "TUCK",
+              0.45
+            ],
+            [
+              "LEGS_UP",
+              0.45
+            ],
+            [
+              "SEATED",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 4.8,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "SENTADO",
+        "PIERNAS ESTIRADAS"
+      ],
+      "sub": "Manos al lado de la cadera",
+      "vo": "Sentate con las piernas estiradas y la espalda derecha, con las manos al lado de la cadera.",
+      "moves": [
+        {
+          "cut": "SEATED",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "INCLINÁ",
+        "EL TORSO"
+      ],
+      "sub": "Manos atrás",
+      "vo": "Paso uno. Inclinate un poco hacia atrás y apoyá las manos detrás de la cadera.",
+      "moves": [
+        {
+          "cut": "SEATED",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BACK",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1020,
+            1330
+          ],
+          "text": "MANOS ATRÁS",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "SUBÍ",
+        "LAS PIERNAS"
+      ],
+      "sub": "Sin tocar el piso",
+      "vo": "Paso dos. Despegá los pies del piso con las piernas estiradas y el abdomen firme.",
+      "moves": [
+        {
+          "cut": "LEAN_BACK",
+          "at": 0
+        },
+        {
+          "to": "LEGS_UP",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1020,
+            1230
+          ],
+          "text": "PIES AFUERA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "RODILLAS",
+        "AL PECHO"
+      ],
+      "sub": "Y volvé a estirar",
+      "vo": "Paso tres. Tirá las rodillas al pecho y volvé a estirar sin apoyar los pies.",
+      "moves": [
+        {
+          "cut": "LEGS_UP",
+          "at": 0
+        },
+        {
+          "to": "TUCK",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "ASÍ NO",
+      "head": [
+        "ESPALDA",
+        "APOYADA"
+      ],
+      "sub": "Se pierde la tensión",
+      "vo": "Así no: si te recostás entre repeticiones, perdés la tensión del abdomen.",
+      "moves": [
+        {
+          "cut": "TUCK",
+          "at": 0
+        },
+        {
+          "to": "RECOSTADO",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1300
+          ],
+          "text": "ABDOMEN ACTIVO",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 1,
+      "keys": [
+        "Abdomen firme",
+        "Manos atrás",
+        "Pies sin apoyo",
+        "Movimiento corto"
+      ],
+      "vo": "Claves: abdomen firme, manos atrás, pies que no tocan el piso y un movimiento corto y controlado.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "TUCK",
+              0.45
+            ],
+            [
+              "LEGS_UP",
+              0.45
+            ],
+            [
+              "SEATED",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "20 S"
+      ],
+      "sub": "Sin apoyar espalda ni pies",
+      "vo": "Veinte segundos con el abdomen apretado, sin apoyar ni la espalda ni los pies.",
+      "chips": [
+        {
+          "label": "1 · RODILLAS",
+          "at": 0.4
+        },
+        {
+          "label": "2 · ESTIRÁ",
+          "at": 1.2
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "TUCK",
+              0.45
+            ],
+            [
+              "LEGS_UP",
+              0.45
+            ],
+            [
+              "SEATED",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "LEGS_UP",
+    "grip": 1,
+    "zoom": 1.2,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Seated Leg Tucks 🔥 Abdominales sentado, sin apoyar los pies | CrossFit",
+    "tags": [
+      "seated leg tucks",
+      "leg tucks",
+      "abdominales sentado",
+      "abdominales en el piso",
+      "tuck up",
+      "core",
+      "recto abdominal",
+      "oblicuos",
+      "crossfit",
+      "accesorio de core"
+    ],
+    "descripcion": "🔥 SEATED LEG TUCKS — abdominales sentado, sin apoyar los pies\n\n¿Querés un abdominal que no te deje descansar? Sentado, con las manos atrás y los pies en el aire: el abdomen trabaja todo el tiempo. 💪\n\n📋 PASO A PASO\n1️⃣ Sentate con las piernas estiradas y la espalda derecha, con las manos al lado de la cadera.\n2️⃣ Inclinate un poco hacia atrás y apoyá las manos detrás de la cadera.\n3️⃣ Despegá los pies del piso con las piernas estiradas y el abdomen firme.\n4️⃣ Tirá las rodillas al pecho y volvé a estirar sin apoyar los pies.\n\n✅ CLAVES DE TÉCNICA\n• Abdomen firme todo el tiempo\n• Manos atrás para sostener el torso\n• Ni la espalda ni los pies se apoyan entre repeticiones\n• Movimiento corto y controlado\n• Respirá: no aguantes el aire\n\n🎯 QUÉ TRABAJA\nRecto abdominal · Oblicuos · Recto femoral\n\n⏱️ CUÁNTO\n20 segundos. Va como accesorio de core o al final del WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi sentís la espalda baja, apoyá los pies entre repeticiones y reducí el recorrido.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.\n\n#CrossFit #Core #Abdominales #Entrenamiento"
+  }
+}

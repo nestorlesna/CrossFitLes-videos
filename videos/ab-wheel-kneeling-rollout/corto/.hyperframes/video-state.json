@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "f265b51c-d479-4143-afa7-dc8b2f61140d",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "2b2f8313c29ae18c7648a7f046a3b0c46217f97f9a1a4b0e2b1afb3a4d7ca90c",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\f265b51c-d479-4143-afa7-dc8b2f61140d\\blobs\\2b\\2b2f8313c29ae18c7648a7f046a3b0c46217f97f9a1a4b0e2b1afb3a4d7ca90c"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\f265b51c-d479-4143-afa7-dc8b2f61140d\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "f5d2d326172d5b602922e669a1a0e5e7da8f38a61ec0081377dd0587e57d5d89",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\f265b51c-d479-4143-afa7-dc8b2f61140d\\blobs\\f5\\f5d2d326172d5b602922e669a1a0e5e7da8f38a61ec0081377dd0587e57d5d89"
+    },
+    "meta.json": {
+      "hash": "c23bee815a69fa5bbb1a723c0e0b739db537249831ca9dd0b9294b84a89e7480",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\f265b51c-d479-4143-afa7-dc8b2f61140d\\blobs\\c2\\c23bee815a69fa5bbb1a723c0e0b739db537249831ca9dd0b9294b84a89e7480"
+    },
+    "package.json": {
+      "hash": "7577055cca7da8a19d0278f0a4ca2ad4530916693db85d0901610dc805eae6ec",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\f265b51c-d479-4143-afa7-dc8b2f61140d\\blobs\\75\\7577055cca7da8a19d0278f0a4ca2ad4530916693db85d0901610dc805eae6ec"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "f619923d-3190-4071-b08f-227923e76fed",
+      "completedAt": 1793875327628,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\ab-wheel-kneeling-rollout\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

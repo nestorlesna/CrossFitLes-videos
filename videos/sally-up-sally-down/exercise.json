@@ -1,0 +1,333 @@
+{
+  "slug": "sally-up-sally-down",
+  "name": "Sally Up Sally Down",
+  "category": "CROSSFIT · RESISTENCIA",
+  "tags": [
+    "Piernas",
+    "Core",
+    "Resistencia"
+  ],
+  "descripcion": "Sentadilla isométrica al ritmo de la canción: bajar cuando dice Sally down y aguantar abajo hasta Sally up, sin perder la posición.",
+  "revisado": false,
+  "notas": "Sentadilla con tempo largo; adaptada de air-squat.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1502,
+    "scale": 0.9
+  },
+  "initialPose": "STAND",
+  "props": [],
+  "poses": {
+    "STAND": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 88,
+      "fa": 0,
+      "ua2": 88,
+      "fa2": 0
+    },
+    "DOWN": {
+      "hip": [
+        -150,
+        -205
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 40,
+      "hd": 24,
+      "g": 0,
+      "ua": 88,
+      "fa": 0,
+      "ua2": 88,
+      "fa2": 0
+    },
+    "HEELS_BAD": {
+      "hip": [
+        -150,
+        -205
+      ],
+      "ankle": [
+        30,
+        -30
+      ],
+      "b": 40,
+      "hd": 24,
+      "ft": -30,
+      "ft2": -30,
+      "g": 0,
+      "ua": 88,
+      "fa": 0,
+      "ua2": 88,
+      "fa2": 0
+    }
+  },
+  "miniatura": {
+    "pose": "DOWN",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Sally Up Sally Down 🔥 Sentadilla isométrica al ritmo | CrossFit",
+    "tags": [
+      "sally up sally down",
+      "sentadilla isométrica",
+      "sentadilla al ritmo",
+      "resistencia",
+      "piernas",
+      "isométrico",
+      "crossfit",
+      "desafío",
+      "sally up"
+    ],
+    "descripcion": "🔥 SALLY UP SALLY DOWN — sentadilla isométrica al ritmo\n\n¿Aguantás una canción entera en sentadilla? El reto Sally Up Sally Down es simple: bajás, aguantás y subís cuando la canción lo pide. 💪\n\n📋 PASO A PASO\n1️⃣ Parate con los pies al ancho de los hombros, el pecho arriba y los brazos al frente.\n2️⃣ Cuando dice down, bajá a paralelo y quedate abajo.\n3️⃣ Mantené los talones apoyados y las rodillas alineadas con los pies.\n4️⃣ Cuando dice up, subí extendiendo todo.\n5️⃣ Seguí el ritmo durante toda la canción.\n\n✅ CLAVES DE TÉCNICA\n• Pecho arriba todo el tiempo\n• Talones apoyados\n• Rodillas alineadas\n• Respirá y no pierdas la posición\n• Bajá y subí completo\n\n🎯 QUÉ TRABAJA\nCuádriceps · Glúteo mayor · Isquiotibiales · Core\n\n⏱️ CUÁNTO\nUna canción completa. Ideal como desafío de resistencia o finisher.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi perdés la posición, subí un segundo, respirá y volvé a bajar.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #SallyUp #Sentadilla #Resistencia #Isométrico"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · RESISTENCIA",
+      "head": [
+        "SALLY UP",
+        "SALLY DOWN"
+      ],
+      "vo": "Sally Up Sally Down: sentadilla al ritmo. Bajá cuando dice down y aguantá hasta up.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "STAND",
+              0.6
+            ],
+            [
+              "DOWN",
+              1.2
+            ],
+            [
+              "STAND",
+              0.6
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE",
+        "PECHO ARRIBA"
+      ],
+      "sub": "Pies al ancho",
+      "vo": "Parate con los pies al ancho de los hombros, el pecho arriba y los brazos al frente.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SALLY",
+        "DOWN"
+      ],
+      "sub": "Bajá y aguantá",
+      "vo": "Paso uno. Cuando dice down, bajá a paralelo y quedate abajo, sin perder el pecho arriba.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.6,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            900
+          ],
+          "text": "AGUANTÁ ABAJO",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "TALONES",
+        "APOYADOS"
+      ],
+      "sub": "Sin levantarlos",
+      "vo": "Paso dos. Mantené los talones apoyados y las rodillas alineadas con los pies mientras aguantás.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "HEELS_BAD",
+          "at": 2.0,
+          "dur": 0.6
+        },
+        {
+          "to": "DOWN",
+          "at": 3.0,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1020
+          ],
+          "text": "TALONES ABAJO",
+          "anchor": "middle",
+          "at": 0.6,
+          "out": 1.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1020
+          ],
+          "text": "LEVANTARLOS NO",
+          "anchor": "middle",
+          "at": 2.1,
+          "out": 3.0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "SALLY",
+        "UP"
+      ],
+      "sub": "Subí completo",
+      "vo": "Paso tres. Cuando dice up, subí extendiendo todo y volvé a bajar en la próxima repetición.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "STAND",
+          "at": 0.6,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "SUBÍ COMPLETO",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Pecho arriba todo el tiempo",
+        "Talones apoyados",
+        "Rodillas alineadas",
+        "Respirá y no pierdas la posición"
+      ],
+      "vo": "Claves: pecho arriba, talones apoyados, rodillas alineadas y respirá sin perder la posición.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "1 CANCIÓN"
+      ],
+      "sub": "Aguantá el tempo",
+      "vo": "Una canción completa. Seguí el ritmo: bajá en down, aguantá y subí en up.",
+      "chips": [
+        {
+          "label": "1 · DOWN",
+          "at": 0.6
+        },
+        {
+          "label": "2 · AGUANTÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · UP",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "STAND",
+              0.5
+            ],
+            [
+              "DOWN",
+              1.4
+            ],
+            [
+              "STAND",
+              0.5
+            ],
+            [
+              "DOWN",
+              1.4
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

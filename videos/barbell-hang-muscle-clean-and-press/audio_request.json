@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Barbell Hang Muscle Clean and Press",
+      "text": "La barra a los hombros sin rebotar las rodillas, y pres estricto."
+    },
+    {
+      "id": "02",
+      "text": "Parate con la barra colgada a media rótula, hombros por delante y espalda firme."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Extendé cadera y rodillas de golpe y mantené la barra pegada al cuerpo."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Girá los codos y llevá la barra a los hombros sin volver a flexionar las rodillas."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Press estricto: costillas abajo, glúteos firmes y la barra arriba sin impulso de piernas."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Si flexionás las rodillas para recibir, ya no es masel clean: es otra cargada."
+    },
+    {
+      "id": "07",
+      "text": "Claves: sin re-flexión de rodillas, barra pegada al cuerpo, codos rápidos al rack y pres sin impulso."
+    },
+    {
+      "id": "08",
+      "text": "Seis repeticiones: masel clean y pres estricto, sin rebotar las rodillas."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

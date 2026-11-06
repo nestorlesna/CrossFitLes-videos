@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Kettlebell pullover on wall ball",
+      "text": "Con la espalda alta en la pelota, bajás la kételbel detrás de la cabeza. Dorsal y hombro."
+    },
+    {
+      "id": "02",
+      "text": "Apoyá la espalda alta sobre la pelota, los pies bien plantados y la cadera alta."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Empujá con los pies y mantené la cadera alta y el glúteo activo para no arquear la lumbar."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Tomá la kételbel con las dos manos sobre el pecho y dejá los codos apenas flexionados."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Bajá la kételbel por detrás de la cabeza con los codos casi rectos y volvé sin despegar el torso."
+    },
+    {
+      "id": "06",
+      "text": "Claves: cadera alta, glúteo activo, codos casi rectos y bajá sólo hasta donde el torso siga apoyado."
+    },
+    {
+      "id": "07",
+      "text": "Doce repeticiones lentas, tres series. Elegí una pesa que te deje controlar la bajada."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

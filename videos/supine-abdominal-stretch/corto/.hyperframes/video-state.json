@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "977dfb4d-6ae8-4de7-85b8-84dc794b0f52",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "00a80670d533ba4f531c29a84b02d1f95697b18154bafd6fb24539216a53ec15",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\977dfb4d-6ae8-4de7-85b8-84dc794b0f52\\blobs\\00\\00a80670d533ba4f531c29a84b02d1f95697b18154bafd6fb24539216a53ec15"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\977dfb4d-6ae8-4de7-85b8-84dc794b0f52\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "0390d0734f3802f29c27dd1e20474c430b3a849a1e01c9e97d1272d0c5d8af43",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\977dfb4d-6ae8-4de7-85b8-84dc794b0f52\\blobs\\03\\0390d0734f3802f29c27dd1e20474c430b3a849a1e01c9e97d1272d0c5d8af43"
+    },
+    "meta.json": {
+      "hash": "d309406b0cd847734be7d061ea04d702b604fac1bc964d38e7f1aee0169261c6",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\977dfb4d-6ae8-4de7-85b8-84dc794b0f52\\blobs\\d3\\d309406b0cd847734be7d061ea04d702b604fac1bc964d38e7f1aee0169261c6"
+    },
+    "package.json": {
+      "hash": "1091ece57de49a1fc161f669704dc88a4bad3f711868a77580da227fb187b2d9",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\977dfb4d-6ae8-4de7-85b8-84dc794b0f52\\blobs\\10\\1091ece57de49a1fc161f669704dc88a4bad3f711868a77580da227fb187b2d9"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "352a63e8-7462-4469-899b-293f8e7eb762",
+      "completedAt": 1793881468003,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\supine-abdominal-stretch\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

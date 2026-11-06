@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Dumbbell Bicep Curl",
+      "text": "Curl de bíceps con mancuernas. Codos fijos y bajada controlada."
+    },
+    {
+      "id": "02",
+      "text": "De pie, con una mancuerna en cada mano, los brazos extendidos y las palmas hacia adelante."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Flexioná los codos llevando las mancuernas hacia los hombros, sin mover los codos del costado."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Apretá el bíceps arriba y evitá balancear el torso para subir el peso."
+    },
+    {
+      "id": "05",
+      "text": "Así no. Si te tirás para atrás para subir, el bíceps deja de trabajar. Bajá el peso y quedate firme."
+    },
+    {
+      "id": "06",
+      "text": "Claves: codos pegados, sin balanceo, apretá arriba y bajá en dos segundos."
+    },
+    {
+      "id": "07",
+      "text": "Doce repeticiones con ocho kilos por mano. Si el torso se mueve, el peso es demasiado."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "0a553c73-4017-4a5a-ab57-bdc3f89a74e2",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "101af7a336a104b09d765f08b4489c5be2ded3a58ab0b0dd1c29ba2f6c10618a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0a553c73-4017-4a5a-ab57-bdc3f89a74e2\\blobs\\10\\101af7a336a104b09d765f08b4489c5be2ded3a58ab0b0dd1c29ba2f6c10618a"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0a553c73-4017-4a5a-ab57-bdc3f89a74e2\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "de38c37d780b4c0c1314e00029b69e6883004a6545fddd19f0b0a6d9c99998d9",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0a553c73-4017-4a5a-ab57-bdc3f89a74e2\\blobs\\de\\de38c37d780b4c0c1314e00029b69e6883004a6545fddd19f0b0a6d9c99998d9"
+    },
+    "meta.json": {
+      "hash": "95759adbced9d4eefab039e16776b6fbbb8b3e7d93e7528e0b6fec359e26e132",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0a553c73-4017-4a5a-ab57-bdc3f89a74e2\\blobs\\95\\95759adbced9d4eefab039e16776b6fbbb8b3e7d93e7528e0b6fec359e26e132"
+    },
+    "package.json": {
+      "hash": "f3032be60ef651ed3b0dd525c9fda67cd74432af87d7d26840a2c73e3b9a411d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0a553c73-4017-4a5a-ab57-bdc3f89a74e2\\blobs\\f3\\f3032be60ef651ed3b0dd525c9fda67cd74432af87d7d26840a2c73e3b9a411d"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "b861136c-f54f-4bd7-8cbb-26d8f62d54f8",
+      "completedAt": 1793838960364,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\jump-rope\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

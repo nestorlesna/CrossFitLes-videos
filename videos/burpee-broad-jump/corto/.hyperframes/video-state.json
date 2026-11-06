@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "8c0d0b29-3b0f-411a-808a-4c415b7805e2",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "00a80670d533ba4f531c29a84b02d1f95697b18154bafd6fb24539216a53ec15",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\8c0d0b29-3b0f-411a-808a-4c415b7805e2\\blobs\\00\\00a80670d533ba4f531c29a84b02d1f95697b18154bafd6fb24539216a53ec15"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\8c0d0b29-3b0f-411a-808a-4c415b7805e2\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "89984235d94b05d8c317396f42900dfb69f4dfde48028ac28428b8ea3a3d3937",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\8c0d0b29-3b0f-411a-808a-4c415b7805e2\\blobs\\89\\89984235d94b05d8c317396f42900dfb69f4dfde48028ac28428b8ea3a3d3937"
+    },
+    "meta.json": {
+      "hash": "b4b0e1c68e948cc3813b10920972c6c5d9c36f56c626a2dbb72ae4e5ef8bac1f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\8c0d0b29-3b0f-411a-808a-4c415b7805e2\\blobs\\b4\\b4b0e1c68e948cc3813b10920972c6c5d9c36f56c626a2dbb72ae4e5ef8bac1f"
+    },
+    "package.json": {
+      "hash": "e419736bb0335cdc6383cf83303ee16e8a9c49c87ba4b7f56d83f193d04ed40f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\8c0d0b29-3b0f-411a-808a-4c415b7805e2\\blobs\\e4\\e419736bb0335cdc6383cf83303ee16e8a9c49c87ba4b7f56d83f193d04ed40f"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "71e8cc71-304a-4923-9c27-ff5a01ef4ff0",
+      "completedAt": 1793838358768,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\burpee-broad-jump\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

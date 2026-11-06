@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Banded Glute Kickback",
+      "text": "Con la banda en el tobillo, llevá la pierna atrás y apretá el glúteo."
+    },
+    {
+      "id": "02",
+      "text": "Anclá la banda adelante a poca altura y enganchala al tobillo, con la banda ya tensa."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Llevá la pierna atrás extendiendo la cadera, con la rodilla casi recta y el torso estable."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Apretá el glúteo arriba y volvé controlando, sin rebotar ni soltar la tensión."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si arqueás la lumbar para llevar la pierna atrás, el glúteo deja de trabajar."
+    },
+    {
+      "id": "06",
+      "text": "Claves: el movimiento sale de la cadera, el torso no se arquea, la rodilla queda casi extendida y el glúteo aprieta arriba."
+    },
+    {
+      "id": "07",
+      "text": "Veinte segundos alternando piernas: patada, apretá y volvé, sin rebotes."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

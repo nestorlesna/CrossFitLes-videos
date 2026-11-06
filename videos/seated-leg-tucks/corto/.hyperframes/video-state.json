@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "704bb6a7-b1af-4f76-99fa-74893e56cbc6",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "101af7a336a104b09d765f08b4489c5be2ded3a58ab0b0dd1c29ba2f6c10618a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\704bb6a7-b1af-4f76-99fa-74893e56cbc6\\blobs\\10\\101af7a336a104b09d765f08b4489c5be2ded3a58ab0b0dd1c29ba2f6c10618a"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\704bb6a7-b1af-4f76-99fa-74893e56cbc6\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "663e1986a4347d9de71ee3c8acb9c6019c1e678afd78feb79ca521e0dfd83b2a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\704bb6a7-b1af-4f76-99fa-74893e56cbc6\\blobs\\66\\663e1986a4347d9de71ee3c8acb9c6019c1e678afd78feb79ca521e0dfd83b2a"
+    },
+    "meta.json": {
+      "hash": "6e8c7d4f236276478fcce112640998a647e397ce99ca7a51fb702c5cc461c340",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\704bb6a7-b1af-4f76-99fa-74893e56cbc6\\blobs\\6e\\6e8c7d4f236276478fcce112640998a647e397ce99ca7a51fb702c5cc461c340"
+    },
+    "package.json": {
+      "hash": "c91626c68e8bf198ef20e9e54e355c7ed31da9ef9ca11cd3d00a5351240828cb",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\704bb6a7-b1af-4f76-99fa-74893e56cbc6\\blobs\\c9\\c91626c68e8bf198ef20e9e54e355c7ed31da9ef9ca11cd3d00a5351240828cb"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "7fc8b5bf-8b02-4074-8b49-cd9b0981efc3",
+      "completedAt": 1793878272483,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\seated-leg-tucks\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

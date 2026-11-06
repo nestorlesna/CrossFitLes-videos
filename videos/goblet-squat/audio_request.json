@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Goblet Squat",
+      "text": "Sentadilla con la pesa al pecho. Cuádriceps, core y glúteos con el torso erguido."
+    },
+    {
+      "id": "02",
+      "text": "De pie, sostené la kettlebell al pecho con las dos manos y los codos abajo. Pies al ancho de los hombros."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá sentando la cadera entre los pies, con el pecho arriba y la pesa pegada al cuerpo."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Llegá al fondo con el torso erguido y los talones apoyados. Si los talones se levantan, acortá la bajada."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Subí empujando con los pies y extendiendo la cadera, sin perder la pesa al pecho."
+    },
+    {
+      "id": "06",
+      "text": "Claves: pesa al pecho con los codos abajo, torso erguido, talones apoyados y rodillas hacia afuera."
+    },
+    {
+      "id": "07",
+      "text": "Diez repeticiones con quince kilos. Bajá con control y mantené la profundidad en todas."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

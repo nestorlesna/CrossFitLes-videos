@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "f8b132e2-cd55-4ca9-88e8-3f8d940f5958",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "0c87bd0d12702d140c61ad33b594c5791d5de1e0df87268a512abeea8efcc584",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\f8b132e2-cd55-4ca9-88e8-3f8d940f5958\\blobs\\0c\\0c87bd0d12702d140c61ad33b594c5791d5de1e0df87268a512abeea8efcc584"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\f8b132e2-cd55-4ca9-88e8-3f8d940f5958\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "e27875085bbd44da1f4aeec578f39ffe450e74d9d6a71ae6c89de72233541512",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\f8b132e2-cd55-4ca9-88e8-3f8d940f5958\\blobs\\e2\\e27875085bbd44da1f4aeec578f39ffe450e74d9d6a71ae6c89de72233541512"
+    },
+    "meta.json": {
+      "hash": "2e2ad4f7a32a7f326bcd022f8d2f545e1c7633cc51d3495d6159e36d2ecc4ba1",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\f8b132e2-cd55-4ca9-88e8-3f8d940f5958\\blobs\\2e\\2e2ad4f7a32a7f326bcd022f8d2f545e1c7633cc51d3495d6159e36d2ecc4ba1"
+    },
+    "package.json": {
+      "hash": "b75079044c7cc904f9274eec4367df8474abe4a82656518590cb856e0d18c815",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\f8b132e2-cd55-4ca9-88e8-3f8d940f5958\\blobs\\b7\\b75079044c7cc904f9274eec4367df8474abe4a82656518590cb856e0d18c815"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "30493382-04eb-47b9-95ab-94e6a54573ac",
+      "completedAt": 1793880619556,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\pec-deck-fly\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

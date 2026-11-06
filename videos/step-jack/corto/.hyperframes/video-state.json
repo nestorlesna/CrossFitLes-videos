@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "3fe08626-8a07-494c-8aa2-8649677d4ba3",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "3da01a417192e1e6e4130561d9a687c09329032e9961a3586e951e9498a8a6a8",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\3fe08626-8a07-494c-8aa2-8649677d4ba3\\blobs\\3d\\3da01a417192e1e6e4130561d9a687c09329032e9961a3586e951e9498a8a6a8"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\3fe08626-8a07-494c-8aa2-8649677d4ba3\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "841f983641227932337fb8b1dbabe5ad8a49cf946e21414340c6d6964e6ed486",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\3fe08626-8a07-494c-8aa2-8649677d4ba3\\blobs\\84\\841f983641227932337fb8b1dbabe5ad8a49cf946e21414340c6d6964e6ed486"
+    },
+    "meta.json": {
+      "hash": "be0a48139425333ecc7302b2e03ebe906f02a73eddb9963ed7232b3b938cbffc",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\3fe08626-8a07-494c-8aa2-8649677d4ba3\\blobs\\be\\be0a48139425333ecc7302b2e03ebe906f02a73eddb9963ed7232b3b938cbffc"
+    },
+    "package.json": {
+      "hash": "b06a3a878cfe6b79ba749f8479a3e5c86bd165aced4ace28927c3c1005c3443a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\3fe08626-8a07-494c-8aa2-8649677d4ba3\\blobs\\b0\\b06a3a878cfe6b79ba749f8479a3e5c86bd165aced4ace28927c3c1005c3443a"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "01af145f-adca-41f2-8759-83be543507f9",
+      "completedAt": 1793879990863,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\step-jack\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

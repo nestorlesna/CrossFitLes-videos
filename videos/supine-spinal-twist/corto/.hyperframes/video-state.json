@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "d863bf58-71f8-47f3-a339-1e83ebcc6c52",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "1525a5ec1262fd986949ffac1d20594a07330ce93a3132bf33ee17f1a7fc340f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d863bf58-71f8-47f3-a339-1e83ebcc6c52\\blobs\\15\\1525a5ec1262fd986949ffac1d20594a07330ce93a3132bf33ee17f1a7fc340f"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d863bf58-71f8-47f3-a339-1e83ebcc6c52\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "be44ecf604cbb2ce0cba805bc37acaacade554a141942d45a908f07285038627",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d863bf58-71f8-47f3-a339-1e83ebcc6c52\\blobs\\be\\be44ecf604cbb2ce0cba805bc37acaacade554a141942d45a908f07285038627"
+    },
+    "meta.json": {
+      "hash": "c73ad52b5ece5797285224fc071ad3c2cf281bd113516a1e860927759bbb03d3",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d863bf58-71f8-47f3-a339-1e83ebcc6c52\\blobs\\c7\\c73ad52b5ece5797285224fc071ad3c2cf281bd113516a1e860927759bbb03d3"
+    },
+    "package.json": {
+      "hash": "072d550cfc6b25adf573b93cd0a32147d33e156558d60baf49e8a86b2009508c",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d863bf58-71f8-47f3-a339-1e83ebcc6c52\\blobs\\07\\072d550cfc6b25adf573b93cd0a32147d33e156558d60baf49e8a86b2009508c"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "700f6d5b-223d-4a5b-b149-221efb7e4dff",
+      "completedAt": 1793835094167,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\supine-spinal-twist\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

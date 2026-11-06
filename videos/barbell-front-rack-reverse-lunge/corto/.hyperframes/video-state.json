@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "e4fa2641-dcfe-4e09-a454-e1d367e7064d",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "d48dda2dd6faf1ecd1c050b89b74872c4590b5c6c45cfeb6c3950de6d7a243fb",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e4fa2641-dcfe-4e09-a454-e1d367e7064d\\blobs\\d4\\d48dda2dd6faf1ecd1c050b89b74872c4590b5c6c45cfeb6c3950de6d7a243fb"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e4fa2641-dcfe-4e09-a454-e1d367e7064d\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "461e0a232791c85301c43157f00ec1b2895101535b54eca44a68bf6313b2f3ef",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e4fa2641-dcfe-4e09-a454-e1d367e7064d\\blobs\\46\\461e0a232791c85301c43157f00ec1b2895101535b54eca44a68bf6313b2f3ef"
+    },
+    "meta.json": {
+      "hash": "2c97c8f0abe766d04900fcd29f3d711baec35fa4ae9c44e43381ba9a526b063b",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e4fa2641-dcfe-4e09-a454-e1d367e7064d\\blobs\\2c\\2c97c8f0abe766d04900fcd29f3d711baec35fa4ae9c44e43381ba9a526b063b"
+    },
+    "package.json": {
+      "hash": "77f34c30c19f51f30107b564fef426d9ee7e5e7369cf7bcd028d872a77f26b85",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e4fa2641-dcfe-4e09-a454-e1d367e7064d\\blobs\\77\\77f34c30c19f51f30107b564fef426d9ee7e5e7369cf7bcd028d872a77f26b85"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "e196516a-068f-4cc1-8d61-7454a48fe31c",
+      "completedAt": 1793840079067,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\barbell-front-rack-reverse-lunge\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

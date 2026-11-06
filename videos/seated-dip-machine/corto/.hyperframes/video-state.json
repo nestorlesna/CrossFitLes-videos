@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "8a82cbaf-de31-43cb-a3c2-6d57be690280",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "0c87bd0d12702d140c61ad33b594c5791d5de1e0df87268a512abeea8efcc584",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\8a82cbaf-de31-43cb-a3c2-6d57be690280\\blobs\\0c\\0c87bd0d12702d140c61ad33b594c5791d5de1e0df87268a512abeea8efcc584"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\8a82cbaf-de31-43cb-a3c2-6d57be690280\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "58fc60c2e8fce78cf7c6b29512a385bba1f78f6ba7ff6eb07c1e2e804149452b",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\8a82cbaf-de31-43cb-a3c2-6d57be690280\\blobs\\58\\58fc60c2e8fce78cf7c6b29512a385bba1f78f6ba7ff6eb07c1e2e804149452b"
+    },
+    "meta.json": {
+      "hash": "f31c3c9f7c9f287c2e81ef2f653767118724ba1fd9dd41d00de912c5cb41479a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\8a82cbaf-de31-43cb-a3c2-6d57be690280\\blobs\\f3\\f31c3c9f7c9f287c2e81ef2f653767118724ba1fd9dd41d00de912c5cb41479a"
+    },
+    "package.json": {
+      "hash": "3822d7993fe2dba92c6ec25147c294bf9c3ae19ad76e724c61c2fdf08b468201",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\8a82cbaf-de31-43cb-a3c2-6d57be690280\\blobs\\38\\3822d7993fe2dba92c6ec25147c294bf9c3ae19ad76e724c61c2fdf08b468201"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "79bd2de3-2b67-492d-ba90-329bcac8f5f1",
+      "completedAt": 1793881319202,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\seated-dip-machine\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

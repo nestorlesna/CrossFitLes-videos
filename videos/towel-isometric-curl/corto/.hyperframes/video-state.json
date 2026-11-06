@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "5ca05a69-9662-4de5-b1c2-6786c622b442",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "deba52c734a84374edf8b74f663a8e1c66a5cb9df5ccf93297fd74b3412106ca",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\5ca05a69-9662-4de5-b1c2-6786c622b442\\blobs\\de\\deba52c734a84374edf8b74f663a8e1c66a5cb9df5ccf93297fd74b3412106ca"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\5ca05a69-9662-4de5-b1c2-6786c622b442\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "668e11b742c1494009abea2ca4d899a4d1918827f19254a2582996b6f9dbcbe3",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\5ca05a69-9662-4de5-b1c2-6786c622b442\\blobs\\66\\668e11b742c1494009abea2ca4d899a4d1918827f19254a2582996b6f9dbcbe3"
+    },
+    "meta.json": {
+      "hash": "ddcbcb3c91f20af91a2c820d013a264922a69830680598721293694c51e1ca39",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\5ca05a69-9662-4de5-b1c2-6786c622b442\\blobs\\dd\\ddcbcb3c91f20af91a2c820d013a264922a69830680598721293694c51e1ca39"
+    },
+    "package.json": {
+      "hash": "adc37da69c3bc5c611ebae6cad94fd89215a31c714d4f17c8b87e32eb3b34d47",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\5ca05a69-9662-4de5-b1c2-6786c622b442\\blobs\\ad\\adc37da69c3bc5c611ebae6cad94fd89215a31c714d4f17c8b87e32eb3b34d47"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "b83d75d1-1366-4704-a270-cf943acd187f",
+      "completedAt": 1793874696170,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\towel-isometric-curl\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

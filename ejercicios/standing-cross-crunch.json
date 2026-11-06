@@ -1,0 +1,398 @@
+{
+  "slug": "standing-cross-crunch",
+  "name": "Standing Cross Crunch",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Oblicuos",
+    "Abdomen",
+    "Equilibrio"
+  ],
+  "descripcion": "De pie con las manos detrás de la cabeza, llevar el codo hacia la rodilla contraria que sube en diagonal, contrayendo los oblicuos, y alternar lados.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 460,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "pronuncia": {
+    "Standing Cross Crunch": "Stánding cros cronch"
+  },
+  "initialPose": "READY",
+  "props": [],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "READY": {
+      "hip": [
+        0,
+        -470
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        -10,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 100,
+      "fa": 150,
+      "ua2": 100,
+      "fa2": 150
+    },
+    "CRUNCH_A": {
+      "hip": [
+        0,
+        -465
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        130,
+        -250
+      ],
+      "b": 22,
+      "hd": 16,
+      "g": 0,
+      "ua": 70,
+      "fa": 150,
+      "ua2": 70,
+      "fa2": 150
+    },
+    "CRUNCH_B": {
+      "hip": [
+        0,
+        -465
+      ],
+      "ankle": [
+        130,
+        -250
+      ],
+      "ankle2": [
+        0,
+        0
+      ],
+      "b": 22,
+      "hd": 16,
+      "g": 0,
+      "ua": 70,
+      "fa": 150,
+      "ua2": 70,
+      "fa2": 150
+    },
+    "NECK_BAD": {
+      "hip": [
+        0,
+        -465
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        130,
+        -250
+      ],
+      "b": 8,
+      "hd": 34,
+      "g": 0,
+      "ua": 120,
+      "fa": 150,
+      "ua2": 120,
+      "fa2": 150
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "STANDING",
+        "CROSS CRUNCH"
+      ],
+      "vo": "Standing Cross Crunch: el crunch cruzado de pie. Oblicuos activos y equilibrio.",
+      "moves": [
+        {
+          "cut": "READY",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "CRUNCH_A",
+              0.5
+            ],
+            [
+              "READY",
+              0.4
+            ],
+            [
+              "CRUNCH_B",
+              0.5
+            ],
+            [
+              "READY",
+              0.4
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "MANOS TRAS",
+        "LA CABEZA"
+      ],
+      "sub": "Codos abiertos, pies firmes",
+      "vo": "Parate con los pies al ancho de la cadera y las manos detrás de la cabeza, con los codos abiertos.",
+      "moves": [
+        {
+          "cut": "READY",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "SUBÍ LA",
+        "RODILLA"
+      ],
+      "sub": "En diagonal",
+      "vo": "Paso uno. Subí una rodilla en diagonal, hacia el costado contrario, sobre una pierna de apoyo firme.",
+      "moves": [
+        {
+          "cut": "READY",
+          "at": 0
+        },
+        {
+          "to": "CRUNCH_A",
+          "at": 0.6,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "CODO A LA",
+        "RODILLA"
+      ],
+      "sub": "Girá desde la cintura",
+      "vo": "Paso dos. Llevá el codo hacia la rodilla contraria, girando desde la cintura y contrayendo los oblicuos.",
+      "moves": [
+        {
+          "cut": "CRUNCH_A",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            800,
+            800
+          ],
+          "text": "CODO A RODILLA",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "NO TIRES",
+        "DEL CUELLO"
+      ],
+      "sub": "El abdomen hace el trabajo",
+      "vo": "Paso tres. No tirones del cuello con las manos: la fuerza sale del abdomen y la cabeza queda neutra.",
+      "moves": [
+        {
+          "cut": "CRUNCH_A",
+          "at": 0
+        },
+        {
+          "to": "NECK_BAD",
+          "at": 0.5,
+          "dur": 0.5
+        },
+        {
+          "to": "CRUNCH_A",
+          "at": 1.8,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            800,
+            800
+          ],
+          "text": "TIRAR DEL CUELLO: NO",
+          "anchor": "middle",
+          "at": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ALTERNÁ",
+        "LADOS"
+      ],
+      "sub": "Con equilibrio",
+      "vo": "Paso cuatro. Bajá, cambiá de lado y repetí, manteniendo el equilibrio sobre la pierna de apoyo.",
+      "moves": [
+        {
+          "cut": "READY",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CRUNCH_A",
+              0.5
+            ],
+            [
+              "READY",
+              0.4
+            ],
+            [
+              "CRUNCH_B",
+              0.5
+            ],
+            [
+              "READY",
+              0.4
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Girar desde la cintura",
+        "Codo hacia rodilla contraria",
+        "Equilibrio en la pierna de apoyo",
+        "No tirar del cuello"
+      ],
+      "vo": "Claves: girá desde la cintura, codo hacia la rodilla contraria, equilibrio firme y sin tirar del cuello.",
+      "moves": [
+        {
+          "cut": "CRUNCH_A",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEG"
+      ],
+      "sub": "Alternando lados",
+      "vo": "Treinta segundos alternando lados. Codo a rodilla, oblicuos duros y equilibrio.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · CRUZÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · CAMBIÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "READY",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CRUNCH_A",
+              0.5
+            ],
+            [
+              "READY",
+              0.4
+            ],
+            [
+              "CRUNCH_B",
+              0.5
+            ],
+            [
+              "READY",
+              0.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "CRUNCH_A",
+    "grip": 0
+  },
+  "youtube": {
+    "titulo": "Standing Cross Crunch 🔥 oblicuos y equilibrio paso a paso | CrossFit",
+    "descripcion": "🔥 STANDING CROSS CRUNCH — oblicuos y equilibrio sin salir de tu lugar.\n\nSi querés marcar la cintura y trabajar el abdomen de pie, este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate con los pies al ancho de la cadera y las manos detrás de la cabeza, con los codos abiertos.\n2️⃣ Subí una rodilla en diagonal, hacia el costado contrario, sobre una pierna de apoyo firme.\n3️⃣ Llevá el codo hacia la rodilla contraria, girando desde la cintura y contrayendo los oblicuos.\n4️⃣ No tirones del cuello con las manos: la fuerza sale del abdomen y la cabeza queda neutra.\n5️⃣ Bajá, cambiá de lado y repetí, manteniendo el equilibrio sobre la pierna de apoyo.\n\n✅ CLAVES DE TÉCNICA\n• Girar desde la cintura acercando codo y rodilla opuesta\n• Mantener el equilibrio sobre la pierna de apoyo\n• No tironear del cuello\n• Contraer los oblicuos en cada repetición\n\n🎯 QUÉ TRABAJA\nOblicuo externo · Recto abdominal · Recto femoral\n\n⏱️ CUÁNTO\n30 segundos alternando lados, dentro de un WOD o como trabajo de abdomen.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\r\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #StandingCrossCrunch #Oblicuos #Entrenamiento",
+    "tags": [
+      "standing cross crunch",
+      "crunch cruzado de pie",
+      "oblicuos",
+      "abdominales de pie",
+      "core",
+      "crossfit",
+      "wod",
+      "cintura",
+      "equilibrio",
+      "abdomen sin equipo"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "7748f95c-6c96-4da8-b177-2fe8701e786f",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "af365d51cabd2f0bb3420d8c4aab9baba034dcaec00af11ff387cc5a5821eb34",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7748f95c-6c96-4da8-b177-2fe8701e786f\\blobs\\af\\af365d51cabd2f0bb3420d8c4aab9baba034dcaec00af11ff387cc5a5821eb34"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7748f95c-6c96-4da8-b177-2fe8701e786f\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "03072e311e712de304b2ae30819e46cb1f4a62cbd53c3ceb203b5fe423190762",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7748f95c-6c96-4da8-b177-2fe8701e786f\\blobs\\03\\03072e311e712de304b2ae30819e46cb1f4a62cbd53c3ceb203b5fe423190762"
+    },
+    "meta.json": {
+      "hash": "581bb308fe6bf678549ad4ed4a45218d4b1a3c870798bd14ada03541d21e9346",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7748f95c-6c96-4da8-b177-2fe8701e786f\\blobs\\58\\581bb308fe6bf678549ad4ed4a45218d4b1a3c870798bd14ada03541d21e9346"
+    },
+    "package.json": {
+      "hash": "a6c2afa847cc0874e4f9139ca1abca1f0159584508558e30dbf6630d48f0e335",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7748f95c-6c96-4da8-b177-2fe8701e786f\\blobs\\a6\\a6c2afa847cc0874e4f9139ca1abca1f0159584508558e30dbf6630d48f0e335"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "dc6d1806-b6be-45cf-ac4a-502fca219298",
+      "completedAt": 1793873600064,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\snatch-grip-deadlift\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

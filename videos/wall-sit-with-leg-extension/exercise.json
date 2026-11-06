@@ -1,0 +1,429 @@
+{
+  "slug": "wall-sit-with-leg-extension",
+  "name": "Wall Sit Leg Extension",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Cuádriceps",
+    "Glúteos"
+  ],
+  "descripcion": "Sentadilla isométrica contra la pared con extensión alternada de una pierna: sostener la posición y estirar un pie al frente sin mover la cadera.",
+  "revisado": false,
+  "notas": "Wall sit + extensión de rodilla alternada.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "props": [
+    {
+      "type": "wall",
+      "x": -334,
+      "h": 760
+    }
+  ],
+  "pronuncia": {
+    "Wall Sit": "Uol sit"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "hip": [
+        -200,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "LEAN": {
+      "hip": [
+        -240,
+        -404
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "HALF": {
+      "hip": [
+        -240,
+        -320
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 0
+    },
+    "SIT": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 0
+    },
+    "HIGH": {
+      "hip": [
+        -240,
+        -300
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 0
+    },
+    "HANDS_BAD": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 6,
+      "hd": 6,
+      "g": 1,
+      "hx": -90,
+      "hy": -250,
+      "ed": 1
+    },
+    "FEET_BAD": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        -120,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 0
+    },
+    "EXT": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        80,
+        -232
+      ],
+      "ankle2": [
+        0,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 70,
+      "fa": 10,
+      "ua2": 90,
+      "fa2": 0
+    },
+    "EXT2": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle2": [
+        80,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 0,
+      "ua2": 70,
+      "fa2": 10
+    },
+    "LIFT_BAD": {
+      "hip": [
+        -240,
+        -160
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · PIERNAS",
+      "head": [
+        "WALL SIT",
+        "LEG EXTENSION"
+      ],
+      "vo": "Wall Sit con extensión: sentadilla en la pared y estirá una pierna al frente sin mover la cadera.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "SIT",
+              0.8
+            ],
+            [
+              "EXT",
+              0.9
+            ],
+            [
+              "EXT2",
+              0.9
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESPALDA",
+        "EN LA PARED"
+      ],
+      "sub": "Pies adelante",
+      "vo": "Apoyá toda la espalda en la pared y alejá los pies unos dos pasos, al ancho de la cadera.",
+      "moves": [
+        {
+          "cut": "SIT",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "RODILLAS",
+        "A 90°"
+      ],
+      "sub": "Sobre los tobillos",
+      "vo": "Paso uno. Deslizate hasta que las rodillas queden a noventa grados, sobre los tobillos.",
+      "moves": [
+        {
+          "cut": "SIT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            700,
+            980
+          ],
+          "text": "90°",
+          "anchor": "middle",
+          "at": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ESTIRÁ",
+        "UNA PIERNA"
+      ],
+      "sub": "Cadera quieta",
+      "vo": "Paso dos. Estirá una pierna al frente hasta que quede casi recta, sin levantar la cadera.",
+      "moves": [
+        {
+          "cut": "SIT",
+          "at": 0
+        },
+        {
+          "to": "EXT",
+          "at": 0.7,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            700,
+            700
+          ],
+          "text": "CADERA QUIETA",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "VOLVÉ",
+        "Y CAMBIÁ"
+      ],
+      "sub": "Otra pierna",
+      "vo": "Paso tres. Volvé a apoyar y repetí con la otra pierna, alternando sin perder la altura.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "EXT2",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1020
+          ],
+          "text": "ALTERNÁ",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Espalda pegada a la pared",
+        "Rodillas a 90°",
+        "Cadera quieta al estirar",
+        "Talón del pie de apoyo abajo"
+      ],
+      "vo": "Claves: espalda pegada, rodillas a noventa, cadera quieta y el talón de apoyo siempre abajo.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "40 SEG"
+      ],
+      "sub": "8 + 8 extensiones",
+      "vo": "Cuarenta segundos: ocho extensiones con cada pierna. Si la cadera sube, acortá el rango.",
+      "chips": [
+        {
+          "label": "1 · SOSTENÉ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · ESTIRÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · CAMBIÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "EXT",
+              0.9
+            ],
+            [
+              "SIT",
+              0.6
+            ],
+            [
+              "EXT2",
+              0.9
+            ],
+            [
+              "SIT",
+              0.6
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "EXT",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Wall Sit with Leg Extension 🔥 Sentadilla en pared + extensión | CrossFit",
+    "tags": [
+      "wall sit leg extension",
+      "sentadilla en pared",
+      "extension de pierna",
+      "isometrico",
+      "cuadriceps",
+      "pared",
+      "crossfit",
+      "piernas",
+      "resistencia"
+    ],
+    "descripcion": "🔥 WALL SIT WITH LEG EXTENSION — sentadilla isométrica + extensión de pierna\n\n¿El wall sit ya no te alcanza? Sumale extensión de pierna: la misma base isométrica, pero con una pierna trabajando sola y la cadera sin moverse. 💪\n\n📋 PASO A PASO\n1️⃣ Apoyá toda la espalda en la pared y alejá los pies unos dos pasos, al ancho de la cadera.\n2️⃣ Deslizate hasta que las rodillas queden a 90 grados, sobre los tobillos.\n3️⃣ Estirá una pierna al frente hasta que quede casi recta.\n4️⃣ Volvé a apoyar y repetí con la otra pierna, alternando.\n5️⃣ Mantené la cadera a la misma altura todo el tiempo.\n\n✅ CLAVES DE TÉCNICA\n• Espalda pegada a la pared\n• Rodillas a 90°\n• Cadera quieta al estirar\n• Talón de apoyo abajo\n• Alterná sin apuro\n\n🎯 QUÉ TRABAJA\nCuádriceps · Glúteo · Core · Estabilizadores de rodilla\n\n⏱️ CUÁNTO\n40 segundos: 8 extensiones por pierna. Dos series.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi sentís la rodilla, quedate más arriba y acortá la extensión.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WallSit #Piernas #Isometrico #Cuadriceps"
+  }
+}

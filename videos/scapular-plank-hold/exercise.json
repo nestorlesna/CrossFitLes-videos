@@ -1,0 +1,298 @@
+{
+  "slug": "scapular-plank-hold",
+  "name": "Scapular Plank Hold",
+  "category": "CROSSFIT · ACCESORIO",
+  "tags": [
+    "Core",
+    "Abdomen",
+    "Estabilidad"
+  ],
+  "descripcion": "Plancha alta con los codos extendidos: empujar el piso para separar las escápulas y sostener, manteniendo el cuerpo en línea y la cadera quieta.",
+  "revisado": false,
+  "notas": "Plancha con protracción escapular (push-up plus isométrico).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 460,
+    "y": 1504,
+    "scale": 0.8
+  },
+  "initialPose": "PLANK",
+  "poses": {
+    "PLANK": {
+      "hip": [
+        141.6,
+        -222.8
+      ],
+      "ankle": [
+        -300,
+        -62
+      ],
+      "ft": 55,
+      "b": 70,
+      "hd": 74,
+      "g": 1,
+      "hx": 405,
+      "hy": 15,
+      "ed": 1
+    },
+    "PROTRACT": {
+      "hip": [
+        160,
+        -215
+      ],
+      "ankle": [
+        -300,
+        -62
+      ],
+      "ft": 55,
+      "b": 74,
+      "hd": 72,
+      "g": 1,
+      "hx": 405,
+      "hy": 15,
+      "ed": 1
+    },
+    "SAG_BAD": {
+      "hip": [
+        175.7,
+        -154.3
+      ],
+      "ankle": [
+        -280,
+        -62
+      ],
+      "ft": 55,
+      "b": 55,
+      "hd": 60,
+      "g": 1,
+      "hx": 405,
+      "hy": 15,
+      "ed": 1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · CORE",
+      "head": [
+        "SCAPULAR",
+        "PLANK"
+      ],
+      "vo": "Scapular Plank Hold: plancha alta, empujá el piso y separá las escápulas. Hombros estables.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "PLANK",
+              0.9
+            ],
+            [
+              "PROTRACT",
+              1.0
+            ],
+            [
+              "PLANK",
+              0.9
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PLANCHA",
+        "ALTA"
+      ],
+      "sub": "Manos bajo hombros",
+      "vo": "Arrancá en plancha alta, con las manos bajo los hombros, los codos extendidos y el cuerpo en línea.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "EMPUJÁ",
+        "EL PISO"
+      ],
+      "sub": "Codos firmes",
+      "vo": "Paso uno. Empujá el piso con las manos, como si quisieras alejarlo, sin doblar los codos.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        },
+        {
+          "to": "PROTRACT",
+          "at": 0.8,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            760,
+            820
+          ],
+          "text": "EMPUJÁ",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ESCÁPULAS",
+        "SEPARADAS"
+      ],
+      "sub": "Espalda alta activa",
+      "vo": "Paso dos. Sentí cómo las escápulas se separan y la espalda alta se activa. Sostené sin hundir la cadera.",
+      "moves": [
+        {
+          "cut": "PROTRACT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            900
+          ],
+          "text": "ESPALDA ACTIVA",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "ASÍ NO",
+      "head": [
+        "CADERA",
+        "HUNDIDA"
+      ],
+      "sub": "Se rompe la línea",
+      "vo": "Así no. Si la cadera se hunde, el core deja de sostener. Apretá glúteos y abdomen para volver a la línea.",
+      "moves": [
+        {
+          "cut": "PROTRACT",
+          "at": 0
+        },
+        {
+          "to": "SAG_BAD",
+          "at": 0.8,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1000
+          ],
+          "text": "NO HUNDAS",
+          "anchor": "middle",
+          "at": 0.9
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Codos extendidos",
+        "Empujá el piso",
+        "Escápulas separadas",
+        "Cadera en línea"
+      ],
+      "vo": "Claves: codos extendidos, empujá el piso, escápulas separadas y cadera en línea.",
+      "moves": [
+        {
+          "cut": "PROTRACT",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEG"
+      ],
+      "sub": "3 series",
+      "vo": "Treinta segundos sosteniendo la protracción. Tres series. Si perdés la línea, terminá la serie.",
+      "chips": [
+        {
+          "label": "1 · EMPUJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · SOSTENÉ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · RESPIRÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "PROTRACT",
+          "at": 0,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "PROTRACT",
+    "grip": 0,
+    "zoom": 0.95,
+    "dy": 240
+  },
+  "youtube": {
+    "titulo": "Scapular Plank Hold 🔥 Plancha con escápulas activas | CrossFit",
+    "tags": [
+      "scapular plank hold",
+      "plancha escapular",
+      "protraccion",
+      "escapulas",
+      "plancha",
+      "core",
+      "hombros",
+      "crossfit",
+      "estabilidad"
+    ],
+    "descripcion": "🔥 SCAPULAR PLANK HOLD — plancha con escápulas activas\n\nLa plancha no es solo aguantar: si no empujás el piso, los hombros se hunden y el core pierde. Este hold te enseña a activar la espalda alta. 💪\n\n📋 PASO A PASO\n1️⃣ Plancha alta, manos bajo los hombros y codos extendidos.\n2️⃣ Empujá el piso como si quisieras alejarlo, sin doblar los codos.\n3️⃣ Sentí las escápulas separarse y la espalda alta activarse.\n4️⃣ Mantené la cadera en línea, sin hundirla.\n5️⃣ Sostené 30 segundos respirando.\n\n✅ CLAVES DE TÉCNICA\n• Codos extendidos\n• Empujá el piso\n• Escápulas separadas\n• Cadera en línea\n• Glúteos y abdomen firmes\n\n🎯 QUÉ TRABAJA\nSerrato anterior · Espalda alta · Hombros · Core\n\n⏱️ CUÁNTO\n30 segundos, 3 series. Ideal como entrada en calor o accesorio de empuje.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi sentís los hombros, acortá el tiempo y revisá que los codos estén bien extendidos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Plancha #ScapularPlank #Core #Hombros"
+  },
+  "pronuncia": {
+    "Plank Hold": "Planc jould",
+    "plank": "planc",
+    "hollow": "jólou"
+  }
+}

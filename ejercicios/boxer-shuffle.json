@@ -1,0 +1,410 @@
+{
+  "slug": "boxer-shuffle",
+  "name": "Boxer Shuffle",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Gemelos",
+    "Coordinación",
+    "Activación"
+  ],
+  "descripcion": "Pasos rápidos y cortos en base amplia con la guardia arriba, alternando el peso de un pie al otro como en el boxeo.",
+  "revisado": false,
+  "notas": "Shuffle de boxeo de perfil: pies con IK (ankle/ankle2) que alternan adelante/atrás y cadera con un pequeño rebote; guardia con ua ~45 y fa ~125 (manos a la altura del mentón). Error HANDS_DOWN: guardia baja.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "pronuncia": {
+    "Boxer Shuffle": "Boxer shafl"
+  },
+  "initialPose": "GUARD",
+  "poses": {
+    "GUARD": {
+      "hip": [
+        -12,
+        -430
+      ],
+      "ankle": [
+        45,
+        0
+      ],
+      "ankle2": [
+        -45,
+        0
+      ],
+      "b": 8,
+      "hd": 4,
+      "g": 0,
+      "ua": 46,
+      "fa": 126,
+      "ua2": 66,
+      "fa2": 104
+    },
+    "FWD": {
+      "hip": [
+        -16,
+        -420
+      ],
+      "ankle": [
+        62,
+        0
+      ],
+      "ankle2": [
+        -24,
+        0
+      ],
+      "b": 11,
+      "hd": 6,
+      "g": 0,
+      "ua": 44,
+      "fa": 128,
+      "ua2": 38,
+      "fa2": 122
+    },
+    "BACK": {
+      "hip": [
+        -8,
+        -414
+      ],
+      "ankle": [
+        -24,
+        0
+      ],
+      "ankle2": [
+        62,
+        0
+      ],
+      "b": 6,
+      "hd": 3,
+      "g": 0,
+      "ua": 48,
+      "fa": 124,
+      "ua2": 42,
+      "fa2": 118
+    },
+    "AIR": {
+      "hip": [
+        -12,
+        -402
+      ],
+      "ankle": [
+        30,
+        -16
+      ],
+      "ankle2": [
+        -30,
+        -16
+      ],
+      "ft": -14,
+      "ft2": -14,
+      "b": 8,
+      "hd": 4,
+      "g": 0,
+      "ua": 46,
+      "fa": 126,
+      "ua2": 66,
+      "fa2": 104
+    },
+    "HANDS_DOWN": {
+      "hip": [
+        -12,
+        -430
+      ],
+      "ankle": [
+        45,
+        0
+      ],
+      "ankle2": [
+        -45,
+        0
+      ],
+      "b": 8,
+      "hd": 4,
+      "g": 0,
+      "ua": 14,
+      "fa": 12,
+      "ua2": 10,
+      "fa2": 10
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "BOXER",
+        "SHUFFLE"
+      ],
+      "vo": "Boxer Shuffle: pasos rápidos y cortos en base amplia, con la guardia arriba y el peso pasando de un pie al otro.",
+      "moves": [
+        {
+          "cut": "GUARD",
+          "at": 0.2
+        },
+        {
+          "seq": [
+            [
+              "FWD",
+              0.28
+            ],
+            [
+              "BACK",
+              0.28
+            ]
+          ],
+          "at": 0.8,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "GUARDIA",
+        "ARRIBA"
+      ],
+      "sub": "Base amplia, rodillas flojas",
+      "vo": "Parate en base amplia, con las rodillas flojas, el peso sobre la planta y las manos a la altura del mentón.",
+      "moves": [
+        {
+          "cut": "GUARD",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "PASOS",
+        "CORTOS"
+      ],
+      "sub": "Rápidos y bajos",
+      "vo": "Paso uno. Mové los pies con pasos cortos y rápidos, sin levantar las rodillas ni cruzar las piernas.",
+      "moves": [
+        {
+          "cut": "GUARD",
+          "at": 0
+        },
+        {
+          "to": "FWD",
+          "at": 0.8,
+          "dur": 0.2
+        },
+        {
+          "to": "BACK",
+          "at": 1.3,
+          "dur": 0.2
+        },
+        {
+          "to": "FWD",
+          "at": 1.8,
+          "dur": 0.2
+        },
+        {
+          "to": "BACK",
+          "at": 2.3,
+          "dur": 0.2
+        },
+        {
+          "to": "FWD",
+          "at": 2.8,
+          "dur": 0.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            300.0,
+            1420.0
+          ],
+          "text": "PASOS CORTOS",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "PESO DE UN",
+        "PIE AL OTRO"
+      ],
+      "sub": "Sin salir del lugar",
+      "vo": "Paso dos. Pasá el peso de un pie al otro con un rebote chico: los talones apenas se despegan y el cuerpo no se va del lugar.",
+      "moves": [
+        {
+          "cut": "GUARD",
+          "at": 0
+        },
+        {
+          "loop": [
+            "AIR",
+            "FWD",
+            "AIR",
+            "BACK"
+          ],
+          "step": 0.26,
+          "at": 0.7,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            300.0,
+            1470.0
+          ],
+          "text": "TALONES APENAS",
+          "anchor": "middle",
+          "at": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "GUARDIA",
+        "SIEMPRE ARRIBA"
+      ],
+      "sub": "Manos al mentón",
+      "vo": "Paso tres. La guardia no baja nunca: si dejás caer las manos, el ejercicio pierde el sentido y se afloja la postura.",
+      "moves": [
+        {
+          "cut": "GUARD",
+          "at": 0
+        },
+        {
+          "to": "HANDS_DOWN",
+          "at": 1.6,
+          "dur": 0.5
+        },
+        {
+          "to": "GUARD",
+          "at": 3.4,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            268.0,
+            780.0
+          ],
+          "text": "GUARDIA ARRIBA",
+          "anchor": "middle",
+          "at": 0.5,
+          "out": 1.5
+        },
+        {
+          "type": "label",
+          "pos": [
+            268.0,
+            780.0
+          ],
+          "text": "MANOS ABAJO NO",
+          "anchor": "middle",
+          "at": 1.9,
+          "out": 3.7
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Peso sobre la planta, talones despegados",
+        "Hombros relajados",
+        "Manos a la altura del mentón",
+        "Pasos cortos, sin cruzar"
+      ],
+      "vo": "Claves: peso sobre la planta con los talones despegados, hombros relajados, manos al mentón y pasos cortos sin cruzar.",
+      "moves": [
+        {
+          "cut": "GUARD",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.2,
+      "badge": "A ENTRENAR",
+      "head": [
+        "20 SEGUNDOS"
+      ],
+      "sub": "Ritmo rápido y parejo",
+      "vo": "Veinte segundos a ritmo rápido y parejo. Mantené la guardia arriba durante todo el tiempo.",
+      "chips": [
+        {
+          "label": "1 · GUARDIA",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PASOS",
+          "at": 1.1
+        },
+        {
+          "label": "3 · REBOTE",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "GUARD",
+          "at": 0
+        },
+        {
+          "loop": [
+            "AIR",
+            "FWD",
+            "AIR",
+            "BACK"
+          ],
+          "step": 0.26,
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "GUARD",
+    "grip": 0,
+    "zoom": 1.14,
+    "dy": 165
+  },
+  "youtube": {
+    "titulo": "Boxer Shuffle 🔥 Paso rápido con guardia de boxeo | CrossFit",
+    "tags": [
+      "boxer shuffle",
+      "paso de boxeo",
+      "guardia",
+      "coordinacion",
+      "gemelos",
+      "activacion",
+      "calentamiento",
+      "cardio",
+      "crossfit",
+      "tecnica"
+    ],
+    "descripcion": "🔥 BOXER SHUFFLE — pasos rápidos con guardia de boxeo\n\nPiernas activas, guardia firme y ritmo: el shuffle despierta gemelos y coordinación en segundos. Perfecto para entrar en calor. 💪\n\n📋 PASO A PASO\n1️⃣ Parate en base amplia, rodillas flojas, peso sobre la planta y manos a la altura del mentón.\n2️⃣ Mové los pies con pasos cortos y rápidos, sin levantar las rodillas ni cruzar las piernas.\n3️⃣ Pasá el peso de un pie al otro con un rebote chico, sin irte del lugar.\n4️⃣ La guardia no baja nunca: las manos se quedan al mentón.\n\n✅ CLAVES DE TÉCNICA\n• Peso sobre la planta, talones despegados\n• Hombros relajados\n• Manos a la altura del mentón\n• Pasos cortos, sin cruzar las piernas\n• Rebote bajo y parejo\n\n🎯 QUÉ TRABAJA\nGemelos · Sóleo · Deltoides anterior · Core\n\n⏱️ CUÁNTO\n20 segundos a ritmo rápido y parejo.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Boxeo #Calentamiento #Coordinacion #Tecnica"
+  }
+}

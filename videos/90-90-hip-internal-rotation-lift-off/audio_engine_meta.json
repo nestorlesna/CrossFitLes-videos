@@ -1,0 +1,16 @@
+{
+  "tts_provider": "piper",
+  "voice_id": "es_AR-daniela-high",
+  "enVoice": "kokoro:af_heart",
+  "bgm": null,
+  "voices": [
+    {
+      "id": "01",
+      "path": "assets/voice/01.wav",
+      "duration_s": 5.947,
+      "words": []
+    }
+  ],
+  "sfx": [],
+  "total_duration_s": 5.947
+}

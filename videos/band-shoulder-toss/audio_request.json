@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Band Shoulder Toss",
+      "text": "Empujá la banda al frente como un lanzamiento, con la fuerza de la cadera y el tronco."
+    },
+    {
+      "id": "02",
+      "text": "Parate de espaldas al ancla, con la banda a la altura del pecho y los pies al ancho de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Cargá: llevá las manos al pecho y los codos atrás, con la banda tensa."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Empujá la banda al frente como un lanzamiento, acompañando con la cadera y el tronco."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Volvé controlando la banda, frenando el retorno con el cuerpo firme."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Si empujás sólo con el brazo, te vas para atrás y perdés la base."
+    },
+    {
+      "id": "07",
+      "text": "Claves: fuerza desde la cadera, base firme con abdomen activo, empuje explosivo y vuelta controlada."
+    },
+    {
+      "id": "08",
+      "text": "Veinte segundos: cargá y empujá lo más rápido que puedas, sin perder la base."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

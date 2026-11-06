@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Inchworm",
+      "text": "De pie a plancha caminando con las manos, y volver. Movilidad de hombros y core en un solo movimiento."
+    },
+    {
+      "id": "02",
+      "text": "Parate con los pies al ancho de cadera. Desde ahí, inclinate y apoyá las manos en el piso."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Caminá con las manos hacia adelante hasta llegar a la plancha alta, con el abdomen firme."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Volvé caminando con las manos hacia los pies, con pasos cortos, sin levantar la cadera de golpe."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. No rebotes al erguirte ni dejes caer la cadera en la plancha: el movimiento es lento y controlado."
+    },
+    {
+      "id": "06",
+      "text": "Claves: manos al piso, piernas casi rectas, pasos cortos y volver controlando."
+    },
+    {
+      "id": "07",
+      "text": "Ocho repeticiones de ida y vuelta. Si te cuesta, flexioná un poco las rodillas."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

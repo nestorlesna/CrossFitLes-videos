@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "09975c94-c2a3-4569-a447-255d55100f9b",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "806f9f01a2402847e53162fa965cbf479e6577062286dda11aa7af573e2405a3",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\09975c94-c2a3-4569-a447-255d55100f9b\\blobs\\80\\806f9f01a2402847e53162fa965cbf479e6577062286dda11aa7af573e2405a3"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\09975c94-c2a3-4569-a447-255d55100f9b\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "a99faed056f0b967c652d866e418d74402c7d2384715b64207595018d902f8fe",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\09975c94-c2a3-4569-a447-255d55100f9b\\blobs\\a9\\a99faed056f0b967c652d866e418d74402c7d2384715b64207595018d902f8fe"
+    },
+    "meta.json": {
+      "hash": "4d3625d6f11c96f4e0ede908fc644d9bc505515bd4de6472172b52bc1c4feef3",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\09975c94-c2a3-4569-a447-255d55100f9b\\blobs\\4d\\4d3625d6f11c96f4e0ede908fc644d9bc505515bd4de6472172b52bc1c4feef3"
+    },
+    "package.json": {
+      "hash": "f780aa0c49a0a2a3dfe16a4498771edd9e07630224b03077f6175c7eeea912ca",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\09975c94-c2a3-4569-a447-255d55100f9b\\blobs\\f7\\f780aa0c49a0a2a3dfe16a4498771edd9e07630224b03077f6175c7eeea912ca"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "f678a662-b842-4b8e-a322-34f663f9e6c0",
+      "completedAt": 1793875071650,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\bodyweight-hollow-body-hold\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

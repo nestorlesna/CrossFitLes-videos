@@ -1,0 +1,407 @@
+{
+  "slug": "weighted-hollow-rock",
+  "name": "Weighted Hollow Rock",
+  "category": "CROSSFIT · CORE",
+  "tags": [
+    "Core",
+    "Abdominales",
+    "Hollow"
+  ],
+  "descripcion": "Acostado boca arriba en posición hollow body (hombros y piernas levantados del suelo, cuerpo en forma de banana), sosteniendo un disco con los brazos extendidos sobre la cabeza. Mecer el cuerpo hacia adelante y atrás manteniendo la tensión del core.",
+  "revisado": false,
+  "notas": "Copia la geometría de hollow-rock y suma el prop plate en la mano cercana; el disco viaja con las manos sobre la cabeza.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1500,
+    "scale": 0.84
+  },
+  "pronuncia": {
+    "hollow": "jálou",
+    "rock": "rok"
+  },
+  "initialPose": "BANANA",
+  "props": [
+    {
+      "type": "plate",
+      "hand": "near",
+      "r": 54,
+      "off": [
+        0,
+        0
+      ]
+    }
+  ],
+  "poses": {
+    "FLAT": {
+      "hip": [
+        0,
+        -20
+      ],
+      "s": -90,
+      "t": -90,
+      "b": -90,
+      "hd": -92,
+      "ft": -90,
+      "ft2": -90,
+      "g": 0,
+      "ua": 200,
+      "fa": 0,
+      "ua2": 200,
+      "fa2": 0
+    },
+    "BANANA": {
+      "hip": [
+        0,
+        -18
+      ],
+      "s": -116,
+      "t": -116,
+      "b": -70,
+      "hd": -54,
+      "ft": -62,
+      "ft2": -62,
+      "g": 0,
+      "ua": 248,
+      "fa": 0,
+      "ua2": 248,
+      "fa2": 0,
+      "cv": 14
+    },
+    "ROCK_FWD": {
+      "hip": [
+        0,
+        -18
+      ],
+      "s": -102,
+      "t": -102,
+      "b": -58,
+      "hd": -44,
+      "ft": -54,
+      "ft2": -54,
+      "g": 0,
+      "ua": 224,
+      "fa": 0,
+      "ua2": 224,
+      "fa2": 0,
+      "cv": 14
+    },
+    "ROCK_BACK": {
+      "hip": [
+        0,
+        -18
+      ],
+      "s": -136,
+      "t": -136,
+      "b": -84,
+      "hd": -68,
+      "ft": -76,
+      "ft2": -76,
+      "g": 0,
+      "ua": 262,
+      "fa": 0,
+      "ua2": 262,
+      "fa2": 0,
+      "cv": 14
+    },
+    "ARCH_BAD": {
+      "hip": [
+        0,
+        -18
+      ],
+      "s": -100,
+      "t": -100,
+      "b": -80,
+      "hd": -64,
+      "ft": -50,
+      "ft2": -50,
+      "g": 0,
+      "ua": 262,
+      "fa": 0,
+      "ua2": 262,
+      "fa2": 0,
+      "cv": -26
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · CORE",
+      "head": [
+        "WEIGHTED",
+        "HOLLOW ROCK"
+      ],
+      "vo": "Weighted Hollow Rock: la mecedora de core con disco. El cuerpo se mueve en bloque, sin flexionar la cadera.",
+      "moves": [
+        {
+          "cut": "BANANA",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ROCK_BACK",
+              0.55
+            ],
+            [
+              "BANANA",
+              0.4
+            ],
+            [
+              "ROCK_FWD",
+              0.55
+            ],
+            [
+              "BANANA",
+              0.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BANANA",
+        "CON DISCO"
+      ],
+      "sub": "Brazos junto a las orejas",
+      "vo": "Acostate boca arriba, tomá el disco con las dos manos y formá la banana con los brazos junto a las orejas.",
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        },
+        {
+          "to": "BANANA",
+          "at": 0.8,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "LUMBAR",
+        "PEGADA"
+      ],
+      "sub": "Costillas abajo",
+      "vo": "Paso uno. Pegá la lumbar al piso y llevá las costillas abajo: sin eso, el disco te gana.",
+      "moves": [
+        {
+          "cut": "BANANA",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            560,
+            1330
+          ],
+          "text": "LUMBAR PEGADA",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "VA",
+        "Y VIENE"
+      ],
+      "sub": "Una sola pieza",
+      "vo": "Paso dos. Balanceate adelante y atrás como una mecedora, sin flexionar la cadera para tomar impulso.",
+      "moves": [
+        {
+          "cut": "BANANA",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ROCK_BACK",
+              0.55
+            ],
+            [
+              "BANANA",
+              0.4
+            ],
+            [
+              "ROCK_FWD",
+              0.55
+            ],
+            [
+              "BANANA",
+              0.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Lumbar despegada",
+      "vo": "Paso tres. Si la lumbar se despega o el disco te frena la subida, bajá el peso o el rango.",
+      "moves": [
+        {
+          "cut": "ARCH_BAD",
+          "at": 0
+        },
+        {
+          "to": "BANANA",
+          "at": 2.2,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            560,
+            1330
+          ],
+          "text": "LUMBAR AFUERA NO",
+          "anchor": "middle",
+          "at": 0.8,
+          "out": 2.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Cuerpo en bloque",
+        "Lumbar pegada",
+        "Sin impulso",
+        "Disco controlado"
+      ],
+      "vo": "Claves: cuerpo en bloque, lumbar pegada, sin impulso de cadera y el disco siempre controlado.",
+      "moves": [
+        {
+          "cut": "BANANA",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "ROCK_BACK",
+              0.55
+            ],
+            [
+              "BANANA",
+              0.4
+            ],
+            [
+              "ROCK_FWD",
+              0.55
+            ],
+            [
+              "BANANA",
+              0.4
+            ]
+          ],
+          "at": 0.7,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "12 REPS"
+      ],
+      "sub": "Contando ida y vuelta",
+      "chips": [
+        {
+          "label": "1 · ATRÁS",
+          "at": 0.6
+        },
+        {
+          "label": "2 · CENTRO",
+          "at": 1.1
+        },
+        {
+          "label": "3 · ADELANTE",
+          "at": 1.6
+        }
+      ],
+      "vo": "Doce balanceos completos con disco, tres series. Si la lumbar se despega, cortá la serie.",
+      "moves": [
+        {
+          "cut": "BANANA",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ROCK_BACK",
+              0.55
+            ],
+            [
+              "BANANA",
+              0.4
+            ],
+            [
+              "ROCK_FWD",
+              0.55
+            ],
+            [
+              "BANANA",
+              0.4
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "BANANA",
+    "grip": 0,
+    "zoom": 1.0,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Weighted Hollow Rock 🔥 hollow rock con disco para un core de acero | CrossFit",
+    "tags": [
+      "weighted hollow rock",
+      "hollow rock",
+      "hollow body",
+      "disco",
+      "core",
+      "abdominales",
+      "recto abdominal",
+      "crossfit",
+      "activacion",
+      "gimnasia"
+    ],
+    "descripcion": "🔥 WEIGHTED HOLLOW ROCK — hollow rock con disco para un core fuerte y estable\n\n¿El hollow ya te sale fácil? Sumale un disco y el core tiene que trabajar el doble. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Acostate boca arriba y tomá el disco con las dos manos.\n2️⃣ Formá la banana: hombros y piernas despegados, lumbar pegada.\n3️⃣ Balanceate adelante y atrás como una mecedora.\n4️⃣ Mantené el cuerpo en una sola pieza, sin flexionar la cadera.\n5️⃣ Si la lumbar se despega, sacá el disco o acortá el rango.\n\n✅ CLAVES DE TÉCNICA\n• Cuerpo en bloque\n• Lumbar pegada al piso\n• Sin impulso de cadera\n• El disco no te frena la posición\n\n🎯 QUÉ TRABAJA\nRecto abdominal · Oblicuos · Flexores de cadera · Erectores espinales\n\n⏱️ CUÁNTO\n12 repeticiones con disco de 5 kg, 3 series. Va como accesorio de core después de la entrada en calor.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste hollow rock, primero dominá el cuerpo libre y después sumá el disco.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #HollowRock #Core #Disco #Entrenamiento"
+  }
+}

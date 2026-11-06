@@ -1,0 +1,49 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Ground Pull-Up",
+      "text": "Boca arriba, codos al piso y escápulas juntas. Dominada sin barra."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba, piernas extendidas, brazos al techo y lumbar al piso."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Estirá los brazos al techo con los codos extendidos."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá los codos al piso con los hombros atrás; no flexiones solo el codo."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Apretá las escápulas dos segundos arriba, sin despegar la lumbar del piso."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Volvé a estirar controlado, manteniendo la lumbar pegada."
+    },
+    {
+      "id": "07",
+      "text": "El error: despegar la lumbar para ganar rango. La lumbar no se levanta."
+    },
+    {
+      "id": "08",
+      "text": "Claves: lumbar pegada, brazos al techo, codos al piso y escápulas juntas."
+    },
+    {
+      "id": "09",
+      "text": "Doce repeticiones lentas. Si la lumbar se despega, reducí el rango."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

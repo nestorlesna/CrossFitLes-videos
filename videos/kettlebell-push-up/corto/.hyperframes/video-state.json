@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "53a0e9d2-c7ab-4336-ba88-ecaa0d6816fc",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "300a67aece8775c7c430bd933c5ed8f5fafc8bf7c109fcc76db2bb8e589c0f12",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\53a0e9d2-c7ab-4336-ba88-ecaa0d6816fc\\blobs\\30\\300a67aece8775c7c430bd933c5ed8f5fafc8bf7c109fcc76db2bb8e589c0f12"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\53a0e9d2-c7ab-4336-ba88-ecaa0d6816fc\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "2d399b5215bad6f4930c18758b0ba38e305e55418b6f1da342166607b4179157",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\53a0e9d2-c7ab-4336-ba88-ecaa0d6816fc\\blobs\\2d\\2d399b5215bad6f4930c18758b0ba38e305e55418b6f1da342166607b4179157"
+    },
+    "meta.json": {
+      "hash": "f59f739d0f4c8e7e6075ff793b2af9af4f9affd49e6067ad07e5196566733ac9",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\53a0e9d2-c7ab-4336-ba88-ecaa0d6816fc\\blobs\\f5\\f59f739d0f4c8e7e6075ff793b2af9af4f9affd49e6067ad07e5196566733ac9"
+    },
+    "package.json": {
+      "hash": "244da48125849c0196cffec7cdf99dae3579eaf3ecc1c0a9e69de86eb21e0089",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\53a0e9d2-c7ab-4336-ba88-ecaa0d6816fc\\blobs\\24\\244da48125849c0196cffec7cdf99dae3579eaf3ecc1c0a9e69de86eb21e0089"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "b331f0bf-e273-4245-bba9-1e0a4211372b",
+      "completedAt": 1793879501759,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\kettlebell-push-up\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

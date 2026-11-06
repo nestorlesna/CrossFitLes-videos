@@ -1,0 +1,312 @@
+{
+  "slug": "kettlebell-upright-row",
+  "name": "Kettlebell Upright Row",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Hombros",
+    "Trapecio",
+    "Espalda"
+  ],
+  "descripcion": "De pie con una kettlebell tomada con las dos manos frente a los muslos, tirar hacia arriba llevando los codos por encima de las manos hasta la altura del pecho, y bajar con control.",
+  "revisado": false,
+  "notas": "Remo al mentón a dos manos con kettlebell; codos guían el movimiento.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 490,
+    "y": 1502,
+    "scale": 0.88
+  },
+  "initialPose": "STAND",
+  "props": [
+    {
+      "type": "kettlebell",
+      "off": [
+        0,
+        18
+      ]
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "g2": 1,
+      "hx": 20,
+      "hy": -430,
+      "hx2": 20,
+      "hy2": -430,
+      "ed": 1
+    },
+    "PULL": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": -2,
+      "hd": 2,
+      "g": 1,
+      "g2": 1,
+      "hx": 120,
+      "hy": -610,
+      "hx2": 120,
+      "hy2": -610,
+      "ed": -1
+    },
+    "SHRUG_BAD": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 6,
+      "hd": 8,
+      "g": 1,
+      "g2": 1,
+      "hx": 120,
+      "hy": -610,
+      "hx2": 120,
+      "hy2": -610,
+      "ed": -1
+    }
+  },
+  "miniatura": {
+    "pose": "PULL",
+    "grip": 1,
+    "zoom": 1.1,
+    "dy": 190
+  },
+  "youtube": {
+    "titulo": "Kettlebell Upright Row 🔥 Remo al mentón con KB paso a paso | CrossFit",
+    "tags": [
+      "kettlebell upright row",
+      "remo al mentón",
+      "remo vertical",
+      "kettlebell",
+      "hombros",
+      "trapecio",
+      "deltoides",
+      "espalda",
+      "crossfit",
+      "fuerza"
+    ],
+    "descripcion": "🔥 KETTLEBELL UPRIGHT ROW — remo al mentón con KB paso a paso\n\n¿Querés trabajar hombros y trapecio con un solo implemento? El remo al mentón con kettlebell es simple, pero la técnica manda: los codos suben, no el mentón. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ De pie, con la kettlebell tomada con las dos manos frente a los muslos.\n2️⃣ Tirá hacia arriba llevando los codos por encima de las manos.\n3️⃣ Subí hasta la altura del pecho, sin encoger los hombros.\n4️⃣ Bajá con control, manteniendo los codos cerca del cuerpo.\n5️⃣ Encadená las repeticiones sin usar impulso de cadera.\n\n✅ CLAVES DE TÉCNICA\n• Los codos guían el movimiento\n• Subí hasta el pecho, no hasta la nariz\n• No encojas los hombros\n• Sin impulso de cadera\n• Bajá controlando la kettlebell\n\n🎯 QUÉ TRABAJA\nDeltoides lateral · Trapecio superior · Bíceps · Antebrazo\n\n⏱️ CUÁNTO\n12 repeticiones con 10 kg. Ideal como accesorio de hombros o finisher.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi sentís pinchazos en el hombro, probá con un agarre más ancho y menos rango.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #UprightRow #Kettlebell #Hombros #Fuerza"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "KB UPRIGHT",
+        "ROW"
+      ],
+      "vo": "Kettlebell Upright Row: remo al mentón con kettlebell. Hombros y trapecio, con codos altos.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "STAND",
+              0.7
+            ],
+            [
+              "PULL",
+              0.8
+            ],
+            [
+              "STAND",
+              0.7
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE",
+        "DOS MANOS"
+      ],
+      "sub": "KB frente a los muslos",
+      "vo": "De pie, con la kettlebell tomada con las dos manos frente a los muslos y los codos apenas flexionados.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "TIRÁ",
+        "HACIA ARRIBA"
+      ],
+      "sub": "Codos guían",
+      "vo": "Paso uno. Tirá hacia arriba llevando los codos por encima de las manos, no el mentón adelante.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.8,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            760,
+            780
+          ],
+          "text": "CODOS ARRIBA",
+          "anchor": "middle",
+          "at": 1.1
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "HASTA EL",
+        "PECHO"
+      ],
+      "sub": "Sin encogerte",
+      "vo": "Paso dos. Subí hasta la altura del pecho, sin encoger los hombros ni usar impulso.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            900
+          ],
+          "text": "SIN ENCOGERTE",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "CONTROLADO"
+      ],
+      "sub": "Codos cerca",
+      "vo": "Paso tres. Bajá la kettlebell con control, manteniendo los codos cerca del cuerpo.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "STAND",
+          "at": 0.7,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            900
+          ],
+          "text": "BAJÁ CONTROLADO",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Codos guían el movimiento",
+        "Subí hasta el pecho",
+        "No encojas los hombros",
+        "Sin impulso de cadera"
+      ],
+      "vo": "Claves: los codos guían, subí hasta el pecho, no encojas los hombros y evitá el impulso de cadera.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "12 REPS"
+      ],
+      "sub": "10 kg",
+      "vo": "Doce repeticiones con diez kilos. Subí y bajá con control, sin usar la cadera para tirar.",
+      "chips": [
+        {
+          "label": "1 · TIRÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · CODOS",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "PULL",
+              0.8
+            ],
+            [
+              "STAND",
+              0.8
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

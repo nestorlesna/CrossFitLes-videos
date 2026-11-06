@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "efc98e26-818a-4cca-9b7c-d7a1c61f8616",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "8b18e40a62e0946e679365810213cbe0b35d1a9414eba064963f450f26bb8e61",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\efc98e26-818a-4cca-9b7c-d7a1c61f8616\\blobs\\8b\\8b18e40a62e0946e679365810213cbe0b35d1a9414eba064963f450f26bb8e61"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\efc98e26-818a-4cca-9b7c-d7a1c61f8616\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "7112e1f1086b011a72edf92d0eee8d3dfc7c704a0058d75498edcba8d605336f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\efc98e26-818a-4cca-9b7c-d7a1c61f8616\\blobs\\71\\7112e1f1086b011a72edf92d0eee8d3dfc7c704a0058d75498edcba8d605336f"
+    },
+    "meta.json": {
+      "hash": "eabebead9eeec388840f7175004650733c290f8205ea92469f305ce47a304b2d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\efc98e26-818a-4cca-9b7c-d7a1c61f8616\\blobs\\ea\\eabebead9eeec388840f7175004650733c290f8205ea92469f305ce47a304b2d"
+    },
+    "package.json": {
+      "hash": "9307a04ece28b387c83059f3950c1aa36afb602dbb59c46175ee68cd40aa5916",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\efc98e26-818a-4cca-9b7c-d7a1c61f8616\\blobs\\93\\9307a04ece28b387c83059f3950c1aa36afb602dbb59c46175ee68cd40aa5916"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "34c4a309-b745-4065-837f-63030eae39db",
+      "completedAt": 1793877605677,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\weighted-butterfly-sit-up\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

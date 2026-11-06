@@ -50,3 +50,7 @@ videos-largos/proyectos/*/.thumbnails/
 videos-largos/proyectos/*/.waveform-cache/
 videos-largos/proyectos/*/.hyperframes/
 videos-largos/proyectos/*/public/
+
+# Proyecto del corto: la música (~1 MB c/u) se copia en cada corto; se regenera con make-exercise --corto
+videos/*/corto/assets/
+videos/*/corto/renders/

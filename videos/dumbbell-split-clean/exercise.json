@@ -1,0 +1,470 @@
+{
+  "slug": "dumbbell-split-clean",
+  "name": "Dumbbell Split Clean",
+  "category": "CROSSFIT - FUERZA",
+  "tags": [
+    "Potencia",
+    "Piernas",
+    "Hombros"
+  ],
+  "descripcion": "Clean con mancuernas cayendo en posición de split (tijera): extensión explosiva de cadera desde el piso y recepción con las mancuernas en los hombros.",
+  "revisado": false,
+  "notas": "SETUP y PULL vienen de `dual-dumbbell-snatch-with-burpee`; el split usa la geometría de `barbell-clean-and-jerk` (ankle 170 / ankle2 -200,-40) con los brazos en rack de mancuernas. El error es la espalda redondeada en el setup.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 560,
+    "y": 1512,
+    "scale": 0.64
+  },
+  "pronuncia": {
+    "Dumbbell Split Clean": "Dámbel split clin",
+    "Dumbbell": "dámbel",
+    "Split Clean": "split clin"
+  },
+  "initialPose": "STAND",
+  "props": [
+    {
+      "type": "dumbbell",
+      "hand": "far",
+      "side": true,
+      "r": 40
+    },
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "side": true,
+      "r": 40
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 2,
+      "ua2": 4,
+      "fa2": 2
+    },
+    "SETUP": {
+      "hip": [
+        -215,
+        -250
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 74,
+      "hd": 34,
+      "g": 1,
+      "g2": 1,
+      "ed": 1,
+      "hx": 30,
+      "hy": -8,
+      "hx2": 10,
+      "hy2": -8
+    },
+    "PULL": {
+      "hip": [
+        0,
+        -486
+      ],
+      "s": -4,
+      "t": 4,
+      "ft": -18,
+      "ft2": -18,
+      "b": -6,
+      "hd": -4,
+      "g": 0,
+      "ua": -8,
+      "fa": 0,
+      "ua2": -8,
+      "fa2": 0
+    },
+    "SPLIT": {
+      "hip": [
+        -10,
+        -410
+      ],
+      "ankle": [
+        170,
+        0
+      ],
+      "ankle2": [
+        -200,
+        -40
+      ],
+      "b": 0,
+      "hd": 6,
+      "ft2": 35,
+      "g": 0,
+      "ua": 45,
+      "fa": 165,
+      "ua2": 49,
+      "fa2": 161
+    },
+    "TOGETHER": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 2,
+      "hd": 4,
+      "g": 0,
+      "ua": 45,
+      "fa": 165,
+      "ua2": 49,
+      "fa2": 161
+    },
+    "SETUP_ROUND": {
+      "hip": [
+        -215,
+        -250
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 62,
+      "hd": 82,
+      "cv": 34,
+      "g": 1,
+      "g2": 1,
+      "ed": 1,
+      "hx": 30,
+      "hy": -8,
+      "hx2": 10,
+      "hy2": -8
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.4,
+      "badge": "CROSSFIT - FUERZA",
+      "head": [
+        "DUMBBELL",
+        "SPLIT CLEAN"
+      ],
+      "vo": "Dumbbell Split Clean: mancuernas del piso a los hombros, cayendo en tijera.",
+      "moves": [
+        {
+          "to": "SETUP",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "PULL",
+              0.4
+            ],
+            [
+              "SPLIT",
+              0.5
+            ],
+            [
+              "TOGETHER",
+              0.6
+            ],
+            [
+              "SETUP",
+              0.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 4.8,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE",
+        "AL COSTADO"
+      ],
+      "sub": "Pies al ancho de cadera",
+      "vo": "De pie, una mancuerna en cada mano al costado y los pies al ancho de cadera.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "BAJÁ",
+        "AL PISO"
+      ],
+      "sub": "Espalda recta",
+      "vo": "Paso uno. Bajá con la espalda recta y las mancuernas al piso, entre los pies.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "SETUP",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1330
+          ],
+          "text": "ESPALDA RECTA",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "EXTENDÉ",
+        "LA CADERA"
+      ],
+      "sub": "Explosivo",
+      "vo": "Paso dos. Extendé la cadera y los tobillos de golpe, con las mancuernas pegadas.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.5,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "CAÉ",
+        "EN TIJERA"
+      ],
+      "sub": "Mancuernas a los hombros",
+      "vo": "Paso tres. Caé en tijera y recibí las mancuernas en los hombros.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "SPLIT",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1330
+          ],
+          "text": "RODILLA SOBRE EL TOBILLO",
+          "anchor": "end",
+          "at": 1.3
+        }
+      ]
+    },
+    {
+      "min": 4.8,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "JUNTÁ",
+        "LOS PIES"
+      ],
+      "sub": "Y quedá de pie",
+      "vo": "Paso cuatro. Juntá los pies y terminá de pie, con las mancuernas en los hombros.",
+      "moves": [
+        {
+          "cut": "SPLIT",
+          "at": 0
+        },
+        {
+          "to": "TOGETHER",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "ASÍ NO",
+      "head": [
+        "ESPALDA",
+        "REDONDEADA"
+      ],
+      "sub": "Tirás con la lumbar",
+      "vo": "Así no: si redondeás la espalda, la fuerza se va a la lumbar y no al piso.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "SETUP_ROUND",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1300
+          ],
+          "text": "PECHO ARRIBA",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Extensión completa",
+        "Mancuernas cerca",
+        "Caé en tijera",
+        "Juntá los pies"
+      ],
+      "vo": "Claves: extensión completa de cadera, mancuernas cerca del cuerpo, caé en tijera y juntá los pies.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "PULL",
+              0.4
+            ],
+            [
+              "SPLIT",
+              0.5
+            ],
+            [
+              "TOGETHER",
+              0.6
+            ],
+            [
+              "SETUP",
+              0.6
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.4,
+      "badge": "A ENTRENAR",
+      "head": [
+        "5 REPS"
+      ],
+      "sub": "Explosivo",
+      "vo": "Cinco repeticiones, explosivo y con la espalda recta todo el tiempo.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.4
+        },
+        {
+          "label": "2 · EXTENDÉ",
+          "at": 1.2
+        },
+        {
+          "label": "3 · TIJERA",
+          "at": 2.0
+        }
+      ],
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "PULL",
+              0.4
+            ],
+            [
+              "SPLIT",
+              0.5
+            ],
+            [
+              "TOGETHER",
+              0.6
+            ],
+            [
+              "SETUP",
+              0.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "SPLIT",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Dumbbell Split Clean ⚡ Clean con mancuernas a la tijera | CrossFit",
+    "tags": [
+      "dumbbell split clean",
+      "split clean",
+      "clean con mancuernas",
+      "mancuernas",
+      "potencia",
+      "clean",
+      "tijera",
+      "split",
+      "crossfit",
+      "fuerza",
+      "extension de cadera"
+    ],
+    "descripcion": "⚡ DUMBBELL SPLIT CLEAN — mancuernas del piso a los hombros, cayendo en tijera\n\nEl clean con mancuernas te enseña la extensión de cadera sin la técnica de la barra. Potencia y coordinación en un solo movimiento. 💪\n\n📋 PASO A PASO\n1️⃣ De pie, una mancuerna en cada mano al costado y los pies al ancho de cadera.\n2️⃣ Bajá con la espalda recta y las mancuernas al piso, entre los pies.\n3️⃣ Extendé la cadera y los tobillos de golpe, con las mancuernas pegadas al cuerpo.\n4️⃣ Caé en tijera y recibí las mancuernas en los hombros.\n5️⃣ Juntá los pies y terminá de pie.\n\n✅ CLAVES DE TÉCNICA\n• Extensión completa de cadera antes de la tijera\n• Mancuernas cerca del cuerpo todo el recorrido\n• Rodilla delantera sobre el tobillo al recibir\n• Talón de atrás levantado en el split\n• Juntá los pies con control\n\n🎯 QUÉ TRABAJA\nBíceps femoral · Glúteo · Cuádriceps · Trapecio · Deltoides anterior\n\n⏱️ CUÁNTO\n5 repeticiones. Va en el WOD como movimiento de potencia, lejos del fallo.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nEmpezá liviano: primero la técnica del split, después la velocidad.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.\n\n#CrossFit #Fuerza #Clean #Mancuernas #Potencia"
+  }
+}

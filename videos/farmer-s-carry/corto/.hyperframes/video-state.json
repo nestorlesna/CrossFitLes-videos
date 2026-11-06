@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "5dd69fce-0e30-4026-b85c-267102439e71",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "13fbe93753b6b20e1ba9692072c6567c748d19862d0a96dc164cfc79e1075805",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\5dd69fce-0e30-4026-b85c-267102439e71\\blobs\\13\\13fbe93753b6b20e1ba9692072c6567c748d19862d0a96dc164cfc79e1075805"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\5dd69fce-0e30-4026-b85c-267102439e71\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "7095969c4e8f0e83307672b2cc35232de0c42ab302961081a0aa5647b88ef90d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\5dd69fce-0e30-4026-b85c-267102439e71\\blobs\\70\\7095969c4e8f0e83307672b2cc35232de0c42ab302961081a0aa5647b88ef90d"
+    },
+    "meta.json": {
+      "hash": "54c81ad98194c94568950bddbb838a952dfb8ec625a5069a0026cfacae006fad",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\5dd69fce-0e30-4026-b85c-267102439e71\\blobs\\54\\54c81ad98194c94568950bddbb838a952dfb8ec625a5069a0026cfacae006fad"
+    },
+    "package.json": {
+      "hash": "4d780b57f9bef5c56c510650156c73280b6f3dbffa324441e1b1bd79f029da6e",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\5dd69fce-0e30-4026-b85c-267102439e71\\blobs\\4d\\4d780b57f9bef5c56c510650156c73280b6f3dbffa324441e1b1bd79f029da6e"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "feb793b5-d8ac-443c-bb73-b452bd8531b9",
+      "completedAt": 1793839399223,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\farmer-s-carry\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

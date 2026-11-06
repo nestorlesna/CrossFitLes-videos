@@ -1,0 +1,432 @@
+{
+  "name": "Split Squat Hold",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Piernas",
+    "Glúteos",
+    "Isométrico"
+  ],
+  "descripcion": "En zancada dividida, bajar hasta que ambas rodillas queden cerca de 90° y sostener con una mancuerna en cada mano. Torso erguido, peso repartido y rodilla delantera alineada con el pie.",
+  "notas": "Misma geometría y props que isometric-lunge (rx 290, mancuernas de costado). La isometría se lee con LUNGE/TENSE en loop.",
+  "props": [
+    {
+      "type": "dumbbell",
+      "hand": "far",
+      "side": true,
+      "r": 40,
+      "off": [
+        0,
+        4
+      ]
+    },
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "side": true,
+      "r": 40,
+      "off": [
+        0,
+        4
+      ]
+    }
+  ],
+  "rig": {
+    "x": 440,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": -2,
+      "fa2": 0
+    },
+    "LUNGE": {
+      "s": 1.95,
+      "t": -82.31,
+      "s2": 89.94,
+      "t2": 10.81,
+      "rx": 290,
+      "ry": 0,
+      "ft": 0,
+      "ft2": 48,
+      "b": 2,
+      "hd": 0,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": -2,
+      "fa2": 0
+    },
+    "TENSE": {
+      "s": 2.6,
+      "t": -83.4,
+      "s2": 89.94,
+      "t2": 10.81,
+      "rx": 290,
+      "ry": 0,
+      "ft": 0,
+      "ft2": 48,
+      "b": 4,
+      "hd": 1,
+      "g": 0,
+      "ua": 3,
+      "fa": 1,
+      "ua2": -3,
+      "fa2": 1
+    },
+    "LEAN": {
+      "s": 1.95,
+      "t": -82.31,
+      "s2": 89.94,
+      "t2": 10.81,
+      "rx": 290,
+      "ry": 0,
+      "ft": 0,
+      "ft2": 48,
+      "b": 28,
+      "hd": 22,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": -2,
+      "fa2": 0
+    },
+    "KNEE_OVER": {
+      "s": 20,
+      "t": -88,
+      "s2": 89.94,
+      "t2": 10.81,
+      "rx": 290,
+      "ry": 0,
+      "ft": 0,
+      "ft2": 48,
+      "b": 4,
+      "hd": 2,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": -2,
+      "fa2": 0
+    }
+  },
+  "miniatura": {
+    "pose": "TENSE",
+    "grip": 0,
+    "zoom": 1.2,
+    "dy": 200
+  },
+  "nombreEnVoz": "Isometric Split Squat Hold",
+  "slug": "isometric-split-squat-hold",
+  "revisado": false,
+  "music": true,
+  "musicVolume": 0.18,
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "SPLIT",
+        "SQUAT HOLD"
+      ],
+      "vo": "Isometric Split Squat Hold: zancada baja con mancuernas y rodillas cerca de noventa. Aguantá sin moverte.",
+      "moves": [
+        {
+          "cut": "LUNGE",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TENSE",
+              0.5
+            ],
+            [
+              "LUNGE",
+              0.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE"
+      ],
+      "sub": "Una mancuerna en cada mano",
+      "vo": "Parate derecho con una mancuerna en cada mano, los brazos al costado del cuerpo.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            593,
+            996
+          ],
+          "text": "MANCUERNAS AL COSTADO",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "PASO",
+        "LARGO"
+      ],
+      "sub": "Y bajá a la zancada",
+      "vo": "Paso uno. Da un paso largo y bajá hasta que la rodilla de atrás quede a pocos centímetros del suelo.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "LUNGE",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            453,
+            1476
+          ],
+          "r": 52,
+          "at": 1.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            356,
+            1490
+          ],
+          "text": "CASI AL PISO",
+          "anchor": "end",
+          "at": 2.1
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1120
+          ],
+          "text": "RODILLA ALINEADA",
+          "anchor": "end",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 6.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "MANTENÉ",
+        "LA POSICIÓN"
+      ],
+      "sub": "Isometría: no te muevas",
+      "vo": "Paso dos. Quedate ahí sin moverte, con la rodilla de adelante a noventa y el core firme. Sostener construye fuerza.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "TENSE",
+              0.5
+            ],
+            [
+              "LUNGE",
+              0.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            470,
+            700
+          ],
+          "text": "SOSTENÉ · SIN MOVERTE",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Torso adelante y rodilla pasada",
+      "vo": "Paso tres. Si el torso se va adelante, la rodilla pasa la punta del pie y cargás la rodilla. Torso erguido.",
+      "moves": [
+        {
+          "cut": "LUNGE",
+          "at": 0
+        },
+        {
+          "to": "LEAN",
+          "at": 0.5,
+          "dur": 0.7
+        },
+        {
+          "to": "LUNGE",
+          "at": 1.6,
+          "dur": 0.7
+        },
+        {
+          "to": "KNEE_OVER",
+          "at": 2.7,
+          "dur": 0.7
+        },
+        {
+          "to": "LUNGE",
+          "at": 4.0,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            356,
+            1150
+          ],
+          "text": "TRONCO ERGUIDO",
+          "anchor": "end",
+          "at": 1.3,
+          "out": 2.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1150
+          ],
+          "text": "RODILLA NO PASA",
+          "anchor": "end",
+          "at": 3.1,
+          "out": 4.0
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Torso erguido",
+        "Rodilla no pasa la punta",
+        "Peso en el talón",
+        "Core firme"
+      ],
+      "vo": "Claves: torso erguido, rodilla que no pasa la punta del pie, peso en el talón y core firme.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "TENSE",
+              0.6
+            ],
+            [
+              "LUNGE",
+              0.7
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "Por pierna",
+      "chips": [
+        {
+          "label": "30 s",
+          "at": 0.6
+        },
+        {
+          "label": "2 series",
+          "at": 1.2
+        },
+        {
+          "label": "60 s",
+          "at": 1.8
+        }
+      ],
+      "vo": "Treinta segundos por pierna, dos series. Si perdés el torso erguido, cortá la serie.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "TENSE",
+              0.7
+            ],
+            [
+              "LUNGE",
+              0.7
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "youtube": {
+    "titulo": "Isometric Split Squat Hold 🔥 Zancada isométrica con mancuernas | CrossFit",
+    "descripcion": "🔥 ISOMETRIC SPLIT SQUAT HOLD - zancada baja sostenida con mancuernas\n\n👉 PASO A PASO\n1️⃣ De pie con una mancuerna en cada mano.\n2️⃣ Da un paso largo y bajá hasta que la rodilla de atrás quede casi al piso.\n3️⃣ Sostené la posición: rodilla de adelante a 90° y torso erguido.\n4️⃣ Peso repartido, sin bloquear la rodilla delantera.\n\n✅ CLAVES DE TÉCNICA\n✔ Torso erguido toda la isometría\n✔ Rodilla delantera no pasa la punta del pie\n✔ Peso en el talón de adelante\n✔ Core firme, sin moverse\n\n💪 QUÉ TRABAJA\nCuádriceps · Glúteo mayor · Bíceps femoral · Vasto lateral\n\n⏱ CUÁNTO\n30 segundos por pierna, 2 series. Activación o accesorio de fuerza.\n\nSi la rodilla de adelante pasa la punta del pie o el torso se va adelante, acortá el paso y volvé a la posición.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚",
+    "tags": [
+      "isometric split squat",
+      "split squat hold",
+      "zancada isométrica",
+      "sentadilla búlgara",
+      "isométrico",
+      "piernas",
+      "glúteos",
+      "cuádriceps",
+      "crossfit",
+      "mancuernas",
+      "fuerza",
+      "unilateral"
+    ]
+  }
+}

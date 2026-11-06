@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "0fe7033e-4b58-4a76-9d5b-0eceeb9d2df7",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "f9407e5169d10197254197d0c2d21bc2e7bb313e6d46edfefb40348e08f15156",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0fe7033e-4b58-4a76-9d5b-0eceeb9d2df7\\blobs\\f9\\f9407e5169d10197254197d0c2d21bc2e7bb313e6d46edfefb40348e08f15156"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0fe7033e-4b58-4a76-9d5b-0eceeb9d2df7\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "d34432671e072b73a9e05601ee35097ae612747f88ca87027f01410abf6dbe3c",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0fe7033e-4b58-4a76-9d5b-0eceeb9d2df7\\blobs\\d3\\d34432671e072b73a9e05601ee35097ae612747f88ca87027f01410abf6dbe3c"
+    },
+    "meta.json": {
+      "hash": "e3c1665ebcab20c184ec29a3cb4cbb4363a05a086f5ea9cac46a1cffab1809c5",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0fe7033e-4b58-4a76-9d5b-0eceeb9d2df7\\blobs\\e3\\e3c1665ebcab20c184ec29a3cb4cbb4363a05a086f5ea9cac46a1cffab1809c5"
+    },
+    "package.json": {
+      "hash": "a4d6b220e664a947fc0152e321a368f07c51c01d61a328978aff0fa56e4757be",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0fe7033e-4b58-4a76-9d5b-0eceeb9d2df7\\blobs\\a4\\a4d6b220e664a947fc0152e321a368f07c51c01d61a328978aff0fa56e4757be"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "9ab32b71-159a-44eb-9ec4-fcc4e09d17c3",
+      "completedAt": 1793875716437,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\bear-crawl-hold\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

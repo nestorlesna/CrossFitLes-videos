@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "0697b8f9-a8d5-4bd8-8a41-17683718b4da",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "1d5cbde5660ff00fbe9d2fe4e8969685b7e1087eeffb5f4d6e3d3afce54616bf",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0697b8f9-a8d5-4bd8-8a41-17683718b4da\\blobs\\1d\\1d5cbde5660ff00fbe9d2fe4e8969685b7e1087eeffb5f4d6e3d3afce54616bf"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0697b8f9-a8d5-4bd8-8a41-17683718b4da\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "c3ffe72c48a9e0019f99e24ad445de852e267e67d9d492fe35c09000eb286b66",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0697b8f9-a8d5-4bd8-8a41-17683718b4da\\blobs\\c3\\c3ffe72c48a9e0019f99e24ad445de852e267e67d9d492fe35c09000eb286b66"
+    },
+    "meta.json": {
+      "hash": "5a92f0781feec2314cbc9eae5bd3e0883f3cc79b11668580d6f4cfb3544169c2",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0697b8f9-a8d5-4bd8-8a41-17683718b4da\\blobs\\5a\\5a92f0781feec2314cbc9eae5bd3e0883f3cc79b11668580d6f4cfb3544169c2"
+    },
+    "package.json": {
+      "hash": "50c8cb19261361ab248afe0e6eb14cedc474d460801e150c9851eccfdd895c1a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0697b8f9-a8d5-4bd8-8a41-17683718b4da\\blobs\\50\\50c8cb19261361ab248afe0e6eb14cedc474d460801e150c9851eccfdd895c1a"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "5827017f-f0bb-4c4b-bdd8-b050b0a27967",
+      "completedAt": 1793876262377,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\hanging-flutter-kicks\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

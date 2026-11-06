@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "4f1fc23f-d35c-476e-98ff-a04bf6afa509",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "b8128a9c59d80c98d765ff630c5679574031ae6cd45a327e902e490bcaa8b7b2",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4f1fc23f-d35c-476e-98ff-a04bf6afa509\\blobs\\b8\\b8128a9c59d80c98d765ff630c5679574031ae6cd45a327e902e490bcaa8b7b2"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4f1fc23f-d35c-476e-98ff-a04bf6afa509\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "b2f3f60aacfea35066f240559df29ba71e98642575936585391c3cd041a682fa",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4f1fc23f-d35c-476e-98ff-a04bf6afa509\\blobs\\b2\\b2f3f60aacfea35066f240559df29ba71e98642575936585391c3cd041a682fa"
+    },
+    "meta.json": {
+      "hash": "0561e7fdfd9c6fb395cb3393cd82559e29606565217f4128834dd1192290f701",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4f1fc23f-d35c-476e-98ff-a04bf6afa509\\blobs\\05\\0561e7fdfd9c6fb395cb3393cd82559e29606565217f4128834dd1192290f701"
+    },
+    "package.json": {
+      "hash": "efcdd8cf163b45307b16865294760070ee44b240e16d9caf25c46589cbedbc9f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4f1fc23f-d35c-476e-98ff-a04bf6afa509\\blobs\\ef\\efcdd8cf163b45307b16865294760070ee44b240e16d9caf25c46589cbedbc9f"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "d5276337-0ef2-45d5-8663-96f556e6b3d9",
+      "completedAt": 1793879596118,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\lying-leg-raise\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

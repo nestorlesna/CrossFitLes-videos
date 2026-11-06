@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "929a6499-4557-44a7-b4e7-18b7d189423e",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "1cbd4a389c20584077a35f2ef52f0f8b3f146839781f984be5845c3bce73329a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\929a6499-4557-44a7-b4e7-18b7d189423e\\blobs\\1c\\1cbd4a389c20584077a35f2ef52f0f8b3f146839781f984be5845c3bce73329a"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\929a6499-4557-44a7-b4e7-18b7d189423e\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "23dd02231760d39f4f9898c628089a7ce389ff669050dd1460c14e444245e8e8",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\929a6499-4557-44a7-b4e7-18b7d189423e\\blobs\\23\\23dd02231760d39f4f9898c628089a7ce389ff669050dd1460c14e444245e8e8"
+    },
+    "meta.json": {
+      "hash": "c3c0b8c1c0765796074d113c27b2e3e0377fc9be65d2eef01f7c7d8978967cfa",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\929a6499-4557-44a7-b4e7-18b7d189423e\\blobs\\c3\\c3c0b8c1c0765796074d113c27b2e3e0377fc9be65d2eef01f7c7d8978967cfa"
+    },
+    "package.json": {
+      "hash": "1644f4394832284e52e998391d1d61828126333cc4ed1e14d1c286b9ac4242a0",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\929a6499-4557-44a7-b4e7-18b7d189423e\\blobs\\16\\1644f4394832284e52e998391d1d61828126333cc4ed1e14d1c286b9ac4242a0"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "bdd2bb33-0631-4602-a1e1-0a895e214d54",
+      "completedAt": 1793874671392,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\supinated-band-pull-apart\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

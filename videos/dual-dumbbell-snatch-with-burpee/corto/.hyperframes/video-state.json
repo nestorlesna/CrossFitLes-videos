@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "c99c2f2d-4c79-4465-9dc6-b8c48dff8432",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "1cbd4a389c20584077a35f2ef52f0f8b3f146839781f984be5845c3bce73329a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\c99c2f2d-4c79-4465-9dc6-b8c48dff8432\\blobs\\1c\\1cbd4a389c20584077a35f2ef52f0f8b3f146839781f984be5845c3bce73329a"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\c99c2f2d-4c79-4465-9dc6-b8c48dff8432\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "3a679bd3b4b1a43165d4838c8df18419e5c031a5d7b3cddf08aab11bf62817a8",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\c99c2f2d-4c79-4465-9dc6-b8c48dff8432\\blobs\\3a\\3a679bd3b4b1a43165d4838c8df18419e5c031a5d7b3cddf08aab11bf62817a8"
+    },
+    "meta.json": {
+      "hash": "d4461a577183153307c0bdf43fdbcfabe53999ee18d53fc63432d60a3ac16227",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\c99c2f2d-4c79-4465-9dc6-b8c48dff8432\\blobs\\d4\\d4461a577183153307c0bdf43fdbcfabe53999ee18d53fc63432d60a3ac16227"
+    },
+    "package.json": {
+      "hash": "f40de888ce142c94e1c69babe1a76895e764e6685b2fda49d41ab5e95737a901",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\c99c2f2d-4c79-4465-9dc6-b8c48dff8432\\blobs\\f4\\f40de888ce142c94e1c69babe1a76895e764e6685b2fda49d41ab5e95737a901"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "533e663e-4c96-4745-bcc4-84dd7199cf5b",
+      "completedAt": 1793875920577,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\dual-dumbbell-snatch-with-burpee\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

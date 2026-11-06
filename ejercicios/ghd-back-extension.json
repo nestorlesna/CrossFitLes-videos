@@ -1,0 +1,405 @@
+{
+  "slug": "ghd-back-extension",
+  "name": "GHD Back Extension",
+  "category": "CROSSFIT · ACCESORIO",
+  "tags": [
+    "Espalda baja",
+    "Glúteos",
+    "Isquios"
+  ],
+  "descripcion": "Extensión lumbar en máquina GHD. Fortalece cadena posterior baja.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 440,
+    "y": 1500,
+    "scale": 0.78
+  },
+  "pronuncia": {
+    "GHD Back Extension": "Yi eich di bak exténshon"
+  },
+  "initialPose": "TOP",
+  "props": [
+    {
+      "type": "ghd",
+      "pad": [
+        20,
+        -300
+      ],
+      "foot": [
+        -380,
+        -190
+      ]
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "TOP": {
+      "hip": [
+        20,
+        -335
+      ],
+      "ankle": [
+        -380,
+        -190
+      ],
+      "g": 0,
+      "b": 90,
+      "hd": 86,
+      "ua": -78,
+      "fa": 136,
+      "ua2": -78,
+      "fa2": 136
+    },
+    "MID": {
+      "hip": [
+        20,
+        -335
+      ],
+      "ankle": [
+        -380,
+        -190
+      ],
+      "g": 0,
+      "b": 110,
+      "hd": 106,
+      "ua": -98,
+      "fa": 136,
+      "ua2": -98,
+      "fa2": 136
+    },
+    "DOWN": {
+      "hip": [
+        20,
+        -335
+      ],
+      "ankle": [
+        -380,
+        -190
+      ],
+      "g": 0,
+      "b": 130,
+      "hd": 126,
+      "ua": -118,
+      "fa": 136,
+      "ua2": -118,
+      "fa2": 136
+    },
+    "HYPER_BAD": {
+      "hip": [
+        20,
+        -335
+      ],
+      "ankle": [
+        -380,
+        -190
+      ],
+      "g": 0,
+      "b": 68,
+      "hd": 50,
+      "ua": -56,
+      "fa": 136,
+      "ua2": -56,
+      "fa2": 136
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACCESORIO",
+      "head": [
+        "GHD BACK",
+        "EXTENSION"
+      ],
+      "vo": "GHD Back Extension: la extensión de espalda en GHD. Cadena posterior fuerte.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "MID",
+              0.6
+            ],
+            [
+              "DOWN",
+              0.6
+            ],
+            [
+              "MID",
+              0.6
+            ],
+            [
+              "TOP",
+              0.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "CADERA EN",
+        "EL ALMOHADÓN"
+      ],
+      "sub": "Boca abajo, pies bajo los rodillos",
+      "vo": "Ubicate boca abajo con la cadera apoyada en el almohadón y los pies firmes. Cuerpo en línea.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "BAJÁ CON",
+        "ESPALDA NEUTRA"
+      ],
+      "sub": "Cadera apoyada",
+      "vo": "Paso uno. Bajá el torso con la espalda neutra, sin redondearla, manteniendo la cadera apoyada.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.5,
+          "dur": 0.8
+        },
+        {
+          "to": "DOWN",
+          "at": 1.3,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "SUBÍ A LA",
+        "LÍNEA DEL CUERPO"
+      ],
+      "sub": "Glúteos firmes",
+      "vo": "Paso dos. Subí apretando glúteos hasta alinear el cuerpo, de la cabeza a los pies.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.5,
+          "dur": 0.8
+        },
+        {
+          "to": "TOP",
+          "at": 1.3,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            780,
+            700
+          ],
+          "text": "CUERPO EN LÍNEA",
+          "anchor": "middle",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "SIN",
+        "HIPEREXTENDER"
+      ],
+      "sub": "No pases la línea",
+      "vo": "Paso tres. No pases de la línea del cuerpo: hiperextender la zona lumbar no suma y puede lastimar.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "HYPER_BAD",
+          "at": 0.5,
+          "dur": 0.5
+        },
+        {
+          "to": "TOP",
+          "at": 1.8,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            780,
+            700
+          ],
+          "text": "HIPEREXTENDER: NO",
+          "anchor": "middle",
+          "at": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "MOVIMIENTO",
+        "CONTROLADO"
+      ],
+      "sub": "Sin rebotar",
+      "vo": "Paso cuatro. Controlá todo el recorrido, sin rebotar abajo ni usar impulso.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "MID",
+              0.6
+            ],
+            [
+              "DOWN",
+              0.6
+            ],
+            [
+              "MID",
+              0.6
+            ],
+            [
+              "TOP",
+              0.6
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Cadera apoyada en el almohadón",
+        "Espalda neutra al bajar",
+        "Subir hasta la línea del cuerpo",
+        "Sin hiperextender"
+      ],
+      "vo": "Claves: cadera apoyada en el almohadón, espalda neutra al bajar, subí hasta la línea del cuerpo y sin hiperextender.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Controlado",
+      "vo": "Diez repeticiones. Bajá con espalda neutra y subí hasta la línea del cuerpo.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · NEUTRA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SUBÍ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "MID",
+              0.6
+            ],
+            [
+              "DOWN",
+              0.6
+            ],
+            [
+              "MID",
+              0.6
+            ],
+            [
+              "TOP",
+              0.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "DOWN",
+    "grip": 0
+  },
+  "youtube": {
+    "titulo": "GHD Back Extension 🔥 espalda baja y glúteos paso a paso | CrossFit",
+    "descripcion": "🔥 GHD BACK EXTENSION — espalda baja, glúteos e isquios fuertes.\n\nSi querés una cadena posterior fuerte y una espalda baja resistente, este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Ubicate boca abajo con la cadera apoyada en el almohadón y los pies firmes. Cuerpo en línea.\n2️⃣ Bajá el torso con la espalda neutra, sin redondearla, manteniendo la cadera apoyada.\n3️⃣ Subí apretando glúteos hasta alinear el cuerpo, de la cabeza a los pies.\n4️⃣ No pases de la línea del cuerpo: hiperextender la zona lumbar no suma y puede lastimar.\n5️⃣ Controlá todo el recorrido, sin rebotar abajo ni usar impulso.\n\n✅ CLAVES DE TÉCNICA\n• Cadera apoyada en el almohadón\n• Bajar con la espalda neutra\n• Subir hasta la línea del cuerpo, sin hiperextender la zona lumbar\n• Movimiento controlado\n\n🎯 QUÉ TRABAJA\nBíceps femoral · Erectores espinales · Glúteo mayor · Semitendinoso · Trapecio inferior\n\n⏱️ CUÁNTO\n10 repeticiones controladas, como accesorio de cadena posterior.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés molestias lumbares, consultá antes y empezá con poco rango y un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\r\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Accesorio #GHDBackExtension #EspaldaBaja #Entrenamiento",
+    "tags": [
+      "ghd back extension",
+      "extensión lumbar ghd",
+      "ghd",
+      "espalda baja",
+      "cadena posterior",
+      "glúteos",
+      "crossfit",
+      "isquios",
+      "hiperextensión",
+      "fuerza"
+    ]
+  }
+}

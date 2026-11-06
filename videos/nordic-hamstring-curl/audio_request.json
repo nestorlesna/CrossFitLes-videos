@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Nordic Hamstring Curl",
+      "text": "De rodillas y con los tobillos fijos, bajá el cuerpo frenando con los isquios. El preventivo número uno."
+    },
+    {
+      "id": "02",
+      "text": "Arrodillate con el cuerpo derecho de rodillas a cabeza, la cadera extendida y los tobillos bien fijos."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá el torso en excéntrico, lo más lento posible, sin quebrar la cadera."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Seguí frenando hasta donde puedas, con el cuerpo en una sola línea de rodillas a la cabeza."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Amortiguá con las manos y volvé ayudándote con los brazos, sin tirar de la lumbar."
+    },
+    {
+      "id": "06",
+      "text": "Así no. Si sentás la cadera y flexionás la cadera, el ejercicio deja de trabajar los isquios."
+    },
+    {
+      "id": "07",
+      "text": "Claves: tobillos fijos, cuerpo en una sola línea, bajada lentísima y vuelta ayudada con las manos."
+    },
+    {
+      "id": "08",
+      "text": "Ocho repeticiones lentas. Si al final no podés frenar, soltá las manos al piso y volvé desde ahí."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

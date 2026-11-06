@@ -1,0 +1,399 @@
+{
+  "name": "Goblet Squat",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Cuádriceps",
+    "Core",
+    "Glúteos"
+  ],
+  "descripcion": "Sostener una pesa al pecho (goblet) en sentadilla baja",
+  "notas": "Pesa al pecho con los dos brazos (kettlebell off [0,10]) y sentadilla con hip/ankle IK; el error es que los talones se levanten.",
+  "props": [
+    {
+      "type": "kettlebell",
+      "off": [
+        0,
+        10
+      ]
+    }
+  ],
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 14,
+      "fa": 140,
+      "ua2": 10,
+      "fa2": 144
+    },
+    "HALF": {
+      "hip": [
+        -80,
+        -380
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 20,
+      "hd": 10,
+      "g": 0,
+      "ua": 12,
+      "fa": 142,
+      "ua2": 8,
+      "fa2": 146
+    },
+    "BOTTOM": {
+      "hip": [
+        -150,
+        -205
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 32,
+      "hd": 16,
+      "g": 0,
+      "ua": 10,
+      "fa": 144,
+      "ua2": 6,
+      "fa2": 148
+    },
+    "CHEST_BAD": {
+      "hip": [
+        -150,
+        -205
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 58,
+      "hd": 46,
+      "g": 0,
+      "ua": 30,
+      "fa": 118,
+      "ua2": 26,
+      "fa2": 122
+    },
+    "HEEL_BAD": {
+      "hip": [
+        -150,
+        -205
+      ],
+      "ankle": [
+        30,
+        -30
+      ],
+      "ft": -30,
+      "ft2": -30,
+      "b": 32,
+      "hd": 16,
+      "g": 0,
+      "ua": 10,
+      "fa": 144,
+      "ua2": 6,
+      "fa2": 148
+    }
+  },
+  "miniatura": {
+    "pose": "BOTTOM",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 180
+  },
+  "slug": "goblet-squat",
+  "revisado": false,
+  "music": true,
+  "musicVolume": 0.18,
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "GOBLET",
+        "SQUAT"
+      ],
+      "vo": "Goblet Squat: sentadilla con la pesa al pecho. Cuádriceps, core y glúteos con el torso erguido.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "STAND",
+              0.7
+            ],
+            [
+              "HALF",
+              0.5
+            ],
+            [
+              "BOTTOM",
+              0.7
+            ],
+            [
+              "HALF",
+              0.5
+            ],
+            [
+              "STAND",
+              0.7
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PESA",
+        "AL PECHO"
+      ],
+      "sub": "Codos abajo",
+      "vo": "De pie, sostené la kettlebell al pecho con las dos manos y los codos abajo. Pies al ancho de los hombros.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            760
+          ],
+          "text": "DOS MANOS",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ CON",
+        "PECHO ARRIBA"
+      ],
+      "sub": "Cadera entre los pies",
+      "vo": "Paso uno. Bajá sentando la cadera entre los pies, con el pecho arriba y la pesa pegada al cuerpo.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "to": "BOTTOM",
+          "at": 1.7,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            760
+          ],
+          "text": "PECHO ARRIBA",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "FONDO",
+        "ERGUIDO"
+      ],
+      "sub": "Talones apoyados",
+      "vo": "Paso dos. Llegá al fondo con el torso erguido y los talones apoyados. Si los talones se levantan, acortá la bajada.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "HEEL_BAD",
+          "at": 2.8,
+          "dur": 0.6
+        },
+        {
+          "to": "BOTTOM",
+          "at": 4.0,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            760
+          ],
+          "text": "TALONES APOYADOS",
+          "anchor": "middle",
+          "at": 0.8,
+          "out": 2.7
+        },
+        {
+          "type": "ring",
+          "pos": [
+            500,
+            1470
+          ],
+          "r": 58,
+          "at": 2.9,
+          "out": 3.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            820
+          ],
+          "text": "TALÓN ARRIBA NO",
+          "anchor": "middle",
+          "at": 2.9,
+          "out": 3.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "SUBÍ",
+        "EMPUJANDO"
+      ],
+      "sub": "Pesa al pecho",
+      "vo": "Paso tres. Subí empujando con los pies y extendiendo la cadera, sin perder la pesa al pecho.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.6,
+          "dur": 0.8
+        },
+        {
+          "to": "STAND",
+          "at": 1.6,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            760
+          ],
+          "text": "PESA AL PECHO",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.75,
+      "keys": [
+        "Pesa al pecho, codos abajo",
+        "Torso erguido",
+        "Talones apoyados",
+        "Rodillas hacia afuera"
+      ],
+      "vo": "Claves: pesa al pecho con los codos abajo, torso erguido, talones apoyados y rodillas hacia afuera.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Con 15 kg",
+      "vo": "Diez repeticiones con quince kilos. Bajá con control y mantené la profundidad en todas.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · FONDO",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SUBÍ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              0.8
+            ],
+            [
+              "STAND",
+              0.8
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "youtube": {
+    "titulo": "Goblet Squat 🔥 Sentadilla con pesa al pecho paso a paso | CrossFit",
+    "tags": [
+      "goblet squat",
+      "sentadilla goblet",
+      "sentadilla con kettlebell",
+      "sentadilla con pesa",
+      "cuádriceps",
+      "core",
+      "glúteos",
+      "técnica de sentadilla",
+      "crossfit",
+      "kettlebell"
+    ],
+    "descripcion": "🔥 GOBLET SQUAT — sentadilla con la pesa al pecho: cuádriceps y core\n\n¿La sentadilla te saca el pecho adelante y te tira la espalda? El goblet es el mejor lugar para aprender: la pesa al pecho te obliga a quedar erguido. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ De pie, sostené la kettlebell al pecho con las dos manos y los codos abajo. Pies al ancho de los hombros.\n2️⃣ Bajá sentando la cadera entre los pies, con el pecho arriba y la pesa pegada al cuerpo.\n3️⃣ Llegá al fondo con el torso erguido y los talones apoyados.\n4️⃣ Subí empujando con los pies y extendiendo la cadera, sin perder la pesa al pecho.\n\n✅ CLAVES DE TÉCNICA\n• La pesa va al pecho, con los codos abajo\n• Torso erguido durante todo el movimiento\n• Talones apoyados: si se levantan, acortá la bajada\n• Rodillas hacia afuera, siguiendo la punta de los pies\n• Bajá con control y mantené la profundidad\n\n🎯 QUÉ TRABAJA\nCuádriceps · Core/Abdominales · Deltoides · Glúteos\n\n⏱️ CUÁNTO\n10 repeticiones con 15 kg. Ideal para entrada en calor, técnica de sentadilla o WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste sentadilla con peso, arrancá con una pesa liviana y un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #GobletSquat #Sentadilla #Cuadriceps #Core"
+  }
+}

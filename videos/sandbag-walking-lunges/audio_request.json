@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Sandbag Walking Lunges",
+      "text": "Zancadas caminando con un sándbag. Piernas, glúteos y core al máximo."
+    },
+    {
+      "id": "02",
+      "text": "Parate con el sándbag abrazado contra el pecho, codos pegados y torso erguido. Pies al ancho de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Dá un paso largo hacia adelante y bajá con el torso erguido. La rodilla delantera no pasa la punta del pie."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá hasta que la rodilla de atrás casi toque el piso, con el sándbag estable y sin balancearse."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Empujá con la pierna delantera, traé la de atrás y arrancá la siguiente zancada sin detenerte."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Alterná piernas en cada paso hasta completar la distancia. Mantené el core firme y el sándbag pegado."
+    },
+    {
+      "id": "07",
+      "text": "Claves: torso erguido, rodilla delantera sobre el pie, la de atrás casi toca el piso y el sándbag firme sin balancearse."
+    },
+    {
+      "id": "08",
+      "text": "Treinta metros con cinco kilos. Paso largo, torso erguido y el sándbag siempre firme."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

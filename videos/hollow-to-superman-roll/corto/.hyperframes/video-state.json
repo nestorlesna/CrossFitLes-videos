@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "1bb694ac-6f68-44cc-b095-efb42d5c6a99",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "d48dda2dd6faf1ecd1c050b89b74872c4590b5c6c45cfeb6c3950de6d7a243fb",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1bb694ac-6f68-44cc-b095-efb42d5c6a99\\blobs\\d4\\d48dda2dd6faf1ecd1c050b89b74872c4590b5c6c45cfeb6c3950de6d7a243fb"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1bb694ac-6f68-44cc-b095-efb42d5c6a99\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "0d6802c367ceffe4e71eaa6dc5dec24314fe438f0e1e33f861d829505856722f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1bb694ac-6f68-44cc-b095-efb42d5c6a99\\blobs\\0d\\0d6802c367ceffe4e71eaa6dc5dec24314fe438f0e1e33f861d829505856722f"
+    },
+    "meta.json": {
+      "hash": "4ec4123b75f20ad451db6e7ae18d826b089a067a0aa7ec6c4dff242078fbf509",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1bb694ac-6f68-44cc-b095-efb42d5c6a99\\blobs\\4e\\4ec4123b75f20ad451db6e7ae18d826b089a067a0aa7ec6c4dff242078fbf509"
+    },
+    "package.json": {
+      "hash": "68b16802aa4a240bf5ed241f27e06293bb1a4f96703fef8e6ac820b20a2ffaeb",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1bb694ac-6f68-44cc-b095-efb42d5c6a99\\blobs\\68\\68b16802aa4a240bf5ed241f27e06293bb1a4f96703fef8e6ac820b20a2ffaeb"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "583b3d81-532a-4985-a343-9c56e7f6478d",
+      "completedAt": 1793873506141,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\hollow-to-superman-roll\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

@@ -1,0 +1,481 @@
+{
+  "slug": "dumbbell-thruster",
+  "name": "Dumbbell Thruster",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Full body",
+    "Piernas",
+    "Hombros"
+  ],
+  "descripcion": "Thruster con mancuernas: sentadilla completa más push press. La extensión de cadera lanza las mancuernas arriba.",
+  "revisado": false,
+  "notas": "Thruster con dos mancuernas: piernas por IK de bodyweight-squat (hip+ankle) y brazos/props de dumbbell-push-press (rack ua 14/fa 160, lock ua 180/fa 0, dos dumbbell side:true). Error PRESS_EARLY: brazos arriba con la sentadilla a media.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1509,
+    "scale": 0.74
+  },
+  "pronuncia": {
+    "Dumbbell Thruster": "Dambel zruster"
+  },
+  "initialPose": "RACK",
+  "poses": {
+    "RACK": {
+      "hip": [
+        -4,
+        -462
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 2,
+      "hd": 2,
+      "g": 0,
+      "ua": 14,
+      "fa": 160,
+      "ua2": 10,
+      "fa2": 164
+    },
+    "SIT": {
+      "hip": [
+        -150,
+        -205
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 38,
+      "hd": 22,
+      "g": 0,
+      "ua": 14,
+      "fa": 160,
+      "ua2": 10,
+      "fa2": 164
+    },
+    "DRIVE": {
+      "hip": [
+        -96,
+        -330
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 22,
+      "hd": 10,
+      "ft": -12,
+      "ft2": -12,
+      "g": 0,
+      "ua": 14,
+      "fa": 160,
+      "ua2": 10,
+      "fa2": 164
+    },
+    "LOCK": {
+      "hip": [
+        -4,
+        -470
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 0,
+      "hd": 6,
+      "g": 0,
+      "ua": 180,
+      "fa": 0,
+      "ua2": 178,
+      "fa2": 0
+    },
+    "PRESS_EARLY": {
+      "hip": [
+        -96,
+        -330
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 18,
+      "hd": 8,
+      "g": 0,
+      "ua": 172,
+      "fa": 6,
+      "ua2": 170,
+      "fa2": 6
+    }
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "hand": "far",
+      "side": true,
+      "r": 40
+    },
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "side": true,
+      "r": 40
+    }
+  ],
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "DUMBBELL",
+        "THRUSTER"
+      ],
+      "vo": "Dumbbell Thruster: sentadilla completa más push press. La cadera lanza y los brazos bloquean arriba.",
+      "moves": [
+        {
+          "cut": "RACK",
+          "at": 0.2
+        },
+        {
+          "to": "SIT",
+          "at": 0.7,
+          "dur": 0.5
+        },
+        {
+          "to": "LOCK",
+          "at": 1.2,
+          "dur": 0.5
+        },
+        {
+          "to": "RACK",
+          "at": 1.9,
+          "dur": 0.45
+        },
+        {
+          "to": "SIT",
+          "at": 2.4,
+          "dur": 0.5
+        },
+        {
+          "to": "LOCK",
+          "at": 2.9,
+          "dur": 0.5
+        },
+        {
+          "to": "RACK",
+          "at": 3.6,
+          "dur": 0.45
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "MANCUERNAS",
+        "AL HOMBRO"
+      ],
+      "sub": "Codos al frente",
+      "vo": "Arrancá con las mancuernas sobre los hombros, los codos al frente y los pies al ancho de los hombros.",
+      "moves": [
+        {
+          "cut": "RACK",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "SENTADILLA",
+        "COMPLETA"
+      ],
+      "sub": "Pecho arriba",
+      "vo": "Paso uno. Bajá a la sentadilla completa con el pecho arriba, sin perder la posición de las mancuernas.",
+      "moves": [
+        {
+          "cut": "RACK",
+          "at": 0
+        },
+        {
+          "to": "SIT",
+          "at": 0.8,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            320.0,
+            1310.0
+          ],
+          "at": 0.9,
+          "dur": 0.8,
+          "from": [
+            320.0,
+            1120.0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            268.0,
+            1050.0
+          ],
+          "text": "AL FONDO",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "SALÍ",
+        "EXPLOSIVO"
+      ],
+      "sub": "La cadera lanza",
+      "vo": "Paso dos. Subí explosivo extendiendo la cadera: esa extensión lanza las mancuernas.",
+      "moves": [
+        {
+          "cut": "SIT",
+          "at": 0
+        },
+        {
+          "to": "DRIVE",
+          "at": 0.7,
+          "dur": 0.55
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            322.0,
+            1120.0
+          ],
+          "at": 0.7,
+          "dur": 0.8,
+          "from": [
+            322.0,
+            1330.0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            268.0,
+            1046.0
+          ],
+          "text": "EXTENSIÓN DE CADERA",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "BLOQUEÁ",
+        "ARRIBA"
+      ],
+      "sub": "Brazos extendidos",
+      "vo": "Paso tres. Terminá con los brazos bloqueados arriba y bajá directo a la próxima repetición.",
+      "moves": [
+        {
+          "cut": "DRIVE",
+          "at": 0
+        },
+        {
+          "to": "LOCK",
+          "at": 0.6,
+          "dur": 0.55
+        },
+        {
+          "to": "RACK",
+          "at": 2.2,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            300.0,
+            700.0
+          ],
+          "text": "BLOQUEO ARRIBA",
+          "anchor": "middle",
+          "at": 0.8,
+          "out": 2.2
+        },
+        {
+          "type": "arrow",
+          "to": [
+            340.0,
+            1000.0
+          ],
+          "at": 2.2,
+          "dur": 0.7,
+          "from": [
+            340.0,
+            780.0
+          ]
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "PRIMERO",
+        "LAS PIERNAS"
+      ],
+      "sub": "No presses antes",
+      "vo": "Paso cuatro. El error es empujar con los brazos antes de terminar las piernas.",
+      "moves": [
+        {
+          "cut": "SIT",
+          "at": 0
+        },
+        {
+          "to": "PRESS_EARLY",
+          "at": 1.5,
+          "dur": 0.5
+        },
+        {
+          "to": "SIT",
+          "at": 3.4,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            268.0,
+            770.0
+          ],
+          "text": "CADERA PRIMERO",
+          "anchor": "middle",
+          "at": 0.5,
+          "out": 1.75
+        },
+        {
+          "type": "label",
+          "pos": [
+            268.0,
+            770.0
+          ],
+          "text": "PRIMERO LAS PIERNAS",
+          "anchor": "middle",
+          "at": 1.85,
+          "out": 3.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.4,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Mancuernas sobre los hombros",
+        "Codos al frente",
+        "Sentadilla completa",
+        "Extensión de cadera explosiva",
+        "Bloqueo arriba y bajada directa"
+      ],
+      "vo": "Claves: mancuernas sobre los hombros, codos al frente, sentadilla completa y extensión explosiva de cadera.",
+      "moves": [
+        {
+          "cut": "SIT",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "9 REPS"
+      ],
+      "sub": "Ritmo constante",
+      "vo": "Nueve repeticiones a ritmo constante. Si perdés el pecho arriba, bajá el peso antes de seguir.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · EXPLOTÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BLOQUEÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "RACK",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "SIT",
+              0.55
+            ],
+            [
+              "LOCK",
+              0.55
+            ],
+            [
+              "RACK",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "SIT",
+    "grip": 0,
+    "zoom": 1.14,
+    "dy": 165
+  },
+  "youtube": {
+    "titulo": "Dumbbell Thruster 🔥 Sentadilla + press con mancuernas | CrossFit",
+    "tags": [
+      "dumbbell thruster",
+      "thruster con mancuernas",
+      "thruster",
+      "sentadilla con press",
+      "full body",
+      "piernas",
+      "hombros",
+      "wod",
+      "crossfit",
+      "tecnica"
+    ],
+    "descripcion": "🔥 DUMBBELL THRUSTER — sentadilla + press con mancuernas\n\nEl movimiento que te deja sin aire: piernas, cadera y hombros en una sola repetición. Más accesible que el thruster con barra y igual de efectivo. 💪\n\n📋 PASO A PASO\n1️⃣ Mancuernas apoyadas sobre los hombros, codos al frente, pies al ancho de los hombros.\n2️⃣ Bajá a la sentadilla completa con el pecho arriba.\n3️⃣ Subí explosivo extendiendo la cadera: esa extensión lanza las mancuernas.\n4️⃣ Terminá con los brazos bloqueados arriba y bajá directo a la próxima repetición.\n\n✅ CLAVES DE TÉCNICA\n• Mancuernas sobre los hombros, codos al frente\n• Sentadilla completa, pecho arriba\n• Extensión de cadera explosiva\n• Bloqueo de brazos arriba\n• Bajada directa, sin pausar\n• Primero las piernas, después el press\n\n🎯 QUÉ TRABAJA\nCuádriceps · Glúteo mayor · Deltoides anterior · Tríceps · Core\n\n⏱️ CUÁNTO\n9 repeticiones a ritmo constante. Si perdés el pecho arriba, bajá el peso.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Thruster #Mancuernas #WOD #Tecnica"
+  }
+}

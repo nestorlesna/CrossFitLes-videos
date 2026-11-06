@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Single-Leg V-Up",
+      "text": "Una pierna sube con el torso y las manos buscan el pie."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba, brazos estirados arriba de la cabeza y una pierna firme en el piso."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Subí el torso y una pierna estirada al mismo tiempo, buscando el pie."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. La pierna del piso queda firme y extendida: no la despegues."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Bajá con control y cambiá de pierna en la siguiente repetición."
+    },
+    {
+      "id": "06",
+      "text": "Así no: si doblás la rodilla, el abdominal no llega y el pie queda lejos."
+    },
+    {
+      "id": "07",
+      "text": "Claves: pierna estirada, movimiento desde el core, sin tirar del cuello y bajada controlada."
+    },
+    {
+      "id": "08",
+      "text": "Treinta segundos alternando piernas, con la bajada bien controlada."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

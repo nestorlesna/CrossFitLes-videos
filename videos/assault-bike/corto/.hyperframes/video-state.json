@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "9924edc5-488f-4ecb-9b6e-dc51e7ff9262",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "f099313d1233b87302f7f9b473e953fee0d93fe423663695852dc539be3266f1",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\9924edc5-488f-4ecb-9b6e-dc51e7ff9262\\blobs\\f0\\f099313d1233b87302f7f9b473e953fee0d93fe423663695852dc539be3266f1"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\9924edc5-488f-4ecb-9b6e-dc51e7ff9262\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "a2ae09108b76bca8803eb86e02ff7e3c7f115ee7851a542cdf5e8a44bc2fede4",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\9924edc5-488f-4ecb-9b6e-dc51e7ff9262\\blobs\\a2\\a2ae09108b76bca8803eb86e02ff7e3c7f115ee7851a542cdf5e8a44bc2fede4"
+    },
+    "meta.json": {
+      "hash": "b059878f579259765775fa0cbf5db433614d5bb822e1e677676d0ca1a824cb8f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\9924edc5-488f-4ecb-9b6e-dc51e7ff9262\\blobs\\b0\\b059878f579259765775fa0cbf5db433614d5bb822e1e677676d0ca1a824cb8f"
+    },
+    "package.json": {
+      "hash": "4adef84ee8cb8151b391be501191271c65cdeb622de0a884b0c09404001d1a6c",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\9924edc5-488f-4ecb-9b6e-dc51e7ff9262\\blobs\\4a\\4adef84ee8cb8151b391be501191271c65cdeb622de0a884b0c09404001d1a6c"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "02d3c5d7-6311-4d1e-8303-a9766385ba8a",
+      "completedAt": 1793838121975,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\assault-bike\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

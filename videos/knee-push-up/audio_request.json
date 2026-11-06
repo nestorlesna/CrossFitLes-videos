@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Knee Push Up",
+      "text": "La flexión con las rodillas apoyadas, el paso previo a la flexión completa."
+    },
+    {
+      "id": "02",
+      "text": "Arrancá con las rodillas apoyadas, las manos bajo los hombros y el cuerpo en línea recta desde las rodillas."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá el pecho en bloque hasta quedar a un puño del piso, sin sentarte hacia atrás."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Empujá el piso y extendé los brazos manteniendo la línea entre rodillas, cadera y hombros."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si la cadera se hunde, el cuerpo deja de ser una tabla y el pecho no baja parejo."
+    },
+    {
+      "id": "06",
+      "text": "Claves: rodillas, cadera y hombros en línea, codos a cuarenta y cinco, pecho a un puño del piso y abdomen firme."
+    },
+    {
+      "id": "07",
+      "text": "Diez repeticiones, tres series. Cuando salgan limpias, pasá a la flexión completa."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

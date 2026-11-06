@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Superband Shoulder Dislocates",
+      "text": "La banda gruesa que abre el hombro de adelante hacia atrás."
+    },
+    {
+      "id": "02",
+      "text": "Parate con la banda bien ancha, brazos extendidos al frente a la altura del pecho y costillas abajo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Subí los brazos extendidos por encima de la cabeza, sin doblar los codos."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Seguí el arco hasta llevar la banda detrás de la cadera, sin forzar el hombro."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Volvé por el mismo camino, lento y controlando la banda. Los codos nunca se doblan."
+    },
+    {
+      "id": "06",
+      "text": "Así no: si arqueás la espalda y sacás las costillas, el hombro no abre y la lumbar paga."
+    },
+    {
+      "id": "07",
+      "text": "Claves: codos extendidos, agarre ancho, costillas abajo y sin tirones. Si el hombro se cierra, abrí más el agarre."
+    },
+    {
+      "id": "08",
+      "text": "Diez pasadas completas con la banda gruesa, ideal antes de un WOD con press o dominadas."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

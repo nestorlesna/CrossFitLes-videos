@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Half kneeling thoracic rotation",
+      "text": "Rotación de la espalda alta en media rodilla. Destrabá pecho y hombros."
+    },
+    {
+      "id": "02",
+      "text": "Arrodillate con una rodilla en el piso y el pie de adelante a noventa grados. Mano en la nuca."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Rotá el torso hacia la pierna de adelante y llevá el codo bien al techo, abriendo el pecho."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. La mirada acompaña al codo y el pecho se abre. Sostené un segundo arriba sin perder la cadera."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Volvé al centro y repetí del otro lado. Alterná los dos lados."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Cadera quieta y rodilla de atrás al piso. Si se mueven, rotás de más abajo."
+    },
+    {
+      "id": "07",
+      "text": "Claves: cadera estable, rodilla de atrás apoyada, codo al techo y rotación desde la espalda alta."
+    },
+    {
+      "id": "08",
+      "text": "Treinta segundos alternando lados. Ideal antes de sentadillas o de cualquier trabajo por encima de la cabeza."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "85b7f847-e54e-48ad-a9a5-3fb48cd63ce8",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "101af7a336a104b09d765f08b4489c5be2ded3a58ab0b0dd1c29ba2f6c10618a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\85b7f847-e54e-48ad-a9a5-3fb48cd63ce8\\blobs\\10\\101af7a336a104b09d765f08b4489c5be2ded3a58ab0b0dd1c29ba2f6c10618a"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\85b7f847-e54e-48ad-a9a5-3fb48cd63ce8\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "90053367e25c45aed847e23ee15ef9f5ece2948bc66fa8ec7c20a1e81c8e0e2e",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\85b7f847-e54e-48ad-a9a5-3fb48cd63ce8\\blobs\\90\\90053367e25c45aed847e23ee15ef9f5ece2948bc66fa8ec7c20a1e81c8e0e2e"
+    },
+    "meta.json": {
+      "hash": "b5d52c085a60723b3492bdfd8ea119a6cc347ff2c82fcd55b1d2a0fcdcd37140",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\85b7f847-e54e-48ad-a9a5-3fb48cd63ce8\\blobs\\b5\\b5d52c085a60723b3492bdfd8ea119a6cc347ff2c82fcd55b1d2a0fcdcd37140"
+    },
+    "package.json": {
+      "hash": "d909f9793eb68d18589cacbfbfb4a17d6926cce81182fbcfa4607b7417e890f7",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\85b7f847-e54e-48ad-a9a5-3fb48cd63ce8\\blobs\\d9\\d909f9793eb68d18589cacbfbfb4a17d6926cce81182fbcfa4607b7417e890f7"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "efd1ce01-5f5f-42b3-bd30-a30fc4f0bdce",
+      "completedAt": 1793839806312,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\scapular-wall-slides\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

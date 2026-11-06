@@ -2,11 +2,16 @@
   "vozEn": "kokoro:af_heart",
   "voz": true,
   "composicion": true,
-  "duracion": 46.711,
+  "duracion": 46.677,
   "check": true,
   "miniatura": true,
-  "renderizado": "2026-10-23",
+  "renderizado": "2026-10-28",
   "renderHash": "6020a1427547",
-  "archivo": "OC_overhead-squat.mp4",
-  "renderVozEn": "kokoro:af_heart"
+  "archivo": "OC_2_overhead-squat.mp4",
+  "renderVozEn": "kokoro:af_heart",
+  "corto": "overhead-squat.corto.mp4",
+  "cortoHash": "6020a1427547",
+  "cortoFecha": "2026-11-05",
+  "cortoReps": 3,
+  "cortoDuracion": 14.7
 }

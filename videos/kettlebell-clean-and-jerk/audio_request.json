@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Kettlebell Clean and Jerk",
+      "text": "Del piso al rac y de ahí a la cabeza, con un dip corto y bloqueo firme."
+    },
+    {
+      "id": "02",
+      "text": "Arrancá en bisagra con la pesa entre los pies, la cadera atrás y la espalda neutra."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Extendé la cadera y llevá la pesa al hombro: sube pegada y la muñeca gira sin golpear el antebrazo."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Recibí en el rac: codo cerca de la cadera, la pesa en el antebrazo y el puño al hombro."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Dip corto con las piernas, empujá la pesa y meté el cuerpo abajo hasta bloquear el codo."
+    },
+    {
+      "id": "06",
+      "text": "El error: arquear la lumbar con la pesa arriba. Apretá el core y bloqueá con las costillas abajo."
+    },
+    {
+      "id": "07",
+      "text": "Claves: cadera primero, pesa pegada, rac firme, dip corto y bloqueo con el core."
+    },
+    {
+      "id": "08",
+      "text": "Doce repeticiones con treinta y dos kilos. Si la muñeca se abre o el rac te golpea, bajá el peso."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

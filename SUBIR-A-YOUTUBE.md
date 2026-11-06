@@ -45,6 +45,8 @@ El `.youtube.txt` que arma el pipeline ya trae las secciones `TÍTULO` / `DESCRI
 & $PY $SK --channel fitlesuy "$OUT\arm-circles.mp4"
 ```
 
+> **Después de subir un video largo (Daniela): vincularlo con su corto** (§ 6 quinquies): link en la descripción + *Vídeo relacionado*, y registrar en `BITACORA-VINCULOS.md`. Si el corto todavía no está subido, queda «pendiente» y se completa cuando se suba el corto.
+
 ## 3. Subir una CARPETA entera
 
 Toma todos los `.mp4` de la carpeta. Las subcarpetas no entran, así que `subidos/` queda afuera.
@@ -136,6 +138,7 @@ Sirven para copiar y pegar directo en PowerShell, sin preparar nada antes:
 - Lo anota en `C:\Users\nesto\.claude\skills\youtube-upload\uploads_log.csv`.
 - Mueve el `.mp4`, el `.txt` y la miniatura a `salida\subidos\`, salvo que uses `--no-move`.
 - Siempre marca el video como "no es para niños".
+- **Falta un paso: vincular con el corto** (§ 6 quinquies), tanto en videos de `salida` como en los largos 16:9 (6 ter).
 
 ---
 
@@ -176,6 +179,89 @@ Después: mirar la miniatura en Studio, pasar a **Público** (pasos 4 y 5 de 6 b
 
 > Si `--auth` abre otro navegador (Brave) en vez de Chrome: antes de correrlo, en la misma terminal,
 > `$env:BROWSER = '"C:/Program Files/Google/Chrome/Application/chrome.exe" %s'`.
+
+---
+
+## 6 quater. Videos cortos (`<slug>.corto.mp4`) — por YouTube Studio con Chrome
+
+Los cortos (ver `GENERAR_VIDEOS_CORTOS.md`) se suben **por grupos que pide el profe** (5, 10…), **sin el skill `youtube-upload`**: Claude los sube desde YouTube Studio con la extensión Claude in Chrome (sin API ni cuota). Probado el 2026-11-05 con `air-squat` (<https://youtu.be/qi2uWme2JYY>).
+
+**Reglas fijas**
+
+- Canal **FitLesUY**. Cada corto va a la lista de reproducción **«Videos cortos de ejercicios»** (ya existe; en Studio es `PLaxjIdaCJSz8`).
+- Archivos (todos con el nombre del slug, sin prefijo):
+  - `salida/<slug>.corto.mp4` — el video.
+  - `salida/<slug>.corto.youtube.txt` — título, descripción y tags. Se generan con `node plantilla/corto-youtube.mjs <slug> …` (o `--todos`; ya están los 364).
+  - Miniatura: **la misma del largo**, `<slug>.miniatura.png` (en `salida/` o en `salida/subidos/EnYoutube/`). No se mueve (es del largo).
+- Título: `<Nombre> 🎬 Así se hace en segundos | <Categoría> #Shorts`.
+- Visibilidad: se sube **privado**; pasa a público solo cuando el profe lo confirma.
+- Siempre «No, no está creado para niños».
+
+**Pasos por cada video (Claude los hace)**
+
+1. Elegir el navegador (`select_browser`), abrir `https://studio.youtube.com` → **Crear → Subir vídeos**.
+2. `file_upload` del `.corto.mp4` sobre el input de archivo (no se hace clic en «Seleccionar archivos»).
+3. Título y descripción con JavaScript (los textbox son `contenteditable`; `form_input` no sirve):
+   `#title-textarea #textbox` y `#description-textarea #textbox` → `focus()`, `execCommand('selectAll')`, `execCommand('insertText', false, texto)`.
+4. Miniatura: `file_upload` de `<slug>.miniatura.png` sobre el input de la sección *Miniatura*.
+5. *Listas* → **Seleccionar** → tildar «Videos cortos de ejercicios» → **Hecho**.
+6. *Audiencia* → «No, no está creado para niños». *Mostrar más* → *Etiquetas*: escribir los tags separados por coma (con coma al final).
+7. **Siguiente** ×3 → *Visibilidad* → **Privado** → **Guardar**.
+8. Sacar el ID del video (en la lista `https://studio.youtube.com/playlist/PLaxjIdaCJSz8/videos` el link `/video/<ID>/edit`) y comprobar que figura en la lista y con la miniatura.
+9. **Vincular con el largo** (§ 6 quinquies): si el largo está en el calendario, o se lo encuentra en Studio por título, la descripción ya sale con su link y se elige en *Vídeo relacionado*; si no, queda «pendiente».
+10. **Registrar y mover** (mueve el `.corto.mp4` y el `.corto.youtube.txt` a `salida\subidos\EnYoutube\`, anota la fila en `cortos-subidos.csv` y regenera el CHECKLIST, columna **Corto subido**):
+
+   ```powershell
+   node plantilla/corto-subido.mjs <slug> <videoId> --vis=privado
+   ```
+
+Cuando el profe lo pasa a público: `node plantilla/corto-subido.mjs <slug> --vis=publico`.
+
+**Trucos comprobados el 2026-11-05 (tanda de 5)**
+
+- El diálogo de subida se abre directo con `https://studio.youtube.com/channel/UCn5-2weRP2H5zfqb1OlYkHg/videos/upload?d=ud` (esperar ~4 s antes de buscar el input de archivo).
+- **Hashtags:** terminar la descripción con `#Shorts ` + salto de línea (con espacio y `
+` al final). Si queda `#Shorts` pegado al final del texto, Studio abre las sugerencias y al hacer clic afuera lo cambia por `#shortsvideo`. No hacer clic en el diálogo mientras el popup está abierto.
+- Tras marcar la lista y tocar *Hecho*, **esperar/mirar** que el diálogo no cambie de posición antes del próximo clic (un clic fuera de lugar abrió el reproductor en pantalla completa y cerró el diálogo: el video quedó como **borrador**). Un borrador se termina con *Editar borrador* → *Siguiente* ×3 → Privado → *Guardar*.
+- Después de *Guardar* del diálogo, navegar a `/video/<ID>/edit` para el «Vídeo relacionado». En esa página el botón guardar se acciona por JS: `document.querySelector('#save').click()`; si aparece el aviso «Leave site?», es que falta guardar.
+- En el selector de *Vídeo relacionado*, hacer **dos** clics en el buscador antes de escribir (si no, el texto no entra) y recién ahí buscar por título; el resultado se elige haciendo clic en la tarjeta.
+- El selector solo ofrece videos **públicos o programados**: un corto **privado** no aparece en la lista, así que el **largo → corto no se puede hacer hasta que el corto sea público** (en el largo tampoco se agrega el link en la descripción antes, para no dejar un link muerto). Queda «pendiente» en la bitácora.
+
+**Actualización 2026-11-06 (segunda tanda, ya en público)**
+
+- Navegador de Studio: `select_browser` con el deviceId `a64d121a-d083-4bd7-bb7a-529d2c201274` (el otro Chrome; ambos entran al mismo canal).
+- Los cortos se suben **directo en Público** (no privados). Después de *Siguiente* ×3 y elegir Público, **esperar ~25 s** a que terminen las comprobaciones y recién ahí *Publicar*; si sale «Aún estamos comprobando…», usar *Atrás*, esperar y repetir (no «Publicar de todas formas»).
+- Etiquetas del corto: las mismas del largo (12, o las que tenga).
+- **Largos con el texto pegado** (título plano «Running» y la descripción con los encabezados `TÍTULO / DESCRIPCIÓN / TAGS`, de subidas viejas): se arreglan solos desde su página de edición. Un script JS lee la descripción actual con `match(/TÍTULO\s*
+(.+)
+\s*DESCRIPCIÓN\s*
+([\s\S]*?)
+\s*TAGS\s*
+(.+)/)`, pone como título la primera captura, como descripción `▶️ Mirá cómo se hace en segundos: https://youtu.be/<corto>` + la segunda (terminada en espacio + salto de línea), y las etiquetas se cargan a mano con `type` (separadas por coma). Antes de re-tipearlas hay que vaciar las que hubiera (botón *clear* del campo). **No** cargar las etiquetas con `execCommand`: parte las palabras.
+- **Relacionado:** el selector del «Vídeo relacionado» solo ofrece videos públicos. Un largo **programado** (p. ej. Child's Pose, 22-11-2026) no aparece: se hace largo → corto ya, y corto → largo cuando el largo sea público (queda «pendiente» en `BITACORA-VINCULOS.md`).
+- Búsqueda en ese selector: títulos con apóstrofe no matchean (buscar «Child», no «Child's Pose»); el corto y el largo se distinguen porque el corto lleva 🎬.
+
+> Si el diálogo se cierra a medias, el video queda guardado como privado/borrador; se retoma desde Studio.
+
+---
+
+## 6 quinquies. Vincular el corto con el largo (y el largo con el corto)
+
+Aplica **siempre**: al subir un corto y también al subir un video largo (el que explica Daniela; secciones 2, 3, 6 bis y 6 ter). Cada video apunta al otro de **dos maneras**:
+
+1. **Link en la descripción:** `▶️ Explicación paso a paso con Daniela: https://youtu.be/<ID del largo>` (en el corto) y `▶️ Mirá cómo se hace en segundos: https://youtu.be/<ID del corto>` (en el largo).
+2. **Vídeo relacionado:** en Studio → el video → *Detalles* → **Vídeo relacionado** → elegir el otro video (en el Short se muestra como enlace en el reproductor).
+
+**Cómo se busca el otro video**
+
+1. `node plantilla/vincular.mjs <slug> --buscar` → muestra el ID del largo si ya se conoce (`CALENDARIO-YOUTUBE.md` o `vinculos.csv`) y el del corto (`cortos-subidos.csv`).
+2. Si no está: buscarlo en Studio (*Contenido*, filtro por título del ejercicio) y tomar el ID del link `/video/<ID>/edit`. Si no aparece, el otro video **todavía no está subido**: no se vincula, se registra «pendiente».
+3. Si el otro video existe → editar el que se está subiendo (descripción con el link + *Vídeo relacionado*) **y también el otro** (agregarle el link en la descripción y su *Vídeo relacionado*). Así queda en los dos sentidos aunque se hayan subido en días distintos.
+   **Excepción:** si el corto está **privado**, Studio no lo ofrece en el *Vídeo relacionado* del largo y el link en la descripción del largo quedaría muerto: se hace **corto → largo** ahora y **largo → corto** recién cuando el corto pase a público (queda «pendiente» en la bitácora).
+
+**Registro:** cada vez, `node plantilla/vincular.mjs <slug> --largo=<ID> --corto=<ID> --largo-en-corto=si|pendiente --corto-en-largo=si|pendiente`. Escribe `vinculos.csv` y regenera **`BITACORA-VINCULOS.md`** (bitácora de videos vinculados). Los «pendiente» se retoman cuando se sube el que faltaba: buscar en la bitácora las filas con «pendiente».
+
+> Los cortos generan su descripción con `node plantilla/corto-youtube.mjs <slug>`; si el largo ya se conoce, la línea del link sale sola (hoy 92 de 364 cortos tienen el ID del calendario). Si el largo se sube después, se agrega el link al editar el corto.
 
 ---
 

@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Negative Push Up",
+      "text": "Solo la bajada, lenta y controlada, y subís apoyando las rodillas. Pecho y tríceps."
+    },
+    {
+      "id": "02",
+      "text": "Arrancá en plancha alta, con las manos debajo de los hombros, el cuerpo en línea y el abdomen firme."
+    },
+    {
+      "id": "03",
+      "text": "Bajá el pecho al piso en tres a cinco segundos, bien lento. Esa es toda la repetición: la bajada es la que trabaja."
+    },
+    {
+      "id": "04",
+      "text": "Apoyá las rodillas en el piso y volvé a la plancha alta con las manos, sin empujar el pecho."
+    },
+    {
+      "id": "05",
+      "text": "Así no. Si la cadera se cae o el pecho se adelanta, la bajada deja de ser controlada y la lumbar paga el precio."
+    },
+    {
+      "id": "06",
+      "text": "Claves: bajada de tres a cinco segundos, codos cerca del cuerpo, cuerpo en línea y reset con las rodillas."
+    },
+    {
+      "id": "07",
+      "text": "Cuarenta segundos de trabajo: bajás lento, apoyás las rodillas y volvés arriba. Si perdés el control, cortá la serie."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

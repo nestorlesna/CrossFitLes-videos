@@ -1,0 +1,359 @@
+{
+  "slug": "pike-walk",
+  "name": "Pike Walk",
+  "revisado": false,
+  "notas": "Caminata de pica a plancha: manos al piso con target (hx/hy) que avanzan y pies que caminan hacia las manos. Todo en el plano sagital.",
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "PIKE",
+        "WALK"
+      ],
+      "vo": "Pike Walk: de la pica a la plancha caminando con las manos y volviendo con los pies.",
+      "moves": [
+        {
+          "cut": "PIKE",
+          "at": 0
+        },
+        {
+          "to": "STEP1",
+          "at": 1.2,
+          "dur": 0.5
+        },
+        {
+          "to": "PLANK",
+          "at": 1.9,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PICA",
+        "CADERA ALTA"
+      ],
+      "sub": "Manos y pies al piso",
+      "vo": "Arrancá en pica: cadera alta, manos y pies en el piso y las piernas lo más extendidas que puedas.",
+      "moves": [
+        {
+          "cut": "PIKE",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            440,
+            1030
+          ],
+          "anchor": "middle",
+          "text": "CADERA ALTA",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "CAMINÁ CON",
+        "LAS MANOS"
+      ],
+      "sub": "Hacia adelante",
+      "vo": "Paso uno. Caminá con las manos hacia adelante, una mano por vez, sin dejar caer la cadera.",
+      "moves": [
+        {
+          "cut": "PIKE",
+          "at": 0
+        },
+        {
+          "to": "STEP1",
+          "at": 0.9,
+          "dur": 0.5
+        },
+        {
+          "to": "PLANK",
+          "at": 1.6,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "LLEGÁ A",
+        "LA PLANCHA"
+      ],
+      "sub": "Cadera sin caer",
+      "vo": "Paso dos: llegás a la plancha alta, con el cuerpo en línea y las manos justo debajo de los hombros.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "VOLVÉ CON",
+        "LOS PIES"
+      ],
+      "sub": "Pies hacia las manos",
+      "vo": "Paso tres. Para volver, caminá los pies hacia las manos y subí la cadera de nuevo a la pica.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        },
+        {
+          "to": "FEET_IN",
+          "at": 1,
+          "dur": 0.8
+        },
+        {
+          "to": "PIKE",
+          "at": 2,
+          "dur": 1
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "ERROR COMÚN",
+      "head": [
+        "CADERA",
+        "CAÍDA"
+      ],
+      "sub": "Error común",
+      "vo": "Error: si la cadera se hunde al pasar por la plancha, la espalda baja se sobrecarga y el movimiento se pierde.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        },
+        {
+          "to": "SAG_BAD",
+          "at": 1,
+          "dur": 0.8
+        },
+        {
+          "to": "PLANK",
+          "at": 3.4,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            560,
+            1348
+          ],
+          "r": 55,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            560,
+            1210
+          ],
+          "anchor": "middle",
+          "text": "CADERA FIRME",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.4,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Piernas extendidas",
+        "Cadera arriba",
+        "Manos una por vez",
+        "Cadera firme en la plancha"
+      ],
+      "vo": "Claves: piernas lo más extendidas posible, la cadera alta en la pica y firme al pasar por la plancha, y las manos avanzan una por vez.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.2,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 S"
+      ],
+      "sub": "De pica a plancha",
+      "vo": "Treinta segundos caminando de la pica a la plancha y de vuelta, sin dejar caer la cadera.",
+      "moves": [
+        {
+          "cut": "PIKE",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "STEP1",
+              0.5
+            ],
+            [
+              "PLANK",
+              0.6
+            ],
+            [
+              "FEET_IN",
+              0.7
+            ],
+            [
+              "PIKE",
+              0.7
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "rig": {
+    "x": 210,
+    "y": 1498,
+    "scale": 1
+  },
+  "initialPose": "PIKE",
+  "poses": {
+    "PIKE": {
+      "ankle": [
+        0,
+        0
+      ],
+      "hip": [
+        230,
+        -370
+      ],
+      "b": 106,
+      "hd": 122,
+      "ft": 10,
+      "g": 1,
+      "ed": 1,
+      "hx": 545,
+      "hy": 4
+    },
+    "STEP1": {
+      "ankle": [
+        0,
+        0
+      ],
+      "hip": [
+        290,
+        -320
+      ],
+      "b": 96,
+      "hd": 112,
+      "ft": 10,
+      "g": 1,
+      "ed": 1,
+      "hx": 600,
+      "hy": 4
+    },
+    "PLANK": {
+      "ankle": [
+        0,
+        0
+      ],
+      "hip": [
+        345,
+        -235
+      ],
+      "b": 74,
+      "hd": 86,
+      "ft": 30,
+      "g": 1,
+      "ed": 1,
+      "hx": 645,
+      "hy": 4
+    },
+    "FEET_IN": {
+      "ankle": [
+        130,
+        0
+      ],
+      "hip": [
+        375,
+        -340
+      ],
+      "b": 98,
+      "hd": 112,
+      "ft": 20,
+      "g": 1,
+      "ed": 1,
+      "hx": 645,
+      "hy": 4
+    },
+    "SAG_BAD": {
+      "ankle": [
+        0,
+        0
+      ],
+      "hip": [
+        350,
+        -150
+      ],
+      "b": 60,
+      "hd": 72,
+      "ft": 30,
+      "g": 1,
+      "ed": 1,
+      "hx": 645,
+      "hy": 4
+    }
+  },
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Deltoides anterior",
+    "Hombro",
+    "Movilidad"
+  ],
+  "descripcion": "Desde la pica (cadera alta, manos y pies en el suelo) se camina con las manos hacia adelante hasta la plancha y se vuelve caminando los pies hacia las manos. Piernas lo más extendidas que permita la flexibilidad y sin dejar caer la cadera al pasar por la plancha.",
+  "miniatura": {
+    "pose": "PIKE",
+    "grip": 0,
+    "zoom": 1.02,
+    "dy": 50
+  },
+  "youtube": {
+    "titulo": "Pike Walk 🔥 de la pica a la plancha, paso a paso | CrossFit",
+    "descripcion": "🏋️ PIKE WALK — caminata de pica a plancha\nDesde la pica, con la cadera bien alta y las manos y los pies en el piso, caminás con las manos hacia adelante hasta la plancha y volvés caminando los pies hacia las manos. Ideal para entrar en calor, abrir hombros y activar el core. 💪\n\n📋 PASO A PASO\n1️⃣ Arrancá en pica: cadera alta, manos y pies en el piso y las piernas lo más extendidas que puedas.\n2️⃣ Caminá con las manos hacia adelante, una mano por vez, sin dejar caer la cadera.\n3️⃣ Llegá a la plancha alta, con el cuerpo en línea y las manos debajo de los hombros.\n4️⃣ Volvé caminando los pies hacia las manos y subí la cadera de nuevo a la pica.\n\n🎯 CLAVES DE TÉCNICA\n✅ Piernas lo más extendidas que permita tu flexibilidad\n✅ Cadera alta en la pica, sin redondear la espalda\n✅ Manos y pies avanzan de a uno, con control\n✅ La cadera no se cae al pasar por la plancha\n✅ Si te falta fuerza en los hombros, acortá el recorrido\n\n🏋️ QUÉ TRABAJA\nDeltoides anterior · Tríceps · Recto abdominal · Bíceps femoral · Trapecio\n\n⏱️ CUÁNTO\n30 segundos yendo y viniendo. Ideal como entrada en calor o movilidad de hombro antes del WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nSi los talones no llegan al piso, no pasa nada: mantené las rodillas apenas flexionadas y seguí caminando con las manos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #PikeWalk #MovilidadDeHombro #EntradaEnCalor #Wod",
+    "tags": [
+      "pike walk",
+      "caminata de pica",
+      "pica a plancha",
+      "movilidad de hombro",
+      "entrada en calor crossfit",
+      "core y hombro",
+      "plancha alta",
+      "deltoides",
+      "hombro",
+      "movilidad",
+      "crossfit"
+    ]
+  }
+}

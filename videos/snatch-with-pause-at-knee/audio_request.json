@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Snatch with Pause at Knee",
+      "text": "La arrancada con una pausa de dos segundos en la rodilla."
+    },
+    {
+      "id": "02",
+      "text": "Misma salida que el snatch: agarre ancho, espalda neutra y hombros sobre la barra."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Subí la barra hasta la rodilla y frená ahí dos segundos completos."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. En la pausa: espalda plana, hombros delante de la barra y peso en el mediopié."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Reanudá con extensión explosiva y recibí arriba, con los brazos bloqueados."
+    },
+    {
+      "id": "06",
+      "text": "Así no: si en la pausa redondeás la espalda, perdés la posición y la barra se va."
+    },
+    {
+      "id": "07",
+      "text": "Claves: pausa quieta, espalda plana, hombros delante de la barra y menos peso que el snatch."
+    },
+    {
+      "id": "08",
+      "text": "Tres repeticiones por serie, sin apuro. La pausa se siente, no se rebota."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

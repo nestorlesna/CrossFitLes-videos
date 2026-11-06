@@ -6,7 +6,8 @@
   "lines": [
     {
       "id": "01",
-      "text": "Rowing: cardio de cuerpo completo. Aprendé la secuencia correcta."
+      "en": "Rowing",
+      "text": "Cardio de cuerpo completo. Aprendé la secuencia correcta."
     },
     {
       "id": "02",
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

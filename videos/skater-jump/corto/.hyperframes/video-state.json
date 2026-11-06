@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "026f6a4d-bd41-43ff-9677-d5d692f22700",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "6afc709bb8af650dd3f97e57d384e96baaf664c3bee8fa31b17727389912e382",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\026f6a4d-bd41-43ff-9677-d5d692f22700\\blobs\\6a\\6afc709bb8af650dd3f97e57d384e96baaf664c3bee8fa31b17727389912e382"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\026f6a4d-bd41-43ff-9677-d5d692f22700\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "ac5fe4ace432d989ac3cbd01f4de61af06217d4eac8b0ff06fd057c696a7ffd5",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\026f6a4d-bd41-43ff-9677-d5d692f22700\\blobs\\ac\\ac5fe4ace432d989ac3cbd01f4de61af06217d4eac8b0ff06fd057c696a7ffd5"
+    },
+    "meta.json": {
+      "hash": "d9a4a4d04a4ab363c871fc7ccff656fdeba6b0274f43d0ce05f59b6a508b260b",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\026f6a4d-bd41-43ff-9677-d5d692f22700\\blobs\\d9\\d9a4a4d04a4ab363c871fc7ccff656fdeba6b0274f43d0ce05f59b6a508b260b"
+    },
+    "package.json": {
+      "hash": "38a323e2171c1c01a57527f684e580263cc91661a1a580e89e48f48bc01e7516",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\026f6a4d-bd41-43ff-9677-d5d692f22700\\blobs\\38\\38a323e2171c1c01a57527f684e580263cc91661a1a580e89e48f48bc01e7516"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "4abd7afc-1b74-449c-b22a-b2cdf376f35d",
+      "completedAt": 1793879822357,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\skater-jump\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

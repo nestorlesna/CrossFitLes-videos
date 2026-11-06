@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Dumbbell Farmer Hold",
+      "text": "Mancuernas pesadas, brazos largos y a aguantar. Agarre y core."
+    },
+    {
+      "id": "02",
+      "text": "De pie, con una mancuerna pesada en cada mano y los brazos extendidos al costado del cuerpo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Mantené los hombros abajo y atrás, sin encogerlos hacia las orejas."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Apretá el abdomen y las costillas abajo, como si te fueran a empujar de costado."
+    },
+    {
+      "id": "05",
+      "text": "Así no. Si te inclinás hacia un lado, el peso te está ganando. Soltá y volvé a agarrar parejo."
+    },
+    {
+      "id": "06",
+      "text": "Claves: hombros abajo, brazos largos, core firme y respiración pareja."
+    },
+    {
+      "id": "07",
+      "text": "Cuarenta segundos con veinte kilos por mano. Si el agarre se abre, terminá la serie."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

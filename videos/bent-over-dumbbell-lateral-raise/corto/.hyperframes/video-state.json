@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "8182101e-e456-4850-abcb-ba14172ec0c3",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "101af7a336a104b09d765f08b4489c5be2ded3a58ab0b0dd1c29ba2f6c10618a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\8182101e-e456-4850-abcb-ba14172ec0c3\\blobs\\10\\101af7a336a104b09d765f08b4489c5be2ded3a58ab0b0dd1c29ba2f6c10618a"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\8182101e-e456-4850-abcb-ba14172ec0c3\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "f21c88ee4281499e9addc6d2520245cc7fd5addfc0e1196a1fe0b5e40b6d4cef",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\8182101e-e456-4850-abcb-ba14172ec0c3\\blobs\\f2\\f21c88ee4281499e9addc6d2520245cc7fd5addfc0e1196a1fe0b5e40b6d4cef"
+    },
+    "meta.json": {
+      "hash": "9ab53856702332d3ca56b24a97fea4f0006a847d059c391eedaa0a567c285fa3",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\8182101e-e456-4850-abcb-ba14172ec0c3\\blobs\\9a\\9ab53856702332d3ca56b24a97fea4f0006a847d059c391eedaa0a567c285fa3"
+    },
+    "package.json": {
+      "hash": "b9929c0db10193a539b64c6d9beb4fd24192b5ce58333284c4fff43540b46771",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\8182101e-e456-4850-abcb-ba14172ec0c3\\blobs\\b9\\b9929c0db10193a539b64c6d9beb4fd24192b5ce58333284c4fff43540b46771"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "4be758e6-9080-4207-979f-831ee686ba06",
+      "completedAt": 1793873463552,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\bent-over-dumbbell-lateral-raise\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

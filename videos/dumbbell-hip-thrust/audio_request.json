@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Dumbbell Hip Thrust",
+      "text": "Empuje de cadera con mancuerna sobre la pelvis. Glúteo fuerte y espalda protegida."
+    },
+    {
+      "id": "02",
+      "text": "Apoyá la parte alta de la espalda en el banco, los pies al ancho de las caderas y la mancuerna sobre la pelvis."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Apoyá bien los talones y llevá las costillas abajo, con el mentón apenas al pecho."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Empujá con los talones y extendé la cadera hasta alinear tronco y muslos."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Apretá el glúteo arriba, sin arquear la lumbar, y bajá con control."
+    },
+    {
+      "id": "06",
+      "text": "Claves: talones firmes, costillas abajo, cadera alineada y glúteo apretado arriba. Nada de hiperextender."
+    },
+    {
+      "id": "07",
+      "text": "Diez repeticiones con quince kilos. Pausá un segundo arriba y bajá controlando."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

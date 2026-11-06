@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Barbell Hang Clean and Jerk",
+      "text": "Cargada desde el jang y envión, sin pasar por el piso."
+    },
+    {
+      "id": "02",
+      "text": "Parate con la barra colgada a media rótula, hombros por delante y espalda firme."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Extendé cadera y rodillas de golpe con los brazos estirados: la barra sube por la extensión."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Cuando la barra pasa la cadera, girá los codos rápido al frente y recibila en los hombros."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Dip corto y vertical, empujá con las piernas y metete abajo de la barra en tijera."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Recibí con los codos bloqueados y juntá los pies: primero el de adelante."
+    },
+    {
+      "id": "07",
+      "text": "Claves: barra pegada al cuerpo, extensión completa, codos rápidos al frente y dip corto con bloqueo firme."
+    },
+    {
+      "id": "08",
+      "text": "Tres repeticiones con cuarenta kilos: cargá desde el jang, rearmá y hacé el envión."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

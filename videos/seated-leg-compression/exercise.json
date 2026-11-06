@@ -1,0 +1,310 @@
+{
+  "slug": "seated-leg-compression",
+  "name": "Seated Leg Compression",
+  "revisado": false,
+  "notas": "Sentado con las piernas extendidas y las manos al costado de la cadera: se despegan las piernas y se sostienen comprimiendo el abdomen. De perfil se ve la elevación de las piernas y el apoyo de la mano.",
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · CORE",
+      "head": [
+        "SEATED LEG",
+        "COMPRESSION"
+      ],
+      "vo": "Seated Leg Compression: sentado, despegás las piernas del piso y las sostenés con el abdomen.",
+      "moves": [
+        {
+          "cut": "SEATED",
+          "at": 0
+        },
+        {
+          "to": "LIFT",
+          "at": 1.3,
+          "dur": 0.8
+        },
+        {
+          "to": "HIGH",
+          "at": 2.2,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "SENTADO",
+        "MANOS ATRÁS"
+      ],
+      "sub": "Piernas extendidas",
+      "vo": "Sentate con las piernas extendidas y las manos apoyadas en el piso, al costado de la cadera.",
+      "moves": [
+        {
+          "cut": "SEATED",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "PASO 1 / 2",
+      "head": [
+        "DESPEGÁ LAS",
+        "PIERNAS"
+      ],
+      "sub": "El abdomen las sostiene",
+      "vo": "Paso uno. Despegá las dos piernas del suelo y sostenelas arriba comprimiendo el abdomen.",
+      "moves": [
+        {
+          "cut": "SEATED",
+          "at": 0
+        },
+        {
+          "to": "LIFT",
+          "at": 1,
+          "dur": 0.9
+        },
+        {
+          "to": "HIGH",
+          "at": 1.9,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 2 / 2",
+      "head": [
+        "SOSTENÉ",
+        "ARRIBA"
+      ],
+      "sub": "Sin apoyar los talones",
+      "vo": "Paso dos. Sostené las piernas arriba con la espalda lo más recta posible y el pecho alto.",
+      "moves": [
+        {
+          "cut": "HIGH",
+          "at": 0
+        },
+        {
+          "to": "LIFT",
+          "at": 1.4,
+          "dur": 0.9
+        },
+        {
+          "to": "HIGH",
+          "at": 2.3,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "ERROR COMÚN",
+      "head": [
+        "ESPALDA",
+        "REDONDA"
+      ],
+      "sub": "Error común",
+      "vo": "Error: si redondeás la espalda y te dejás caer atrás, el abdomen deja de sostener y las piernas se hunden.",
+      "moves": [
+        {
+          "cut": "HIGH",
+          "at": 0
+        },
+        {
+          "to": "SLUMP",
+          "at": 1,
+          "dur": 0.8
+        },
+        {
+          "to": "HIGH",
+          "at": 3.4,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            388,
+            1358
+          ],
+          "r": 50,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            560,
+            1215
+          ],
+          "anchor": "middle",
+          "text": "PECHO ARRIBA",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Espalda recta",
+        "Pecho alto",
+        "Piernas extendidas",
+        "Talones sin tocar"
+      ],
+      "vo": "Claves: la espalda se mantiene recta, el pecho alto, las piernas extendidas y los talones no tocan el piso hasta terminar.",
+      "moves": [
+        {
+          "cut": "HIGH",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.2,
+      "badge": "A ENTRENAR",
+      "head": [
+        "40 S"
+      ],
+      "sub": "Sosteniendo arriba",
+      "vo": "Cuarenta segundos sosteniendo las piernas arriba, con la espalda recta y el abdomen apretado.",
+      "moves": [
+        {
+          "cut": "SEATED",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "LIFT",
+              0.9
+            ],
+            [
+              "HIGH",
+              1.1
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "rig": {
+    "x": 480,
+    "y": 1501,
+    "scale": 0.95
+  },
+  "initialPose": "SEATED",
+  "poses": {
+    "SEATED": {
+      "hip": [
+        0,
+        -40
+      ],
+      "ankle": [
+        450,
+        -30
+      ],
+      "b": -24,
+      "hd": -14,
+      "ft": -60,
+      "ft2": -60,
+      "g": 1,
+      "ed": 1,
+      "hx": 10,
+      "hy": -6
+    },
+    "LIFT": {
+      "hip": [
+        0,
+        -40
+      ],
+      "ankle": [
+        430,
+        -230
+      ],
+      "b": -32,
+      "hd": -20,
+      "ft": -60,
+      "ft2": -60,
+      "g": 1,
+      "ed": 1,
+      "hx": 10,
+      "hy": -6
+    },
+    "HIGH": {
+      "hip": [
+        0,
+        -40
+      ],
+      "ankle": [
+        400,
+        -330
+      ],
+      "b": -38,
+      "hd": -26,
+      "ft": -60,
+      "ft2": -60,
+      "g": 1,
+      "ed": 1,
+      "hx": 10,
+      "hy": -6
+    },
+    "SLUMP": {
+      "hip": [
+        0,
+        -40
+      ],
+      "ankle": [
+        430,
+        -230
+      ],
+      "b": -40,
+      "hd": -6,
+      "ft": -60,
+      "ft2": -60,
+      "cv": 26,
+      "g": 1,
+      "ed": 1,
+      "hx": 10,
+      "hy": -6
+    }
+  },
+  "category": "CROSSFIT · CORE",
+  "tags": [
+    "Recto abdominal",
+    "Core",
+    "WOD"
+  ],
+  "descripcion": "Sentado con las piernas extendidas y las manos apoyadas al costado de la cadera, se despegan las piernas del suelo y se sostienen comprimiendo el abdomen. Espalda lo más recta posible; si tiran los isquiotibiales, flexionar levemente las rodillas.",
+  "miniatura": {
+    "pose": "HIGH",
+    "grip": 0,
+    "zoom": 1.05,
+    "dy": 40
+  },
+  "youtube": {
+    "titulo": "Seated Leg Compression 🔥 piernas arriba sentado, paso a paso | CrossFit",
+    "descripcion": "🏋️ SEATED LEG COMPRESSION — abdomen y compresión de cadera sentado\nSentado con las piernas extendidas y las manos apoyadas al costado de la cadera, despegás las dos piernas del piso y las sostenés arriba comprimiendo el abdomen. Un básico de core que también trabaja el psoas. 💪\n\n📋 PASO A PASO\n1️⃣ Sentate con las piernas extendidas y las manos apoyadas en el piso, al costado de la cadera.\n2️⃣ Despegá las dos piernas del suelo y sostenelas arriba comprimiendo el abdomen.\n3️⃣ Mantené la espalda lo más recta posible y el pecho alto.\n4️⃣ Sostené sin apoyar los talones y después bajá con control.\n\n🎯 CLAVES DE TÉCNICA\n✅ Espalda recta, sin redondearla\n✅ Pecho alto y mirada al frente\n✅ Piernas extendidas, sin flexionar de más\n✅ Los talones no tocan el piso hasta terminar\n✅ Si tiran los isquiotibiales, flexioná apenas las rodillas\n\n🏋️ QUÉ TRABAJA\nRecto abdominal · Oblicuo interno y externo · Recto femoral · Psoas\n\n⏱️ CUÁNTO\n40 segundos sosteniendo arriba. Ideal como bloque de core dentro del WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nSi te cuesta mantener la espalda recta, subí las piernas un poco menos y andá ganando rango con las semanas.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #SeatedLegCompression #Core #Abdominales #Wod",
+    "tags": [
+      "seated leg compression",
+      "piernas arriba sentado",
+      "compresión de cadera",
+      "core sentado",
+      "abdominales con piernas arriba",
+      "recto abdominal",
+      "psoas",
+      "ejercicio de core",
+      "core crossfit",
+      "crossfit"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "e9a12307-e6c9-4e97-b88c-1b1dbd0c6c5e",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "2f5c5707835ff5ee136f2a87da31dbaeebc298b0114b510067570c2d11c80cca",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e9a12307-e6c9-4e97-b88c-1b1dbd0c6c5e\\blobs\\2f\\2f5c5707835ff5ee136f2a87da31dbaeebc298b0114b510067570c2d11c80cca"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e9a12307-e6c9-4e97-b88c-1b1dbd0c6c5e\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "59f1a8dbda9ec7b15a9c0832f03c09a693c3b102b615629b0ee9d7449b5dc4e5",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e9a12307-e6c9-4e97-b88c-1b1dbd0c6c5e\\blobs\\59\\59f1a8dbda9ec7b15a9c0832f03c09a693c3b102b615629b0ee9d7449b5dc4e5"
+    },
+    "meta.json": {
+      "hash": "4755da74029e98a23919ecac3754fba51a9a23b7a290b5c162551d745731fb80",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e9a12307-e6c9-4e97-b88c-1b1dbd0c6c5e\\blobs\\47\\4755da74029e98a23919ecac3754fba51a9a23b7a290b5c162551d745731fb80"
+    },
+    "package.json": {
+      "hash": "fdda3e1a684783174bca0336b55c7c5ee006568d3be887c2489ed5d0edd3f788",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e9a12307-e6c9-4e97-b88c-1b1dbd0c6c5e\\blobs\\fd\\fdda3e1a684783174bca0336b55c7c5ee006568d3be887c2489ed5d0edd3f788"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "f6afdf1b-e93b-4e74-9ca9-fbce22e0c9dd",
+      "completedAt": 1793873289761,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\hollow-rock\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

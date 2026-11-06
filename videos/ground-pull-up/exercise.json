@@ -1,0 +1,468 @@
+{
+  "slug": "ground-pull-up",
+  "name": "Ground Pull-Up",
+  "category": "CROSSFIT · GIMNASIA",
+  "tags": [
+    "Espalda",
+    "Gimnasia",
+    "Suelo"
+  ],
+  "descripcion": "Dominada en el piso: acostado boca arriba con los brazos al techo, tirás los codos hacia el piso juntando las escápulas.",
+  "revisado": false,
+  "notas": "Dominada sin barra acostado boca arriba: hip [0,-12] con s/t -90 (piernas a la derecha) y b/hd -90. Los brazos giran de 'al techo' (ua 180) a 'codos al piso' (ua 100, fa 80) con la mano arriba del pecho. Error ARCH_BAD: cv -26 para despegar la lumbar (la cue es lumbar pegada).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 508,
+    "y": 1496,
+    "scale": 1.05
+  },
+  "pronuncia": {
+    "Ground Pull-Up": "gráund pul ap",
+    "escápulas": "escápulas"
+  },
+  "poses": {
+    "SUPINE": {
+      "hip": [
+        0,
+        -12
+      ],
+      "s": -90,
+      "t": -90,
+      "b": -90,
+      "hd": -92,
+      "ft": -90,
+      "ft2": -90,
+      "g": 0,
+      "ua": 180,
+      "fa": 0,
+      "ua2": 180,
+      "fa2": 0
+    },
+    "SET": {
+      "hip": [
+        0,
+        -12
+      ],
+      "s": -90,
+      "t": -90,
+      "b": -90,
+      "hd": -92,
+      "ft": -90,
+      "ft2": -90,
+      "g": 0,
+      "ua": 186,
+      "fa": 4,
+      "ua2": 186,
+      "fa2": 4
+    },
+    "PULL": {
+      "hip": [
+        0,
+        -12
+      ],
+      "s": -90,
+      "t": -90,
+      "b": -90,
+      "hd": -92,
+      "ft": -90,
+      "ft2": -90,
+      "g": 0,
+      "ua": 100,
+      "fa": 80,
+      "ua2": 100,
+      "fa2": 80
+    },
+    "SQUEEZE": {
+      "hip": [
+        0,
+        -12
+      ],
+      "s": -90,
+      "t": -90,
+      "b": -90,
+      "hd": -92,
+      "ft": -90,
+      "ft2": -90,
+      "g": 0,
+      "ua": 94,
+      "fa": 86,
+      "ua2": 94,
+      "fa2": 86
+    },
+    "ARCH_BAD": {
+      "hip": [
+        0,
+        -12
+      ],
+      "s": -90,
+      "t": -90,
+      "b": -90,
+      "hd": -92,
+      "ft": -90,
+      "ft2": -90,
+      "g": 0,
+      "ua": 100,
+      "fa": 80,
+      "ua2": 100,
+      "fa2": 80,
+      "cv": -26
+    },
+    "RELEASE": {
+      "hip": [
+        0,
+        -12
+      ],
+      "s": -90,
+      "t": -90,
+      "b": -90,
+      "hd": -92,
+      "ft": -90,
+      "ft2": -90,
+      "g": 0,
+      "ua": 148,
+      "fa": 34,
+      "ua2": 148,
+      "fa2": 34
+    }
+  },
+  "initialPose": "SUPINE",
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · GIMNASIA",
+      "head": [
+        "GROUND",
+        "PULL-UP"
+      ],
+      "vo": "Ground Pull-Up: boca arriba, codos al piso y escápulas juntas. Dominada sin barra.",
+      "moves": [
+        {
+          "cut": "SUPINE",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 1.3,
+          "dur": 0.8
+        },
+        {
+          "to": "SUPINE",
+          "at": 2.7,
+          "dur": 0.7
+        },
+        {
+          "to": "PULL",
+          "at": 3.5,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ACOSTADO",
+        "LUMBAR PEGADA"
+      ],
+      "sub": "Piernas extendidas",
+      "vo": "Acostate boca arriba, piernas extendidas, brazos al techo y lumbar al piso.",
+      "moves": [
+        {
+          "cut": "SUPINE",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "BRAZOS",
+        "AL TECHO"
+      ],
+      "sub": "Codos extendidos",
+      "vo": "Paso uno. Estirá los brazos al techo con los codos extendidos.",
+      "moves": [
+        {
+          "cut": "SUPINE",
+          "at": 0
+        },
+        {
+          "to": "SET",
+          "at": 1.2,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            262,
+            1200
+          ],
+          "at": 1.4,
+          "dur": 0.8,
+          "from": [
+            262,
+            1390
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            302,
+            1150
+          ],
+          "at": 2.2,
+          "out": 4.4,
+          "text": "AL TECHO",
+          "anchor": "start"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "CODOS",
+        "AL PISO"
+      ],
+      "sub": "Hombros atrás",
+      "vo": "Paso dos. Bajá los codos al piso con los hombros atrás; no flexiones solo el codo.",
+      "moves": [
+        {
+          "cut": "SET",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.8,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            300,
+            1290
+          ],
+          "at": 1.9,
+          "out": 4.4,
+          "text": "TIRÁ CON LA ESPALDA",
+          "anchor": "start"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "APRETÁ",
+        "ESCÁPULAS"
+      ],
+      "sub": "Dos segundos",
+      "vo": "Paso tres. Apretá las escápulas dos segundos arriba, sin despegar la lumbar del piso.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "SQUEEZE",
+          "at": 1.1,
+          "dur": 0.5
+        },
+        {
+          "to": "PULL",
+          "at": 2.9,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            620,
+            1430
+          ],
+          "at": 1,
+          "dur": 0.8,
+          "from": [
+            830,
+            1400
+          ]
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "VOLVÉ",
+        "CONTROLADO"
+      ],
+      "sub": "Sin soltar la lumbar",
+      "vo": "Paso cuatro. Volvé a estirar controlado, manteniendo la lumbar pegada.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "RELEASE",
+          "at": 0.8,
+          "dur": 0.6
+        },
+        {
+          "to": "SUPINE",
+          "at": 1.5,
+          "dur": 0.7
+        },
+        {
+          "to": "SET",
+          "at": 2.5,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "min": 5.2,
+      "badge": "ERROR COMÚN",
+      "head": [
+        "SIN",
+        "ARQUEAR"
+      ],
+      "sub": "Lumbar al piso",
+      "vo": "El error: despegar la lumbar para ganar rango. La lumbar no se levanta.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 1,
+          "dur": 0.7
+        },
+        {
+          "to": "PULL",
+          "at": 3.1,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            700,
+            1300
+          ],
+          "text": "NO DESPEGUES",
+          "anchor": "middle",
+          "at": 1.5,
+          "out": 4.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.4,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Lumbar pegada al piso",
+        "Brazos extendidos al techo",
+        "Codos hacia el piso",
+        "Escápulas juntas",
+        "Bajada controlada"
+      ],
+      "vo": "Claves: lumbar pegada, brazos al techo, codos al piso y escápulas juntas.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7,
+      "badge": "A ENTRENAR",
+      "head": [
+        "12 REPS"
+      ],
+      "sub": "Ritmo lento",
+      "vo": "Doce repeticiones lentas. Si la lumbar se despega, reducí el rango.",
+      "chips": [
+        {
+          "label": "1 · TIRÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "SUPINE",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "PULL",
+              0.8
+            ],
+            [
+              "SQUEEZE",
+              0.4
+            ],
+            [
+              "SUPINE",
+              0.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "PULL",
+    "grip": 0,
+    "zoom": 1.05,
+    "dy": -40
+  },
+  "youtube": {
+    "titulo": "Ground Pull-Up 🎯 dominada en el piso para espalda y escápulas | CrossFit",
+    "tags": [
+      "ground pull-up",
+      "dominada en el piso",
+      "espalda",
+      "dorsal",
+      "escapulas",
+      "gimnasia",
+      "sin material",
+      "pull",
+      "crossfit",
+      "wod"
+    ],
+    "descripcion": "🎯 GROUND PULL-UP — dominada en el piso\nSin barra y sin implementos: acostado boca arriba, tirás los codos hacia el piso y juntás las escápulas. El patrón exacto de la dominada, para aprender a tirar con la espalda. 🧲\n\n📋 PASO A PASO\n1️⃣ Acostate boca arriba con las piernas extendidas y la lumbar pegada al piso.\n2️⃣ Estirá los brazos hacia el techo con los codos extendidos.\n3️⃣ Bajá los codos hacia el piso y juntá las escápulas, sin flexiones solo el codo.\n4️⃣ Volvé a estirar controlado y repetí.\n\n✅ CLAVES DE TÉCNICA\n• Lumbar pegada al piso\n• Brazos extendidos al techo\n• Codos hacia el piso\n• Escápulas juntas\n• Bajada controlada\n\n🎯 QUÉ TRABAJA\nDorsal ancho · Bíceps braquial · Deltoides posterior · Romboides · Trapecio medio\n\n⏱️ CUÁNTO\n12 repeticiones lentas. Si la lumbar se despega, reducí el rango.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nProgresión: primero pocas repeticiones con pausa de dos segundos arriba; después sumá volumen.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Espalda #GroundPullUp #Gimnasia #SinMaterial"
+  }
+}

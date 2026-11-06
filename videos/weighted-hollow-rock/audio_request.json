@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Weighted Hollow Rock",
+      "text": "La mecedora de core con disco. El cuerpo se mueve en bloque, sin flexionar la cadera."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba, tomá el disco con las dos manos y formá la banana con los brazos junto a las orejas."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Pegá la lumbar al piso y llevá las costillas abajo: sin eso, el disco te gana."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Balanceate adelante y atrás como una mecedora, sin flexionar la cadera para tomar impulso."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si la lumbar se despega o el disco te frena la subida, bajá el peso o el rango."
+    },
+    {
+      "id": "06",
+      "text": "Claves: cuerpo en bloque, lumbar pegada, sin impulso de cadera y el disco siempre controlado."
+    },
+    {
+      "id": "07",
+      "text": "Doce balanceos completos con disco, tres series. Si la lumbar se despega, cortá la serie."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

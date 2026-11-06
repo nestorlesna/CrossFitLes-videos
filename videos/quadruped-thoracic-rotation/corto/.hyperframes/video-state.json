@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "16aa6451-cfe1-4bbb-b69a-0dabb45b8905",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "162db5da90e57ac156231b3e77d41bd085742c497e2f13e3c1fcdb75b522893e",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\16aa6451-cfe1-4bbb-b69a-0dabb45b8905\\blobs\\16\\162db5da90e57ac156231b3e77d41bd085742c497e2f13e3c1fcdb75b522893e"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\16aa6451-cfe1-4bbb-b69a-0dabb45b8905\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "cb86e042e88640f5bfa401c6c2af151fd73b6071f3b885a434d9ed99c18b8065",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\16aa6451-cfe1-4bbb-b69a-0dabb45b8905\\blobs\\cb\\cb86e042e88640f5bfa401c6c2af151fd73b6071f3b885a434d9ed99c18b8065"
+    },
+    "meta.json": {
+      "hash": "a97fbaaf4cdb0cdae824b8ef50fa59b5d13360f33097f20635bcad2cf31fb60a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\16aa6451-cfe1-4bbb-b69a-0dabb45b8905\\blobs\\a9\\a97fbaaf4cdb0cdae824b8ef50fa59b5d13360f33097f20635bcad2cf31fb60a"
+    },
+    "package.json": {
+      "hash": "6b6637547af1d8739948b9215f084fc60dc2d2ddd4be717742efd6dda3810d99",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\16aa6451-cfe1-4bbb-b69a-0dabb45b8905\\blobs\\6b\\6b6637547af1d8739948b9215f084fc60dc2d2ddd4be717742efd6dda3810d99"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "e3d31813-40b5-40cc-85e2-4cdcc998f1c4",
+      "completedAt": 1793874587252,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\quadruped-thoracic-rotation\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "4202b196-7dcd-40f5-a2aa-f6e5bace6864",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "2f5c5707835ff5ee136f2a87da31dbaeebc298b0114b510067570c2d11c80cca",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4202b196-7dcd-40f5-a2aa-f6e5bace6864\\blobs\\2f\\2f5c5707835ff5ee136f2a87da31dbaeebc298b0114b510067570c2d11c80cca"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4202b196-7dcd-40f5-a2aa-f6e5bace6864\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "187f5717c074d0741acef8442277ed722180746fff180133a1232d3593ae5871",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4202b196-7dcd-40f5-a2aa-f6e5bace6864\\blobs\\18\\187f5717c074d0741acef8442277ed722180746fff180133a1232d3593ae5871"
+    },
+    "meta.json": {
+      "hash": "50892db9ca3968ad33478ce58fb7b6fe97d8f71b2cc12e63b49927f9084ebc56",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4202b196-7dcd-40f5-a2aa-f6e5bace6864\\blobs\\50\\50892db9ca3968ad33478ce58fb7b6fe97d8f71b2cc12e63b49927f9084ebc56"
+    },
+    "package.json": {
+      "hash": "a6e8386b97817f2791e0c9c947d7d08a64018106bd4ccb2ce071eb71dbb03b63",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4202b196-7dcd-40f5-a2aa-f6e5bace6864\\blobs\\a6\\a6e8386b97817f2791e0c9c947d7d08a64018106bd4ccb2ce071eb71dbb03b63"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "af636949-a871-403a-bcb0-c964b691c3ef",
+      "completedAt": 1793839781357,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\dynamic-hollow-hold\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

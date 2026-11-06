@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "2ef9839f-bd10-41cf-b822-3666d5841726",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2ef9839f-bd10-41cf-b822-3666d5841726\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "a3dae9b1e7ce661b5e535c159bd802584b8aa7a72f75f14e374f0c86e2e2c600",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2ef9839f-bd10-41cf-b822-3666d5841726\\blobs\\a3\\a3dae9b1e7ce661b5e535c159bd802584b8aa7a72f75f14e374f0c86e2e2c600"
+    },
+    "meta.json": {
+      "hash": "4b7a1359e670575e5127c22b98ea3160d4498c2ffb6030c10368e566d6d3f421",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2ef9839f-bd10-41cf-b822-3666d5841726\\blobs\\4b\\4b7a1359e670575e5127c22b98ea3160d4498c2ffb6030c10368e566d6d3f421"
+    },
+    "package.json": {
+      "hash": "6eed0f3f31f8891caf2618559f8f8e62d16b5a2896f661227c0f00af383db42c",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2ef9839f-bd10-41cf-b822-3666d5841726\\blobs\\6e\\6eed0f3f31f8891caf2618559f8f8e62d16b5a2896f661227c0f00af383db42c"
+    },
+    "assets/bgm/track-long.wav": {
+      "hash": "428e6b5ff1a3fdc9f0b5acc0301f479a03ce13879abb1a6b7d45b9a4a7412327",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2ef9839f-bd10-41cf-b822-3666d5841726\\blobs\\42\\428e6b5ff1a3fdc9f0b5acc0301f479a03ce13879abb1a6b7d45b9a4a7412327"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "dee71c3c-aede-452e-ab7c-ab5fb4f7e3ee",
+      "completedAt": 1793876971310,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\plank-to-opposite-toe-touch\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

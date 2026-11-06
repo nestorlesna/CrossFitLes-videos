@@ -1,0 +1,477 @@
+{
+  "slug": "plate-jump-over-and-squat",
+  "name": "Plate Jump + Squat",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Piernas",
+    "Glúteos",
+    "Cardio"
+  ],
+  "descripcion": "Saltar con los dos pies por encima de un disco apoyado en el piso, aterrizar del otro lado y encadenar de inmediato una sentadilla completa. Volver a saltar hacia el lado inicial y repetir.",
+  "revisado": false,
+  "notas": "Disco fijo en el piso (prop plate, x 0) y salto de ida con la cadera viajando de -330 a +200; entre reps se vuelve con cut para no caminar para atrás.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 520,
+    "y": 1500,
+    "scale": 0.8
+  },
+  "props": [
+    {
+      "type": "plate",
+      "x": 0,
+      "r": 95
+    }
+  ],
+  "nombreEnVoz": "Plate jump over and squat",
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "hip": [
+        -330,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "CROUCH": {
+      "hip": [
+        -330,
+        -380
+      ],
+      "b": 30,
+      "hd": 18,
+      "ua": -40,
+      "fa": 10
+    },
+    "JUMP": {
+      "hip": [
+        -120,
+        -700
+      ],
+      "s": 34,
+      "t": -70,
+      "ft": 30,
+      "b": 10,
+      "hd": 4,
+      "ua": 150,
+      "fa": 10
+    },
+    "AIR": {
+      "hip": [
+        60,
+        -720
+      ],
+      "s": 20,
+      "t": -50,
+      "ft": 20,
+      "b": 6,
+      "hd": 2,
+      "ua": 120,
+      "fa": 10
+    },
+    "LAND": {
+      "hip": [
+        200,
+        -380
+      ],
+      "ankle": [
+        232,
+        0
+      ],
+      "b": 26,
+      "hd": 14,
+      "ua": 78,
+      "fa": 14
+    },
+    "LAND_BAD": {
+      "hip": [
+        200,
+        -470
+      ],
+      "s": -4,
+      "t": -4,
+      "b": 0,
+      "hd": -4,
+      "ua": 30,
+      "fa": 10
+    },
+    "SQUAT": {
+      "hip": [
+        220,
+        -205
+      ],
+      "ankle": [
+        220,
+        0
+      ],
+      "b": 32,
+      "hd": 20,
+      "ua": 90,
+      "fa": 0
+    },
+    "STAND_B": {
+      "hip": [
+        220,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 4,
+      "fa": 6
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "PLATE JUMP",
+        "+ SQUAT"
+      ],
+      "vo": "Plate Jump and Squat: saltá el disco con los dos pies y encadená una sentadilla completa.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "CROUCH",
+          "at": 0.4,
+          "dur": 0.4
+        },
+        {
+          "to": "JUMP",
+          "at": 0.8,
+          "dur": 0.35
+        },
+        {
+          "to": "AIR",
+          "at": 1.15,
+          "dur": 0.3
+        },
+        {
+          "to": "LAND",
+          "at": 1.45,
+          "dur": 0.3
+        },
+        {
+          "to": "SQUAT",
+          "at": 1.75,
+          "dur": 0.5
+        },
+        {
+          "to": "STAND_B",
+          "at": 2.25,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "FRENTE",
+        "AL DISCO"
+      ],
+      "sub": "Pies al ancho de cadera",
+      "vo": "Parate de frente al disco, con los pies al ancho de la cadera.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "CARGÁ",
+        "LAS PIERNAS"
+      ],
+      "sub": "Brazos atrás",
+      "vo": "Paso uno. Flexioná rodillas y cadera y llevá los brazos atrás para cargar el salto.",
+      "moves": [
+        {
+          "to": "CROUCH",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            300,
+            820
+          ],
+          "text": "BRAZOS ATRÁS",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "SALTÁ",
+        "EL DISCO"
+      ],
+      "sub": "Los dos pies juntos",
+      "vo": "Paso dos. Saltá con los dos pies juntos por encima del disco, con los brazos arriba.",
+      "moves": [
+        {
+          "cut": "CROUCH",
+          "at": 0
+        },
+        {
+          "to": "JUMP",
+          "at": 0.4,
+          "dur": 0.35
+        },
+        {
+          "to": "AIR",
+          "at": 0.75,
+          "dur": 0.3
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            400,
+            950
+          ],
+          "to": [
+            600,
+            750
+          ],
+          "bend": [
+            60,
+            -80
+          ],
+          "at": 1.0,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "ATERRIZÁ",
+        "SUAVE"
+      ],
+      "sub": "Rodillas y cadera flexionadas",
+      "vo": "Paso tres. Aterrizá suave, con rodillas y cadera flexionadas y alineadas con los pies.",
+      "moves": [
+        {
+          "cut": "AIR",
+          "at": 0
+        },
+        {
+          "to": "LAND",
+          "at": 0.4,
+          "dur": 0.3
+        },
+        {
+          "to": "LAND_BAD",
+          "at": 1.8,
+          "dur": 0.5
+        },
+        {
+          "to": "LAND",
+          "at": 3.0,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            230,
+            800
+          ],
+          "text": "SIN FLEXIONAR NO",
+          "anchor": "start",
+          "at": 2.2,
+          "out": 3.0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "SENTADILLA",
+        "COMPLETA"
+      ],
+      "sub": "Sin pausa larga",
+      "vo": "Paso cuatro. Encadená una sentadilla completa y volvé de pie antes del próximo salto.",
+      "moves": [
+        {
+          "cut": "LAND",
+          "at": 0
+        },
+        {
+          "to": "SQUAT",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            250,
+            760
+          ],
+          "text": "PECHO ARRIBA",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Dos pies juntos",
+        "Aterrizaje suave",
+        "Rodillas alineadas",
+        "Sentadilla completa"
+      ],
+      "vo": "Claves: dos pies juntos, aterrizaje suave, rodillas alineadas y sentadilla completa.",
+      "moves": [
+        {
+          "cut": "SQUAT",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "12 REPS"
+      ],
+      "sub": "Salto + sentadilla",
+      "vo": "Doce repeticiones encadenando salto y sentadilla. Si te cansás, bajá el ritmo antes que la técnica.",
+      "chips": [
+        {
+          "label": "1 · SALTÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · ATERRIZÁ",
+          "at": 1.3
+        },
+        {
+          "label": "3 · SENTADILLA",
+          "at": 2.0
+        }
+      ],
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "CROUCH",
+          "at": 0.3,
+          "dur": 0.3
+        },
+        {
+          "to": "JUMP",
+          "at": 0.6,
+          "dur": 0.3
+        },
+        {
+          "to": "AIR",
+          "at": 0.9,
+          "dur": 0.25
+        },
+        {
+          "to": "LAND",
+          "at": 1.15,
+          "dur": 0.25
+        },
+        {
+          "to": "SQUAT",
+          "at": 1.4,
+          "dur": 0.45
+        },
+        {
+          "cut": "STAND",
+          "at": 2.6
+        },
+        {
+          "to": "CROUCH",
+          "at": 2.9,
+          "dur": 0.3
+        },
+        {
+          "to": "JUMP",
+          "at": 3.2,
+          "dur": 0.3
+        },
+        {
+          "to": "AIR",
+          "at": 3.5,
+          "dur": 0.25
+        },
+        {
+          "to": "LAND",
+          "at": 3.75,
+          "dur": 0.25
+        },
+        {
+          "to": "SQUAT",
+          "at": 4.0,
+          "dur": 0.45
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "JUMP",
+    "grip": 0,
+    "zoom": 1.0,
+    "dy": 170
+  },
+  "youtube": {
+    "titulo": "Plate Jump Over and Squat 🔥 Salto + sentadilla para piernas y cardio | CrossFit",
+    "tags": [
+      "plate jump over and squat",
+      "salto de disco",
+      "salto lateral",
+      "sentadilla",
+      "plyometrico",
+      "piernas",
+      "cardio",
+      "crossfit",
+      "wod",
+      "disco"
+    ],
+    "descripcion": "🔥 PLATE JUMP OVER AND SQUAT — potencia de piernas y cardio en un solo movimiento\n\n¿Buscás un WOD corto que te deje las piernas temblando? Saltá el disco y encadená sentadilla. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate de frente al disco, con los pies al ancho de la cadera.\n2️⃣ Flexioná rodillas y cadera y llevá los brazos atrás para cargar.\n3️⃣ Saltá con los dos pies juntos por encima del disco.\n4️⃣ Aterrizá suave, con rodillas y cadera flexionadas y alineadas.\n5️⃣ Encadená una sentadilla completa y volvé de pie.\n\n✅ CLAVES DE TÉCNICA\n• Dos pies juntos en el salto\n• Aterrizaje suave, sin golpear\n• Rodillas alineadas con la punta de los pies\n• Sentadilla completa, sin cortar\n• Mirada al frente y abdomen firme\n\n🎯 QUÉ TRABAJA\nGastrocnemio · Glúteo mayor · Recto femoral · Sóleo · Vasto lateral\n\n⏱️ CUÁNTO\n12 repeticiones encadenando salto y sentadilla. Va en WODs metabólicos o como finisher de piernas.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ Si tenés rodillas sensibles o recién arrancás, empezá saltando sin disco o con un escalón bajo y aterrizá siempre suave.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #PlateJump #Sentadilla #Piernas"
+  }
+}

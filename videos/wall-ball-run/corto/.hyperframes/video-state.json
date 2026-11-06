@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "4d064c0f-c36a-4427-b828-1958517e4adf",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "fdd48d67e1b8ae8515135b6375c35704da82a241a8f26d841574f6c36a7fd245",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4d064c0f-c36a-4427-b828-1958517e4adf\\blobs\\fd\\fdd48d67e1b8ae8515135b6375c35704da82a241a8f26d841574f6c36a7fd245"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4d064c0f-c36a-4427-b828-1958517e4adf\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "5a25149405361cb2012e7a53849b792fadd4d4b9e006cdc03f71a853e667cd30",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4d064c0f-c36a-4427-b828-1958517e4adf\\blobs\\5a\\5a25149405361cb2012e7a53849b792fadd4d4b9e006cdc03f71a853e667cd30"
+    },
+    "meta.json": {
+      "hash": "6a1dbdcbe96810009cffb6339dda09ae64d02142b3fc2666c42789f12dcc6c2a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4d064c0f-c36a-4427-b828-1958517e4adf\\blobs\\6a\\6a1dbdcbe96810009cffb6339dda09ae64d02142b3fc2666c42789f12dcc6c2a"
+    },
+    "package.json": {
+      "hash": "c9961dbd6801cf28a885682184193dc1b4d670f2785c82d590ebbf526c9a481e",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4d064c0f-c36a-4427-b828-1958517e4adf\\blobs\\c9\\c9961dbd6801cf28a885682184193dc1b4d670f2785c82d590ebbf526c9a481e"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "bdabb6a4-9200-42cf-8163-ac9bc19cbc5c",
+      "completedAt": 1793874074783,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\wall-ball-run\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

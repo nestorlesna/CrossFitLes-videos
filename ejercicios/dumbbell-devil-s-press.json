@@ -1,0 +1,539 @@
+{
+  "slug": "dumbbell-devil-s-press",
+  "name": "Dumbbell Devil's Press",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Potencia",
+    "Hombros",
+    "Core"
+  ],
+  "descripcion": "Burpee con dos mancuernas + snatch overhead de ambas a la vez al pararse. Movimiento total de alta intensidad.",
+  "revisado": false,
+  "notas": "Burpee con dos mancuernas + snatch doble: mismas poses probadas que dual-dumbbell-snatch-with-burpee, más el error de espalda redondeada (cv).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 560,
+    "y": 1512,
+    "scale": 0.62
+  },
+  "initialPose": "STAND",
+  "props": [
+    {
+      "type": "dumbbell",
+      "hand": "far",
+      "side": true,
+      "r": 44
+    },
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "side": true,
+      "r": 44
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 2,
+      "g2": 0,
+      "ua2": 4,
+      "fa2": 2
+    },
+    "SETUP": {
+      "hip": [
+        -215,
+        -250
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 74,
+      "hd": 34,
+      "g": 1,
+      "g2": 1,
+      "ed": 1,
+      "hx": 30,
+      "hy": -8,
+      "hx2": 10,
+      "hy2": -8
+    },
+    "PLANK": {
+      "hip": [
+        -290,
+        -240
+      ],
+      "s": 78,
+      "t": 78,
+      "s2": 78,
+      "t2": 78,
+      "ft": 170,
+      "ft2": 170,
+      "b": 80,
+      "hd": 86,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "hx": 10,
+      "hy": 0,
+      "hx2": -10,
+      "hy2": 0
+    },
+    "CHEST": {
+      "hip": [
+        -290,
+        -55
+      ],
+      "s": 80,
+      "t": 80,
+      "s2": 80,
+      "t2": 80,
+      "ft": 175,
+      "ft2": 175,
+      "b": 82,
+      "hd": 72,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "hx": 10,
+      "hy": 0,
+      "hx2": -10,
+      "hy2": 0
+    },
+    "EXT": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": -4,
+      "hd": -2,
+      "g": 0,
+      "ua": 4,
+      "fa": 0,
+      "g2": 0,
+      "ua2": 4,
+      "fa2": 0
+    },
+    "OH": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 4,
+      "g": 0,
+      "ua": 180,
+      "fa": 0,
+      "g2": 0,
+      "ua2": 180,
+      "fa2": 0
+    },
+    "SETUP_BAD": {
+      "hip": [
+        -215,
+        -250
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 84,
+      "hd": 42,
+      "g": 1,
+      "g2": 1,
+      "ed": 1,
+      "hx": 30,
+      "hy": -8,
+      "hx2": 10,
+      "hy2": -8,
+      "cv": 30
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.0,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "DUMBBELL",
+        "DEVIL'S PRESS"
+      ],
+      "vo": "Dumbbell Devil's Press: burpee con dos mancuernas y snatch doble arriba. Intensidad total.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "STAND",
+              0.35
+            ],
+            [
+              "SETUP",
+              0.35
+            ],
+            [
+              "PLANK",
+              0.3
+            ],
+            [
+              "CHEST",
+              0.3
+            ],
+            [
+              "PLANK",
+              0.3
+            ],
+            [
+              "SETUP",
+              0.35
+            ],
+            [
+              "OH",
+              0.55
+            ],
+            [
+              "SETUP",
+              0.3
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 4.8,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE",
+        "DOS MANCUERNAS"
+      ],
+      "sub": "Pies al ancho de hombros",
+      "vo": "De pie, con una mancuerna en cada mano a los costados y los pies al ancho de los hombros.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            700
+          ],
+          "text": "UNA EN CADA MANO",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "BURPEE",
+        "AL PISO"
+      ],
+      "sub": "Pecho al piso",
+      "vo": "Paso uno. Hacé bisagra, apoyá las mancuernas en el piso y saltá los pies atrás a la plancha.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "SETUP",
+          "at": 0.8,
+          "dur": 0.6
+        },
+        {
+          "to": "PLANK",
+          "at": 1.8,
+          "dur": 0.5
+        },
+        {
+          "to": "CHEST",
+          "at": 2.5,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            980
+          ],
+          "text": "PECHO AL PISO",
+          "anchor": "middle",
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "VOLVÉ CON",
+        "LOS PIES"
+      ],
+      "sub": "Agarrá las dos",
+      "vo": "Paso dos. Empujá del piso y volvé con los pies para agarrar las dos mancuernas.",
+      "moves": [
+        {
+          "cut": "CHEST",
+          "at": 0
+        },
+        {
+          "to": "PLANK",
+          "at": 0.45,
+          "dur": 0.35
+        },
+        {
+          "to": "SETUP",
+          "at": 1.1,
+          "dur": 0.55
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            830
+          ],
+          "text": "PIES ADENTRO",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "EXTENDÉ",
+        "LA CADERA"
+      ],
+      "sub": "Las pesas entre las piernas",
+      "vo": "Paso tres. Extendé la cadera con fuerza y dejá que las mancuernas suban pegadas al cuerpo.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "EXT",
+          "at": 0.8,
+          "dur": 0.4,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            700,
+            1060
+          ],
+          "text": "EMPUJÁ LA CADERA",
+          "anchor": "start",
+          "at": 1.1
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "SNATCH",
+        "ARRIBA"
+      ],
+      "sub": "Brazos bloqueados",
+      "vo": "Paso cuatro. Seguí el envión y llevá las dos mancuernas arriba de la cabeza, brazos bloqueados.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "OH",
+          "at": 0.6,
+          "dur": 0.5,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            700
+          ],
+          "text": "BRAZOS BLOQUEADOS",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "badge": "ERROR TÍPICO",
+      "head": [
+        "ASÍ NO:",
+        "ESPALDA"
+      ],
+      "sub": "Redondeada",
+      "bad": true,
+      "min": 5.2,
+      "vo": "Así no. Si redondeás la espalda al levantar del piso, la carga se te va a la lumbar.",
+      "moves": [
+        {
+          "cut": "SETUP_BAD",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            540,
+            1330
+          ],
+          "r": 80,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1160
+          ],
+          "text": "ESPALDA REDONDA",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Pecho al piso",
+        "Espalda neutra",
+        "Empuja la cadera",
+        "Brazos bloqueados"
+      ],
+      "vo": "Claves: pecho al piso, espalda neutra, la cadera empuja el movimiento y brazos bloqueados arriba.",
+      "moves": [
+        {
+          "cut": "OH",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "7 REPS"
+      ],
+      "sub": "Peso moderado",
+      "vo": "Siete repeticiones con un peso que te deje mantener la técnica. Si se desarma, bajá el peso.",
+      "chips": [
+        {
+          "label": "1 · BURPEE",
+          "at": 0.6
+        },
+        {
+          "label": "2 · CADERA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · ARRIBA",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "SETUP",
+              0.35
+            ],
+            [
+              "PLANK",
+              0.3
+            ],
+            [
+              "CHEST",
+              0.3
+            ],
+            [
+              "SETUP",
+              0.4
+            ],
+            [
+              "OH",
+              0.55
+            ],
+            [
+              "SETUP",
+              0.35
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "OH",
+    "grip": 0,
+    "zoom": 0.95,
+    "dy": 180
+  },
+  "youtube": {
+    "titulo": "Dumbbell Devil's Press 🔥 burpee + snatch doble paso a paso | CrossFit",
+    "descripcion": "🔥 DUMBBELL DEVIL'S PRESS — burpee y snatch doble en un solo movimiento\n\n¿Querés un ejercicio que te suba el pulso y entrene potencia al mismo tiempo? El devil's press une burpee con dos mancuernas y snatch doble: todo el cuerpo trabajando en una sola repetición. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ De pie, con una mancuerna en cada mano a los costados y los pies al ancho de los hombros.\n2️⃣ Hacé bisagra, apoyá las mancuernas en el piso y saltá los pies atrás a la plancha.\n3️⃣ Bajá el pecho al piso, empujá y volvé con los pies para agarrar las dos mancuernas.\n4️⃣ Extendé la cadera con fuerza: las mancuernas suben pegadas al cuerpo.\n5️⃣ Terminá el envión con las dos mancuernas arriba de la cabeza, brazos bloqueados.\n\n✅ CLAVES DE TÉCNICA\n• Pecho al piso en el burpee, sin rebotar\n• Espalda neutra siempre, sobre todo al levantar del piso\n• La extensión de cadera impulsa el snatch, no los brazos\n• Brazos bloqueados y costillas abajo arriba\n• Las mancuernas viajan pegadas al cuerpo\n\n🎯 QUÉ TRABAJA\nDeltoides anterior · Erectores espinales · Glúteo mayor · Pectoral mayor · Bíceps femoral · Trapecio superior · Tríceps braquial\n\n⏱️ CUÁNTO\n7 repeticiones con 22,5 kg (o el peso que te deje mantener la técnica). Ideal para un WOD corto o como finisher.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste devil's press, empezá con mancuernas livianas y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #DevilsPress #Mancuernas #Entrenamiento",
+    "tags": [
+      "dumbbell devils press",
+      "devils press",
+      "burpee con mancuernas",
+      "snatch doble",
+      "mancuernas",
+      "ejercicio explosivo",
+      "potencia",
+      "hombros",
+      "core",
+      "crossfit",
+      "wod",
+      "entrenamiento funcional"
+    ]
+  }
+}

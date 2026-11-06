@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "96b145ac-3c44-4512-aa7d-7fca23e05582",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "8e42b365de84f144dee0b72b21436b7f2cde5155952fa3006f3f35edad1ba051",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\96b145ac-3c44-4512-aa7d-7fca23e05582\\blobs\\8e\\8e42b365de84f144dee0b72b21436b7f2cde5155952fa3006f3f35edad1ba051"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\96b145ac-3c44-4512-aa7d-7fca23e05582\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "b96465801ae9408ddd43cf9f487c5ab757537e6f2d746dda008aef1a62580f42",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\96b145ac-3c44-4512-aa7d-7fca23e05582\\blobs\\b9\\b96465801ae9408ddd43cf9f487c5ab757537e6f2d746dda008aef1a62580f42"
+    },
+    "meta.json": {
+      "hash": "5079fa30b893b643c99030aaf6928c15b485ead9825ea81f7b022f464406ca44",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\96b145ac-3c44-4512-aa7d-7fca23e05582\\blobs\\50\\5079fa30b893b643c99030aaf6928c15b485ead9825ea81f7b022f464406ca44"
+    },
+    "package.json": {
+      "hash": "8839a87d8acec162a8850efd4cb7896975f55cfa80c7f51c2cec6c6dcaa86b47",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\96b145ac-3c44-4512-aa7d-7fca23e05582\\blobs\\88\\8839a87d8acec162a8850efd4cb7896975f55cfa80c7f51c2cec6c6dcaa86b47"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "e7d36de7-2309-45ae-9322-cc51b40e2fce",
+      "completedAt": 1793874412794,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\core-overhead-hold-with-side-bend\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

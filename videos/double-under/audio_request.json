@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Double Under",
+      "text": "Un salto, dos vueltas de cuerda. Muñecas rápidas y ritmo constante."
+    },
+    {
+      "id": "02",
+      "text": "Parate derecho con la cuerda detrás de los talones, una manija en cada mano y los codos cerca del cuerpo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Saltá un poco más alto que en el síngol ánder, con el cuerpo recto y las piernas juntas."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Mientras estás en el aire, la cuerda pasa dos veces bajo los pies. Un salto, dos vueltas."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. La velocidad sale de las muñecas, no de los hombros. Mantené los codos cerca y el ritmo parejo."
+    },
+    {
+      "id": "06",
+      "text": "Así no. Si saltás demasiado alto, la cuerda no llega a dar dos vueltas y te cansás antes de tiempo."
+    },
+    {
+      "id": "07",
+      "text": "Claves: salto corto, dos pasadas por salto, giro de muñecas y codos cerca del cuerpo."
+    },
+    {
+      "id": "08",
+      "text": "Veinte repeticiones. Si se corta la cuerda, retomá sin apurarte y mantené el mismo ritmo de salto."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

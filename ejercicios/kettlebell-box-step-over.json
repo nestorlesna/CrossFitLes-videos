@@ -1,0 +1,556 @@
+{
+  "slug": "kettlebell-box-step-over",
+  "name": "Kettlebell Box Step-Over",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Piernas",
+    "Glúteos",
+    "Cardio"
+  ],
+  "descripcion": "Con una kettlebell al costado del cuerpo, subir un pie al cajón, luego el otro para quedar encima, y bajar del lado opuesto de forma controlada. Repetir alternando el lado de inicio.",
+  "revisado": false,
+  "notas": "Cajón fijo (prop box) atravesado de un lado al otro; posiciones left/top/right con cuts. Kettlebell en la mano cercana.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1511,
+    "scale": 0.66
+  },
+  "shadow": false,
+  "props": [
+    {
+      "type": "box",
+      "x0": -160,
+      "x1": 160,
+      "h": 220
+    },
+    {
+      "type": "kettlebell",
+      "off": [
+        0,
+        16
+      ]
+    }
+  ],
+  "nombreEnVoz": "Kettlebell box step over",
+  "initialPose": "STAND_A",
+  "poses": {
+    "STAND_A": {
+      "hip": [
+        -330,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 8,
+      "fa": 10,
+      "ua2": -6,
+      "fa2": 10
+    },
+    "STEP_A": {
+      "hip": [
+        -330,
+        -470
+      ],
+      "ankle": [
+        -120,
+        -222
+      ],
+      "ankle2": [
+        -330,
+        0
+      ],
+      "b": 4,
+      "hd": 2,
+      "ua": 8,
+      "fa": 10,
+      "ua2": -6,
+      "fa2": 10
+    },
+    "UP_A": {
+      "hip": [
+        -110,
+        -690
+      ],
+      "ankle": [
+        -120,
+        -222
+      ],
+      "ankle2": [
+        -210,
+        -260
+      ],
+      "b": 4,
+      "hd": 2,
+      "ua": 10,
+      "fa": 10,
+      "ua2": -10,
+      "fa2": 10
+    },
+    "TOP": {
+      "hip": [
+        -80,
+        -692
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 8,
+      "fa": 10,
+      "ua2": -6,
+      "fa2": 10
+    },
+    "CROSS": {
+      "hip": [
+        80,
+        -692
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 8,
+      "fa": 10,
+      "ua2": -6,
+      "fa2": 10
+    },
+    "STEP_B": {
+      "hip": [
+        110,
+        -480
+      ],
+      "ankle": [
+        300,
+        0
+      ],
+      "ankle2": [
+        80,
+        -222
+      ],
+      "b": 8,
+      "hd": 4,
+      "ua": 8,
+      "fa": 10,
+      "ua2": -6,
+      "fa2": 10
+    },
+    "DOWN_B": {
+      "hip": [
+        240,
+        -470
+      ],
+      "ankle": [
+        330,
+        0
+      ],
+      "ankle2": [
+        240,
+        0
+      ],
+      "b": 10,
+      "hd": 6,
+      "ua": 8,
+      "fa": 10,
+      "ua2": -6,
+      "fa2": 10
+    },
+    "STAND_B": {
+      "hip": [
+        330,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 8,
+      "fa": 10,
+      "ua2": -6,
+      "fa2": 10
+    },
+    "HEAVY_BAD": {
+      "hip": [
+        240,
+        -450
+      ],
+      "ankle": [
+        330,
+        0
+      ],
+      "ankle2": [
+        240,
+        0
+      ],
+      "b": 34,
+      "hd": 20,
+      "ua": -20,
+      "fa": 20,
+      "ua2": 20,
+      "fa2": 20
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "KB BOX",
+        "STEP-OVER"
+      ],
+      "vo": "Kettlebell Box Step-Over: subí al cajón con la kettlebell y bajá del otro lado.",
+      "moves": [
+        {
+          "cut": "STAND_A",
+          "at": 0
+        },
+        {
+          "to": "STEP_A",
+          "at": 0.4,
+          "dur": 0.5
+        },
+        {
+          "to": "UP_A",
+          "at": 0.9,
+          "dur": 0.45
+        },
+        {
+          "to": "TOP",
+          "at": 1.35,
+          "dur": 0.35
+        },
+        {
+          "to": "CROSS",
+          "at": 1.7,
+          "dur": 0.4
+        },
+        {
+          "to": "STEP_B",
+          "at": 2.1,
+          "dur": 0.45
+        },
+        {
+          "to": "DOWN_B",
+          "at": 2.55,
+          "dur": 0.4
+        },
+        {
+          "to": "STAND_B",
+          "at": 2.95,
+          "dur": 0.4
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "AL LADO",
+        "DEL CAJÓN"
+      ],
+      "sub": "Kettlebell en una mano",
+      "vo": "Parate al lado del cajón, con la kettlebell colgando al costado y los pies al ancho de la cadera.",
+      "moves": [
+        {
+          "cut": "STAND_A",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "PIE",
+        "COMPLETO"
+      ],
+      "sub": "Todo el pie arriba",
+      "vo": "Paso uno. Apoyá un pie completo arriba del cajón. La kettlebell queda pegada al costado.",
+      "moves": [
+        {
+          "to": "STEP_A",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            700,
+            1200
+          ],
+          "text": "PIE COMPLETO",
+          "anchor": "start",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "SUBÍ Y",
+        "PASÁ"
+      ],
+      "sub": "Empujá con el talón",
+      "vo": "Paso dos. Empujá con el talón de arriba y subí hasta quedar parado encima del cajón.",
+      "moves": [
+        {
+          "cut": "STEP_A",
+          "at": 0
+        },
+        {
+          "to": "UP_A",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "TOP",
+          "at": 1.1,
+          "dur": 0.45
+        },
+        {
+          "to": "CROSS",
+          "at": 1.8,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "BAJÁ DEL",
+        "OTRO LADO"
+      ],
+      "sub": "Controlá la bajada",
+      "vo": "Paso tres. Bajá del otro lado, primero la punta y después todo el pie. Controlada.",
+      "moves": [
+        {
+          "cut": "CROSS",
+          "at": 0
+        },
+        {
+          "to": "STEP_B",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "DOWN_B",
+          "at": 1.2,
+          "dur": 0.5
+        },
+        {
+          "to": "STAND_B",
+          "at": 1.9,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "SIN",
+        "GOLPEAR"
+      ],
+      "sub": "Aterrizaje suave",
+      "vo": "Paso cuatro. No dejes caer el peso: aterrizá suave, con rodillas flexionadas y torso erguido.",
+      "moves": [
+        {
+          "cut": "STAND_B",
+          "at": 0
+        },
+        {
+          "to": "HEAVY_BAD",
+          "at": 1.4,
+          "dur": 0.5
+        },
+        {
+          "to": "STAND_B",
+          "at": 2.8,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            180,
+            1180
+          ],
+          "text": "DE GOLPE NO",
+          "anchor": "start",
+          "at": 1.8,
+          "out": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            180,
+            1180
+          ],
+          "text": "SUAVE Y CONTROLADO",
+          "anchor": "start",
+          "at": 3.1
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Pie completo arriba",
+        "Torso erguido",
+        "Kettlebell al costado",
+        "Bajada controlada"
+      ],
+      "vo": "Claves: pie completo arriba, torso erguido, kettlebell al costado y bajada controlada.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "12 REPS"
+      ],
+      "sub": "6 por lado",
+      "vo": "Doce repeticiones, seis por lado. Subí, pasá al otro lado y bajá con control.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PASÁ",
+          "at": 1.4
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 2.2
+        }
+      ],
+      "moves": [
+        {
+          "cut": "STAND_A",
+          "at": 0
+        },
+        {
+          "to": "STEP_A",
+          "at": 0.4,
+          "dur": 0.4
+        },
+        {
+          "to": "UP_A",
+          "at": 0.8,
+          "dur": 0.35
+        },
+        {
+          "to": "TOP",
+          "at": 1.15,
+          "dur": 0.3
+        },
+        {
+          "to": "CROSS",
+          "at": 1.45,
+          "dur": 0.35
+        },
+        {
+          "to": "STEP_B",
+          "at": 1.8,
+          "dur": 0.35
+        },
+        {
+          "to": "DOWN_B",
+          "at": 2.15,
+          "dur": 0.35
+        },
+        {
+          "to": "STAND_B",
+          "at": 2.5,
+          "dur": 0.3
+        },
+        {
+          "cut": "STAND_A",
+          "at": 3.2
+        },
+        {
+          "to": "STEP_A",
+          "at": 3.5,
+          "dur": 0.4
+        },
+        {
+          "to": "UP_A",
+          "at": 3.9,
+          "dur": 0.35
+        },
+        {
+          "to": "TOP",
+          "at": 4.25,
+          "dur": 0.3
+        },
+        {
+          "to": "CROSS",
+          "at": 4.55,
+          "dur": 0.35
+        },
+        {
+          "to": "STEP_B",
+          "at": 4.9,
+          "dur": 0.35
+        },
+        {
+          "to": "DOWN_B",
+          "at": 5.25,
+          "dur": 0.35
+        },
+        {
+          "to": "STAND_B",
+          "at": 5.6,
+          "dur": 0.3
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "TOP",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 140
+  },
+  "youtube": {
+    "titulo": "Kettlebell Box Step-Over 🔥 Subí, pasá y bajá con carga | CrossFit",
+    "tags": [
+      "kettlebell box step over",
+      "box step over",
+      "subida al cajon",
+      "kettlebell",
+      "gluteos",
+      "piernas",
+      "cardio",
+      "crossfit",
+      "wod",
+      "cajon"
+    ],
+    "descripcion": "🔥 KETTLEBELL BOX STEP-OVER — piernas, glúteos y cardio con control\n\n¿Querés sumar carga sin golpear las rodillas? La kettlebell en el step-over te da fuerza y pulso sin impacto. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate al lado del cajón con la kettlebell colgando al costado del cuerpo.\n2️⃣ Apoyá un pie completo arriba del cajón.\n3️⃣ Empujá con el talón y subí, pasando el peso al otro pie.\n4️⃣ Quedate parado encima y bajá del lado opuesto, controlando.\n5️⃣ Repetí alternando el lado de inicio.\n\n✅ CLAVES DE TÉCNICA\n• Pie completo arriba, no solo la punta\n• Torso erguido, mirada al frente\n• Kettlebell pegada al costado del cuerpo\n• La bajada también es controlada\n• Rodillas alineadas con la punta de los pies\n\n🎯 QUÉ TRABAJA\nRecto femoral · Bíceps femoral · Glúteo mayor · Recto abdominal\n\n⏱️ CUÁNTO\n12 repeticiones (6 por lado) con 15 kg. Va en WODs de piernas o como trabajo de cardio con carga.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ Si recién arrancás con el cajón, empezá con uno bajo y sin kettlebell, y sumá carga cuando domines la bajada.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #KettlebellBoxStepOver #Gluteos #Piernas"
+  }
+}

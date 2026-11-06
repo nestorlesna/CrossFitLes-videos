@@ -1,0 +1,333 @@
+{
+  "slug": "l-sit-hold",
+  "name": "L-Sit Hold",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Core",
+    "Tríceps",
+    "Hombros"
+  ],
+  "descripcion": "En apoyo sobre paralelas (o en el piso), sostener el cuerpo con los brazos extendidos y las piernas rectas al frente formando una \"L\" con el torso. Mantener la posición isométrica el tiempo indicado.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 460,
+    "y": 1500,
+    "scale": 0.8
+  },
+  "pronuncia": {
+    "L-Sit Hold": "El sit jold"
+  },
+  "initialPose": "SUPPORT",
+  "props": [
+    {
+      "type": "parallettes",
+      "x": 10,
+      "y": -260
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "SUPPORT": {
+      "hip": [
+        10,
+        -170
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": 10,
+      "hy": -260,
+      "ed": 1,
+      "ft": 0
+    },
+    "TUCK": {
+      "hip": [
+        10,
+        -170
+      ],
+      "s": -20,
+      "t": -90,
+      "ft": -20,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": 10,
+      "hy": -260,
+      "ed": 1
+    },
+    "LSIT": {
+      "hip": [
+        10,
+        -170
+      ],
+      "s": -90,
+      "t": -90,
+      "ft": -90,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": 10,
+      "hy": -260,
+      "ed": 1
+    },
+    "SAG_BAD": {
+      "hip": [
+        10,
+        -150
+      ],
+      "s": -62,
+      "t": -62,
+      "ft": -62,
+      "b": -8,
+      "hd": -4,
+      "g": 1,
+      "hx": 10,
+      "hy": -260,
+      "ed": 1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "L-SIT",
+        "HOLD"
+      ],
+      "vo": "L-Sit Hold: sostener el cuerpo en L sobre las paralelas. Core de acero.",
+      "moves": [
+        {
+          "cut": "TUCK",
+          "at": 0.1
+        },
+        {
+          "to": "LSIT",
+          "at": 0.9,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "APOYO SOBRE",
+        "PARALELAS"
+      ],
+      "sub": "Brazos bloqueados",
+      "vo": "Apoyate sobre las paralelas con los brazos extendidos y bloqueados. El cuerpo, firme y suspendido.",
+      "moves": [
+        {
+          "cut": "TUCK",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "HOMBROS",
+        "ABAJO"
+      ],
+      "sub": "Lejos de las orejas",
+      "vo": "Paso uno. Deprimí los hombros, alejándolos de las orejas, y empujá fuerte las paralelas hacia el piso.",
+      "moves": [
+        {
+          "cut": "TUCK",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            800,
+            800
+          ],
+          "text": "HOMBROS ABAJO",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "LEVANTÁ",
+        "LAS PIERNAS"
+      ],
+      "sub": "Al frente, rectas",
+      "vo": "Paso dos. Levantá las piernas al frente, juntas y con las rodillas estiradas, hasta formar una L con el torso.",
+      "moves": [
+        {
+          "cut": "TUCK",
+          "at": 0
+        },
+        {
+          "to": "LSIT",
+          "at": 0.6,
+          "dur": 1
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "ABDOMEN",
+        "ACTIVO"
+      ],
+      "sub": "Lumbar apenas redondeada",
+      "vo": "Paso tres. Redondeá apenas la lumbar y activá el abdomen. Si no llegás, empezá con las rodillas dobladas.",
+      "moves": [
+        {
+          "cut": "LSIT",
+          "at": 0
+        },
+        {
+          "to": "TUCK",
+          "at": 0.7,
+          "dur": 0.6
+        },
+        {
+          "to": "LSIT",
+          "at": 2,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            800,
+            800
+          ],
+          "text": "ESCALÁ: TUCK",
+          "anchor": "middle",
+          "at": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "SOSTENÉ",
+        "RESPIRANDO"
+      ],
+      "sub": "Isométrico",
+      "vo": "Paso cuatro. Sostené la posición el tiempo indicado, respirando sin soltar la tensión.",
+      "moves": [
+        {
+          "cut": "LSIT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            800,
+            800
+          ],
+          "text": "SOSTENÉ",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Hombros lejos de las orejas",
+        "Piernas juntas y rectas",
+        "Abdomen activo",
+        "Escalar con rodillas dobladas"
+      ],
+      "vo": "Claves: hombros lejos de las orejas, piernas juntas y rectas, abdomen activo, y si no llegás, empezá con las rodillas dobladas.",
+      "moves": [
+        {
+          "cut": "LSIT",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEG"
+      ],
+      "sub": "Isométrico",
+      "vo": "Treinta segundos sosteniendo la L. Hombros abajo, piernas rectas y respirando.",
+      "chips": [
+        {
+          "label": "1 · EMPUJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PIERNAS",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SOSTENÉ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "LSIT",
+          "at": 0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "LSIT",
+    "grip": 1,
+    "zoom": 1,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "L-Sit Hold 🔥 core de acero paso a paso | CrossFit",
+    "descripcion": "🔥 L-SIT HOLD — abdomen, hombros y tríceps en un solo isométrico.\n\nSi querés un core de acero y fuerza de empuje, este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Apoyate sobre las paralelas con los brazos extendidos y bloqueados, con el cuerpo firme y suspendido.\n2️⃣ Deprimí los hombros, alejándolos de las orejas, y empujá fuerte las paralelas hacia el piso.\n3️⃣ Levantá las piernas al frente, juntas y con las rodillas estiradas, hasta formar una L con el torso.\n4️⃣ Redondeá apenas la lumbar y activá el abdomen. Si no llegás, empezá con las rodillas dobladas.\n5️⃣ Sostené la posición el tiempo indicado, respirando sin soltar la tensión.\n\n✅ CLAVES DE TÉCNICA\n• Deprimir los hombros (alejarlos de las orejas)\n• Redondear ligeramente la lumbar y activar el abdomen\n• Piernas juntas y rodillas extendidas\n• Si no se llega, empezar con las rodillas dobladas (tuck)\n\n🎯 QUÉ TRABAJA\nRecto abdominal · Deltoides anterior · Flexores del antebrazo · Recto femoral · Tríceps braquial\n\n⏱️ CUÁNTO\n30 segundos de isométrico, como trabajo de core o gimnasia.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\r\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Fuerza #LSitHold #Core #Entrenamiento",
+    "tags": [
+      "l-sit hold",
+      "l sit",
+      "l-sit en paralelas",
+      "core",
+      "isométrico",
+      "gimnasia",
+      "crossfit",
+      "calistenia",
+      "abdomen",
+      "paralelas"
+    ]
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "slug": "kettlebell-deadlift",
+  "name": "Kettlebell Deadlift",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Cadena posterior",
+    "Glúteos",
+    "Espalda"
+  ],
+  "descripcion": "Peso muerto con una kettlebell entre los pies: bisagra de cadera para bajar y extensión completa para subir.",
+  "revisado": false,
+  "notas": "Bisagra con una sola kettlebell tomada a dos manos; poses adaptadas de dumbbell-deadlift y kettlebell-swing.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1502,
+    "scale": 0.9
+  },
+  "initialPose": "SETUP",
+  "props": [
+    {
+      "type": "kettlebell",
+      "off": [
+        0,
+        0
+      ]
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 2,
+      "ua2": 4,
+      "fa2": 2
+    },
+    "SETUP": {
+      "hip": [
+        -240,
+        -220
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 82,
+      "hd": 62,
+      "g": 1,
+      "g2": 1,
+      "ed": 1,
+      "hx": 30,
+      "hy": -4,
+      "hx2": 30,
+      "hy2": -4
+    },
+    "KNEE": {
+      "hip": [
+        -180,
+        -300
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 60,
+      "hd": 42,
+      "g": 1,
+      "g2": 1,
+      "ed": 1,
+      "hx": 30,
+      "hy": -140,
+      "hx2": 30,
+      "hy2": -140
+    },
+    "THIGH": {
+      "hip": [
+        -60,
+        -440
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 25,
+      "hd": 15,
+      "g": 1,
+      "g2": 1,
+      "ed": 1,
+      "hx": 30,
+      "hy": -360,
+      "hx2": 30,
+      "hy2": -360
+    },
+    "LOCK": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": -2,
+      "t": 2,
+      "b": -4,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 0,
+      "ua2": 4,
+      "fa2": 0
+    }
+  },
+  "miniatura": {
+    "pose": "SETUP",
+    "grip": 1,
+    "zoom": 1.12,
+    "dy": 180
+  },
+  "youtube": {
+    "titulo": "Kettlebell Deadlift 🔥 Peso muerto con kettlebell paso a paso | CrossFit",
+    "tags": [
+      "kettlebell deadlift",
+      "peso muerto con kettlebell",
+      "peso muerto",
+      "bisagra de cadera",
+      "cadena posterior",
+      "glúteos",
+      "espalda",
+      "crossfit",
+      "activación",
+      "kettlebell"
+    ],
+    "descripcion": "🔥 KETTLEBELL DEADLIFT — peso muerto con kettlebell paso a paso\n\n¿Querés aprender a levantar del piso sin castigar la espalda? El peso muerto con kettlebell te enseña la bisagra de cadera con una carga manejable. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate con los pies al ancho de las caderas y la kettlebell en el piso, entre los pies.\n2️⃣ Hacé bisagra, llevá la cola atrás y agarrá el asa con las dos manos.\n3️⃣ Empujá el piso y subí extendiendo rodillas y cadera, con la campana pegada al cuerpo.\n4️⃣ Bloqueá arriba apretando el glúteo, sin arquear la lumbar.\n5️⃣ Bajá con control por el mismo camino y repetí.\n\n✅ CLAVES DE TÉCNICA\n• Espalda neutra y pecho arriba\n• El movimiento nace de la cadera, no de la espalda baja\n• Empujá el piso con los pies\n• La campana viaja pegada a las piernas\n• Bloqueá el glúteo arriba, sin hiperextender\n\n🎯 QUÉ TRABAJA\nGlúteo mayor · Isquiotibiales · Erector espinal · Trapecio · Core\n\n⏱️ CUÁNTO\n30 segundos con 12,5 kg. Ideal como activación o para aprender el patrón de bisagra.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste peso muerto, arrancá con una kettlebell liviana y un coach mirando la espalda.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #KettlebellDeadlift #PesoMuerto #Bisagra #Fuerza"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "KB",
+        "DEADLIFT"
+      ],
+      "vo": "Kettlebell Deadlift: peso muerto con kettlebell entre los pies. Bisagra de cadera y espalda neutra.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "SETUP",
+              0.6
+            ],
+            [
+              "KNEE",
+              0.4
+            ],
+            [
+              "THIGH",
+              0.4
+            ],
+            [
+              "LOCK",
+              0.5
+            ],
+            [
+              "THIGH",
+              0.4
+            ],
+            [
+              "KNEE",
+              0.4
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PIES AL",
+        "ANCHO"
+      ],
+      "sub": "KB entre los pies",
+      "vo": "Parate con los pies al ancho de las caderas y la kettlebell en el piso, entre los pies.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BISAGRA",
+        "Y AGARRÁ"
+      ],
+      "sub": "Espalda neutra",
+      "vo": "Paso uno. Hacé bisagra, llevá la cola atrás y agarrá el asa con las dos manos.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            860
+          ],
+          "text": "ESPALDA NEUTRA",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "EMPUJÁ",
+        "EL PISO"
+      ],
+      "sub": "KB pegada al cuerpo",
+      "vo": "Paso dos. Empujá el piso y subí extendiendo rodillas y cadera, con la campana pegada al cuerpo.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "KNEE",
+          "at": 0.8,
+          "dur": 0.5
+        },
+        {
+          "to": "THIGH",
+          "at": 1.4,
+          "dur": 0.5
+        },
+        {
+          "to": "LOCK",
+          "at": 2.0,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            800
+          ],
+          "text": "CAMPANA PEGADA",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BLOQUEÁ",
+        "ARRIBA"
+      ],
+      "sub": "Glúteo apretado",
+      "vo": "Paso tres. Bloqueá arriba apretando el glúteo, sin arquear la lumbar.",
+      "moves": [
+        {
+          "cut": "LOCK",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            800
+          ],
+          "text": "GLÚTEO ARRIBA",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Espalda neutra, pecho arriba",
+        "La cadera manda, no la lumbar",
+        "Empujá el piso con los pies",
+        "La campana viaja pegada a las piernas"
+      ],
+      "vo": "Claves: espalda neutra, pecho arriba, empujá el piso y la campana viaja pegada a las piernas.",
+      "moves": [
+        {
+          "cut": "THIGH",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEG"
+      ],
+      "sub": "12,5 kg",
+      "vo": "Treinta segundos con doce kilos y medio. Subí y bajá con control, sin perder la espalda.",
+      "chips": [
+        {
+          "label": "1 · BISAGRA",
+          "at": 0.6
+        },
+        {
+          "label": "2 · SUBÍ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BLOQUEÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "SETUP",
+              0.5
+            ],
+            [
+              "LOCK",
+              0.5
+            ],
+            [
+              "SETUP",
+              0.6
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

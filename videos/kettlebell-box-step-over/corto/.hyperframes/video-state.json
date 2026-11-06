@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "fe155ade-c2ab-48e2-9ed0-c394a291107b",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "e151c3fc54e8e87c8ef86cec371cf417ab6361e9f7467b4de8167012bd5581f2",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\fe155ade-c2ab-48e2-9ed0-c394a291107b\\blobs\\e1\\e151c3fc54e8e87c8ef86cec371cf417ab6361e9f7467b4de8167012bd5581f2"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\fe155ade-c2ab-48e2-9ed0-c394a291107b\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "50cbf692b272d1aa9d7570c1a15f19ccdc1fad31d8f99af455d53acc1b8f82d6",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\fe155ade-c2ab-48e2-9ed0-c394a291107b\\blobs\\50\\50cbf692b272d1aa9d7570c1a15f19ccdc1fad31d8f99af455d53acc1b8f82d6"
+    },
+    "meta.json": {
+      "hash": "bc9340e28305ccb42991649e7c568266d96e0ba0a6af10807ab245cbae823fe6",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\fe155ade-c2ab-48e2-9ed0-c394a291107b\\blobs\\bc\\bc9340e28305ccb42991649e7c568266d96e0ba0a6af10807ab245cbae823fe6"
+    },
+    "package.json": {
+      "hash": "a5165efc91c4720056b67e93b97764ca014a5e01a5b0eaf2f264214440b83c49",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\fe155ade-c2ab-48e2-9ed0-c394a291107b\\blobs\\a5\\a5165efc91c4720056b67e93b97764ca014a5e01a5b0eaf2f264214440b83c49"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "72785164-77fb-4b15-8ecb-02d467edf6e4",
+      "completedAt": 1793876614673,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\kettlebell-box-step-over\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

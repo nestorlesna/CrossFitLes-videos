@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Plate jump over and squat",
+      "text": "Plate Jump and Squat: saltá el disco con los dos pies y encadená una sentadilla completa."
+    },
+    {
+      "id": "02",
+      "text": "Parate de frente al disco, con los pies al ancho de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Flexioná rodillas y cadera y llevá los brazos atrás para cargar el salto."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Saltá con los dos pies juntos por encima del disco, con los brazos arriba."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Aterrizá suave, con rodillas y cadera flexionadas y alineadas con los pies."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Encadená una sentadilla completa y volvé de pie antes del próximo salto."
+    },
+    {
+      "id": "07",
+      "text": "Claves: dos pies juntos, aterrizaje suave, rodillas alineadas y sentadilla completa."
+    },
+    {
+      "id": "08",
+      "text": "Doce repeticiones encadenando salto y sentadilla. Si te cansás, bajá el ritmo antes que la técnica."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

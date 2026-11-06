@@ -1,0 +1,443 @@
+{
+  "slug": "barbell-bench-press",
+  "name": "Barbell Bench Press",
+  "category": "CROSSFIT — FUERZA",
+  "tags": [
+    "Pecho",
+    "Tríceps",
+    "Barra"
+  ],
+  "descripcion": "Acostado en el banco con la barra en agarre algo más ancho que los hombros, bajar la barra controlada hasta tocar el pecho y empujarla hasta extender los brazos.",
+  "revisado": false,
+  "notas": "Copia de dumbbell-bench-press cambiando las dos mancuernas por una barra (plate r 60). Mismas poses acostadas y mismo bench.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "pronuncia": {
+    "Barbell Bench Press": "bárbel bench pres",
+    "Bench Press": "bench pres"
+  },
+  "initialPose": "DOWN",
+  "props": [
+    {
+      "type": "bench",
+      "x0": -330,
+      "x1": 60,
+      "h": 200
+    },
+    {
+      "type": "barbell",
+      "off": [
+        0,
+        -8
+      ],
+      "r": 60
+    }
+  ],
+  "poses": {
+    "DOWN": {
+      "rx": 270,
+      "ry": -10,
+      "s": -8.68,
+      "t": -101.38,
+      "ft": 0,
+      "s2": -11.13,
+      "t2": -99,
+      "ft2": 0,
+      "b": -90,
+      "hd": -92,
+      "g": 0,
+      "ua": 25,
+      "fa": 155,
+      "ua2": 30,
+      "fa2": 150
+    },
+    "PRESS": {
+      "rx": 270,
+      "ry": -10,
+      "s": -8.68,
+      "t": -101.38,
+      "ft": 0,
+      "s2": -11.13,
+      "t2": -99,
+      "ft2": 0,
+      "b": -90,
+      "hd": -92,
+      "g": 0,
+      "ua": 62,
+      "fa": 112,
+      "ua2": 66,
+      "fa2": 108
+    },
+    "UP": {
+      "rx": 270,
+      "ry": -10,
+      "s": -8.68,
+      "t": -101.38,
+      "ft": 0,
+      "s2": -11.13,
+      "t2": -99,
+      "ft2": 0,
+      "b": -90,
+      "hd": -92,
+      "g": 0,
+      "ua": 178,
+      "fa": 2,
+      "ua2": 178,
+      "fa2": 2
+    },
+    "ARCH_BAD": {
+      "rx": 270,
+      "ry": -10,
+      "s": -8.68,
+      "t": -101.38,
+      "ft": 0,
+      "s2": -11.13,
+      "t2": -99,
+      "ft2": 0,
+      "b": -74,
+      "hd": -104,
+      "g": 0,
+      "cv": -34,
+      "ua": 168,
+      "fa": 12,
+      "ua2": 170,
+      "fa2": 10
+    },
+    "FLARE_BAD": {
+      "rx": 270,
+      "ry": -10,
+      "s": -8.68,
+      "t": -101.38,
+      "ft": 0,
+      "s2": -11.13,
+      "t2": -99,
+      "ft2": 0,
+      "b": -90,
+      "hd": -92,
+      "g": 0,
+      "ua": 110,
+      "fa": 40,
+      "ua2": 114,
+      "fa2": 36
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "badge": "CROSSFIT — FUERZA",
+      "head": [
+        "BARBELL",
+        "BENCH",
+        "PRESS"
+      ],
+      "vo": "Barbell Bench Press: la barra baja al esternón con los codos a cuarenta y cinco grados y sube hasta bloquear. Pecho y tríceps.",
+      "min": 4.8,
+      "moves": [
+        {
+          "seq": [
+            [
+              "DOWN",
+              0.8
+            ],
+            [
+              "PRESS",
+              0.7
+            ],
+            [
+              "UP",
+              0.9
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ACOSTADO",
+        "EN EL BANCO"
+      ],
+      "sub": "Pies firmes en el piso",
+      "vo": "Acostate en el banco con los pies firmes, las escápulas juntas y abajo, y la barra en agarre algo más ancho que los hombros.",
+      "min": 5.6,
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            110,
+            780
+          ],
+          "text": "ESCÁPULAS JUNTAS",
+          "anchor": "start",
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            110,
+            700
+          ],
+          "text": "PIES FIRMES",
+          "anchor": "start",
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "badge": "PASO 1 / 2",
+      "head": [
+        "BAJÁ AL",
+        "ESTERNÓN"
+      ],
+      "sub": "Codos a 45 grados",
+      "numeral": "1",
+      "vo": "Paso uno. Bajá la barra controlada hasta tocar el esternón, con los codos a unos cuarenta y cinco grados.",
+      "min": 5.4,
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.8,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "DOWN.W",
+            "dx": -60,
+            "dy": -120
+          },
+          "text": "AL ESTERNÓN",
+          "anchor": "end",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "badge": "PASO 2 / 2",
+      "head": [
+        "EMPUJÁ",
+        "Y BLOQUEÁ"
+      ],
+      "sub": "Sin rebotar",
+      "numeral": "2",
+      "vo": "Paso dos. Empujá la barra en línea hasta estirar los brazos, sin rebotar en el pecho.",
+      "min": 5.4,
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "PRESS",
+          "at": 0.7,
+          "dur": 0.45
+        },
+        {
+          "to": "UP",
+          "at": 1.7,
+          "dur": 0.45
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            110,
+            800
+          ],
+          "text": "ARRIBA, SIN REBOTAR",
+          "anchor": "start",
+          "at": 1.7
+        }
+      ]
+    },
+    {
+      "badge": "ERROR TÍPICO",
+      "head": [
+        "ASÍ NO:",
+        "CODOS ABIERTOS"
+      ],
+      "sub": "Codos a 90 grados",
+      "bad": true,
+      "vo": "Así no. Con los codos abiertos a noventa grados el hombro sufre y la barra se te va para el cuello.",
+      "min": 5.4,
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.6,
+          "dur": 0.5
+        },
+        {
+          "to": "FLARE_BAD",
+          "at": 1.8,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "FLARE_BAD.W",
+            "dx": 60,
+            "dy": -70
+          },
+          "text": "ASÍ NO: CODO ABIERTO",
+          "anchor": "start",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "badge": "ERROR TÍPICO",
+      "head": [
+        "ASÍ NO:",
+        "LUMBAR ARQUEADA"
+      ],
+      "sub": "Espalda despegada",
+      "bad": true,
+      "vo": "Así no. Si arqueás la lumbar y despegás la espalda del banco, perdés fuerza y te exponés a una lesión.",
+      "min": 5.6,
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.5,
+          "dur": 0.45
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 1.6,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "vo": "Claves: escápulas juntas y apoyadas, pies firmes, codos a cuarenta y cinco grados, bajada controlada al esternón y bloqueo sin rebotar.",
+      "min": 8.0,
+      "moves": [
+        {
+          "seq": [
+            [
+              "DOWN",
+              0.8
+            ],
+            [
+              "PRESS",
+              0.6
+            ],
+            [
+              "UP",
+              0.7
+            ],
+            [
+              "DOWN",
+              0.8
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ],
+      "keys": [
+        "Escápulas juntas y abajo",
+        "Pies firmes en el piso",
+        "Codos a 45 grados",
+        "Barra al esternón",
+        "Siempre con spotter"
+      ]
+    },
+    {
+      "kind": "reps",
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Tres series",
+      "vo": "Diez repeticiones por serie. Siempre con un compañero de seguridad: si la barra se traba, él la saca.",
+      "min": 6.4,
+      "moves": [
+        {
+          "seq": [
+            [
+              "DOWN",
+              0.8
+            ],
+            [
+              "PRESS",
+              0.5
+            ],
+            [
+              "UP",
+              0.6
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ],
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.4
+        },
+        {
+          "label": "2 · EMPUJÁ",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "grip": 0,
+    "zoom": 1.04,
+    "dy": 130
+  },
+  "youtube": {
+    "titulo": "Barbell Bench Press 🔥 press de banca con barra paso a paso | CrossFit",
+    "descripcion": "🔥 BARBELL BENCH PRESS — press de banca con barra paso a paso\n\nEl press de banca es el rey del empuje: pecho, hombros y tríceps en un solo movimiento. La clave está en las escápulas y en la trayectoria de la barra. 💪\n\n📋 PASO A PASO\n1️⃣ Acostate en el banco con los pies firmes y las escápulas juntas y abajo.\n2️⃣ Agarrá la barra algo más ancho que los hombros.\n3️⃣ Bajá controlada hasta tocar el esternón, con los codos a 45 grados.\n4️⃣ Empujá en línea hasta estirar los brazos.\n5️⃣ Bloqueá arriba sin rebotar en el pecho.\n\n✅ CLAVES DE TÉCNICA\n• Escápulas juntas y apoyadas en el banco\n• Pies firmes, glúteo apoyado\n• Codos a 45 grados, no abiertos a 90\n• Barra a la altura del esternón, no del cuello\n• Bajada de 2 segundos y empuje firme\n• Siempre con un compañero de seguridad\n\n🎯 QUÉ TRABAJA\nDeltoides anterior · Pectoral mayor · Tríceps braquial · Deltoides lateral · Pectoral menor\n\n⏱️ CUÁNTO\n10 repeticiones por serie, 3 series. Si es tu primera vez con barra, empezá con la barra sola.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Fuerza #BenchPress #PressDeBanca #Pecho",
+    "tags": [
+      "barbell bench press",
+      "press de banca",
+      "bench press",
+      "press de banca con barra",
+      "tecnica de press de banca",
+      "pecho y triceps",
+      "codos a 45 grados",
+      "crossfit",
+      "fuerza",
+      "empuje"
+    ]
+  }
+}

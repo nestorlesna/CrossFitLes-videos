@@ -1,0 +1,49 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Dumbbell Devil's Press",
+      "text": "Burpee con dos mancuernas y snatch doble arriba. Intensidad total."
+    },
+    {
+      "id": "02",
+      "text": "De pie, con una mancuerna en cada mano a los costados y los pies al ancho de los hombros."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Hacé bisagra, apoyá las mancuernas en el piso y saltá los pies atrás a la plancha."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Empujá del piso y volvé con los pies para agarrar las dos mancuernas."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Extendé la cadera con fuerza y dejá que las mancuernas suban pegadas al cuerpo."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Seguí el envión y llevá las dos mancuernas arriba de la cabeza, brazos bloqueados."
+    },
+    {
+      "id": "07",
+      "text": "Así no. Si redondeás la espalda al levantar del piso, la carga se te va a la lumbar."
+    },
+    {
+      "id": "08",
+      "text": "Claves: pecho al piso, espalda neutra, la cadera empuja el movimiento y brazos bloqueados arriba."
+    },
+    {
+      "id": "09",
+      "text": "Siete repeticiones con un peso que te deje mantener la técnica. Si se desarma, bajá el peso."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

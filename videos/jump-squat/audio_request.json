@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Jump Squat",
+      "text": "Sentadilla explosiva con salto. Potencia de piernas y aterrizaje suave."
+    },
+    {
+      "id": "02",
+      "text": "Parate con los pies al ancho de los hombros y las puntas apenas hacia afuera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá a paralelo con el pecho arriba y los talones apoyados."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Extendé caderas y rodillas con fuerza y despegá del suelo."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Aterrizá con la punta y después el talón, y volvé directo a la sentadilla."
+    },
+    {
+      "id": "06",
+      "text": "Claves: rodillas alineadas, pecho arriba, aterrizá suave y encadená sin perder profundidad."
+    },
+    {
+      "id": "07",
+      "text": "Veinte segundos de saltos continuos. Aterrizá suave y mantené el pecho arriba."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

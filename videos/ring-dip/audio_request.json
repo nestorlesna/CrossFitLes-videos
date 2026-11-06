@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Ring Dip",
+      "text": "El fondo en anillas. Pecho, tríceps y hombros con mucha estabilidad."
+    },
+    {
+      "id": "02",
+      "text": "Arrancá en apoyo sobre las anillas, con los brazos bloqueados y las anillas pegadas al cuerpo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá flexionando los codos hacia atrás, con las anillas pegadas al cuerpo y sin abrirlas."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Seguí hasta que el hombro quede por debajo del codo. Ese es el rango completo."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Empujá las anillas hacia abajo hasta bloquear los brazos arriba, con el pecho alto."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Si todavía no te sale, escalá con una banda o con fondos con los pies en un cajón."
+    },
+    {
+      "id": "07",
+      "text": "Claves: arrancá con los brazos bloqueados, anillas pegadas al cuerpo, hombro por debajo del codo y bloqueo completo arriba."
+    },
+    {
+      "id": "08",
+      "text": "Cinco repeticiones. Bajá con control, mantené las anillas pegadas y bloqueá arriba."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "3d880dd9-ba3f-4d78-bb17-a987f54ebf14",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "218b41207956a6f1b72108f2de3b46bba0dabd8d5a90cdfc808f4e1b98d0a3b8",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\3d880dd9-ba3f-4d78-bb17-a987f54ebf14\\blobs\\21\\218b41207956a6f1b72108f2de3b46bba0dabd8d5a90cdfc808f4e1b98d0a3b8"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\3d880dd9-ba3f-4d78-bb17-a987f54ebf14\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "c2e0a4687b3c1a5e6542bc6483fe31f1319c88d14b4c0ea36e63b1a1f6467ced",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\3d880dd9-ba3f-4d78-bb17-a987f54ebf14\\blobs\\c2\\c2e0a4687b3c1a5e6542bc6483fe31f1319c88d14b4c0ea36e63b1a1f6467ced"
+    },
+    "meta.json": {
+      "hash": "c6af9f62271951f7ae28d757c7da6ce96092248d64972f35376d20e5a1bde3c2",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\3d880dd9-ba3f-4d78-bb17-a987f54ebf14\\blobs\\c6\\c6af9f62271951f7ae28d757c7da6ce96092248d64972f35376d20e5a1bde3c2"
+    },
+    "package.json": {
+      "hash": "180acb00d2cf9ffde7e1d353f309d568f46327db232c1307b8f95a09773df0f8",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\3d880dd9-ba3f-4d78-bb17-a987f54ebf14\\blobs\\18\\180acb00d2cf9ffde7e1d353f309d568f46327db232c1307b8f95a09773df0f8"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "29f4f115-afa1-4816-a1f4-b055091e7427",
+      "completedAt": 1793876788127,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\kettlebell-upright-row\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

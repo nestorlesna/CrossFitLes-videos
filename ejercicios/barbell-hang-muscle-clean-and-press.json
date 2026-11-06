@@ -1,0 +1,461 @@
+{
+  "slug": "barbell-hang-muscle-clean-and-press",
+  "name": "Barbell Hang Muscle Clean and Press",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Hombro",
+    "Trapecio",
+    "Tríceps"
+  ],
+  "descripcion": "Muscle clean desde el hang: la barra sube a los hombros sin volver a flexionar las rodillas, y desde el rack se hace un press estricto overhead. Técnica de tirón y hombro.",
+  "revisado": false,
+  "notas": "Variante sin re-flexión de rodillas: el catch es PULL_C con piernas extendidas y RACK (s/t en 0), nunca RACK_Q. El press es RACK → OH_ST sin impulso. Base: barbell-hang-clean.",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Barbell Hang Muscle Clean and Press 🏋️ muscle clean y press estricto | CrossFit",
+    "tags": [
+      "barbell hang muscle clean and press",
+      "muscle clean",
+      "hang muscle clean",
+      "press estricto",
+      "strict press",
+      "cargada sin flexionar rodillas",
+      "levantamiento olimpico",
+      "halterofilia",
+      "crossfit",
+      "hombro"
+    ],
+    "descripcion": "🎬 BARBELL HANG MUSCLE CLEAN AND PRESS - La cargada sin volver a flexionar las rodillas\n\nDesde el hang, la barra sube a los hombros con la pura extensión y el tirón de brazos: no hay rebote de rodillas. De ahí sale un press estricto, sin impulso de piernas. Un ejercicio de tirón y hombro muy honesto. 💪\n\n📝 PASO A PASO\n1️⃣ Parate con la barra colgada a media rótula, hombros por delante y espalda firme.\n2️⃣ Extendé cadera y rodillas de golpe y llevá la barra pegada al cuerpo.\n3️⃣ Girá los codos y recibí la barra en los hombros SIN volver a flexionar las rodillas.\n4️⃣ Press estricto: costillas abajo, glúteos firmes y la barra arriba de la cabeza sin impulso.\n\n✅ CLAVES DE TÉCNICA\n✔️ Sin re-flexión de rodillas en el catch\n✔️ Barra pegada al cuerpo en todo el tirón\n✔️ Codos rápidos al rack\n✔️ Press sin impulso, core firme\n\n💪 QUÉ TRABAJA\nDeltoides anterior · Trapecio superior · Tríceps · Pectoral · Core\n\n⏱️ CUÁNTO\n6 repeticiones. Va en bloques de fuerza y en WODs.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi el press se te va atrás, bajá el peso: acá la técnica manda más que los kilos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Halterofilia #MuscleClean #Press #Hombro"
+  },
+  "miniatura": {
+    "pose": "OH_ST",
+    "grip": 0,
+    "zoom": 1.2,
+    "dy": 160
+  },
+  "initialPose": "HANG",
+  "rig": {
+    "x": 450,
+    "y": 1509,
+    "scale": 0.66
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "torso": [
+        64,
+        36
+      ],
+      "r": 74,
+      "blend": true
+    }
+  ],
+  "pronuncia": {
+    "Muscle Clean and Press": "Masel clin and pres",
+    "Barbell Hang Muscle Clean and Press": "Bárbel jang masel clin and pres",
+    "Clean": "Clin",
+    "press": "pres",
+    "hang": "jang",
+    "muscle": "masel"
+  },
+  "poses": {
+    "STAND_BAR": {
+      "g": 1,
+      "ed": 1,
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "hx": 30,
+      "hy": -424
+    },
+    "HANG": {
+      "g": 1,
+      "ed": 1,
+      "s": 8,
+      "t": -30,
+      "b": 55,
+      "hd": 40,
+      "hx": 45,
+      "hy": -290
+    },
+    "HIP": {
+      "s": 18,
+      "t": -38,
+      "b": 18,
+      "hd": 10,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": 2,
+      "fa2": 0
+    },
+    "EXT": {
+      "s": -4,
+      "t": 4,
+      "b": -8,
+      "hd": -6,
+      "ft": -22,
+      "ft2": -22,
+      "g": 0,
+      "ua": 6,
+      "fa": 0,
+      "ua2": 6,
+      "fa2": 0
+    },
+    "PULL_C": {
+      "s": -2,
+      "t": 2,
+      "b": -4,
+      "hd": -4,
+      "ft": -16,
+      "ft2": -16,
+      "g": 0,
+      "ua": 70,
+      "fa": -110,
+      "ua2": 70,
+      "fa2": -110
+    },
+    "RACK": {
+      "s": 0,
+      "t": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 176,
+      "ua2": 94,
+      "fa2": 172,
+      "bf": 1,
+      "b": 0
+    },
+    "OH_ST": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 6,
+      "g": 0,
+      "ua": 182,
+      "fa": 0,
+      "ua2": 182,
+      "fa2": 0,
+      "bf": 0
+    },
+    "KNEES_BAD": {
+      "hip": [
+        -95,
+        -372
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "hd": 8,
+      "g": 0,
+      "ua": 74,
+      "fa": 176,
+      "ua2": 78,
+      "fa2": 172,
+      "bf": 1,
+      "b": 16
+    },
+    "PRESS_MID": {
+      "g": 0,
+      "ua": 150,
+      "fa": 55,
+      "ua2": 152,
+      "fa2": 50,
+      "bf": 0,
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 4
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "MUSCLE CLEAN",
+        "AND PRESS"
+      ],
+      "vo": "Barbell Hang Muscle Clean and Press: la barra a los hombros sin rebotar las rodillas, y press estricto.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "HIP",
+          "at": 0.5,
+          "dur": 0.35
+        },
+        {
+          "to": "EXT",
+          "at": 0.85,
+          "dur": 0.2,
+          "ease": "power2.out"
+        },
+        {
+          "to": "PULL_C",
+          "at": 1.05,
+          "dur": 0.18
+        },
+        {
+          "to": "RACK",
+          "at": 1.5,
+          "dur": 0.45,
+          "ease": "power2.out"
+        },
+        {
+          "to": "OH_ST",
+          "at": 2.6,
+          "dur": 0.9
+        },
+        {
+          "to": "RACK",
+          "at": 3.9,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BARRA",
+        "COLGADA"
+      ],
+      "sub": "A media rótula",
+      "vo": "Parate con la barra colgada a media rótula, hombros por delante y espalda firme.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "EXTENDÉ",
+        "Y TIRÁ"
+      ],
+      "sub": "Cadera y rodillas",
+      "vo": "Paso uno. Extendé cadera y rodillas de golpe y mantené la barra pegada al cuerpo.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "HIP",
+          "at": 0.6,
+          "dur": 0.35
+        },
+        {
+          "to": "EXT",
+          "at": 1,
+          "dur": 0.25,
+          "ease": "power2.out"
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "A LOS",
+        "HOMBROS"
+      ],
+      "sub": "Sin flexionar rodillas",
+      "vo": "Paso dos. Girá los codos y llevá la barra a los hombros sin volver a flexionar las rodillas.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "PULL_C",
+          "at": 0.4,
+          "dur": 0.25
+        },
+        {
+          "to": "RACK",
+          "at": 0.9,
+          "dur": 0.5,
+          "ease": "power2.out"
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "PRESS",
+        "ESTRICTO"
+      ],
+      "sub": "Sin impulso",
+      "vo": "Paso tres. Press estricto: costillas abajo, glúteos firmes y la barra arriba sin impulso de piernas.",
+      "moves": [
+        {
+          "cut": "RACK",
+          "at": 0
+        },
+        {
+          "to": "PRESS_MID",
+          "at": 0.5,
+          "dur": 0.5
+        },
+        {
+          "to": "OH_ST",
+          "at": 1.1,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Re-flexionás las rodillas",
+      "vo": "Paso cuatro. Si flexionás las rodillas para recibir, ya no es muscle clean: es otra cargada.",
+      "moves": [
+        {
+          "cut": "RACK",
+          "at": 0
+        },
+        {
+          "to": "KNEES_BAD",
+          "at": 0.7,
+          "dur": 0.7
+        },
+        {
+          "to": "RACK",
+          "at": 2.4,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            1120
+          ],
+          "text": "SIN REBOTE",
+          "anchor": "start",
+          "at": 1.3
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Sin re-flexión de rodillas",
+        "Barra pegada al cuerpo",
+        "Codos rápidos al rack",
+        "Press sin impulso"
+      ],
+      "vo": "Claves: sin re-flexión de rodillas, barra pegada al cuerpo, codos rápidos al rack y press sin impulso.",
+      "moves": [
+        {
+          "cut": "RACK",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "6 REPS"
+      ],
+      "sub": "Técnica primero",
+      "vo": "Seis repeticiones: muscle clean y press estricto, sin rebotar las rodillas.",
+      "chips": [
+        {
+          "label": "1 · CLEAN",
+          "at": 0.4
+        },
+        {
+          "label": "2 · PRESS",
+          "at": 2
+        }
+      ],
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "HIP",
+          "at": 0.4,
+          "dur": 0.35
+        },
+        {
+          "to": "EXT",
+          "at": 0.75,
+          "dur": 0.2,
+          "ease": "power2.out"
+        },
+        {
+          "to": "PULL_C",
+          "at": 0.95,
+          "dur": 0.18
+        },
+        {
+          "to": "RACK",
+          "at": 1.4,
+          "dur": 0.45,
+          "ease": "power2.out"
+        },
+        {
+          "to": "PRESS_MID",
+          "at": 2.4,
+          "dur": 0.5
+        },
+        {
+          "to": "OH_ST",
+          "at": 3,
+          "dur": 0.7
+        },
+        {
+          "to": "RACK",
+          "at": 3.9,
+          "dur": 0.6
+        },
+        {
+          "to": "STAND_BAR",
+          "at": 4.6,
+          "dur": 0.6
+        },
+        {
+          "to": "HANG",
+          "at": 5.4,
+          "dur": 0.8
+        }
+      ]
+    }
+  ]
+}

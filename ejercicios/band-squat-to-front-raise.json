@@ -1,0 +1,205 @@
+{
+  "slug": "band-squat-to-front-raise",
+  "name": "Band Squat to Front Raise",
+  "category": "CROSSFIT · ACCESORIO",
+  "tags": [
+    "Piernas",
+    "Hombro",
+    "Core"
+  ],
+  "descripcion": "Sentadilla parada sobre la banda elástica: al subir se acompaña con una elevación frontal de los brazos hasta la altura del hombro. Piernas y hombro en un mismo movimiento.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Band Squat to Front Raise 🎯 sentadilla y elevación frontal | CrossFit",
+    "tags": [
+      "band squat to front raise",
+      "sentadilla con banda",
+      "elevacion frontal con banda",
+      "banda elastica piernas",
+      "banda elastica hombro",
+      "sentadilla y hombro",
+      "crossfit",
+      "accesorio",
+      "piernas",
+      "deltoides"
+    ],
+    "descripcion": "🎬 BAND SQUAT TO FRONT RAISE - sentadilla y hombro en un solo movimiento\n\nPisás la banda, hacés la sentadilla y al terminar de extender la cadera levantás los brazos al frente hasta la altura del hombro. Un combo simple que trabaja piernas y deltoides. 💪\n\n📝 PASO A PASO\n1️⃣ Parate sobre la banda con los pies al ancho de la cadera y una punta en cada mano.\n2️⃣ Bajá en sentadilla con el pecho arriba, hasta donde lleguen tus tobillos.\n3️⃣ Subí extendiendo la cadera y recién ahí elevá los brazos al frente hasta la altura del hombro.\n4️⃣ Bajá los brazos y encadená la próxima repetición.\n\n✅ CLAVES DE TÉCNICA\n✔️ La elevación arranca cuando terminó la extensión de cadera\n✔️ No arquear la lumbar para levantar los brazos\n✔️ Talones apoyados\n✔️ Pecho arriba en la sentadilla\n\n💪 QUÉ TRABAJA\nCuádriceps · Glúteos · Deltoides anterior · Core\n\n⏱️ CUÁNTO\n20 segundos dentro del WOD, con ritmo parejo. Banda firme, sin rebotes.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi la banda te queda muy dura, alejá los pies del agarre o usá una más fina.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #BandWork #Sentadilla #Hombro #Accesorios"
+  },
+  "miniatura": {
+    "pose": "RAISE",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 150
+  },
+  "initialPose": "STAND",
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "poses": {
+    "STAND": {
+      "hip": [0, -470],
+      "ankle": [0, 0],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 8,
+      "fa": 6,
+      "ua2": 6,
+      "fa2": 6
+    },
+    "BOTTOM": {
+      "hip": [-150, -205],
+      "ankle": [0, 0],
+      "b": 40,
+      "hd": 24,
+      "g": 0,
+      "ua": 18,
+      "fa": 10,
+      "ua2": 16,
+      "fa2": 10
+    },
+    "RAISE": {
+      "hip": [0, -470],
+      "ankle": [0, 0],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 88,
+      "fa": 0,
+      "ua2": 84,
+      "fa2": 2
+    },
+    "ARCH_BAD": {
+      "hip": [-30, -470],
+      "ankle": [0, 0],
+      "b": -16,
+      "hd": -10,
+      "g": 0,
+      "ua": 96,
+      "fa": -6,
+      "ua2": 92,
+      "fa2": -4
+    }
+  },
+  "props": [
+    { "type": "band", "anchor": [60, 18], "hand": "both", "ring": false, "w": 13 }
+  ],
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACCESORIO",
+      "head": ["SENTADILLA", "Y HOMBRO"],
+      "vo": "Band Squat to Front Raise: hacé la sentadilla sobre la banda y al subir elevá los brazos al frente.",
+      "moves": [
+        { "cut": "STAND", "at": 0 },
+        { "to": "BOTTOM", "at": 0.5, "dur": 0.7 },
+        { "to": "STAND", "at": 1.5, "dur": 0.6 },
+        { "to": "RAISE", "at": 2.2, "dur": 0.6 },
+        { "to": "STAND", "at": 3.2, "dur": 0.6 }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": ["SOBRE", "LA BANDA"],
+      "sub": "Pies al ancho de cadera",
+      "vo": "Parate sobre la banda con los pies al ancho de la cadera y una punta en cada mano.",
+      "moves": [{ "cut": "STAND", "at": 0 }]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": ["BAJÁ EN", "SENTADILLA"],
+      "sub": "Pecho arriba",
+      "vo": "Paso uno. Bajá en sentadilla con el pecho arriba, hasta donde te permitan los tobillos.",
+      "moves": [
+        { "cut": "STAND", "at": 0 },
+        { "to": "BOTTOM", "at": 0.7, "dur": 1 }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": ["SUBÍ", "Y EXTENDÉ"],
+      "sub": "Cadera primero",
+      "vo": "Paso dos. Subí extendiendo la cadera y los talones firmes en el piso.",
+      "moves": [
+        { "cut": "BOTTOM", "at": 0 },
+        { "to": "STAND", "at": 0.6, "dur": 0.8 }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": ["ELEVÁ", "AL FRENTE"],
+      "sub": "Hasta el hombro",
+      "vo": "Paso tres. Recién ahí elevá los brazos al frente hasta la altura del hombro y bajalos con control.",
+      "moves": [
+        { "cut": "STAND", "at": 0 },
+        { "to": "RAISE", "at": 0.6, "dur": 0.8 },
+        { "to": "STAND", "at": 1.9, "dur": 0.8 }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": ["ASÍ NO"],
+      "sub": "Lumbar arqueada",
+      "vo": "Paso cuatro. Si arqueás la lumbar para levantar los brazos, el hombro deja de trabajar.",
+      "moves": [
+        { "cut": "STAND", "at": 0 },
+        { "to": "ARCH_BAD", "at": 0.7, "dur": 0.7 },
+        { "to": "STAND", "at": 2.4, "dur": 0.8 }
+      ],
+      "overlays": [{ "type": "label", "pos": [150, 1120], "text": "NO ARQUEES", "anchor": "start", "at": 1.3 }]
+    },
+    {
+      "kind": "keys",
+      "min": 7.6,
+      "badge": "CLAVES",
+      "head": ["TÉCNICA"],
+      "keys": [
+        "Elevación después de extender",
+        "Lumbar neutra",
+        "Talones apoyados",
+        "Pecho arriba"
+      ],
+      "vo": "Claves: elevación después de extender la cadera, lumbar neutra, talones apoyados y pecho arriba.",
+      "moves": [{ "cut": "STAND", "at": 0.1 }]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": ["20 SEG"],
+      "sub": "Ritmo parejo",
+      "vo": "Veinte segundos, ritmo parejo: sentadilla, extensión y elevación, sin rebotes.",
+      "chips": [
+        { "label": "1 · BAJÁ", "at": 0.6 },
+        { "label": "2 · SUBÍ", "at": 1.4 },
+        { "label": "3 · ELEVÁ", "at": 2.2 }
+      ],
+      "moves": [
+        { "cut": "STAND", "at": 0 },
+        { "to": "BOTTOM", "at": 0.5, "dur": 0.6 },
+        { "to": "STAND", "at": 1.4, "dur": 0.6 },
+        { "to": "RAISE", "at": 2.1, "dur": 0.5 },
+        { "to": "STAND", "at": 2.9, "dur": 0.5 },
+        { "to": "BOTTOM", "at": 3.9, "dur": 0.6 },
+        { "to": "STAND", "at": 4.8, "dur": 0.6 },
+        { "to": "RAISE", "at": 5.5, "dur": 0.5 },
+        { "to": "STAND", "at": 6.3, "dur": 0.5 }
+      ]
+    }
+  ]
+}

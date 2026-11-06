@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "a6f5aa4a-296c-4940-8d0b-18bc49e5a2af",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "ba6c4b0b0f2922b1f5b07ab22878e93452e8e9186b3813463cd027621b90842b",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a6f5aa4a-296c-4940-8d0b-18bc49e5a2af\\blobs\\ba\\ba6c4b0b0f2922b1f5b07ab22878e93452e8e9186b3813463cd027621b90842b"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a6f5aa4a-296c-4940-8d0b-18bc49e5a2af\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "ea57f095895cdeac66f96458d292b7959ff4e838baa3725224c8fc23384d363a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a6f5aa4a-296c-4940-8d0b-18bc49e5a2af\\blobs\\ea\\ea57f095895cdeac66f96458d292b7959ff4e838baa3725224c8fc23384d363a"
+    },
+    "meta.json": {
+      "hash": "3e48f222b818727320de4fbabcf8543369e413528333140b3ae9533be535dce0",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a6f5aa4a-296c-4940-8d0b-18bc49e5a2af\\blobs\\3e\\3e48f222b818727320de4fbabcf8543369e413528333140b3ae9533be535dce0"
+    },
+    "package.json": {
+      "hash": "d0d7a4f8543ecf3a292fe947c48bb3fffde0a0ab44ebd9b6a13c897005e9e76d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a6f5aa4a-296c-4940-8d0b-18bc49e5a2af\\blobs\\d0\\d0d7a4f8543ecf3a292fe947c48bb3fffde0a0ab44ebd9b6a13c897005e9e76d"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "4de42a4f-2cbb-495d-94d6-8d3d73c5c20f",
+      "completedAt": 1793877786982,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\chest-to-bar-pull-up\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

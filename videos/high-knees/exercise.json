@@ -1,0 +1,393 @@
+{
+  "slug": "high-knees",
+  "name": "High Knees",
+  "category": "CROSSFIT · CARDIO",
+  "tags": [
+    "Cardio",
+    "Activación",
+    "Sin material"
+  ],
+  "descripcion": "Carrera en el lugar con las rodillas a la cadera: braceo activo, apoyo en la planta y frecuencia alta.",
+  "revisado": false,
+  "notas": "Variante de carrera en el lugar (sin palmada) de `high-knee-clap`: rodilla a la cadera por IK (`hip [0,-455]`, `ankle`/`ankle2` `[240,-245]` y `[0,0]` alternados) y brazos con braceo contralateral por ángulos (`ua`/`fa` y `ua2`/`fa2` invertidos). Error HEEL_BAD: apoyo con el talón de golpe (`ft2 -18`, torso atrás `b -12`).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1503,
+    "scale": 0.85
+  },
+  "pronuncia": {
+    "High Knees": "jai niis"
+  },
+  "poses": {
+    "STAND_RDY": {
+      "s": 0,
+      "t": 0,
+      "b": 3,
+      "hd": 1,
+      "ft": 0,
+      "ua": 5,
+      "fa": 20,
+      "ua2": 5,
+      "fa2": 20,
+      "g": 0
+    },
+    "LIFT_N": {
+      "hip": [
+        0,
+        -455
+      ],
+      "ankle": [
+        240,
+        -245
+      ],
+      "ankle2": [
+        0,
+        0
+      ],
+      "b": 6,
+      "hd": 3,
+      "ua": -30,
+      "fa": 65,
+      "ua2": 36,
+      "fa2": 80
+    },
+    "LIFT_F": {
+      "hip": [
+        0,
+        -455
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        240,
+        -245
+      ],
+      "b": 6,
+      "hd": 3,
+      "ua": 36,
+      "fa": 80,
+      "ua2": -30,
+      "fa2": 65
+    },
+    "HEEL_BAD": {
+      "hip": [
+        0,
+        -430
+      ],
+      "ankle": [
+        215,
+        -215
+      ],
+      "ankle2": [
+        0,
+        0
+      ],
+      "ft2": -30,
+      "b": -18,
+      "hd": -8,
+      "ua": -18,
+      "fa": 60,
+      "ua2": 28,
+      "fa2": 70
+    }
+  },
+  "initialPose": "STAND_RDY",
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · CARDIO",
+      "head": [
+        "HIGH",
+        "KNEES"
+      ],
+      "vo": "High Knees: carrera en el lugar con las rodillas a la cadera, braceo activo y ritmo alto. Puro cardio.",
+      "moves": [
+        {
+          "cut": "STAND_RDY",
+          "at": 0
+        },
+        {
+          "to": "LIFT_N",
+          "at": 1,
+          "dur": 0.4
+        },
+        {
+          "to": "LIFT_F",
+          "at": 1.9,
+          "dur": 0.4
+        },
+        {
+          "to": "LIFT_N",
+          "at": 2.6,
+          "dur": 0.4
+        },
+        {
+          "to": "LIFT_F",
+          "at": 3.4,
+          "dur": 0.4
+        }
+      ]
+    },
+    {
+      "min": 4.8,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE",
+        "TORSO ERGUIDO"
+      ],
+      "sub": "Peso en la planta",
+      "vo": "De pie, torso erguido y core firme. El peso sobre la planta de los pies, listo para correr en el lugar.",
+      "moves": [
+        {
+          "cut": "STAND_RDY",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "RODILLA",
+        "A LA CADERA"
+      ],
+      "sub": "Altura pareja",
+      "vo": "Paso uno. Llevá una rodilla a la altura de la cadera mientras la otra pierna empuja desde la planta.",
+      "moves": [
+        {
+          "cut": "STAND_RDY",
+          "at": 0
+        },
+        {
+          "to": "LIFT_N",
+          "at": 0.9,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            530,
+            1240
+          ],
+          "at": 1.2,
+          "dur": 0.8,
+          "from": [
+            430,
+            1450
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            570,
+            1190
+          ],
+          "text": "ALTURA DE CADERA",
+          "anchor": "start",
+          "at": 2,
+          "out": 4.6
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "BRACEO",
+        "ACTIVO"
+      ],
+      "sub": "Brazo contrario",
+      "vo": "Paso dos. Braceá activo: el brazo contrario a la rodilla que sube va adelante, con los codos flexionados.",
+      "moves": [
+        {
+          "cut": "LIFT_N",
+          "at": 0
+        },
+        {
+          "to": "LIFT_F",
+          "at": 1,
+          "dur": 0.4
+        },
+        {
+          "to": "LIFT_N",
+          "at": 2.2,
+          "dur": 0.4
+        },
+        {
+          "to": "LIFT_F",
+          "at": 3,
+          "dur": 0.4
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "RITMO",
+        "ALTO"
+      ],
+      "sub": "Frecuencia primero",
+      "vo": "Paso tres. Sostené la frecuencia alta y el torso quieto. Un pie siempre en el piso, sin saltar de más.",
+      "moves": [
+        {
+          "cut": "LIFT_F",
+          "at": 0
+        },
+        {
+          "to": "LIFT_N",
+          "at": 0.8,
+          "dur": 0.35
+        },
+        {
+          "to": "LIFT_F",
+          "at": 1.6,
+          "dur": 0.35
+        },
+        {
+          "to": "LIFT_N",
+          "at": 2.4,
+          "dur": 0.35
+        },
+        {
+          "to": "LIFT_F",
+          "at": 3.2,
+          "dur": 0.35
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "min": 5,
+      "badge": "ERROR COMÚN",
+      "head": [
+        "TALÓN",
+        "DE GOLPE"
+      ],
+      "sub": "Apoyá la planta",
+      "vo": "El error: aterrizar con el talón de golpe. Apoyá la planta y mantené los talones apenas despegados del piso.",
+      "moves": [
+        {
+          "cut": "LIFT_N",
+          "at": 0
+        },
+        {
+          "to": "HEEL_BAD",
+          "at": 1,
+          "dur": 0.7
+        },
+        {
+          "to": "LIFT_N",
+          "at": 3.2,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            470,
+            1408
+          ],
+          "text": "PLANTA, NO TALÓN",
+          "anchor": "end",
+          "at": 1.4,
+          "out": 4.0
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Torso erguido",
+        "Rodilla a la altura de la cadera",
+        "Apoyo en la planta del pie",
+        "Braceo activo y relajado",
+        "Frecuencia alta y constante"
+      ],
+      "vo": "Claves: torso erguido, rodilla a la cadera, apoyo en la planta y braceo activo sin cruzar la línea media.",
+      "moves": [
+        {
+          "cut": "LIFT_N",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "20 SEG"
+      ],
+      "sub": "Ritmo alto",
+      "vo": "Veinte segundos a ritmo alto. Si te falta el aire, bajá la frecuencia pero no la postura.",
+      "chips": [
+        {
+          "label": "1 · RODILLA",
+          "at": 0.6
+        },
+        {
+          "label": "2 · BRACEO",
+          "at": 1.1
+        },
+        {
+          "label": "3 · RITMO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "STAND_RDY",
+          "at": 0
+        },
+        {
+          "loop": [
+            "LIFT_N",
+            "LIFT_F"
+          ],
+          "at": 0.4,
+          "step": 0.38,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "LIFT_N",
+    "grip": 0,
+    "zoom": 1.14,
+    "dy": 165
+  },
+  "youtube": {
+    "titulo": "High Knees · rodillas altas en el lugar para cardio y activación | CrossFit",
+    "tags": [
+      "high knees",
+      "rodillas altas",
+      "carrera en el lugar",
+      "cardio",
+      "activación",
+      "entrada en calor",
+      "sin material",
+      "braceo",
+      "crossfit",
+      "wod"
+    ],
+    "descripcion": "🏃 HIGH KNEES — carrera en el lugar\nCardio puro sin desplazamiento: subís una rodilla a la altura de la cadera, empujás desde la planta y braceás activo. Ideal para entrar en calor o sumar a un WOD.\n\n📋 PASO A PASO\n1️⃣ De pie, torso erguido y core firme: peso en la planta.\n2️⃣ Subí una rodilla a la altura de la cadera mientras la otra pierna empuja.\n3️⃣ Braceá activo: el brazo contrario acompaña a la rodilla que sube.\n4️⃣ Sostené la frecuencia alta, con el torso quieto y un pie siempre en el piso.\n\n🎯 CLAVES DE TÉCNICA\n✅ Torso erguido\n✅ Rodilla a la altura de la cadera\n✅ Apoyo en la planta del pie\n✅ Braceo activo y relajado\n✅ Frecuencia alta y constante\n\n🏋️ QUÉ TRABAJA\nRecto femoral · Gemelos · Glúteo mayor · Recto abdominal · Sóleo\n\n⏱️ CUÁNTO\n20 segundos a ritmo alto. Si te falta el aire, bajá la frecuencia pero no la postura.\n\n💪 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nProgresión: primero frecuencia cómoda y rodilla a media altura; después sumá altura y ritmo.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🙌\n\n#CrossFit #Cardio #HighKnees #Activacion #SinMaterial"
+  }
+}

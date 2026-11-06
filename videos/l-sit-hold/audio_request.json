@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "L-Sit Hold",
+      "text": "Sostener el cuerpo en L sobre las paralelas. Core de acero."
+    },
+    {
+      "id": "02",
+      "text": "Apoyate sobre las paralelas con los brazos extendidos y bloqueados. El cuerpo, firme y suspendido."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Deprimí los hombros, alejándolos de las orejas, y empujá fuerte las paralelas hacia el piso."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Levantá las piernas al frente, juntas y con las rodillas estiradas, hasta formar una L con el torso."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Redondeá apenas la lumbar y activá el abdomen. Si no llegás, empezá con las rodillas dobladas."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Sostené la posición el tiempo indicado, respirando sin soltar la tensión."
+    },
+    {
+      "id": "07",
+      "text": "Claves: hombros lejos de las orejas, piernas juntas y rectas, abdomen activo, y si no llegás, empezá con las rodillas dobladas."
+    },
+    {
+      "id": "08",
+      "text": "Treinta segundos sosteniendo la L. Hombros abajo, piernas rectas y respirando."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

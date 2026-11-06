@@ -1,0 +1,323 @@
+{
+  "slug": "dumbbell-bicep-curl",
+  "name": "Dumbbell Bicep Curl",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Bíceps",
+    "Antebrazo"
+  ],
+  "descripcion": "De pie con una mancuerna en cada mano, flexionar los codos llevando las mancuernas hacia los hombros sin mover los codos del costado, y bajar con control.",
+  "revisado": false,
+  "notas": "Curl de bíceps con mancuernas, codos fijos.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 490,
+    "y": 1502,
+    "scale": 0.88
+  },
+  "initialPose": "STAND",
+  "props": [
+    {
+      "type": "dumbbell",
+      "hand": "far",
+      "side": true,
+      "r": 38,
+      "off": [
+        0,
+        4
+      ]
+    },
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "side": true,
+      "r": 38,
+      "off": [
+        0,
+        4
+      ]
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "g2": 1,
+      "hx": 20,
+      "hy": -430,
+      "hx2": 20,
+      "hy2": -430,
+      "ed": 1
+    },
+    "CURL": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "g2": 1,
+      "hx": 110,
+      "hy": -620,
+      "hx2": 110,
+      "hy2": -620,
+      "ed": -1
+    },
+    "SWING_BAD": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": -14,
+      "hd": -6,
+      "g": 1,
+      "g2": 1,
+      "hx": 60,
+      "hy": -500,
+      "hx2": 60,
+      "hy2": -500,
+      "ed": -1
+    }
+  },
+  "miniatura": {
+    "pose": "CURL",
+    "grip": 1,
+    "zoom": 1.1,
+    "dy": 190
+  },
+  "youtube": {
+    "titulo": "Dumbbell Bicep Curl 🔥 Curl de bíceps con mancuernas | CrossFit",
+    "tags": [
+      "dumbbell bicep curl",
+      "curl de biceps",
+      "biceps",
+      "mancuernas",
+      "brazos",
+      "antebrazo",
+      "crossfit",
+      "fuerza",
+      "accesorio"
+    ],
+    "descripcion": "🔥 DUMBBELL BICEP CURL — curl de bíceps con mancuernas\n\nEl curl parece fácil hasta que dejás de balancear el torso. Codos fijos, subida limpia y bajada controlada: ahí trabaja el bíceps. 💪\n\n📋 PASO A PASO\n1️⃣ De pie, con una mancuerna en cada mano y las palmas hacia adelante.\n2️⃣ Flexioná los codos llevando las mancuernas hacia los hombros.\n3️⃣ Mantené los codos pegados al costado, sin moverlos.\n4️⃣ Apretá el bíceps arriba, sin balancear el torso.\n5️⃣ Bajá en dos segundos y repetí.\n\n✅ CLAVES DE TÉCNICA\n• Codos pegados al torso\n• Subí sin balanceo\n• Apretá arriba\n• Bajá en 2 segundos\n• Muñecas neutras\n\n🎯 QUÉ TRABAJA\nBíceps · Braquial · Antebrazo\n\n⏱️ CUÁNTO\n12 repeticiones con 2 × 8 kg. Tres series.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi te cuesta la bajada lenta, bajá el peso: el control es parte del ejercicio.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #BicepCurl #Mancuernas #Biceps #Fuerza"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "DUMBBELL",
+        "BICEP CURL"
+      ],
+      "vo": "Dumbbell Bicep Curl: curl de bíceps con mancuernas. Codos fijos y bajada controlada.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "STAND",
+              0.7
+            ],
+            [
+              "CURL",
+              0.8
+            ],
+            [
+              "STAND",
+              0.7
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE",
+        "MANCUERNAS"
+      ],
+      "sub": "Palmas al frente",
+      "vo": "De pie, con una mancuerna en cada mano, los brazos extendidos y las palmas hacia adelante.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "FLEXIONÁ",
+        "LOS CODOS"
+      ],
+      "sub": "Codos fijos",
+      "vo": "Paso uno. Flexioná los codos llevando las mancuernas hacia los hombros, sin mover los codos del costado.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "CURL",
+          "at": 0.7,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            760,
+            760
+          ],
+          "text": "CODOS FIJOS",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "APRETÁ",
+        "ARRIBA"
+      ],
+      "sub": "Sin balanceo",
+      "vo": "Paso dos. Apretá el bíceps arriba y evitá balancear el torso para subir el peso.",
+      "moves": [
+        {
+          "cut": "CURL",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            900
+          ],
+          "text": "SIN BALANCEO",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "ASÍ NO",
+      "head": [
+        "BALANCEO",
+        "DE TORSO"
+      ],
+      "sub": "El peso te gana",
+      "vo": "Así no. Si te tirás para atrás para subir, el bíceps deja de trabajar. Bajá el peso y quedate firme.",
+      "moves": [
+        {
+          "cut": "CURL",
+          "at": 0
+        },
+        {
+          "to": "SWING_BAD",
+          "at": 0.7,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1000
+          ],
+          "text": "NO BALANCEES",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Codos pegados al torso",
+        "Subí sin balanceo",
+        "Apretá arriba",
+        "Bajá en 2 segundos"
+      ],
+      "vo": "Claves: codos pegados, sin balanceo, apretá arriba y bajá en dos segundos.",
+      "moves": [
+        {
+          "cut": "CURL",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "12 REPS"
+      ],
+      "sub": "2 × 8 kg",
+      "vo": "Doce repeticiones con ocho kilos por mano. Si el torso se mueve, el peso es demasiado.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "CURL",
+              0.8
+            ],
+            [
+              "STAND",
+              0.9
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

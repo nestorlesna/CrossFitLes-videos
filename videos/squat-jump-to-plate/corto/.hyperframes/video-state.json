@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "d85f3685-6e20-46f8-bd8b-ea8aabe6f91f",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "b65732412d0076b59895190984ec7a9b5940bbfaf8cd2c692a66b45984b9f1a3",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d85f3685-6e20-46f8-bd8b-ea8aabe6f91f\\blobs\\b6\\b65732412d0076b59895190984ec7a9b5940bbfaf8cd2c692a66b45984b9f1a3"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d85f3685-6e20-46f8-bd8b-ea8aabe6f91f\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "a5a3e926c34283160a1212c89029626319e5a161c478331902726dde54419edb",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d85f3685-6e20-46f8-bd8b-ea8aabe6f91f\\blobs\\a5\\a5a3e926c34283160a1212c89029626319e5a161c478331902726dde54419edb"
+    },
+    "meta.json": {
+      "hash": "e3fd7538309517bdeac03b95dd0890f0145dd464394334146317d4a4233d1798",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d85f3685-6e20-46f8-bd8b-ea8aabe6f91f\\blobs\\e3\\e3fd7538309517bdeac03b95dd0890f0145dd464394334146317d4a4233d1798"
+    },
+    "package.json": {
+      "hash": "60024b607e70a05fb88a6adb41db443f4121c2f9dad9b80ce41ced835e766020",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d85f3685-6e20-46f8-bd8b-ea8aabe6f91f\\blobs\\60\\60024b607e70a05fb88a6adb41db443f4121c2f9dad9b80ce41ced835e766020"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "ea06654f-08af-42c4-b54b-d2f1577b4cca",
+      "completedAt": 1793874052180,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\squat-jump-to-plate\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

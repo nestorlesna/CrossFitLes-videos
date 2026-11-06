@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Bodyweight Walking Lunge",
+      "text": "Pasos largos hacia adelante, bajando a fondo en cada uno. Piernas y glúteos."
+    },
+    {
+      "id": "02",
+      "text": "Parate derecho con los pies al ancho de cadera, el pecho arriba y el abdomen firme."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Da un paso largo hacia adelante y apoyá todo el pie en el piso."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá hasta que la rodilla de atrás casi toque el piso, con el torso erguido."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Empujá con el talón de adelante, subí y pasá a la otra pierna."
+    },
+    {
+      "id": "06",
+      "text": "Así no. Si el paso es corto, no bajás del todo y la rodilla de adelante se pasa del pie."
+    },
+    {
+      "id": "07",
+      "text": "Claves: paso bien largo, rodilla de adelante sobre el pie, torso erguido y la rodilla de atrás cerca del piso."
+    },
+    {
+      "id": "08",
+      "text": "Doce repeticiones, seis por pierna. Si perdés el equilibrio, achicá el paso y bajá más lento."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

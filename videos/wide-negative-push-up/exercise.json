@@ -1,0 +1,380 @@
+{
+  "slug": "wide-negative-push-up",
+  "name": "Wide Negative Push-Up",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Pecho",
+    "Hombros",
+    "Tríceps"
+  ],
+  "descripcion": "Flexión negativa con las manos más abiertas que los hombros: descenso lento hasta el suelo y retorno asistido con las rodillas.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 230,
+    "y": 1504,
+    "scale": 0.85
+  },
+  "pronuncia": {
+    "Wide Negative Push-Up": "Uaid négativ push ap"
+  },
+  "initialPose": "TOP",
+  "props": [],
+  "poses": {
+    "TOP": {
+      "s": 68.41,
+      "t": 68.41,
+      "rx": -20,
+      "ry": -40,
+      "ft": 118,
+      "b": 68.41,
+      "hd": 78,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": 15
+    },
+    "MID": {
+      "hip": [
+        405,
+        -190
+      ],
+      "ankle": [
+        -20,
+        -40
+      ],
+      "ft": 118,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": 15,
+      "b": 76,
+      "hd": 88
+    },
+    "DOWN": {
+      "hip": [
+        400,
+        -165
+      ],
+      "ankle": [
+        -20,
+        -40
+      ],
+      "ft": 118,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": 15,
+      "b": 84,
+      "hd": 96
+    },
+    "KNEES": {
+      "hip": [
+        380,
+        -150
+      ],
+      "ankle": [
+        10,
+        -30
+      ],
+      "knee": "back",
+      "ft": 175,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": 15,
+      "b": 72,
+      "hd": 82
+    },
+    "SAG_BAD": {
+      "hip": [
+        430,
+        -150
+      ],
+      "ankle": [
+        -20,
+        -40
+      ],
+      "ft": 118,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": 15,
+      "b": 55,
+      "hd": 70
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "WIDE NEGATIVE",
+        "PUSH-UP"
+      ],
+      "vo": "Wide Negative Push-Up: flexión negativa con manos anchas. Bajás lento, pecho al máximo.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "MID",
+              0.9
+            ],
+            [
+              "DOWN",
+              0.9
+            ],
+            [
+              "KNEES",
+              0.6
+            ],
+            [
+              "TOP",
+              0.7
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PLANCHA",
+        "MANOS ANCHAS"
+      ],
+      "sub": "Más abiertas que los hombros",
+      "vo": "Poné las manos más abiertas que los hombros, en plancha alta, con el cuerpo en una línea recta.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "stance": true,
+      "stanceLabel": "MÁS ANCHO QUE LOS HOMBROS"
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "BAJÁ",
+        "LENTO"
+      ],
+      "sub": "De 3 a 5 segundos",
+      "vo": "Paso uno. Bajá lento, en tres a cinco segundos, con el cuerpo recto y el abdomen firme.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.5,
+          "dur": 1.2
+        },
+        {
+          "to": "DOWN",
+          "at": 1.7,
+          "dur": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "PECHO AL",
+        "PISO"
+      ],
+      "sub": "Sin adelantar los hombros",
+      "vo": "Paso dos. Llegá con el pecho al piso. Cuidá que los hombros no se adelanten en el punto bajo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            800,
+            1100
+          ],
+          "text": "HOMBROS ATRÁS",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "CADERA",
+        "EN LÍNEA"
+      ],
+      "sub": "No la dejes caer",
+      "vo": "Paso tres. No dejes caer la cadera: cuerpo en tabla de la cabeza a los talones durante toda la bajada.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "to": "SAG_BAD",
+          "at": 0.5,
+          "dur": 0.5
+        },
+        {
+          "to": "MID",
+          "at": 1.8,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            800,
+            1100
+          ],
+          "text": "CADERA CAÍDA: NO",
+          "anchor": "middle",
+          "at": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "VOLVÉ CON",
+        "LAS RODILLAS"
+      ],
+      "sub": "Retorno asistido",
+      "vo": "Paso cuatro. Apoyá las rodillas y volvé arriba asistido. El agarre ancho carga más el pecho y menos el tríceps.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "KNEES",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "TOP",
+          "at": 1.4,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Manos más abiertas que los hombros",
+        "Bajar lento, 3 a 5 segundos",
+        "Cuerpo en tabla",
+        "Hombros atrás abajo"
+      ],
+      "vo": "Claves: manos más abiertas que los hombros, bajá lento, cuerpo en tabla y cuidá que los hombros no se adelanten abajo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "40 SEG"
+      ],
+      "sub": "Bajadas lentas",
+      "vo": "Cuarenta segundos de bajadas lentas. Pecho al piso, subí asistido con las rodillas.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PECHO",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SUBÍ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "MID",
+              0.9
+            ],
+            [
+              "DOWN",
+              0.9
+            ],
+            [
+              "KNEES",
+              0.6
+            ],
+            [
+              "TOP",
+              0.7
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "DOWN",
+    "grip": 1,
+    "zoom": 1.12,
+    "dy": 39
+  },
+  "youtube": {
+    "titulo": "Wide Negative Push-Up 🔥 pecho y progresión de flexiones paso a paso | CrossFit",
+    "descripcion": "🔥 WIDE NEGATIVE PUSH-UP — pecho fuerte y la progresión hacia la flexión completa.\n\nSi todavía no te salen las flexiones con peso corporal, este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Poné las manos más abiertas que los hombros, en plancha alta, con el cuerpo en una línea recta.\n2️⃣ Bajá lento, en tres a cinco segundos, con el cuerpo recto y el abdomen firme.\n3️⃣ Llegá con el pecho al piso. Cuidá que los hombros no se adelanten en el punto bajo.\n4️⃣ No dejes caer la cadera: cuerpo en tabla de la cabeza a los talones durante toda la bajada.\n5️⃣ Apoyá las rodillas y volvé arriba asistido. El agarre ancho carga más el pecho y menos el tríceps.\n\n✅ CLAVES DE TÉCNICA\n• Manos más abiertas que los hombros\n• Bajar lento, de 3 a 5 segundos, hasta el suelo\n• Cuerpo en tabla, sin dejar caer la cadera\n• Cuidar que los hombros no se adelanten en el punto bajo\n\n🎯 QUÉ TRABAJA\nPectoral mayor · Deltoides anterior · Pectoral menor · Tríceps braquial\n\n⏱️ CUÁNTO\n40 segundos de bajadas lentas, dentro de un WOD o como progresión de fuerza.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\r\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #WideNegativePushUp #Pecho #Entrenamiento",
+    "tags": [
+      "wide negative push up",
+      "flexión negativa",
+      "flexiones con manos anchas",
+      "progresión de flexiones",
+      "pecho",
+      "crossfit",
+      "wod",
+      "fuerza",
+      "push up",
+      "calistenia"
+    ]
+  }
+}

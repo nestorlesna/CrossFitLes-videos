@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "10396f93-cc5d-43a2-acfa-83f5f3e04db1",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "b6664855e11bd166db94395166e9da8eaac82899d72d6d6495f78006b82dfb42",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\10396f93-cc5d-43a2-acfa-83f5f3e04db1\\blobs\\b6\\b6664855e11bd166db94395166e9da8eaac82899d72d6d6495f78006b82dfb42"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\10396f93-cc5d-43a2-acfa-83f5f3e04db1\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "987ea1597cc51836547117fc6b5deb7d884a87a9b1d90a3c1bc8f3d82b3b5069",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\10396f93-cc5d-43a2-acfa-83f5f3e04db1\\blobs\\98\\987ea1597cc51836547117fc6b5deb7d884a87a9b1d90a3c1bc8f3d82b3b5069"
+    },
+    "meta.json": {
+      "hash": "bdc05a0ce11c277bd355c2e6c011897e32c8852bc3d02c432f576eca94eed893",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\10396f93-cc5d-43a2-acfa-83f5f3e04db1\\blobs\\bd\\bdc05a0ce11c277bd355c2e6c011897e32c8852bc3d02c432f576eca94eed893"
+    },
+    "package.json": {
+      "hash": "6daf1dcd17047810398889f040cf2d74a6bc77431ca1cab1a5b1bc1de44ee918",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\10396f93-cc5d-43a2-acfa-83f5f3e04db1\\blobs\\6d\\6daf1dcd17047810398889f040cf2d74a6bc77431ca1cab1a5b1bc1de44ee918"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "985ae96d-b555-47ed-8098-83a0606b9e4c",
+      "completedAt": 1793875684611,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\barbell-stiff-leg-deadlift\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

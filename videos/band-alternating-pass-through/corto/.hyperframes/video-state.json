@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "1b399893-205c-441e-8e1e-f6d45a572634",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "c746faba5d72b8aef4f159fb2df5ebc95ae8fc882752369ef33da1db0f25a1cc",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1b399893-205c-441e-8e1e-f6d45a572634\\blobs\\c7\\c746faba5d72b8aef4f159fb2df5ebc95ae8fc882752369ef33da1db0f25a1cc"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1b399893-205c-441e-8e1e-f6d45a572634\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "0d247b411de094a11a3d0dc477c4dbc00e39dec030ecfd497611f7e63347bfc9",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1b399893-205c-441e-8e1e-f6d45a572634\\blobs\\0d\\0d247b411de094a11a3d0dc477c4dbc00e39dec030ecfd497611f7e63347bfc9"
+    },
+    "meta.json": {
+      "hash": "c27a23fef31f9cd2247a7cec7c6b74c324606356ae6e31d1580a1279d019c928",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1b399893-205c-441e-8e1e-f6d45a572634\\blobs\\c2\\c27a23fef31f9cd2247a7cec7c6b74c324606356ae6e31d1580a1279d019c928"
+    },
+    "package.json": {
+      "hash": "f472a66f530448f57132b693dc71d91fb5a7f3249ed3ef0d7a7208085ee4e9a4",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1b399893-205c-441e-8e1e-f6d45a572634\\blobs\\f4\\f472a66f530448f57132b693dc71d91fb5a7f3249ed3ef0d7a7208085ee4e9a4"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "95753d74-c8bd-4463-adc0-d300bac2e597",
+      "completedAt": 1793875458678,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\band-alternating-pass-through\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

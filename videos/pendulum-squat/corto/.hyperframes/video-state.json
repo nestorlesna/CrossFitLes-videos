@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "88e47e6c-52ec-46cb-b199-3a302c67319c",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "46afefa47954df69559574a9544fbdcd29f63176bd0ffce184e859aaf3f426c9",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\88e47e6c-52ec-46cb-b199-3a302c67319c\\blobs\\46\\46afefa47954df69559574a9544fbdcd29f63176bd0ffce184e859aaf3f426c9"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\88e47e6c-52ec-46cb-b199-3a302c67319c\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "411c8ea193d24c4f3f0ce216d248f86d2f94313eb01513067fa2478102c30b64",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\88e47e6c-52ec-46cb-b199-3a302c67319c\\blobs\\41\\411c8ea193d24c4f3f0ce216d248f86d2f94313eb01513067fa2478102c30b64"
+    },
+    "meta.json": {
+      "hash": "6edf0fc7b8dd4f79b2570e14456ac466af1b430df7fd2b9ad083ab9f489b2288",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\88e47e6c-52ec-46cb-b199-3a302c67319c\\blobs\\6e\\6edf0fc7b8dd4f79b2570e14456ac466af1b430df7fd2b9ad083ab9f489b2288"
+    },
+    "package.json": {
+      "hash": "338d26b78b3d4ae681a83936439b25a12be24f8b6b8bf6f97ba60c3c08eac6e2",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\88e47e6c-52ec-46cb-b199-3a302c67319c\\blobs\\33\\338d26b78b3d4ae681a83936439b25a12be24f8b6b8bf6f97ba60c3c08eac6e2"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "5f82262e-8265-4460-8373-de2b724a1f52",
+      "completedAt": 1793880336503,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\pendulum-squat\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

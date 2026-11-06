@@ -1,0 +1,400 @@
+{
+  "name": "Hanging Flutter Kicks",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Core",
+    "Abdomen",
+    "Agarre"
+  ],
+  "descripcion": "Colgado de la barra, piernas extendidas al frente y aleteo corto y alternado: una pierna sube mientras la otra baja, sin balancear el cuerpo. Core y flexores de cadera en tensión.",
+  "notas": "Poses de HANG de hanging-toes-to-bar. El aleteo es ±8° de cadera con piernas rectas (KICK_A/KICK_B); SWING_BAD muestra el balanceo que hay que evitar.",
+  "props": [
+    {
+      "type": "pullupbar",
+      "bar": [
+        0,
+        -1170
+      ],
+      "postX": -430
+    }
+  ],
+  "rig": {
+    "x": 600,
+    "y": 1504,
+    "scale": 0.66
+  },
+  "initialPose": "HOLD",
+  "poses": {
+    "HANG": {
+      "hip": [
+        0.0,
+        -562.0
+      ],
+      "b": 0,
+      "t": 0,
+      "s": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40
+    },
+    "HOLD": {
+      "hip": [
+        0.0,
+        -562.0
+      ],
+      "b": 0,
+      "t": -22,
+      "s": -22,
+      "hd": 0,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 30,
+      "t2": -22,
+      "s2": -22,
+      "ft2": 30
+    },
+    "KICK_A": {
+      "hip": [
+        0.0,
+        -562.0
+      ],
+      "b": 0,
+      "t": -30,
+      "s": -30,
+      "hd": 0,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 30,
+      "t2": -14,
+      "s2": -14,
+      "ft2": 30
+    },
+    "KICK_B": {
+      "hip": [
+        0.0,
+        -562.0
+      ],
+      "b": 0,
+      "t": -14,
+      "s": -14,
+      "hd": 0,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 30,
+      "t2": -30,
+      "s2": -30,
+      "ft2": 30
+    },
+    "SWING_BAD": {
+      "hip": [
+        90,
+        -620
+      ],
+      "b": 14,
+      "t": 18,
+      "s": 18,
+      "hd": 0,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 30,
+      "t2": 22,
+      "s2": 22,
+      "ft2": 30
+    }
+  },
+  "miniatura": {
+    "pose": "KICK_A",
+    "grip": 1,
+    "zoom": 1.0,
+    "dy": 160
+  },
+  "nombreEnVoz": "Hanging Flutter Kicks",
+  "slug": "hanging-flutter-kicks",
+  "revisado": false,
+  "music": true,
+  "musicVolume": 0.18,
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "FLUTTER",
+        "KICKS"
+      ],
+      "vo": "Hanging Flutter Kicks: colgado de la barra, piernas extendidas y aleteo corto. El abdomen no se apaga.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "KICK_A",
+              0.7
+            ],
+            [
+              "KICK_B",
+              0.7
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "COLGADO",
+        "ACTIVO"
+      ],
+      "sub": "Escápulas abajo",
+      "vo": "Colgate con agarre firme, brazos estirados y las escápulas activas hacia abajo.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "HOLD.S"
+          },
+          "r": 50,
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            1020,
+            960
+          ],
+          "text": "HOMBROS ACTIVOS",
+          "anchor": "end",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "PIERNAS",
+        "AL FRENTE"
+      ],
+      "sub": "Rectas y juntas",
+      "vo": "Paso uno. Llevá las piernas extendidas al frente, sin doblar las rodillas.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "HOLD.A"
+          },
+          "r": 58,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            1020,
+            990
+          ],
+          "text": "PIERNAS RECTAS",
+          "anchor": "end",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ALETEO",
+        "CORTO"
+      ],
+      "sub": "Sin balanceo",
+      "vo": "Paso dos. Alterná el aleteo: una pierna sube y la otra baja, con un rango chico y constante.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "KICK_A",
+              0.55
+            ],
+            [
+              "KICK_B",
+              0.55
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1020,
+            1100
+          ],
+          "text": "RANGO CORTO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Cuerpo que se hamaca",
+      "vo": "Paso tres. Si el cuerpo se hamaca, perdés la tensión del abdomen: frená el balanceo y volvé al centro.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0
+        },
+        {
+          "to": "SWING_BAD",
+          "at": 0.6,
+          "dur": 0.7
+        },
+        {
+          "to": "HOLD",
+          "at": 2.2,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1020,
+            980
+          ],
+          "text": "SIN BALANCEO NO",
+          "anchor": "end",
+          "at": 0.8,
+          "out": 2.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            1020,
+            980
+          ],
+          "text": "CORE FIRME",
+          "anchor": "end",
+          "at": 2.5
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.62,
+      "keys": [
+        "Hombros activos",
+        "Piernas rectas",
+        "Aleteo corto",
+        "Sin balanceo"
+      ],
+      "vo": "Claves: hombros activos, piernas rectas, aleteo corto y cero balanceo.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "24 REPS"
+      ],
+      "sub": "3 series",
+      "chips": [
+        {
+          "label": "24 reps",
+          "at": 0.6
+        },
+        {
+          "label": "3 series",
+          "at": 1.2
+        },
+        {
+          "label": "60 s",
+          "at": 1.8
+        }
+      ],
+      "vo": "Veinticuatro repeticiones, tres series. Si perdés la tensión, bajá y volvé a colgarte.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "KICK_A",
+              0.5
+            ],
+            [
+              "KICK_B",
+              0.5
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "youtube": {
+    "titulo": "Hanging Flutter Kicks 🔥 Aleteo colgado para core de acero | CrossFit",
+    "descripcion": "🔥 HANGING FLUTTER KICKS - aleteo colgado: core, abdomen y agarre\n\n👉 PASO A PASO\n1️⃣ Colgate con agarre firme y escápulas activas.\n2️⃣ Llevá las piernas extendidas al frente.\n3️⃣ Alterná el aleteo con un rango corto y constante.\n4️⃣ No te hamacas: el abdomen sostiene el cuerpo quieto.\n\n✅ CLAVES DE TÉCNICA\n✔ Hombros activos, escápulas abajo\n✔ Piernas rectas y juntas\n✔ Aleteo corto, sin patadas\n✔ Cero balanceo: core firme\n\n💪 QUÉ TRABAJA\nRecto abdominal · Oblicuos · Flexores de cadera · Antebrazos (agarre)\n\n⏱ CUÁNTO\n24 repeticiones, 3 series. Ideal como accesorio de core y gimnásticos.\n\nColgarse y aletear carga hombros y manos: si recién empezás, probá con las rodillas flexionadas.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚",
+    "tags": [
+      "hanging flutter kicks",
+      "aleteo colgado",
+      "flutter kicks",
+      "core colgado",
+      "abdominales en barra",
+      "hanging core",
+      "dominadas",
+      "crossfit",
+      "gimnásticos",
+      "recto abdominal",
+      "antebrazos",
+      "agarre"
+    ]
+  }
+}

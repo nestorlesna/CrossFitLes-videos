@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Kettlebell Single-Leg Romanian Deadlift",
+      "text": "A una pierna, bisagra de cadera y ketelbel en la mano contraria."
+    },
+    {
+      "id": "02",
+      "text": "Parate en una pierna con la rodilla apenas flexionada y la ketelbel en la mano contraria a la pierna de apoyo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Llevá la cadera atrás y bajá el torso: la pierna libre sube extendida y la ketelbel baja pegada."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá hasta sentir el estiramiento del isquio, con cadera y hombros nivelados. Frená si perdés la línea."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si redondeás la espalda o flexionás la rodilla de apoyo, el peso se va a la lumbar. Corregí y seguí."
+    },
+    {
+      "id": "06",
+      "text": "Claves: cadera y hombros nivelados, espalda neutra, pierna libre extendida y rodilla de apoyo suave."
+    },
+    {
+      "id": "07",
+      "text": "Ocho repeticiones por lado con diez kilos. Si perdés el equilibrio en cada repetición, bajá el peso."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

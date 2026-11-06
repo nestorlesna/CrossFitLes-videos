@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "e1ecdeb8-22b3-4731-8c76-45e7867f996a",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "64c639fc9388566105804d035c6b54281809b865df99ab13e956d224e746cfe3",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e1ecdeb8-22b3-4731-8c76-45e7867f996a\\blobs\\64\\64c639fc9388566105804d035c6b54281809b865df99ab13e956d224e746cfe3"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e1ecdeb8-22b3-4731-8c76-45e7867f996a\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "e077690b45b6e4d365e9fbb3d5f8c4f3b0ade72dcaef9cf98742d43ccf9d6d3f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e1ecdeb8-22b3-4731-8c76-45e7867f996a\\blobs\\e0\\e077690b45b6e4d365e9fbb3d5f8c4f3b0ade72dcaef9cf98742d43ccf9d6d3f"
+    },
+    "meta.json": {
+      "hash": "38d6b89d9fab82690fa2d6a5b25ea0e63f5200e39620f4bd462e849f2269f396",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e1ecdeb8-22b3-4731-8c76-45e7867f996a\\blobs\\38\\38d6b89d9fab82690fa2d6a5b25ea0e63f5200e39620f4bd462e849f2269f396"
+    },
+    "package.json": {
+      "hash": "49c410da45d8efccf4b9d5b1788d7f73d293bd785dc64928cfd7b851518f7140",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e1ecdeb8-22b3-4731-8c76-45e7867f996a\\blobs\\49\\49c410da45d8efccf4b9d5b1788d7f73d293bd785dc64928cfd7b851518f7140"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "30758744-9aa3-4ccb-b5e7-fce38b2a4cbd",
+      "completedAt": 1793880863740,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\seated-calf-raise-machine\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

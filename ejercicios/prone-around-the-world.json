@@ -1,0 +1,395 @@
+{
+  "slug": "prone-around-the-world",
+  "name": "Prone Around the World",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Espalda alta",
+    "Hombros",
+    "Movilidad"
+  ],
+  "descripcion": "Boca abajo, con pecho y brazos despegados del suelo, se dibuja un círculo llevando los brazos desde arriba de la cabeza hasta los costados y de vuelta.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 520,
+    "y": 1504,
+    "scale": 0.82
+  },
+  "pronuncia": {
+    "Prone Around the World": "Prón araund de uorld"
+  },
+  "initialPose": "PRONE",
+  "props": [],
+  "poses": {
+    "PRONE": {
+      "hip": [
+        -30,
+        -8
+      ],
+      "s": 90,
+      "t": 90,
+      "s2": 90,
+      "t2": 90,
+      "ft": 175,
+      "ft2": 175,
+      "g": 0,
+      "b": 92,
+      "hd": 72,
+      "ua": 90,
+      "fa": 0,
+      "ua2": 90,
+      "fa2": 0
+    },
+    "OVER": {
+      "hip": [
+        -30,
+        -8
+      ],
+      "s": 90,
+      "t": 90,
+      "s2": 90,
+      "t2": 90,
+      "ft": 175,
+      "ft2": 175,
+      "g": 0,
+      "b": 78,
+      "hd": 68,
+      "ua": 100,
+      "fa": 0,
+      "ua2": 100,
+      "fa2": 0
+    },
+    "OUT": {
+      "hip": [
+        -30,
+        -8
+      ],
+      "s": 90,
+      "t": 90,
+      "s2": 90,
+      "t2": 90,
+      "ft": 175,
+      "ft2": 175,
+      "g": 0,
+      "b": 78,
+      "hd": 68,
+      "ua": 150,
+      "fa": 0,
+      "ua2": 150,
+      "fa2": 0
+    },
+    "SIDE": {
+      "hip": [
+        -30,
+        -8
+      ],
+      "s": 90,
+      "t": 90,
+      "s2": 90,
+      "t2": 90,
+      "ft": 175,
+      "ft2": 175,
+      "g": 0,
+      "b": 78,
+      "hd": 68,
+      "ua": 262,
+      "fa": 0,
+      "ua2": 262,
+      "fa2": 0
+    },
+    "NECK_BAD": {
+      "hip": [
+        -30,
+        -8
+      ],
+      "s": 90,
+      "t": 90,
+      "s2": 90,
+      "t2": 90,
+      "ft": 175,
+      "ft2": 175,
+      "g": 0,
+      "b": 60,
+      "hd": 40,
+      "ua": 100,
+      "fa": 0,
+      "ua2": 100,
+      "fa2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "PRONE AROUND",
+        "THE WORLD"
+      ],
+      "vo": "Prone Around the World: círculos con los brazos boca abajo. Espalda alta y hombros sanos.",
+      "moves": [
+        {
+          "to": "OVER",
+          "at": 0.3,
+          "dur": 0.5
+        },
+        {
+          "seq": [
+            [
+              "OUT",
+              0.7
+            ],
+            [
+              "SIDE",
+              0.7
+            ],
+            [
+              "OUT",
+              0.7
+            ],
+            [
+              "OVER",
+              0.7
+            ]
+          ],
+          "at": 0.9,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BOCA ABAJO",
+        "BRAZOS ARRIBA"
+      ],
+      "sub": "Mirada al piso",
+      "vo": "Acostate boca abajo con los brazos estirados arriba de la cabeza. Mirada al suelo, cuello largo.",
+      "moves": [
+        {
+          "cut": "PRONE",
+          "at": 0
+        },
+        {
+          "to": "OVER",
+          "at": 0.8,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "DESPEGÁ",
+        "LOS BRAZOS"
+      ],
+      "sub": "Pecho y brazos del piso",
+      "vo": "Paso uno. Despegá el pecho y los brazos del suelo y mantenelos así durante todo el movimiento.",
+      "moves": [
+        {
+          "cut": "PRONE",
+          "at": 0
+        },
+        {
+          "to": "OVER",
+          "at": 0.6,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            780,
+            1180
+          ],
+          "text": "BRAZOS ARRIBA DEL PISO",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "ABRÍ",
+        "EN ARCO"
+      ],
+      "sub": "Hacia los costados",
+      "vo": "Paso dos. Abrí los brazos en arco hacia los costados, juntando las escápulas, sin apoyar las manos.",
+      "moves": [
+        {
+          "cut": "OVER",
+          "at": 0
+        },
+        {
+          "to": "OUT",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "LLEGÁ A",
+        "LA CADERA"
+      ],
+      "sub": "Palmas hacia el piso",
+      "vo": "Paso tres. Seguí el círculo hasta llevar las manos a los costados de la cadera, siempre despegadas del piso.",
+      "moves": [
+        {
+          "cut": "OUT",
+          "at": 0
+        },
+        {
+          "to": "SIDE",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "VOLVÉ",
+        "ARRIBA"
+      ],
+      "sub": "Cerrá el círculo",
+      "vo": "Paso cuatro. Volvé por el mismo camino hasta arriba de la cabeza. Cuello largo, sin hiperextender.",
+      "moves": [
+        {
+          "cut": "SIDE",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "OUT",
+              0.7
+            ],
+            [
+              "OVER",
+              0.7
+            ],
+            [
+              "OUT",
+              0.7
+            ],
+            [
+              "SIDE",
+              0.7
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Brazos siempre despegados",
+        "Mirada al suelo",
+        "Cuello largo",
+        "Movimiento lento y amplio"
+      ],
+      "vo": "Claves: brazos siempre despegados del piso, mirada al suelo para no hiperextender el cuello, y movimiento lento y amplio.",
+      "moves": [
+        {
+          "cut": "OUT",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "40 SEG"
+      ],
+      "sub": "Círculos lentos",
+      "vo": "Cuarenta segundos de círculos lentos. Brazos arriba del piso y cuello largo.",
+      "chips": [
+        {
+          "label": "1 · ARRIBA",
+          "at": 0.6
+        },
+        {
+          "label": "2 · ABRÍ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · CADERA",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "OVER",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "OUT",
+              0.7
+            ],
+            [
+              "SIDE",
+              0.7
+            ],
+            [
+              "OUT",
+              0.7
+            ],
+            [
+              "OVER",
+              0.7
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "OUT",
+    "grip": 0,
+    "zoom": 1
+  },
+  "youtube": {
+    "titulo": "Prone Around the World 🔥 espalda alta y hombros paso a paso | CrossFit",
+    "descripcion": "🔥 PRONE AROUND THE WORLD — espalda alta fuerte y hombros móviles.\n\nSi pasás horas sentado y tenés los hombros hacia adelante, este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Acostate boca abajo con los brazos estirados arriba de la cabeza, mirada al suelo y cuello largo.\n2️⃣ Despegá el pecho y los brazos del suelo y mantenelos así durante todo el movimiento.\n3️⃣ Abrí los brazos en arco hacia los costados, juntando las escápulas, sin apoyar las manos.\n4️⃣ Seguí el círculo hasta llevar las manos a los costados de la cadera, siempre despegadas del piso.\n5️⃣ Volvé por el mismo camino hasta arriba de la cabeza, con el cuello largo y sin hiperextender.\n\n✅ CLAVES DE TÉCNICA\n• Brazos siempre despegados del piso\n• Mirada al suelo para no hiperextender el cuello\n• Movimiento lento y amplio\n• Juntar las escápulas en todo el recorrido\n\n🎯 QUÉ TRABAJA\nDeltoides posterior · Erectores espinales · Romboides · Trapecio inferior · Trapecio medio\n\n⏱️ CUÁNTO\n40 segundos de círculos lentos, en la entrada en calor o como pausa de movilidad.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\r\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #ProneAroundtheWorld #Espalda #Entrenamiento",
+    "tags": [
+      "prone around the world",
+      "círculos de brazos boca abajo",
+      "espalda alta",
+      "movilidad de hombros",
+      "entrada en calor",
+      "postura",
+      "crossfit",
+      "trapecio inferior",
+      "romboides",
+      "ejercicio de postura"
+    ]
+  }
+}

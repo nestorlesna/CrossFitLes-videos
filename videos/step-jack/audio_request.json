@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Step Jack",
+      "text": "El jumping jack sin saltos. Mismo pulso, cero impacto."
+    },
+    {
+      "id": "02",
+      "text": "Parate con los pies juntos y los brazos pegados a los costados. Abdomen firme y mirada al frente."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Abrí una pierna al costado y apoyá el pie, mientras los brazos suben por los costados."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Los brazos terminan arriba de la cabeza. Mantené el pecho abierto y los hombros lejos de las orejas."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Volvé a la posición inicial y repetí con la otra pierna, alternando de lado."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Buscá ritmo para que suba el pulso, pero cuidado con terminar saltando: el punto es no impactar."
+    },
+    {
+      "id": "07",
+      "text": "Claves: una pierna por vez, brazos arriba de la cabeza, buscá ritmo y mantené cero impacto."
+    },
+    {
+      "id": "08",
+      "text": "Un minuto a ritmo parejo. Abrí, cerrá y mantené el pulso sin saltar."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

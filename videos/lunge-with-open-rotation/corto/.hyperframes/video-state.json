@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "a6afb27a-971a-4fab-8e6f-10495e068b7a",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "e7c15a3e8117b94018fc28d66d43f915f61d80879a80be5d19767e4336b640ed",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a6afb27a-971a-4fab-8e6f-10495e068b7a\\blobs\\e7\\e7c15a3e8117b94018fc28d66d43f915f61d80879a80be5d19767e4336b640ed"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a6afb27a-971a-4fab-8e6f-10495e068b7a\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "85e6691ca161273bf00e30e3b9df76cc6afddc4eece5257a5aaff519d3ebe305",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a6afb27a-971a-4fab-8e6f-10495e068b7a\\blobs\\85\\85e6691ca161273bf00e30e3b9df76cc6afddc4eece5257a5aaff519d3ebe305"
+    },
+    "meta.json": {
+      "hash": "50a67fc775b60addac91b195fabed47044710a2c8a7f3fe1492fdbd5ae60073d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a6afb27a-971a-4fab-8e6f-10495e068b7a\\blobs\\50\\50a67fc775b60addac91b195fabed47044710a2c8a7f3fe1492fdbd5ae60073d"
+    },
+    "package.json": {
+      "hash": "d0a9d531c65336414e8fd1903f508e0ada1a7f61ff1391bafaab3270cecca8fa",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a6afb27a-971a-4fab-8e6f-10495e068b7a\\blobs\\d0\\d0a9d531c65336414e8fd1903f508e0ada1a7f61ff1391bafaab3270cecca8fa"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "5e9fdab7-efdb-4aab-8b47-e942a9f25054",
+      "completedAt": 1793876908342,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\lunge-with-open-rotation\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

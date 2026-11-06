@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Ring Handstand Push-Up",
+      "text": "La flexión invertida en anillas. Solo para atletas avanzados."
+    },
+    {
+      "id": "02",
+      "text": "Arrancá en vertical sobre las anillas, con los brazos bloqueados y el cuerpo en una línea."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Mantené las anillas estables y pegadas a los hombros. Abdomen y glúteos apretados."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá controlado flexionando los codos, con la cabeza entre las manos."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Empujá hasta bloquear los brazos, con las anillas giradas hacia afuera arriba."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Hacelo solo con un handstand push-up estricto sólido en pared. Antes, progresá con un coach."
+    },
+    {
+      "id": "07",
+      "text": "Claves: anillas estables y pegadas a los hombros, cuerpo en una línea, bajá controlado y bloqueá arriba."
+    },
+    {
+      "id": "08",
+      "text": "Tres repeticiones. Bajá con control y empujá hasta bloquear."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

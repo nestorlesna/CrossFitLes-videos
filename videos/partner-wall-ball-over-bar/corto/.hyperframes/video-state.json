@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "fb3eb986-acab-46a6-ae0c-1588746b91f7",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\fb3eb986-acab-46a6-ae0c-1588746b91f7\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "db0d16709b2ec0040cf43f7386120a239d05391307750a15a4ee84e7d86f8f41",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\fb3eb986-acab-46a6-ae0c-1588746b91f7\\blobs\\db\\db0d16709b2ec0040cf43f7386120a239d05391307750a15a4ee84e7d86f8f41"
+    },
+    "meta.json": {
+      "hash": "2da71eed6635bbf2322d6145cefa025cf050aef09c0c96378aeda9531eb5ba48",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\fb3eb986-acab-46a6-ae0c-1588746b91f7\\blobs\\2d\\2da71eed6635bbf2322d6145cefa025cf050aef09c0c96378aeda9531eb5ba48"
+    },
+    "package.json": {
+      "hash": "434e053396a1cd36f6e6f9a05c047c3308a9c0816c450f3c52920a308afe90df",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\fb3eb986-acab-46a6-ae0c-1588746b91f7\\blobs\\43\\434e053396a1cd36f6e6f9a05c047c3308a9c0816c450f3c52920a308afe90df"
+    },
+    "assets/bgm/track-long.wav": {
+      "hash": "428e6b5ff1a3fdc9f0b5acc0301f479a03ce13879abb1a6b7d45b9a4a7412327",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\fb3eb986-acab-46a6-ae0c-1588746b91f7\\blobs\\42\\428e6b5ff1a3fdc9f0b5acc0301f479a03ce13879abb1a6b7d45b9a4a7412327"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "f55434ba-1a96-4d52-b968-114e48b97db2",
+      "completedAt": 1793839983182,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\partner-wall-ball-over-bar\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

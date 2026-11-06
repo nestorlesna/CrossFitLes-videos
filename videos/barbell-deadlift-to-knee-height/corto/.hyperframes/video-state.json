@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "351d6447-4c29-4417-9a49-ac190cbcbfa3",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "6afc709bb8af650dd3f97e57d384e96baaf664c3bee8fa31b17727389912e382",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\351d6447-4c29-4417-9a49-ac190cbcbfa3\\blobs\\6a\\6afc709bb8af650dd3f97e57d384e96baaf664c3bee8fa31b17727389912e382"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\351d6447-4c29-4417-9a49-ac190cbcbfa3\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "d66c28788a8353938cc2838cf9dd00cab14a22f833fe9cd02ad82ecfbb2db244",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\351d6447-4c29-4417-9a49-ac190cbcbfa3\\blobs\\d6\\d66c28788a8353938cc2838cf9dd00cab14a22f833fe9cd02ad82ecfbb2db244"
+    },
+    "meta.json": {
+      "hash": "f4d07d76f7f62237d2c220f0588474160fda5972153a43eb4554cab0d8acc27c",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\351d6447-4c29-4417-9a49-ac190cbcbfa3\\blobs\\f4\\f4d07d76f7f62237d2c220f0588474160fda5972153a43eb4554cab0d8acc27c"
+    },
+    "package.json": {
+      "hash": "514a4bafce0b24727cc84d9144f09cbf5eb105ca031009ccdd71a179cb3477da",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\351d6447-4c29-4417-9a49-ac190cbcbfa3\\blobs\\51\\514a4bafce0b24727cc84d9144f09cbf5eb105ca031009ccdd71a179cb3477da"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "448d161a-324d-4e55-8532-675e7a6b0176",
+      "completedAt": 1793873811254,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\barbell-deadlift-to-knee-height\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

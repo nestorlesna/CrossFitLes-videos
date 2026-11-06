@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lateral Shuffle",
+      "text": "El desplazamiento lateral en posición baja. Agilidad y piernas fuertes."
+    },
+    {
+      "id": "02",
+      "text": "Abrí los pies más que los hombros, flexioná rodillas y cadera y mantené el pecho arriba. Brazos listos al frente."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Empujá con la pierna de afuera y abrí un paso corto hacia el costado, sin cruzar los pies."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Traé el otro pie hacia el primero sin juntarlos del todo ni cruzar las piernas. La cadera siempre baja."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Repetí con pasos cortos y rápidos, sobre la planta del pie. Cuidá que la cabeza no suba y baje."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Cambiá de dirección sin levantarte: frená, empujá y volvé hacia el otro lado con el mismo ritmo."
+    },
+    {
+      "id": "07",
+      "text": "Claves: cadera baja todo el tiempo, pecho arriba, no cruces las piernas ni juntes los pies y da pasos cortos y rápidos."
+    },
+    {
+      "id": "08",
+      "text": "Veinte segundos de ida y vuelta. Cadera baja, pasos cortos y mucha actitud."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

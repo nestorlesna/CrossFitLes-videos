@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Dumbbell One-Arm Overhead Lunge",
+      "text": "Zancada con la mancuerna arriba en un solo brazo. Core y hombro, sin perder la vertical."
+    },
+    {
+      "id": "02",
+      "text": "Parate con la mancuerna arriba, el brazo bloqueado y el bíceps junto a la oreja, con la mancuerna sobre el hombro."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Da un paso largo hacia adelante y bajá en zancada, manteniendo el tronco erguido y el brazo arriba."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá hasta que la rodilla de atrás toque suave el piso y volvé empujando con el talón de adelante."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. El error es inclinarte hacia el lado de la mancuerna: mantené las costillas abajo y el brazo bien firme."
+    },
+    {
+      "id": "06",
+      "text": "Claves: brazo bloqueado arriba, bíceps junto a la oreja, tronco erguido sin inclinarte y rodilla trasera que toca suave el piso."
+    },
+    {
+      "id": "07",
+      "text": "Sesenta repeticiones en total, treinta por pierna. Si el hombro se cansa, bajá la mancuerna antes de perder la técnica."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

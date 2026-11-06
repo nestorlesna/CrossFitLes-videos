@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "b6f2e631-7da0-459b-8f91-febd9365ca50",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "5c83b717aec6109c432f8367302492076aea187d01f4884d0d7898707d3b56b0",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b6f2e631-7da0-459b-8f91-febd9365ca50\\blobs\\5c\\5c83b717aec6109c432f8367302492076aea187d01f4884d0d7898707d3b56b0"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b6f2e631-7da0-459b-8f91-febd9365ca50\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "88d80fe422d8144484f99bc9aae4f81b3ee47d4b8a202e96fb6ddd8b232700a6",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b6f2e631-7da0-459b-8f91-febd9365ca50\\blobs\\88\\88d80fe422d8144484f99bc9aae4f81b3ee47d4b8a202e96fb6ddd8b232700a6"
+    },
+    "meta.json": {
+      "hash": "f268777ca4856e437182327695467ad501b5a63e98959d5e3d4ddf7dd38c10e7",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b6f2e631-7da0-459b-8f91-febd9365ca50\\blobs\\f2\\f268777ca4856e437182327695467ad501b5a63e98959d5e3d4ddf7dd38c10e7"
+    },
+    "package.json": {
+      "hash": "034afd415b4f0d3e409fb27976fa26037856e67aab3e3267c184a51789ed8e32",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b6f2e631-7da0-459b-8f91-febd9365ca50\\blobs\\03\\034afd415b4f0d3e409fb27976fa26037856e67aab3e3267c184a51789ed8e32"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "9d12f8b3-f5b0-486e-a256-31d667b20a0e",
+      "completedAt": 1793839806906,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\goblet-squat-hold-press\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

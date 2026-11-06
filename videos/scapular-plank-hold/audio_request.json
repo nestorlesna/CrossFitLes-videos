@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Scapular Plank Hold",
+      "text": "Plancha alta, empujá el piso y separá las escápulas. Hombros estables."
+    },
+    {
+      "id": "02",
+      "text": "Arrancá en plancha alta, con las manos bajo los hombros, los codos extendidos y el cuerpo en línea."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Empujá el piso con las manos, como si quisieras alejarlo, sin doblar los codos."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Sentí cómo las escápulas se separan y la espalda alta se activa. Sostené sin hundir la cadera."
+    },
+    {
+      "id": "05",
+      "text": "Así no. Si la cadera se hunde, el core deja de sostener. Apretá glúteos y abdomen para volver a la línea."
+    },
+    {
+      "id": "06",
+      "text": "Claves: codos extendidos, empujá el piso, escápulas separadas y cadera en línea."
+    },
+    {
+      "id": "07",
+      "text": "Treinta segundos sosteniendo la protracción. Tres series. Si perdés la línea, terminá la serie."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

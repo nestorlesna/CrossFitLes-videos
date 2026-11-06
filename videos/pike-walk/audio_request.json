@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Pike Walk",
+      "text": "De la pica a la plancha caminando con las manos y volviendo con los pies."
+    },
+    {
+      "id": "02",
+      "text": "Arrancá en pica: cadera alta, manos y pies en el piso y las piernas lo más extendidas que puedas."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Caminá con las manos hacia adelante, una mano por vez, sin dejar caer la cadera."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos: llegás a la plancha alta, con el cuerpo en línea y las manos justo debajo de los hombros."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Para volver, caminá los pies hacia las manos y subí la cadera de nuevo a la pica."
+    },
+    {
+      "id": "06",
+      "text": "Error: si la cadera se hunde al pasar por la plancha, la espalda baja se sobrecarga y el movimiento se pierde."
+    },
+    {
+      "id": "07",
+      "text": "Claves: piernas lo más extendidas posible, la cadera alta en la pica y firme al pasar por la plancha, y las manos avanzan una por vez."
+    },
+    {
+      "id": "08",
+      "text": "Treinta segundos caminando de la pica a la plancha y de vuelta, sin dejar caer la cadera."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

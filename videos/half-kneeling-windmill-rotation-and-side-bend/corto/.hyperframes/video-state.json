@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "5f7acf02-3dc9-4019-aefd-a77ca08dfe3c",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "a39d6d52075740ccb42648bf3afe9a96cd98ccc4e17dac39e0eaaad57a479d17",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\5f7acf02-3dc9-4019-aefd-a77ca08dfe3c\\blobs\\a3\\a39d6d52075740ccb42648bf3afe9a96cd98ccc4e17dac39e0eaaad57a479d17"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\5f7acf02-3dc9-4019-aefd-a77ca08dfe3c\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "488708ea40d454e467a2add2bff43b875a9ffed23894681750afac6bcd1ce1e7",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\5f7acf02-3dc9-4019-aefd-a77ca08dfe3c\\blobs\\48\\488708ea40d454e467a2add2bff43b875a9ffed23894681750afac6bcd1ce1e7"
+    },
+    "meta.json": {
+      "hash": "9e4eb13a929535cc59b1bf62cb3946996dffa434162855f05e0483478126c0a5",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\5f7acf02-3dc9-4019-aefd-a77ca08dfe3c\\blobs\\9e\\9e4eb13a929535cc59b1bf62cb3946996dffa434162855f05e0483478126c0a5"
+    },
+    "package.json": {
+      "hash": "62bc104058a4977aad6695e88465a1bca5bafff1f65436f9fa457b5f6fd2567d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\5f7acf02-3dc9-4019-aefd-a77ca08dfe3c\\blobs\\62\\62bc104058a4977aad6695e88465a1bca5bafff1f65436f9fa457b5f6fd2567d"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "6f969bbe-d096-4df8-bb7d-88c29571e94f",
+      "completedAt": 1793874498296,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\half-kneeling-windmill-rotation-and-side-bend\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

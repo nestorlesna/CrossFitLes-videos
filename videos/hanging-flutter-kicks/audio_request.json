@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Hanging Flutter Kicks",
+      "text": "Colgado de la barra, piernas extendidas y aleteo corto. El abdomen no se apaga."
+    },
+    {
+      "id": "02",
+      "text": "Colgate con agarre firme, brazos estirados y las escápulas activas hacia abajo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Llevá las piernas extendidas al frente, sin doblar las rodillas."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Alterná el aleteo: una pierna sube y la otra baja, con un rango chico y constante."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si el cuerpo se hamaca, perdés la tensión del abdomen: frená el balanceo y volvé al centro."
+    },
+    {
+      "id": "06",
+      "text": "Claves: hombros activos, piernas rectas, aleteo corto y cero balanceo."
+    },
+    {
+      "id": "07",
+      "text": "Veinticuatro repeticiones, tres series. Si perdés la tensión, bajá y volvé a colgarte."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

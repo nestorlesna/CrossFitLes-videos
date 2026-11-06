@@ -1,0 +1,417 @@
+{
+  "slug": "hanging-leg-raise-with-rotation-over-box",
+  "name": "Hanging Leg Raise with Rotation Over Box",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Abdomen",
+    "Dorsal",
+    "Agarre"
+  ],
+  "descripcion": "Colgado de la barra, elevar las piernas extendidas hasta la horizontal y rotar la cadera para llevar los pies por encima de un cajón ubicado al costado, alternando lados.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 380,
+    "y": 1500,
+    "scale": 0.6
+  },
+  "pronuncia": {
+    "Hanging Leg Raise with Rotation Over Box": "Jánguin leg reis uid rotéishon óuver box"
+  },
+  "initialPose": "HANG",
+  "props": [
+    {
+      "type": "pullupbar",
+      "bar": [
+        0,
+        -1170
+      ],
+      "postX": -430
+    },
+    {
+      "type": "box",
+      "x0": 380,
+      "x1": 780,
+      "h": 380
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "HANG": {
+      "hip": [
+        0,
+        -562
+      ],
+      "b": 0,
+      "t": 0,
+      "s": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40
+    },
+    "RAISE": {
+      "hip": [
+        10,
+        -580
+      ],
+      "b": -10,
+      "t": -90,
+      "s": -90,
+      "ft": -90,
+      "hd": -8,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1
+    },
+    "ROT_A": {
+      "hip": [
+        10,
+        -580
+      ],
+      "b": -10,
+      "t": -90,
+      "s": -90,
+      "ft": -90,
+      "hd": -8,
+      "lr": 40,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1
+    },
+    "ROT_B": {
+      "hip": [
+        10,
+        -580
+      ],
+      "b": -10,
+      "t": -90,
+      "s": -90,
+      "ft": -90,
+      "hd": -8,
+      "lr": -40,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1
+    },
+    "KIP_BAD": {
+      "hip": [
+        -80,
+        -566
+      ],
+      "b": 16,
+      "t": 22,
+      "s": 30,
+      "hd": 12,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "LEG RAISE",
+        "ROTATION"
+      ],
+      "vo": "Hanging Leg Raise with Rotation Over Box: elevación de piernas con rotación sobre el cajón. Core de acero.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "RAISE",
+              0.6
+            ],
+            [
+              "ROT_A",
+              0.6
+            ],
+            [
+              "RAISE",
+              0.5
+            ],
+            [
+              "ROT_B",
+              0.6
+            ],
+            [
+              "RAISE",
+              0.5
+            ],
+            [
+              "HANG",
+              0.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "COLGADO CON",
+        "EL CAJÓN AL LADO"
+      ],
+      "sub": "Agarre firme, cuerpo quieto",
+      "vo": "Colgate de la barra con un agarre firme y el cuerpo quieto. El cajón queda ubicado a un costado.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "SUBÍ LAS",
+        "PIERNAS"
+      ],
+      "sub": "Rectas, hasta la horizontal",
+      "vo": "Paso uno. Elevá las piernas extendidas, juntas, hasta la horizontal. Las rodillas siempre rectas.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "RAISE",
+          "at": 0.6,
+          "dur": 1
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "ROTÁ LA",
+        "CADERA"
+      ],
+      "sub": "Pies sobre el cajón",
+      "vo": "Paso dos. Rotá la cadera para llevar los pies por encima del cajón. La rotación nace del core, no del balanceo.",
+      "moves": [
+        {
+          "cut": "RAISE",
+          "at": 0
+        },
+        {
+          "to": "ROT_A",
+          "at": 0.6,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            240,
+            900
+          ],
+          "text": "ROTÁ EN EL CORE",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "SIN",
+        "IMPULSO"
+      ],
+      "sub": "Es estricto",
+      "vo": "Paso tres. Evitá el impulso de kip: es un movimiento estricto, lento y controlado.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "KIP_BAD",
+          "at": 0.4,
+          "dur": 0.5
+        },
+        {
+          "to": "HANG",
+          "at": 1.6,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            240,
+            900
+          ],
+          "text": "KIP: NO",
+          "anchor": "middle",
+          "at": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ALTERNÁ",
+        "LADOS"
+      ],
+      "sub": "Volvé al centro entre lados",
+      "vo": "Paso cuatro. Volvé al centro y rotá hacia el otro lado, alternando con control en cada repetición.",
+      "moves": [
+        {
+          "cut": "RAISE",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ROT_A",
+              0.7
+            ],
+            [
+              "RAISE",
+              0.5
+            ],
+            [
+              "ROT_B",
+              0.7
+            ],
+            [
+              "RAISE",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Piernas rectas",
+        "Rotación desde el core",
+        "Sin impulso de kip",
+        "Alternar lados con control"
+      ],
+      "vo": "Claves: piernas rectas, la rotación sale del core, sin impulso de kip, y alterná los lados con control.",
+      "moves": [
+        {
+          "cut": "RAISE",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEG"
+      ],
+      "sub": "Alternando lados",
+      "vo": "Treinta segundos alternando lados. Piernas rectas, sin impulso y rotando desde el core.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · ROTÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "RAISE",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ROT_A",
+              0.7
+            ],
+            [
+              "RAISE",
+              0.5
+            ],
+            [
+              "ROT_B",
+              0.7
+            ],
+            [
+              "RAISE",
+              0.5
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "ROT_A",
+    "grip": 1,
+    "zoom": 1,
+    "dy": 160
+  },
+  "youtube": {
+    "titulo": "Hanging Leg Raise with Rotation Over Box 🔥 abdomen y agarre paso a paso | CrossFit",
+    "descripcion": "🔥 HANGING LEG RAISE WITH ROTATION OVER BOX — abdomen y agarre fuertes con trabajo de rotación.\n\nSi querés un core de acero y un agarre fuerte, este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Colgate de la barra con un agarre firme y el cuerpo quieto. El cajón queda ubicado a un costado.\n2️⃣ Elevá las piernas extendidas, juntas, hasta la horizontal. Las rodillas siempre rectas.\n3️⃣ Rotá la cadera para llevar los pies por encima del cajón. La rotación nace del core, no del balanceo.\n4️⃣ Evitá el impulso de kip: es un movimiento estricto, lento y controlado.\n5️⃣ Volvé al centro y rotá hacia el otro lado, alternando con control en cada repetición.\n\n✅ CLAVES DE TÉCNICA\n• Piernas rectas durante la elevación\n• La rotación nace del control del core, no del balanceo\n• Evitar el impulso de kip: es un movimiento estricto\n• Alternar lados con control\n\n🎯 QUÉ TRABAJA\nRecto abdominal · Dorsal ancho · Flexores del antebrazo · Recto femoral\n\n⏱️ CUÁNTO\n30 segundos alternando lados, como trabajo de fuerza o accesorio de core.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste elevaciones de piernas colgado, empezá con las rodillas flexionadas y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\r\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Fuerza #HangingLegRaisewithRotationOverBox #Core #Entrenamiento",
+    "tags": [
+      "hanging leg raise",
+      "elevación de piernas colgado",
+      "rotación sobre cajón",
+      "core",
+      "abdomen",
+      "barra",
+      "crossfit",
+      "agarre",
+      "gimnasia",
+      "fuerza"
+    ]
+  }
+}

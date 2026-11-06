@@ -1,0 +1,414 @@
+{
+  "name": "Dumbbell Row",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Dorsal",
+    "Bíceps",
+    "Espalda"
+  ],
+  "descripcion": "Inclinado al frente con la espalda recta, sostener una mancuerna con el brazo extendido y traccionar hacia la cadera llevando el codo hacia atrás, luego bajar con control. Un brazo a la vez.",
+  "notas": "Base de alternating-kettlebell-row con una sola mancuerna en la mano cercana (el brazo lejano cuelga con g2 0).",
+  "props": [
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "side": true,
+      "r": 44
+    }
+  ],
+  "initialPose": "HINGE",
+  "poses": {
+    "HINGE": {
+      "hip": [
+        -150,
+        -300
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 62,
+      "hd": 48,
+      "g": 1,
+      "ed": 1,
+      "hx": 90,
+      "hy": -120,
+      "g2": 0,
+      "ua2": -10,
+      "fa2": 2
+    },
+    "ROW": {
+      "hip": [
+        -150,
+        -300
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 62,
+      "hd": 48,
+      "g": 1,
+      "ed": -1,
+      "hx": -40,
+      "hy": -290,
+      "g2": 0,
+      "ua2": -10,
+      "fa2": 2
+    },
+    "TORSO_BAD": {
+      "hip": [
+        -150,
+        -300
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 44,
+      "hd": 28,
+      "g": 1,
+      "ed": -1,
+      "hx": -40,
+      "hy": -290,
+      "g2": 0,
+      "ua2": -10,
+      "fa2": 2
+    },
+    "BACK_BAD": {
+      "hip": [
+        -150,
+        -300
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 70,
+      "hd": 100,
+      "cv": 30,
+      "g": 1,
+      "ed": -1,
+      "hx": -40,
+      "hy": -290,
+      "g2": 0,
+      "ua2": -10,
+      "fa2": 2
+    },
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": 2,
+      "fa2": 0
+    }
+  },
+  "miniatura": {
+    "pose": "ROW",
+    "grip": 1,
+    "zoom": 1.12,
+    "dy": 140
+  },
+  "slug": "dumbbell-row",
+  "revisado": false,
+  "music": true,
+  "musicVolume": 0.18,
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "DUMBBELL",
+        "ROW"
+      ],
+      "vo": "Dumbbell Row: remo con mancuerna, un brazo a la vez. Espalda fuerte y codo pegado al cuerpo.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "HINGE",
+              0.7
+            ],
+            [
+              "ROW",
+              0.5
+            ],
+            [
+              "HINGE",
+              0.6
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "INCLINATE",
+        "AL FRENTE"
+      ],
+      "sub": "Espalda recta",
+      "vo": "Inclinate al frente con la espalda recta, las rodillas suaves y la mancuerna colgando con el brazo extendido.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "HINGE",
+          "at": 1.4,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ESPALDA RECTA",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BISAGRA",
+        "DE CADERA"
+      ],
+      "sub": "Sin redondear",
+      "vo": "Paso uno. Hacé bisagra de cadera: mandá la cola atrás con la espalda recta y la mancuerna colgando.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "to": "BACK_BAD",
+          "at": 2.4,
+          "dur": 0.6
+        },
+        {
+          "to": "HINGE",
+          "at": 3.8,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ESPALDA NEUTRA",
+          "anchor": "middle",
+          "at": 0.8,
+          "out": 2.3
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            820
+          ],
+          "text": "ESPALDA REDONDA NO",
+          "anchor": "middle",
+          "at": 2.5,
+          "out": 3.7
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "CODO",
+        "ATRÁS"
+      ],
+      "sub": "Pegado al cuerpo",
+      "vo": "Paso dos. Traccioná la mancuerna hacia la cadera y llevá el codo bien atrás, pegado al cuerpo.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "to": "ROW",
+          "at": 0.7,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "ROW.E",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 70,
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            700,
+            980
+          ],
+          "text": "CODO PEGADO",
+          "anchor": "start",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "CONTROLADO"
+      ],
+      "sub": "Estirá el brazo",
+      "vo": "Paso tres. Bajá la mancuerna con control hasta estirar el brazo, sin perder la espalda recta.",
+      "moves": [
+        {
+          "cut": "ROW",
+          "at": 0
+        },
+        {
+          "to": "HINGE",
+          "at": 0.7,
+          "dur": 0.9
+        },
+        {
+          "to": "TORSO_BAD",
+          "at": 2.9,
+          "dur": 0.6
+        },
+        {
+          "to": "HINGE",
+          "at": 4.2,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "SIN ROTAR EL TRONCO",
+          "anchor": "middle",
+          "at": 1.0,
+          "out": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            820
+          ],
+          "text": "TE LEVANTÁS NO",
+          "anchor": "middle",
+          "at": 3.0,
+          "out": 4.1
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Bisagra de cadera",
+        "Codo pegado al cuerpo",
+        "Espalda neutra, sin rotar",
+        "Apretá la escápula arriba"
+      ],
+      "vo": "Claves: bisagra de cadera, codo pegado al cuerpo, espalda neutra sin rotar el tronco y apretá la escápula arriba.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Con 20 kg",
+      "vo": "Diez repeticiones con veinte kilos por lado. Alterná los brazos y no rotes el tronco.",
+      "chips": [
+        {
+          "label": "1 · TIRÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · CODO ATRÁS",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "ROW",
+              0.8
+            ],
+            [
+              "HINGE",
+              0.9
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "youtube": {
+    "titulo": "Dumbbell Row 🔥 Remo a una mano: dorsal fuerte sin rotar | CrossFit",
+    "tags": [
+      "dumbbell row",
+      "remo con mancuerna",
+      "remo a una mano",
+      "remo unilateral",
+      "dorsal ancho",
+      "espalda",
+      "bíceps",
+      "fuerza",
+      "crossfit",
+      "mancuernas"
+    ],
+    "descripcion": "🔥 DUMBBELL ROW — remo a una mano: espalda fuerte y codo pegado\n\n¿El remo te deja el dorsal dormido y el bíceps cansado? El secreto es el codo: pegado al cuerpo y bien atrás. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Inclinate al frente con la espalda recta, las rodillas suaves y la mancuerna colgando.\n2️⃣ Hacé bisagra de cadera: cadera atrás, espalda neutra y el peso colgando del brazo extendido.\n3️⃣ Traccioná la mancuerna hacia la cadera llevando el codo bien atrás, pegado al cuerpo.\n4️⃣ Bajá con control hasta estirar el brazo, sin perder la espalda recta.\n5️⃣ Completá las repeticiones y cambiá de brazo.\n\n✅ CLAVES DE TÉCNICA\n• Bisagra de cadera, no sentadilla\n• Codo pegado al cuerpo todo el recorrido\n• No rotes el tronco para tirar más peso\n• Apretá la escápula al final del jalón\n• Espalda neutra de principio a fin\n\n🎯 QUÉ TRABAJA\nDorsal ancho · Bíceps braquial · Recto abdominal · Trapecio superior\n\n⏱️ CUÁNTO\n10 repeticiones con 20 kg por lado. Ideal como fuerza de espalda o accesorio de dominadas.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste remo con mancuerna, arrancá liviano y con un coach mirando la espalda.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #DumbbellRow #RemoConMancuerna #Dorsal #Fuerza"
+  }
+}

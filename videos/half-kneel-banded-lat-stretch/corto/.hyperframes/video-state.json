@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "1033fc60-ee9a-4b34-a759-e3c1a746545e",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "162db5da90e57ac156231b3e77d41bd085742c497e2f13e3c1fcdb75b522893e",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1033fc60-ee9a-4b34-a759-e3c1a746545e\\blobs\\16\\162db5da90e57ac156231b3e77d41bd085742c497e2f13e3c1fcdb75b522893e"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1033fc60-ee9a-4b34-a759-e3c1a746545e\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "b3ca3f26848f5496fb4e6fa8bc80cd69f410e7a7885ed588d1d9ab02c4ae397d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1033fc60-ee9a-4b34-a759-e3c1a746545e\\blobs\\b3\\b3ca3f26848f5496fb4e6fa8bc80cd69f410e7a7885ed588d1d9ab02c4ae397d"
+    },
+    "meta.json": {
+      "hash": "144bfd102016e774128f24aa917121197bb42ea863c10c079bdab67949bfb07d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1033fc60-ee9a-4b34-a759-e3c1a746545e\\blobs\\14\\144bfd102016e774128f24aa917121197bb42ea863c10c079bdab67949bfb07d"
+    },
+    "package.json": {
+      "hash": "d9cd46146c4d79ea724084650896ef0de50c7c6045c568c7c1ba839c9c6e75b5",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1033fc60-ee9a-4b34-a759-e3c1a746545e\\blobs\\d9\\d9cd46146c4d79ea724084650896ef0de50c7c6045c568c7c1ba839c9c6e75b5"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "22f5b070-892a-4c18-93db-b733a84407d9",
+      "completedAt": 1793876195051,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\half-kneel-banded-lat-stretch\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

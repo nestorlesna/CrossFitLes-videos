@@ -1,0 +1,318 @@
+{
+  "slug": "dumbbell-hip-thrust",
+  "name": "Dumbbell Hip Thrust",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Glúteos",
+    "Isquios",
+    "Core"
+  ],
+  "descripcion": "Con la parte alta de la espalda apoyada en un banco y una mancuerna apoyada sobre la cadera, empujar con los talones para extender la cadera hasta que tronco y muslos queden alineados, bajar controlando.",
+  "revisado": false,
+  "notas": "Banco plano (prop bench) detrás de los omóplatos; mancuerna libre sobre la pelvis con bf 1.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 610,
+    "y": 1504,
+    "scale": 0.78
+  },
+  "initialPose": "SIT",
+  "props": [
+    {
+      "type": "bench",
+      "x0": -520,
+      "x1": -180,
+      "h": 250
+    },
+    {
+      "type": "dumbbell",
+      "r": 44,
+      "off": [
+        0,
+        0
+      ]
+    }
+  ],
+  "poses": {
+    "SIT": {
+      "hip": [
+        -31,
+        -36
+      ],
+      "ankle": [
+        300,
+        0
+      ],
+      "b": -50,
+      "hd": -20,
+      "g": 1,
+      "ua": 20,
+      "fa": 20,
+      "g2": 1,
+      "ua2": 20,
+      "fa2": 20,
+      "bf": 1,
+      "bx": -31,
+      "by": -96,
+      "hx": -31,
+      "hy": -96,
+      "ed": 1
+    },
+    "UP": {
+      "hip": [
+        35,
+        -216
+      ],
+      "ankle": [
+        300,
+        0
+      ],
+      "b": -90,
+      "hd": -60,
+      "g": 1,
+      "ua": 20,
+      "fa": 20,
+      "g2": 1,
+      "ua2": 20,
+      "fa2": 20,
+      "bf": 1,
+      "bx": 35,
+      "by": -276,
+      "hx": 35,
+      "hy": -276,
+      "ed": 1
+    }
+  },
+  "miniatura": {
+    "pose": "UP",
+    "grip": 0,
+    "zoom": 1.05,
+    "dy": 180
+  },
+  "youtube": {
+    "titulo": "Dumbbell Hip Thrust 🔥 Glúteo fuerte y cadera sana | CrossFit",
+    "tags": [
+      "dumbbell hip thrust",
+      "empuje de cadera",
+      "hip thrust con mancuerna",
+      "glúteo",
+      "glúteo mayor",
+      "isquiotibiales",
+      "cadera",
+      "fuerza",
+      "crossfit",
+      "accesorio"
+    ],
+    "descripcion": "🔥 DUMBBELL HIP THRUST — glúteo fuerte y cadera sana\n\n¿Sentís que el glúteo no trabaja cuando hacés puente? El hip thrust con mancuerna te da el rango justo para cargar sin molestar la lumbar. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Apoyá la parte alta de la espalda en el banco y los pies al ancho de las caderas.\n2️⃣ Poné la mancuerna sobre la pelvis y llevá las costillas abajo, con el mentón apenas al pecho.\n3️⃣ Empujá con los talones y extendé la cadera hasta alinear tronco y muslos.\n4️⃣ Apretá el glúteo arriba y bajá con control, sin perder la posición.\n5️⃣ Pausá un segundo arriba y encadená las repeticiones.\n\n✅ CLAVES DE TÉCNICA\n• Talones firmes en el piso\n• Costillas abajo y mentón al pecho\n• Cadera alineada con tronco y muslos, sin hiperextender\n• Apretá el glúteo arriba, no la lumbar\n• Bajá controlando, sin rebotar\n\n🎯 QUÉ TRABAJA\nGlúteo mayor · Isquiotibiales · Recto abdominal · Aductores\n\n⏱️ CUÁNTO\n10 repeticiones con 15 kg. Ideal como accesorio de fuerza o para compensar tanto sentadilla.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés dolor lumbar, arrancá sin peso y con un coach mirando la posición de la cadera.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #HipThrust #Glúteo #Fuerza #Accesorio"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "HIP",
+        "THRUST"
+      ],
+      "vo": "Dumbbell Hip Thrust: empuje de cadera con mancuerna sobre la pelvis. Glúteo fuerte y espalda protegida.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "SIT",
+              0.9
+            ],
+            [
+              "UP",
+              0.7
+            ],
+            [
+              "SIT",
+              0.9
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESPALDA",
+        "EN EL BANCO"
+      ],
+      "sub": "Pies al ancho de caderas",
+      "vo": "Apoyá la parte alta de la espalda en el banco, los pies al ancho de las caderas y la mancuerna sobre la pelvis.",
+      "moves": [
+        {
+          "cut": "SIT",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "TALONES",
+        "FIRMES"
+      ],
+      "sub": "Costillas abajo",
+      "vo": "Paso uno. Apoyá bien los talones y llevá las costillas abajo, con el mentón apenas al pecho.",
+      "moves": [
+        {
+          "cut": "SIT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            780,
+            980
+          ],
+          "text": "TALONES FIRMES",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "EMPUJÁ",
+        "CON TALONES"
+      ],
+      "sub": "Cadera arriba",
+      "vo": "Paso dos. Empujá con los talones y extendé la cadera hasta alinear tronco y muslos.",
+      "moves": [
+        {
+          "cut": "SIT",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 1.0,
+          "dur": 0.8,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            760
+          ],
+          "text": "CADERA ALINEADA",
+          "anchor": "middle",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "APRETÁ",
+        "Y BAJÁ"
+      ],
+      "sub": "Sin arquear",
+      "vo": "Paso tres. Apretá el glúteo arriba, sin arquear la lumbar, y bajá con control.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "SIT",
+          "at": 1.4,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            760
+          ],
+          "text": "GLÚTEO APRETADO",
+          "anchor": "middle",
+          "at": 0.4,
+          "out": 2.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Talones firmes en el piso",
+        "Costillas abajo, mentón al pecho",
+        "Cadera alineada con tronco y muslos",
+        "Apretá el glúteo, no la lumbar"
+      ],
+      "vo": "Claves: talones firmes, costillas abajo, cadera alineada y glúteo apretado arriba. Nada de hiperextender.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "15 kg",
+      "vo": "Diez repeticiones con quince kilos. Pausá un segundo arriba y bajá controlando.",
+      "chips": [
+        {
+          "label": "1 · EMPUJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "UP",
+              0.8
+            ],
+            [
+              "SIT",
+              0.9
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

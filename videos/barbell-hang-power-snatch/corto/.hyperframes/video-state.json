@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "8ebcfd09-5232-43d7-80bf-7f5261b60f82",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "729219766d304bb04d0eb2707372441d02695204eaf2edef259fdc3cc97011b3",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\8ebcfd09-5232-43d7-80bf-7f5261b60f82\\blobs\\72\\729219766d304bb04d0eb2707372441d02695204eaf2edef259fdc3cc97011b3"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\8ebcfd09-5232-43d7-80bf-7f5261b60f82\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "f5becffc7a2e21e995c2aa06b6eba3e4e460cc3bc4815219b2d3f4a998111056",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\8ebcfd09-5232-43d7-80bf-7f5261b60f82\\blobs\\f5\\f5becffc7a2e21e995c2aa06b6eba3e4e460cc3bc4815219b2d3f4a998111056"
+    },
+    "meta.json": {
+      "hash": "47f1c5cfee59e6cb3a0eea9c3d5c523f71d98b37da7605b0d1780c318ab7d0ab",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\8ebcfd09-5232-43d7-80bf-7f5261b60f82\\blobs\\47\\47f1c5cfee59e6cb3a0eea9c3d5c523f71d98b37da7605b0d1780c318ab7d0ab"
+    },
+    "package.json": {
+      "hash": "698fd5cc7dd9324b2d8d7f7f251a239c6a4afbb04eef9d102d8f70c3aded977a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\8ebcfd09-5232-43d7-80bf-7f5261b60f82\\blobs\\69\\698fd5cc7dd9324b2d8d7f7f251a239c6a4afbb04eef9d102d8f70c3aded977a"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "b2691581-52ea-454b-99fa-d1a03da93885",
+      "completedAt": 1793839215236,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\barbell-hang-power-snatch\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

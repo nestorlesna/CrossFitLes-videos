@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "881653f3-29ae-49c9-9a17-98ed20215717",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "1fc4e11a4275b7d7b598fb29628778f81b7bd7316defc7cf628764a89b99fb68",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\881653f3-29ae-49c9-9a17-98ed20215717\\blobs\\1f\\1fc4e11a4275b7d7b598fb29628778f81b7bd7316defc7cf628764a89b99fb68"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\881653f3-29ae-49c9-9a17-98ed20215717\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "3e83b775daa8277b45fe0b7304f37ca6f3b41e7947c95ada087bb7fb15d56014",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\881653f3-29ae-49c9-9a17-98ed20215717\\blobs\\3e\\3e83b775daa8277b45fe0b7304f37ca6f3b41e7947c95ada087bb7fb15d56014"
+    },
+    "meta.json": {
+      "hash": "7aa28e8bc03be130d608f5b3cb45a072a045590c0fef0463e9e0f4423ca93f56",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\881653f3-29ae-49c9-9a17-98ed20215717\\blobs\\7a\\7aa28e8bc03be130d608f5b3cb45a072a045590c0fef0463e9e0f4423ca93f56"
+    },
+    "package.json": {
+      "hash": "3f86e93ad261c19337103ae89eb07edef12761401c2ad4ae84631208f37cf1c4",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\881653f3-29ae-49c9-9a17-98ed20215717\\blobs\\3f\\3f86e93ad261c19337103ae89eb07edef12761401c2ad4ae84631208f37cf1c4"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "a8fea803-b8f9-49f6-af1b-eb41ab0683c5",
+      "completedAt": 1793838460107,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\alternating-single-arm-dumbbell-power-snatch\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

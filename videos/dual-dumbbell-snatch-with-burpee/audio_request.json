@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Dual Dumbbell Snatch with Burpee",
+      "text": "Burpee con dos mancuernas y snatch doble arriba. Potencia total."
+    },
+    {
+      "id": "02",
+      "text": "De pie, con una mancuerna en cada mano y los pies al ancho de los hombros."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Hacé bisagra, apoyá las mancuernas en el piso y saltá los pies atrás a la plancha."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Empujá del piso y volvé con los pies para agarrar las dos mancuernas."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Extendé la cadera con fuerza y llevá las dos mancuernas arriba de la cabeza."
+    },
+    {
+      "id": "06",
+      "text": "Claves: espalda neutra, pecho al piso, extensión explosiva de cadera y brazos bloqueados arriba."
+    },
+    {
+      "id": "07",
+      "text": "Ocho repeticiones. Una mancuerna en cada mano, sin perder la espalda neutra."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

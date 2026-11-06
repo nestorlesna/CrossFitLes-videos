@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "1419b46f-dadb-48d3-8766-a7435a37e654",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "1cbd4a389c20584077a35f2ef52f0f8b3f146839781f984be5845c3bce73329a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1419b46f-dadb-48d3-8766-a7435a37e654\\blobs\\1c\\1cbd4a389c20584077a35f2ef52f0f8b3f146839781f984be5845c3bce73329a"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1419b46f-dadb-48d3-8766-a7435a37e654\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "38914011ca81e81d779ea340330e92a5a8b06f944b62185fd0323c7ebed7c2e9",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1419b46f-dadb-48d3-8766-a7435a37e654\\blobs\\38\\38914011ca81e81d779ea340330e92a5a8b06f944b62185fd0323c7ebed7c2e9"
+    },
+    "meta.json": {
+      "hash": "58942040b6e8cc771c69da987aaede5327f13b604d94d47ad08fda4a66db8ec2",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1419b46f-dadb-48d3-8766-a7435a37e654\\blobs\\58\\58942040b6e8cc771c69da987aaede5327f13b604d94d47ad08fda4a66db8ec2"
+    },
+    "package.json": {
+      "hash": "3721095b636ba8683f03ea7bf4015b729138ac5dc670dfb3f67ad6c878993a4e",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1419b46f-dadb-48d3-8766-a7435a37e654\\blobs\\37\\3721095b636ba8683f03ea7bf4015b729138ac5dc670dfb3f67ad6c878993a4e"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "591611ab-22c0-4340-b7e1-178f3af84d38",
+      "completedAt": 1793874883463,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\alternating-heel-touches\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

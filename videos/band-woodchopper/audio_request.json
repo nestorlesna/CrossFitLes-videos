@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Band Woodchopper",
+      "text": "El leñador con bánda. Rotación fuerte para oblicuos y core."
+    },
+    {
+      "id": "02",
+      "text": "Anclá la bánda arriba y agarrala con las dos manos, brazos estirados sobre un hombro. Pies al ancho de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Tirá de la bánda en diagonal, desde arriba del hombro hasta la cadera contraria."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. La rotación sale del tronco y la cadera, con los brazos extendidos como cables. No tires con los brazos."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Volvé a la posición inicial resistiendo la bánda, sin soltarla de golpe."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Trabajá los dos lados por igual: mismas repeticiones del otro costado."
+    },
+    {
+      "id": "07",
+      "text": "Claves: la rotación viene del tronco, brazos extendidos, la cadera acompaña y trabajá los dos lados por igual."
+    },
+    {
+      "id": "08",
+      "text": "Veinte segundos por lado. Tirá en diagonal, rotá y volvé con control."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

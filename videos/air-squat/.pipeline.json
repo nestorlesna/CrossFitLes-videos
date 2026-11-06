@@ -1,9 +1,17 @@
 {
   "voz": true,
   "composicion": true,
-  "duracion": 48.762,
+  "duracion": 49.056,
   "check": true,
   "miniatura": true,
-  "renderizado": "2026-10-16",
-  "renderHash": "4e2bce6a18f5"
+  "renderizado": "2026-10-28",
+  "renderHash": "4e2bce6a18f5",
+  "vozEn": "kokoro:af_heart",
+  "archivo": "OC_2_air-squat.mp4",
+  "renderVozEn": "kokoro:af_heart",
+  "corto": "air-squat.corto.mp4",
+  "cortoHash": "4e2bce6a18f5",
+  "cortoFecha": "2026-11-04",
+  "cortoReps": 4,
+  "cortoDuracion": 8.4
 }

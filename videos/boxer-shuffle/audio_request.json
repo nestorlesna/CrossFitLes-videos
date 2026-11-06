@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Boxer Shuffle",
+      "text": "Pasos rápidos y cortos en base amplia, con la guardia arriba y el peso pasando de un pie al otro."
+    },
+    {
+      "id": "02",
+      "text": "Parate en base amplia, con las rodillas flojas, el peso sobre la planta y las manos a la altura del mentón."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Mové los pies con pasos cortos y rápidos, sin levantar las rodillas ni cruzar las piernas."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Pasá el peso de un pie al otro con un rebote chico: los talones apenas se despegan y el cuerpo no se va del lugar."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. La guardia no baja nunca: si dejás caer las manos, el ejercicio pierde el sentido y se afloja la postura."
+    },
+    {
+      "id": "06",
+      "text": "Claves: peso sobre la planta con los talones despegados, hombros relajados, manos al mentón y pasos cortos sin cruzar."
+    },
+    {
+      "id": "07",
+      "text": "Veinte segundos a ritmo rápido y parejo. Mantené la guardia arriba durante todo el tiempo."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "2e1e638b-32d1-4b3e-87dd-cb3da8493339",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "330ea4244c0fd3f6aacb2db0cfb523518453811019a9a9ee62940692828bf80f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2e1e638b-32d1-4b3e-87dd-cb3da8493339\\blobs\\33\\330ea4244c0fd3f6aacb2db0cfb523518453811019a9a9ee62940692828bf80f"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2e1e638b-32d1-4b3e-87dd-cb3da8493339\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "b2ace15972b4688cfb23de91371d9f31b6aae5d60f690b3a51433ae9bff8ea1a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2e1e638b-32d1-4b3e-87dd-cb3da8493339\\blobs\\b2\\b2ace15972b4688cfb23de91371d9f31b6aae5d60f690b3a51433ae9bff8ea1a"
+    },
+    "meta.json": {
+      "hash": "a62014bbfcc3108a3704c9b5aaa504011b2f6fa3d6cf3f4ceb291fd1e1db45ce",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2e1e638b-32d1-4b3e-87dd-cb3da8493339\\blobs\\a6\\a62014bbfcc3108a3704c9b5aaa504011b2f6fa3d6cf3f4ceb291fd1e1db45ce"
+    },
+    "package.json": {
+      "hash": "59e9741b798a3f72abe157375031c93210904a1b144c3ff4831adefc5f4823f1",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2e1e638b-32d1-4b3e-87dd-cb3da8493339\\blobs\\59\\59e9741b798a3f72abe157375031c93210904a1b144c3ff4831adefc5f4823f1"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "5dd3ef8d-acbb-4621-9b46-54738def1ada",
+      "completedAt": 1793838706161,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\kettlebell-good-morning\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Side Lying Thoracic Opening",
+      "text": "La apertura de libro. Movilidad para la espalda alta."
+    },
+    {
+      "id": "02",
+      "text": "Acostate de lado con las rodillas flexionadas y apoyadas, y los brazos juntos al frente, a la altura del pecho."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Despegá el brazo de arriba y seguí tu mano con la mirada. Las rodillas quedan apoyadas."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Abrí el brazo en arco, como la tapa de un libro, hasta apoyarlo del otro lado, rotando el pecho."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Las rodillas no acompañan: si se despegan, perdés la rotación de la espalda alta."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Acompañá la apertura con una exhalación larga y volvé al inicio con control."
+    },
+    {
+      "id": "07",
+      "text": "Claves: rodillas apoyadas, mirada siguiendo la mano, exhalación larga al abrir y rotación que sale del pecho."
+    },
+    {
+      "id": "08",
+      "text": "Diez repeticiones por lado, lentas. Abrí, exhalá y volvé con control."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

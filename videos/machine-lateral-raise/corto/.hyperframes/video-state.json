@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "6f969eae-7751-4056-a356-beaeeea139bf",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "64c639fc9388566105804d035c6b54281809b865df99ab13e956d224e746cfe3",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\6f969eae-7751-4056-a356-beaeeea139bf\\blobs\\64\\64c639fc9388566105804d035c6b54281809b865df99ab13e956d224e746cfe3"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\6f969eae-7751-4056-a356-beaeeea139bf\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "0ce0b277c34e4051b9762de95f854c58d52b49d8b82e4d21fb9da2e2d7b9ff44",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\6f969eae-7751-4056-a356-beaeeea139bf\\blobs\\0c\\0ce0b277c34e4051b9762de95f854c58d52b49d8b82e4d21fb9da2e2d7b9ff44"
+    },
+    "meta.json": {
+      "hash": "239e59d48615b6cbb7bf948400689c102f6d66c70bfa9b255053540e748c46fd",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\6f969eae-7751-4056-a356-beaeeea139bf\\blobs\\23\\239e59d48615b6cbb7bf948400689c102f6d66c70bfa9b255053540e748c46fd"
+    },
+    "package.json": {
+      "hash": "aea68f1305b82723179f5613c12626db741b70bf4850f6805d7c45a7ff09cd31",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\6f969eae-7751-4056-a356-beaeeea139bf\\blobs\\ae\\aea68f1305b82723179f5613c12626db741b70bf4850f6805d7c45a7ff09cd31"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "fb5dfd61-90a3-4af0-b490-071f18867782",
+      "completedAt": 1793880656179,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\machine-lateral-raise\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

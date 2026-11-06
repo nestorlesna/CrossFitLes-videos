@@ -1,0 +1,352 @@
+{
+  "slug": "barbell-lunge",
+  "name": "Barbell Lunge",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Piernas",
+    "Glúteos",
+    "Core"
+  ],
+  "descripcion": "Zancada con barra apoyada en la espalda: dar un paso largo, bajar hasta que la rodilla de atrás casi toque el piso y volver empujando con el pie de adelante.",
+  "revisado": false,
+  "notas": "Zancada con barra en la espalda; piernas de weighted-lunge, brazos de barbell-back-squat.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 440,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "torso": [
+        -34,
+        18
+      ],
+      "r": 80
+    }
+  ],
+  "pronuncia": {
+    "Weighted Lunge": "Uéited lanch"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": -12,
+      "fa": 178,
+      "ua2": -8,
+      "fa2": 174
+    },
+    "LUNGE_N": {
+      "s": 1.95,
+      "t": -82.31,
+      "s2": 89.94,
+      "t2": 10.81,
+      "rx": 290,
+      "ry": 0,
+      "ft": 0,
+      "ft2": 48,
+      "b": 2,
+      "hd": 0,
+      "g": 0,
+      "ua": -12,
+      "fa": 178,
+      "ua2": -8,
+      "fa2": 174
+    },
+    "LUNGE_F": {
+      "s": 89.94,
+      "t": 10.81,
+      "s2": 1.95,
+      "t2": -82.31,
+      "rx": -215,
+      "ry": -26,
+      "ft": 48,
+      "ft2": 0,
+      "b": 2,
+      "hd": 0,
+      "g": 0,
+      "ua": -12,
+      "fa": 178,
+      "ua2": -8,
+      "fa2": 174
+    },
+    "LEAN": {
+      "s": 1.95,
+      "t": -82.31,
+      "s2": 89.94,
+      "t2": 10.81,
+      "rx": 290,
+      "ry": 0,
+      "ft": 0,
+      "ft2": 48,
+      "b": 26,
+      "hd": 20,
+      "g": 0,
+      "ua": -12,
+      "fa": 178,
+      "ua2": -8,
+      "fa2": 174
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "BARBELL",
+        "LUNGE"
+      ],
+      "vo": "Barbell Lunge: zancada con barra en la espalda. Paso largo, rodilla controlada y empuje con el pie de adelante.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "LUNGE_N",
+              0.9
+            ],
+            [
+              "STAND",
+              0.8
+            ],
+            [
+              "LUNGE_F",
+              0.9
+            ],
+            [
+              "STAND",
+              0.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 4.8,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE"
+      ],
+      "sub": "Una mancuerna en cada mano",
+      "vo": "Parate derecho con una mancuerna en cada mano, los brazos al costado del cuerpo.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "PASO",
+        "LARGO"
+      ],
+      "sub": "Adelante",
+      "vo": "Paso uno. Da un paso largo hacia adelante, con la barra estable en la espalda y el torso erguido.",
+      "moves": [
+        {
+          "to": "LUNGE_N",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "BAJÁ",
+        "LA RODILLA"
+      ],
+      "sub": "Casi al piso",
+      "vo": "Paso dos. Bajá hasta que la rodilla de atrás casi toque el piso, sin inclinar el torso.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "LUNGE_N",
+          "at": 0.5,
+          "dur": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "VOLVÉ",
+        "ARRIBA"
+      ],
+      "sub": "Empujando con la de adelante",
+      "vo": "Paso tres. Empujá con el pie de adelante y volvé a quedar de pie, con el core activo.",
+      "moves": [
+        {
+          "cut": "LUNGE_N",
+          "at": 0
+        },
+        {
+          "to": "STAND",
+          "at": 0.6,
+          "dur": 1.1
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ALTERNÁ",
+        "PIERNAS"
+      ],
+      "sub": "Una y otra",
+      "vo": "Paso cuatro. Repetí con la otra pierna y seguí alternando sin perder el control de la barra.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "LUNGE_F",
+          "at": 0.5,
+          "dur": 1.1
+        },
+        {
+          "to": "STAND",
+          "at": 2.0,
+          "dur": 0.9
+        },
+        {
+          "to": "LEAN",
+          "at": 3.2,
+          "dur": 0.6
+        },
+        {
+          "to": "LUNGE_N",
+          "at": 4.3,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Torso erguido",
+        "Rodilla alineada con el pie",
+        "Paso bien largo",
+        "Core activo siempre"
+      ],
+      "vo": "Claves: torso erguido, rodilla de adelante alineada con el pie, paso largo y el core activo todo el recorrido.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "LUNGE_N",
+              0.9
+            ],
+            [
+              "STAND",
+              0.8
+            ],
+            [
+              "LUNGE_F",
+              0.9
+            ],
+            [
+              "STAND",
+              0.8
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "8 + 8 REPS"
+      ],
+      "sub": "Con 10 kg, alternando",
+      "vo": "Ocho repeticiones por pierna con treinta kilos. Si la barra se mueve, bajá el peso.",
+      "chips": [
+        {
+          "label": "1 · DERECHA",
+          "at": 0.5
+        },
+        {
+          "label": "2 · IZQUIERDA",
+          "at": 2.2
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "LUNGE_N",
+              0.9
+            ],
+            [
+              "STAND",
+              0.8
+            ],
+            [
+              "LUNGE_F",
+              0.9
+            ],
+            [
+              "STAND",
+              0.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "LUNGE_F",
+    "grip": 0,
+    "zoom": 1.05,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Barbell Lunge 🔥 Zancada con barra paso a paso | CrossFit",
+    "tags": [
+      "barbell lunge",
+      "zancada con barra",
+      "lunge",
+      "barra",
+      "piernas",
+      "gluteos",
+      "crossfit",
+      "fuerza",
+      "unilateral"
+    ],
+    "descripcion": "🔥 BARBELL LUNGE — zancada con barra\n\nLa zancada con barra es unilateral y honesta: no hay dónde esconderse. Paso largo, torso firme y empuje con el pie de adelante. 💪\n\n📋 PASO A PASO\n1️⃣ Barra apoyada en la espalda, pies al ancho de la cadera y torso erguido.\n2️⃣ Da un paso largo hacia adelante.\n3️⃣ Bajá hasta que la rodilla de atrás casi toque el piso.\n4️⃣ Empujá con el pie de adelante y volvé a quedar de pie.\n5️⃣ Alterná las piernas sin perder el control de la barra.\n\n✅ CLAVES DE TÉCNICA\n• Torso erguido\n• Paso largo\n• Rodilla de adelante alineada con el pie\n• Empujá con el talón de adelante\n• Barra estable en la espalda\n\n🎯 QUÉ TRABAJA\nCuádriceps · Glúteo mayor · Isquiotibiales · Core\n\n⏱️ CUÁNTO\n8 repeticiones por pierna con 30 kg. Dos o tres series.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi perdés el equilibrio, acortá el paso y bajá el peso.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #BarbellLunge #Zancada #Piernas #Fuerza"
+  }
+}

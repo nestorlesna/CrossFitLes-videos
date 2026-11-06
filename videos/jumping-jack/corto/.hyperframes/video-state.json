@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "680f607a-0540-4211-aa03-afa60c58cb00",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "eacf44515d3b45ea3abb5e54601176226aca436e4a7f4f0a8c2d5d68e073228b",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\680f607a-0540-4211-aa03-afa60c58cb00\\blobs\\ea\\eacf44515d3b45ea3abb5e54601176226aca436e4a7f4f0a8c2d5d68e073228b"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\680f607a-0540-4211-aa03-afa60c58cb00\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "34ca2410404b00acce4867c42764e87d9ee013bdd76dd3ce35744895511b8223",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\680f607a-0540-4211-aa03-afa60c58cb00\\blobs\\34\\34ca2410404b00acce4867c42764e87d9ee013bdd76dd3ce35744895511b8223"
+    },
+    "meta.json": {
+      "hash": "385ede829f255c7d517d732f7e301876592cdec1788d1c4abba2515b4f16210c",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\680f607a-0540-4211-aa03-afa60c58cb00\\blobs\\38\\385ede829f255c7d517d732f7e301876592cdec1788d1c4abba2515b4f16210c"
+    },
+    "package.json": {
+      "hash": "bbacdf49fdaf779e64fc15b7102ab2dca2b652082b5e1d2204a46d94b99101bc",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\680f607a-0540-4211-aa03-afa60c58cb00\\blobs\\bb\\bbacdf49fdaf779e64fc15b7102ab2dca2b652082b5e1d2204a46d94b99101bc"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "544e387a-f0a7-4903-8189-e4adfd473a3a",
+      "completedAt": 1793879377538,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\jumping-jack\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Shoulder Press",
+      "text": "La barra sale del rack frontal y sube sobre la cabeza. Solo brazos y core."
+    },
+    {
+      "id": "02",
+      "text": "De pie, pies al ancho de la cadera, barra sobre los hombros y codos bien altos."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Empujá la barra hacia arriba sin flexionar las piernas: nada de impulso."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Corré la cabeza atrás para dejar pasar la barra y extendé los brazos."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Bloqueá arriba, con la barra alineada sobre el cuerpo, y bajá al rack."
+    },
+    {
+      "id": "06",
+      "text": "Así no: si te tirás atrás y arqueás la lumbar para bloquear, la barra se te va."
+    },
+    {
+      "id": "07",
+      "text": "Claves: codos altos, abdomen y glúteos firmes, cabeza atrás y barra sobre el cuerpo."
+    },
+    {
+      "id": "08",
+      "text": "Una repetición con cuarenta kilos. Probá el peso y subí de a poco."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

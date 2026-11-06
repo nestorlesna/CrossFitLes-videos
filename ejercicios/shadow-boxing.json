@@ -1,0 +1,381 @@
+{
+  "slug": "shadow-boxing",
+  "name": "Shadow Boxing",
+  "revisado": false,
+  "notas": "Boxeo al aire de perfil: guardia alta con los puños al mentón, jab y cross extendiendo un brazo por vez y pasos cortos. La potencia sale de la cadera; los codos no se extienden con latigazo.",
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5,
+      "badge": "CROSSFIT · CARDIO",
+      "head": [
+        "SHADOW",
+        "BOXING"
+      ],
+      "vo": "Shadow Boxing: jab, directo y ganchos al aire, con la guardia arriba y pasos cortos.",
+      "moves": [
+        {
+          "cut": "GUARD",
+          "at": 0
+        },
+        {
+          "to": "JAB",
+          "at": 1.2,
+          "dur": 0.4
+        },
+        {
+          "to": "GUARD",
+          "at": 2,
+          "dur": 0.4
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "GUARDIA",
+        "ALTA"
+      ],
+      "sub": "Puños al mentón",
+      "vo": "Parate con la guardia alta, los puños al mentón, los codos cerca del cuerpo y las rodillas apenas flexionadas.",
+      "moves": [
+        {
+          "cut": "GUARD",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "JAB"
+      ],
+      "sub": "Mano de adelante",
+      "vo": "Paso uno. Tirá el jab con la mano de adelante, extendiendo el brazo sin latigazo y volviendo enseguida.",
+      "moves": [
+        {
+          "cut": "GUARD",
+          "at": 0
+        },
+        {
+          "to": "JAB",
+          "at": 0.9,
+          "dur": 0.35
+        },
+        {
+          "to": "GUARD",
+          "at": 1.5,
+          "dur": 0.35
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "CROSS"
+      ],
+      "sub": "Mano de atrás",
+      "vo": "Paso dos. Tirá el directo con la mano de atrás, girando la cadera y sin despegar el pie de atrás.",
+      "moves": [
+        {
+          "cut": "JAB",
+          "at": 0
+        },
+        {
+          "to": "CROSS",
+          "at": 0.6,
+          "dur": 0.35
+        },
+        {
+          "to": "GUARD",
+          "at": 1.3,
+          "dur": 0.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "GANCHO"
+      ],
+      "sub": "Codo a la altura",
+      "vo": "Paso tres. Sumá ganchos con el codo a la altura del hombro y volvé siempre a la guardia.",
+      "moves": [
+        {
+          "cut": "GUARD",
+          "at": 0
+        },
+        {
+          "to": "HOOK",
+          "at": 0.9,
+          "dur": 0.4
+        },
+        {
+          "to": "GUARD",
+          "at": 1.6,
+          "dur": 0.4
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "ERROR COMÚN",
+      "head": [
+        "MANOS",
+        "ABAJO"
+      ],
+      "sub": "Error común",
+      "vo": "Error: si dejás las manos abajo, te quedás sin defensa y el golpe sale del brazo, no de la cadera.",
+      "moves": [
+        {
+          "cut": "GUARD",
+          "at": 0
+        },
+        {
+          "to": "HANDS_DOWN",
+          "at": 1,
+          "dur": 0.5
+        },
+        {
+          "to": "GUARD",
+          "at": 3.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            620,
+            1150
+          ],
+          "r": 50,
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1190
+          ],
+          "anchor": "end",
+          "text": "GUARDIA ARRIBA",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Guardia siempre arriba",
+        "Golpes al 80%",
+        "Pies vivos, pasos cortos",
+        "Potencia desde la cadera"
+      ],
+      "vo": "Claves: la guardia no baja, los golpes van al ochenta por ciento, los pies se mueven con pasos cortos y la potencia sale de la cadera.",
+      "moves": [
+        {
+          "cut": "GUARD",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7,
+      "badge": "A ENTRENAR",
+      "head": [
+        "70 S"
+      ],
+      "sub": "Jab, cross y gancho",
+      "vo": "Setenta segundos de boxeo al aire, combinando jab, directo y gancho, moviéndote suave sobre los pies.",
+      "moves": [
+        {
+          "cut": "GUARD",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "JAB",
+              0.35
+            ],
+            [
+              "GUARD",
+              0.3
+            ],
+            [
+              "CROSS",
+              0.35
+            ],
+            [
+              "GUARD",
+              0.3
+            ],
+            [
+              "HOOK",
+              0.4
+            ],
+            [
+              "GUARD",
+              0.3
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "initialPose": "GUARD",
+  "poses": {
+    "GUARD": {
+      "hip": [
+        -12,
+        -430
+      ],
+      "ankle": [
+        45,
+        0
+      ],
+      "ankle2": [
+        -45,
+        0
+      ],
+      "b": 8,
+      "hd": 4,
+      "g": 0,
+      "ua": 46,
+      "fa": 126,
+      "ua2": 66,
+      "fa2": 104
+    },
+    "JAB": {
+      "hip": [
+        -12,
+        -430
+      ],
+      "ankle": [
+        45,
+        0
+      ],
+      "ankle2": [
+        -45,
+        0
+      ],
+      "b": 10,
+      "hd": 4,
+      "g": 0,
+      "ua": 86,
+      "fa": 6,
+      "ua2": 66,
+      "fa2": 104
+    },
+    "CROSS": {
+      "hip": [
+        -12,
+        -430
+      ],
+      "ankle": [
+        45,
+        0
+      ],
+      "ankle2": [
+        -45,
+        0
+      ],
+      "b": 12,
+      "hd": 4,
+      "g": 0,
+      "ua": 46,
+      "fa": 126,
+      "ua2": 86,
+      "fa2": 6
+    },
+    "HOOK": {
+      "hip": [
+        -12,
+        -430
+      ],
+      "ankle": [
+        45,
+        0
+      ],
+      "ankle2": [
+        -45,
+        0
+      ],
+      "b": 8,
+      "hd": 4,
+      "g": 0,
+      "ua": 78,
+      "fa": 128,
+      "ua2": 66,
+      "fa2": 104
+    },
+    "HANDS_DOWN": {
+      "hip": [
+        -12,
+        -430
+      ],
+      "ankle": [
+        45,
+        0
+      ],
+      "ankle2": [
+        -45,
+        0
+      ],
+      "b": 8,
+      "hd": 4,
+      "g": 0,
+      "ua": 14,
+      "fa": 12,
+      "ua2": 10,
+      "fa2": 10
+    }
+  },
+  "category": "CROSSFIT · CARDIO",
+  "tags": [
+    "Deltoides anterior",
+    "Hombro",
+    "Cardio"
+  ],
+  "descripcion": "Boxeo contra el aire: jab, directo y ganchos, moviéndose suave sobre los pies. Sube el pulso, trabaja hombros y coordinación, y no golpea las rodillas. Golpear al 80% con control, sin extender el codo con latigazo; pies vivos con pasos cortos y la potencia sale de la rotación de cadera.",
+  "miniatura": {
+    "pose": "JAB",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Shadow Boxing 🔥 jab, cross y gancho al aire, paso a paso | CrossFit",
+    "descripcion": "🏋️ SHADOW BOXING — boxeo al aire para subir el pulso\nJab, directo y ganchos contra el aire, moviéndote suave sobre los pies y con la guardia siempre arriba. Ideal para entrar en calor: trabaja hombros, coordinación y no castiga las rodillas. 💪\n\n📋 PASO A PASO\n1️⃣ Parate con la guardia alta, los puños al mentón, los codos cerca del cuerpo y las rodillas apenas flexionadas.\n2️⃣ Tirá el jab con la mano de adelante, extendiendo el brazo sin latigazo y volviendo enseguida.\n3️⃣ Tirá el directo con la mano de atrás, girando la cadera y sin despegar el pie de atrás.\n4️⃣ Sumá ganchos con el codo a la altura del hombro y volvé siempre a la guardia.\n\n🎯 CLAVES DE TÉCNICA\n✅ Guardia siempre arriba, los puños al mentón\n✅ Golpeá al 80%, con control: no extiendas el codo con latigazo\n✅ Pies vivos, con pasos cortos y sin saltar\n✅ La potencia sale de la rotación de cadera, no del brazo\n✅ Movete suave: es un ejercicio de pulso, no una pelea\n\n🏋️ QUÉ TRABAJA\nDeltoides anterior · Pectoral mayor · Recto abdominal · Recto femoral\n\n⏱️ CUÁNTO\n70 segundos de boxeo al aire. Ideal como entrada en calor o bloque de cardio dentro del WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nSi te tienta ir al 100%, bajá el ritmo: acá el objetivo es moverse, no lastimarse los codos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #ShadowBoxing #Boxeo #Cardio #Wod",
+    "tags": [
+      "shadow boxing",
+      "boxeo al aire",
+      "jab cross gancho",
+      "boxeo sin bolsa",
+      "cardio en el lugar",
+      "entrada en calor crossfit",
+      "deltoides",
+      "coordinacion",
+      "cardio sin impacto",
+      "crossfit"
+    ]
+  }
+}

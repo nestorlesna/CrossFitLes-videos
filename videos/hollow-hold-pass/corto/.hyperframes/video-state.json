@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "143d0bca-5996-420c-b598-ee5441a5ea04",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "443f0829bf0e606c65b1e04d2444e44cc67edb491befc24f4c73ab60696cb58d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\143d0bca-5996-420c-b598-ee5441a5ea04\\blobs\\44\\443f0829bf0e606c65b1e04d2444e44cc67edb491befc24f4c73ab60696cb58d"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\143d0bca-5996-420c-b598-ee5441a5ea04\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "e636272196771d5d28073926faae6724458908f7344d4da1b45fbc80df0728d4",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\143d0bca-5996-420c-b598-ee5441a5ea04\\blobs\\e6\\e636272196771d5d28073926faae6724458908f7344d4da1b45fbc80df0728d4"
+    },
+    "meta.json": {
+      "hash": "372b6e24e37e3b5137bc3c2ac03fc8846e31b3260ceda655cf0273c67a9a2410",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\143d0bca-5996-420c-b598-ee5441a5ea04\\blobs\\37\\372b6e24e37e3b5137bc3c2ac03fc8846e31b3260ceda655cf0273c67a9a2410"
+    },
+    "package.json": {
+      "hash": "3213b078fe9d31ce7f29282c4a492a8d64a01a2f6d9f8dc288c8a0ed58a72718",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\143d0bca-5996-420c-b598-ee5441a5ea04\\blobs\\32\\3213b078fe9d31ce7f29282c4a492a8d64a01a2f6d9f8dc288c8a0ed58a72718"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "87fb7baf-44e0-4103-8e3c-1599ab0f04b5",
+      "completedAt": 1793876371710,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\hollow-hold-pass\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

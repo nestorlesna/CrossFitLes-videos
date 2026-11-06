@@ -4,6 +4,7 @@
 //   node plantilla/make-exercise.mjs <slug> --render   además renderiza y copia a salida/<slug>.mp4
 //   node plantilla/make-exercise.mjs --checklist       solo regenera CHECKLIST.md (+ salida/<slug>.youtube.txt)
 //   node plantilla/make-exercise.mjs <slug> --miniatura  solo regenera salida/<slug>.miniatura.png (miniatura de YouTube)
+//   node plantilla/make-exercise.mjs <slug> --corto     video corto sin voz (2–3 repeticiones, música + título): salida/<archivo>.corto.mp4
 //   node plantilla/make-exercise.mjs <slug> --info     muestra la fila de ejercicios/ejercicios.csv, maquinas.csv o dataset.csv (datos para la ficha)
 //
 // Flags: --force-tts (regenera la voz aunque el texto no cambió) · --no-check · --no-snapshot
@@ -74,6 +75,14 @@ const SUBIDOS = [join(ROOT, "salida", "subidos"), join(ROOT, "subidos")];
 const subidosDirs = () => SUBIDOS.filter((d) => existsSync(d)).flatMap((d) => [d,
   ...readdirSync(d, { withFileTypes: true }).filter((e) => e.isDirectory()).map((e) => join(d, e.name))]);
 const subidoPath = (file) => subidosDirs().map((d) => join(d, file)).find((f) => existsSync(f)) || null;
+// cortos-subidos.csv (slug;fecha;url;lista): registro de los cortos publicados en YouTube.
+function cortosSubidosLog() {
+  const f = join(ROOT, "cortos-subidos.csv");
+  if (!existsSync(f)) return {};
+  const o = {};
+  for (const l of readFileSync(f, "utf8").replace(/\r/g, "").split("\n").slice(1)) { const c = l.split(";"); if (c[0] && c[2]) o[c[0]] = c[2]; }
+  return o;
+}
 const outPath = (file) => subidoPath(file) || join(ROOT, "salida", file);
 const rel = (f) => f.slice(ROOT.length + 1).replace(/\\/g, "/");
 
@@ -246,7 +255,7 @@ export function checklist() {
     ...csv.map((r, i) => ({ slug: r.clave, n: String(i + 1), row: r })),
   ];
   const ok = (b) => (b ? "✅" : "⬜");
-  let done = 0, fichas = 0, yts = 0, subidos = 0, next = null;
+  let done = 0, fichas = 0, yts = 0, subidos = 0, cortos = 0, next = null;
   const conEn = [], sinEn = []; // videos en salida/ (no subidos) ya re-renderizados / pendientes con el nombre en inglés
   const fila = ({ slug, n, row }) => {
     const s = specs[slug];
@@ -268,7 +277,7 @@ export function checklist() {
       const nota = faltan.length ? `falta ${faltan.join(" y ")} en el CSV`
         : row?.prop ? `Lote ${row.lote} · Nivel ${row.nivel} · ${row.dosis}`
         : row?.props != null ? `Lote ${row.lote.split(" · ")[0]} · ${row.formato === "maquina" ? "formato máquina" : "formato corto"}${row.similar_a ? ` · parecido a ${row.similar_a}` : ""}` : "";
-      return `| ${n} | ${name} | ${impl} | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | — | ${nota} |`;
+      return `| ${n} | ${name} | ${impl} | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | ⬜ | — | ${nota} |`;
     }
     fichas++;
     const { spec, file } = s;
@@ -282,19 +291,28 @@ export function checklist() {
     let en = "—";
     if (rendered && st.renderVozEn) { en = "✅"; if (!subido) conEn.push(slug); }
     else if (rendered && !subido && spec.nombreEn !== false) { en = "⬜"; sinEn.push(`${slug}${mp4 !== `${slug}.mp4` ? ` (${mp4})` : ""}`); }
-    return `| ${n} | ${name} | ${impl} | ✅ | ${ok(st.voz)} | ${ok(st.composicion)} | ${st.check == null ? "⬜" : st.check ? "✅" : "❌"} | ${rendered ? (stale ? "⚠️ desactualizado" : "✅") : "⬜"} | ${yt ? `[✅](${rel(outPath(`${slug}.youtube.txt`))})` : "⬜"} | ${existsSync(outPath(`${slug}.miniatura.png`)) ? `[✅](${rel(outPath(`${slug}.miniatura.png`))})` : "⬜"} | ${dur} | ${rendered ? `[${mp4}](${rel(out)})` : "—"} | ${en} | ${ok(spec.revisado)} | ${ok(subido)} | ${st.renderizado || "—"} | ${spec.notas || ""} |`;
+    // Corto (--corto): video sin voz de 2–3 repeticiones; st.corto = nombre del archivo (<archivo>.corto.mp4).
+    const cOut = st.corto ? outPath(st.corto) : null;
+    const cortoYt = cortosSubidosLog()[slug]; // subido = el corto está en salida/subidos/ (EnYoutube); el link sale de cortos-subidos.csv
+    const cortoSubido = st.corto && subidoPath(st.corto) ? (cortoYt ? `[✅](${cortoYt})` : "✅") : "⬜";
+    let corto = "⬜";
+    if (cOut && existsSync(cOut)) {
+      cortos++;
+      corto = st.cortoHash === contentHash(spec) ? `[✅ ${mp4Duration(cOut)?.toFixed(1)} s](${rel(cOut)})` : "⚠️ desactualizado";
+    }
+    return `| ${n} | ${name} | ${impl} | ✅ | ${ok(st.voz)} | ${ok(st.composicion)} | ${st.check == null ? "⬜" : st.check ? "✅" : "❌"} | ${rendered ? (stale ? "⚠️ desactualizado" : "✅") : "⬜"} | ${yt ? `[✅](${rel(outPath(`${slug}.youtube.txt`))})` : "⬜"} | ${existsSync(outPath(`${slug}.miniatura.png`)) ? `[✅](${rel(outPath(`${slug}.miniatura.png`))})` : "⬜"} | ${dur} | ${rendered ? `[${mp4}](${rel(out)})` : "—"} | ${en} | ${ok(spec.revisado)} | ${ok(subido)} | ${corto} | ${cortoSubido} | ${st.renderizado || "—"} | ${spec.notas || ""} |`;
   };
   const rows = items.map(fila);
-  const cf = { done, fichas, yts, subidos, next, total: items.length };
-  done = fichas = yts = subidos = 0; next = null;
+  const cf = { done, fichas, yts, subidos, cortos, next, total: items.length };
+  done = fichas = yts = subidos = cortos = 0; next = null;
   const rowsMaq = maq.map((r, i) => fila({ slug: r.clave, n: `M${i + 1}`, row: r }));
-  const mq = { done, fichas, yts, subidos, next, total: maq.length };
-  done = fichas = yts = subidos = 0; next = null;
+  const mq = { done, fichas, yts, subidos, cortos, next, total: maq.length };
+  done = fichas = yts = subidos = cortos = 0; next = null;
   const rowsDs = ds.map((r, i) => fila({ slug: r.clave, n: `D${i + 1}`, row: r }));
-  const dc = { done, fichas, yts, subidos, next, total: ds.length };
-  const head = `| # | Ejercicio | Implemento | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Nombre EN | Revisado | Subido | Fecha render | Notas |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|`;
-  const resumen = (c) => `**Renderizados:** ${c.done} / ${c.total} · **Fichas:** ${c.fichas} · **Descripción YouTube:** ${c.yts} · **Subidos:** ${c.subidos}${c.next ? ` · **Próximo:** ${c.next}` : ""}`;
+  const dc = { done, fichas, yts, subidos, cortos, next, total: ds.length };
+  const head = `| # | Ejercicio | Implemento | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Nombre EN | Revisado | Subido | Corto | Corto subido | Fecha render | Notas |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|`;
+  const resumen = (c) => `**Renderizados:** ${c.done} / ${c.total} · **Fichas:** ${c.fichas} · **Descripción YouTube:** ${c.yts} · **Subidos:** ${c.subidos} · **Cortos:** ${c.cortos}${c.next ? ` · **Próximo:** ${c.next}` : ""}`;
   const faltaDibujar = [...new Set(maq.filter((r) => !dibujada(r.prop)).map((r) => r.prop))];
   const tablaMaq = maq.length
     ? `\n## 🏋️ Máquinas de gimnasio\n
@@ -340,12 +358,41 @@ ${head}
 ${rows.join("\n")}
 
 Leyenda: ✅ listo · ⬜ pendiente · ❌ falló · ⚠️ lo que se ve/escucha en la ficha cambió después del último render (volver a renderizar).
+Corto: ✅ existe el video corto sin voz (\`<archivo>.corto.mp4\`, ver \`GENERAR_VIDEOS_CORTOS.md\`; con su duración) · ⬜ falta · ⚠️ la ficha cambió después.
+Corto subido: ✅ el \`.corto.mp4\` está en \`salida/subidos/\` (se mueve a mano después de publicarlo en YouTube) · ⬜ todavía no.
 Nombre EN: ✅ el nombre lo dice la voz en inglés · ⬜ falta re-renderizar · — no aplica (subido a YouTube, sin render o nombre en castellano).
 Implemento distinto de "Ninguno": el personaje todavía no lo tiene; hay que agregarlo a \`plantilla/runtime.js\` antes de hacer ese video.
 🏋️ = ejercicio de máquina de gimnasio (tabla aparte, al final).
 ${plan}${tablaMaq}${tablaDs}`;
   writeFileSync(join(ROOT, "CHECKLIST.md"), md);
   console.log(`✓ CHECKLIST.md (${cf.done}/${cf.total} renderizados, ${cf.fichas} fichas, ${cf.yts} con descripción YouTube · máquinas ${mq.done}/${mq.total} · dataset ${dc.done}/${dc.total})`);
+}
+
+// Video corto sin voz: la portada (título + tags) con 2–3 repeticiones del ejercicio y la música de siempre.
+// Sale como salida/<archivo del video largo sin .mp4>.corto.mp4 (siempre sin prefijo: salida/<slug>.corto.mp4).
+function cortoVideo() {
+  const specPath = join(ROOT, "ejercicios", `${slug}.json`);
+  if (!existsSync(specPath)) throw new Error(`no existe ${specPath}`);
+  const spec = JSON.parse(readFileSync(specPath, "utf8"));
+  const dir = join(ROOT, "videos", slug);
+  if (!existsSync(join(dir, "hyperframes.json"))) {
+    const r = sh(`npx --prefer-offline ${HF} init "videos/${slug}" --non-interactive --example=blank --skill=faceless-explainer`, ROOT);
+    if (r.status !== 0) throw new Error("hyperframes init falló");
+  }
+  copyFileSync(specPath, join(dir, "exercise.json"));
+  copyFileSync(join(HERE, "frame.md"), join(dir, "frame.md"));
+  const b = buildIndex(dir, { corto: true });
+  console.log(`✓ corto/index.html — ${b.reps} repeticiones, ${b.total}s, música ${b.music ? "sí" : "no"}`);
+  if (has("--check")) sh(`npx --prefer-offline ${HF} check`, b.dir);
+  const r = sh(`npx --prefer-offline ${HF} render --skill=faceless-explainer --quality high --output renders/corto.mp4`, b.dir);
+  if (r.status !== 0) throw new Error("render del corto falló");
+  const base = slug; // el corto NUNCA lleva prefijo (OC_, OC_2_…)
+  const file = `${base}.corto.mp4`;
+  mkdirSync(join(ROOT, "salida"), { recursive: true });
+  copyFileSync(join(b.dir, "renders", "corto.mp4"), join(ROOT, "salida", file));
+  writeStatus(dir, { corto: file, cortoHash: contentHash(spec), cortoFecha: today(), cortoReps: b.reps, cortoDuracion: b.total });
+  console.log(`✓ salida/${file}`);
+  checklist();
 }
 
 function main() {
@@ -361,6 +408,7 @@ function main() {
     writeStatus(join(ROOT, "videos", slug), { miniatura: miniatura(join(ROOT, "videos", slug), slug) });
     return checklist();
   }
+  if (has("--corto")) return cortoVideo();
   if (!slug) {
     console.error("uso: node plantilla/make-exercise.mjs <slug> [--render] | --checklist");
     process.exit(1);

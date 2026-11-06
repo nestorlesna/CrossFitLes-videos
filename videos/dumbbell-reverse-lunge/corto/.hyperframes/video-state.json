@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "cd1f5234-40bc-46ee-8639-75b5e01d064c",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "b092d3c69cb0cc00fc197fb06321c18eb89c45caa0269910b54beb51328fbc8b",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\cd1f5234-40bc-46ee-8639-75b5e01d064c\\blobs\\b0\\b092d3c69cb0cc00fc197fb06321c18eb89c45caa0269910b54beb51328fbc8b"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\cd1f5234-40bc-46ee-8639-75b5e01d064c\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "6af860345f8d4b4a2868ffb50f17954977742d055c9126f21a99bb88c11a3a3d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\cd1f5234-40bc-46ee-8639-75b5e01d064c\\blobs\\6a\\6af860345f8d4b4a2868ffb50f17954977742d055c9126f21a99bb88c11a3a3d"
+    },
+    "meta.json": {
+      "hash": "a02fd9200d556bf071b37b8bd98ff870ee60edbc95a238c8f8d3175912404744",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\cd1f5234-40bc-46ee-8639-75b5e01d064c\\blobs\\a0\\a02fd9200d556bf071b37b8bd98ff870ee60edbc95a238c8f8d3175912404744"
+    },
+    "package.json": {
+      "hash": "d0e2d5c9a5d7d286248d642d8122e379d33074e648dfd478500a082b9875ce41",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\cd1f5234-40bc-46ee-8639-75b5e01d064c\\blobs\\d0\\d0e2d5c9a5d7d286248d642d8122e379d33074e648dfd478500a082b9875ce41"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "7ffd0339-4374-4fe6-86b1-b10a0db88849",
+      "completedAt": 1793876072662,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\dumbbell-reverse-lunge\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "ddcce7a4-99f0-4fa8-a065-3a2a5768c51a",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "a84ea50d88b03f607924561d76913c071a17d6af1d1cf9f344472dd26a559412",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ddcce7a4-99f0-4fa8-a065-3a2a5768c51a\\blobs\\a8\\a84ea50d88b03f607924561d76913c071a17d6af1d1cf9f344472dd26a559412"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ddcce7a4-99f0-4fa8-a065-3a2a5768c51a\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "e6caeabe38b4d276752b1ca3d17169cc7a6e7eb2d4e06faab2be487f18cdfffd",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ddcce7a4-99f0-4fa8-a065-3a2a5768c51a\\blobs\\e6\\e6caeabe38b4d276752b1ca3d17169cc7a6e7eb2d4e06faab2be487f18cdfffd"
+    },
+    "meta.json": {
+      "hash": "d78024f16cb9f91777798e8f29349752bc3cc5fd0655a2b7ab2303763f429b37",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ddcce7a4-99f0-4fa8-a065-3a2a5768c51a\\blobs\\d7\\d78024f16cb9f91777798e8f29349752bc3cc5fd0655a2b7ab2303763f429b37"
+    },
+    "package.json": {
+      "hash": "1ebd9957112ecfe3d952f3cad8235199457f476fbc2a31cab318262396bf7211",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ddcce7a4-99f0-4fa8-a065-3a2a5768c51a\\blobs\\1e\\1ebd9957112ecfe3d952f3cad8235199457f476fbc2a31cab318262396bf7211"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "6a69c9b0-c54b-4a4c-b78f-dd52f2be2a95",
+      "completedAt": 1793839884887,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\dead-bug-with-band-resistance\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

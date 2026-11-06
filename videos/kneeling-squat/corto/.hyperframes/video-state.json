@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "a5ff483c-38ef-4798-85d6-e582ab2ce628",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "eef04f9b14219e7d6236ddba3f862e0dd0493deec69a44601c117801db8a5440",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a5ff483c-38ef-4798-85d6-e582ab2ce628\\blobs\\ee\\eef04f9b14219e7d6236ddba3f862e0dd0493deec69a44601c117801db8a5440"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a5ff483c-38ef-4798-85d6-e582ab2ce628\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "9bac40f58a0e2d2f43f6ee0d01f458fde7e0815994d93dcf0f1ab00cbbdf2d8f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a5ff483c-38ef-4798-85d6-e582ab2ce628\\blobs\\9b\\9bac40f58a0e2d2f43f6ee0d01f458fde7e0815994d93dcf0f1ab00cbbdf2d8f"
+    },
+    "meta.json": {
+      "hash": "ba44f8f3bede1802f5c43789afcb34526d4b3f78cfbcd7479c8216fb366740b0",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a5ff483c-38ef-4798-85d6-e582ab2ce628\\blobs\\ba\\ba44f8f3bede1802f5c43789afcb34526d4b3f78cfbcd7479c8216fb366740b0"
+    },
+    "package.json": {
+      "hash": "6c1bd2a06a81944bdcb9788105ea52b8839972e3afcbd69cdee8e56a0e27e6ad",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a5ff483c-38ef-4798-85d6-e582ab2ce628\\blobs\\6c\\6c1bd2a06a81944bdcb9788105ea52b8839972e3afcbd69cdee8e56a0e27e6ad"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "c3cdb994-d5c6-4a71-8e1f-629d108c698c",
+      "completedAt": 1793879529665,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\kneeling-squat\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

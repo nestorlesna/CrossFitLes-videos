@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "a289ea7c-494c-4650-ba39-d094d25183a7",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "d48dda2dd6faf1ecd1c050b89b74872c4590b5c6c45cfeb6c3950de6d7a243fb",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a289ea7c-494c-4650-ba39-d094d25183a7\\blobs\\d4\\d48dda2dd6faf1ecd1c050b89b74872c4590b5c6c45cfeb6c3950de6d7a243fb"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a289ea7c-494c-4650-ba39-d094d25183a7\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "92f8f7690fa4bfab83aee6b91f8b70acb5c3a3030a428ea02eaafc374ed48d0d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a289ea7c-494c-4650-ba39-d094d25183a7\\blobs\\92\\92f8f7690fa4bfab83aee6b91f8b70acb5c3a3030a428ea02eaafc374ed48d0d"
+    },
+    "meta.json": {
+      "hash": "f762c840fe0fb7d358edf7ec2dcf429937a5c274ee0e75a2001f3dc17ffdd9d2",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a289ea7c-494c-4650-ba39-d094d25183a7\\blobs\\f7\\f762c840fe0fb7d358edf7ec2dcf429937a5c274ee0e75a2001f3dc17ffdd9d2"
+    },
+    "package.json": {
+      "hash": "3892c05364e1ebc201704a7a4e0b55b925c35f1f061c13336f36c2e0e102c08e",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a289ea7c-494c-4650-ba39-d094d25183a7\\blobs\\38\\3892c05364e1ebc201704a7a4e0b55b925c35f1f061c13336f36c2e0e102c08e"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "b23ba45c-3a95-479c-84b8-15b279e9a993",
+      "completedAt": 1793878651294,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\band-rdl-to-bent-over-row\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

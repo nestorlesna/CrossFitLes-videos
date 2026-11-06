@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Single-Leg Pallof Press",
+      "text": "De pie en una pierna, empujás la banda al frente sin dejar que el torso gire."
+    },
+    {
+      "id": "02",
+      "text": "Parate en una pierna con la banda anclada al costado, a la altura del pecho, y las manos en el esternón."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Apoyá todo el pie, activá el glúteo y mantené la rodilla alineada con la punta."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Empujá las manos al frente y estirá los brazos sin que el tronco se mueva."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Volvé al pecho con control, sin girar los hombros y sin que la cadera se caiga."
+    },
+    {
+      "id": "06",
+      "text": "Claves: tronco quieto, brazos rectos, glúteo activo y respiración pareja."
+    },
+    {
+      "id": "07",
+      "text": "Diez repeticiones de cada lado, tres series. Si perdés el equilibrio, bajá la pierna y volvé a subir."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

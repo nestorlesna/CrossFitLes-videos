@@ -1,0 +1,288 @@
+{
+  "slug": "plank-knee-tap",
+  "name": "Plank Knee Tap",
+  "revisado": false,
+  "notas": "Plancha alta con toque de rodilla y mano contraria: la mano va a un target en la rodilla y la mano lejana queda en el piso con g2. De perfil se lee la rodilla que entra y el relevo de apoyo.",
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · CORE",
+      "head": [
+        "PLANK",
+        "KNEE TAP"
+      ],
+      "vo": "Plank Knee Tap: en plancha, llevás una rodilla al pecho y la tocás con la mano contraria.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "TAP",
+          "at": 1.3,
+          "dur": 0.7
+        },
+        {
+          "to": "TOP",
+          "at": 2.6,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PLANCHA",
+        "ALTA"
+      ],
+      "sub": "Manos bajo los hombros",
+      "vo": "Arrancá en plancha alta, con las manos debajo de los hombros y el cuerpo en línea.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 1 / 2",
+      "head": [
+        "LLEVÁ UNA",
+        "RODILLA"
+      ],
+      "sub": "Hacia el pecho",
+      "vo": "Paso uno. Llevá una rodilla hacia adelante, hacia el pecho, sin mover la cadera.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "TAP",
+          "at": 1,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "PASO 2 / 2",
+      "head": [
+        "TOCALA CON",
+        "LA MANO"
+      ],
+      "sub": "Del lado contrario",
+      "vo": "Paso dos. Tocá la rodilla con la mano del lado contrario y volvé a la plancha. Alterná los lados.",
+      "moves": [
+        {
+          "cut": "TAP",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 1.6,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "ERROR COMÚN",
+      "head": [
+        "CADERA",
+        "ARRIBA"
+      ],
+      "sub": "Error común",
+      "vo": "Error: si levantás la cadera para llegar con la mano, la plancha se rompe y el abdomen deja de trabajar.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "BUTT_UP",
+          "at": 1,
+          "dur": 0.8
+        },
+        {
+          "to": "TOP",
+          "at": 3.4,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            500,
+            1280
+          ],
+          "r": 52,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            520,
+            1170
+          ],
+          "anchor": "middle",
+          "text": "CADERA FIRME",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.4,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Cadera estable",
+        "Manos bajo los hombros",
+        "Rodilla al pecho",
+        "Alterná los lados"
+      ],
+      "vo": "Claves: la cadera no se mueve ni rota, las manos quedan debajo de los hombros, la rodilla llega al pecho y se alternan los lados.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "40 S"
+      ],
+      "sub": "Alternando lados",
+      "vo": "Cuarenta segundos alternando rodillas, sin mover la cadera y sin perder la plancha.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TAP",
+              0.7
+            ],
+            [
+              "TOP",
+              0.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "rig": {
+    "x": 230,
+    "y": 1504,
+    "scale": 0.85
+  },
+  "initialPose": "TOP",
+  "poses": {
+    "TOP": {
+      "s": 68.41,
+      "t": 68.41,
+      "rx": -20,
+      "ry": -40,
+      "ft": 118,
+      "b": 68.41,
+      "hd": 78,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": 0,
+      "g2": 1,
+      "ed2": 1,
+      "hx2": 690,
+      "hy2": 0
+    },
+    "BUTT_UP": {
+      "hip": [
+        320,
+        -270
+      ],
+      "ankle": [
+        60,
+        -40
+      ],
+      "ft": 118,
+      "ft2": 118,
+      "b": 62,
+      "hd": 76,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": 0,
+      "g2": 1,
+      "ed2": 1,
+      "hx2": 690,
+      "hy2": 0
+    },
+    "TAP": {
+      "hip": [
+        340,
+        -200
+      ],
+      "ankle": [
+        150,
+        -30
+      ],
+      "ft": 118,
+      "ft2": 118,
+      "b": 70,
+      "hd": 82,
+      "g": 1,
+      "ed": -1,
+      "hx": 520,
+      "hy": -170,
+      "g2": 1,
+      "ed2": 1,
+      "hx2": 690,
+      "hy2": 0
+    }
+  },
+  "category": "CROSSFIT · CORE",
+  "tags": [
+    "Recto abdominal",
+    "Core",
+    "Gimnasia"
+  ],
+  "descripcion": "Desde la plancha alta se lleva una rodilla hacia adelante y se la toca con la mano contraria, alternando lados sin mover la cadera. Cadera estable: si rota, acortar el recorrido. Manos justo debajo de los hombros.",
+  "miniatura": {
+    "pose": "TAP",
+    "grip": 0,
+    "zoom": 1.05,
+    "dy": 50
+  },
+  "youtube": {
+    "titulo": "Plank Knee Tap 🔥 plancha + rodilla al pecho, paso a paso | CrossFit",
+    "descripcion": "🏋️ PLANK KNEE TAP — core y estabilidad en plancha\nDesde la plancha alta llevás una rodilla hacia el pecho y la tocás con la mano del lado contrario, alternando sin mover la cadera. Corto, simple y muy efectivo para el abdomen. 💪\n\n📋 PASO A PASO\n1️⃣ Arrancá en plancha alta, con las manos debajo de los hombros y el cuerpo en línea.\n2️⃣ Llevá una rodilla hacia adelante, hacia el pecho, sin mover la cadera.\n3️⃣ Tocá la rodilla con la mano del lado contrario.\n4️⃣ Volvé a la plancha y alterná los lados.\n\n🎯 CLAVES DE TÉCNICA\n✅ Cadera estable: no se mueve ni rota\n✅ Manos justo debajo de los hombros\n✅ La rodilla llega al pecho, no el codo al piso\n✅ Alterná los lados con ritmo parejo\n✅ Si la cadera rota, acortá el recorrido\n\n🏋️ QUÉ TRABAJA\nRecto abdominal · Oblicuo externo · Deltoides anterior · Recto femoral\n\n⏱️ CUÁNTO\n40 segundos alternando lados. Ideal como bloque de core dentro del WOD o al final.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nSi te cuesta llegar con la mano, no levantes la cadera: acortá el recorrido de la rodilla y andá ganando rango de a poco.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #PlankKneeTap #Core #Plancha #Wod",
+    "tags": [
+      "plank knee tap",
+      "rodilla al pecho en plancha",
+      "core en plancha",
+      "plancha alta",
+      "abdominales isométricos",
+      "estabilidad de cadera",
+      "ejercicio de core",
+      "crossfit core",
+      "plancha con rodilla",
+      "crossfit"
+    ]
+  }
+}

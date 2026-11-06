@@ -1,0 +1,370 @@
+{
+  "slug": "ring-dip",
+  "name": "Ring Dip",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Pecho",
+    "Tríceps",
+    "Hombros"
+  ],
+  "descripcion": "Fondos en anillas. Mayor rango de movimiento y estabilización que las paralelas.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.62
+  },
+  "pronuncia": {
+    "Ring Dip": "Ring dip"
+  },
+  "initialPose": "SUPPORT",
+  "props": [
+    {
+      "type": "rings",
+      "anchor": [
+        0,
+        -1500
+      ],
+      "postX": -430
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "SUPPORT": {
+      "hip": [
+        -10,
+        -545
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": 0,
+      "hy": -560,
+      "ed": -1
+    },
+    "HALF": {
+      "hip": [
+        -10,
+        -440
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 12,
+      "hd": 8,
+      "g": 1,
+      "hx": 0,
+      "hy": -560,
+      "ed": -1
+    },
+    "BOTTOM": {
+      "hip": [
+        -20,
+        -370
+      ],
+      "s": 0,
+      "t": 14,
+      "b": 22,
+      "hd": 14,
+      "g": 1,
+      "hx": 0,
+      "hy": -560,
+      "ed": -1
+    },
+    "OPEN_BAD": {
+      "hip": [
+        -20,
+        -370
+      ],
+      "s": 0,
+      "t": 14,
+      "b": 22,
+      "hd": 14,
+      "g": 1,
+      "hx": 0,
+      "hy": -560,
+      "ed": -1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "RING",
+        "DIP"
+      ],
+      "vo": "Ring Dip: el fondo en anillas. Pecho, tríceps y hombros con mucha estabilidad.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "HALF",
+              0.5
+            ],
+            [
+              "BOTTOM",
+              0.5
+            ],
+            [
+              "HALF",
+              0.5
+            ],
+            [
+              "SUPPORT",
+              0.5
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "APOYO CON",
+        "BRAZOS RECTOS"
+      ],
+      "sub": "Anillas pegadas al cuerpo",
+      "vo": "Arrancá en apoyo sobre las anillas, con los brazos bloqueados y las anillas pegadas al cuerpo.",
+      "moves": [
+        {
+          "cut": "SUPPORT",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "BAJÁ",
+        "CONTROLADO"
+      ],
+      "sub": "Codos hacia atrás",
+      "vo": "Paso uno. Bajá flexionando los codos hacia atrás, con las anillas pegadas al cuerpo y sin abrirlas.",
+      "moves": [
+        {
+          "cut": "SUPPORT",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.6,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "HOMBRO",
+        "BAJO EL CODO"
+      ],
+      "sub": "Profundidad completa",
+      "vo": "Paso dos. Seguí hasta que el hombro quede por debajo del codo. Ese es el rango completo.",
+      "moves": [
+        {
+          "cut": "HALF",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.6,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            260,
+            900
+          ],
+          "text": "HOMBRO BAJO EL CODO",
+          "anchor": "middle",
+          "at": 1.5
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "EMPUJÁ",
+        "FUERTE"
+      ],
+      "sub": "Hasta bloquear",
+      "vo": "Paso tres. Empujá las anillas hacia abajo hasta bloquear los brazos arriba, con el pecho alto.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "SUPPORT",
+          "at": 1.1,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ESCALÁ SI",
+        "HACE FALTA"
+      ],
+      "sub": "Banda o fondos en cajón",
+      "vo": "Paso cuatro. Si todavía no te sale, escalá con una banda o con fondos con los pies en un cajón.",
+      "moves": [
+        {
+          "cut": "SUPPORT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "HALF",
+              0.5
+            ],
+            [
+              "BOTTOM",
+              0.5
+            ],
+            [
+              "HALF",
+              0.5
+            ],
+            [
+              "SUPPORT",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Arrancar con brazos bloqueados",
+        "Anillas pegadas al cuerpo",
+        "Hombro por debajo del codo",
+        "Bloquear arriba"
+      ],
+      "vo": "Claves: arrancá con los brazos bloqueados, anillas pegadas al cuerpo, hombro por debajo del codo y bloqueo completo arriba.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "5 REPS"
+      ],
+      "sub": "Controlados",
+      "vo": "Cinco repeticiones. Bajá con control, mantené las anillas pegadas y bloqueá arriba.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · HOMBRO",
+          "at": 1.1
+        },
+        {
+          "label": "3 · EMPUJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "SUPPORT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "HALF",
+              0.5
+            ],
+            [
+              "BOTTOM",
+              0.5
+            ],
+            [
+              "HALF",
+              0.5
+            ],
+            [
+              "SUPPORT",
+              0.5
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "BOTTOM",
+    "grip": 1,
+    "zoom": 1,
+    "dy": 160
+  },
+  "youtube": {
+    "titulo": "Ring Dip 🔥 pecho, tríceps y estabilidad paso a paso | CrossFit",
+    "descripcion": "🔥 RING DIP — pecho, tríceps y hombros fuertes y estables.\n\nSi querés llevar tus fondos al siguiente nivel, este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Arrancá en apoyo sobre las anillas, con los brazos bloqueados y las anillas pegadas al cuerpo.\n2️⃣ Bajá flexionando los codos hacia atrás, con las anillas pegadas al cuerpo y sin abrirlas.\n3️⃣ Seguí hasta que el hombro quede por debajo del codo. Ese es el rango completo.\n4️⃣ Empujá las anillas hacia abajo hasta bloquear los brazos arriba, con el pecho alto.\n5️⃣ Si todavía no te sale, escalá con una banda o con fondos con los pies en un cajón.\n\n✅ CLAVES DE TÉCNICA\n• Arrancar con los brazos bloqueados y las anillas pegadas al cuerpo\n• Bajar hasta que el hombro quede por debajo del codo\n• Sin que las anillas se abran\n• Empujar hasta bloquear arriba\n\n🎯 QUÉ TRABAJA\nDeltoides anterior · Pectoral mayor · Tríceps braquial · Pectoral menor · Romboides\n\n⏱️ CUÁNTO\n5 repeticiones, como trabajo de fuerza o dentro de un WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste fondos en anillas, empezá con banda de asistencia y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\r\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Fuerza #RingDip #Hombros #Entrenamiento",
+    "tags": [
+      "ring dip",
+      "fondos en anillas",
+      "anillas",
+      "tríceps",
+      "pecho",
+      "gimnasia",
+      "crossfit",
+      "fuerza",
+      "hombros",
+      "fondos"
+    ]
+  }
+}

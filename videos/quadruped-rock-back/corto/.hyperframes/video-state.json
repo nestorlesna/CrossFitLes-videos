@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "4b11d51f-1c11-47ac-9ffb-782b67142e33",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "443f0829bf0e606c65b1e04d2444e44cc67edb491befc24f4c73ab60696cb58d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4b11d51f-1c11-47ac-9ffb-782b67142e33\\blobs\\44\\443f0829bf0e606c65b1e04d2444e44cc67edb491befc24f4c73ab60696cb58d"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4b11d51f-1c11-47ac-9ffb-782b67142e33\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "a09666273a43df5a258507ca10c38c0291e862c2c9551c26982da6f5b0e4b07b",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4b11d51f-1c11-47ac-9ffb-782b67142e33\\blobs\\a0\\a09666273a43df5a258507ca10c38c0291e862c2c9551c26982da6f5b0e4b07b"
+    },
+    "meta.json": {
+      "hash": "8310bd4b490cb57bb52a8bb21cc5b5ad037ad5fab06210da593a191e715694ca",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4b11d51f-1c11-47ac-9ffb-782b67142e33\\blobs\\83\\8310bd4b490cb57bb52a8bb21cc5b5ad037ad5fab06210da593a191e715694ca"
+    },
+    "package.json": {
+      "hash": "98dd39a17cd7c738486d35e7f95d3a7f1008b9cc7798e487a22726162dd43b03",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4b11d51f-1c11-47ac-9ffb-782b67142e33\\blobs\\98\\98dd39a17cd7c738486d35e7f95d3a7f1008b9cc7798e487a22726162dd43b03"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "dc1990a8-daf3-4fe5-a64a-8206ad926ac3",
+      "completedAt": 1793877060760,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\quadruped-rock-back\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

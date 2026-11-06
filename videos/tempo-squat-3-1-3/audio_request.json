@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Tempo squat three one three",
+      "text": "Tres segundos para bajar, uno abajo y tres para subir. Control total."
+    },
+    {
+      "id": "02",
+      "text": "Parate con los pies al ancho de los hombros, puntas apenas afuera y el peso repartido en todo el pie."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá contando tres segundos, con la cadera atrás y las rodillas siguiendo la punta de los pies."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Abajo, hacé una pausa de un segundo sin rebotar y sin perder la tensión."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Subí contando tres segundos, empujando el piso y extendiendo la cadera completa."
+    },
+    {
+      "id": "06",
+      "text": "Claves: bajada de tres segundos, pausa de uno abajo, sin rebote y talones siempre apoyados."
+    },
+    {
+      "id": "07",
+      "text": "Cuarenta y cinco segundos al ritmo tres uno tres. Contá en voz alta y no rebotes abajo."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

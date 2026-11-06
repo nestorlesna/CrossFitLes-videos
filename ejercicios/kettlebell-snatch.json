@@ -1,0 +1,392 @@
+{
+  "slug": "kettlebell-snatch",
+  "name": "Kettlebell Snatch",
+  "category": "CROSSFIT - FUERZA",
+  "tags": [
+    "Potencia",
+    "Hombros",
+    "Core"
+  ],
+  "descripcion": "Arranque con kettlebell a una mano: desde el swing, tirar con el codo, meter la mano y bloquear la pesa sobre la cabeza con el bíceps junto a la oreja.",
+  "revisado": false,
+  "notas": "Misma mecánica de swing que `kettlebell-swing` pero a una mano: la lejana queda libre. El error es tirar con el brazo (BENT_BAD); la pesa se dibuja con `swing` para que gire sobre la muñeca al bloquear.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 520,
+    "y": 1508,
+    "scale": 0.68
+  },
+  "pronuncia": {
+    "Kettlebell Snatch": "Kételbel snach",
+    "Kettlebell": "kételbel",
+    "Snatch": "snach"
+  },
+  "initialPose": "HANG",
+  "props": [
+    {
+      "type": "kettlebell",
+      "off": [
+        0,
+        0
+      ],
+      "swing": true
+    }
+  ],
+  "poses": {
+    "HANG": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 14,
+      "fa": 0,
+      "ua2": 8,
+      "fa2": 0
+    },
+    "HIKE": {
+      "s": 8,
+      "t": -22,
+      "b": 66,
+      "hd": 54,
+      "g": 0,
+      "ua": -44,
+      "fa": 0,
+      "ua2": 8,
+      "fa2": 0
+    },
+    "PULL": {
+      "s": 0,
+      "t": 0,
+      "b": -4,
+      "hd": 0,
+      "g": 0,
+      "ua": 118,
+      "fa": 96,
+      "ua2": 8,
+      "fa2": 0
+    },
+    "OH": {
+      "s": 0,
+      "t": 0,
+      "b": -2,
+      "hd": 6,
+      "g": 0,
+      "ua": 184,
+      "fa": 0,
+      "ua2": 8,
+      "fa2": 0
+    },
+    "BENT_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": -2,
+      "hd": 6,
+      "g": 0,
+      "ua": 152,
+      "fa": 62,
+      "ua2": 8,
+      "fa2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.4,
+      "badge": "CROSSFIT - FUERZA",
+      "head": [
+        "KETTLEBELL",
+        "SNATCH"
+      ],
+      "vo": "Kettlebell Snatch: del swing a la pesa bloqueada arriba, con una sola mano.",
+      "moves": [
+        {
+          "to": "HIKE",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "PULL",
+              0.4
+            ],
+            [
+              "OH",
+              0.55
+            ],
+            [
+              "HANG",
+              0.6
+            ],
+            [
+              "HIKE",
+              0.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 4.8,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "UNA MANO",
+        "AL FRENTE"
+      ],
+      "sub": "Otra mano libre",
+      "vo": "Una mano en la pesa, la otra libre y los pies al ancho de hombros.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "LLEVÁ",
+        "ATRÁS"
+      ],
+      "sub": "Entre las piernas",
+      "vo": "Paso uno. Pasá la pesa atrás, entre las piernas, con el pecho arriba.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "HIKE",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "EXTENDÉ",
+        "Y TIRÁ"
+      ],
+      "sub": "Codo bien arriba",
+      "vo": "Paso dos. Extendé la cadera y tirá con el codo arriba, la pesa cerca del cuerpo.",
+      "moves": [
+        {
+          "cut": "HIKE",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.5,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1180
+          ],
+          "text": "CODO ARRIBA",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "METÉ",
+        "LA MANO"
+      ],
+      "sub": "Bloqueá arriba",
+      "vo": "Paso tres. Meté la mano por debajo y bloqueá la pesa arriba, bíceps junto a la oreja.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "OH",
+          "at": 0.5,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1080
+          ],
+          "text": "BÍCEPS A LA OREJA",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "ASÍ NO",
+      "head": [
+        "TIRAR",
+        "CON EL BRAZO"
+      ],
+      "sub": "La pesa te pega",
+      "vo": "Así no: si la levantás con el brazo, la pesa se va lejos y te golpea la muñeca.",
+      "moves": [
+        {
+          "cut": "HIKE",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.5,
+          "dur": 0.5
+        },
+        {
+          "to": "BENT_BAD",
+          "at": 1.0,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1020,
+            1150
+          ],
+          "text": "PESA CERCA",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Pesa cerca del cuerpo",
+        "Codo arriba",
+        "Meté la mano",
+        "Bloqueo firme"
+      ],
+      "vo": "Claves: pesa cerca del cuerpo, codo arriba, meté la mano y bloqueá con el brazo firme.",
+      "moves": [
+        {
+          "cut": "HIKE",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "PULL",
+              0.4
+            ],
+            [
+              "OH",
+              0.55
+            ],
+            [
+              "HANG",
+              0.6
+            ],
+            [
+              "HIKE",
+              0.6
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.4,
+      "badge": "A ENTRENAR",
+      "head": [
+        "12 REPS"
+      ],
+      "sub": "24 kg",
+      "vo": "Doce repeticiones con veinticuatro kilos, alternando de mano sin soltar la pesa.",
+      "chips": [
+        {
+          "label": "1 · ATRÁS",
+          "at": 0.4
+        },
+        {
+          "label": "2 · ARRIBA",
+          "at": 1.3
+        }
+      ],
+      "moves": [
+        {
+          "cut": "HIKE",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "PULL",
+              0.4
+            ],
+            [
+              "OH",
+              0.55
+            ],
+            [
+              "HANG",
+              0.6
+            ],
+            [
+              "HIKE",
+              0.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "OH",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Kettlebell Snatch ⚡ Arranque a una mano paso a paso | CrossFit",
+    "tags": [
+      "kettlebell snatch",
+      "snatch con kettlebell",
+      "arranque con kettlebell",
+      "kettlebell",
+      "snatch",
+      "potencia",
+      "crossfit",
+      "una mano",
+      "hombro",
+      "core",
+      "24 kg"
+    ],
+    "descripcion": "⚡ KETTLEBELL SNATCH — la pesa del swing al bloqueo, con una sola mano\n\nEs el movimiento más técnico de la kettlebell: si tirás con el brazo, la pesa te golpea la muñeca. Con el codo arriba y la mano metida, sube sola. 💪\n\n📋 PASO A PASO\n1️⃣ Una mano en la pesa, la otra libre y los pies al ancho de hombros.\n2️⃣ Pasá la pesa atrás, entre las piernas, con el pecho arriba.\n3️⃣ Extendé la cadera y tirá con el codo arriba, con la pesa cerca del cuerpo.\n4️⃣ Meté la mano por debajo y bloqueá la pesa arriba, con el bíceps junto a la oreja.\n5️⃣ Bajá controlado al swing y repetí sin soltar la pesa.\n\n✅ CLAVES DE TÉCNICA\n• La pesa viaja cerca del cuerpo\n• Tirá con el codo, no con la mano\n• Meté la mano para que gire sobre la muñeca\n• Bloqueo con el brazo firme y la costilla abajo\n• Alterná de mano sin soltar la pesa\n\n🎯 QUÉ TRABAJA\nBíceps femoral · Glúteo · Deltoides anterior · Trapecio · Core\n\n⏱️ CUÁNTO\n12 repeticiones con 24 kg. Va en el WOD como potencia, lejos del fallo.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nEmpezá liviano y con la técnica del swing bien aceitada antes de subir el peso.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.\n\n#CrossFit #Kettlebell #Snatch #Potencia #Fuerza"
+  }
+}

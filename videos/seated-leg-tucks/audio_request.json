@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Seated Leg Tucks",
+      "text": "Sentado, llevás las rodillas al pecho sin apoyar los pies."
+    },
+    {
+      "id": "02",
+      "text": "Sentate con las piernas estiradas y la espalda derecha, con las manos al lado de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Inclinate un poco hacia atrás y apoyá las manos detrás de la cadera."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Despegá los pies del piso con las piernas estiradas y el abdomen firme."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Tirá las rodillas al pecho y volvé a estirar sin apoyar los pies."
+    },
+    {
+      "id": "06",
+      "text": "Así no: si te recostás entre repeticiones, perdés la tensión del abdomen."
+    },
+    {
+      "id": "07",
+      "text": "Claves: abdomen firme, manos atrás, pies que no tocan el piso y un movimiento corto y controlado."
+    },
+    {
+      "id": "08",
+      "text": "Veinte segundos con el abdomen apretado, sin apoyar ni la espalda ni los pies."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

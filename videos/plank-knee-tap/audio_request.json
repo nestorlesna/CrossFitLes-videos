@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Plank Knee Tap",
+      "text": "En plancha, llevás una rodilla al pecho y la tocás con la mano contraria."
+    },
+    {
+      "id": "02",
+      "text": "Arrancá en plancha alta, con las manos debajo de los hombros y el cuerpo en línea."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Llevá una rodilla hacia adelante, hacia el pecho, sin mover la cadera."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Tocá la rodilla con la mano del lado contrario y volvé a la plancha. Alterná los lados."
+    },
+    {
+      "id": "05",
+      "text": "Error: si levantás la cadera para llegar con la mano, la plancha se rompe y el abdomen deja de trabajar."
+    },
+    {
+      "id": "06",
+      "text": "Claves: la cadera no se mueve ni rota, las manos quedan debajo de los hombros, la rodilla llega al pecho y se alternan los lados."
+    },
+    {
+      "id": "07",
+      "text": "Cuarenta segundos alternando rodillas, sin mover la cadera y sin perder la plancha."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

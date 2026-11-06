@@ -1,0 +1,371 @@
+{
+  "slug": "kb-dead-bug",
+  "name": "KB Dead Bug",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Core",
+    "Estabilidad",
+    "Hombro"
+  ],
+  "descripcion": "Acostado boca arriba con rodillas y caderas a 90°, sosteniendo una kettlebell overhead con un brazo. Se extiende la pierna contraria mientras el brazo con la kettlebell se mantiene estable, alternando lados.",
+  "revisado": false,
+  "notas": "Basada en dead-bug-hold-with-dumbbell; kettlebell en la mano cercana, brazo estable arriba.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1500,
+    "scale": 0.8
+  },
+  "initialPose": "START",
+  "props": [
+    {
+      "type": "kettlebell",
+      "hand": "near",
+      "off": [
+        0,
+        10
+      ]
+    }
+  ],
+  "poses": {
+    "START": {
+      "hip": [
+        0,
+        -16
+      ],
+      "ankle": [
+        235,
+        -245
+      ],
+      "ankle2": [
+        235,
+        -245
+      ],
+      "b": -90,
+      "hd": -92,
+      "ft": -20,
+      "ft2": -20,
+      "g": 0,
+      "ua": 158,
+      "fa": 0,
+      "ua2": 158,
+      "fa2": 0
+    },
+    "EXT_N": {
+      "hip": [
+        0,
+        -16
+      ],
+      "ankle": [
+        470,
+        -34
+      ],
+      "ankle2": [
+        235,
+        -245
+      ],
+      "b": -90,
+      "hd": -92,
+      "ft": -40,
+      "ft2": -20,
+      "g": 0,
+      "ua": 158,
+      "fa": 0,
+      "ua2": 158,
+      "fa2": 0
+    },
+    "EXT_F": {
+      "hip": [
+        0,
+        -16
+      ],
+      "ankle": [
+        235,
+        -245
+      ],
+      "ankle2": [
+        470,
+        -34
+      ],
+      "b": -90,
+      "hd": -92,
+      "ft": -20,
+      "ft2": -40,
+      "g": 0,
+      "ua": 158,
+      "fa": 0,
+      "ua2": 158,
+      "fa2": 0
+    },
+    "ARCH_BAD": {
+      "hip": [
+        0,
+        -4
+      ],
+      "ankle": [
+        255,
+        -230
+      ],
+      "ankle2": [
+        255,
+        -230
+      ],
+      "b": -74,
+      "hd": -80,
+      "ft": -20,
+      "ft2": -20,
+      "g": 0,
+      "ua": 158,
+      "fa": 0,
+      "ua2": 158,
+      "fa2": 0
+    }
+  },
+  "miniatura": {
+    "pose": "EXT_N",
+    "grip": 0,
+    "zoom": 1.0,
+    "dy": 230
+  },
+  "youtube": {
+    "titulo": "KB Dead Bug 🔥 Core estable con kettlebell overhead | CrossFit",
+    "tags": [
+      "kb dead bug",
+      "dead bug con kettlebell",
+      "core",
+      "estabilidad",
+      "lumbar",
+      "kettlebell",
+      "recto abdominal",
+      "crossfit",
+      "activación",
+      "anti extensión"
+    ],
+    "descripcion": "🔥 KB DEAD BUG — core estable con kettlebell overhead\n\n¿El dead bug te resulta fácil? Sumale una kettlebell arriba y el core tiene que trabajar el doble para no perder la posición. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Acostate boca arriba con las rodillas y las caderas a 90 grados.\n2️⃣ Sostené la kettlebell con un brazo extendido arriba y no la muevas.\n3️⃣ Extendé la pierna contraria sin que la lumbar se despegue del piso.\n4️⃣ Volvé y cambiá de pierna, manteniendo la kettlebell quieta arriba.\n5️⃣ Alterná lados durante todo el tiempo, sin apurar el ritmo.\n\n✅ CLAVES DE TÉCNICA\n• Lumbar pegada al piso de principio a fin\n• Extendé la pierna sin arquear la espalda\n• Kettlebell estable arriba, sin balancearla\n• Respirá y controlá el ritmo\n• Si la lumbar se despega, acortá el rango\n\n🎯 QUÉ TRABAJA\nRecto abdominal · Transverso · Oblicuos · Hombro estabilizador\n\n⏱️ CUÁNTO\n30 segundos con 20 kg. Ideal como activación de core antes de un WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca usaste una kettlebell overhead, empezá sin peso y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #DeadBug #Core #Kettlebell #Estabilidad"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "KB",
+        "DEAD BUG"
+      ],
+      "vo": "KB Dead Bug: core estable con una kettlebell arriba. La lumbar no se despega del piso.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "START",
+              0.6
+            ],
+            [
+              "EXT_N",
+              0.7
+            ],
+            [
+              "START",
+              0.5
+            ],
+            [
+              "EXT_F",
+              0.7
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BOCA",
+        "ARRIBA"
+      ],
+      "sub": "Lumbar pegada",
+      "vo": "Acostate boca arriba con las rodillas y las caderas a noventa grados.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BRAZO",
+        "ARRIBA"
+      ],
+      "sub": "Kettlebell estable",
+      "vo": "Paso uno. Sostené la kettlebell con un brazo extendido arriba y no la muevas.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            900
+          ],
+          "text": "BRAZO ESTABLE",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "EXTENDÉ",
+        "LA PIERNA"
+      ],
+      "sub": "Sin despegar lumbar",
+      "vo": "Paso dos. Extendé la pierna contraria sin que la lumbar se despegue del piso.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "EXT_N",
+          "at": 0.8,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            980
+          ],
+          "text": "LUMBAR PEGADA",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ALTERNÁ",
+        "LADOS"
+      ],
+      "sub": "Sin balancear",
+      "vo": "Paso tres. Volvé y cambiá de pierna, manteniendo la kettlebell quieta arriba.",
+      "moves": [
+        {
+          "cut": "EXT_N",
+          "at": 0
+        },
+        {
+          "to": "START",
+          "at": 0.7,
+          "dur": 0.6
+        },
+        {
+          "to": "EXT_F",
+          "at": 1.8,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            900
+          ],
+          "text": "NO BALANCEES",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Lumbar pegada al piso",
+        "Extendé sin arquear",
+        "Kettlebell estable arriba",
+        "Respirá y controlá el ritmo"
+      ],
+      "vo": "Claves: lumbar pegada, extendé sin arquear, kettlebell estable y respirá controlando el ritmo.",
+      "moves": [
+        {
+          "cut": "EXT_F",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEG"
+      ],
+      "sub": "20 kg",
+      "vo": "Treinta segundos alternando piernas con veinte kilos. Si la lumbar se despega, frená.",
+      "chips": [
+        {
+          "label": "1 · EXTENDÉ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · VOLVÉ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · CAMBIÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "EXT_N",
+              0.7
+            ],
+            [
+              "START",
+              0.5
+            ],
+            [
+              "EXT_F",
+              0.7
+            ],
+            [
+              "START",
+              0.5
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

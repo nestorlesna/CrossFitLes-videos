@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "d4aadb95-9b73-4e41-84e9-5947d1ea4318",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "2f5c5707835ff5ee136f2a87da31dbaeebc298b0114b510067570c2d11c80cca",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d4aadb95-9b73-4e41-84e9-5947d1ea4318\\blobs\\2f\\2f5c5707835ff5ee136f2a87da31dbaeebc298b0114b510067570c2d11c80cca"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d4aadb95-9b73-4e41-84e9-5947d1ea4318\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "89c5339eefb001cb785b7f4c7bf25a4216df329a37e56d595c0b8c7985ae1483",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d4aadb95-9b73-4e41-84e9-5947d1ea4318\\blobs\\89\\89c5339eefb001cb785b7f4c7bf25a4216df329a37e56d595c0b8c7985ae1483"
+    },
+    "meta.json": {
+      "hash": "3f08d09bfa6135ee6aec88c9b28682ed49c81d4e9027d59ae28b14a25257474a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d4aadb95-9b73-4e41-84e9-5947d1ea4318\\blobs\\3f\\3f08d09bfa6135ee6aec88c9b28682ed49c81d4e9027d59ae28b14a25257474a"
+    },
+    "package.json": {
+      "hash": "dbb8d33a8dc31714809ef11d551a6f35aac8b0b66fa27fd24bc3a07da3afd436",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d4aadb95-9b73-4e41-84e9-5947d1ea4318\\blobs\\db\\dbb8d33a8dc31714809ef11d551a6f35aac8b0b66fa27fd24bc3a07da3afd436"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "6c992215-c89c-4ea6-9c70-851b3a762821",
+      "completedAt": 1793874303245,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\barbell-high-hang-squat-clean\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

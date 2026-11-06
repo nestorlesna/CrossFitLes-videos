@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Upward to Downward Dog",
+      "text": "De perro boca arriba a perro boca abajo. Columna y hombros móviles."
+    },
+    {
+      "id": "02",
+      "text": "Arrancá en perro boca arriba: brazos estirados, cadera cerca del piso y el pecho bien abierto."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Alejá los hombros de las orejas, empujando el piso, sin hundir el cuello entre ellos."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Empujá el piso y llevá la cadera atrás y arriba, de a poco, sin apurarte."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Llegá a perro boca abajo: cadera alta y espalda recta. Priorizá la espalda sobre bajar los talones."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Pasá de una posición a la otra sin cortar el movimiento, acompañando con la respiración."
+    },
+    {
+      "id": "07",
+      "text": "Claves: hombros lejos de las orejas, cadera abajo y pecho abierto arriba, espalda recta abajo y respirá con el movimiento."
+    },
+    {
+      "id": "08",
+      "text": "Seis repeticiones fluidas. Respirá, empujá el piso y mantené los hombros lejos de las orejas."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

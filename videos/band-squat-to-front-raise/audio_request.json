@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Band Squat to Front Raise",
+      "text": "Hacé la sentadilla sobre la banda y al subir elevá los brazos al frente."
+    },
+    {
+      "id": "02",
+      "text": "Parate sobre la banda con los pies al ancho de la cadera y una punta en cada mano."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá en sentadilla con el pecho arriba, hasta donde te permitan los tobillos."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Subí extendiendo la cadera y los talones firmes en el piso."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Recién ahí elevá los brazos al frente hasta la altura del hombro y bajalos con control."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Si arqueás la lumbar para levantar los brazos, el hombro deja de trabajar."
+    },
+    {
+      "id": "07",
+      "text": "Claves: elevación después de extender la cadera, lumbar neutra, talones apoyados y pecho arriba."
+    },
+    {
+      "id": "08",
+      "text": "Veinte segundos, ritmo parejo: sentadilla, extensión y elevación, sin rebotes."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

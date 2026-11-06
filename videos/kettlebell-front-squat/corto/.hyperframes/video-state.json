@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "e2c874c6-924b-4f22-bec7-61af0626a6c5",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "2f5c5707835ff5ee136f2a87da31dbaeebc298b0114b510067570c2d11c80cca",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e2c874c6-924b-4f22-bec7-61af0626a6c5\\blobs\\2f\\2f5c5707835ff5ee136f2a87da31dbaeebc298b0114b510067570c2d11c80cca"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e2c874c6-924b-4f22-bec7-61af0626a6c5\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "fa03dd34530dea9df152c8c84c28cdc58e7c1aba582c5d5adccaeaaa999ec715",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e2c874c6-924b-4f22-bec7-61af0626a6c5\\blobs\\fa\\fa03dd34530dea9df152c8c84c28cdc58e7c1aba582c5d5adccaeaaa999ec715"
+    },
+    "meta.json": {
+      "hash": "db4f9741829c1c8290fd87aadc07e54c68108abd86f5f67f20c507e898cbfeca",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e2c874c6-924b-4f22-bec7-61af0626a6c5\\blobs\\db\\db4f9741829c1c8290fd87aadc07e54c68108abd86f5f67f20c507e898cbfeca"
+    },
+    "package.json": {
+      "hash": "c745a75e2fc32d956b0dddc9fceae559c66746a37f034d1ea658fb55a1e654ee",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e2c874c6-924b-4f22-bec7-61af0626a6c5\\blobs\\c7\\c745a75e2fc32d956b0dddc9fceae559c66746a37f034d1ea658fb55a1e654ee"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "857eff83-b505-4d8e-a84d-d3dd0df479d7",
+      "completedAt": 1793874981819,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\kettlebell-front-squat\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

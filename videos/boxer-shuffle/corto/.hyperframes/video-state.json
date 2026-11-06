@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "0632b4f5-d4cc-434c-b1aa-2ba593312636",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "b418a97e77413879956e3139d464970c5668b51b9d77a96e40e886376748ed20",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0632b4f5-d4cc-434c-b1aa-2ba593312636\\blobs\\b4\\b418a97e77413879956e3139d464970c5668b51b9d77a96e40e886376748ed20"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0632b4f5-d4cc-434c-b1aa-2ba593312636\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "60c3c4b0022af8c1a803e363733f6ae38e1287b9983ddea832e48d431643f1b1",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0632b4f5-d4cc-434c-b1aa-2ba593312636\\blobs\\60\\60c3c4b0022af8c1a803e363733f6ae38e1287b9983ddea832e48d431643f1b1"
+    },
+    "meta.json": {
+      "hash": "6cf13400ee986d090ffb4eabf61530c9101ca0177277ec69fc88caf29db4b846",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0632b4f5-d4cc-434c-b1aa-2ba593312636\\blobs\\6c\\6cf13400ee986d090ffb4eabf61530c9101ca0177277ec69fc88caf29db4b846"
+    },
+    "package.json": {
+      "hash": "44ccb9e564df4b67a677c0690042c570f4fe9f005a86123a17dd675d7bb784d3",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0632b4f5-d4cc-434c-b1aa-2ba593312636\\blobs\\44\\44ccb9e564df4b67a677c0690042c570f4fe9f005a86123a17dd675d7bb784d3"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "cf2ff69a-945a-4e70-ba4e-10398ada7202",
+      "completedAt": 1793879095651,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\boxer-shuffle\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

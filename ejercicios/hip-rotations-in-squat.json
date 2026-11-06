@@ -1,0 +1,388 @@
+{
+  "slug": "hip-rotations-in-squat",
+  "name": "Hip Rotations in Squat",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Caderas",
+    "Glúteos",
+    "Movilidad"
+  ],
+  "descripcion": "Sentadilla profunda mantenida en la posición baja. Desde ahí, alternar la rotación interna y externa de cada cadera, dejando caer la rodilla hacia adentro y hacia afuera de forma controlada.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "pronuncia": {
+    "Hip Rotations in Squat": "Jip rotéishons in scuat"
+  },
+  "initialPose": "STAND",
+  "props": [],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "DEEP": {
+      "hip": [
+        -150,
+        -205
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 30,
+      "hd": 14,
+      "g": 0,
+      "ua": 50,
+      "fa": 130,
+      "ua2": 50,
+      "fa2": 130
+    },
+    "ROT_A": {
+      "hip": [
+        -150,
+        -205
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        40,
+        0
+      ],
+      "ll": 0.88,
+      "b": 30,
+      "hd": 14,
+      "g": 0,
+      "ua": 50,
+      "fa": 130,
+      "ua2": 50,
+      "fa2": 130
+    },
+    "ROT_B": {
+      "hip": [
+        -150,
+        -205
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        -40,
+        0
+      ],
+      "ll2": 0.88,
+      "b": 30,
+      "hd": 14,
+      "g": 0,
+      "ua": 50,
+      "fa": 130,
+      "ua2": 50,
+      "fa2": 130
+    },
+    "HEELS_BAD": {
+      "hip": [
+        -60,
+        -240
+      ],
+      "ankle": [
+        30,
+        -30
+      ],
+      "ft": -30,
+      "ft2": -30,
+      "b": 30,
+      "hd": 18,
+      "g": 0,
+      "ua": 50,
+      "fa": 130,
+      "ua2": 50,
+      "fa2": 130
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "HIP ROTATIONS",
+        "IN SQUAT"
+      ],
+      "vo": "Hip Rotations in Squat: rotaciones de cadera en sentadilla profunda. Movilidad de caderas pura.",
+      "moves": [
+        {
+          "to": "DEEP",
+          "at": 0.3,
+          "dur": 0.6
+        },
+        {
+          "seq": [
+            [
+              "ROT_A",
+              0.7
+            ],
+            [
+              "DEEP",
+              0.4
+            ],
+            [
+              "ROT_B",
+              0.7
+            ],
+            [
+              "DEEP",
+              0.4
+            ]
+          ],
+          "at": 1,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "SENTADILLA",
+        "PROFUNDA"
+      ],
+      "sub": "Talones apoyados, manos juntas",
+      "vo": "Bajá a una sentadilla profunda con los talones apoyados y las manos juntas frente al pecho. Pecho arriba.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "DEEP",
+          "at": 0.8,
+          "dur": 1
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "MANTENÉ",
+        "LA BAJA"
+      ],
+      "sub": "Cadera baja todo el tiempo",
+      "vo": "Paso uno. Quedate abajo: la cadera no sube durante toda la serie. Empujá las rodillas apenas hacia afuera con los codos.",
+      "moves": [
+        {
+          "cut": "DEEP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            260,
+            1000
+          ],
+          "text": "CADERA BAJA",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "ROTACIÓN",
+        "INTERNA"
+      ],
+      "sub": "Rodilla cae hacia adentro",
+      "vo": "Paso dos. Dejá caer una rodilla hacia adentro, rotando la cadera de forma controlada. Sin despegar el talón.",
+      "moves": [
+        {
+          "cut": "DEEP",
+          "at": 0
+        },
+        {
+          "to": "ROT_A",
+          "at": 0.6,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "ROTACIÓN",
+        "EXTERNA"
+      ],
+      "sub": "Rodilla abre hacia afuera",
+      "vo": "Paso tres. Volvé al centro y abrí esa rodilla hacia afuera. La rotación nace de la cadera, no del tobillo.",
+      "moves": [
+        {
+          "cut": "ROT_A",
+          "at": 0
+        },
+        {
+          "to": "DEEP",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "ROT_B",
+          "at": 1.3,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ALTERNÁ",
+        "LADOS"
+      ],
+      "sub": "Lento y controlado",
+      "vo": "Paso cuatro. Alterná de lado lento y controlado. Cada rotación es amplia, sin dolor y respirando tranquilo.",
+      "moves": [
+        {
+          "cut": "DEEP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ROT_A",
+              0.8
+            ],
+            [
+              "DEEP",
+              0.4
+            ],
+            [
+              "ROT_B",
+              0.8
+            ],
+            [
+              "DEEP",
+              0.4
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Cadera baja todo el tiempo",
+        "Talones apoyados",
+        "Rotación desde la cadera",
+        "Pecho arriba"
+      ],
+      "vo": "Claves: cadera baja todo el tiempo, talones apoyados, la rotación sale de la cadera y no del tobillo, y pecho arriba.",
+      "moves": [
+        {
+          "cut": "DEEP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEG"
+      ],
+      "sub": "Lento y controlado",
+      "vo": "Treinta segundos alternando rotaciones. Cadera baja, movimiento lento y respiración tranquila.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · ADENTRO",
+          "at": 1.1
+        },
+        {
+          "label": "3 · AFUERA",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "DEEP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ROT_A",
+              0.8
+            ],
+            [
+              "DEEP",
+              0.4
+            ],
+            [
+              "ROT_B",
+              0.8
+            ],
+            [
+              "DEEP",
+              0.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "DEEP",
+    "grip": 0
+  },
+  "youtube": {
+    "titulo": "Hip Rotations in Squat 🔥 movilidad de cadera paso a paso | CrossFit",
+    "descripcion": "🔥 HIP ROTATIONS IN SQUAT — caderas móviles y sentadillas más profundas.\n\nSi tus caderas están duras y la sentadilla profunda te cuesta, este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Bajá a una sentadilla profunda con los talones apoyados y las manos juntas frente al pecho, con el pecho arriba.\n2️⃣ Quedate abajo: la cadera no sube durante toda la serie. Empujá las rodillas apenas hacia afuera con los codos.\n3️⃣ Dejá caer una rodilla hacia adentro, rotando la cadera de forma controlada, sin despegar el talón.\n4️⃣ Volvé al centro y abrí esa rodilla hacia afuera. La rotación nace de la cadera, no del tobillo.\n5️⃣ Alterná de lado lento y controlado. Cada rotación es amplia, sin dolor y respirando tranquilo.\n\n✅ CLAVES DE TÉCNICA\n• Mantener la cadera baja durante toda la serie\n• Talones apoyados\n• La rotación viene de la cadera, no del tobillo\n• Pecho arriba\n\n🎯 QUÉ TRABAJA\nGlúteo mayor · Bíceps femoral · Recto abdominal · Recto femoral\n\n⏱️ CUÁNTO\n30 segundos alternando lados en la entrada en calor, antes de sentadillas o cualquier trabajo de piernas.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\r\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #HipRotationsinSquat #Movilidad #Entrenamiento",
+    "tags": [
+      "hip rotations in squat",
+      "rotación de cadera",
+      "movilidad de cadera",
+      "sentadilla profunda",
+      "entrada en calor",
+      "movilidad",
+      "crossfit",
+      "caderas",
+      "ejercicio de movilidad",
+      "calentamiento"
+    ]
+  }
+}

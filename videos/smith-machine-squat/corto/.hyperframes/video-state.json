@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "b17f881a-91bf-4edb-8802-6bb0ff0ba47d",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "466ab5c77848be26a0308a76b22525f191761e9c9d412094562daaef67c9f9ef",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b17f881a-91bf-4edb-8802-6bb0ff0ba47d\\blobs\\46\\466ab5c77848be26a0308a76b22525f191761e9c9d412094562daaef67c9f9ef"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b17f881a-91bf-4edb-8802-6bb0ff0ba47d\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "a4c06e85e3a98c125175b71122ebf8ebe719b17a82f76542493a889207714ac4",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b17f881a-91bf-4edb-8802-6bb0ff0ba47d\\blobs\\a4\\a4c06e85e3a98c125175b71122ebf8ebe719b17a82f76542493a889207714ac4"
+    },
+    "meta.json": {
+      "hash": "2cbbfebd46ec33ed5c399c1421c0c71f242e03da253efa1038c85ddc5dcb8e3f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b17f881a-91bf-4edb-8802-6bb0ff0ba47d\\blobs\\2c\\2cbbfebd46ec33ed5c399c1421c0c71f242e03da253efa1038c85ddc5dcb8e3f"
+    },
+    "package.json": {
+      "hash": "bca59c244059a7db9cace3b3fff4f6db1755bd2e3efcfc53a32b76409a86f8e8",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b17f881a-91bf-4edb-8802-6bb0ff0ba47d\\blobs\\bc\\bca59c244059a7db9cace3b3fff4f6db1755bd2e3efcfc53a32b76409a86f8e8"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "6282aee3-0196-4f94-8f9e-feed5e984a6f",
+      "completedAt": 1793880899538,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\smith-machine-squat\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

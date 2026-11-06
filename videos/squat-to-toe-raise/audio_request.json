@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Squat To Toe Raise",
+      "text": "Squat Toe Raise: sentadilla y elevación de talones en un solo movimiento, con el cuerpo bien extendido arriba."
+    },
+    {
+      "id": "02",
+      "text": "De pie con los pies al ancho de la cadera, el peso repartido en la planta y el pecho arriba."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá en sentadilla con los talones bien apoyados y las rodillas siguiendo la punta de los pies."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Subí extendiendo cadera y rodillas, con los talones todavía apoyados en el piso."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Recién arriba, con el cuerpo extendido, despegá los talones y subí a puntas de pie."
+    },
+    {
+      "id": "06",
+      "text": "El error: levantar los talones antes de terminar la sentadilla. Subilos recién cuando el cuerpo está extendido."
+    },
+    {
+      "id": "07",
+      "text": "Claves: talones apoyados al bajar, rodillas hacia afuera, extensión completa antes de las puntas y bajada controlada."
+    },
+    {
+      "id": "08",
+      "text": "Veinte segundos encadenando sentadilla y puntas de pie. Bajá controlado y no rebotes en el fondo."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

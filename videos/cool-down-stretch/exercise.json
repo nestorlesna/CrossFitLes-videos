@@ -1,0 +1,366 @@
+{
+  "slug": "cool-down-stretch",
+  "name": "Cool-Down Stretch",
+  "category": "CROSSFIT · VUELTA A LA CALMA",
+  "tags": [
+    "Isquiotibiales",
+    "Glúteos",
+    "Espalda"
+  ],
+  "descripcion": "Rutina de estiramientos y vuelta a la calma: estiramientos suaves de cadena posterior, cadera y zona media manteniendo cada posición y respirando profundo.",
+  "revisado": false,
+  "notas": "Circuito de 3 estiramientos (cadena posterior, glúteo y espalda) con cortes entre posiciones.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 520,
+    "y": 1504,
+    "scale": 0.82
+  },
+  "initialPose": "SEATED",
+  "props": [],
+  "poses": {
+    "SEATED": {
+      "hip": [
+        -230,
+        0
+      ],
+      "s": -90,
+      "t": -90,
+      "ft": -90,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": -190,
+      "hy": 15
+    },
+    "SEATED_FOLD": {
+      "hip": [
+        -230,
+        0
+      ],
+      "s": -90,
+      "t": -90,
+      "ft": -90,
+      "b": 60,
+      "hd": 80,
+      "g": 1,
+      "hx": 300,
+      "hy": -75
+    },
+    "PIGEON_UP": {
+      "hip": [
+        0,
+        -120
+      ],
+      "s": 90,
+      "t": -57,
+      "s2": 90,
+      "t2": 57,
+      "ft": 172,
+      "b": 15,
+      "hd": 8,
+      "g": 1,
+      "hx": 150,
+      "hy": -60
+    },
+    "PIGEON_FOLD": {
+      "hip": [
+        0,
+        -110
+      ],
+      "s": 90,
+      "t": -60,
+      "s2": 90,
+      "t2": 60,
+      "ft": 172,
+      "b": 82,
+      "hd": 115,
+      "g": 0,
+      "ua": 25,
+      "fa": 65
+    },
+    "QUAD": {
+      "hip": [
+        -150,
+        -231
+      ],
+      "s": 90,
+      "t": 0,
+      "s2": 90,
+      "t2": 0,
+      "ft": 172,
+      "b": 72,
+      "hd": 100,
+      "g": 1,
+      "hx": 116,
+      "hy": 15
+    },
+    "CHILD": {
+      "hip": [
+        -200,
+        -110
+      ],
+      "s": 90,
+      "t": -60,
+      "s2": 90,
+      "t2": -60,
+      "ft": 172,
+      "b": 86,
+      "hd": 104,
+      "g": 1,
+      "hx": 400,
+      "hy": 15
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · VUELTA A LA CALMA",
+      "head": [
+        "COOL-DOWN",
+        "STRETCH"
+      ],
+      "vo": "Cool-Down Stretch: la vuelta a la calma después de entrenar, cinco minutos para soltar todo.",
+      "moves": [
+        {
+          "to": "SEATED_FOLD",
+          "at": 1.2,
+          "dur": 2.0
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "CÓMO",
+      "head": [
+        "20–30 S",
+        "POR POSICIÓN"
+      ],
+      "sub": "Quieto, sin rebotes",
+      "vo": "Sostené cada posición entre veinte y treinta segundos y respirá profundo, sin rebotes.",
+      "moves": [
+        {
+          "cut": "SEATED",
+          "at": 0
+        },
+        {
+          "to": "SEATED_FOLD",
+          "at": 1.4,
+          "dur": 2.0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "1 / 3",
+      "head": [
+        "CADENA",
+        "POSTERIOR"
+      ],
+      "sub": "Pecho hacia los pies",
+      "vo": "Uno: cadena posterior. Sentado con las piernas estiradas, llevá el pecho hacia los pies.",
+      "moves": [
+        {
+          "cut": "SEATED",
+          "at": 0
+        },
+        {
+          "to": "SEATED_FOLD",
+          "at": 1.0,
+          "dur": 2.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1030
+          ],
+          "anchor": "middle",
+          "text": "CADENA POSTERIOR",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "numeral": "2",
+      "badge": "2 / 3",
+      "head": [
+        "GLÚTEO"
+      ],
+      "sub": "Postura de la paloma",
+      "vo": "Dos: glúteo. En la paloma, bajá el torso sobre la pierna de adelante.",
+      "moves": [
+        {
+          "cut": "PIGEON_UP",
+          "at": 0
+        },
+        {
+          "to": "PIGEON_FOLD",
+          "at": 1.0,
+          "dur": 2.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "PIGEON_FOLD.H",
+            "dx": 20,
+            "dy": 10
+          },
+          "r": 70,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "PIGEON_FOLD.H",
+            "dx": -10,
+            "dy": -130
+          },
+          "anchor": "middle",
+          "text": "GLÚTEO",
+          "at": 3.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "3 / 3",
+      "head": [
+        "ESPALDA"
+      ],
+      "sub": "Postura del niño",
+      "vo": "Tres: espalda. Sentate sobre los talones y estirá los brazos bien lejos, respirando hondo.",
+      "moves": [
+        {
+          "cut": "QUAD",
+          "at": 0
+        },
+        {
+          "to": "CHILD",
+          "at": 1.0,
+          "dur": 2.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": {
+            "j": "CHILD.S",
+            "dx": 20,
+            "dy": -80
+          },
+          "to": {
+            "j": "CHILD.W",
+            "dx": 40,
+            "dy": -80
+          },
+          "at": 2.8,
+          "dur": 0.9
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "CHILD.S",
+            "dx": 60,
+            "dy": -130
+          },
+          "anchor": "start",
+          "text": "BRAZOS LARGOS",
+          "at": 3.0
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "20–30 s por posición",
+        "Sin rebotes",
+        "Respirá profundo",
+        "Bajá las pulsaciones"
+      ],
+      "vo": "Claves: veinte a treinta segundos por posición, sin rebotes, respirá profundo y bajá las pulsaciones de a poco."
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "5 MINUTOS"
+      ],
+      "sub": "Y respirá hondo",
+      "vo": "Cinco minutos al final de la clase. Bajá las pulsaciones, soltá y respirá hondo.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "SEATED_FOLD",
+              2.0
+            ],
+            [
+              "PIGEON_FOLD",
+              2.0
+            ],
+            [
+              "CHILD",
+              2.0
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ],
+      "chips": [
+        {
+          "label": "1 · ISQUIOS",
+          "at": 0.6
+        },
+        {
+          "label": "2 · GLÚTEO",
+          "at": 1.1
+        },
+        {
+          "label": "3 · ESPALDA",
+          "at": 1.6
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "PIGEON_UP",
+    "grip": 0,
+    "zoom": 1.05,
+    "dy": 180
+  },
+  "youtube": {
+    "titulo": "Cool-Down Stretch 🧘 Vuelta a la calma en 5 minutos | CrossFit",
+    "descripcion": "🧘 COOL-DOWN STRETCH — la vuelta a la calma que tu cuerpo te pide\n\nTerminaste el WOD y te querés ir... ¡pará un toque! Cinco minutos de estiramiento suave ayudan a soltar la cadena posterior, la cadera y la espalda, y a bajar las pulsaciones de a poco. Este video es para vos. 😮‍💨\n\n📋 PASO A PASO\n1️⃣ Sostené cada posición entre 20 y 30 segundos, quieto y sin rebotes.\n2️⃣ Cadena posterior: sentado con las piernas estiradas, llevá el pecho hacia los pies.\n3️⃣ Glúteo: en la postura de la paloma, bajá el torso sobre la pierna de adelante.\n4️⃣ Espalda: sentate sobre los talones y estirá los brazos bien lejos.\n5️⃣ Respirá hondo en cada posición y bajá las pulsaciones de a poco.\n\n✅ CLAVES DE TÉCNICA\n• 20 a 30 segundos por posición\n• Sin rebotes: estiramiento quieto\n• Respirá profundo y aflojá en cada exhalación\n• Nunca llegues al dolor: tensión sí, dolor no\n• Bajá las pulsaciones progresivamente\n\n🎯 QUÉ TRABAJA\nBíceps femoral · Erectores espinales · Glúteo mayor\n\n⏱️ CUÁNTO\n5 minutos al final de la clase, después del WOD. Repetí del otro lado las posiciones que van de a una pierna.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #VueltaALaCalma #CoolDown #Estiramiento #Entrenamiento",
+    "tags": [
+      "cool down",
+      "vuelta a la calma",
+      "estiramiento después de entrenar",
+      "estiramientos",
+      "movilidad",
+      "flexibilidad",
+      "isquiotibiales",
+      "glúteos",
+      "espalda",
+      "postura del niño",
+      "crossfit",
+      "stretching"
+    ]
+  }
+}

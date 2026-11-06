@@ -1,0 +1,395 @@
+{
+  "slug": "i-y-t-raises",
+  "name": "I-Y-T Raises",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Espalda alta",
+    "Hombros",
+    "Activación"
+  ],
+  "descripcion": "De pie, elevar los brazos dibujando tres letras: I (rectos al techo), Y (abiertos unos 30 grados) y T (en cruz). Pulgares arriba, codos casi extendidos y movimiento lento, sin impulso.",
+  "revisado": false,
+  "notas": "La apertura de brazos es frontal: el perfil muestra la altura y la tarjeta vista de frente (topview mode front) muestra la I, la Y y la T.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "nombreEnVoz": "I Y T raises",
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "I": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 2,
+      "g": 0,
+      "ua": 180,
+      "fa": 0
+    },
+    "Y": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 2,
+      "g": 0,
+      "ua": 138,
+      "fa": 0
+    },
+    "T": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 0
+    },
+    "ARCH_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": -12,
+      "hd": -14,
+      "cv": -18,
+      "g": 0,
+      "ua": 172,
+      "fa": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "I · Y · T",
+        "RAISES"
+      ],
+      "topview": {
+        "mode": "front",
+        "label": "I · Y · T"
+      },
+      "vo": "I-Y-T Raises: tres letras con los brazos para activar espalda alta y hombros.",
+      "moves": [
+        {
+          "to": "I",
+          "at": 0.3,
+          "dur": 0.4
+        },
+        {
+          "seq": [
+            [
+              "Y",
+              0.6
+            ],
+            [
+              "T",
+              0.6
+            ],
+            [
+              "Y",
+              0.6
+            ],
+            [
+              "I",
+              0.6
+            ]
+          ],
+          "at": 0.8,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE",
+        "BRAZOS ABAJO"
+      ],
+      "sub": "Pulgares arriba",
+      "topview": {
+        "mode": "front",
+        "label": "PULGARES ARRIBA"
+      },
+      "vo": "Parate derecho, pies al ancho de la cadera y brazos abajo, con los pulgares arriba.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "LA I",
+        "AL TECHO"
+      ],
+      "sub": "Brazos rectos arriba",
+      "topview": {
+        "mode": "front",
+        "label": "I · BRAZOS ARRIBA"
+      },
+      "vo": "Paso uno. Subí los brazos rectos al techo, como una I. Codos casi extendidos y hombros abajo.",
+      "moves": [
+        {
+          "to": "I",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "I",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "LA Y",
+        "ABIERTOS"
+      ],
+      "sub": "Unos 30 grados",
+      "topview": {
+        "mode": "front",
+        "label": "Y · ABIERTOS"
+      },
+      "vo": "Paso dos. Bajá los brazos abriéndolos unos treinta grados y formá una Y, con los pulgares siempre arriba.",
+      "moves": [
+        {
+          "cut": "I",
+          "at": 0
+        },
+        {
+          "to": "Y",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "Y",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "LA T",
+        "EN CRUZ"
+      ],
+      "sub": "A la altura de hombros",
+      "topview": {
+        "mode": "front",
+        "label": "T · EN CRUZ"
+      },
+      "vo": "Paso tres. Bajá hasta los hombros, con los brazos en cruz: esa es la T. Bajá controlando.",
+      "moves": [
+        {
+          "cut": "Y",
+          "at": 0
+        },
+        {
+          "to": "T",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "T",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "SIN",
+        "ARQUEAR"
+      ],
+      "sub": "Abdomen firme",
+      "topview": {
+        "mode": "front",
+        "label": "SIN ARQUEAR"
+      },
+      "vo": "Paso cuatro. Abdomen firme para no arquear la espalda. Lento, sin impulso, hombros abajo.",
+      "moves": [
+        {
+          "cut": "I",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 1.8,
+          "dur": 0.6
+        },
+        {
+          "to": "I",
+          "at": 3.2,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "ABDOMEN FIRME",
+          "anchor": "middle",
+          "at": 0.6,
+          "out": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "ESPALDA ARQUEADA NO",
+          "anchor": "middle",
+          "at": 2.2,
+          "out": 3.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Pulgares hacia arriba",
+        "Codos casi extendidos",
+        "Hombros lejos de las orejas",
+        "Lento y sin impulso"
+      ],
+      "vo": "Claves: pulgares arriba, codos casi extendidos, hombros lejos de las orejas y movimiento lento.",
+      "moves": [
+        {
+          "cut": "I",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "6 REPS"
+      ],
+      "sub": "I, Y y T completas",
+      "vo": "Seis repeticiones de la secuencia completa: I, Y y T. Bajá controlando entre cada letra. Activa la espalda antes de entrenar.",
+      "chips": [
+        {
+          "label": "1 · I",
+          "at": 0.6
+        },
+        {
+          "label": "2 · Y",
+          "at": 1.5
+        },
+        {
+          "label": "3 · T",
+          "at": 2.4
+        }
+      ],
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "I",
+              0.7
+            ],
+            [
+              "Y",
+              0.7
+            ],
+            [
+              "T",
+              0.7
+            ],
+            [
+              "STAND",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "Y",
+    "grip": 0,
+    "zoom": 1.05,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "I-Y-T Raises 🔥 Activá espalda alta y hombros en 3 letras | CrossFit",
+    "tags": [
+      "i y t raises",
+      "iyt raises",
+      "activacion de hombros",
+      "trapecio inferior",
+      "espalda alta",
+      "deltoides posterior",
+      "entrada en calor",
+      "crossfit",
+      "hombros",
+      "activacion"
+    ],
+    "descripcion": "🔥 I-Y-T RAISES — activar la espalda alta y los hombros antes de entrenar\n\n¿Arrancás el WOD con los hombros dormidos? Estas tres letras despiertan el trapecio y los deltoides. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate derecho con los pies al ancho de la cadera y los brazos abajo, pulgares arriba.\n2️⃣ Subí los brazos rectos al techo: la I.\n3️⃣ Bajá abriéndolos unos treinta grados: la Y.\n4️⃣ Bajá hasta la altura de los hombros, en cruz: la T.\n5️⃣ Volvé a subir controlando y repetí la secuencia.\n\n✅ CLAVES DE TÉCNICA\n• Pulgares hacia arriba\n• Codos casi extendidos\n• Hombros lejos de las orejas\n• Movimiento lento, sin impulso\n• Abdomen firme para no arquear la espalda\n\n🎯 QUÉ TRABAJA\nTrapecio inferior · Deltoides lateral · Deltoides posterior · Romboides · Trapecio medio\n\n⏱️ CUÁNTO\n6 repeticiones de la secuencia completa. Ideal en la entrada en calor o como activación antes de press y dominadas.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Activacion #IYTRaises #EspaldaAlta #Hombros"
+  }
+}

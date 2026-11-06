@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Barbell Lunge",
+      "text": "Zancada con barra en la espalda. Paso largo, rodilla controlada y empuje con el pie de adelante."
+    },
+    {
+      "id": "02",
+      "text": "Parate derecho con una mancuerna en cada mano, los brazos al costado del cuerpo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Da un paso largo hacia adelante, con la barra estable en la espalda y el torso erguido."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá hasta que la rodilla de atrás casi toque el piso, sin inclinar el torso."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Empujá con el pie de adelante y volvé a quedar de pie, con el core activo."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Repetí con la otra pierna y seguí alternando sin perder el control de la barra."
+    },
+    {
+      "id": "07",
+      "text": "Claves: torso erguido, rodilla de adelante alineada con el pie, paso largo y el core activo todo el recorrido."
+    },
+    {
+      "id": "08",
+      "text": "Ocho repeticiones por pierna con treinta kilos. Si la barra se mueve, bajá el peso."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

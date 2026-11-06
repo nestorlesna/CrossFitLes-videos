@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "274d6664-bc3e-4ef3-9091-6305d2688c31",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "e1fc53d22732c0a5fc1c89d27084eb90b67868c18305600ce41a8efcb208bbfe",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\274d6664-bc3e-4ef3-9091-6305d2688c31\\blobs\\e1\\e1fc53d22732c0a5fc1c89d27084eb90b67868c18305600ce41a8efcb208bbfe"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\274d6664-bc3e-4ef3-9091-6305d2688c31\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "e82c09a5855d77dc7c4eafb9d798f8aed072dde84b333b52022a197dcbd41299",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\274d6664-bc3e-4ef3-9091-6305d2688c31\\blobs\\e8\\e82c09a5855d77dc7c4eafb9d798f8aed072dde84b333b52022a197dcbd41299"
+    },
+    "meta.json": {
+      "hash": "1ff4be7878544ddef32d67ab448bda74085820c2a0cf5080fddb1db47021124d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\274d6664-bc3e-4ef3-9091-6305d2688c31\\blobs\\1f\\1ff4be7878544ddef32d67ab448bda74085820c2a0cf5080fddb1db47021124d"
+    },
+    "package.json": {
+      "hash": "71c840bef3a122daca0a663ee727eee86462db87053d5456a9dd7181ebc4cfe6",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\274d6664-bc3e-4ef3-9091-6305d2688c31\\blobs\\71\\71c840bef3a122daca0a663ee727eee86462db87053d5456a9dd7181ebc4cfe6"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "ae4460d9-f413-480d-9626-9ba0678d2e91",
+      "completedAt": 1793879001409,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\bodyweight-pistol-squat\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

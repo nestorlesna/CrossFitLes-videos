@@ -6,6 +6,7 @@
   "lines": [
     {
       "id": "01",
+      "en": "General Stretching",
       "text": "Estiramiento general: la vuelta a la calma después de entrenar."
     },
     {
@@ -39,5 +40,6 @@
   ],
   "bgm": {
     "mode": "none"
-  }
+  },
+  "enVoice": "kokoro:af_heart"
 }

@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Tempo Push Up",
+      "text": "Flexiones 3-1-3. Tres segundos abajo, uno de pausa y tres arriba. Control total."
+    },
+    {
+      "id": "02",
+      "text": "Arrancá en plancha alta, manos algo más anchas que los hombros y cuerpo en línea."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá en tres segundos, en bloque, hasta que el pecho casi toque el piso."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Hacé una pausa de un segundo abajo y subí en tres segundos, sin perder la línea."
+    },
+    {
+      "id": "05",
+      "text": "Así no. Si rebotás o usás impulso, el tempo se pierde y el trabajo se va. Bajá y subí contando."
+    },
+    {
+      "id": "06",
+      "text": "Claves: cuerpo en línea, codos a cuarenta y cinco, pecho al piso y abdomen firme."
+    },
+    {
+      "id": "07",
+      "text": "Seis repeticiones con tempo 3-1-3. Menos reps, más tiempo bajo tensión y más control."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

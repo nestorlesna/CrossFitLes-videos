@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Shadow Boxing",
+      "text": "Jab, directo y ganchos al aire, con la guardia arriba y pasos cortos."
+    },
+    {
+      "id": "02",
+      "text": "Parate con la guardia alta, los puños al mentón, los codos cerca del cuerpo y las rodillas apenas flexionadas."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Tirá el jab con la mano de adelante, extendiendo el brazo sin latigazo y volviendo enseguida."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Tirá el directo con la mano de atrás, girando la cadera y sin despegar el pie de atrás."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Sumá ganchos con el codo a la altura del hombro y volvé siempre a la guardia."
+    },
+    {
+      "id": "06",
+      "text": "Error: si dejás las manos abajo, te quedás sin defensa y el golpe sale del brazo, no de la cadera."
+    },
+    {
+      "id": "07",
+      "text": "Claves: la guardia no baja, los golpes van al ochenta por ciento, los pies se mueven con pasos cortos y la potencia sale de la cadera."
+    },
+    {
+      "id": "08",
+      "text": "Setenta segundos de boxeo al aire, combinando jab, directo y gancho, moviéndote suave sobre los pies."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

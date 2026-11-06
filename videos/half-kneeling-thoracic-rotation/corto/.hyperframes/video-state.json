@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "3e10c17d-f685-4ad1-9e18-87e66299c712",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "bd80c65a4757717db440002967dbff507340574532f07a3be6085c8c41b3332f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\3e10c17d-f685-4ad1-9e18-87e66299c712\\blobs\\bd\\bd80c65a4757717db440002967dbff507340574532f07a3be6085c8c41b3332f"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\3e10c17d-f685-4ad1-9e18-87e66299c712\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "20dd1fa9dba101a3a3beaff19b27f9916684e6c3016d8fae996002ffe0af25e0",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\3e10c17d-f685-4ad1-9e18-87e66299c712\\blobs\\20\\20dd1fa9dba101a3a3beaff19b27f9916684e6c3016d8fae996002ffe0af25e0"
+    },
+    "meta.json": {
+      "hash": "368740eac90c0a36f88e3cdf055a23d53cf55e7183bd8ab5da5b275f78fbb9d5",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\3e10c17d-f685-4ad1-9e18-87e66299c712\\blobs\\36\\368740eac90c0a36f88e3cdf055a23d53cf55e7183bd8ab5da5b275f78fbb9d5"
+    },
+    "package.json": {
+      "hash": "a341167c62af31ecad56c9bf09b59f4c0061683e435d372a524423e0c32944d3",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\3e10c17d-f685-4ad1-9e18-87e66299c712\\blobs\\a3\\a341167c62af31ecad56c9bf09b59f4c0061683e435d372a524423e0c32944d3"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "fee26ae1-568d-4a22-8090-1f8ee00e25bd",
+      "completedAt": 1793876257556,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\half-kneeling-thoracic-rotation\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

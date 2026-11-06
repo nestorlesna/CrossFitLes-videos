@@ -1,0 +1,346 @@
+{
+  "slug": "sandbag-carry",
+  "name": "Sandbag Carry",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Core",
+    "Antebrazos",
+    "Trapecio"
+  ],
+  "descripcion": "Cargar un sandbag contra el pecho o al hombro y caminar una distancia determinada, manteniendo el core activo y la postura erguida durante todo el recorrido.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "pronuncia": {
+    "Sandbag Carry": "Sandbag cárri",
+    "sandbag": "sándbag"
+  },
+  "initialPose": "HUG",
+  "props": [
+    {
+      "type": "sandbag",
+      "torso": [
+        85,
+        120
+      ],
+      "w": 230,
+      "h": 120
+    }
+  ],
+  "poses": {
+    "HUG": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 16,
+      "fa": 136,
+      "ua2": 16,
+      "fa2": 136
+    },
+    "WALK_A": {
+      "hip": [
+        0,
+        -450
+      ],
+      "ankle": [
+        90,
+        0
+      ],
+      "ankle2": [
+        -90,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 16,
+      "fa": 136,
+      "ua2": 16,
+      "fa2": 136
+    },
+    "WALK_B": {
+      "hip": [
+        0,
+        -450
+      ],
+      "ankle": [
+        -90,
+        0
+      ],
+      "ankle2": [
+        90,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 16,
+      "fa": 136,
+      "ua2": 16,
+      "fa2": 136
+    },
+    "ARCH_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": -14,
+      "hd": -8,
+      "g": 0,
+      "ua": 40,
+      "fa": 136,
+      "ua2": 40,
+      "fa2": 136
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "SANDBAG",
+        "CARRY"
+      ],
+      "vo": "Sandbag Carry: cargar un sandbag y caminar. Core de acero, agarre y postura.",
+      "moves": [
+        {
+          "cut": "HUG",
+          "at": 0.1
+        },
+        {
+          "loop": [
+            "WALK_A",
+            "WALK_B"
+          ],
+          "at": 0.7,
+          "step": 0.45,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ABRAZÁ EL",
+        "SANDBAG"
+      ],
+      "sub": "Firme contra el torso",
+      "vo": "Cargá el sandbag contra el pecho y abrazalo fuerte. Codos pegados, pies al ancho de la cadera.",
+      "moves": [
+        {
+          "cut": "HUG",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "ACTIVÁ",
+        "EL CORE"
+      ],
+      "sub": "Abdomen duro, glúteos firmes",
+      "vo": "Paso uno. Antes de caminar, apretá el abdomen y los glúteos. Hombros atrás, mirada al frente.",
+      "moves": [
+        {
+          "cut": "HUG",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            260,
+            950
+          ],
+          "text": "CORE ACTIVO",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "PASOS",
+        "CORTOS"
+      ],
+      "sub": "Firmes y estables",
+      "vo": "Paso dos. Caminá con pasos cortos y estables. Que el sandbag no se mueva ni se te caiga hacia adelante.",
+      "moves": [
+        {
+          "cut": "HUG",
+          "at": 0
+        },
+        {
+          "loop": [
+            "WALK_A",
+            "WALK_B"
+          ],
+          "at": 0.4,
+          "step": 0.45,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "POSTURA",
+        "ERGUIDA"
+      ],
+      "sub": "Sin arquear la espalda",
+      "vo": "Paso tres. Evitá arquear la espalda baja para compensar el peso. Cuerpo largo, costillas abajo.",
+      "moves": [
+        {
+          "cut": "HUG",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 0.6,
+          "dur": 0.5
+        },
+        {
+          "to": "HUG",
+          "at": 2,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            800,
+            950
+          ],
+          "text": "ESPALDA ARQUEADA: NO",
+          "anchor": "middle",
+          "at": 1
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "RESPIRÁ",
+        "Y AVANZÁ"
+      ],
+      "sub": "Toda la distancia",
+      "vo": "Paso cuatro. Respirá sin soltar la tensión y completá la distancia. Al terminar, bajá el sandbag con control.",
+      "moves": [
+        {
+          "cut": "HUG",
+          "at": 0
+        },
+        {
+          "loop": [
+            "WALK_A",
+            "WALK_B"
+          ],
+          "at": 0.4,
+          "step": 0.45,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Sandbag abrazado al torso",
+        "Pasos cortos y estables",
+        "Sin arquear la espalda baja",
+        "Core activo todo el recorrido"
+      ],
+      "vo": "Claves: sandbag abrazado al torso, pasos cortos y estables, sin arquear la espalda baja y el core activo todo el recorrido.",
+      "moves": [
+        {
+          "cut": "HUG",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Caminá la distancia",
+      "vo": "Diez repeticiones de ida y vuelta. Pasos cortos, postura erguida y agarre firme.",
+      "chips": [
+        {
+          "label": "1 · ABRAZÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · ACTIVÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · CAMINÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "HUG",
+          "at": 0
+        },
+        {
+          "loop": [
+            "WALK_A",
+            "WALK_B"
+          ],
+          "at": 0.5,
+          "step": 0.45,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "HUG",
+    "grip": 0
+  },
+  "youtube": {
+    "titulo": "Sandbag Carry 🔥 core fuerte y postura paso a paso | CrossFit",
+    "descripcion": "🔥 SANDBAG CARRY — core, agarre y postura bajo carga.\n\nSi querés un core fuerte que sostenga cualquier carga, este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Cargá el sandbag contra el pecho y abrazalo fuerte, con los codos pegados y los pies al ancho de la cadera.\n2️⃣ Antes de caminar, apretá el abdomen y los glúteos, con los hombros atrás y la mirada al frente.\n3️⃣ Caminá con pasos cortos y estables, sin que el sandbag se mueva ni se caiga hacia adelante.\n4️⃣ Evitá arquear la espalda baja para compensar el peso: cuerpo largo y costillas abajo.\n5️⃣ Respirá sin soltar la tensión y completá la distancia. Al terminar, bajá el sandbag con control.\n\n✅ CLAVES DE TÉCNICA\n• Abrazar el sandbag firmemente contra el torso\n• Pasos cortos y estables\n• Evitar arquear la espalda baja\n• Core activo durante todo el recorrido\n\n🎯 QUÉ TRABAJA\nCore/Abdominales · Antebrazos · Cuádriceps · Trapecio\n\n⏱️ CUÁNTO\n10 repeticiones o una distancia fija, dentro de un WOD o como accesorio de fuerza.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\r\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #SandbagCarry #Core #Entrenamiento",
+    "tags": [
+      "sandbag carry",
+      "carga de sandbag",
+      "caminata con sandbag",
+      "sandbag",
+      "core",
+      "crossfit",
+      "wod",
+      "agarre",
+      "postura",
+      "fuerza funcional"
+    ]
+  },
+  "floorScroll": 160
+}

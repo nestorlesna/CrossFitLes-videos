@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "957652dc-7803-4f91-b54b-f5ba8c06c80b",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "6afc709bb8af650dd3f97e57d384e96baaf664c3bee8fa31b17727389912e382",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\957652dc-7803-4f91-b54b-f5ba8c06c80b\\blobs\\6a\\6afc709bb8af650dd3f97e57d384e96baaf664c3bee8fa31b17727389912e382"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\957652dc-7803-4f91-b54b-f5ba8c06c80b\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "4a655fde6910563a92be1f40e8fb92b0154fb1c7fc3cb5ea59b3c0f48894c2f7",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\957652dc-7803-4f91-b54b-f5ba8c06c80b\\blobs\\4a\\4a655fde6910563a92be1f40e8fb92b0154fb1c7fc3cb5ea59b3c0f48894c2f7"
+    },
+    "meta.json": {
+      "hash": "3e4e564a2a914c677b7b9c9ac9f11fba1cc1ca1ca2595ae745e2e2a7f1e9505a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\957652dc-7803-4f91-b54b-f5ba8c06c80b\\blobs\\3e\\3e4e564a2a914c677b7b9c9ac9f11fba1cc1ca1ca2595ae745e2e2a7f1e9505a"
+    },
+    "package.json": {
+      "hash": "879cf482b96f2b3af9f610257bf5cfae36ab74ab18958f03a1ddfcef44dbbcd9",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\957652dc-7803-4f91-b54b-f5ba8c06c80b\\blobs\\87\\879cf482b96f2b3af9f610257bf5cfae36ab74ab18958f03a1ddfcef44dbbcd9"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "80584791-0578-4c0c-b9ab-2eee21d07e7e",
+      "completedAt": 1793838882978,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\kettlebell-swing\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

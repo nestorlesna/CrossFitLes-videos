@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "2d53b3bd-6bb2-4ab4-9c17-47f9c30f817f",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "e1fc53d22732c0a5fc1c89d27084eb90b67868c18305600ce41a8efcb208bbfe",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2d53b3bd-6bb2-4ab4-9c17-47f9c30f817f\\blobs\\e1\\e1fc53d22732c0a5fc1c89d27084eb90b67868c18305600ce41a8efcb208bbfe"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2d53b3bd-6bb2-4ab4-9c17-47f9c30f817f\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "b204127836606edefc3cec3fd62e099f3cb53ddd81df13289d8d38012937936c",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2d53b3bd-6bb2-4ab4-9c17-47f9c30f817f\\blobs\\b2\\b204127836606edefc3cec3fd62e099f3cb53ddd81df13289d8d38012937936c"
+    },
+    "meta.json": {
+      "hash": "e74b2918ce8a3762a39ad81d8961109435a0fcb71f011114dca58c167c02df55",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2d53b3bd-6bb2-4ab4-9c17-47f9c30f817f\\blobs\\e7\\e74b2918ce8a3762a39ad81d8961109435a0fcb71f011114dca58c167c02df55"
+    },
+    "package.json": {
+      "hash": "d28a8f6c4b7bdb6308335733f15d2830f6e7ba35c96e926d6535d75b945ebdea",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2d53b3bd-6bb2-4ab4-9c17-47f9c30f817f\\blobs\\d2\\d28a8f6c4b7bdb6308335733f15d2830f6e7ba35c96e926d6535d75b945ebdea"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "5802355b-0ad0-4c55-97cc-38784614d924",
+      "completedAt": 1793877338147,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\split-squat-calf-raise\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

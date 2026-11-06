@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Kneeling Squat",
+      "text": "De rodillas a cuclillas apoyando un pie por vez, con el tronco erguido."
+    },
+    {
+      "id": "02",
+      "text": "Arrancá de rodillas con el tronco erguido y la cadera arriba, sin sentarte sobre los talones."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Apoyá un pie adelante, con la planta completa y la rodilla alineada con el pie."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Empujá con la pierna de adelante y subí la cadera hasta la posición de cuclillas."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Para volver, bajá la cadera y apoyá las rodillas de nuevo, alternando qué pie apoya primero."
+    },
+    {
+      "id": "06",
+      "text": "Error: si la cadera se hunde hacia atrás y el pecho cae, la subida la termina haciendo la espalda."
+    },
+    {
+      "id": "07",
+      "text": "Claves: el tronco se mantiene erguido, la cadera sube, se apoya un pie por vez y nunca se cruzan las piernas."
+    },
+    {
+      "id": "08",
+      "text": "Veinte segundos subiendo y bajando, alternando el pie que apoya primero en cada repetición."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

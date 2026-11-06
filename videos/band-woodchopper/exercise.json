@@ -1,0 +1,414 @@
+{
+  "slug": "band-woodchopper",
+  "name": "Band Woodchopper",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Oblicuos",
+    "Core",
+    "Rotación"
+  ],
+  "descripcion": "Movimiento de leñador: con la banda anclada arriba, se tira en diagonal desde el hombro hasta la cadera contraria rotando el tronco.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 420,
+    "y": 1500,
+    "scale": 0.78
+  },
+  "pronuncia": {
+    "Band Woodchopper": "Band uudchópper",
+    "band": "bánd"
+  },
+  "initialPose": "HIGH",
+  "props": [
+    {
+      "type": "band",
+      "anchor": [
+        430,
+        -1160
+      ],
+      "post": [
+        450,
+        1240
+      ],
+      "hand": "both"
+    }
+  ],
+  "poses": {
+    "HIGH": {
+      "hip": [
+        -20,
+        -440
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "b": -4,
+      "hd": -4,
+      "g": 0,
+      "ua": 150,
+      "fa": 10,
+      "ua2": 150,
+      "fa2": 10
+    },
+    "MID": {
+      "hip": [
+        -30,
+        -430
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        -80,
+        0
+      ],
+      "b": 6,
+      "hd": 4,
+      "g": 0,
+      "ua": 100,
+      "fa": 10,
+      "ua2": 100,
+      "fa2": 10
+    },
+    "LOW": {
+      "hip": [
+        -50,
+        -400
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        -100,
+        0
+      ],
+      "b": 22,
+      "hd": 10,
+      "g": 0,
+      "ua": 40,
+      "fa": 10,
+      "ua2": 40,
+      "fa2": 10
+    },
+    "ARMS_BAD": {
+      "hip": [
+        -50,
+        -400
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        -100,
+        0
+      ],
+      "b": 8,
+      "hd": 4,
+      "g": 0,
+      "ua": 50,
+      "fa": 90,
+      "ua2": 50,
+      "fa2": 90
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "BAND",
+        "WOODCHOPPER"
+      ],
+      "vo": "Band Woodchopper: el leñador con banda. Rotación fuerte para oblicuos y core.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "HIGH",
+              0.5
+            ],
+            [
+              "MID",
+              0.4
+            ],
+            [
+              "LOW",
+              0.5
+            ],
+            [
+              "MID",
+              0.4
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BANDA",
+        "ARRIBA"
+      ],
+      "sub": "Agarrá con las dos manos",
+      "vo": "Anclá la banda arriba y agarrala con las dos manos, brazos estirados sobre un hombro. Pies al ancho de la cadera.",
+      "moves": [
+        {
+          "cut": "HIGH",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "TIRÁ EN",
+        "DIAGONAL"
+      ],
+      "sub": "Del hombro a la cadera",
+      "vo": "Paso uno. Tirá de la banda en diagonal, desde arriba del hombro hasta la cadera contraria.",
+      "moves": [
+        {
+          "cut": "HIGH",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "LOW",
+          "at": 1.1,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            800,
+            800
+          ],
+          "text": "DIAGONAL",
+          "anchor": "middle",
+          "at": 1.5
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "ROTÁ EL",
+        "TRONCO"
+      ],
+      "sub": "La fuerza viene del centro",
+      "vo": "Paso dos. La rotación sale del tronco y la cadera, con los brazos extendidos como cables. No tires con los brazos.",
+      "moves": [
+        {
+          "cut": "LOW",
+          "at": 0
+        },
+        {
+          "to": "ARMS_BAD",
+          "at": 0.5,
+          "dur": 0.5
+        },
+        {
+          "to": "LOW",
+          "at": 1.8,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            800,
+            800
+          ],
+          "text": "BRAZOS DOBLADOS: NO",
+          "anchor": "middle",
+          "at": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "VOLVÉ",
+        "CONTROLADO"
+      ],
+      "sub": "Resistí la banda",
+      "vo": "Paso tres. Volvé a la posición inicial resistiendo la banda, sin soltarla de golpe.",
+      "moves": [
+        {
+          "cut": "LOW",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.5,
+          "dur": 0.7
+        },
+        {
+          "to": "HIGH",
+          "at": 1.2,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "CAMBIÁ",
+        "DE LADO"
+      ],
+      "sub": "Igual para los dos lados",
+      "vo": "Paso cuatro. Trabajá los dos lados por igual: mismas repeticiones del otro costado.",
+      "moves": [
+        {
+          "cut": "HIGH",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "MID",
+              0.4
+            ],
+            [
+              "LOW",
+              0.5
+            ],
+            [
+              "MID",
+              0.4
+            ],
+            [
+              "HIGH",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Rotar desde el tronco",
+        "Brazos extendidos",
+        "Cadera acompaña",
+        "Los dos lados por igual"
+      ],
+      "vo": "Claves: la rotación viene del tronco, brazos extendidos, la cadera acompaña y trabajá los dos lados por igual.",
+      "moves": [
+        {
+          "cut": "LOW",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "20 SEG"
+      ],
+      "sub": "Por lado",
+      "vo": "Veinte segundos por lado. Tirá en diagonal, rotá y volvé con control.",
+      "chips": [
+        {
+          "label": "1 · ARRIBA",
+          "at": 0.6
+        },
+        {
+          "label": "2 · DIAGONAL",
+          "at": 1.1
+        },
+        {
+          "label": "3 · CADERA",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "HIGH",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "MID",
+              0.4
+            ],
+            [
+              "LOW",
+              0.5
+            ],
+            [
+              "MID",
+              0.4
+            ],
+            [
+              "HIGH",
+              0.5
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "LOW",
+    "grip": 0
+  },
+  "youtube": {
+    "titulo": "Band Woodchopper 🔥 core y oblicuos paso a paso | CrossFit",
+    "descripcion": "🔥 BAND WOODCHOPPER — oblicuos y core con rotación controlada.\n\nSi querés un core que rote con fuerza y control, este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Anclá la banda arriba y agarrala con las dos manos, con los brazos estirados sobre un hombro y los pies al ancho de la cadera.\n2️⃣ Tirá de la banda en diagonal, desde arriba del hombro hasta la cadera contraria.\n3️⃣ La rotación sale del tronco y la cadera, con los brazos extendidos como cables. No tires con los brazos.\n4️⃣ Volvé a la posición inicial resistiendo la banda, sin soltarla de golpe.\n5️⃣ Trabajá los dos lados por igual: mismas repeticiones del otro costado.\n\n✅ CLAVES DE TÉCNICA\n• La rotación viene del tronco y la cadera\n• Brazos extendidos\n• Trabajar los dos lados por igual\n• Volver controlando la banda\n\n🎯 QUÉ TRABAJA\nOblicuo externo · Deltoides anterior · Glúteo medio · Oblicuo interno · Recto abdominal\n\n⏱️ CUÁNTO\n20 segundos por lado, como activación o dentro de un WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\r\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Activacion #BandWoodchopper #Core #Entrenamiento",
+    "tags": [
+      "band woodchopper",
+      "leñador con banda",
+      "woodchop",
+      "oblicuos",
+      "core",
+      "banda elástica",
+      "activación",
+      "crossfit",
+      "rotación de tronco",
+      "ejercicio con banda"
+    ]
+  }
+}

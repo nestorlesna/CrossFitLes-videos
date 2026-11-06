@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Dumbbell Wall Sit",
+      "text": "Sentadilla isométrica contra la pared, con mancuernas sobre los muslos."
+    },
+    {
+      "id": "02",
+      "text": "Pegá toda la espalda a la pared y adelantá los pies al ancho de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Deslizate hacia abajo hasta que las rodillas queden a noventa grados y los muslos paralelos al piso."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Apoyá una mancuerna sobre cada muslo y sostené el peso sin encoger los hombros."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Sostené la posición respirando parejo. No dejes que la cadera suba."
+    },
+    {
+      "id": "06",
+      "text": "Claves: espalda completa en la pared, rodillas a noventa grados, muslos paralelos al piso y respirá mientras sostenés."
+    },
+    {
+      "id": "07",
+      "text": "Cuarenta segundos con doce kilos y medio. Si perdés la posición, salí y volvé a entrar."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

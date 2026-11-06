@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "b2c8ac35-f42e-4fb6-b7a7-6a820607236e",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "3d11e191dc8e9418e013aeb87d2a8b5d5a012452095990eccda9a1b43319a2f0",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b2c8ac35-f42e-4fb6-b7a7-6a820607236e\\blobs\\3d\\3d11e191dc8e9418e013aeb87d2a8b5d5a012452095990eccda9a1b43319a2f0"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b2c8ac35-f42e-4fb6-b7a7-6a820607236e\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "9a7fa1cc0a23d4050de3f01982d23f462b3b11ca19a16f04e2f531f7ceab6ef3",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b2c8ac35-f42e-4fb6-b7a7-6a820607236e\\blobs\\9a\\9a7fa1cc0a23d4050de3f01982d23f462b3b11ca19a16f04e2f531f7ceab6ef3"
+    },
+    "meta.json": {
+      "hash": "32653c20c868874aef4ee0cbed5065c1215390fff903e65311bfe3efdc74d23b",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b2c8ac35-f42e-4fb6-b7a7-6a820607236e\\blobs\\32\\32653c20c868874aef4ee0cbed5065c1215390fff903e65311bfe3efdc74d23b"
+    },
+    "package.json": {
+      "hash": "2125156d227ac3b72e1f057f82b5ddb1bda0379e193bf8b57dffe7d3febeb8e8",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b2c8ac35-f42e-4fb6-b7a7-6a820607236e\\blobs\\21\\2125156d227ac3b72e1f057f82b5ddb1bda0379e193bf8b57dffe7d3febeb8e8"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "33d5be5e-930b-4739-beec-9de9a7f25212",
+      "completedAt": 1793875241485,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\toe-touch-crunch\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

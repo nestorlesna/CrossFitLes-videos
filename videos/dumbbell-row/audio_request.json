@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Dumbbell Row",
+      "text": "Remo con mancuerna, un brazo a la vez. Espalda fuerte y codo pegado al cuerpo."
+    },
+    {
+      "id": "02",
+      "text": "Inclinate al frente con la espalda recta, las rodillas suaves y la mancuerna colgando con el brazo extendido."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Hacé bisagra de cadera: mandá la cola atrás con la espalda recta y la mancuerna colgando."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Traccioná la mancuerna hacia la cadera y llevá el codo bien atrás, pegado al cuerpo."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Bajá la mancuerna con control hasta estirar el brazo, sin perder la espalda recta."
+    },
+    {
+      "id": "06",
+      "text": "Claves: bisagra de cadera, codo pegado al cuerpo, espalda neutra sin rotar el tronco y apretá la escápula arriba."
+    },
+    {
+      "id": "07",
+      "text": "Diez repeticiones con veinte kilos por lado. Alterná los brazos y no rotes el tronco."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

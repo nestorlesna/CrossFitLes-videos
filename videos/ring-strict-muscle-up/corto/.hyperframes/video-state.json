@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "11595352-b565-4fa4-b5a5-1b32f0fa22e1",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "64c639fc9388566105804d035c6b54281809b865df99ab13e956d224e746cfe3",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\11595352-b565-4fa4-b5a5-1b32f0fa22e1\\blobs\\64\\64c639fc9388566105804d035c6b54281809b865df99ab13e956d224e746cfe3"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\11595352-b565-4fa4-b5a5-1b32f0fa22e1\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "8a39dafb650be6c4256fc683723094d9c02754b02846da4d3461691998402be8",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\11595352-b565-4fa4-b5a5-1b32f0fa22e1\\blobs\\8a\\8a39dafb650be6c4256fc683723094d9c02754b02846da4d3461691998402be8"
+    },
+    "meta.json": {
+      "hash": "9fab24274c5811eb3e054bcd9592edfa48b5c688c5e8f9da4667999ebfc48fc7",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\11595352-b565-4fa4-b5a5-1b32f0fa22e1\\blobs\\9f\\9fab24274c5811eb3e054bcd9592edfa48b5c688c5e8f9da4667999ebfc48fc7"
+    },
+    "package.json": {
+      "hash": "cbd473afaab91df18855a10bd268c1d96691410a890315787c9d0d0f468ac965",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\11595352-b565-4fa4-b5a5-1b32f0fa22e1\\blobs\\cb\\cbd473afaab91df18855a10bd268c1d96691410a890315787c9d0d0f468ac965"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "5e5b3311-8623-48fa-b90f-41b2b10edeae",
+      "completedAt": 1793877725065,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\ring-strict-muscle-up\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

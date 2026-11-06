@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "7b7b47c9-29cd-489e-9435-23aa4b7eb243",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "443f0829bf0e606c65b1e04d2444e44cc67edb491befc24f4c73ab60696cb58d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7b7b47c9-29cd-489e-9435-23aa4b7eb243\\blobs\\44\\443f0829bf0e606c65b1e04d2444e44cc67edb491befc24f4c73ab60696cb58d"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7b7b47c9-29cd-489e-9435-23aa4b7eb243\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "1cbe7d0fd6feb72ed89ce3b006f2d4aa93ae091ab23d10b8a2bfb1c0b6437876",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7b7b47c9-29cd-489e-9435-23aa4b7eb243\\blobs\\1c\\1cbe7d0fd6feb72ed89ce3b006f2d4aa93ae091ab23d10b8a2bfb1c0b6437876"
+    },
+    "meta.json": {
+      "hash": "85528b877ff92cdf1e3b354a652f4ce9f43610e9a8b22a9ba4267c2e3f9e5005",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7b7b47c9-29cd-489e-9435-23aa4b7eb243\\blobs\\85\\85528b877ff92cdf1e3b354a652f4ce9f43610e9a8b22a9ba4267c2e3f9e5005"
+    },
+    "package.json": {
+      "hash": "fad1462c68adad19cca63d5380db2624fba6eff24ee63f2a8d9ce8a31b1d727c",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7b7b47c9-29cd-489e-9435-23aa4b7eb243\\blobs\\fa\\fad1462c68adad19cca63d5380db2624fba6eff24ee63f2a8d9ce8a31b1d727c"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "98c805d8-615f-4d3d-972d-6f5b9456962c",
+      "completedAt": 1793838648146,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\russian-twist\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

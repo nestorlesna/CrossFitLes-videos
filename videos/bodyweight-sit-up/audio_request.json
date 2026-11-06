@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Bodyweight Sit Up",
+      "text": "Abdominal completo sin peso. Subí el torso, tocá los pies y bajá controlado."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba con las rodillas flexionadas, los pies apoyados y los brazos por encima de la cabeza."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Subí el torso completo, como si te enroscaras hacia los pies. No es un crunch corto."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Arriba estirá los brazos y tocá los pies. Las piernas quedan apoyadas en el piso."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Bajá controlado hasta apoyar la espalda completa y volvé a empezar desde abajo."
+    },
+    {
+      "id": "06",
+      "text": "Así no. No levantes las piernas para llegar: el movimiento sale del torso, no de las caderas."
+    },
+    {
+      "id": "07",
+      "text": "Claves: recorrido completo, pies apoyados, sin tirar del cuello y bajada controlada."
+    },
+    {
+      "id": "08",
+      "text": "Cincuenta repeticiones sin peso. Si perdés la técnica, cortá la serie y retomá con menos repeticiones."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

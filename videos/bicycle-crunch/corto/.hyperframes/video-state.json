@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "21dd1caf-a051-4f44-9dea-d84ec1ceb275",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "e1fc53d22732c0a5fc1c89d27084eb90b67868c18305600ce41a8efcb208bbfe",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\21dd1caf-a051-4f44-9dea-d84ec1ceb275\\blobs\\e1\\e1fc53d22732c0a5fc1c89d27084eb90b67868c18305600ce41a8efcb208bbfe"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\21dd1caf-a051-4f44-9dea-d84ec1ceb275\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "af47e5fad07723f6eb3b3b903ac7be7075b4cb50ecc419de14f696ca5b0f2cd8",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\21dd1caf-a051-4f44-9dea-d84ec1ceb275\\blobs\\af\\af47e5fad07723f6eb3b3b903ac7be7075b4cb50ecc419de14f696ca5b0f2cd8"
+    },
+    "meta.json": {
+      "hash": "dcb806caeb4c7e087d019b66c18d1afa537f6c257db10062ffdf5effc3fcf8aa",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\21dd1caf-a051-4f44-9dea-d84ec1ceb275\\blobs\\dc\\dcb806caeb4c7e087d019b66c18d1afa537f6c257db10062ffdf5effc3fcf8aa"
+    },
+    "package.json": {
+      "hash": "e9d35e5c1141faa02edfac2e8554fe8b1da9f61857f1f3b87be48499efe47704",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\21dd1caf-a051-4f44-9dea-d84ec1ceb275\\blobs\\e9\\e9d35e5c1141faa02edfac2e8554fe8b1da9f61857f1f3b87be48499efe47704"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "f5460f9b-fffa-43da-9fce-05f785b8ce2c",
+      "completedAt": 1793878092224,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\bicycle-crunch\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Reach Up Crunch",
+      "text": "Crunch boca arriba con los brazos al techo, llevando las manos lo más alto posible."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba con las rodillas apenas flexionadas y los brazos extendidos hacia el techo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Despegá los omóplatos del piso contrayendo el abdomen y llevá las manos bien arriba."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá lento hasta apoyar los omóplatos, sin soltar la tensión del abdomen ni arquear la lumbar."
+    },
+    {
+      "id": "05",
+      "text": "Error: si empujás con el cuello y la cabeza en vez del abdomen, el esfuerzo se va al cuello y la espalda alta."
+    },
+    {
+      "id": "06",
+      "text": "Claves: el movimiento sale del abdomen, las manos suben lo más alto posible, la lumbar no se despega y el cuello queda relajado."
+    },
+    {
+      "id": "07",
+      "text": "Veinte segundos de repeticiones cortas, subiendo las manos y bajando con control."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

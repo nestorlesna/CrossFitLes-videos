@@ -1,0 +1,443 @@
+{
+  "slug": "half-kneeling-thoracic-rotation",
+  "name": "Half Kneeling Rotation",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Espalda alta",
+    "Hombros",
+    "Core"
+  ],
+  "descripcion": "En media-arrodillada, con una mano en la nuca, rotar el torso hacia la pierna de adelante llevando el codo al techo, sin mover la cadera ni despegar la rodilla trasera del piso.",
+  "revisado": false,
+  "notas": "Rotación torácica: de perfil se cuenta con el codo que sube al techo (mismo criterio que squat-thoracic-rotation).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 520,
+    "y": 1504,
+    "scale": 0.82
+  },
+  "nombreEnVoz": "Half kneeling thoracic rotation",
+  "initialPose": "HALF_L",
+  "poses": {
+    "HALF_L": {
+      "ankle": [
+        200,
+        0
+      ],
+      "hip": [
+        0,
+        -230
+      ],
+      "s2": 90,
+      "t2": 5,
+      "ft2": 172,
+      "b": -3,
+      "hd": 0,
+      "ua": 225,
+      "fa": 110,
+      "ua2": 10,
+      "fa2": 110,
+      "g": 0,
+      "g2": 0
+    },
+    "ROT_L": {
+      "ankle": [
+        200,
+        0
+      ],
+      "hip": [
+        0,
+        -230
+      ],
+      "s2": 90,
+      "t2": 5,
+      "ft2": 172,
+      "b": 12,
+      "hd": -18,
+      "ua": 178,
+      "fa": 56,
+      "ua2": 10,
+      "fa2": 110,
+      "g": 0,
+      "g2": 0
+    },
+    "HALF_R": {
+      "ankle": [
+        200,
+        0
+      ],
+      "hip": [
+        0,
+        -230
+      ],
+      "s2": 90,
+      "t2": 5,
+      "ft2": 172,
+      "b": -3,
+      "hd": 0,
+      "ua": 10,
+      "fa": 110,
+      "ua2": 225,
+      "fa2": 110,
+      "g": 0,
+      "g2": 0
+    },
+    "ROT_R": {
+      "ankle": [
+        200,
+        0
+      ],
+      "hip": [
+        0,
+        -230
+      ],
+      "s2": 90,
+      "t2": 5,
+      "ft2": 172,
+      "b": 12,
+      "hd": -18,
+      "ua": 10,
+      "fa": 110,
+      "ua2": 178,
+      "fa2": 56,
+      "g": 0,
+      "g2": 0
+    },
+    "HIP_BAD": {
+      "ankle": [
+        200,
+        0
+      ],
+      "hip": [
+        70,
+        -215
+      ],
+      "s2": 90,
+      "t2": 5,
+      "ft2": 172,
+      "b": 26,
+      "hd": 0,
+      "ua": 140,
+      "fa": 30,
+      "ua2": 10,
+      "fa2": 110,
+      "g": 0,
+      "g2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "HALF KNEELING",
+        "ROTATION"
+      ],
+      "vo": "Half Kneeling Rotation: rotación de la espalda alta en media rodilla. Destrabá pecho y hombros.",
+      "moves": [
+        {
+          "to": "HALF_L",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "ROT_L",
+              1.1
+            ],
+            [
+              "HALF_L",
+              0.8
+            ],
+            [
+              "ROT_R",
+              1.1
+            ],
+            [
+              "HALF_R",
+              0.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "MEDIA",
+        "RODILLA"
+      ],
+      "sub": "Un pie adelante, rodilla atrás",
+      "vo": "Arrodillate con una rodilla en el piso y el pie de adelante a noventa grados. Mano en la nuca.",
+      "moves": [
+        {
+          "cut": "HALF_L",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            240,
+            1010
+          ],
+          "text": "RODILLA AL PISO",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "CODO",
+        "AL TECHO"
+      ],
+      "sub": "Rotá la espalda alta",
+      "vo": "Paso uno. Rotá el torso hacia la pierna de adelante y llevá el codo bien al techo, abriendo el pecho.",
+      "moves": [
+        {
+          "to": "ROT_L",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            640,
+            900
+          ],
+          "to": [
+            520,
+            780
+          ],
+          "bend": [
+            70,
+            -40
+          ],
+          "at": 1.4,
+          "dur": 0.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            300,
+            760
+          ],
+          "text": "CODO ARRIBA",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "MIRADA",
+        "Y PECHO"
+      ],
+      "sub": "Seguí el codo",
+      "vo": "Paso dos. La mirada acompaña al codo y el pecho se abre. Sostené un segundo arriba sin perder la cadera.",
+      "moves": [
+        {
+          "cut": "ROT_L",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            300,
+            700
+          ],
+          "text": "MIRADA AL CODO",
+          "anchor": "start",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "CAMBIÁ",
+        "DE LADO"
+      ],
+      "sub": "Alterná",
+      "vo": "Paso tres. Volvé al centro y repetí del otro lado. Alterná los dos lados.",
+      "moves": [
+        {
+          "cut": "ROT_L",
+          "at": 0
+        },
+        {
+          "to": "HALF_R",
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "to": "ROT_R",
+          "at": 1.8,
+          "dur": 1.1
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "CADERA",
+        "QUIETA"
+      ],
+      "sub": "Y rodilla al piso",
+      "vo": "Paso cuatro. Cadera quieta y rodilla de atrás al piso. Si se mueven, rotás de más abajo.",
+      "moves": [
+        {
+          "cut": "ROT_L",
+          "at": 0
+        },
+        {
+          "to": "HIP_BAD",
+          "at": 1.8,
+          "dur": 0.6
+        },
+        {
+          "to": "ROT_L",
+          "at": 3.4,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            300,
+            700
+          ],
+          "text": "CADERA QUIETA",
+          "anchor": "start",
+          "at": 0.6,
+          "out": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            160,
+            1100
+          ],
+          "text": "LA CADERA SE MUEVE NO",
+          "anchor": "start",
+          "at": 2.2,
+          "out": 3.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Cadera estable",
+        "Rodilla de atrás al piso",
+        "Codo bien al techo",
+        "Rotá desde la espalda alta"
+      ],
+      "vo": "Claves: cadera estable, rodilla de atrás apoyada, codo al techo y rotación desde la espalda alta.",
+      "moves": [
+        {
+          "cut": "ROT_L",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "Alternando lados",
+      "vo": "Treinta segundos alternando lados. Ideal antes de sentadillas o de cualquier trabajo por encima de la cabeza.",
+      "chips": [
+        {
+          "label": "1 · UN LADO",
+          "at": 0.6
+        },
+        {
+          "label": "2 · EL OTRO",
+          "at": 2.8
+        }
+      ],
+      "moves": [
+        {
+          "cut": "HALF_L",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ROT_L",
+              1.0
+            ],
+            [
+              "HALF_L",
+              0.7
+            ],
+            [
+              "ROT_R",
+              1.0
+            ],
+            [
+              "HALF_R",
+              0.7
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "ROT_L",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 180
+  },
+  "youtube": {
+    "titulo": "Half Kneeling Thoracic Rotation 🔥 Rotación torácica en media rodilla | CrossFit",
+    "tags": [
+      "half kneeling thoracic rotation",
+      "rotacion toracica",
+      "media rodilla",
+      "movilidad de espalda",
+      "movilidad de hombros",
+      "espalda alta",
+      "entrada en calor",
+      "crossfit",
+      "movilidad",
+      "warm up"
+    ],
+    "descripcion": "🔥 HALF KNEELING THORACIC ROTATION — movilidad de la espalda alta y los hombros\n\n¿Sentís el pecho cerrado y los hombros trabados? Esta rotación en media rodilla te abre la espalda alta sin mover la cadera. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Arrodillate con una rodilla en el piso y el pie de adelante apoyado a noventa grados.\n2️⃣ Poné una mano en la nuca y la otra en la cadera.\n3️⃣ Rotá el torso hacia la pierna de adelante y llevá el codo bien al techo.\n4️⃣ La mirada acompaña al codo y el pecho se abre. Sostené un segundo.\n5️⃣ Volvé al centro y repetí del otro lado.\n\n✅ CLAVES DE TÉCNICA\n• Cadera estable, no la muevas\n• Rodilla de atrás siempre en el piso\n• Codo al techo, no adelante\n• La rotación sale de la espalda alta, no de la lumbar\n• Sin apuro: mejor poco y bien\n\n🎯 QUÉ TRABAJA\nRecto abdominal · Dorsal ancho · Espalda alta\n\n⏱️ CUÁNTO\n30 segundos alternando lados. Va perfecto en la entrada en calor o antes de press y sentadillas.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #HalfKneelingThoracicRotation #EspaldaAlta #Movilidad"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Skater Jump",
+      "text": "El salto lateral de patinador. Piernas potentes, equilibrio y cardio."
+    },
+    {
+      "id": "02",
+      "text": "Apoyate en una pierna con la rodilla flexionada y el torso apenas inclinado. La otra pierna cruza por detrás."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Empujá con la pierna de apoyo y saltá hacia el costado, estirando la cadera."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Aterrizá sobre la pierna opuesta y amortiguá con la cadera hacia atrás, no con la rodilla."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Cruzá la pierna libre por detrás y tocá el suelo con la mano del lado de apoyo."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Alterná de lado sin pausa, con saltos controlados y la rodilla siempre alineada con el pie."
+    },
+    {
+      "id": "07",
+      "text": "Claves: amortiguá con la cadera, rodilla alineada con el pie, la pierna libre cruza por detrás y el torso apenas inclinado."
+    },
+    {
+      "id": "08",
+      "text": "Veinte segundos alternando lados. Saltá, aterrizá firme y tocá el piso."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

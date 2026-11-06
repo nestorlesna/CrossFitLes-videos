@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Isometric Split Squat Hold",
+      "text": "Isometric Split Squat Hold: zancada baja con mancuernas y rodillas cerca de noventa. Aguantá sin moverte."
+    },
+    {
+      "id": "02",
+      "text": "Parate derecho con una mancuerna en cada mano, los brazos al costado del cuerpo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Da un paso largo y bajá hasta que la rodilla de atrás quede a pocos centímetros del suelo."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Quedate ahí sin moverte, con la rodilla de adelante a noventa y el core firme. Sostener construye fuerza."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si el torso se va adelante, la rodilla pasa la punta del pie y cargás la rodilla. Torso erguido."
+    },
+    {
+      "id": "06",
+      "text": "Claves: torso erguido, rodilla que no pasa la punta del pie, peso en el talón y core firme."
+    },
+    {
+      "id": "07",
+      "text": "Treinta segundos por pierna, dos series. Si perdés el torso erguido, cortá la serie."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

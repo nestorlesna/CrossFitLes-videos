@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Standing Cross Crunch",
+      "text": "El crunch cruzado de pie. Oblicuos activos y equilibrio."
+    },
+    {
+      "id": "02",
+      "text": "Parate con los pies al ancho de la cadera y las manos detrás de la cabeza, con los codos abiertos."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Subí una rodilla en diagonal, hacia el costado contrario, sobre una pierna de apoyo firme."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Llevá el codo hacia la rodilla contraria, girando desde la cintura y contrayendo los oblicuos."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. No tirones del cuello con las manos: la fuerza sale del abdomen y la cabeza queda neutra."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Bajá, cambiá de lado y repetí, manteniendo el equilibrio sobre la pierna de apoyo."
+    },
+    {
+      "id": "07",
+      "text": "Claves: girá desde la cintura, codo hacia la rodilla contraria, equilibrio firme y sin tirar del cuello."
+    },
+    {
+      "id": "08",
+      "text": "Treinta segundos alternando lados. Codo a rodilla, oblicuos duros y equilibrio."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

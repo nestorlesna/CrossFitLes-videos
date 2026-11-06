@@ -1,0 +1,405 @@
+{
+  "slug": "wall-squat-hold",
+  "name": "Wall Squat Hold",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Cuádriceps",
+    "Glúteos"
+  ],
+  "descripcion": "Sentadilla isométrica contra la pared sosteniendo una kettlebell contra el pecho: aguantar la posición con la espalda apoyada y el core firme.",
+  "revisado": false,
+  "notas": "Wall sit con kettlebell al pecho.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "props": [
+    {
+      "type": "wall",
+      "x": -334,
+      "h": 760
+    },
+    {
+      "type": "kettlebell",
+      "off": [
+        0,
+        10
+      ]
+    }
+  ],
+  "pronuncia": {
+    "Wall Sit": "Uol sit"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "hip": [
+        -200,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "LEAN": {
+      "hip": [
+        -240,
+        -404
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "HALF": {
+      "hip": [
+        -240,
+        -320
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 0
+    },
+    "SIT": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 0
+    },
+    "HIGH": {
+      "hip": [
+        -240,
+        -300
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 0
+    },
+    "HANDS_BAD": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 6,
+      "hd": 6,
+      "g": 1,
+      "hx": -90,
+      "hy": -250,
+      "ed": 1
+    },
+    "FEET_BAD": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        -120,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 0
+    },
+    "HOLD_KB": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "g2": 1,
+      "hx": -170,
+      "hy": -520,
+      "hx2": -170,
+      "hy2": -520,
+      "ed": 1
+    },
+    "DROP_BAD": {
+      "hip": [
+        -240,
+        -150
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 10,
+      "hd": 8,
+      "g": 1,
+      "g2": 1,
+      "hx": -170,
+      "hy": -440,
+      "hx2": -170,
+      "hy2": -440,
+      "ed": 1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · PIERNAS",
+      "head": [
+        "WALL SQUAT",
+        "HOLD"
+      ],
+      "vo": "Wall Squat Hold con kettlebell: sentadilla en la pared, KB al pecho y a aguantar.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "SIT",
+              0.8
+            ],
+            [
+              "HOLD_KB",
+              1.0
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESPALDA",
+        "EN LA PARED"
+      ],
+      "sub": "KB al pecho",
+      "vo": "Apoyá la espalda en la pared, alejá los pies y sostené la kettlebell contra el pecho con las dos manos.",
+      "moves": [
+        {
+          "cut": "HOLD_KB",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "DESLIZATE",
+        "ABAJO"
+      ],
+      "sub": "Rodillas a 90°",
+      "vo": "Paso uno. Deslizate hacia abajo hasta que las rodillas queden a noventa grados, sobre los tobillos.",
+      "moves": [
+        {
+          "cut": "SIT",
+          "at": 0
+        },
+        {
+          "to": "HOLD_KB",
+          "at": 0.7,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            700,
+            980
+          ],
+          "text": "90°",
+          "anchor": "middle",
+          "at": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "KB",
+        "AL PECHO"
+      ],
+      "sub": "Codos abajo",
+      "vo": "Paso dos. Mantené la kettlebell pegada al pecho, con los codos abajo y el core firme.",
+      "moves": [
+        {
+          "cut": "HOLD_KB",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            760
+          ],
+          "text": "KB PEGADA",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "ASÍ NO",
+      "head": [
+        "NO TE",
+        "LEVANTES"
+      ],
+      "sub": "Altura constante",
+      "vo": "Así no. Si te levantás para descansar, la isometría se corta. Mantené la altura o terminá la serie.",
+      "moves": [
+        {
+          "cut": "HOLD_KB",
+          "at": 0
+        },
+        {
+          "to": "DROP_BAD",
+          "at": 0.8,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1020
+          ],
+          "text": "NO SUBAS",
+          "anchor": "middle",
+          "at": 0.9
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Espalda pegada a la pared",
+        "Rodillas a 90°",
+        "KB al pecho, codos abajo",
+        "Respirá y no subas"
+      ],
+      "vo": "Claves: espalda pegada, rodillas a noventa, kettlebell al pecho y no subas hasta terminar.",
+      "moves": [
+        {
+          "cut": "HOLD_KB",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "45 SEG"
+      ],
+      "sub": "KB 12 kg",
+      "vo": "Cuarenta y cinco segundos con doce kilos. Si la espalda se despega o la KB se va, terminá la serie.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · AGUANTÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · RESPIRÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "SIT",
+              0.6
+            ],
+            [
+              "HOLD_KB",
+              1.0
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "HOLD_KB",
+    "grip": 1,
+    "zoom": 1.15,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Wall Squat Hold with Kettlebell 🔥 Sentadilla en pared con KB | CrossFit",
+    "tags": [
+      "wall squat hold",
+      "sentadilla en pared",
+      "kettlebell",
+      "isometrico",
+      "cuadriceps",
+      "core",
+      "crossfit",
+      "piernas",
+      "resistencia"
+    ],
+    "descripcion": "🔥 WALL SQUAT HOLD WITH KETTLEBELL — sentadilla isométrica con KB al pecho\n\nSumale peso al wall sit: la kettlebell al pecho te obliga a sostener el core y no te deja hacer trampa con los brazos. 💪\n\n📋 PASO A PASO\n1️⃣ Apoyá la espalda en la pared, alejá los pies y sostené la kettlebell contra el pecho.\n2️⃣ Deslizate hacia abajo hasta que las rodillas queden a 90 grados.\n3️⃣ Mantené la KB pegada al pecho, con los codos abajo.\n4️⃣ Respirá tranquilo y sostené la posición.\n5️⃣ No te levantes hasta terminar el tiempo.\n\n✅ CLAVES DE TÉCNICA\n• Espalda pegada a la pared\n• Rodillas a 90°\n• KB al pecho, codos abajo\n• No subas para descansar\n• Respirá parejo\n\n🎯 QUÉ TRABAJA\nCuádriceps · Glúteo · Core · Hombros (isométrico)\n\n⏱️ CUÁNTO\n45 segundos con 12 kg. Dos series.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi la KB se aleja del pecho, bajá el peso: la posición manda.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WallSit #Kettlebell #Isometrico #Piernas"
+  }
+}

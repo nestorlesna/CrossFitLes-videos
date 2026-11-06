@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "b6838d7d-d085-4fab-b301-cd851d8562ff",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "e1fc53d22732c0a5fc1c89d27084eb90b67868c18305600ce41a8efcb208bbfe",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b6838d7d-d085-4fab-b301-cd851d8562ff\\blobs\\e1\\e1fc53d22732c0a5fc1c89d27084eb90b67868c18305600ce41a8efcb208bbfe"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b6838d7d-d085-4fab-b301-cd851d8562ff\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "0270b66908867aedc01b0465f7eacd0c851bf74c4fee6a3085ffc5ed7a9d7428",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b6838d7d-d085-4fab-b301-cd851d8562ff\\blobs\\02\\0270b66908867aedc01b0465f7eacd0c851bf74c4fee6a3085ffc5ed7a9d7428"
+    },
+    "meta.json": {
+      "hash": "34b0ecaf509e8c5883a4d19e9762089280e4c1fccbd0d27fa92ef3fcb1d4b1f6",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b6838d7d-d085-4fab-b301-cd851d8562ff\\blobs\\34\\34b0ecaf509e8c5883a4d19e9762089280e4c1fccbd0d27fa92ef3fcb1d4b1f6"
+    },
+    "package.json": {
+      "hash": "cf3c3c307d4f5421e142d9cc53c708add6fa0ca488cebf788a86c21adee97577",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b6838d7d-d085-4fab-b301-cd851d8562ff\\blobs\\cf\\cf3c3c307d4f5421e142d9cc53c708add6fa0ca488cebf788a86c21adee97577"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "31271d8e-6aa4-49d8-939c-f3942503abc6",
+      "completedAt": 1793877152426,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\sandbag-walking-lunges\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

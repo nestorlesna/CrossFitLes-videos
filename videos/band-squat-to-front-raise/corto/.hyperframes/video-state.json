@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "fc86fe15-9ab7-4d11-b0b1-473f84a7403e",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "9303e86af0ed06bea80f13118fc6b6aff39e5e479cd54c3e784bbca0c4511eea",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\fc86fe15-9ab7-4d11-b0b1-473f84a7403e\\blobs\\93\\9303e86af0ed06bea80f13118fc6b6aff39e5e479cd54c3e784bbca0c4511eea"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\fc86fe15-9ab7-4d11-b0b1-473f84a7403e\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "b3b61ea8d8921adcface32669448df0aa6d4d4a795c63bb6a20fc67132892048",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\fc86fe15-9ab7-4d11-b0b1-473f84a7403e\\blobs\\b3\\b3b61ea8d8921adcface32669448df0aa6d4d4a795c63bb6a20fc67132892048"
+    },
+    "meta.json": {
+      "hash": "cbea8c3831970f9d0291a3ca767812c04be1ee9fd0bda98da70459ce398daf70",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\fc86fe15-9ab7-4d11-b0b1-473f84a7403e\\blobs\\cb\\cbea8c3831970f9d0291a3ca767812c04be1ee9fd0bda98da70459ce398daf70"
+    },
+    "package.json": {
+      "hash": "c404b4e9c6672e9fd78d34ab77ec75dca2376c05b25c2a09eb31df4bbecb9f54",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\fc86fe15-9ab7-4d11-b0b1-473f84a7403e\\blobs\\c4\\c404b4e9c6672e9fd78d34ab77ec75dca2376c05b25c2a09eb31df4bbecb9f54"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "6e490123-4dfa-474b-9641-c7098d6a1c5d",
+      "completedAt": 1793878720304,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\band-squat-to-front-raise\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

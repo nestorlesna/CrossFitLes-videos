@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "cb732fa3-cbed-4f92-8e2e-61370267e0aa",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "0f25493d6dc3666ace15f3e613632a8b82735d97b5a65d27d02225c2a5f8ac8b",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\cb732fa3-cbed-4f92-8e2e-61370267e0aa\\blobs\\0f\\0f25493d6dc3666ace15f3e613632a8b82735d97b5a65d27d02225c2a5f8ac8b"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\cb732fa3-cbed-4f92-8e2e-61370267e0aa\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "0dc34038f320130c81d4e7a7568ed3d7dc769524da1dd1ff576ca15dce7f6bea",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\cb732fa3-cbed-4f92-8e2e-61370267e0aa\\blobs\\0d\\0dc34038f320130c81d4e7a7568ed3d7dc769524da1dd1ff576ca15dce7f6bea"
+    },
+    "meta.json": {
+      "hash": "a3e0e1cc76030cc7eb021fe7231374c5cfa4d946cedfc0249a8dfa7b0fc5a999",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\cb732fa3-cbed-4f92-8e2e-61370267e0aa\\blobs\\a3\\a3e0e1cc76030cc7eb021fe7231374c5cfa4d946cedfc0249a8dfa7b0fc5a999"
+    },
+    "package.json": {
+      "hash": "a9ca756fd30cfb34f29cc749a35bea7d0c284e091625063cba79a57a7c76344e",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\cb732fa3-cbed-4f92-8e2e-61370267e0aa\\blobs\\a9\\a9ca756fd30cfb34f29cc749a35bea7d0c284e091625063cba79a57a7c76344e"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "2973d149-0460-437c-b36d-e2fb788a1d39",
+      "completedAt": 1793878600903,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\side-lying-thoracic-opening\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

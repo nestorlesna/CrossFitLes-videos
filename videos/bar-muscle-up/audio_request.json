@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Bar Muscle-Up",
+      "text": "Pasar de dominada a fondo sobre la barra. El gran movimiento de gimnasia."
+    },
+    {
+      "id": "02",
+      "text": "Colgate de la barra con un agarre firme y el cuerpo en posición de hollow, con las piernas juntas."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Generá un kipping fuerte, pasando de hollow a arco para ganar impulso."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Tirá explosivo empujando la barra hacia la cadera, para que el pecho suba sobre la barra."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Llevá el pecho por encima de la barra y pasá los codos hacia arriba en la transición."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Terminá con un fondo sobre la barra hasta bloquear los brazos arriba."
+    },
+    {
+      "id": "07",
+      "text": "Claves: kipping fuerte, barra hacia la cadera, pecho por encima de la barra y fondo con los brazos bloqueados."
+    },
+    {
+      "id": "08",
+      "text": "Nueve repeticiones, en series cortas si hace falta. Calidad en cada una."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

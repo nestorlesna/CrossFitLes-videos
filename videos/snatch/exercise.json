@@ -1,0 +1,553 @@
+{
+  "name": "Snatch",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Cadera",
+    "Hombros",
+    "Potencia"
+  ],
+  "descripcion": "Arrancada olímpica: levantar la barra desde el suelo hasta overhead en un solo movimiento, recibiéndola en sentadilla profunda con los brazos bloqueados, y terminar de pie.",
+  "notas": "Barra con blend: grip en el piso (bf 0) y bloqueo overhead (bf 0), sin rack. Recepción en sentadilla profunda como overhead-squat.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1509,
+    "scale": 0.8
+  },
+  "pronuncia": {
+    "Snatch": "Snach"
+  },
+  "initialPose": "SETUP",
+  "props": [
+    {
+      "type": "barbell",
+      "torso": [
+        64,
+        36
+      ],
+      "r": 74,
+      "blend": true
+    }
+  ],
+  "poses": {
+    "SETUP": {
+      "g": 1,
+      "ed": 1,
+      "hip": [
+        -150,
+        -285
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 72,
+      "hd": 56,
+      "hx": 30,
+      "hy": -40
+    },
+    "KNEE": {
+      "g": 1,
+      "ed": 1,
+      "s": 5,
+      "t": -55,
+      "b": 52,
+      "hd": 40,
+      "hx": 30,
+      "hy": -215
+    },
+    "HIP": {
+      "s": 18,
+      "t": -38,
+      "b": 18,
+      "hd": 10,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": 2,
+      "fa2": 0
+    },
+    "EXT": {
+      "s": -4,
+      "t": 4,
+      "b": -8,
+      "hd": -6,
+      "ft": -22,
+      "ft2": -22,
+      "g": 0,
+      "ua": 6,
+      "fa": 0,
+      "ua2": 6,
+      "fa2": 0
+    },
+    "PULL": {
+      "s": -2,
+      "t": 2,
+      "b": -4,
+      "hd": -4,
+      "ft": -16,
+      "ft2": -16,
+      "g": 0,
+      "ua": 100,
+      "fa": -106,
+      "ua2": 100,
+      "fa2": -106
+    },
+    "RECEIVE": {
+      "hip": [
+        -135,
+        -212
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 32,
+      "hd": 16,
+      "ua": 172,
+      "fa": 6,
+      "ua2": 170,
+      "fa2": 6
+    },
+    "LOCK": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 2,
+      "ua": 178,
+      "fa": 2,
+      "ua2": 176,
+      "fa2": 2
+    },
+    "ELBOW_BAD": {
+      "hip": [
+        -135,
+        -212
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 36,
+      "hd": 18,
+      "ua": 150,
+      "fa": 40,
+      "ua2": 148,
+      "fa2": 44
+    },
+    "ROUND_BAD": {
+      "g": 1,
+      "ed": 1,
+      "hip": [
+        -150,
+        -285
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 78,
+      "hd": 74,
+      "cv": 40,
+      "hx": 30,
+      "hy": -40
+    }
+  },
+  "slug": "snatch",
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "SNATCH"
+      ],
+      "vo": "Snatch: la barra sale del piso y termina arriba de la cabeza en un solo movimiento.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "SETUP",
+              0.25
+            ],
+            [
+              "KNEE",
+              0.22
+            ],
+            [
+              "HIP",
+              0.16
+            ],
+            [
+              "EXT",
+              0.12
+            ],
+            [
+              "PULL",
+              0.12
+            ],
+            [
+              "RECEIVE",
+              0.28
+            ],
+            [
+              "LOCK",
+              0.35
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "SALIDA",
+        "FIRME"
+      ],
+      "sub": "Hombros sobre la barra",
+      "vo": "Pies al ancho de la cadera, agarre ancho, espalda neutra y hombros sobre la barra.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        }
+      ],
+      "overlays": []
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "PRIMER",
+        "TIRÓN"
+      ],
+      "sub": "Barra pegada",
+      "vo": "Paso uno. Primer tirón: despegá la barra y pasá las rodillas con la espalda plana.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "KNEE",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            430,
+            1450
+          ],
+          "to": [
+            430,
+            1270
+          ],
+          "at": 0.6,
+          "dur": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            120,
+            1100
+          ],
+          "text": "ROZA LAS PIERNAS",
+          "anchor": "start",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "EXTENSIÓN",
+        "TOTAL"
+      ],
+      "sub": "Tobillo, rodilla y cadera",
+      "vo": "Paso dos. Extendé tobillo, rodilla y cadera de golpe: la barra sube sola, pegada.",
+      "moves": [
+        {
+          "cut": "KNEE",
+          "at": 0
+        },
+        {
+          "to": "HIP",
+          "at": 0.5,
+          "dur": 0.4
+        },
+        {
+          "to": "EXT",
+          "at": 0.9,
+          "dur": 0.25,
+          "ease": "power2.out"
+        },
+        {
+          "to": "PULL",
+          "at": 1.15,
+          "dur": 0.18
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            430,
+            1400
+          ],
+          "to": [
+            430,
+            950
+          ],
+          "at": 0.9,
+          "dur": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            120,
+            900
+          ],
+          "text": "EXTENSIÓN COMPLETA",
+          "anchor": "start",
+          "at": 1.3
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "RECIBÍ",
+        "ABAJO"
+      ],
+      "sub": "Brazos firmes",
+      "vo": "Paso tres. Metete abajo, recibí en sentadilla profunda con los brazos bloqueados y parate.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "RECEIVE",
+          "at": 0.5,
+          "dur": 0.3,
+          "ease": "power2.out"
+        },
+        {
+          "to": "LOCK",
+          "at": 2.4,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            500,
+            1080
+          ],
+          "r": 78,
+          "at": 0.9,
+          "out": 2.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            120,
+            820
+          ],
+          "text": "BRAZOS FIRMES",
+          "anchor": "start",
+          "at": 1.1,
+          "out": 2.4
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "ASÍ NO",
+      "head": [
+        "TIRAR CON",
+        "LOS BRAZOS"
+      ],
+      "sub": "Antes de extender",
+      "vo": "Así no: si tirás con los brazos antes de extender, la barra se va adelante.",
+      "moves": [
+        {
+          "cut": "HIP",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.7,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            120,
+            900
+          ],
+          "text": "PRIMERO EXTENDÉ",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.9,
+      "keys": [
+        "Barra pegada al cuerpo",
+        "Extendé antes de tirar",
+        "Recepción rápida abajo",
+        "Brazos firmes arriba"
+      ],
+      "vo": "Claves: barra pegada al cuerpo, extensión completa antes de tirar, recepción con brazos firmes.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Peso técnico",
+      "vo": "Diez repeticiones con un peso técnico. Si la barra se va, bajá el peso.",
+      "chips": [
+        {
+          "label": "1 · TIRÓN",
+          "at": 0.5
+        },
+        {
+          "label": "2 · EXTENDÉ",
+          "at": 1.2
+        },
+        {
+          "label": "3 · RECIBÍ",
+          "at": 1.7
+        }
+      ],
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "KNEE",
+          "at": 0.5,
+          "dur": 0.5
+        },
+        {
+          "to": "HIP",
+          "at": 1.0,
+          "dur": 0.25
+        },
+        {
+          "to": "EXT",
+          "at": 1.25,
+          "dur": 0.16,
+          "ease": "power2.out"
+        },
+        {
+          "to": "PULL",
+          "at": 1.41,
+          "dur": 0.14
+        },
+        {
+          "to": "RECEIVE",
+          "at": 1.55,
+          "dur": 0.24,
+          "ease": "power2.out"
+        },
+        {
+          "to": "LOCK",
+          "at": 1.79,
+          "dur": 0.45
+        },
+        {
+          "cut": "SETUP",
+          "at": 3.0
+        },
+        {
+          "to": "KNEE",
+          "at": 3.3,
+          "dur": 0.5
+        },
+        {
+          "to": "HIP",
+          "at": 3.8,
+          "dur": 0.25
+        },
+        {
+          "to": "EXT",
+          "at": 4.05,
+          "dur": 0.16,
+          "ease": "power2.out"
+        },
+        {
+          "to": "PULL",
+          "at": 4.21,
+          "dur": 0.14
+        },
+        {
+          "to": "RECEIVE",
+          "at": 4.35,
+          "dur": 0.24,
+          "ease": "power2.out"
+        },
+        {
+          "to": "LOCK",
+          "at": 4.59,
+          "dur": 0.45
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "RECEIVE",
+    "grip": 0,
+    "zoom": 1.12,
+    "dy": 170
+  },
+  "youtube": {
+    "titulo": "Snatch 🔥 Arrancada olímpica paso a paso | CrossFit",
+    "tags": [
+      "snatch",
+      "arrancada",
+      "arrancada olímpica",
+      "halterofilia",
+      "levantamiento olímpico",
+      "barra",
+      "potencia",
+      "crossfit",
+      "técnica",
+      "snatch crossfit"
+    ],
+    "descripcion": "🔥 SNATCH — la arrancada olímpica: del piso a la cabeza en un movimiento\n\nLa arrancada es el levantamiento más técnico del CrossFit: pura velocidad y precisión. Acá va el camino completo, sin atajos. Si querés potencia de verdad, este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Pies al ancho de la cadera, agarre ancho, espalda neutra y hombros por encima de la barra.\n2️⃣ Primer tirón: despegá la barra del piso y pasá las rodillas con la espalda plana, pegada a las piernas.\n3️⃣ Extendé explosivo tobillo, rodilla y cadera: la barra sube sola por el impulso.\n4️⃣ Metete abajo y recibí en sentadilla profunda con los brazos bloqueados.\n5️⃣ Parate completo con la barra arriba de la cabeza.\n\n✅ CLAVES DE TÉCNICA\n• La barra describe una trayectoria pegada al cuerpo\n• Extensión explosiva de cadera antes de tirar con los brazos\n• Recepción rápida bajo la barra, con el torso erguido\n• Brazos bloqueados y barra sobre la línea del cuerpo\n• Si la barra se va adelante, es peso de más\n\n🎯 QUÉ TRABAJA\nRecto femoral · Deltoides anterior · Glúteo mayor · Recto abdominal · Trapecio superior\n\n⏱️ CUÁNTO\n10 repeticiones con un peso técnico. Va en bloques de halterofilia, habilidad y WODs.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi recién arrancás con el olímpico, aprendé el movimiento con un caño o la barra sola y con un coach al lado antes de cargar peso.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Halterofilia #Snatch #Potencia #Entrenamiento"
+  }
+}

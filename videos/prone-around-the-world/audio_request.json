@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Prone Around the World",
+      "text": "Círculos con los brazos boca abajo. Espalda alta y hombros sanos."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca abajo con los brazos estirados arriba de la cabeza. Mirada al suelo, cuello largo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Despegá el pecho y los brazos del suelo y mantenelos así durante todo el movimiento."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Abrí los brazos en arco hacia los costados, juntando las escápulas, sin apoyar las manos."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Seguí el círculo hasta llevar las manos a los costados de la cadera, siempre despegadas del piso."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Volvé por el mismo camino hasta arriba de la cabeza. Cuello largo, sin hiperextender."
+    },
+    {
+      "id": "07",
+      "text": "Claves: brazos siempre despegados del piso, mirada al suelo para no hiperextender el cuello, y movimiento lento y amplio."
+    },
+    {
+      "id": "08",
+      "text": "Cuarenta segundos de círculos lentos. Brazos arriba del piso y cuello largo."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

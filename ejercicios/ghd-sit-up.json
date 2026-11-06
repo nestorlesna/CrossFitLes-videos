@@ -1,0 +1,421 @@
+{
+  "slug": "ghd-sit-up",
+  "name": "GHD Sit-Up",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Abdomen",
+    "Core",
+    "Cadera"
+  ],
+  "descripcion": "Abdominal completo en máquina GHD con extensión de cadera total. Alta demanda de core.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 420,
+    "y": 1500,
+    "scale": 0.78
+  },
+  "pronuncia": {
+    "GHD Sit-Up": "Yi eich di sit ap"
+  },
+  "initialPose": "UP",
+  "props": [
+    {
+      "type": "ghd",
+      "pad": [
+        10,
+        -300
+      ],
+      "foot": [
+        420,
+        -190
+      ]
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "UP": {
+      "hip": [
+        20,
+        -335
+      ],
+      "ankle": [
+        420,
+        -190
+      ],
+      "g": 0,
+      "b": 8,
+      "hd": 6,
+      "ua": 60,
+      "fa": 20,
+      "ua2": 60,
+      "fa2": 20
+    },
+    "TOUCH": {
+      "hip": [
+        20,
+        -335
+      ],
+      "ankle": [
+        420,
+        -190
+      ],
+      "g": 0,
+      "b": 40,
+      "hd": 36,
+      "ua": 80,
+      "fa": 10,
+      "ua2": 80,
+      "fa2": 10
+    },
+    "MID": {
+      "hip": [
+        20,
+        -335
+      ],
+      "ankle": [
+        420,
+        -190
+      ],
+      "g": 0,
+      "b": -50,
+      "hd": -48,
+      "ua": 50,
+      "fa": 20,
+      "ua2": 50,
+      "fa2": 20
+    },
+    "DOWN": {
+      "hip": [
+        20,
+        -335
+      ],
+      "ankle": [
+        420,
+        -190
+      ],
+      "g": 0,
+      "b": -105,
+      "hd": -100,
+      "ua": 40,
+      "fa": 20,
+      "ua2": 40,
+      "fa2": 20
+    },
+    "NECK_BAD": {
+      "hip": [
+        20,
+        -335
+      ],
+      "ankle": [
+        420,
+        -190
+      ],
+      "g": 0,
+      "b": -105,
+      "hd": -140,
+      "ua": 40,
+      "fa": 20,
+      "ua2": 40,
+      "fa2": 20
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "GHD",
+        "SIT-UP"
+      ],
+      "vo": "GHD Sit-Up: el abdominal en máquina GHD. Máxima demanda de core y cadera.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "MID",
+              0.5
+            ],
+            [
+              "DOWN",
+              0.6
+            ],
+            [
+              "MID",
+              0.5
+            ],
+            [
+              "UP",
+              0.5
+            ],
+            [
+              "TOUCH",
+              0.5
+            ],
+            [
+              "UP",
+              0.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "CADERA EN",
+        "EL ALMOHADÓN"
+      ],
+      "sub": "Pies bajo los rodillos",
+      "vo": "Ubicá la cadera en el almohadón con los pies firmes bajo los rodillos. Sentate derecho, con el core activo.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "BAJÁ A LA",
+        "HORIZONTAL"
+      ],
+      "sub": "Un poco más, sin colgar la cabeza",
+      "vo": "Paso uno. Bajá el torso hasta la horizontal o un poco más, sin colgar la cabeza ni arquear la espalda.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.5,
+          "dur": 0.8
+        },
+        {
+          "to": "DOWN",
+          "at": 1.3,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            780,
+            800
+          ],
+          "text": "HASTA LA HORIZONTAL",
+          "anchor": "middle",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "SIN COLGAR",
+        "LA CABEZA"
+      ],
+      "sub": "Cuello neutro",
+      "vo": "Paso dos. Mantené el cuello neutro: la cabeza acompaña el torso y no cuelga hacia atrás.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "NECK_BAD",
+          "at": 0.5,
+          "dur": 0.5
+        },
+        {
+          "to": "DOWN",
+          "at": 1.8,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            780,
+            800
+          ],
+          "text": "CABEZA COLGADA: NO",
+          "anchor": "middle",
+          "at": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "SUBÍ",
+        "EXTENDIENDO"
+      ],
+      "sub": "Rodillas estiradas",
+      "vo": "Paso tres. Subí extendiendo las rodillas para traer el tronco hacia adelante.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.5,
+          "dur": 0.7
+        },
+        {
+          "to": "UP",
+          "at": 1.2,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "TOCÁ LOS",
+        "PIES"
+      ],
+      "sub": "Arriba, abdomen duro",
+      "vo": "Paso cuatro. Arriba, tocá los pies con las manos con el abdomen bien contraído. Empezá con pocas repeticiones.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "TOUCH",
+          "at": 0.6,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Bajar hasta la horizontal",
+        "Cuello neutro",
+        "Extender las rodillas al subir",
+        "Pocas repeticiones al empezar"
+      ],
+      "vo": "Claves: bajá hasta la horizontal, cuello neutro, extendé las rodillas al subir y empezá con pocas repeticiones.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Controlado",
+      "vo": "Diez repeticiones. Bajá hasta la horizontal, subí con fuerza y tocá los pies.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · SUBÍ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · TOCÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "MID",
+              0.5
+            ],
+            [
+              "DOWN",
+              0.6
+            ],
+            [
+              "MID",
+              0.5
+            ],
+            [
+              "UP",
+              0.5
+            ],
+            [
+              "TOUCH",
+              0.5
+            ],
+            [
+              "UP",
+              0.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "DOWN",
+    "grip": 0
+  },
+  "youtube": {
+    "titulo": "GHD Sit-Up 🔥 abdomen y cadera paso a paso | CrossFit",
+    "descripcion": "🔥 GHD SIT-UP — abdomen y cadera en un solo movimiento.\n\nSi querés un abdominal de máxima demanda, este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Ubicá la cadera en el almohadón con los pies firmes bajo los rodillos. Sentate derecho, con el core activo.\n2️⃣ Bajá el torso hasta la horizontal o un poco más, sin colgar la cabeza ni arquear la espalda.\n3️⃣ Mantené el cuello neutro: la cabeza acompaña el torso y no cuelga hacia atrás.\n4️⃣ Subí extendiendo las rodillas para traer el tronco hacia adelante.\n5️⃣ Arriba, tocá los pies con las manos con el abdomen bien contraído. Empezá con pocas repeticiones.\n\n✅ CLAVES DE TÉCNICA\n• Empezar con pocas repeticiones: es muy demandante\n• Bajar hasta la horizontal o un poco más, sin colgar la cabeza\n• Subir extendiendo las rodillas\n• Tocar los pies arriba con el abdomen contraído\n\n🎯 QUÉ TRABAJA\nOblicuo externo · Recto abdominal · Recto femoral\n\n⏱️ CUÁNTO\n10 repeticiones, dentro de un WOD o como accesorio de core. Empezá con pocas.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nEs muy demandante: empezá con pocas repeticiones y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\r\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #GHDSitUp #Core #Entrenamiento",
+    "tags": [
+      "ghd sit up",
+      "abdominal en ghd",
+      "ghd",
+      "core",
+      "abdominales",
+      "crossfit",
+      "wod",
+      "cadera",
+      "fuerza",
+      "máquina ghd"
+    ]
+  }
+}

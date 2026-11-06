@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "774476ed-55c7-4849-afb0-6678f19e976b",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "eaabe4c685cba3928aa270b182645ff09f069c8cc501540ac9e486863964ab96",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\774476ed-55c7-4849-afb0-6678f19e976b\\blobs\\ea\\eaabe4c685cba3928aa270b182645ff09f069c8cc501540ac9e486863964ab96"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\774476ed-55c7-4849-afb0-6678f19e976b\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "452a4a19a9a40f116c5909aa8fef1ca030be9b7dfdf3eb550a33861437d4f00f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\774476ed-55c7-4849-afb0-6678f19e976b\\blobs\\45\\452a4a19a9a40f116c5909aa8fef1ca030be9b7dfdf3eb550a33861437d4f00f"
+    },
+    "meta.json": {
+      "hash": "73273e7d43e46ee1aad396e67ad6b1aa366062377d20269db9ff457988fa0184",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\774476ed-55c7-4849-afb0-6678f19e976b\\blobs\\73\\73273e7d43e46ee1aad396e67ad6b1aa366062377d20269db9ff457988fa0184"
+    },
+    "package.json": {
+      "hash": "4398be8af133994517d875fe938001054e97b90e3f82b53ff3a6623c8af396c9",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\774476ed-55c7-4849-afb0-6678f19e976b\\blobs\\43\\4398be8af133994517d875fe938001054e97b90e3f82b53ff3a6623c8af396c9"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "4340614a-98e1-4cc2-bfbb-202e0ff5ddbe",
+      "completedAt": 1793875546254,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\banded-ankle-dorsiflexion-stretch\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

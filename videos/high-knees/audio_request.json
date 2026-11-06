@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "High Knees",
+      "text": "Carrera en el lugar con las rodillas a la cadera, braceo activo y ritmo alto. Puro cardio."
+    },
+    {
+      "id": "02",
+      "text": "De pie, torso erguido y core firme. El peso sobre la planta de los pies, listo para correr en el lugar."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Llevá una rodilla a la altura de la cadera mientras la otra pierna empuja desde la planta."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Braceá activo: el brazo contrario a la rodilla que sube va adelante, con los codos flexionados."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Sostené la frecuencia alta y el torso quieto. Un pie siempre en el piso, sin saltar de más."
+    },
+    {
+      "id": "06",
+      "text": "El error: aterrizar con el talón de golpe. Apoyá la planta y mantené los talones apenas despegados del piso."
+    },
+    {
+      "id": "07",
+      "text": "Claves: torso erguido, rodilla a la cadera, apoyo en la planta y braceo activo sin cruzar la línea media."
+    },
+    {
+      "id": "08",
+      "text": "Veinte segundos a ritmo alto. Si te falta el aire, bajá la frecuencia pero no la postura."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

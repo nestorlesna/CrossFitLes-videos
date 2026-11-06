@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "7db98784-2ae9-47b1-ae35-70df66904eae",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "651e5d01f8afe4814346a976817ef8a66fac26627969db92136fcc6899401edc",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7db98784-2ae9-47b1-ae35-70df66904eae\\blobs\\65\\651e5d01f8afe4814346a976817ef8a66fac26627969db92136fcc6899401edc"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7db98784-2ae9-47b1-ae35-70df66904eae\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "c8b69f38784087305c71ef6d7eca2e737f39532688b027ec8ae4fc458aa69d54",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7db98784-2ae9-47b1-ae35-70df66904eae\\blobs\\c8\\c8b69f38784087305c71ef6d7eca2e737f39532688b027ec8ae4fc458aa69d54"
+    },
+    "meta.json": {
+      "hash": "883b931e9e331acf45b497a559f0b73fc93944fec58055d4dd09643125024831",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7db98784-2ae9-47b1-ae35-70df66904eae\\blobs\\88\\883b931e9e331acf45b497a559f0b73fc93944fec58055d4dd09643125024831"
+    },
+    "package.json": {
+      "hash": "a8710efa3f3b7c30df9e61f3f6d34d2bc1603c62e7286d8aa5e21489966287ac",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7db98784-2ae9-47b1-ae35-70df66904eae\\blobs\\a8\\a8710efa3f3b7c30df9e61f3f6d34d2bc1603c62e7286d8aa5e21489966287ac"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "59cffa17-257c-4f99-8431-259a7723545c",
+      "completedAt": 1793839471096,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\partner-wall-ball-sit-up\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

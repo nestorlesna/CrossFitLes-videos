@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "b75b868a-54ce-491b-926a-144352232af9",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "54608cc0aa4c3e1332acc5bfca86b5d820057e7fab47b698db17f67ef563a3e9",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b75b868a-54ce-491b-926a-144352232af9\\blobs\\54\\54608cc0aa4c3e1332acc5bfca86b5d820057e7fab47b698db17f67ef563a3e9"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b75b868a-54ce-491b-926a-144352232af9\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "7a2e84d19bda03f7f339128714deb1281d9e8f2e76759a76248a3a691d4ca474",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b75b868a-54ce-491b-926a-144352232af9\\blobs\\7a\\7a2e84d19bda03f7f339128714deb1281d9e8f2e76759a76248a3a691d4ca474"
+    },
+    "meta.json": {
+      "hash": "5c64ff93777b17793c68669306f28785750f11a3c5918c0d2a47baad9a827515",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b75b868a-54ce-491b-926a-144352232af9\\blobs\\5c\\5c64ff93777b17793c68669306f28785750f11a3c5918c0d2a47baad9a827515"
+    },
+    "package.json": {
+      "hash": "38d1444817a9e89f19c5b3f02979ae5665ee8bfac275a0c7923c5bc993993a59",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b75b868a-54ce-491b-926a-144352232af9\\blobs\\38\\38d1444817a9e89f19c5b3f02979ae5665ee8bfac275a0c7923c5bc993993a59"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "35cbb7b0-54ce-475e-8cae-2537e3c90f2a",
+      "completedAt": 1793878344824,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\barbell-inverted-row\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

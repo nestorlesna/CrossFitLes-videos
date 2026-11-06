@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Barbell Inverted Row",
+      "text": "El remo invertido con barra. Espalda fuerte y base para dominadas."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba debajo de la barra, a la altura de la cadera. Agarrala al ancho de los hombros y apoyá los talones."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Apretá glúteos y abdomen para que el cuerpo quede recto como una tabla, de los talones a la cabeza."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Empezá juntando las escápulas y después flexioná los codos para subir."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Llevá el pecho hacia la barra, sin que la cadera se caiga."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Bajá controlado hasta extender los brazos. Para escalar, doblá las rodillas o subí la barra."
+    },
+    {
+      "id": "07",
+      "text": "Claves: cuerpo recto de talones a cabeza, primero escápulas y luego codos, pecho a la barra, y escalá doblando las rodillas."
+    },
+    {
+      "id": "08",
+      "text": "Ocho repeticiones. Subí con la espalda, mantené la tabla y bajá con control."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "4533f615-5563-4382-b147-9126c8cb2ab2",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "5c8b140797090bf95e7d6c6df4574ced6e2e036c00bc9affb49aa1fa8e109de8",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4533f615-5563-4382-b147-9126c8cb2ab2\\blobs\\5c\\5c8b140797090bf95e7d6c6df4574ced6e2e036c00bc9affb49aa1fa8e109de8"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4533f615-5563-4382-b147-9126c8cb2ab2\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "0b1e8edd4071919929737e80075cb5cbc461b6ce94dae793f366b43e4b3074bb",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4533f615-5563-4382-b147-9126c8cb2ab2\\blobs\\0b\\0b1e8edd4071919929737e80075cb5cbc461b6ce94dae793f366b43e4b3074bb"
+    },
+    "meta.json": {
+      "hash": "3220c0fe49156314d69811a04cb39f88dbcf7d64e3faa01d4912f518ef7ec081",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4533f615-5563-4382-b147-9126c8cb2ab2\\blobs\\32\\3220c0fe49156314d69811a04cb39f88dbcf7d64e3faa01d4912f518ef7ec081"
+    },
+    "package.json": {
+      "hash": "efc061de10833cf9a2d57683c7812c4b27adee2fe828e4e8f19edbfb25c60f5c",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4533f615-5563-4382-b147-9126c8cb2ab2\\blobs\\ef\\efc061de10833cf9a2d57683c7812c4b27adee2fe828e4e8f19edbfb25c60f5c"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "1479e1cf-db87-4d56-8779-19a4ff35bdd6",
+      "completedAt": 1793878814836,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\banded-glute-kickback\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

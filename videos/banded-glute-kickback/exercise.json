@@ -1,0 +1,197 @@
+{
+  "slug": "banded-glute-kickback",
+  "name": "Banded Glute Kickback",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Glúteo",
+    "Isquios",
+    "Core"
+  ],
+  "descripcion": "Patada de glúteo de pie con banda al tobillo: la pierna va atrás contra la banda extendiendo la cadera, sin arquear la lumbar. Activación de glúteo pura.",
+  "revisado": false,
+  "notas": "Prop `band` con hand \"ankle\" (nuevo): la banda va del ancla frontal baja al tobillo cercano con un cuff. La pierna que trabaja es la cercana (ankle por IK) y la lejana queda plantada con ankle2.",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Banded Glute Kickback 🎯 patada de glúteo con banda | CrossFit",
+    "tags": [
+      "banded glute kickback",
+      "patada de gluteo",
+      "gluteo con banda",
+      "banda al tobillo",
+      "activacion de gluteo",
+      "banda elastica",
+      "crossfit",
+      "entrada en calor",
+      "gluteo",
+      "isquios"
+    ],
+    "descripcion": "🎬 BANDED GLUTE KICKBACK - patada de glúteo con banda al tobillo\n\nLa banda va anclada adelante y el tobillo queda enganchado: llevás la pierna atrás extendiendo la cadera y volvés controlando. El glúteo trabaja de verdad, sin cargar la lumbar. 💪\n\n📝 PASO A PASO\n1️⃣ Anclá la banda adelante, a poca altura, y enganchala al tobillo con la banda tensa.\n2️⃣ Afirmate en la pierna de apoyo con el abdomen activo y el torso estable.\n3️⃣ Llevá la pierna atrás extendiendo la cadera, con la rodilla casi recta.\n4️⃣ Apretá el glúteo arriba y volvé controlando, sin rebotar.\n\n✅ CLAVES DE TÉCNICA\n✔️ El movimiento sale de la cadera, no de la espalda baja\n✔️ Torso sin arquear ni rotar\n✔️ Rodilla de la pierna que trabaja casi extendida\n✔️ Glúteo apretado arriba, vuelta controlada\n\n💪 QUÉ TRABAJA\nGlúteo mayor · Isquios · Erectores (estabilizan) · Core\n\n⏱️ CUÁNTO\n20 segundos dentro del WOD, alternando piernas con ritmo parejo.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi la banda te tira mucho, alejate un paso del ancla para regular la tensión.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Gluteos #BandaElastica #Activacion #GluteKickback"
+  },
+  "miniatura": {
+    "pose": "KICK",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 150
+  },
+  "initialPose": "STAND",
+  "rig": {
+    "x": 480,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "poses": {
+    "STAND": {
+      "hip": [0, -470],
+      "ankle": [0, 0],
+      "ankle2": [0, 0],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 10,
+      "fa": 14,
+      "ua2": 8,
+      "fa2": 14
+    },
+    "SET": {
+      "hip": [-10, -470],
+      "ankle": [0, 0],
+      "ankle2": [0, 0],
+      "b": 8,
+      "hd": 6,
+      "g": 0,
+      "ua": 14,
+      "fa": 20,
+      "ua2": 12,
+      "fa2": 18
+    },
+    "KICK": {
+      "hip": [-10, -470],
+      "ankle": [-260, -90],
+      "ankle2": [0, 0],
+      "b": 8,
+      "hd": 4,
+      "g": 0,
+      "ua": 14,
+      "fa": 20,
+      "ua2": 12,
+      "fa2": 18
+    },
+    "ARCH_BAD": {
+      "hip": [20, -470],
+      "ankle": [-190, -40],
+      "ankle2": [0, 0],
+      "b": -16,
+      "hd": -10,
+      "g": 0,
+      "ua": 16,
+      "fa": 22,
+      "ua2": 14,
+      "fa2": 20
+    }
+  },
+  "props": [
+    { "type": "band", "anchor": [300, 8], "hand": "ankle", "w": 13 }
+  ],
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": ["PATADA", "DE GLÚTEO"],
+      "vo": "Banded Glute Kickback: con la banda en el tobillo, llevá la pierna atrás y apretá el glúteo.",
+      "moves": [
+        { "cut": "STAND", "at": 0 },
+        { "to": "KICK", "at": 0.6, "dur": 0.6 },
+        { "to": "SET", "at": 1.7, "dur": 0.6 },
+        { "to": "KICK", "at": 2.6, "dur": 0.6 },
+        { "to": "SET", "at": 3.7, "dur": 0.6 }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": ["BANDA", "AL TOBILLO"],
+      "sub": "Ancla adelante y baja",
+      "vo": "Anclá la banda adelante a poca altura y enganchala al tobillo, con la banda ya tensa.",
+      "moves": [{ "cut": "SET", "at": 0 }]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": ["PATADA", "ATRÁS"],
+      "sub": "Desde la cadera",
+      "vo": "Paso uno. Llevá la pierna atrás extendiendo la cadera, con la rodilla casi recta y el torso estable.",
+      "moves": [
+        { "cut": "SET", "at": 0 },
+        { "to": "KICK", "at": 0.7, "dur": 0.7 }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": ["APRETÁ", "Y VOLVÉ"],
+      "sub": "Sin rebote",
+      "vo": "Paso dos. Apretá el glúteo arriba y volvé controlando, sin rebotar ni soltar la tensión.",
+      "moves": [
+        { "cut": "KICK", "at": 0 },
+        { "to": "SET", "at": 0.6, "dur": 0.8 },
+        { "to": "KICK", "at": 2.2, "dur": 0.7 }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": ["ASÍ NO"],
+      "sub": "Lumbar arqueada",
+      "vo": "Paso tres. Si arqueás la lumbar para llevar la pierna atrás, el glúteo deja de trabajar.",
+      "moves": [
+        { "cut": "SET", "at": 0 },
+        { "to": "ARCH_BAD", "at": 0.7, "dur": 0.7 },
+        { "to": "SET", "at": 2.4, "dur": 0.8 }
+      ],
+      "overlays": [{ "type": "label", "pos": [150, 1120], "text": "NO ARQUEES", "anchor": "start", "at": 1.3 }]
+    },
+    {
+      "kind": "keys",
+      "min": 7.6,
+      "badge": "CLAVES",
+      "head": ["TÉCNICA"],
+      "keys": [
+        "Movimiento de cadera",
+        "Torso sin arquear",
+        "Rodilla casi extendida",
+        "Glúteo apretado arriba"
+      ],
+      "vo": "Claves: el movimiento sale de la cadera, el torso no se arquea, la rodilla queda casi extendida y el glúteo aprieta arriba.",
+      "moves": [{ "cut": "SET", "at": 0.1 }]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": ["20 SEG"],
+      "sub": "Ritmo parejo",
+      "vo": "Veinte segundos alternando piernas: patada, apretá y volvé, sin rebotes.",
+      "chips": [
+        { "label": "1 · PATADA", "at": 0.6 },
+        { "label": "2 · APRETÁ", "at": 1.4 },
+        { "label": "3 · VOLVÉ", "at": 2.2 }
+      ],
+      "moves": [
+        { "cut": "SET", "at": 0 },
+        { "to": "KICK", "at": 0.5, "dur": 0.6 },
+        { "to": "SET", "at": 1.4, "dur": 0.6 },
+        { "to": "KICK", "at": 2.2, "dur": 0.6 },
+        { "to": "SET", "at": 3.1, "dur": 0.6 },
+        { "to": "KICK", "at": 3.9, "dur": 0.6 },
+        { "to": "SET", "at": 4.8, "dur": 0.6 },
+        { "to": "KICK", "at": 5.6, "dur": 0.6 },
+        { "to": "SET", "at": 6.5, "dur": 0.6 }
+      ]
+    }
+  ]
+}

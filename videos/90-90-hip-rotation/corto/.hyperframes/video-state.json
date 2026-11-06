@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "ab8866eb-3e55-40f1-9428-cf6d66d51c38",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "d47372c9559772595f1fc818fa3abdba41b093f27b38288500ee49d05eae90b6",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ab8866eb-3e55-40f1-9428-cf6d66d51c38\\blobs\\d4\\d47372c9559772595f1fc818fa3abdba41b093f27b38288500ee49d05eae90b6"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ab8866eb-3e55-40f1-9428-cf6d66d51c38\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "077c1e701dc67b6731358394b28ce3853356c977443575fedb91f96c24523ed4",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ab8866eb-3e55-40f1-9428-cf6d66d51c38\\blobs\\07\\077c1e701dc67b6731358394b28ce3853356c977443575fedb91f96c24523ed4"
+    },
+    "meta.json": {
+      "hash": "26b978cf52953eb6794c2d68f1a81f0cc322b2fc5a099302f66c47b5464582de",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ab8866eb-3e55-40f1-9428-cf6d66d51c38\\blobs\\26\\26b978cf52953eb6794c2d68f1a81f0cc322b2fc5a099302f66c47b5464582de"
+    },
+    "package.json": {
+      "hash": "e67ff76c120a8109251d7a4b23491cf0389fbfa187d2817a42c59aacac515bfa",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ab8866eb-3e55-40f1-9428-cf6d66d51c38\\blobs\\e6\\e67ff76c120a8109251d7a4b23491cf0389fbfa187d2817a42c59aacac515bfa"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "5ebdfde8-5c47-4f22-a3e3-7287a9439d70",
+      "completedAt": 1793838187719,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\90-90-hip-rotation\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

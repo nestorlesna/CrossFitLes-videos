@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "fccfda5e-1614-4bc2-add9-f5277257cdba",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "4b1fd92902b8cf8c08594bf99b34b4ca7e54314f2782d43a8fa1472380efeff5",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\fccfda5e-1614-4bc2-add9-f5277257cdba\\blobs\\4b\\4b1fd92902b8cf8c08594bf99b34b4ca7e54314f2782d43a8fa1472380efeff5"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\fccfda5e-1614-4bc2-add9-f5277257cdba\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "927dcc0ad313ddb8f0451c1e2ba0516026cbe901278a95049f70339e8a9704be",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\fccfda5e-1614-4bc2-add9-f5277257cdba\\blobs\\92\\927dcc0ad313ddb8f0451c1e2ba0516026cbe901278a95049f70339e8a9704be"
+    },
+    "meta.json": {
+      "hash": "3dbddd1208e8c523db57482541db570d8dd3d785e228fa3ce59650248aac8c32",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\fccfda5e-1614-4bc2-add9-f5277257cdba\\blobs\\3d\\3dbddd1208e8c523db57482541db570d8dd3d785e228fa3ce59650248aac8c32"
+    },
+    "package.json": {
+      "hash": "efddfb5dc8c14481f2b6755f1d85fd89fc484e1626671a7db448f227cda4c26a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\fccfda5e-1614-4bc2-add9-f5277257cdba\\blobs\\ef\\efddfb5dc8c14481f2b6755f1d85fd89fc484e1626671a7db448f227cda4c26a"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "ad26ff73-e038-4c05-9d4e-8c711d04e77b",
+      "completedAt": 1793876695985,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\kettlebell-pullover-on-wall-ball\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

@@ -1,0 +1,367 @@
+{
+  "slug": "sandbag-walking-lunges",
+  "name": "Sandbag Walking Lunges",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Piernas",
+    "Glúteos",
+    "Core"
+  ],
+  "descripcion": "Caminar haciendo lunges (zancadas) sosteniendo un sandbag sobre los hombros o en posición frontal. Alternar pierna en cada paso y avanzar la distancia indicada.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 440,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "pronuncia": {
+    "Sandbag Walking Lunges": "Sandbag uóquin lanyes",
+    "sandbag": "sándbag"
+  },
+  "initialPose": "HOLD",
+  "props": [
+    {
+      "type": "sandbag",
+      "torso": [
+        85,
+        120
+      ],
+      "w": 220,
+      "h": 110
+    }
+  ],
+  "poses": {
+    "HOLD": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 16,
+      "fa": 136,
+      "ua2": 16,
+      "fa2": 136
+    },
+    "LUNGE_N": {
+      "s": 1.95,
+      "t": -82.31,
+      "s2": 89.94,
+      "t2": 10.81,
+      "rx": 290,
+      "ry": 0,
+      "ft": 0,
+      "ft2": 48,
+      "b": 2,
+      "hd": 0,
+      "g": 0,
+      "ua": 14,
+      "fa": 136,
+      "ua2": 14,
+      "fa2": 136
+    },
+    "LUNGE_F": {
+      "s": 89.94,
+      "t": 10.81,
+      "s2": 1.95,
+      "t2": -82.31,
+      "rx": -215,
+      "ry": -26,
+      "ft": 48,
+      "ft2": 0,
+      "b": 2,
+      "hd": 0,
+      "g": 0,
+      "ua": 14,
+      "fa": 136,
+      "ua2": 14,
+      "fa2": 136
+    },
+    "LEAN_BAD": {
+      "s": 1.95,
+      "t": -82.31,
+      "s2": 89.94,
+      "t2": 10.81,
+      "rx": 290,
+      "ry": 0,
+      "ft": 0,
+      "ft2": 48,
+      "b": 28,
+      "hd": 22,
+      "g": 0,
+      "ua": -10,
+      "fa": 136,
+      "ua2": -10,
+      "fa2": 136
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "SANDBAG",
+        "LUNGES"
+      ],
+      "vo": "Sandbag Walking Lunges: zancadas caminando con un sandbag. Piernas, glúteos y core al máximo.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "LUNGE_N",
+              0.8
+            ],
+            [
+              "HOLD",
+              0.5
+            ],
+            [
+              "LUNGE_F",
+              0.8
+            ],
+            [
+              "HOLD",
+              0.5
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "SANDBAG",
+        "AL PECHO"
+      ],
+      "sub": "Abrazalo firme contra el torso",
+      "vo": "Parate con el sandbag abrazado contra el pecho, codos pegados y torso erguido. Pies al ancho de la cadera.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "PASO",
+        "LARGO"
+      ],
+      "sub": "Adelante con una pierna",
+      "vo": "Paso uno. Dá un paso largo hacia adelante y bajá con el torso erguido. La rodilla delantera no pasa la punta del pie.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0
+        },
+        {
+          "to": "LUNGE_N",
+          "at": 0.6,
+          "dur": 1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            780,
+            1000
+          ],
+          "text": "TORSO ERGUIDO",
+          "anchor": "middle",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "ROZÁ EL",
+        "PISO"
+      ],
+      "sub": "Rodilla de atrás casi toca",
+      "vo": "Paso dos. Bajá hasta que la rodilla de atrás casi toque el piso, con el sandbag estable y sin balancearse.",
+      "moves": [
+        {
+          "cut": "LUNGE_N",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "EMPUJÁ",
+        "Y AVANZÁ"
+      ],
+      "sub": "Pasá a la otra pierna",
+      "vo": "Paso tres. Empujá con la pierna delantera, traé la de atrás y arrancá la siguiente zancada sin detenerte.",
+      "moves": [
+        {
+          "cut": "LUNGE_N",
+          "at": 0
+        },
+        {
+          "to": "HOLD",
+          "at": 0.6,
+          "dur": 0.7
+        },
+        {
+          "to": "LUNGE_F",
+          "at": 1.5,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ALTERNÁ",
+        "PIERNAS"
+      ],
+      "sub": "Avanzá la distancia",
+      "vo": "Paso cuatro. Alterná piernas en cada paso hasta completar la distancia. Mantené el core firme y el sandbag pegado.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "LUNGE_N",
+              0.8
+            ],
+            [
+              "HOLD",
+              0.5
+            ],
+            [
+              "LUNGE_F",
+              0.8
+            ],
+            [
+              "HOLD",
+              0.5
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Torso erguido",
+        "Rodilla delantera sobre el pie",
+        "Rodilla de atrás casi toca",
+        "Sandbag firme, sin balanceo"
+      ],
+      "vo": "Claves: torso erguido, rodilla delantera sobre el pie, la de atrás casi toca el piso y el sandbag firme sin balancearse.",
+      "moves": [
+        {
+          "cut": "LUNGE_N",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 METROS"
+      ],
+      "sub": "Con 5 kg",
+      "vo": "Treinta metros con cinco kilos. Paso largo, torso erguido y el sandbag siempre firme.",
+      "chips": [
+        {
+          "label": "1 · PASO",
+          "at": 0.6
+        },
+        {
+          "label": "2 · BAJÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · EMPUJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "LUNGE_N",
+              0.8
+            ],
+            [
+              "HOLD",
+              0.5
+            ],
+            [
+              "LUNGE_F",
+              0.8
+            ],
+            [
+              "HOLD",
+              0.5
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "LUNGE_N",
+    "grip": 0
+  },
+  "youtube": {
+    "titulo": "Sandbag Walking Lunges 🔥 piernas y glúteos con carga paso a paso | CrossFit",
+    "descripcion": "🔥 SANDBAG WALKING LUNGES — piernas y core fuertes con carga inestable.\n\nSi querés piernas fuertes y un core que aguante cualquier WOD, este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate con el sandbag abrazado contra el pecho, codos pegados y torso erguido, con los pies al ancho de la cadera.\n2️⃣ Dá un paso largo hacia adelante y bajá con el torso erguido. La rodilla delantera no pasa la punta del pie.\n3️⃣ Bajá hasta que la rodilla de atrás casi toque el piso, con el sandbag estable y sin balancearse.\n4️⃣ Empujá con la pierna delantera, traé la de atrás y arrancá la siguiente zancada sin detenerte.\n5️⃣ Alterná piernas en cada paso hasta completar la distancia. Mantené el core firme y el sandbag pegado.\n\n✅ CLAVES DE TÉCNICA\n• Torso erguido durante toda la zancada\n• La rodilla delantera no pasa la punta del pie\n• La rodilla trasera casi toca el piso\n• Sandbag estable, sin balancearse\n\n🎯 QUÉ TRABAJA\nRecto femoral · Bíceps femoral · Glúteo mayor · Recto abdominal\n\n⏱️ CUÁNTO\n30 metros con 5 kg, dentro de un WOD o como trabajo de piernas.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste zancadas con carga, empezá sin peso y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\r\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #SandbagWalkingLunges #Piernas #Entrenamiento",
+    "tags": [
+      "sandbag walking lunges",
+      "zancadas con sandbag",
+      "estocadas caminando",
+      "sandbag",
+      "piernas",
+      "glúteos",
+      "crossfit",
+      "wod",
+      "zancadas",
+      "core"
+    ]
+  },
+  "floorScroll": 140
+}

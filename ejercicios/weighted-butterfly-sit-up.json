@@ -1,0 +1,432 @@
+{
+  "slug": "weighted-butterfly-sit-up",
+  "name": "Weighted Butterfly Sit-Up",
+  "nombreEnVoz": "Weighted butterfly sit up",
+  "category": "CROSSFIT — CORE",
+  "tags": [
+    "Core",
+    "Aductores",
+    "Disco"
+  ],
+  "descripcion": "Sit-up completo con las plantas de los pies juntas y las rodillas abiertas en mariposa, sosteniendo un disco sobre el pecho y llevándolo por encima de la cabeza al subir.",
+  "revisado": false,
+  "notas": "Disco con hand near. La apertura de rodillas no se ve de perfil: la posición inicial lleva tarjeta topview abd (cs 1) con las etiquetas PIES JUNTOS y RODILLAS AFUERA.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 570,
+    "y": 1500,
+    "scale": 0.86
+  },
+  "pronuncia": {
+    "Weighted Butterfly Sit-Up": "Uéited báterflai sit ap",
+    "Butterfly": "báterflai",
+    "Sit-Up": "sit ap"
+  },
+  "initialPose": "FLAT",
+  "props": [
+    {
+      "type": "plate",
+      "hand": "near",
+      "off": [
+        0,
+        -34
+      ],
+      "r": 54
+    }
+  ],
+  "poses": {
+    "FLAT": {
+      "hip": [
+        0,
+        -12
+      ],
+      "s": -28.6,
+      "t": -147.3,
+      "s2": -31,
+      "t2": -145,
+      "ft": 0,
+      "ft2": 0,
+      "b": -90,
+      "hd": -92,
+      "g": 0,
+      "cs": 1,
+      "ua": 100,
+      "fa": 20,
+      "ua2": 100,
+      "fa2": 20
+    },
+    "HALF": {
+      "hip": [
+        0,
+        -12
+      ],
+      "s": -28.6,
+      "t": -147.3,
+      "s2": -31,
+      "t2": -145,
+      "ft": 0,
+      "ft2": 0,
+      "b": -38,
+      "hd": -34,
+      "g": 0,
+      "ua": 132,
+      "fa": 10,
+      "ua2": 132,
+      "fa2": 10
+    },
+    "UP": {
+      "hip": [
+        0,
+        -12
+      ],
+      "s": -28.6,
+      "t": -147.3,
+      "s2": -31,
+      "t2": -145,
+      "ft": 0,
+      "ft2": 0,
+      "b": 58,
+      "hd": 50,
+      "g": 0,
+      "ua": 176,
+      "fa": 4,
+      "ua2": 174,
+      "fa2": 6
+    },
+    "NECK_BAD": {
+      "hip": [
+        0,
+        -12
+      ],
+      "s": -28.6,
+      "t": -147.3,
+      "s2": -31,
+      "t2": -145,
+      "ft": 0,
+      "ft2": 0,
+      "b": -62,
+      "hd": -124,
+      "g": 0,
+      "ua": 150,
+      "fa": 30,
+      "ua2": 152,
+      "fa2": 28
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT — CORE",
+      "head": [
+        "WEIGHTED",
+        "BUTTERFLY"
+      ],
+      "vo": "Weighted Butterfly Sit-Up: plantas juntas, rodillas afuera y un disco que sube con el abdomen.",
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "HALF",
+              0.65
+            ],
+            [
+              "UP",
+              0.85
+            ],
+            [
+              "HALF",
+              0.65
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PIES",
+        "JUNTOS"
+      ],
+      "sub": "Rodillas abiertas",
+      "topview": {
+        "mode": "abd",
+        "label": "PIES JUNTOS"
+      },
+      "vo": "Acostate boca arriba, juntá las plantas de los pies y dejá las rodillas abiertas hacia los costados.",
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            120,
+            980
+          ],
+          "text": "PIES JUNTOS",
+          "anchor": "start",
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            120,
+            1100
+          ],
+          "text": "RODILLAS AFUERA",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "DISCO",
+        "AL PECHO"
+      ],
+      "sub": "Brazos firmes",
+      "vo": "Paso uno. Sostené el disco sobre el pecho con las dos manos y no lo muevas durante la subida.",
+      "moves": [
+        {
+          "cut": "HALF",
+          "at": 0
+        },
+        {
+          "to": "FLAT",
+          "at": 0.2,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            660,
+            1010
+          ],
+          "text": "DISCO FIRME",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "SUBÍ CON",
+        "EL ABDOMEN"
+      ],
+      "sub": "Disco sobre la cabeza",
+      "vo": "Paso dos. Enrollá el torso, subí con el abdomen y llevá el disco por encima de la cabeza.",
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.6,
+          "dur": 0.5
+        },
+        {
+          "to": "UP",
+          "at": 1.5,
+          "dur": 0.55
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "UP.S",
+            "dx": -120,
+            "dy": 36
+          },
+          "text": "ABDOMEN",
+          "anchor": "end",
+          "at": 1.9
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "CONTROLADO"
+      ],
+      "sub": "Sin soltar el disco",
+      "vo": "Paso tres. Bajá controlado hasta apoyar la espalda, sin soltar el disco y sin dejar caer la cabeza.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.7,
+          "dur": 0.55
+        },
+        {
+          "to": "FLAT",
+          "at": 1.8,
+          "dur": 0.55
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "ERROR TÍPICO",
+      "head": [
+        "ASÍ NO:",
+        "TIRÉS DEL",
+        "CUELLO"
+      ],
+      "sub": "El disco no tira de vos",
+      "vo": "Así no. No tires del cuello ni uses los brazos para arrancar: el disco suma resistencia, no hace el trabajo.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "NECK_BAD",
+          "at": 0.8,
+          "dur": 0.5
+        },
+        {
+          "to": "FLAT",
+          "at": 3.4,
+          "dur": 0.55
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "NECK_BAD.N",
+            "dx": 0,
+            "dy": -70
+          },
+          "text": "CUELLO, NO TIRÓN",
+          "anchor": "middle",
+          "at": 0.9
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Plantas juntas",
+        "Rodillas abiertas",
+        "Subir con el abdomen",
+        "Bajar controlado"
+      ],
+      "vo": "Claves: plantas juntas, rodillas abiertas, subir con el abdomen y bajar controlado.",
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "14 REPS"
+      ],
+      "sub": "Con disco liviano",
+      "chips": [
+        {
+          "label": "1 → SUBÍ",
+          "at": 0.5
+        },
+        {
+          "label": "2 → ARRIBA",
+          "at": 1.1
+        },
+        {
+          "label": "3 → BAJÁ",
+          "at": 1.7
+        }
+      ],
+      "vo": "Catorce repeticiones con un disco liviano. Si el peso te gana, bajá el disco y cuidá la técnica.",
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "HALF",
+              0.55
+            ],
+            [
+              "UP",
+              0.7
+            ],
+            [
+              "HALF",
+              0.55
+            ],
+            [
+              "FLAT",
+              0.6
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "grip": 0,
+    "zoom": 1.05,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Weighted Butterfly Sit-Up 🔥 sit-up con disco paso a paso | Core",
+    "tags": [
+      "weighted butterfly sit up",
+      "butterfly sit up",
+      "sit up con disco",
+      "abdominales con peso",
+      "mariposa abdominales",
+      "core",
+      "abdomen",
+      "aductores",
+      "crossfit",
+      "wod"
+    ],
+    "descripcion": "🔥 WEIGHTED BUTTERFLY SIT-UP — sit-up en mariposa con disco para core y aductores\n\n¿Querés un abdominal que también abra la cadera? La mariposa junta las plantas y deja las rodillas afuera; el disco le suma resistencia. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Acostate boca arriba y juntá las plantas de los pies.\n2️⃣ Dejá las rodillas abiertas hacia los costados.\n3️⃣ Sostené el disco sobre el pecho con las dos manos.\n4️⃣ Subí con el abdomen y llevá el disco por encima de la cabeza.\n5️⃣ Bajá controlado hasta apoyar la espalda, sin tirar del cuello.\n\n✅ CLAVES DE TÉCNICA\n• Plantas de los pies juntas\n• Rodillas abiertas durante todo el recorrido\n• El disco va firme: no lo muevas\n• Subí con el abdomen, no con un tirón\n• Bajada controlada\n\n🎯 QUÉ TRABAJA\nRecto abdominal · Aductores · Deltoides anterior · Oblicuo externo · Core\n\n⏱️ CUÁNTO\n14 repeticiones con 10 kg. Tres series. Empezá con un disco liviano y priorizá el control.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi sentís el cuello, es que estás tirando con los brazos: bajá el peso y pensá en juntar costillas con pelvis.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Core #ButterflySitUp #Abdominales #Entrenamiento"
+  }
+}

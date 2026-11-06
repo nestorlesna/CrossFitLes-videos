@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "c9d2aff9-9e62-4010-a337-c17cd8cecc4f",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "2f5c5707835ff5ee136f2a87da31dbaeebc298b0114b510067570c2d11c80cca",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\c9d2aff9-9e62-4010-a337-c17cd8cecc4f\\blobs\\2f\\2f5c5707835ff5ee136f2a87da31dbaeebc298b0114b510067570c2d11c80cca"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\c9d2aff9-9e62-4010-a337-c17cd8cecc4f\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "2295f20b568cb11938117ff712d72bf16369de4b56a6258b3542dc387f30308f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\c9d2aff9-9e62-4010-a337-c17cd8cecc4f\\blobs\\22\\2295f20b568cb11938117ff712d72bf16369de4b56a6258b3542dc387f30308f"
+    },
+    "meta.json": {
+      "hash": "81462307bf3319aae125707831ec32ed7786a4452b6d762fc4f3c5d623267a1a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\c9d2aff9-9e62-4010-a337-c17cd8cecc4f\\blobs\\81\\81462307bf3319aae125707831ec32ed7786a4452b6d762fc4f3c5d623267a1a"
+    },
+    "package.json": {
+      "hash": "c6284eeb0285d933c4052ec61b857192a0670c5c5d4a1e7243adf1c6359e8e19",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\c9d2aff9-9e62-4010-a337-c17cd8cecc4f\\blobs\\c6\\c6284eeb0285d933c4052ec61b857192a0670c5c5d4a1e7243adf1c6359e8e19"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "09a9ea5c-6c1f-4c4a-bbb0-f93750c0c7f0",
+      "completedAt": 1793876515873,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\isometric-split-squat-hold\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Quadruped Rock Back",
+      "text": "En cuadrupedia, llevá la cadera a los talones y volvé. Movilidad de cadera y espalda."
+    },
+    {
+      "id": "02",
+      "text": "Ponete en cuadrupedia con las manos abajo de los hombros y las rodillas abajo de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Llevá la cadera hacia atrás, como si te sentaras sobre los talones, sin mover las manos."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Mantené la espalda larga y la cabeza relajada mientras la cadera baja."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Volvé a la cuadrupedia empujando con las manos y repetí sin rebotar."
+    },
+    {
+      "id": "06",
+      "text": "Claves: manos fijas, cadera a los talones, espalda larga y volvé sin rebote."
+    },
+    {
+      "id": "07",
+      "text": "Diez repeticiones lentas. Quedate dos segundos atrás y volvé controlando la cadera."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

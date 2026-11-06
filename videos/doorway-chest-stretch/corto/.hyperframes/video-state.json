@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "4d3cea62-25c4-4195-9cd6-fa9c3096406e",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "958c912cd7c4e9bacf212c4dc4d215820e576565c96bb3fdf618a409dff0a7b9",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4d3cea62-25c4-4195-9cd6-fa9c3096406e\\blobs\\95\\958c912cd7c4e9bacf212c4dc4d215820e576565c96bb3fdf618a409dff0a7b9"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4d3cea62-25c4-4195-9cd6-fa9c3096406e\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "5d8216cad1c10af3420855427e965e9e94591fa83bb49b4482598acfe7b185f6",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4d3cea62-25c4-4195-9cd6-fa9c3096406e\\blobs\\5d\\5d8216cad1c10af3420855427e965e9e94591fa83bb49b4482598acfe7b185f6"
+    },
+    "meta.json": {
+      "hash": "43c5b6620da11dedd74220c0f15491711545fbce7b8778d02dbaad39b381cc4f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4d3cea62-25c4-4195-9cd6-fa9c3096406e\\blobs\\43\\43c5b6620da11dedd74220c0f15491711545fbce7b8778d02dbaad39b381cc4f"
+    },
+    "package.json": {
+      "hash": "74226f1d7dc9bc8dcf052a9d9ec39cd5fd852d75a89d38cfe59b175e55c0eaf0",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\4d3cea62-25c4-4195-9cd6-fa9c3096406e\\blobs\\74\\74226f1d7dc9bc8dcf052a9d9ec39cd5fd852d75a89d38cfe59b175e55c0eaf0"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "5dda57ca-2f44-427c-b95b-fe490ad78970",
+      "completedAt": 1793840246539,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\doorway-chest-stretch\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

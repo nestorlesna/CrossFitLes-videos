@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "b4ff1703-1950-4286-89f8-ffcf245576b2",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "e3062873b88047d3765e8e013ceb30fa1df2d46c9a630210b791b13fafe2d2d2",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b4ff1703-1950-4286-89f8-ffcf245576b2\\blobs\\e3\\e3062873b88047d3765e8e013ceb30fa1df2d46c9a630210b791b13fafe2d2d2"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b4ff1703-1950-4286-89f8-ffcf245576b2\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "3ea89132a70e25b73ef3fda321a329d5b28fe7c9a239959f465ee293da3d6c8b",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b4ff1703-1950-4286-89f8-ffcf245576b2\\blobs\\3e\\3ea89132a70e25b73ef3fda321a329d5b28fe7c9a239959f465ee293da3d6c8b"
+    },
+    "meta.json": {
+      "hash": "afb4c16b2eaed538ff6a0e8d8425eaa97b8b263ed38e9c98a748c0293122ab26",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b4ff1703-1950-4286-89f8-ffcf245576b2\\blobs\\af\\afb4c16b2eaed538ff6a0e8d8425eaa97b8b263ed38e9c98a748c0293122ab26"
+    },
+    "package.json": {
+      "hash": "36f0cf0d8b9b9f517432b7d563904df6ed0983c109c46bb7656f75e8cf989c5b",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b4ff1703-1950-4286-89f8-ffcf245576b2\\blobs\\36\\36f0cf0d8b9b9f517432b7d563904df6ed0983c109c46bb7656f75e8cf989c5b"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "33734305-fecb-4678-9415-1c46fe1adde5",
+      "completedAt": 1793877518955,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\wall-shoulder-car\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

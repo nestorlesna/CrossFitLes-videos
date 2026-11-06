@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Barbell Hang Power Cluster",
+      "text": "Cargada desde el jang y traster en un solo movimiento, sin pausa."
+    },
+    {
+      "id": "02",
+      "text": "Parate con la barra colgada a media rótula, hombros por delante y espalda firme."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Extendé cadera y rodillas de golpe y mantené la barra pegada al cuerpo."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Recibí la barra en los hombros bajando directo a la sentadilla completa, sin pausa."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Subí explosivo con las piernas y empujá la barra arriba de la cabeza de un solo envión."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Si los codos se caen al recibir, la barra se va al frente y el claster se desarma."
+    },
+    {
+      "id": "07",
+      "text": "Claves: sin pausa en el rack, codos altos al recibir, barra pegada al cuerpo y empuje explosivo de piernas."
+    },
+    {
+      "id": "08",
+      "text": "Cinco repeticiones con cuarenta kilos, encadenando clean y traster sin pausa."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

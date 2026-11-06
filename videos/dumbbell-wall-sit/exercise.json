@@ -1,0 +1,433 @@
+{
+  "name": "Dumbbell Wall Sit",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Cuádriceps",
+    "Glúteos",
+    "Isométrico"
+  ],
+  "descripcion": "Espalda completamente apoyada contra la pared, rodillas a 90° y muslos paralelos al suelo. Sostener mancuernas sobre los muslos durante el tiempo indicado.",
+  "notas": "Base de wall-sit con dos mancuernas apoyadas en los muslos (g 1 / g2 1 sobre la mitad del muslo).",
+  "rig": {
+    "x": 600,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "props": [
+    {
+      "type": "wall",
+      "x": -334,
+      "h": 760
+    },
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "side": true,
+      "r": 44
+    },
+    {
+      "type": "dumbbell",
+      "hand": "far",
+      "side": true,
+      "r": 44
+    }
+  ],
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "hip": [
+        -200,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6,
+      "ua2": 4,
+      "fa2": 6
+    },
+    "LEAN": {
+      "hip": [
+        -240,
+        -404
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6,
+      "ua2": 4,
+      "fa2": 6
+    },
+    "HALF": {
+      "hip": [
+        -240,
+        -320
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "ed": 1,
+      "hx": -130,
+      "hy": -325,
+      "g2": 1,
+      "hx2": -130,
+      "hy2": -325,
+      "ed2": 1
+    },
+    "SIT": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "ed": 1,
+      "hx": -130,
+      "hy": -237,
+      "g2": 1,
+      "hx2": -130,
+      "hy2": -237,
+      "ed2": 1
+    },
+    "HIGH": {
+      "hip": [
+        -240,
+        -300
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "ed": 1,
+      "hx": -150,
+      "hy": -305,
+      "g2": 1,
+      "hx2": -150,
+      "hy2": -305,
+      "ed2": 1
+    },
+    "BACK_BAD": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 14,
+      "hd": 10,
+      "g": 1,
+      "ed": 1,
+      "hx": -130,
+      "hy": -237,
+      "g2": 1,
+      "hx2": -130,
+      "hy2": -237,
+      "ed2": 1
+    },
+    "FEET_BAD": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        -120,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "ed": 1,
+      "hx": -130,
+      "hy": -237,
+      "g2": 1,
+      "hx2": -130,
+      "hy2": -237,
+      "ed2": 1
+    }
+  },
+  "miniatura": {
+    "pose": "SIT",
+    "grip": 1,
+    "zoom": 1.1,
+    "dy": 200
+  },
+  "slug": "dumbbell-wall-sit",
+  "revisado": false,
+  "music": true,
+  "musicVolume": 0.18,
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "DUMBBELL",
+        "WALL SIT"
+      ],
+      "vo": "Dumbbell Wall Sit: sentadilla isométrica contra la pared, con mancuernas sobre los muslos.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "LEAN",
+          "at": 0.4,
+          "dur": 0.7
+        },
+        {
+          "to": "SIT",
+          "at": 1.2,
+          "dur": 1.0
+        },
+        {
+          "to": "HIGH",
+          "at": 3.2,
+          "dur": 0.9
+        },
+        {
+          "to": "SIT",
+          "at": 4.3,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESPALDA",
+        "EN LA PARED"
+      ],
+      "sub": "Pies al ancho",
+      "vo": "Pegá toda la espalda a la pared y adelantá los pies al ancho de la cadera.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "LEAN",
+          "at": 1.0,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            760
+          ],
+          "text": "ESPALDA COMPLETA",
+          "anchor": "middle",
+          "at": 1.1
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ",
+        "HASTA 90"
+      ],
+      "sub": "Muslos paralelos",
+      "vo": "Paso uno. Deslizate hacia abajo hasta que las rodillas queden a noventa grados y los muslos paralelos al piso.",
+      "moves": [
+        {
+          "cut": "LEAN",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.7,
+          "dur": 0.8
+        },
+        {
+          "to": "SIT",
+          "at": 1.7,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "SIT.K",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 70,
+          "at": 2.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1180
+          ],
+          "text": "RODILLAS A 90°",
+          "anchor": "end",
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "PESO EN",
+        "LOS MUSLOS"
+      ],
+      "sub": "Hombros abajo",
+      "vo": "Paso dos. Apoyá una mancuerna sobre cada muslo y sostené el peso sin encoger los hombros.",
+      "moves": [
+        {
+          "cut": "SIT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            760
+          ],
+          "text": "HOMBROS ABAJO",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "SOSTENÉ",
+        "Y RESPIRÁ"
+      ],
+      "sub": "No subas la cadera",
+      "vo": "Paso tres. Sostené la posición respirando parejo. No dejes que la cadera suba.",
+      "moves": [
+        {
+          "cut": "SIT",
+          "at": 0
+        },
+        {
+          "to": "HIGH",
+          "at": 2.6,
+          "dur": 0.7
+        },
+        {
+          "to": "SIT",
+          "at": 3.9,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "NO SUBAS LA CADERA",
+          "anchor": "middle",
+          "at": 2.7,
+          "out": 3.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.72,
+      "keys": [
+        "Espalda completa en la pared",
+        "Rodillas a 90°",
+        "Muslos paralelos al piso",
+        "Respirá y sostené"
+      ],
+      "vo": "Claves: espalda completa en la pared, rodillas a noventa grados, muslos paralelos al piso y respirá mientras sostenés.",
+      "moves": [
+        {
+          "cut": "SIT",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "40 SEG"
+      ],
+      "sub": "Con 12,5 kg",
+      "vo": "Cuarenta segundos con doce kilos y medio. Si perdés la posición, salí y volvé a entrar.",
+      "chips": [
+        {
+          "label": "1 · APOYÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · SOSTENÉ",
+          "at": 1.1
+        }
+      ],
+      "moves": [
+        {
+          "cut": "SIT",
+          "at": 0
+        }
+      ]
+    }
+  ],
+  "youtube": {
+    "titulo": "Dumbbell Wall Sit 🔥 Isométrico de cuádriceps contra la pared | CrossFit",
+    "tags": [
+      "dumbbell wall sit",
+      "wall sit",
+      "sentadilla isométrica",
+      "sentadilla en la pared",
+      "isométrico",
+      "cuádriceps",
+      "glúteos",
+      "resistencia",
+      "crossfit",
+      "mancuernas"
+    ],
+    "descripcion": "🔥 DUMBBELL WALL SIT — isométrico de cuádriceps con mancuernas sobre los muslos\n\n¿Te tiemblan las piernas a los treinta segundos? Ese es el punto. La pared te obliga a mantener la posición y las mancuernas suman carga sin moverte. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Pegá toda la espalda a la pared y adelantá los pies al ancho de la cadera.\n2️⃣ Deslizate hacia abajo hasta que las rodillas queden a 90° y los muslos paralelos al piso.\n3️⃣ Apoyá una mancuerna sobre cada muslo, sin encoger los hombros.\n4️⃣ Sostené la posición respirando parejo, sin dejar que la cadera suba.\n\n✅ CLAVES DE TÉCNICA\n• Espalda completa apoyada en la pared\n• Rodillas a 90°, alineadas con los pies\n• Muslos paralelos al piso\n• Mancuernas sobre los muslos o a los costados\n• Respirá y sostené el tiempo indicado\n\n🎯 QUÉ TRABAJA\nRecto femoral · Bíceps femoral · Glúteo mayor\n\n⏱️ CUÁNTO\n40 segundos con 12,5 kg. Entra como fuerza isométrica o como castigo en un WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi te duelen las rodillas, empezá con menos profundidad y sin peso, con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WallSit #SentadillaIsometrica #Cuadriceps #Fuerza"
+  }
+}

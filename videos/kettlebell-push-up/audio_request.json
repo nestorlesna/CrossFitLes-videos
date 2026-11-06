@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Kettlebell Push-Up",
+      "text": "Flexión de brazos con las manos sobre las asas de la pesa, más rango."
+    },
+    {
+      "id": "02",
+      "text": "Apoyá las manos sobre las asas, con las muñecas rectas, los pies atrás y el cuerpo en una sola línea."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá el pecho entre las pesas con los codos hacia atrás, hasta donde el hombro te deje."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Empujá el piso con las manos y subí hasta bloquear los codos, sin perder la línea del cuerpo."
+    },
+    {
+      "id": "05",
+      "text": "Errores: si la cadera se hunde o se eleva de más, el pecho no baja parejo y el core se apaga."
+    },
+    {
+      "id": "06",
+      "text": "Claves: las muñecas quedan rectas sobre las asas, el cuerpo en línea, el pecho baja entre las pesas y los codos van hacia atrás."
+    },
+    {
+      "id": "07",
+      "text": "Diecinueve repeticiones con ritmo parejo. Si la cadera se hunde, bajá el número antes de seguir."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

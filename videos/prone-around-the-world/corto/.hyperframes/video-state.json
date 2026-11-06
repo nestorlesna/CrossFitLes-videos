@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "2030185f-ea40-4f80-81d7-05ab6e68c40b",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "5c83b717aec6109c432f8367302492076aea187d01f4884d0d7898707d3b56b0",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2030185f-ea40-4f80-81d7-05ab6e68c40b\\blobs\\5c\\5c83b717aec6109c432f8367302492076aea187d01f4884d0d7898707d3b56b0"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2030185f-ea40-4f80-81d7-05ab6e68c40b\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "dfaa30297f92894323123e8eed3dea6b4f41e2dd64a9d7cb1b01625f20ef3fc4",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2030185f-ea40-4f80-81d7-05ab6e68c40b\\blobs\\df\\dfaa30297f92894323123e8eed3dea6b4f41e2dd64a9d7cb1b01625f20ef3fc4"
+    },
+    "meta.json": {
+      "hash": "80852e112c594abc5047d20512af3c7b4e5c074ba4ad77d98e46304a4599be35",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2030185f-ea40-4f80-81d7-05ab6e68c40b\\blobs\\80\\80852e112c594abc5047d20512af3c7b4e5c074ba4ad77d98e46304a4599be35"
+    },
+    "package.json": {
+      "hash": "e426a5a38280587e1ac726f27c2da12a30fc1150852b10ddaf45e4f5518fdc64",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2030185f-ea40-4f80-81d7-05ab6e68c40b\\blobs\\e4\\e426a5a38280587e1ac726f27c2da12a30fc1150852b10ddaf45e4f5518fdc64"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "6d0aee2d-4e97-49a4-b6aa-0e280449a523",
+      "completedAt": 1793879694859,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\prone-around-the-world\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

@@ -1,0 +1,384 @@
+{
+  "slug": "bottom-half-squat",
+  "name": "Bottom-Half Squat",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Piernas",
+    "Cuádriceps",
+    "Activación"
+  ],
+  "descripcion": "Sentadilla en la mitad baja del recorrido: bajás al fondo y subís sólo hasta apenas por encima de la paralela, sin extender del todo las rodillas.",
+  "revisado": false,
+  "notas": "Sentadilla de media repetición: se reusan las poses de bodyweight-squat (hip+ankle por IK, pies fijos) y se agrega STAND_BAD (piernas extendidas) como error. Nunca se llega a la extensión completa.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "pronuncia": {
+    "Bottom-Half Squat": "Bottom jalf scuat"
+  },
+  "initialPose": "TOP_HALF",
+  "poses": {
+    "TOP_HALF": {
+      "hip": [
+        -96,
+        -332
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 26,
+      "hd": 14,
+      "g": 0,
+      "ua": 88,
+      "fa": 0
+    },
+    "DEEP": {
+      "hip": [
+        -158,
+        -216
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 42,
+      "hd": 24,
+      "g": 0,
+      "ua": 92,
+      "fa": 0
+    },
+    "STAND_BAD": {
+      "hip": [
+        -6,
+        -470
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 4,
+      "hd": 0,
+      "g": 0,
+      "ua": 88,
+      "fa": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "BOTTOM-HALF",
+        "SQUAT"
+      ],
+      "vo": "Bottom-Half Squat: la sentadilla que trabaja sólo la mitad baja del recorrido, sin extender las rodillas.",
+      "moves": [
+        {
+          "cut": "TOP_HALF",
+          "at": 0.2
+        },
+        {
+          "loop": [
+            "TOP_HALF",
+            "DEEP"
+          ],
+          "step": 0.5,
+          "at": 0.8,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "RANGO",
+        "CORTO"
+      ],
+      "sub": "De la paralela al fondo",
+      "vo": "Empezá en cuclillas, apenas por encima de la paralela, con los pies al ancho de los hombros y el pecho arriba.",
+      "moves": [
+        {
+          "cut": "TOP_HALF",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": [
+            700.0,
+            1310.0
+          ],
+          "solid": true,
+          "at": 0.8,
+          "from": [
+            236.0,
+            1310.0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            718.0,
+            1274.0
+          ],
+          "text": "PARALELA",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ",
+        "AL FONDO"
+      ],
+      "sub": "Sin descansar arriba",
+      "vo": "Paso uno. Bajá al fondo con control, con los talones apoyados y las rodillas siguiendo la línea de los pies.",
+      "moves": [
+        {
+          "cut": "TOP_HALF",
+          "at": 0
+        },
+        {
+          "to": "DEEP",
+          "at": 0.9,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            312.0,
+            1300.0
+          ],
+          "at": 0.9,
+          "dur": 0.8,
+          "from": [
+            312.0,
+            1110.0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            268.0,
+            1040.0
+          ],
+          "text": "AL FONDO",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "SUBÍ HASTA",
+        "LA PARALELA"
+      ],
+      "sub": "Y volvé a bajar",
+      "vo": "Paso dos. Subí sólo hasta apenas por encima de la paralela y volvé a bajar: nunca extendés las rodillas.",
+      "moves": [
+        {
+          "cut": "DEEP",
+          "at": 0
+        },
+        {
+          "to": "TOP_HALF",
+          "at": 0.7,
+          "dur": 0.9
+        },
+        {
+          "to": "DEEP",
+          "at": 2.0,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "line",
+          "to": [
+            700.0,
+            1310.0
+          ],
+          "solid": true,
+          "at": 0.4,
+          "from": [
+            236.0,
+            1310.0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            718.0,
+            1274.0
+          ],
+          "text": "PARALELA",
+          "anchor": "start",
+          "at": 0.6
+        },
+        {
+          "type": "arrow",
+          "to": [
+            470.0,
+            1190.0
+          ],
+          "at": 2.0,
+          "dur": 0.7,
+          "from": [
+            470.0,
+            1340.0
+          ]
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "NO TE",
+        "PARES ARRIBA"
+      ],
+      "sub": "Extender anula la tensión",
+      "vo": "Paso tres. El error es subir de más: si extendés las piernas y descansás arriba, perdés toda la tensión del ejercicio.",
+      "moves": [
+        {
+          "cut": "TOP_HALF",
+          "at": 0
+        },
+        {
+          "to": "STAND_BAD",
+          "at": 1.6,
+          "dur": 0.5
+        },
+        {
+          "to": "TOP_HALF",
+          "at": 3.4,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            268.0,
+            760.0
+          ],
+          "text": "ACÁ NO",
+          "anchor": "middle",
+          "at": 0.6,
+          "out": 1.5
+        },
+        {
+          "type": "label",
+          "pos": [
+            268.0,
+            760.0
+          ],
+          "text": "SIN EXTENDER",
+          "anchor": "middle",
+          "at": 1.9,
+          "out": 3.7
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Rango sólo en la mitad baja",
+        "Talones apoyados",
+        "Rodillas en línea con los pies",
+        "Torso lo más vertical posible"
+      ],
+      "vo": "Claves: trabajá sólo la mitad baja, talones apoyados, rodillas en línea con los pies y el torso lo más vertical posible.",
+      "moves": [
+        {
+          "cut": "DEEP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.2,
+      "badge": "A ENTRENAR",
+      "head": [
+        "20 SEGUNDOS"
+      ],
+      "sub": "Ritmo constante, sin pausa arriba",
+      "vo": "Veinte segundos a ritmo constante, subiendo y bajando dentro del mismo rango, sin pausa arriba.",
+      "chips": [
+        {
+          "label": "1 · FONDO",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PARALELA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · OTRA VEZ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "TOP_HALF",
+          "at": 0
+        },
+        {
+          "loop": [
+            "TOP_HALF",
+            "DEEP"
+          ],
+          "step": 0.5,
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "TOP_HALF",
+    "grip": 0,
+    "zoom": 1.12,
+    "dy": 165
+  },
+  "youtube": {
+    "titulo": "Bottom-Half Squat 🔥 Media sentadilla para cuádriceps | CrossFit",
+    "tags": [
+      "bottom half squat",
+      "media sentadilla",
+      "sentadilla parcial",
+      "sentadilla isométrica",
+      "cuadriceps",
+      "activacion",
+      "piernas",
+      "tecnica",
+      "crossfit",
+      "calentamiento"
+    ],
+    "descripcion": "🔥 BOTTOM-HALF SQUAT — sentadilla sólo en la mitad baja\n\nMedia repetición, doble tensión: al quedarte abajo, el cuádriceps y el glúteo no descansan nunca. Ideal para activar antes del WOD. 💪\n\n📋 PASO A PASO\n1️⃣ Empezá en cuclillas, apenas por encima de la paralela, con los pies al ancho de los hombros.\n2️⃣ Bajá al fondo con control, talones apoyados y rodillas siguiendo la línea de los pies.\n3️⃣ Subí sólo hasta apenas por encima de la paralela y volvé a bajar.\n4️⃣ Nunca extendés las rodillas: el rango de trabajo es la mitad baja.\n\n✅ CLAVES DE TÉCNICA\n• Trabajá sólo la mitad baja del recorrido\n• Talones apoyados\n• Rodillas en línea con los pies\n• Torso lo más vertical posible\n• No descanses arriba con las piernas extendidas\n\n🎯 QUÉ TRABAJA\nCuádriceps · Glúteo mayor · Erectores espinales · Vasto lateral y medial\n\n⏱️ CUÁNTO\n20 segundos a ritmo constante, subiendo y bajando dentro del mismo rango.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Sentadilla #Cuadriceps #Piernas #Tecnica"
+  }
+}

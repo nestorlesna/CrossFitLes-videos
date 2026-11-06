@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Half Kneel Banded Lat Stretch",
+      "text": "Medio arrodillado con banda arriba, para abrir el dorsal."
+    },
+    {
+      "id": "02",
+      "text": "Arrodillate con una rodilla en el piso y la otra adelante a noventa grados. Agarrá la banda con las dos manos."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Estirá los brazos por encima de la cabeza con la banda tensa, sin encoger los hombros."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Sentá la cadera hacia atrás y llevá el pecho abajo, manteniendo los brazos largos. Ahí estira el dorsal."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Respir� hondo y aflojá en cada exhalación. Después cambiá de lado."
+    },
+    {
+      "id": "06",
+      "text": "Claves: banda tensa arriba, brazos largos con el hombro abajo, cadera atrás y pecho abajo, y respirá mientras sostenés."
+    },
+    {
+      "id": "07",
+      "text": "Treinta segundos por lado. Entrada en calor antes de colgarte o empujar arriba."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

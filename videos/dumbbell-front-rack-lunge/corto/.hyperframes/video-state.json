@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "78c2bc08-c405-474b-890e-866574ca0b96",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "64c639fc9388566105804d035c6b54281809b865df99ab13e956d224e746cfe3",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\78c2bc08-c405-474b-890e-866574ca0b96\\blobs\\64\\64c639fc9388566105804d035c6b54281809b865df99ab13e956d224e746cfe3"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\78c2bc08-c405-474b-890e-866574ca0b96\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "0c10f78635d34ce15a6f7c53b075bc95f9ec10734f93f9cf57a913aeee7af208",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\78c2bc08-c405-474b-890e-866574ca0b96\\blobs\\0c\\0c10f78635d34ce15a6f7c53b075bc95f9ec10734f93f9cf57a913aeee7af208"
+    },
+    "meta.json": {
+      "hash": "e9c29b007c8f4b8cb94dd8c053b5dc54ac69e6d1be9e736f2ccc47bffb3235b2",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\78c2bc08-c405-474b-890e-866574ca0b96\\blobs\\e9\\e9c29b007c8f4b8cb94dd8c053b5dc54ac69e6d1be9e736f2ccc47bffb3235b2"
+    },
+    "package.json": {
+      "hash": "dce3f13f9e8e906a5419915e269b26b96239475e40b2d9bba1583e93ec41b6d6",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\78c2bc08-c405-474b-890e-866574ca0b96\\blobs\\dc\\dce3f13f9e8e906a5419915e269b26b96239475e40b2d9bba1583e93ec41b6d6"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "cfe827ac-ed7c-4320-8da1-937cf6b167e2",
+      "completedAt": 1793878183846,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\dumbbell-front-rack-lunge\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

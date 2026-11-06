@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "51a686b4-3a46-4b7d-ba03-f172d288fcbf",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "a84ea50d88b03f607924561d76913c071a17d6af1d1cf9f344472dd26a559412",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\51a686b4-3a46-4b7d-ba03-f172d288fcbf\\blobs\\a8\\a84ea50d88b03f607924561d76913c071a17d6af1d1cf9f344472dd26a559412"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\51a686b4-3a46-4b7d-ba03-f172d288fcbf\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "3ecfba39dc589f975031b428dde4ffb0623f52c1a17dd79f9d4b4f51827c6afd",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\51a686b4-3a46-4b7d-ba03-f172d288fcbf\\blobs\\3e\\3ecfba39dc589f975031b428dde4ffb0623f52c1a17dd79f9d4b4f51827c6afd"
+    },
+    "meta.json": {
+      "hash": "6f0107aedda90a077fd514d78ffba7e742fcff9ad7101f8d02d06fca048def47",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\51a686b4-3a46-4b7d-ba03-f172d288fcbf\\blobs\\6f\\6f0107aedda90a077fd514d78ffba7e742fcff9ad7101f8d02d06fca048def47"
+    },
+    "package.json": {
+      "hash": "52b5ff61b2437ee8d7ccf263f8e750b22c671fb3029290263a7c6ad87980dac1",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\51a686b4-3a46-4b7d-ba03-f172d288fcbf\\blobs\\52\\52b5ff61b2437ee8d7ccf263f8e750b22c671fb3029290263a7c6ad87980dac1"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "546fc2f9-adf2-422d-b793-580bb71a6702",
+      "completedAt": 1793875838316,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\counterbalance-squat\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

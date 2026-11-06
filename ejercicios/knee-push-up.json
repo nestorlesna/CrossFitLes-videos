@@ -1,0 +1,261 @@
+{
+  "slug": "knee-push-up",
+  "name": "Knee Push Up",
+  "category": "CROSSFIT · PESO CORPORAL",
+  "tags": [
+    "Pecho",
+    "Tríceps",
+    "Core"
+  ],
+  "descripcion": "La flexión con las rodillas apoyadas en el piso: mismo movimiento que la flexión completa, con menos peso sobre los brazos. La versión escalada para aprender a empujar en bloque.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Knee Push Up 🎯 flexiones con rodillas apoyadas | CrossFit",
+    "tags": [
+      "knee push up",
+      "flexiones con rodillas",
+      "flexion con rodillas apoyadas",
+      "knee push up tecnica",
+      "crossfit",
+      "peso corporal",
+      "progresion flexiones",
+      "pecho",
+      "triceps"
+    ],
+    "descripcion": "🎬 KNEE PUSH UP - la flexión escalada\n\nLas rodillas apoyadas no son hacer trampa: son el paso previo a la flexión completa. La clave es no perder la línea entre rodillas, cadera y hombros. 💪\n\n📝 PASO A PASO\n1️⃣ Arrancá en plancha con las rodillas apoyadas, manos bajo los hombros y cuerpo en línea recta desde las rodillas.\n2️⃣ Bajá el pecho en bloque hasta quedar a un puño del piso.\n3️⃣ Empujá el piso y extendé los brazos sin que la cadera se caiga.\n4️⃣ Cuando salgan diez repeticiones limpias, pasá a la flexión completa.\n\n✅ CLAVES DE TÉCNICA\n✔️ Línea rodillas-cadera-hombros\n✔️ Codos a 45°\n✔️ Pecho al piso\n✔️ Abdomen firme\n\n💪 QUÉ TRABAJA\nPectoral mayor · Deltoides anterior · Tríceps · Core\n\n⏱️ CUÁNTO\n8 a 12 repeticiones, 3 series. Ideal como progresión de la flexión.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi la muñeca o el hombro molestan, subí las manos a un cajón.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #PushUp #PesoCorporal #Principiantes #Triceps"
+  },
+  "miniatura": {
+    "pose": "DOWN",
+    "grip": 1,
+    "zoom": 1.16,
+    "dy": -30
+  },
+  "initialPose": "TOP",
+  "rig": {
+    "x": 240,
+    "y": 1504,
+    "scale": 0.85
+  },
+  "poses": {
+    "TOP": {
+      "hip": [
+        359,
+        -134
+      ],
+      "s": 92.5,
+      "t": 52,
+      "ft": 60,
+      "b": 52,
+      "hd": 60,
+      "g": 1,
+      "ed": 1,
+      "hx": 600,
+      "hy": 15
+    },
+    "DOWN": {
+      "hip": [
+        297,
+        -113
+      ],
+      "s": 92.5,
+      "t": 58,
+      "ft": 60,
+      "b": 62,
+      "hd": 70,
+      "g": 1,
+      "ed": 1,
+      "hx": 600,
+      "hy": 15
+    },
+    "SAG_BAD": {
+      "hip": [
+        398,
+        -60
+      ],
+      "s": 92.5,
+      "t": 72,
+      "ft": 60,
+      "b": 52,
+      "hd": 62,
+      "g": 1,
+      "ed": 1,
+      "hx": 600,
+      "hy": 15
+    }
+  },
+  "props": null,
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · PESO CORPORAL",
+      "head": [
+        "KNEE",
+        "PUSH UP"
+      ],
+      "vo": "Knee Push Up: la flexión con las rodillas apoyadas, el paso previo a la flexión completa.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 1,
+          "dur": 1
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": null,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "RODILLAS",
+        "APOYADAS"
+      ],
+      "sub": "Manos bajo hombros",
+      "vo": "Arrancá con las rodillas apoyadas, las manos bajo los hombros y el cuerpo en línea recta desde las rodillas.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ",
+        "EL PECHO"
+      ],
+      "sub": "Un puño del piso",
+      "vo": "Paso uno. Bajá el pecho en bloque hasta quedar a un puño del piso, sin sentarte hacia atrás.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.7,
+          "dur": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "EMPUJÁ",
+        "EL PISO"
+      ],
+      "sub": "Codos a 45°",
+      "vo": "Paso dos. Empujá el piso y extendé los brazos manteniendo la línea entre rodillas, cadera y hombros.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.6,
+          "dur": 1
+        }
+      ]
+    },
+    {
+      "min": 6.2,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Cadera que se hunde",
+      "vo": "Paso tres. Si la cadera se hunde, el cuerpo deja de ser una tabla y el pecho no baja parejo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "SAG_BAD",
+          "at": 0.7,
+          "dur": 0.9
+        },
+        {
+          "to": "TOP",
+          "at": 2.6,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Rodillas, cadera y hombros en línea",
+        "Codos a 45°",
+        "Pecho a un puño del piso",
+        "Abdomen firme"
+      ],
+      "vo": "Claves: rodillas, cadera y hombros en línea, codos a cuarenta y cinco, pecho a un puño del piso y abdomen firme.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "3 series",
+      "chips": [
+        {
+          "label": "10 reps",
+          "at": 0.6
+        },
+        {
+          "label": "3 series",
+          "at": 1.2
+        },
+        {
+          "label": "45 s",
+          "at": 1.8
+        }
+      ],
+      "vo": "Diez repeticiones, tres series. Cuando salgan limpias, pasá a la flexión completa.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.1
+            ],
+            [
+              "TOP",
+              1.1
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

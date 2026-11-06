@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "127621d2-3a31-42ef-a489-7b9da4b4a077",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "3da01a417192e1e6e4130561d9a687c09329032e9961a3586e951e9498a8a6a8",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\127621d2-3a31-42ef-a489-7b9da4b4a077\\blobs\\3d\\3da01a417192e1e6e4130561d9a687c09329032e9961a3586e951e9498a8a6a8"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\127621d2-3a31-42ef-a489-7b9da4b4a077\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "f254bafe03db170e7142df29967be5867163e559019f37376a032702114a0ee3",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\127621d2-3a31-42ef-a489-7b9da4b4a077\\blobs\\f2\\f254bafe03db170e7142df29967be5867163e559019f37376a032702114a0ee3"
+    },
+    "meta.json": {
+      "hash": "30073d94a5ad33f2918ada92f87ab5d3903939427a28e257265f9dae88c90259",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\127621d2-3a31-42ef-a489-7b9da4b4a077\\blobs\\30\\30073d94a5ad33f2918ada92f87ab5d3903939427a28e257265f9dae88c90259"
+    },
+    "package.json": {
+      "hash": "7cf4b499f4d483ad3c20eb76de1a67deb2f40dc3cb1582067d2c3826a2f315eb",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\127621d2-3a31-42ef-a489-7b9da4b4a077\\blobs\\7c\\7cf4b499f4d483ad3c20eb76de1a67deb2f40dc3cb1582067d2c3826a2f315eb"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "d46a6ecd-e77e-4e13-a112-6ac621c2cc37",
+      "completedAt": 1793874614784,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\sandbag-carry\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

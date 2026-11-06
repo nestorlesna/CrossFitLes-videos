@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "2348f618-8dea-4405-8488-82a5ab1fa65e",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "8e42b365de84f144dee0b72b21436b7f2cde5155952fa3006f3f35edad1ba051",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2348f618-8dea-4405-8488-82a5ab1fa65e\\blobs\\8e\\8e42b365de84f144dee0b72b21436b7f2cde5155952fa3006f3f35edad1ba051"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2348f618-8dea-4405-8488-82a5ab1fa65e\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "01ba2aec9c7787f64576ffc4a6420967cb0dc3f9859d15308e869e68a9cd0a73",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2348f618-8dea-4405-8488-82a5ab1fa65e\\blobs\\01\\01ba2aec9c7787f64576ffc4a6420967cb0dc3f9859d15308e869e68a9cd0a73"
+    },
+    "meta.json": {
+      "hash": "6e50bd2dd7bad7c9dd31958e82cccf01888ee15cb5f248b4754018983a5389eb",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2348f618-8dea-4405-8488-82a5ab1fa65e\\blobs\\6e\\6e50bd2dd7bad7c9dd31958e82cccf01888ee15cb5f248b4754018983a5389eb"
+    },
+    "package.json": {
+      "hash": "60720cdc8dd8930efa65bef4e12f9ad07cbc25de1bb5854e7fc869ec8fe1d9c9",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2348f618-8dea-4405-8488-82a5ab1fa65e\\blobs\\60\\60720cdc8dd8930efa65bef4e12f9ad07cbc25de1bb5854e7fc869ec8fe1d9c9"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "9ecc71fb-fdd1-4c58-98e5-19b9d1ba3a28",
+      "completedAt": 1793879200367,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\dumbbell-one-arm-overhead-lunge\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

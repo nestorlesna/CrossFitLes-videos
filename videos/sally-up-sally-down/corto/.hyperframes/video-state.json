@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "ce80ca3d-9e2a-43bb-a447-39ba4a9f8f04",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "101af7a336a104b09d765f08b4489c5be2ded3a58ab0b0dd1c29ba2f6c10618a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ce80ca3d-9e2a-43bb-a447-39ba4a9f8f04\\blobs\\10\\101af7a336a104b09d765f08b4489c5be2ded3a58ab0b0dd1c29ba2f6c10618a"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ce80ca3d-9e2a-43bb-a447-39ba4a9f8f04\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "cb698bf7bc27cb030cd182ca260cf7d02faaf30182db9ee6fdf494b27854833a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ce80ca3d-9e2a-43bb-a447-39ba4a9f8f04\\blobs\\cb\\cb698bf7bc27cb030cd182ca260cf7d02faaf30182db9ee6fdf494b27854833a"
+    },
+    "meta.json": {
+      "hash": "a7400e832b50b245e747df38ef0d85e16ea40ab542bb1500888e4b959b47d5fa",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ce80ca3d-9e2a-43bb-a447-39ba4a9f8f04\\blobs\\a7\\a7400e832b50b245e747df38ef0d85e16ea40ab542bb1500888e4b959b47d5fa"
+    },
+    "package.json": {
+      "hash": "8cad464f8e7082423e5f5bb1b7252bbe68710b5725125d543f61b1421da1d321",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ce80ca3d-9e2a-43bb-a447-39ba4a9f8f04\\blobs\\8c\\8cad464f8e7082423e5f5bb1b7252bbe68710b5725125d543f61b1421da1d321"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "706bc73f-26a5-4054-ad63-373edf5ca4e3",
+      "completedAt": 1793877090606,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\sally-up-sally-down\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

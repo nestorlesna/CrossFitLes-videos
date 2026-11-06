@@ -1,0 +1,458 @@
+{
+  "slug": "dumbbell-one-arm-overhead-lunge",
+  "name": "Dumbbell One-Arm Overhead Lunge",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Piernas",
+    "Hombro",
+    "Core"
+  ],
+  "descripcion": "Zancada con una mancuerna sostenida arriba con un solo brazo: el core y el hombro trabajan para no perder la vertical.",
+  "revisado": false,
+  "notas": "Zancada con un solo brazo overhead: piernas de dumbbell-front-rack-lunge (LUNGE_N/LUNGE_F) y brazo cercano arriba (ua 180) con un solo dumbbell `hand:\"near\"` de dumbbell-overhead-hold. Error LEAN_BAD: el tronco se inclina al lado.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1509,
+    "scale": 0.78
+  },
+  "pronuncia": {
+    "Dumbbell One-Arm Overhead Lunge": "Dambel uan arm overjed lany"
+  },
+  "initialPose": "STAND_OH",
+  "poses": {
+    "STAND_OH": {
+      "s": 0,
+      "t": 0,
+      "s2": 0,
+      "t2": 0,
+      "rx": 0,
+      "ry": 0,
+      "b": 0,
+      "hd": 4,
+      "g": 0,
+      "ua": 180,
+      "fa": 0,
+      "ua2": 10,
+      "fa2": 8,
+      "ft": 0,
+      "ft2": 0
+    },
+    "LUNGE_N": {
+      "s": 1.95,
+      "t": -82.31,
+      "s2": 89.94,
+      "t2": 10.81,
+      "rx": 290,
+      "ry": 0,
+      "b": 2,
+      "hd": 4,
+      "g": 0,
+      "ua": 180,
+      "fa": 0,
+      "ua2": 12,
+      "fa2": 10,
+      "ft": 0,
+      "ft2": 48
+    },
+    "LUNGE_F": {
+      "s": 89.94,
+      "t": 10.81,
+      "s2": 1.95,
+      "t2": -82.31,
+      "rx": -215,
+      "ry": -26,
+      "b": 2,
+      "hd": 4,
+      "g": 0,
+      "ua": 180,
+      "fa": 0,
+      "ua2": 12,
+      "fa2": 10,
+      "ft": 48,
+      "ft2": 0
+    },
+    "LEAN_BAD": {
+      "s": 1.95,
+      "t": -82.31,
+      "s2": 89.94,
+      "t2": 10.81,
+      "rx": 290,
+      "ry": 0,
+      "b": 26,
+      "hd": 18,
+      "g": 0,
+      "ua": 172,
+      "fa": 0,
+      "ua2": 12,
+      "fa2": 10,
+      "ft": 0,
+      "ft2": 48
+    },
+    "ELBOW_BAD": {
+      "s": 1.95,
+      "t": -82.31,
+      "s2": 89.94,
+      "t2": 10.81,
+      "rx": 290,
+      "ry": 0,
+      "b": 2,
+      "hd": 4,
+      "g": 0,
+      "ua": 146,
+      "fa": 38,
+      "ua2": 12,
+      "fa2": 10,
+      "ft": 0,
+      "ft2": 48
+    }
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "side": true,
+      "r": 40
+    }
+  ],
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "OVERHEAD",
+        "LUNGE"
+      ],
+      "vo": "Dumbbell One-Arm Overhead Lunge: zancada con la mancuerna arriba en un solo brazo. Core y hombro, sin perder la vertical.",
+      "moves": [
+        {
+          "cut": "LUNGE_N",
+          "at": 0.2
+        },
+        {
+          "to": "STAND_OH",
+          "at": 1.3,
+          "dur": 0.5
+        },
+        {
+          "to": "LUNGE_F",
+          "at": 1.9,
+          "dur": 0.6
+        },
+        {
+          "to": "STAND_OH",
+          "at": 3.0,
+          "dur": 0.5
+        },
+        {
+          "to": "LUNGE_N",
+          "at": 3.6,
+          "dur": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BRAZO",
+        "ARRIBA"
+      ],
+      "sub": "Mancuerna sobre el hombro",
+      "vo": "Parate con la mancuerna arriba, el brazo bloqueado y el bíceps junto a la oreja, con la mancuerna sobre el hombro.",
+      "moves": [
+        {
+          "cut": "STAND_OH",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            690.0,
+            820.0
+          ],
+          "at": 0.7,
+          "dur": 0.8,
+          "from": [
+            730.0,
+            1000.0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            700.0,
+            760.0
+          ],
+          "text": "BRAZO BLOQUEADO",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ A LA",
+        "ZANCADA"
+      ],
+      "sub": "Paso largo, tronco erguido",
+      "vo": "Paso uno. Da un paso largo hacia adelante y bajá en zancada, manteniendo el tronco erguido y el brazo arriba.",
+      "moves": [
+        {
+          "cut": "STAND_OH",
+          "at": 0
+        },
+        {
+          "to": "LUNGE_N",
+          "at": 0.9,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            640.0,
+            1150.0
+          ],
+          "at": 0.9,
+          "dur": 0.8,
+          "from": [
+            470.0,
+            1050.0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            640.0,
+            1010.0
+          ],
+          "text": "PASO LARGO",
+          "anchor": "start",
+          "at": 1.5
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "RODILLA TRASERA",
+        "AL PISO"
+      ],
+      "sub": "Y volvé a subir",
+      "vo": "Paso dos. Bajá hasta que la rodilla de atrás toque suave el piso y volvé empujando con el talón de adelante.",
+      "moves": [
+        {
+          "cut": "LUNGE_N",
+          "at": 0
+        },
+        {
+          "to": "STAND_OH",
+          "at": 1.0,
+          "dur": 0.5
+        },
+        {
+          "to": "LUNGE_F",
+          "at": 1.6,
+          "dur": 0.7
+        },
+        {
+          "to": "STAND_OH",
+          "at": 2.9,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            300.0,
+            1450.0
+          ],
+          "text": "RODILLA SUAVE",
+          "anchor": "middle",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "NO TE",
+        "INCLINES"
+      ],
+      "sub": "Costillas abajo, brazo firme",
+      "vo": "Paso tres. El error es inclinarte hacia el lado de la mancuerna: mantené las costillas abajo y el brazo bien firme.",
+      "moves": [
+        {
+          "cut": "LUNGE_N",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 1.5,
+          "dur": 0.5
+        },
+        {
+          "to": "LUNGE_N",
+          "at": 3.4,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            268.0,
+            780.0
+          ],
+          "text": "TRONCO ERGUIDO",
+          "anchor": "middle",
+          "at": 0.5,
+          "out": 1.5
+        },
+        {
+          "type": "label",
+          "pos": [
+            268.0,
+            780.0
+          ],
+          "text": "NO TE INCLINES",
+          "anchor": "middle",
+          "at": 1.9,
+          "out": 3.7
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Brazo bloqueado arriba",
+        "Bíceps junto a la oreja",
+        "Tronco erguido, sin inclinarte",
+        "Rodilla trasera toca suave"
+      ],
+      "vo": "Claves: brazo bloqueado arriba, bíceps junto a la oreja, tronco erguido sin inclinarte y rodilla trasera que toca suave el piso.",
+      "moves": [
+        {
+          "cut": "LUNGE_N",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.2,
+      "badge": "A ENTRENAR",
+      "head": [
+        "60 REPS"
+      ],
+      "sub": "30 por pierna, alternando",
+      "vo": "Sesenta repeticiones en total, treinta por pierna. Si el hombro se cansa, bajá la mancuerna antes de perder la técnica.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · RODILLA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SUBÍ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "LUNGE_N",
+          "at": 0
+        },
+        {
+          "to": "STAND_OH",
+          "at": 0.9,
+          "dur": 0.45
+        },
+        {
+          "to": "LUNGE_F",
+          "at": 1.4,
+          "dur": 0.55
+        },
+        {
+          "to": "STAND_OH",
+          "at": 2.4,
+          "dur": 0.45
+        },
+        {
+          "to": "LUNGE_N",
+          "at": 2.9,
+          "dur": 0.55
+        },
+        {
+          "to": "STAND_OH",
+          "at": 3.9,
+          "dur": 0.45
+        },
+        {
+          "to": "LUNGE_F",
+          "at": 4.4,
+          "dur": 0.55
+        },
+        {
+          "to": "STAND_OH",
+          "at": 5.4,
+          "dur": 0.45
+        },
+        {
+          "to": "LUNGE_N",
+          "at": 5.9,
+          "dur": 0.55
+        },
+        {
+          "to": "STAND_OH",
+          "at": 6.9,
+          "dur": 0.3
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "LUNGE_N",
+    "grip": 0,
+    "zoom": 1.02,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Dumbbell One-Arm Overhead Lunge 🔥 Zancada con mancuerna arriba | CrossFit",
+    "tags": [
+      "dumbbell overhead lunge",
+      "zancada con mancuerna",
+      "zancada overhead",
+      "single arm overhead lunge",
+      "hombro",
+      "core",
+      "piernas",
+      "estabilidad",
+      "crossfit",
+      "tecnica"
+    ],
+    "descripcion": "🔥 DUMBBELL ONE-ARM OVERHEAD LUNGE — zancada con mancuerna arriba\n\nUna mancuerna al cielo y una pierna al frente: el core y el hombro tienen que sostener la vertical en cada repetición. 💪\n\n📋 PASO A PASO\n1️⃣ Parate con la mancuerna arriba, brazo bloqueado y bíceps junto a la oreja.\n2️⃣ Da un paso largo al frente y bajá en zancada con el tronco erguido.\n3️⃣ Bajá hasta que la rodilla de atrás toque suave el piso.\n4️⃣ Volvé empujando con el talón de adelante y alterná la pierna.\n\n✅ CLAVES DE TÉCNICA\n• Brazo bloqueado arriba todo el tiempo\n• Bíceps junto a la oreja, mancuerna sobre el hombro\n• Tronco erguido, sin inclinarte hacia el lado\n• Rodilla trasera toca suave\n• Costillas abajo: nada de arquear la espalda\n\n🎯 QUÉ TRABAJA\nGlúteo mayor · Cuádriceps · Isquiotibiales · Core · Hombro\n\n⏱️ CUÁNTO\n60 repeticiones en total, 30 por pierna. Si el hombro se cansa, bajá la mancuerna antes de perder la técnica.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Hombro #Core #Zancada #Tecnica"
+  }
+}

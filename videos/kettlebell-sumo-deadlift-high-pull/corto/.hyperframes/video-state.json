@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "e0b738f1-1f0e-4f9d-8041-1366f59f811c",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "92d73c9851811a6e6515db219b1c98dec30c21e4fa4dbb2e76e14745bbc5d752",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e0b738f1-1f0e-4f9d-8041-1366f59f811c\\blobs\\92\\92d73c9851811a6e6515db219b1c98dec30c21e4fa4dbb2e76e14745bbc5d752"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e0b738f1-1f0e-4f9d-8041-1366f59f811c\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "8f349cb0510443acc5cdb76940b382cf44161a5b1f3a0705d0964e645a7a7495",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e0b738f1-1f0e-4f9d-8041-1366f59f811c\\blobs\\8f\\8f349cb0510443acc5cdb76940b382cf44161a5b1f3a0705d0964e645a7a7495"
+    },
+    "meta.json": {
+      "hash": "ad7f71abeef843731a7c06efb959744619391f3038cdca1a1c9c95daae693ec1",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e0b738f1-1f0e-4f9d-8041-1366f59f811c\\blobs\\ad\\ad7f71abeef843731a7c06efb959744619391f3038cdca1a1c9c95daae693ec1"
+    },
+    "package.json": {
+      "hash": "0b7742be77e1d512d8ce7399c9717da1e66e1f75709e1258e0641b277dbbf7b7",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e0b738f1-1f0e-4f9d-8041-1366f59f811c\\blobs\\0b\\0b7742be77e1d512d8ce7399c9717da1e66e1f75709e1258e0641b277dbbf7b7"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "d1919f4b-6beb-48df-a4ef-bce78c0bf132",
+      "completedAt": 1793873545261,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\kettlebell-sumo-deadlift-high-pull\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

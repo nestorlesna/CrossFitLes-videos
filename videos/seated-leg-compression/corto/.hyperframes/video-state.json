@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "157b0ebb-251e-4e85-845a-7cfb98e1aef1",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "d9dc83bc613642ac1208a075b8219272389c8ca44fbf158a676d19ba7acf913a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\157b0ebb-251e-4e85-845a-7cfb98e1aef1\\blobs\\d9\\d9dc83bc613642ac1208a075b8219272389c8ca44fbf158a676d19ba7acf913a"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\157b0ebb-251e-4e85-845a-7cfb98e1aef1\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "980d470d1acc41fce537e78effda62e8aeba9b4576f89d1400d138e2e0a5a2a9",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\157b0ebb-251e-4e85-845a-7cfb98e1aef1\\blobs\\98\\980d470d1acc41fce537e78effda62e8aeba9b4576f89d1400d138e2e0a5a2a9"
+    },
+    "meta.json": {
+      "hash": "4fa3bb7a1ebaa70fe6c1cc59baf7a181a8d0c5795af4fe05eb96497a13dc3ed6",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\157b0ebb-251e-4e85-845a-7cfb98e1aef1\\blobs\\4f\\4fa3bb7a1ebaa70fe6c1cc59baf7a181a8d0c5795af4fe05eb96497a13dc3ed6"
+    },
+    "package.json": {
+      "hash": "28229ecb775e5b8403bee2c078a3c1936e31307629cd6d98be69611188d6877e",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\157b0ebb-251e-4e85-845a-7cfb98e1aef1\\blobs\\28\\28229ecb775e5b8403bee2c078a3c1936e31307629cd6d98be69611188d6877e"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "d396be46-4e2f-4166-b894-2446f73c615e",
+      "completedAt": 1793879768256,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\seated-leg-compression\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

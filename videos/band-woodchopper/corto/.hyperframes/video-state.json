@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "42a25643-50f3-44eb-a045-1c0deb271a44",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "eacf44515d3b45ea3abb5e54601176226aca436e4a7f4f0a8c2d5d68e073228b",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\42a25643-50f3-44eb-a045-1c0deb271a44\\blobs\\ea\\eacf44515d3b45ea3abb5e54601176226aca436e4a7f4f0a8c2d5d68e073228b"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\42a25643-50f3-44eb-a045-1c0deb271a44\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "699e32aacb0a8b088ecb64aa6d8240ea1913ec6afa8fd12dbc1952dc350ea15f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\42a25643-50f3-44eb-a045-1c0deb271a44\\blobs\\69\\699e32aacb0a8b088ecb64aa6d8240ea1913ec6afa8fd12dbc1952dc350ea15f"
+    },
+    "meta.json": {
+      "hash": "948c00b5a2e55330076349372831188a7c71ab9f518c0e8bcd9765dcee0b5db5",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\42a25643-50f3-44eb-a045-1c0deb271a44\\blobs\\94\\948c00b5a2e55330076349372831188a7c71ab9f518c0e8bcd9765dcee0b5db5"
+    },
+    "package.json": {
+      "hash": "2a60fc5c5cdd8d818c24f258ecbc535280cb37f38d52b7eec909031ba7455605",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\42a25643-50f3-44eb-a045-1c0deb271a44\\blobs\\2a\\2a60fc5c5cdd8d818c24f258ecbc535280cb37f38d52b7eec909031ba7455605"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "4ad51d17-7334-4848-b222-85f8b59ac7ef",
+      "completedAt": 1793878744431,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\band-woodchopper\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Ring Row",
+      "text": "El remo en anillas. Una de las mejores bases para dominadas."
+    },
+    {
+      "id": "02",
+      "text": "Agarrá las anillas y apoyá los talones en el piso, con el cuerpo inclinado y los brazos estirados."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Apretá glúteos y abdomen: el cuerpo es una tabla recta de los talones a la cabeza."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Empezá juntando las escápulas y después flexioná los codos, pegados al cuerpo."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Tirá hasta llevar el pecho a las anillas, con los codos cerca del cuerpo."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Bajá controlado hasta extender los brazos. Cuanto más horizontal el cuerpo, más difícil."
+    },
+    {
+      "id": "07",
+      "text": "Claves: cuerpo recto como una tabla, juntá las escápulas, codos cerca del cuerpo, y más horizontal es más difícil."
+    },
+    {
+      "id": "08",
+      "text": "Diez repeticiones. Tirá hasta el pecho y bajá con control sin perder la tabla."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

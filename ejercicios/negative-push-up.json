@@ -1,0 +1,328 @@
+{
+  "slug": "negative-push-up",
+  "name": "Negative Push Up",
+  "category": "CROSSFIT — WOD",
+  "tags": [
+    "Pecho",
+    "Tríceps",
+    "Peso corporal"
+  ],
+  "descripcion": "Flexión de brazos trabajando sólo la fase excéntrica: se baja el pecho al suelo en 3-5 segundos y se vuelve arriba apoyando las rodillas.",
+  "revisado": false,
+  "notas": "TOP/DOWN/SAG_BAD copiados de bodyweight-push-up. KNEES nuevo: hip+ankle con knee back para apoyar la rodilla y el empeine en el piso.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 230,
+    "y": 1504,
+    "scale": 0.85
+  },
+  "pronuncia": {
+    "Negative Push Up": "négatib push ap"
+  },
+  "initialPose": "TOP",
+  "props": [],
+  "poses": {
+    "TOP": {
+      "s": 68.41,
+      "t": 68.41,
+      "rx": -20,
+      "ry": -40,
+      "ft": 118,
+      "b": 68.41,
+      "hd": 78,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": 15
+    },
+    "DOWN": {
+      "hip": [
+        400,
+        -165
+      ],
+      "ankle": [
+        -20,
+        -40
+      ],
+      "ft": 118,
+      "b": 84,
+      "hd": 96,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": 15
+    },
+    "KNEES": {
+      "hip": [
+        417,
+        -240
+      ],
+      "ankle": [
+        187,
+        -10
+      ],
+      "knee": "back",
+      "ft": 200,
+      "b": 68.4,
+      "hd": 78,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": 15
+    },
+    "SAG_BAD": {
+      "hip": [
+        430,
+        -150
+      ],
+      "ankle": [
+        -20,
+        -40
+      ],
+      "ft": 118,
+      "b": 55,
+      "hd": 70,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": 15
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "badge": "CROSSFIT — WOD",
+      "head": [
+        "NEGATIVE",
+        "PUSH UP"
+      ],
+      "vo": "Negative Push Up: solo la bajada, lenta y controlada, y subís apoyando las rodillas. Pecho y tríceps.",
+      "min": 4.8,
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.8,
+          "dur": 2.2
+        }
+      ]
+    },
+    {
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PLANCHA",
+        "ALTA"
+      ],
+      "sub": "Manos bajo los hombros",
+      "vo": "Arrancá en plancha alta, con las manos debajo de los hombros, el cuerpo en línea y el abdomen firme.",
+      "min": 5.4,
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "CUERPO EN LÍNEA",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "badge": "SOLO LA BAJADA",
+      "head": [
+        "BAJÁ EN",
+        "3 SEGUNDOS"
+      ],
+      "sub": "Fase excéntrica",
+      "numeral": "1",
+      "vo": "Bajá el pecho al piso en tres a cinco segundos, bien lento. Esa es toda la repetición: la bajada es la que trabaja.",
+      "min": 6.2,
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.7,
+          "dur": 3.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "LENTO Y CONTROLADO",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "badge": "RESET",
+      "head": [
+        "RODILLAS",
+        "AL PISO"
+      ],
+      "sub": "Para volver arriba",
+      "vo": "Apoyá las rodillas en el piso y volvé a la plancha alta con las manos, sin empujar el pecho.",
+      "min": 6.0,
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "KNEES",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": []
+    },
+    {
+      "badge": "ERROR TÍPICO",
+      "head": [
+        "ASÍ NO:",
+        "CADERA CAÍDA"
+      ],
+      "sub": "Lumbar sin control",
+      "bad": true,
+      "vo": "Así no. Si la cadera se cae o el pecho se adelanta, la bajada deja de ser controlada y la lumbar paga el precio.",
+      "min": 5.8,
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "SAG_BAD",
+          "at": 0.7,
+          "dur": 0.9
+        }
+      ],
+      "overlays": []
+    },
+    {
+      "kind": "keys",
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "vo": "Claves: bajada de tres a cinco segundos, codos cerca del cuerpo, cuerpo en línea y reset con las rodillas.",
+      "min": 8.0,
+      "moves": [
+        {
+          "seq": [
+            [
+              "TOP",
+              0.4
+            ],
+            [
+              "DOWN",
+              3.0
+            ],
+            [
+              "KNEES",
+              0.8
+            ],
+            [
+              "TOP",
+              0.8
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ],
+      "keys": [
+        "Bajada de 3 a 5 segundos",
+        "Codos cerca del cuerpo",
+        "Cuerpo en línea",
+        "Reset con rodillas",
+        "Sin rebotar"
+      ]
+    },
+    {
+      "kind": "reps",
+      "badge": "A ENTRENAR",
+      "head": [
+        "40 SEG"
+      ],
+      "sub": "Solo la bajada",
+      "vo": "Cuarenta segundos de trabajo: bajás lento, apoyás las rodillas y volvés arriba. Si perdés el control, cortá la serie.",
+      "min": 6.8,
+      "moves": [
+        {
+          "seq": [
+            [
+              "TOP",
+              0.4
+            ],
+            [
+              "DOWN",
+              2.6
+            ],
+            [
+              "KNEES",
+              0.7
+            ],
+            [
+              "TOP",
+              0.7
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ],
+      "chips": [
+        {
+          "label": "1 · BAJÁ LENTO",
+          "at": 0.5
+        },
+        {
+          "label": "2 · RODILLAS",
+          "at": 1.4
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "DOWN",
+    "grip": 1,
+    "zoom": 1.12,
+    "dy": 39
+  },
+  "youtube": {
+    "titulo": "Negative Push Up 🔥 flexiones solo en la bajada paso a paso | CrossFit",
+    "descripcion": "🔥 NEGATIVE PUSH UP — flexiones solo en la bajada para ganar fuerza rápido\n\nLa negative push up entrena únicamente la fase excéntrica: bajás el pecho al piso en 3 a 5 segundos y volvés arriba apoyando las rodillas. Ideal si todavía no te salen muchas flexiones seguidas. 💪\n\n📋 PASO A PASO\n1️⃣ Arrancá en plancha alta, manos debajo de los hombros y cuerpo en línea.\n2️⃣ Bajá el pecho al piso en 3 a 5 segundos, bien controlado.\n3️⃣ Apoyá las rodillas en el piso.\n4️⃣ Volvé a la plancha alta con las manos.\n5️⃣ Repetí: la bajada es toda la repetición.\n\n✅ CLAVES DE TÉCNICA\n• Bajada de 3 a 5 segundos, sin dejarte caer\n• Codos cerca del cuerpo, no abiertos a 90 grados\n• Cuerpo en línea: ni cadera caída ni cola arriba\n• Abdomen firme todo el recorrido\n• Reset con las rodillas, sin empujar el pecho\n\n🎯 QUÉ TRABAJA\nPectoral mayor · Deltoides anterior · Pectoral menor · Recto abdominal · Tríceps braquial\n\n⏱️ CUÁNTO\n40 segundos de trabajo. Tres a cuatro series, con descanso completo entre series.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #PushUp #Flexiones #Pecho",
+    "tags": [
+      "negative push up",
+      "flexiones negativas",
+      "push up negativo",
+      "flexiones solo bajada",
+      "fase excentrica",
+      "progresion de flexiones",
+      "pecho y triceps",
+      "crossfit",
+      "wod",
+      "peso corporal"
+    ]
+  }
+}

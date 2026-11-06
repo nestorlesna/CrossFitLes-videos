@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "b4f51f4e-9f35-4c90-95de-ece6d9a4c864",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "6afc709bb8af650dd3f97e57d384e96baaf664c3bee8fa31b17727389912e382",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b4f51f4e-9f35-4c90-95de-ece6d9a4c864\\blobs\\6a\\6afc709bb8af650dd3f97e57d384e96baaf664c3bee8fa31b17727389912e382"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b4f51f4e-9f35-4c90-95de-ece6d9a4c864\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "2ff362344a43b50977fb7009b0c2c5c7600a2eaa68aa6b46a16f566757e74094",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b4f51f4e-9f35-4c90-95de-ece6d9a4c864\\blobs\\2f\\2ff362344a43b50977fb7009b0c2c5c7600a2eaa68aa6b46a16f566757e74094"
+    },
+    "meta.json": {
+      "hash": "8f6675cfadd9b70ac38eae217cdc2e17038c5d985263967db6065721ed1988fc",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b4f51f4e-9f35-4c90-95de-ece6d9a4c864\\blobs\\8f\\8f6675cfadd9b70ac38eae217cdc2e17038c5d985263967db6065721ed1988fc"
+    },
+    "package.json": {
+      "hash": "a3234e91f435512bc2ae30a02668e099eae84d1827cce37735a931bfeb671642",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b4f51f4e-9f35-4c90-95de-ece6d9a4c864\\blobs\\a3\\a3234e91f435512bc2ae30a02668e099eae84d1827cce37735a931bfeb671642"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "03098b93-fca2-4eeb-98f2-3b3d7b599873",
+      "completedAt": 1793877517776,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\wall-sit-with-leg-extension\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

@@ -1,0 +1,462 @@
+{
+  "slug": "kettlebell-ground-to-overhead",
+  "name": "Kettlebell Ground to Overhead",
+  "category": "CROSSFIT · POTENCIA",
+  "tags": [
+    "Kettlebell",
+    "Potencia",
+    "Core"
+  ],
+  "descripcion": "Kettlebell del piso a extensión total sobre la cabeza en un solo gesto explosivo, con la cadera como motor.",
+  "revisado": false,
+  "notas": "Del piso a la cabeza en un tiempo (sin rack intermedio). Poses `FLOOR`/`HANG` reusadas de `kettlebell-clean-and-jerk`; `SWING` con la pesa a la altura del pecho (`ua 55`) y `OVERHEAD` bloqueado (`ua 174`). Error `ROUND_BAD`: espalda redonda al levantar (`cv 24`, `hd 34`). Una kettlebell con `swing: true`; brazo lejano colgando (`g2 0`).",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Kettlebell Ground to Overhead 🎯 del piso a la cabeza en un solo gesto | CrossFit",
+    "tags": [
+      "kettlebell ground to overhead",
+      "ground to overhead",
+      "kettlebell",
+      "snatch",
+      "potencia",
+      "piso a la cabeza",
+      "crossfit",
+      "wod",
+      "unilateral",
+      "24 kg"
+    ],
+    "descripcion": "🏋️ KETTLEBELL GROUND TO OVERHEAD — del piso a la cabeza en un solo gesto\nBisagra, swing y bloqueo: la pesa sale del piso y termina arriba con el brazo estirado. Potencia y coordinación en un solo movimiento. 🔥\n\n📋 PASO A PASO\n1️⃣ Bisagra con la pesa entre los pies, espalda neutra y cadera atrás.\n2️⃣ Extendé la cadera y pasá la pesa cerca del cuerpo: el impulso sale de las piernas, no del brazo.\n3️⃣ Cuando la pesa pasa el pecho, acompañá con el brazo y meté el cuerpo abajo.\n4️⃣ Terminá con el brazo bloqueado arriba, cadera y rodillas extendidas.\n\n🎯 CLAVES DE TÉCNICA\n✅ Espalda neutra al levantarla del piso\n✅ La cadera es el motor\n✅ La pesa viaja cerca del cuerpo\n✅ Bloqueo final con el brazo estirado\n✅ Core firme de principio a fin\n\n🏋️ QUÉ TRABAJA\nGlúteo mayor · Isquios · Deltoides anterior · Tríceps · Erectores espinales · Trapecio\n\n⏱️ CUÁNTO\n19 repeticiones con 24 kg. Si la espalda se redondea, bajá el peso antes de sumar repeticiones.\n\n💪 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nCualquier forma vale (clean and jerk o snatch), pero siempre termina con el brazo bloqueado y cadera y rodillas extendidas. Si la espalda se redondea al levantar, el peso es demasiado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🙌\n\n#CrossFit #Kettlebell #GroundToOverhead #Potencia #Wod"
+  },
+  "miniatura": {
+    "pose": "OVERHEAD",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 90
+  },
+  "initialPose": "FLOOR",
+  "rig": {
+    "x": 450,
+    "y": 1509,
+    "scale": 0.7
+  },
+  "props": [
+    {
+      "type": "kettlebell",
+      "hand": "near",
+      "swing": true,
+      "off": [
+        0,
+        26
+      ]
+    }
+  ],
+  "poses": {
+    "FLOOR": {
+      "hip": [
+        -150,
+        -330
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 66,
+      "hd": 54,
+      "g": 1,
+      "ed": 1,
+      "hx": 250,
+      "hy": -130,
+      "g2": 0,
+      "ua2": 6,
+      "fa2": 2
+    },
+    "HANG": {
+      "s": 8,
+      "t": -22,
+      "b": 55,
+      "hd": 40,
+      "g": 0,
+      "ua": -40,
+      "fa": 0,
+      "ua2": 6,
+      "fa2": 2
+    },
+    "SWING": {
+      "s": 4,
+      "t": -8,
+      "b": 12,
+      "hd": 6,
+      "g": 0,
+      "ua": 55,
+      "fa": 8,
+      "ua2": 6,
+      "fa2": 2
+    },
+    "OVERHEAD": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 2,
+      "g": 0,
+      "ua": 174,
+      "fa": 0,
+      "ua2": 6,
+      "fa2": 2
+    },
+    "ROUND_BAD": {
+      "hip": [
+        -150,
+        -330
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 70,
+      "hd": 34,
+      "cv": 24,
+      "g": 1,
+      "ed": 1,
+      "hx": 250,
+      "hy": -130,
+      "g2": 0,
+      "ua2": 6,
+      "fa2": 2
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · POTENCIA",
+      "head": [
+        "GROUND TO",
+        "OVERHEAD"
+      ],
+      "vo": "Kettlebell Ground to Overhead: del piso a la cabeza en un solo gesto, con la cadera como motor.",
+      "moves": [
+        {
+          "cut": "FLOOR",
+          "at": 0
+        },
+        {
+          "to": "HANG",
+          "at": 0.5,
+          "dur": 0.4
+        },
+        {
+          "to": "SWING",
+          "at": 1.1,
+          "dur": 0.4
+        },
+        {
+          "to": "OVERHEAD",
+          "at": 2.0,
+          "dur": 0.5
+        },
+        {
+          "to": "SWING",
+          "at": 3.1,
+          "dur": 0.4
+        },
+        {
+          "to": "FLOOR",
+          "at": 3.7,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 5,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BISAGRA",
+        "Y ESPALDA NEUTRA"
+      ],
+      "sub": "Pesa entre los pies",
+      "vo": "Arrancá en bisagra con la pesa entre los pies: espalda neutra, pecho arriba y cadera atrás.",
+      "moves": [
+        {
+          "cut": "FLOOR",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "FLOOR.W"
+          },
+          "r": 74,
+          "at": 0.9,
+          "out": 3.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            940
+          ],
+          "text": "ESPALDA NEUTRA",
+          "anchor": "end",
+          "at": 1.1,
+          "out": 3.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BISAGRA",
+        "Y SWING"
+      ],
+      "sub": "La cadera manda",
+      "vo": "Paso uno. Extendé la cadera y pasá la pesa cerca del cuerpo: el impulso sale de las piernas, no del brazo.",
+      "moves": [
+        {
+          "cut": "FLOOR",
+          "at": 0
+        },
+        {
+          "to": "HANG",
+          "at": 0.5,
+          "dur": 0.4
+        },
+        {
+          "to": "SWING",
+          "at": 1.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            330,
+            900
+          ],
+          "text": "CADERA, NO BRAZO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ARRIBA",
+        "Y BLOQUEO"
+      ],
+      "sub": "Brazo estirado",
+      "vo": "Paso dos. Cuando la pesa pasa el pecho, acompañá con el brazo y terminá con el codo bloqueado arriba.",
+      "moves": [
+        {
+          "cut": "SWING",
+          "at": 0
+        },
+        {
+          "to": "OVERHEAD",
+          "at": 0.4,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            560,
+            900
+          ],
+          "at": 0.4,
+          "dur": 0.8,
+          "from": [
+            520,
+            1250
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            700,
+            1180
+          ],
+          "text": "CERCA DEL CUERPO",
+          "anchor": "start",
+          "at": 1.1,
+          "out": 3.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "TODO",
+        "EXTENDIDO"
+      ],
+      "sub": "Sin rebotes",
+      "vo": "Paso tres. Terminá con cadera, rodillas y codo extendidos: el bloqueo se sostiene medio segundo.",
+      "moves": [
+        {
+          "cut": "OVERHEAD",
+          "at": 0
+        },
+        {
+          "to": "SWING",
+          "at": 2.2,
+          "dur": 0.6
+        },
+        {
+          "to": "OVERHEAD",
+          "at": 3.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            760,
+            760
+          ],
+          "text": "CODO BLOQUEADO",
+          "anchor": "start",
+          "at": 0.8,
+          "out": 3.2
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "min": 5.2,
+      "badge": "ERROR COMÚN",
+      "head": [
+        "ESPALDA",
+        "REDONDA"
+      ],
+      "sub": "Pecho arriba",
+      "vo": "El error: levantar con la espalda redonda. Pecho arriba y espalda neutra desde el piso.",
+      "moves": [
+        {
+          "cut": "FLOOR",
+          "at": 0
+        },
+        {
+          "to": "ROUND_BAD",
+          "at": 0.9,
+          "dur": 0.7
+        },
+        {
+          "to": "FLOOR",
+          "at": 3.0,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            170,
+            1410
+          ],
+          "text": "PECHO ARRIBA",
+          "anchor": "start",
+          "at": 1.5,
+          "out": 4.1
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.4,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Espalda neutra al levantarla",
+        "La cadera es el motor",
+        "La pesa viaja cerca del cuerpo",
+        "Bloqueo final con el brazo estirado",
+        "Core firme de principio a fin"
+      ],
+      "vo": "Claves: espalda neutra, cadera como motor, la pesa cerca y bloqueo final con el brazo estirado.",
+      "moves": [
+        {
+          "cut": "OVERHEAD",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "19 REPS"
+      ],
+      "sub": "24 kg",
+      "vo": "Diecinueve repeticiones con veinticuatro kilos. Si la espalda se redondea, bajá el peso.",
+      "chips": [
+        {
+          "label": "1 · BISAGRA",
+          "at": 0.6
+        },
+        {
+          "label": "2 · SWING",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BLOQUEO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "FLOOR",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "HANG",
+              0.35
+            ],
+            [
+              "SWING",
+              0.35
+            ],
+            [
+              "OVERHEAD",
+              0.45
+            ],
+            [
+              "SWING",
+              0.4
+            ],
+            [
+              "FLOOR",
+              0.5
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "pronuncia": {
+    "Kettlebell": "Ketelbel",
+    "kettlebell": "ketelbel",
+    "Ground to Overhead": "graund tu ouverjed",
+    "swing": "suing",
+    "clean and jerk": "clin an yerk",
+    "snatch": "snach"
+  }
+}

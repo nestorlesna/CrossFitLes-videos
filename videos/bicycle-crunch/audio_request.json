@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Bicycle Crunch",
+      "text": "Pedaleás en el aire y llevás el codo a la rodilla opuesta. Oblicuos y abdomen en un solo movimiento."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba con las manos detrás de la nuca, las rodillas flexionadas y los omóplatos despegados del piso."
+    },
+    {
+      "id": "03",
+      "text": "Llevá una rodilla al pecho y estirá la otra pierna, sin apoyar los pies en ningún momento."
+    },
+    {
+      "id": "04",
+      "text": "Cambiá de pierna llevando el codo hacia la rodilla opuesta, con el torso girado y el abdomen firme."
+    },
+    {
+      "id": "05",
+      "text": "Así no. Si tirás de la nuca con las manos, el cuello trabaja de más y el abdomen queda sin hacer nada."
+    },
+    {
+      "id": "06",
+      "text": "Claves: manos suaves en la nuca, pies sin tocar el piso, codo a la rodilla opuesta y movimientos lentos y controlados."
+    },
+    {
+      "id": "07",
+      "text": "Veinte segundos alternando sin parar. Si empezás a tirar del cuello, bajá el ritmo antes de seguir."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "488ace96-2399-4f9b-bc3c-787e1f6f8a9f",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "cc762dfdea5c323576081b489edc6b47aac158e91fbc43caf609c2835a158971",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\488ace96-2399-4f9b-bc3c-787e1f6f8a9f\\blobs\\cc\\cc762dfdea5c323576081b489edc6b47aac158e91fbc43caf609c2835a158971"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\488ace96-2399-4f9b-bc3c-787e1f6f8a9f\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "36e159ed64bf8028f460b9326bf3e6bb532a318325864af358df3ceb1ecb8752",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\488ace96-2399-4f9b-bc3c-787e1f6f8a9f\\blobs\\36\\36e159ed64bf8028f460b9326bf3e6bb532a318325864af358df3ceb1ecb8752"
+    },
+    "meta.json": {
+      "hash": "c5baac8c1eb57545274022ae7e261ae5f3c20d1a605b3c129681f9339ccef30d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\488ace96-2399-4f9b-bc3c-787e1f6f8a9f\\blobs\\c5\\c5baac8c1eb57545274022ae7e261ae5f3c20d1a605b3c129681f9339ccef30d"
+    },
+    "package.json": {
+      "hash": "ff03bf5f7bb8939c98eeeddc7acbb7d81c166ce65a2cdcd774bf27732cf1d27e",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\488ace96-2399-4f9b-bc3c-787e1f6f8a9f\\blobs\\ff\\ff03bf5f7bb8939c98eeeddc7acbb7d81c166ce65a2cdcd774bf27732cf1d27e"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "0869ca7a-ef01-4837-bb02-633a880e7883",
+      "completedAt": 1793875807782,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\burpee-to-bar\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

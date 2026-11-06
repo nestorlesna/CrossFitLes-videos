@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Barbell Bench Press",
+      "text": "La barra baja al esternón con los codos a cuarenta y cinco grados y sube hasta bloquear. Pecho y tríceps."
+    },
+    {
+      "id": "02",
+      "text": "Acostate en el banco con los pies firmes, las escápulas juntas y abajo, y la barra en agarre algo más ancho que los hombros."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá la barra controlada hasta tocar el esternón, con los codos a unos cuarenta y cinco grados."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Empujá la barra en línea hasta estirar los brazos, sin rebotar en el pecho."
+    },
+    {
+      "id": "05",
+      "text": "Así no. Con los codos abiertos a noventa grados el hombro sufre y la barra se te va para el cuello."
+    },
+    {
+      "id": "06",
+      "text": "Así no. Si arqueás la lumbar y despegás la espalda del banco, perdés fuerza y te exponés a una lesión."
+    },
+    {
+      "id": "07",
+      "text": "Claves: escápulas juntas y apoyadas, pies firmes, codos a cuarenta y cinco grados, bajada controlada al esternón y bloqueo sin rebotar."
+    },
+    {
+      "id": "08",
+      "text": "Diez repeticiones por serie. Siempre con un compañero de seguridad: si la barra se traba, él la saca."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

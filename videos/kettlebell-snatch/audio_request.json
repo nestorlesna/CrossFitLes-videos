@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Kettlebell Snatch",
+      "text": "Del swing a la pesa bloqueada arriba, con una sola mano."
+    },
+    {
+      "id": "02",
+      "text": "Una mano en la pesa, la otra libre y los pies al ancho de hombros."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Pasá la pesa atrás, entre las piernas, con el pecho arriba."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Extendé la cadera y tirá con el codo arriba, la pesa cerca del cuerpo."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Meté la mano por debajo y bloqueá la pesa arriba, bíceps junto a la oreja."
+    },
+    {
+      "id": "06",
+      "text": "Así no: si la levantás con el brazo, la pesa se va lejos y te golpea la muñeca."
+    },
+    {
+      "id": "07",
+      "text": "Claves: pesa cerca del cuerpo, codo arriba, meté la mano y bloqueá con el brazo firme."
+    },
+    {
+      "id": "08",
+      "text": "Doce repeticiones con veinticuatro kilos, alternando de mano sin soltar la pesa."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "3b570ce4-96dc-4dd0-b04d-0676671689d4",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "d9dc83bc613642ac1208a075b8219272389c8ca44fbf158a676d19ba7acf913a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\3b570ce4-96dc-4dd0-b04d-0676671689d4\\blobs\\d9\\d9dc83bc613642ac1208a075b8219272389c8ca44fbf158a676d19ba7acf913a"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\3b570ce4-96dc-4dd0-b04d-0676671689d4\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "1654fc226a654e9215c3afe773f8743444ae5579e381cabed9ad1832fb011ec5",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\3b570ce4-96dc-4dd0-b04d-0676671689d4\\blobs\\16\\1654fc226a654e9215c3afe773f8743444ae5579e381cabed9ad1832fb011ec5"
+    },
+    "meta.json": {
+      "hash": "13e2e339c2a3fe4d455a9efbdb2f6f31c31d23c4de29e0f175f383bc383e088c",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\3b570ce4-96dc-4dd0-b04d-0676671689d4\\blobs\\13\\13e2e339c2a3fe4d455a9efbdb2f6f31c31d23c4de29e0f175f383bc383e088c"
+    },
+    "package.json": {
+      "hash": "89071e0d780f896f1d740b534dd3a9ab14538c8f9263bc18aa2d42afd44897a2",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\3b570ce4-96dc-4dd0-b04d-0676671689d4\\blobs\\89\\89071e0d780f896f1d740b534dd3a9ab14538c8f9263bc18aa2d42afd44897a2"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "8ec79ebf-af45-4b3f-8807-a45522a53a51",
+      "completedAt": 1793878625818,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\band-hammer-curl-to-triceps-kickback\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

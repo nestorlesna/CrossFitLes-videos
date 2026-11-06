@@ -1,0 +1,279 @@
+{
+  "slug": "reach-up-crunch",
+  "name": "Reach Up Crunch",
+  "revisado": false,
+  "notas": "Crunch boca arriba con los brazos extendidos al techo: se despegan los omóplatos y las manos suben. De perfil se ve el despegue del torso y el brazo vertical.",
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · CORE",
+      "head": [
+        "REACH UP",
+        "CRUNCH"
+      ],
+      "vo": "Reach Up Crunch: crunch boca arriba con los brazos al techo, llevando las manos lo más alto posible.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 1.2,
+          "dur": 0.7
+        },
+        {
+          "to": "DOWN",
+          "at": 2.4,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BOCA ARRIBA",
+        "BRAZOS AL TECHO"
+      ],
+      "sub": "Lumbar pegada al piso",
+      "vo": "Acostate boca arriba con las rodillas apenas flexionadas y los brazos extendidos hacia el techo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "PASO 1 / 2",
+      "head": [
+        "DESPEGÁ LOS",
+        "OMÓPLATOS"
+      ],
+      "sub": "El abdomen tira",
+      "vo": "Paso uno. Despegá los omóplatos del piso contrayendo el abdomen y llevá las manos bien arriba.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 1,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 2 / 2",
+      "head": [
+        "BAJÁ",
+        "CONTROLADO"
+      ],
+      "sub": "Sin soltar el abdomen",
+      "vo": "Paso dos. Bajá lento hasta apoyar los omóplatos, sin soltar la tensión del abdomen ni arquear la lumbar.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 1.4,
+          "dur": 1
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "ERROR COMÚN",
+      "head": [
+        "TIRAR DEL",
+        "CUELLO"
+      ],
+      "sub": "Error común",
+      "vo": "Error: si empujás con el cuello y la cabeza en vez del abdomen, el esfuerzo se va al cuello y la espalda alta.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "NECK_BAD",
+          "at": 1,
+          "dur": 0.8
+        },
+        {
+          "to": "UP",
+          "at": 3.4,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            282,
+            1415
+          ],
+          "r": 46,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            300,
+            1295
+          ],
+          "anchor": "middle",
+          "text": "CUELLO RELAJADO",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Movimiento del abdomen",
+        "Manos lo más alto posible",
+        "Lumbar siempre pegada",
+        "Cuello relajado"
+      ],
+      "vo": "Claves: el movimiento sale del abdomen, las manos suben lo más alto posible, la lumbar no se despega y el cuello queda relajado.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.2,
+      "badge": "A ENTRENAR",
+      "head": [
+        "20 S"
+      ],
+      "sub": "Subiendo y bajando",
+      "vo": "Veinte segundos de repeticiones cortas, subiendo las manos y bajando con control.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              0.7
+            ],
+            [
+              "DOWN",
+              0.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "rig": {
+    "x": 520,
+    "y": 1500,
+    "scale": 0.95
+  },
+  "initialPose": "DOWN",
+  "poses": {
+    "DOWN": {
+      "hip": [
+        0,
+        -20
+      ],
+      "ankle": [
+        448,
+        -6
+      ],
+      "ft": -90,
+      "ft2": -90,
+      "fa": 0,
+      "al": 1,
+      "b": -90,
+      "hd": -92,
+      "ua": 180
+    },
+    "UP": {
+      "hip": [
+        0,
+        -20
+      ],
+      "ankle": [
+        448,
+        -6
+      ],
+      "ft": -90,
+      "ft2": -90,
+      "fa": 0,
+      "al": 1,
+      "b": -72,
+      "hd": -78,
+      "ua": 180
+    },
+    "NECK_BAD": {
+      "hip": [
+        0,
+        -20
+      ],
+      "ankle": [
+        448,
+        -6
+      ],
+      "ft": -90,
+      "ft2": -90,
+      "fa": 0,
+      "al": 1,
+      "b": -76,
+      "hd": -46,
+      "ua": 168
+    }
+  },
+  "category": "CROSSFIT · CORE",
+  "tags": [
+    "Recto abdominal",
+    "Core",
+    "Activación"
+  ],
+  "descripcion": "Crunch boca arriba con los brazos extendidos hacia el techo: se despegan los omóplatos del suelo llevando las manos lo más alto posible. El movimiento sale del abdomen, no de los brazos ni del cuello, y la zona lumbar queda siempre pegada al piso.",
+  "miniatura": {
+    "pose": "UP",
+    "grip": 0,
+    "zoom": 1.06,
+    "dy": 40
+  },
+  "youtube": {
+    "titulo": "Reach Up Crunch 🔥 crunch con brazos al techo, paso a paso | CrossFit",
+    "descripcion": "🏋️ REACH UP CRUNCH — abdominales con los brazos apuntando al techo\nBoca arriba, con los brazos extendidos hacia arriba, despegás los omóplatos y llevás las manos lo más alto posible. Un crunch corto, controlado y muy fácil de escalar. 💪\n\n📋 PASO A PASO\n1️⃣ Acostate boca arriba con las rodillas apenas flexionadas y los brazos extendidos hacia el techo.\n2️⃣ Despegá los omóplatos del piso contrayendo el abdomen y llevá las manos bien arriba.\n3️⃣ Bajá lento hasta apoyar los omóplatos, sin soltar la tensión del abdomen.\n4️⃣ Repetí manteniendo la lumbar siempre pegada al piso.\n\n🎯 CLAVES DE TÉCNICA\n✅ El movimiento sale del abdomen, no de los brazos ni del cuello\n✅ Las manos suben lo más alto posible\n✅ La lumbar no se despega del piso\n✅ El cuello queda relajado, la mirada al techo\n✅ Bajada controlada, sin rebotes\n\n🏋️ QUÉ TRABAJA\nRecto abdominal · Oblicuo interno · Oblicuo externo · Recto femoral\n\n⏱️ CUÁNTO\n20 segundos de repeticiones cortas. Ideal como activación de core o al final del WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nSi sentís que tira el cuello, dejá las manos más cerca del pecho y pensá en llevar las costillas hacia la pelvis.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #ReachUpCrunch #Core #Abdominales #Wod",
+    "tags": [
+      "reach up crunch",
+      "crunch brazos al techo",
+      "abdominales boca arriba",
+      "crunch de abdomen",
+      "core acostado",
+      "recto abdominal",
+      "activación de core",
+      "ejercicio de abdomen",
+      "abdominales",
+      "crossfit core",
+      "crossfit"
+    ]
+  }
+}

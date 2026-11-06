@@ -1,0 +1,362 @@
+{
+  "slug": "barbell-hang-clean-and-jerk",
+  "name": "Barbell Hang Clean and Jerk",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Cadera",
+    "Piernas",
+    "Hombros"
+  ],
+  "descripcion": "Cargada de potencia desde el hang (barra a media rótula, sin pasar por el piso) seguida de envión en tijera. El dos tiempos corto para trabajar potencia de cadera y velocidad.",
+  "revisado": false,
+  "notas": "Adaptación de barbell-clean-and-jerk: se quita el SETUP del piso y se arranca en HANG (poses de barbell-hang-clean); el envión es el mismo (DIP/DRIVE/SPLIT/OH_ST).",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Barbell Hang Clean and Jerk 🏋️ cargada colgada y envión | CrossFit",
+    "tags": [
+      "barbell hang clean and jerk",
+      "hang clean and jerk",
+      "cargada colgada",
+      "hang clean",
+      "cargada de potencia",
+      "envion",
+      "jerk",
+      "levantamiento olimpico",
+      "halterofilia",
+      "crossfit",
+      "barra olimpica"
+    ],
+    "descripcion": "🎬 BARBELL HANG CLEAN AND JERK - La cargada que arranca colgada y termina en envión\n\nSin bajar al piso: la barra sale del hang, a media rótula, y explota por la extensión de cadera. Después rearmás y hacés el envión en tijera. Dos tiempos en versión corta, ideal para potencia. 💪\n\n📝 PASO A PASO\n1️⃣ Parate con la barra colgada a media rótula, hombros por delante y espalda firme.\n2️⃣ Extendé cadera y rodillas de golpe con los brazos estirados: la barra sube por la extensión.\n3️⃣ Cuando la barra pasa la cadera, girá los codos rápido al frente y recibila en los hombros.\n4️⃣ Rearmá la posición y hacé el envión: dip corto y vertical, empujá y metete abajo en tijera.\n5️⃣ Recibí con los codos bloqueados y juntá los pies: primero el de adelante.\n\n✅ CLAVES DE TÉCNICA\n✔️ Barra pegada a las piernas\n✔️ Extensión completa de cadera y rodillas\n✔️ Codos rápidos al frente en el rack\n✔️ Rearmá antes del envión\n✔️ Dip corto y bloqueo firme arriba\n\n💪 QUÉ TRABAJA\nGlúteo mayor · Isquios · Deltoides anterior · Trapecio superior · Recto femoral · Erectores espinales\n\n⏱️ CUÁNTO\n3 repeticiones con 40 kg. Va en bloques de fuerza y en WODs.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi recién arrancás con levantamiento olímpico, practicá el hang clean con la barra sola y un coach al lado antes de cargar peso.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Halterofilia #HangClean #CleanAndJerk #Fuerza"
+  },
+  "miniatura": {
+    "pose": "SPLIT",
+    "grip": 0,
+    "zoom": 1.05,
+    "dy": 170
+  },
+  "initialPose": "HANG",
+  "rig": {
+    "x": 450,
+    "y": 1509,
+    "scale": 0.66
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "torso": [
+        64,
+        36
+      ],
+      "r": 74,
+      "blend": true
+    }
+  ],
+  "pronuncia": {
+    "Clean and Jerk": "Clin and yerk",
+    "Barbell Hang Clean and Jerk": "Bárbel jang clin and yerk",
+    "Clean": "Clin",
+    "jerk": "yerk",
+    "hang": "jang"
+  },
+  "poses": {
+    "STAND_BAR": {
+      "g": 1,
+      "ed": 1,
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "hx": 30,
+      "hy": -424
+    },
+    "HANG": {
+      "g": 1,
+      "ed": 1,
+      "s": 8,
+      "t": -30,
+      "b": 55,
+      "hd": 40,
+      "hx": 45,
+      "hy": -290
+    },
+    "HIP": {
+      "s": 18,
+      "t": -38,
+      "b": 18,
+      "hd": 10,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": 2,
+      "fa2": 0
+    },
+    "EXT": {
+      "s": -4,
+      "t": 4,
+      "b": -8,
+      "hd": -6,
+      "ft": -22,
+      "ft2": -22,
+      "g": 0,
+      "ua": 6,
+      "fa": 0,
+      "ua2": 6,
+      "fa2": 0
+    },
+    "PULL_C": {
+      "s": -2,
+      "t": 2,
+      "b": -4,
+      "hd": -4,
+      "ft": -16,
+      "ft2": -16,
+      "g": 0,
+      "ua": 70,
+      "fa": -110,
+      "ua2": 70,
+      "fa2": -110
+    },
+    "RACK_Q": {
+      "hip": [
+        -95,
+        -372
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "hd": 8,
+      "g": 0,
+      "ua": 74,
+      "fa": 176,
+      "ua2": 78,
+      "fa2": 172,
+      "bf": 1,
+      "b": 16
+    },
+    "RACK": {
+      "s": 0,
+      "t": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 176,
+      "ua2": 94,
+      "fa2": 172,
+      "bf": 1,
+      "b": 0
+    },
+    "DIP": {
+      "s": 14,
+      "t": -30,
+      "hd": 2,
+      "g": 0,
+      "ua": 88,
+      "fa": 176,
+      "ua2": 92,
+      "fa2": 172,
+      "bf": 1,
+      "b": 2
+    },
+    "DRIVE": {
+      "s": -4,
+      "t": 4,
+      "hd": -2,
+      "ft": -16,
+      "ft2": -16,
+      "g": 0,
+      "ua": 92,
+      "fa": 176,
+      "ua2": 96,
+      "fa2": 172,
+      "bf": 1,
+      "b": -2
+    },
+    "SPLIT": {
+      "hip": [
+        -10,
+        -410
+      ],
+      "ankle": [
+        170,
+        0
+      ],
+      "ankle2": [
+        -200,
+        -40
+      ],
+      "b": 0,
+      "hd": 6,
+      "ft2": 35,
+      "g": 0,
+      "ua": 182,
+      "fa": 0,
+      "ua2": 182,
+      "fa2": 0,
+      "bf": 0
+    },
+    "OH_ST": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 6,
+      "g": 0,
+      "ua": 182,
+      "fa": 0,
+      "ua2": 182,
+      "fa2": 0,
+      "bf": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.2,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "HANG CLEAN",
+        "AND JERK"
+      ],
+      "vo": "Barbell Hang Clean and Jerk: cargada desde el hang y envión, sin pasar por el piso.",
+      "moves": [
+        { "cut": "HANG", "at": 0 },
+        { "to": "HIP", "at": 0.6, "dur": 0.4 },
+        { "to": "EXT", "at": 1.0, "dur": 0.2, "ease": "power2.out" },
+        { "to": "PULL_C", "at": 1.2, "dur": 0.18 },
+        { "to": "RACK_Q", "at": 1.38, "dur": 0.26, "ease": "power2.out" },
+        { "to": "RACK", "at": 2.0, "dur": 0.5 },
+        { "to": "DIP", "at": 2.4, "dur": 0.35 },
+        { "to": "DRIVE", "at": 2.75, "dur": 0.18, "ease": "power2.out" },
+        { "to": "SPLIT", "at": 2.93, "dur": 0.3, "ease": "power2.out" },
+        { "to": "OH_ST", "at": 3.9, "dur": 0.7 }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BARRA",
+        "COLGADA"
+      ],
+      "sub": "A media rótula",
+      "vo": "Parate con la barra colgada a media rótula, hombros por delante y espalda firme.",
+      "moves": [{ "cut": "HANG", "at": 0 }]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "EXTENDÉ",
+        "DE GOLPE"
+      ],
+      "sub": "Cadera y rodillas",
+      "vo": "Paso uno. Extendé cadera y rodillas de golpe con los brazos estirados: la barra sube por la extensión.",
+      "moves": [
+        { "cut": "HANG", "at": 0 },
+        { "to": "HIP", "at": 0.6, "dur": 0.35 },
+        { "to": "EXT", "at": 1.0, "dur": 0.25, "ease": "power2.out" }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "CODO",
+        "RÁPIDO"
+      ],
+      "sub": "Al frente, al rack",
+      "vo": "Paso dos. Cuando la barra pasa la cadera, girá los codos rápido al frente y recibila en los hombros.",
+      "moves": [
+        { "cut": "EXT", "at": 0 },
+        { "to": "PULL_C", "at": 0.4, "dur": 0.25 },
+        { "to": "RACK_Q", "at": 0.7, "dur": 0.26, "ease": "power2.out" },
+        { "to": "RACK", "at": 1.4, "dur": 0.6 }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "DIP",
+        "Y ENVIÓN"
+      ],
+      "sub": "Corto y vertical",
+      "vo": "Paso tres. Dip corto y vertical, empujá con las piernas y metete abajo de la barra en tijera.",
+      "moves": [
+        { "cut": "RACK", "at": 0 },
+        { "to": "DIP", "at": 0.6, "dur": 0.5 },
+        { "to": "DRIVE", "at": 1.1, "dur": 0.2, "ease": "power2.out" },
+        { "to": "SPLIT", "at": 1.3, "dur": 0.35, "ease": "power2.out" }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "BLOQUEÁ",
+        "Y JUNTÁ"
+      ],
+      "sub": "Primero adelante, después atrás",
+      "vo": "Paso cuatro. Recibí con los codos bloqueados y juntá los pies: primero el de adelante.",
+      "moves": [
+        { "cut": "SPLIT", "at": 0 },
+        { "to": "OH_ST", "at": 1.4, "dur": 0.9 }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Barra pegada al cuerpo",
+        "Extensión completa",
+        "Codos rápidos al rack",
+        "Dip corto y bloqueo firme"
+      ],
+      "vo": "Claves: barra pegada al cuerpo, extensión completa, codos rápidos al frente y dip corto con bloqueo firme.",
+      "moves": [{ "cut": "RACK", "at": 0.1 }]
+    },
+    {
+      "kind": "reps",
+      "min": 7.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 REPS · 40 KG"
+      ],
+      "sub": "Técnica primero",
+      "vo": "Tres repeticiones con cuarenta kilos: cargá desde el hang, rearmá y hacé el envión.",
+      "chips": [
+        { "label": "1 · CLEAN", "at": 0.5 },
+        { "label": "2 · JERK", "at": 2.4 }
+      ],
+      "moves": [
+        { "cut": "HANG", "at": 0 },
+        { "to": "HIP", "at": 0.4, "dur": 0.4 },
+        { "to": "EXT", "at": 0.8, "dur": 0.2, "ease": "power2.out" },
+        { "to": "PULL_C", "at": 1.0, "dur": 0.18 },
+        { "to": "RACK_Q", "at": 1.18, "dur": 0.26, "ease": "power2.out" },
+        { "to": "RACK", "at": 1.8, "dur": 0.5 },
+        { "to": "DIP", "at": 2.2, "dur": 0.35 },
+        { "to": "DRIVE", "at": 2.55, "dur": 0.18, "ease": "power2.out" },
+        { "to": "SPLIT", "at": 2.73, "dur": 0.3, "ease": "power2.out" },
+        { "to": "OH_ST", "at": 3.7, "dur": 0.7 },
+        { "to": "RACK", "at": 4.6, "dur": 0.7 },
+        { "to": "STAND_BAR", "at": 5.3, "dur": 0.6 },
+        { "to": "HANG", "at": 6.1, "dur": 0.8 }
+      ]
+    }
+  ]
+}

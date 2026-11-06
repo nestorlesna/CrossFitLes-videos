@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Ring Strict Muscle Up",
+      "text": "El muscle up estricto en anillas. Un clásico de la gimnasia."
+    },
+    {
+      "id": "02",
+      "text": "Colgate de las anillas con agarre falso: la muñeca queda por encima de la anilla. Cuerpo firme y sin balanceo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Tirá sin balancearte, con las anillas pegadas al cuerpo durante todo el tirón."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Llevá las anillas hasta el pecho. Ahí empieza la transición."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Pasá el cuerpo por encima: llevá el pecho por encima de las manos en una transición rápida."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Empujá hasta bloquear los brazos arriba de las anillas, con el cuerpo firme."
+    },
+    {
+      "id": "07",
+      "text": "Claves: agarre falso, anillas pegadas al cuerpo, pecho por encima de las manos en la transición y bloqueo completo arriba."
+    },
+    {
+      "id": "08",
+      "text": "Dos repeticiones estrictas. Calidad antes que cantidad."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

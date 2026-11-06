@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Wall Shoulder CAR",
+      "text": "Rotación articular controlada del hombro contra la pared. Hombros sanos."
+    },
+    {
+      "id": "02",
+      "text": "Parate de costado junto a la pared y apoyá el codo a la altura del hombro, a noventa grados, con el antebrazo arriba."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Apretá abdomen y glúteos. Solo se mueve el hombro: el resto del cuerpo queda quieto y firme."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Rotá lento el hombro alejando el antebrazo de la pared, en el máximo rango sin dolor."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Seguí el círculo completo y volvé al punto de partida, sin encoger el hombro hacia la oreja."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Hacé de tres a cinco repeticiones y después invertí el sentido de la rotación."
+    },
+    {
+      "id": "07",
+      "text": "Claves: movimiento lento y en el máximo rango sin dolor, solo se mueve el hombro, y de tres a cinco repeticiones por dirección."
+    },
+    {
+      "id": "08",
+      "text": "Treinta segundos por hombro. Lento, amplio y con el cuerpo firme."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

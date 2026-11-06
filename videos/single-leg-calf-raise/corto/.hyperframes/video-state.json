@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "a06714f5-d749-468a-8216-d64ab76a4617",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "13fbe93753b6b20e1ba9692072c6567c748d19862d0a96dc164cfc79e1075805",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a06714f5-d749-468a-8216-d64ab76a4617\\blobs\\13\\13fbe93753b6b20e1ba9692072c6567c748d19862d0a96dc164cfc79e1075805"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a06714f5-d749-468a-8216-d64ab76a4617\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "e28cf02f62c186c18f900fd7329712365f4293449ce82576bd954fbadb4eb77e",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a06714f5-d749-468a-8216-d64ab76a4617\\blobs\\e2\\e28cf02f62c186c18f900fd7329712365f4293449ce82576bd954fbadb4eb77e"
+    },
+    "meta.json": {
+      "hash": "b339890ee8b5ac4b8c908a21efe9496a6f580cc3ff0daa83cbe6aa8cfee33e4e",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a06714f5-d749-468a-8216-d64ab76a4617\\blobs\\b3\\b339890ee8b5ac4b8c908a21efe9496a6f580cc3ff0daa83cbe6aa8cfee33e4e"
+    },
+    "package.json": {
+      "hash": "2d6571075ef571e791dc0a08798bc90c61bba6e022cb40c85341ac5e59b5ad9e",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a06714f5-d749-468a-8216-d64ab76a4617\\blobs\\2d\\2d6571075ef571e791dc0a08798bc90c61bba6e022cb40c85341ac5e59b5ad9e"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "0e50e54f-4037-4495-b69b-e2f1d3d8f735",
+      "completedAt": 1793840333461,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\single-leg-calf-raise\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

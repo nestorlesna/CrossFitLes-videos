@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Weighted butterfly sit up",
+      "text": "Plantas juntas, rodillas afuera y un disco que sube con el abdomen."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba, juntá las plantas de los pies y dejá las rodillas abiertas hacia los costados."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Sostené el disco sobre el pecho con las dos manos y no lo muevas durante la subida."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Enrollá el torso, subí con el abdomen y llevá el disco por encima de la cabeza."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Bajá controlado hasta apoyar la espalda, sin soltar el disco y sin dejar caer la cabeza."
+    },
+    {
+      "id": "06",
+      "text": "Así no. No tires del cuello ni uses los brazos para arrancar: el disco suma resistencia, no hace el trabajo."
+    },
+    {
+      "id": "07",
+      "text": "Claves: plantas juntas, rodillas abiertas, subir con el abdomen y bajar controlado."
+    },
+    {
+      "id": "08",
+      "text": "Catorce repeticiones con un disco liviano. Si el peso te gana, bajá el disco y cuidá la técnica."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,438 @@
+{
+  "slug": "dumbbell-burpee-snatch",
+  "name": "Dumbbell Burpee Snatch",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Potencia",
+    "Hombro",
+    "Core"
+  ],
+  "descripcion": "Burpee completo con una mancuerna apoyada en el piso. Al levantarse, realizar un snatch con un brazo llevando la mancuerna desde el piso hasta overhead en un solo movimiento. Alternar brazo o mantener.",
+  "revisado": false,
+  "notas": "Variante a una mano de dual-dumbbell-snatch-with-burpee; mancuerna fija en la mano cercana y mano lejana apoyada en el piso.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 560,
+    "y": 1512,
+    "scale": 0.64
+  },
+  "initialPose": "STAND",
+  "props": [
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "side": true,
+      "r": 44
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 2,
+      "g2": 0,
+      "ua2": 4,
+      "fa2": 2
+    },
+    "SETUP": {
+      "hip": [
+        -215,
+        -250
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 74,
+      "hd": 34,
+      "g": 1,
+      "g2": 1,
+      "ed": 1,
+      "hx": 30,
+      "hy": -8,
+      "hx2": 40,
+      "hy2": 0
+    },
+    "PLANK": {
+      "hip": [
+        -290,
+        -240
+      ],
+      "s": 78,
+      "t": 78,
+      "s2": 78,
+      "t2": 78,
+      "ft": 170,
+      "ft2": 170,
+      "b": 80,
+      "hd": 86,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "hx": 10,
+      "hy": 0,
+      "hx2": 40,
+      "hy2": 0
+    },
+    "CHEST": {
+      "hip": [
+        -290,
+        -55
+      ],
+      "s": 80,
+      "t": 80,
+      "s2": 80,
+      "t2": 80,
+      "ft": 175,
+      "ft2": 175,
+      "b": 82,
+      "hd": 72,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "hx": 10,
+      "hy": 0,
+      "hx2": 40,
+      "hy2": 0
+    },
+    "EXT": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": -4,
+      "hd": -2,
+      "g": 0,
+      "ua": 4,
+      "fa": 0,
+      "g2": 0,
+      "ua2": 4,
+      "fa2": 0
+    },
+    "OH": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 4,
+      "g": 0,
+      "ua": 180,
+      "fa": 0,
+      "g2": 0,
+      "ua2": 4,
+      "fa2": 2
+    }
+  },
+  "miniatura": {
+    "pose": "OH",
+    "grip": 0,
+    "zoom": 0.98,
+    "dy": 190
+  },
+  "youtube": {
+    "titulo": "Dumbbell Burpee Snatch 🔥 Burpee y snatch a una mano | CrossFit",
+    "tags": [
+      "dumbbell burpee snatch",
+      "burpee con mancuerna",
+      "snatch a una mano",
+      "snatch unilateral",
+      "potencia",
+      "hombro",
+      "core",
+      "crossfit",
+      "wod",
+      "mancuerna",
+      "unilateral"
+    ],
+    "descripcion": "🔥 DUMBBELL BURPEE SNATCH — burpee y snatch a una mano\n\n¿Querés sumar potencia y coordinación en un solo movimiento? El burpee snatch con mancuerna te obliga a estabilizar todo el cuerpo mientras llevás el peso arriba con un brazo. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ De pie, con una sola mancuerna en la mano y los pies al ancho de los hombros.\n2️⃣ Apoyá la mancuerna y la otra mano en el piso, y saltá los pies atrás a la plancha.\n3️⃣ Bajá el pecho al piso, empujá y volvé con los pies para agarrar el asa.\n4️⃣ Extendé la cadera y llevá la mancuerna arriba de la cabeza con un solo brazo.\n5️⃣ Mantené el mismo brazo toda la serie y cambiá al terminar.\n\n✅ CLAVES DE TÉCNICA\n• Aterrizá suave en la plancha\n• Core activo durante todo el ciclo\n• La extensión de cadera impulsa el snatch, no el brazo\n• Brazo bloqueado y costillas abajo arriba\n• No rotes el tronco para compensar\n\n🎯 QUÉ TRABAJA\nDeltoides anterior · Glúteo mayor · Pectoral mayor · Recto abdominal · Recto femoral · Trapecio superior\n\n⏱️ CUÁNTO\n10 repeticiones con 12,5 kg. Ideal para un WOD de potencia o un finisher corto.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste burpee snatch, arrancá con una mancuerna liviana y un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #DumbbellBurpeeSnatch #Burpee #Snatch #Potencia"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.2,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "DB BURPEE",
+        "SNATCH"
+      ],
+      "vo": "Dumbbell Burpee Snatch: burpee con una mancuerna y snatch a una mano. Coordinación y potencia.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "STAND",
+              0.35
+            ],
+            [
+              "SETUP",
+              0.35
+            ],
+            [
+              "PLANK",
+              0.3
+            ],
+            [
+              "CHEST",
+              0.3
+            ],
+            [
+              "PLANK",
+              0.3
+            ],
+            [
+              "SETUP",
+              0.35
+            ],
+            [
+              "OH",
+              0.6
+            ],
+            [
+              "SETUP",
+              0.3
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE",
+        "UNA MANCUERNA"
+      ],
+      "sub": "Mano firme en el asa",
+      "vo": "De pie, con una sola mancuerna en la mano y los pies al ancho de los hombros.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BURPEE",
+        "AL PISO"
+      ],
+      "sub": "Una mano al piso",
+      "vo": "Paso uno. Apoyá la mancuerna y la otra mano en el piso, y saltá los pies atrás a la plancha.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "SETUP",
+          "at": 0.8,
+          "dur": 0.6
+        },
+        {
+          "to": "PLANK",
+          "at": 1.8,
+          "dur": 0.5
+        },
+        {
+          "to": "CHEST",
+          "at": 2.5,
+          "dur": 0.4
+        },
+        {
+          "to": "PLANK",
+          "at": 3.3,
+          "dur": 0.35
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            980
+          ],
+          "text": "PECHO AL PISO",
+          "anchor": "middle",
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "VOLVÉ CON",
+        "LOS PIES"
+      ],
+      "sub": "Agarrá el asa",
+      "vo": "Paso dos. Empujá del piso, volvé con los pies y agarrá fuerte el asa de la mancuerna.",
+      "moves": [
+        {
+          "cut": "CHEST",
+          "at": 0
+        },
+        {
+          "to": "PLANK",
+          "at": 0.45,
+          "dur": 0.35
+        },
+        {
+          "to": "SETUP",
+          "at": 1.1,
+          "dur": 0.55
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "PIES ADENTRO",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "SNATCH",
+        "A UNA MANO"
+      ],
+      "sub": "Brazo bloqueado",
+      "vo": "Paso tres. Extendé la cadera y llevá la mancuerna arriba de la cabeza con un solo brazo.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "EXT",
+          "at": 0.8,
+          "dur": 0.35,
+          "ease": "power2.out"
+        },
+        {
+          "to": "OH",
+          "at": 1.35,
+          "dur": 0.45,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            700
+          ],
+          "text": "BRAZO BLOQUEADO",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Aterrizá suave en la plancha",
+        "Core activo todo el ciclo",
+        "La cadera impulsa el snatch",
+        "Brazo bloqueado arriba"
+      ],
+      "vo": "Claves: aterrizá suave, core activo, la cadera impulsa el snatch y el brazo queda bloqueado arriba.",
+      "moves": [
+        {
+          "cut": "OH",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "12,5 kg",
+      "vo": "Diez repeticiones con doce kilos y medio. Mantené el mismo brazo y cambiá al terminar la serie.",
+      "chips": [
+        {
+          "label": "1 · BURPEE",
+          "at": 0.6
+        },
+        {
+          "label": "2 · SNATCH",
+          "at": 1.1
+        },
+        {
+          "label": "3 · ARRIBA",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "SETUP",
+              0.35
+            ],
+            [
+              "PLANK",
+              0.3
+            ],
+            [
+              "CHEST",
+              0.3
+            ],
+            [
+              "SETUP",
+              0.4
+            ],
+            [
+              "OH",
+              0.55
+            ],
+            [
+              "SETUP",
+              0.35
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

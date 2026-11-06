@@ -1,0 +1,333 @@
+{
+  "name": "Inchworm",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Core",
+    "Movilidad",
+    "Pecho"
+  ],
+  "descripcion": "De pie, apoyar las manos en el piso con las piernas lo más rectas posible, caminar con las manos hasta la plancha alta y volver caminando con las manos hacia los pies.",
+  "notas": "DOWNDOG y PLANK copiadas de yoga-push-up (misma geometría de manos). El rig se corre a x 420 para centrar el recorrido de pie a plancha.",
+  "props": null,
+  "rig": {
+    "x": 420,
+    "y": 1504,
+    "scale": 0.82
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 6,
+      "fa": 6
+    },
+    "FOLD": {
+      "s": 30.0,
+      "t": 30.0,
+      "rx": 0,
+      "ry": 0,
+      "b": 133.77,
+      "hd": 161.8,
+      "g": 1,
+      "hx": 675,
+      "hy": 15,
+      "ft": 0
+    },
+    "PLANK": {
+      "s": 68.41,
+      "t": 68.41,
+      "rx": -20,
+      "ry": -40,
+      "b": 68.41,
+      "g": 1,
+      "hx": 675,
+      "hy": 15,
+      "hd": 78,
+      "ft": 118
+    }
+  },
+  "miniatura": {
+    "pose": "FOLD",
+    "grip": 1,
+    "zoom": 1.05,
+    "dy": 120
+  },
+  "nombreEnVoz": "Inchworm",
+  "slug": "inchworm",
+  "revisado": false,
+  "music": true,
+  "musicVolume": 0.18,
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "INCHWORM"
+      ],
+      "vo": "Inchworm: de pie a plancha caminando con las manos, y volver. Movilidad de hombros y core en un solo movimiento.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "FOLD",
+          "at": 0.8,
+          "dur": 0.8
+        },
+        {
+          "to": "PLANK",
+          "at": 1.7,
+          "dur": 0.8
+        },
+        {
+          "to": "FOLD",
+          "at": 3.0,
+          "dur": 0.8
+        },
+        {
+          "to": "STAND",
+          "at": 4.0,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE"
+      ],
+      "sub": "Piernas casi rectas",
+      "vo": "Parate con los pies al ancho de cadera. Desde ahí, inclinate y apoyá las manos en el piso.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "FOLD",
+          "at": 1.0,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1010
+          ],
+          "text": "MANOS AL PISO",
+          "anchor": "end",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "CAMINÁ",
+        "CON LAS MANOS"
+      ],
+      "sub": "Hasta la plancha",
+      "vo": "Paso uno. Caminá con las manos hacia adelante hasta llegar a la plancha alta, con el abdomen firme.",
+      "moves": [
+        {
+          "cut": "FOLD",
+          "at": 0
+        },
+        {
+          "to": "PLANK",
+          "at": 0.6,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "PLANK.W"
+          },
+          "r": 44,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1150
+          ],
+          "text": "MANOS BAJO HOMBROS",
+          "anchor": "end",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "VOLVÉ",
+        "CON LOS PIES"
+      ],
+      "sub": "Pasos cortos",
+      "vo": "Paso dos. Volvé caminando con las manos hacia los pies, con pasos cortos, sin levantar la cadera de golpe.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        },
+        {
+          "to": "FOLD",
+          "at": 0.8,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            300,
+            1300
+          ],
+          "text": "PASOS CORTOS",
+          "anchor": "start",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Sin rebotes",
+      "vo": "Paso tres. No rebotes al erguirte ni dejes caer la cadera en la plancha: el movimiento es lento y controlado.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        },
+        {
+          "to": "FOLD",
+          "at": 1.2,
+          "dur": 1.0
+        },
+        {
+          "to": "STAND",
+          "at": 2.6,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1150
+          ],
+          "text": "SIN REBOTAR",
+          "anchor": "end",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Manos al piso",
+        "Piernas casi rectas",
+        "Caminá corto",
+        "Volvé controlando"
+      ],
+      "vo": "Claves: manos al piso, piernas casi rectas, pasos cortos y volver controlando.",
+      "moves": [
+        {
+          "cut": "FOLD",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "8 REPS"
+      ],
+      "sub": "Ida y vuelta",
+      "chips": [
+        {
+          "label": "1 · MANOS",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PLANCHA",
+          "at": 1.4
+        },
+        {
+          "label": "3 · VUELTA",
+          "at": 2.2
+        }
+      ],
+      "vo": "Ocho repeticiones de ida y vuelta. Si te cuesta, flexioná un poco las rodillas.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "FOLD",
+              1.0
+            ],
+            [
+              "PLANK",
+              1.0
+            ],
+            [
+              "FOLD",
+              1.0
+            ],
+            [
+              "STAND",
+              1.0
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "youtube": {
+    "titulo": "Inchworm 🔥 Movilidad y core: de pie a plancha paso a paso | CrossFit",
+    "descripcion": "🔥 INCHWORM - de pie a plancha caminando con las manos\n\n👉 PASO A PASO\n1️⃣ De pie, inclinate y apoyá las manos en el piso.\n2️⃣ Caminá con las manos hasta la plancha alta.\n3️⃣ Volvé caminando con las manos hacia los pies.\n4️⃣ Erguite controlando, sin rebotar.\n\n✅ CLAVES DE TÉCNICA\n✔ Manos al piso con piernas casi rectas\n✔ Pasos cortos, sin lanzar los pies\n✔ Abdomen y glúteos firmes en la plancha\n✔ Volver controlando\n\n💪 QUÉ TRABAJA\nRecto abdominal · Bíceps femoral · Deltoides anterior · Hombros\n\n⏱ CUÁNTO\n8 repeticiones de ida y vuelta. Entrada en calor o activación.\n\nSi te cuesta llegar al piso, flexioná un poco las rodillas y andá sumando rango de a poco.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚",
+    "tags": [
+      "inchworm",
+      "gusano",
+      "movilidad",
+      "core",
+      "activación",
+      "entrada en calor",
+      "plancha",
+      "hombros",
+      "isquiotibiales",
+      "crossfit",
+      "peso corporal",
+      "estiramiento dinámico"
+    ]
+  }
+}

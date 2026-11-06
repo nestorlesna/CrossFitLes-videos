@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "c16a8239-ca42-4f62-9ad6-58cd6b65e744",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "e151c3fc54e8e87c8ef86cec371cf417ab6361e9f7467b4de8167012bd5581f2",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\c16a8239-ca42-4f62-9ad6-58cd6b65e744\\blobs\\e1\\e151c3fc54e8e87c8ef86cec371cf417ab6361e9f7467b4de8167012bd5581f2"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\c16a8239-ca42-4f62-9ad6-58cd6b65e744\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "aa901db1435af0af3801bec1b08a33f578e66fcf4a173e3b302e93c1bfd8ca61",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\c16a8239-ca42-4f62-9ad6-58cd6b65e744\\blobs\\aa\\aa901db1435af0af3801bec1b08a33f578e66fcf4a173e3b302e93c1bfd8ca61"
+    },
+    "meta.json": {
+      "hash": "95e91ab47855ed703c13371bf7831b28df5bde7994c51f97669564c9d4e9db4b",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\c16a8239-ca42-4f62-9ad6-58cd6b65e744\\blobs\\95\\95e91ab47855ed703c13371bf7831b28df5bde7994c51f97669564c9d4e9db4b"
+    },
+    "package.json": {
+      "hash": "b34caa7b1b1fc202b7d1373291866475b5270c7e0ac081ef21ad9ad51f4964df",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\c16a8239-ca42-4f62-9ad6-58cd6b65e744\\blobs\\b3\\b34caa7b1b1fc202b7d1373291866475b5270c7e0ac081ef21ad9ad51f4964df"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "36f0aece-6df3-49d1-9c15-f13ea697e3e8",
+      "completedAt": 1793878509218,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\med-ball-box-step-over\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

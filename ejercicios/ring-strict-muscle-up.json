@@ -1,0 +1,412 @@
+{
+  "slug": "ring-strict-muscle-up",
+  "name": "Ring Strict Muscle Up",
+  "category": "CROSSFIT · HABILIDAD",
+  "tags": [
+    "Espalda",
+    "Pecho",
+    "Tríceps"
+  ],
+  "descripcion": "Colgado de las anillas con agarre falso, tirar sin balanceo hasta llevar las anillas al pecho, pasar el cuerpo por encima (transición) y terminar empujando hasta bloquear los brazos arriba de las anillas.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 520,
+    "y": 1500,
+    "scale": 0.55
+  },
+  "pronuncia": {
+    "Ring Strict Muscle Up": "Ring estrict mósol ap"
+  },
+  "initialPose": "HANG",
+  "props": [
+    {
+      "type": "rings",
+      "anchor": [
+        0,
+        -1650
+      ],
+      "postX": -430
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "HANG": {
+      "hip": [
+        0,
+        -562
+      ],
+      "b": 0,
+      "t": 0,
+      "s": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40
+    },
+    "PULL": {
+      "hip": [
+        10,
+        -760
+      ],
+      "b": -6,
+      "t": 0,
+      "s": 0,
+      "hd": -4,
+      "g": 1,
+      "hx": 0,
+      "hy": -1050,
+      "ed": -1,
+      "ft": 40
+    },
+    "TRANS": {
+      "hip": [
+        -10,
+        -940
+      ],
+      "b": 14,
+      "t": 6,
+      "s": 0,
+      "hd": 8,
+      "g": 1,
+      "hx": 0,
+      "hy": -1000,
+      "ed": -1,
+      "ft": 40
+    },
+    "TOP": {
+      "hip": [
+        -20,
+        -1060
+      ],
+      "b": 6,
+      "t": 0,
+      "s": 0,
+      "hd": 4,
+      "g": 1,
+      "hx": 0,
+      "hy": -1080,
+      "ed": -1,
+      "ft": 40
+    },
+    "KIP_BAD": {
+      "hip": [
+        90,
+        -560
+      ],
+      "b": -24,
+      "t": -30,
+      "s": -20,
+      "hd": -14,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · HABILIDAD",
+      "head": [
+        "RING STRICT",
+        "MUSCLE UP"
+      ],
+      "vo": "Ring Strict Muscle Up: el muscle up estricto en anillas. Un clásico de la gimnasia.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "PULL",
+              0.7
+            ],
+            [
+              "TRANS",
+              0.5
+            ],
+            [
+              "TOP",
+              0.5
+            ],
+            [
+              "TRANS",
+              0.5
+            ],
+            [
+              "PULL",
+              0.5
+            ],
+            [
+              "HANG",
+              0.7
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "COLGADO CON",
+        "AGARRE FALSO"
+      ],
+      "sub": "Muñeca sobre la anilla",
+      "vo": "Colgate de las anillas con agarre falso: la muñeca queda por encima de la anilla. Cuerpo firme y sin balanceo.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "TIRÁ SIN",
+        "BALANCEO"
+      ],
+      "sub": "Anillas pegadas al cuerpo",
+      "vo": "Paso uno. Tirá sin balancearte, con las anillas pegadas al cuerpo durante todo el tirón.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "KIP_BAD",
+          "at": 0.4,
+          "dur": 0.4
+        },
+        {
+          "to": "HANG",
+          "at": 1.3,
+          "dur": 0.4
+        },
+        {
+          "to": "PULL",
+          "at": 2,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            260,
+            800
+          ],
+          "text": "BALANCEO: NO",
+          "anchor": "middle",
+          "at": 0.7
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "ANILLAS AL",
+        "PECHO"
+      ],
+      "sub": "Tirá hasta el pecho",
+      "vo": "Paso dos. Llevá las anillas hasta el pecho. Ahí empieza la transición.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            260,
+            800
+          ],
+          "text": "ANILLAS AL PECHO",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "TRANSICIÓN",
+        "RÁPIDA"
+      ],
+      "sub": "Pecho sobre las manos",
+      "vo": "Paso tres. Pasá el cuerpo por encima: llevá el pecho por encima de las manos en una transición rápida.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "TRANS",
+          "at": 0.6,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "EMPUJÁ Y",
+        "BLOQUEÁ"
+      ],
+      "sub": "Brazos extendidos arriba",
+      "vo": "Paso cuatro. Empujá hasta bloquear los brazos arriba de las anillas, con el cuerpo firme.",
+      "moves": [
+        {
+          "cut": "TRANS",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.6,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            260,
+            800
+          ],
+          "text": "BLOQUEÁ ARRIBA",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Agarre falso",
+        "Anillas pegadas al cuerpo",
+        "Pecho sobre las manos",
+        "Bloquear arriba"
+      ],
+      "vo": "Claves: agarre falso, anillas pegadas al cuerpo, pecho por encima de las manos en la transición y bloqueo completo arriba.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "2 REPS"
+      ],
+      "sub": "Estrictas, de calidad",
+      "vo": "Dos repeticiones estrictas. Calidad antes que cantidad.",
+      "chips": [
+        {
+          "label": "1 · TIRÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · TRANSICIÓN",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BLOQUEÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "PULL",
+              0.7
+            ],
+            [
+              "TRANS",
+              0.5
+            ],
+            [
+              "TOP",
+              0.5
+            ],
+            [
+              "TRANS",
+              0.5
+            ],
+            [
+              "PULL",
+              0.5
+            ],
+            [
+              "HANG",
+              0.7
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "TRANS",
+    "grip": 1,
+    "zoom": 1,
+    "dy": 160
+  },
+  "youtube": {
+    "titulo": "Ring Strict Muscle Up 🔥 gimnasia de nivel avanzado paso a paso | CrossFit",
+    "descripcion": "🔥 RING STRICT MUSCLE UP — tirar y empujar en un solo movimiento de gimnasia.\n\nSi ya dominás dominadas y fondos estrictos, este es tu siguiente desafío. 💪\n\n📋 PASO A PASO\n1️⃣ Colgate de las anillas con agarre falso: la muñeca queda por encima de la anilla, con el cuerpo firme y sin balanceo.\n2️⃣ Tirá sin balancearte, con las anillas pegadas al cuerpo durante todo el tirón.\n3️⃣ Llevá las anillas hasta el pecho. Ahí empieza la transición.\n4️⃣ Pasá el cuerpo por encima: llevá el pecho por encima de las manos en una transición rápida.\n5️⃣ Empujá hasta bloquear los brazos arriba de las anillas, con el cuerpo firme.\n\n✅ CLAVES DE TÉCNICA\n• Agarre falso (muñeca por encima de la anilla)\n• Anillas pegadas al cuerpo en todo el tirón\n• Transición rápida llevando el pecho por encima de las manos\n• Bloquear arriba con los brazos extendidos\n\n🎯 QUÉ TRABAJA\nBíceps braquial · Dorsal ancho · Pectoral mayor · Tríceps braquial · Deltoides anterior · Recto abdominal · Trapecio inferior\n\n⏱️ CUÁNTO\n2 repeticiones de calidad, como trabajo de habilidad.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nRequiere dominadas y fondos estrictos sólidos: practicalo con un coach al lado y con progresiones.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\r\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Habilidad #RingStrictMuscleUp #Gimnasia #Entrenamiento",
+    "tags": [
+      "ring strict muscle up",
+      "muscle up en anillas",
+      "muscle up estricto",
+      "anillas",
+      "gimnasia",
+      "crossfit",
+      "habilidad",
+      "tracción",
+      "fondos",
+      "calistenia"
+    ]
+  }
+}

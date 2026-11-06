@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "ee9e6e34-f812-478c-b8be-1102fa960c5f",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "806f9f01a2402847e53162fa965cbf479e6577062286dda11aa7af573e2405a3",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ee9e6e34-f812-478c-b8be-1102fa960c5f\\blobs\\80\\806f9f01a2402847e53162fa965cbf479e6577062286dda11aa7af573e2405a3"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ee9e6e34-f812-478c-b8be-1102fa960c5f\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "eaa12c24cad63dc5ae3104def4181f7f93955a7ec1452c8836575064f15cb2c8",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ee9e6e34-f812-478c-b8be-1102fa960c5f\\blobs\\ea\\eaa12c24cad63dc5ae3104def4181f7f93955a7ec1452c8836575064f15cb2c8"
+    },
+    "meta.json": {
+      "hash": "3ad1f2dd14a2601af5a7f28c0bcc2a6d0e36d63d25e563331ee3fe9bb7b4c709",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ee9e6e34-f812-478c-b8be-1102fa960c5f\\blobs\\3a\\3ad1f2dd14a2601af5a7f28c0bcc2a6d0e36d63d25e563331ee3fe9bb7b4c709"
+    },
+    "package.json": {
+      "hash": "74b5ad248dc7801b1b32c5472296a571a5f63727ad439b99d5ea4495b3002e85",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\ee9e6e34-f812-478c-b8be-1102fa960c5f\\blobs\\74\\74b5ad248dc7801b1b32c5472296a571a5f63727ad439b99d5ea4495b3002e85"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "232b90d2-caf6-4ffb-9c6c-833c1642b313",
+      "completedAt": 1793874817800,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\side-plank\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

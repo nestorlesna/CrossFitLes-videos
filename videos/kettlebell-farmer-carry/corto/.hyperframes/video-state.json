@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "996549ec-165e-4744-8579-2777c2a82f9f",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "d25d5ddc5354a365402793601adf0c35f9ccd5c772ae3a30f0b5cbe70b0512d3",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\996549ec-165e-4744-8579-2777c2a82f9f\\blobs\\d2\\d25d5ddc5354a365402793601adf0c35f9ccd5c772ae3a30f0b5cbe70b0512d3"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\996549ec-165e-4744-8579-2777c2a82f9f\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "7650408e2d0f2f8d1e160e3abf0c9401f3b2b525fcfb5721f270047b5c542c92",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\996549ec-165e-4744-8579-2777c2a82f9f\\blobs\\76\\7650408e2d0f2f8d1e160e3abf0c9401f3b2b525fcfb5721f270047b5c542c92"
+    },
+    "meta.json": {
+      "hash": "5d6ba0524c874876b386b3f1dfda6f7db45f3db1d320e01cb2b798d17b615f9e",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\996549ec-165e-4744-8579-2777c2a82f9f\\blobs\\5d\\5d6ba0524c874876b386b3f1dfda6f7db45f3db1d320e01cb2b798d17b615f9e"
+    },
+    "package.json": {
+      "hash": "b6b78f7dffbd59c4baf607d3778921b78bae8ff31d7df64c1408f4b60ecb4a1b",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\996549ec-165e-4744-8579-2777c2a82f9f\\blobs\\b6\\b6b78f7dffbd59c4baf607d3778921b78bae8ff31d7df64c1408f4b60ecb4a1b"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "b67f6cf1-0d3f-42d7-8290-b00f714c272c",
+      "completedAt": 1793838459513,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\kettlebell-farmer-carry\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

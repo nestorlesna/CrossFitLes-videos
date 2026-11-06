@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "be4238ef-fab4-4a24-85eb-46cf4fe22510",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "859febc4a2ad723df99e6873361e8576a6affca9e9e5e282ab37c281633ee169",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\be4238ef-fab4-4a24-85eb-46cf4fe22510\\blobs\\85\\859febc4a2ad723df99e6873361e8576a6affca9e9e5e282ab37c281633ee169"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\be4238ef-fab4-4a24-85eb-46cf4fe22510\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "1ee9c7a51132a34d3143316e392e316243fe1459707dcc3526e226af9355c46f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\be4238ef-fab4-4a24-85eb-46cf4fe22510\\blobs\\1e\\1ee9c7a51132a34d3143316e392e316243fe1459707dcc3526e226af9355c46f"
+    },
+    "meta.json": {
+      "hash": "3ef7084dee601e153066343a974303fa7de0238c79f9a9eea5fccc38b25a91bb",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\be4238ef-fab4-4a24-85eb-46cf4fe22510\\blobs\\3e\\3ef7084dee601e153066343a974303fa7de0238c79f9a9eea5fccc38b25a91bb"
+    },
+    "package.json": {
+      "hash": "148879f0573b77ae4092a1408fdd3b1f8f203b027edcbc19a1a12ed8beb47080",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\be4238ef-fab4-4a24-85eb-46cf4fe22510\\blobs\\14\\148879f0573b77ae4092a1408fdd3b1f8f203b027edcbc19a1a12ed8beb47080"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "0c722057-2891-4791-9ad7-31f194a9ed73",
+      "completedAt": 1793875194011,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\single-arm-dumbbell-push-press\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Deep Squat Hold",
+      "text": "La sentadilla profunda que ablanda tobillos, cadera y aductores. Cuarenta segundos abajo, respirando largo."
+    },
+    {
+      "id": "02",
+      "text": "Poné los pies un poco más anchos que los hombros, con las puntas hacia afuera y el peso repartido en todo el pie."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá al fondo con control: la cadera por debajo de la paralela y los talones pegados al piso."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Apoyá los codos entre las rodillas y empujá suave hacia afuera: ganás rango de cadera sin forzar."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si los talones se levantan, apoyálos sobre un disco o una cuña: sin talón no hay sentadilla profunda."
+    },
+    {
+      "id": "06",
+      "text": "Claves: talones en el suelo, pecho arriba, codos empujando las rodillas hacia afuera y respiración larga durante todo el hold."
+    },
+    {
+      "id": "07",
+      "text": "Cuarenta segundos abajo. No busques reps: buscá soltar la cadera y respirar sin perder el pecho arriba."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

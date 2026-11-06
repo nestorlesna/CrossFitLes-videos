@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Hanging Leg Raise with Rotation Over Box",
+      "text": "Elevación de piernas con rotación sobre el cajón. Core de acero."
+    },
+    {
+      "id": "02",
+      "text": "Colgate de la barra con un agarre firme y el cuerpo quieto. El cajón queda ubicado a un costado."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Elevá las piernas extendidas, juntas, hasta la horizontal. Las rodillas siempre rectas."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Rotá la cadera para llevar los pies por encima del cajón. La rotación nace del core, no del balanceo."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Evitá el impulso de kip: es un movimiento estricto, lento y controlado."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Volvé al centro y rotá hacia el otro lado, alternando con control en cada repetición."
+    },
+    {
+      "id": "07",
+      "text": "Claves: piernas rectas, la rotación sale del core, sin impulso de kip, y alterná los lados con control."
+    },
+    {
+      "id": "08",
+      "text": "Treinta segundos alternando lados. Piernas rectas, sin impulso y rotando desde el core."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

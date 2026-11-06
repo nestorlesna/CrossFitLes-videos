@@ -2,11 +2,16 @@
   "vozEn": "kokoro:af_heart",
   "voz": true,
   "composicion": true,
-  "duracion": 45.992,
+  "duracion": 45.883,
   "check": true,
   "miniatura": true,
-  "renderizado": "2026-10-23",
+  "renderizado": "2026-10-28",
   "renderHash": "793e85fc6ec1",
-  "archivo": "OC_clamshell-hold.mp4",
-  "renderVozEn": "kokoro:af_heart"
+  "archivo": "OC_2_clamshell-hold.mp4",
+  "renderVozEn": "kokoro:af_heart",
+  "corto": "clamshell-hold.corto.mp4",
+  "cortoHash": "793e85fc6ec1",
+  "cortoFecha": "2026-11-05",
+  "cortoReps": 3,
+  "cortoDuracion": 14.7
 }

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "8a293cda-74f6-436d-9fe9-19d93550cf46",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "54608cc0aa4c3e1332acc5bfca86b5d820057e7fab47b698db17f67ef563a3e9",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\8a293cda-74f6-436d-9fe9-19d93550cf46\\blobs\\54\\54608cc0aa4c3e1332acc5bfca86b5d820057e7fab47b698db17f67ef563a3e9"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\8a293cda-74f6-436d-9fe9-19d93550cf46\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "f934b50a4dc664e6181aa27810750de21366d0b123defe110c056727c27a2fc9",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\8a293cda-74f6-436d-9fe9-19d93550cf46\\blobs\\f9\\f934b50a4dc664e6181aa27810750de21366d0b123defe110c056727c27a2fc9"
+    },
+    "meta.json": {
+      "hash": "e6c089f432cec3a023b7137f82d9edc8086eb3eff14fe242d9eb118a9af4662e",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\8a293cda-74f6-436d-9fe9-19d93550cf46\\blobs\\e6\\e6c089f432cec3a023b7137f82d9edc8086eb3eff14fe242d9eb118a9af4662e"
+    },
+    "package.json": {
+      "hash": "7e36151afa682809b301342a5fbd45d8d6336f56f53f5cdab5b1332f32a4a86c",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\8a293cda-74f6-436d-9fe9-19d93550cf46\\blobs\\7e\\7e36151afa682809b301342a5fbd45d8d6336f56f53f5cdab5b1332f32a4a86c"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "aa344ef3-136e-4293-b41e-7e3552d2ddda",
+      "completedAt": 1793877244813,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\single-leg-pallof-press\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

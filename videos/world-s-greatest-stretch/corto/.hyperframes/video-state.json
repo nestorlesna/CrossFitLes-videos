@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "d631b5ac-05b8-4d42-a6d7-46d657a92815",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "d3f6a4f772192413217b062c5d5d3692db423c33e5cf43f88afcca34cf4c2412",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d631b5ac-05b8-4d42-a6d7-46d657a92815\\blobs\\d3\\d3f6a4f772192413217b062c5d5d3692db423c33e5cf43f88afcca34cf4c2412"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d631b5ac-05b8-4d42-a6d7-46d657a92815\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "1f4d783d5aa427dc9fb65f556d56011e4a68ee032a9ba96f86978a6fc292fcdf",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d631b5ac-05b8-4d42-a6d7-46d657a92815\\blobs\\1f\\1f4d783d5aa427dc9fb65f556d56011e4a68ee032a9ba96f86978a6fc292fcdf"
+    },
+    "meta.json": {
+      "hash": "d8f1c8ae52df2819f9a6f7d843664fe07b6215948763416ca3aa997bc8ee5699",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d631b5ac-05b8-4d42-a6d7-46d657a92815\\blobs\\d8\\d8f1c8ae52df2819f9a6f7d843664fe07b6215948763416ca3aa997bc8ee5699"
+    },
+    "package.json": {
+      "hash": "381534e5c31eacba0b4bb4b0294299cfffd6225d942088611f17c817f0e57498",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d631b5ac-05b8-4d42-a6d7-46d657a92815\\blobs\\38\\381534e5c31eacba0b4bb4b0294299cfffd6225d942088611f17c817f0e57498"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "f611ce13-bbe5-435e-b2cb-57b4110b95b9",
+      "completedAt": 1793874735018,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\world-s-greatest-stretch\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

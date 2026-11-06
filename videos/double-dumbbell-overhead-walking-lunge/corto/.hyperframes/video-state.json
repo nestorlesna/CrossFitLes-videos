@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "76615e46-e681-46cb-b801-632839136fc3",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "64c639fc9388566105804d035c6b54281809b865df99ab13e956d224e746cfe3",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\76615e46-e681-46cb-b801-632839136fc3\\blobs\\64\\64c639fc9388566105804d035c6b54281809b865df99ab13e956d224e746cfe3"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\76615e46-e681-46cb-b801-632839136fc3\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "e40be84628d0da79355491201ef209effce62c70455494b96c5c812d81c6eaa5",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\76615e46-e681-46cb-b801-632839136fc3\\blobs\\e4\\e40be84628d0da79355491201ef209effce62c70455494b96c5c812d81c6eaa5"
+    },
+    "meta.json": {
+      "hash": "742a9fd0acc106f49a1ffd8fa2298a4c8cd23eebc224c5b258a952ca71ae6d92",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\76615e46-e681-46cb-b801-632839136fc3\\blobs\\74\\742a9fd0acc106f49a1ffd8fa2298a4c8cd23eebc224c5b258a952ca71ae6d92"
+    },
+    "package.json": {
+      "hash": "b5fe6f2bc6a8e80bb57bfb79de4d8ebf0061e662d0a3cd7d7bcab535d4e0526a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\76615e46-e681-46cb-b801-632839136fc3\\blobs\\b5\\b5fe6f2bc6a8e80bb57bfb79de4d8ebf0061e662d0a3cd7d7bcab535d4e0526a"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "5717dbca-1127-4f30-8e56-04b17c0e4065",
+      "completedAt": 1793877910649,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\double-dumbbell-overhead-walking-lunge\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

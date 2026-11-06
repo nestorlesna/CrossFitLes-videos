@@ -1,0 +1,370 @@
+{
+  "slug": "wall-shoulder-car",
+  "name": "Wall Shoulder CAR",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Hombros",
+    "Movilidad",
+    "Control"
+  ],
+  "descripcion": "De pie junto a una pared, codo apoyado a 90°. Realizar una rotación articular controlada del hombro alejando el antebrazo de la pared. Mejora el rango de movimiento del hombro.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 380,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "pronuncia": {
+    "Wall Shoulder CAR": "Uol shóulder car"
+  },
+  "initialPose": "STAND",
+  "props": [
+    {
+      "type": "wall",
+      "x": 225,
+      "h": 900
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "UP": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 88,
+      "fa": 90,
+      "ua2": 4,
+      "fa2": 6
+    },
+    "BACK": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 88,
+      "fa": 45,
+      "ua2": 4,
+      "fa2": 6
+    },
+    "DOWN": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 88,
+      "fa": -85,
+      "ua2": 4,
+      "fa2": 6
+    },
+    "SHRUG_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": 8,
+      "hd": 4,
+      "g": 0,
+      "ua": 70,
+      "fa": 90,
+      "ua2": 4,
+      "fa2": 6
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "WALL",
+        "SHOULDER CAR"
+      ],
+      "vo": "Wall Shoulder CAR: rotación articular controlada del hombro contra la pared. Hombros sanos.",
+      "moves": [
+        {
+          "to": "UP",
+          "at": 0.3,
+          "dur": 0.5
+        },
+        {
+          "seq": [
+            [
+              "BACK",
+              1
+            ],
+            [
+              "DOWN",
+              1
+            ],
+            [
+              "BACK",
+              1
+            ],
+            [
+              "UP",
+              1
+            ]
+          ],
+          "at": 1,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "CODO EN",
+        "LA PARED"
+      ],
+      "sub": "A 90°, antebrazo arriba",
+      "vo": "Parate de costado junto a la pared y apoyá el codo a la altura del hombro, a noventa grados, con el antebrazo arriba.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.8,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "ACTIVÁ",
+        "EL CUERPO"
+      ],
+      "sub": "Todo quieto y firme",
+      "vo": "Paso uno. Apretá abdomen y glúteos. Solo se mueve el hombro: el resto del cuerpo queda quieto y firme.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            760,
+            900
+          ],
+          "text": "SOLO EL HOMBRO",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "ROTÁ EL",
+        "HOMBRO"
+      ],
+      "sub": "Antebrazo se aleja de la pared",
+      "vo": "Paso dos. Rotá lento el hombro alejando el antebrazo de la pared, en el máximo rango sin dolor.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "BACK",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "CERRÁ EL",
+        "CÍRCULO"
+      ],
+      "sub": "Lento y amplio",
+      "vo": "Paso tres. Seguí el círculo completo y volvé al punto de partida, sin encoger el hombro hacia la oreja.",
+      "moves": [
+        {
+          "cut": "BACK",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.5,
+          "dur": 1.2
+        },
+        {
+          "to": "BACK",
+          "at": 2,
+          "dur": 1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            760,
+            900
+          ],
+          "text": "SIN ENCOGER",
+          "anchor": "middle",
+          "at": 1
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "CAMBIÁ",
+        "DE SENTIDO"
+      ],
+      "sub": "3 a 5 por dirección",
+      "vo": "Paso cuatro. Hacé de tres a cinco repeticiones y después invertí el sentido de la rotación.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BACK",
+              1
+            ],
+            [
+              "DOWN",
+              1
+            ],
+            [
+              "BACK",
+              1
+            ],
+            [
+              "UP",
+              1
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Lento y en el máximo rango",
+        "Solo se mueve el hombro",
+        "Sin dolor",
+        "3 a 5 por dirección"
+      ],
+      "vo": "Claves: movimiento lento y en el máximo rango sin dolor, solo se mueve el hombro, y de tres a cinco repeticiones por dirección.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEG"
+      ],
+      "sub": "Cada hombro, lento",
+      "vo": "Treinta segundos por hombro. Lento, amplio y con el cuerpo firme.",
+      "chips": [
+        {
+          "label": "1 · CODO",
+          "at": 0.6
+        },
+        {
+          "label": "2 · ROTÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BACK",
+              1
+            ],
+            [
+              "DOWN",
+              1
+            ],
+            [
+              "BACK",
+              1
+            ],
+            [
+              "UP",
+              1
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "grip": 0
+  },
+  "youtube": {
+    "titulo": "Wall Shoulder CAR 🔥 movilidad de hombros paso a paso | CrossFit",
+    "descripcion": "🔥 WALL SHOULDER CAR — hombros móviles y controlados.\n\nSi sentís los hombros tensos o limitados arriba de la cabeza, este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate de costado junto a la pared y apoyá el codo a la altura del hombro, a noventa grados, con el antebrazo arriba.\n2️⃣ Apretá abdomen y glúteos. Solo se mueve el hombro: el resto del cuerpo queda quieto y firme.\n3️⃣ Rotá lento el hombro alejando el antebrazo de la pared, en el máximo rango sin dolor.\n4️⃣ Seguí el círculo completo y volvé al punto de partida, sin encoger el hombro hacia la oreja.\n5️⃣ Hacé de tres a cinco repeticiones y después invertí el sentido de la rotación.\n\n✅ CLAVES DE TÉCNICA\n• Movimiento lento y en el máximo rango sin dolor\n• Solo se mueve el hombro: el resto del cuerpo queda quieto y firme\n• 3 a 5 repeticiones por dirección\n• No encoger el hombro hacia la oreja\n\n🎯 QUÉ TRABAJA\nDeltoides anterior · Dorsal ancho · Trapecio superior\n\n⏱️ CUÁNTO\n30 segundos por hombro, en la entrada en calor antes de presses o movimientos sobre la cabeza.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\r\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #WallShoulderCAR #Hombros #Entrenamiento",
+    "tags": [
+      "wall shoulder car",
+      "car de hombro",
+      "rotación articular controlada",
+      "movilidad de hombros",
+      "entrada en calor",
+      "hombros",
+      "crossfit",
+      "movilidad",
+      "control articular",
+      "hombro sano"
+    ]
+  }
+}

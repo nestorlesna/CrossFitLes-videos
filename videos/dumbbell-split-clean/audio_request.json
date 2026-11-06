@@ -1,0 +1,49 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Dumbbell Split Clean",
+      "text": "Mancuernas del piso a los hombros, cayendo en tijera."
+    },
+    {
+      "id": "02",
+      "text": "De pie, una mancuerna en cada mano al costado y los pies al ancho de cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá con la espalda recta y las mancuernas al piso, entre los pies."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Extendé la cadera y los tobillos de golpe, con las mancuernas pegadas."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Caé en tijera y recibí las mancuernas en los hombros."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Juntá los pies y terminá de pie, con las mancuernas en los hombros."
+    },
+    {
+      "id": "07",
+      "text": "Así no: si redondeás la espalda, la fuerza se va a la lumbar y no al piso."
+    },
+    {
+      "id": "08",
+      "text": "Claves: extensión completa de cadera, mancuernas cerca del cuerpo, caé en tijera y juntá los pies."
+    },
+    {
+      "id": "09",
+      "text": "Cinco repeticiones, explosivo y con la espalda recta todo el tiempo."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

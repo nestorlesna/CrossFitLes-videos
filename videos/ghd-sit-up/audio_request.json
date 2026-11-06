@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "GHD Sit-Up",
+      "text": "El abdominal en máquina GHD. Máxima demanda de core y cadera."
+    },
+    {
+      "id": "02",
+      "text": "Ubicá la cadera en el almohadón con los pies firmes bajo los rodillos. Sentate derecho, con el core activo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá el torso hasta la horizontal o un poco más, sin colgar la cabeza ni arquear la espalda."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Mantené el cuello neutro: la cabeza acompaña el torso y no cuelga hacia atrás."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Subí extendiendo las rodillas para traer el tronco hacia adelante."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Arriba, tocá los pies con las manos con el abdomen bien contraído. Empezá con pocas repeticiones."
+    },
+    {
+      "id": "07",
+      "text": "Claves: bajá hasta la horizontal, cuello neutro, extendé las rodillas al subir y empezá con pocas repeticiones."
+    },
+    {
+      "id": "08",
+      "text": "Diez repeticiones. Bajá hasta la horizontal, subí con fuerza y tocá los pies."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

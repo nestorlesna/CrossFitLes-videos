@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "bf4a82b0-5a50-430e-a9ff-3825426a0ba1",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "8e42b365de84f144dee0b72b21436b7f2cde5155952fa3006f3f35edad1ba051",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\bf4a82b0-5a50-430e-a9ff-3825426a0ba1\\blobs\\8e\\8e42b365de84f144dee0b72b21436b7f2cde5155952fa3006f3f35edad1ba051"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\bf4a82b0-5a50-430e-a9ff-3825426a0ba1\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "f5eb933503d589d69be0a71f8b80887d88138b6ae3dfddd98ea0e7101a229d6d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\bf4a82b0-5a50-430e-a9ff-3825426a0ba1\\blobs\\f5\\f5eb933503d589d69be0a71f8b80887d88138b6ae3dfddd98ea0e7101a229d6d"
+    },
+    "meta.json": {
+      "hash": "eb4f6a8f9be1cf57495e7d0c4b0ab36d7c26e05e533d23bed72cddcd1379ff47",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\bf4a82b0-5a50-430e-a9ff-3825426a0ba1\\blobs\\eb\\eb4f6a8f9be1cf57495e7d0c4b0ab36d7c26e05e533d23bed72cddcd1379ff47"
+    },
+    "package.json": {
+      "hash": "4d163fb73fdacc8abf75d263884c9e1d68c4480f7039468e0609f595d325f7d6",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\bf4a82b0-5a50-430e-a9ff-3825426a0ba1\\blobs\\4d\\4d163fb73fdacc8abf75d263884c9e1d68c4480f7039468e0609f595d325f7d6"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "187da073-8a24-4eaa-b7d2-256d7e7fac5d",
+      "completedAt": 1793879437270,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\kettlebell-ground-to-overhead\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

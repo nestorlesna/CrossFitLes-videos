@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "6eeaa8e0-ef69-48ec-b256-fc9a576f29d5",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "6e0c2f3feb501ed4aa8db2ca1d315112bfa41d550dd35c99c3c3e8c0c6e88896",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\6eeaa8e0-ef69-48ec-b256-fc9a576f29d5\\blobs\\6e\\6e0c2f3feb501ed4aa8db2ca1d315112bfa41d550dd35c99c3c3e8c0c6e88896"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\6eeaa8e0-ef69-48ec-b256-fc9a576f29d5\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "99a5e699097f5e639f02e42105d561d3813b006a7ecc6ab506fce1a3552a4634",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\6eeaa8e0-ef69-48ec-b256-fc9a576f29d5\\blobs\\99\\99a5e699097f5e639f02e42105d561d3813b006a7ecc6ab506fce1a3552a4634"
+    },
+    "meta.json": {
+      "hash": "3a605122a93678f5f67ef6ac34e9188a717bd8d64bbff65229c34b5d4b6583ed",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\6eeaa8e0-ef69-48ec-b256-fc9a576f29d5\\blobs\\3a\\3a605122a93678f5f67ef6ac34e9188a717bd8d64bbff65229c34b5d4b6583ed"
+    },
+    "package.json": {
+      "hash": "bb6336da3231b5eee822cb6a525340cabf1b461077060595c2749ec81a3dfb69",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\6eeaa8e0-ef69-48ec-b256-fc9a576f29d5\\blobs\\bb\\bb6336da3231b5eee822cb6a525340cabf1b461077060595c2749ec81a3dfb69"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "a7b61a69-1a8a-4302-ad85-b87b9b98aa64",
+      "completedAt": 1793881161231,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\elliptical-trainer\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

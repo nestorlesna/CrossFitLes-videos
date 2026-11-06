@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Sandbag Carry",
+      "text": "Cargar un sándbag y caminar. Core de acero, agarre y postura."
+    },
+    {
+      "id": "02",
+      "text": "Cargá el sándbag contra el pecho y abrazalo fuerte. Codos pegados, pies al ancho de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Antes de caminar, apretá el abdomen y los glúteos. Hombros atrás, mirada al frente."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Caminá con pasos cortos y estables. Que el sándbag no se mueva ni se te caiga hacia adelante."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Evitá arquear la espalda baja para compensar el peso. Cuerpo largo, costillas abajo."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Respirá sin soltar la tensión y completá la distancia. Al terminar, bajá el sándbag con control."
+    },
+    {
+      "id": "07",
+      "text": "Claves: sándbag abrazado al torso, pasos cortos y estables, sin arquear la espalda baja y el core activo todo el recorrido."
+    },
+    {
+      "id": "08",
+      "text": "Diez repeticiones de ida y vuelta. Pasos cortos, postura erguida y agarre firme."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

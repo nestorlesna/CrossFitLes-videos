@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "a9fbc03e-a54b-41e5-b87f-687be2834c5c",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "1d5cbde5660ff00fbe9d2fe4e8969685b7e1087eeffb5f4d6e3d3afce54616bf",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a9fbc03e-a54b-41e5-b87f-687be2834c5c\\blobs\\1d\\1d5cbde5660ff00fbe9d2fe4e8969685b7e1087eeffb5f4d6e3d3afce54616bf"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a9fbc03e-a54b-41e5-b87f-687be2834c5c\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "92087c1d9049dc7af2bd30d390a0f80a0e169f430460087ad183d706146d7120",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a9fbc03e-a54b-41e5-b87f-687be2834c5c\\blobs\\92\\92087c1d9049dc7af2bd30d390a0f80a0e169f430460087ad183d706146d7120"
+    },
+    "meta.json": {
+      "hash": "0d631416927080a4e96aa1561d63de77f583a51ac11aec67298f8350b6f0419e",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a9fbc03e-a54b-41e5-b87f-687be2834c5c\\blobs\\0d\\0d631416927080a4e96aa1561d63de77f583a51ac11aec67298f8350b6f0419e"
+    },
+    "package.json": {
+      "hash": "b7e136ddf99044d31cf5c49e2fe78030990aca3aee763add7aba6fc1f5e5fb2a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a9fbc03e-a54b-41e5-b87f-687be2834c5c\\blobs\\b7\\b7e136ddf99044d31cf5c49e2fe78030990aca3aee763add7aba6fc1f5e5fb2a"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "23bc4ea9-91c6-400f-82ce-4919738985b1",
+      "completedAt": 1793881220495,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\stair-climber\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

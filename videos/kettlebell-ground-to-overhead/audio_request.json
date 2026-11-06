@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Kettlebell Ground to Overhead",
+      "text": "Del piso a la cabeza en un solo gesto, con la cadera como motor."
+    },
+    {
+      "id": "02",
+      "text": "Arrancá en bisagra con la pesa entre los pies: espalda neutra, pecho arriba y cadera atrás."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Extendé la cadera y pasá la pesa cerca del cuerpo: el impulso sale de las piernas, no del brazo."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Cuando la pesa pasa el pecho, acompañá con el brazo y terminá con el codo bloqueado arriba."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Terminá con cadera, rodillas y codo extendidos: el bloqueo se sostiene medio segundo."
+    },
+    {
+      "id": "06",
+      "text": "El error: levantar con la espalda redonda. Pecho arriba y espalda neutra desde el piso."
+    },
+    {
+      "id": "07",
+      "text": "Claves: espalda neutra, cadera como motor, la pesa cerca y bloqueo final con el brazo estirado."
+    },
+    {
+      "id": "08",
+      "text": "Diecinueve repeticiones con veinticuatro kilos. Si la espalda se redondea, bajá el peso."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

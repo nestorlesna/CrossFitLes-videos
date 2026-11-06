@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "594ff40f-314f-45c6-bedc-37201966af01",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "deba52c734a84374edf8b74f663a8e1c66a5cb9df5ccf93297fd74b3412106ca",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\594ff40f-314f-45c6-bedc-37201966af01\\blobs\\de\\deba52c734a84374edf8b74f663a8e1c66a5cb9df5ccf93297fd74b3412106ca"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\594ff40f-314f-45c6-bedc-37201966af01\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "db736ff9614c13391d4a5621d619506e0aecae405875b48f40e10a2d8290c6c5",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\594ff40f-314f-45c6-bedc-37201966af01\\blobs\\db\\db736ff9614c13391d4a5621d619506e0aecae405875b48f40e10a2d8290c6c5"
+    },
+    "meta.json": {
+      "hash": "17a31c06bfe79a1eabf471ff59c308817216ba66589ef11f815591690f739a87",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\594ff40f-314f-45c6-bedc-37201966af01\\blobs\\17\\17a31c06bfe79a1eabf471ff59c308817216ba66589ef11f815591690f739a87"
+    },
+    "package.json": {
+      "hash": "0606e46a85654916cacc288b67fa7057e798937b725e389ef73c2276d04a280b",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\594ff40f-314f-45c6-bedc-37201966af01\\blobs\\06\\0606e46a85654916cacc288b67fa7057e798937b725e389ef73c2276d04a280b"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "81844171-4742-4491-9a02-869266a0c7d2",
+      "completedAt": 1793879189466,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\dumbbell-farmer-hold\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

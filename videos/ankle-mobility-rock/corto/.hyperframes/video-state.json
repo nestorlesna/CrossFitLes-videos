@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "c09cf890-6f28-4027-9f20-0b5cb1be556b",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "fb957e943e650c06c12bc4b65ff6a4a8ec96d88880b7d5fb5509d83f91cfe61f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\c09cf890-6f28-4027-9f20-0b5cb1be556b\\blobs\\fb\\fb957e943e650c06c12bc4b65ff6a4a8ec96d88880b7d5fb5509d83f91cfe61f"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\c09cf890-6f28-4027-9f20-0b5cb1be556b\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "147ceae48143721c81fb25ce85cc1dc197bf672b5a8fa02fd366e870ed0cd9c8",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\c09cf890-6f28-4027-9f20-0b5cb1be556b\\blobs\\14\\147ceae48143721c81fb25ce85cc1dc197bf672b5a8fa02fd366e870ed0cd9c8"
+    },
+    "meta.json": {
+      "hash": "60e32566b6c422642b262d1cea62b9cc0d7ff04f56eca882bf91e87e18afde1a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\c09cf890-6f28-4027-9f20-0b5cb1be556b\\blobs\\60\\60e32566b6c422642b262d1cea62b9cc0d7ff04f56eca882bf91e87e18afde1a"
+    },
+    "package.json": {
+      "hash": "86398a31cbf1bace676b0efde74a16bf32676b9d8394c76d0915d14e699fcc57",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\c09cf890-6f28-4027-9f20-0b5cb1be556b\\blobs\\86\\86398a31cbf1bace676b0efde74a16bf32676b9d8394c76d0915d14e699fcc57"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "dc446c5b-799b-45a3-b3cd-87db6e8587ed",
+      "completedAt": 1793874294348,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\ankle-mobility-rock\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

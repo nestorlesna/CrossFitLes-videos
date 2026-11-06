@@ -1,0 +1,380 @@
+{
+  "slug": "jumping-jack",
+  "name": "Jumping Jack",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Piernas",
+    "Hombros",
+    "Cardio"
+  ],
+  "descripcion": "Salto abriendo y cerrando piernas mientras los brazos suben por los costados hasta juntarse arriba. Ritmo continuo, aterrizaje suave sobre la planta del pie.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "pronuncia": {
+    "Jumping Jack": "Yámping yak"
+  },
+  "initialPose": "STAND",
+  "props": [],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "OPEN": {
+      "hip": [
+        0,
+        -440
+      ],
+      "ankle": [
+        150,
+        0
+      ],
+      "ankle2": [
+        -150,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 176,
+      "fa": 4,
+      "ua2": 176,
+      "fa2": 4
+    },
+    "AIR_OPEN": {
+      "hip": [
+        0,
+        -500
+      ],
+      "ankle": [
+        150,
+        -40
+      ],
+      "ankle2": [
+        -150,
+        -40
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 176,
+      "fa": 4,
+      "ua2": 176,
+      "fa2": 4
+    },
+    "AIR_CLOSE": {
+      "hip": [
+        0,
+        -520
+      ],
+      "ankle": [
+        20,
+        -60
+      ],
+      "ankle2": [
+        -20,
+        -60
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 25,
+      "fa": 4,
+      "ua2": 25,
+      "fa2": 4
+    },
+    "STIFF_BAD": {
+      "hip": [
+        0,
+        -440
+      ],
+      "ankle": [
+        150,
+        0
+      ],
+      "ankle2": [
+        -150,
+        0
+      ],
+      "b": 14,
+      "hd": 10,
+      "g": 0,
+      "ua": 150,
+      "fa": 4,
+      "ua2": 150,
+      "fa2": 4
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "JUMPING",
+        "JACK"
+      ],
+      "vo": "Jumping Jack: el salto abriendo y cerrando piernas y brazos. El clásico para entrar en calor.",
+      "moves": [
+        {
+          "to": "OPEN",
+          "at": 0.3,
+          "dur": 0.3
+        },
+        {
+          "seq": [
+            [
+              "STAND",
+              0.35
+            ],
+            [
+              "OPEN",
+              0.35
+            ]
+          ],
+          "at": 0.8,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PARADO",
+        "FIRME"
+      ],
+      "sub": "Pies juntos, brazos al costado",
+      "vo": "Parate con los pies juntos y los brazos pegados a los costados. Mirada al frente y abdomen firme.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "SALTÁ Y",
+        "ABRÍ"
+      ],
+      "sub": "Piernas y brazos a la vez",
+      "vo": "Paso uno. Saltá abriendo las piernas más allá del ancho de los hombros y subí los brazos por los costados.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "AIR_OPEN",
+          "at": 0.5,
+          "dur": 0.35
+        },
+        {
+          "to": "OPEN",
+          "at": 0.85,
+          "dur": 0.25
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            300,
+            800
+          ],
+          "text": "ABRÍ PIERNAS Y BRAZOS",
+          "anchor": "middle",
+          "at": 1.3
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "BRAZOS",
+        "ARRIBA"
+      ],
+      "sub": "Palmas casi se tocan",
+      "vo": "Paso dos. Arriba, los brazos se juntan sobre la cabeza sin bloquear los codos. Aterrizá suave sobre la planta del pie.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            300,
+            800
+          ],
+          "text": "PALMAS ARRIBA",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "SALTÁ Y",
+        "CERRÁ"
+      ],
+      "sub": "Volvé al inicio",
+      "vo": "Paso tres. Saltá otra vez juntando los pies y bajando los brazos a los costados.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "to": "AIR_CLOSE",
+          "at": 0.5,
+          "dur": 0.35
+        },
+        {
+          "to": "STAND",
+          "at": 0.85,
+          "dur": 0.3
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "RITMO",
+        "CONTINUO"
+      ],
+      "sub": "Sin parar, sin pesadez",
+      "vo": "Paso cuatro. Encadená los saltos a ritmo parejo: abrir, cerrar, abrir. Que el aterrizaje sea liviano y silencioso.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "OPEN",
+              0.35
+            ],
+            [
+              "STAND",
+              0.35
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Rodillas alineadas con la punta",
+        "Codos sin bloquear arriba",
+        "Aterrizaje liviano en planta",
+        "Abdomen firme"
+      ],
+      "vo": "Claves: rodillas alineadas con la punta de los pies, codos sin bloquear arriba, aterrizaje liviano sobre la planta y abdomen firme.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "20 SEG"
+      ],
+      "sub": "Ritmo continuo",
+      "vo": "Veinte segundos a ritmo continuo. Abrí, cerrá y mantené el aterrizaje liviano.",
+      "chips": [
+        {
+          "label": "1 · ABRÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · ARRIBA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · CERRÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "OPEN",
+              0.35
+            ],
+            [
+              "STAND",
+              0.35
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "OPEN",
+    "grip": 0
+  },
+  "youtube": {
+    "titulo": "Jumping Jack 🔥 entrada en calor y cardio paso a paso | CrossFit",
+    "descripcion": "🔥 JUMPING JACK — cardio y entrada en calor en un solo movimiento.\n\nSubí el pulso sin equipamiento, sin espacio y en menos de un minuto. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate con los pies juntos y los brazos pegados a los costados, mirada al frente y abdomen firme.\n2️⃣ Saltá abriendo las piernas más allá del ancho de los hombros y subí los brazos por los costados.\n3️⃣ Arriba, los brazos se juntan sobre la cabeza sin bloquear los codos. Aterrizá suave sobre la planta del pie.\n4️⃣ Saltá otra vez juntando los pies y bajando los brazos a los costados.\n5️⃣ Encadená los saltos a ritmo parejo: abrir, cerrar, abrir, con un aterrizaje liviano y silencioso.\n\n✅ CLAVES DE TÉCNICA\n• Rodillas alineadas con la punta de los pies al aterrizar\n• No bloquear los codos arriba\n• Aterrizaje suave sobre la planta, sin dejar caer los talones de golpe\n• Abdomen firme\n\n🎯 QUÉ TRABAJA\nGemelos · Deltoides lateral · Glúteo medio · Cuádriceps · Sóleo\n\n⏱️ CUÁNTO\n20 segundos a ritmo continuo, ideal en la entrada en calor o como pausa activa dentro de un WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés molestias en rodillas o tobillos, bajá el impacto: hacelo con pasos laterales en vez de saltos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\r\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #JumpingJack #Cardio #Entrenamiento",
+    "tags": [
+      "jumping jack",
+      "jumping jacks",
+      "saltos de tijera",
+      "entrada en calor",
+      "cardio sin equipo",
+      "crossfit",
+      "ejercicio en casa",
+      "calentamiento",
+      "cardio en casa",
+      "ejercicio aeróbico"
+    ]
+  }
+}

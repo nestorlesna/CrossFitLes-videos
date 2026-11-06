@@ -1,0 +1,388 @@
+{
+  "slug": "ring-handstand-push-up",
+  "name": "Ring Handstand Push-Up",
+  "category": "CROSSFIT · HABILIDAD",
+  "tags": [
+    "Hombros",
+    "Tríceps",
+    "Core"
+  ],
+  "descripcion": "Flexión invertida en anillas. Mayor rango de movimiento y dificultad que el HSPU en pared.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.5
+  },
+  "pronuncia": {
+    "Ring Handstand Push-Up": "Ring jándstand push ap"
+  },
+  "initialPose": "TOP",
+  "props": [
+    {
+      "type": "rings",
+      "anchor": [
+        0,
+        -1700
+      ],
+      "postX": -430
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "TOP": {
+      "hip": [
+        0,
+        -780
+      ],
+      "ankle": [
+        0,
+        -1250
+      ],
+      "b": 180,
+      "hd": 180,
+      "g": 1,
+      "hx": 0,
+      "hy": -40,
+      "ed": 1
+    },
+    "HALF": {
+      "hip": [
+        0,
+        -680
+      ],
+      "ankle": [
+        0,
+        -1150
+      ],
+      "b": 180,
+      "hd": 180,
+      "g": 1,
+      "hx": 0,
+      "hy": -40,
+      "ed": -1
+    },
+    "BOTTOM": {
+      "hip": [
+        0,
+        -580
+      ],
+      "ankle": [
+        0,
+        -1050
+      ],
+      "b": 180,
+      "hd": 180,
+      "g": 1,
+      "hx": 0,
+      "hy": -40,
+      "ed": -1
+    },
+    "ARCH_BAD": {
+      "hip": [
+        -40,
+        -780
+      ],
+      "ankle": [
+        90,
+        -1230
+      ],
+      "b": 168,
+      "hd": 172,
+      "g": 1,
+      "hx": 0,
+      "hy": -40,
+      "ed": 1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · HABILIDAD",
+      "head": [
+        "RING HANDSTAND",
+        "PUSH-UP"
+      ],
+      "vo": "Ring Handstand Push-Up: la flexión invertida en anillas. Solo para atletas avanzados.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "HALF",
+              0.6
+            ],
+            [
+              "BOTTOM",
+              0.6
+            ],
+            [
+              "HALF",
+              0.6
+            ],
+            [
+              "TOP",
+              0.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "INVERTIDO EN",
+        "LAS ANILLAS"
+      ],
+      "sub": "Brazos bloqueados",
+      "vo": "Arrancá en vertical sobre las anillas, con los brazos bloqueados y el cuerpo en una línea.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "ANILLAS",
+        "ESTABLES"
+      ],
+      "sub": "Pegadas a los hombros",
+      "vo": "Paso uno. Mantené las anillas estables y pegadas a los hombros. Abdomen y glúteos apretados.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 0.6,
+          "dur": 0.5
+        },
+        {
+          "to": "TOP",
+          "at": 1.8,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            780,
+            1050
+          ],
+          "text": "ARCO LUMBAR: NO",
+          "anchor": "middle",
+          "at": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "BAJÁ",
+        "CONTROLADO"
+      ],
+      "sub": "Hasta la cabeza cerca del piso",
+      "vo": "Paso dos. Bajá controlado flexionando los codos, con la cabeza entre las manos.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "to": "BOTTOM",
+          "at": 1.5,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "EMPUJÁ",
+        "ARRIBA"
+      ],
+      "sub": "Hasta bloquear",
+      "vo": "Paso tres. Empujá hasta bloquear los brazos, con las anillas giradas hacia afuera arriba.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.5,
+          "dur": 0.7
+        },
+        {
+          "to": "TOP",
+          "at": 1.2,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "SOLO SI",
+        "ESTÁS LISTO"
+      ],
+      "sub": "HSPU estricto primero",
+      "vo": "Paso cuatro. Hacelo solo con un handstand push-up estricto sólido en pared. Antes, progresá con un coach.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "HALF",
+              0.6
+            ],
+            [
+              "BOTTOM",
+              0.6
+            ],
+            [
+              "HALF",
+              0.6
+            ],
+            [
+              "TOP",
+              0.6
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Anillas estables y pegadas",
+        "Cuerpo en una línea",
+        "Bajar controlado",
+        "Bloquear arriba"
+      ],
+      "vo": "Claves: anillas estables y pegadas a los hombros, cuerpo en una línea, bajá controlado y bloqueá arriba.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 REPS"
+      ],
+      "sub": "Con control",
+      "vo": "Tres repeticiones. Bajá con control y empujá hasta bloquear.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · CABEZA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · EMPUJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "HALF",
+              0.6
+            ],
+            [
+              "BOTTOM",
+              0.6
+            ],
+            [
+              "HALF",
+              0.6
+            ],
+            [
+              "TOP",
+              0.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "HALF",
+    "grip": 1,
+    "zoom": 0.9,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Ring Handstand Push-Up 🔥 hombros y tríceps paso a paso | CrossFit",
+    "descripcion": "🔥 RING HANDSTAND PUSH-UP — hombros y tríceps al máximo en vertical.\n\nSi ya dominás el handstand push-up en pared, este es el siguiente nivel. 💪\n\n📋 PASO A PASO\n1️⃣ Arrancá en vertical sobre las anillas, con los brazos bloqueados y el cuerpo en una línea.\n2️⃣ Mantené las anillas estables y pegadas a los hombros, con abdomen y glúteos apretados.\n3️⃣ Bajá controlado flexionando los codos, con la cabeza entre las manos.\n4️⃣ Empujá hasta bloquear los brazos, con las anillas giradas hacia afuera arriba.\n5️⃣ Hacelo solo con un handstand push-up estricto sólido en pared. Antes, progresá con un coach.\n\n✅ CLAVES DE TÉCNICA\n• Anillas estables y pegadas a los hombros\n• Cuerpo en línea, abdomen y glúteos firmes\n• Bajar controlado\n• Bloquear arriba con las anillas giradas hacia afuera\n\n🎯 QUÉ TRABAJA\nDeltoides anterior · Trapecio superior · Tríceps braquial · Pectoral mayor · Recto abdominal\n\n⏱️ CUÁNTO\n3 repeticiones de calidad, como trabajo de habilidad.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSolo para atletas con HSPU estricto sólido. Practicalo con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\r\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Habilidad #RingHandstandPushUp #Hombros #Entrenamiento",
+    "tags": [
+      "ring handstand push up",
+      "flexión invertida en anillas",
+      "handstand push up",
+      "anillas",
+      "hspu",
+      "gimnasia",
+      "crossfit",
+      "hombros",
+      "verticales",
+      "calistenia"
+    ]
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "slug": "reverse-snow-angels",
+  "name": "Reverse Snow Angels",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Espalda baja",
+    "Glúteos",
+    "Core"
+  ],
+  "descripcion": "Boca abajo, con los brazos al costado, barrer los brazos por el piso desde la cadera hasta arriba de la cabeza y volver, manteniendo el pecho cerca del suelo.",
+  "revisado": false,
+  "notas": "Snow angels invertidos en prono; brazos barren de cadera a overhead.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 490,
+    "y": 1500,
+    "scale": 0.84
+  },
+  "initialPose": "PRONE",
+  "poses": {
+    "PRONE": {
+      "hip": [
+        -30,
+        -8
+      ],
+      "s": 90,
+      "t": 90,
+      "ft": 175,
+      "ft2": 175,
+      "b": 92,
+      "hd": 100,
+      "g": 0,
+      "ua": 20,
+      "fa": 0,
+      "ua2": 20,
+      "fa2": 0
+    },
+    "MID": {
+      "hip": [
+        -30,
+        -8
+      ],
+      "s": 90,
+      "t": 90,
+      "ft": 175,
+      "ft2": 175,
+      "b": 92,
+      "hd": 100,
+      "g": 0,
+      "ua": 95,
+      "fa": 0,
+      "ua2": 95,
+      "fa2": 0
+    },
+    "OVERHEAD": {
+      "hip": [
+        -30,
+        -8
+      ],
+      "s": 90,
+      "t": 90,
+      "ft": 175,
+      "ft2": 175,
+      "b": 92,
+      "hd": 100,
+      "g": 0,
+      "ua": 168,
+      "fa": 0,
+      "ua2": 168,
+      "fa2": 0
+    },
+    "LIFT_BAD": {
+      "hip": [
+        -30,
+        -8
+      ],
+      "s": 90,
+      "t": 90,
+      "ft": 175,
+      "ft2": 175,
+      "b": 74,
+      "hd": 92,
+      "g": 0,
+      "ua": 95,
+      "fa": 0,
+      "ua2": 95,
+      "fa2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · MOVILIDAD",
+      "head": [
+        "REVERSE",
+        "SNOW ANGELS"
+      ],
+      "vo": "Reverse Snow Angels: boca abajo, los brazos barren el piso de la cadera a la cabeza. Hombros y escápulas.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "PRONE",
+              0.8
+            ],
+            [
+              "OVERHEAD",
+              1.0
+            ],
+            [
+              "PRONE",
+              0.8
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BOCA",
+        "ABAJO"
+      ],
+      "sub": "Brazos al costado",
+      "vo": "Acostate boca abajo con los brazos al costado del cuerpo y la frente apoyada, sin despegar el pecho.",
+      "moves": [
+        {
+          "cut": "PRONE",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BARRÉ",
+        "HACIA ARRIBA"
+      ],
+      "sub": "Pegado al piso",
+      "vo": "Paso uno. Barré los brazos por el piso, desde la cadera hacia arriba de la cabeza, sin despegar el pecho.",
+      "moves": [
+        {
+          "cut": "PRONE",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.7,
+          "dur": 0.9
+        },
+        {
+          "to": "OVERHEAD",
+          "at": 1.6,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            900
+          ],
+          "text": "PECHO ABAJO",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ARRIBA DE",
+        "LA CABEZA"
+      ],
+      "sub": "Sin arquear",
+      "vo": "Paso dos. Llegá arriba de la cabeza con los brazos largos, sin arquear la lumbar ni levantar el pecho.",
+      "moves": [
+        {
+          "cut": "OVERHEAD",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            760
+          ],
+          "text": "BRAZOS LARGOS",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "ASÍ NO",
+      "head": [
+        "LEVANTAR",
+        "EL PECHO"
+      ],
+      "sub": "Se pierde el trabajo",
+      "vo": "Así no. Si levantás el pecho para llegar más arriba, el hombro deja de trabajar. Quedate abajo.",
+      "moves": [
+        {
+          "cut": "PRONE",
+          "at": 0
+        },
+        {
+          "to": "LIFT_BAD",
+          "at": 0.8,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            1000
+          ],
+          "text": "NO LEVANTES",
+          "anchor": "middle",
+          "at": 0.9
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Pecho cerca del piso",
+        "Brazos largos",
+        "Sin arquear la lumbar",
+        "Ritmo lento"
+      ],
+      "vo": "Claves: pecho abajo, brazos largos, sin arquear la lumbar y ritmo lento.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Lento y controlado",
+      "vo": "Diez repeticiones lentas. Subí y bajá los brazos por el piso, sin apuro y respirando.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · ARRIBA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "OVERHEAD",
+              1.0
+            ],
+            [
+              "PRONE",
+              1.0
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "MID",
+    "grip": 0,
+    "zoom": 1.0,
+    "dy": 250
+  },
+  "youtube": {
+    "titulo": "Reverse Snow Angels 🔥 Movilidad de hombros boca abajo | CrossFit",
+    "tags": [
+      "reverse snow angels",
+      "snow angels",
+      "movilidad de hombros",
+      "prono",
+      "escápulas",
+      "hombros",
+      "espalda",
+      "crossfit",
+      "movilidad"
+    ],
+    "descripcion": "🔥 REVERSE SNOW ANGELS — movilidad de hombros boca abajo\n\n¿Hombros rígidos? Los reverse snow angels abren la escápula y movilizan el hombro sin cargar peso. Solo necesitás el piso. 💪\n\n📋 PASO A PASO\n1️⃣ Acostate boca abajo con los brazos al costado del cuerpo.\n2️⃣ Barré los brazos por el piso desde la cadera hacia arriba de la cabeza.\n3️⃣ Llegá arriba de la cabeza con los brazos largos.\n4️⃣ Volvé despacio a la posición inicial.\n5️⃣ Mantené el pecho cerca del piso todo el tiempo.\n\n✅ CLAVES DE TÉCNICA\n• Pecho cerca del piso\n• Brazos largos\n• Sin arquear la lumbar\n• Ritmo lento\n• Respirá parejo\n\n🎯 QUÉ TRABAJA\nHombros · Escápulas · Espalda alta · Core\n\n⏱️ CUÁNTO\n10 repeticiones lentas. Dos series como entrada en calor.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi te molesta el hombro, acortá el rango y quedate en la mitad del recorrido.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #SnowAngels #Movilidad #Hombros #Escapulas"
+  },
+  "pronuncia": {
+    "Superman Hold": "Súperman jold",
+    "superman": "súperman"
+  }
+}

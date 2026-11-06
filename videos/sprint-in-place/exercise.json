@@ -1,0 +1,178 @@
+{
+  "slug": "sprint-in-place",
+  "name": "Sprint In Place",
+  "revisado": false,
+  "notas": "Carrera explosiva en el lugar: torso inclinado desde el tobillo, rodillas que suben alternadas, contacto breve y braceo corto. El error es quebrar la cadera y sacar la cola para inclinarse.",
+  "rig": { "x": 500, "y": 1503, "scale": 0.85 },
+  "initialPose": "STAND_RDY",
+  "category": "CROSSFIT · CARDIO",
+  "tags": ["Recto femoral", "Bíceps femoral", "Cardio"],
+  "poses": {
+    "STAND_RDY": {
+      "hip": [-4, -452],
+      "ankle": [12, 0],
+      "ankle2": [-26, 0],
+      "b": 13,
+      "hd": 7,
+      "ua": -22,
+      "fa": 96,
+      "ua2": 44,
+      "fa2": 96
+    },
+    "DRIVE_N": {
+      "hip": [-2, -450],
+      "ankle": [205, -305],
+      "ankle2": [-150, -4],
+      "ft": -18,
+      "b": 15,
+      "hd": 8,
+      "ua": -50,
+      "fa": 104,
+      "ua2": 54,
+      "fa2": 100
+    },
+    "DRIVE_F": {
+      "hip": [-2, -450],
+      "ankle": [-150, -4],
+      "ankle2": [205, -305],
+      "ft2": -18,
+      "b": 15,
+      "hd": 8,
+      "ua": 54,
+      "fa": 100,
+      "ua2": -50,
+      "fa2": 104
+    },
+    "LEAN_BAD": {
+      "hip": [-92, -430],
+      "ankle": [14, 0],
+      "ankle2": [-24, 0],
+      "b": 46,
+      "hd": 16,
+      "cv": 14,
+      "ua": 8,
+      "fa": 24,
+      "ua2": -4,
+      "fa2": 18
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · CARDIO",
+      "head": ["SPRINT", "IN PLACE"],
+      "vo": "Sprint In Place: carrera explosiva en el lugar, inclinación desde el tobillo y braceo corto y rápido.",
+      "moves": [
+        { "cut": "STAND_RDY", "at": 0 },
+        { "to": "DRIVE_N", "at": 1, "dur": 0.4 },
+        { "to": "DRIVE_F", "at": 1.9, "dur": 0.4 },
+        { "to": "DRIVE_N", "at": 2.7, "dur": 0.4 },
+        { "to": "DRIVE_F", "at": 3.5, "dur": 0.4 }
+      ]
+    },
+    {
+      "min": 5,
+      "badge": "POSICIÓN INICIAL",
+      "head": ["APOYO", "ACTIVO"],
+      "sub": "Inclinado desde el tobillo",
+      "vo": "De pie con el torso inclinado desde los tobillos, las rodillas blandas y el peso en la planta de los pies.",
+      "moves": [{ "cut": "STAND_RDY", "at": 0 }]
+    },
+    {
+      "min": 5.2,
+      "badge": "PASO 1 / 3",
+      "head": ["RODILLA", "ADELANTE"],
+      "sub": "Rodilla alta",
+      "vo": "Paso uno. Llevá una rodilla adelante y arriba, con la pierna de atrás empujando el piso.",
+      "moves": [
+        { "cut": "STAND_RDY", "at": 0 },
+        { "to": "DRIVE_N", "at": 0.9, "dur": 0.5 }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "PASO 2 / 3",
+      "head": ["CAMBIO", "RÁPIDO"],
+      "sub": "Contacto breve",
+      "vo": "Paso dos. Cambiá de pie rápido, con el contacto breve y la cadera estable sobre el apoyo.",
+      "moves": [
+        { "cut": "DRIVE_N", "at": 0 },
+        { "to": "DRIVE_F", "at": 0.7, "dur": 0.4 },
+        { "to": "DRIVE_N", "at": 1.5, "dur": 0.4 },
+        { "to": "DRIVE_F", "at": 2.3, "dur": 0.4 }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "PASO 3 / 3",
+      "head": ["BRACEO", "CORTO"],
+      "sub": "Codos a 90°",
+      "vo": "Paso tres. Braceá corto y veloz: los codos a noventa grados y las manos cerca del cuerpo.",
+      "moves": [
+        { "cut": "DRIVE_F", "at": 0 },
+        { "loop": ["DRIVE_N", "DRIVE_F"], "at": 0.6, "step": 0.34, "until": "end" }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "ERROR COMÚN",
+      "head": ["CADERA", "QUEBRADA"],
+      "sub": "Error común",
+      "vo": "El error: quebrar la cadera y sacar la cola. La inclinación sale del tobillo, no de la cintura.",
+      "moves": [
+        { "cut": "STAND_RDY", "at": 0 },
+        { "to": "LEAN_BAD", "at": 1, "dur": 0.5 },
+        { "to": "STAND_RDY", "at": 3.2, "dur": 0.5 }
+      ],
+      "overlays": [
+        { "type": "ring", "pos": [470, 1050], "r": 48, "at": 1.4 },
+        { "type": "label", "pos": [400, 1000], "anchor": "end", "text": "TOBILLO, NO CADERA", "at": 1.6 }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.2,
+      "badge": "CLAVES",
+      "head": ["TÉCNICA"],
+      "keys": [
+        "Inclinación desde el tobillo",
+        "Contacto breve con el piso",
+        "Braceo corto y rápido",
+        "Cadera estable, sin sentarse"
+      ],
+      "vo": "Claves: inclinación desde el tobillo, contacto breve, braceo corto y la cadera siempre estable.",
+      "moves": [{ "cut": "DRIVE_N", "at": 0.1 }]
+    },
+    {
+      "kind": "reps",
+      "min": 7,
+      "badge": "A ENTRENAR",
+      "head": ["20 SEG"],
+      "sub": "Máxima frecuencia",
+      "vo": "Veinte segundos a máxima frecuencia, sin perder la postura. Si te falta el aire, bajá el ritmo.",
+      "moves": [
+        { "cut": "STAND_RDY", "at": 0 },
+        { "loop": ["DRIVE_N", "DRIVE_F"], "at": 0.4, "step": 0.34, "until": "end" }
+      ]
+    }
+  ],
+  "descripcion": "Carrera explosiva en el lugar: rodillas altas alternadas, torso inclinado desde el tobillo, contacto breve con el piso y braceo corto y rápido. Sube el pulso y el ritmo cardíaco sin necesitar espacio ni implementos. La inclinación sale del tobillo, no de quebrar la cadera; el contacto es breve y silencioso, y la cadera se mantiene estable sobre el pie de apoyo.",
+  "miniatura": { "pose": "DRIVE_N", "grip": 0, "zoom": 1.08, "dy": 60 },
+  "youtube": {
+    "titulo": "Sprint In Place 🔥 carrera explosiva en el lugar, paso a paso | CrossFit",
+    "descripcion": "🏋️ SPRINT IN PLACE — carrera explosiva sin moverte del lugar\nRodillas altas alternadas, torso inclinado desde el tobillo y braceo corto y rápido. Sube el pulso al instante y no necesita espacio ni implementos. 💪\n\n📋 PASO A PASO\n1️⃣ De pie con el torso inclinado desde los tobillos, las rodillas blandas y el peso en la planta de los pies.\n2️⃣ Llevá una rodilla adelante y arriba, con la pierna de atrás empujando el piso.\n3️⃣ Cambiá de pie rápido, con el contacto breve y la cadera estable sobre el apoyo.\n4️⃣ Braceá corto y veloz: los codos a noventa grados y las manos cerca del cuerpo.\n\n🎯 CLAVES DE TÉCNICA\n✅ La inclinación sale del tobillo, no de quebrar la cadera\n✅ Contacto breve y silencioso con el piso\n✅ Braceo corto y rápido, sin cruzar la línea media\n✅ Cadera estable, sin sentarse atrás\n✅ Frecuencia alta sin perder la postura\n\n🏋️ QUÉ TRABAJA\nRecto femoral · Bíceps femoral · Gastrocnemio · Glúteo mayor · Recto abdominal\n\n⏱️ CUÁNTO\n20 segundos a máxima frecuencia. Ideal como activación o bloque de cardio dentro del WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de entrenamiento.\nSi te falta el aire, bajá la frecuencia pero no la postura: la técnica primero.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #SprintInPlace #Cardio #Activacion #Wod",
+    "tags": [
+      "sprint in place",
+      "carrera en el lugar",
+      "sprint estacionario",
+      "cardio sin espacio",
+      "activacion crossfit",
+      "rodillas altas",
+      "cardio en casa",
+      "entrada en calor",
+      "cardio sin impacto",
+      "crossfit"
+    ]
+  }
+}

@@ -1,0 +1,562 @@
+{
+  "slug": "med-ball-box-step-over",
+  "name": "Med-Ball Box Step-Over",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Glúteos",
+    "Cuádriceps",
+    "Core"
+  ],
+  "descripcion": "Paso sobre el box cargando un balón medicinal pegado al pecho. La variante de menor impacto del box jump-over: se sube, se pasa al otro lado y se baja con control.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1511,
+    "scale": 0.66
+  },
+  "shadow": false,
+  "props": [
+    {
+      "type": "box",
+      "x0": -160,
+      "x1": 160,
+      "h": 220
+    },
+    {
+      "type": "wallball",
+      "wall": false,
+      "r": 64,
+      "off": [
+        40,
+        -26
+      ]
+    }
+  ],
+  "nombreEnVoz": "Kettlebell box step over",
+  "initialPose": "STAND_A",
+  "poses": {
+    "STAND_A": {
+      "hip": [
+        -330,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "ed": 1,
+      "hb": 1,
+      "hx": 70,
+      "hy": 150
+    },
+    "STEP_A": {
+      "hip": [
+        -330,
+        -470
+      ],
+      "ankle": [
+        -120,
+        -222
+      ],
+      "ankle2": [
+        -330,
+        0
+      ],
+      "b": 4,
+      "hd": 2,
+      "g": 1,
+      "ed": 1,
+      "hb": 1,
+      "hx": 70,
+      "hy": 150
+    },
+    "UP_A": {
+      "hip": [
+        -110,
+        -690
+      ],
+      "ankle": [
+        -120,
+        -222
+      ],
+      "ankle2": [
+        -210,
+        -260
+      ],
+      "b": 4,
+      "hd": 2,
+      "g": 1,
+      "ed": 1,
+      "hb": 1,
+      "hx": 70,
+      "hy": 150
+    },
+    "TOP": {
+      "hip": [
+        -80,
+        -692
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "ed": 1,
+      "hb": 1,
+      "hx": 70,
+      "hy": 150
+    },
+    "CROSS": {
+      "hip": [
+        80,
+        -692
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "ed": 1,
+      "hb": 1,
+      "hx": 70,
+      "hy": 150
+    },
+    "STEP_B": {
+      "hip": [
+        110,
+        -480
+      ],
+      "ankle": [
+        300,
+        0
+      ],
+      "ankle2": [
+        80,
+        -222
+      ],
+      "b": 8,
+      "hd": 4,
+      "g": 1,
+      "ed": 1,
+      "hb": 1,
+      "hx": 70,
+      "hy": 150
+    },
+    "DOWN_B": {
+      "hip": [
+        240,
+        -470
+      ],
+      "ankle": [
+        330,
+        0
+      ],
+      "ankle2": [
+        240,
+        0
+      ],
+      "b": 10,
+      "hd": 6,
+      "g": 1,
+      "ed": 1,
+      "hb": 1,
+      "hx": 70,
+      "hy": 150
+    },
+    "STAND_B": {
+      "hip": [
+        330,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "ed": 1,
+      "hb": 1,
+      "hx": 70,
+      "hy": 150
+    },
+    "LEAN_BAD": {
+      "hip": [
+        -80,
+        -660
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 38,
+      "hd": 22,
+      "g": 1,
+      "ed": 1,
+      "hb": 1,
+      "hx": 70,
+      "hy": 150
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "MED-BALL",
+        "STEP-OVER"
+      ],
+      "vo": "Med-Ball Box Step-Over: subí al cajón con el balón al pecho, pasá al otro lado y bajá con control.",
+      "moves": [
+        {
+          "cut": "STAND_A",
+          "at": 0
+        },
+        {
+          "to": "STEP_A",
+          "at": 0.4,
+          "dur": 0.5
+        },
+        {
+          "to": "UP_A",
+          "at": 0.9,
+          "dur": 0.45
+        },
+        {
+          "to": "TOP",
+          "at": 1.35,
+          "dur": 0.35
+        },
+        {
+          "to": "CROSS",
+          "at": 1.7,
+          "dur": 0.4
+        },
+        {
+          "to": "STEP_B",
+          "at": 2.1,
+          "dur": 0.45
+        },
+        {
+          "to": "DOWN_B",
+          "at": 2.55,
+          "dur": 0.4
+        },
+        {
+          "to": "STAND_B",
+          "at": 2.95,
+          "dur": 0.4
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BALÓN",
+        "AL PECHO"
+      ],
+      "sub": "Pies al ancho de cadera",
+      "vo": "Parate al lado del cajón con el balón medicinal abrazado al pecho y los pies al ancho de la cadera.",
+      "moves": [
+        {
+          "cut": "STAND_A",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "PIE",
+        "COMPLETO"
+      ],
+      "sub": "Todo el pie arriba",
+      "vo": "Paso uno. Apoyá un pie completo arriba del cajón, con el talón bien adentro y el balón pegado al pecho.",
+      "moves": [
+        {
+          "to": "STEP_A",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            700,
+            1200
+          ],
+          "text": "PIE COMPLETO",
+          "anchor": "start",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "SUBÍ",
+        "Y PASÁ"
+      ],
+      "sub": "Empujá con el talón",
+      "vo": "Paso dos. Empujá con el talón de arriba, subí y quedate parado encima del cajón.",
+      "moves": [
+        {
+          "cut": "STEP_A",
+          "at": 0
+        },
+        {
+          "to": "UP_A",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "TOP",
+          "at": 1.1,
+          "dur": 0.45
+        },
+        {
+          "to": "CROSS",
+          "at": 1.8,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "EXTENDÉ",
+        "ARRIBA"
+      ],
+      "sub": "Torso erguido",
+      "vo": "Paso tres. Arriba del cajón la cadera se extiende y el torso queda erguido, no doblado sobre el balón.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 1,
+          "dur": 0.6
+        },
+        {
+          "to": "TOP",
+          "at": 2.7,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            180,
+            1180
+          ],
+          "text": "DOBLADO NO",
+          "anchor": "start",
+          "at": 1.4,
+          "out": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            180,
+            1180
+          ],
+          "text": "CADERA EXTENDIDA",
+          "anchor": "start",
+          "at": 3
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "BAJÁ DEL",
+        "OTRO LADO"
+      ],
+      "sub": "Controlá la bajada",
+      "vo": "Paso cuatro. Pasá al otro lado y bajá con control: primero la punta del pie, después todo el pie.",
+      "moves": [
+        {
+          "cut": "CROSS",
+          "at": 0
+        },
+        {
+          "to": "STEP_B",
+          "at": 0.5,
+          "dur": 0.6
+        },
+        {
+          "to": "DOWN_B",
+          "at": 1.2,
+          "dur": 0.5
+        },
+        {
+          "to": "STAND_B",
+          "at": 1.9,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Balón pegado al pecho",
+        "Pie completo arriba",
+        "Cadera extendida arriba",
+        "Bajada controlada"
+      ],
+      "vo": "Claves: balón pegado al pecho, pie completo arriba, cadera extendida arriba y bajada controlada.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7,
+      "badge": "A ENTRENAR",
+      "head": [
+        "18 REPS"
+      ],
+      "sub": "9 por lado",
+      "vo": "Dieciocho repeticiones, nueve por lado. Sin apuro: subí, pasá y bajá con control.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PASÁ",
+          "at": 1.4
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 2.2
+        }
+      ],
+      "moves": [
+        {
+          "cut": "STAND_A",
+          "at": 0
+        },
+        {
+          "to": "STEP_A",
+          "at": 0.4,
+          "dur": 0.4
+        },
+        {
+          "to": "UP_A",
+          "at": 0.8,
+          "dur": 0.35
+        },
+        {
+          "to": "TOP",
+          "at": 1.15,
+          "dur": 0.3
+        },
+        {
+          "to": "CROSS",
+          "at": 1.45,
+          "dur": 0.35
+        },
+        {
+          "to": "STEP_B",
+          "at": 1.8,
+          "dur": 0.35
+        },
+        {
+          "to": "DOWN_B",
+          "at": 2.15,
+          "dur": 0.35
+        },
+        {
+          "to": "STAND_B",
+          "at": 2.5,
+          "dur": 0.3
+        },
+        {
+          "cut": "STAND_A",
+          "at": 3.2
+        },
+        {
+          "to": "STEP_A",
+          "at": 3.5,
+          "dur": 0.4
+        },
+        {
+          "to": "UP_A",
+          "at": 3.9,
+          "dur": 0.35
+        },
+        {
+          "to": "TOP",
+          "at": 4.25,
+          "dur": 0.3
+        },
+        {
+          "to": "CROSS",
+          "at": 4.55,
+          "dur": 0.35
+        },
+        {
+          "to": "STEP_B",
+          "at": 4.9,
+          "dur": 0.35
+        },
+        {
+          "to": "DOWN_B",
+          "at": 5.25,
+          "dur": 0.35
+        },
+        {
+          "to": "STAND_B",
+          "at": 5.6,
+          "dur": 0.3
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "TOP",
+    "grip": 1,
+    "zoom": 1.15,
+    "dy": 140
+  },
+  "youtube": {
+    "titulo": "Med-Ball Box Step-Over 🎯 paso sobre el cajón con balón | CrossFit",
+    "tags": [
+      "med ball box step over",
+      "box step over",
+      "paso sobre el cajon",
+      "med ball",
+      "balon medicinal",
+      "step over crossfit",
+      "crossfit",
+      "wod",
+      "gluteos",
+      "piernas",
+      "core"
+    ],
+    "descripcion": "🎬 MED-BALL BOX STEP-OVER - subí, pasá y bajá con el balón al pecho\n\nLo que en el box jump-over es salto acá es paso controlado: mismo trabajo de pierna, mucho menos impacto. El balón va pegado al pecho de principio a fin. 💪\n\n📝 PASO A PASO\n1️⃣ Parate al lado del cajón con el balón medicinal abrazado al pecho.\n2️⃣ Apoyá un pie completo arriba, con el talón bien dentro del cajón.\n3️⃣ Empujá con ese talón, subí y extendé la cadera arriba del box.\n4️⃣ Pasá al otro lado y bajá con control, primero la punta y después todo el pie.\n\n✅ CLAVES DE TÉCNICA\n✔️ Balón pegado al pecho\n✔️ Pie completo arriba\n✔️ Cadera extendida arriba\n✔️ Bajada controlada\n\n💪 QUÉ TRABAJA\nGlúteos · Cuádriceps · Isquios · Gemelos · Core\n\n⏱️ CUÁNTO\n18 repeticiones (9 por lado) dentro del WOD. Si el cajón te queda alto, bajalo.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi tenés poco equilibrio, empezá con un cajón bajo y sin balón.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #MedBall #BoxStepOver #WOD #Piernas"
+  }
+}

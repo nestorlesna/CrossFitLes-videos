@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lunge with open rotation",
+      "text": "Zancada y rotación del torso. Cadera, core y espalda alta en un solo movimiento."
+    },
+    {
+      "id": "02",
+      "text": "Parate con los pies al ancho de la cadera, el pecho arriba y los brazos sueltos al costado."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Da un paso largo al frente y bajá la cadera hasta que la rodilla de atrás casi toque el piso."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Rotá el torso hacia la pierna de adelante y abrí el brazo del mismo lado hacia el techo."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Volvé al centro, empujá con el pie de adelante y repetí con la otra pierna."
+    },
+    {
+      "id": "06",
+      "text": "Claves: paso largo, rodilla de atrás sin golpear, rotación desde el torso y la mirada sigue la mano."
+    },
+    {
+      "id": "07",
+      "text": "Treinta segundos alternando lados. Si la rodilla de atrás toca el piso, acortá un poco el paso."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

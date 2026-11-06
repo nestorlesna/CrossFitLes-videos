@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "0a37c242-824e-41fc-b4f4-075bc20bb952",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "1520e03d2066dea23c783d65710b7851b644663d3342506fd0238c39aebc359c",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0a37c242-824e-41fc-b4f4-075bc20bb952\\blobs\\15\\1520e03d2066dea23c783d65710b7851b644663d3342506fd0238c39aebc359c"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0a37c242-824e-41fc-b4f4-075bc20bb952\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "3f2d3e42dd48e657ea69280a5dbc7b2ba823f933c20f590f2ef93355edf3906d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0a37c242-824e-41fc-b4f4-075bc20bb952\\blobs\\3f\\3f2d3e42dd48e657ea69280a5dbc7b2ba823f933c20f590f2ef93355edf3906d"
+    },
+    "meta.json": {
+      "hash": "f2f317ac7bb4236aa1651eeb3c9c6dfda3d5846edc23e4c686b0696f26e519ef",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0a37c242-824e-41fc-b4f4-075bc20bb952\\blobs\\f2\\f2f317ac7bb4236aa1651eeb3c9c6dfda3d5846edc23e4c686b0696f26e519ef"
+    },
+    "package.json": {
+      "hash": "fd628a30b4c15170ad0c29e5fb4fd72e588125bf1abb7e4a1e7bdc8f163eece4",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0a37c242-824e-41fc-b4f4-075bc20bb952\\blobs\\fd\\fd628a30b4c15170ad0c29e5fb4fd72e588125bf1abb7e4a1e7bdc8f163eece4"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "305f3775-3eaa-4039-a8f8-1e0ba4465c8d",
+      "completedAt": 1793839878414,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\spiderman-stretch-rotation\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

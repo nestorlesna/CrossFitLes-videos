@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Wall Sit Leg Extension",
+      "text": "Uol sit con extensión: sentadilla en la pared y estirá una pierna al frente sin mover la cadera."
+    },
+    {
+      "id": "02",
+      "text": "Apoyá toda la espalda en la pared y alejá los pies unos dos pasos, al ancho de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Deslizate hasta que las rodillas queden a noventa grados, sobre los tobillos."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Estirá una pierna al frente hasta que quede casi recta, sin levantar la cadera."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Volvé a apoyar y repetí con la otra pierna, alternando sin perder la altura."
+    },
+    {
+      "id": "06",
+      "text": "Claves: espalda pegada, rodillas a noventa, cadera quieta y el talón de apoyo siempre abajo."
+    },
+    {
+      "id": "07",
+      "text": "Cuarenta segundos: ocho extensiones con cada pierna. Si la cadera sube, acortá el rango."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

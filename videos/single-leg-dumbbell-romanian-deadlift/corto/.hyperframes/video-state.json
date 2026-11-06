@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "957bf8d7-6879-46a7-91fe-6964211798d6",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "b6664855e11bd166db94395166e9da8eaac82899d72d6d6495f78006b82dfb42",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\957bf8d7-6879-46a7-91fe-6964211798d6\\blobs\\b6\\b6664855e11bd166db94395166e9da8eaac82899d72d6d6495f78006b82dfb42"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\957bf8d7-6879-46a7-91fe-6964211798d6\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "e0e8d1e65cb75ef6f71d824e770a656ba93300d277f7a4c776b5b1d016600e53",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\957bf8d7-6879-46a7-91fe-6964211798d6\\blobs\\e0\\e0e8d1e65cb75ef6f71d824e770a656ba93300d277f7a4c776b5b1d016600e53"
+    },
+    "meta.json": {
+      "hash": "e0ae3989986d416fc4b61c7e00f74358fa4320528a17933315ae34f7a1a3cdba",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\957bf8d7-6879-46a7-91fe-6964211798d6\\blobs\\e0\\e0ae3989986d416fc4b61c7e00f74358fa4320528a17933315ae34f7a1a3cdba"
+    },
+    "package.json": {
+      "hash": "728570a9efe31af9111b58bfad2821524daa4051aa1bb085edcd8a59b8ebc6bb",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\957bf8d7-6879-46a7-91fe-6964211798d6\\blobs\\72\\728570a9efe31af9111b58bfad2821524daa4051aa1bb085edcd8a59b8ebc6bb"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "9b3c29b7-2971-4afb-b34c-8ad0a68e5fde",
+      "completedAt": 1793875241613,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\single-leg-dumbbell-romanian-deadlift\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Snatch",
+      "text": "La barra sale del piso y termina arriba de la cabeza en un solo movimiento."
+    },
+    {
+      "id": "02",
+      "text": "Pies al ancho de la cadera, agarre ancho, espalda neutra y hombros sobre la barra."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Primer tirón: despegá la barra y pasá las rodillas con la espalda plana."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Extendé tobillo, rodilla y cadera de golpe: la barra sube sola, pegada."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Metete abajo, recibí en sentadilla profunda con los brazos bloqueados y parate."
+    },
+    {
+      "id": "06",
+      "text": "Así no: si tirás con los brazos antes de extender, la barra se va adelante."
+    },
+    {
+      "id": "07",
+      "text": "Claves: barra pegada al cuerpo, extensión completa antes de tirar, recepción con brazos firmes."
+    },
+    {
+      "id": "08",
+      "text": "Diez repeticiones con un peso técnico. Si la barra se va, bajá el peso."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "1c95c88d-c85a-4438-a018-7696d3121280",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "eaabe4c685cba3928aa270b182645ff09f069c8cc501540ac9e486863964ab96",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1c95c88d-c85a-4438-a018-7696d3121280\\blobs\\ea\\eaabe4c685cba3928aa270b182645ff09f069c8cc501540ac9e486863964ab96"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1c95c88d-c85a-4438-a018-7696d3121280\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "86dd7a79df1ea486bbc6fe6988fa222aefe81cc114cfbc57b4fc5a9a08a1800b",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1c95c88d-c85a-4438-a018-7696d3121280\\blobs\\86\\86dd7a79df1ea486bbc6fe6988fa222aefe81cc114cfbc57b4fc5a9a08a1800b"
+    },
+    "meta.json": {
+      "hash": "deb30dec89be9dbea2f0493a21a515dc31b75acd728a07dfae89018b91632b3b",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1c95c88d-c85a-4438-a018-7696d3121280\\blobs\\de\\deb30dec89be9dbea2f0493a21a515dc31b75acd728a07dfae89018b91632b3b"
+    },
+    "package.json": {
+      "hash": "18be9bf1d611b7f7a5f011e59a27be5f48b5e22677969f5c00760320a916a091",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1c95c88d-c85a-4438-a018-7696d3121280\\blobs\\18\\18be9bf1d611b7f7a5f011e59a27be5f48b5e22677969f5c00760320a916a091"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "cbadce05-890d-46eb-80ed-35ac66089ddf",
+      "completedAt": 1793840287030,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\dumbbell-overhead-hold\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

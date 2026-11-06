@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Stability Ball Plate Crunch",
+      "text": "Crunch sobre pelota suiza con un disco. Abdomen bajo tensión."
+    },
+    {
+      "id": "02",
+      "text": "Acostate sobre la pelota suiza con el cuerpo paralelo al piso y los pies bien apoyados. Sostené el disco con las dos manos."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Extendé el torso hacia atrás sobre la pelota, con el disco sobre el pecho y el abdomen activo."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Hacé el crunch llevando el disco hacia adelante y arriba, enrollando el torso."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. El trabajo lo hace el abdomen, no los brazos. La inestabilidad de la pelota suma activación de core."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Volvé a la posición inicial con control, sin soltar el abdomen, y repetí."
+    },
+    {
+      "id": "07",
+      "text": "Claves: cuerpo paralelo al piso, pies firmes, el trabajo lo hace el abdomen y no los brazos, y usá una pelota suiza real."
+    },
+    {
+      "id": "08",
+      "text": "Diez repeticiones con cinco kilos. Extendé, enrollá y volvé con control."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

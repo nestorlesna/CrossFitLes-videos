@@ -1,0 +1,376 @@
+{
+  "slug": "upward-to-downward-dog",
+  "name": "Upward to Downward Dog",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Columna",
+    "Hombros",
+    "Movilidad"
+  ],
+  "descripcion": "Transición continua entre perro boca arriba (cadera abajo, pecho abierto) y perro boca abajo (cadera alta, talones al piso).",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.78
+  },
+  "pronuncia": {
+    "Upward to Downward Dog": "Apuard tu daunuard dog"
+  },
+  "initialPose": "UP_DOG",
+  "props": [],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "UP_DOG": {
+      "hip": [
+        0,
+        -80
+      ],
+      "ankle": [
+        -430,
+        -40
+      ],
+      "ft": 175,
+      "b": 55,
+      "hd": 30,
+      "g": 1,
+      "hx": 360,
+      "hy": 15,
+      "ed": 1
+    },
+    "MID": {
+      "hip": [
+        -20,
+        -250
+      ],
+      "ankle": [
+        -340,
+        -40
+      ],
+      "ft": 150,
+      "b": 82,
+      "hd": 70,
+      "g": 1,
+      "hx": 360,
+      "hy": 15,
+      "ed": 1
+    },
+    "DOWN_DOG": {
+      "hip": [
+        -50,
+        -440
+      ],
+      "ankle": [
+        -250,
+        0
+      ],
+      "ft": 20,
+      "b": 111,
+      "hd": 120,
+      "g": 1,
+      "hx": 360,
+      "hy": 15,
+      "ed": 1
+    },
+    "SHRUG_BAD": {
+      "hip": [
+        0,
+        -80
+      ],
+      "ankle": [
+        -430,
+        -40
+      ],
+      "ft": 175,
+      "b": 40,
+      "hd": 10,
+      "g": 1,
+      "hx": 360,
+      "hy": 15,
+      "ed": 1,
+      "cv": -20
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "UP TO DOWN",
+        "DOG"
+      ],
+      "vo": "Upward to Downward Dog: de perro boca arriba a perro boca abajo. Columna y hombros móviles.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "MID",
+              0.7
+            ],
+            [
+              "DOWN_DOG",
+              0.8
+            ],
+            [
+              "MID",
+              0.7
+            ],
+            [
+              "UP_DOG",
+              0.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PERRO",
+        "BOCA ARRIBA"
+      ],
+      "sub": "Cadera abajo, pecho abierto",
+      "vo": "Arrancá en perro boca arriba: brazos estirados, cadera cerca del piso y el pecho bien abierto.",
+      "moves": [
+        {
+          "cut": "UP_DOG",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "HOMBROS LEJOS",
+        "DE LAS OREJAS"
+      ],
+      "sub": "En las dos posiciones",
+      "vo": "Paso uno. Alejá los hombros de las orejas, empujando el piso, sin hundir el cuello entre ellos.",
+      "moves": [
+        {
+          "cut": "UP_DOG",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            800,
+            800
+          ],
+          "text": "HOMBROS ABAJO",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "EMPUJÁ",
+        "LA CADERA"
+      ],
+      "sub": "Atrás y arriba",
+      "vo": "Paso dos. Empujá el piso y llevá la cadera atrás y arriba, de a poco, sin apurarte.",
+      "moves": [
+        {
+          "cut": "UP_DOG",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.5,
+          "dur": 1
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "PERRO",
+        "BOCA ABAJO"
+      ],
+      "sub": "Cadera alta, espalda recta",
+      "vo": "Paso tres. Llegá a perro boca abajo: cadera alta y espalda recta. Priorizá la espalda sobre bajar los talones.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "to": "DOWN_DOG",
+          "at": 0.5,
+          "dur": 1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            800,
+            700
+          ],
+          "text": "ESPALDA RECTA",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "FLUÍ",
+        "CONTINUO"
+      ],
+      "sub": "Respirando",
+      "vo": "Paso cuatro. Pasá de una posición a la otra sin cortar el movimiento, acompañando con la respiración.",
+      "moves": [
+        {
+          "cut": "UP_DOG",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "MID",
+              0.7
+            ],
+            [
+              "DOWN_DOG",
+              0.8
+            ],
+            [
+              "MID",
+              0.7
+            ],
+            [
+              "UP_DOG",
+              0.8
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Hombros lejos de las orejas",
+        "Cadera abajo y pecho abierto",
+        "Espalda recta en perro abajo",
+        "Respirar con el movimiento"
+      ],
+      "vo": "Claves: hombros lejos de las orejas, cadera abajo y pecho abierto arriba, espalda recta abajo y respirá con el movimiento.",
+      "moves": [
+        {
+          "cut": "DOWN_DOG",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "6 REPS"
+      ],
+      "sub": "Fluido y lento",
+      "vo": "Seis repeticiones fluidas. Respirá, empujá el piso y mantené los hombros lejos de las orejas.",
+      "chips": [
+        {
+          "label": "1 · ARRIBA",
+          "at": 0.6
+        },
+        {
+          "label": "2 · EMPUJÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · ABAJO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "UP_DOG",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "MID",
+              0.7
+            ],
+            [
+              "DOWN_DOG",
+              0.8
+            ],
+            [
+              "MID",
+              0.7
+            ],
+            [
+              "UP_DOG",
+              0.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "DOWN_DOG",
+    "grip": 1,
+    "zoom": 1,
+    "dy": 160
+  },
+  "youtube": {
+    "titulo": "Upward to Downward Dog 🔥 columna y hombros móviles paso a paso | CrossFit",
+    "descripcion": "🔥 UPWARD TO DOWNWARD DOG — columna flexible y hombros móviles.\n\nSi tenés la espalda y los isquios duros, este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Arrancá en perro boca arriba: brazos estirados, cadera cerca del piso y el pecho bien abierto.\n2️⃣ Alejá los hombros de las orejas, empujando el piso, sin hundir el cuello entre ellos.\n3️⃣ Empujá el piso y llevá la cadera atrás y arriba, de a poco, sin apurarte.\n4️⃣ Llegá a perro boca abajo: cadera alta y espalda recta. Priorizá la espalda sobre bajar los talones.\n5️⃣ Pasá de una posición a la otra sin cortar el movimiento, acompañando con la respiración.\n\n✅ CLAVES DE TÉCNICA\n• Hombros lejos de las orejas en las dos posiciones\n• Perro arriba: cadera abajo y pecho abierto\n• Perro abajo: priorizar la espalda recta sobre bajar los talones\n• Acompañar el movimiento con la respiración\n\n🎯 QUÉ TRABAJA\nErectores espinales · Bíceps femoral · Deltoides anterior · Gemelos · Recto abdominal\n\n⏱️ CUÁNTO\n6 repeticiones fluidas, en la entrada en calor, como movilidad o en la vuelta a la calma.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\r\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Movilidad #UpwardtoDownwardDog #Columna #Entrenamiento",
+    "tags": [
+      "upward to downward dog",
+      "perro boca arriba y boca abajo",
+      "yoga",
+      "movilidad de columna",
+      "entrada en calor",
+      "vuelta a la calma",
+      "crossfit",
+      "movilidad",
+      "flexibilidad",
+      "estiramiento"
+    ]
+  }
+}

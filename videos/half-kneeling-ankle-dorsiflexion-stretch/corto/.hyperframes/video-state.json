@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "e3761e72-2151-4db7-93b8-a29d67f90a15",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "d47372c9559772595f1fc818fa3abdba41b093f27b38288500ee49d05eae90b6",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e3761e72-2151-4db7-93b8-a29d67f90a15\\blobs\\d4\\d47372c9559772595f1fc818fa3abdba41b093f27b38288500ee49d05eae90b6"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e3761e72-2151-4db7-93b8-a29d67f90a15\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "2989a53c0ca0873b9e770a256fc752e3253fba89617e575ba8c408205df3db55",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e3761e72-2151-4db7-93b8-a29d67f90a15\\blobs\\29\\2989a53c0ca0873b9e770a256fc752e3253fba89617e575ba8c408205df3db55"
+    },
+    "meta.json": {
+      "hash": "c0117912e0b25fdba748080f5929572b0d43bf53d166e21dcd99eb65dca47546",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e3761e72-2151-4db7-93b8-a29d67f90a15\\blobs\\c0\\c0117912e0b25fdba748080f5929572b0d43bf53d166e21dcd99eb65dca47546"
+    },
+    "package.json": {
+      "hash": "e3e8585759cf5de6b89825d5bd69f46e333ea7e85caaba3a1861927940ccc078",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\e3761e72-2151-4db7-93b8-a29d67f90a15\\blobs\\e3\\e3e8585759cf5de6b89825d5bd69f46e333ea7e85caaba3a1861927940ccc078"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "e90214a7-f8c0-476c-ac91-dfc1ced476a0",
+      "completedAt": 1793874481897,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\half-kneeling-ankle-dorsiflexion-stretch\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

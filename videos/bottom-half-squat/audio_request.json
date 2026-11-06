@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Bottom-Half Squat",
+      "text": "La sentadilla que trabaja sólo la mitad baja del recorrido, sin extender las rodillas."
+    },
+    {
+      "id": "02",
+      "text": "Empezá en cuclillas, apenas por encima de la paralela, con los pies al ancho de los hombros y el pecho arriba."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá al fondo con control, con los talones apoyados y las rodillas siguiendo la línea de los pies."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Subí sólo hasta apenas por encima de la paralela y volvé a bajar: nunca extendés las rodillas."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. El error es subir de más: si extendés las piernas y descansás arriba, perdés toda la tensión del ejercicio."
+    },
+    {
+      "id": "06",
+      "text": "Claves: trabajá sólo la mitad baja, talones apoyados, rodillas en línea con los pies y el torso lo más vertical posible."
+    },
+    {
+      "id": "07",
+      "text": "Veinte segundos a ritmo constante, subiendo y bajando dentro del mismo rango, sin pausa arriba."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,340 @@
+{
+  "slug": "lateral-shuffle",
+  "name": "Lateral Shuffle",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Glúteos",
+    "Aductores",
+    "Agilidad"
+  ],
+  "descripcion": "Desplazamiento lateral en posición atlética baja: cadera abajo, pecho arriba y pasos cortos y rápidos hacia un lado y hacia el otro.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1500,
+    "scale": 0.85
+  },
+  "pronuncia": {
+    "Lateral Shuffle": "Lateral shófol"
+  },
+  "initialPose": "STAND",
+  "props": [],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "READY": {
+      "hip": [
+        -90,
+        -330
+      ],
+      "ankle": [
+        110,
+        0
+      ],
+      "ankle2": [
+        -120,
+        0
+      ],
+      "b": 24,
+      "hd": 8,
+      "g": 0,
+      "ua": 60,
+      "fa": 40,
+      "ua2": 55,
+      "fa2": 40
+    },
+    "STEP_A": {
+      "hip": [
+        -80,
+        -330
+      ],
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -170,
+        0
+      ],
+      "b": 24,
+      "hd": 8,
+      "g": 0,
+      "ua": 70,
+      "fa": 40,
+      "ua2": 40,
+      "fa2": 40
+    },
+    "STEP_B": {
+      "hip": [
+        -90,
+        -330
+      ],
+      "ankle": [
+        100,
+        0
+      ],
+      "ankle2": [
+        -150,
+        0
+      ],
+      "b": 24,
+      "hd": 8,
+      "g": 0,
+      "ua": 50,
+      "fa": 40,
+      "ua2": 70,
+      "fa2": 40
+    },
+    "HIGH_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 20,
+      "fa": 30,
+      "ua2": 20,
+      "fa2": 30
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "LATERAL",
+        "SHUFFLE"
+      ],
+      "vo": "Lateral Shuffle: el desplazamiento lateral en posición baja. Agilidad y piernas fuertes.",
+      "moves": [
+        {
+          "to": "READY",
+          "at": 0.3,
+          "dur": 0.5
+        },
+        {
+          "loop": [
+            "STEP_A",
+            "STEP_B"
+          ],
+          "at": 1,
+          "step": 0.28,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "POSICIÓN",
+        "ATLÉTICA"
+      ],
+      "sub": "Cadera baja, pecho arriba",
+      "vo": "Abrí los pies más que los hombros, flexioná rodillas y cadera y mantené el pecho arriba. Brazos listos al frente.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "READY",
+          "at": 0.8,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "PASO",
+        "LATERAL"
+      ],
+      "sub": "Empujá con la pierna de atrás",
+      "vo": "Paso uno. Empujá con la pierna de afuera y abrí un paso corto hacia el costado, sin cruzar los pies.",
+      "moves": [
+        {
+          "cut": "READY",
+          "at": 0
+        },
+        {
+          "to": "STEP_A",
+          "at": 0.6,
+          "dur": 0.4
+        }
+      ],
+      "scroll": 150
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "JUNTÁ",
+        "SIN CRUZAR"
+      ],
+      "sub": "Pie de atrás al lado",
+      "vo": "Paso dos. Traé el otro pie hacia el primero sin juntarlos del todo ni cruzar las piernas. La cadera siempre baja.",
+      "moves": [
+        {
+          "cut": "STEP_A",
+          "at": 0
+        },
+        {
+          "to": "READY",
+          "at": 0.6,
+          "dur": 0.4
+        }
+      ],
+      "scroll": 150
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "PASOS",
+        "CORTOS"
+      ],
+      "sub": "Rápidos y livianos",
+      "vo": "Paso tres. Repetí con pasos cortos y rápidos, sobre la planta del pie. Cuidá que la cabeza no suba y baje.",
+      "moves": [
+        {
+          "cut": "READY",
+          "at": 0
+        },
+        {
+          "loop": [
+            "STEP_A",
+            "STEP_B"
+          ],
+          "at": 0.3,
+          "step": 0.28,
+          "until": "end"
+        }
+      ],
+      "scroll": 220
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "CAMBIÁ",
+        "DE LADO"
+      ],
+      "sub": "Mismo ritmo al otro lado",
+      "vo": "Paso cuatro. Cambiá de dirección sin levantarte: frená, empujá y volvé hacia el otro lado con el mismo ritmo.",
+      "moves": [
+        {
+          "cut": "READY",
+          "at": 0
+        },
+        {
+          "loop": [
+            "STEP_B",
+            "STEP_A"
+          ],
+          "at": 0.3,
+          "step": 0.28,
+          "until": "end"
+        }
+      ],
+      "scroll": -220
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Cadera baja todo el tiempo",
+        "Pecho arriba, mirada al frente",
+        "No cruzar las piernas",
+        "Pasos cortos y rápidos"
+      ],
+      "vo": "Claves: cadera baja todo el tiempo, pecho arriba, no cruces las piernas ni juntes los pies y da pasos cortos y rápidos.",
+      "moves": [
+        {
+          "cut": "READY",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "20 SEG"
+      ],
+      "sub": "Cada lado, ritmo rápido",
+      "vo": "Veinte segundos de ida y vuelta. Cadera baja, pasos cortos y mucha actitud.",
+      "chips": [
+        {
+          "label": "1 · EMPUJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PASO",
+          "at": 1.1
+        },
+        {
+          "label": "3 · JUNTÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "READY",
+          "at": 0
+        },
+        {
+          "loop": [
+            "STEP_A",
+            "STEP_B"
+          ],
+          "at": 0.4,
+          "step": 0.28,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "READY",
+    "grip": 0
+  },
+  "youtube": {
+    "titulo": "Lateral Shuffle 🔥 agilidad y glúteos activos paso a paso | CrossFit",
+    "descripcion": "🔥 LATERAL SHUFFLE — agilidad lateral y glúteos activados para cualquier WOD.\n\nSi tus pasos laterales son torpes o te cansás rápido de cadera, este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Abrí los pies más que los hombros, flexioná rodillas y cadera, pecho arriba y brazos listos al frente.\n2️⃣ Empujá con la pierna de afuera y abrí un paso corto hacia el costado, sin cruzar los pies.\n3️⃣ Traé el otro pie hacia el primero sin juntarlos del todo ni cruzar las piernas, con la cadera siempre baja.\n4️⃣ Repetí con pasos cortos y rápidos, sobre la planta del pie, cuidando que la cabeza no suba y baje.\n5️⃣ Cambiá de dirección sin levantarte: frená, empujá y volvé hacia el otro lado con el mismo ritmo.\n\n✅ CLAVES DE TÉCNICA\n• Cadera baja durante todo el desplazamiento\n• Pecho arriba y mirada al frente\n• No juntar los pies ni cruzar las piernas\n• Pasos cortos y rápidos sobre la planta del pie\n\n🎯 QUÉ TRABAJA\nGlúteo medio · Aductores · Gemelos · Recto femoral · Vasto lateral\n\n⏱️ CUÁNTO\n20 segundos hacia cada lado, en la entrada en calor o como activación antes de un WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\r\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #LateralShuffle #Agilidad #Entrenamiento",
+    "tags": [
+      "lateral shuffle",
+      "desplazamiento lateral",
+      "agilidad",
+      "pasos laterales",
+      "entrada en calor",
+      "activación",
+      "crossfit",
+      "glúteo medio",
+      "cardio",
+      "ejercicios de agilidad"
+    ]
+  },
+  "floorScroll": 200
+}

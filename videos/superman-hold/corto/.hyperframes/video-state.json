@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "7ac022ba-e4ce-4042-a88a-8ae9d514c223",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "1cbd4a389c20584077a35f2ef52f0f8b3f146839781f984be5845c3bce73329a",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7ac022ba-e4ce-4042-a88a-8ae9d514c223\\blobs\\1c\\1cbd4a389c20584077a35f2ef52f0f8b3f146839781f984be5845c3bce73329a"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7ac022ba-e4ce-4042-a88a-8ae9d514c223\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "e18440f98c9d22a624d159b2a2aeaab96ac77dd5fecded54c29a938012a1ec3c",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7ac022ba-e4ce-4042-a88a-8ae9d514c223\\blobs\\e1\\e18440f98c9d22a624d159b2a2aeaab96ac77dd5fecded54c29a938012a1ec3c"
+    },
+    "meta.json": {
+      "hash": "aa4ff54e2cec26d311c1a891037a5a6d01b12c437f8bae3ae2b5eaa2f40d38bd",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7ac022ba-e4ce-4042-a88a-8ae9d514c223\\blobs\\aa\\aa4ff54e2cec26d311c1a891037a5a6d01b12c437f8bae3ae2b5eaa2f40d38bd"
+    },
+    "package.json": {
+      "hash": "4c6974ed058249449be931f98dab30fabe54af852de50a81dfc4f6e9e8af3f7f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7ac022ba-e4ce-4042-a88a-8ae9d514c223\\blobs\\4c\\4c6974ed058249449be931f98dab30fabe54af852de50a81dfc4f6e9e8af3f7f"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "11531a63-7038-45e8-8a8f-fded6bb1b81c",
+      "completedAt": 1793873038251,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\superman-hold\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

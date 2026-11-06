@@ -1,0 +1,408 @@
+{
+  "slug": "bodyweight-sit-up",
+  "name": "Bodyweight Sit Up",
+  "category": "CROSSFIT — CORE",
+  "tags": [
+    "Abdomen",
+    "Core",
+    "Peso corporal"
+  ],
+  "descripcion": "Sit-up completo a peso corporal: acostado boca arriba con las rodillas flexionadas, brazos por encima de la cabeza, se sube el tronco hasta tocar los pies y se baja controlado.",
+  "revisado": false,
+  "notas": "Misma convención supina que weighted-sit-up, sin disco; las manos buscan los pies arriba.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 570,
+    "y": 1500,
+    "scale": 0.86
+  },
+  "pronuncia": {
+    "Bodyweight Sit Up": "Bádihueit sit ap",
+    "Bodyweight": "bádihueit",
+    "Sit Up": "sit ap"
+  },
+  "initialPose": "FLAT",
+  "props": [],
+  "poses": {
+    "FLAT": {
+      "hip": [
+        0,
+        -12
+      ],
+      "s": -28.6,
+      "t": -147.3,
+      "s2": -31,
+      "t2": -145,
+      "ft": 0,
+      "ft2": 0,
+      "b": -90,
+      "hd": -92,
+      "g": 0,
+      "ua": 270,
+      "fa": 0,
+      "ua2": 270,
+      "fa2": 0
+    },
+    "HALF": {
+      "hip": [
+        0,
+        -12
+      ],
+      "s": -28.6,
+      "t": -147.3,
+      "s2": -31,
+      "t2": -145,
+      "ft": 0,
+      "ft2": 0,
+      "b": -40,
+      "hd": -44,
+      "g": 0,
+      "ua": 215,
+      "fa": 4,
+      "ua2": 215,
+      "fa2": 4
+    },
+    "UP": {
+      "hip": [
+        0,
+        -12
+      ],
+      "s": -28.6,
+      "t": -147.3,
+      "s2": -31,
+      "t2": -145,
+      "ft": 0,
+      "ft2": 0,
+      "b": 58,
+      "hd": 52,
+      "g": 0,
+      "ua": 58,
+      "fa": 12,
+      "ua2": 58,
+      "fa2": 12
+    },
+    "LEGS_BAD": {
+      "hip": [
+        0,
+        -12
+      ],
+      "s": -78,
+      "t": -122,
+      "s2": -80,
+      "t2": -120,
+      "ft": -46,
+      "ft2": -46,
+      "b": 34,
+      "hd": 26,
+      "g": 0,
+      "ua": 168,
+      "fa": 10,
+      "ua2": 170,
+      "fa2": 8
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT — CORE",
+      "head": [
+        "BODYWEIGHT",
+        "SIT UP"
+      ],
+      "vo": "Bodyweight Sit Up: abdominal completo sin peso. Subí el torso, tocá los pies y bajá controlado.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "HALF",
+              0.4
+            ],
+            [
+              "UP",
+              0.4
+            ],
+            [
+              "HALF",
+              0.45
+            ],
+            [
+              "FLAT",
+              0.5
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BOCA",
+        "ARRIBA"
+      ],
+      "sub": "Rodillas flexionadas",
+      "vo": "Acostate boca arriba con las rodillas flexionadas, los pies apoyados y los brazos por encima de la cabeza.",
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            120,
+            1050
+          ],
+          "text": "PIES APOYADOS",
+          "anchor": "start",
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            120,
+            1180
+          ],
+          "text": "BRAZOS ATRÁS",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SUBÍ EL",
+        "TORSO"
+      ],
+      "sub": "Recorrido completo",
+      "vo": "Paso uno. Subí el torso completo, como si te enroscaras hacia los pies. No es un crunch corto.",
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.6,
+          "dur": 0.5
+        },
+        {
+          "to": "UP",
+          "at": 1.1,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "TOCÁ",
+        "LOS PIES"
+      ],
+      "sub": "Manos adelante",
+      "vo": "Paso dos. Arriba estirá los brazos y tocá los pies. Las piernas quedan apoyadas en el piso.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "UP.W",
+            "dx": 0,
+            "dy": 0
+          },
+          "r": 64,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "UP.W",
+            "dx": 0,
+            "dy": -150
+          },
+          "text": "PIES",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "CONTROLADO"
+      ],
+      "sub": "Espalda completa",
+      "vo": "Paso tres. Bajá controlado hasta apoyar la espalda completa y volvé a empezar desde abajo.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 0.7,
+          "dur": 0.55
+        },
+        {
+          "to": "FLAT",
+          "at": 1.8,
+          "dur": 0.55
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "ERROR TÍPICO",
+      "head": [
+        "ASÍ NO:",
+        "LEVANTÁS",
+        "LAS PIERNAS"
+      ],
+      "sub": "El movimiento es del torso",
+      "vo": "Así no. No levantes las piernas para llegar: el movimiento sale del torso, no de las caderas.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "LEGS_BAD",
+          "at": 1.0,
+          "dur": 0.5
+        },
+        {
+          "to": "UP",
+          "at": 3.6,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            140,
+            1110
+          ],
+          "text": "PIERNAS ARRIBA",
+          "anchor": "start",
+          "at": 1.1
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.86,
+      "keys": [
+        "Recorrido completo",
+        "Pies apoyados",
+        "Sin tirar del cuello",
+        "Bajada controlada"
+      ],
+      "vo": "Claves: recorrido completo, pies apoyados, sin tirar del cuello y bajada controlada.",
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "50 REPS"
+      ],
+      "sub": "Sin peso",
+      "chips": [
+        {
+          "label": "1 → SUBÍ",
+          "at": 0.4
+        },
+        {
+          "label": "2 → TOCÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 → BAJÁ",
+          "at": 1.8
+        }
+      ],
+      "vo": "Cincuenta repeticiones sin peso. Si perdés la técnica, cortá la serie y retomá con menos repeticiones.",
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "HALF",
+              0.4
+            ],
+            [
+              "UP",
+              0.4
+            ],
+            [
+              "HALF",
+              0.45
+            ],
+            [
+              "FLAT",
+              0.5
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "grip": 0,
+    "zoom": 1.05,
+    "dy": 80
+  },
+  "youtube": {
+    "titulo": "Bodyweight Sit Up 🔥 abdominal completo sin peso paso a paso | Core",
+    "tags": [
+      "bodyweight sit up",
+      "sit up",
+      "abdominales sin peso",
+      "abdominal completo",
+      "core",
+      "abdomen",
+      "peso corporal",
+      "crossfit",
+      "wod",
+      "tecnica"
+    ],
+    "descripcion": "🔥 BODYWEIGHT SIT UP — abdominal completo a peso corporal para un core fuerte\n\n¿El crunch corto ya no te dice nada? El sit-up completo trabaja todo el abdomen y no necesita peso. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Acostate boca arriba con las rodillas flexionadas y los pies apoyados.\n2️⃣ Llevá los brazos por encima de la cabeza.\n3️⃣ Subí el torso completo, como si te enroscaras hacia los pies.\n4️⃣ Arriba estirá los brazos y tocá los pies.\n5️⃣ Bajá controlado hasta apoyar la espalda completa y repetí.\n\n✅ CLAVES DE TÉCNICA\n• Recorrido completo\n• Pies apoyados en el piso\n• El movimiento sale del torso\n• No tires del cuello\n• Bajada controlada\n\n🎯 QUÉ TRABAJA\nRecto abdominal · Oblicuo externo · Oblicuo interno · Recto femoral · Core\n\n⏱️ CUÁNTO\n50 repeticiones. Podés repartirlas en series de 10 a 20 según tu nivel.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi te molesta la espalda baja, flexioná más las rodillas y bajá el recorrido hasta donde no haya dolor.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Core #SitUp #Abdomen #Entrenamiento"
+  }
+}

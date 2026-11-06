@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "a919d48b-6866-480e-b2c0-5653ea2a4e00",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "859febc4a2ad723df99e6873361e8576a6affca9e9e5e282ab37c281633ee169",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a919d48b-6866-480e-b2c0-5653ea2a4e00\\blobs\\85\\859febc4a2ad723df99e6873361e8576a6affca9e9e5e282ab37c281633ee169"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a919d48b-6866-480e-b2c0-5653ea2a4e00\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "37217fd76a52017b6d1a0ad9cbc8c33075e1bdfb252a6daae784682e9992b88f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a919d48b-6866-480e-b2c0-5653ea2a4e00\\blobs\\37\\37217fd76a52017b6d1a0ad9cbc8c33075e1bdfb252a6daae784682e9992b88f"
+    },
+    "meta.json": {
+      "hash": "2c68750b7c5f4b9fb1ad909e55c45b05ec44c425c960795e6b5449e767888c08",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a919d48b-6866-480e-b2c0-5653ea2a4e00\\blobs\\2c\\2c68750b7c5f4b9fb1ad909e55c45b05ec44c425c960795e6b5449e767888c08"
+    },
+    "package.json": {
+      "hash": "42efaeabc365617dedb8720ab29953ca8c07c0ff3fe28cc789e6784e17a7ab0f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a919d48b-6866-480e-b2c0-5653ea2a4e00\\blobs\\42\\42efaeabc365617dedb8720ab29953ca8c07c0ff3fe28cc789e6784e17a7ab0f"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "b64bfa47-3ed4-4302-aec7-b903e1f08e27",
+      "completedAt": 1793876635742,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\kettlebell-jumping-lunge\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

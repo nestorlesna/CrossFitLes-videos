@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "a67aa4ae-2bdf-4234-9c5a-8c8f00b1210c",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "64c639fc9388566105804d035c6b54281809b865df99ab13e956d224e746cfe3",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a67aa4ae-2bdf-4234-9c5a-8c8f00b1210c\\blobs\\64\\64c639fc9388566105804d035c6b54281809b865df99ab13e956d224e746cfe3"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a67aa4ae-2bdf-4234-9c5a-8c8f00b1210c\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "2ab3d361cf36221e14f275b04b1fdbfe2041143a5e2914bc37187a27fa718d75",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a67aa4ae-2bdf-4234-9c5a-8c8f00b1210c\\blobs\\2a\\2ab3d361cf36221e14f275b04b1fdbfe2041143a5e2914bc37187a27fa718d75"
+    },
+    "meta.json": {
+      "hash": "6493a5edb5f4ed7cc10849fc34b850ec0f6454484e81b5d63782c478e4ae5f6b",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a67aa4ae-2bdf-4234-9c5a-8c8f00b1210c\\blobs\\64\\6493a5edb5f4ed7cc10849fc34b850ec0f6454484e81b5d63782c478e4ae5f6b"
+    },
+    "package.json": {
+      "hash": "5461928a17c6e4660dbb77a114e9587792ef2c8be9f742ec7dcd83c618d258d7",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\a67aa4ae-2bdf-4234-9c5a-8c8f00b1210c\\blobs\\54\\5461928a17c6e4660dbb77a114e9587792ef2c8be9f742ec7dcd83c618d258d7"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "224adb4e-fb68-4bfa-85ce-195da4481b70",
+      "completedAt": 1793876284120,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\hanging-leg-raise-with-rotation-over-box\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "6dc18bf1-0900-462b-83b3-3edad48d3fc1",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "40a1af9aee0da956f73d89e17aa0f3615f1bd9deadccd2471ff9fb29b5629884",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\6dc18bf1-0900-462b-83b3-3edad48d3fc1\\blobs\\40\\40a1af9aee0da956f73d89e17aa0f3615f1bd9deadccd2471ff9fb29b5629884"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\6dc18bf1-0900-462b-83b3-3edad48d3fc1\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "b3d11a633f3f1da13849618baf20111394317d574fb2f4b021f018956e8bfd24",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\6dc18bf1-0900-462b-83b3-3edad48d3fc1\\blobs\\b3\\b3d11a633f3f1da13849618baf20111394317d574fb2f4b021f018956e8bfd24"
+    },
+    "meta.json": {
+      "hash": "83e894a728202081732b27d0ddf7961256cf57e897c3ef8b085b98ae5c4eb432",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\6dc18bf1-0900-462b-83b3-3edad48d3fc1\\blobs\\83\\83e894a728202081732b27d0ddf7961256cf57e897c3ef8b085b98ae5c4eb432"
+    },
+    "package.json": {
+      "hash": "98db35025779128dfdc37f5a3c458e40bcda5f8d0df4b6f91beefbb437f8d869",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\6dc18bf1-0900-462b-83b3-3edad48d3fc1\\blobs\\98\\98db35025779128dfdc37f5a3c458e40bcda5f8d0df4b6f91beefbb437f8d869"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "3592a180-f9a0-48fc-83e4-09ecc8ac622c",
+      "completedAt": 1793838023288,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\overhead-triceps-stretch\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

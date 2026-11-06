@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Kettlebell box step over",
+      "text": "Subí al cajón con la kettlebell y bajá del otro lado."
+    },
+    {
+      "id": "02",
+      "text": "Parate al lado del cajón, con la kettlebell colgando al costado y los pies al ancho de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Apoyá un pie completo arriba del cajón. La kettlebell queda pegada al costado."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Empujá con el talón de arriba y subí hasta quedar parado encima del cajón."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Bajá del otro lado, primero la punta y después todo el pie. Controlada."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. No dejes caer el peso: aterrizá suave, con rodillas flexionadas y torso erguido."
+    },
+    {
+      "id": "07",
+      "text": "Claves: pie completo arriba, torso erguido, kettlebell al costado y bajada controlada."
+    },
+    {
+      "id": "08",
+      "text": "Doce repeticiones, seis por lado. Subí, pasá al otro lado y bajá con control."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

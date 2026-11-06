@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "426f1f2f-37cb-4b09-957b-c96a9a09d921",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "f9d7b1eaa1781be67bfaa8eb5519dfb3befd6b17e0e07ec441185f47ee328485",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\426f1f2f-37cb-4b09-957b-c96a9a09d921\\blobs\\f9\\f9d7b1eaa1781be67bfaa8eb5519dfb3befd6b17e0e07ec441185f47ee328485"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\426f1f2f-37cb-4b09-957b-c96a9a09d921\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "0f308785558d803a76f9bfc609dd0c3d2e52e964dcc69b36d7e30a6de24b68ee",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\426f1f2f-37cb-4b09-957b-c96a9a09d921\\blobs\\0f\\0f308785558d803a76f9bfc609dd0c3d2e52e964dcc69b36d7e30a6de24b68ee"
+    },
+    "meta.json": {
+      "hash": "823204cda441375651fa9a6dd328fae69ecd9f573fa5f763328194779d9847e4",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\426f1f2f-37cb-4b09-957b-c96a9a09d921\\blobs\\82\\823204cda441375651fa9a6dd328fae69ecd9f573fa5f763328194779d9847e4"
+    },
+    "package.json": {
+      "hash": "ff5ae57710490a35f2b46cb40b639ced63135b6866b21e3e6e36394cc89b122c",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\426f1f2f-37cb-4b09-957b-c96a9a09d921\\blobs\\ff\\ff5ae57710490a35f2b46cb40b639ced63135b6866b21e3e6e36394cc89b122c"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "4d81f053-5802-4d4b-b769-81953ad14162",
+      "completedAt": 1793876435299,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\inchworm\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

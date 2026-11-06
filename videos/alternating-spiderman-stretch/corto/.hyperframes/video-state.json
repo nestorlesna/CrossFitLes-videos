@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "cbf695a3-e457-4187-9ec0-d318137fe03d",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "218b41207956a6f1b72108f2de3b46bba0dabd8d5a90cdfc808f4e1b98d0a3b8",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\cbf695a3-e457-4187-9ec0-d318137fe03d\\blobs\\21\\218b41207956a6f1b72108f2de3b46bba0dabd8d5a90cdfc808f4e1b98d0a3b8"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\cbf695a3-e457-4187-9ec0-d318137fe03d\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "99fc54c71f905c054bbc880152d4de53497bd4cb0b932b38d18472c039e41371",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\cbf695a3-e457-4187-9ec0-d318137fe03d\\blobs\\99\\99fc54c71f905c054bbc880152d4de53497bd4cb0b932b38d18472c039e41371"
+    },
+    "meta.json": {
+      "hash": "4881a4c9dd5496d3d7044331fc37a79e8e02f6c29617ff442935c573f6911238",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\cbf695a3-e457-4187-9ec0-d318137fe03d\\blobs\\48\\4881a4c9dd5496d3d7044331fc37a79e8e02f6c29617ff442935c573f6911238"
+    },
+    "package.json": {
+      "hash": "5ee2700e296c5524a4bcb39912a5da4294cb774193c002443d6d4266ce88a486",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\cbf695a3-e457-4187-9ec0-d318137fe03d\\blobs\\5e\\5ee2700e296c5524a4bcb39912a5da4294cb774193c002443d6d4266ce88a486"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "355906b7-c669-49be-8e1e-c72dbe92ed96",
+      "completedAt": 1793875420269,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\alternating-spiderman-stretch\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

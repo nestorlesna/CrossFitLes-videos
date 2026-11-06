@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Sprint In Place",
+      "text": "Carrera explosiva en el lugar, inclinación desde el tobillo y braceo corto y rápido."
+    },
+    {
+      "id": "02",
+      "text": "De pie con el torso inclinado desde los tobillos, las rodillas blandas y el peso en la planta de los pies."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Llevá una rodilla adelante y arriba, con la pierna de atrás empujando el piso."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Cambiá de pie rápido, con el contacto breve y la cadera estable sobre el apoyo."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Braceá corto y veloz: los codos a noventa grados y las manos cerca del cuerpo."
+    },
+    {
+      "id": "06",
+      "text": "El error: quebrar la cadera y sacar la cola. La inclinación sale del tobillo, no de la cintura."
+    },
+    {
+      "id": "07",
+      "text": "Claves: inclinación desde el tobillo, contacto breve, braceo corto y la cadera siempre estable."
+    },
+    {
+      "id": "08",
+      "text": "Veinte segundos a máxima frecuencia, sin perder la postura. Si te falta el aire, bajá el ritmo."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

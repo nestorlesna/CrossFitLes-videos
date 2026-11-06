@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "2a15682f-aec5-4bb8-bc2d-26fb7fa9bd6f",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "eaabe4c685cba3928aa270b182645ff09f069c8cc501540ac9e486863964ab96",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2a15682f-aec5-4bb8-bc2d-26fb7fa9bd6f\\blobs\\ea\\eaabe4c685cba3928aa270b182645ff09f069c8cc501540ac9e486863964ab96"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2a15682f-aec5-4bb8-bc2d-26fb7fa9bd6f\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "e51253a6e43cf253c090b4d1049770a7b370998c5203f6cba2ec03ea8f469f21",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2a15682f-aec5-4bb8-bc2d-26fb7fa9bd6f\\blobs\\e5\\e51253a6e43cf253c090b4d1049770a7b370998c5203f6cba2ec03ea8f469f21"
+    },
+    "meta.json": {
+      "hash": "f7776b9821b5799193813b37f6bf5989eefec59149a123e6cc534ce26afbfffd",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2a15682f-aec5-4bb8-bc2d-26fb7fa9bd6f\\blobs\\f7\\f7776b9821b5799193813b37f6bf5989eefec59149a123e6cc534ce26afbfffd"
+    },
+    "package.json": {
+      "hash": "d09d0c1b796a108cbd043f61d43e32a57f1e93f312b492fd31f221dc892bd6e4",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\2a15682f-aec5-4bb8-bc2d-26fb7fa9bd6f\\blobs\\d0\\d09d0c1b796a108cbd043f61d43e32a57f1e93f312b492fd31f221dc892bd6e4"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "97ec016f-8d50-40af-ae07-e674d88b44da",
+      "completedAt": 1793876016697,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\dumbbell-front-raise\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

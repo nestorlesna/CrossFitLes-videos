@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "7e7a1f57-dfd1-45b1-a756-a9dbc4addfdc",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "8e42b365de84f144dee0b72b21436b7f2cde5155952fa3006f3f35edad1ba051",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7e7a1f57-dfd1-45b1-a756-a9dbc4addfdc\\blobs\\8e\\8e42b365de84f144dee0b72b21436b7f2cde5155952fa3006f3f35edad1ba051"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7e7a1f57-dfd1-45b1-a756-a9dbc4addfdc\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "b097869bae5ba27fabb30ba63e18754f57811f4258758bb3efbe67fc9ad4cfe3",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7e7a1f57-dfd1-45b1-a756-a9dbc4addfdc\\blobs\\b0\\b097869bae5ba27fabb30ba63e18754f57811f4258758bb3efbe67fc9ad4cfe3"
+    },
+    "meta.json": {
+      "hash": "aaaf357812bd53c501d8cbac74ba5ea48e5fa689bf4600e7d5a023e02c3c4bf1",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7e7a1f57-dfd1-45b1-a756-a9dbc4addfdc\\blobs\\aa\\aaaf357812bd53c501d8cbac74ba5ea48e5fa689bf4600e7d5a023e02c3c4bf1"
+    },
+    "package.json": {
+      "hash": "3168e0cba0bad6032b4e71f8a730c9800164f1686d49fd5d1ceeb045ace96fad",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\7e7a1f57-dfd1-45b1-a756-a9dbc4addfdc\\blobs\\31\\3168e0cba0bad6032b4e71f8a730c9800164f1686d49fd5d1ceeb045ace96fad"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "1aadcf41-d15f-4b5a-8b15-ead2743749ee",
+      "completedAt": 1793873896832,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\deficit-banded-deadlift\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

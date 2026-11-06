@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Oblique Crunch",
+      "text": "El abdominal para oblicuos. Cintura firme y core fuerte."
+    },
+    {
+      "id": "02",
+      "text": "Acostate de lado con las rodillas flexionadas y apiladas. Apoyá la mano de arriba suave detrás de la cabeza."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Elevá el tronco de costado, acercando las costillas hacia la cadera del mismo lado."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. El recorrido es corto. No tires del cuello con la mano: el trabajo lo hace el costado del abdomen."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Bajá despacio hasta apoyar el costado, sin soltar la tensión, y volvé a subir."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Completá todas las repeticiones de un lado y después hacé lo mismo del otro."
+    },
+    {
+      "id": "07",
+      "text": "Claves: movimiento corto, no tires del cuello, trabajá un lado y después el otro y bajá siempre con control."
+    },
+    {
+      "id": "08",
+      "text": "Cuarenta segundos por lado. Subí con las costillas y bajá con control."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

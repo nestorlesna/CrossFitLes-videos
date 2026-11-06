@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "83d361d8-b4b6-44e4-b1fe-881cba625733",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "eacf44515d3b45ea3abb5e54601176226aca436e4a7f4f0a8c2d5d68e073228b",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\83d361d8-b4b6-44e4-b1fe-881cba625733\\blobs\\ea\\eacf44515d3b45ea3abb5e54601176226aca436e4a7f4f0a8c2d5d68e073228b"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\83d361d8-b4b6-44e4-b1fe-881cba625733\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "9983c0380145d93bd8f4bf7ff100525f21f6b62b319eb031a6c0bef1772788c7",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\83d361d8-b4b6-44e4-b1fe-881cba625733\\blobs\\99\\9983c0380145d93bd8f4bf7ff100525f21f6b62b319eb031a6c0bef1772788c7"
+    },
+    "meta.json": {
+      "hash": "6bdb52d3d7728efacd1100d8791ca5dd548c10ac97f6d18adb6e1446917a426c",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\83d361d8-b4b6-44e4-b1fe-881cba625733\\blobs\\6b\\6bdb52d3d7728efacd1100d8791ca5dd548c10ac97f6d18adb6e1446917a426c"
+    },
+    "package.json": {
+      "hash": "9972954fbac75072a14376362681a73d0f87b38d5312d7f81f6f42ba8dded320",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\83d361d8-b4b6-44e4-b1fe-881cba625733\\blobs\\99\\9972954fbac75072a14376362681a73d0f87b38d5312d7f81f6f42ba8dded320"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "61862da2-e960-491e-975f-69ace3b2fffa",
+      "completedAt": 1793879920239,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\standing-cross-crunch\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

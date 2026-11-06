@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Y-Raises",
+      "text": "Boca abajo, brazos en Y y elevación corta. Espalda alta y escápulas."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca abajo con los brazos extendidos arriba de la cabeza, formando una Y con el cuerpo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Elevá los brazos unos centímetros, como si quisieras tocar el techo con las manos."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Apretá las escápulas y mantené los hombros lejos de las orejas."
+    },
+    {
+      "id": "05",
+      "text": "Así no. Si levantás el pecho y la cabeza, el movimiento se va a la lumbar. Dejá el pecho abajo."
+    },
+    {
+      "id": "06",
+      "text": "Claves: brazos en Y, elevación corta, escápulas apretadas y pecho abajo."
+    },
+    {
+      "id": "07",
+      "text": "Doce repeticiones con pausa arriba. Subí, apretá las escápulas y bajá controlando."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

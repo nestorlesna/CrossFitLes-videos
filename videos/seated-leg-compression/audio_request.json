@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Seated Leg Compression",
+      "text": "Sentado, despegás las piernas del piso y las sostenés con el abdomen."
+    },
+    {
+      "id": "02",
+      "text": "Sentate con las piernas extendidas y las manos apoyadas en el piso, al costado de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Despegá las dos piernas del suelo y sostenelas arriba comprimiendo el abdomen."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Sostené las piernas arriba con la espalda lo más recta posible y el pecho alto."
+    },
+    {
+      "id": "05",
+      "text": "Error: si redondeás la espalda y te dejás caer atrás, el abdomen deja de sostener y las piernas se hunden."
+    },
+    {
+      "id": "06",
+      "text": "Claves: la espalda se mantiene recta, el pecho alto, las piernas extendidas y los talones no tocan el piso hasta terminar."
+    },
+    {
+      "id": "07",
+      "text": "Cuarenta segundos sosteniendo las piernas arriba, con la espalda recta y el abdomen apretado."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

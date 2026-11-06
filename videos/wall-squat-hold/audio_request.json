@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Wall Squat Hold",
+      "text": "Con kettlebell: sentadilla en la pared, KB al pecho y a aguantar."
+    },
+    {
+      "id": "02",
+      "text": "Apoyá la espalda en la pared, alejá los pies y sostené la kettlebell contra el pecho con las dos manos."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Deslizate hacia abajo hasta que las rodillas queden a noventa grados, sobre los tobillos."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Mantené la kettlebell pegada al pecho, con los codos abajo y el core firme."
+    },
+    {
+      "id": "05",
+      "text": "Así no. Si te levantás para descansar, la isometría se corta. Mantené la altura o terminá la serie."
+    },
+    {
+      "id": "06",
+      "text": "Claves: espalda pegada, rodillas a noventa, kettlebell al pecho y no subas hasta terminar."
+    },
+    {
+      "id": "07",
+      "text": "Cuarenta y cinco segundos con doce kilos. Si la espalda se despega o la KB se va, terminá la serie."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Wide Negative Push-Up",
+      "text": "Flexión negativa con manos anchas. Bajás lento, pecho al máximo."
+    },
+    {
+      "id": "02",
+      "text": "Poné las manos más abiertas que los hombros, en plancha alta, con el cuerpo en una línea recta."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá lento, en tres a cinco segundos, con el cuerpo recto y el abdomen firme."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Llegá con el pecho al piso. Cuidá que los hombros no se adelanten en el punto bajo."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. No dejes caer la cadera: cuerpo en tabla de la cabeza a los talones durante toda la bajada."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Apoyá las rodillas y volvé arriba asistido. El agarre ancho carga más el pecho y menos el tríceps."
+    },
+    {
+      "id": "07",
+      "text": "Claves: manos más abiertas que los hombros, bajá lento, cuerpo en tabla y cuidá que los hombros no se adelanten abajo."
+    },
+    {
+      "id": "08",
+      "text": "Cuarenta segundos de bajadas lentas. Pecho al piso, subí asistido con las rodillas."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

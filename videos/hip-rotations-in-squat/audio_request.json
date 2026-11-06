@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Hip Rotations in Squat",
+      "text": "Rotaciones de cadera en sentadilla profunda. Movilidad de caderas pura."
+    },
+    {
+      "id": "02",
+      "text": "Bajá a una sentadilla profunda con los talones apoyados y las manos juntas frente al pecho. Pecho arriba."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Quedate abajo: la cadera no sube durante toda la serie. Empujá las rodillas apenas hacia afuera con los codos."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Dejá caer una rodilla hacia adentro, rotando la cadera de forma controlada. Sin despegar el talón."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Volvé al centro y abrí esa rodilla hacia afuera. La rotación nace de la cadera, no del tobillo."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Alterná de lado lento y controlado. Cada rotación es amplia, sin dolor y respirando tranquilo."
+    },
+    {
+      "id": "07",
+      "text": "Claves: cadera baja todo el tiempo, talones apoyados, la rotación sale de la cadera y no del tobillo, y pecho arriba."
+    },
+    {
+      "id": "08",
+      "text": "Treinta segundos alternando rotaciones. Cadera baja, movimiento lento y respiración tranquila."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

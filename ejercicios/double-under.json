@@ -1,0 +1,544 @@
+{
+  "slug": "double-under",
+  "name": "Double Under",
+  "category": "CROSSFIT — WOD",
+  "tags": [
+    "Cuerda",
+    "Cardio",
+    "Coordinación"
+  ],
+  "descripcion": "Salto de cuerda en el que la cuerda pasa dos veces bajo los pies en un solo salto. Salto un poco más alto que el simple, cuerpo recto, piernas juntas y muñecas rápidas.",
+  "revisado": false,
+  "notas": "Prop jumprope. El loop invisible usa AIR/MID/AIR2 con la misma altura para mostrar dos pasadas por salto sin que el personaje aterrice entre ellas.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1505,
+    "scale": 0.8
+  },
+  "pronuncia": {
+    "Double Under": "Dábol ánder",
+    "double under": "dábol ánder",
+    "single-under": "síngol ánder"
+  },
+  "initialPose": "STAND",
+  "props": [
+    {
+      "type": "jumprope",
+      "c": [
+        20,
+        0
+      ],
+      "rx": 300,
+      "ry": 580
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "rp": 0.5,
+      "g": 0,
+      "ua": 18,
+      "fa": 62,
+      "ua2": 14,
+      "fa2": 62
+    },
+    "AIR": {
+      "hip": [
+        0,
+        -575
+      ],
+      "s": 2,
+      "t": -4,
+      "b": 2,
+      "hd": 0,
+      "ft": 22,
+      "ft2": 22,
+      "rp": 0.0,
+      "g": 0,
+      "ua": 18,
+      "fa": 62,
+      "ua2": 14,
+      "fa2": 62
+    },
+    "MID": {
+      "hip": [
+        0,
+        -575
+      ],
+      "s": 2,
+      "t": -4,
+      "b": 2,
+      "hd": 0,
+      "ft": 22,
+      "ft2": 22,
+      "rp": 0.5,
+      "g": 0,
+      "ua": 18,
+      "fa": 62,
+      "ua2": 14,
+      "fa2": 62
+    },
+    "AIR2": {
+      "hip": [
+        0,
+        -575
+      ],
+      "s": 2,
+      "t": -4,
+      "b": 2,
+      "hd": 0,
+      "ft": 22,
+      "ft2": 22,
+      "rp": 1.0,
+      "g": 0,
+      "ua": 18,
+      "fa": 62,
+      "ua2": 14,
+      "fa2": 62
+    },
+    "HIGH": {
+      "hip": [
+        0,
+        -680
+      ],
+      "s": 22,
+      "t": -58,
+      "s2": 22,
+      "t2": -58,
+      "b": 8,
+      "hd": 0,
+      "rp": 0.0,
+      "g": 0,
+      "ua": 18,
+      "fa": 62,
+      "ua2": 14,
+      "fa2": 62
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT — WOD",
+      "head": [
+        "DOUBLE",
+        "UNDER"
+      ],
+      "vo": "Double Under: un salto, dos vueltas de cuerda. Muñecas rápidas y ritmo constante.",
+      "moves": [
+        {
+          "to": "AIR",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "AIR",
+              0.01
+            ],
+            [
+              "MID",
+              0.14
+            ],
+            [
+              "AIR2",
+              0.14
+            ],
+            [
+              "MID",
+              0.14
+            ],
+            [
+              "AIR2",
+              0.14
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "CUERDA",
+        "ATRÁS"
+      ],
+      "sub": "Codos cerca del cuerpo",
+      "vo": "Parate derecho con la cuerda detrás de los talones, una manija en cada mano y los codos cerca del cuerpo.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            640,
+            1030
+          ],
+          "text": "CODOS PEGADOS",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SALTÁ",
+        "MÁS ALTO"
+      ],
+      "sub": "Un poco, no mucho",
+      "vo": "Paso uno. Saltá un poco más alto que en el single-under, con el cuerpo recto y las piernas juntas.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "AIR",
+          "at": 0.4,
+          "dur": 0.2
+        },
+        {
+          "seq": [
+            [
+              "AIR",
+              0.01
+            ],
+            [
+              "MID",
+              0.14
+            ],
+            [
+              "AIR2",
+              0.14
+            ],
+            [
+              "MID",
+              0.14
+            ],
+            [
+              "AIR2",
+              0.14
+            ]
+          ],
+          "at": 0.7,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            700,
+            1430
+          ],
+          "text": "SALTO CORTO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "DOS PASES",
+        "POR SALTO"
+      ],
+      "sub": "La cuerda pasa dos veces",
+      "vo": "Paso dos. Mientras estás en el aire, la cuerda pasa dos veces bajo los pies. Un salto, dos vueltas.",
+      "moves": [
+        {
+          "to": "AIR",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "AIR",
+              0.01
+            ],
+            [
+              "MID",
+              0.13
+            ],
+            [
+              "AIR2",
+              0.13
+            ],
+            [
+              "MID",
+              0.13
+            ],
+            [
+              "AIR2",
+              0.13
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            720,
+            1190
+          ],
+          "text": "DOS VUELTAS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "MUÑECAS",
+        "RÁPIDAS"
+      ],
+      "sub": "No los hombros",
+      "vo": "Paso tres. La velocidad sale de las muñecas, no de los hombros. Mantené los codos cerca y el ritmo parejo.",
+      "moves": [
+        {
+          "to": "AIR",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "AIR",
+              0.01
+            ],
+            [
+              "MID",
+              0.12
+            ],
+            [
+              "AIR2",
+              0.12
+            ],
+            [
+              "MID",
+              0.12
+            ],
+            [
+              "AIR2",
+              0.12
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            668,
+            1058
+          ],
+          "r": 50,
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            724,
+            993
+          ],
+          "text": "MUÑECAS",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "ERROR TÍPICO",
+      "head": [
+        "ASÍ NO:",
+        "SALTÁS",
+        "DE MÁS"
+      ],
+      "sub": "Salto corto y rápido",
+      "vo": "Así no. Si saltás demasiado alto, la cuerda no llega a dar dos vueltas y te cansás antes de tiempo.",
+      "moves": [
+        {
+          "to": "HIGH",
+          "at": 0.4,
+          "dur": 0.35
+        },
+        {
+          "to": "AIR",
+          "at": 3.0,
+          "dur": 0.3
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            700,
+            1160
+          ],
+          "text": "SALTO DE MÁS",
+          "anchor": "start",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.8,
+      "keys": [
+        "Salto corto y parejo",
+        "Dos pasadas por salto",
+        "Giro de muñecas",
+        "Codos cerca del cuerpo"
+      ],
+      "vo": "Claves: salto corto, dos pasadas por salto, giro de muñecas y codos cerca del cuerpo.",
+      "moves": [
+        {
+          "to": "AIR",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "AIR",
+              0.01
+            ],
+            [
+              "MID",
+              0.13
+            ],
+            [
+              "AIR2",
+              0.13
+            ],
+            [
+              "MID",
+              0.13
+            ],
+            [
+              "AIR2",
+              0.13
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "20 REPS"
+      ],
+      "sub": "Ritmo constante",
+      "chips": [
+        {
+          "label": "1 → SALTÁ",
+          "at": 0.4
+        },
+        {
+          "label": "2 → DOS VUELTAS",
+          "at": 1.0
+        },
+        {
+          "label": "3 → SEGUÍ",
+          "at": 1.6
+        }
+      ],
+      "vo": "Veinte repeticiones. Si se corta la cuerda, retomá sin apurarte y mantené el mismo ritmo de salto.",
+      "moves": [
+        {
+          "to": "AIR",
+          "at": 0,
+          "dur": 0.1
+        },
+        {
+          "seq": [
+            [
+              "AIR",
+              0.01
+            ],
+            [
+              "MID",
+              0.12
+            ],
+            [
+              "AIR2",
+              0.12
+            ],
+            [
+              "MID",
+              0.12
+            ],
+            [
+              "AIR2",
+              0.12
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "AIR",
+    "grip": 0,
+    "zoom": 1.12,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Double Under 🔥 dos vueltas de cuerda por salto paso a paso | CrossFit",
+    "tags": [
+      "double under",
+      "salto de cuerda",
+      "cuerda doble",
+      "double unders crossfit",
+      "jump rope",
+      "cuerda",
+      "cardio",
+      "coordinacion",
+      "crossfit",
+      "wod"
+    ],
+    "descripcion": "🔥 DOUBLE UNDER — dos vueltas de cuerda en un solo salto para cardio y coordinación\n\n¿La cuerda te pega en los pies una y otra vez? El double under no es saltar más alto: es girar más rápido las muñecas. Este video es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate derecho con la cuerda detrás de los talones y los codos cerca del cuerpo.\n2️⃣ Saltá un poco más alto que en el single-under, con las piernas juntas.\n3️⃣ Mientras estás en el aire, la cuerda pasa dos veces bajo los pies.\n4️⃣ Girá con las muñecas, no con los hombros.\n5️⃣ Mantené un salto corto y un ritmo constante.\n\n✅ CLAVES DE TÉCNICA\n• Un salto, dos vueltas\n• Salto corto y parejo\n• La velocidad sale de las muñecas\n• Codos cerca del cuerpo\n• Mirada al frente\n\n🎯 QUÉ TRABAJA\nGastrocnemio · Sóleo · Bíceps braquial · Deltoides lateral · Flexores del antebrazo\n\n⏱️ CUÁNTO\n20 repeticiones. Si se corta, retomá sin apurarte: la coordinación llega con el ritmo.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi recién arrancás, dominá primero el single-under y después sumá una vuelta extra por salto.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #DoubleUnder #Cuerda #Cardio #Entrenamiento"
+  }
+}

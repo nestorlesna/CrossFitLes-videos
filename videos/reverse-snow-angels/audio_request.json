@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Reverse Snow Angels",
+      "text": "Boca abajo, los brazos barren el piso de la cadera a la cabeza. Hombros y escápulas."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca abajo con los brazos al costado del cuerpo y la frente apoyada, sin despegar el pecho."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Barré los brazos por el piso, desde la cadera hacia arriba de la cabeza, sin despegar el pecho."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Llegá arriba de la cabeza con los brazos largos, sin arquear la lumbar ni levantar el pecho."
+    },
+    {
+      "id": "05",
+      "text": "Así no. Si levantás el pecho para llegar más arriba, el hombro deja de trabajar. Quedate abajo."
+    },
+    {
+      "id": "06",
+      "text": "Claves: pecho abajo, brazos largos, sin arquear la lumbar y ritmo lento."
+    },
+    {
+      "id": "07",
+      "text": "Diez repeticiones lentas. Subí y bajá los brazos por el piso, sin apuro y respirando."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

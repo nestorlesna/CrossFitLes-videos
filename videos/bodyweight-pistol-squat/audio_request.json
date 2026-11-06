@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Bodyweight Pistol Squat",
+      "text": "La sentadilla a una pierna. Equilibrio, fuerza y control sobre un solo pie."
+    },
+    {
+      "id": "02",
+      "text": "Parate sobre una pierna, la otra extendida al frente y los brazos adelante. El talón de apoyo, abajo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá con control, cadera atrás y abajo, pecho arriba y la pierna libre al frente."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Seguí hasta la sentadilla completa sobre el talón, con la otra pierna bien extendida."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. El talón no se despega: si se levanta, perdés base y la rodilla se escapa."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Subí empujando el piso con todo el pie y extendé la cadera hasta pararte."
+    },
+    {
+      "id": "07",
+      "text": "Claves: talón apoyado, rodilla en línea con el pie, brazos al frente. Si cuesta, usá un cajón o un soporte."
+    },
+    {
+      "id": "08",
+      "text": "Diez repeticiones por pierna, con control. Bajá profundo y subí sin rebotar."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,338 @@
+{
+  "slug": "kneeling-squat",
+  "name": "Kneeling Squat",
+  "revisado": false,
+  "notas": "De rodillas a cuclillas apoyando un pie por vez: se resuelve con IK de cadera y tobillo, y la pierna lejana (ankle2) queda de rodillas mientras la cercana apoya.",
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "KNEELING",
+        "SQUAT"
+      ],
+      "vo": "Kneeling Squat: de rodillas a cuclillas apoyando un pie por vez, con el tronco erguido.",
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 1.2,
+          "dur": 0.6
+        },
+        {
+          "to": "SQUAT",
+          "at": 2.2,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE RODILLAS",
+        "TRONCO ERGUIDO"
+      ],
+      "sub": "Rodillas al piso",
+      "vo": "Arrancá de rodillas con el tronco erguido y la cadera arriba, sin sentarte sobre los talones.",
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            790,
+            1240
+          ],
+          "anchor": "start",
+          "text": "CADERA ARRIBA",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "APOYÁ",
+        "UN PIE"
+      ],
+      "sub": "Planta completa",
+      "vo": "Paso uno. Apoyá un pie adelante, con la planta completa y la rodilla alineada con el pie.",
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        },
+        {
+          "to": "HALF",
+          "at": 1,
+          "dur": 0.7
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "LLEVÁ LA",
+        "CADERA ARRIBA"
+      ],
+      "sub": "Pecho alto",
+      "vo": "Paso dos. Empujá con la pierna de adelante y subí la cadera hasta la posición de cuclillas.",
+      "moves": [
+        {
+          "cut": "HALF",
+          "at": 0
+        },
+        {
+          "to": "SQUAT",
+          "at": 1,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "VOLVÉ",
+        "A RODILLAS"
+      ],
+      "sub": "Alternando el pie",
+      "vo": "Paso tres. Para volver, bajá la cadera y apoyá las rodillas de nuevo, alternando qué pie apoya primero.",
+      "moves": [
+        {
+          "cut": "SQUAT",
+          "at": 0
+        },
+        {
+          "to": "KNEEL",
+          "at": 1.2,
+          "dur": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "ERROR COMÚN",
+      "head": [
+        "CADERA",
+        "ATRÁS"
+      ],
+      "sub": "Error común",
+      "vo": "Error: si la cadera se hunde hacia atrás y el pecho cae, la subida la termina haciendo la espalda.",
+      "moves": [
+        {
+          "cut": "SQUAT",
+          "at": 0
+        },
+        {
+          "to": "HIP_BACK",
+          "at": 1,
+          "dur": 0.8
+        },
+        {
+          "to": "SQUAT",
+          "at": 3.4,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            338,
+            1249
+          ],
+          "r": 56,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            400,
+            1150
+          ],
+          "anchor": "end",
+          "text": "CADERA ATRÁS",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.4,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Tronco erguido",
+        "Cadera arriba",
+        "Un pie por vez",
+        "Sin cruzar las piernas"
+      ],
+      "vo": "Claves: el tronco se mantiene erguido, la cadera sube, se apoya un pie por vez y nunca se cruzan las piernas.",
+      "moves": [
+        {
+          "cut": "SQUAT",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "20 S"
+      ],
+      "sub": "Alternando el pie",
+      "vo": "Veinte segundos subiendo y bajando, alternando el pie que apoya primero en cada repetición.",
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "HALF",
+              0.5
+            ],
+            [
+              "SQUAT",
+              0.6
+            ],
+            [
+              "KNEEL",
+              0.7
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "rig": {
+    "x": 400,
+    "y": 1504,
+    "scale": 0.88
+  },
+  "initialPose": "KNEEL",
+  "poses": {
+    "KNEEL": {
+      "hip": [
+        230,
+        -262
+      ],
+      "ankle": [
+        0,
+        -20
+      ],
+      "ankle2": [
+        -40,
+        -20
+      ],
+      "b": 4,
+      "hd": 10,
+      "ft": 180,
+      "ft2": 180,
+      "knee": "back"
+    },
+    "HALF": {
+      "hip": [
+        80,
+        -240
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        -150,
+        0
+      ],
+      "ft": 0,
+      "ft2": 180,
+      "b": 14,
+      "hd": 22,
+      "knee": "back"
+    },
+    "SQUAT": {
+      "hip": [
+        40,
+        -310
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "b": 16,
+      "hd": 22
+    },
+    "HIP_BACK": {
+      "hip": [
+        -70,
+        -290
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "b": 40,
+      "hd": 52
+    }
+  },
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Glúteo",
+    "Cadera",
+    "Activación"
+  ],
+  "descripcion": "Se arranca de rodillas con el tronco erguido y se pasa a la posición de cuclillas apoyando un pie por vez, para volver después a la posición inicial. Mantener el tronco erguido durante toda la transición, no dejar que la cadera se hunda hacia atrás y alternar qué pie apoya primero.",
+  "miniatura": {
+    "pose": "KNEEL",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 60
+  },
+  "youtube": {
+    "titulo": "Kneeling Squat 🔥 de rodillas a cuclillas, paso a paso | CrossFit",
+    "descripcion": "🏋️ KNEELING SQUAT — de rodillas a cuclillas sin perder el tronco erguido\nArrancás de rodillas, apoyás un pie adelante y subís la cadera hasta quedar en cuclillas. Después volvés, alternando el pie que apoya primero. Un drill de activación corto y simple, ideal para entrar en calor antes de la sentadilla. 💪\n\n📋 PASO A PASO\n1️⃣ Arrancá de rodillas, con el tronco erguido y las caderas arriba, sin sentarte sobre los talones.\n2️⃣ Apoyá un pie adelante con la planta completa y la rodilla alineada con el pie.\n3️⃣ Empujá con esa pierna y subí la cadera hasta la posición de cuclillas, con el pecho alto.\n4️⃣ Para volver, bajá la cadera y apoyá las rodillas de nuevo, alternando qué pie apoya primero.\n\n🎯 CLAVES DE TÉCNICA\n✅ Tronco erguido, sin encorvarte ni mirar al piso\n✅ La cadera sube y va adelante, no se hunde hacia atrás\n✅ Un pie por vez, sin cruzar las piernas\n✅ Planta completa apoyada, rodilla alineada con el pie\n✅ Movimiento lento y controlado, sin rebotes\n\n🏋️ QUÉ TRABAJA\nGlúteo · Cuádriceps · Cadera · Estabilidad de rodilla\n\n⏱️ CUÁNTO\n20 segundos subiendo y bajando, alternando el pie. Ideal como entrada en calor o para activar antes de la sentadilla.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nSi te cuesta subir sin caerte, apoyá primero el pie y después empujá. Si las rodillas molestan, hacelo sobre una superficie más blanda.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #KneelingSquat #Activacion #EntradaEnCalor #Wod",
+    "tags": [
+      "kneeling squat",
+      "sentadilla de rodillas",
+      "de rodillas a cuclillas",
+      "activación de glúteo",
+      "entrada en calor crossfit",
+      "drill de sentadilla",
+      "glúteo y cuádriceps",
+      "movilidad de cadera",
+      "cuclillas",
+      "crossfit"
+    ]
+  }
+}

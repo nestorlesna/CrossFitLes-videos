@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Barbell Strict Press",
+      "text": "Press de hombros sin impulso. Solo brazos, core firme y barra sobre la cabeza."
+    },
+    {
+      "id": "02",
+      "text": "Con la barra apoyada adelante, sobre los hombros y los codos bien altos, los pies al ancho de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Empujá la barra hacia arriba sin flexionar las piernas: el impulso sale de los hombros y el core."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Dejá pasar la barra con la cabeza atrás y estirá los brazos hasta bloquear arriba de la cabeza."
+    },
+    {
+      "id": "05",
+      "text": "Así no. Si te tirás para atrás y arqueás la espalda en el bloqueo, la barra se te va y la lumbar sufre."
+    },
+    {
+      "id": "06",
+      "text": "Claves: codos altos, sin impulso de piernas, cabeza atrás para dejar pasar la barra y abdomen firme sin arquear."
+    },
+    {
+      "id": "07",
+      "text": "Cinco repeticiones con treinta kilos. Bajá la barra al rack controlando y repetí sin usar las piernas."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,364 @@
+{
+  "name": "Isometric Push-Up Hold",
+  "category": "CROSSFIT · ACCESORIO",
+  "tags": [
+    "Pecho",
+    "Tríceps",
+    "Core"
+  ],
+  "descripcion": "Congelado a mitad de una flexión, con los codos a 90° y el cuerpo rígido como una tabla. Sostener ahí construye fuerza de pecho y tríceps sin peso extra.",
+  "notas": "TOP/MID copiadas de yoga-push-up (PLANK y CHAT: CHAT da el codo a 90° exacto). SAG_BAD y PIKE_BAD vienen de bodyweight-push-up.",
+  "props": null,
+  "rig": {
+    "x": 290,
+    "y": 1504,
+    "scale": 0.82
+  },
+  "initialPose": "TOP",
+  "poses": {
+    "TOP": {
+      "s": 68.41,
+      "t": 68.41,
+      "rx": -20,
+      "ry": -40,
+      "b": 68.41,
+      "g": 1,
+      "hx": 675,
+      "hy": 15,
+      "hd": 78,
+      "ft": 118
+    },
+    "MID": {
+      "s": 77.54,
+      "t": 77.54,
+      "rx": 30,
+      "ry": -42,
+      "b": 77.54,
+      "g": 1,
+      "hx": 675,
+      "hy": 15,
+      "hd": 80,
+      "ft": 118,
+      "ed": -1
+    },
+    "SAG_BAD": {
+      "hip": [
+        430,
+        -150
+      ],
+      "ankle": [
+        -20,
+        -40
+      ],
+      "ft": 118,
+      "b": 55,
+      "hd": 70,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": 15
+    },
+    "PIKE_BAD": {
+      "hip": [
+        340,
+        -320
+      ],
+      "ankle": [
+        -20,
+        -40
+      ],
+      "ft": 118,
+      "b": 135,
+      "hd": 100,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": 15
+    }
+  },
+  "miniatura": {
+    "pose": "MID",
+    "grip": 1,
+    "zoom": 1.3,
+    "dy": 40
+  },
+  "nombreEnVoz": "Isometric Push-Up Hold",
+  "slug": "isometric-push-up-hold",
+  "revisado": false,
+  "music": true,
+  "musicVolume": 0.18,
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACCESORIO",
+      "head": [
+        "ISOMETRIC",
+        "PUSH UP"
+      ],
+      "vo": "Isometric Push-Up Hold: congelado a mitad de la flexión, codos a noventa, el cuerpo en tabla. Fuerza sin moverte.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 1.0,
+          "dur": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PLANCHA",
+        "ALTA"
+      ],
+      "sub": "Manos bajo hombros",
+      "vo": "Arrancá en plancha alta, manos algo más anchas que los hombros y el cuerpo en línea.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "TOP.W"
+          },
+          "r": 44,
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1150
+          ],
+          "text": "MANOS BAJO HOMBROS",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ A",
+        "MITAD"
+      ],
+      "sub": "Codos a 90°",
+      "vo": "Paso uno. Bajá hasta la mitad, con los codos a noventa grados y apuntando hacia atrás, no en cruz.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.8,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "MID.E"
+          },
+          "r": 46,
+          "at": 1.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1200
+          ],
+          "text": "CODO A 90°",
+          "anchor": "end",
+          "at": 2.1
+        }
+      ]
+    },
+    {
+      "min": 6.2,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "AGUANTÁ",
+        "SIN MOVERTE"
+      ],
+      "sub": "Cuerpo en tabla",
+      "vo": "Paso dos. Sostené ahí: cadera ni arriba ni abajo, abdomen firme y respiración normal.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1240
+          ],
+          "text": "CADERA QUIETA",
+          "anchor": "end",
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1300
+          ],
+          "text": "RESPIRÁ",
+          "anchor": "end",
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Cadera que cae o sube",
+      "vo": "Paso tres. Si la cadera se hunde o se sube, el cuerpo deja de ser una tabla y el hombro carga de más.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "to": "SAG_BAD",
+          "at": 0.6,
+          "dur": 0.8
+        },
+        {
+          "to": "PIKE_BAD",
+          "at": 2.0,
+          "dur": 0.8
+        },
+        {
+          "to": "MID",
+          "at": 3.4,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1150
+          ],
+          "text": "CADERA ABAJO NO",
+          "anchor": "end",
+          "at": 0.8,
+          "out": 2.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1150
+          ],
+          "text": "CADERA ARRIBA NO",
+          "anchor": "end",
+          "at": 2.2,
+          "out": 3.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1150
+          ],
+          "text": "EN TABLA",
+          "anchor": "end",
+          "at": 3.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Codos a 45°",
+        "Cuerpo en línea",
+        "Cadera quieta",
+        "Respirá normal"
+      ],
+      "vo": "Claves: codos a cuarenta y cinco, cuerpo en línea, cadera quieta y respiración normal.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "25 SEGUNDOS"
+      ],
+      "sub": "3 series",
+      "chips": [
+        {
+          "label": "25 s",
+          "at": 0.6
+        },
+        {
+          "label": "3 series",
+          "at": 1.2
+        },
+        {
+          "label": "60 s",
+          "at": 1.8
+        }
+      ],
+      "vo": "Veinticinco segundos por serie, tres series. Si no llegás, apoyá las rodillas.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        }
+      ]
+    }
+  ],
+  "youtube": {
+    "titulo": "Isometric Push-Up Hold 🔥 Fuerza de pecho y tríceps sin moverte | CrossFit",
+    "descripcion": "🔥 ISOMETRIC PUSH-UP HOLD - aguantá a mitad de la flexión con los codos a 90°\n\n👉 PASO A PASO\n1️⃣ Arrancá en plancha alta con las manos bajo los hombros.\n2️⃣ Bajá hasta la mitad, con los codos a 90° y hacia atrás.\n3️⃣ Sostené sin mover la cadera, con el abdomen firme.\n4️⃣ Respirá normal todo el tiempo.\n\n✅ CLAVES DE TÉCNICA\n✔ Codos a 45°, nunca en cruz\n✔ Cuerpo rígido como tabla\n✔ Cadera ni arriba ni abajo\n✔ Respiración normal\n\n💪 QUÉ TRABAJA\nPectoral mayor · Deltoides anterior · Tríceps · Core\n\n⏱ CUÁNTO\n25 segundos, 3 series. Accesorio de fuerza sin peso extra.\n\nSi la cadera se hunde o el hombro molesta, apoyá las rodillas manteniendo la misma posición de brazos.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚",
+    "tags": [
+      "isometric push up",
+      "isometrico",
+      "flexión isométrica",
+      "push up hold",
+      "pecho",
+      "tríceps",
+      "core",
+      "fuerza isométrica",
+      "crossfit",
+      "peso corporal",
+      "flexiones",
+      "accesorio"
+    ]
+  }
+}

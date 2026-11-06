@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "b5b6fe0c-4e65-449d-9e1e-8fdd56dcaabe",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "3d11e191dc8e9418e013aeb87d2a8b5d5a012452095990eccda9a1b43319a2f0",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b5b6fe0c-4e65-449d-9e1e-8fdd56dcaabe\\blobs\\3d\\3d11e191dc8e9418e013aeb87d2a8b5d5a012452095990eccda9a1b43319a2f0"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b5b6fe0c-4e65-449d-9e1e-8fdd56dcaabe\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "2bd4f1f4026b31f08d0e7817131bc87f9930226ffe1bc3cabd98dfc18ad40496",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b5b6fe0c-4e65-449d-9e1e-8fdd56dcaabe\\blobs\\2b\\2bd4f1f4026b31f08d0e7817131bc87f9930226ffe1bc3cabd98dfc18ad40496"
+    },
+    "meta.json": {
+      "hash": "342195879ae556959e75d22a4dea842d2a2ff720b434aa751ae3eed400c3cdca",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b5b6fe0c-4e65-449d-9e1e-8fdd56dcaabe\\blobs\\34\\342195879ae556959e75d22a4dea842d2a2ff720b434aa751ae3eed400c3cdca"
+    },
+    "package.json": {
+      "hash": "f570f23a9eeb76d73f3251fdc86f5551a0fa9554edf61a6386662177bcc6bd7f",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\b5b6fe0c-4e65-449d-9e1e-8fdd56dcaabe\\blobs\\f5\\f570f23a9eeb76d73f3251fdc86f5551a0fa9554edf61a6386662177bcc6bd7f"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "20befe11-1c00-498a-b531-6fe09dcf8f5d",
+      "completedAt": 1793875371534,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\alternating-kettlebell-row\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

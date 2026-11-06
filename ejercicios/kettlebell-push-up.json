@@ -1,0 +1,349 @@
+{
+  "slug": "kettlebell-push-up",
+  "name": "Kettlebell Push-Up",
+  "revisado": false,
+  "notas": "Flexión con las manos sobre las asas de una kettlebell: la pesa es un prop static (no sigue a la mano) y el rango de bajada baja más que en la flexión normal.",
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA · WOD",
+      "head": [
+        "KETTLEBELL",
+        "PUSH-UP"
+      ],
+      "vo": "Kettlebell Push-Up: flexión de brazos con las manos sobre las asas de la pesa, más rango.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 1,
+          "dur": 1
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PLANCHA",
+        "EN LAS ASAS"
+      ],
+      "sub": "Cuerpo en línea",
+      "vo": "Apoyá las manos sobre las asas, con las muñecas rectas, los pies atrás y el cuerpo en una sola línea.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            820,
+            1326
+          ],
+          "anchor": "middle",
+          "text": "MANOS EN LAS ASAS",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ",
+        "AL PECHO"
+      ],
+      "sub": "Entre las pesas",
+      "vo": "Paso uno. Bajá el pecho entre las pesas con los codos hacia atrás, hasta donde el hombro te deje.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.7,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            560,
+            1180
+          ],
+          "anchor": "middle",
+          "text": "CODO ATRÁS",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "EMPUJÁ",
+        "Y BLOQUEÁ"
+      ],
+      "sub": "Sin perder la línea",
+      "vo": "Paso dos. Empujá el piso con las manos y subí hasta bloquear los codos, sin perder la línea del cuerpo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.6,
+          "dur": 1
+        }
+      ]
+    },
+    {
+      "min": 6.4,
+      "badge": "ASÍ NO",
+      "head": [
+        "CADERA",
+        "DESCONTROLADA"
+      ],
+      "sub": "Error común",
+      "vo": "Errores: si la cadera se hunde o se eleva de más, el pecho no baja parejo y el core se apaga.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "SAG_BAD",
+          "at": 0.7,
+          "dur": 0.8
+        },
+        {
+          "to": "PIKE_BAD",
+          "at": 2.9,
+          "dur": 0.7
+        },
+        {
+          "to": "TOP",
+          "at": 4.3,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            330,
+            1110
+          ],
+          "anchor": "start",
+          "text": "CADERA HUNDIDA",
+          "at": 1.4,
+          "out": 3
+        },
+        {
+          "type": "ring",
+          "pos": [
+            612,
+            1372
+          ],
+          "r": 58,
+          "at": 1.6,
+          "out": 3
+        },
+        {
+          "type": "label",
+          "pos": [
+            330,
+            1110
+          ],
+          "anchor": "start",
+          "text": "CADERA ALTA",
+          "at": 3.5
+        },
+        {
+          "type": "ring",
+          "pos": [
+            519,
+            1224
+          ],
+          "r": 58,
+          "at": 3.6
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Muñecas rectas",
+        "Cuerpo en línea",
+        "Pecho entre las pesas",
+        "Codos hacia atrás"
+      ],
+      "vo": "Claves: las muñecas quedan rectas sobre las asas, el cuerpo en línea, el pecho baja entre las pesas y los codos van hacia atrás.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.4,
+      "badge": "A ENTRENAR",
+      "head": [
+        "19 REPS"
+      ],
+      "sub": "Ritmo parejo",
+      "vo": "Diecinueve repeticiones con ritmo parejo. Si la cadera se hunde, bajá el número antes de seguir.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1
+            ],
+            [
+              "TOP",
+              1
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "rig": {
+    "x": 230,
+    "y": 1504,
+    "scale": 0.85
+  },
+  "initialPose": "TOP",
+  "poses": {
+    "TOP": {
+      "hip": [
+        385,
+        -278
+      ],
+      "ankle": [
+        -20,
+        -40
+      ],
+      "ft": 118,
+      "b": 59.4,
+      "hd": 69,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": -120
+    },
+    "DOWN": {
+      "hip": [
+        406,
+        -221
+      ],
+      "ankle": [
+        -20,
+        -40
+      ],
+      "ft": 118,
+      "b": 67,
+      "hd": 80,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": -120
+    },
+    "SAG_BAD": {
+      "hip": [
+        450,
+        -155
+      ],
+      "ankle": [
+        -20,
+        -40
+      ],
+      "ft": 118,
+      "b": 42,
+      "hd": 56,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": -120
+    },
+    "PIKE_BAD": {
+      "hip": [
+        340,
+        -330
+      ],
+      "ankle": [
+        -20,
+        -40
+      ],
+      "ft": 118,
+      "b": 120,
+      "hd": 100,
+      "g": 1,
+      "ed": 1,
+      "hx": 675,
+      "hy": -120
+    }
+  },
+  "props": [
+    {
+      "type": "kettlebell",
+      "static": true,
+      "x": 675,
+      "y": -102
+    }
+  ],
+  "category": "CROSSFIT · FUERZA · WOD",
+  "tags": [
+    "Pectoral",
+    "Hombro",
+    "Tríceps"
+  ],
+  "descripcion": "Flexión de brazos con las manos apoyadas sobre las asas de dos kettlebells. Mayor rango de movimiento que la flexión estándar: muñecas rectas sobre las asas, kettlebells firmes, cuerpo en línea con glúteos y abdomen firmes, bajar el pecho entre las kettlebells y empujar hasta bloquear.",
+  "miniatura": {
+    "pose": "DOWN",
+    "grip": 1,
+    "zoom": 1.1,
+    "dy": 60
+  },
+  "youtube": {
+    "titulo": "Kettlebell Push-Up 💪 flexión con más rango, paso a paso | CrossFit",
+    "descripcion": "🏋️ KETTLEBELL PUSH-UP — más rango para el pecho y el hombro\nLas manos van sobre las asas: el pecho baja más abajo que en la flexión normal y el trabajo del core se multiplica. 💪\n\n📋 PASO A PASO\n1️⃣ Apoyá las manos sobre las asas, con las muñecas rectas, los pies atrás y el cuerpo en una sola línea.\n2️⃣ Bajá el pecho entre las pesas con los codos hacia atrás, hasta donde el hombro te deje.\n3️⃣ Empujá el piso con las manos y subí hasta bloquear los codos, sin perder la línea del cuerpo.\n4️⃣ Mantené el abdomen y los glúteos firmes durante toda la repetición.\n\n🎯 CLAVES DE TÉCNICA\n✅ Muñecas rectas sobre las asas, no flexionadas\n✅ Kettlebells firmes: no se mueven ni se abren\n✅ Cuerpo en línea: cabeza, cadera y talones\n✅ El pecho baja entre las pesas, no por detrás\n✅ Codos hacia atrás y cerca del cuerpo\n✅ Core y glúteos activos todo el tiempo\n\n🏋️ QUÉ TRABAJA\nPectoral mayor · Deltoides anterior · Tríceps braquial · Flexores del antebrazo · Oblicuos · Recto abdominal\n\n⏱️ CUÁNTO\n19 repeticiones con ritmo parejo. Menos rango y más control siempre gana.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nSi la cadera se hunde o se eleva de más, el pecho no baja parejo y el core se apaga: bajá dos repeticiones y corregí la línea.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Kettlebell #PushUp #Pecho #Wod",
+    "tags": [
+      "kettlebell push up",
+      "flexión con kettlebell",
+      "push up con pesas",
+      "flexiones",
+      "pecho",
+      "tríceps",
+      "core",
+      "crossfit",
+      "wod",
+      "rango de movimiento",
+      "kettlebell"
+    ]
+  }
+}

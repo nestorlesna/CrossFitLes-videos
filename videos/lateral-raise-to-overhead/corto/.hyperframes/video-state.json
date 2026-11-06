@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "d8677891-4fd8-490c-a616-22407cfc4985",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "3d11e191dc8e9418e013aeb87d2a8b5d5a012452095990eccda9a1b43319a2f0",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d8677891-4fd8-490c-a616-22407cfc4985\\blobs\\3d\\3d11e191dc8e9418e013aeb87d2a8b5d5a012452095990eccda9a1b43319a2f0"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d8677891-4fd8-490c-a616-22407cfc4985\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "27705ad71c766f02526e6df372e7814a9bff74ffde861984e4d6c9f322872c37",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d8677891-4fd8-490c-a616-22407cfc4985\\blobs\\27\\27705ad71c766f02526e6df372e7814a9bff74ffde861984e4d6c9f322872c37"
+    },
+    "meta.json": {
+      "hash": "f2d6ee60b840511ed968ee394647aeea4362a3d69b033ef2f09b544ee55e93dd",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d8677891-4fd8-490c-a616-22407cfc4985\\blobs\\f2\\f2d6ee60b840511ed968ee394647aeea4362a3d69b033ef2f09b544ee55e93dd"
+    },
+    "package.json": {
+      "hash": "1450c57fa3a298758d166b872e6621feac6eb6aceeccca565df8bc7833602edf",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d8677891-4fd8-490c-a616-22407cfc4985\\blobs\\14\\1450c57fa3a298758d166b872e6621feac6eb6aceeccca565df8bc7833602edf"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "6b09fe45-3940-4a4c-972f-adf370cf7fbe",
+      "completedAt": 1793876877240,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\lateral-raise-to-overhead\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

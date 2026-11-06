@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Chest to bar pull up",
+      "text": "El pecho toca la barra. Más recorrido, más espalda y más control."
+    },
+    {
+      "id": "02",
+      "text": "Colgate de la barra con agarre prono, brazos estirados y las escápulas activas hacia abajo."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Antes de tirar, activá las escápulas: los hombros lejos de las orejas."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Tirá hasta que el pecho toque la barra. Llevá los codos bien atrás y abrí el pecho."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Bajá controlado hasta estirar los brazos. Cada repetición arranca desde abajo."
+    },
+    {
+      "id": "06",
+      "text": "Así no. No patees las piernas para llegar: el kipping descontrolado te saca de la barra y no cuenta."
+    },
+    {
+      "id": "07",
+      "text": "Claves: escápulas activas, codos abajo y atrás, pecho a la barra y bajada completa."
+    },
+    {
+      "id": "08",
+      "text": "Cinco repeticiones estrictas. Si no llegás con el pecho, escalá con banda y buscá el mismo recorrido."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

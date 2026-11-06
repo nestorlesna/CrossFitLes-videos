@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "I Y T raises",
+      "text": "Tres letras con los brazos para activar espalda alta y hombros."
+    },
+    {
+      "id": "02",
+      "text": "Parate derecho, pies al ancho de la cadera y brazos abajo, con los pulgares arriba."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Subí los brazos rectos al techo, como una I. Codos casi extendidos y hombros abajo."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá los brazos abriéndolos unos treinta grados y formá una Y, con los pulgares siempre arriba."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Bajá hasta los hombros, con los brazos en cruz: esa es la T. Bajá controlando."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Abdomen firme para no arquear la espalda. Lento, sin impulso, hombros abajo."
+    },
+    {
+      "id": "07",
+      "text": "Claves: pulgares arriba, codos casi extendidos, hombros lejos de las orejas y movimiento lento."
+    },
+    {
+      "id": "08",
+      "text": "Seis repeticiones de la secuencia completa: I, Y y T. Bajá controlando entre cada letra. Activa la espalda antes de entrenar."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

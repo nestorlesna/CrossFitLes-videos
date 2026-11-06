@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "d3a8db04-ad8b-4a6c-b031-7482c32d9912",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "52dd218f1d530ee53a1e0633a9a489cf62efb5ccfcdd5e7a692fefea9a235d8e",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d3a8db04-ad8b-4a6c-b031-7482c32d9912\\blobs\\52\\52dd218f1d530ee53a1e0633a9a489cf62efb5ccfcdd5e7a692fefea9a235d8e"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d3a8db04-ad8b-4a6c-b031-7482c32d9912\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "2f45dfd88f07da62b5887f451263b0d6e322e6147d02facf24bff1d4d6d711e7",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d3a8db04-ad8b-4a6c-b031-7482c32d9912\\blobs\\2f\\2f45dfd88f07da62b5887f451263b0d6e322e6147d02facf24bff1d4d6d711e7"
+    },
+    "meta.json": {
+      "hash": "402ec1bdb2c4f5c4e27daaa8ce58752ff5ec2c9268beabd57e870b3252e6cce5",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d3a8db04-ad8b-4a6c-b031-7482c32d9912\\blobs\\40\\402ec1bdb2c4f5c4e27daaa8ce58752ff5ec2c9268beabd57e870b3252e6cce5"
+    },
+    "package.json": {
+      "hash": "d5583508630536372865b95a7e5991df5f7e255e27c3be295e5601720457edba",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\d3a8db04-ad8b-4a6c-b031-7482c32d9912\\blobs\\d5\\d5583508630536372865b95a7e5991df5f7e255e27c3be295e5601720457edba"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "3bb9abce-ea03-478f-a6c8-463ea2f6b795",
+      "completedAt": 1793881125108,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\stationary-bike\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

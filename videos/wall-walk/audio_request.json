@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Wall Walk",
+      "text": "Caminar por la pared hasta quedar en vertical. Hombros, core y mucha actitud."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca abajo con los pies contra la pared y empujá hasta quedar en plancha, brazos bloqueados."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Subí los pies por la pared de a pasos cortos, mientras las manos caminan hacia ella."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Abdomen y glúteos firmes: el cuerpo se mueve en bloque, sin hundir la cadera."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Seguí hasta quedar en vertical, con los brazos bloqueados y la cabeza entre ellos."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Bajá de la misma forma, controlando cada paso. Para escalar, subí solo hasta la mitad."
+    },
+    {
+      "id": "07",
+      "text": "Claves: abdomen y glúteos firmes, cuerpo en bloque, brazos bloqueados, cabeza entre los brazos y bajar controlado."
+    },
+    {
+      "id": "08",
+      "text": "Tres repeticiones. Subí por la pared, llegá a vertical y bajá con control."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

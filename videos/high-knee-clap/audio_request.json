@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "High Knee Clap",
+      "text": "Rodillas altas sin salto, palmada debajo del muslo. Cardio y coordinación."
+    },
+    {
+      "id": "02",
+      "text": "Arrancá de pie con el torso erguido, el core firme y el peso repartido en la planta de los pies."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Subí una rodilla a la altura de la cadera, sin saltar: un pie siempre en el piso."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Pasá la mano por debajo del muslo y dale una palmada justo abajo de la rodilla."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Alterná las rodillas a ritmo sostenido, con el torso quieto y sin perder el apoyo."
+    },
+    {
+      "id": "06",
+      "text": "El error: echarte atrás con la rodilla baja. El torso queda erguido y la rodilla sube a la cadera."
+    },
+    {
+      "id": "07",
+      "text": "Claves: torso erguido, rodilla a la cadera, un pie siempre en el piso y palmada debajo del muslo."
+    },
+    {
+      "id": "08",
+      "text": "Treinta segundos a ritmo alto. Si perdés el equilibrio, bajá la altura de la rodilla."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

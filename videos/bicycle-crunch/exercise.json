@@ -1,0 +1,345 @@
+{
+  "slug": "bicycle-crunch",
+  "name": "Bicycle Crunch",
+  "category": "CROSSFIT — WOD",
+  "tags": [
+    "Abdomen",
+    "Oblicuos",
+    "Peso corporal"
+  ],
+  "descripcion": "Acostado boca arriba, levantar los omóplatos y pedalear en el aire llevando el codo hacia la rodilla opuesta, alternando lados.",
+  "revisado": false,
+  "notas": "FLAT es el sit-up acostado con manos en la nuca; A y B alternan la pierna que va al pecho (la rotación hacia el lado opuesto no se ve de perfil, se cuenta en la VO). NECK_BAD = torso y cuello tirados con las manos.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 570,
+    "y": 1500,
+    "scale": 0.86
+  },
+  "pronuncia": {
+    "Bicycle Crunch": "báisikel crunch"
+  },
+  "initialPose": "FLAT",
+  "props": [],
+  "poses": {
+    "FLAT": {
+      "hip": [
+        0,
+        -14
+      ],
+      "s": -30,
+      "t": -148,
+      "s2": -32,
+      "t2": -146,
+      "ft": -10,
+      "ft2": -16,
+      "b": -88,
+      "hd": -84,
+      "g": 0,
+      "ua": 232,
+      "fa": 104,
+      "ua2": 236,
+      "fa2": 100
+    },
+    "A": {
+      "hip": [
+        0,
+        -14
+      ],
+      "ft": -10,
+      "ft2": -16,
+      "b": -62,
+      "hd": -50,
+      "g": 0,
+      "ua": 232,
+      "fa": 104,
+      "ua2": 236,
+      "fa2": 100,
+      "s": -28,
+      "t": -158,
+      "s2": -168,
+      "t2": -160
+    },
+    "B": {
+      "hip": [
+        0,
+        -14
+      ],
+      "ft": -10,
+      "ft2": -16,
+      "b": -62,
+      "hd": -50,
+      "g": 0,
+      "ua": 232,
+      "fa": 104,
+      "ua2": 236,
+      "fa2": 100,
+      "s": -168,
+      "t": -160,
+      "s2": -28,
+      "t2": -158
+    },
+    "NECK_BAD": {
+      "hip": [
+        0,
+        -14
+      ],
+      "ft": -10,
+      "ft2": -16,
+      "b": -52,
+      "hd": -128,
+      "g": 0,
+      "ua": 210,
+      "fa": 126,
+      "ua2": 214,
+      "fa2": 122,
+      "s": -28,
+      "t": -158,
+      "s2": -168,
+      "t2": -160
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "badge": "CROSSFIT — WOD",
+      "head": [
+        "BICYCLE",
+        "CRUNCH"
+      ],
+      "vo": "Bicycle Crunch: pedaleás en el aire y llevás el codo a la rodilla opuesta. Oblicuos y abdomen en un solo movimiento.",
+      "min": 4.8,
+      "moves": [
+        {
+          "seq": [
+            [
+              "A",
+              0.8
+            ],
+            [
+              "B",
+              0.8
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "MANOS",
+        "EN LA NUCA"
+      ],
+      "sub": "Omóplatos despegados",
+      "vo": "Acostate boca arriba con las manos detrás de la nuca, las rodillas flexionadas y los omóplatos despegados del piso.",
+      "min": 5.4,
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "CODOS ABIERTOS",
+          "anchor": "middle",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "badge": "PASO 1 / 2",
+      "head": [
+        "PEDALEÁ",
+        "EN EL AIRE"
+      ],
+      "sub": "Una pierna al pecho",
+      "numeral": "1",
+      "vo": "Llevá una rodilla al pecho y estirá la otra pierna, sin apoyar los pies en ningún momento.",
+      "min": 5.6,
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        },
+        {
+          "to": "A",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "SIN TOCAR EL PISO",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "badge": "PASO 2 / 2",
+      "head": [
+        "CAMBIÁ",
+        "DE PIERNA"
+      ],
+      "sub": "Codo a la rodilla",
+      "numeral": "2",
+      "vo": "Cambiá de pierna llevando el codo hacia la rodilla opuesta, con el torso girado y el abdomen firme.",
+      "min": 5.6,
+      "moves": [
+        {
+          "cut": "A",
+          "at": 0
+        },
+        {
+          "to": "B",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            640
+          ],
+          "text": "TORSO ROTADO",
+          "anchor": "middle",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "badge": "ERROR TÍPICO",
+      "head": [
+        "ASÍ NO:",
+        "TIRAR DEL CUELLO"
+      ],
+      "sub": "Manos que empujan la nuca",
+      "bad": true,
+      "vo": "Así no. Si tirás de la nuca con las manos, el cuello trabaja de más y el abdomen queda sin hacer nada.",
+      "min": 5.8,
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        },
+        {
+          "to": "A",
+          "at": 0.5,
+          "dur": 0.8
+        },
+        {
+          "to": "NECK_BAD",
+          "at": 2.0,
+          "dur": 0.7
+        }
+      ],
+      "overlays": []
+    },
+    {
+      "kind": "keys",
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "vo": "Claves: manos suaves en la nuca, pies sin tocar el piso, codo a la rodilla opuesta y movimientos lentos y controlados.",
+      "min": 8.0,
+      "moves": [
+        {
+          "seq": [
+            [
+              "A",
+              0.8
+            ],
+            [
+              "B",
+              0.8
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ],
+      "keys": [
+        "Manos suaves en la nuca",
+        "Pies sin tocar el piso",
+        "Codo a la rodilla opuesta",
+        "Movimiento lento y controlado",
+        "Abdomen firme"
+      ]
+    },
+    {
+      "kind": "reps",
+      "badge": "A ENTRENAR",
+      "head": [
+        "20 SEG"
+      ],
+      "sub": "Alternando",
+      "vo": "Veinte segundos alternando sin parar. Si empezás a tirar del cuello, bajá el ritmo antes de seguir.",
+      "min": 6.4,
+      "moves": [
+        {
+          "seq": [
+            [
+              "A",
+              0.8
+            ],
+            [
+              "B",
+              0.8
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ],
+      "chips": [
+        {
+          "label": "1 · RODILLA",
+          "at": 0.4
+        },
+        {
+          "label": "2 · CAMBIÁ",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "A",
+    "grip": 0,
+    "zoom": 1.12,
+    "dy": 230
+  },
+  "youtube": {
+    "titulo": "Bicycle Crunch 🔥 crunch en bicicleta para oblicuos paso a paso | CrossFit",
+    "descripcion": "🔥 BICYCLE CRUNCH — pedaleo en el aire para oblicuos y abdomen\n\nEl bicycle crunch suma rotación al crunch clásico: pedaleás en el aire y llevás el codo a la rodilla opuesta. Trabaja oblicuos, recto abdominal y también piernas. 💪\n\n📋 PASO A PASO\n1️⃣ Acostate boca arriba con las manos detrás de la nuca.\n2️⃣ Despegá los omóplatos del piso y flexioná las rodillas.\n3️⃣ Llevá una rodilla al pecho y estirá la otra pierna.\n4️⃣ Girá el torso y acercá el codo a la rodilla opuesta.\n5️⃣ Cambiá de lado y seguí alternando, sin apoyar los pies.\n\n✅ CLAVES DE TÉCNICA\n• Manos suaves en la nuca, nunca tirando del cuello\n• Pies sin tocar el piso entre pedaleos\n• Codo a la rodilla opuesta, no al costado\n• Movimiento lento y controlado, sin impulso\n• Abdomen firme y lumbar apoyada\n\n🎯 QUÉ TRABAJA\nOblicuo externo · Oblicuo interno · Recto abdominal · Recto femoral\n\n⏱️ CUÁNTO\n20 segundos alternando. Ideal para el WOD o como finalizador de abdomen.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #BicycleCrunch #Oblicuos #Abdominales",
+    "tags": [
+      "bicycle crunch",
+      "crunch en bicicleta",
+      "crunch bicicleta",
+      "ejercicio para oblicuos",
+      "abdominales en el piso",
+      "crunch con rotacion",
+      "core",
+      "crossfit",
+      "wod",
+      "abdomen"
+    ]
+  }
+}

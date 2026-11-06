@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Kettlebell Leg Overs",
+      "text": "Acostado, pasá las piernas juntas de un lado al otro arriba de la pesa."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba con las piernas extendidas y la kettlebell firme en el piso, a la altura de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Elevá las dos piernas juntas hasta el techo, sin separarlas y con la lumbar pegada al piso."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá las piernas juntas hacia un costado, pasando por encima de la pesa, y volvé al centro."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Bajá las piernas con control, frená antes de tocar la pesa y volvé a subir."
+    },
+    {
+      "id": "06",
+      "text": "Error común: si la lumbar se despega y el cuerpo se arquea, el core se apaga y la pesa recibe todo el golpe."
+    },
+    {
+      "id": "07",
+      "text": "Claves: las piernas van siempre juntas, la lumbar pegada al piso, el descenso se controla sin golpear la pesa y el core queda activo."
+    },
+    {
+      "id": "08",
+      "text": "Veinte segundos pasando las piernas de un lado al otro, con la pesa quieta en el piso y el core activo."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

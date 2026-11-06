@@ -1,0 +1,315 @@
+{
+  "slug": "barbell-hang-power-cluster",
+  "name": "Barbell Hang Power Cluster",
+  "category": "CROSSFIT · WOD",
+  "tags": [
+    "Cadera",
+    "Piernas",
+    "Hombros"
+  ],
+  "descripcion": "Cluster desde el hang: la hang power clean enlaza directo con el thruster. La barra se recibe bajando a la sentadilla frontal y se sube explosiva a la cabeza, sin pausa en el rack.",
+  "revisado": false,
+  "notas": "Cluster = hang power clean + thruster sin pausa: el catch es HALF (media sentadilla con barra en rack) que sigue directo a BOTTOM; poses de thruster (STAND/HALF/BOTTOM/DRIVE/LOCK) + poses de tirón de barbell-hang-clean. base: barbell-thruster.",
+  "music": true,
+  "musicVolume": 0.18,
+  "youtube": {
+    "titulo": "Barbell Hang Power Cluster 🏋️ clean y thruster sin pausa | CrossFit",
+    "tags": [
+      "barbell hang power cluster",
+      "power cluster",
+      "hang power clean",
+      "cluster crossfit",
+      "clean y thruster",
+      "thruster con barra",
+      "levantamiento olimpico",
+      "crossfit",
+      "wod",
+      "potencia"
+    ],
+    "descripcion": "🎬 BARBELL HANG POWER CLUSTER - Cargada y thruster en un solo movimiento\n\nEl cluster no te deja pausar: la barra sale del hang, la recibís bajando directo a la sentadilla frontal y subís explosivo empujando la barra arriba. Un solo gesto, sin corte en el rack. 🔥\n\n📝 PASO A PASO\n1️⃣ Parate con la barra colgada a media rótula, hombros por delante y espalda firme.\n2️⃣ Extendé cadera y rodillas de golpe: la barra sube pegada al cuerpo.\n3️⃣ Girá los codos y recibí la barra en los hombros bajando directo a la sentadilla completa.\n4️⃣ Subí explosivo empujando la barra arriba de la cabeza (thruster), sin pausa.\n5️⃣ Bajá la barra controlada al rack y encadená la próxima.\n\n✅ CLAVES DE TÉCNICA\n✔️ Sin pausa en el rack: el catch se encadena con la sentadilla\n✔️ Codos altos en todo el descenso\n✔️ Barra pegada al cuerpo\n✔️ Empuje explosivo con las piernas\n\n💪 QUÉ TRABAJA\nGlúteo mayor · Cuádriceps · Deltoides anterior · Trapecio superior · Tríceps · Core\n\n⏱️ CUÁNTO\n5 repeticiones con 40 kg. Va en WODs de potencia.\n\n❤️ Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi el cluster te desarma la técnica, bajá el peso: la gracia es la continuidad, no el kilo.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Cluster #Thruster #Halterofilia #WOD"
+  },
+  "miniatura": {
+    "pose": "LOCK",
+    "grip": 0,
+    "zoom": 1.2,
+    "dy": 160
+  },
+  "initialPose": "HANG",
+  "rig": {
+    "x": 470,
+    "y": 1509,
+    "scale": 0.66
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "torso": [
+        60,
+        30
+      ],
+      "r": 72,
+      "blend": true
+    }
+  ],
+  "pronuncia": {
+    "Hang Power Cluster": "Jang páuer claster",
+    "Barbell Hang Power Cluster": "Bárbel jang páuer claster",
+    "Clean": "Clin",
+    "cluster": "claster",
+    "hang": "jang",
+    "thruster": "traster"
+  },
+  "poses": {
+    "HANG": {
+      "g": 1,
+      "ed": 1,
+      "s": 8,
+      "t": -30,
+      "b": 55,
+      "hd": 40,
+      "hx": 45,
+      "hy": -290
+    },
+    "HIP": {
+      "s": 18,
+      "t": -38,
+      "b": 18,
+      "hd": 10,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": 2,
+      "fa2": 0
+    },
+    "EXT": {
+      "s": -4,
+      "t": 4,
+      "b": -8,
+      "hd": -6,
+      "ft": -22,
+      "ft2": -22,
+      "g": 0,
+      "ua": 6,
+      "fa": 0,
+      "ua2": 6,
+      "fa2": 0
+    },
+    "PULL_C": {
+      "s": -2,
+      "t": 2,
+      "b": -4,
+      "hd": -4,
+      "ft": -16,
+      "ft2": -16,
+      "g": 0,
+      "ua": 70,
+      "fa": -110,
+      "ua2": 70,
+      "fa2": -110
+    },
+    "HALF": {
+      "s": 20,
+      "t": -52,
+      "hd": 4,
+      "g": 0,
+      "ua": 78,
+      "fa": 176,
+      "ua2": 82,
+      "fa2": 172,
+      "bf": 1,
+      "b": 12
+    },
+    "BOTTOM": {
+      "s": 40,
+      "t": -112,
+      "hd": 8,
+      "g": 0,
+      "ua": 70,
+      "fa": 176,
+      "ua2": 74,
+      "fa2": 172,
+      "bf": 1,
+      "b": 20
+    },
+    "DRIVE": {
+      "s": 0,
+      "t": 2,
+      "hd": -4,
+      "ft": -10,
+      "ft2": -10,
+      "g": 0,
+      "ua": 92,
+      "fa": 176,
+      "ua2": 96,
+      "fa2": 172,
+      "bf": 1,
+      "b": -2
+    },
+    "LOCK": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 8,
+      "g": 0,
+      "ua": 184,
+      "fa": 0,
+      "ua2": 184,
+      "fa2": 0,
+      "bf": 0
+    },
+    "ELBOWS_DOWN": {
+      "s": 34,
+      "t": -100,
+      "b": 42,
+      "hd": 30,
+      "g": 0,
+      "ua": 18,
+      "fa": 150,
+      "ua2": 22,
+      "fa2": 146,
+      "bf": 1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.0,
+      "badge": "CROSSFIT · WOD",
+      "head": [
+        "POWER",
+        "CLUSTER"
+      ],
+      "vo": "Barbell Hang Power Cluster: cargada desde el hang y thruster en un solo movimiento, sin pausa.",
+      "moves": [
+        { "cut": "HANG", "at": 0 },
+        { "to": "HIP", "at": 0.4, "dur": 0.35 },
+        { "to": "EXT", "at": 0.75, "dur": 0.2, "ease": "power2.out" },
+        { "to": "PULL_C", "at": 0.95, "dur": 0.18 },
+        { "to": "HALF", "at": 1.2, "dur": 0.25 },
+        { "to": "BOTTOM", "at": 1.55, "dur": 0.4 },
+        { "to": "DRIVE", "at": 2.3, "dur": 0.25, "ease": "power2.out" },
+        { "to": "LOCK", "at": 2.6, "dur": 0.7 }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BARRA",
+        "COLGADA"
+      ],
+      "sub": "A media rótula",
+      "vo": "Parate con la barra colgada a media rótula, hombros por delante y espalda firme.",
+      "moves": [{ "cut": "HANG", "at": 0 }]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "TIRÁ",
+        "EXPLOSIVO"
+      ],
+      "sub": "Cadera y rodillas",
+      "vo": "Paso uno. Extendé cadera y rodillas de golpe y mantené la barra pegada al cuerpo.",
+      "moves": [
+        { "cut": "HANG", "at": 0 },
+        { "to": "HIP", "at": 0.6, "dur": 0.35 },
+        { "to": "EXT", "at": 1.0, "dur": 0.25, "ease": "power2.out" }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "RECIBÍ",
+        "ABAJO"
+      ],
+      "sub": "Sin pausa en el rack",
+      "vo": "Paso dos. Recibí la barra en los hombros bajando directo a la sentadilla completa, sin pausa.",
+      "moves": [
+        { "cut": "EXT", "at": 0 },
+        { "to": "PULL_C", "at": 0.35, "dur": 0.2 },
+        { "to": "HALF", "at": 0.7, "dur": 0.3 },
+        { "to": "BOTTOM", "at": 1.3, "dur": 0.5 }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "SUBÍ",
+        "Y EMPUJÁ"
+      ],
+      "sub": "Thruster",
+      "vo": "Paso tres. Subí explosivo con las piernas y empujá la barra arriba de la cabeza de un solo envión.",
+      "moves": [
+        { "cut": "BOTTOM", "at": 0 },
+        { "to": "DRIVE", "at": 0.6, "dur": 0.25, "ease": "power2.out" },
+        { "to": "LOCK", "at": 1.0, "dur": 0.7 }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ASÍ NO"
+      ],
+      "sub": "Codos bajos al recibir",
+      "vo": "Paso cuatro. Si los codos se caen al recibir, la barra se va al frente y el cluster se desarma.",
+      "moves": [
+        { "cut": "BOTTOM", "at": 0 },
+        { "to": "ELBOWS_DOWN", "at": 0.7, "dur": 0.7 },
+        { "to": "BOTTOM", "at": 2.4, "dur": 0.8 }
+      ],
+      "overlays": [{ "type": "label", "pos": [150, 1120], "text": "CODOS ALTOS", "anchor": "start", "at": 1.3 }]
+    },
+    {
+      "kind": "keys",
+      "min": 7.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.7,
+      "keys": [
+        "Sin pausa en el rack",
+        "Codos altos al recibir",
+        "Barra pegada al cuerpo",
+        "Empuje explosivo"
+      ],
+      "vo": "Claves: sin pausa en el rack, codos altos al recibir, barra pegada al cuerpo y empuje explosivo de piernas.",
+      "moves": [{ "cut": "HALF", "at": 0.1 }]
+    },
+    {
+      "kind": "reps",
+      "min": 7.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "5 REPS · 40 KG"
+      ],
+      "sub": "Ritmo parejo",
+      "vo": "Cinco repeticiones con cuarenta kilos, encadenando clean y thruster sin pausa.",
+      "chips": [
+        { "label": "1 · CLEAN", "at": 0.4 },
+        { "label": "2 · BAJÁ", "at": 1.2 },
+        { "label": "3 · ARRIBA", "at": 2.0 }
+      ],
+      "moves": [
+        { "cut": "HANG", "at": 0 },
+        { "to": "HIP", "at": 0.4, "dur": 0.35 },
+        { "to": "EXT", "at": 0.75, "dur": 0.2, "ease": "power2.out" },
+        { "to": "PULL_C", "at": 0.95, "dur": 0.18 },
+        { "to": "HALF", "at": 1.2, "dur": 0.25 },
+        { "to": "BOTTOM", "at": 1.55, "dur": 0.4 },
+        { "to": "DRIVE", "at": 2.3, "dur": 0.25, "ease": "power2.out" },
+        { "to": "LOCK", "at": 2.6, "dur": 0.7 },
+        { "to": "HALF", "at": 4.0, "dur": 0.5 },
+        { "to": "HANG", "at": 4.9, "dur": 0.8 }
+      ]
+    }
+  ]
+}

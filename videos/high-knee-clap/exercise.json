@@ -1,0 +1,440 @@
+{
+  "slug": "high-knee-clap",
+  "name": "High Knee Clap",
+  "category": "CROSSFIT · ACTIVACIÓN",
+  "tags": [
+    "Cardio",
+    "Core",
+    "Sin salto"
+  ],
+  "descripcion": "Rodillas altas sin salto: subís una rodilla a la altura de la cadera y palmada por debajo del muslo, alternando.",
+  "revisado": false,
+  "notas": "Rodillas altas alternadas sin fase de salto. IK con el pie de apoyo en el origen (ankle/ankle2 = [0,0]) y el pie elevado a [250,-260] (rodilla arriba a la altura de la cadera). Manos con blend `g` hacia (110,-440) para la palmada debajo del muslo. Error LEAN_BAD: torso atrasado (b -16) con la rodilla baja.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1503,
+    "scale": 0.85
+  },
+  "pronuncia": {
+    "High Knee Clap": "jái ni clap",
+    "rodillas": "rodillas"
+  },
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ft": 0,
+      "ua": 10,
+      "fa": 14,
+      "ua2": 10,
+      "fa2": 14,
+      "g": 0
+    },
+    "LIFT_N": {
+      "hip": [
+        0,
+        -466
+      ],
+      "ankle": [
+        240,
+        -250
+      ],
+      "ankle2": [
+        0,
+        0
+      ],
+      "b": 8,
+      "hd": 4,
+      "g": 0.45,
+      "hx": 150,
+      "hy": -370,
+      "ed": 1,
+      "ua": 8,
+      "fa": 10
+    },
+    "CLAP_N": {
+      "hip": [
+        0,
+        -466
+      ],
+      "ankle": [
+        240,
+        -250
+      ],
+      "ankle2": [
+        0,
+        0
+      ],
+      "b": 8,
+      "hd": 4,
+      "g": 1,
+      "hx": 160,
+      "hy": -430,
+      "ed": 1,
+      "ua": 8,
+      "fa": 10
+    },
+    "LIFT_F": {
+      "hip": [
+        0,
+        -466
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        240,
+        -250
+      ],
+      "b": 8,
+      "hd": 4,
+      "g": 0.45,
+      "hx": 150,
+      "hy": -370,
+      "ed": 1,
+      "ua": 8,
+      "fa": 10
+    },
+    "CLAP_F": {
+      "hip": [
+        0,
+        -466
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        240,
+        -250
+      ],
+      "b": 8,
+      "hd": 4,
+      "g": 1,
+      "hx": 160,
+      "hy": -430,
+      "ed": 1,
+      "ua": 8,
+      "fa": 10
+    },
+    "LEAN_BAD": {
+      "hip": [
+        0,
+        -470
+      ],
+      "ankle": [
+        150,
+        -150
+      ],
+      "ankle2": [
+        0,
+        0
+      ],
+      "b": -16,
+      "hd": -6,
+      "g": 0.2,
+      "hx": 110,
+      "hy": -390,
+      "ed": 1,
+      "ua": 6,
+      "fa": 10
+    }
+  },
+  "initialPose": "STAND",
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ACTIVACIÓN",
+      "head": [
+        "HIGH KNEE",
+        "CLAP"
+      ],
+      "vo": "High Knee Clap: rodillas altas sin salto, palmada debajo del muslo. Cardio y coordinación.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "CLAP_N",
+          "at": 1,
+          "dur": 0.55
+        },
+        {
+          "to": "STAND",
+          "at": 2,
+          "dur": 0.5
+        },
+        {
+          "to": "CLAP_F",
+          "at": 2.7,
+          "dur": 0.55
+        },
+        {
+          "to": "STAND",
+          "at": 3.7,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE",
+        "TORSO ERGUIDO"
+      ],
+      "sub": "Peso en la planta",
+      "vo": "Arrancá de pie con el torso erguido, el core firme y el peso repartido en la planta de los pies.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "RODILLA",
+        "A LA CADERA"
+      ],
+      "sub": "Sin salto",
+      "vo": "Paso uno. Subí una rodilla a la altura de la cadera, sin saltar: un pie siempre en el piso.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "LIFT_N",
+          "at": 0.9,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "to": [
+            520,
+            1230
+          ],
+          "at": 1.2,
+          "dur": 0.8,
+          "from": [
+            430,
+            1440
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            560,
+            1180
+          ],
+          "text": "ALTURA DE CADERA",
+          "anchor": "start",
+          "at": 2,
+          "out": 4.6
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "PALMADA",
+        "DEBAJO"
+      ],
+      "sub": "Coordina",
+      "vo": "Paso dos. Pasá la mano por debajo del muslo y dale una palmada justo abajo de la rodilla.",
+      "moves": [
+        {
+          "cut": "LIFT_N",
+          "at": 0
+        },
+        {
+          "to": "CLAP_N",
+          "at": 0.8,
+          "dur": 0.45
+        },
+        {
+          "to": "LIFT_N",
+          "at": 2.2,
+          "dur": 0.4
+        },
+        {
+          "to": "CLAP_N",
+          "at": 3,
+          "dur": 0.45
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "ALTERNÁ",
+        "EL RITMO"
+      ],
+      "sub": "Ritmo sostenido",
+      "vo": "Paso tres. Alterná las rodillas a ritmo sostenido, con el torso quieto y sin perder el apoyo.",
+      "moves": [
+        {
+          "cut": "CLAP_N",
+          "at": 0
+        },
+        {
+          "to": "CLAP_F",
+          "at": 0.9,
+          "dur": 0.45
+        },
+        {
+          "to": "CLAP_N",
+          "at": 1.8,
+          "dur": 0.45
+        },
+        {
+          "to": "CLAP_F",
+          "at": 2.7,
+          "dur": 0.45
+        }
+      ]
+    },
+    {
+      "kind": "step",
+      "min": 5.2,
+      "badge": "ERROR COMÚN",
+      "head": [
+        "TORSO",
+        "ATRÁS"
+      ],
+      "sub": "No te tires atrás",
+      "vo": "El error: echarte atrás con la rodilla baja. El torso queda erguido y la rodilla sube a la cadera.",
+      "moves": [
+        {
+          "cut": "LIFT_N",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 1,
+          "dur": 0.7
+        },
+        {
+          "to": "LIFT_N",
+          "at": 3.1,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            300,
+            1290
+          ],
+          "text": "RODILLA ARRIBA",
+          "anchor": "start",
+          "at": 1.6,
+          "out": 4.3
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.4,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Torso erguido",
+        "Rodilla a la altura de la cadera",
+        "Un pie siempre en el piso",
+        "Palmada debajo del muslo",
+        "Ritmo constante"
+      ],
+      "vo": "Claves: torso erguido, rodilla a la cadera, un pie siempre en el piso y palmada debajo del muslo.",
+      "moves": [
+        {
+          "cut": "LIFT_N",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEG"
+      ],
+      "sub": "Ritmo alto",
+      "vo": "Treinta segundos a ritmo alto. Si perdés el equilibrio, bajá la altura de la rodilla.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PALMADA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · ALTERNÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "loop": [
+            "CLAP_N",
+            "STAND",
+            "CLAP_F",
+            "STAND"
+          ],
+          "at": 0.4,
+          "step": 0.45,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "CLAP_N",
+    "grip": 0,
+    "zoom": 1.14,
+    "dy": 165
+  },
+  "youtube": {
+    "titulo": "High Knee Clap 🎯 rodillas altas sin salto para entrar en calor | CrossFit",
+    "tags": [
+      "high knee clap",
+      "rodillas altas",
+      "cardio",
+      "entrada en calor",
+      "activación",
+      "sin salto",
+      "coordinación",
+      "core",
+      "crossfit",
+      "wod"
+    ],
+    "descripcion": "🎯 HIGH KNEE CLAP — rodillas altas con palmada\nCardio de pie sin impacto: subís la rodilla a la altura de la cadera y das una palmada por debajo del muslo. Entrada en calor y coordinación en el mismo movimiento. 👏\n\n📋 PASO A PASO\n1️⃣ De pie, torso erguido y core firme.\n2️⃣ Subí una rodilla a la altura de la cadera sin saltar: un pie siempre en el piso.\n3️⃣ Pasá la mano por debajo del muslo y palmada abajo de la rodilla.\n4️⃣ Alterná las rodillas a ritmo sostenido, sin perder el apoyo.\n\n✅ CLAVES DE TÉCNICA\n• Torso erguido\n• Rodilla a la altura de la cadera\n• Un pie siempre en el piso\n• Palmada debajo del muslo\n• Ritmo constante\n\n🎯 QUÉ TRABAJA\nRecto femoral · Gemelos · Recto abdominal · Core\n\n⏱️ CUÁNTO\n30 segundos a ritmo alto. Si perdés el equilibrio, bajá la altura.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\nProgresión: primero sin palmada y con la rodilla más baja; después sumá altura y ritmo.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Cardio #RodillasAltas #Activacion #SinMaterial"
+  }
+}

@@ -1,0 +1,482 @@
+{
+  "slug": "lateral-lunge",
+  "name": "Lateral Lunge",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Piernas",
+    "Glúteos",
+    "Aductores"
+  ],
+  "descripcion": "De pie con una mancuerna en cada mano, dar un paso lateral amplio flexionando la rodilla del lado que avanzás y manteniendo la otra pierna extendida. Bajar la cadera hasta que el muslo quede cerca de la paralela y volver empujando el piso.",
+  "revisado": false,
+  "notas": "Movimiento lateral: la pierna estirada se ve corta de perfil (ll/ll2) y la tarjeta vista de frente (topview mode cossack) cuenta el cambio de lado.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "hand": "far",
+      "side": true,
+      "r": 40,
+      "off": [
+        0,
+        4
+      ]
+    },
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "side": true,
+      "r": 40,
+      "off": [
+        0,
+        4
+      ]
+    }
+  ],
+  "nombreEnVoz": "Lateral lunge",
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6,
+      "ua2": 4,
+      "fa2": 6,
+      "cs": 0
+    },
+    "WIDE": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6,
+      "ua2": 4,
+      "fa2": 6,
+      "cs": 0
+    },
+    "MID_N": {
+      "hip": [
+        -50,
+        -330
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "s2": -14,
+      "t2": -14,
+      "ll2": 0.72,
+      "ft2": -40,
+      "b": 16,
+      "hd": 8,
+      "cs": 0.55,
+      "g": 0,
+      "ua": 4,
+      "fa": 6,
+      "ua2": 4,
+      "fa2": 6
+    },
+    "LUNGE_N": {
+      "hip": [
+        -100,
+        -175
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "s2": -29.7,
+      "t2": -29.7,
+      "ll2": 0.429,
+      "ft2": -70,
+      "b": 24,
+      "hd": 12,
+      "cs": 1,
+      "g": 0,
+      "ua": 4,
+      "fa": 6,
+      "ua2": 4,
+      "fa2": 6
+    },
+    "LUNGE_F": {
+      "hip": [
+        -100,
+        -175
+      ],
+      "s": -29.7,
+      "t": -29.7,
+      "ll": 0.429,
+      "ft": -70,
+      "s2": 37.5,
+      "t2": -91.8,
+      "b": 24,
+      "hd": 12,
+      "cs": -1,
+      "g": 0,
+      "ua": 4,
+      "fa": 6,
+      "ua2": 4,
+      "fa2": 6
+    },
+    "HEEL_BAD": {
+      "hip": [
+        -40,
+        -190
+      ],
+      "ankle": [
+        30,
+        -34
+      ],
+      "ft": -34,
+      "s2": -29.7,
+      "t2": -29.7,
+      "ll2": 0.429,
+      "ft2": -70,
+      "b": 28,
+      "hd": 14,
+      "cs": 1,
+      "g": 0,
+      "ua": 4,
+      "fa": 6,
+      "ua2": 4,
+      "fa2": 6
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "LATERAL",
+        "LUNGE"
+      ],
+      "topview": {
+        "mode": "cossack"
+      },
+      "vo": "Lateral Lunge: zancada lateral con mancuernas. Aductores, glúteos y control de rodilla.",
+      "moves": [
+        {
+          "to": "WIDE",
+          "at": 0.2,
+          "dur": 0.4
+        },
+        {
+          "seq": [
+            [
+              "MID_N",
+              0.55
+            ],
+            [
+              "LUNGE_N",
+              0.75
+            ],
+            [
+              "WIDE",
+              0.8
+            ],
+            [
+              "LUNGE_F",
+              0.95
+            ],
+            [
+              "WIDE",
+              0.8
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PIES",
+        "BIEN ABIERTOS"
+      ],
+      "sub": "Mancuerna en cada mano",
+      "topview": {
+        "mode": "cossack",
+        "label": "PIES ABIERTOS"
+      },
+      "vo": "Parate con los pies bien abiertos y una mancuerna en cada mano al costado.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "WIDE",
+          "at": 1.0,
+          "dur": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "PASO",
+        "LATERAL"
+      ],
+      "sub": "Amplio",
+      "topview": {
+        "mode": "cossack",
+        "label": "PASO LATERAL"
+      },
+      "vo": "Paso uno. Da un paso lateral amplio y llevá el peso hacia ese lado.",
+      "moves": [
+        {
+          "cut": "WIDE",
+          "at": 0
+        },
+        {
+          "to": "MID_N",
+          "at": 0.6,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            310,
+            850
+          ],
+          "text": "PASO AMPLIO",
+          "anchor": "start",
+          "at": 1.3
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "SENTATE",
+        "ATRÁS"
+      ],
+      "sub": "Sobre la pierna que flexiona",
+      "topview": {
+        "mode": "cossack"
+      },
+      "vo": "Paso dos. Sentate atrás sobre la pierna que flexiona, con el pecho arriba y el talón apoyado.",
+      "moves": [
+        {
+          "cut": "MID_N",
+          "at": 0
+        },
+        {
+          "to": "LUNGE_N",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            300,
+            760
+          ],
+          "text": "PECHO ARRIBA",
+          "anchor": "start",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "LA OTRA",
+        "ESTIRADA"
+      ],
+      "sub": "Pie apoyado",
+      "topview": {
+        "mode": "cossack"
+      },
+      "vo": "Paso tres. La otra pierna queda estirada, con el pie apoyado. La rodilla no se va para adentro.",
+      "moves": [
+        {
+          "cut": "LUNGE_N",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            230,
+            900
+          ],
+          "text": "PIERNA ESTIRADA",
+          "anchor": "start",
+          "at": 0.9
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "EMPUJÁ",
+        "Y VOLVÉ"
+      ],
+      "sub": "Talón abajo",
+      "topview": {
+        "mode": "cossack",
+        "label": "CAMBIÁ DE LADO"
+      },
+      "vo": "Paso cuatro. Empujá con el talón y volvé al centro. Después bajá al otro lado.",
+      "moves": [
+        {
+          "cut": "LUNGE_N",
+          "at": 0
+        },
+        {
+          "to": "HEEL_BAD",
+          "at": 1.8,
+          "dur": 0.5
+        },
+        {
+          "to": "LUNGE_N",
+          "at": 3.2,
+          "dur": 0.5
+        },
+        {
+          "to": "WIDE",
+          "at": 4.2,
+          "dur": 0.8
+        },
+        {
+          "to": "LUNGE_F",
+          "at": 5.0,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            250,
+            780
+          ],
+          "text": "TALÓN ARRIBA NO",
+          "anchor": "start",
+          "at": 2.2,
+          "out": 3.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Paso lateral amplio",
+        "Sentate sobre la pierna",
+        "Pecho arriba",
+        "Talón y rodilla firmes"
+      ],
+      "vo": "Claves: paso amplio, sentate sobre la pierna, pecho arriba y talón apoyado con rodilla alineada.",
+      "moves": [
+        {
+          "cut": "LUNGE_N",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.0,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "Alternando lados",
+      "vo": "Treinta segundos alternando lados con las mancuernas. Movilidad y fuerza de cadera.",
+      "chips": [
+        {
+          "label": "1 · UN LADO",
+          "at": 0.6
+        },
+        {
+          "label": "2 · EL OTRO",
+          "at": 2.8
+        }
+      ],
+      "moves": [
+        {
+          "cut": "WIDE",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "LUNGE_N",
+              0.9
+            ],
+            [
+              "WIDE",
+              0.7
+            ],
+            [
+              "LUNGE_F",
+              0.9
+            ],
+            [
+              "WIDE",
+              0.7
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "LUNGE_N",
+    "grip": 0,
+    "zoom": 1.05,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Lateral Lunge 🔥 Zancada lateral para aductores y glúteos | CrossFit",
+    "tags": [
+      "lateral lunge",
+      "zancada lateral",
+      "sentadilla lateral",
+      "aductores",
+      "gluteos",
+      "movilidad de cadera",
+      "piernas",
+      "crossfit",
+      "entrada en calor",
+      "mancuernas"
+    ],
+    "descripcion": "🔥 LATERAL LUNGE — fuerza y movilidad lateral de cadera\n\n¿Siempre entrenás de frente y la cadera se te traba de costado? La zancada lateral abre aductores y glúteos. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate con los pies bien abiertos y una mancuerna en cada mano al costado.\n2️⃣ Da un paso lateral amplio y llevá el peso hacia ese lado.\n3️⃣ Sentate hacia atrás sobre la pierna que flexiona, con el pecho arriba.\n4️⃣ La otra pierna queda estirada, con el pie apoyado.\n5️⃣ Empujá el piso con el talón y volvé al centro. Alterná lados.\n\n✅ CLAVES DE TÉCNICA\n• Paso lateral amplio\n• Sentate sobre la pierna que flexiona\n• Pecho arriba y mirada al frente\n• Talón apoyado y rodilla alineada con el pie\n• La pierna de afuera queda estirada\n\n🎯 QUÉ TRABAJA\nRecto femoral · Bíceps femoral · Glúteo mayor · Aductores\n\n⏱️ CUÁNTO\n30 segundos alternando lados con 12,5 kg. Ideal en la entrada en calor o como accesorio de piernas.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ Si te cuesta la profundidad, empezá sin mancuernas y con un paso más corto, y andá abriendo de a poco.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #LateralLunge #Aductores #Gluteos"
+  }
+}

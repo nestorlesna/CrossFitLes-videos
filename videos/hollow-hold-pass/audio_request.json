@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Hollow Hold Pass",
+      "text": "Pasar el disco de las manos a los pies sin despegar la lumbar. El core no se apaga."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba con el disco en las manos y los brazos extendidos por encima de la cabeza."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Pegá la lumbar al piso y despegá hombros y piernas: el cuerpo forma una banana."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Pasá el disco de las manos hacia los pies y devolvelo lento, sin perder la posición hollow."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Si la lumbar se despega, el disco ya no sirve: achicá el rango o flexioná las rodillas."
+    },
+    {
+      "id": "06",
+      "text": "Claves: lumbar pegada, disco lento, sin perder el hollow y menos rango si hace falta."
+    },
+    {
+      "id": "07",
+      "text": "Treinta segundos pasando el disco. Si la lumbar se despega, cortá la serie."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,316 @@
+{
+  "slug": "barbell-strict-press",
+  "name": "Barbell Strict Press",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Hombros",
+    "Tríceps",
+    "Core"
+  ],
+  "descripcion": "Press de hombros de pie con barra: desde el rack frontal, empujar la barra sobre la cabeza sin usar las piernas, y bajar con control.",
+  "revisado": false,
+  "notas": "Press estricto, sin dip de piernas.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "initialPose": "RACK",
+  "props": [
+    {
+      "type": "barbell",
+      "torso": [
+        60,
+        30
+      ],
+      "r": 72,
+      "blend": true
+    }
+  ],
+  "poses": {
+    "RACK": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 88,
+      "fa": 176,
+      "ua2": 92,
+      "fa2": 172,
+      "bf": 1
+    },
+    "PRESS": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": -6,
+      "ua": 140,
+      "fa": 20,
+      "ua2": 143,
+      "fa2": 18,
+      "bf": 0
+    },
+    "LOCK": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 4,
+      "ua": 178,
+      "fa": 2,
+      "ua2": 178,
+      "fa2": 2,
+      "bf": 0
+    },
+    "ARCH_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": -20,
+      "hd": -6,
+      "ua": 158,
+      "fa": 14,
+      "ua2": 158,
+      "fa2": 14,
+      "bf": 0
+    }
+  },
+  "miniatura": {
+    "pose": "LOCK",
+    "grip": 1,
+    "zoom": 1.1,
+    "dy": 200
+  },
+  "youtube": {
+    "titulo": "Barbell Strict Press 🔥 Press de hombros sin impulso paso a paso | CrossFit",
+    "tags": [
+      "barbell strict press",
+      "press estricto",
+      "press de hombros",
+      "barra",
+      "hombros",
+      "triceps",
+      "core",
+      "fuerza",
+      "crossfit",
+      "empuje vertical"
+    ],
+    "descripcion": "🔥 BARBELL STRICT PRESS — press de hombros sin impulso, paso a paso\n\nEl press estricto es la base de todo empuje vertical: si no podés mover la barra solo con los brazos y el core, no hay press que valga. Acá va la técnica, sin trampa. 💪\n\n📋 PASO A PASO\n1️⃣ Barra apoyada adelante, sobre los hombros, codos bien altos y pies al ancho de la cadera.\n2️⃣ Empujá la barra hacia arriba sin flexionar las piernas.\n3️⃣ Dejá pasar la barra con la cabeza atrás y extendé los brazos.\n4️⃣ Bloqueá arriba de la cabeza, con la barra sobre la línea del cuerpo.\n5️⃣ Bajá al rack controlando y repetí.\n\n✅ CLAVES DE TÉCNICA\n• Codos altos en el rack\n• Sin impulso de piernas\n• Cabeza atrás para dejar pasar la barra\n• Abdomen firme, sin arquear la lumbar\n• Bajá controlando\n\n🎯 QUÉ TRABAJA\nDeltoides anterior · Tríceps · Trapecio superior · Core\n\n⏱️ CUÁNTO\n5 repeticiones con 30 kg. Subí el peso solo cuando las 5 salgan limpias.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi te cuesta bloquear, bajá el peso y trabajá la movilidad de hombros antes.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #StrictPress #PressDeHombros #Barbell #Fuerza"
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "STRICT",
+        "PRESS"
+      ],
+      "vo": "Barbell Strict Press: press de hombros sin impulso. Solo brazos, core firme y barra sobre la cabeza.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "RACK",
+              0.7
+            ],
+            [
+              "PRESS",
+              0.8
+            ],
+            [
+              "LOCK",
+              0.7
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "RACK",
+        "FRONTAL"
+      ],
+      "sub": "Codos altos",
+      "vo": "Con la barra apoyada adelante, sobre los hombros y los codos bien altos, los pies al ancho de la cadera.",
+      "moves": [
+        {
+          "cut": "RACK",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "EMPUJÁ",
+        "LA BARRA"
+      ],
+      "sub": "Sin piernas",
+      "vo": "Paso uno. Empujá la barra hacia arriba sin flexionar las piernas: el impulso sale de los hombros y el core.",
+      "moves": [
+        {
+          "cut": "RACK",
+          "at": 0
+        },
+        {
+          "to": "PRESS",
+          "at": 0.7,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            760,
+            800
+          ],
+          "text": "SIN PIERNAS",
+          "anchor": "middle",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "BLOQUEÁ",
+        "ARRIBA"
+      ],
+      "sub": "Cabeza atrás",
+      "vo": "Paso dos. Dejá pasar la barra con la cabeza atrás y estirá los brazos hasta bloquear arriba de la cabeza.",
+      "moves": [
+        {
+          "cut": "PRESS",
+          "at": 0
+        },
+        {
+          "to": "LOCK",
+          "at": 0.6,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            740
+          ],
+          "text": "BLOQUEÁ",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "ASÍ NO",
+      "head": [
+        "ARQUEAR",
+        "LA ESPALDA"
+      ],
+      "sub": "La barra se va",
+      "vo": "Así no. Si te tirás para atrás y arqueás la espalda en el bloqueo, la barra se te va y la lumbar sufre.",
+      "moves": [
+        {
+          "cut": "LOCK",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 0.7,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            980
+          ],
+          "text": "NO ARQUEES",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Codos altos en el rack",
+        "Sin impulso de piernas",
+        "Cabeza atrás al pasar",
+        "Abdomen firme, sin arquear"
+      ],
+      "vo": "Claves: codos altos, sin impulso de piernas, cabeza atrás para dejar pasar la barra y abdomen firme sin arquear.",
+      "moves": [
+        {
+          "cut": "RACK",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "5 REPS"
+      ],
+      "sub": "Barra 30 kg",
+      "vo": "Cinco repeticiones con treinta kilos. Bajá la barra al rack controlando y repetí sin usar las piernas.",
+      "chips": [
+        {
+          "label": "1 · EMPUJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · BLOQUEÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "seq": [
+            [
+              "PRESS",
+              0.7
+            ],
+            [
+              "LOCK",
+              0.7
+            ],
+            [
+              "RACK",
+              0.8
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "slug": "stability-ball-plate-crunch",
+  "name": "Stability Ball Plate Crunch",
+  "category": "CROSSFIT · FUERZA",
+  "tags": [
+    "Abdomen",
+    "Core",
+    "Estabilidad"
+  ],
+  "descripcion": "Acostado sobre una pelota suiza (stability ball / swiss ball) quedando paralelo al suelo, con pies apoyados para estabilidad. Sostener un disco (plate) con ambas manos. Extender el torso hacia atrás y luego hacer crunch llevando el disco hacia adelante/arriba.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 380,
+    "y": 1500,
+    "scale": 0.85
+  },
+  "pronuncia": {
+    "Stability Ball Plate Crunch": "Estabíliti bol pleit cronch"
+  },
+  "initialPose": "FLAT",
+  "props": [
+    {
+      "type": "wallball",
+      "wall": false,
+      "r": 150,
+      "off": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "plate",
+      "hand": "near",
+      "r": 56,
+      "off": [
+        0,
+        0
+      ]
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "FLAT": {
+      "hip": [
+        -10,
+        -290
+      ],
+      "ankle": [
+        250,
+        0
+      ],
+      "b": -90,
+      "hd": -92,
+      "g": 0,
+      "ua": 150,
+      "fa": 0,
+      "ua2": 150,
+      "fa2": 0,
+      "bf": 1,
+      "bx": -40,
+      "by": -116
+    },
+    "EXT": {
+      "hip": [
+        -10,
+        -290
+      ],
+      "ankle": [
+        250,
+        0
+      ],
+      "b": -112,
+      "hd": -114,
+      "g": 0,
+      "ua": 170,
+      "fa": 0,
+      "ua2": 170,
+      "fa2": 0,
+      "bf": 1,
+      "bx": -40,
+      "by": -116
+    },
+    "CRUNCH": {
+      "hip": [
+        -10,
+        -290
+      ],
+      "ankle": [
+        250,
+        0
+      ],
+      "b": -40,
+      "hd": -34,
+      "g": 0,
+      "ua": 100,
+      "fa": 0,
+      "ua2": 100,
+      "fa2": 0,
+      "bf": 1,
+      "bx": -40,
+      "by": -116
+    },
+    "PULL_BAD": {
+      "hip": [
+        -10,
+        -290
+      ],
+      "ankle": [
+        250,
+        0
+      ],
+      "b": -60,
+      "hd": -20,
+      "g": 0,
+      "ua": 120,
+      "fa": 20,
+      "ua2": 120,
+      "fa2": 20,
+      "bf": 1,
+      "bx": -40,
+      "by": -116
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
+      "head": [
+        "BALL PLATE",
+        "CRUNCH"
+      ],
+      "vo": "Stability Ball Plate Crunch: crunch sobre pelota suiza con un disco. Abdomen bajo tensión.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "FLAT",
+              0.5
+            ],
+            [
+              "EXT",
+              0.6
+            ],
+            [
+              "FLAT",
+              0.5
+            ],
+            [
+              "CRUNCH",
+              0.7
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESPALDA EN",
+        "LA PELOTA"
+      ],
+      "sub": "Cuerpo paralelo al piso",
+      "vo": "Acostate sobre la pelota suiza con el cuerpo paralelo al piso y los pies bien apoyados. Sostené el disco con las dos manos.",
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "EXTENDÉ",
+        "HACIA ATRÁS"
+      ],
+      "sub": "Siguiendo la pelota",
+      "vo": "Paso uno. Extendé el torso hacia atrás sobre la pelota, con el disco sobre el pecho y el abdomen activo.",
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        },
+        {
+          "to": "EXT",
+          "at": 0.6,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "CRUNCH CON",
+        "EL DISCO"
+      ],
+      "sub": "Adelante y arriba",
+      "vo": "Paso dos. Hacé el crunch llevando el disco hacia adelante y arriba, enrollando el torso.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "CRUNCH",
+          "at": 0.6,
+          "dur": 1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            780,
+            800
+          ],
+          "text": "DISCO ARRIBA",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "DEJÁ TRABAJAR",
+        "AL ABDOMEN"
+      ],
+      "sub": "No tires con los brazos",
+      "vo": "Paso tres. El trabajo lo hace el abdomen, no los brazos. La inestabilidad de la pelota suma activación de core.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "PULL_BAD",
+          "at": 0.5,
+          "dur": 0.5
+        },
+        {
+          "to": "EXT",
+          "at": 1.8,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            780,
+            800
+          ],
+          "text": "TIRAR CON BRAZOS: NO",
+          "anchor": "middle",
+          "at": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "VOLVÉ",
+        "CONTROLADO"
+      ],
+      "sub": "Sin soltar el core",
+      "vo": "Paso cuatro. Volvé a la posición inicial con control, sin soltar el abdomen, y repetí.",
+      "moves": [
+        {
+          "cut": "CRUNCH",
+          "at": 0
+        },
+        {
+          "to": "FLAT",
+          "at": 0.6,
+          "dur": 1
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Cuerpo paralelo al piso",
+        "Pies firmes",
+        "Trabaja el abdomen, no los brazos",
+        "Usar pelota suiza real"
+      ],
+      "vo": "Claves: cuerpo paralelo al piso, pies firmes, el trabajo lo hace el abdomen y no los brazos, y usá una pelota suiza real.",
+      "moves": [
+        {
+          "cut": "CRUNCH",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Con 5 kg",
+      "vo": "Diez repeticiones con cinco kilos. Extendé, enrollá y volvé con control.",
+      "chips": [
+        {
+          "label": "1 · EXTENDÉ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · ENROLLÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "FLAT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "FLAT",
+              0.5
+            ],
+            [
+              "EXT",
+              0.6
+            ],
+            [
+              "FLAT",
+              0.5
+            ],
+            [
+              "CRUNCH",
+              0.7
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "CRUNCH",
+    "grip": 0
+  },
+  "youtube": {
+    "titulo": "Stability Ball Plate Crunch 🔥 abdomen bajo tensión paso a paso | CrossFit",
+    "descripcion": "🔥 STABILITY BALL PLATE CRUNCH — abdomen bajo tensión con inestabilidad.\n\nSi el crunch en el piso ya te queda corto, este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Acostate sobre la pelota suiza con el cuerpo paralelo al piso y los pies bien apoyados. Sostené el disco con las dos manos.\n2️⃣ Extendé el torso hacia atrás sobre la pelota, con el disco sobre el pecho y el abdomen activo.\n3️⃣ Hacé el crunch llevando el disco hacia adelante y arriba, enrollando el torso.\n4️⃣ El trabajo lo hace el abdomen, no los brazos. La inestabilidad de la pelota suma activación de core.\n5️⃣ Volvé a la posición inicial con control, sin soltar el abdomen, y repetí.\n\n✅ CLAVES DE TÉCNICA\n• Cuerpo paralelo al piso y pies firmes\n• La inestabilidad de la pelota aumenta la activación del core\n• Usar una stability ball, no un balón medicinal ni wall ball\n• El trabajo lo hace el abdomen, no los brazos\n\n🎯 QUÉ TRABAJA\nRecto abdominal\n\n⏱️ CUÁNTO\n10 repeticiones con 5 kg, como accesorio de core o dentro de un WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\r\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Fuerza #StabilityBallPlateCrunch #Abdomen #Entrenamiento",
+    "tags": [
+      "stability ball plate crunch",
+      "crunch con disco",
+      "pelota suiza",
+      "swiss ball",
+      "abdominales",
+      "core",
+      "crossfit",
+      "fuerza",
+      "abdomen",
+      "ejercicio de core"
+    ]
+  }
+}

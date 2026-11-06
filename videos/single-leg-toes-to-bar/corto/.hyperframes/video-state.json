@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "1c6267ba-d6fd-44e9-844a-7f773b669e06",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "5c8b140797090bf95e7d6c6df4574ced6e2e036c00bc9affb49aa1fa8e109de8",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1c6267ba-d6fd-44e9-844a-7f773b669e06\\blobs\\5c\\5c8b140797090bf95e7d6c6df4574ced6e2e036c00bc9affb49aa1fa8e109de8"
+    },
+    "hyperframes.json": {
+      "hash": "a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1c6267ba-d6fd-44e9-844a-7f773b669e06\\blobs\\a3\\a314cd6fdb8296a4b3e7706fdb7c4472a2b79ef56b5685e4e9e117b6b99967af"
+    },
+    "index.html": {
+      "hash": "feaef1bbe29a32eb0185051e92164adcdbb30499000a10bd3c1fd4308845d2a1",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1c6267ba-d6fd-44e9-844a-7f773b669e06\\blobs\\fe\\feaef1bbe29a32eb0185051e92164adcdbb30499000a10bd3c1fd4308845d2a1"
+    },
+    "meta.json": {
+      "hash": "4eecc4a5113acea35479692f23ff6c95251ccbb3f8ffbeb50afa128eea09a166",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1c6267ba-d6fd-44e9-844a-7f773b669e06\\blobs\\4e\\4eecc4a5113acea35479692f23ff6c95251ccbb3f8ffbeb50afa128eea09a166"
+    },
+    "package.json": {
+      "hash": "03619278a0e49d66688caefd4c3f8eeded0d6e59ea7d381d1422d8553c746e88",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\1c6267ba-d6fd-44e9-844a-7f773b669e06\\blobs\\03\\03619278a0e49d66688caefd4c3f8eeded0d6e59ea7d381d1422d8553c746e88"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "23d306e7-b6ae-49b4-8c21-2173c42cae2a",
+      "completedAt": 1793873897551,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\single-leg-toes-to-bar\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

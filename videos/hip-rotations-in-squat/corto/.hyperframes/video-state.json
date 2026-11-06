@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "historyId": "0ebd852c-421c-49da-9a9e-7863607208d9",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/bgm/track-long.wav": {
+      "hash": "13fbe93753b6b20e1ba9692072c6567c748d19862d0a96dc164cfc79e1075805",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0ebd852c-421c-49da-9a9e-7863607208d9\\blobs\\13\\13fbe93753b6b20e1ba9692072c6567c748d19862d0a96dc164cfc79e1075805"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0ebd852c-421c-49da-9a9e-7863607208d9\\blobs\\93\\9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "6a2fb9d0a5fb7f7b5c71046d407556d30bf5ced36475195ae62221c76cc16caf",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0ebd852c-421c-49da-9a9e-7863607208d9\\blobs\\6a\\6a2fb9d0a5fb7f7b5c71046d407556d30bf5ced36475195ae62221c76cc16caf"
+    },
+    "meta.json": {
+      "hash": "3a0766aab4bb90a9ed68d10c02cc8dbdc0c847d2a24c89389adc7f96a4a372d5",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0ebd852c-421c-49da-9a9e-7863607208d9\\blobs\\3a\\3a0766aab4bb90a9ed68d10c02cc8dbdc0c847d2a24c89389adc7f96a4a372d5"
+    },
+    "package.json": {
+      "hash": "c30e3cf28b6892e767329075beeb1010ea829aa8d10456e483fbda1e2d641b18",
+      "content": "C:\\Users\\nestor\\.cache\\hyperframes\\history\\0ebd852c-421c-49da-9a9e-7863607208d9\\blobs\\c3\\c30e3cf28b6892e767329075beeb1010ea829aa8d10456e483fbda1e2d641b18"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "e62fa222-5697-4a9b-b087-b90686e93b3d",
+      "completedAt": 1793876346413,
+      "output": "C:\\DATOS\\DESARROLLO\\Hyperframes\\VidesoEjercicios\\videos\\hip-rotations-in-squat\\corto\\renders\\corto.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

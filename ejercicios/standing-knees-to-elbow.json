@@ -1,0 +1,395 @@
+{
+  "slug": "standing-knees-to-elbow",
+  "name": "Standing Knees to Elbow",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Abdomen",
+    "Oblicuos",
+    "Cardio"
+  ],
+  "descripcion": "De pie, llevar alternadamente la rodilla hacia el codo del mismo lado (o el contrario) contrayendo el abdomen, a ritmo de cardio y sin saltar.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 460,
+    "y": 1500,
+    "scale": 0.9
+  },
+  "pronuncia": {
+    "Standing Knees to Elbow": "Stánding nis tu élbou"
+  },
+  "initialPose": "READY",
+  "props": [],
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6
+    },
+    "READY": {
+      "hip": [
+        0,
+        -470
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        -10,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 150,
+      "fa": 150,
+      "ua2": 150,
+      "fa2": 150
+    },
+    "KNEE_A": {
+      "hip": [
+        0,
+        -465
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        150,
+        -240
+      ],
+      "b": 18,
+      "hd": 14,
+      "cv": 20,
+      "g": 0,
+      "ua": 80,
+      "fa": 150,
+      "ua2": 80,
+      "fa2": 150
+    },
+    "KNEE_B": {
+      "hip": [
+        0,
+        -465
+      ],
+      "ankle": [
+        150,
+        -240
+      ],
+      "ankle2": [
+        0,
+        0
+      ],
+      "b": 18,
+      "hd": 14,
+      "cv": 20,
+      "g": 0,
+      "ua": 80,
+      "fa": 150,
+      "ua2": 80,
+      "fa2": 150
+    },
+    "LOW_BAD": {
+      "hip": [
+        0,
+        -465
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ankle2": [
+        60,
+        -80
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 150,
+      "fa": 150,
+      "ua2": 150,
+      "fa2": 150
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "KNEES TO",
+        "ELBOW"
+      ],
+      "vo": "Standing Knees to Elbow: rodillas al codo de pie. Cardio y abdomen en un solo movimiento.",
+      "moves": [
+        {
+          "cut": "READY",
+          "at": 0.1
+        },
+        {
+          "seq": [
+            [
+              "KNEE_A",
+              0.4
+            ],
+            [
+              "READY",
+              0.3
+            ],
+            [
+              "KNEE_B",
+              0.4
+            ],
+            [
+              "READY",
+              0.3
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BRAZOS",
+        "ARRIBA"
+      ],
+      "sub": "Pies al ancho de la cadera",
+      "vo": "Parate con los pies al ancho de la cadera y los brazos arriba, con las manos detrás de la cabeza o estirados.",
+      "moves": [
+        {
+          "cut": "READY",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 4",
+      "head": [
+        "SUBÍ LA",
+        "RODILLA"
+      ],
+      "sub": "Hacia el codo",
+      "vo": "Paso uno. Subí una rodilla hacia el codo, del mismo lado o del contrario, contrayendo el abdomen.",
+      "moves": [
+        {
+          "cut": "READY",
+          "at": 0
+        },
+        {
+          "to": "KNEE_A",
+          "at": 0.5,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 4",
+      "head": [
+        "REDONDEÁ",
+        "LA ESPALDA"
+      ],
+      "sub": "Un poco, arriba",
+      "vo": "Paso dos. Al contraer, redondeá levemente la espalda alta para acercar codo y rodilla. No hace falta saltar.",
+      "moves": [
+        {
+          "cut": "KNEE_A",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            800,
+            800
+          ],
+          "text": "CODO A RODILLA",
+          "anchor": "middle",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 4",
+      "head": [
+        "RODILLA",
+        "ALTA"
+      ],
+      "sub": "A la altura de la cadera",
+      "vo": "Paso tres. Subí la rodilla hasta la altura de la cadera. Si queda muy baja, el abdomen casi no trabaja.",
+      "moves": [
+        {
+          "cut": "LOW_BAD",
+          "at": 0
+        },
+        {
+          "to": "KNEE_A",
+          "at": 1.2,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            800,
+            800
+          ],
+          "text": "RODILLA BAJA: NO",
+          "anchor": "middle",
+          "at": 0.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "4",
+      "badge": "PASO 4 / 4",
+      "head": [
+        "ALTERNÁ",
+        "A RITMO"
+      ],
+      "sub": "Equilibrio firme",
+      "vo": "Paso cuatro. Alterná a ritmo de cardio, manteniendo el equilibrio sobre la pierna de apoyo.",
+      "moves": [
+        {
+          "cut": "READY",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "KNEE_A",
+              0.4
+            ],
+            [
+              "READY",
+              0.3
+            ],
+            [
+              "KNEE_B",
+              0.4
+            ],
+            [
+              "READY",
+              0.3
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Rodilla a la altura de la cadera",
+        "Redondear espalda alta al contraer",
+        "Equilibrio en la pierna de apoyo",
+        "Sin saltar"
+      ],
+      "vo": "Claves: rodilla a la altura de la cadera, redondeá la espalda alta al contraer, equilibrio firme y sin saltar.",
+      "moves": [
+        {
+          "cut": "KNEE_A",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.8,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEG"
+      ],
+      "sub": "Ritmo de cardio",
+      "vo": "Treinta segundos a ritmo de cardio. Rodilla alta, abdomen firme y sin saltar.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · CONTRAÉ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · CAMBIÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "READY",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "KNEE_A",
+              0.4
+            ],
+            [
+              "READY",
+              0.3
+            ],
+            [
+              "KNEE_B",
+              0.4
+            ],
+            [
+              "READY",
+              0.3
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "KNEE_A",
+    "grip": 0
+  },
+  "youtube": {
+    "titulo": "Standing Knees to Elbow 🔥 cardio y abdomen paso a paso | CrossFit",
+    "descripcion": "🔥 STANDING KNEES TO ELBOW — cardio y abdomen para entrar en calor.\n\nSi querés subir el pulso y activar el abdomen sin impacto, este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate con los pies al ancho de la cadera y los brazos arriba, con las manos detrás de la cabeza o estirados.\n2️⃣ Subí una rodilla hacia el codo, del mismo lado o del contrario, contrayendo el abdomen.\n3️⃣ Al contraer, redondeá levemente la espalda alta para acercar codo y rodilla. No hace falta saltar.\n4️⃣ Subí la rodilla hasta la altura de la cadera. Si queda muy baja, el abdomen casi no trabaja.\n5️⃣ Alterná a ritmo de cardio, manteniendo el equilibrio sobre la pierna de apoyo.\n\n✅ CLAVES DE TÉCNICA\n• Redondear levemente la espalda alta al contraer para acercar codo y rodilla\n• Mantener el equilibrio sobre la pierna de apoyo\n• Subir la rodilla a la altura de la cadera\n• Sin saltar\n\n🎯 QUÉ TRABAJA\nRecto abdominal · Oblicuo externo · Recto femoral\n\n⏱️ CUÁNTO\n30 segundos a ritmo de cardio, en la entrada en calor o dentro de un WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\r\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #StandingKneestoElbow #Abdomen #Entrenamiento",
+    "tags": [
+      "standing knees to elbow",
+      "rodillas al codo",
+      "abdominales de pie",
+      "cardio sin impacto",
+      "entrada en calor",
+      "core",
+      "crossfit",
+      "wod",
+      "oblicuos",
+      "calentamiento"
+    ]
+  }
+}

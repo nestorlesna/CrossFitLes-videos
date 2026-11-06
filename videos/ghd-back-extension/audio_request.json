@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "GHD Back Extension",
+      "text": "La extensión de espalda en GHD. Cadena posterior fuerte."
+    },
+    {
+      "id": "02",
+      "text": "Ubicate boca abajo con la cadera apoyada en el almohadón y los pies firmes. Cuerpo en línea."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Bajá el torso con la espalda neutra, sin redondearla, manteniendo la cadera apoyada."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Subí apretando glúteos hasta alinear el cuerpo, de la cabeza a los pies."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. No pases de la línea del cuerpo: hiperextender la zona lumbar no suma y puede lastimar."
+    },
+    {
+      "id": "06",
+      "text": "Paso cuatro. Controlá todo el recorrido, sin rebotar abajo ni usar impulso."
+    },
+    {
+      "id": "07",
+      "text": "Claves: cadera apoyada en el almohadón, espalda neutra al bajar, subí hasta la línea del cuerpo y sin hiperextender."
+    },
+    {
+      "id": "08",
+      "text": "Diez repeticiones. Bajá con espalda neutra y subí hasta la línea del cuerpo."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

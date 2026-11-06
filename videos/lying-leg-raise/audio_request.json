@@ -1,0 +1,41 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lying Leg Raise",
+      "text": "Acostado, las piernas juntas suben a la vertical y bajan sin tocar el piso."
+    },
+    {
+      "id": "02",
+      "text": "Acostate boca arriba con las piernas extendidas y las manos debajo de los glúteos."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Subí las dos piernas juntas y extendidas hasta la vertical, sin separarlas."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Bajá lento y controlado, frenando antes de que los talones toquen el piso."
+    },
+    {
+      "id": "05",
+      "text": "Error: si la lumbar se despega y se arquea, el esfuerzo se va a la espalda baja y no al abdomen."
+    },
+    {
+      "id": "06",
+      "text": "Claves: la lumbar queda pegada al piso, las piernas suben juntas y extendidas, la bajada es más lenta y los talones no tocan el piso."
+    },
+    {
+      "id": "07",
+      "text": "Veinte segundos subiendo y bajando sin tocar el piso, con la lumbar siempre apoyada."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}
