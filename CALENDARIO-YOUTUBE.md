@@ -3,6 +3,8 @@
 Subida privada por API (`--privacy private --no-thumbnail`), miniatura y programación en YouTube Studio.
 Horario de Uruguay (UTC−3): 08:00 · 12:00 · 16:00. Se suben de a 9 cuando YouTube acepta el lote anterior.
 
+> **App FitLesUY:** toda descripción que se sube lleva el bloque de la app gratis para Android (ver `SUBIR-A-YOUTUBE.md`). Los `.youtube.txt` nuevos ya lo traen; en los programados que estén pendientes de subir se agrega al subirlos.
+
 `barbell-bicep-curl` queda afuera: ya está publicado (https://youtu.be/Fh-C00-UTZ0).
 
 | Fecha | Hora | Tema del día | Video | ID | Estado |

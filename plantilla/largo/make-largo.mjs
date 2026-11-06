@@ -77,6 +77,10 @@ function miniatura(dir, slug) {
   collectShots(t.dir);
   const png = existsSync(shots) && readdirSync(shots).find((f) => f.endsWith(".png"));
   if (r.status !== 0 || !png) return false;
+  if (!desc.includes("nestorlesna.github.io")) { // la app FitLesUY va antes del aviso de salud (o, si no hay, antes de los hashtags)
+    const i = desc.indexOf("⚠️");
+    desc = i >= 0 ? `${desc.slice(0, i)}${APP_BLOCK}\n\n${desc.slice(i)}` : desc.replace(/\n([^\n]*)$/, `\n${APP_BLOCK}\n\n$1`);
+  }
   mkdirSync(SALIDA, { recursive: true });
   const out = join(SALIDA, `${slug}.miniatura.png`);
   const s = spawnSync("ffmpeg", ["-y", "-loglevel", "error", "-i", join(shots, png), "-vf", "scale=1280:720:flags=lanczos", out]);
@@ -85,6 +89,7 @@ function miniatura(dir, slug) {
   return true;
 }
 
+const APP_BLOCK = "📲 App gratis FitLesUY: seguí las rutinas y monitoreá tus sesiones, pesos y récords. Compatible con Android → https://nestorlesna.github.io/CrossFitLes/ (ahí bajás el APK y ves cómo instalarla).";
 const VOICE_CREDIT = "🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.";
 // videos-largos/salida/<slug>.youtube.txt: título, descripción con capítulos ({{CAPITULOS}}) y crédito de la voz, tags.
 function exportYoutube(dir, spec) {
@@ -93,7 +98,7 @@ function exportYoutube(dir, spec) {
   if (!yt?.descripcion || !existsSync(capPath)) return false;
   const caps = chaptersText(JSON.parse(readFileSync(capPath, "utf8")));
   const lines = yt.descripcion.replace("{{CAPITULOS}}", caps).split("\n"), tags = lines.pop();
-  const desc = [...lines, VOICE_CREDIT, "", tags].join("\n");
+  let desc = [...lines, VOICE_CREDIT, "", tags].join("\n");
   mkdirSync(SALIDA, { recursive: true });
   writeFileSync(join(SALIDA, `${spec.slug}.youtube.txt`), ["TÍTULO", yt.titulo, "", "DESCRIPCIÓN", desc, "", "TAGS", (yt.tags || []).join(", "), ""].join("\n"));
   if (desc.length > 5000 || /[<>]/.test(desc)) console.log(`  ⚠ descripción: ${desc.length} caracteres${/[<>]/.test(desc) ? " y tiene < o >" : ""} (YouTube: ≤ 5000, sin < >)`);

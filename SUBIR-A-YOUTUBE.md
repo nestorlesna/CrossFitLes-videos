@@ -7,6 +7,20 @@ Resumen práctico del skill `youtube-upload`. La guía completa (configuración 
 
 ---
 
+## App FitLesUY en TODAS las descripciones
+
+Toda descripción de YouTube (cortos, videos de ejercicio y largos) lleva este bloque, **antes del aviso de salud ⚠️** (si no hay aviso, antes de los hashtags):
+
+```
+📲 App gratis FitLesUY: seguí las rutinas y monitoreá tus sesiones, pesos y récords. Compatible con Android → https://nestorlesna.github.io/CrossFitLes/ (ahí bajás el APK y ves cómo instalarla).
+```
+
+- La app es **gratis**, de código abierto y **compatible con Android**; en la página están el APK y las instrucciones de instalación.
+- Los generadores ya lo agregan solos (`make-exercise.mjs`, `corto-youtube.mjs`, `largo/make-largo.mjs`); si el texto ya trae `nestorlesna.github.io` no se duplica.
+- Videos ya subidos: se repasaron todos los del canal (públicos y programados, cortos y largos) el 2026-11-06; para uno nuevo que se sube a mano, pegar el bloque en la descripción.
+
+---
+
 ## 0. Preparar la terminal (PowerShell)
 
 Pegá esto una vez por sesión de terminal para no escribir las rutas largas cada vez:

@@ -86,6 +86,7 @@ function cortosSubidosLog() {
 const outPath = (file) => subidoPath(file) || join(ROOT, "salida", file);
 const rel = (f) => f.slice(ROOT.length + 1).replace(/\\/g, "/");
 
+const APP_BLOCK = "📲 App gratis FitLesUY: seguí las rutinas y monitoreá tus sesiones, pesos y récords. Compatible con Android → https://nestorlesna.github.io/CrossFitLes/ (ahí bajás el APK y ves cómo instalarla).";
 const VOICE_CREDIT = "🎙️ Voz: Daniela (Piper TTS, rhasspy/piper-voices), datos de Google OpenSLR 61, licencia CC BY-SA 4.0.";
 const VOICE_CREDIT_EN = "🎙️ Nombre del ejercicio: voz Heart (Kokoro TTS, hexgrad/Kokoro-82M), licencia Apache 2.0.";
 // salida/<slug>.youtube.txt — título, descripción y tags listos para copiar en YouTube Studio.
@@ -99,6 +100,10 @@ function exportYoutube(spec, conEn = false) {
   if ((spec.voiceProvider || "piper") === "piper" && !desc.includes("Voz:")) {
     const lines = desc.split("\n"), tags = lines.pop();
     desc = [...lines, VOICE_CREDIT, ...(conEn ? [VOICE_CREDIT_EN] : []), "", tags].join("\n");
+  }
+  if (!desc.includes("nestorlesna.github.io")) { // la app FitLesUY va antes del aviso de salud (o, si no hay, antes de los hashtags)
+    const i = desc.indexOf("⚠️");
+    desc = i >= 0 ? `${desc.slice(0, i)}${APP_BLOCK}\n\n${desc.slice(i)}` : desc.replace(/\n([^\n]*)$/, `\n${APP_BLOCK}\n\n$1`);
   }
   const txt = ["TÍTULO", yt.titulo, "", "DESCRIPCIÓN", desc, "", "TAGS", (yt.tags || []).join(", "), ""].join("\n");
   writeFileSync(outPath(`${spec.slug}.youtube.txt`), txt);

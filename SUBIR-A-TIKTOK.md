@@ -67,6 +67,16 @@ Más corta que la de YouTube. TikTok corta en la primera línea, así que esa l�
 
 Repetir en el texto las palabras que la gente busca (nombre del ejercicio, músculo, «estiramiento», «técnica»…): TikTok funciona también como buscador.
 
+## App FitLesUY en la descripción
+
+Después de la referencia al canal (paso 4), agregar una línea con la app: **gratis, para Android, para monitorear las rutinas**.
+
+```
+📲 App gratis FitLesUY para Android: seguí las rutinas y registrá tus sesiones → https://nestorlesna.github.io/CrossFitLes/
+```
+
+TikTok no vuelve clicable el link dentro de la descripción: conviene tener el mismo link en la **bio** de la cuenta. En YouTube la descripción lleva el bloque completo (ver `SUBIR-A-YOUTUBE.md`, «App FitLesUY en TODAS las descripciones»).
+
 ## Al publicar
 
 - **Ritmo**: 3 videos por día, programados en tres horarios fijos (hora Uruguay): **12:30** (almuerzo), **18:30** (vuelta del gym) y **21:00** (noche, pico de uso). Son estimaciones del sector, no datos propios: ajustar con Analytics → Actividad de los seguidores.
