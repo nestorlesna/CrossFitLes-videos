@@ -101,58 +101,99 @@ Horario de Uruguay (UTC−3): 08:00 · 12:00 · 16:00. Se suben de a 9 cuando Yo
 | 2026-11-22 | 08:00 | Espalda y columna | seated-forward-fold | xhFf7RvGcyg | programado |
 | 2026-11-22 | 12:00 | Espalda y columna | child-s-pose | q7ek5fhdkHM | programado |
 | 2026-11-22 | 16:00 | Espalda y columna | cat-cow | 184ScsiviBU | programado |
-| 2026-11-23 | 08:00 | Pecho con peso libre | smith-machine-bench-press |  | pendiente |
-| 2026-11-23 | 12:00 | Pecho con peso libre | dumbbell-bench-press |  | pendiente |
-| 2026-11-23 | 16:00 | Pecho con peso libre | doorway-chest-stretch |  | pendiente |
-| 2026-11-24 | 08:00 | Peso muerto desde abajo | power-clean |  | pendiente |
-| 2026-11-24 | 12:00 | Peso muerto desde abajo | barbell-deadlift-to-knee-height |  | pendiente |
-| 2026-11-24 | 16:00 | Peso muerto desde abajo | deficit-banded-deadlift |  | pendiente |
-| 2026-11-25 | 08:00 | Cadena posterior | superman-hold |  | pendiente |
-| 2026-11-25 | 12:00 | Cadena posterior | hollow-to-superman-roll |  | pendiente |
-| 2026-11-25 | 16:00 | Cadena posterior | weighted-bird-dog |  | pendiente |
-| 2026-11-26 | 08:00 | Pared: dorsal, hombro y espalda alta | wall-lat-stretch |  | pendiente |
-| 2026-11-26 | 12:00 | Pared: dorsal, hombro y espalda alta | wall-shoulder-stretch |  | pendiente |
-| 2026-11-26 | 16:00 | Pared: dorsal, hombro y espalda alta | wall-thoracic-extensions |  | pendiente |
-| 2026-11-27 | 08:00 | Cardio en máquina 2 | stair-climber |  | pendiente |
-| 2026-11-27 | 12:00 | Cardio en máquina 2 | rowing-machine |  | pendiente |
-| 2026-11-27 | 16:00 | Cardio en máquina 2 | skierg |  | pendiente |
-| 2026-11-28 | 08:00 | Push press con mancuernas | dumbbell-push-press |  | pendiente |
-| 2026-11-28 | 12:00 | Push press con mancuernas | push-press-behind-the-neck |  | pendiente |
-| 2026-11-28 | 16:00 | Push press con mancuernas | dumbbell-hang-clean-and-push-jerk |  | pendiente |
-| 2026-11-29 | 08:00 | Sit-ups | partner-wall-ball-sit-up |  | pendiente |
-| 2026-11-29 | 12:00 | Sit-ups | toe-touch-sit-up |  | pendiente |
-| 2026-11-29 | 16:00 | Sit-ups | weighted-sit-up |  | pendiente |
-| 2026-11-30 | 08:00 | Tobillo | ankle-mobility-rock |  | pendiente |
-| 2026-11-30 | 12:00 | Tobillo | kettlebell-ankle-mobility-drill |  | pendiente |
-| 2026-11-30 | 16:00 | Tobillo | goblet-squat-hold-press |  | pendiente |
-| 2026-12-01 | 08:00 | Zancadas | barbell-front-rack-reverse-lunge |  | pendiente |
-| 2026-12-01 | 12:00 | Zancadas | dumbbell-back-rack-lunge |  | pendiente |
-| 2026-12-01 | 16:00 | Zancadas | weighted-lunge |  | pendiente |
-| 2026-12-02 | 08:00 | Gimnásticos | rope-climb |  | pendiente |
-| 2026-12-02 | 12:00 | Gimnásticos | bodyweight-handstand-push-up |  | pendiente |
-| 2026-12-02 | 16:00 | Gimnásticos | scapular-push-up |  | pendiente |
-| 2026-12-03 | 08:00 | Cargas y agarre | farmer-s-carry |  | pendiente |
-| 2026-12-03 | 12:00 | Cargas y agarre | kettlebell-farmer-carry |  | pendiente |
-| 2026-12-03 | 16:00 | Cargas y agarre | dumbbell-overhead-hold |  | pendiente |
-| 2026-12-04 | 08:00 | Pantorrillas sin máquina | single-leg-calf-raise |  | pendiente |
-| 2026-12-04 | 12:00 | Pantorrillas sin máquina | calf-raise-hold |  | pendiente |
-| 2026-12-04 | 16:00 | Pantorrillas sin máquina | tibialis-raise |  | pendiente |
-| 2026-12-05 | 08:00 | Isométricos de piernas | isometric-lunge |  | pendiente |
-| 2026-12-05 | 12:00 | Isométricos de piernas | wall-sit |  | pendiente |
-| 2026-12-05 | 16:00 | Isométricos de piernas | squat-press-out |  | pendiente |
-| 2026-12-06 | 08:00 | Cardio de CrossFit | jump-rope |  | pendiente |
-| 2026-12-06 | 12:00 | Cardio de CrossFit | shuttle-run |  | pendiente |
-| 2026-12-06 | 16:00 | Cardio de CrossFit | walking |  | pendiente |
-| 2026-12-07 | 08:00 | Sentadilla y saltos | kettlebell-good-morning-to-squat |  | pendiente |
-| 2026-12-07 | 12:00 | Sentadilla y saltos | squat-jump-to-plate |  | pendiente |
-| 2026-12-07 | 16:00 | Sentadilla y saltos | squat-thoracic-rotation |  | pendiente |
-| 2026-12-08 | 08:00 | Abdominales dinámicos | v-up |  | pendiente |
-| 2026-12-08 | 12:00 | Abdominales dinámicos | bird-dog-crunch |  | pendiente |
-| 2026-12-08 | 16:00 | Abdominales dinámicos | yoga-push-up |  | pendiente |
-| 2026-12-09 | 08:00 | Brazos: banda y estiramientos | banded-triceps-extensions |  | pendiente |
-| 2026-12-09 | 12:00 | Brazos: banda y estiramientos | standing-biceps-stretch |  | pendiente |
-| 2026-12-09 | 16:00 | Brazos: banda y estiramientos | wrist-extensor-stretch |  | pendiente |
-| 2026-12-10 | 08:00 | Recuperación | 4-6-breathing |  | pendiente |
-| 2026-12-10 | 12:00 | Recuperación | descanso |  | pendiente |
-| 2026-12-10 | 16:00 | Recuperación | supine-abdominal-stretch |  | pendiente |
-| 2026-12-11 | 08:00 | Movilidad de aductores | cossack-squat |  | pendiente |
+
+### Plan 2 — 5 por día (23-11 → 10-12-2026)
+
+Horario Uruguay: 08:00 · 11:00 · 14:00 · 17:00 · 20:00. Subidos por Studio con Chrome (orden aleatorio); fuente: `plan-programacion-largos.json` y `programacion-largos-subidos.csv`. Reemplaza al plan anterior de 3 por día (23-11 → 11-12), que quedó sin usar. Ver `PLAN-REVISION-YOUTUBE.md` para lo que falta revisar.
+
+| Fecha | Hora | Tema del día | Video | ID | Estado |
+|---|---|---|---|---|---|
+| 2026-11-23 | 08:00 | Plan 5/día (orden aleatorio) | dumbbell-overhead-hold | 4SzP3PEkNXA | programado |
+| 2026-11-23 | 11:00 | Plan 5/día (orden aleatorio) | deficit-banded-deadlift | EAe2x19HOPY | programado |
+| 2026-11-23 | 14:00 | Plan 5/día (orden aleatorio) | dumbbell-bench-press | IcLE6zdKuFY | programado |
+| 2026-11-23 | 17:00 | Plan 5/día (orden aleatorio) | banded-triceps-extensions | 9ngNdtOdnLo | programado |
+| 2026-11-23 | 20:00 | Plan 5/día (orden aleatorio) | single-leg-calf-raise | o0OEAf7fCbI | programado |
+| 2026-11-24 | 08:00 | Plan 5/día (orden aleatorio) | supine-abdominal-stretch | Q1Y4gTliGvg | programado |
+| 2026-11-24 | 11:00 | Plan 5/día (orden aleatorio) | barbell-front-rack-reverse-lunge | Nf8zKTquPjo | programado |
+| 2026-11-24 | 14:00 | Plan 5/día (orden aleatorio) | standing-biceps-stretch | GxmlOiwUfN8 | programado |
+| 2026-11-24 | 17:00 | Plan 5/día (orden aleatorio) | step-jack | rqHuS8Y2OyA | programado |
+| 2026-11-24 | 20:00 | Plan 5/día (orden aleatorio) | wall-shoulder-car | woHBBtB45uc | programado |
+| 2026-11-25 | 08:00 | Plan 5/día (orden aleatorio) | jump-rope |  | privado (subida manual, revisar) |
+| 2026-11-25 | 11:00 | Plan 5/día (orden aleatorio) | bodyweight-handstand-push-up | Uvkrhbm3qDY | programado |
+| 2026-11-25 | 14:00 | Plan 5/día (orden aleatorio) | l-sit-hold | oeiGgc8KWOs | programado |
+| 2026-11-25 | 17:00 | Plan 5/día (orden aleatorio) | oblique-crunch | mEZ9KoARYeE | programado |
+| 2026-11-25 | 20:00 | Plan 5/día (orden aleatorio) | push-press-behind-the-neck | qV_0AEbhkks | programado |
+| 2026-11-26 | 08:00 | Plan 5/día (orden aleatorio) | wall-lat-stretch | P9NXcWuJ8pw | programado |
+| 2026-11-26 | 11:00 | Plan 5/día (orden aleatorio) | dumbbell-back-rack-lunge | Gs7Lms7qfpA | programado |
+| 2026-11-26 | 14:00 | Plan 5/día (orden aleatorio) | wide-negative-push-up | sC4SP_E4hmM | programado |
+| 2026-11-26 | 17:00 | Plan 5/día (orden aleatorio) | rope-climb | BNZGSeFRmis | programado |
+| 2026-11-26 | 20:00 | Plan 5/día (orden aleatorio) | doorway-chest-stretch | 2mszEmo3pwc | programado |
+| 2026-11-27 | 08:00 | Plan 5/día (orden aleatorio) | wall-thoracic-extensions | t1orADsBLHQ | programado |
+| 2026-11-27 | 11:00 | Plan 5/día (orden aleatorio) | heel-elevated-goblet-squat | p51NiReDMMg | programado |
+| 2026-11-27 | 14:00 | Plan 5/día (orden aleatorio) | wrist-extensor-stretch | iumHB3XlWJc | programado |
+| 2026-11-27 | 17:00 | Plan 5/día (orden aleatorio) | barbell-deadlift-to-knee-height | BuPH4FaGZGw | programado |
+| 2026-11-27 | 20:00 | Plan 5/día (orden aleatorio) | squat-jump-to-plate | ZHZrUGQbp-c | programado |
+| 2026-11-28 | 08:00 | Plan 5/día (orden aleatorio) | barbell-hang-power-snatch | aRTNIC7zuOM | programado |
+| 2026-11-28 | 11:00 | Plan 5/día (orden aleatorio) | calf-raise-hold | -RaXKFnUQi4 | programado |
+| 2026-11-28 | 14:00 | Plan 5/día (orden aleatorio) | skater-jump | i1hWBQUR_8w | programado |
+| 2026-11-28 | 17:00 | Plan 5/día (orden aleatorio) | scapular-push-up | 8aTVRhRq-q0 | programado |
+| 2026-11-28 | 20:00 | Plan 5/día (orden aleatorio) | rowing-machine |  | privado (subida manual, revisar) |
+| 2026-11-29 | 08:00 | Plan 5/día (orden aleatorio) | barbell-inverted-row | fsVh2FBEpzI | programado |
+| 2026-11-29 | 11:00 | Plan 5/día (orden aleatorio) | ring-strict-muscle-up | fp6FgIYpKKQ | programado |
+| 2026-11-29 | 14:00 | Plan 5/día (orden aleatorio) | ankle-mobility-rock | HGgGPnDOo8A | programado |
+| 2026-11-29 | 17:00 | Plan 5/día (orden aleatorio) | wall-walk | q7uyfZyqSFE | programado |
+| 2026-11-29 | 20:00 | Plan 5/día (orden aleatorio) | kettlebell-turkish-sit-up | wjjdAepJdmg | programado |
+| 2026-11-30 | 08:00 | Plan 5/día (orden aleatorio) | v-up | fJOjpza8GLg | programado |
+| 2026-11-30 | 11:00 | Plan 5/día (orden aleatorio) | hanging-leg-raise-with-rotation-over-box | 2TfDh44E5lc | programado |
+| 2026-11-30 | 14:00 | Plan 5/día (orden aleatorio) | kettlebell-good-morning-to-squat | ud1nn-hbH6o | programado |
+| 2026-11-30 | 17:00 | Plan 5/día (orden aleatorio) | bird-dog-crunch | 8Zvth3p8REw | programado |
+| 2026-11-30 | 20:00 | Plan 5/día (orden aleatorio) | ring-row | zVvcFDvObUo | programado |
+| 2026-12-01 | 08:00 | Plan 5/día (orden aleatorio) | jumping-jack | zZlMz1CfLCc | programado |
+| 2026-12-01 | 11:00 | Plan 5/día (orden aleatorio) | goblet-squat-hold-press | iv1Ujdy6Ms0 | programado |
+| 2026-12-01 | 14:00 | Plan 5/día (orden aleatorio) | descanso | ptE-3avSUsU | programado |
+| 2026-12-01 | 17:00 | Plan 5/día (orden aleatorio) | cossack-squat | 4F6gco8w5Rk | programado |
+| 2026-12-01 | 20:00 | Plan 5/día (orden aleatorio) | 4-6-breathing | 0W6cmqqlTUU | programado |
+| 2026-12-02 | 08:00 | Plan 5/día (orden aleatorio) | partner-wall-ball-sit-up | cPXQ015vnfQ | programado |
+| 2026-12-02 | 11:00 | Plan 5/día (orden aleatorio) | band-woodchopper | _mwW76HkmEU | programado |
+| 2026-12-02 | 14:00 | Plan 5/día (orden aleatorio) | wall-sit | uYJtEDEVyXw | programado |
+| 2026-12-02 | 17:00 | Plan 5/día (orden aleatorio) | upward-to-downward-dog | Jrth-OZmx4o | programado |
+| 2026-12-02 | 20:00 | Plan 5/día (orden aleatorio) | stair-climber |  | privado (subida manual, revisar) |
+| 2026-12-03 | 08:00 | Plan 5/día (orden aleatorio) | hollow-to-superman-roll | Gz9ufwM4gUk | programado |
+| 2026-12-03 | 11:00 | Plan 5/día (orden aleatorio) | lateral-raise-to-overhead | BaSF1awuv3Q | programado |
+| 2026-12-03 | 14:00 | Plan 5/día (orden aleatorio) | ring-handstand-push-up | iTe8X_kOawo | programado |
+| 2026-12-03 | 17:00 | Plan 5/día (orden aleatorio) | weighted-bird-dog | QWLyT0XcqtU | programado |
+| 2026-12-03 | 20:00 | Plan 5/día (orden aleatorio) | standing-knees-to-elbow | 9UGBuUIv4YA | programado |
+| 2026-12-04 | 08:00 | Plan 5/día (orden aleatorio) | plank-to-opposite-toe-touch | Ix1iKRYMg80 | programado |
+| 2026-12-04 | 11:00 | Plan 5/día (orden aleatorio) | ghd-back-extension | tnypXSH1zUg | programado |
+| 2026-12-04 | 14:00 | Plan 5/día (orden aleatorio) | tibialis-raise | fXWdHOrmzmE | programado |
+| 2026-12-04 | 17:00 | Plan 5/día (orden aleatorio) | superman-hold | U4tLt7kJEQE | programado |
+| 2026-12-04 | 20:00 | Plan 5/día (orden aleatorio) | lateral-shuffle |  | privado (subida manual, revisar) |
+| 2026-12-05 | 08:00 | Plan 5/día (orden aleatorio) | squat-thoracic-rotation | 2tCeGqVlN5E | programado |
+| 2026-12-05 | 11:00 | Plan 5/día (orden aleatorio) | toe-touch-sit-up | hvdGWObB4mQ | programado |
+| 2026-12-05 | 14:00 | Plan 5/día (orden aleatorio) | ghd-sit-up | NfKgLL9w4Tw | programado |
+| 2026-12-05 | 17:00 | Plan 5/día (orden aleatorio) | squat-press-out | MhYF_Lhw-FQ | programado |
+| 2026-12-05 | 20:00 | Plan 5/día (orden aleatorio) | walking | kLvCLZ-sHZU | programado |
+| 2026-12-06 | 08:00 | Plan 5/día (orden aleatorio) | hip-rotations-in-squat | 2TjIGONm630 | programado |
+| 2026-12-06 | 11:00 | Plan 5/día (orden aleatorio) | weighted-lunge | l_CC5oTsjSQ | programado |
+| 2026-12-06 | 14:00 | Plan 5/día (orden aleatorio) | side-lying-thoracic-opening | MXrQ-3cYJqk | programado |
+| 2026-12-06 | 17:00 | Plan 5/día (orden aleatorio) | skierg | u33JaYJDA04 | programado |
+| 2026-12-06 | 20:00 | Plan 5/día (orden aleatorio) | smith-machine-bench-press |  | privado (subida manual, revisar) |
+| 2026-12-07 | 08:00 | Plan 5/día (orden aleatorio) | bar-muscle-up | tq6NQEL-f4c | programado |
+| 2026-12-07 | 11:00 | Plan 5/día (orden aleatorio) | kettlebell-ankle-mobility-drill | Ke_i3CabXF4 | programado |
+| 2026-12-07 | 14:00 | Plan 5/día (orden aleatorio) | power-clean | MoEDdC9OqDY | programado |
+| 2026-12-07 | 17:00 | Plan 5/día (orden aleatorio) | sandbag-walking-lunges | tmUPvXQoPy4 | programado |
+| 2026-12-07 | 20:00 | Plan 5/día (orden aleatorio) | farmer-s-carry | bymkkgRLdFk | programado |
+| 2026-12-08 | 08:00 | Plan 5/día (orden aleatorio) | prone-around-the-world | AIEUakgGHn4 | programado |
+| 2026-12-08 | 11:00 | Plan 5/día (orden aleatorio) | wall-shoulder-stretch | ZsrI7ayIGdE | programado |
+| 2026-12-08 | 14:00 | Plan 5/día (orden aleatorio) | isometric-lunge | 2_4Ik10_lo8 | programado |
+| 2026-12-08 | 17:00 | Plan 5/día (orden aleatorio) | shuttle-run | EXqchRL6ok4 | programado |
+| 2026-12-08 | 20:00 | Plan 5/día (orden aleatorio) | sandbag-carry | z2gWVwfJYvY | programado |
+| 2026-12-09 | 08:00 | Plan 5/día (orden aleatorio) | dumbbell-push-press | qcH0ukuGVuo | programado |
+| 2026-12-09 | 11:00 | Plan 5/día (orden aleatorio) | standing-cross-crunch | af-znhrttng | programado |
+| 2026-12-09 | 14:00 | Plan 5/día (orden aleatorio) | stability-ball-plate-crunch | vdTmJgkRDxg | programado |
+| 2026-12-09 | 17:00 | Plan 5/día (orden aleatorio) | yoga-push-up | bQIk_XIu3cQ | programado |
+| 2026-12-09 | 20:00 | Plan 5/día (orden aleatorio) | ring-dip | _X0ZtbFF1O8 | programado |
+| 2026-12-10 | 08:00 | Plan 5/día (orden aleatorio) | dumbbell-hang-clean-and-push-jerk | 8rGqXr3hhsE | programado |
+| 2026-12-10 | 11:00 | Plan 5/día (orden aleatorio) | kettlebell-farmer-carry | yOhuajdpUbg | programado |
+| 2026-12-10 | 14:00 | Plan 5/día (orden aleatorio) | weighted-sit-up | ntR5bfM-pQ4 | programado |
+| 2026-12-10 | 17:00 | Plan 5/día (orden aleatorio) | plank-up-down | CClPHsPVAEI | programado |
