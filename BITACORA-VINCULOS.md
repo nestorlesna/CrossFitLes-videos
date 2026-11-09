@@ -4,7 +4,7 @@ Cada corto (`<slug>.corto.mp4`) se vincula con su video largo (el que explica Da
 el **link en la descripción** y el campo **Vídeo relacionado** de YouTube Studio. Procedimiento: `SUBIR-A-YOUTUBE.md` § 6 quinquies.
 Datos en `vinculos.csv` (lo escribe `node plantilla/vincular.mjs`; no editar a mano).
 
-**Corto → largo:** 15 · **Largo → corto:** 27 · Filas: 41
+**Corto → largo:** 15 · **Largo → corto:** 37 · Filas: 41
 
 | Ejercicio | Largo (Daniela) | Corto | Corto apunta al largo | Largo apunta al corto | Fecha | Nota |
 |---|---|---|---|---|---|---|
@@ -26,28 +26,28 @@ Datos en `vinculos.csv` (lo escribe `node plantilla/vincular.mjs`; no editar a m
 | general-stretching | [42JLrCpb7qE](https://youtu.be/42JLrCpb7qE) | [hIEwkbTUVrY](https://youtu.be/hIEwkbTUVrY) | ✅ | ✅ | 2026-11-06 | Cortos y largos vinculados (descripción + vídeo relacionado) |
 | half-kneeling-hip-flexor-stretch | [bUrewFPJp2E](https://youtu.be/bUrewFPJp2E) | [wbsgHGf2x3w](https://youtu.be/wbsgHGf2x3w) | ✅ | ✅ | 2026-11-06 | Vinculados |
 | hanging-toes-to-bar | [ffMZNBWb1Oo](https://youtu.be/ffMZNBWb1Oo) | [OxKtoThBvfE](https://youtu.be/OxKtoThBvfE) | pendiente | ✅ | 2026-11-06 | largo programado: falta Vídeo relacionado en el corto cuando el largo sea público (link en descripción ya está) |
-| kettlebell-farmer-carry | — | [G-OWtWukGBk](https://youtu.be/G-OWtWukGBk) | pendiente | pendiente | 2026-11-06 | largo no está en YouTube |
+| kettlebell-farmer-carry | [yOhuajdpUbg](https://youtu.be/yOhuajdpUbg) | [G-OWtWukGBk](https://youtu.be/G-OWtWukGBk) | pendiente | ✅ | 2026-11-09 | largo no está en YouTube |
 | kettlebell-good-morning | [8OaibaJ6pyQ](https://youtu.be/8OaibaJ6pyQ) | [Az1dkp67MG0](https://youtu.be/Az1dkp67MG0) | pendiente | ✅ | 2026-11-07 | largo programado |
-| kettlebell-good-morning-to-squat | — | [XvFrzwLFDQ8](https://youtu.be/XvFrzwLFDQ8) | pendiente | pendiente | 2026-11-06 | largo no está en YouTube |
+| kettlebell-good-morning-to-squat | [ud1nn-hbH6o](https://youtu.be/ud1nn-hbH6o) | [XvFrzwLFDQ8](https://youtu.be/XvFrzwLFDQ8) | pendiente | ✅ | 2026-11-09 | largo no está en YouTube |
 | overhead-triceps-stretch | [41rifhpbkh4](https://youtu.be/41rifhpbkh4) | [flM4AK4QWhE](https://youtu.be/flM4AK4QWhE) | ✅ | ✅ | 2026-11-06 | Vinculados |
 | pigeon-pose | [4O6YbbmBtKQ](https://youtu.be/4O6YbbmBtKQ) | [s3kI7Rj-N0Y](https://youtu.be/s3kI7Rj-N0Y) | ✅ | ✅ | 2026-11-06 | Cortos y largos vinculados (descripción + vídeo relacionado) |
 | rowing | [nEF63sYn7AQ](https://youtu.be/nEF63sYn7AQ) | [StOEr65CD8w](https://youtu.be/StOEr65CD8w) | ✅ | ✅ | 2026-11-06 | Cortos y largos vinculados (descripción + vídeo relacionado) |
 | running | [zDi_f_UMKPI](https://youtu.be/zDi_f_UMKPI) | [fgxHzg3KtVU](https://youtu.be/fgxHzg3KtVU) | ✅ | ✅ | 2026-11-06 | Cortos y largos vinculados (descripción + vídeo relacionado) |
 | russian-twist | [SMf_etzcFYY](https://youtu.be/SMf_etzcFYY) | [U-P0U1SoQRU](https://youtu.be/U-P0U1SoQRU) | pendiente | ✅ | 2026-11-07 | largo programado |
-| scapular-push-up | — | [ePh7xz0Nlos](https://youtu.be/ePh7xz0Nlos) | pendiente | pendiente | 2026-11-07 | largo no está en YouTube |
+| scapular-push-up | [8aTVRhRq-q0](https://youtu.be/8aTVRhRq-q0) | [ePh7xz0Nlos](https://youtu.be/ePh7xz0Nlos) | pendiente | ✅ | 2026-11-09 | largo no está en YouTube |
 | seated-forward-fold | [xhFf7RvGcyg](https://youtu.be/xhFf7RvGcyg) | [axyASO-RWXk](https://youtu.be/axyASO-RWXk) | pendiente | ✅ | 2026-11-06 | largo programado: falta Vídeo relacionado en el corto cuando el largo sea público (link en descripción ya está) |
 | seated-quad-stretch | [w6RdGXynqWI](https://youtu.be/w6RdGXynqWI) | [6or8pO9waqA](https://youtu.be/6or8pO9waqA) | pendiente | ✅ | 2026-11-06 | largo programado: falta Vídeo relacionado en el corto cuando el largo sea público (link en descripción ya está) |
-| shuttle-run | — | [sKjlsoE2ETQ](https://youtu.be/sKjlsoE2ETQ) | pendiente | pendiente | 2026-11-06 | largo no está en YouTube |
-| skierg | — | [cM5Hi-Wf0C0](https://youtu.be/cM5Hi-Wf0C0) | pendiente | pendiente | 2026-11-07 | largo no está en YouTube |
+| shuttle-run | [EXqchRL6ok4](https://youtu.be/EXqchRL6ok4) | [sKjlsoE2ETQ](https://youtu.be/sKjlsoE2ETQ) | pendiente | ✅ | 2026-11-09 | largo no está en YouTube |
+| skierg | [u33JaYJDA04](https://youtu.be/u33JaYJDA04) | [cM5Hi-Wf0C0](https://youtu.be/cM5Hi-Wf0C0) | pendiente | ✅ | 2026-11-09 | largo no está en YouTube |
 | sled-push-pull | [c3oOCioMYuk](https://youtu.be/c3oOCioMYuk) | [lcDqPkNl6xI](https://youtu.be/lcDqPkNl6xI) | pendiente | ✅ | 2026-11-07 | largo programado |
 | snatch-high-pull | [1YqbSqiWs8Q](https://youtu.be/1YqbSqiWs8Q) | [nYa9FrGmWe4](https://youtu.be/nYa9FrGmWe4) | pendiente | ✅ | 2026-11-07 | largo programado |
-| squat-thoracic-rotation | — | [nZsFBvDky0M](https://youtu.be/nZsFBvDky0M) | pendiente | pendiente | 2026-11-07 | largo no está en YouTube |
+| squat-thoracic-rotation | [2tCeGqVlN5E](https://youtu.be/2tCeGqVlN5E) | [nZsFBvDky0M](https://youtu.be/nZsFBvDky0M) | pendiente | ✅ | 2026-11-09 | largo no está en YouTube |
 | squat-to-stand | [rognkqgRrqM](https://youtu.be/rognkqgRrqM) | [9LxVm7AX5kQ](https://youtu.be/9LxVm7AX5kQ) | ✅ | ✅ | 2026-11-06 | Cortos y largos vinculados (descripción + vídeo relacionado) |
-| standing-biceps-stretch | — | [4ECz6yYNwMo](https://youtu.be/4ECz6yYNwMo) | pendiente | pendiente | 2026-11-06 | largo no está en YouTube |
-| supine-abdominal-stretch | — | [SL0AP7npMWE](https://youtu.be/SL0AP7npMWE) | pendiente | pendiente | 2026-11-06 | largo no está en YouTube |
+| standing-biceps-stretch | [GxmlOiwUfN8](https://youtu.be/GxmlOiwUfN8) | [4ECz6yYNwMo](https://youtu.be/4ECz6yYNwMo) | pendiente | ✅ | 2026-11-09 | largo no está en YouTube |
+| supine-abdominal-stretch | [Q1Y4gTliGvg](https://youtu.be/Q1Y4gTliGvg) | [SL0AP7npMWE](https://youtu.be/SL0AP7npMWE) | pendiente | ✅ | 2026-11-09 | largo no está en YouTube |
 | supine-spinal-twist | [pmikAsyIpFU](https://youtu.be/pmikAsyIpFU) | [6x-JDY9b6S0](https://youtu.be/6x-JDY9b6S0) | ✅ | ✅ | 2026-11-06 | Vinculados |
 | wall-ball-shot | — | [m-q8jlR4lhw](https://youtu.be/m-q8jlR4lhw) | pendiente | pendiente | 2026-11-06 | largo no está en YouTube |
-| wrist-extensor-stretch | — | [a3xiwSKng5E](https://youtu.be/a3xiwSKng5E) | pendiente | pendiente | 2026-11-06 | largo no está en YouTube |
-| yoga-push-up | — | [IhGQBMmrN-Q](https://youtu.be/IhGQBMmrN-Q) | pendiente | pendiente | 2026-11-06 | largo no está en YouTube |
+| wrist-extensor-stretch | [iumHB3XlWJc](https://youtu.be/iumHB3XlWJc) | [a3xiwSKng5E](https://youtu.be/a3xiwSKng5E) | pendiente | ✅ | 2026-11-09 | largo no está en YouTube |
+| yoga-push-up | [bQIk_XIu3cQ](https://youtu.be/bQIk_XIu3cQ) | [IhGQBMmrN-Q](https://youtu.be/IhGQBMmrN-Q) | pendiente | ✅ | 2026-11-09 | largo no está en YouTube |
 
 ✅ hecho (descripción + vídeo relacionado) · ⬜ no · pendiente = falta que el otro video esté en YouTube.

@@ -118,7 +118,7 @@ Horario Uruguay: 08:00 · 11:00 · 14:00 · 17:00 · 20:00. Subidos por Studio c
 | 2026-11-24 | 14:00 | Plan 5/día (orden aleatorio) | standing-biceps-stretch | GxmlOiwUfN8 | programado |
 | 2026-11-24 | 17:00 | Plan 5/día (orden aleatorio) | step-jack | rqHuS8Y2OyA | programado |
 | 2026-11-24 | 20:00 | Plan 5/día (orden aleatorio) | wall-shoulder-car | woHBBtB45uc | programado |
-| 2026-11-25 | 08:00 | Plan 5/día (orden aleatorio) | jump-rope |  | privado (subida manual, revisar) |
+| 2026-11-25 | 08:00 | Plan 5/día (orden aleatorio) | jump-rope | rMSHizDgr6w | programado |
 | 2026-11-25 | 11:00 | Plan 5/día (orden aleatorio) | bodyweight-handstand-push-up | Uvkrhbm3qDY | programado |
 | 2026-11-25 | 14:00 | Plan 5/día (orden aleatorio) | l-sit-hold | oeiGgc8KWOs | programado |
 | 2026-11-25 | 17:00 | Plan 5/día (orden aleatorio) | oblique-crunch | mEZ9KoARYeE | programado |
@@ -133,11 +133,11 @@ Horario Uruguay: 08:00 · 11:00 · 14:00 · 17:00 · 20:00. Subidos por Studio c
 | 2026-11-27 | 14:00 | Plan 5/día (orden aleatorio) | wrist-extensor-stretch | iumHB3XlWJc | programado |
 | 2026-11-27 | 17:00 | Plan 5/día (orden aleatorio) | barbell-deadlift-to-knee-height | BuPH4FaGZGw | programado |
 | 2026-11-27 | 20:00 | Plan 5/día (orden aleatorio) | squat-jump-to-plate | ZHZrUGQbp-c | programado |
-| 2026-11-28 | 08:00 | Plan 5/día (orden aleatorio) | barbell-hang-power-snatch | aRTNIC7zuOM | programado |
+| 2026-11-28 | 08:00 | Plan 5/día (orden aleatorio) | barbell-hang-power-snatch | aRTNIC7zuOM | eliminado (duplicado; vale el público o5guIJ0BltQ) — hueco libre |
 | 2026-11-28 | 11:00 | Plan 5/día (orden aleatorio) | calf-raise-hold | -RaXKFnUQi4 | programado |
 | 2026-11-28 | 14:00 | Plan 5/día (orden aleatorio) | skater-jump | i1hWBQUR_8w | programado |
 | 2026-11-28 | 17:00 | Plan 5/día (orden aleatorio) | scapular-push-up | 8aTVRhRq-q0 | programado |
-| 2026-11-28 | 20:00 | Plan 5/día (orden aleatorio) | rowing-machine |  | privado (subida manual, revisar) |
+| 2026-11-28 | 20:00 | Plan 5/día (orden aleatorio) | rowing-machine | QJe4wwjcZbk | programado |
 | 2026-11-29 | 08:00 | Plan 5/día (orden aleatorio) | barbell-inverted-row | fsVh2FBEpzI | programado |
 | 2026-11-29 | 11:00 | Plan 5/día (orden aleatorio) | ring-strict-muscle-up | fp6FgIYpKKQ | programado |
 | 2026-11-29 | 14:00 | Plan 5/día (orden aleatorio) | ankle-mobility-rock | HGgGPnDOo8A | programado |
@@ -157,7 +157,7 @@ Horario Uruguay: 08:00 · 11:00 · 14:00 · 17:00 · 20:00. Subidos por Studio c
 | 2026-12-02 | 11:00 | Plan 5/día (orden aleatorio) | band-woodchopper | _mwW76HkmEU | programado |
 | 2026-12-02 | 14:00 | Plan 5/día (orden aleatorio) | wall-sit | uYJtEDEVyXw | programado |
 | 2026-12-02 | 17:00 | Plan 5/día (orden aleatorio) | upward-to-downward-dog | Jrth-OZmx4o | programado |
-| 2026-12-02 | 20:00 | Plan 5/día (orden aleatorio) | stair-climber |  | privado (subida manual, revisar) |
+| 2026-12-02 | 20:00 | Plan 5/día (orden aleatorio) | stair-climber | tRk7kI9gXHY | programado |
 | 2026-12-03 | 08:00 | Plan 5/día (orden aleatorio) | hollow-to-superman-roll | Gz9ufwM4gUk | programado |
 | 2026-12-03 | 11:00 | Plan 5/día (orden aleatorio) | lateral-raise-to-overhead | BaSF1awuv3Q | programado |
 | 2026-12-03 | 14:00 | Plan 5/día (orden aleatorio) | ring-handstand-push-up | iTe8X_kOawo | programado |
@@ -167,7 +167,7 @@ Horario Uruguay: 08:00 · 11:00 · 14:00 · 17:00 · 20:00. Subidos por Studio c
 | 2026-12-04 | 11:00 | Plan 5/día (orden aleatorio) | ghd-back-extension | tnypXSH1zUg | programado |
 | 2026-12-04 | 14:00 | Plan 5/día (orden aleatorio) | tibialis-raise | fXWdHOrmzmE | programado |
 | 2026-12-04 | 17:00 | Plan 5/día (orden aleatorio) | superman-hold | U4tLt7kJEQE | programado |
-| 2026-12-04 | 20:00 | Plan 5/día (orden aleatorio) | lateral-shuffle |  | privado (subida manual, revisar) |
+| 2026-12-04 | 20:00 | Plan 5/día (orden aleatorio) | lateral-shuffle | _Z9Yjf-G2kQ | programado |
 | 2026-12-05 | 08:00 | Plan 5/día (orden aleatorio) | squat-thoracic-rotation | 2tCeGqVlN5E | programado |
 | 2026-12-05 | 11:00 | Plan 5/día (orden aleatorio) | toe-touch-sit-up | hvdGWObB4mQ | programado |
 | 2026-12-05 | 14:00 | Plan 5/día (orden aleatorio) | ghd-sit-up | NfKgLL9w4Tw | programado |
@@ -177,7 +177,7 @@ Horario Uruguay: 08:00 · 11:00 · 14:00 · 17:00 · 20:00. Subidos por Studio c
 | 2026-12-06 | 11:00 | Plan 5/día (orden aleatorio) | weighted-lunge | l_CC5oTsjSQ | programado |
 | 2026-12-06 | 14:00 | Plan 5/día (orden aleatorio) | side-lying-thoracic-opening | MXrQ-3cYJqk | programado |
 | 2026-12-06 | 17:00 | Plan 5/día (orden aleatorio) | skierg | u33JaYJDA04 | programado |
-| 2026-12-06 | 20:00 | Plan 5/día (orden aleatorio) | smith-machine-bench-press |  | privado (subida manual, revisar) |
+| 2026-12-06 | 20:00 | Plan 5/día (orden aleatorio) | smith-machine-bench-press | JcU2L2D2QtQ | programado |
 | 2026-12-07 | 08:00 | Plan 5/día (orden aleatorio) | bar-muscle-up | tq6NQEL-f4c | programado |
 | 2026-12-07 | 11:00 | Plan 5/día (orden aleatorio) | kettlebell-ankle-mobility-drill | Ke_i3CabXF4 | programado |
 | 2026-12-07 | 14:00 | Plan 5/día (orden aleatorio) | power-clean | MoEDdC9OqDY | programado |

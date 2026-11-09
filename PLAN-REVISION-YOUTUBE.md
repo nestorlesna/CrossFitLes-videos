@@ -6,6 +6,14 @@ Usar el Chrome `a64d121a-d083-4bd7-bb7a-529d2c201274` (ver memoria) y el canal F
 
 > **Límite de Studio:** hoy salió «no puedes subir más miniaturas hoy, esperá 24 horas». Mañana, antes de empezar, comprobar que ya deja subir miniaturas (probar con la primera tarea). Si vuelve a bloquear, dejar las miniaturas para el final y hacer primero todo lo que no las necesita.
 
+## Estado al 9-11-2026 (se ejecutó parte del plan)
+
+- **1. Duplicado hang power snatch: HECHO.** El público es  (subido 18-oct; tenía el título «Hang Power Snatch» y la descripción con los encabezados TÍTULO/DESCRIPCIÓN y sin etiquetas): quedó con título, descripción, 10 etiquetas y la miniatura que ya tenía. El programado  se eliminó. El hueco 28-11 08:00 queda libre. En Studio no hay títulos duplicados entre los 249 videos del canal. Nota: el nombre de archivo del público es  (nombre viejo), pero el video se ve igual (hang power snatch, 0:50).
+- **2. Los 5 grandes: HECHO.** Título, descripción, etiquetas, «no es para niños», miniatura y programación: jump-rope (rMSHizDgr6w, 25-11 08:00), rowing-machine (QJe4wwjcZbk, 28-11 20:00), stair-climber (tRk7kI9gXHY, 02-12 20:00), lateral-shuffle (_Z9Yjf-G2kQ, 04-12 20:00), smith-machine-bench-press (JcU2L2D2QtQ, 06-12 20:00). El límite de miniaturas ya no bloqueaba.
+- **3. Verificaciones: HECHO** para stability-ball-plate-crunch, squat-jump-to-plate y wide-negative-push-up (título, descripción con bloque FitLesUY, etiquetas, programado, miniatura propia). Falta revisar miniaturas del resto de los 84 si se quiere.
+- **4a. Vinculación (largo → corto): HECHO** en los 10 largos nuevos (línea en la descripción + «Vídeo relacionado» = corto). **Pendiente corto → largo**: Studio no ofrece como «Vídeo relacionado» un video programado; hacerlo cuando cada largo pase a público (fechas en ) y poner el link en la descripción del corto (reemplazar la línea 📺). Registrado como «pendiente» en  / .
+- **4b / 4c:** sin cambios.
+
 ---
 
 ## 1. `barbell-hang-power-snatch` duplicado (prioridad alta)
