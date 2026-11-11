@@ -5,7 +5,7 @@
 
 ---
 
-## Line 1 — CROSSFIT · ENTRADA EN CALOR (Frame 1)
+## Line 1 — ENTRADA EN CALOR (Frame 1)
 
     Spiderman Stretch Rotation: estocada con rotación torácica. Movilidad de cadera, glúteo y espalda alta.
 

@@ -417,6 +417,24 @@ export function buildIndex(projectDir, { thumb = false, corto = false } = {}) {
           </svg>
         </div>
       </div>`);
+    else if (f.topview?.mode === "ktw")
+      // Vista de arriba de la torsión arrodillado: rodillas abajo; tronco, hombros y la barra de la máquina giran.
+      extras.push(`<div id="fx-${f.id}" class="clip" data-start="${f.start}" data-duration="${f.dur}" data-track-index="4">
+        <div id="topcard-${f.id}" class="feetcard topcard"><div class="lbl">VISTA DE ARRIBA</div>
+          <svg viewBox="0 0 252 300">
+            <rect x="86" y="212" width="80" height="24" rx="11" fill="#2E323B"/>
+            <rect x="94" y="232" width="64" height="18" rx="9" fill="#1A1A1A"/>
+            <g id="tvlegs-${f.id}">
+              <rect x="88" y="132" width="76" height="88" rx="26" fill="#2FB3A6"/>
+              <circle cx="126" cy="128" r="27" fill="#6B3B1F"/>
+              <line x1="100" y1="152" x2="84" y2="88" stroke="#E8B383" stroke-width="15" stroke-linecap="round"/>
+              <line x1="152" y1="152" x2="168" y2="88" stroke="#D29A68" stroke-width="15" stroke-linecap="round"/>
+              <rect x="60" y="78" width="132" height="14" rx="7" fill="#2E323B"/>
+            </g>
+            <text x="126" y="292" text-anchor="middle" font-family="Inter" font-weight="800" font-size="22" fill="#1A1A1A">${esc(f.topview.label || "ROTÁ EL TORSO")}</text>
+          </svg>
+        </div>
+      </div>`);
     else if (f.topview?.mode === "bar")
       // Vista de arriba del burpee lateral: barra vertical con discos; el atleta acostado al lado salta al otro lado.
       extras.push(`<div id="fx-${f.id}" class="clip" data-start="${f.start}" data-duration="${f.dur}" data-track-index="4">

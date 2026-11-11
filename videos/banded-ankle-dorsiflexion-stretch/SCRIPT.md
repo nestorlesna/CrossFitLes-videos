@@ -7,32 +7,28 @@
 
 ## Line 1 — CROSSFIT · ENTRADA EN CALOR (Frame 1)
 
-    Band External Rotation: rotación externa del hombro con banda. Salud para el manguito rotador.
+    Banded Ankle Dorsiflexion Stretch: banda en el tobillo para ganar rango y sentarte hondo sin levantar el talón.
 
 ## Line 2 — POSICIÓN INICIAL (Frame 2)
 
-    Parate de costado al ancla, con la banda a la altura de la cintura. Codo pegado al cuerpo, doblado a noventa grados.
+    Arrodillate con una rodilla en el piso y la otra pierna adelante, con el pie bien apoyado y el talón abajo.
 
-## Line 3 — PASO 1 / 4 (Frame 3)
+## Line 3 — PASO 1 / 3 (Frame 3)
 
-    Paso uno. Rotá el antebrazo hacia afuera contra la resistencia de la banda, como una puerta que se abre.
+    Paso uno. Empujá la rodilla de adelante sobre la punta del pie, sin que el talón se despegue.
 
-## Line 4 — PASO 2 / 4 (Frame 4)
+## Line 4 — PASO 2 / 3 (Frame 4)
 
-    Paso dos. El codo no se separa del cuerpo en ningún momento. Es la clave del ejercicio.
+    Paso dos. Sostené treinta segundos, respirando y empujando la rodilla apenas un poco más en cada respiración.
 
-## Line 5 — PASO 3 / 4 (Frame 5)
+## Line 5 — PASO 3 / 3 (Frame 5)
 
-    Paso tres. Rango controlado y sin tirones: salí y volvé lento, sin girar el torso.
+    Así no: si tirás la cadera atrás para escapar de la banda, la rodilla no avanza y el tobillo no gana rango. Volvé a la posición.
 
-## Line 6 — PASO 4 / 4 (Frame 6)
+## Line 6 — CLAVES (Frame 6)
 
-    Paso cuatro. Terminá las repeticiones y cambiá de lado: cada brazo por separado.
+    Claves: el talón nunca se levanta, la rodilla va sobre la punta del pie, movimiento lento y un tobillo por vez.
 
-## Line 7 — CLAVES (Frame 7)
+## Line 7 — A ENTRENAR (Frame 7)
 
-    Claves: codo pegado al cuerpo y a noventa grados, movimiento controlado sin tirones y cada lado por separado.
-
-## Line 8 — A ENTRENAR (Frame 8)
-
-    Seis repeticiones por lado. Fundamental para cuidar los hombros antes de la arrancada.
+    Treinta segundos con cada tobillo. Hacelo antes de sentadillas o de cualquier trabajo profundo de piernas.

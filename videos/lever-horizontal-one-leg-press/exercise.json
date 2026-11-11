@@ -1,0 +1,792 @@
+{
+  "slug": "lever-horizontal-one-leg-press",
+  "name": "Lever Horizontal One Leg Press",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Glúteos",
+    "Cuádriceps"
+  ],
+  "descripcion": "Sentate con la espalda apoyada y una sola pierna en la placa, con la rodilla a 90 grados. Empujá la placa hasta casi estirar y volvé lento.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 640,
+    "y": 1506.2,
+    "scale": 0.76
+  },
+  "shadow": false,
+  "initialPose": "BOTTOM",
+  "props": [
+    {
+      "type": "legpress",
+      "hip": [
+        -320,
+        -300
+      ],
+      "ang": 12,
+      "lean": -30,
+      "stops": 320
+    }
+  ],
+  "poses": {
+    "TOP": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -30,
+      "hd": -10,
+      "ft": -120,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle2": [
+        -170,
+        -30
+      ],
+      "ankle": [
+        122.1,
+        -394.0
+      ]
+    },
+    "MID": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -30,
+      "hd": -10,
+      "ft": -120,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle2": [
+        -170,
+        -30
+      ],
+      "ankle": [
+        63.4,
+        -381.5
+      ]
+    },
+    "BOTTOM": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -30,
+      "hd": -10,
+      "ft": -120,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle2": [
+        -170,
+        -30
+      ],
+      "ankle": [
+        4.7,
+        -369.0
+      ]
+    },
+    "LOCK_BAD": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -30,
+      "hd": -10,
+      "ft": -120,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle2": [
+        -170,
+        -30
+      ],
+      "ankle": [
+        135.8,
+        -396.9
+      ]
+    },
+    "HIP_BAD": {
+      "hip": [
+        -292,
+        -258
+      ],
+      "b": -22,
+      "hd": -2,
+      "ft": -120,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle2": [
+        -170,
+        -30
+      ],
+      "ankle": [
+        4.7,
+        -369.0
+      ]
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "ONE LEG",
+        "PRESS"
+      ],
+      "sub": "Prensa horizontal",
+      "vo": "Lever Horizontal One Leg Press: la prensa horizontal con una sola pierna. Glúteos, cuádriceps e isquiotibiales.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.1
+            ],
+            [
+              "BOTTOM",
+              1.7
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Horizontal y a una pierna",
+      "vo": "La prensa horizontal: espalda apoyada, una placa que empujás con el pie y discos al costado.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            381,
+            1156
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1156
+          ],
+          "text": "RESPALDO",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            778,
+            1279
+          ],
+          "r": 46,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1303
+          ],
+          "text": "DISCOS",
+          "anchor": "end",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            660,
+            1347
+          ],
+          "r": 30,
+          "at": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1390
+          ],
+          "text": "TOPE",
+          "anchor": "start",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "EL",
+        "ASIENTO"
+      ],
+      "sub": "Rodilla a 90 grados",
+      "vo": "Ajustá el asiento para que, al empezar, la rodilla quede en un ángulo de noventa grados.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            499,
+            1127
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "RODILLA A 90°",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "PIE"
+      ],
+      "sub": "Centrado en la placa",
+      "vo": "Apoyá el pie centrado en la placa, con toda la planta. Agarralo de las manijas del asiento.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            644,
+            1226
+          ],
+          "r": 40,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1160
+          ],
+          "text": "PIE CENTRADO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "UNA",
+        "PIERNA"
+      ],
+      "sub": "La otra descansa",
+      "vo": "Sentate con la espalda apoyada y una sola pierna en la placa. La otra queda relajada.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            644,
+            1226
+          ],
+          "r": 40,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1000
+          ],
+          "text": "PIERNA ACTIVA",
+          "anchor": "start",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            511,
+            1483
+          ],
+          "r": 34,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1430
+          ],
+          "text": "LA OTRA",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "EMPUJÁ",
+        "LA PLACA"
+      ],
+      "sub": "Sin apurar",
+      "vo": "Paso uno. Empujá la placa alejándola del cuerpo, extendiendo la rodilla sin apurarte.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 1.0
+        },
+        {
+          "to": "TOP",
+          "at": 1.6,
+          "dur": 1.0
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            660,
+            1214
+          ],
+          "to": [
+            727,
+            1195
+          ],
+          "at": 0.8,
+          "dur": 1.1
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "EMPUJÁ",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "CASI",
+        "ESTIRADA"
+      ],
+      "sub": "Sin trabar la rodilla",
+      "vo": "Paso dos. Llegá casi a estirar la pierna y hacé una pausa breve, sin trabar la rodilla.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            558,
+            1194
+          ],
+          "r": 46,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "SIN TRABAR",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "VOLVÉ",
+        "LENTO"
+      ],
+      "sub": "Controlá la vuelta",
+      "vo": "Paso tres. Flexioná la rodilla y volvé lento hasta la posición inicial, controlando el peso.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.6,
+          "dur": 2.2
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            727,
+            1195
+          ],
+          "to": [
+            660,
+            1214
+          ],
+          "at": 0.8,
+          "dur": 1.1
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "VOLVÉ LENTO",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá al empujar",
+      "vo": "Soltá el aire mientras empujás y tomalo cuando volvés. No aguantes el aire.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.1
+            ],
+            [
+              "BOTTOM",
+              1.9
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 2",
+      "head": [
+        "TRABAR",
+        "LA RODILLA"
+      ],
+      "sub": "Casi estirada",
+      "vo": "Error: trabar o hiperextender la rodilla arriba. Llegá casi a estirar, sin bloquear la articulación.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "LOCK_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            569,
+            1218
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 2",
+      "head": [
+        "DESPEGAR",
+        "LA ESPALDA"
+      ],
+      "sub": "Bien apoyado",
+      "vo": "Error: despegar la espalda del respaldo para empujar. Mantené la espalda bien apoyada.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "HIP_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            418,
+            1310
+          ],
+          "r": 52,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Una pierna",
+        "Espalda apoyada",
+        "Sin trabar",
+        "Volvé lento"
+      ],
+      "vo": "Tips de profe: una pierna por vez, espalda apoyada, sin trabar la rodilla y volvé lento.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.1
+            ],
+            [
+              "BOTTOM",
+              1.7
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Pie centrado",
+        "Rodilla alineada",
+        "Sin impulso",
+        "Bajá controlado"
+      ],
+      "vo": "Claves: pie centrado, rodilla alineada con el pie, sin impulso y bajada controlada.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10-12"
+      ],
+      "sub": "Un minuto de pausa",
+      "vo": "Tres series de diez a doce por pierna, con un minuto de pausa. Cambiá de pierna entre series.",
+      "chips": [
+        {
+          "label": "1 · EMPUJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PAUSÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ LENTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.1
+            ],
+            [
+              "BOTTOM",
+              1.7
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "CAMBIÁ",
+        "DE PIERNA"
+      ],
+      "sub": "Sin soltar de golpe",
+      "vo": "Al terminar, volvé la placa despacio y cambiá de pierna. No dejes caer el peso.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 1.0,
+          "dur": 1.0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 2.2,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "CAMBIÁ DE PIERNA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "TOP",
+    "zoom": 1.15,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Lever Horizontal One Leg Press 🔥 Prensa a una pierna | Gimnasio",
+    "tags": [
+      "lever horizontal one leg press",
+      "prensa horizontal",
+      "prensa a una pierna",
+      "leg press",
+      "glúteos",
+      "cuádriceps",
+      "máquina de palanca",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de piernas",
+      "piernas"
+    ],
+    "descripcion": "🔥 LEVER HORIZONTAL ONE LEG PRESS (prensa horizontal a una pierna) — glúteos, cuádriceps e isquiotibiales\n\n¿Querés trabajar una pierna a la vez? La prensa horizontal a una pierna lo hace simple. Mirá cómo se usa. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el asiento para que la rodilla quede a 90 grados al empezar.\n2️⃣ Elegí un peso que puedas mover 10 veces con una pierna.\n\n📋 PASO A PASO\n1️⃣ Sentate con la espalda apoyada y una sola pierna en la placa.\n2️⃣ Apoyá el pie centrado y agarrá las manijas.\n3️⃣ Empujá la placa hasta casi estirar la rodilla.\n4️⃣ Volvé lento y cambiá de pierna.\n\n❌ ERRORES COMUNES\n• Trabar la rodilla → llegá casi a estirar.\n• Despegar la espalda → quedate bien apoyado.\n\n💡 TIPS DEL PROFE\n• Rodilla a 90 grados para empezar.\n• Pie centrado en la placa.\n• Sin trabar la rodilla.\n• Volvé lento y controlá.\n\n🎯 QUÉ TRABAJA\nGlúteos · Cuádriceps · Isquiotibiales · Gemelos\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones por pierna, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #LeverHorizontalOneLegPress #PrensaDePiernas #Gluteos #Cuadriceps #Musculacion #Entrenamiento"
+  }
+}

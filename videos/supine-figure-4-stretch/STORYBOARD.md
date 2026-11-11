@@ -1,6 +1,6 @@
 ---
 format: 1080x1920
-message: "Cómo ejecutar Supine Figure-4 Stretch paso a paso"
+message: "Cómo ejecutar Supine Figure-4 paso a paso"
 audience: alumnos de CrossFit
 mode: autonomous
 music: plantilla/musica/bgm-base.wav

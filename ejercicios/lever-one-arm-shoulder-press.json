@@ -1,0 +1,807 @@
+{
+  "slug": "lever-one-arm-shoulder-press",
+  "name": "Lever One Arm Shoulder Press",
+  "maquina": true,
+  "category": "GIMNASIO · HOMBROS",
+  "tags": [
+    "Hombros",
+    "Tríceps"
+  ],
+  "descripcion": "Sentate con la espalda apoyada y agarrá la manija con una sola mano, a la altura del hombro. Empujá arriba hasta estirar el brazo, pausá y bajá lento. Al terminar la serie, cambiá de brazo.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 700,
+    "y": 1509.6,
+    "scale": 0.66
+  },
+  "shadow": false,
+  "initialPose": "DOWN",
+  "props": [
+    {
+      "type": "shoulderpress",
+      "pivot": [
+        -520,
+        -620
+      ],
+      "frameTop": -1080,
+      "stack": -660,
+      "seat": [
+        -390,
+        -90,
+        -184
+      ],
+      "back": [
+        -318,
+        -4,
+        470
+      ],
+      "pin": 3
+    }
+  ],
+  "poses": {
+    "DOWN": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -4,
+      "hd": 0,
+      "g2": 0,
+      "ua2": 10,
+      "fa2": 16,
+      "ua": 45,
+      "fa": 135
+    },
+    "MID": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -4,
+      "hd": 0,
+      "g2": 0,
+      "ua2": 10,
+      "fa2": 16,
+      "ua": 94,
+      "fa": 82
+    },
+    "UP": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -4,
+      "hd": 0,
+      "g2": 0,
+      "ua2": 10,
+      "fa2": 16,
+      "ua": 170,
+      "fa": 6
+    },
+    "ARCH_BAD": {
+      "hip": [
+        -226,
+        -236
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -24,
+      "hd": -14,
+      "g2": 0,
+      "ua2": 10,
+      "fa2": 16,
+      "cv": -30,
+      "ua": 174,
+      "fa": 4
+    },
+    "LOW_BAD": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -4,
+      "hd": 0,
+      "g2": 0,
+      "ua2": 10,
+      "fa2": 16,
+      "ua": -24,
+      "fa": 196
+    },
+    "LOCK_BAD": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -4,
+      "hd": 0,
+      "g2": 0,
+      "ua2": 10,
+      "fa2": 16,
+      "ua": 190,
+      "fa": -20
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · HOMBROS",
+      "head": [
+        "ONE ARM",
+        "PRESS"
+      ],
+      "sub": "Press a un brazo",
+      "vo": "Lever One Arm Shoulder Press: press de hombro con un brazo en máquina de palanca. Un lado por vez.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.0
+            ],
+            [
+              "DOWN",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Una manija por brazo",
+      "vo": "La máquina tiene una manija por brazo, un respaldo para pegar la espalda y la pila con el pasador.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            609,
+            1148
+          ],
+          "r": 36,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1180
+          ],
+          "text": "MANIJA",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            480,
+            1190
+          ],
+          "r": 40,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1240
+          ],
+          "text": "RESPALDO",
+          "anchor": "end",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            298,
+            1378
+          ],
+          "r": 26,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1378
+          ],
+          "text": "PESO",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "EL",
+        "ASIENTO"
+      ],
+      "sub": "Manija a la altura del hombro",
+      "vo": "Ajustá el asiento para que la manija quede a la altura del hombro, ni más alta ni más baja.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            542,
+            1388
+          ],
+          "r": 40,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1440
+          ],
+          "text": "ASIENTO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "MENOS",
+        "PESO"
+      ],
+      "sub": "Un brazo mueve menos",
+      "vo": "Con un brazo movés menos peso: bajá dos o tres placas respecto del press a dos brazos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            298,
+            1378
+          ],
+          "r": 26,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1378
+          ],
+          "text": "PESO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "UN BRAZO",
+        "FIRME"
+      ],
+      "sub": "Codo flexionado, mano arriba",
+      "vo": "Espalda pegada, pies firmes y el codo flexionado, con la mano arriba del codo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            609,
+            1254
+          ],
+          "r": 40,
+          "at": 0.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1253
+          ],
+          "text": "CODO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.8,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "EMPUJÁ",
+        "ARRIBA"
+      ],
+      "sub": "Sin girar el tronco",
+      "vo": "Paso uno. Empujá la manija hacia arriba sin girar ni inclinar el tronco de costado.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "to": "UP",
+          "at": 0.6,
+          "dur": 0.9
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            635,
+            1114
+          ],
+          "to": [
+            552,
+            968
+          ],
+          "at": 0.9,
+          "dur": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "PAUSÁ",
+        "ARRIBA"
+      ],
+      "sub": "Casi estirado",
+      "vo": "Paso dos. Arriba, pausá un segundo con el brazo casi estirado, sin trabar el codo.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            556,
+            956
+          ],
+          "r": 36,
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "LENTO"
+      ],
+      "sub": "Hasta el hombro",
+      "vo": "Paso tres. Bajá lento hasta la altura del hombro, sin dejar caer el peso.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "to": "DOWN",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            576,
+            946
+          ],
+          "to": [
+            635,
+            1122
+          ],
+          "at": 0.9,
+          "dur": 2.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al empujar",
+      "vo": "Soltá el aire mientras empujás hacia arriba y tomalo mientras bajás.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.0
+            ],
+            [
+              "DOWN",
+              2.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "ESPALDA",
+        "ARQUEADA"
+      ],
+      "sub": "La lumbar pegada",
+      "vo": "Error: arquear la espalda para empujar con un solo brazo. Apretá el abdomen y bajá el peso.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            700
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            513,
+            1269
+          ],
+          "r": 56,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "BAJAR",
+        "DE MÁS"
+      ],
+      "sub": "Frená en el hombro",
+      "vo": "Error: bajar la manija mucho más abajo que el hombro. Frená a la altura del hombro.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "LOW_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            700
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            497,
+            1173
+          ],
+          "r": 36,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "CODO",
+        "TRABADO"
+      ],
+      "sub": "Casi estirado, nunca trabado",
+      "vo": "Error: trabar el codo arriba y empujar de más. Llegá casi estirado y empezá a bajar.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "LOCK_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            700
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            527,
+            958
+          ],
+          "r": 36,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Un brazo por vez",
+        "Manija a la altura del hombro",
+        "Tronco quieto",
+        "Pausá arriba"
+      ],
+      "vo": "Tips: un brazo por vez, manija a la altura del hombro, tronco quieto y pausá arriba.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.0
+            ],
+            [
+              "DOWN",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Espalda pegada",
+        "Codo flexionado",
+        "Bajá en 3 segundos",
+        "Cambiá de brazo"
+      ],
+      "vo": "Claves: espalda pegada, codo flexionado, bajá en tres segundos y cambiá de brazo.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10"
+      ],
+      "sub": "Por brazo: cambiá al terminar",
+      "vo": "Tres series de ocho a diez por brazo, con un minuto y medio de pausa. Terminá un lado y pasá al otro.",
+      "chips": [
+        {
+          "label": "1 · EMPUJÁ ARRIBA",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PAUSÁ ARRIBA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ LENTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.0
+            ],
+            [
+              "DOWN",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "CAMBIÁ",
+        "DE BRAZO"
+      ],
+      "sub": "Sin apuro",
+      "vo": "Al terminar, apoyá la manija, soltá el peso y pasá al otro brazo con el mismo ajuste.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.8,
+          "dur": 2.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "OTRO BRAZO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "MID",
+    "grip": 0,
+    "zoom": 1.05,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Lever One Arm Shoulder Press 🔥 Press de hombro a un brazo | Gimnasio",
+    "tags": [
+      "lever one arm shoulder press",
+      "press a un brazo",
+      "one arm shoulder press",
+      "press de hombros a una mano",
+      "hombros",
+      "deltoides",
+      "tríceps",
+      "unilateral",
+      "máquina de palanca",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de hombros"
+    ],
+    "descripcion": "🔥 LEVER ONE ARM SHOULDER PRESS (press de hombro a un brazo en máquina de palanca) — deltoides, sobre todo la parte de adelante, con tríceps y trapecio\n\n¿Un hombro tira más que el otro? El press a un brazo te muestra la diferencia en la primera serie. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el asiento para que la manija quede a la altura del hombro.\n2️⃣ Bajá dos o tres placas respecto del press a dos brazos.\n\n📋 PASO A PASO\n1️⃣ Sentate con la espalda pegada al respaldo y los pies firmes.\n2️⃣ Agarrá una manija con una mano, con el codo flexionado y la mano arriba del codo.\n3️⃣ Empujá la manija hacia arriba sin girar el tronco.\n4️⃣ Pausá un segundo arriba, con el brazo casi estirado.\n5️⃣ Bajá lento hasta el hombro y cambiá de brazo al terminar la serie.\n\n❌ ERRORES COMUNES\n• Arquear la espalda → abdomen firme y menos peso.\n• Bajar más abajo que el hombro → frená a la altura del hombro.\n• Trabar el codo → casi estirado, nunca trabado.\n\n💡 TIPS DEL PROFE\n• Una manija a la altura del hombro al empezar.\n• Tronco quieto: no gires para empujar.\n• Codo flexionado, mano arriba del codo.\n• Bajá en tres segundos y cambiá de brazo.\n\n🎯 QUÉ TRABAJA\nDeltoides · Tríceps · Trapecio\n\n⏱️ CUÁNTO\n3 series de 8–10 por brazo, con 1 minuto y medio de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Hombros #UnBrazo #Deltoides #MaquinaDePalanca #Musculacion #Entrenamiento"
+  }
+}

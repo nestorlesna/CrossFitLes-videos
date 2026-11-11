@@ -181,7 +181,7 @@ Si algo de esto falla y no lo podés arreglar, frená y avisale al usuario qué 
 5. Para cada ejercicio corré `node plantilla/make-exercise.mjs <slug> --info` y leé: `nombre, categoria, implemento,
    posicion, zonas, dosis, descripcion, tecnica_coach, errores, dificultad`.
    - Si falta `descripcion` o `tecnica_coach`: completala vos en `ejercicios/ejercicios.csv` y agregá una línea en
-     `ejercicios/completados.csv` con el formato `clave;campo;valor`. No toques `ejercicios.original.csv`.
+     `ejercicios/completados.csv` con el formato `clave;campo;valor`.
 
 ---
 

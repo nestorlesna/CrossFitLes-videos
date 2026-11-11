@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Assisted Chin-up",
+      "text": "La dominada asistida en máquina de palanca, de pie en la plataforma."
+    },
+    {
+      "id": "02",
+      "text": "La palanca mueve la pila y la plataforma te ayuda a subir. Trabaja dorsales, bíceps y romboides."
+    },
+    {
+      "id": "03",
+      "text": "Elegí el contrapeso con el pasador. Acá es al revés: más peso es más ayuda."
+    },
+    {
+      "id": "04",
+      "text": "Subí por los escalones y agarrá las manijas con agarre prono antes de apoyar los pies."
+    },
+    {
+      "id": "05",
+      "text": "Quedate con el cuerpo recto, los brazos extendidos y los hombros activos, sin quedar flojo."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Activá la espalda y tirá del cuerpo hacia arriba liderando con el pecho."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Subí hasta que el mentón quede por encima de las manijas y apretá un segundo."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá lento, en dos o tres segundos, hasta estirar los brazos del todo."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras subís y tomá aire mientras bajás."
+    },
+    {
+      "id": "10",
+      "text": "Error: usar impulso de cadera. Mantené el cuerpo recto y tirá solo con la espalda."
+    },
+    {
+      "id": "11",
+      "text": "Error: quedarte a mitad de camino. Bajá hasta estirar los brazos y recién ahí volvé a subir."
+    },
+    {
+      "id": "12",
+      "text": "Tips de profe: agarre prono un poco ancho, cuerpo recto, liderá con el pecho y cada semana menos ayuda."
+    },
+    {
+      "id": "13",
+      "text": "Claves: más peso es más ayuda, mentón sobre las manijas, cuerpo recto sin impulso y bajada controlada."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de seis a diez, con dos minutos de pausa. Cuando las diez salen fáciles, sacá un poco de ayuda."
+    },
+    {
+      "id": "15",
+      "text": "Al terminar, apoyá los pies en los escalones y recién ahí soltá las manijas."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

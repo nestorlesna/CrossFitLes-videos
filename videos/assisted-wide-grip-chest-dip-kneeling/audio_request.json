@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Assisted Wide-grip Chest Dip",
+      "text": "Fondos de pecho asistidos con las manos bien separadas."
+    },
+    {
+      "id": "02",
+      "text": "La máquina asistida te ayuda con un contrapeso: cuanto más peso elegís, más ayuda y menos esfuerzo."
+    },
+    {
+      "id": "03",
+      "text": "Apoyá las rodillas en la plataforma y agarrá las paralelas bien abiertas, con los brazos estirados."
+    },
+    {
+      "id": "04",
+      "text": "El pasador elige el contrapeso: más placas es más ayuda. Probá con uno que te deje hacer diez repeticiones."
+    },
+    {
+      "id": "05",
+      "text": "Manos más separadas que los hombros, palmas hacia abajo y el pecho adelante."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Bajá doblando los codos hasta que los brazos queden paralelos al piso."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Abajo, pausa un segundo sin rebotar y sin encoger los hombros."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Empujá hasta estirar casi del todo, sin trabar los codos."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras empujás y tomalo mientras bajás."
+    },
+    {
+      "id": "10",
+      "text": "Error: quedarte derecho y con los codos pegados. Con agarre ancho el pecho va adelante."
+    },
+    {
+      "id": "11",
+      "text": "Error: encoger los hombros hacia las orejas. Mantenelos abajo y lejos del cuello."
+    },
+    {
+      "id": "12",
+      "text": "Tips: rodillas en la plataforma, manos bien abiertas, pecho adelante y hombros abajo."
+    },
+    {
+      "id": "13",
+      "text": "Claves: bajá en dos segundos, agarre ancho, pausa abajo y subí sin trabar los codos."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de diez, con un minuto de pausa. Cuando las diez salen fáciles, bajá el contrapeso."
+    },
+    {
+      "id": "15",
+      "text": "Al terminar, estirá los brazos, sacá las rodillas con cuidado y dejá el contrapeso apoyado."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

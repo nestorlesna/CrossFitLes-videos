@@ -6,7 +6,7 @@ mode: autonomous
 music: plantilla/musica/bgm-base.wav
 ---
 
-## Frame 1 — CROSSFIT · ENTRADA EN CALOR SCAPULAR WALL SLIDES
+## Frame 1 — ENTRADA EN CALOR SCAPULAR WALL SLIDES
 
 - status: animated
 - min: 4.6s

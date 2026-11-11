@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Horizontal One Leg Press",
+      "text": "La prensa horizontal con una sola pierna. Glúteos, cuádriceps e isquiotibiales."
+    },
+    {
+      "id": "02",
+      "text": "La prensa horizontal: espalda apoyada, una placa que empujás con el pie y discos al costado."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el asiento para que, al empezar, la rodilla quede en un ángulo de noventa grados."
+    },
+    {
+      "id": "04",
+      "text": "Apoyá el pie centrado en la placa, con toda la planta. Agarralo de las manijas del asiento."
+    },
+    {
+      "id": "05",
+      "text": "Sentate con la espalda apoyada y una sola pierna en la placa. La otra queda relajada."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá la placa alejándola del cuerpo, extendiendo la rodilla sin apurarte."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Llegá casi a estirar la pierna y hacé una pausa breve, sin trabar la rodilla."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Flexioná la rodilla y volvé lento hasta la posición inicial, controlando el peso."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras empujás y tomalo cuando volvés. No aguantes el aire."
+    },
+    {
+      "id": "10",
+      "text": "Error: trabar o hiperextender la rodilla arriba. Llegá casi a estirar, sin bloquear la articulación."
+    },
+    {
+      "id": "11",
+      "text": "Error: despegar la espalda del respaldo para empujar. Mantené la espalda bien apoyada."
+    },
+    {
+      "id": "12",
+      "text": "Tips de profe: una pierna por vez, espalda apoyada, sin trabar la rodilla y volvé lento."
+    },
+    {
+      "id": "13",
+      "text": "Claves: pie centrado, rodilla alineada con el pie, sin impulso y bajada controlada."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de diez a doce por pierna, con un minuto de pausa. Cambiá de pierna entre series."
+    },
+    {
+      "id": "15",
+      "text": "Al terminar, volvé la placa despacio y cambiá de pierna. No dejes caer el peso."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

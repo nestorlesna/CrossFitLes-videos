@@ -6,7 +6,7 @@ mode: autonomous
 music: plantilla/musica/bgm-base.wav
 ---
 
-## Frame 1 — CROSSFIT · ENTRADA EN CALOR GOBLET SQUAT HOLD PRESS
+## Frame 1 — ENTRADA EN CALOR GOBLET SQUAT HOLD PRESS
 
 - status: animated
 - min: 4.6s

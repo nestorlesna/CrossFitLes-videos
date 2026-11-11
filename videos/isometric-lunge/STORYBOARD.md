@@ -44,7 +44,7 @@ music: plantilla/musica/bgm-base.wav
 ## Frame 6 — CLAVES TÉCNICA
 
 - status: animated
-- min: 8s
+- min: 8.8s
 - voiceover: "Claves: torso erguido toda la isometría, la rodilla de adelante no pasa la punta del pie, peso en el talón delantero y core firme."
 - poses: —
 

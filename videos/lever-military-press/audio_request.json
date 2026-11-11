@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Military Press",
+      "text": "Press militar en máquina de palanca. Hombros fuertes con la espalda apoyada."
+    },
+    {
+      "id": "02",
+      "text": "La máquina tiene manijas con agarre prono y un respaldo que te deja la espalda pegada."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el asiento para que las manijas arranquen a la altura de los hombros."
+    },
+    {
+      "id": "04",
+      "text": "Elegí un peso liviano con el pasador: el hombro es una articulación delicada."
+    },
+    {
+      "id": "05",
+      "text": "Espalda pegada al respaldo, pies firmes y las muñecas justo arriba de los codos."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá las manijas hacia arriba, sin arquear la zona lumbar."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Arriba, estirá casi del todo, pero sin trabar los codos."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá controlado hasta la altura del hombro, no más abajo."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras empujás hacia arriba y tomalo mientras bajás."
+    },
+    {
+      "id": "10",
+      "text": "Error: arquear la espalda para empujar. Apretá el abdomen y bajá el peso."
+    },
+    {
+      "id": "11",
+      "text": "Error: bajar las manijas mucho más abajo que los hombros. Frená a la altura del hombro."
+    },
+    {
+      "id": "12",
+      "text": "Error: trabar los codos arriba. Llegá casi estirado y empezá a bajar."
+    },
+    {
+      "id": "13",
+      "text": "Tips: manijas a la altura del hombro, lumbar pegada, arriba sin trabar y muñecas firmes."
+    },
+    {
+      "id": "14",
+      "text": "Claves: espalda pegada, pies firmes, bajá controlado y sin impulso."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce, con un minuto y medio de pausa. Cuando salen fáciles, subí una placa."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, acompañá las manijas hasta la altura del hombro y dejá el peso apoyado."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Assisted Chest Dip (Kneeling)",
+      "text": "Assisted Chest Dip: fondos de pecho asistidos de rodillas. El contrapeso te ayuda a completar el recorrido."
+    },
+    {
+      "id": "02",
+      "text": "La máquina asistida te ayuda con un contrapeso: cuanto más peso elegís, más ayuda y menos esfuerzo."
+    },
+    {
+      "id": "03",
+      "text": "Apoyá las rodillas sobre la plataforma, con los brazos estirados y las manos en las paralelas."
+    },
+    {
+      "id": "04",
+      "text": "El pasador elige el contrapeso: más placas es más ayuda. Probá con uno que te deje hacer diez repeticiones."
+    },
+    {
+      "id": "05",
+      "text": "Brazos estirados, palmas hacia abajo y el pecho adelante. Desde ahí arranca el movimiento."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Bajá doblando los codos hasta que los brazos queden paralelos al piso."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Abajo, pausa un segundo sin rebotar y sin encoger los hombros."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Empujá hasta estirar casi del todo, sin trabar los codos."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras empujás y tomalo mientras bajás."
+    },
+    {
+      "id": "10",
+      "text": "Error: quedarte derecho como en un fondo de tríceps. Acá va el pecho adelante y los codos algo abiertos."
+    },
+    {
+      "id": "11",
+      "text": "Error: encoger los hombros hacia las orejas. Mantenelos abajo y lejos del cuello."
+    },
+    {
+      "id": "12",
+      "text": "Tips: rodillas en la plataforma, pecho adelante, hombros abajo y sin trabar los codos."
+    },
+    {
+      "id": "13",
+      "text": "Claves: bajá en dos segundos, codos algo abiertos, pausa abajo y subí sin trabar los codos."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de diez, con un minuto de pausa. Cuando las diez salen fáciles, bajá el contrapeso."
+    },
+    {
+      "id": "15",
+      "text": "Al terminar, estirá los brazos, sacá las rodillas con cuidado y dejá el contrapeso apoyado."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

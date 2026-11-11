@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Seated Reverse Fly",
+      "text": "Aperturas inversas en máquina para la parte de atrás del hombro. Pecho apoyado y codos casi fijos."
+    },
+    {
+      "id": "02",
+      "text": "La máquina de aperturas inversas: apoyo de pecho, manijas adelante y pila de peso atrás."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el asiento para que las manijas queden a la altura del pecho, con los brazos casi horizontales."
+    },
+    {
+      "id": "04",
+      "text": "Elegí el peso con el pasador. Empezá liviano: en la apertura el hombro queda expuesto."
+    },
+    {
+      "id": "05",
+      "text": "Apoyá el pecho, agarrá las manijas adelante y dejá los codos apenas flexionados y fijos."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Abrí los brazos hacia atrás y afuera, juntando las escápulas, sin mover los codos."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Hacé una pausa atrás, con las escápulas bien juntas y el pecho en el apoyo."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Volvé lento a la posición inicial, controlando el peso en todo el recorrido."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire al abrir y tomalo al volver. No aguantes el aire."
+    },
+    {
+      "id": "10",
+      "text": "Error: doblar los codos para tirar. Los codos quedan apenas flexionados y fijos."
+    },
+    {
+      "id": "11",
+      "text": "Error: despegar el pecho del apoyo y usar el torso. Quedate bien apoyado."
+    },
+    {
+      "id": "12",
+      "text": "Tips de profe: pecho apoyado, codos casi fijos, abrí hasta la línea del hombro y no encojas los hombros."
+    },
+    {
+      "id": "13",
+      "text": "Claves: pecho en el apoyo, codos fijos, pausa atrás y volvé lento."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de doce a quince, con cuarenta y cinco segundos de pausa. Subí cuando salgan fáciles."
+    },
+    {
+      "id": "15",
+      "text": "Al terminar, acompañá las manijas y dejá el peso apoyado. No lo sueltes de golpe."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

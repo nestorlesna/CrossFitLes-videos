@@ -5,7 +5,7 @@
 
 ---
 
-## Line 1 — CROSSFIT · ENTRADA EN CALOR (Frame 1)
+## Line 1 — ENTRADA EN CALOR (Frame 1)
 
     Scapular Wall Slides: deslizá los brazos por la pared. Movilidad de omóplatos y hombros.
 

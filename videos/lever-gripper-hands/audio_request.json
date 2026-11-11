@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Gripper Hands",
+      "text": "Máquina de agarre. Apretás el mango y trabajás antebrazos y mano."
+    },
+    {
+      "id": "02",
+      "text": "Tiene un mango fijo, un asiento y la pila con el pasador. El mango no se mueve: lo que hacés es fuerza."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el asiento para que el mango quede a la altura del pecho y los codos flexionados."
+    },
+    {
+      "id": "04",
+      "text": "Elegí el peso con el pasador: uno que te deje cerrar las doce veces sin perder la postura."
+    },
+    {
+      "id": "05",
+      "text": "Sentate derecho, con la espalda recta y los pies planos. Agarrá el mango con la mano completa."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Apretá el mango con toda la mano, contrayendo el antebrazo. No muevas el brazo."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Sostené la contracción un segundo, con la muñeca firme y el codo quieto."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Soltá lento hasta abrir la mano casi del todo y volvé a apretar."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras apretás y tomalo mientras soltás."
+    },
+    {
+      "id": "10",
+      "text": "Error: encorvarte para hacer fuerza. La espalda va recta y el trabajo lo hacen el antebrazo y la mano."
+    },
+    {
+      "id": "11",
+      "text": "Error: soltar el mango de golpe y abrir la mano del todo. Soltá lento y controlá el peso."
+    },
+    {
+      "id": "12",
+      "text": "Tips: mango a la altura del pecho, apretá con toda la mano, codo quieto y soltá lento."
+    },
+    {
+      "id": "13",
+      "text": "Claves: espalda recta, pies planos, un segundo de contracción y sin soltar de golpe."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de diez a doce por mano, con un minuto de pausa. Empezá con poco peso."
+    },
+    {
+      "id": "15",
+      "text": "Al terminar, abrí la mano despacio y sacá el brazo. Si te tironea el codo, bajá el peso."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

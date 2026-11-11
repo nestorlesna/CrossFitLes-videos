@@ -1,7 +1,7 @@
 {
   "slug": "goblet-squat-hold-press",
   "name": "Goblet Squat Hold Press",
-  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "category": "ENTRADA EN CALOR",
   "tags": [
     "Piernas",
     "Hombros",
@@ -70,12 +70,12 @@
         0,
         0
       ],
-      "b": 40,
-      "hd": 24,
+      "b": 26,
+      "hd": 14,
       "g": 0,
-      "ua": -28,
+      "ua": -14,
       "fa": 142,
-      "ua2": -32,
+      "ua2": -18,
       "fa2": 146
     },
     "PRESS": {
@@ -87,8 +87,8 @@
         0,
         0
       ],
-      "b": 40,
-      "hd": 24,
+      "b": 26,
+      "hd": 14,
       "g": 0,
       "ua": 88,
       "fa": 0,
@@ -100,7 +100,7 @@
     {
       "kind": "hook",
       "min": 4.6,
-      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "badge": "ENTRADA EN CALOR",
       "head": [
         "GOBLET SQUAT",
         "HOLD PRESS"

@@ -27,7 +27,7 @@ Separador `;`, UTF-8 con BOM. La `clave` es el slug del video. Las columnas que 
 - Si un ejercicio tiene `implemento` distinto de "Ninguno", primero hay que dibujar ese implemento en `runtime.js`.
 - Si falta `descripcion` o `tecnica_coach` (el CHECKLIST lo marca en Notas), completarlo en el CSV y anotar el cambio en
   `ejercicios/completados.csv` (`clave;campo;valor`, para que el profe lo revise e importe en su app). Ante una duda real
-  sobre la técnica, preguntarle. `ejercicios.original.csv` es el export sin tocar.
+  sobre la técnica, preguntarle.
 
 ## Máquinas de gimnasio (`ejercicios/maquinas.csv`)
 

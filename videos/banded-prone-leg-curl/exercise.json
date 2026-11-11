@@ -1,126 +1,158 @@
 {
   "slug": "banded-prone-leg-curl",
   "name": "Banded Prone Leg Curl",
-  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "category": "CROSSFIT · FUERZA",
   "tags": [
     "Isquiotibiales",
-    "Piernas",
+    "Glúteos",
     "Activación"
   ],
-  "descripcion": "Acostado boca abajo con una banda elástica anclada a los tobillos o con la banda bajo el pie, flexionar la rodilla llevando el talón hacia los glúteos contra la resistencia y volver controlado.",
+  "descripcion": "Boca abajo, con una banda elástica anclada baja detrás de los pies y enganchada al tobillo, flexionar la rodilla llevando el talón hacia los glúteos contra la banda y volver controlado, sin despegar el muslo del piso.",
   "revisado": false,
-  "notas": "Boca abajo con banda elástica para trabajar la flexión de rodilla; movimiento controlado sin tirar con impulso.",
+  "notas": "Prono en el piso con banda al tobillo cerca (prop band hand ankle). El ancla va baja detrás de los pies, a la izquierda; el cuerpo se ubica con hip [100,-20] para dejar visible el ancla. Muslo y cadera pegados al piso; solo flexiona la rodilla.",
   "music": true,
   "musicVolume": 0.18,
   "rig": {
-    "x": 500,
-    "y": 1508,
-    "scale": 0.8
+    "x": 600,
+    "y": 1504,
+    "scale": 0.82
   },
+  "pronuncia": {
+    "Banded Prone Leg Curl": "Bánded prón leg córl"
+  },
+  "initialPose": "PRONE",
   "props": [
     {
       "type": "band",
       "anchor": [
-        400,
-        900
+        -540,
+        30
       ],
-      "post": [
-        420,
-        1300
-      ],
-      "hand": "both"
+      "hand": "ankle",
+      "w": 12
     }
   ],
-  "pronuncia": {
-    "Banded Prone Leg Curl": "Bánded prón leg córl"
-  },
-  "initialPose": "STAND",
   "poses": {
-    "STAND": {
-      "s": 0,
-      "t": 0,
-      "b": 0,
-      "hd": 0,
-      "g": 0,
-      "ua": 6,
-      "fa": 6,
-      "ua2": 4,
-      "fa2": 6
+    "PRONE": {
+      "hip": [
+        100,
+        -20
+      ],
+      "s": 92,
+      "t": 90,
+      "b": 92,
+      "hd": 74,
+      "ft": 175,
+      "s2": 92,
+      "t2": 90,
+      "ft2": 175,
+      "ua": 90,
+      "fa": 0,
+      "ua2": 90,
+      "fa2": 0,
+      "g": 1,
+      "hx": 420,
+      "hy": -10
+    },
+    "CURL": {
+      "hip": [
+        100,
+        -20
+      ],
+      "s": 200,
+      "t": 90,
+      "b": 92,
+      "hd": 74,
+      "ft": 200,
+      "s2": 92,
+      "t2": 90,
+      "ft2": 175,
+      "ua": 90,
+      "fa": 0,
+      "ua2": 90,
+      "fa2": 0,
+      "g": 1,
+      "hx": 420,
+      "hy": -10
     },
     "TOP": {
-      "s": 6,
-      "t": -12,
-      "b": 10,
-      "hd": 4,
-      "g": 0,
-      "ua": -6,
-      "fa": 104,
-      "ua2": -8,
-      "fa2": 104
+      "hip": [
+        100,
+        -20
+      ],
+      "s": 212,
+      "t": 90,
+      "b": 92,
+      "hd": 74,
+      "ft": 212,
+      "s2": 92,
+      "t2": 90,
+      "ft2": 175,
+      "ua": 90,
+      "fa": 0,
+      "ua2": 90,
+      "fa2": 0,
+      "g": 1,
+      "hx": 420,
+      "hy": -10
     },
-    "DOWN": {
-      "s": 6,
-      "t": -12,
-      "b": 10,
-      "hd": 4,
-      "g": 0,
-      "ua": -6,
-      "fa": 6,
-      "ua2": -8,
-      "fa2": 6
-    },
-    "SWING_BAD": {
-      "s": 10,
-      "t": -30,
-      "b": 34,
-      "hd": 20,
-      "g": 0,
-      "ua": 30,
-      "fa": 30,
-      "ua2": 28,
-      "fa2": 30
-    },
-    "ELBOW_BAD": {
-      "s": 6,
-      "t": -12,
-      "b": 10,
-      "hd": 4,
-      "g": 0,
-      "ua": 40,
-      "fa": 70,
-      "ua2": 38,
-      "fa2": 70
+    "THIGH_BAD": {
+      "hip": [
+        100,
+        -20
+      ],
+      "s": 200,
+      "t": 120,
+      "b": 92,
+      "hd": 74,
+      "ft": 200,
+      "s2": 92,
+      "t2": 90,
+      "ft2": 175,
+      "ua": 90,
+      "fa": 0,
+      "ua2": 90,
+      "fa2": 0,
+      "g": 1,
+      "hx": 420,
+      "hy": -10
     }
   },
   "frames": [
     {
       "kind": "hook",
-      "min": 4.6,
-      "badge": "CROSSFIT · WOD",
+      "min": 4.8,
+      "badge": "CROSSFIT · FUERZA",
       "head": [
-        "BAND TRICEPS",
-        "PUSHDOWN"
+        "BANDED PRONE",
+        "LEG CURL"
       ],
-      "vo": "Band Triceps Pushdown: extensión de codos contra una banda elástica. Tríceps aislado.",
+      "sub": "Isquios con banda",
+      "vo": "Banded Prone Leg Curl: boca abajo, banda en el tobillo y el talón a los glúteos. Isquios activos sin cargar la lumbar.",
       "moves": [
         {
-          "to": "TOP",
-          "at": 0.2,
-          "dur": 0.5
+          "cut": "PRONE",
+          "at": 0
         },
         {
-          "seq": [
-            [
-              "DOWN",
-              0.6
-            ],
-            [
-              "TOP",
-              0.8
-            ]
-          ],
-          "at": 0.8,
-          "until": "end"
+          "to": "CURL",
+          "at": 0.7,
+          "dur": 0.7
+        },
+        {
+          "to": "PRONE",
+          "at": 1.8,
+          "dur": 0.7
+        },
+        {
+          "to": "CURL",
+          "at": 2.9,
+          "dur": 0.7
+        },
+        {
+          "to": "PRONE",
+          "at": 4,
+          "dur": 0.7
         }
       ]
     },
@@ -128,19 +160,216 @@
       "min": 5.4,
       "badge": "POSICIÓN INICIAL",
       "head": [
-        "BANDA",
-        "ANCLADA ARRIBA"
+        "BOCA ABAJO",
+        "BANDA AL TOBILLO"
       ],
-      "sub": "Codos pegados al cuerpo",
-      "vo": "Anclá la banda en alto, tomala con las dos manos y pegá los codos al cuerpo, con el torso apenas inclinado.",
+      "sub": "Ancla baja, detrás de los pies",
+      "vo": "Acostate boca abajo con la banda enganchada al tobillo y anclada bien baja, detrás de los pies. Muslos y cadera pegados al piso.",
       "moves": [
         {
-          "cut": "STAND",
+          "cut": "PRONE",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            157,
+            1532
+          ],
+          "r": 44,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            80,
+            1430
+          ],
+          "text": "ANCLA BAJA",
+          "anchor": "start",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            297,
+            1512
+          ],
+          "r": 38,
+          "at": 2.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            90,
+            1330
+          ],
+          "text": "BANDA AL TOBILLO",
+          "anchor": "start",
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "TALÓN A",
+        "LOS GLÚTEOS"
+      ],
+      "sub": "Rodilla, no cadera",
+      "vo": "Paso uno. Flexioná la rodilla y llevá el talón hacia los glúteos, contra la banda, sin despegar el muslo del piso.",
+      "moves": [
+        {
+          "cut": "PRONE",
+          "at": 0
+        },
+        {
+          "to": "CURL",
+          "at": 0.6,
+          "dur": 1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": {
+            "j": "PRONE.A",
+            "dx": 0,
+            "dy": -18
+          },
+          "to": {
+            "j": "CURL.A",
+            "dx": 0,
+            "dy": -18
+          },
+          "at": 0.6,
+          "dur": 1
+        },
+        {
+          "type": "label",
+          "pos": [
+            650,
+            1200
+          ],
+          "text": "TALÓN A LOS GLÚTEOS",
+          "anchor": "start",
+          "at": 1.5
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "APRETÁ",
+        "ARRIBA"
+      ],
+      "sub": "Un segundo",
+      "vo": "Paso dos. Arriba, apretá el isquio un segundo y sentí la banda bien tensa.",
+      "moves": [
+        {
+          "cut": "CURL",
           "at": 0
         },
         {
           "to": "TOP",
+          "at": 0.7,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            585,
+            1328
+          ],
+          "r": 52,
+          "at": 1.1
+        },
+        {
+          "type": "label",
+          "pos": [
+            660,
+            1220
+          ],
+          "text": "APRETÁ 1 SEG",
+          "anchor": "start",
+          "at": 1.3
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "CONTROLADO"
+      ],
+      "sub": "Sin que la banda te gane",
+      "vo": "Paso tres. Bajá controlado hasta estirar casi del todo, sin dejar que la banda te gane.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "PRONE",
+          "at": 0.6,
+          "dur": 2.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": {
+            "j": "TOP.A",
+            "dx": 0,
+            "dy": -18
+          },
+          "to": {
+            "j": "PRONE.A",
+            "dx": 0,
+            "dy": -18
+          },
           "at": 0.8,
+          "dur": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            660,
+            1360
+          ],
+          "text": "3 SEGUNDOS",
+          "anchor": "start",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO",
+      "head": [
+        "MUSLO",
+        "AL PISO"
+      ],
+      "sub": "El error más común",
+      "vo": "Así no: si levantás el muslo para ayudar, la cadera se despega y el isquio deja de hacer el trabajo. Muslo al piso.",
+      "moves": [
+        {
+          "cut": "PRONE",
+          "at": 0
+        },
+        {
+          "to": "THIGH_BAD",
+          "at": 0.6,
           "dur": 0.9
         }
       ],
@@ -148,205 +377,21 @@
         {
           "type": "ring",
           "pos": [
-            423.4,
-            1098.9
+            511,
+            1389
           ],
-          "r": 56,
-          "at": 2
+          "r": 50,
+          "at": 1
         },
         {
           "type": "label",
           "pos": [
-            358.6,
-            1106.1
+            110,
+            1160
           ],
-          "text": "CODOS PEGADOS",
-          "anchor": "end",
-          "at": 2.2
-        }
-      ]
-    },
-    {
-      "min": 5.4,
-      "numeral": "1",
-      "badge": "PASO 1 / 4",
-      "head": [
-        "EXTENDÉ",
-        "HACIA ABAJO"
-      ],
-      "sub": "Hasta estirar los brazos",
-      "vo": "Paso uno. Extendé los antebrazos hacia abajo hasta estirar por completo los codos.",
-      "moves": [
-        {
-          "cut": "TOP",
-          "at": 0
-        },
-        {
-          "to": "DOWN",
-          "at": 0.6,
-          "dur": 0.8
-        }
-      ],
-      "overlays": [
-        {
-          "type": "arrow",
-          "to": [
-            488.2,
-            1199.7
-          ],
-          "bend": [
-            70,
-            0
-          ],
-          "at": 0.6,
-          "dur": 0.8,
-          "from": [
-            595.1,
-            1082.9
-          ]
-        },
-        {
-          "type": "label",
-          "pos": [
-            531.4,
-            1113.3
-          ],
-          "text": "ESTIRÁ",
+          "text": "NO LEVANTES EL MUSLO",
           "anchor": "start",
-          "at": 1.4
-        }
-      ]
-    },
-    {
-      "min": 5.6,
-      "numeral": "2",
-      "badge": "PASO 2 / 4",
-      "head": [
-        "SOLO",
-        "EL ANTEBRAZO"
-      ],
-      "sub": "Los codos no se mueven",
-      "vo": "Paso dos. Solo se mueve el antebrazo: los codos quedan fijos al costado del torso todo el tiempo.",
-      "moves": [
-        {
-          "cut": "DOWN",
-          "at": 0
-        },
-        {
-          "to": "TOP",
-          "at": 0.4,
-          "dur": 0.7
-        },
-        {
-          "to": "ELBOW_BAD",
-          "at": 2,
-          "dur": 0.6
-        },
-        {
-          "to": "TOP",
-          "at": 3.4,
-          "dur": 0.6
-        }
-      ],
-      "overlays": [
-        {
-          "type": "label",
-          "pos": [
-            358.6,
-            1106.1
-          ],
-          "text": "CODOS FIJOS",
-          "anchor": "end",
-          "at": 0.9,
-          "out": 2
-        },
-        {
-          "type": "label",
-          "pos": [
-            358.6,
-            1106.1
-          ],
-          "text": "ASÍ NO",
-          "anchor": "end",
-          "at": 2.4,
-          "out": 3.4
-        }
-      ]
-    },
-    {
-      "min": 5.6,
-      "numeral": "3",
-      "badge": "PASO 3 / 4",
-      "head": [
-        "SIN",
-        "BALANCEO"
-      ],
-      "sub": "El cuerpo quieto",
-      "vo": "Paso tres. No balancees el cuerpo para generar impulso: el torso queda quieto y el tríceps hace el trabajo.",
-      "moves": [
-        {
-          "cut": "TOP",
-          "at": 0
-        },
-        {
-          "to": "SWING_BAD",
-          "at": 0.6,
-          "dur": 0.5
-        },
-        {
-          "to": "TOP",
-          "at": 1.8,
-          "dur": 0.6
-        },
-        {
-          "to": "DOWN",
-          "at": 2.8,
-          "dur": 0.8
-        }
-      ],
-      "overlays": [
-        {
-          "type": "label",
-          "pos": [
-            103.2,
-            788
-          ],
-          "text": "BALANCEO NO",
-          "anchor": "start",
-          "at": 0.9,
-          "out": 1.8
-        },
-        {
-          "type": "label",
-          "pos": [
-            103.2,
-            788
-          ],
-          "text": "CUERPO QUIETO",
-          "anchor": "start",
-          "at": 2.6
-        }
-      ]
-    },
-    {
-      "min": 5.2,
-      "numeral": "4",
-      "badge": "PASO 4 / 4",
-      "head": [
-        "VOLVÉ",
-        "CONTROLADO"
-      ],
-      "sub": "Sin que la banda te tire",
-      "vo": "Paso cuatro. Volvé controlado hasta que los antebrazos queden paralelos al piso, sin que la banda te tire.",
-      "moves": [
-        {
-          "cut": "DOWN",
-          "at": 0
-        },
-        {
-          "to": "TOP",
-          "at": 0.6,
-          "dur": 1.4
+          "at": 1.2
         }
       ]
     },
@@ -357,68 +402,57 @@
       "head": [
         "TÉCNICA"
       ],
-      "shrink": 0.75,
       "keys": [
-        "Codos pegados al cuerpo",
-        "Solo se mueve el antebrazo",
-        "Sin balanceo",
-        "Vuelta controlada"
+        "Muslo y cadera pegados al piso",
+        "Solo se mueve la rodilla",
+        "Banda tensa todo el recorrido",
+        "Bajada lenta y controlada"
       ],
-      "vo": "Claves: codos pegados al cuerpo, solo se mueve el antebrazo, sin balancear el cuerpo y la vuelta siempre controlada.",
+      "vo": "Claves: muslo y cadera pegados al piso, solo se mueve la rodilla, la banda queda tensa todo el recorrido y la bajada es lenta y controlada.",
       "moves": [
         {
           "cut": "TOP",
           "at": 0.1
-        },
-        {
-          "seq": [
-            [
-              "DOWN",
-              0.6
-            ],
-            [
-              "TOP",
-              0.8
-            ]
-          ],
-          "at": 0.6,
-          "until": "end"
         }
       ]
     },
     {
       "kind": "reps",
-      "min": 6.5,
+      "min": 6.8,
       "badge": "A ENTRENAR",
       "head": [
-        "21 REPS"
+        "3 X 10-12"
       ],
-      "sub": "Controladas",
-      "vo": "Veintiuna repeticiones controladas. Elegí una banda que te deje terminarlas con buena técnica.",
+      "sub": "Por pierna",
       "chips": [
         {
-          "label": "1 · ABAJO",
-          "at": 0.5
+          "label": "1 · SUBÍ",
+          "at": 0.6
         },
         {
-          "label": "2 · ARRIBA",
-          "at": 1.1
+          "label": "2 · APRETÁ",
+          "at": 2.1
+        },
+        {
+          "label": "3 · BAJÁ EN 3",
+          "at": 3.2
         }
       ],
+      "vo": "Tres series de diez a doce por pierna, con la banda tensa desde el arranque. Si te sobra, alejate un paso del ancla.",
       "moves": [
         {
-          "cut": "TOP",
+          "cut": "PRONE",
           "at": 0
         },
         {
           "seq": [
             [
-              "DOWN",
-              0.6
+              "CURL",
+              1.2
             ],
             [
-              "TOP",
-              0.8
+              "PRONE",
+              1.8
             ]
           ],
           "at": 0.5,
@@ -429,24 +463,25 @@
   ],
   "miniatura": {
     "pose": "TOP",
-    "grip": 0,
-    "zoom": 1.15,
-    "dy": 160
+    "grip": 1,
+    "zoom": 1,
+    "dy": 110
   },
   "youtube": {
-    "titulo": "Band Triceps Pushdown 💪 Tríceps con banda elástica | CrossFit",
+    "titulo": "Banded Prone Leg Curl 🔥 isquios con banda paso a paso | CrossFit",
     "tags": [
-      "band triceps pushdown",
-      "tríceps con banda",
-      "extensión de tríceps",
+      "banded prone leg curl",
+      "curl femoral con banda",
+      "isquiotibiales con banda",
+      "prone leg curl",
+      "curl femoral boca abajo",
       "banda elástica",
-      "triceps pushdown",
-      "tríceps",
-      "brazos",
-      "crossfit",
-      "wod",
-      "entrenamiento con bandas"
+      "isquios",
+      "femorales",
+      "activación de isquios",
+        "crossfit",
+        "fuerza"
     ],
-    "descripcion": "💪 BAND TRICEPS PUSHDOWN — Tríceps aislado con una banda elástica\n\n¿Querés más fuerza para los presses y las flexiones? El pushdown con banda aísla el tríceps y lo hacés en cualquier lado. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Anclá la banda en alto, tomala con las dos manos y pegá los codos al cuerpo, con el torso apenas inclinado.\n2️⃣ Extendé los antebrazos hacia abajo hasta estirar por completo los codos.\n3️⃣ Solo se mueve el antebrazo: los codos quedan fijos al costado del torso.\n4️⃣ No balancees el cuerpo para generar impulso.\n5️⃣ Volvé controlado hasta que los antebrazos queden paralelos al piso.\n\n✅ CLAVES DE TÉCNICA\n• Los codos fijos junto al torso todo el movimiento\n• Solo se mueve el antebrazo\n• Sin balancear el cuerpo para generar impulso\n• Vuelta lenta y controlada\n\n🎯 QUÉ TRABAJA\nTríceps braquial\n\n⏱️ CUÁNTO\n21 repeticiones. Va en WODs o como accesorio de brazos.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #WOD #Triceps #Bandas #Entrenamiento"
+    "descripcion": "🔥 BANDED PRONE LEG CURL — isquios fuertes sin camilla, solo con una banda\n\nSi querés proteger tus rodillas y ganar fuerza en el tren inferior, este ejercicio es para vos. Boca abajo, banda en el tobillo y el talón a los glúteos. 💪\n\n📋 PASO A PASO\n1️⃣ Acostate boca abajo con la banda enganchada al tobillo y anclada bien baja, detrás de los pies.\n2️⃣ Muslos y cadera pegados al piso, con el abdomen activo.\n3️⃣ Flexioná la rodilla y llevá el talón hacia los glúteos, contra la banda, sin despegar el muslo.\n4️⃣ Arriba, apretá el isquio un segundo y sentí la banda bien tensa.\n5️⃣ Bajá controlado hasta estirar casi del todo, sin dejar que la banda te gane.\n\n❌ ERROR COMÚN\n• Levantar el muslo para ayudar → la cadera se despega y el isquio deja de hacer el trabajo. Muslo al piso.\n\n💡 TIPS DEL PROFE\n• La banda tiene que estar tensa desde el arranque.\n• Solo se mueve la rodilla; la cadera y el tronco quedan quietos.\n• Subí en un segundo, apretá arriba y bajá en tres.\n• Si te sobra, alejate un paso del ancla para aumentar la tensión.\n\n🎯 QUÉ TRABAJA\nIsquiotibiales · Glúteos · Gemelos (estabilizan)\n\n⏱️ CUÁNTO\n3 series de 10 a 12 repeticiones por pierna. Ideal en la entrada en calor o como accesorio de piernas.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Fuerza #BandedProneLegCurl #Isquios #Entrenamiento"
   }
 }

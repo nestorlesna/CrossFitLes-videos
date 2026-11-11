@@ -1,6 +1,6 @@
 ---
 format: 1080x1920
-message: "Cómo ejecutar Doorway Chest Stretch paso a paso"
+message: "Cómo ejecutar Doorway Stretch paso a paso"
 audience: alumnos de CrossFit
 mode: autonomous
 music: plantilla/musica/bgm-base.wav

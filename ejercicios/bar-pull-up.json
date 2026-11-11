@@ -67,7 +67,7 @@
     "TOP": {
       "hip": [
         0,
-        -858
+        -920
       ],
       "b": -4,
       "t": 0,
@@ -220,7 +220,7 @@
       "badge": "PASO 2 / 3",
       "head": [
         "CODOS",
-        "ABAIJO Y ATRÁS"
+        "ABAJO Y ATRÁS"
       ],
       "sub": "Cuerpo firme",
       "vo": "Paso dos. Llevá los codos hacia abajo y atrás, con el cuerpo firme, sin balanceo.",
@@ -244,15 +244,15 @@
         {
           "type": "arrow",
           "from": [
-            760,
-            1120
+            520,
+            760
           ],
           "to": [
-            740,
-            1290
+            500,
+            940
           ],
           "bend": [
-            90,
+            60,
             0
           ],
           "at": 1.5,

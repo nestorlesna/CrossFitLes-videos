@@ -1,6 +1,6 @@
 ---
 format: 1080x1920
-message: "Cómo ejecutar Bodyweight Handstand Push-Up paso a paso"
+message: "Cómo ejecutar Handstand Push-Up paso a paso"
 audience: alumnos de CrossFit
 mode: autonomous
 music: plantilla/musica/bgm-base.wav
@@ -10,7 +10,7 @@ music: plantilla/musica/bgm-base.wav
 
 - status: animated
 - min: 4.8s
-- voiceover: "Bodyweight Handstand Push-Up: la flexión en pino. Deltoides y tríceps a full, con el cuerpo en línea."
+- voiceover: "Handstand Push-Up: la flexión en pino. Deltoides y tríceps a full, con el cuerpo en línea."
 - poses: —
 
 ## Frame 2 — POSICIÓN INICIAL MANOS EN EL PISO

@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Alternate Leg Press",
+      "text": "La prensa de palanca con una pierna por vez. Cuádriceps, isquiotibiales y glúteos."
+    },
+    {
+      "id": "02",
+      "text": "La prensa de palanca: respaldo, plataforma para el pie y discos. Una pierna trabaja por vez."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el respaldo para que la cadera y toda la espalda queden apoyadas. No dejes aire atrás."
+    },
+    {
+      "id": "04",
+      "text": "Sentate y ajustá el asiento: al empezar, la rodilla tiene que quedar cerca de los noventa grados."
+    },
+    {
+      "id": "05",
+      "text": "Apoyá un pie centrado en la plataforma y dejá la otra pierna en el piso. Agarrá las manijas."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá la plataforma con una pierna, extendiendo la rodilla sin apurarte."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Llegá casi a estirar la pierna y hacé una pausa breve, sin trabar la rodilla."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Flexioná la rodilla y volvé lento hasta la posición inicial, controlando el peso."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras empujás y tomalo cuando volvés. No aguantes el aire."
+    },
+    {
+      "id": "10",
+      "text": "Error: trabar o hiperextender la rodilla arriba. Llegá casi a estirar, sin bloquear la articulación."
+    },
+    {
+      "id": "11",
+      "text": "Error: despegar la cadera y la espalda del respaldo para empujar. Quedá bien apoyado."
+    },
+    {
+      "id": "12",
+      "text": "Tips de profe: una pierna por vez, espalda apoyada, sin trabar la rodilla y volvé lento."
+    },
+    {
+      "id": "13",
+      "text": "Claves: pie centrado, rodilla alineada con el pie, sin impulso y bajada controlada."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de diez a doce por pierna, con un minuto de pausa. Alterná las piernas en cada serie."
+    },
+    {
+      "id": "15",
+      "text": "Al terminar, volvé la plataforma despacio y cambiá de pierna. No dejes caer el peso."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

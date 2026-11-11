@@ -11,6 +11,7 @@ node_modules/
 #   node plantilla/make-exercise.mjs <slug> --render
 # Se versionan solo la descripción de YouTube y la miniatura.
 salida/*.mp4
+salida/repetidos/
 salida/subidos/**/*.mp4
 subidos/**/*.mp4
 
@@ -54,3 +55,7 @@ videos-largos/proyectos/*/public/
 # Proyecto del corto: la música (~1 MB c/u) se copia en cada corto; se regenera con make-exercise --corto
 videos/*/corto/assets/
 videos/*/corto/renders/
+.venv/
+
+# Ningún .mp4 se sube a GitHub, de ninguna carpeta
+**/*.mp4

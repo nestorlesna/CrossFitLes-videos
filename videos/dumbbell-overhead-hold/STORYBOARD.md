@@ -37,14 +37,14 @@ music: plantilla/musica/bgm-base.wav
 ## Frame 5 — PASO 3 / 3 ASÍ NO
 
 - status: animated
-- min: 6.4s
+- min: 6.9s
 - voiceover: "Paso tres. Con los codos flexionados las mancuernas se van adelante y el hombro trabaja de más; si arqueás la lumbar, sufre la espalda. Evitalo."
 - poses: ELBOW_BAD → LOCK → ARCH_BAD → LOCK
 
 ## Frame 6 — CLAVES TÉCNICA
 
 - status: animated
-- min: 8.2s
+- min: 9s
 - voiceover: "Claves: codos bloqueados, bíceps cerca de las orejas, costillas abajo y glúteos firmes para no arquear, y respirá sin perder la tensión."
 - poses: —
 

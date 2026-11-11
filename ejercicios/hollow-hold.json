@@ -237,8 +237,8 @@
         {
           "type": "ring",
           "pos": [
-            600,
-            1485
+            495,
+            1495
           ],
           "r": 50,
           "at": 0.9
@@ -302,7 +302,7 @@
           "type": "label",
           "pos": [
             220,
-            1240
+            1070
           ],
           "text": "SUBÍ LAS PIERNAS",
           "anchor": "start",
@@ -380,7 +380,7 @@
     "pose": "BANANA",
     "grip": 0,
     "zoom": 1.0,
-    "dy": 200
+    "dy": 80
   },
   "youtube": {
     "titulo": "Hollow Hold 🔥 El isométrico que blinda tu core paso a paso | CrossFit",

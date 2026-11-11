@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Seated Squat Calf Raise on Leg Press Machine",
+      "text": "Elevación de talones en la prensa. Trabaja los gemelos."
+    },
+    {
+      "id": "02",
+      "text": "La prensa de piernas con las puntas de los pies en la plataforma. Las rodillas quedan casi estiradas."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el asiento para que las rodillas queden casi estiradas con los pies en la plataforma."
+    },
+    {
+      "id": "04",
+      "text": "Apoyá las puntas y la planta en la plataforma, con los talones al borde y los pies al ancho de los hombros."
+    },
+    {
+      "id": "05",
+      "text": "Con las rodillas casi estiradas, dejá los talones libres en el borde de la plataforma."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá la plataforma subiendo los talones, sin cambiar el ángulo de las rodillas."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Hacé una pausa arriba, con los talones bien altos y el gemelo contraído."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá los talones despacio hasta sentirlos estirar, sin dejar caer la plataforma."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire al subir y tomalo al bajar. Respirá parejo, sin rebotar."
+    },
+    {
+      "id": "10",
+      "text": "Error: doblar las rodillas para empujar. Las rodillas quedan casi estiradas y el trabajo es del gemelo."
+    },
+    {
+      "id": "11",
+      "text": "Error: despegar la cadera y la espalda del respaldo. Quedá bien apoyado."
+    },
+    {
+      "id": "12",
+      "text": "Tips de profe: talones libres, rodillas fijas, pausa arriba y bajá lento."
+    },
+    {
+      "id": "13",
+      "text": "Claves: puntas al borde, rodillas casi estiradas, sin rebote y rango completo."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de doce a quince, con cuarenta y cinco segundos de pausa. Subí cuando salgan fáciles."
+    },
+    {
+      "id": "15",
+      "text": "Al terminar, volvé la plataforma despacio y soltá las trabas. No dejes caer el peso."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

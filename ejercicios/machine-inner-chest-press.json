@@ -1,0 +1,762 @@
+{
+  "slug": "machine-inner-chest-press",
+  "name": "Machine Inner Chest Press",
+  "maquina": true,
+  "category": "GIMNASIO · PECHO",
+  "tags": [
+    "Pectorales",
+    "Tríceps"
+  ],
+  "descripcion": "Sentate con la espalda apoyada y los codos cerca del cuerpo. Empujá las manijas hacia adelante juntando el pecho y volvé lento, sin trabar los codos.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 740,
+    "y": 1509.6,
+    "scale": 0.66
+  },
+  "shadow": false,
+  "initialPose": "START",
+  "props": [
+    {
+      "type": "chestpress",
+      "pivot": [
+        -30,
+        -1010
+      ],
+      "frameTop": -1070,
+      "stack": -640,
+      "seat": [
+        -390,
+        -90,
+        -184
+      ],
+      "back": [
+        -318,
+        -4,
+        470
+      ],
+      "pin": 5
+    }
+  ],
+  "poses": {
+    "START": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -4,
+      "hd": 2,
+      "ua": -2,
+      "fa": 118
+    },
+    "MID": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -4,
+      "hd": 2,
+      "ua": 40,
+      "fa": 70
+    },
+    "OUT": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -4,
+      "hd": 2,
+      "ua": 80,
+      "fa": 10
+    },
+    "ELBOW_BAD": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -4,
+      "hd": 2,
+      "ua": 30,
+      "fa": 150
+    },
+    "LOCK_BAD": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -4,
+      "hd": 2,
+      "ua": 88,
+      "fa": -12
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PECHO",
+      "head": [
+        "INNER",
+        "PRESS"
+      ],
+      "sub": "Pecho interno en máquina",
+      "vo": "Machine Inner Chest Press: el press de pecho interno en máquina, con los codos cerca del cuerpo.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "OUT",
+              1.0
+            ],
+            [
+              "START",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Manijas al centro del pecho",
+      "vo": "Las manijas salen al centro del pecho y los codos van cerca del cuerpo. Trabaja el pecho interno y los tríceps.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            524,
+            1428
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1100
+          ],
+          "text": "RESPALDO",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            660,
+            1241
+          ],
+          "r": 36,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1120
+          ],
+          "text": "MANIJAS AL CENTRO",
+          "anchor": "end",
+          "at": 1.6
+        },
+        {
+          "type": "ring",
+          "pos": [
+            351,
+            1407
+          ],
+          "r": 30,
+          "at": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1290
+          ],
+          "text": "PASADOR",
+          "anchor": "start",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "EL",
+        "ASIENTO"
+      ],
+      "sub": "Manijas a la altura del pecho",
+      "vo": "Ajustá el asiento para que las manijas queden a la altura del pecho, con los codos cómodos.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            524,
+            1428
+          ],
+          "r": 40,
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            660,
+            1241
+          ],
+          "r": 36,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1120
+          ],
+          "text": "ALTURA DEL PECHO",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "PESO"
+      ],
+      "sub": "Con el pasador",
+      "vo": "Elegí el peso con el pasador: uno que puedas empujar diez veces pegando bien los codos.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            351,
+            1407
+          ],
+          "r": 30,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1290
+          ],
+          "text": "PASADOR",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "CODOS",
+        "CERCA"
+      ],
+      "sub": "Espalda pegada",
+      "vo": "Sentate con la espalda pegada al respaldo y los codos cerca del cuerpo. Agarrá las manijas al centro del pecho.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1180
+          ],
+          "text": "CODOS CERCA",
+          "anchor": "start",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            660,
+            1241
+          ],
+          "r": 36,
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "EMPUJÁ",
+        "JUNTANDO"
+      ],
+      "sub": "Manijas al centro",
+      "vo": "Paso uno. Empujá las manijas hacia adelante juntándolas al centro, con los codos cerca del cuerpo.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 1.0
+        },
+        {
+          "to": "OUT",
+          "at": 1.6,
+          "dur": 1.0
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            700,
+            1217
+          ],
+          "to": [
+            786,
+            1169
+          ],
+          "at": 0.8,
+          "dur": 1.1
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1240
+          ],
+          "text": "AL CENTRO",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "SIN",
+        "TRABAR"
+      ],
+      "sub": "Codos casi estirados",
+      "vo": "Paso dos. Llegá hasta casi estirar los codos, sin trabarlos de golpe.",
+      "moves": [
+        {
+          "cut": "OUT",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            681,
+            1193
+          ],
+          "r": 36,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1130
+          ],
+          "text": "CODOS SIN TRABAR",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "VOLVÉ",
+        "LENTO"
+      ],
+      "sub": "Hasta sentir el pecho",
+      "vo": "Paso tres. Volvé lento hasta sentir que estira el pecho, sin dejar que las placas se apoyen.",
+      "moves": [
+        {
+          "cut": "OUT",
+          "at": 0
+        },
+        {
+          "to": "START",
+          "at": 0.6,
+          "dur": 2.2
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            351,
+            1407
+          ],
+          "r": 34,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1290
+          ],
+          "text": "SIN APOYAR",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al empujar",
+      "vo": "Soltá el aire mientras empujás y tomalo mientras volvés. No aguantes el aire.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "OUT",
+              1.0
+            ],
+            [
+              "START",
+              2.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 2",
+      "head": [
+        "CODOS",
+        "MUY ABIERTOS"
+      ],
+      "sub": "Manijas a la cara",
+      "vo": "Error: abrir mucho los codos, con las manijas a la cara. Los codos van cerca del cuerpo.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "ELBOW_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            625,
+            1166
+          ],
+          "r": 44,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 2",
+      "head": [
+        "TRABAR",
+        "LOS CODOS"
+      ],
+      "sub": "Casi estirado, nunca trabado",
+      "vo": "Error: trabar los codos de golpe al final. Llegá casi estirado y empezá a volver.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "LOCK_BAD",
+          "at": 0.5,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            682,
+            1177
+          ],
+          "r": 36,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Manijas al centro",
+        "Codos cerca",
+        "Espalda pegada",
+        "Volvé sin apoyar"
+      ],
+      "vo": "Tips de profe: manijas al centro del pecho, codos cerca, espalda pegada y volvé sin apoyar las placas.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "OUT",
+              1.0
+            ],
+            [
+              "START",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Espalda pegada",
+        "Codos cerca",
+        "Sin trabar los codos",
+        "Volvé lento"
+      ],
+      "vo": "Claves: espalda pegada, codos cerca, sin trabar los codos y volvé lento.",
+      "moves": [
+        {
+          "cut": "OUT",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10-12"
+      ],
+      "sub": "Un minuto y medio de pausa",
+      "vo": "Tres series de diez a doce, con un minuto y medio de pausa. Cuando las doce salgan fáciles, subí una placa.",
+      "chips": [
+        {
+          "label": "1 · EMPUJÁ AL CENTRO",
+          "at": 0.6
+        },
+        {
+          "label": "2 · SIN TRABAR",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ LENTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "OUT",
+              1.0
+            ],
+            [
+              "START",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "DEJÁ EL",
+        "PESO"
+      ],
+      "sub": "Sin soltar de golpe",
+      "vo": "Al terminar, volvé despacio, soltá las manijas y dejá el peso apoyado. No lo sueltes de golpe.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 1.0,
+          "dur": 1.0
+        },
+        {
+          "to": "START",
+          "at": 2.2,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1290
+          ],
+          "text": "PESO APOYADO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "OUT",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 110
+  },
+  "youtube": {
+    "titulo": "Machine Inner Chest Press 🔥 Press de pecho interno | Gimnasio",
+    "tags": [
+      "machine inner chest press",
+      "press de pecho interno",
+      "pecho interno",
+      "pectorales",
+      "tríceps",
+      "máquina de palanca",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de pecho"
+    ],
+    "descripcion": "🔥 MACHINE INNER CHEST PRESS (press de pecho interno en máquina) — pecho interno y tríceps con los codos cerca\n\n¿Querés apuntar al centro del pecho? Este press con los codos cerca del cuerpo es para vos. Mirá cómo se usa. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el asiento para que las manijas queden a la altura del pecho.\n2️⃣ Elegí un peso que puedas empujar 10 veces con los codos cerca.\n\n📋 PASO A PASO\n1️⃣ Sentate con la espalda pegada y los codos cerca del cuerpo.\n2️⃣ Empujá las manijas hacia adelante juntándolas al centro.\n3️⃣ Llegá hasta casi estirar, sin trabar los codos.\n4️⃣ Volvé lento hasta sentir que estira el pecho, sin apoyar las placas.\n\n❌ ERRORES COMUNES\n• Codos muy abiertos, manijas a la cara → codos cerca del cuerpo.\n• Trabar los codos → casi estirado, nunca trabado.\n• Despegar la espalda → espalda pegada y pecho alto.\n\n💡 TIPS DEL PROFE\n• Manijas al centro del pecho.\n• Codos cerca del cuerpo, no abiertos.\n• Espalda pegada al respaldo.\n• Empujá sin trabar codos.\n• Volvé hasta sentir estirar el pecho.\n\n🎯 QUÉ TRABAJA\nPectorales internos · Tríceps · Hombros anteriores\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto y medio de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #MachineInnerChestPress #Pecho #Pectorales #Musculacion #Entrenamiento"
+  }
+}

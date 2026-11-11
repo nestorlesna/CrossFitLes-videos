@@ -1,0 +1,732 @@
+{
+  "slug": "lever-gripper-hands",
+  "name": "Lever Gripper Hands",
+  "maquina": true,
+  "category": "GIMNASIO · ANTEBRAZOS",
+  "tags": [
+    "Antebrazos",
+    "Agarre"
+  ],
+  "descripcion": "Sentate derecho con los pies planos y las manos en el mango de la máquina de agarre. Apretá el mango contrayendo los antebrazos, sostené un segundo y soltá lento sin abrir del todo la mano.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 700,
+    "y": 1509.6,
+    "scale": 0.66
+  },
+  "shadow": false,
+  "initialPose": "OPEN",
+  "props": [
+    {
+      "type": "gripper",
+      "hub": [
+        -55,
+        -410
+      ],
+      "stack": -640,
+      "frameTop": -1030,
+      "seat": [
+        -380,
+        -110,
+        -196
+      ],
+      "pin": 5
+    }
+  ],
+  "poses": {
+    "OPEN": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 1,
+      "b": 2,
+      "hd": 0,
+      "ed": -1,
+      "hx": -55,
+      "hy": -410,
+      "wr": -18
+    },
+    "GRIP": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 1,
+      "b": 2,
+      "hd": 0,
+      "ed": -1,
+      "hx": -55,
+      "hy": -410,
+      "wr": 26
+    },
+    "BACK_BAD": {
+      "hip": [
+        -230,
+        -238
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 1,
+      "b": 16,
+      "hd": 14,
+      "ed": -1,
+      "hx": -55,
+      "hy": -410,
+      "wr": 20,
+      "cv": 22
+    },
+    "DROP_BAD": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 1,
+      "b": 2,
+      "hd": 0,
+      "ed": -1,
+      "hx": -66,
+      "hy": -398,
+      "wr": -34
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · ANTEBRAZOS",
+      "head": [
+        "GRIPPER",
+        "HANDS"
+      ],
+      "sub": "Máquina de agarre",
+      "vo": "Lever Gripper Hands: máquina de agarre. Apretás el mango y trabajás antebrazos y mano.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "GRIP",
+              0.7
+            ],
+            [
+              "OPEN",
+              1.3
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Mango, asiento y pila",
+      "vo": "Tiene un mango fijo, un asiento y la pila con el pasador. El mango no se mueve: lo que hacés es fuerza.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            664,
+            1239
+          ],
+          "r": 36,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1230
+          ],
+          "text": "MANGO",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            538,
+            1380
+          ],
+          "r": 44,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1380
+          ],
+          "text": "ASIENTO",
+          "anchor": "end",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            311,
+            1407
+          ],
+          "r": 28,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1400
+          ],
+          "text": "PESO",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1",
+      "head": [
+        "EL",
+        "ASIENTO"
+      ],
+      "sub": "Manos a la altura del mango",
+      "vo": "Ajustá el asiento para que el mango quede a la altura del pecho y los codos flexionados.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            538,
+            1380
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1380
+          ],
+          "text": "ASIENTO",
+          "anchor": "end",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            664,
+            1239
+          ],
+          "r": 36,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1230
+          ],
+          "text": "MANGO",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "PESO"
+      ],
+      "sub": "Empezá liviano",
+      "vo": "Elegí el peso con el pasador: uno que te deje cerrar las doce veces sin perder la postura.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            311,
+            1407
+          ],
+          "r": 28,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1400
+          ],
+          "text": "PESO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.8,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESPALDA",
+        "RECTA"
+      ],
+      "sub": "Pies planos en el suelo",
+      "vo": "Sentate derecho, con la espalda recta y los pies planos. Agarrá el mango con la mano completa.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1000
+          ],
+          "text": "ESPALDA RECTA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.8,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "APRETÁ",
+        "EL MANGO"
+      ],
+      "sub": "Toda la mano",
+      "vo": "Paso uno. Apretá el mango con toda la mano, contrayendo el antebrazo. No muevas el brazo.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "to": "GRIP",
+          "at": 0.6,
+          "dur": 0.8
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            664,
+            1239
+          ],
+          "r": 36,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1180
+          ],
+          "text": "APRETÁ",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "SOSTENÉ",
+        "UN SEGUNDO"
+      ],
+      "sub": "Sin soltar",
+      "vo": "Paso dos. Sostené la contracción un segundo, con la muñeca firme y el codo quieto.",
+      "moves": [
+        {
+          "cut": "GRIP",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            664,
+            1239
+          ],
+          "r": 36,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1180
+          ],
+          "text": "1 SEGUNDO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "SOLTÁ",
+        "LENTO"
+      ],
+      "sub": "Sin abrir del todo",
+      "vo": "Paso tres. Soltá lento hasta abrir la mano casi del todo y volvé a apretar.",
+      "moves": [
+        {
+          "cut": "GRIP",
+          "at": 0
+        },
+        {
+          "to": "OPEN",
+          "at": 0.8,
+          "dur": 1.6
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            664,
+            1239
+          ],
+          "r": 36,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1180
+          ],
+          "text": "SOLTÁ LENTO",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al apretar",
+      "vo": "Soltá el aire mientras apretás y tomalo mientras soltás.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "GRIP",
+              0.7
+            ],
+            [
+              "OPEN",
+              1.3
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 2",
+      "head": [
+        "REDONDEAR",
+        "LA ESPALDA"
+      ],
+      "sub": "Espalda recta",
+      "vo": "Error: encorvarte para hacer fuerza. La espalda va recta y el trabajo lo hacen el antebrazo y la mano.",
+      "moves": [
+        {
+          "cut": "GRIP",
+          "at": 0
+        },
+        {
+          "to": "BACK_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            599,
+            1175
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 2",
+      "head": [
+        "SOLTAR",
+        "DE GOLPE"
+      ],
+      "sub": "Abrí la mano sin tirar",
+      "vo": "Error: soltar el mango de golpe y abrir la mano del todo. Soltá lento y controlá el peso.",
+      "moves": [
+        {
+          "cut": "GRIP",
+          "at": 0
+        },
+        {
+          "to": "DROP_BAD",
+          "at": 0.6,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            664,
+            1239
+          ],
+          "r": 36,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Mango a la altura del pecho",
+        "Apretá toda la mano",
+        "Codo quieto",
+        "Soltá lento"
+      ],
+      "vo": "Tips: mango a la altura del pecho, apretá con toda la mano, codo quieto y soltá lento.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "GRIP",
+              0.7
+            ],
+            [
+              "OPEN",
+              1.3
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Espalda recta",
+        "Pies planos",
+        "1 segundo arriba",
+        "Sin soltar de golpe"
+      ],
+      "vo": "Claves: espalda recta, pies planos, un segundo de contracción y sin soltar de golpe.",
+      "moves": [
+        {
+          "cut": "GRIP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12 POR MANO"
+      ],
+      "sub": "Un minuto de pausa",
+      "vo": "Tres series de diez a doce por mano, con un minuto de pausa. Empezá con poco peso.",
+      "chips": [
+        {
+          "label": "1 · APRETÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · SOSTENÉ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SOLTÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "GRIP",
+              0.7
+            ],
+            [
+              "OPEN",
+              1.3
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "ABRÍ LA",
+        "MANO"
+      ],
+      "sub": "Sin tirar el peso",
+      "vo": "Al terminar, abrí la mano despacio y sacá el brazo. Si te tironea el codo, bajá el peso.",
+      "moves": [
+        {
+          "cut": "DROP_BAD",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1180
+          ],
+          "text": "DESPACIO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "GRIP",
+    "zoom": 1.08,
+    "dy": 110
+  },
+  "youtube": {
+    "titulo": "Lever Gripper Hands 🔥 Máquina de agarre para antebrazos | Gimnasio",
+    "tags": [
+      "lever gripper hands",
+      "máquina de agarre",
+      "grip machine",
+      "antebrazos",
+      "agarre",
+      "fuerza de mano",
+      "máquina de palanca",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de antebrazos"
+    ],
+    "descripcion": "🔥 LEVER GRIPPER HANDS (máquina de agarre) — antebrazos y fuerza de agarre\n\n¿Soltás el mango de golpe? Así se pierde la mitad del trabajo y se castiga el codo. Mirá cómo se hace. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el asiento para que el mango quede a la altura del pecho.\n2️⃣ Elegí un peso que puedas cerrar doce veces sin perder la postura.\n\n📋 PASO A PASO\n1️⃣ Sentate derecho, espalda recta y pies planos en el suelo.\n2️⃣ Agarrá el mango con toda la mano y el codo flexionado.\n3️⃣ Apretá el mango contrayendo el antebrazo y sostené un segundo.\n4️⃣ Soltá lento hasta abrir la mano casi del todo y repetí.\n\n❌ ERRORES COMUNES\n• Encorvar la espalda → espalda recta y menos peso.\n• Soltar el mango de golpe → soltá lento y controlá el peso.\n• Mover el brazo para ayudar → el codo queda quieto.\n\n💡 TIPS DEL PROFE\n• Mango a la altura del pecho.\n• Apretá con toda la mano, no solo con los dedos.\n• Un segundo de contracción arriba.\n• Soltá lento para no castigar el codo.\n\n🎯 QUÉ TRABAJA\nAntebrazos · Mano · Agarre\n\n⏱️ CUÁNTO\n3 series de 10–12 por mano, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Antebrazos #Agarre #FuerzaDeMano #MaquinaDePalanca #Grip #Entrenamiento"
+  }
+}

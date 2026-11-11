@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Hip Extension v. 2",
+      "text": "Lever Hip Extension: extensión de cadera en máquina. Empujás el muslo atrás y trabajás glúteos e isquios."
+    },
+    {
+      "id": "02",
+      "text": "La máquina tiene una almohadilla detrás del muslo, un asiento con respaldo y la pila de peso."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el asiento para que la cadera quede a la altura del eje de la palanca."
+    },
+    {
+      "id": "04",
+      "text": "La almohadilla va detrás del muslo, justo arriba de la rodilla. Que no te empuje el hueso."
+    },
+    {
+      "id": "05",
+      "text": "Sentate con la espalda apoyada y las manos en las manijas. Los pies quedan libres, sin empujar."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá con el glúteo y el isquio: el muslo baja y atrás, la espalda no se mueve."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Llegá arriba sin arquear la espalda y apretá el glúteo un segundo."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Volvé bajando controlado, sin dejar que la pila pegue abajo."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire al bajar y soltalo al empujar. El abdomen queda firme todo el tiempo."
+    },
+    {
+      "id": "10",
+      "text": "Error: despegar la espalda del respaldo para empujar con la zona lumbar."
+    },
+    {
+      "id": "11",
+      "text": "Error: levantar la cadera del asiento y buscar impulso con el tronco."
+    },
+    {
+      "id": "12",
+      "text": "Error: rebotar abajo y soltar el peso de golpe. Frená el retorno."
+    },
+    {
+      "id": "13",
+      "text": "Tips: cadera a la altura del eje, espalda en el respaldo, empujá con el glúteo y bajá lento."
+    },
+    {
+      "id": "14",
+      "text": "Claves: almohadilla arriba de la rodilla, solo la cadera se mueve, un segundo arriba y sin impulso."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce, con un minuto de pausa. Si las doce salen fáciles, subí peso."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, dejá que la pila baje sola y soltá la almohadilla despacio. No rebotes."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

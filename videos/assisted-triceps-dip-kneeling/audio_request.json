@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Assisted Triceps Dip (Kneeling)",
+      "text": "Assisted Triceps Dip: fondos de tríceps asistidos de rodillas. El contrapeso te ayuda a completar el recorrido."
+    },
+    {
+      "id": "02",
+      "text": "La máquina asistida te ayuda con un contrapeso: cuanto más peso elegís, más ayuda y menos esfuerzo."
+    },
+    {
+      "id": "03",
+      "text": "Apoyá las rodillas sobre la plataforma, con los brazos estirados y las manos en las paralelas."
+    },
+    {
+      "id": "04",
+      "text": "El pasador elige el contrapeso: más placas es más ayuda. Probá con uno que te deje hacer diez repeticiones."
+    },
+    {
+      "id": "05",
+      "text": "Tronco casi derecho y los brazos pegados al cuerpo. Así el trabajo se va al tríceps."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Bajá doblando los codos con los brazos pegados al cuerpo."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Abajo, pausa un segundo sin rebotar y sin encoger los hombros."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Empujá hasta estirar casi del todo, sin trabar los codos."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras empujás y tomalo mientras bajás."
+    },
+    {
+      "id": "10",
+      "text": "Error: tirar el tronco adelante. Se convierte en fondo de pecho y el tríceps deja de trabajar."
+    },
+    {
+      "id": "11",
+      "text": "Error: encoger los hombros hacia las orejas. Mantenelos abajo y lejos del cuello."
+    },
+    {
+      "id": "12",
+      "text": "Tips: rodillas en la plataforma, tronco casi derecho, codos pegados y sin trabar los codos."
+    },
+    {
+      "id": "13",
+      "text": "Claves: bajá en dos segundos, codos pegados al cuerpo, pausa abajo y subí sin trabar."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de doce, con un minuto de pausa. Trabajá el tríceps hasta que queme."
+    },
+    {
+      "id": "15",
+      "text": "Al terminar, estirá los brazos, sacá las rodillas con cuidado y dejá el contrapeso apoyado."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

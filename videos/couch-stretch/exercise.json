@@ -14,8 +14,8 @@
   "musicVolume": 0.18,
   "rig": {
     "x": 520,
-    "y": 1660,
-    "scale": 1.25
+    "y": 1500,
+    "scale": 1
   },
   "props": [
     {
@@ -136,18 +136,6 @@
           "cut": "KNEEL",
           "at": 0
         }
-      ],
-      "overlays": [
-        {
-          "type": "label",
-          "pos": [
-            356,
-            1120
-          ],
-          "text": "PIE ADELANTE",
-          "anchor": "end",
-          "at": 1.4
-        }
       ]
     },
     {
@@ -171,8 +159,8 @@
         {
           "type": "ring",
           "pos": [
-            444,
-            1680
+            450,
+            1510
           ],
           "r": 54,
           "at": 1.2

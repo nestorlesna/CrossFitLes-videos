@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever One Arm Lateral Wide Pulldown",
+      "text": "El jalón a una mano con el pecho apoyado, para trabajar el dorsal."
+    },
+    {
+      "id": "02",
+      "text": "El pecho va apoyado en la almohadilla y el asa baja cruzando el cuerpo. Trabaja el dorsal de un lado."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el asiento para que el pecho quede apoyado en la almohadilla y los pies planos en el suelo."
+    },
+    {
+      "id": "04",
+      "text": "Elegí el peso con el pasador: uno que puedas bajar diez veces con un solo brazo."
+    },
+    {
+      "id": "05",
+      "text": "Apoyá el pecho y sujetá el asa con un brazo. Extendé el brazo por completo, con una leve flexión en el codo."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Tirá del asa hacia abajo y cruzando el cuerpo, en dirección a la cadera opuesta."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Apretá el dorsal en la parte baja del movimiento y hacé una pausa breve."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Devolvé el asa despacio y extendé el brazo por completo, sin apoyar las placas. Después cambiá de lado."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras tirás y tomalo mientras volvés. No aguantes el aire."
+    },
+    {
+      "id": "10",
+      "text": "Error: separar el pecho de la almohadilla para tirar. El pecho queda apoyado todo el movimiento."
+    },
+    {
+      "id": "11",
+      "text": "Error: encoger el hombro hacia la oreja. Mantené el hombro abajo y tirá con el dorsal."
+    },
+    {
+      "id": "12",
+      "text": "Tips de profe: pecho apoyado, brazo largo, hombro abajo y soltá sin apoyar las placas."
+    },
+    {
+      "id": "13",
+      "text": "Claves: pecho apoyado, tirá cruzando el cuerpo, hombro abajo y volvé lento."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de diez a doce por lado, con un minuto y medio de pausa. Cuando salgan fáciles, subí una placa."
+    },
+    {
+      "id": "15",
+      "text": "Al terminar, devolvé el asa despacio y dejá el peso apoyado. Cambiá de lado y repetí."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Machine Inner Chest Press",
+      "text": "El press de pecho interno en máquina, con los codos cerca del cuerpo."
+    },
+    {
+      "id": "02",
+      "text": "Las manijas salen al centro del pecho y los codos van cerca del cuerpo. Trabaja el pecho interno y los tríceps."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el asiento para que las manijas queden a la altura del pecho, con los codos cómodos."
+    },
+    {
+      "id": "04",
+      "text": "Elegí el peso con el pasador: uno que puedas empujar diez veces pegando bien los codos."
+    },
+    {
+      "id": "05",
+      "text": "Sentate con la espalda pegada al respaldo y los codos cerca del cuerpo. Agarrá las manijas al centro del pecho."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá las manijas hacia adelante juntándolas al centro, con los codos cerca del cuerpo."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Llegá hasta casi estirar los codos, sin trabarlos de golpe."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Volvé lento hasta sentir que estira el pecho, sin dejar que las placas se apoyen."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras empujás y tomalo mientras volvés. No aguantes el aire."
+    },
+    {
+      "id": "10",
+      "text": "Error: abrir mucho los codos, con las manijas a la cara. Los codos van cerca del cuerpo."
+    },
+    {
+      "id": "11",
+      "text": "Error: trabar los codos de golpe al final. Llegá casi estirado y empezá a volver."
+    },
+    {
+      "id": "12",
+      "text": "Tips de profe: manijas al centro del pecho, codos cerca, espalda pegada y volvé sin apoyar las placas."
+    },
+    {
+      "id": "13",
+      "text": "Claves: espalda pegada, codos cerca, sin trabar los codos y volvé lento."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de diez a doce, con un minuto y medio de pausa. Cuando las doce salgan fáciles, subí una placa."
+    },
+    {
+      "id": "15",
+      "text": "Al terminar, volvé despacio, soltá las manijas y dejá el peso apoyado. No lo sueltes de golpe."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

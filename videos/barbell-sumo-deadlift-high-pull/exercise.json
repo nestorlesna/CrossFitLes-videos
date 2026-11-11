@@ -9,7 +9,7 @@
   ],
   "descripcion": "Peso muerto sumo seguido de tirón alto hasta la barbilla. Potencia explosiva de cadena posterior.",
   "revisado": false,
-  "notas": "Stance ancho con tarjeta stance; barra por grip IK (hx/hy) en despegue/extensión y brazos explícitos (ua 100 / fa -200) en el tirón alto.",
+  "notas": "Stance ancho con tarjeta stance; barra por grip IK (hx/hy) en despegue/extensión y brazos explícitos (ua 100 / fa -200) en el tirón alto. SETUP con cadera más baja y torso más horizontal para que la barra toque el piso.",
   "music": true,
   "musicVolume": 0.18,
   "props": [
@@ -28,17 +28,17 @@
       "g": 1,
       "ed": 1,
       "hx": 26,
-      "hy": -46,
+      "hy": -40,
       "hip": [
-        -130,
-        -272
+        -125,
+        -205
       ],
       "ankle": [
         0,
         0
       ],
-      "b": 46,
-      "hd": 36
+      "b": 60,
+      "hd": 34
     },
     "KNEE": {
       "g": 1,
@@ -336,7 +336,7 @@
           ],
           "text": "BRAZOS DE MÁS",
           "anchor": "end",
-          "at": 1.2,
+          "at": 1.0,
           "out": 2.5
         }
       ]
@@ -347,7 +347,7 @@
       "badge": "PASO 4 / 4",
       "head": [
         "BAJÁ",
-        "CONTROlando"
+        "CONTROLANDO"
       ],
       "sub": "Primero los brazos",
       "vo": "Paso cuatro. Bajá controlando: primero los brazos hasta la cadera y después la cadera hasta el piso.",
@@ -389,7 +389,7 @@
           ],
           "text": "BRAZOS PRIMERO",
           "anchor": "end",
-          "at": 1.2,
+          "at": 1.0,
           "out": 2.4
         },
         {

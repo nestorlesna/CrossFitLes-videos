@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Donkey Calf Raise",
+      "text": "Gemelos inclinado en máquina de palanca. Punta de los pies en el escalón y subí los talones."
+    },
+    {
+      "id": "02",
+      "text": "La máquina tiene una almohadilla para la cadera, un escalón para la punta de los pies y la pila con el pasador."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá la almohadilla para que apoye en la cadera cuando te inclinás. Si queda alta, no trabaja."
+    },
+    {
+      "id": "04",
+      "text": "Elegí el peso con el pasador: uno que te deje subir quince veces sin rebotar."
+    },
+    {
+      "id": "05",
+      "text": "Inclinate con la espalda apoyada en la almohadilla, las rodillas casi rectas y los talones en el aire."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Bajá el talón despacio por debajo del escalón hasta estirar bien la pantorrilla."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Abajo, pausá uno o dos segundos. Nada de rebotar como un resorte."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Subí lo más alto posible sobre el dedo gordo y apretá arriba un segundo."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras subís y tomalo mientras bajás. Ritmo lento."
+    },
+    {
+      "id": "10",
+      "text": "Error: flexionar las rodillas para ayudarte a subir. Rodillas casi rectas y quietas: solo se mueve el tobillo."
+    },
+    {
+      "id": "11",
+      "text": "Error: redondear la espalda y esconder el pecho. Abrí el pecho y mantené la espalda firme bajo la almohadilla."
+    },
+    {
+      "id": "12",
+      "text": "Error: hacer medio recorrido. Bajá el talón hasta estirar y subí hasta lo más alto."
+    },
+    {
+      "id": "13",
+      "text": "Tips: rodillas casi rectas, pausa abajo estirando, subí sobre el dedo gordo y espalda firme con el pecho abierto."
+    },
+    {
+      "id": "14",
+      "text": "Claves: punta en el borde, pies paralelos, rango completo y apretá arriba."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de doce a quince, con un minuto de pausa. Cuando las quince salen fáciles, subí el peso."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, bajá el peso despacio y recién después salí de la máquina."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

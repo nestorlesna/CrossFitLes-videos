@@ -1,0 +1,855 @@
+{
+  "slug": "lever-hip-extension-v-2",
+  "name": "Lever Hip Extension v. 2",
+  "maquina": true,
+  "category": "GIMNASIO · GLÚTEOS",
+  "tags": [
+    "Glúteos",
+    "Isquiotibiales"
+  ],
+  "descripcion": "Sentate con la espalda apoyada en el respaldo y las manos en las manijas. La almohadilla va detrás del muslo: empujá con los glúteos y los isquios para llevar el muslo atrás, sostené arriba y volvé lento.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 880,
+    "y": 1503.4,
+    "scale": 0.84
+  },
+  "shadow": false,
+  "initialPose": "START",
+  "props": [
+    {
+      "type": "lever",
+      "pivot": [
+        -300,
+        -520
+      ],
+      "seat": [
+        -380,
+        -150,
+        -520
+      ],
+      "back": [
+        -352,
+        -6,
+        440
+      ],
+      "stack": -620,
+      "frameTop": -980,
+      "handle": [
+        -190,
+        -610
+      ],
+      "at": 0.72,
+      "off": 58,
+      "side": -1,
+      "pin": 5
+    }
+  ],
+  "poses": {
+    "START": {
+      "hip": [
+        -300,
+        -520
+      ],
+      "b": -6,
+      "hd": 6,
+      "g": 1,
+      "hx": -190,
+      "hy": -610,
+      "ed": 1,
+      "ft": -20,
+      "ankle": [
+        -60,
+        -290
+      ]
+    },
+    "MID": {
+      "hip": [
+        -300,
+        -520
+      ],
+      "b": -6,
+      "hd": 6,
+      "g": 1,
+      "hx": -190,
+      "hy": -610,
+      "ed": 1,
+      "ft": -20,
+      "ankle": [
+        -70,
+        -230
+      ]
+    },
+    "TOP": {
+      "hip": [
+        -300,
+        -520
+      ],
+      "b": -6,
+      "hd": 6,
+      "g": 1,
+      "hx": -190,
+      "hy": -610,
+      "ed": 1,
+      "ft": -20,
+      "ankle": [
+        -84,
+        -170
+      ]
+    },
+    "LEAN_BAD": {
+      "hip": [
+        -300,
+        -520
+      ],
+      "b": 16,
+      "hd": 14,
+      "g": 1,
+      "hx": -190,
+      "hy": -610,
+      "ed": 1,
+      "ft": -20,
+      "ankle": [
+        -70,
+        -230
+      ],
+      "cv": 18
+    },
+    "HIP_BAD": {
+      "hip": [
+        -296,
+        -590
+      ],
+      "b": 4,
+      "hd": 6,
+      "g": 1,
+      "hx": -190,
+      "hy": -610,
+      "ed": 1,
+      "ft": -20,
+      "ankle": [
+        -70,
+        -230
+      ]
+    },
+    "SWING_BAD": {
+      "hip": [
+        -288,
+        -526
+      ],
+      "b": 22,
+      "hd": 20,
+      "g": 1,
+      "hx": -190,
+      "hy": -610,
+      "ed": 1,
+      "ft": -20,
+      "ankle": [
+        -92,
+        -140
+      ]
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · GLÚTEOS",
+      "head": [
+        "EXTENSIÓN",
+        "DE CADERA"
+      ],
+      "sub": "En máquina de palanca",
+      "vo": "Lever Hip Extension: extensión de cadera en máquina. Empujás el muslo atrás y trabajás glúteos e isquios.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.0
+            ],
+            [
+              "START",
+              1.7
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Almohadilla, asiento y pila",
+      "vo": "La máquina tiene una almohadilla detrás del muslo, un asiento con respaldo y la pila de peso.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            773,
+            1067
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1107
+          ],
+          "text": "ALMOHADILLA",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            662,
+            1067
+          ],
+          "r": 44,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            977
+          ],
+          "text": "ASIENTO",
+          "anchor": "end",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            402,
+            1373
+          ],
+          "r": 28,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1403
+          ],
+          "text": "PILA",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "EL",
+        "ASIENTO"
+      ],
+      "sub": "Cadera a la altura del eje",
+      "vo": "Ajustá el asiento para que la cadera quede a la altura del eje de la palanca.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            628,
+            1067
+          ],
+          "r": 46,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1027
+          ],
+          "text": "EJE",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "LA",
+        "ALMOHADILLA"
+      ],
+      "sub": "Detrás del muslo",
+      "vo": "La almohadilla va detrás del muslo, justo arriba de la rodilla. Que no te empuje el hueso.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            773,
+            1067
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1107
+          ],
+          "text": "ALMOHADILLA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESPALDA",
+        "APOYADA"
+      ],
+      "sub": "Manos en las manijas",
+      "vo": "Sentate con la espalda apoyada y las manos en las manijas. Los pies quedan libres, sin empujar.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            603,
+            915
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            995
+          ],
+          "text": "RESPALDO",
+          "anchor": "start",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            720,
+            991
+          ],
+          "r": 30,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1031
+          ],
+          "text": "MANIJAS",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "EMPUJÁ",
+        "CON EL GLÚTEO"
+      ],
+      "sub": "El muslo baja y atrás",
+      "vo": "Paso uno. Empujá con el glúteo y el isquio: el muslo baja y atrás, la espalda no se mueve.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 0.9
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            940,
+            1047
+          ],
+          "to": [
+            834,
+            1179
+          ],
+          "at": 0.8,
+          "dur": 1.0,
+          "bend": [
+            50,
+            0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            967
+          ],
+          "text": "EMPUJÁ",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.8,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "LLEGÁ",
+        "ARRIBA"
+      ],
+      "sub": "Apretá el glúteo",
+      "vo": "Paso dos. Llegá arriba sin arquear la espalda y apretá el glúteo un segundo.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.6,
+          "dur": 0.9
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            754,
+            1139
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1109
+          ],
+          "text": "APRETÁ",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.8,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "CONTROLADO"
+      ],
+      "sub": "Sin que pegue abajo",
+      "vo": "Paso tres. Volvé bajando controlado, sin dejar que la pila pegue abajo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 1.0
+        },
+        {
+          "to": "START",
+          "at": 0.5,
+          "dur": 1.4
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            834,
+            1179
+          ],
+          "to": [
+            940,
+            1047
+          ],
+          "at": 1.0,
+          "dur": 1.0,
+          "bend": [
+            50,
+            0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1027
+          ],
+          "text": "BAJÁ CONTROLADO",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Aire al empujar",
+      "vo": "Tomá aire al bajar y soltalo al empujar. El abdomen queda firme todo el tiempo.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.0
+            ],
+            [
+              "START",
+              1.8
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "TIRAR CON",
+        "LA ESPALDA"
+      ],
+      "sub": "Espalda en el respaldo",
+      "vo": "Error: despegar la espalda del respaldo para empujar con la zona lumbar.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            693,
+            841
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "LEVANTAR",
+        "LA CADERA"
+      ],
+      "sub": "Cadera pegada al asiento",
+      "vo": "Error: levantar la cadera del asiento y buscar impulso con el tronco.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "HIP_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            631,
+            1008
+          ],
+          "r": 44,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "REBOTAR",
+        "ABAJO"
+      ],
+      "sub": "Bajada lenta",
+      "vo": "Error: rebotar abajo y soltar el peso de golpe. Frená el retorno.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "SWING_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            748,
+            1156
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Cadera en el eje",
+        "Espalda en el respaldo",
+        "Empujá con el glúteo",
+        "Bajada lenta"
+      ],
+      "vo": "Tips: cadera a la altura del eje, espalda en el respaldo, empujá con el glúteo y bajá lento.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.0
+            ],
+            [
+              "START",
+              1.7
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Almohadilla arriba de la rodilla",
+        "Solo la cadera se mueve",
+        "Un segundo arriba",
+        "Sin impulso"
+      ],
+      "vo": "Claves: almohadilla arriba de la rodilla, solo la cadera se mueve, un segundo arriba y sin impulso.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12"
+      ],
+      "sub": "Un minuto de pausa",
+      "vo": "Tres series de diez a doce, con un minuto de pausa. Si las doce salen fáciles, subí peso.",
+      "chips": [
+        {
+          "label": "1 · EMPUJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · LLEGÁ ARRIBA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.0
+            ],
+            [
+              "START",
+              1.7
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "SOLTÁ",
+        "LENTO"
+      ],
+      "sub": "Sin rebotar",
+      "vo": "Al terminar, dejá que la pila baje sola y soltá la almohadilla despacio. No rebotes.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "START",
+          "at": 0.9,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1040
+          ],
+          "text": "SIN REBOTAR",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "START",
+    "zoom": 1.15,
+    "dy": 110
+  },
+  "youtube": {
+    "titulo": "Lever Hip Extension 🔥 Extensión de cadera en máquina | Glúteos",
+    "tags": [
+      "lever hip extension",
+      "extensión de cadera",
+      "máquina de palanca",
+      "glúteos",
+      "isquiotibiales",
+      "patada de glúteo",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de glúteos"
+    ],
+    "descripcion": "🔥 LEVER HIP EXTENSION (extensión de cadera en máquina) — glúteos e isquiotibiales, sin cargar la espalda baja\n\nEl glúteo trabaja cuando la cadera se extiende. En esta máquina el movimiento es corto: si buscás rango con la espalda, se lo llevás a la lumbar. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el asiento para que la cadera quede a la altura del eje de la palanca.\n2️⃣ La almohadilla va detrás del muslo, justo arriba de la rodilla.\n\n📋 PASO A PASO\n1️⃣ Sentate con la espalda apoyada en el respaldo y las manos en las manijas.\n2️⃣ Empujá con el glúteo y el isquio: el muslo baja y atrás, la espalda no se mueve.\n3️⃣ Arriba apretá el glúteo un segundo, sin arquear la espalda.\n4️⃣ Volvé bajando controlado, sin dejar que la pila pegue abajo.\n\n❌ ERRORES COMUNES\n• Despegar la espalda del respaldo → espalda apoyada, menos peso.\n• Levantar la cadera del asiento → cadera pegada y sin impulso.\n• Rebotar abajo → frená el retorno y mantené la tensión.\n\n💡 TIPS DEL PROFE\n• Cadera a la altura del eje.\n• Espalda apoyada en el respaldo.\n• Empujá con el glúteo, no con la lumbar.\n• Bajada lenta, sin rebote.\n\n🎯 QUÉ TRABAJA\nGlúteos · Isquiotibiales\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Gluteos #Isquios #Cadera #MaquinaDePalanca #Piernas #Entrenamiento"
+  }
+}

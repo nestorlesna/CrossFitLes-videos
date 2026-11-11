@@ -1,0 +1,742 @@
+{
+  "slug": "lever-back-extension",
+  "name": "Lever Back Extension",
+  "maquina": true,
+  "category": "GIMNASIO · ESPALDA BAJA",
+  "tags": [
+    "Lumbares",
+    "Glúteos"
+  ],
+  "descripcion": "Sentate con la espalda apoyada en la almohadilla y los pies fijos. Inclinate adelante y volvé extendiendo la espalda baja.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 720,
+    "y": 1509.6,
+    "scale": 0.66
+  },
+  "shadow": false,
+  "initialPose": "UP",
+  "props": [
+    {
+      "type": "abcrunch",
+      "seat": [
+        -380,
+        -90,
+        -230
+      ],
+      "pivot": [
+        -420,
+        -520
+      ],
+      "stack": -640,
+      "feet": [
+        70,
+        -20
+      ],
+      "pin": 5,
+      "padBack": true
+    }
+  ],
+  "poses": {
+    "UP": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        70,
+        -20
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": 6,
+      "hd": 2,
+      "ua": 22,
+      "fa": 150
+    },
+    "FWD": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        70,
+        -20
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": 34,
+      "hd": 30,
+      "ua": 16,
+      "fa": 150
+    },
+    "DEEP": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        70,
+        -20
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": 48,
+      "hd": 44,
+      "ua": 12,
+      "fa": 150
+    },
+    "ROUND_BAD": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        70,
+        -20
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": 48,
+      "hd": 76,
+      "cv": 30,
+      "ua": 12,
+      "fa": 150
+    },
+    "HYPER_BAD": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        70,
+        -20
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -10,
+      "hd": -18,
+      "ua": 24,
+      "fa": 150
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · ESPALDA BAJA",
+      "head": [
+        "EXTENSIÓN",
+        "LUMBAR"
+      ],
+      "sub": "En máquina de palanca",
+      "vo": "Lever Back Extension: la extensión lumbar en máquina de palanca, sentado y con la espalda apoyada.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DEEP",
+              1.2
+            ],
+            [
+              "UP",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Almohadilla y pila",
+      "vo": "La almohadilla apoya en la espalda alta y la palanca mueve la pila. Trabaja la zona lumbar y los glúteos.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            561,
+            1194
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            900
+          ],
+          "text": "ALMOHADILLA",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            542,
+            1358
+          ],
+          "r": 44,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            880
+          ],
+          "text": "ASIENTO",
+          "anchor": "start",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            331,
+            1407
+          ],
+          "r": 30,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            1250
+          ],
+          "text": "PASADOR",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "ALTURA",
+        "DEL ASIENTO"
+      ],
+      "sub": "Espalda cómoda",
+      "vo": "Ajustá el asiento para que la almohadilla quede en la espalda alta, cómoda y sin apretar el cuello.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            542,
+            1358
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            561,
+            1194
+          ],
+          "r": 50,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            900
+          ],
+          "text": "ALMOHADILLA ALTA",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "PESO",
+        "MODERADO"
+      ],
+      "sub": "Con el pasador",
+      "vo": "Elegí un peso moderado con el pasador. Si necesitás impulso para volver, es demasiado.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            331,
+            1407
+          ],
+          "r": 30,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            880
+          ],
+          "text": "PASADOR",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "SENTADO",
+        "FIRME"
+      ],
+      "sub": "Pies fijos",
+      "vo": "Sentate con la espalda en la almohadilla y los pies firmes en el piso. Tomá las asas con las manos.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            766,
+            1496
+          ],
+          "r": 36,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            900
+          ],
+          "text": "PIES FIRMES",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "INCLINATE",
+        "DESPACIO"
+      ],
+      "sub": "Adelante, sin rebotar",
+      "vo": "Paso uno. Activá el core e inclinate despacio hacia adelante, dejando que la espalda se redondee apenas.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "FWD",
+          "at": 0.6,
+          "dur": 1.1
+        },
+        {
+          "to": "DEEP",
+          "at": 1.7,
+          "dur": 0.9
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            900
+          ],
+          "text": "LLEVÁ EL PECHO ABAJO",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "PAUSA",
+        "ABAJO"
+      ],
+      "sub": "Un segundo",
+      "vo": "Paso dos. Hacé una pausa breve abajo y sentí el estiramiento en la zona lumbar, sin rebotar.",
+      "moves": [
+        {
+          "cut": "DEEP",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            714,
+            1219
+          ],
+          "r": 46,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            900
+          ],
+          "text": "ESTIRÁ SIN REBOTAR",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "VOLVÉ CON",
+        "LA ESPALDA"
+      ],
+      "sub": "Sin tirar con brazos",
+      "vo": "Paso tres. Volvé subiendo el torso con los músculos de la espalda, sin tirar con los brazos.",
+      "moves": [
+        {
+          "cut": "DEEP",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.6,
+          "dur": 2.2
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            880
+          ],
+          "text": "SIN TIRAR CON BRAZOS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al volver",
+      "vo": "Tomá aire al inclinarte y soltalo al volver. No aguantes el aire abajo.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DEEP",
+              1.2
+            ],
+            [
+              "UP",
+              2.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 2",
+      "head": [
+        "REDONDEAR",
+        "LA ESPALDA"
+      ],
+      "sub": "Curva suave",
+      "vo": "Error: redondear mucho la espalda. Es una curva suave, no una joroba: el pecho queda abierto.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "ROUND_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            719,
+            1229
+          ],
+          "r": 46,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 2",
+      "head": [
+        "PASARTE",
+        "DE LARGO"
+      ],
+      "sub": "Sin arquear",
+      "vo": "Error: volver demasiado y arquear la lumbar. Volvé hasta quedar derecho, no más allá.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "HYPER_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            900
+          ],
+          "text": "SIN ARQUEAR",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Almohadilla en la espalda alta",
+        "Pies firmes en el piso",
+        "Curva suave al bajar",
+        "Volvé con la espalda"
+      ],
+      "vo": "Tips de profe: almohadilla en la espalda alta, pies firmes, curva suave al bajar y volvé con la espalda.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DEEP",
+              1.2
+            ],
+            [
+              "UP",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Asiento a tu altura",
+        "Bajá despacio",
+        "Curva suave, sin joroba",
+        "No arquees de más"
+      ],
+      "vo": "Claves: asiento a tu altura, bajá despacio, curva suave sin joroba y no arquees de más.",
+      "moves": [
+        {
+          "cut": "DEEP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12-15"
+      ],
+      "sub": "Un minuto de pausa",
+      "vo": "Tres series de doce a quince, con un minuto de pausa. Subí una placa cuando las quince salgan fáciles.",
+      "chips": [
+        {
+          "label": "1 · INCLINATE",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PAUSÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ LENTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DEEP",
+              1.2
+            ],
+            [
+              "UP",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "DEJÁ EL",
+        "PESO"
+      ],
+      "sub": "Sin soltar de golpe",
+      "vo": "Al terminar, volvé despacio, soltá las asas y dejá el peso apoyado. No lo sueltes de golpe.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DEEP",
+          "at": 1.0,
+          "dur": 1.2
+        },
+        {
+          "to": "UP",
+          "at": 2.4,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            880
+          ],
+          "text": "PESO APOYADO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "DEEP",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 110
+  },
+  "youtube": {
+    "titulo": "Lever Back Extension 🔥 Extensión lumbar en máquina de palanca | Gimnasio",
+    "tags": [
+      "lever back extension",
+      "extensión lumbar en máquina",
+      "extensión de espalda",
+      "máquina de palanca",
+      "lumbares",
+      "espalda baja",
+      "glúteos",
+      "core",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes"
+    ],
+    "descripcion": "🔥 LEVER BACK EXTENSION (extensión lumbar en máquina de palanca) — espalda baja fuerte sin cargar la columna\n\n¿Sentís la lumbar cansada y no sabés cómo entrenarla? Esta máquina te deja trabajar la espalda baja con control. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el asiento para que la almohadilla quede en la espalda alta.\n2️⃣ Elegí un peso moderado con el pasador.\n\n📋 PASO A PASO\n1️⃣ Sentate con la espalda en la almohadilla y los pies firmes.\n2️⃣ Activá el core e inclinate despacio hacia adelante.\n3️⃣ Pausá abajo un segundo, sintiendo el estiramiento lumbar.\n4️⃣ Volvé subiendo el torso con la espalda, sin tirar con los brazos.\n\n❌ ERRORES COMUNES\n• Redondear mucho la espalda → curva suave, pecho abierto.\n• Arquear la lumbar al volver → volvé hasta quedar derecho.\n• Tirar con los brazos → volvé con la espalda.\n\n💡 TIPS DEL PROFE\n• Almohadilla en la espalda alta, no en el cuello.\n• Pies firmes en el piso.\n• Bajá despacio y pausá abajo.\n• Volvé con la espalda, no con los brazos.\n• Peso moderado: si necesitás impulso, es mucho.\n\n🎯 QUÉ TRABAJA\nLumbares · Glúteos · Isquiotibiales\n\n⏱️ CUÁNTO\n3 series de 12–15 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #LeverBackExtension #EspaldaBaja #Lumbares #Musculacion #Entrenamiento"
+  }
+}

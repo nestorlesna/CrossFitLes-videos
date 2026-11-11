@@ -1,0 +1,754 @@
+{
+  "slug": "lever-overhand-triceps-dip",
+  "name": "Lever Overhand Triceps Dip",
+  "maquina": true,
+  "category": "GIMNASIO · BRAZOS",
+  "tags": [
+    "Tríceps",
+    "Pecho"
+  ],
+  "descripcion": "Sentate con la espalda pegada al respaldo y agarrá las manijas con agarre prono. Empujá hacia abajo hasta casi estirar los codos, sin encoger los hombros, y subí lento hasta que los codos queden a unos noventa grados.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 720,
+    "y": 1509.6,
+    "scale": 0.66
+  },
+  "shadow": false,
+  "initialPose": "TOP",
+  "props": [
+    {
+      "type": "seateddip",
+      "pivot": [
+        -430,
+        -560
+      ],
+      "frameTop": -1000,
+      "stack": -640,
+      "seat": [
+        -390,
+        -90,
+        -184
+      ],
+      "back": [
+        -318,
+        4,
+        470
+      ],
+      "pin": 5
+    }
+  ],
+  "poses": {
+    "TOP": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "b": 4,
+      "hd": 2,
+      "g": 1,
+      "ed": -1,
+      "hx": -185,
+      "hy": -390
+    },
+    "MID": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "b": 4,
+      "hd": 2,
+      "g": 1,
+      "ed": -1,
+      "hx": -195,
+      "hy": -290
+    },
+    "BOTTOM": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "b": 4,
+      "hd": 2,
+      "g": 1,
+      "ed": -1,
+      "hx": -206,
+      "hy": -186
+    },
+    "LEAN_BAD": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "b": 26,
+      "hd": 30,
+      "g": 1,
+      "ed": -1,
+      "hx": -150,
+      "hy": -200,
+      "cv": 22
+    },
+    "LOCK_BAD": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "b": 4,
+      "hd": 2,
+      "g": 1,
+      "ed": -1,
+      "hx": -210,
+      "hy": -182
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · BRAZOS",
+      "head": [
+        "TRICEPS",
+        "DIP"
+      ],
+      "sub": "Fondos de tríceps en máquina",
+      "vo": "Lever Overhand Triceps Dip: fondos de tríceps sentado en máquina de palanca, con agarre prono.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              1.3
+            ],
+            [
+              "TOP",
+              1.7
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Manijas a los costados",
+      "vo": "La máquina de fondos tiene manijas a los costados y un respaldo: el cuerpo queda fijo y el tríceps hace todo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            598,
+            1252
+          ],
+          "r": 34,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1230
+          ],
+          "text": "MANIJAS",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            562,
+            1388
+          ],
+          "r": 40,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1390
+          ],
+          "text": "ASIENTO",
+          "anchor": "end",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            298,
+            1430
+          ],
+          "r": 52,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1430
+          ],
+          "text": "PILA",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "LA",
+        "ALTURA"
+      ],
+      "sub": "Manijas a las costillas",
+      "vo": "Ajustá el asiento para que, al empezar, las manijas queden a la altura de las costillas.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            598,
+            1252
+          ],
+          "r": 34,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1230
+          ],
+          "text": "A LAS COSTILLAS",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "PESO"
+      ],
+      "sub": "Con el pasador",
+      "vo": "Elegí el peso con el pasador: uno que puedas empujar doce veces sin mover los hombros.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            331,
+            1407
+          ],
+          "r": 26,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1407
+          ],
+          "text": "PASADOR",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "MANOS",
+        "PRONAS"
+      ],
+      "sub": "Codos apuntando atrás",
+      "vo": "Espalda pegada al respaldo, manos con las palmas hacia abajo y codos apuntando atrás.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            598,
+            1252
+          ],
+          "r": 34,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1250
+          ],
+          "text": "PRONO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.8,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "EMPUJÁ",
+        "ABAJO"
+      ],
+      "sub": "Sin mover los hombros",
+      "vo": "Paso uno. Empujá hacia abajo hasta casi estirar los codos, sin encoger los hombros.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            672,
+            1150
+          ],
+          "to": [
+            660,
+            1315
+          ],
+          "at": 0.9,
+          "dur": 1.2
+        },
+        {
+          "type": "ring",
+          "pos": [
+            584,
+            1387
+          ],
+          "r": 34,
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "PAUSA",
+        "ABAJO"
+      ],
+      "sub": "Sin trabar los codos",
+      "vo": "Paso dos. Abajo, pausa breve sin trabar los codos.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            584,
+            1387
+          ],
+          "r": 34,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1400
+          ],
+          "text": "PAUSA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "SUBÍ",
+        "LENTO"
+      ],
+      "sub": "Hasta noventa grados",
+      "vo": "Paso tres. Subí lento hasta que los codos queden a unos noventa grados.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            660,
+            1315
+          ],
+          "to": [
+            672,
+            1150
+          ],
+          "at": 0.9,
+          "dur": 1.2
+        },
+        {
+          "type": "ring",
+          "pos": [
+            598,
+            1252
+          ],
+          "r": 34,
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al empujar",
+      "vo": "Soltá el aire mientras empujás y tomalo mientras subís.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              1.3
+            ],
+            [
+              "TOP",
+              2.0
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 2",
+      "head": [
+        "TIRAR",
+        "EL TRONCO"
+      ],
+      "sub": "Se despega la espalda",
+      "vo": "Error: tirar el tronco adelante y despegar la espalda. Es un movimiento de tríceps, no de pecho.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            700
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            653,
+            1173
+          ],
+          "r": 46,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 2",
+      "head": [
+        "TRABAR",
+        "LOS CODOS"
+      ],
+      "sub": "Frená antes de estirar",
+      "vo": "Error: trabar los codos de golpe abajo. Frená antes de estirar del todo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "LOCK_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            700
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            560,
+            1286
+          ],
+          "r": 44,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Espalda pegada",
+        "Manijas a las costillas",
+        "Codos atrás",
+        "Sin trabar los codos"
+      ],
+      "vo": "Tips: espalda pegada al respaldo, manijas a la altura de las costillas, codos atrás y sin trabar los codos.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              1.1
+            ],
+            [
+              "TOP",
+              1.9
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Empujá en 1 segundo",
+        "Subí en 3 segundos",
+        "Sin mover los hombros",
+        "Recorrido completo"
+      ],
+      "vo": "Claves: empujá en un segundo, subí en tres, sin mover los hombros y con recorrido completo.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12"
+      ],
+      "sub": "Un minuto de pausa",
+      "vo": "Tres series de diez a doce, con un minuto de pausa. Cuando las doce salen fáciles, subí una placa.",
+      "chips": [
+        {
+          "label": "1 · EMPUJÁ ABAJO",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PAUSA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SUBÍ LENTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              1.1
+            ],
+            [
+              "TOP",
+              1.9
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "ACOMPAÑÁ",
+        "LAS MANIJAS"
+      ],
+      "sub": "Sin soltar de golpe",
+      "vo": "Al terminar, acompañá las manijas hasta arriba y dejá el peso apoyado. No lo sueltes de golpe.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.8,
+          "dur": 2.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "ACOMPAÑÁ",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "MID",
+    "zoom": 1.1,
+    "dy": 100
+  },
+  "youtube": {
+    "titulo": "Lever Overhand Triceps Dip 🔥 Fondos de tríceps en máquina | Gimnasio",
+    "tags": [
+      "lever overhand triceps dip",
+      "fondos de tríceps",
+      "triceps dip",
+      "máquina de fondos",
+      "fondos en máquina",
+      "tríceps",
+      "brazos",
+      "agarre prono",
+      "máquina de palanca",
+      "empuje",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de brazos"
+    ],
+    "descripcion": "🔥 LEVER OVERHAND TRICEPS DIP (fondos de tríceps en máquina de palanca) — tríceps, con pecho y hombros como apoyo\n\nLa máquina te fija el cuerpo y aísla el tríceps. Mirá cómo empujar sin mover los hombros. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el asiento para que las manijas queden a la altura de las costillas.\n2️⃣ Elegí un peso que puedas empujar 12 veces.\n\n📋 PASO A PASO\n1️⃣ Sentate con la espalda pegada al respaldo y agarrá las manijas con agarre prono.\n2️⃣ Empujá hacia abajo hasta casi estirar los codos, sin encoger los hombros.\n3️⃣ Hacé una pausa breve abajo, sin trabar los codos.\n4️⃣ Subí lento hasta que los codos queden a unos noventa grados.\n\n❌ ERRORES COMUNES\n• Tirar el tronco adelante → espalda pegada al respaldo.\n• Trabar los codos abajo → frená antes de estirar del todo.\n• Encoger los hombros → hombros abajo y lejos de las orejas.\n\n💡 TIPS DEL PROFE\n• Espalda pegada al respaldo.\n• Manijas a la altura de las costillas.\n• Codos apuntando atrás.\n• Empujá en uno y subí en tres segundos.\n\n🎯 QUÉ TRABAJA\nTríceps · Pecho · Hombros\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Fondos #Triceps #MaquinaDePalanca #Brazos #Musculacion #Entrenamiento"
+  }
+}

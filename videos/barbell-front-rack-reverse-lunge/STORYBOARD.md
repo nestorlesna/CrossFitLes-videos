@@ -1,6 +1,6 @@
 ---
 format: 1080x1920
-message: "Cómo ejecutar Barbell Front Rack Reverse Lunge paso a paso"
+message: "Cómo ejecutar Front Rack Reverse Lunge paso a paso"
 audience: alumnos de CrossFit
 mode: autonomous
 music: plantilla/musica/bgm-base.wav
@@ -16,7 +16,7 @@ music: plantilla/musica/bgm-base.wav
 ## Frame 2 — POSICIÓN INICIAL RACK FRONTAL
 
 - status: animated
-- min: 5s
+- min: 5.4s
 - voiceover: "Con la barra apoyada adelante, sobre los hombros y los codos bien altos, los pies al ancho de la cadera."
 - poses: —
 

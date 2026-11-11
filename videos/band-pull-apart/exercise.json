@@ -9,7 +9,7 @@
   ],
   "descripcion": "De pie, sostener una banda elástica con ambas manos al frente a la altura de los hombros. Separar los brazos horizontalmente hasta que la banda toque el pecho, luego volver controlado.",
   "revisado": false,
-  "notas": "De frente: brazos al frente a la altura del pecho (ua 50) que se abren a la altura de los hombros (ua 90) + tarjeta topview front. La banda va con hand both desde un ancla fija al frente.",
+  "notas": "De frente: brazos al frente a la altura del pecho (ua 70) que se abren a la altura de los hombros (ua 90) + tarjeta topview front. La banda va con hand both desde un ancla fija al frente (sin anilla visible).",
   "music": true,
   "musicVolume": 0.18,
   "rig": {
@@ -34,9 +34,9 @@
       "b": 0,
       "hd": 0,
       "g": 0,
-      "ua": 50,
+      "ua": 70,
       "fa": 0,
-      "ua2": 50,
+      "ua2": 70,
       "fa2": 0
     },
     "APART": {
@@ -56,9 +56,9 @@
       "b": 0,
       "hd": 0,
       "g": 0,
-      "ua": 50,
+      "ua": 70,
       "fa": 42,
-      "ua2": 50,
+      "ua2": 70,
       "fa2": 42
     },
     "SHRUG_BAD": {
@@ -67,9 +67,9 @@
       "b": -8,
       "hd": -10,
       "g": 0,
-      "ua": 50,
+      "ua": 70,
       "fa": 0,
-      "ua2": 50,
+      "ua2": 70,
       "fa2": 0
     }
   },
@@ -139,16 +139,6 @@
         }
       ],
       "overlays": [
-        {
-          "type": "label",
-          "pos": [
-            500,
-            552
-          ],
-          "text": "ALTURA DEL PECHO",
-          "anchor": "middle",
-          "at": 1.2
-        },
         {
           "type": "label",
           "pos": [
@@ -429,7 +419,8 @@
         -750
       ],
       "hand": "both",
-      "layer": "mid"
+      "layer": "mid",
+      "ring": false
     }
   ]
 }

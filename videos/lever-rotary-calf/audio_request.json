@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Rotary Calf",
+      "text": "Gemelos sentado en máquina rotatoria. Empujá la punta del pie y subí los talones."
+    },
+    {
+      "id": "02",
+      "text": "La máquina tiene una placa para la punta de los pies, una almohadilla sobre los muslos y la pila con el pasador."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el asiento para que las rodillas queden algo flexionadas y los pies apoyados en la placa."
+    },
+    {
+      "id": "04",
+      "text": "Elegí el peso con el pasador. Si el talón no baja del todo, es mucho peso."
+    },
+    {
+      "id": "05",
+      "text": "Sentado derecho, con la punta de los pies en la placa, los talones fuera del borde y las manos en las asas."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Bajá el talón despacio por debajo de la placa hasta estirar la pantorrilla."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Abajo, pausá estirando la pantorrilla. Nada de rebotar."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Empujá con la parte delantera del pie, subí bien alto y apretá un segundo."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras empujás con el pie y tomalo mientras bajás los talones."
+    },
+    {
+      "id": "10",
+      "text": "Error: empujar con las manos o tirar el tronco adelante. Si pasa, el peso es mucho: bajalo."
+    },
+    {
+      "id": "11",
+      "text": "Error: rebotar abajo y hacer medio recorrido. Bajá todo, pausá y subí todo."
+    },
+    {
+      "id": "12",
+      "text": "Tips: rodillas algo flexionadas, talón bien abajo, pausa sin rebote y empujá con la punta del pie."
+    },
+    {
+      "id": "13",
+      "text": "Claves: punta en la placa, talones afuera, rango completo y apretá arriba."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de quince, con un minuto de pausa. Cuando las quince salen fáciles, subí el peso."
+    },
+    {
+      "id": "15",
+      "text": "Al terminar, acompañá la placa y dejá el peso apoyado antes de sacar los pies."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

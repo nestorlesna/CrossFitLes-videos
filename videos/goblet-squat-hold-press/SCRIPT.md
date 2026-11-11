@@ -5,7 +5,7 @@
 
 ---
 
-## Line 1 — CROSSFIT · ENTRADA EN CALOR (Frame 1)
+## Line 1 — ENTRADA EN CALOR (Frame 1)
 
     Goblet Squat Hold Press: sentadilla goblet con press al frente en el fondo. Movilidad de cadera y tobillo.
 

@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Reverse Grip Machine Lat Pulldown",
+      "text": "El jalón al pecho con agarre supino, con las rodillas bajo la almohadilla."
+    },
+    {
+      "id": "02",
+      "text": "Las asas bajan al pecho y las rodillas quedan bajo la almohadilla. Con agarre supino trabaja dorsales y bíceps."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el asiento para que las rodillas queden justo bajo la almohadilla y los pies planos en el suelo."
+    },
+    {
+      "id": "04",
+      "text": "Elegí el peso con el pasador: uno que puedas bajar diez veces sin mover el cuerpo."
+    },
+    {
+      "id": "05",
+      "text": "Sentate erguido con el pecho alto y los hombros atrás. Agarrá las asas con agarre supino, un poco más abiertas que los hombros."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Tirá de las asas hacia el pecho, llevándolas al esternón, sin mover el torso."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Juntá las escápulas y hacé una pausa breve abajo, con las asas en el pecho."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Soltá las asas despacio hasta la posición inicial, sin dejar que las placas se apoyen."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras tirás y tomalo mientras volvés. No aguantes el aire."
+    },
+    {
+      "id": "10",
+      "text": "Error: jalar las asas al cuello o por detrás de la nuca. Las asas van al pecho, nunca al cuello."
+    },
+    {
+      "id": "11",
+      "text": "Error: columpiar el cuerpo hacia atrás para tirar. Quedate erguido y usá la espalda, no el impulso."
+    },
+    {
+      "id": "12",
+      "text": "Tips de profe: agarre supino, asas al pecho, escápulas juntas y soltá sin apoyar las placas."
+    },
+    {
+      "id": "13",
+      "text": "Claves: agarre supino, pecho alto, sin impulso y soltá lento."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de diez a doce, con un minuto y medio de pausa. Cuando las doce salgan fáciles, subí una placa."
+    },
+    {
+      "id": "15",
+      "text": "Al terminar, soltá las asas despacio y dejá el peso apoyado. No lo sueltes de golpe."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

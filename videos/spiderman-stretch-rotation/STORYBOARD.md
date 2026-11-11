@@ -6,7 +6,7 @@ mode: autonomous
 music: plantilla/musica/bgm-base.wav
 ---
 
-## Frame 1 — CROSSFIT · ENTRADA EN CALOR SPIDERMAN STRETCH ROT
+## Frame 1 — ENTRADA EN CALOR SPIDERMAN STRETCH ROT
 
 - status: animated
 - min: 4.8s
@@ -16,7 +16,7 @@ music: plantilla/musica/bgm-base.wav
 ## Frame 2 — POSICIÓN INICIAL ESTOCADA ADELANTE
 
 - status: animated
-- min: 5.2s
+- min: 6.3s
 - voiceover: "Adelantá bien un pie, bajá la cadera y apoyá la mano del mismo lado en el piso, junto al pie."
 - poses: LUNGE
 

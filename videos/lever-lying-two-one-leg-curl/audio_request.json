@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Lying Two-one Leg Curl",
+      "text": "El curl femoral en máquina. Con la espalda apoyada, flexioná las piernas hacia los glúteos."
+    },
+    {
+      "id": "02",
+      "text": "La máquina de femoral: asiento con respaldo, rodillo detrás de los tobillos y traba sobre los muslos."
+    },
+    {
+      "id": "03",
+      "text": "Alineá la rodilla con el eje de la máquina y ajustá el respaldo para que la espalda quede apoyada."
+    },
+    {
+      "id": "04",
+      "text": "Bajá la traba sobre los muslos: tiene que quedar firme, sin apretar de más."
+    },
+    {
+      "id": "05",
+      "text": "Apoyá el rodillo detrás de los tobillos y agarrá las manijas a los costados."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Flexioná las piernas hacia los glúteos, manteniendo el torso quieto y la espalda apoyada."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Hacé una pausa breve arriba, con los talones cerca de los glúteos."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Volvé lento a la posición inicial, controlando el peso en todo el recorrido."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire al flexionar y tomalo al volver. No aguantes el aire."
+    },
+    {
+      "id": "10",
+      "text": "Error: despegar la cadera y la espalda para ayudar. Quedá bien apoyado en el respaldo."
+    },
+    {
+      "id": "11",
+      "text": "Error: dejar la traba de muslos abierta. Bajala firme antes de empezar."
+    },
+    {
+      "id": "12",
+      "text": "Tips de profe: rodilla al eje, traba firme, torso quieto y volvé lento."
+    },
+    {
+      "id": "13",
+      "text": "Claves: eje alineado, traba firme, pausa arriba y bajada controlada."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de diez a doce, con un minuto de pausa. Subí una placa cuando salgan fáciles."
+    },
+    {
+      "id": "15",
+      "text": "Al terminar, volvé las piernas despacio y dejá el peso apoyado. No lo sueltes de golpe."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Pullover",
+      "text": "Jalón en máquina de palanca. Tirás las manijas al pecho con los codos bajos y trabajás dorsales."
+    },
+    {
+      "id": "02",
+      "text": "La máquina tiene asiento con respaldo, manijas al frente y la pila atrás."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el asiento para que las manijas queden a la altura del pecho."
+    },
+    {
+      "id": "04",
+      "text": "Agarre prono, con los pulgares para adentro, y los brazos apenas flexionados."
+    },
+    {
+      "id": "05",
+      "text": "Sentate con la espalda apoyada y los codos bajos, casi pegados al cuerpo. El core activo."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Tirá las manijas al pecho con los codos bajos, sin encoger los hombros."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Apretá el dorsal un segundo, con el pecho arriba y los hombros abajo."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Volvé lento, estirando los brazos sin dejar que la pila pegue abajo."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire cuando tirás y tomá aire cuando volvés. El abdomen queda firme."
+    },
+    {
+      "id": "10",
+      "text": "Error: tirar solo con los brazos y encoger los hombros. Pensá en llevar el codo al bolsillo."
+    },
+    {
+      "id": "11",
+      "text": "Error: echarse atrás para ayudar con el peso del cuerpo. La espalda queda en el respaldo."
+    },
+    {
+      "id": "12",
+      "text": "Error: redondear la espalda y dejar caer los hombros hacia adelante."
+    },
+    {
+      "id": "13",
+      "text": "Tips: pecho arriba, codos bajos y cerca del cuerpo, un segundo al pecho y volvé lento."
+    },
+    {
+      "id": "14",
+      "text": "Claves: manijas a la altura del pecho, agarre prono, sin encoger los hombros y sin impulso."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce, con un minuto de pausa. Si las doce salen fáciles, subí peso."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, dejá que la pila baje sola y soltá las manijas despacio. No rebotes."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

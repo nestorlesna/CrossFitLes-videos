@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Overhand Triceps Dip",
+      "text": "Fondos de tríceps sentado en máquina de palanca, con agarre prono."
+    },
+    {
+      "id": "02",
+      "text": "La máquina de fondos tiene manijas a los costados y un respaldo: el cuerpo queda fijo y el tríceps hace todo."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el asiento para que, al empezar, las manijas queden a la altura de las costillas."
+    },
+    {
+      "id": "04",
+      "text": "Elegí el peso con el pasador: uno que puedas empujar doce veces sin mover los hombros."
+    },
+    {
+      "id": "05",
+      "text": "Espalda pegada al respaldo, manos con las palmas hacia abajo y codos apuntando atrás."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá hacia abajo hasta casi estirar los codos, sin encoger los hombros."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Abajo, pausa breve sin trabar los codos."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Subí lento hasta que los codos queden a unos noventa grados."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras empujás y tomalo mientras subís."
+    },
+    {
+      "id": "10",
+      "text": "Error: tirar el tronco adelante y despegar la espalda. Es un movimiento de tríceps, no de pecho."
+    },
+    {
+      "id": "11",
+      "text": "Error: trabar los codos de golpe abajo. Frená antes de estirar del todo."
+    },
+    {
+      "id": "12",
+      "text": "Tips: espalda pegada al respaldo, manijas a la altura de las costillas, codos atrás y sin trabar los codos."
+    },
+    {
+      "id": "13",
+      "text": "Claves: empujá en un segundo, subí en tres, sin mover los hombros y con recorrido completo."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de diez a doce, con un minuto de pausa. Cuando las doce salen fáciles, subí una placa."
+    },
+    {
+      "id": "15",
+      "text": "Al terminar, acompañá las manijas hasta arriba y dejá el peso apoyado. No lo sueltes de golpe."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

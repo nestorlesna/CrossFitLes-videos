@@ -1,0 +1,800 @@
+{
+  "slug": "lever-seated-reverse-fly-parallel-grip",
+  "name": "Lever Seated Reverse Fly (Parallel Grip)",
+  "maquina": true,
+  "category": "GIMNASIO · HOMBROS",
+  "tags": [
+    "Deltoides",
+    "Trapecios",
+    "Romboides"
+  ],
+  "descripcion": "Sentate con el pecho contra la almohadilla y los pies planos en el suelo. Con los codos apenas flexionados, abrí los brazos hacia atrás y afuera juntando las escápulas, y volvé lento a la posición inicial.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 720,
+    "y": 1509.6,
+    "scale": 0.66
+  },
+  "shadow": false,
+  "initialPose": "FRONT",
+  "props": [
+    {
+      "type": "pecdeck",
+      "pivot": [
+        -230,
+        -839
+      ],
+      "frameTop": -1060,
+      "stack": -640,
+      "seat": [
+        -390,
+        -90,
+        -184
+      ],
+      "chest": [
+        -185,
+        -340
+      ],
+      "pin": 4
+    }
+  ],
+  "poses": {
+    "FRONT": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -4,
+      "hd": 0,
+      "ua": 88,
+      "fa": -14,
+      "al": 0.95,
+      "wr": 90
+    },
+    "MID": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -4,
+      "hd": 0,
+      "ua": 88,
+      "fa": -14,
+      "al": 0.65,
+      "wr": 90
+    },
+    "BACK": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -4,
+      "hd": 0,
+      "ua": 86,
+      "fa": -22,
+      "al": 0.34,
+      "wr": 90
+    },
+    "ELBOW_BAD": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -4,
+      "hd": 0,
+      "ua": 20,
+      "fa": 90,
+      "al": 0.95,
+      "wr": 90
+    },
+    "LEAN_BAD": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -22,
+      "hd": -10,
+      "ua": 88,
+      "fa": -14,
+      "al": 0.6,
+      "wr": 90
+    },
+    "SHRUG_BAD": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": 4,
+      "hd": 10,
+      "cv": 24,
+      "ua": 88,
+      "fa": -14,
+      "al": 0.8,
+      "wr": 90
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · HOMBROS",
+      "head": [
+        "REVERSE",
+        "FLY"
+      ],
+      "sub": "Agarre paralelo",
+      "vo": "Lever Seated Reverse Fly con agarre paralelo: palmas enfrentadas y el mismo movimiento para la parte de atrás del hombro.",
+      "moves": [
+        {
+          "cut": "FRONT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BACK",
+              1.1
+            ],
+            [
+              "FRONT",
+              1.9
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Aperturas inversas",
+      "vo": "La máquina de aperturas inversas: apoyo de pecho, manijas adelante y pila de peso atrás.",
+      "moves": [
+        {
+          "cut": "FRONT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            598,
+            1285
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1285
+          ],
+          "text": "APOYO",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            753,
+            1205
+          ],
+          "r": 34,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1120
+          ],
+          "text": "MANIJAS",
+          "anchor": "end",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            298,
+            1463
+          ],
+          "r": 44,
+          "at": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1430
+          ],
+          "text": "PILA",
+          "anchor": "start",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "EL",
+        "ASIENTO"
+      ],
+      "sub": "Manijas a la altura del pecho",
+      "vo": "Ajustá el asiento para que las manijas queden a la altura del pecho, con los brazos casi horizontales.",
+      "moves": [
+        {
+          "cut": "FRONT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            562,
+            1388
+          ],
+          "r": 40,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1430
+          ],
+          "text": "ASIENTO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "PESO"
+      ],
+      "sub": "Liviano para empezar",
+      "vo": "Elegí el peso con el pasador. Empezá liviano: en la apertura el hombro queda expuesto.",
+      "moves": [
+        {
+          "cut": "FRONT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            331,
+            1393
+          ],
+          "r": 26,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1393
+          ],
+          "text": "PASADOR",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BRAZOS",
+        "ADELANTE"
+      ],
+      "sub": "Codos apenas flexionados",
+      "vo": "Apoyá el pecho, agarrá las manijas adelante y dejá los codos apenas flexionados y fijos.",
+      "moves": [
+        {
+          "cut": "FRONT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            753,
+            1205
+          ],
+          "r": 34,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1290
+          ],
+          "text": "AGARRE PARALELO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "ABRÍ",
+        "LOS BRAZOS"
+      ],
+      "sub": "Atrás y afuera",
+      "vo": "Paso uno. Abrí los brazos hacia atrás y afuera, juntando las escápulas, sin mover los codos.",
+      "moves": [
+        {
+          "cut": "FRONT",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "to": "BACK",
+          "at": 1.5,
+          "dur": 1.0
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            743,
+            1165
+          ],
+          "to": [
+            637,
+            1152
+          ],
+          "at": 0.8,
+          "dur": 1.2,
+          "bend": [
+            0,
+            -50
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "ABRÍ",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "PAUSA",
+        "ATRÁS"
+      ],
+      "sub": "Escápulas juntas",
+      "vo": "Paso dos. Hacé una pausa atrás, con las escápulas bien juntas y el pecho en el apoyo.",
+      "moves": [
+        {
+          "cut": "BACK",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            619,
+            1192
+          ],
+          "r": 36,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "APRETÁ",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "VOLVÉ",
+        "LENTO"
+      ],
+      "sub": "Sin soltar el peso",
+      "vo": "Paso tres. Volvé lento a la posición inicial, controlando el peso en todo el recorrido.",
+      "moves": [
+        {
+          "cut": "BACK",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "to": "FRONT",
+          "at": 1.5,
+          "dur": 1.1
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            637,
+            1152
+          ],
+          "to": [
+            743,
+            1165
+          ],
+          "at": 0.8,
+          "dur": 1.2,
+          "bend": [
+            0,
+            -50
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "VOLVÉ LENTO",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá al abrir",
+      "vo": "Soltá el aire al abrir y tomalo al volver. No aguantes el aire.",
+      "moves": [
+        {
+          "cut": "FRONT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BACK",
+              1.1
+            ],
+            [
+              "FRONT",
+              1.9
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 2",
+      "head": [
+        "DOBLAR",
+        "LOS CODOS"
+      ],
+      "sub": "Se vuelve un remo",
+      "vo": "Error: doblar los codos para tirar. Los codos quedan apenas flexionados y fijos.",
+      "moves": [
+        {
+          "cut": "FRONT",
+          "at": 0
+        },
+        {
+          "to": "ELBOW_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            586,
+            1275
+          ],
+          "r": 46,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 2",
+      "head": [
+        "DESPEGAR",
+        "EL PECHO"
+      ],
+      "sub": "Pecho en el apoyo",
+      "vo": "Error: despegar el pecho del apoyo y usar el torso. Quedate bien apoyado.",
+      "moves": [
+        {
+          "cut": "FRONT",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            492,
+            1186
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Pecho apoyado",
+        "Codos casi fijos",
+        "Abrí a la línea",
+        "Sin encoger"
+      ],
+      "vo": "Tips de profe: pecho apoyado, codos casi fijos, abrí hasta la línea del hombro y no encojas los hombros.",
+      "moves": [
+        {
+          "cut": "FRONT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BACK",
+              1.1
+            ],
+            [
+              "FRONT",
+              1.9
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Pecho en el apoyo",
+        "Codos fijos",
+        "Pausa atrás",
+        "Volvé lento"
+      ],
+      "vo": "Claves: pecho en el apoyo, codos fijos, pausa atrás y volvé lento.",
+      "moves": [
+        {
+          "cut": "BACK",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12-15"
+      ],
+      "sub": "Cuarenta y cinco segundos",
+      "vo": "Tres series de doce a quince, con cuarenta y cinco segundos de pausa. Subí cuando salgan fáciles.",
+      "chips": [
+        {
+          "label": "1 · ABRÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ LENTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "FRONT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BACK",
+              1.1
+            ],
+            [
+              "FRONT",
+              1.9
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "DEJÁ LAS",
+        "MANIJAS"
+      ],
+      "sub": "Sin soltar de golpe",
+      "vo": "Al terminar, acompañá las manijas y dejá el peso apoyado. No lo sueltes de golpe.",
+      "moves": [
+        {
+          "cut": "BACK",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.8,
+          "dur": 0.9
+        },
+        {
+          "to": "FRONT",
+          "at": 2.0,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "DEJÁ LAS MANIJAS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "BACK",
+    "zoom": 1.05,
+    "dy": 100
+  },
+  "youtube": {
+    "titulo": "Lever Seated Reverse Fly (Parallel Grip) 🔥 Aperturas inversas agarre paralelo | Gimnasio",
+    "tags": [
+      "lever seated reverse fly parallel grip",
+      "aperturas inversas",
+      "reverse fly",
+      "agarre paralelo",
+      "deltoides posterior",
+      "hombro posterior",
+      "pec deck inverso",
+      "máquina de palanca",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "hombros"
+    ],
+    "descripcion": "🔥 LEVER SEATED REVERSE FLY (PARALLEL GRIP) (aperturas inversas con agarre paralelo) — deltoides posterior, con trapecios y romboides como apoyo\n\nCon las palmas enfrentadas el hombro queda más cómodo. Mirá cómo hacer las aperturas inversas con agarre paralelo. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el asiento para que las manijas queden a la altura del pecho.\n2️⃣ Elegí un peso liviano para empezar.\n\n📋 PASO A PASO\n1️⃣ Sentate con el pecho contra la almohadilla y los pies planos.\n2️⃣ Agarrá las manijas con las palmas enfrentadas y los codos apenas flexionados.\n3️⃣ Abrí los brazos hacia atrás y afuera, juntando las escápulas.\n4️⃣ Hacé una pausa atrás y volvé lento a la posición inicial.\n\n❌ ERRORES COMUNES\n• Doblar los codos → se vuelve un remo.\n• Despegar el pecho del apoyo → quedate apoyado.\n• Abrir más allá de la línea del hombro → frená ahí.\n\n💡 TIPS DEL PROFE\n• Pecho apoyado en la almohadilla.\n• Palmas enfrentadas y codos casi fijos.\n• Abrí hasta la línea del hombro.\n• Pausa atrás y volvé lento.\n\n🎯 QUÉ TRABAJA\nDeltoides posterior · Trapecios · Romboides\n\n⏱️ CUÁNTO\n3 series de 12–15 repeticiones, con 45 segundos de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #ReverseFly #Hombros #DeltoidesPosterior #AgarreParalelo #Musculacion #Entrenamiento"
+  }
+}

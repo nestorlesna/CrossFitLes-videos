@@ -1,0 +1,697 @@
+{
+  "slug": "lever-reverse-hyperextension",
+  "name": "Lever Reverse Hyperextension",
+  "maquina": true,
+  "category": "GIMNASIO · GLÚTEOS",
+  "tags": [
+    "Glúteos",
+    "Isquiotibiales"
+  ],
+  "descripcion": "Boca abajo con la cadera en la almohadilla y las piernas colgando. Subí las piernas con los glúteos y bajá lento.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1506.8,
+    "scale": 0.74
+  },
+  "shadow": false,
+  "initialPose": "REST",
+  "props": [
+    {
+      "type": "backext45",
+      "foot": [
+        0,
+        -60
+      ],
+      "pad": [
+        359,
+        -332
+      ],
+      "roll": false,
+      "ang": 45
+    }
+  ],
+  "poses": {
+    "REST": {
+      "hip": [
+        329.5,
+        -389.5
+      ],
+      "ankle": [
+        0,
+        -60
+      ],
+      "b": 45,
+      "hd": 50,
+      "ft": 45,
+      "g": 0,
+      "ua": -19,
+      "fa": 140
+    },
+    "MID": {
+      "hip": [
+        329.5,
+        -389.5
+      ],
+      "ankle": [
+        -110,
+        -229
+      ],
+      "b": 45,
+      "hd": 50,
+      "ft": 45,
+      "g": 0,
+      "ua": -19,
+      "fa": 140
+    },
+    "TOP": {
+      "hip": [
+        329.5,
+        -389.5
+      ],
+      "ankle": [
+        -137,
+        -430
+      ],
+      "b": 45,
+      "hd": 45,
+      "ft": 45,
+      "g": 0,
+      "ua": -19,
+      "fa": 140
+    },
+    "HIP_BAD": {
+      "hip": [
+        329.5,
+        -389.5
+      ],
+      "ankle": [
+        -137,
+        -430
+      ],
+      "b": 26,
+      "hd": 30,
+      "ft": 45,
+      "g": 0,
+      "ua": 0,
+      "fa": 140
+    },
+    "ARCH_BAD": {
+      "hip": [
+        329.5,
+        -389.5
+      ],
+      "ankle": [
+        -110,
+        -550
+      ],
+      "b": 62,
+      "hd": 72,
+      "ft": 45,
+      "g": 0,
+      "cv": -20,
+      "ua": -36,
+      "fa": 140
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · GLÚTEOS",
+      "head": [
+        "REVERSE",
+        "HYPER"
+      ],
+      "sub": "Piernas hacia arriba",
+      "vo": "Lever Reverse Hyperextension: la extensión inversa, boca abajo, para glúteos e isquiotibiales.",
+      "moves": [
+        {
+          "cut": "REST",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "REST",
+              1.0
+            ],
+            [
+              "TOP",
+              1.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Almohadilla en la cadera",
+      "vo": "La cadera va en el borde de la almohadilla y las piernas cuelgan libres. Trabaja glúteos e isquiotibiales.",
+      "moves": [
+        {
+          "cut": "REST",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            736,
+            1261
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            760
+          ],
+          "text": "ALMOHADILLA",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            470,
+            1462
+          ],
+          "r": 40,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            760
+          ],
+          "text": "APOYO DE PIES",
+          "anchor": "start",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "ALTURA",
+        "DE LA CADERA"
+      ],
+      "sub": "En el borde",
+      "vo": "Ajustá la máquina para que la cadera quede en el borde de la almohadilla y las piernas cuelguen libres.",
+      "moves": [
+        {
+          "cut": "REST",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            736,
+            1261
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            760
+          ],
+          "text": "CADERA EN EL BORDE",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "PESO",
+        "MODERADO"
+      ],
+      "sub": "Brazos cruzados",
+      "vo": "Cruzate los brazos sobre el pecho o tomá las asas. Elegí un peso moderado para empezar.",
+      "moves": [
+        {
+          "cut": "REST",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            760
+          ],
+          "text": "BRAZOS CRUZADOS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BOCA",
+        "ABAJO"
+      ],
+      "sub": "Cuerpo en línea",
+      "vo": "Apoyá la cadera en la almohadilla, el torso firme y las piernas colgando, sin arquear la lumbar.",
+      "moves": [
+        {
+          "cut": "REST",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            760
+          ],
+          "text": "SIN ARQUEAR",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SUBÍ LAS",
+        "PIERNAS"
+      ],
+      "sub": "Con los glúteos",
+      "vo": "Paso uno. Activá los glúteos y subí las piernas hasta quedar en línea con el torso.",
+      "moves": [
+        {
+          "cut": "REST",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.5,
+          "dur": 0.9
+        },
+        {
+          "to": "TOP",
+          "at": 1.4,
+          "dur": 1.2
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            369,
+            1189
+          ],
+          "r": 44,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            760
+          ],
+          "text": "PIERNAS EN LÍNEA",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "APRETÁ",
+        "ARRIBA"
+      ],
+      "sub": "Un segundo",
+      "vo": "Paso dos. Arriba, apretá los glúteos un segundo sin arquear la lumbar.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            714,
+            1219
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            760
+          ],
+          "text": "APRETÁ LOS GLÚTEOS",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "LENTO"
+      ],
+      "sub": "Sin hamacarte",
+      "vo": "Paso tres. Bajá las piernas lento, sin dejarlas caer de golpe.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "REST",
+          "at": 0.6,
+          "dur": 2.2
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            760
+          ],
+          "text": "SIN DEJAR CAER",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá al subir",
+      "vo": "Soltá el aire al subir las piernas y tomá aire al bajarlas.",
+      "moves": [
+        {
+          "cut": "REST",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.4
+            ],
+            [
+              "REST",
+              2.0
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 2",
+      "head": [
+        "IMPULSO DE",
+        "CADERA"
+      ],
+      "sub": "Sin hamacarte",
+      "vo": "Error: hamacarte y usar impulso. Subí con los glúteos, sin mover el torso.",
+      "moves": [
+        {
+          "cut": "REST",
+          "at": 0
+        },
+        {
+          "to": "HIP_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            805,
+            1032
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 2",
+      "head": [
+        "ARQUEAR",
+        "LA LUMBAR"
+      ],
+      "sub": "Costillas abajo",
+      "vo": "Error: arquear la lumbar para subir más. Las costillas quedan abajo y el movimiento sale de la cadera.",
+      "moves": [
+        {
+          "cut": "REST",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            897,
+            1121
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Cadera en el borde",
+        "Costillas abajo",
+        "Subí con los glúteos",
+        "Bajá sin soltar"
+      ],
+      "vo": "Tips de profe: cadera en el borde, costillas abajo, subí con los glúteos y bajá sin soltar.",
+      "moves": [
+        {
+          "cut": "REST",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "REST",
+              1.0
+            ],
+            [
+              "TOP",
+              1.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Cadera en el borde",
+        "Piernas en línea",
+        "Sin arquear la lumbar",
+        "Bajada lenta"
+      ],
+      "vo": "Claves: cadera en el borde, piernas en línea, sin arquear la lumbar y bajada lenta.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12-15"
+      ],
+      "sub": "Un minuto de pausa",
+      "vo": "Tres series de doce a quince, con un minuto de pausa. Subí una placa cuando las quince salgan fáciles.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ LENTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "REST",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "REST",
+              1.0
+            ],
+            [
+              "TOP",
+              1.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "BAJÁ CON",
+        "CONTROL"
+      ],
+      "sub": "Y salí despacio",
+      "vo": "Al terminar, bajá las piernas despacio y salí de la máquina apoyando las manos.",
+      "moves": [
+        {
+          "cut": "REST",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.8,
+          "dur": 0.9
+        },
+        {
+          "to": "REST",
+          "at": 1.8,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            130,
+            760
+          ],
+          "text": "SALÍ DESPACIO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "TOP",
+    "grip": 0,
+    "zoom": 1.0,
+    "dy": 140
+  },
+  "youtube": {
+    "titulo": "Lever Reverse Hyperextension 🔥 Extensión inversa para glúteos | Gimnasio",
+    "tags": [
+      "lever reverse hyperextension",
+      "reverse hyperextension",
+      "extensión inversa",
+      "glúteos en máquina",
+      "isquiotibiales",
+      "glúteos",
+      "espalda baja",
+      "máquina de palanca",
+      "gimnasio",
+      "principiantes"
+    ],
+    "descripcion": "🔥 LEVER REVERSE HYPEREXTENSION (extensión inversa de piernas en máquina) — glúteos e isquiotibiales sin cargar la lumbar\n\n¿Buscás glúteos fuertes sin que la lumbar pague el precio? La extensión inversa es la respuesta. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá la cadera en el borde de la almohadilla.\n2️⃣ Cruzate los brazos y elegí un peso moderado.\n\n📋 PASO A PASO\n1️⃣ Boca abajo, cadera en la almohadilla y piernas colgando.\n2️⃣ Activá los glúteos y subí las piernas en línea con el torso.\n3️⃣ Apretá un segundo arriba, sin arquear la lumbar.\n4️⃣ Bajá las piernas lento, sin dejarlas caer.\n\n❌ ERRORES COMUNES\n• Hamacarte con impulso → subí con los glúteos, torso quieto.\n• Arquear la lumbar → costillas abajo, movimiento de cadera.\n• Dejar caer las piernas → bajada lenta y controlada.\n\n💡 TIPS DEL PROFE\n• Cadera en el borde de la almohadilla.\n• Costillas abajo y core activo.\n• Las piernas llegan en línea con el torso.\n• Apretá los glúteos arriba.\n• Bajá sin soltar el peso.\n\n🎯 QUÉ TRABAJA\nGlúteos · Isquiotibiales · Lumbares\n\n⏱️ CUÁNTO\n3 series de 12–15 repeticiones, con 1 minuto de pausa. Nivel: intermedio.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #ReverseHyperextension #Gluteos #Isquiotibiales #Musculacion #Entrenamiento"
+  }
+}

@@ -1,0 +1,750 @@
+{
+  "slug": "lever-standing-chest-press",
+  "name": "Lever Standing Chest Press",
+  "maquina": true,
+  "category": "GIMNASIO · PECHO",
+  "tags": [
+    "Pectorales",
+    "Hombros"
+  ],
+  "descripcion": "Parate frente a la máquina con los pies planos y las manijas a la altura del pecho. Empujá hacia adelante hasta estirar los brazos y volvé lento al pecho.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 740,
+    "y": 1510.9,
+    "scale": 0.62
+  },
+  "shadow": false,
+  "initialPose": "START",
+  "props": [
+    {
+      "type": "chestpress",
+      "pivot": [
+        -30,
+        -1010
+      ],
+      "frameTop": -1070,
+      "stack": -640,
+      "seat": [
+        -260,
+        -40,
+        -40
+      ],
+      "stand": true,
+      "pin": 5
+    }
+  ],
+  "poses": {
+    "START": {
+      "hip": [
+        0,
+        -455
+      ],
+      "ankle": [
+        15,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": 3,
+      "hd": 0,
+      "ua": -2,
+      "fa": 116
+    },
+    "MID": {
+      "hip": [
+        0,
+        -455
+      ],
+      "ankle": [
+        15,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": 3,
+      "hd": 0,
+      "ua": 46,
+      "fa": 66
+    },
+    "OUT": {
+      "hip": [
+        0,
+        -455
+      ],
+      "ankle": [
+        15,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": 3,
+      "hd": 0,
+      "ua": 86,
+      "fa": 8
+    },
+    "LEAN_BAD": {
+      "hip": [
+        0,
+        -455
+      ],
+      "ankle": [
+        15,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": 22,
+      "hd": 14,
+      "cv": -14,
+      "ua": 40,
+      "fa": 72
+    },
+    "LOCK_BAD": {
+      "hip": [
+        0,
+        -455
+      ],
+      "ankle": [
+        15,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": 3,
+      "hd": 0,
+      "ua": 94,
+      "fa": -10
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PECHO",
+      "head": [
+        "STANDING",
+        "PRESS"
+      ],
+      "sub": "Pecho de pie en máquina",
+      "vo": "Lever Standing Chest Press: el press de pecho de pie en máquina de palanca, con los pies firmes.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "OUT",
+              1.0
+            ],
+            [
+              "START",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Palanca a la altura del pecho",
+      "vo": "La palanca sale de arriba y las manijas quedan a la altura del pecho. Trabaja pectorales, hombros y tríceps.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            836,
+            1122
+          ],
+          "r": 36,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1040
+          ],
+          "text": "MANIJAS AL PECHO",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            375,
+            1415
+          ],
+          "r": 30,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1400
+          ],
+          "text": "PASADOR",
+          "anchor": "end",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            749,
+            1511
+          ],
+          "r": 36,
+          "at": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1470
+          ],
+          "text": "PIES FIRMES",
+          "anchor": "end",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "ALTURA DE",
+        "LAS MANIJAS"
+      ],
+      "sub": "A la mitad del pecho",
+      "vo": "Ajustá la máquina para que las manijas queden a la altura de la mitad del pecho, no del cuello.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            836,
+            1122
+          ],
+          "r": 36,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1040
+          ],
+          "text": "MITAD DEL PECHO",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "PESO"
+      ],
+      "sub": "Con el pasador",
+      "vo": "Elegí el peso con el pasador: uno que puedas empujar diez veces sin mover los pies.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            375,
+            1415
+          ],
+          "r": 30,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1400
+          ],
+          "text": "PASADOR",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PIES",
+        "FIRMES"
+      ],
+      "sub": "De pie, cuerpo derecho",
+      "vo": "Parate frente a la máquina con los pies planos y separados. Agarrá las manijas y mantené el cuerpo derecho.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1100
+          ],
+          "text": "CUERPO DERECHO",
+          "anchor": "start",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            749,
+            1511
+          ],
+          "r": 36,
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "EMPUJÁ",
+        "ADELANTE"
+      ],
+      "sub": "Sin mover los pies",
+      "vo": "Paso uno. Empujá las manijas hacia adelante hasta estirar los brazos, sin mover los pies.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 1.0
+        },
+        {
+          "to": "OUT",
+          "at": 1.6,
+          "dur": 1.0
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            876,
+            1098
+          ],
+          "to": [
+            954,
+            1032
+          ],
+          "at": 0.8,
+          "dur": 1.1
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1250
+          ],
+          "text": "HACIA ADELANTE",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "SIN",
+        "TRABAR"
+      ],
+      "sub": "Codos casi estirados",
+      "vo": "Paso dos. Llegá hasta casi estirar los codos, sin trabarlos de golpe.",
+      "moves": [
+        {
+          "cut": "OUT",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            855,
+            1063
+          ],
+          "r": 36,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1130
+          ],
+          "text": "CODOS SIN TRABAR",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "VOLVÉ",
+        "LENTO"
+      ],
+      "sub": "Hasta el pecho",
+      "vo": "Paso tres. Volvé lento hasta el pecho, sin dejar que las placas se apoyen.",
+      "moves": [
+        {
+          "cut": "OUT",
+          "at": 0
+        },
+        {
+          "to": "START",
+          "at": 0.6,
+          "dur": 2.2
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            375,
+            1415
+          ],
+          "r": 34,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1400
+          ],
+          "text": "SIN APOYAR",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al empujar",
+      "vo": "Soltá el aire mientras empujás y tomalo mientras volvés. No aguantes el aire.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "OUT",
+              1.0
+            ],
+            [
+              "START",
+              2.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 2",
+      "head": [
+        "INCLINAR",
+        "EL CUERPO"
+      ],
+      "sub": "Cuerpo derecho",
+      "vo": "Error: inclinar todo el cuerpo hacia adelante para empujar. Usá el pecho, no el peso del cuerpo.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            805,
+            1068
+          ],
+          "r": 56,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 2",
+      "head": [
+        "TRABAR",
+        "LOS CODOS"
+      ],
+      "sub": "Casi estirado, nunca trabado",
+      "vo": "Error: trabar los codos de golpe al final. Llegá casi estirado y empezá a volver.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "LOCK_BAD",
+          "at": 0.5,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            855,
+            1048
+          ],
+          "r": 36,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Manijas al pecho",
+        "Pies firmes",
+        "Codos a 45°",
+        "Volvé sin apoyar"
+      ],
+      "vo": "Tips de profe: manijas a la mitad del pecho, pies firmes, codos a cuarenta y cinco grados y volvé sin apoyar.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "OUT",
+              1.0
+            ],
+            [
+              "START",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Cuerpo derecho",
+        "Pies firmes",
+        "Sin trabar los codos",
+        "Volvé lento"
+      ],
+      "vo": "Claves: cuerpo derecho, pies firmes, sin trabar los codos y volvé lento.",
+      "moves": [
+        {
+          "cut": "OUT",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10-12"
+      ],
+      "sub": "Un minuto y medio de pausa",
+      "vo": "Tres series de diez a doce, con un minuto y medio de pausa. Cuando las doce salgan fáciles, subí una placa.",
+      "chips": [
+        {
+          "label": "1 · EMPUJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · SIN TRABAR",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ LENTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "OUT",
+              1.0
+            ],
+            [
+              "START",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "DEJÁ EL",
+        "PESO"
+      ],
+      "sub": "Sin soltar de golpe",
+      "vo": "Al terminar, volvé despacio, soltá las manijas y dejá el peso apoyado. No lo sueltes de golpe.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 1.0,
+          "dur": 1.0
+        },
+        {
+          "to": "START",
+          "at": 2.2,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1400
+          ],
+          "text": "PESO APOYADO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "OUT",
+    "grip": 0,
+    "zoom": 1.12,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Lever Standing Chest Press 🔥 Press de pecho de pie | Gimnasio",
+    "tags": [
+      "lever standing chest press",
+      "press de pecho de pie",
+      "pecho de pie en máquina",
+      "pectorales",
+      "hombros",
+      "máquina de palanca",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de pecho"
+    ],
+    "descripcion": "🔥 LEVER STANDING CHEST PRESS (press de pecho de pie en máquina de palanca) — pecho y hombro sin sentarte\n\n¿La máquina de press de pecho está ocupada? Esta versión se hace de pie y trabaja igual. Mirá cómo se usa. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá la máquina para que las manijas queden a la mitad del pecho.\n2️⃣ Elegí un peso que puedas empujar 10 veces sin mover los pies.\n\n📋 PASO A PASO\n1️⃣ Parate frente a la máquina con los pies planos y separados.\n2️⃣ Agarrá las manijas y mantené el cuerpo derecho.\n3️⃣ Empujá hacia adelante hasta casi estirar los brazos.\n4️⃣ Volvé lento hasta el pecho, sin apoyar las placas.\n\n❌ ERRORES COMUNES\n• Inclinar todo el cuerpo → usá el pecho, no el peso del cuerpo.\n• Trabar los codos → casi estirado, nunca trabado.\n• Pies juntos o en puntas → pies planos y firmes.\n\n💡 TIPS DEL PROFE\n• Manijas a la mitad del pecho.\n• Pies planos y firmes.\n• Codos a unos 45° del cuerpo.\n• Empujá sin trabar codos.\n• Volvé sin apoyar las placas.\n\n🎯 QUÉ TRABAJA\nPectorales · Hombros anteriores · Tríceps\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto y medio de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #LeverStandingChestPress #Pecho #Pectorales #Musculacion #Entrenamiento"
+  }
+}

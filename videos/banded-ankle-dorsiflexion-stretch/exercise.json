@@ -9,368 +9,244 @@
   ],
   "descripcion": "Con una banda elástica anclada al suelo alrededor del tobillo, empujar la rodilla hacia adelante sobre los dedos del pie para abrir el rango de dorsiflexión del tobillo. Mantener el talón apoyado en el suelo.",
   "revisado": false,
-  "notas": "Con banda baja anclada al suelo alrededor del tobillo; talón siempre apoyado y rodilla que va hacia adelante sobre los dedos.",
+  "notas": "Con banda baja anclada al suelo alrededor del tobillo (prop band hand ankle); talón apoyado y rodilla que avanza sobre los dedos.",
   "music": true,
   "musicVolume": 0.18,
   "rig": {
-    "x": 460,
-    "y": 1510,
-    "scale": 0.82
+    "x": 585,
+    "y": 1490,
+    "scale": 1.05
   },
+  "initialPose": "SETUP",
   "props": [
     {
       "type": "band",
       "anchor": [
-        200,
-        100
+        -80,
+        10
       ],
-      "post": [
-        200,
-        650
-      ],
-      "hand": "near",
-      "layer": "mid"
+      "hand": "ankle",
+      "w": 12
     }
   ],
-  "pronuncia": {
-    "Banded Ankle Dorsiflexion Stretch": "Bánded ánkel dorsifléxion stréch"
-  },
-  "initialPose": "STAND",
   "poses": {
-    "STAND": {
-      "s": 0,
-      "t": 0,
-      "b": 0,
+    "SETUP": {
+      "rx": 250,
+      "ry": -0.5,
+      "s": 2.32,
+      "t": -94.38,
+      "s2": 96,
+      "t2": 18.19,
+      "ft": 0,
+      "ft2": 0,
+      "b": 3,
       "hd": 0,
       "g": 0,
-      "ua": 4,
-      "fa": 6,
-      "fl": 1,
-      "ua2": -4,
-      "fa2": 6
+      "ua": 22,
+      "fa": 40,
+      "ua2": 18,
+      "fa2": 45
     },
-    "START": {
-      "s": 0,
-      "t": 0,
-      "b": 0,
-      "hd": 0,
+    "PUSH": {
+      "rx": 250,
+      "ry": -0.5,
+      "s": 21.5,
+      "t": -94.42,
+      "s2": 96,
+      "t2": 27.95,
+      "ft": 0,
+      "ft2": 0,
+      "b": 8,
+      "hd": -2,
       "g": 0,
-      "ua": 2,
-      "fa": 88,
-      "fl": 1,
-      "ua2": -4,
-      "fa2": 6
+      "ua": 22,
+      "fa": 40,
+      "ua2": 18,
+      "fa2": 45
     },
-    "OUT": {
-      "s": 0,
-      "t": 0,
-      "b": 0,
-      "hd": 0,
+    "HOLD": {
+      "rx": 250,
+      "ry": -0.5,
+      "s": 14.89,
+      "t": -94.97,
+      "s2": 96,
+      "t2": 24.72,
+      "ft": 0,
+      "ft2": 0,
+      "b": 6,
+      "hd": -1,
       "g": 0,
-      "ua": 2,
-      "fa": 88,
-      "fl": 0.26,
-      "ua2": -4,
-      "fa2": 6
+      "ua": 22,
+      "fa": 40,
+      "ua2": 18,
+      "fa2": 45
     },
-    "ELBOW_BAD": {
-      "s": 0,
-      "t": 0,
-      "b": 0,
-      "hd": 0,
-      "g": 0,
-      "ua": 26,
-      "fa": 64,
-      "fl": 0.3,
-      "ul": 0.8,
-      "ua2": -4,
-      "fa2": 6
-    },
-    "JERK_BAD": {
-      "s": 0,
-      "t": 0,
+    "HIP_BACK_BAD": {
+      "rx": 250,
+      "ry": -0.5,
+      "s": 2.32,
+      "t": -94.38,
+      "s2": 96,
+      "t2": 50.7,
+      "ft": 0,
+      "ft2": 0,
       "b": -6,
-      "hd": -4,
+      "hd": -8,
       "g": 0,
-      "ua": 2,
-      "fa": 88,
-      "fl": 0.1,
-      "ua2": -4,
-      "fa2": 6
+      "ua": 22,
+      "fa": 40,
+      "ua2": 18,
+      "fa2": 45
     }
+  },
+  "miniatura": {
+    "pose": "PUSH",
+    "grip": 0,
+    "zoom": 1.05,
+    "dy": 120
   },
   "frames": [
     {
       "kind": "hook",
-      "min": 4.6,
+      "min": 4.8,
       "badge": "CROSSFIT · ENTRADA EN CALOR",
       "head": [
-        "BAND EXTERNAL",
-        "ROTATION"
+        "BANDED ANKLE",
+        "DORSIFLEXION"
       ],
-      "topview": {
-        "mode": "er",
-        "label": "CODO PEGADO"
-      },
-      "vo": "Band External Rotation: rotación externa del hombro con banda. Salud para el manguito rotador.",
+      "vo": "Banded Ankle Dorsiflexion Stretch: banda en el tobillo para ganar rango y sentarte hondo sin levantar el talón.",
       "moves": [
         {
-          "to": "START",
-          "at": 0.2,
-          "dur": 0.5
-        },
-        {
-          "seq": [
-            [
-              "OUT",
-              1
-            ],
-            [
-              "START",
-              1.1
-            ]
-          ],
-          "at": 0.8,
-          "until": "end"
-        }
-      ]
-    },
-    {
-      "min": 5.6,
-      "badge": "POSICIÓN INICIAL",
-      "head": [
-        "CODO A 90°",
-        "PEGADO"
-      ],
-      "sub": "Ancla a la altura de la cintura",
-      "topview": {
-        "mode": "er",
-        "label": "CODO PEGADO"
-      },
-      "vo": "Parate de costado al ancla, con la banda a la altura de la cintura. Codo pegado al cuerpo, doblado a noventa grados.",
-      "moves": [
-        {
-          "cut": "STAND",
+          "cut": "SETUP",
           "at": 0
         },
         {
-          "to": "START",
-          "at": 0.8,
-          "dur": 0.9
-        }
-      ],
-      "overlays": [
-        {
-          "type": "ring",
-          "pos": [
-            434.8,
-            1042.5
-          ],
-          "r": 50,
-          "at": 2
+          "to": "PUSH",
+          "at": 0.7,
+          "dur": 1.1
         },
         {
-          "type": "label",
-          "pos": [
-            362.8,
-            1050.5
-          ],
-          "text": "90°",
-          "anchor": "end",
-          "at": 2.2
-        }
-      ]
-    },
-    {
-      "min": 5.6,
-      "numeral": "1",
-      "badge": "PASO 1 / 4",
-      "head": [
-        "ROTÁ",
-        "HACIA AFUERA"
-      ],
-      "sub": "Contra la banda",
-      "topview": {
-        "mode": "er",
-        "label": "CODO PEGADO"
-      },
-      "vo": "Paso uno. Rotá el antebrazo hacia afuera contra la resistencia de la banda, como una puerta que se abre.",
-      "moves": [
-        {
-          "cut": "START",
-          "at": 0
-        },
-        {
-          "to": "OUT",
-          "at": 0.6,
-          "dur": 1.2
-        }
-      ],
-      "overlays": [
-        {
-          "type": "label",
-          "pos": [
-            334,
-            665
-          ],
-          "text": "COMO UNA PUERTA",
-          "anchor": "middle",
-          "at": 1.4
-        }
-      ]
-    },
-    {
-      "min": 5.8,
-      "numeral": "2",
-      "badge": "PASO 2 / 4",
-      "head": [
-        "EL CODO",
-        "NO SE SEPARA"
-      ],
-      "sub": "En ningún momento",
-      "topview": {
-        "mode": "er",
-        "label": "CODO PEGADO"
-      },
-      "vo": "Paso dos. El codo no se separa del cuerpo en ningún momento. Es la clave del ejercicio.",
-      "moves": [
-        {
-          "cut": "START",
-          "at": 0
-        },
-        {
-          "to": "OUT",
-          "at": 0.5,
-          "dur": 1
-        },
-        {
-          "to": "START",
-          "at": 1.6,
-          "dur": 0.6
-        },
-        {
-          "to": "ELBOW_BAD",
+          "to": "HOLD",
           "at": 2.4,
-          "dur": 0.6
-        },
-        {
-          "to": "START",
-          "at": 3.8,
-          "dur": 0.6
-        }
-      ],
-      "overlays": [
-        {
-          "type": "label",
-          "pos": [
-            362.8,
-            1050.5
-          ],
-          "text": "PEGADO",
-          "anchor": "end",
-          "at": 0.8,
-          "out": 2.4
-        },
-        {
-          "type": "label",
-          "pos": [
-            362.8,
-            1050.5
-          ],
-          "text": "ASÍ NO",
-          "anchor": "end",
-          "at": 2.8,
-          "out": 3.8
-        }
-      ]
-    },
-    {
-      "min": 5.6,
-      "numeral": "3",
-      "badge": "PASO 3 / 4",
-      "head": [
-        "SIN",
-        "TIRONES"
-      ],
-      "sub": "Rango controlado",
-      "topview": {
-        "mode": "er",
-        "label": "CODO PEGADO"
-      },
-      "vo": "Paso tres. Rango controlado y sin tirones: salí y volvé lento, sin girar el torso.",
-      "moves": [
-        {
-          "cut": "START",
-          "at": 0
-        },
-        {
-          "to": "OUT",
-          "at": 0.5,
-          "dur": 1.4
-        },
-        {
-          "to": "START",
-          "at": 2.2,
-          "dur": 1.4
-        }
-      ],
-      "overlays": [
-        {
-          "type": "label",
-          "pos": [
-            334,
-            665
-          ],
-          "text": "LENTO",
-          "anchor": "middle",
-          "at": 0.8
+          "dur": 0.8
         }
       ]
     },
     {
       "min": 5.4,
-      "numeral": "4",
-      "badge": "PASO 4 / 4",
+      "badge": "POSICIÓN INICIAL",
       "head": [
-        "CAMBIÁ",
-        "DE LADO"
+        "MEDIO",
+        "ARRODILLADO"
       ],
-      "sub": "Cada lado por separado",
-      "topview": {
-        "mode": "er",
-        "label": "CODO PEGADO"
-      },
-      "vo": "Paso cuatro. Terminá las repeticiones y cambiá de lado: cada brazo por separado.",
-      "moves": [
-        {
-          "cut": "START",
-          "at": 0
-        },
-        {
-          "to": "OUT",
-          "at": 0.4,
-          "dur": 1
-        },
-        {
-          "cut": "START",
-          "at": 2.2
-        },
-        {
-          "to": "OUT",
-          "at": 2.8,
-          "dur": 1
-        }
-      ],
+      "sub": "Pie de adelante apoyado",
+      "vo": "Arrodillate con una rodilla en el piso y la otra pierna adelante, con el pie bien apoyado y el talón abajo.",
       "overlays": [
         {
           "type": "label",
           "pos": [
-            334,
-            665
+            560,
+            1450
           ],
-          "text": "EL OTRO BRAZO",
-          "anchor": "middle",
-          "at": 2.4
+          "text": "TALÓN AL PISO",
+          "anchor": "start",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "RODILLA",
+        "ADELANTE"
+      ],
+      "sub": "Sobre la punta del pie",
+      "vo": "Paso uno. Empujá la rodilla de adelante sobre la punta del pie, sin que el talón se despegue.",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": {
+            "j": "SETUP.K",
+            "dx": 10,
+            "dy": -20
+          },
+          "to": {
+            "j": "PUSH.K",
+            "dx": 10,
+            "dy": -20
+          },
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "PUSH",
+          "at": 0.6,
+          "dur": 1.5
+        }
+      ]
+    },
+    {
+      "min": 6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "SOSTENÉ",
+        "30 SEG"
+      ],
+      "sub": "Respirando",
+      "vo": "Paso dos. Sostené treinta segundos, respirando y empujando la rodilla apenas un poco más en cada respiración.",
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 6.2,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "CADERA",
+        "ATRÁS"
+      ],
+      "sub": "El error más común",
+      "vo": "Así no: si tirás la cadera atrás para escapar de la banda, la rodilla no avanza y el tobillo no gana rango. Volvé a la posición.",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            230,
+            1240
+          ],
+          "text": "NO ESCAPES",
+          "anchor": "start",
+          "at": 1
+        }
+      ],
+      "moves": [
+        {
+          "cut": "HOLD",
+          "at": 0
+        },
+        {
+          "to": "HIP_BACK_BAD",
+          "at": 1,
+          "dur": 0.8
         }
       ]
     },
@@ -381,96 +257,74 @@
       "head": [
         "TÉCNICA"
       ],
-      "shrink": 0.75,
       "keys": [
-        "Codo pegado al cuerpo",
-        "Codo a 90°",
-        "Sin tirones",
-        "Cada lado por separado"
+        "El talón nunca se levanta",
+        "Rodilla sobre la punta del pie",
+        "Movimiento lento y controlado",
+        "Un tobillo por vez"
       ],
-      "vo": "Claves: codo pegado al cuerpo y a noventa grados, movimiento controlado sin tirones y cada lado por separado.",
+      "vo": "Claves: el talón nunca se levanta, la rodilla va sobre la punta del pie, movimiento lento y un tobillo por vez.",
       "moves": [
         {
-          "cut": "START",
+          "cut": "HOLD",
           "at": 0.1
-        },
-        {
-          "seq": [
-            [
-              "OUT",
-              1
-            ],
-            [
-              "START",
-              1.1
-            ]
-          ],
-          "at": 0.6,
-          "until": "end"
         }
       ]
     },
     {
       "kind": "reps",
-      "min": 6.5,
+      "min": 6.8,
       "badge": "A ENTRENAR",
       "head": [
-        "6 REPS"
+        "30 SEGUNDOS"
       ],
-      "sub": "Por lado",
-      "vo": "Seis repeticiones por lado. Fundamental para cuidar los hombros antes de la arrancada.",
+      "sub": "Cada tobillo",
       "chips": [
         {
-          "label": "1 · AFUERA",
-          "at": 0.5
+          "label": "1 · EMPUJÁ",
+          "at": 0.6
         },
         {
-          "label": "2 · ADENTRO",
-          "at": 1.5
+          "label": "2 · SOSTENÉ",
+          "at": 2.2
         }
       ],
+      "vo": "Treinta segundos con cada tobillo. Hacelo antes de sentadillas o de cualquier trabajo profundo de piernas.",
       "moves": [
-        {
-          "cut": "START",
-          "at": 0
-        },
         {
           "seq": [
             [
-              "OUT",
-              1
+              "SETUP",
+              1.2
             ],
             [
-              "START",
-              1.1
+              "PUSH",
+              1.4
+            ],
+            [
+              "HOLD",
+              1.6
             ]
           ],
-          "at": 0.5,
+          "at": 0.4,
           "until": "end"
         }
       ]
     }
   ],
-  "miniatura": {
-    "pose": "OUT",
-    "grip": 0,
-    "zoom": 1.15,
-    "dy": 160
-  },
   "youtube": {
-    "titulo": "Band External Rotation 🛡️ Rotación externa de hombro con banda | CrossFit",
+    "titulo": "Banded Ankle Dorsiflexion Stretch 🔥 Ganá rango de tobillo paso a paso | CrossFit",
     "tags": [
-      "band external rotation",
-      "rotación externa de hombro",
-      "rotación externa con banda",
-      "manguito rotador",
-      "banda elástica",
-      "movilidad de hombro",
+      "banded ankle dorsiflexion stretch",
+      "dorsiflexión de tobillo con banda",
+      "movilidad de tobillo",
+      "estiramiento de gemelos",
+      "tobillo con banda",
+      "sentadilla profunda",
+      "movilidad crossfit",
       "entrada en calor",
-      "crossfit",
-      "activación",
-      "prevención de lesiones"
+      "crossfit"
     ],
-    "descripcion": "🛡️ BAND EXTERNAL ROTATION — Rotación externa con banda: hombros sanos para levantar\n\n¿Hacés snatch, press o kipping? Tus hombros necesitan un manguito rotador fuerte. Esta activación con banda lleva dos minutos. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate de costado al ancla, con la banda a la altura de la cintura. Codo pegado al cuerpo, doblado a 90°.\n2️⃣ Rotá el antebrazo hacia afuera contra la resistencia de la banda.\n3️⃣ El codo no se separa del cuerpo en ningún momento.\n4️⃣ Rango controlado y sin tirones: salí y volvé lento.\n5️⃣ Terminá las repeticiones y cambiá de lado.\n\n✅ CLAVES DE TÉCNICA\n• El codo NO se separa del cuerpo\n• Codo doblado a 90°\n• Rango controlado, sin tirones\n• Cada lado por separado\n\n🎯 QUÉ TRABAJA\nDeltoides posterior · Deltoides lateral · Romboides · Trapecio medio · Manguito rotador\n\n⏱️ CUÁNTO\n6 repeticiones por lado. Va en la entrada en calor y la activación, sobre todo antes de la arrancada.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi sentís dolor (no esfuerzo) en el hombro, frená y consultá.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #Hombros #ManguitoRotador #Entrenamiento"
+    "descripcion": "🔥 BANDED ANKLE DORSIFLEXION STRETCH — Ganá rango de tobillo para sentarte más profundo\n\n¿Te cuesta bajar en la sentadilla sin levantar los talones? Este estiramiento con banda te abre el tobillo en serio. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Arrodillate con una rodilla en el piso y la otra pierna adelante, con el pie bien apoyado y el talón abajo.\n2️⃣ Pasá la banda alrededor del tobillo de adelante y anclala bien bajo, atrás.\n3️⃣ Empujá la rodilla sobre la punta del pie, sin despegar el talón.\n4️⃣ Sostené treinta segundos respirando y empujá apenas un poco más en cada respiración.\n5️⃣ Cambiá de tobillo y repetí.\n\n✅ CLAVES DE TÉCNICA\n• El talón SIEMPRE apoyado en el piso\n• La rodilla avanza sobre la punta del pie\n• El arco del pie no colapsa hacia adentro\n• Movimiento lento y controlado, sin rebotes\n• Un tobillo por vez\n\n🎯 QUÉ TRABAJA\nGastrocnemio · Sóleo · Recto femoral\n\n⏱️ CUÁNTO\n30 segundos por tobillo. Ideal en la entrada en calor, antes de sentadillas o de cualquier trabajo profundo de piernas.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\nSi nunca hiciste movilidad de tobillo con banda, empezá con una banda suave y con un coach al lado.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #EntradaEnCalor #BandedAnkleDorsiflexion #Gemelos #Entrenamiento"
   }
 }

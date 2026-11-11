@@ -1,0 +1,763 @@
+{
+  "slug": "lever-decline-chest-press",
+  "name": "Lever Decline Chest Press",
+  "maquina": true,
+  "category": "GIMNASIO · PECHO",
+  "tags": [
+    "Pectorales",
+    "Tríceps"
+  ],
+  "descripcion": "Sentate con la espalda apoyada en el respaldo reclinado y los pies planos. Empujá las manijas hacia adelante hasta estirar los brazos y volvé lento al pecho.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 740,
+    "y": 1509.6,
+    "scale": 0.66
+  },
+  "shadow": false,
+  "initialPose": "START",
+  "props": [
+    {
+      "type": "chestpress",
+      "pivot": [
+        -30,
+        -1010
+      ],
+      "frameTop": -1070,
+      "stack": -640,
+      "seat": [
+        -390,
+        -90,
+        -184
+      ],
+      "back": [
+        -318,
+        -32,
+        470
+      ],
+      "pin": 5
+    }
+  ],
+  "poses": {
+    "START": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -32,
+      "hd": -6,
+      "ua": -22,
+      "fa": 120
+    },
+    "MID": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -32,
+      "hd": -6,
+      "ua": 34,
+      "fa": 64
+    },
+    "OUT": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -32,
+      "hd": -6,
+      "ua": 70,
+      "fa": 6
+    },
+    "TORSO_BAD": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": 4,
+      "hd": 8,
+      "cv": -16,
+      "ua": 30,
+      "fa": 70
+    },
+    "LOCK_BAD": {
+      "hip": [
+        -240,
+        -230
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -32,
+      "hd": -6,
+      "ua": 76,
+      "fa": -12
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PECHO",
+      "head": [
+        "DECLINE",
+        "PRESS"
+      ],
+      "sub": "Pecho inferior en máquina",
+      "vo": "Lever Decline Chest Press: el press declinado en máquina, para el pecho inferior, con la espalda bien apoyada.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "OUT",
+              1.0
+            ],
+            [
+              "START",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Respaldo reclinado",
+      "vo": "El respaldo va reclinado y las manijas salen a la altura del pecho bajo. Trabaja el pecho y suma tríceps.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            524,
+            1428
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1100
+          ],
+          "text": "RESPALDO RECLINADO",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            546,
+            1292
+          ],
+          "r": 36,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1120
+          ],
+          "text": "MANIJAS BAJAS",
+          "anchor": "end",
+          "at": 1.6
+        },
+        {
+          "type": "ring",
+          "pos": [
+            351,
+            1407
+          ],
+          "r": 30,
+          "at": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1290
+          ],
+          "text": "PASADOR",
+          "anchor": "start",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "EL",
+        "ASIENTO"
+      ],
+      "sub": "Pecho bajo a la altura",
+      "vo": "Ajustá el asiento para que las manijas queden a la altura del pecho bajo, sin forzar el hombro.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            524,
+            1428
+          ],
+          "r": 40,
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            546,
+            1292
+          ],
+          "r": 36,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1120
+          ],
+          "text": "ALTURA DEL PECHO",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "PESO"
+      ],
+      "sub": "Con el pasador",
+      "vo": "Elegí el peso con el pasador: uno que puedas empujar diez veces sin despegar la espalda del respaldo.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            351,
+            1407
+          ],
+          "r": 30,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1290
+          ],
+          "text": "PASADOR",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESPALDA",
+        "APOYADA"
+      ],
+      "sub": "Pies planos",
+      "vo": "Sentate con la espalda pegada al respaldo y los pies planos. Agarrá las manijas y sacá pecho.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1100
+          ],
+          "text": "PIES PLANOS",
+          "anchor": "start",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            546,
+            1292
+          ],
+          "r": 36,
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "EMPUJÁ",
+        "ADELANTE"
+      ],
+      "sub": "Sin despegar la espalda",
+      "vo": "Paso uno. Empujá las manijas hacia adelante y un poco abajo, sin despegar la espalda del respaldo.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 1.0
+        },
+        {
+          "to": "OUT",
+          "at": 1.6,
+          "dur": 1.0
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            586,
+            1262
+          ],
+          "to": [
+            693,
+            1235
+          ],
+          "at": 0.8,
+          "dur": 1.1
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1120
+          ],
+          "text": "HACIA ADELANTE",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "SIN",
+        "TRABAR"
+      ],
+      "sub": "Brazos casi estirados",
+      "vo": "Paso dos. Llegá hasta casi estirar los brazos, sin trabar los codos de golpe.",
+      "moves": [
+        {
+          "cut": "OUT",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            590,
+            1240
+          ],
+          "r": 36,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            1120
+          ],
+          "text": "CODOS SIN TRABAR",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "VOLVÉ",
+        "LENTO"
+      ],
+      "sub": "Hasta sentir el pecho",
+      "vo": "Paso tres. Volvé lento hasta sentir que estira el pecho, sin dejar que las placas se apoyen.",
+      "moves": [
+        {
+          "cut": "OUT",
+          "at": 0
+        },
+        {
+          "to": "START",
+          "at": 0.6,
+          "dur": 2.2
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            351,
+            1407
+          ],
+          "r": 34,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1290
+          ],
+          "text": "SIN APOYAR",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al empujar",
+      "vo": "Soltá el aire mientras empujás y tomalo mientras volvés. No aguantes el aire.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "OUT",
+              1.0
+            ],
+            [
+              "START",
+              2.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 2",
+      "head": [
+        "DESPEGAR",
+        "LA ESPALDA"
+      ],
+      "sub": "Quedate apoyado",
+      "vo": "Error: despegar la espalda del respaldo para empujar. El pecho queda alto y la espalda pegada.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "TORSO_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            594,
+            1173
+          ],
+          "r": 56,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 2",
+      "head": [
+        "TRABAR",
+        "LOS CODOS"
+      ],
+      "sub": "Casi estirado, nunca trabado",
+      "vo": "Error: trabar los codos de golpe al final. Llegá casi estirado y empezá a volver.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "LOCK_BAD",
+          "at": 0.5,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            594,
+            1229
+          ],
+          "r": 36,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Manijas al pecho bajo",
+        "Espalda pegada",
+        "Codos a 45°",
+        "Volvé sin apoyar"
+      ],
+      "vo": "Tips de profe: manijas al pecho bajo, espalda pegada, codos a cuarenta y cinco grados y volvé sin apoyar las placas.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "OUT",
+              1.0
+            ],
+            [
+              "START",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Espalda pegada",
+        "Pecho alto",
+        "Sin trabar los codos",
+        "Volvé lento"
+      ],
+      "vo": "Claves: espalda pegada, pecho alto, sin trabar los codos y volvé lento.",
+      "moves": [
+        {
+          "cut": "OUT",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10-12"
+      ],
+      "sub": "Un minuto y medio de pausa",
+      "vo": "Tres series de diez a doce, con un minuto y medio de pausa. Cuando las doce salgan fáciles, subí una placa.",
+      "chips": [
+        {
+          "label": "1 · EMPUJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · SIN TRABAR",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ LENTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "OUT",
+              1.0
+            ],
+            [
+              "START",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "DEJÁ EL",
+        "PESO"
+      ],
+      "sub": "Sin soltar de golpe",
+      "vo": "Al terminar, volvé despacio, soltá las manijas y dejá el peso apoyado. No lo sueltes de golpe.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 1.0,
+          "dur": 1.0
+        },
+        {
+          "to": "START",
+          "at": 2.2,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1290
+          ],
+          "text": "PESO APOYADO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "OUT",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 110
+  },
+  "youtube": {
+    "titulo": "Lever Decline Chest Press 🔥 Press declinado en máquina | Pecho inferior",
+    "tags": [
+      "lever decline chest press",
+      "press declinado en máquina",
+      "pecho inferior",
+      "pectorales",
+      "tríceps",
+      "máquina de palanca",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de pecho"
+    ],
+    "descripcion": "🔥 LEVER DECLINE CHEST PRESS (press declinado en máquina de palanca) — pecho inferior fuerte y seguro\n\n¿Querés trabajar la parte baja del pecho sin cargar el hombro? El press declinado en máquina es para vos. Mirá cómo se usa. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el asiento para que las manijas queden a la altura del pecho bajo.\n2️⃣ Elegí un peso que puedas empujar 10 veces sin despegar la espalda.\n\n📋 PASO A PASO\n1️⃣ Sentate con la espalda pegada al respaldo y los pies planos.\n2️⃣ Empujá las manijas hacia adelante y un poco abajo.\n3️⃣ Llegá hasta casi estirar, sin trabar los codos.\n4️⃣ Volvé lento hasta sentir que estira el pecho, sin apoyar las placas.\n\n❌ ERRORES COMUNES\n• Despegar la espalda → pecho alto y espalda pegada.\n• Trabar los codos → casi estirado, nunca trabado.\n• Asiento mal regulado → manijas a la altura del pecho bajo.\n\n💡 TIPS DEL PROFE\n• Manijas a la altura del pecho bajo.\n• Espalda pegada y pecho alto.\n• Codos a unos 45° del cuerpo.\n• Empujá sin trabar codos.\n• Volvé hasta sentir estirar el pecho.\n\n🎯 QUÉ TRABAJA\nPectorales · Tríceps · Hombros anteriores\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto y medio de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #LeverDeclineChestPress #Pecho #Pectorales #Musculacion #Entrenamiento"
+  }
+}

@@ -312,18 +312,7 @@
           "ease": "power2.in"
         }
       ],
-      "overlays": [
-        {
-          "type": "label",
-          "pos": [
-            470,
-            620
-          ],
-          "text": "PASÁ EL CAJÓN",
-          "anchor": "middle",
-          "at": 0.7
-        }
-      ]
+      "overlays": []
     },
     {
       "min": 5.8,
@@ -357,21 +346,23 @@
           "type": "ring",
           "pos": {
             "j": "LAND_R.K",
-            "dx": 40,
+            "dx": 0,
             "dy": 0
           },
           "r": 58,
-          "at": 0.6
+          "at": 0.6,
+          "out": 1.15
         },
         {
           "type": "label",
           "pos": [
-            1040,
-            1240
+            800,
+            1200
           ],
           "text": "RODILLAS SUAVES",
           "anchor": "end",
-          "at": 0.8
+          "at": 0.8,
+          "out": 1.45
         }
       ]
     },

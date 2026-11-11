@@ -1,0 +1,743 @@
+{
+  "slug": "assisted-triceps-dip-kneeling",
+  "name": "Assisted Triceps Dip (Kneeling)",
+  "maquina": true,
+  "category": "GIMNASIO · BRAZOS",
+  "tags": [
+    "Tríceps",
+    "Pecho"
+  ],
+  "descripcion": "Apoyá las rodillas en la plataforma y agarrá las paralelas. Con el tronco casi derecho, bajá doblando los codos con los brazos pegados al cuerpo y empujá hasta estirar sin trabar. El contrapeso te ayuda a completar las repeticiones.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 560,
+    "y": 1512.3,
+    "scale": 0.58
+  },
+  "shadow": false,
+  "initialPose": "TOP",
+  "props": [
+    {
+      "type": "assisted",
+      "stack": 420,
+      "grip": [
+        60,
+        -1240
+      ],
+      "dip": [
+        60,
+        -760
+      ],
+      "pivot": [
+        300,
+        -260
+      ],
+      "rest": -567,
+      "pin": 6,
+      "k": 1
+    }
+  ],
+  "poses": {
+    "TOP": {
+      "s": 92,
+      "t": 4,
+      "ft": 80,
+      "g": 1,
+      "hx": 60,
+      "hy": -750,
+      "ed": -1,
+      "hip": [
+        -18.6,
+        -800.0
+      ],
+      "b": 8,
+      "hd": 8
+    },
+    "MID": {
+      "s": 92,
+      "t": 4,
+      "ft": 80,
+      "g": 1,
+      "hx": 60,
+      "hy": -750,
+      "ed": -1,
+      "hip": [
+        -40.0,
+        -736.0
+      ],
+      "b": 10,
+      "hd": 10
+    },
+    "BOTTOM": {
+      "s": 92,
+      "t": 4,
+      "ft": 80,
+      "g": 1,
+      "hx": 60,
+      "hy": -750,
+      "ed": -1,
+      "hip": [
+        -56.0,
+        -676.0
+      ],
+      "b": 12,
+      "hd": 12
+    },
+    "FORWARD_BAD": {
+      "s": 92,
+      "t": 4,
+      "ft": 80,
+      "g": 1,
+      "hx": 60,
+      "hy": -750,
+      "ed": -1,
+      "hip": [
+        -40.0,
+        -736.0
+      ],
+      "b": 34,
+      "hd": 30
+    },
+    "SHRUG_BAD": {
+      "s": 92,
+      "t": 4,
+      "ft": 80,
+      "g": 1,
+      "hx": 60,
+      "hy": -750,
+      "ed": -1,
+      "hip": [
+        -56.0,
+        -676.0
+      ],
+      "b": 12,
+      "hd": 12,
+      "cv": 26
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · BRAZOS",
+      "head": [
+        "ASSISTED",
+        "DIP"
+      ],
+      "sub": "Fondos de tríceps con ayuda",
+      "vo": "Assisted Triceps Dip: fondos de tríceps asistidos de rodillas. El contrapeso te ayuda a completar el recorrido.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              1.4
+            ],
+            [
+              "TOP",
+              1.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Contrapeso y paralelas",
+      "vo": "La máquina asistida te ayuda con un contrapeso: cuanto más peso elegís, más ayuda y menos esfuerzo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            522,
+            1202
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1180
+          ],
+          "text": "PLATAFORMA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            595,
+            1077
+          ],
+          "r": 36,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1060
+          ],
+          "text": "MANIJAS",
+          "anchor": "start",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            804,
+            1448
+          ],
+          "r": 60,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            886,
+            1370
+          ],
+          "text": "PILA",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "LAS",
+        "RODILLAS"
+      ],
+      "sub": "Sobre la plataforma",
+      "vo": "Apoyá las rodillas sobre la plataforma, con los brazos estirados y las manos en las paralelas.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            522,
+            1202
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1180
+          ],
+          "text": "RODILLAS ACÁ",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL CONTRA",
+        "PESO"
+      ],
+      "sub": "Más peso, más ayuda",
+      "vo": "El pasador elige el contrapeso: más placas es más ayuda. Probá con uno que te deje hacer diez repeticiones.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            833,
+            1435
+          ],
+          "r": 26,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            880,
+            1470
+          ],
+          "text": "PASADOR",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BRAZOS",
+        "ESTIRADOS"
+      ],
+      "sub": "Tronco casi derecho",
+      "vo": "Tronco casi derecho y los brazos pegados al cuerpo. Así el trabajo se va al tríceps.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            595,
+            1077
+          ],
+          "r": 36,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1060
+          ],
+          "text": "CODOS PEGADOS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.8,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ",
+        "LENTO"
+      ],
+      "sub": "Brazos pegados",
+      "vo": "Paso uno. Bajá doblando los codos con los brazos pegados al cuerpo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            512,
+            958
+          ],
+          "to": [
+            488,
+            1150
+          ],
+          "at": 0.9,
+          "dur": 1.2
+        },
+        {
+          "type": "ring",
+          "pos": [
+            528,
+            1120
+          ],
+          "r": 34,
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "PAUSA",
+        "ABAJO"
+      ],
+      "sub": "Sin rebote",
+      "vo": "Paso dos. Abajo, pausa un segundo sin rebotar y sin encoger los hombros.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            528,
+            1120
+          ],
+          "r": 34,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1100
+          ],
+          "text": "PAUSA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "EMPUJÁ",
+        "ARRIBA"
+      ],
+      "sub": "Sin trabar los codos",
+      "vo": "Paso tres. Empujá hasta estirar casi del todo, sin trabar los codos.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            488,
+            1150
+          ],
+          "to": [
+            512,
+            958
+          ],
+          "at": 0.9,
+          "dur": 1.2
+        },
+        {
+          "type": "ring",
+          "pos": [
+            549,
+            1048
+          ],
+          "r": 34,
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al subir",
+      "vo": "Soltá el aire mientras empujás y tomalo mientras bajás.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              1.3
+            ],
+            [
+              "TOP",
+              2.0
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 2",
+      "head": [
+        "TIRARTE",
+        "ADELANTE"
+      ],
+      "sub": "Se vuelve de pecho",
+      "vo": "Error: tirar el tronco adelante. Se convierte en fondo de pecho y el tríceps deja de trabajar.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "FORWARD_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            700
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            582,
+            1018
+          ],
+          "r": 46,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 2",
+      "head": [
+        "ENCOGER",
+        "LOS HOMBROS"
+      ],
+      "sub": "Hombros abajo",
+      "vo": "Error: encoger los hombros hacia las orejas. Mantenelos abajo y lejos del cuello.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "SHRUG_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            700
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            561,
+            1007
+          ],
+          "r": 40,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Rodillas en la plataforma",
+        "Tronco casi derecho",
+        "Codos pegados",
+        "Sin trabar los codos"
+      ],
+      "vo": "Tips: rodillas en la plataforma, tronco casi derecho, codos pegados y sin trabar los codos.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              1.1
+            ],
+            [
+              "TOP",
+              1.9
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Bajá en 2 segundos",
+        "Codos pegados al cuerpo",
+        "Pausa abajo",
+        "Subí sin trabar"
+      ],
+      "vo": "Claves: bajá en dos segundos, codos pegados al cuerpo, pausa abajo y subí sin trabar.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12"
+      ],
+      "sub": "Un minuto de pausa",
+      "vo": "Tres series de doce, con un minuto de pausa. Trabajá el tríceps hasta que queme.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ LENTO",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PAUSA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · EMPUJÁ ARRIBA",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BOTTOM",
+              1.1
+            ],
+            [
+              "TOP",
+              1.9
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "SALÍ",
+        "DESPACIO"
+      ],
+      "sub": "Dejá el peso apoyado",
+      "vo": "Al terminar, estirá los brazos, sacá las rodillas con cuidado y dejá el contrapeso apoyado.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.8,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "SALÍ DESPACIO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "BOTTOM",
+    "zoom": 1.05,
+    "dy": 90
+  },
+  "youtube": {
+    "titulo": "Assisted Triceps Dip 🔥 Fondos de tríceps asistidos de rodillas | Gimnasio",
+    "tags": [
+      "assisted triceps dip",
+      "fondos asistidos",
+      "fondos de tríceps",
+      "triceps dip",
+      "máquina asistida",
+      "fondos en máquina",
+      "tríceps",
+      "brazos",
+      "pecho",
+      "empuje",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de brazos"
+    ],
+    "descripcion": "🔥 ASSISTED TRICEPS DIP (KNEELING) (fondos de tríceps asistidos de rodillas) — tríceps, con pecho y hombros como apoyo\n\nCon el tronco casi derecho el tríceps se lleva casi todo el trabajo. Mirá cómo hacerlo en la máquina asistida. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Apoyá las rodillas en la plataforma con los brazos estirados.\n2️⃣ Elegí un contrapeso que te deje hacer 12 repeticiones.\n\n📋 PASO A PASO\n1️⃣ Apoyá las rodillas y agarrá las paralelas.\n2️⃣ Con el tronco casi derecho, bajá doblando los codos con los brazos pegados al cuerpo.\n3️⃣ Hacé una pausa abajo sintiendo el tríceps.\n4️⃣ Empujá hasta estirar casi del todo, sin trabar los codos.\n\n❌ ERRORES COMUNES\n• Tirar el tronco adelante → se vuelve un fondo de pecho.\n• Encoger los hombros → hombros abajo y lejos del cuello.\n• Trabar los codos arriba → estirá casi del todo y frená.\n\n💡 TIPS DEL PROFE\n• Rodillas en la plataforma.\n• Tronco casi derecho.\n• Codos pegados al cuerpo.\n• Bajá en dos segundos y subí sin trabar.\n\n🎯 QUÉ TRABAJA\nTríceps · Pecho · Hombros\n\n⏱️ CUÁNTO\n3 series de 12 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Fondos #Triceps #AssistedDip #Brazos #Musculacion #Entrenamiento"
+  }
+}

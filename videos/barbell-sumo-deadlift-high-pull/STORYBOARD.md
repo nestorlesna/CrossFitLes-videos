@@ -41,7 +41,7 @@ music: plantilla/musica/bgm-base.wav
 - voiceover: "Paso tres. Si tirás con los brazos antes de extender la cadera, los brazos hacen todo el trabajo. Evitalo."
 - poses: ARMS_BAD → PULL
 
-## Frame 6 — PASO 4 / 4 BAJÁ CONTROlando
+## Frame 6 — PASO 4 / 4 BAJÁ CONTROLANDO
 
 - status: animated
 - min: 5.8s

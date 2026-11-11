@@ -1,6 +1,6 @@
 {
   "slug": "kettlebell-ankle-mobility-drill",
-  "name": "Kettlebell Ankle Mobility Drill",
+  "name": "Ankle Mobility Drill",
   "category": "CROSSFIT · ACTIVACIÓN",
   "tags": [
     "Tobillo",
@@ -14,7 +14,7 @@
   "musicVolume": 0.18,
   "rig": {
     "x": 470,
-    "y": 1660,
+    "y": 1493,
     "scale": 1.15
   },
   "props": [
@@ -144,7 +144,7 @@
           "type": "label",
           "pos": [
             1040,
-            1330
+            1300
           ],
           "text": "PESA DE GUÍA",
           "anchor": "end",
@@ -153,8 +153,8 @@
         {
           "type": "label",
           "pos": [
-            356,
-            1180
+            400,
+            1420
           ],
           "text": "RODILLA AL PISO",
           "anchor": "end",
@@ -183,8 +183,8 @@
         {
           "type": "ring",
           "pos": [
-            800,
-            1700
+            750,
+            1490
           ],
           "r": 56,
           "at": 1.2
@@ -193,7 +193,7 @@
           "type": "label",
           "pos": [
             1040,
-            1330
+            1300
           ],
           "text": "TALÓN AL PISO",
           "anchor": "end",
@@ -226,12 +226,12 @@
         {
           "type": "arrow",
           "from": [
-            620,
-            1450
+            610,
+            1170
           ],
           "to": [
-            920,
-            1450
+            930,
+            1170
           ],
           "at": 1.9,
           "dur": 0.9
@@ -240,7 +240,7 @@
           "type": "label",
           "pos": [
             1040,
-            1120
+            1110
           ],
           "text": "LLEVÁ LA RODILLA",
           "anchor": "end",
@@ -289,7 +289,7 @@
           "type": "label",
           "pos": [
             1040,
-            1330
+            1300
           ],
           "text": "NO TE TIRES ATRÁS",
           "anchor": "end",

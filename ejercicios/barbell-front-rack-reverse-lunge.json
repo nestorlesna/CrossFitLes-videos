@@ -1,6 +1,6 @@
 {
   "slug": "barbell-front-rack-reverse-lunge",
-  "name": "Barbell Front Rack Reverse Lunge",
+  "name": "Front Rack Reverse Lunge",
   "category": "CROSSFIT · FUERZA",
   "tags": [
     "Piernas",
@@ -147,6 +147,7 @@
         "FRONTAL"
       ],
       "sub": "Barra sobre los hombros",
+      "min": 5.4,
       "vo": "Con la barra apoyada adelante, sobre los hombros y los codos bien altos, los pies al ancho de la cadera.",
       "moves": [
         {
@@ -264,8 +265,8 @@
         {
           "type": "ring",
           "pos": [
-            186,
-            1444
+            460,
+            1430
           ],
           "r": 56,
           "at": 1.4
@@ -349,7 +350,7 @@
           "text": "ASÍ NO",
           "anchor": "middle",
           "at": 0.9,
-          "out": 1.8
+          "out": 2.4
         },
         {
           "type": "label",
@@ -359,8 +360,8 @@
           ],
           "text": "CODOS QUE CAEN",
           "anchor": "end",
-          "at": 3.0,
-          "out": 4.1
+          "at": 2.9,
+          "out": 4.4
         }
       ]
     },

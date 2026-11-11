@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Shoulder Press V2",
+      "text": "Lever Shoulder Press: press de hombros en máquina de palanca, con el empuje arriba y un poco adelante."
+    },
+    {
+      "id": "02",
+      "text": "La máquina tiene manijas con agarre prono y un respaldo que te deja la espalda bien apoyada."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el asiento para que las manijas arranquen a la altura de los hombros."
+    },
+    {
+      "id": "04",
+      "text": "Elegí un peso liviano con el pasador: el hombro es una articulación delicada."
+    },
+    {
+      "id": "05",
+      "text": "Espalda pegada al respaldo y agarre prono, con las manos algo más abiertas que los hombros."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá las manijas arriba y un poco adelante, sin despegar la espalda del respaldo."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Arriba, pausá un segundo con los brazos casi estirados, sin trabar los codos."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá controlado hasta la altura del hombro, sin dejar caer el peso."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras empujás hacia arriba y tomalo mientras bajás."
+    },
+    {
+      "id": "10",
+      "text": "Error: empujar tanto adelante que el hombro se va de su lugar. Arriba, no adelante."
+    },
+    {
+      "id": "11",
+      "text": "Error: arquear la espalda para empujar. Apretá el abdomen y bajá el peso."
+    },
+    {
+      "id": "12",
+      "text": "Error: separar la espalda del respaldo para empujar. Quedate pegado de principio a fin."
+    },
+    {
+      "id": "13",
+      "text": "Tips: agarre prono algo abierto, manijas a la altura del hombro, arriba y un poco adelante."
+    },
+    {
+      "id": "14",
+      "text": "Claves: espalda pegada, pies firmes, arriba sin trabar y bajá controlado."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce, con un minuto y medio de pausa. Cuando salen fáciles, subí una placa."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, acompañá las manijas hasta la altura del hombro y dejá el peso apoyado."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

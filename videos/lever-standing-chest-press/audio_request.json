@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Standing Chest Press",
+      "text": "El press de pecho de pie en máquina de palanca, con los pies firmes."
+    },
+    {
+      "id": "02",
+      "text": "La palanca sale de arriba y las manijas quedan a la altura del pecho. Trabaja pectorales, hombros y tríceps."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá la máquina para que las manijas queden a la altura de la mitad del pecho, no del cuello."
+    },
+    {
+      "id": "04",
+      "text": "Elegí el peso con el pasador: uno que puedas empujar diez veces sin mover los pies."
+    },
+    {
+      "id": "05",
+      "text": "Parate frente a la máquina con los pies planos y separados. Agarrá las manijas y mantené el cuerpo derecho."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá las manijas hacia adelante hasta estirar los brazos, sin mover los pies."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Llegá hasta casi estirar los codos, sin trabarlos de golpe."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Volvé lento hasta el pecho, sin dejar que las placas se apoyen."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras empujás y tomalo mientras volvés. No aguantes el aire."
+    },
+    {
+      "id": "10",
+      "text": "Error: inclinar todo el cuerpo hacia adelante para empujar. Usá el pecho, no el peso del cuerpo."
+    },
+    {
+      "id": "11",
+      "text": "Error: trabar los codos de golpe al final. Llegá casi estirado y empezá a volver."
+    },
+    {
+      "id": "12",
+      "text": "Tips de profe: manijas a la mitad del pecho, pies firmes, codos a cuarenta y cinco grados y volvé sin apoyar."
+    },
+    {
+      "id": "13",
+      "text": "Claves: cuerpo derecho, pies firmes, sin trabar los codos y volvé lento."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de diez a doce, con un minuto y medio de pausa. Cuando las doce salgan fáciles, subí una placa."
+    },
+    {
+      "id": "15",
+      "text": "Al terminar, volvé despacio, soltá las manijas y dejá el peso apoyado. No lo sueltes de golpe."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

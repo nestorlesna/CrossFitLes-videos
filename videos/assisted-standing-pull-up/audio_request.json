@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Assisted Standing Pull-up",
+      "text": "Dominadas asistidas de pie, con agarre prono y plataforma para los pies."
+    },
+    {
+      "id": "02",
+      "text": "La plataforma de pies te empuja hacia arriba. Trabaja dorsales, bíceps y romboides."
+    },
+    {
+      "id": "03",
+      "text": "Elegí el contrapeso con el pasador. Acá es al revés: más peso es más ayuda."
+    },
+    {
+      "id": "04",
+      "text": "Subí por los escalones y agarrá las manijas antes de apoyar los dos pies en la plataforma."
+    },
+    {
+      "id": "05",
+      "text": "Quedate de pie con los pies al ancho de hombros, los brazos estirados y los hombros activos."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Activá los dorsales y tirá llevando el pecho hacia las manos, con los codos abajo."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Subí hasta que el mentón pase por encima de las manos y apretá la espalda un segundo."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá en dos o tres segundos, controlando la plataforma hasta estirar los brazos."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras subís y tomá aire mientras bajás."
+    },
+    {
+      "id": "10",
+      "text": "Error: usar impulso de cadera o piernas. Subí lento, sintiendo la espalda."
+    },
+    {
+      "id": "11",
+      "text": "Error: quedarte a mitad de camino. Bajá hasta estirar los brazos del todo y recién ahí volvé."
+    },
+    {
+      "id": "12",
+      "text": "Error: soltarte de golpe al bajar. Controlá la plataforma hasta el final, sin dejar caer el peso."
+    },
+    {
+      "id": "13",
+      "text": "Tips de profe: pies al ancho de hombros, pecho arriba, codos hacia abajo y cada semana un poco menos de ayuda."
+    },
+    {
+      "id": "14",
+      "text": "Claves: más peso es más ayuda, mentón sobre las manos, cuerpo recto sin impulso y bajada controlada."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de seis a diez, con dos minutos de pausa. Cuando las diez salen fáciles, sacá un poco de ayuda."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, apoyá un pie, después el otro, y soltá las manijas recién ahí."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

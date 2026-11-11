@@ -27,7 +27,7 @@ music: plantilla/musica/bgm-base.wav
 - voiceover: "Paso uno. Antes de tirar, activá las escápulas: los hombros lejos de las orejas."
 - poses: ACTIVE
 
-## Frame 4 — PASO 2 / 3 CODOS ABAIJO Y ATRÁS
+## Frame 4 — PASO 2 / 3 CODOS ABAJO Y ATRÁS
 
 - status: animated
 - min: 5.8s

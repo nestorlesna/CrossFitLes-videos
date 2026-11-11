@@ -1,7 +1,7 @@
 {
   "slug": "scapular-wall-slides",
   "name": "Scapular Wall Slides",
-  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "category": "ENTRADA EN CALOR",
   "tags": [
     "Hombros",
     "Escápulas",
@@ -20,7 +20,8 @@
   "props": [
     {
       "type": "wall",
-      "x": -185,
+      "x": -360,
+      "w": 300,
       "h": 1150
     }
   ],
@@ -81,7 +82,7 @@
     {
       "kind": "hook",
       "min": 4.6,
-      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "badge": "ENTRADA EN CALOR",
       "head": [
         "SCAPULAR WALL",
         "SLIDES"
@@ -422,7 +423,7 @@
     }
   ],
   "miniatura": {
-    "pose": "W",
+    "pose": "Y",
     "grip": 0,
     "zoom": 1.2,
     "dy": 210

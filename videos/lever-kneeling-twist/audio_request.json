@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Kneeling Twist",
+      "text": "Torsión de torso arrodillado en máquina. Trabajás core y oblicuos con las caderas fijas."
+    },
+    {
+      "id": "02",
+      "text": "La máquina tiene la almohadilla de rodillas, las manijas a la altura del pecho y la pila atrás."
+    },
+    {
+      "id": "03",
+      "text": "Apoyá las rodillas en el centro de la almohadilla, con las puntas de los pies atrás."
+    },
+    {
+      "id": "04",
+      "text": "Elegí un peso liviano: el giro lo hace el core, no los brazos."
+    },
+    {
+      "id": "05",
+      "text": "Sentate sobre los talones, espalda recta y manos en las manijas con los codos flexionados."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Girá el torso hacia un lado sin mover las caderas ni los brazos."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Volvé al centro controlando el peso, sin dejarte llevar."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Repetí para el otro lado, la misma cantidad de veces."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire cuando girás y tomá aire al volver al centro."
+    },
+    {
+      "id": "10",
+      "text": "Error: tirar con los brazos y girar los hombros más que el torso."
+    },
+    {
+      "id": "11",
+      "text": "Error: redondear la espalda y bajar la cabeza para llegar más lejos."
+    },
+    {
+      "id": "12",
+      "text": "Tips: rodillas en el centro de la almohadilla, girá con el core, caderas quietas y volvé controlando."
+    },
+    {
+      "id": "13",
+      "text": "Claves: peso liviano, espalda recta, el mismo rango para cada lado y sin tirar con los brazos."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de diez por lado, con un minuto de pausa. Alterná los lados sin soltar las manijas."
+    },
+    {
+      "id": "15",
+      "text": "Al terminar, volvé al centro, soltá las manijas y bajá el peso despacio."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

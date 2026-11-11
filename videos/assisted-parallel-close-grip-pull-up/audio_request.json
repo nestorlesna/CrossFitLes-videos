@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Assisted Parallel Close Grip Pull-up",
+      "text": "Dominadas asistidas con agarre paralelo cerrado."
+    },
+    {
+      "id": "02",
+      "text": "La máquina te empuja desde la plataforma de rodillas. Trabaja los dorsales y los bíceps."
+    },
+    {
+      "id": "03",
+      "text": "Elegí el contrapeso con el pasador. Acá es al revés: más peso es más ayuda."
+    },
+    {
+      "id": "04",
+      "text": "Subí por los escalones, agarrá las manijas y recién ahí apoyá las rodillas en la plataforma."
+    },
+    {
+      "id": "05",
+      "text": "Colgate con los brazos estirados y los hombros activos: bajalos un poco, no quedes flojo."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Tirá llevando el pecho hacia las manos, con los codos hacia abajo y cerca del cuerpo."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Subí hasta que el mentón pase por encima de las manos, sin estirar el cuello."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá en dos o tres segundos hasta estirar los brazos, sin soltarte de golpe."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras subís y tomá aire mientras bajás."
+    },
+    {
+      "id": "10",
+      "text": "Error: subir con impulso, balanceando las piernas. Si no sale, poné más ayuda."
+    },
+    {
+      "id": "11",
+      "text": "Error: quedarte a mitad de camino. Bajá hasta estirar los brazos del todo y recién ahí volvé."
+    },
+    {
+      "id": "12",
+      "text": "Error: soltarte de golpe al bajar. El hombro recibe todo el tirón: controlá la bajada."
+    },
+    {
+      "id": "13",
+      "text": "Tips de profe: hombros activos, pecho a las manos, codos hacia abajo y cada semana un poco menos de ayuda."
+    },
+    {
+      "id": "14",
+      "text": "Claves: más peso es más ayuda, mentón sobre las manos, sin impulso y bajada controlada."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de seis a diez, con dos minutos de pausa. Cuando las diez salen fáciles, sacá un poco de ayuda."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, apoyá los pies en los escalones y recién ahí soltá las manijas."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

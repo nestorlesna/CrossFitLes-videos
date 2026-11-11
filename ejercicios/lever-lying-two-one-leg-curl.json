@@ -1,0 +1,813 @@
+{
+  "slug": "lever-lying-two-one-leg-curl",
+  "name": "Lever Lying Two-one Leg Curl",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Isquiotibiales",
+    "Glúteos"
+  ],
+  "descripcion": "Sentate con la espalda apoyada y la rodilla alineada al eje. Bajá la traba sobre los muslos, enganchá los tobillos y flexioná las piernas hacia los glúteos.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 700,
+    "y": 1504.8,
+    "scale": 0.8
+  },
+  "shadow": false,
+  "initialPose": "EXT",
+  "props": [
+    {
+      "type": "seatedlegcurl",
+      "pivot": [
+        0,
+        -345
+      ],
+      "seat": [
+        -330,
+        -30,
+        -300
+      ],
+      "back": [
+        -322,
+        -14,
+        430
+      ],
+      "stack": -600,
+      "handle": [
+        -180,
+        -330
+      ],
+      "roll": 212,
+      "thigh": [
+        -70,
+        -401
+      ],
+      "pin": 5
+    }
+  ],
+  "poses": {
+    "EXT": {
+      "t": -90,
+      "b": -14,
+      "hd": -6,
+      "g": 1,
+      "hx": -180,
+      "hy": -330,
+      "ed": 1,
+      "hip": [
+        -240,
+        -345
+      ],
+      "s": -84,
+      "ft": -70
+    },
+    "MID": {
+      "t": -90,
+      "b": -14,
+      "hd": -6,
+      "g": 1,
+      "hx": -180,
+      "hy": -330,
+      "ed": 1,
+      "hip": [
+        -240,
+        -345
+      ],
+      "s": -32,
+      "ft": -20
+    },
+    "CURL": {
+      "t": -90,
+      "b": -14,
+      "hd": -6,
+      "g": 1,
+      "hx": -180,
+      "hy": -330,
+      "ed": 1,
+      "hip": [
+        -240,
+        -345
+      ],
+      "s": 26,
+      "ft": 20
+    },
+    "HIP_BAD": {
+      "t": -90,
+      "b": -6,
+      "hd": 4,
+      "g": 1,
+      "hx": -192,
+      "hy": -356,
+      "ed": 1,
+      "hip": [
+        -240,
+        -384
+      ],
+      "cv": 24,
+      "s": 20,
+      "ft": 16
+    },
+    "PAD_BAD": {
+      "t": -90,
+      "b": -14,
+      "hd": -6,
+      "g": 1,
+      "hx": -180,
+      "hy": -330,
+      "ed": 1,
+      "hip": [
+        -240,
+        -360
+      ],
+      "s": 20,
+      "ft": 16,
+      "bf": 1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "LEG",
+        "CURL"
+      ],
+      "sub": "Femoral en máquina",
+      "vo": "Lever Lying Two-one Leg Curl: el curl femoral en máquina. Con la espalda apoyada, flexioná las piernas hacia los glúteos.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CURL",
+              1.1
+            ],
+            [
+              "EXT",
+              1.9
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Rodillo detrás del tobillo",
+      "vo": "La máquina de femoral: asiento con respaldo, rodillo detrás de los tobillos y traba sobre los muslos.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            401,
+            1103
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1100
+          ],
+          "text": "RESPALDO",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            883,
+            1248
+          ],
+          "r": 40,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1110
+          ],
+          "text": "RODILLO",
+          "anchor": "end",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            688,
+            1162
+          ],
+          "r": 42,
+          "at": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1184
+          ],
+          "text": "TRABA",
+          "anchor": "start",
+          "at": 2.6
+        },
+        {
+          "type": "ring",
+          "pos": [
+            261,
+            1381
+          ],
+          "r": 30,
+          "at": 3.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1450
+          ],
+          "text": "PASADOR",
+          "anchor": "start",
+          "at": 3.4
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "EL",
+        "EJE"
+      ],
+      "sub": "Rodilla alineada",
+      "vo": "Alineá la rodilla con el eje de la máquina y ajustá el respaldo para que la espalda quede apoyada.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            700,
+            1229
+          ],
+          "r": 40,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1000
+          ],
+          "text": "RODILLA AL EJE",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "LA",
+        "TRABA"
+      ],
+      "sub": "Sobre los muslos",
+      "vo": "Bajá la traba sobre los muslos: tiene que quedar firme, sin apretar de más.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            688,
+            1162
+          ],
+          "r": 42,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1000
+          ],
+          "text": "TRABA FIRME",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "TOBILLOS",
+        "ENGANCHADOS"
+      ],
+      "sub": "Manos en las manijas",
+      "vo": "Apoyá el rodillo detrás de los tobillos y agarrá las manijas a los costados.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            883,
+            1248
+          ],
+          "r": 40,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1000
+          ],
+          "text": "DETRÁS DEL TOBILLO",
+          "anchor": "start",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            556,
+            1241
+          ],
+          "r": 34,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1360
+          ],
+          "text": "MANIJAS",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "FLEXIONÁ"
+      ],
+      "sub": "Sin mover el torso",
+      "vo": "Paso uno. Flexioná las piernas hacia los glúteos, manteniendo el torso quieto y la espalda apoyada.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 1.0
+        },
+        {
+          "to": "CURL",
+          "at": 1.6,
+          "dur": 1.0
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            873,
+            1258
+          ],
+          "to": [
+            659,
+            1364
+          ],
+          "at": 0.8,
+          "dur": 1.2,
+          "bend": [
+            40,
+            90
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1000
+          ],
+          "text": "FLEXIONÁ",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "PAUSA",
+        "ARRIBA"
+      ],
+      "sub": "Talones al glúteo",
+      "vo": "Paso dos. Hacé una pausa breve arriba, con los talones cerca de los glúteos.",
+      "moves": [
+        {
+          "cut": "CURL",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            660,
+            1311
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1000
+          ],
+          "text": "APRETÁ",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "VOLVÉ",
+        "LENTO"
+      ],
+      "sub": "Controlá la vuelta",
+      "vo": "Paso tres. Volvé lento a la posición inicial, controlando el peso en todo el recorrido.",
+      "moves": [
+        {
+          "cut": "CURL",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 1.0
+        },
+        {
+          "to": "EXT",
+          "at": 1.6,
+          "dur": 1.2
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            659,
+            1364
+          ],
+          "to": [
+            873,
+            1258
+          ],
+          "at": 0.8,
+          "dur": 1.2,
+          "bend": [
+            40,
+            90
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1000
+          ],
+          "text": "VOLVÉ LENTO",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá al flexionar",
+      "vo": "Soltá el aire al flexionar y tomalo al volver. No aguantes el aire.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CURL",
+              1.1
+            ],
+            [
+              "EXT",
+              1.9
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 2",
+      "head": [
+        "DESPEGAR",
+        "LA CADERA"
+      ],
+      "sub": "Espalda apoyada",
+      "vo": "Error: despegar la cadera y la espalda para ayudar. Quedá bien apoyado en el respaldo.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "HIP_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            508,
+            1198
+          ],
+          "r": 52,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 2",
+      "head": [
+        "SOLTAR",
+        "LA TRABA"
+      ],
+      "sub": "Traba firme",
+      "vo": "Error: dejar la traba de muslos abierta. Bajala firme antes de empezar.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "PAD_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            688,
+            1090
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Rodilla al eje",
+        "Traba firme",
+        "Torso quieto",
+        "Volvé lento"
+      ],
+      "vo": "Tips de profe: rodilla al eje, traba firme, torso quieto y volvé lento.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CURL",
+              1.1
+            ],
+            [
+              "EXT",
+              1.9
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Eje alineado",
+        "Traba firme",
+        "Pausa arriba",
+        "Bajada controlada"
+      ],
+      "vo": "Claves: eje alineado, traba firme, pausa arriba y bajada controlada.",
+      "moves": [
+        {
+          "cut": "CURL",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10-12"
+      ],
+      "sub": "Un minuto de pausa",
+      "vo": "Tres series de diez a doce, con un minuto de pausa. Subí una placa cuando salgan fáciles.",
+      "chips": [
+        {
+          "label": "1 · FLEXIONÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ LENTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CURL",
+              1.1
+            ],
+            [
+              "EXT",
+              1.9
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "DEJÁ EL",
+        "PESO"
+      ],
+      "sub": "Sin soltar de golpe",
+      "vo": "Al terminar, volvé las piernas despacio y dejá el peso apoyado. No lo sueltes de golpe.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 1.0,
+          "dur": 1.0
+        },
+        {
+          "to": "EXT",
+          "at": 2.2,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1000
+          ],
+          "text": "PESO APOYADO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "CURL",
+    "zoom": 1.1,
+    "dy": 110
+  },
+  "youtube": {
+    "titulo": "Lever Lying Two-one Leg Curl 🔥 Curl femoral en máquina | Gimnasio",
+    "tags": [
+      "lever lying two-one leg curl",
+      "curl femoral",
+      "leg curl",
+      "isquiotibiales",
+      "glúteos",
+      "máquina de palanca",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de piernas",
+      "femoral",
+      "piernas"
+    ],
+    "descripcion": "🔥 LEVER LYING TWO-ONE LEG CURL (curl femoral en máquina) — isquiotibiales y glúteos\n\n¿Querés femorales más fuertes? El curl en máquina los aísla con la espalda apoyada. Mirá cómo se usa. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Alineá la rodilla con el eje de la máquina.\n2️⃣ Bajá la traba de muslos y elegí un peso que puedas mover 10 veces.\n\n📋 PASO A PASO\n1️⃣ Sentate con la espalda apoyada y la rodilla alineada al eje.\n2️⃣ Bajá la traba sobre los muslos y enganchá los tobillos en el rodillo.\n3️⃣ Flexioná las piernas hacia los glúteos, sin mover el torso.\n4️⃣ Hacé una pausa arriba y volvé lento a la posición inicial.\n\n❌ ERRORES COMUNES\n• Despegar la cadera → quedate bien apoyado.\n• Soltar la traba → bajala firme sobre los muslos.\n• Usar impulso → movimiento controlado.\n\n💡 TIPS DEL PROFE\n• Rodilla alineada con el eje.\n• Traba firme sobre los muslos.\n• Torso quieto y espalda apoyada.\n• Pausa arriba y volvé lento.\n\n🎯 QUÉ TRABAJA\nIsquiotibiales · Glúteos\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #LegCurl #CurlFemoral #Isquiotibiales #Femoral #Musculacion #Entrenamiento"
+  }
+}

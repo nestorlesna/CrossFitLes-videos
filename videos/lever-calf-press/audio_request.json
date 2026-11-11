@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Calf Press",
+      "text": "Gemelos en prensa de palanca. Empujá la almohadilla hacia abajo con la punta del pie."
+    },
+    {
+      "id": "02",
+      "text": "La máquina tiene una almohadilla para la punta de los pies, un respaldo y la pila con el pasador."
+    },
+    {
+      "id": "03",
+      "text": "Apoyá la punta de los pies en el borde de la almohadilla, con los talones en el aire."
+    },
+    {
+      "id": "04",
+      "text": "Elegí el peso con el pasador. Si el talón no baja del todo, es mucho peso."
+    },
+    {
+      "id": "05",
+      "text": "Sentado derecho, con las manos sosteniendo el cuerpo y los talones flotando."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Bajá el talón despacio hasta estirar bien la pantorrilla."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Abajo, pausá estirando la pantorrilla. Nada de rebotar."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Empujá la almohadilla hacia abajo estirando los tobillos y apretá un segundo."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras empujás hacia abajo y tomalo mientras subís los talones."
+    },
+    {
+      "id": "10",
+      "text": "Error: rebotar abajo y hacer medio recorrido. Bajá todo, pausá y subí todo."
+    },
+    {
+      "id": "11",
+      "text": "Error: empujar con las manos o tirar el tronco adelante. Si pasa, el peso es mucho: bajalo."
+    },
+    {
+      "id": "12",
+      "text": "Tips: punta en el borde, talón bien abajo, pausa sin rebote y empujá con el tobillo."
+    },
+    {
+      "id": "13",
+      "text": "Claves: talones afuera, rango completo, apretá abajo y volvé lento."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de quince, con un minuto de pausa. Cuando las quince salen fáciles, subí el peso."
+    },
+    {
+      "id": "15",
+      "text": "Al terminar, acompañá la almohadilla y dejá el peso apoyado antes de sacar los pies."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

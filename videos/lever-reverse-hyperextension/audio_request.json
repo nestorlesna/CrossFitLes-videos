@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Reverse Hyperextension",
+      "text": "La extensión inversa, boca abajo, para glúteos e isquiotibiales."
+    },
+    {
+      "id": "02",
+      "text": "La cadera va en el borde de la almohadilla y las piernas cuelgan libres. Trabaja glúteos e isquiotibiales."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá la máquina para que la cadera quede en el borde de la almohadilla y las piernas cuelguen libres."
+    },
+    {
+      "id": "04",
+      "text": "Cruzate los brazos sobre el pecho o tomá las asas. Elegí un peso moderado para empezar."
+    },
+    {
+      "id": "05",
+      "text": "Apoyá la cadera en la almohadilla, el torso firme y las piernas colgando, sin arquear la lumbar."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Activá los glúteos y subí las piernas hasta quedar en línea con el torso."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Arriba, apretá los glúteos un segundo sin arquear la lumbar."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá las piernas lento, sin dejarlas caer de golpe."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire al subir las piernas y tomá aire al bajarlas."
+    },
+    {
+      "id": "10",
+      "text": "Error: hamacarte y usar impulso. Subí con los glúteos, sin mover el torso."
+    },
+    {
+      "id": "11",
+      "text": "Error: arquear la lumbar para subir más. Las costillas quedan abajo y el movimiento sale de la cadera."
+    },
+    {
+      "id": "12",
+      "text": "Tips de profe: cadera en el borde, costillas abajo, subí con los glúteos y bajá sin soltar."
+    },
+    {
+      "id": "13",
+      "text": "Claves: cadera en el borde, piernas en línea, sin arquear la lumbar y bajada lenta."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de doce a quince, con un minuto de pausa. Subí una placa cuando las quince salgan fáciles."
+    },
+    {
+      "id": "15",
+      "text": "Al terminar, bajá las piernas despacio y salí de la máquina apoyando las manos."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

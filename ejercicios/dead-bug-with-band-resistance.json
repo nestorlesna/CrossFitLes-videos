@@ -1,7 +1,7 @@
 {
   "slug": "dead-bug-with-band-resistance",
   "name": "Dead Bug with Band Resistance",
-  "category": "CROSSFIT · ACTIVACIÓN",
+  "category": "ACTIVACIÓN",
   "tags": [
     "Core",
     "Glúteos",
@@ -122,7 +122,7 @@
     {
       "kind": "hook",
       "min": 4.8,
-      "badge": "CROSSFIT · ACTIVACIÓN",
+      "badge": "ACTIVACIÓN",
       "head": [
         "DEAD BUG",
         "CON BANDA"
@@ -414,10 +414,10 @@
     }
   ],
   "miniatura": {
-    "pose": "START",
+    "pose": "EXT_F",
     "grip": 0,
-    "zoom": 1.05,
-    "dy": 80
+    "zoom": 1.1,
+    "dy": 100
   },
   "youtube": {
     "titulo": "Dead Bug con Banda 🐞 Core antiextensión paso a paso | CrossFit",

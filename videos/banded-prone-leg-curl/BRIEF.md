@@ -13,7 +13,7 @@ angle: how-to
 ## Intent
 
 Video instructivo vertical del ejercicio "Banded Prone Leg Curl" para que un alumno sepa cómo ejecutarlo.
-Descripción (verbatim): "Acostado boca abajo con una banda elástica anclada a los tobillos o con la banda bajo el pie, flexionar la rodilla llevando el talón hacia los glúteos contra la resistencia y volver controlado."
+Descripción (verbatim): "Boca abajo, con una banda elástica anclada baja detrás de los pies y enganchada al tobillo, flexionar la rodilla llevando el talón hacia los glúteos contra la banda y volver controlado, sin despegar el muslo del piso."
 
 ## Notes
 

@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Seated Leg Raise Crunch",
+      "text": "Subí las rodillas al pecho en la máquina de palanca y enrollá el torso arriba."
+    },
+    {
+      "id": "02",
+      "text": "El rodillo empuja la palanca desde las piernas. Trabaja el abdomen y los flexores de cadera."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el asiento para que la espalda quede apoyada en el respaldo y los pies lleguen cómodos al apoyo."
+    },
+    {
+      "id": "04",
+      "text": "Elegí un peso moderado con el pasador. Si las piernas se sueltan de golpe, bajá la carga."
+    },
+    {
+      "id": "05",
+      "text": "Sentate con la espalda apoyada y las manos en el asiento. Las piernas empiezan abajo, sin impulso."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Activá el abdomen y subí las rodillas hacia el pecho, sin balancear el cuerpo."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Arriba, enrollá el torso acercando las costillas a la cadera y apretá un segundo."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá las piernas y el torso lento, controlando el peso hasta abajo."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras subís las rodillas y tomá aire mientras bajás."
+    },
+    {
+      "id": "10",
+      "text": "Error: usar impulso y balancear las piernas. Subí con el abdomen, sin hamacarte."
+    },
+    {
+      "id": "11",
+      "text": "Error: subir las piernas sin enrollar el torso. Arriba pensá en juntar las costillas con la cadera."
+    },
+    {
+      "id": "12",
+      "text": "Tips de profe: espalda apoyada, rodillas al pecho sin impulso, enrollá el torso arriba y bajá lento sin soltar."
+    },
+    {
+      "id": "13",
+      "text": "Claves: espalda apoyada, rodillas al pecho, enrollá arriba y bajada lenta."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de diez a doce, con un minuto de pausa. Sumá peso cuando las doce salgan sin impulso."
+    },
+    {
+      "id": "15",
+      "text": "Al terminar, bajá las piernas despacio, soltá el rodillo y dejá el peso apoyado."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

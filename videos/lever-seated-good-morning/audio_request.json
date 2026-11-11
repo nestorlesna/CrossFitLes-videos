@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Seated Good Morning",
+      "text": "Buenos días sentado en máquina. Bisagras desde la cadera y trabajás isquios y glúteos."
+    },
+    {
+      "id": "02",
+      "text": "La máquina tiene asiento con respaldo, manijas al costado y la pila atrás."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el asiento para que las caderas queden un poco más altas que las rodillas."
+    },
+    {
+      "id": "04",
+      "text": "Sentate con la espalda recta, los pies planos y las manos en las manijas del asiento."
+    },
+    {
+      "id": "05",
+      "text": "Paso uno. Con la espalda recta, inclinate desde la cadera llevando el pecho hacia los muslos."
+    },
+    {
+      "id": "06",
+      "text": "Paso dos. Bajá hasta que la espalda quede casi paralela al piso y hacé una pausa corta."
+    },
+    {
+      "id": "07",
+      "text": "Paso tres. Volvé empujando con los glúteos y los isquios, sin tirar con la espalda."
+    },
+    {
+      "id": "08",
+      "text": "Tomá aire al bajar y soltalo al subir. El abdomen queda firme para cuidar la espalda."
+    },
+    {
+      "id": "09",
+      "text": "Error: redondear la espalda para bajar más. Menos rango y espalda recta."
+    },
+    {
+      "id": "10",
+      "text": "Error: bajar más allá del paralelo buscando rango. Frená cuando el torso queda paralelo."
+    },
+    {
+      "id": "11",
+      "text": "Error: bajar la cabeza y mirar al piso. La mirada va al frente, el cuello sigue la espalda."
+    },
+    {
+      "id": "12",
+      "text": "Tips: cadera más alta que la rodilla, bisagra de cadera, espalda recta y volvé con el glúteo."
+    },
+    {
+      "id": "13",
+      "text": "Claves: pies planos y firmes, sin redondear la espalda, bajá hasta el paralelo y sin impulso."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de diez a doce, con un minuto de pausa. Si las doce salen fáciles, subí peso."
+    },
+    {
+      "id": "15",
+      "text": "Al terminar, volvé arriba sin rebotar y dejá que la pila baje despacio."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

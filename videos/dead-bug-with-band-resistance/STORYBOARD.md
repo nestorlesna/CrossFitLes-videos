@@ -6,7 +6,7 @@ mode: autonomous
 music: plantilla/musica/bgm-base.wav
 ---
 
-## Frame 1 — CROSSFIT · ACTIVACIÓN DEAD BUG CON BANDA
+## Frame 1 — ACTIVACIÓN DEAD BUG CON BANDA
 
 - status: animated
 - min: 4.8s

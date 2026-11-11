@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Shoulder Press V3",
+      "text": "Press de hombros en máquina de palanca, con empuje casi vertical."
+    },
+    {
+      "id": "02",
+      "text": "La máquina tiene dos manijas, un respaldo alto para la espalda y la pila con el pasador."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el asiento para que las manijas arranquen a la altura de los hombros."
+    },
+    {
+      "id": "04",
+      "text": "Elegí un peso que te deje hacer las doce repeticiones sin mover el tronco."
+    },
+    {
+      "id": "05",
+      "text": "Espalda apoyada en el respaldo y manos a la altura del hombro, con los codos abajo."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá las manijas casi vertical, sin sacar la espalda del respaldo."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Arriba, pausá un segundo con los codos casi estirados, sin trabarlos."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá controlado hasta la altura del hombro, sin soltar el peso de golpe."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras empujás y tomalo mientras bajás."
+    },
+    {
+      "id": "10",
+      "text": "Error: arquear la lumbar para empujar. Apretá el abdomen y bajá el peso."
+    },
+    {
+      "id": "11",
+      "text": "Error: bajar las manijas más abajo que el hombro. Frená a la altura del hombro."
+    },
+    {
+      "id": "12",
+      "text": "Error: trabar los codos arriba y empujar de más. Llegá casi estirado y empezá a bajar."
+    },
+    {
+      "id": "13",
+      "text": "Tips: manijas a la altura del hombro, empuje casi vertical, espalda en el respaldo y codos sin trabar."
+    },
+    {
+      "id": "14",
+      "text": "Claves: espalda apoyada, pies firmes, pausá arriba y bajá controlado."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce, con un minuto y medio de pausa. Si no llegás a las diez, bajá una placa."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, acompañá las manijas hasta la altura del hombro y dejá el peso apoyado."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

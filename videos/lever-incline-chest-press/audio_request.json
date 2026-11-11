@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Incline Chest Press",
+      "text": "El press inclinado en máquina, para el pecho superior, con la espalda bien apoyada."
+    },
+    {
+      "id": "02",
+      "text": "El respaldo va casi vertical y las manijas salen altas, a la altura de la clavícula. Trabaja el pecho y el hombro."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el asiento para que las manijas queden a la altura de la clavícula, no a la altura del cuello."
+    },
+    {
+      "id": "04",
+      "text": "Elegí el peso con el pasador: uno que puedas empujar diez veces sin despegar la espalda del respaldo."
+    },
+    {
+      "id": "05",
+      "text": "Sentate con la espalda pegada al respaldo, los pies planos y el pecho alto. Agarrá las manijas."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá las manijas hacia adelante y arriba, siguiendo la inclinación de la máquina."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Llegá hasta casi estirar los brazos, sin trabar los codos de golpe."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Volvé lento hasta sentir que estira el pecho, sin dejar que las placas se apoyen."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire mientras empujás y tomalo mientras volvés. No aguantes el aire."
+    },
+    {
+      "id": "10",
+      "text": "Error: arquear la espalda para empujar más. Las costillas quedan abajo y la espalda pegada al respaldo."
+    },
+    {
+      "id": "11",
+      "text": "Error: trabar los codos de golpe al final. Llegá casi estirado y empezá a volver."
+    },
+    {
+      "id": "12",
+      "text": "Tips de profe: manijas a la clavícula, espalda pegada, empujá hacia arriba y volvé sin apoyar las placas."
+    },
+    {
+      "id": "13",
+      "text": "Claves: espalda pegada, pecho alto, empujá hacia arriba y volvé lento."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de diez a doce, con un minuto y medio de pausa. Cuando las doce salgan fáciles, subí una placa."
+    },
+    {
+      "id": "15",
+      "text": "Al terminar, volvé despacio, soltá las manijas y dejá el peso apoyado. No lo sueltes de golpe."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Seated Crunch (Chest Pad)",
+      "text": "Lever Seated Crunch: el crunch abdominal en máquina de palanca, con la almohadilla apoyada al pecho."
+    },
+    {
+      "id": "02",
+      "text": "La almohadilla va contra el pecho y la palanca mueve la pila. Trabaja el recto abdominal y suma los oblicuos."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el asiento y la altura de la almohadilla para que quede cómoda contra el pecho, sin apretar el cuello."
+    },
+    {
+      "id": "04",
+      "text": "Elegí un peso moderado con el pasador. Si necesitás impulso para moverlo, es demasiado."
+    },
+    {
+      "id": "05",
+      "text": "Sentate con el pecho contra la almohadilla, la espalda apoyada y los pies firmes en el piso. Tomá las manijas."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Activá el abdomen y reclinate despacio hacia atrás, dejando que la almohadilla te acompañe."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. En la máxima contracción, apretá el abdomen un segundo y soltá todo el aire."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Volvé a la posición inicial contrayendo el abdomen, sin que las placas toquen la pila."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire mientras volvés y soltalo mientras te reclinás. Nunca aguantes el aire arriba."
+    },
+    {
+      "id": "10",
+      "text": "Error: tirar con los brazos y usar mucho peso. Los brazos solo sostienen: el que mueve es el abdomen."
+    },
+    {
+      "id": "11",
+      "text": "Error: empujar con el cuello y la cabeza. El cuello sufre y el abdomen no trabaja: cuello largo y mirada al frente."
+    },
+    {
+      "id": "12",
+      "text": "Error: dejar caer el peso de golpe y rebotar. Volvé en dos o tres segundos, sin que la pila choque."
+    },
+    {
+      "id": "13",
+      "text": "Tips de profe: almohadilla cómoda al pecho, los brazos solo sostienen, exhalá al reclinar y volvé sin tocar la pila."
+    },
+    {
+      "id": "14",
+      "text": "Claves: pecho contra la almohadilla, pies firmes, cuello largo y movimiento lento."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de doce a quince, con un minuto de pausa. Cuando las quince salen fáciles, subí una placa."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, volvé despacio, soltá las manijas y dejá el peso apoyado. No lo sueltes de golpe."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

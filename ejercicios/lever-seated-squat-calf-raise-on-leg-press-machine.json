@@ -1,0 +1,753 @@
+{
+  "slug": "lever-seated-squat-calf-raise-on-leg-press-machine",
+  "name": "Lever Seated Squat Calf Raise on Leg Press Machine",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Gemelos",
+    "Cuádriceps"
+  ],
+  "descripcion": "Sentate con la espalda apoyada y las puntas de los pies en la plataforma. Con las rodillas casi estiradas, bajá los talones y empujá de nuevo subiéndolos.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 640,
+    "y": 1506.2,
+    "scale": 0.76
+  },
+  "shadow": false,
+  "initialPose": "MID",
+  "props": [
+    {
+      "type": "legpress",
+      "hip": [
+        -320,
+        -300
+      ],
+      "ang": 35,
+      "lean": -45,
+      "stops": 300
+    }
+  ],
+  "poses": {
+    "PRESS": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle": [
+        43.7,
+        -554.7
+      ],
+      "ft": -96
+    },
+    "MID": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle": [
+        38.8,
+        -551.2
+      ],
+      "ft": -128
+    },
+    "HEELS": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle": [
+        33.9,
+        -547.8
+      ],
+      "ft": -165
+    },
+    "KNEE_BAD": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle": [
+        -16.9,
+        -512.2
+      ],
+      "ft": -128
+    },
+    "HIP_BAD": {
+      "hip": [
+        -292,
+        -258
+      ],
+      "b": -36,
+      "hd": -4,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle": [
+        38.8,
+        -551.2
+      ],
+      "ft": -128
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "CALF",
+        "RAISE"
+      ],
+      "sub": "En la prensa de piernas",
+      "vo": "Lever Seated Squat Calf Raise on Leg Press Machine: elevación de talones en la prensa. Trabaja los gemelos.",
+      "moves": [
+        {
+          "cut": "HEELS",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "PRESS",
+              1.2
+            ],
+            [
+              "HEELS",
+              1.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Puntas de pie en la placa",
+      "vo": "La prensa de piernas con las puntas de los pies en la plataforma. Las rodillas quedan casi estiradas.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            350,
+            1164
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1164
+          ],
+          "text": "RESPALDO",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            669,
+            1087
+          ],
+          "r": 42,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1000
+          ],
+          "text": "PLATAFORMA",
+          "anchor": "end",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            814,
+            1084
+          ],
+          "r": 46,
+          "at": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1210
+          ],
+          "text": "DISCOS",
+          "anchor": "end",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "EL",
+        "ASIENTO"
+      ],
+      "sub": "Rodillas casi estiradas",
+      "vo": "Ajustá el asiento para que las rodillas queden casi estiradas con los pies en la plataforma.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            499,
+            1127
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "CASI ESTIRADAS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "LOS",
+        "PIES"
+      ],
+      "sub": "Puntas en la plataforma",
+      "vo": "Apoyá las puntas y la planta en la plataforma, con los talones al borde y los pies al ancho de los hombros.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            669,
+            1087
+          ],
+          "r": 42,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "PUNTAS EN LA PLACA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "TALONES",
+        "LIBRES"
+      ],
+      "sub": "Al borde de la placa",
+      "vo": "Con las rodillas casi estiradas, dejá los talones libres en el borde de la plataforma.",
+      "moves": [
+        {
+          "cut": "HEELS",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            666,
+            1090
+          ],
+          "r": 42,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "TALONES LIBRES",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SUBÍ",
+        "LOS TALONES"
+      ],
+      "sub": "Sin mover las rodillas",
+      "vo": "Paso uno. Empujá la plataforma subiendo los talones, sin cambiar el ángulo de las rodillas.",
+      "moves": [
+        {
+          "cut": "HEELS",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 0.8
+        },
+        {
+          "to": "PRESS",
+          "at": 1.4,
+          "dur": 0.8
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            620,
+            1124
+          ],
+          "to": [
+            657,
+            1057
+          ],
+          "at": 0.8,
+          "dur": 1.1
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "SUBÍ",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "PAUSA",
+        "ARRIBA"
+      ],
+      "sub": "Apretá el gemelo",
+      "vo": "Paso dos. Hacé una pausa arriba, con los talones bien altos y el gemelo contraído.",
+      "moves": [
+        {
+          "cut": "PRESS",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            584,
+            1107
+          ],
+          "r": 46,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "GEMELO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "LENTO"
+      ],
+      "sub": "Estirá el gemelo",
+      "vo": "Paso tres. Bajá los talones despacio hasta sentirlos estirar, sin dejar caer la plataforma.",
+      "moves": [
+        {
+          "cut": "PRESS",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 0.8
+        },
+        {
+          "to": "HEELS",
+          "at": 1.4,
+          "dur": 1.0
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            657,
+            1061
+          ],
+          "to": [
+            620,
+            1128
+          ],
+          "at": 0.8,
+          "dur": 1.1
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "ESTIRÁ",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá al subir",
+      "vo": "Soltá el aire al subir y tomalo al bajar. Respirá parejo, sin rebotar.",
+      "moves": [
+        {
+          "cut": "HEELS",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "PRESS",
+              1.2
+            ],
+            [
+              "HEELS",
+              1.6
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 2",
+      "head": [
+        "DOBLAR",
+        "LAS RODILLAS"
+      ],
+      "sub": "Rodillas fijas",
+      "vo": "Error: doblar las rodillas para empujar. Las rodillas quedan casi estiradas y el trabajo es del gemelo.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "to": "KNEE_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            453,
+            1105
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 2",
+      "head": [
+        "DESPEGAR",
+        "LA CADERA"
+      ],
+      "sub": "Espalda apoyada",
+      "vo": "Error: despegar la cadera y la espalda del respaldo. Quedá bien apoyado.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "to": "HIP_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            418,
+            1310
+          ],
+          "r": 52,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Talones libres",
+        "Rodillas fijas",
+        "Pausa arriba",
+        "Bajá lento"
+      ],
+      "vo": "Tips de profe: talones libres, rodillas fijas, pausa arriba y bajá lento.",
+      "moves": [
+        {
+          "cut": "HEELS",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "PRESS",
+              1.2
+            ],
+            [
+              "HEELS",
+              1.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Puntas al borde",
+        "Rodillas casi rectas",
+        "Sin rebote",
+        "Rango completo"
+      ],
+      "vo": "Claves: puntas al borde, rodillas casi estiradas, sin rebote y rango completo.",
+      "moves": [
+        {
+          "cut": "PRESS",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12-15"
+      ],
+      "sub": "Cuarenta y cinco segundos",
+      "vo": "Tres series de doce a quince, con cuarenta y cinco segundos de pausa. Subí cuando salgan fáciles.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ LENTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "HEELS",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "PRESS",
+              1.2
+            ],
+            [
+              "HEELS",
+              1.6
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "DEJÁ LA",
+        "PLATAFORMA"
+      ],
+      "sub": "Sin soltar de golpe",
+      "vo": "Al terminar, volvé la plataforma despacio y soltá las trabas. No dejes caer el peso.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "to": "HEELS",
+          "at": 1.0,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "DEJÁ LA PLATAFORMA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "PRESS",
+    "zoom": 1.15,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Lever Seated Squat Calf Raise 🔥 Elevación de talones en prensa | Gimnasio",
+    "tags": [
+      "lever seated squat calf raise",
+      "elevación de talones",
+      "calf raise",
+      "gemelos",
+      "pantorrillas",
+      "prensa de piernas",
+      "máquina de palanca",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de piernas",
+      "piernas"
+    ],
+    "descripcion": "🔥 LEVER SEATED SQUAT CALF RAISE ON LEG PRESS MACHINE (elevación de talones en la prensa) — gemelos, con cuádriceps como apoyo\n\n¿Querés gemelos más fuertes? La prensa de piernas también sirve para elevación de talones. Mirá cómo se usa. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el asiento para que las rodillas queden casi estiradas.\n2️⃣ Apoyá las puntas en la plataforma, con los talones al borde.\n\n📋 PASO A PASO\n1️⃣ Sentate con la espalda apoyada y las puntas de los pies en la plataforma.\n2️⃣ Dejá los talones libres en el borde y las rodillas casi estiradas.\n3️⃣ Empujá la plataforma subiendo los talones, sin mover las rodillas.\n4️⃣ Hacé una pausa arriba y bajá los talones lento hasta estirar el gemelo.\n\n❌ ERRORES COMUNES\n• Doblar las rodillas → quedan casi estiradas.\n• Despegar la cadera → espalda bien apoyada.\n• Rebotar abajo → pausa y bajada controlada.\n\n💡 TIPS DEL PROFE\n• Puntas y planta en la plataforma.\n• Rodillas casi estiradas y fijas.\n• Pausa arriba con el gemelo contraído.\n• Bajá lento hasta estirar.\n\n🎯 QUÉ TRABAJA\nGemelos · Cuádriceps · Isquiotibiales\n\n⏱️ CUÁNTO\n3 series de 12–15 repeticiones, con 45 segundos de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #CalfRaise #Gemelos #PrensaDePiernas #Pantorrillas #Musculacion #Entrenamiento"
+  }
+}

@@ -1,0 +1,802 @@
+{
+  "slug": "lever-donkey-calf-raise",
+  "name": "Lever Donkey Calf Raise",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Gemelos",
+    "Sóleo"
+  ],
+  "descripcion": "Apoyate inclinado bajo la almohadilla con la punta de los pies en el escalón y los talones en el aire. Levantá los talones lo más alto posible, pausá arriba y bajá lento hasta estirar la pantorrilla.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 610,
+    "y": 1510.9,
+    "scale": 0.62
+  },
+  "shadow": false,
+  "initialPose": "DOWN",
+  "props": [
+    {
+      "type": "standingcalf",
+      "step": [
+        -35,
+        190,
+        -74
+      ],
+      "stack": -560,
+      "column": -220,
+      "top": -1020,
+      "padX": -79,
+      "padAt": "hip",
+      "pin": 6,
+      "k": 1.6
+    }
+  ],
+  "poses": {
+    "DOWN": {
+      "hip": [
+        -57.8,
+        -543.9
+      ],
+      "ankle": [
+        -47.8,
+        -73.9
+      ],
+      "ft": -26,
+      "b": 58,
+      "hd": 44,
+      "g": 0,
+      "ua": 2,
+      "fa": 6
+    },
+    "MID": {
+      "hip": [
+        -48.8,
+        -580.4
+      ],
+      "ankle": [
+        -38.8,
+        -110.4
+      ],
+      "ft": 2,
+      "b": 58,
+      "hd": 44,
+      "g": 0,
+      "ua": 2,
+      "fa": 6
+    },
+    "UP": {
+      "hip": [
+        -19.0,
+        -611.3
+      ],
+      "ankle": [
+        -9.0,
+        -141.3
+      ],
+      "ft": 34,
+      "b": 58,
+      "hd": 44,
+      "g": 0,
+      "ua": 2,
+      "fa": 6
+    },
+    "KNEES_BAD": {
+      "hip": [
+        -44.6,
+        -509.4
+      ],
+      "ankle": [
+        -34.6,
+        -117.4
+      ],
+      "ft": 8,
+      "b": 58,
+      "hd": 44,
+      "g": 0,
+      "ua": 2,
+      "fa": 6
+    },
+    "ROUND_BAD": {
+      "hip": [
+        -44.6,
+        -587.4
+      ],
+      "ankle": [
+        -34.6,
+        -117.4
+      ],
+      "ft": 8,
+      "b": 58,
+      "hd": 70,
+      "g": 0,
+      "ua": 2,
+      "fa": 6,
+      "cv": 34
+    },
+    "SHORT_BAD": {
+      "hip": [
+        -39.7,
+        -593.9
+      ],
+      "ankle": [
+        -29.7,
+        -123.9
+      ],
+      "ft": 14,
+      "b": 58,
+      "hd": 44,
+      "g": 0,
+      "ua": 2,
+      "fa": 6
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "DONKEY",
+        "CALF"
+      ],
+      "sub": "Gemelos inclinado en máquina",
+      "vo": "Lever Donkey Calf Raise: gemelos inclinado en máquina de palanca. Punta de los pies en el escalón y subí los talones.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.5
+            ],
+            [
+              "DOWN",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Almohadilla, escalón y pila",
+      "vo": "La máquina tiene una almohadilla para la cadera, un escalón para la punta de los pies y la pila con el pasador.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            561,
+            1130
+          ],
+          "r": 52,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1140
+          ],
+          "text": "ALMOHADILLA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            648,
+            1479
+          ],
+          "r": 56,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1420
+          ],
+          "text": "ESCALÓN",
+          "anchor": "end",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            294,
+            1428
+          ],
+          "r": 26,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1430
+          ],
+          "text": "PESO",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1",
+      "head": [
+        "LA",
+        "ALMOHADILLA"
+      ],
+      "sub": "A la altura de la cadera",
+      "vo": "Ajustá la almohadilla para que apoye en la cadera cuando te inclinás. Si queda alta, no trabaja.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            561,
+            1130
+          ],
+          "r": 52,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1140
+          ],
+          "text": "EN LA CADERA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "PESO"
+      ],
+      "sub": "Empezá liviano",
+      "vo": "Elegí el peso con el pasador: uno que te deje subir quince veces sin rebotar.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            294,
+            1428
+          ],
+          "r": 26,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1430
+          ],
+          "text": "PESO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "INCLINADO",
+        "Y FIRME"
+      ],
+      "sub": "Talones en el aire",
+      "vo": "Inclinate con la espalda apoyada en la almohadilla, las rodillas casi rectas y los talones en el aire.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            580,
+            1465
+          ],
+          "r": 44,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1390
+          ],
+          "text": "TALÓN AFUERA",
+          "anchor": "end",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 6.8,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ EL",
+        "TALÓN"
+      ],
+      "sub": "Despacio, hasta estirar",
+      "vo": "Paso uno. Bajá el talón despacio por debajo del escalón hasta estirar bien la pantorrilla.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.6,
+          "dur": 1.8
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            580,
+            1465
+          ],
+          "r": 44,
+          "at": 1.6
+        },
+        {
+          "type": "arrow",
+          "from": [
+            626,
+            1381
+          ],
+          "to": [
+            626,
+            1449
+          ],
+          "at": 0.9,
+          "dur": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "PAUSA",
+        "ABAJO"
+      ],
+      "sub": "Uno o dos segundos",
+      "vo": "Paso dos. Abajo, pausá uno o dos segundos. Nada de rebotar como un resorte.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            580,
+            1465
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1400
+          ],
+          "text": "PAUSA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.8,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "SUBÍ",
+        "BIEN ALTO"
+      ],
+      "sub": "Sobre el dedo gordo",
+      "vo": "Paso tres. Subí lo más alto posible sobre el dedo gordo y apretá arriba un segundo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.6,
+          "dur": 1.4
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            604,
+            1423
+          ],
+          "r": 44,
+          "at": 1.6
+        },
+        {
+          "type": "arrow",
+          "from": [
+            626,
+            1469
+          ],
+          "to": [
+            626,
+            1403
+          ],
+          "at": 0.9,
+          "dur": 1.4
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al subir",
+      "vo": "Soltá el aire mientras subís y tomalo mientras bajás. Ritmo lento.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.6
+            ],
+            [
+              "DOWN",
+              2.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "RODILLAS",
+        "FLEXIONADAS"
+      ],
+      "sub": "No te ayudes con las piernas",
+      "vo": "Error: flexionar las rodillas para ayudarte a subir. Rodillas casi rectas y quietas: solo se mueve el tobillo.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "to": "KNEES_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            860,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            666,
+            1318
+          ],
+          "r": 46,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "ESPALDA",
+        "REDONDA"
+      ],
+      "sub": "Pecho abierto",
+      "vo": "Error: redondear la espalda y esconder el pecho. Abrí el pecho y mantené la espalda firme bajo la almohadilla.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "to": "ROUND_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            860,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            656,
+            1101
+          ],
+          "r": 56,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "RECORRIDO",
+        "CORTO"
+      ],
+      "sub": "Bajá y subí todo",
+      "vo": "Error: hacer medio recorrido. Bajá el talón hasta estirar y subí hasta lo más alto.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "to": "SHORT_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            860,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            592,
+            1434
+          ],
+          "r": 44,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Rodillas casi rectas",
+        "Pausa abajo estirando",
+        "Subí sobre el dedo gordo",
+        "Espalda firme, pecho abierto"
+      ],
+      "vo": "Tips: rodillas casi rectas, pausa abajo estirando, subí sobre el dedo gordo y espalda firme con el pecho abierto.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.5
+            ],
+            [
+              "DOWN",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Punta en el borde",
+        "Pies paralelos",
+        "Rango completo",
+        "Apretá arriba"
+      ],
+      "vo": "Claves: punta en el borde, pies paralelos, rango completo y apretá arriba.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 15"
+      ],
+      "sub": "Un minuto de pausa",
+      "vo": "Tres series de doce a quince, con un minuto de pausa. Cuando las quince salen fáciles, subí el peso.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ EL TALÓN",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PAUSA ABAJO",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SUBÍ ALTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.5
+            ],
+            [
+              "DOWN",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "BAJÁ EL",
+        "PESO"
+      ],
+      "sub": "Sin soltar de golpe",
+      "vo": "Al terminar, bajá el peso despacio y recién después salí de la máquina.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.8,
+          "dur": 2.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "DEJÁ EL PESO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "zoom": 1.06,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Lever Donkey Calf Raise 🔥 Gemelos inclinado en máquina | Gimnasio",
+    "tags": [
+      "lever donkey calf raise",
+      "donkey calf raise",
+      "gemelos inclinado",
+      "máquina de gemelos",
+      "calf raise",
+      "gemelos",
+      "pantorrilla",
+      "sóleo",
+      "piernas",
+      "máquina de palanca",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de piernas"
+    ],
+    "descripcion": "🔥 LEVER DONKEY CALF RAISE (gemelos inclinado en máquina de palanca) — gemelos y sóleo, con el tobillo como único motor\n\n¿Subís los talones ayudándote con las rodillas? Así el gemelo casi no trabaja. Mirá cómo se hace bien. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá la almohadilla para que apoye en la cadera cuando te inclinás.\n2️⃣ Apoyá solo la punta de los pies en el escalón, con los talones en el aire.\n3️⃣ Elegí un peso que te deje subir quince veces sin rebotar.\n\n📋 PASO A PASO\n1️⃣ Inclinate con la espalda apoyada en la almohadilla y las rodillas casi rectas.\n2️⃣ Bajá el talón despacio por debajo del escalón hasta estirar.\n3️⃣ Pausá uno o dos segundos abajo, sin rebotar.\n4️⃣ Subí lo más alto posible sobre el dedo gordo y apretá un segundo.\n\n❌ ERRORES COMUNES\n• Flexionar las rodillas para ayudarte → rodillas casi rectas y quietas.\n• Redondear la espalda → pecho abierto y espalda firme.\n• Hacer medio recorrido → bajá hasta estirar y subí hasta lo más alto.\n\n💡 TIPS DEL PROFE\n• Rodillas casi rectas, sin trabarlas.\n• Pausa abajo estirando la pantorrilla.\n• Subí sobre el dedo gordo, no con el pie plano.\n• Espalda firme y pecho abierto bajo la almohadilla.\n• Pies paralelos en el escalón.\n\n🎯 QUÉ TRABAJA\nGemelos · Sóleo\n\n⏱️ CUÁNTO\n3 series de 12–15 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Gemelos #Pantorrilla #DonkeyCalfRaise #Piernas #Musculacion #Entrenamiento"
+  }
+}

@@ -100,22 +100,40 @@
       ],
       "s": -12,
       "t": -100,
+      "s2": 22.5,
+      "t2": -22.5,
       "b": 4,
       "hd": 2,
       "ft": 40,
+      "ft2": 0,
       "g": 0,
       "ua": 40,
       "fa": 20,
       "ua2": -20,
       "fa2": 10
     },
+    "KNEE_MID": {
+      "s": 24,
+      "t": -22.9,
+      "s2": 22.5,
+      "t2": -22.5,
+      "b": 4,
+      "hd": 2,
+      "ft": 0,
+      "ft2": 0,
+      "g": 0,
+      "ua": 35,
+      "fa": 30,
+      "ua2": 20,
+      "fa2": 20
+    },
     "KNEE_B": {
       "hip": [
         0,
         -430
       ],
-      "s": 0,
-      "t": 0,
+      "s": 24,
+      "t": -22.9,
       "b": 4,
       "hd": 2,
       "g": 0,
@@ -226,18 +244,6 @@
           "at": 0.9,
           "dur": 0.9
         }
-      ],
-      "overlays": [
-        {
-          "type": "label",
-          "pos": [
-            500,
-            552
-          ],
-          "text": "ALTURA DE HOMBROS",
-          "anchor": "middle",
-          "at": 1.8
-        }
       ]
     },
     {
@@ -287,11 +293,11 @@
         {
           "type": "label",
           "pos": [
-            500,
-            552
+            70,
+            760
           ],
           "text": "GRANDES Y LENTOS",
-          "anchor": "middle",
+          "anchor": "start",
           "at": 1.2
         }
       ]
@@ -312,14 +318,13 @@
           "at": 0
         },
         {
-          "to": "SQUAT",
+          "loop": [
+            "SQUAT",
+            "STAND"
+          ],
           "at": 0.6,
-          "dur": 1.0
-        },
-        {
-          "to": "STAND",
-          "at": 2.2,
-          "dur": 1.0
+          "step": 1.1,
+          "until": "end"
         }
       ],
       "overlays": [
@@ -360,12 +365,25 @@
           "at": 0
         },
         {
-          "loop": [
-            "KNEE_A",
-            "KNEE_B"
+          "seq": [
+            [
+              "KNEE_A",
+              0.55
+            ],
+            [
+              "KNEE_MID",
+              0.3
+            ],
+            [
+              "KNEE_B",
+              0.55
+            ],
+            [
+              "KNEE_MID",
+              0.3
+            ]
           ],
           "at": 0.4,
-          "step": 0.5,
           "until": "end"
         }
       ],
@@ -401,6 +419,28 @@
           "to": "KNEE_A",
           "at": 2.2,
           "dur": 0.7
+        },
+        {
+          "seq": [
+            [
+              "KNEE_A",
+              0.55
+            ],
+            [
+              "KNEE_MID",
+              0.3
+            ],
+            [
+              "KNEE_B",
+              0.55
+            ],
+            [
+              "KNEE_MID",
+              0.3
+            ]
+          ],
+          "at": 2.9,
+          "until": "end"
         }
       ],
       "overlays": [
@@ -536,12 +576,25 @@
           "at": 2.7
         },
         {
-          "loop": [
-            "KNEE_A",
-            "KNEE_B"
+          "seq": [
+            [
+              "KNEE_A",
+              0.55
+            ],
+            [
+              "KNEE_MID",
+              0.3
+            ],
+            [
+              "KNEE_B",
+              0.55
+            ],
+            [
+              "KNEE_MID",
+              0.3
+            ]
           ],
           "at": 3.1,
-          "step": 0.5,
           "until": "end"
         }
       ]

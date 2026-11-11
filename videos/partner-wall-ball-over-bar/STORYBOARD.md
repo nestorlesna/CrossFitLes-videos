@@ -16,7 +16,7 @@ music: plantilla/musica/bgm-base.wav
 ## Frame 2 — POSICIÓN INICIAL FRENTE A FRENTE
 
 - status: animated
-- min: 5.2s
+- min: 7.8s
 - voiceover: "Con un compañero, frente a frente y a un paso de distancia. La barra queda apoyada en el piso, justo en el medio de los dos."
 - poses: SQUAT → HOLD
 

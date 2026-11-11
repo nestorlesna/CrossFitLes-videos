@@ -1,0 +1,746 @@
+{
+  "slug": "lever-assisted-chin-up",
+  "name": "Lever Assisted Chin-up",
+  "maquina": true,
+  "category": "GIMNASIO · ESPALDA",
+  "tags": [
+    "Dorsales",
+    "Bíceps"
+  ],
+  "descripcion": "De pie en la plataforma, agarrá las manijas con agarre prono y tirá del cuerpo hacia arriba liderando con el pecho.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 560,
+    "y": 1512.3,
+    "scale": 0.58
+  },
+  "shadow": false,
+  "initialPose": "STAND",
+  "props": [
+    {
+      "type": "assisted",
+      "stack": 420,
+      "grip": [
+        90,
+        -1150
+      ],
+      "pivot": [
+        300,
+        -220
+      ],
+      "pad": "feet",
+      "rest": -363,
+      "pin": 6,
+      "k": 1
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "hip": [
+        30.2,
+        -570.2
+      ],
+      "ankle": [
+        80,
+        -104
+      ],
+      "b": 2,
+      "hd": 2,
+      "ft": 0,
+      "g": 1,
+      "hx": 90,
+      "hy": -1150,
+      "ed": -1
+    },
+    "MID": {
+      "hip": [
+        20.2,
+        -720.2
+      ],
+      "ankle": [
+        70,
+        -253
+      ],
+      "b": 2,
+      "hd": 2,
+      "ft": 0,
+      "g": 1,
+      "hx": 90,
+      "hy": -1150,
+      "ed": -1
+    },
+    "TOP": {
+      "hip": [
+        20.0,
+        -830.0
+      ],
+      "ankle": [
+        60,
+        -363
+      ],
+      "b": 0,
+      "hd": 0,
+      "ft": 0,
+      "g": 1,
+      "hx": 90,
+      "hy": -1150,
+      "ed": -1
+    },
+    "SWING_BAD": {
+      "hip": [
+        192.7,
+        -638.3
+      ],
+      "ankle": [
+        230,
+        -200
+      ],
+      "b": -26,
+      "hd": -26,
+      "ft": 0,
+      "g": 1,
+      "hx": 90,
+      "hy": -1150,
+      "ed": -1
+    },
+    "HALF_BAD": {
+      "hip": [
+        35.2,
+        -630.2
+      ],
+      "ankle": [
+        85,
+        -163
+      ],
+      "b": 2,
+      "hd": 2,
+      "ft": 0,
+      "g": 1,
+      "hx": 90,
+      "hy": -1150,
+      "ed": -1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · ESPALDA",
+      "head": [
+        "CHIN-UP",
+        "EN PALANCA"
+      ],
+      "sub": "Manijas bajas, cuerpo recto",
+      "vo": "Lever Assisted Chin-up: la dominada asistida en máquina de palanca, de pie en la plataforma.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "MID",
+              1.2
+            ],
+            [
+              "TOP",
+              1.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Palanca y contrapeso",
+      "vo": "La palanca mueve la pila y la plataforma te ayuda a subir. Trabaja dorsales, bíceps y romboides.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            606,
+            1473
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            700
+          ],
+          "text": "PLATAFORMA",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            612,
+            845
+          ],
+          "r": 44,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            700
+          ],
+          "text": "MANIJAS",
+          "anchor": "start",
+          "at": 1.6
+        },
+        {
+          "type": "ring",
+          "pos": [
+            833,
+            1435
+          ],
+          "r": 30,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            1250
+          ],
+          "text": "PASADOR",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "AJUSTE 1",
+      "head": [
+        "EL",
+        "CONTRAPESO"
+      ],
+      "sub": "Más peso, más ayuda",
+      "vo": "Elegí el contrapeso con el pasador. Acá es al revés: más peso es más ayuda.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            833,
+            1435
+          ],
+          "r": 34,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            700
+          ],
+          "text": "MÁS PESO = MÁS AYUDA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "SUBÍ CON",
+        "CUIDADO"
+      ],
+      "sub": "Por los escalones",
+      "vo": "Subí por los escalones y agarrá las manijas con agarre prono antes de apoyar los pies.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            418,
+            1402
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            700
+          ],
+          "text": "ESCALONES",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "CUERPO",
+        "RECTO"
+      ],
+      "sub": "Brazos extendidos",
+      "vo": "Quedate con el cuerpo recto, los brazos extendidos y los hombros activos, sin quedar flojo.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            700
+          ],
+          "text": "CUERPO RECTO",
+          "anchor": "end",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            606,
+            1473
+          ],
+          "r": 50,
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "PECHO A",
+        "LAS MANOS"
+      ],
+      "sub": "Liderá con el pecho",
+      "vo": "Paso uno. Activá la espalda y tirá del cuerpo hacia arriba liderando con el pecho.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.5,
+          "dur": 0.9
+        },
+        {
+          "to": "TOP",
+          "at": 1.4,
+          "dur": 1.0
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            500,
+            1100
+          ],
+          "to": [
+            500,
+            940
+          ],
+          "at": 0.8,
+          "dur": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            700
+          ],
+          "text": "PECHO ADELANTE",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "MENTÓN",
+        "ARRIBA"
+      ],
+      "sub": "Sobre las manijas",
+      "vo": "Paso dos. Subí hasta que el mentón quede por encima de las manijas y apretá un segundo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            572,
+            850
+          ],
+          "r": 46,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            700
+          ],
+          "text": "MENTÓN ARRIBA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "EN 3"
+      ],
+      "sub": "Hasta estirar los brazos",
+      "vo": "Paso tres. Bajá lento, en dos o tres segundos, hasta estirar los brazos del todo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "STAND",
+          "at": 0.6,
+          "dur": 2.6
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            700
+          ],
+          "text": "2 A 3 SEGUNDOS",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al subir",
+      "vo": "Soltá el aire mientras subís y tomá aire mientras bajás.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.4
+            ],
+            [
+              "STAND",
+              2.4
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 2",
+      "head": [
+        "IMPULSO DE",
+        "CADERA"
+      ],
+      "sub": "Cuerpo recto",
+      "vo": "Error: usar impulso de cadera. Mantené el cuerpo recto y tirá solo con la espalda.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "SWING_BAD",
+          "at": 0.5,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            731,
+            1268
+          ],
+          "r": 60,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 2",
+      "head": [
+        "MEDIA",
+        "REPETICIÓN"
+      ],
+      "sub": "Bajá completo",
+      "vo": "Error: quedarte a mitad de camino. Bajá hasta estirar los brazos y recién ahí volvé a subir.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "HALF_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            700
+          ],
+          "text": "ESTIRÁ DEL TODO",
+          "anchor": "end",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Agarre prono, un poco ancho",
+        "Cuerpo recto colgado",
+        "Liderá con el pecho",
+        "Cada semana, menos ayuda"
+      ],
+      "vo": "Tips de profe: agarre prono un poco ancho, cuerpo recto, liderá con el pecho y cada semana menos ayuda.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "MID",
+              1.2
+            ],
+            [
+              "TOP",
+              1.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Más peso = más ayuda",
+        "Mentón sobre las manijas",
+        "Cuerpo recto, sin impulso",
+        "Bajada controlada"
+      ],
+      "vo": "Claves: más peso es más ayuda, mentón sobre las manijas, cuerpo recto sin impulso y bajada controlada.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 6-10"
+      ],
+      "sub": "Dos minutos de pausa",
+      "vo": "Tres series de seis a diez, con dos minutos de pausa. Cuando las diez salen fáciles, sacá un poco de ayuda.",
+      "chips": [
+        {
+          "label": "1 · PECHO ARRIBA",
+          "at": 0.6
+        },
+        {
+          "label": "2 · MENTÓN",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ LENTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "MID",
+              1.2
+            ],
+            [
+              "TOP",
+              1.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.2,
+      "badge": "AL TERMINAR",
+      "head": [
+        "BAJATE",
+        "CON CUIDADO"
+      ],
+      "sub": "Pies al escalón",
+      "vo": "Al terminar, apoyá los pies en los escalones y recién ahí soltá las manijas.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            418,
+            1402
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            130,
+            700
+          ],
+          "text": "PIES AL ESCALÓN",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "STAND",
+    "grip": 1,
+    "zoom": 0.95,
+    "dy": 160
+  },
+  "youtube": {
+    "titulo": "Lever Assisted Chin-up 🔥 Dominada asistida en máquina de palanca | Gimnasio",
+    "tags": [
+      "lever assisted chin up",
+      "dominada asistida",
+      "chin up en máquina",
+      "máquina de palanca",
+      "dominadas asistidas",
+      "dorsales",
+      "bíceps",
+      "espalda",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes"
+    ],
+    "descripcion": "🔥 LEVER ASSISTED CHIN-UP (dominada asistida en máquina de palanca) — subí con la espalda, no con impulso\n\n¿Usás la máquina de palanca pero volvés con impulso? Con estos ajustes, cada repetición la hace la espalda. Este video es para vos. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Elegí el contrapeso: acá más peso es más ayuda.\n2️⃣ Subí por los escalones y agarrá las manijas con agarre prono.\n\n📋 PASO A PASO\n1️⃣ Cuerpo recto, brazos extendidos y hombros activos.\n2️⃣ Tirá del cuerpo hacia arriba liderando con el pecho.\n3️⃣ Subí hasta pasar el mentón por encima de las manijas.\n4️⃣ Bajá en 2–3 segundos hasta estirar los brazos.\n\n❌ ERRORES COMUNES\n• Usar impulso de cadera → cuerpo recto, tirá con la espalda.\n• Media repetición → bajá hasta estirar del todo.\n• Soltarte de golpe → bajada controlada de 2–3 segundos.\n\n💡 TIPS DEL PROFE\n• Agarre prono un poco más ancho que los hombros.\n• Cuerpo recto mientras colgás.\n• Liderá con el pecho, no con el mentón.\n• Cada semana sacá un poco de ayuda.\n• Bajate con cuidado, pies al escalón.\n\n🎯 QUÉ TRABAJA\nDorsales · Bíceps · Romboides · Antebrazos\n\n⏱️ CUÁNTO\n3 series de 6–10 repeticiones, con 2 minutos de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #LeverAssistedChinUp #Dominadas #Espalda #Musculacion #Entrenamiento"
+  }
+}

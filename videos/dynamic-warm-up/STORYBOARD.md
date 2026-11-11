@@ -32,7 +32,7 @@ music: plantilla/musica/bgm-base.wav
 - status: animated
 - min: 5.8s
 - voiceover: "Paso dos. Sumá sentadillas suaves, bajando con el pecho alto y los talones en el piso. Es calentar, no entrenar."
-- poses: SQUAT → STAND
+- poses: —
 
 ## Frame 5 — PASO 3 / 4 RODILLAS ALTAS
 

@@ -1,0 +1,785 @@
+{
+  "slug": "lever-kneeling-leg-curl",
+  "name": "Lever Kneeling Leg Curl",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Isquiotibiales",
+    "Glúteos"
+  ],
+  "descripcion": "Arrodillate con las rodillas en la almohadilla y el pecho sobre el apoyo inclinado. Con la cadera quieta, llevá los talones hacia los glúteos, apretá un segundo arriba y volvé lento hasta casi estirar.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 720,
+    "y": 1509.6,
+    "scale": 0.66
+  },
+  "shadow": false,
+  "initialPose": "KNEEL",
+  "props": [
+    {
+      "type": "kneelingcurl",
+      "pivot": [
+        -140,
+        -330
+      ],
+      "stack": -740,
+      "knee": [
+        -300,
+        -100
+      ],
+      "handle": [
+        95,
+        -590
+      ],
+      "roll": 236,
+      "pin": 5,
+      "k": 3.0
+    }
+  ],
+  "poses": {
+    "KNEEL": {
+      "t": -22,
+      "b": 35,
+      "hd": 15,
+      "ft": -40,
+      "g": 1,
+      "hx": 95,
+      "hy": -590,
+      "hip": [
+        -230,
+        -552
+      ],
+      "s": 78
+    },
+    "MID": {
+      "t": -22,
+      "b": 35,
+      "hd": 15,
+      "ft": -40,
+      "g": 1,
+      "hx": 95,
+      "hy": -590,
+      "hip": [
+        -230,
+        -552
+      ],
+      "s": 112
+    },
+    "CURL": {
+      "t": -22,
+      "b": 35,
+      "hd": 15,
+      "ft": -40,
+      "g": 1,
+      "hx": 95,
+      "hy": -590,
+      "hip": [
+        -230,
+        -552
+      ],
+      "s": 145
+    },
+    "HIP_BAD": {
+      "t": -8,
+      "b": 30,
+      "hd": 24,
+      "ft": -40,
+      "g": 1,
+      "hx": 95,
+      "hy": -590,
+      "hip": [
+        -250,
+        -500
+      ],
+      "s": 145
+    },
+    "DIP_BAD": {
+      "t": -22,
+      "b": 55,
+      "hd": 40,
+      "ft": -40,
+      "g": 1,
+      "hx": 95,
+      "hy": -590,
+      "hip": [
+        -230,
+        -552
+      ],
+      "s": 145
+    },
+    "SHORT_BAD": {
+      "t": -22,
+      "b": 35,
+      "hd": 15,
+      "ft": -40,
+      "g": 1,
+      "hx": 95,
+      "hy": -590,
+      "hip": [
+        -230,
+        -552
+      ],
+      "s": 105
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "KNEELING",
+        "LEG CURL"
+      ],
+      "sub": "Femoral arrodillado",
+      "vo": "Lever Kneeling Leg Curl: femoral arrodillado en máquina de palanca. Isquiotibiales fuertes con el tronco quieto.",
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CURL",
+              1.2
+            ],
+            [
+              "KNEEL",
+              1.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Almohadilla, manijas y rodillo",
+      "vo": "La máquina tiene una almohadilla para las rodillas, manijas adelante y un rodillo que va detrás del tobillo.",
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            588,
+            1312
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1310
+          ],
+          "text": "RODILLA",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            783,
+            1120
+          ],
+          "r": 34,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1120
+          ],
+          "text": "MANIJAS",
+          "anchor": "end",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            324,
+            1312
+          ],
+          "r": 52,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1300
+          ],
+          "text": "PILA",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "LAS",
+        "RODILLAS"
+      ],
+      "sub": "En la almohadilla",
+      "vo": "Apoyá las rodillas en la almohadilla, con el eje rojo justo al costado de la rodilla.",
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            588,
+            1312
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1310
+          ],
+          "text": "RODILLA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "PESO"
+      ],
+      "sub": "Rodillo y pasador",
+      "vo": "Elegí el peso con el pasador y ajustá el rodillo detrás del tobillo, no sobre el talón.",
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            358,
+            1407
+          ],
+          "r": 26,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1440
+          ],
+          "text": "PASADOR",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESPALDA",
+        "RECTA"
+      ],
+      "sub": "Manos firmes en las manijas",
+      "vo": "Arrodillate, agarrá las manijas con los brazos firmes y dejá el tronco quieto, mirando abajo.",
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "ESPALDA RECTA",
+          "anchor": "start",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            479,
+            1324
+          ],
+          "r": 40,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1240
+          ],
+          "text": "TALONES",
+          "anchor": "start",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 6.8,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "TALONES",
+        "ARRIBA"
+      ],
+      "sub": "Cadera quieta",
+      "vo": "Paso uno. Llevá los talones hacia los glúteos, doblando las rodillas sin mover la cadera.",
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            437,
+            1308
+          ],
+          "to": [
+            498,
+            1152
+          ],
+          "at": 0.9,
+          "dur": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "APRETÁ",
+        "ARRIBA"
+      ],
+      "sub": "Un segundo",
+      "vo": "Paso dos. Arriba, apretá los isquiotibiales un segundo, sin subir la cadera.",
+      "moves": [
+        {
+          "cut": "CURL",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            540,
+            1168
+          ],
+          "r": 34,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1180
+          ],
+          "text": "APRETÁ",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "VOLVÉ",
+        "LENTO"
+      ],
+      "sub": "Tres segundos",
+      "vo": "Paso tres. Volvé lento, en tres segundos, hasta casi estirar las rodillas.",
+      "moves": [
+        {
+          "cut": "CURL",
+          "at": 0
+        },
+        {
+          "to": "KNEEL",
+          "at": 0.6,
+          "dur": 2.4
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            498,
+            1152
+          ],
+          "to": [
+            437,
+            1308
+          ],
+          "at": 0.9,
+          "dur": 2.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al subir",
+      "vo": "Soltá el aire cuando subís los talones y tomalo cuando bajás.",
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CURL",
+              1.3
+            ],
+            [
+              "KNEEL",
+              2.0
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "CADERA",
+        "ARRIBA"
+      ],
+      "sub": "La cadera se despega",
+      "vo": "Error: subir la cadera para ayudarte. La cadera queda quieta y las rodillas no se despegan.",
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        },
+        {
+          "to": "HIP_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            700
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            577,
+            1336
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "TIRAR",
+        "EL TRONCO"
+      ],
+      "sub": "El pecho se va adelante",
+      "vo": "Error: tirar el tronco adelante para empujar. El tronco queda firme y solo se mueven las rodillas.",
+      "moves": [
+        {
+          "cut": "CURL",
+          "at": 0
+        },
+        {
+          "to": "DIP_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            700
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            733,
+            1023
+          ],
+          "r": 46,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "MEDIO",
+        "RECORRIDO"
+      ],
+      "sub": "Rápido y corto",
+      "vo": "Error: medio recorrido, rápido. Llevá los talones bien arriba y volvé lento.",
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        },
+        {
+          "to": "SHORT_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            700
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            481,
+            1253
+          ],
+          "r": 40,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Rodillas en la almohadilla",
+        "Cadera quieta",
+        "Talones a los glúteos",
+        "Vuelta lenta"
+      ],
+      "vo": "Tips: rodillas en la almohadilla, cadera quieta, talones a los glúteos y vuelta lenta.",
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CURL",
+              1.1
+            ],
+            [
+              "KNEEL",
+              1.9
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Rodillo detrás del tobillo",
+        "Tronco firme",
+        "Apretá arriba",
+        "Volvé en 3 segundos"
+      ],
+      "vo": "Claves: rodillo detrás del tobillo, tronco firme, apretá arriba y volvé en tres segundos.",
+      "moves": [
+        {
+          "cut": "CURL",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12"
+      ],
+      "sub": "Un minuto de pausa",
+      "vo": "Tres series de diez a doce, con un minuto de pausa. Cuando las doce salen fáciles, subí una placa.",
+      "chips": [
+        {
+          "label": "1 · TALONES ARRIBA",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ LENTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "KNEEL",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CURL",
+              1.1
+            ],
+            [
+              "KNEEL",
+              1.9
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "BAJÁ",
+        "DESPACIO"
+      ],
+      "sub": "Sin soltar la pila",
+      "vo": "Al terminar, bajá los talones despacio y soltá las manijas sin dejar caer la pila.",
+      "moves": [
+        {
+          "cut": "CURL",
+          "at": 0
+        },
+        {
+          "to": "KNEEL",
+          "at": 0.8,
+          "dur": 2.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "BAJÁ DESPACIO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "CURL",
+    "grip": 1,
+    "zoom": 1.05,
+    "dy": 100
+  },
+  "youtube": {
+    "titulo": "Lever Kneeling Leg Curl 🔥 Femoral arrodillado en máquina | Gimnasio",
+    "tags": [
+      "lever kneeling leg curl",
+      "femoral arrodillado",
+      "kneeling leg curl",
+      "curl femoral",
+      "isquiotibiales",
+      "femorales",
+      "piernas",
+      "glúteos",
+      "máquina de palanca",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de piernas"
+    ],
+    "descripcion": "🔥 LEVER KNEELING LEG CURL (femoral arrodillado en máquina de palanca) — isquiotibiales, con glúteos como apoyo\n\n¿Sentís que el femoral no trabaja? Casi siempre es la cadera que sube. Mirá cómo dejarla quieta. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Apoyá las rodillas en la almohadilla y ajustá el rodillo detrás del tobillo.\n2️⃣ Elegí el peso con el pasador: uno que te deje hacer 10 repeticiones limpias.\n\n📋 PASO A PASO\n1️⃣ Arrodillate con las rodillas en la almohadilla y el tronco quieto, mirando abajo.\n2️⃣ Agarrá las manijas con los brazos firmes.\n3️⃣ Llevá los talones hacia los glúteos doblando las rodillas.\n4️⃣ Apretá un segundo arriba, sin subir la cadera.\n5️⃣ Volvé lento, en tres segundos, hasta casi estirar.\n\n❌ ERRORES COMUNES\n• Subir la cadera → cadera quieta, rodillas pegadas a la almohadilla.\n• Tirar el tronco adelante → tronco firme, solo se mueven las rodillas.\n• Medio recorrido y rápido → talones bien arriba y vuelta lenta.\n\n💡 TIPS DEL PROFE\n• Rodillas en la almohadilla y el eje al costado de la rodilla.\n• Rodillo detrás del tobillo, no sobre el talón.\n• Cadera quieta toda la serie.\n• Apretá arriba y volvé en tres segundos.\n\n🎯 QUÉ TRABAJA\nIsquiotibiales · Glúteos · Gemelos\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Femoral #Isquiotibiales #Piernas #MaquinaDePalanca #Musculacion #Entrenamiento"
+  }
+}

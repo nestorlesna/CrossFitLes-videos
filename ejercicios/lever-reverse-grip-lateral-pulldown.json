@@ -1,0 +1,753 @@
+{
+  "slug": "lever-reverse-grip-lateral-pulldown",
+  "name": "Lever Reverse Grip Lateral Pulldown",
+  "maquina": true,
+  "category": "GIMNASIO · ESPALDA",
+  "tags": [
+    "Dorsales",
+    "Bíceps"
+  ],
+  "descripcion": "Sentate con las rodillas bajo la almohadilla y el pecho alto. Tirá de las asas al pecho guiando con los codos y juntá los omóplatos.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 740,
+    "y": 1509.6,
+    "scale": 0.66
+  },
+  "shadow": false,
+  "initialPose": "TOP",
+  "props": [
+    {
+      "type": "latpulldown",
+      "x": 300,
+      "pulley": [
+        -215,
+        -1130
+      ],
+      "seat": -186,
+      "pad": [
+        -75,
+        -290
+      ],
+      "pin": 6,
+      "rest": 307
+    }
+  ],
+  "poses": {
+    "TOP": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 1,
+      "ed": -1,
+      "b": -2,
+      "hd": 2,
+      "hx": -205,
+      "hy": -830
+    },
+    "MID": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 1,
+      "ed": -1,
+      "b": -8,
+      "hd": -2,
+      "hx": -200,
+      "hy": -690
+    },
+    "PULL": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 1,
+      "ed": -1,
+      "b": -12,
+      "hd": -6,
+      "hx": -245,
+      "hy": -500
+    },
+    "NECK_BAD": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 1,
+      "ed": -1,
+      "b": 14,
+      "hd": 30,
+      "hx": -226,
+      "hy": -600
+    },
+    "LEAN_BAD": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 1,
+      "ed": -1,
+      "b": -40,
+      "hd": -22,
+      "hx": -318,
+      "hy": -450
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · ESPALDA",
+      "head": [
+        "LATERAL",
+        "PULLDOWN"
+      ],
+      "sub": "Jalón lateral en máquina",
+      "vo": "Lever Reverse Grip Lateral Pulldown: el jalón lateral en máquina de palanca, con agarre prono y los codos guiando.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "PULL",
+              1.0
+            ],
+            [
+              "TOP",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Rodillas bajo la almohadilla",
+      "vo": "Las asas bajan al pecho y las rodillas quedan bajo la almohadilla. Trabaja dorsales y bíceps.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            605,
+            962
+          ],
+          "r": 36,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1010
+          ],
+          "text": "ASAS ARRIBA",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            690,
+            1318
+          ],
+          "r": 40,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1330
+          ],
+          "text": "RODILLAS",
+          "anchor": "start",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            972,
+            1393
+          ],
+          "r": 30,
+          "at": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1440
+          ],
+          "text": "PASADOR",
+          "anchor": "start",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "EL",
+        "ASIENTO"
+      ],
+      "sub": "Rodillas bajo la almohadilla",
+      "vo": "Ajustá el asiento para que las rodillas queden justo bajo la almohadilla y los pies planos en el suelo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            690,
+            1318
+          ],
+          "r": 40,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1330
+          ],
+          "text": "RODILLAS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "PESO"
+      ],
+      "sub": "Con el pasador",
+      "vo": "Elegí el peso con el pasador: uno que puedas bajar diez veces sin mover el cuerpo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            972,
+            1393
+          ],
+          "r": 30,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1440
+          ],
+          "text": "PASADOR",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "AGARRE",
+        "PRONO"
+      ],
+      "sub": "Más abierto que los hombros",
+      "vo": "Sentate erguido con el pecho alto y los hombros atrás. Agarrá las asas con agarre prono, un poco más abiertas que los hombros.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1120
+          ],
+          "text": "AGARRE PRONO",
+          "anchor": "start",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            605,
+            962
+          ],
+          "r": 36,
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ",
+        "GUIANDO"
+      ],
+      "sub": "Con los codos",
+      "vo": "Paso uno. Tirá de las asas hacia el pecho guiando con los codos, no con las manos.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 1.0
+        },
+        {
+          "to": "PULL",
+          "at": 1.6,
+          "dur": 1.0
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            645,
+            938
+          ],
+          "to": [
+            578,
+            1156
+          ],
+          "at": 0.8,
+          "dur": 1.1
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1240
+          ],
+          "text": "CON LOS CODOS",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "JUNTÁ LOS",
+        "OMÓPLATOS"
+      ],
+      "sub": "Pausa abajo",
+      "vo": "Paso dos. Juntá los omóplatos y hacé una pausa breve abajo, con las asas en el pecho.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            543,
+            1176
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1100
+          ],
+          "text": "OMÓPLATOS JUNTOS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "SOLTÁ",
+        "LENTO"
+      ],
+      "sub": "Sin que se apoye",
+      "vo": "Paso tres. Soltá las asas despacio hasta la posición inicial, sin dejar que las placas se apoyen.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.6,
+          "dur": 2.2
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            972,
+            1393
+          ],
+          "r": 34,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1440
+          ],
+          "text": "SIN APOYAR",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al tirar",
+      "vo": "Soltá el aire mientras tirás y tomalo mientras volvés. No aguantes el aire.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "PULL",
+              1.0
+            ],
+            [
+              "TOP",
+              2.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 2",
+      "head": [
+        "JALAR",
+        "AL CUELLO"
+      ],
+      "sub": "Asas al pecho",
+      "vo": "Error: jalar las asas al cuello o por detrás de la nuca. Las asas van al pecho, nunca al cuello.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "NECK_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            591,
+            1114
+          ],
+          "r": 44,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 2",
+      "head": [
+        "COLUMPIAR",
+        "EL CUERPO"
+      ],
+      "sub": "Sin impulso",
+      "vo": "Error: columpiar el cuerpo hacia atrás para tirar. Quedate erguido y usá la espalda, no el impulso.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            463,
+            1215
+          ],
+          "r": 52,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Asas al pecho",
+        "Codos guían",
+        "Omóplatos juntos",
+        "Soltá sin apoyar"
+      ],
+      "vo": "Tips de profe: asas al pecho, codos que guían, omóplatos juntos y soltá sin apoyar las placas.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "PULL",
+              1.0
+            ],
+            [
+              "TOP",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Pecho alto",
+        "Codos abajo",
+        "Sin impulso",
+        "Soltá lento"
+      ],
+      "vo": "Claves: pecho alto, codos abajo, sin impulso y soltá lento.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10-12"
+      ],
+      "sub": "Un minuto y medio de pausa",
+      "vo": "Tres series de diez a doce, con un minuto y medio de pausa. Cuando las doce salgan fáciles, subí una placa.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ GUIANDO",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SOLTÁ LENTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "PULL",
+              1.0
+            ],
+            [
+              "TOP",
+              2.0
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "DEJÁ EL",
+        "PESO"
+      ],
+      "sub": "Sin soltar de golpe",
+      "vo": "Al terminar, soltá las asas despacio y dejá el peso apoyado. No lo sueltes de golpe.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 1.0,
+          "dur": 1.0
+        },
+        {
+          "to": "TOP",
+          "at": 2.2,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1440
+          ],
+          "text": "PESO APOYADO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "PULL",
+    "grip": 1,
+    "zoom": 1.12,
+    "dy": 130
+  },
+  "youtube": {
+    "titulo": "Lever Reverse Grip Lateral Pulldown 🔥 Jalón lateral en máquina | Gimnasio",
+    "tags": [
+      "lever reverse grip lateral pulldown",
+      "jalón lateral",
+      "jalón al pecho",
+      "dorsales",
+      "espalda",
+      "máquina de palanca",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de espalda"
+    ],
+    "descripcion": "🔥 LEVER REVERSE GRIP LATERAL PULLDOWN (jalón lateral en máquina de palanca) — dorsales y bíceps guiando con los codos\n\n¿Querés una espalda más ancha? El jalón lateral en máquina te aísla los dorsales. Mirá cómo se usa. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el asiento para que las rodillas queden bajo la almohadilla.\n2️⃣ Elegí un peso que puedas bajar 10 veces sin mover el cuerpo.\n\n📋 PASO A PASO\n1️⃣ Sentate erguido con el pecho alto y los hombros atrás.\n2️⃣ Agarrá las asas con agarre prono, un poco más abiertas que los hombros.\n3️⃣ Tirá de las asas hacia el pecho guiando con los codos.\n4️⃣ Juntá los omóplatos y soltá lento, sin apoyar las placas.\n\n❌ ERRORES COMUNES\n• Jalar al cuello → las asas van al pecho.\n• Columpiar el cuerpo → sin impulso, erguido.\n• Soltar de golpe → soltá lento y sin apoyar las placas.\n\n💡 TIPS DEL PROFE\n• Asas al pecho.\n• Los codos guían el movimiento.\n• Omóplatos juntos abajo.\n• Pecho alto y hombros atrás.\n• Soltá lento, sin que se apoye el peso.\n\n🎯 QUÉ TRABAJA\nDorsales · Bíceps · Romboides · Deltoides posterior\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto y medio de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #LeverReverseGripLateralPulldown #JalonLateral #Dorsales #Espalda #Musculacion #Entrenamiento"
+  }
+}

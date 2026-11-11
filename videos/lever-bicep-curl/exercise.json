@@ -1,0 +1,843 @@
+{
+  "slug": "lever-bicep-curl",
+  "name": "Lever Bicep Curl",
+  "maquina": true,
+  "category": "GIMNASIO · BRAZOS",
+  "tags": [
+    "Bíceps",
+    "Antebrazos"
+  ],
+  "descripcion": "Sentate con la espalda apoyada y los codos pegados al eje de la máquina, con las palmas hacia arriba. Flexioná los codos llevando las manijas hacia los hombros y bajá lento hasta estirar sin soltar de golpe.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 700,
+    "y": 1509.6,
+    "scale": 0.66
+  },
+  "shadow": false,
+  "initialPose": "DOWN",
+  "props": [
+    {
+      "type": "preachercurl",
+      "pivot": [
+        -159,
+        -375
+      ],
+      "frameTop": -780,
+      "stack": -660,
+      "seat": [
+        -390,
+        -100,
+        -196
+      ],
+      "back": [
+        -330,
+        2,
+        420
+      ],
+      "pin": 5
+    }
+  ],
+  "poses": {
+    "DOWN": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -5,
+      "hd": 8,
+      "ua": 38,
+      "fa": -22
+    },
+    "MID": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -5,
+      "hd": 8,
+      "ua": 38,
+      "fa": 48
+    },
+    "UP": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -5,
+      "hd": 8,
+      "ua": 38,
+      "fa": 100
+    },
+    "ELBOW_BAD": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -5,
+      "hd": 8,
+      "ua": 62,
+      "fa": -2
+    },
+    "SWING_BAD": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -20,
+      "hd": -12,
+      "ua": 38,
+      "fa": 96
+    },
+    "DROP_BAD": {
+      "hip": [
+        -240,
+        -232
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "ft": 0,
+      "g": 0,
+      "b": -5,
+      "hd": 8,
+      "ua": 38,
+      "fa": -52
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · BRAZOS",
+      "head": [
+        "BICEP",
+        "CURL"
+      ],
+      "sub": "Curl de bíceps en máquina",
+      "vo": "Lever Bicep Curl: curl de bíceps sentado en máquina de palanca. Codos fijos en el eje y agarre supino.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.1
+            ],
+            [
+              "DOWN",
+              1.9
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Manijas, respaldo y pila",
+      "vo": "La máquina tiene dos manijas, un respaldo para la espalda y la pila con el pasador.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            624,
+            1363
+          ],
+          "r": 34,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1370
+          ],
+          "text": "MANIJAS",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            480,
+            1230
+          ],
+          "r": 44,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1240
+          ],
+          "text": "RESPALDO",
+          "anchor": "end",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            298,
+            1407
+          ],
+          "r": 26,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1400
+          ],
+          "text": "PESO",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1",
+      "head": [
+        "EL",
+        "ASIENTO"
+      ],
+      "sub": "Codos a la altura del eje",
+      "vo": "Ajustá el asiento para que los codos queden justo a la altura del eje rojo de la máquina.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            595,
+            1262
+          ],
+          "r": 32,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1250
+          ],
+          "text": "EJE",
+          "anchor": "end",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            538,
+            1380
+          ],
+          "r": 40,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1430
+          ],
+          "text": "ASIENTO",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "PESO"
+      ],
+      "sub": "Empezá liviano",
+      "vo": "Elegí el peso con el pasador: uno que te deje hacer las doce repeticiones sin mover los codos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            298,
+            1407
+          ],
+          "r": 26,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1400
+          ],
+          "text": "PESO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESPALDA",
+        "APOYADA"
+      ],
+      "sub": "Palmas hacia arriba",
+      "vo": "Espalda apoyada en el respaldo, codos pegados al eje y las palmas hacia arriba agarrando las manijas.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            624,
+            1363
+          ],
+          "r": 34,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1360
+          ],
+          "text": "AGARRE SUPINO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.8,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SUBÍ",
+        "A LOS HOMBROS"
+      ],
+      "sub": "Sin mover los codos",
+      "vo": "Paso uno. Flexioná los codos llevando las manijas hacia los hombros, sin mover los codos del eje.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "to": "UP",
+          "at": 0.6,
+          "dur": 0.9
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            647,
+            1362
+          ],
+          "to": [
+            685,
+            1195
+          ],
+          "at": 0.8,
+          "dur": 1.2,
+          "bend": [
+            70,
+            0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            946
+          ],
+          "text": "SUBÍ",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "APRETÁ",
+        "ARRIBA"
+      ],
+      "sub": "Un segundo",
+      "vo": "Paso dos. Arriba, apretá el bíceps un segundo sin despegar la espalda del respaldo.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            666,
+            1183
+          ],
+          "r": 38,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1130
+          ],
+          "text": "APRETÁ 1 SEG",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "LENTO"
+      ],
+      "sub": "Frená antes de estirar",
+      "vo": "Paso tres. Bajá lento y frená antes de estirar del todo el codo. Así cuidás el tendón.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "to": "DOWN",
+          "at": 0.6,
+          "dur": 1.6
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            685,
+            1195
+          ],
+          "to": [
+            647,
+            1362
+          ],
+          "at": 1.0,
+          "dur": 1.2,
+          "bend": [
+            60,
+            0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            946
+          ],
+          "text": "BAJÁ LENTO",
+          "anchor": "start",
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá el aire al subir",
+      "vo": "Soltá el aire mientras subís y tomalo mientras bajás.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.1
+            ],
+            [
+              "DOWN",
+              2.0
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "CODOS",
+        "ADELANTE"
+      ],
+      "sub": "El codo no se mueve",
+      "vo": "Error: adelantar los codos para subir el peso. El codo queda fijo en el eje: si se mueve, es mucho peso.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "ELBOW_BAD",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            626,
+            1226
+          ],
+          "r": 44,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "TIRARTE",
+        "ATRÁS"
+      ],
+      "sub": "La espalda en el respaldo",
+      "vo": "Error: tirarte atrás y despegar la espalda para ayudarte. Espalda apoyada y menos peso.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "SWING_BAD",
+          "at": 0.5,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            478,
+            1183
+          ],
+          "r": 56,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "ESTIRAR",
+        "DE GOLPE"
+      ],
+      "sub": "Bajá en tres segundos",
+      "vo": "Error: bajar de golpe y estirar del todo el codo. Bajá en tres segundos y frená antes de estirar.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DROP_BAD",
+          "at": 0.4,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            570,
+            1364
+          ],
+          "r": 34,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Codos fijos en el eje",
+        "Espalda en el respaldo",
+        "Apretá arriba",
+        "Bajá en 3 segundos"
+      ],
+      "vo": "Tips: codos fijos en el eje, espalda en el respaldo, apretá arriba y bajá en tres segundos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.1
+            ],
+            [
+              "DOWN",
+              1.9
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Agarre supino",
+        "Muñecas firmes",
+        "Sin mover los codos",
+        "Frená antes de estirar"
+      ],
+      "vo": "Claves: agarre supino, muñecas firmes, sin mover los codos y frená antes de estirar del todo.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12"
+      ],
+      "sub": "Un minuto de pausa",
+      "vo": "Tres series de diez a doce, con un minuto de pausa. Cuando las doce salen fáciles, subí una placa.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ LENTO",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.1
+            ],
+            [
+              "DOWN",
+              1.9
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "DEJÁ EL",
+        "PESO"
+      ],
+      "sub": "Sin soltar de golpe",
+      "vo": "Al terminar, acompañá las manijas y dejá el peso apoyado. No lo sueltes de golpe.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.8,
+          "dur": 2.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            946
+          ],
+          "text": "DEJÁ EL PESO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "zoom": 1.15,
+    "dy": 110
+  },
+  "youtube": {
+    "titulo": "Lever Bicep Curl 🔥 Curl de bíceps en máquina de palanca | Gimnasio",
+    "tags": [
+      "lever bicep curl",
+      "curl de bíceps en máquina",
+      "bicep curl machine",
+      "curl en máquina",
+      "bíceps",
+      "braquial",
+      "antebrazos",
+      "máquina de palanca",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de brazos"
+    ],
+    "descripcion": "🔥 LEVER BICEP CURL (curl de bíceps en máquina de palanca) — bíceps, con braquial y antebrazos como apoyo\n\n¿Subís el peso adelantando los codos? Ahí el bíceps deja de trabajar. Mirá cómo se hace bien. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el asiento para que los codos queden a la altura del eje.\n2️⃣ Elegí un peso que puedas subir doce veces sin mover los codos.\n\n📋 PASO A PASO\n1️⃣ Sentate con la espalda apoyada y las palmas hacia arriba.\n2️⃣ Agarrá las manijas con agarre supino, con los codos pegados al eje.\n3️⃣ Flexioná los codos llevando las manijas hacia los hombros, sin mover los codos.\n4️⃣ Apretá arriba un segundo y bajá lento, frenando antes de estirar.\n\n❌ ERRORES COMUNES\n• Adelantar los codos para subir → el codo queda fijo en el eje.\n• Tirarte atrás despegando la espalda → espalda apoyada y menos peso.\n• Estirar de golpe abajo → bajá en tres segundos.\n\n💡 TIPS DEL PROFE\n• Codos fijos a la altura del eje.\n• Espalda apoyada en el respaldo.\n• Apretá arriba un segundo.\n• Bajá en tres segundos, sin soltar el peso.\n\n🎯 QUÉ TRABAJA\nBíceps · Braquial · Antebrazos\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Biceps #CurlDeBiceps #MaquinaDePalanca #Brazos #Musculacion #Entrenamiento"
+  }
+}
