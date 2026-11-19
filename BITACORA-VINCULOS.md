@@ -5,7 +5,7 @@ el **link en la descripción** y el campo **Vídeo relacionado** de YouTube Stud
 **Contenido alterado por IA:** todos los videos de esta bitácora (cortos y largos) tienen marcado «Sí» en *Uso de IA* de YouTube Studio. Revisión del 2026-11-16: 149 videos anteriores corregidos y los de ese día ya salen marcados (los videos nuevos lo marcan al subirse).
 Datos en `vinculos.csv` (lo escribe `node plantilla/vincular.mjs`; no editar a mano).
 
-**Corto → largo:** 33 · **Largo → corto:** 88 · Filas: 196
+**Corto → largo:** 33 · **Largo → corto:** 88 · Filas: 246
 
 | Ejercicio | Largo (Daniela) | Corto | Corto apunta al largo | Largo apunta al corto | Fecha | Nota |
 |---|---|---|---|---|---|---|
@@ -166,12 +166,62 @@ Datos en `vinculos.csv` (lo escribe `node plantilla/vincular.mjs`; no editar a m
 | heel-elevated-goblet-squat | [p51NiReDMMg](https://youtu.be/p51NiReDMMg) | [24AqeXHI_2w](https://youtu.be/24AqeXHI_2w) | pendiente | ✅ | 2026-11-10 |  |
 | high-knee-clap | — | [Q8WG3m2BbQg](https://youtu.be/Q8WG3m2BbQg) | pendiente | pendiente | 2026-11-18 | vinculacion diferida |
 | high-knees | — | [51rIRwKUXIM](https://youtu.be/51rIRwKUXIM) | pendiente | pendiente | 2026-11-18 | vinculacion diferida |
+| high-pull-external-rotation | — | [_-ZKHpLyVH8](https://youtu.be/_-ZKHpLyVH8) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| hip-abduction-machine | [Kkdg5xSBMq0](https://youtu.be/Kkdg5xSBMq0) | [ENsOQzl6lx0](https://youtu.be/ENsOQzl6lx0) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| hip-adduction-machine | [NQuRwrfoToM](https://youtu.be/NQuRwrfoToM) | [s_mWWDoAl2A](https://youtu.be/s_mWWDoAl2A) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| hip-rotations-in-squat | [2TjIGONm630](https://youtu.be/2TjIGONm630) | [-gdvIqtHPu0](https://youtu.be/-gdvIqtHPu0) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| hip-thrust-machine | — | [gBoMohTTt6Y](https://youtu.be/gBoMohTTt6Y) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| hollow-hold | [1oRugI1TFgM](https://youtu.be/1oRugI1TFgM) | [cLM5Pr0-bgc](https://youtu.be/cLM5Pr0-bgc) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| hollow-hold-pass | — | [Qddvsyf92n0](https://youtu.be/Qddvsyf92n0) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| hollow-rock | [y6oz3X6cWVw](https://youtu.be/y6oz3X6cWVw) | [u1O9HUk3_jY](https://youtu.be/u1O9HUk3_jY) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| hollow-to-superman-roll | [Gz9ufwM4gUk](https://youtu.be/Gz9ufwM4gUk) | [nPrCfcHAe5g](https://youtu.be/nPrCfcHAe5g) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| i-y-t-raises | — | [ecOMabAPXS0](https://youtu.be/ecOMabAPXS0) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| inchworm | — | [OPWesvqp2BY](https://youtu.be/OPWesvqp2BY) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| isometric-lunge | [2_4Ik10_lo8](https://youtu.be/2_4Ik10_lo8) | [Ad3u-jMm4MI](https://youtu.be/Ad3u-jMm4MI) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| isometric-push-up-hold | — | [Gh9VitpZGpQ](https://youtu.be/Gh9VitpZGpQ) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| isometric-split-squat-hold | — | [DFgY97m1YJ4](https://youtu.be/DFgY97m1YJ4) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
 | jump-rope | [rMSHizDgr6w](https://youtu.be/rMSHizDgr6w) | [jOljlKMb9g4](https://youtu.be/jOljlKMb9g4) | pendiente | ✅ | 2026-11-10 |  |
+| jump-squat | — | [yCA5-b13JMM](https://youtu.be/yCA5-b13JMM) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| jumping-jack | [zZlMz1CfLCc](https://youtu.be/zZlMz1CfLCc) | [pTs5xdY2-qY](https://youtu.be/pTs5xdY2-qY) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| jumping-lunge | — | [plEYJgPUDXE](https://youtu.be/plEYJgPUDXE) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| kb-dead-bug | — | [rFS5UGGe77k](https://youtu.be/rFS5UGGe77k) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| kettlebell-ankle-mobility-drill | [Ke_i3CabXF4](https://youtu.be/Ke_i3CabXF4) | [Ef0JDPSbNhg](https://youtu.be/Ef0JDPSbNhg) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| kettlebell-box-step-over | — | [EQnmfyR8uko](https://youtu.be/EQnmfyR8uko) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| kettlebell-clean-and-jerk | — | [25CWvQsYtOs](https://youtu.be/25CWvQsYtOs) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| kettlebell-deadlift | — | [S9pB4loBztk](https://youtu.be/S9pB4loBztk) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
 | kettlebell-farmer-carry | [yOhuajdpUbg](https://youtu.be/yOhuajdpUbg) | [G-OWtWukGBk](https://youtu.be/G-OWtWukGBk) | pendiente | ✅ | 2026-11-09 | largo no está en YouTube |
+| kettlebell-front-squat | — | [sjmKjdK-TW0](https://youtu.be/sjmKjdK-TW0) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
 | kettlebell-good-morning | [8OaibaJ6pyQ](https://youtu.be/8OaibaJ6pyQ) | [Az1dkp67MG0](https://youtu.be/Az1dkp67MG0) | pendiente | ✅ | 2026-11-07 | largo programado |
 | kettlebell-good-morning-to-squat | [ud1nn-hbH6o](https://youtu.be/ud1nn-hbH6o) | [XvFrzwLFDQ8](https://youtu.be/XvFrzwLFDQ8) | pendiente | ✅ | 2026-11-09 | largo no está en YouTube |
+| kettlebell-ground-to-overhead | — | [Q588vkp9_U4](https://youtu.be/Q588vkp9_U4) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| kettlebell-jumping-lunge | — | [J6fenb0JsFI](https://youtu.be/J6fenb0JsFI) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| kettlebell-leg-overs | — | [IO_id1k0jRs](https://youtu.be/IO_id1k0jRs) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| kettlebell-pullover-on-wall-ball | — | [GsaP5An2vOE](https://youtu.be/GsaP5An2vOE) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| kettlebell-push-up | — | [AlDW1zJXCEo](https://youtu.be/AlDW1zJXCEo) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| kettlebell-romanian-deadlift | — | [11g53AzwHow](https://youtu.be/11g53AzwHow) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| kettlebell-single-leg-romanian-deadlift | — | [Wye0k4BsCwg](https://youtu.be/Wye0k4BsCwg) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| kettlebell-snatch | — | [Z1KSVb3milg](https://youtu.be/Z1KSVb3milg) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| kettlebell-sumo-deadlift-high-pull | [_2ogVhKC1zQ](https://youtu.be/_2ogVhKC1zQ) | [RlWeMM9AK84](https://youtu.be/RlWeMM9AK84) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
 | kettlebell-swing | [a-fVDqSbmc0](https://youtu.be/a-fVDqSbmc0) | [mhoS6qXGWs4](https://youtu.be/mhoS6qXGWs4) | pendiente | ✅ | 2026-11-15 | descripción con link |
+| kettlebell-turkish-sit-up | [wjjdAepJdmg](https://youtu.be/wjjdAepJdmg) | [S4aMZkfpX5o](https://youtu.be/S4aMZkfpX5o) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| kettlebell-upright-row | — | [9mjJq5P1ihU](https://youtu.be/9mjJq5P1ihU) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| kettlebell-windmill | — | [csrdRVvowBY](https://youtu.be/csrdRVvowBY) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| knee-push-up | — | [Bh8WGRMAhsg](https://youtu.be/Bh8WGRMAhsg) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| kneeling-squat | — | [QNAw30QGS9I](https://youtu.be/QNAw30QGS9I) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
 | l-sit-hold | [oeiGgc8KWOs](https://youtu.be/oeiGgc8KWOs) | [KPPPA5W9zNA](https://youtu.be/KPPPA5W9zNA) | pendiente | ✅ | 2026-11-10 |  |
+| lat-pulldown | — | [Bq9yQQYSI1s](https://youtu.be/Bq9yQQYSI1s) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| lateral-lunge | — | [HSIgkKdGwOA](https://youtu.be/HSIgkKdGwOA) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| lateral-raise-to-overhead | [BaSF1awuv3Q](https://youtu.be/BaSF1awuv3Q) | [sspd6y24iz0](https://youtu.be/sspd6y24iz0) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| lateral-shuffle | [_Z9Yjf-G2kQ](https://youtu.be/_Z9Yjf-G2kQ) | [K2G9gWR-OQA](https://youtu.be/K2G9gWR-OQA) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| leg-extension | [awCfDQqITXM](https://youtu.be/awCfDQqITXM) | [Fkk0XIZ0hTk](https://youtu.be/Fkk0XIZ0hTk) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| leg-press | [qkxTOgrVsU8](https://youtu.be/qkxTOgrVsU8) | [AHvL5KQ1tdo](https://youtu.be/AHvL5KQ1tdo) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| lunge-with-open-rotation | — | [BcZ0qeI1fR0](https://youtu.be/BcZ0qeI1fR0) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| lying-leg-curl | [Z27CVsd3efU](https://youtu.be/Z27CVsd3efU) | [q2_YD4_zO9A](https://youtu.be/q2_YD4_zO9A) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| lying-leg-raise | — | [cLGovUGbGfQ](https://youtu.be/cLGovUGbGfQ) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| machine-chest-press | [yJnE-u9qvBE](https://youtu.be/yJnE-u9qvBE) | [v1k8DJRX9S0](https://youtu.be/v1k8DJRX9S0) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| machine-lateral-raise | [DDHoIKvEZDc](https://youtu.be/DDHoIKvEZDc) | [14KHJf_FN_A](https://youtu.be/14KHJf_FN_A) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| machine-preacher-curl | — | [8RI4nH62FWs](https://youtu.be/8RI4nH62FWs) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| machine-shoulder-press | [-uqaEVE0sWQ](https://youtu.be/-uqaEVE0sWQ) | [UQjOknp-BZY](https://youtu.be/UQjOknp-BZY) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
 | oblique-crunch | [mEZ9KoARYeE](https://youtu.be/mEZ9KoARYeE) | [ON8WgmzUIq0](https://youtu.be/ON8WgmzUIq0) | pendiente | ✅ | 2026-11-10 |  |
 | overhead-triceps-stretch | [41rifhpbkh4](https://youtu.be/41rifhpbkh4) | [flM4AK4QWhE](https://youtu.be/flM4AK4QWhE) | ✅ | ✅ | 2026-11-06 | Vinculados |
 | pigeon-pose | [4O6YbbmBtKQ](https://youtu.be/4O6YbbmBtKQ) | [s3kI7Rj-N0Y](https://youtu.be/s3kI7Rj-N0Y) | ✅ | ✅ | 2026-11-06 | Cortos y largos vinculados (descripción + vídeo relacionado) |

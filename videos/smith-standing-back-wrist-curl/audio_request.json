@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Smith Standing Back Wrist Curl",
+      "text": "Curl de muñeca con barra guiada: brazos rectos, la barra a la altura del muslo y solo las muñecas la suben."
+    },
+    {
+      "id": "02",
+      "text": "La Smith te deja la barra guiada a la altura del muslo, con topes para soltarla sin que caiga de golpe."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá la barra a la altura del muslo, con los brazos estirados y los hombros relajados."
+    },
+    {
+      "id": "04",
+      "text": "Agarrá la barra con las palmas hacia atrás, agarre prono, y los codos pegados al cuerpo."
+    },
+    {
+      "id": "05",
+      "text": "Arrancá con los pies al ancho de los hombros, la espalda derecha y la barra bien agarrada."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Bajá las muñecas hasta el estiramiento completo, sin soltar la barra."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Subí la barra solo con las muñecas, llevándola hacia el cuerpo."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá despacio, sin dejar caer la barra de golpe."
+    },
+    {
+      "id": "09",
+      "text": "Respirá normal: soltá el aire al subir y tomá aire al bajar. No aguantes la respiración."
+    },
+    {
+      "id": "10",
+      "text": "Error: media repetición. Bajá hasta el estiramiento completo y subí hasta el tope."
+    },
+    {
+      "id": "11",
+      "text": "Error: mover los codos. Los codos quedan fijos y solo se mueven las muñecas."
+    },
+    {
+      "id": "12",
+      "text": "Error: encoger los hombros. Los hombros quedan abajo y relajados todo el tiempo."
+    },
+    {
+      "id": "13",
+      "text": "Tips: poco peso, codos fijos, recorrido completo y bajada lenta."
+    },
+    {
+      "id": "14",
+      "text": "Claves: codos fijos, hombros abajo, muñecas completas y bajada lenta."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de doce a quince repeticiones, con un minuto de pausa. Peso liviano."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, colgá la barra en los topes y estirá los antebrazos antes de seguir."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

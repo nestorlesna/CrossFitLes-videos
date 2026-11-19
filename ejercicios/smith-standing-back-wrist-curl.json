@@ -1,0 +1,798 @@
+{
+  "slug": "smith-standing-back-wrist-curl",
+  "name": "Smith Standing Back Wrist Curl",
+  "maquina": true,
+  "category": "GIMNASIO · ANTEBRAZOS",
+  "tags": [
+    "Antebrazos",
+    "Bíceps"
+  ],
+  "descripcion": "Curl de muñeca con la barra guiada: parado de frente a la máquina, los brazos rectos y la barra a la altura del muslo con agarre prono. Solo las muñecas suben la barra hacia el cuerpo, sin mover los codos ni los hombros, y bajan despacio hasta el estiramiento completo. Trabaja los antebrazos con poco peso y muchas repeticiones.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 480,
+    "y": 1504.8,
+    "scale": 0.8
+  },
+  "shadow": false,
+  "initialPose": "DOWN",
+  "props": [
+    {
+      "type": "smith",
+      "x": 170,
+      "top": -880,
+      "gap": 280,
+      "stops": -520,
+      "track": "hands",
+      "r": 58
+    }
+  ],
+  "poses": {
+    "DOWN": {
+      "b": 2,
+      "hd": 0,
+      "g": 1,
+      "hx": 170,
+      "hy": -468,
+      "ed": 1,
+      "wr": 0,
+      "hip": [
+        0,
+        -462
+      ],
+      "ankle": [
+        48,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ]
+    },
+    "UP": {
+      "b": 2,
+      "hd": 0,
+      "g": 1,
+      "hx": 170,
+      "hy": -505,
+      "ed": 1,
+      "wr": 58,
+      "hip": [
+        0,
+        -462
+      ],
+      "ankle": [
+        48,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ]
+    },
+    "HALF_BAD": {
+      "b": 2,
+      "hd": 0,
+      "g": 1,
+      "hx": 170,
+      "hy": -487,
+      "ed": 1,
+      "wr": 30,
+      "hip": [
+        0,
+        -462
+      ],
+      "ankle": [
+        48,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ]
+    },
+    "ELBOW_BAD": {
+      "b": 2,
+      "hd": 0,
+      "g": 1,
+      "hx": 170,
+      "hy": -565,
+      "ed": 1,
+      "wr": 58,
+      "hip": [
+        0,
+        -462
+      ],
+      "ankle": [
+        48,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ]
+    },
+    "SHRUG_BAD": {
+      "b": 2,
+      "hd": 0,
+      "g": 1,
+      "hx": 170,
+      "hy": -505,
+      "ed": 1,
+      "wr": 58,
+      "sh": 30,
+      "hip": [
+        0,
+        -462
+      ],
+      "ankle": [
+        48,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ]
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · ANTEBRAZOS",
+      "head": [
+        "CURL DE",
+        "MUÑECA"
+      ],
+      "sub": "Barra a la cadera",
+      "vo": "Curl de muñeca con barra guiada: brazos rectos, la barra a la altura del muslo y solo las muñecas la suben.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.2
+            ],
+            [
+              "UP",
+              1.2
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "BARRA",
+        "GUIADA"
+      ],
+      "sub": "Topes abajo",
+      "vo": "La Smith te deja la barra guiada a la altura del muslo, con topes para soltarla sin que caiga de golpe.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            616,
+            782
+          ],
+          "r": 64,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            860
+          ],
+          "text": "BARRA GUIADA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            840,
+            945
+          ],
+          "r": 54,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            940
+          ],
+          "text": "PARANTE",
+          "anchor": "start",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            840,
+            1089
+          ],
+          "r": 54,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1120
+          ],
+          "text": "TOPE",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "BARRA AL",
+        "MUSLO"
+      ],
+      "sub": "Brazos estirados",
+      "vo": "Ajustá la barra a la altura del muslo, con los brazos estirados y los hombros relajados.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            616,
+            1130
+          ],
+          "r": 58,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            860
+          ],
+          "text": "BARRA AL MUSLO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "AGARRE",
+        "PRONO"
+      ],
+      "sub": "Codos fijos",
+      "vo": "Agarrá la barra con las palmas hacia atrás, agarre prono, y los codos pegados al cuerpo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            616,
+            1130
+          ],
+          "r": 40,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            860
+          ],
+          "text": "AGARRE PRONO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESPALDA",
+        "DERECHA"
+      ],
+      "sub": "Pies al ancho",
+      "vo": "Arrancá con los pies al ancho de los hombros, la espalda derecha y la barra bien agarrada.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            528,
+            1321
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            860
+          ],
+          "text": "RODILLA BLANDA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ LAS",
+        "MUÑECAS"
+      ],
+      "sub": "Estiramiento",
+      "vo": "Paso uno. Bajá las muñecas hasta el estiramiento completo, sin soltar la barra.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.3,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            616,
+            1130
+          ],
+          "r": 58,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            860
+          ],
+          "text": "ESTIRÁ ABAJO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "SUBÍ CON",
+        "LAS MUÑECAS"
+      ],
+      "sub": "Solo la muñeca",
+      "vo": "Paso dos. Subí la barra solo con las muñecas, llevándola hacia el cuerpo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            616,
+            1101
+          ],
+          "r": 58,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            860
+          ],
+          "text": "SOLO MUÑECA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "DESPACIO"
+      ],
+      "sub": "Sin soltar",
+      "vo": "Paso tres. Bajá despacio, sin dejar caer la barra de golpe.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.5,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            616,
+            1130
+          ],
+          "r": 58,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            860
+          ],
+          "text": "BAJADA LENTA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Normal",
+      "vo": "Respirá normal: soltá el aire al subir y tomá aire al bajar. No aguantes la respiración.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.3
+            ],
+            [
+              "UP",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "MEDIA",
+        "REPETICIÓN"
+      ],
+      "sub": "Recorrido completo",
+      "vo": "Error: media repetición. Bajá hasta el estiramiento completo y subí hasta el tope.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "HALF_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            616,
+            1101
+          ],
+          "r": 58,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "CODOS",
+        "QUE SE MUEVEN"
+      ],
+      "sub": "Codos fijos",
+      "vo": "Error: mover los codos. Los codos quedan fijos y solo se mueven las muñecas.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "ELBOW_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            625,
+            925
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "HOMBROS",
+        "ARRIBA"
+      ],
+      "sub": "Hombros abajo",
+      "vo": "Error: encoger los hombros. Los hombros quedan abajo y relajados todo el tiempo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "SHRUG_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            488,
+            911
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Poco peso",
+        "Codos fijos",
+        "Recorrido completo",
+        "Bajada lenta"
+      ],
+      "vo": "Tips: poco peso, codos fijos, recorrido completo y bajada lenta.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.2
+            ],
+            [
+              "UP",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Codos fijos",
+        "Hombros abajo",
+        "Muñecas completas",
+        "Bajada lenta"
+      ],
+      "vo": "Claves: codos fijos, hombros abajo, muñecas completas y bajada lenta.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12–15"
+      ],
+      "sub": "Antebrazos",
+      "vo": "Tres series de doce a quince repeticiones, con un minuto de pausa. Peso liviano.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · SUBÍ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJAR",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.2
+            ],
+            [
+              "UP",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "SOLTÁ",
+        "LA BARRA"
+      ],
+      "sub": "Estirá",
+      "vo": "Al terminar, colgá la barra en los topes y estirá los antebrazos antes de seguir.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.8,
+          "dur": 1.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            940
+          ],
+          "text": "ESTIRÁ EL ANTEBRAZO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "zoom": 1.0,
+    "dy": 60
+  },
+  "youtube": {
+    "titulo": "Smith Standing Back Wrist Curl 🔥 Curl de muñeca en la Smith | Antebrazos",
+    "tags": [
+      "smith standing back wrist curl",
+      "curl de muñeca",
+      "wrist curl",
+      "smith machine",
+      "multipower",
+      "antebrazos",
+      "bíceps",
+      "agilidad de muñeca",
+      "gimnasio",
+      "principiantes",
+      "rutina de antebrazos"
+    ],
+    "descripcion": "🔥 SMITH STANDING BACK WRIST CURL (curl de muñeca con la barra guiada a la altura del muslo y los brazos estirados) — antebrazos y bíceps\n\nEl curl de muñeca en la Smith se hace parado de frente a la máquina, con la barra a la altura del muslo y agarre prono. Los brazos quedan estirados y los codos fijos: solo las muñecas suben la barra hacia el cuerpo y la bajan despacio hasta el estiramiento completo. Es un ejercicio de antebrazo, así que el peso va liviano y las repeticiones son altas. Los errores típicos son cortar el recorrido, mover los codos para ayudar y encoger los hombros. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá la barra a la altura del muslo.\n2️⃣ Agarrá la barra con agarre prono y los codos pegados al cuerpo.\n\n📋 PASO A PASO\n1️⃣ Arrancá con los pies al ancho de los hombros y la espalda derecha.\n2️⃣ Bajá las muñecas hasta el estiramiento completo.\n3️⃣ Subí la barra solo con las muñecas, hacia el cuerpo.\n4️⃣ Bajá despacio, sin soltar la barra.\n5️⃣ Completá la serie con un peso liviano.\n\n❌ ERRORES COMUNES\n• Media repetición → bajá hasta abajo y subí hasta el tope.\n• Codos que se mueven → los codos quedan fijos.\n• Hombros arriba → los hombros quedan abajo y relajados.\n\n💡 TIPS DEL PROFE\n• Poco peso y muchas repeticiones.\n• Codos pegados al cuerpo.\n• Recorrido completo de la muñeca.\n• Bajada lenta y controlada.\n\n🎯 QUÉ TRABAJA\nAntebrazos → Bíceps\n\n⏱️ CUÁNTO\n3 series de 12–15 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Antebrazos #Biceps #WristCurl #SmithMachine #Multipower #Fuerza #Entrenamiento"
+  }
+}
