@@ -1,0 +1,798 @@
+{
+  "slug": "smith-standing-behind-head-military-press",
+  "name": "Smith Standing Behind Head Military Press",
+  "maquina": true,
+  "category": "GIMNASIO · HOMBROS",
+  "tags": [
+    "Deltoides",
+    "Tríceps"
+  ],
+  "descripcion": "Press militar por detrás de la cabeza en la Smith, parado: la barra baja hasta la nuca y sube por el mismo carril hasta estirar los brazos arriba. Mantené el abdomen firme y el torso derecho, sin arquear la espalda ni encoger los hombros. Bajá con control hasta la altura de las orejas y no dejes que la barra caiga de golpe.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1509.6,
+    "scale": 0.66
+  },
+  "shadow": false,
+  "initialPose": "DOWN",
+  "props": [
+    {
+      "type": "smith",
+      "x": -95,
+      "top": -1120,
+      "gap": 280,
+      "stops": -300,
+      "track": "hands",
+      "r": 56
+    }
+  ],
+  "poses": {
+    "DOWN": {
+      "b": 2,
+      "hd": 0,
+      "g": 1,
+      "hb": 1,
+      "hx": -100,
+      "hy": 45,
+      "ed": 1,
+      "hip": [
+        0,
+        -450
+      ],
+      "ankle": [
+        42,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ]
+    },
+    "TOP": {
+      "b": 2,
+      "hd": 0,
+      "g": 1,
+      "hb": 1,
+      "hx": -100,
+      "hy": -290,
+      "ed": 1,
+      "hip": [
+        0,
+        -450
+      ],
+      "ankle": [
+        42,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ]
+    },
+    "HALF_BAD": {
+      "b": 2,
+      "hd": 0,
+      "g": 1,
+      "hb": 1,
+      "hx": -100,
+      "hy": -120,
+      "ed": 1,
+      "hip": [
+        0,
+        -450
+      ],
+      "ankle": [
+        42,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ]
+    },
+    "ARCH_BAD": {
+      "b": -16,
+      "hd": 0,
+      "g": 1,
+      "hb": 0,
+      "hx": -95,
+      "hy": -950,
+      "ed": 1,
+      "hip": [
+        0,
+        -450
+      ],
+      "ankle": [
+        42,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ]
+    },
+    "SHRUG_BAD": {
+      "b": 2,
+      "hd": 0,
+      "g": 1,
+      "hb": 1,
+      "hx": -100,
+      "hy": -290,
+      "ed": 1,
+      "sh": 24,
+      "hip": [
+        0,
+        -450
+      ],
+      "ankle": [
+        42,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ]
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · HOMBROS",
+      "head": [
+        "PRESS",
+        "TRAS NUCA"
+      ],
+      "sub": "Barra a la nuca",
+      "vo": "Press militar por detrás de la nuca en la Smith: parado, la barra baja a la nuca y sube por el mismo carril.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.2
+            ],
+            [
+              "TOP",
+              1.3
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "BARRA",
+        "GUIADA"
+      ],
+      "sub": "Carril fijo",
+      "vo": "La Smith te marca el carril: la barra sube y baja siempre por la misma línea, detrás de la cabeza.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            437,
+            755
+          ],
+          "r": 64,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            860
+          ],
+          "text": "BARRA GUIADA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            622,
+            1048
+          ],
+          "r": 54,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            940
+          ],
+          "text": "PARANTE",
+          "anchor": "start",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            622,
+            1312
+          ],
+          "r": 54,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1120
+          ],
+          "text": "TOPE",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "BARRA A",
+        "LA NUCA"
+      ],
+      "sub": "Altura de hombros",
+      "vo": "Ajustá la barra a la altura de los hombros para arrancar con la barra apoyada en la nuca.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            439,
+            1055
+          ],
+          "r": 58,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            860
+          ],
+          "text": "BARRA ATRÁS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "AGARRE",
+        "ANCHO"
+      ],
+      "sub": "Codos atrás",
+      "vo": "Agarrá la barra con las palmas al frente, un poco más ancho que los hombros, y los codos atrás.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            501,
+            1141
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            860
+          ],
+          "text": "CODOS ATRÁS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ABDOMEN",
+        "FIRME"
+      ],
+      "sub": "Pecho arriba",
+      "vo": "Ponete firme: pies al ancho de los hombros, abdomen activo y el pecho arriba.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            557,
+            1361
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            860
+          ],
+          "text": "ABDOMEN FIRME",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SUBÍ POR",
+        "EL CARRIL"
+      ],
+      "sub": "Sin sacar la cabeza",
+      "vo": "Paso uno. Empujá la barra hacia arriba por el carril, sin sacar la cabeza.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.4,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            447,
+            834
+          ],
+          "r": 58,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            860
+          ],
+          "text": "SUBÍ EL CARRIL",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ARRIBA",
+        "ESTIRADO"
+      ],
+      "sub": "Codos firmes",
+      "vo": "Paso dos. Estirá los brazos arriba, con los codos casi bloqueados y el torso quieto.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            447,
+            834
+          ],
+          "r": 58,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            860
+          ],
+          "text": "BRAZOS ESTIRADOS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ A",
+        "LA NUCA"
+      ],
+      "sub": "Hasta las orejas",
+      "vo": "Paso tres. Bajá la barra a la nuca con control, hasta la altura de las orejas.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.4,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            439,
+            1055
+          ],
+          "r": 58,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            860
+          ],
+          "text": "BAJÁ A LA NUCA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá al subir",
+      "vo": "Tomá aire abajo y soltalo al subir. No aguantes la respiración en el esfuerzo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.3
+            ],
+            [
+              "TOP",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "MEDIA",
+        "REPETICIÓN"
+      ],
+      "sub": "Recorrido completo",
+      "vo": "Error: media repetición. Bajá hasta la nuca y subí hasta estirar los brazos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "HALF_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            443,
+            946
+          ],
+          "r": 58,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "ESPALDA",
+        "ARQUEADA"
+      ],
+      "sub": "Abdomen firme",
+      "vo": "Error: arquear la espalda. El abdomen firme y las costillas abajo, sin tirar la cadera.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            500,
+            1213
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "HOMBROS",
+        "ARRIBA"
+      ],
+      "sub": "Hombros abajo",
+      "vo": "Error: encoger los hombros. Los hombros quedan abajo y la barra sube con los brazos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "SHRUG_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            506,
+            1028
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Carril fijo",
+        "Abdomen firme",
+        "Codos atrás",
+        "Bajada controlada"
+      ],
+      "vo": "Tips: carril fijo, abdomen firme, codos atrás y bajada controlada.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.2
+            ],
+            [
+              "TOP",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Barra a la nuca",
+        "Torso derecho",
+        "Codos atrás",
+        "Recorrido completo"
+      ],
+      "vo": "Claves: barra a la nuca, torso derecho, codos atrás y recorrido completo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 8–12"
+      ],
+      "sub": "Hombros y tríceps",
+      "vo": "Tres series de ocho a doce repeticiones, con dos minutos de pausa. Peso moderado.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · ARRIBA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.2
+            ],
+            [
+              "TOP",
+              1.3
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "DEJÁ LA",
+        "BARRA"
+      ],
+      "sub": "Estirá",
+      "vo": "Al terminar, dejá la barra en los topes y estirá los hombros antes de seguir.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.8,
+          "dur": 1.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1000
+          ],
+          "text": "ESTIRÁ LOS HOMBROS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "TOP",
+    "zoom": 1.0,
+    "dy": 40
+  },
+  "youtube": {
+    "titulo": "Smith Standing Behind Head Military Press 🔥 Press tras nuca en la Smith | Hombros",
+    "tags": [
+      "smith standing behind head military press",
+      "press tras nuca",
+      "press militar",
+      "smith machine",
+      "multipower",
+      "hombros",
+      "deltoides",
+      "tríceps",
+      "gimnasio",
+      "intermedio",
+      "rutina de hombros"
+    ],
+    "descripcion": "🔥 SMITH STANDING BEHIND HEAD MILITARY PRESS (press militar parado con la barra guiada bajando por detrás de la nuca) — deltoides y tríceps\n\nEl press militar por detrás de la nuca en la Smith se hace parado, con la barra guiada bajando hasta la nuca y subiendo por el mismo carril hasta estirar los brazos. El abdomen va firme y el torso derecho para que la espalda no se arquee, y los codos empujan desde atrás. Es un movimiento estable porque la máquina fija la trayectoria, pero conviene empezar con poco peso y movilidad de hombros. Los errores típicos son cortar el recorrido, arquear la espalda y encoger los hombros. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá la barra a la altura de los hombros.\n2️⃣ Agarrá la barra con las palmas al frente y los codos atrás.\n\n📋 PASO A PASO\n1️⃣ Ponete firme con el abdomen activo y el pecho arriba.\n2️⃣ Empujá la barra hacia arriba por el carril.\n3️⃣ Estirá los brazos arriba con el torso quieto.\n4️⃣ Bajá la barra a la nuca con control, hasta las orejas.\n5️⃣ Completá la serie y dejá la barra en los topes.\n\n❌ ERRORES COMUNES\n• Media repetición → bajá hasta la nuca y subí hasta estirar.\n• Espalda arqueada → abdomen firme y costillas abajo.\n• Hombros arriba → los hombros quedan abajo y empujan los brazos.\n\n💡 TIPS DEL PROFE\n• Barra apoyada en la nuca, no en el cuello.\n• Codos atrás y abajo.\n• Abdomen firme todo el recorrido.\n• Bajada controlada hasta las orejas.\n\n🎯 QUÉ TRABAJA\nHombros → Deltoides → Tríceps\n\n⏱️ CUÁNTO\n3 series de 8–12 repeticiones, con 2 minutos de pausa. Nivel: intermedio.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Hombros #Deltoides #Triceps #SmithMachine #Multipower #PressMilitar #Entrenamiento"
+  }
+}

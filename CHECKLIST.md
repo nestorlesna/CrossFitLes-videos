@@ -410,7 +410,7 @@ Ejercicios del dataset externo (exercises-dataset, 1324 ejercicios) que no está
 `node plantilla/dataset-import.mjs`; los que ya tenemos con otro nombre van en `ejercicios/dataset-equivalencias.csv`).
 Notas: lote, formato (máquina 90–150 s · corto 40–52 s) y el ejercicio nuestro más parecido (pista, no equivalencia).
 
-**Renderizados:** 99 / 1228 · **Fichas:** 99 · **Descripción YouTube:** 99 · **Subidos:** 0 · **Cortos:** 0 · **Próximo:** D99 · Smith Standing Behind Head Military Press · **Props sin dibujar:** 12 (handbike, trapbar, ezbar, dipbars, bosu, stabilityball, abwheel, battlerope, foamroller, sledgehammer, tire, strap)
+**Renderizados:** 99 / 1228 · **Fichas:** 100 · **Descripción YouTube:** 100 · **Subidos:** 0 · **Cortos:** 0 · **Próximo:** D100 · Smith Standing Leg Calf Raise · **Props sin dibujar:** 12 (handbike, trapbar, ezbar, dipbars, bosu, stabilityball, abwheel, battlerope, foamroller, sledgehammer, tire, strap)
 
 | # | Ejercicio | Implemento | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Nombre EN | Revisado | Subido | Corto | Corto subido | Corto miniatura | Corto vinculado | Fecha render | Notas |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -512,7 +512,7 @@ Notas: lote, formato (máquina 90–150 s · corto 40–52 s) y el ejercicio nue
 | D96 | Smith Single Leg Split Squat | Máquina Smith · `smith` | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/smith-single-leg-split-squat.youtube.txt) | [✅](salida/smith-single-leg-split-squat.miniatura.png) | 117.8 s | [smith-single-leg-split-squat.mp4](salida/smith-single-leg-split-squat.mp4) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | 2026-11-19 |  |
 | D97 | Smith Sprint Lunge | Máquina Smith · `smith` | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/smith-sprint-lunge.youtube.txt) | [✅](salida/smith-sprint-lunge.miniatura.png) | 117.1 s | [smith-sprint-lunge.mp4](salida/smith-sprint-lunge.mp4) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | 2026-11-19 |  |
 | D98 | Smith Standing Back Wrist Curl | Máquina Smith · `smith` | ✅ | ✅ | ✅ | ✅ | ✅ | [✅](salida/smith-standing-back-wrist-curl.youtube.txt) | [✅](salida/smith-standing-back-wrist-curl.miniatura.png) | 117.1 s | [smith-standing-back-wrist-curl.mp4](salida/smith-standing-back-wrist-curl.mp4) | ✅ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | 2026-11-19 |  |
-| D99 | Smith Standing Behind Head Military Press | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | ⬜ | — | Lote D12 · formato máquina |
+| D99 | Smith Standing Behind Head Military Press | Máquina Smith · `smith` | ✅ | ✅ | ✅ | ✅ | ⬜ | [✅](salida/smith-standing-behind-head-military-press.youtube.txt) | [✅](salida/smith-standing-behind-head-military-press.miniatura.png) | — | — | — | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — |  |
 | D100 | Smith Standing Leg Calf Raise | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | ⬜ | — | Lote D12 · formato máquina · parecido a single-leg-calf-raise |
 | D101 | Smith Standing Military Press | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | ⬜ | — | Lote D12 · formato máquina |
 | D102 | Smith Sumo Squat | Máquina Smith · `smith` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | — | — | — | ⬜ | ⬜ | ⬜ | — | Lote D12 · formato máquina · parecido a smith-machine-squat |

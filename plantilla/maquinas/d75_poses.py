@@ -31,14 +31,14 @@ SQ = {
     "DOWN": MP(hy=45),
     "TOP": MP(hy=-290),
     "HALF_BAD": MP(hy=-120),
-    "ARCH_BAD": MP(b=-16, hy=-270),
+    "ARCH_BAD": MP(b=-16, hb=0, hx=-95, hy=-950),
     "SHRUG_BAD": MP(hy=-290, sh=24),
 }
 
 for clave, nombre, category, tags, rig_, props, poses, initial, descripcion in [
         ("smith-standing-behind-head-military-press", "Smith Standing Behind Head Military Press",
-         "GIMNASIO · HOMBROS", ["Deltoides", "Tríceps"], rig(500, 0.72),
-         [{"type": "smith", "x": -95, "top": -1040, "gap": 280, "stops": -300, "track": "hands", "r": 56}],
+         "GIMNASIO · HOMBROS", ["Deltoides", "Tríceps"], rig(500, 0.66),
+         [{"type": "smith", "x": -95, "top": -1120, "gap": 280, "stops": -300, "track": "hands", "r": 56}],
          SQ, "DOWN",
          ("Press militar por detrás de la cabeza en la Smith, parado: la barra baja hasta la nuca y sube por el "
           "mismo carril hasta estirar los brazos arriba. Mantené el abdomen firme y el torso derecho, sin arquear la "
