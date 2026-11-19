@@ -6,7 +6,7 @@ mode: autonomous
 music: plantilla/musica/bgm-base.wav
 ---
 
-## Frame 1 — GIMNASIO · ISQUIOS BUENOS DÍAS SENTADO
+## Frame 1 — GIMNASIO · ISQUIOS LEVER SEATED GOOD MORNING
 
 - status: animated
 - min: 5.6s

@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Sled 45 Leg Wide Press",
+      "text": "Prensa a 45 grados con los pies bien abiertos: el carro corre por el riel y las piernas empujan desde una base ancha."
+    },
+    {
+      "id": "02",
+      "text": "El carro con discos corre sobre un riel a 45 grados y la plataforma queda arriba, donde apoyás los pies."
+    },
+    {
+      "id": "03",
+      "text": "Apoyá la espalda en el respaldo y la cadera en el asiento, con la cabeza y los hombros relajados."
+    },
+    {
+      "id": "04",
+      "text": "Abrí los pies hacia los bordes de la plataforma, con las puntas un poco hacia afuera y las rodillas alineadas."
+    },
+    {
+      "id": "05",
+      "text": "Arrancá con las piernas casi estiradas, las rodillas blandas y los pies bien apoyados en la plataforma."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Bajá el carro llevando las rodillas hacia afuera, en línea con las puntas de los pies."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Llegá hasta donde llegues con la cadera apoyada en el asiento y la espalda pegada al respaldo."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Empujá con toda la planta de los dos pies, estirando las rodillas sin trabarlas de golpe."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire al bajar el carro y soltalo al empujar. El abdomen queda firme y la cadera apoyada."
+    },
+    {
+      "id": "10",
+      "text": "Error: quedarse a mitad de camino. Bajá hasta donde llegues con la cadera apoyada y sin rebotar."
+    },
+    {
+      "id": "11",
+      "text": "Error: empujar con la punta y despegar los talones. Toda la planta queda apoyada y empuja parejo."
+    },
+    {
+      "id": "12",
+      "text": "Error: juntar los pies para empujar más fácil. Los pies quedan abiertos hacia los bordes de la plataforma."
+    },
+    {
+      "id": "13",
+      "text": "Tips: pies a los bordes, rodillas hacia afuera, talones abajo y bajada controlada."
+    },
+    {
+      "id": "14",
+      "text": "Claves: espalda en el respaldo, empujá con la planta, sin trabar las rodillas y puntas hacia afuera."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce repeticiones, con dos minutos de pausa. Elegí un peso que te deje llegar al fondo sin despegar la cadera."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar la serie, subí el carro, trabá el seguro y salí de la máquina sin encorvarte."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

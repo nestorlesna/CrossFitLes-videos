@@ -1,0 +1,833 @@
+{
+  "slug": "sled-forward-angled-calf-raise",
+  "name": "Sled Forward Angled Calf Raise",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Gemelos",
+    "Sóleo"
+  ],
+  "descripcion": "Gemelos inclinado al frente: parate en la plataforma del banco a 45 grados, apoyá el pecho en la almohadilla y subí los talones estirando los tobillos. Bajá controlando hasta sentir el estiramiento, sin doblar las rodillas.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 520,
+    "y": 1499.7,
+    "scale": 0.95
+  },
+  "shadow": false,
+  "initialPose": "DOWN",
+  "props": [
+    {
+      "type": "backext45",
+      "foot": [
+        0,
+        -60
+      ],
+      "pad": [
+        140,
+        -640
+      ],
+      "roll": false,
+      "ang": 45
+    }
+  ],
+  "poses": {
+    "DOWN": {
+      "ankle": [
+        0,
+        -60
+      ],
+      "ankle2": [
+        -26,
+        -64
+      ],
+      "b": 40,
+      "hd": 10,
+      "g": 1,
+      "hx": 150,
+      "hy": -560,
+      "ed": 1,
+      "ft": 45,
+      "ft2": 45,
+      "sh": 0,
+      "knee": "back",
+      "hip": [
+        0,
+        -470
+      ]
+    },
+    "UP": {
+      "ankle": [
+        6,
+        -24
+      ],
+      "ankle2": [
+        -20,
+        -28
+      ],
+      "b": 40,
+      "hd": 10,
+      "g": 1,
+      "hx": 150,
+      "hy": -560,
+      "ed": 1,
+      "ft": 15,
+      "ft2": 15,
+      "sh": 0,
+      "knee": "back",
+      "hip": [
+        6,
+        -434
+      ]
+    },
+    "HALF_BAD": {
+      "ankle": [
+        3,
+        -42
+      ],
+      "ankle2": [
+        -23,
+        -46
+      ],
+      "b": 40,
+      "hd": 10,
+      "g": 1,
+      "hx": 150,
+      "hy": -560,
+      "ed": 1,
+      "ft": 30,
+      "ft2": 30,
+      "sh": 0,
+      "knee": "back",
+      "hip": [
+        3,
+        -452
+      ]
+    },
+    "KNEE_BAD": {
+      "ankle": [
+        0,
+        -60
+      ],
+      "ankle2": [
+        -26,
+        -64
+      ],
+      "b": 46,
+      "hd": 10,
+      "g": 1,
+      "hx": 150,
+      "hy": -560,
+      "ed": 1,
+      "ft": 45,
+      "ft2": 45,
+      "sh": 0,
+      "knee": "back",
+      "hip": [
+        10,
+        -420
+      ]
+    },
+    "LEAN_BAD": {
+      "ankle": [
+        0,
+        -60
+      ],
+      "ankle2": [
+        -26,
+        -64
+      ],
+      "b": 22,
+      "hd": -6,
+      "g": 1,
+      "hx": 150,
+      "hy": -560,
+      "ed": 1,
+      "ft": 45,
+      "ft2": 45,
+      "sh": 0,
+      "knee": "back",
+      "hip": [
+        0,
+        -470
+      ]
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "GEMELOS",
+        "INCLINADO AL FRENTE"
+      ],
+      "sub": "Pecho en la almohadilla",
+      "vo": "Gemelos inclinado al frente: el pecho va apoyado en la almohadilla y los talones suben y bajan desde la plataforma.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.1
+            ],
+            [
+              "UP",
+              1.3
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "PLATAFORMA",
+        "Y ALMOHADILLA"
+      ],
+      "sub": "Banco a 45°",
+      "vo": "La plataforma de los pies queda abajo y la almohadilla inclinada a 45 grados sostiene el pecho durante todo el ejercicio.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            553,
+            1475
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1300
+          ],
+          "text": "PLATAFORMA",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            653,
+            892
+          ],
+          "r": 62,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1000
+          ],
+          "text": "ALMOHADILLA",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "PIES EN",
+        "LA PLATAFORMA"
+      ],
+      "sub": "Puntas afuera",
+      "vo": "Parate con la planta de los pies en la plataforma y la punta de los pies apenas hacia afuera.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            520,
+            1443
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1300
+          ],
+          "text": "PIES ADENTRO",
+          "anchor": "end",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            629,
+            1254
+          ],
+          "r": 50,
+          "at": 2.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1150
+          ],
+          "text": "RODILLAS BLANDAS",
+          "anchor": "end",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "PECHO EN",
+        "LA ALMOHADILLA"
+      ],
+      "sub": "Bien apoyado",
+      "vo": "Apoyá el pecho en la almohadilla y tomate de la parte de arriba, con la espalda derecha.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            653,
+            892
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1000
+          ],
+          "text": "PECHO APOYADO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "TALONES",
+        "ABAJO"
+      ],
+      "sub": "Estiramiento",
+      "vo": "Arrancá con los talones abajo, sintiendo el estiramiento del gemelo y la planta bien apoyada.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            520,
+            1443
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1300
+          ],
+          "text": "TALÓN ABAJO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SUBÍ",
+        "LOS TALONES"
+      ],
+      "sub": "Como pararte de puntas",
+      "vo": "Paso uno. Subí los talones como si te pararas de puntas, empujando la plataforma con la parte de adelante del pie.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.6,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            900,
+            1330
+          ],
+          "to": [
+            900,
+            1180
+          ],
+          "at": 0.8,
+          "dur": 1.1,
+          "bend": [
+            40,
+            0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1300
+          ],
+          "text": "SUBÍ",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "PAUSA",
+        "ARRIBA"
+      ],
+      "sub": "Un segundo",
+      "vo": "Paso dos. Quedate un segundo en la punta más alta, apretando el gemelo antes de bajar.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.2,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            586,
+            1120
+          ],
+          "r": 48,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1150
+          ],
+          "text": "APRETÁ EL GEMELO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "CONTROLANDO"
+      ],
+      "sub": "Hasta estirar",
+      "vo": "Paso tres. Bajá los talones despacio hasta sentir el estiramiento completo, sin rebotar abajo.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.5,
+          "dur": 1.3
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            1000,
+            1180
+          ],
+          "to": [
+            1000,
+            1330
+          ],
+          "at": 0.8,
+          "dur": 1.1,
+          "bend": [
+            40,
+            0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1420
+          ],
+          "text": "BAJÁ LENTO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá al subir",
+      "vo": "Tomá aire al bajar los talones y soltalo al subir. El pecho queda apoyado y no aguantás el aire.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.1
+            ],
+            [
+              "UP",
+              1.3
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "MEDIA",
+        "REPETICIÓN"
+      ],
+      "sub": "Recorrido completo",
+      "vo": "Error: subir apenas un poco. Subí hasta la punta más alta y bajá hasta el estiramiento completo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "HALF_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            523,
+            1460
+          ],
+          "r": 48,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "DOBLAR",
+        "LAS RODILLAS"
+      ],
+      "sub": "Rodillas blandas",
+      "vo": "Error: doblar las rodillas para subir. Las rodillas quedan apenas blandas y no cambian de ángulo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "KNEE_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            668,
+            1282
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "DESPEGAR",
+        "EL PECHO"
+      ],
+      "sub": "Pecho apoyado",
+      "vo": "Error: despegar el pecho de la almohadilla. El pecho queda apoyado de principio a fin.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            577,
+            1215
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Pecho apoyado",
+        "Rodillas blandas",
+        "Recorrido completo",
+        "Pausa en la punta"
+      ],
+      "vo": "Tips: pecho apoyado, rodillas apenas blandas, recorrido completo y una pausa en la punta.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.1
+            ],
+            [
+              "UP",
+              1.3
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Pies bien apoyados",
+        "Subí de puntas",
+        "Sin rebotar",
+        "Bajá hasta estirar"
+      ],
+      "vo": "Claves: pies bien apoyados, subí de puntas, sin rebotar y bajá hasta sentir el estiramiento.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 15–20"
+      ],
+      "sub": "Gemelos",
+      "vo": "Tres series de quince a veinte repeticiones, con un minuto de pausa. Peso moderado y el recorrido completo.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PAUSA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.1
+            ],
+            [
+              "UP",
+              1.1
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "BAJÁ",
+        "Y SALÍ"
+      ],
+      "sub": "Sin apurarse",
+      "vo": "Al terminar la serie, bajá el peso, soltá las manos y salí del banco despacio, sin encorvarte.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.9,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            1300
+          ],
+          "text": "SIN APURARSE",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "zoom": 1.06,
+    "dy": 40
+  },
+  "youtube": {
+    "titulo": "Sled Forward Angled Calf Raise 🔥 Gemelos inclinado al frente | Gimnasio",
+    "tags": [
+      "sled forward angled calf raise",
+      "gemelos inclinado",
+      "gemelos",
+      "sóleo",
+      "pantorrilla",
+      "banco 45 grados",
+      "piernas",
+      "gemelos en máquina",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de piernas"
+    ],
+    "descripcion": "🔥 SLED FORWARD ANGLED CALF RAISE (extensión de tobillos inclinado al frente, con el pecho en la almohadilla a 45 grados) — gemelos y sóleo\n\nInclinado al frente con el pecho apoyado, el gemelo trabaja en un ángulo distinto al de la prensa: el cuerpo va adelante y los talones suben desde la plataforma. Es un ejercicio de recorrido largo y controlado. Si cortás el recorrido, doblás las rodillas para empujar o despegás el pecho, la postura se desarma. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Parate con la planta de los pies en la plataforma, puntas apenas afuera.\n2️⃣ Apoyá el pecho en la almohadilla y tomate de la parte de arriba.\n\n📋 PASO A PASO\n1️⃣ Arrancá con los talones abajo, sintiendo el estiramiento.\n2️⃣ Subí los talones como si te pararas de puntas.\n3️⃣ Quedate un segundo arriba apretando el gemelo.\n4️⃣ Bajá controlando hasta el estiramiento completo.\n5️⃣ Terminá la serie, bajá el peso y salí despacio.\n\n❌ ERRORES COMUNES\n• Media repetición → subí hasta la punta y bajá hasta el estiramiento.\n• Doblar las rodillas → rodillas apenas blandas, sin cambiar de ángulo.\n• Despegar el pecho → pecho apoyado de principio a fin.\n\n💡 TIPS DEL PROFE\n• Pecho apoyado en la almohadilla.\n• Rodillas apenas blandas y quietas.\n• Recorrido completo, sin rebotar.\n• Pausa de un segundo en la punta.\n\n🎯 QUÉ TRABAJA\nPiernas → Gemelos → Sóleo\n\n⏱️ CUÁNTO\n3 series de 15–20 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Gemelos #Pantorrilla #Soleo #Piernas #Entrenamiento #Fuerza #RutinaDePiernas"
+  }
+}

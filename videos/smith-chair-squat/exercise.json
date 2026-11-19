@@ -1,0 +1,820 @@
+{
+  "slug": "smith-chair-squat",
+  "name": "Smith Chair Squat",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Cuádriceps",
+    "Glúteo",
+    "Isquios"
+  ],
+  "descripcion": "Sentadilla al banco en la Smith: la barra va sobre los trapecios y el cuerpo baja controlado hasta tocar el banco con la cola, sin desplomarse. Las rodillas van blandas y hacia afuera, y la subida sale empujando con todo el pie y apretando el glúteo.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 540,
+    "y": 1503.1,
+    "scale": 0.85
+  },
+  "shadow": false,
+  "initialPose": "UP",
+  "props": [
+    {
+      "type": "smith",
+      "x": 0,
+      "top": -860,
+      "gap": 300,
+      "stops": -520,
+      "track": "back",
+      "torso": [
+        -34,
+        18
+      ],
+      "r": 64,
+      "seat": [
+        -460,
+        -60,
+        -250,
+        -480,
+        -6,
+        260
+      ]
+    }
+  ],
+  "poses": {
+    "UP": {
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "g": 0,
+      "ua": -14,
+      "fa": 6,
+      "hip": [
+        10,
+        -462
+      ],
+      "b": 6,
+      "hd": 2
+    },
+    "DOWN": {
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "g": 0,
+      "ua": -14,
+      "fa": 6,
+      "hip": [
+        -90,
+        -250
+      ],
+      "b": 42,
+      "hd": -4
+    },
+    "HALF_BAD": {
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "g": 0,
+      "ua": -14,
+      "fa": 6,
+      "hip": [
+        -40,
+        -370
+      ],
+      "b": 22,
+      "hd": 0
+    },
+    "HEEL_BAD": {
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ],
+      "ft": -32,
+      "ft2": 0,
+      "g": 0,
+      "ua": -14,
+      "fa": 6,
+      "hip": [
+        -90,
+        -250
+      ],
+      "b": 42,
+      "hd": -4
+    },
+    "LEAN_BAD": {
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "g": 0,
+      "ua": -14,
+      "fa": 6,
+      "hip": [
+        -90,
+        -250
+      ],
+      "b": 64,
+      "hd": 8
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "SENTADILLA",
+        "AL BANCO"
+      ],
+      "sub": "En la Smith",
+      "vo": "Sentadilla al banco en la Smith: la barra en la espalda, bajás hasta tocar el banco y subís sin desplomarte.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.3
+            ],
+            [
+              "DOWN",
+              1.4
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "BARRA",
+        "GUIADA"
+      ],
+      "sub": "Multipower",
+      "vo": "La barra corre guiada entre los parantes y el banco te marca la profundidad: bajás hasta tocarlo suave.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            540,
+            752
+          ],
+          "r": 66,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BARRA GUIADA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            370,
+            1291
+          ],
+          "r": 62,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            880
+          ],
+          "text": "BANCO",
+          "anchor": "start",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            795,
+            1061
+          ],
+          "r": 48,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            960
+          ],
+          "text": "TOPES",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "BARRA EN",
+        "LA ESPALDA"
+      ],
+      "sub": "Sobre los trapecios",
+      "vo": "Apoyá la barra sobre los trapecios y sacala de los ganchos con las manos a los costados.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            540,
+            886
+          ],
+          "r": 66,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BARRA EN LA ESPALDA",
+          "anchor": "start",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "PIES AL",
+        "ANCHO"
+      ],
+      "sub": "Puntas afuera",
+      "vo": "Parate con los pies al ancho de la cadera y las puntas un poco hacia afuera, el banco justo detrás.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            591,
+            1503
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            523,
+            1503
+          ],
+          "r": 50,
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "PIES AL ANCHO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE",
+        "DERECHO"
+      ],
+      "sub": "Espalda recta",
+      "vo": "Arrancá de pie, con la espalda recta, el abdomen firme y la mirada al frente.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            564,
+            968
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "ESPALDA RECTA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ AL",
+        "BANCO"
+      ],
+      "sub": "Controlá la bajada",
+      "vo": "Paso uno. Bajá llevando la cola hacia atrás hasta tocar el banco, sin dejar caer el peso.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.4,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            370,
+            1291
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "AL BANCO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "TOCÁ",
+        "SIN CAER"
+      ],
+      "sub": "Toque suave",
+      "vo": "Paso dos. Tocá el banco sin sentarte ni dejarte caer: el peso queda en los pies, listo para subir.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.2,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            370,
+            1291
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "SIN SENTARTE",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "SUBÍ CON",
+        "TODO EL PIE"
+      ],
+      "sub": "Empujá el piso",
+      "vo": "Paso tres. Subí empujando el piso con todo el pie y apretando el glúteo, sin adelantar las rodillas.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.5,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            591,
+            1503
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "PIE ENTERO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá al subir",
+      "vo": "Tomá aire cuando bajás y soltalo cuando subís. No aguantes el aire abajo.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.3
+            ],
+            [
+              "DOWN",
+              1.4
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "MEDIA",
+        "SENTADILLA"
+      ],
+      "sub": "Hasta el banco",
+      "vo": "Error: quedarte a mitad de camino. Bajá hasta tocar el banco en cada repetición.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "HALF_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            506,
+            1189
+          ],
+          "r": 56,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "TALONES",
+        "AFUERA"
+      ],
+      "sub": "Pie entero",
+      "vo": "Error: levantar los talones. El pie va entero en el piso, con el peso repartido de punta a talón.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "HEEL_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            591,
+            1503
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "TIRARSE",
+        "ADELANTE"
+      ],
+      "sub": "Torso firme",
+      "vo": "Error: tirarte adelante con la espalda. El pecho sube junto con la cadera, sin doblar la cintura.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            681,
+            1160
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Barra en los trapecios",
+        "Cola al banco",
+        "Talones abajo",
+        "Subí apretando"
+      ],
+      "vo": "Tips: barra en los trapecios, cola al banco, talones abajo y subí apretando el glúteo.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.2
+            ],
+            [
+              "DOWN",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Tocá el banco",
+        "Sin sentarte",
+        "Rodillas afuera",
+        "Subida controlada"
+      ],
+      "vo": "Claves: tocá el banco, sin sentarte, rodillas afuera y subida controlada.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10–12"
+      ],
+      "sub": "Cuádriceps y glúteo",
+      "vo": "Tres series de diez a doce repeticiones, con un minuto de pausa. Peso moderado y bajada lenta.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · TOCÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SUBÍ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.1
+            ],
+            [
+              "DOWN",
+              1.1
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "DEJÁ LA BARRA",
+        "EN LOS GANCHOS"
+      ],
+      "sub": "Sin apuro",
+      "vo": "Al terminar la serie, subí derecho, dejá la barra en los ganchos y salí de la máquina sin encorvarte.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.9,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "SIN APURO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "DOWN",
+    "zoom": 1.02,
+    "dy": 20
+  },
+  "youtube": {
+    "titulo": "Smith Chair Squat 🔥 Sentadilla al banco en la Smith | Piernas",
+    "tags": [
+      "smith chair squat",
+      "sentadilla al banco",
+      "box squat",
+      "smith machine",
+      "multipower",
+      "cuádriceps",
+      "glúteo",
+      "sentadilla",
+      "gimnasio",
+      "principiantes",
+      "rutina de piernas",
+      "sentadilla en smith"
+    ],
+    "descripcion": "🔥 SMITH CHAIR SQUAT (sentadilla al banco con barra guiada en la máquina Smith) — cuádriceps y glúteo\n\nLa sentadilla al banco en la Smith usa el banco como referencia de profundidad: bajás controlado hasta tocar el asiento con la cola y subís sin sentarte del todo. La barra va sobre los trapecios y corre guiada, así que podés concentrarte en el recorrido. Con los pies enteros, las rodillas blandas y el pecho arriba, el trabajo se reparte entre cuádriceps y glúteo. Si te quedás a media altura, levantás los talones o te tirás adelante, la zona lumbar y las rodillas se llevan la carga. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Apoyá la barra sobre los trapecios y sacala de los ganchos.\n2️⃣ Pies al ancho de la cadera, puntas afuera y el banco justo detrás.\n\n📋 PASO A PASO\n1️⃣ Bajá llevando la cola hacia atrás hasta tocar el banco.\n2️⃣ Tocá el asiento sin sentarte ni dejarte caer.\n3️⃣ Mantené las rodillas alineadas con los pies.\n4️⃣ Subí empujando el piso con todo el pie.\n5️⃣ Completá la serie y dejá la barra en los ganchos.\n\n❌ ERRORES COMUNES\n• Media sentadilla → bajá hasta tocar el banco.\n• Talones afuera → pie entero en el piso.\n• Tirarse adelante → el pecho sube con la cadera.\n\n💡 TIPS DEL PROFE\n• Barra en los trapecios, no en la nuca.\n• Cola atrás, pecho arriba.\n• Tocá el banco sin sentarte.\n• Subida controlada, sin rebotar.\n\n🎯 QUÉ TRABAJA\nPiernas → Cuádriceps → Glúteo\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Piernas #Sentadilla #SmithMachine #Gluteo #Cuadriceps #Entrenamiento #Fuerza"
+  }
+}

@@ -1,0 +1,513 @@
+{
+  "slug": "thoracic-wall-sweep",
+  "name": "Thoracic Wall Sweep",
+  "category": "MOVILIDAD · PARED",
+  "tags": [
+    "Espalda alta",
+    "Pecho",
+    "Hombros",
+    "Movilidad"
+  ],
+  "descripcion": "De costado a la pared, en estocada corta con el pie del lado de la pared adelante, apoyar la mano cercana en la pared a la altura del pecho. Barrer la pared con la mano hacia arriba, pasar el brazo por encima de la cabeza y llevarlo hacia atrás abriendo el pecho, siguiendo la mano con la mirada; volver por el mismo arco. Se hace por lado.",
+  "revisado": false,
+  "notas": "Pared fija (prop wall) al costado; la mano barre la pared con IK (g 1) y después se va por encima y atrás. El giro torácico se cuenta con la tarjeta topview mode rot.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 430,
+    "y": 1504,
+    "scale": 0.86
+  },
+  "props": [
+    {
+      "type": "wall",
+      "x": 330,
+      "h": 900
+    }
+  ],
+  "pronuncia": {
+    "Thoracic Wall Sweep": "Zorásic uol suíp"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "hip": [
+        100,
+        -440
+      ],
+      "ankle": [
+        170,
+        0
+      ],
+      "ankle2": [
+        -30,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 6,
+      "ua2": -4,
+      "fa2": 6,
+      "ft": 4,
+      "ft2": 16
+    },
+    "CHEST": {
+      "hip": [
+        100,
+        -440
+      ],
+      "ankle": [
+        170,
+        0
+      ],
+      "ankle2": [
+        -30,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": 326,
+      "hy": -590,
+      "ed": 1,
+      "ua2": -4,
+      "fa2": 6,
+      "ft": 4,
+      "ft2": 16
+    },
+    "UP": {
+      "hip": [
+        100,
+        -440
+      ],
+      "ankle": [
+        170,
+        0
+      ],
+      "ankle2": [
+        -30,
+        0
+      ],
+      "b": -2,
+      "hd": -10,
+      "g": 1,
+      "hx": 328,
+      "hy": -830,
+      "ed": 1,
+      "ua2": -6,
+      "fa2": 8,
+      "ft": 4,
+      "ft2": 16
+    },
+    "TOP": {
+      "hip": [
+        100,
+        -440
+      ],
+      "ankle": [
+        170,
+        0
+      ],
+      "ankle2": [
+        -30,
+        0
+      ],
+      "b": -4,
+      "hd": -14,
+      "g": 1,
+      "hx": 260,
+      "hy": -1000,
+      "ed": 1,
+      "ua2": -8,
+      "fa2": 10,
+      "ft": 4,
+      "ft2": 16
+    },
+    "BACK": {
+      "hip": [
+        100,
+        -440
+      ],
+      "ankle": [
+        170,
+        0
+      ],
+      "ankle2": [
+        -30,
+        0
+      ],
+      "b": -7,
+      "hd": -12,
+      "cv": -12,
+      "g": 1,
+      "hx": -100,
+      "hy": -930,
+      "ed": 1,
+      "ua2": -12,
+      "fa2": 12,
+      "ft": 4,
+      "ft2": 16
+    },
+    "ARCH_BAD": {
+      "hip": [
+        140,
+        -440
+      ],
+      "ankle": [
+        170,
+        0
+      ],
+      "ankle2": [
+        -30,
+        0
+      ],
+      "b": -22,
+      "hd": 6,
+      "cv": -28,
+      "g": 1,
+      "hx": -60,
+      "hy": -860,
+      "ed": 1,
+      "ua2": -14,
+      "fa2": 14,
+      "ft": 4,
+      "ft2": 16
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "MOVILIDAD · PARED",
+      "head": [
+        "THORACIC WALL",
+        "SWEEP"
+      ],
+      "vo": "Thoracic Wall Sweep: barrido de brazo en la pared para abrir la espalda alta y el pecho.",
+      "moves": [
+        {
+          "cut": "CHEST",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.0
+            ],
+            [
+              "TOP",
+              0.8
+            ],
+            [
+              "BACK",
+              0.8
+            ],
+            [
+              "TOP",
+              0.6
+            ],
+            [
+              "CHEST",
+              1.0
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PEGATE A",
+        "LA PARED"
+      ],
+      "sub": "Estocada corta, mano al pecho",
+      "vo": "Pegate de costado a la pared, en estocada corta, y apoyá la mano cercana a la altura del pecho.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "CHEST",
+          "at": 0.8,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "CHEST.W"
+          },
+          "r": 46,
+          "at": 1.7
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "CHEST.W",
+            "dx": -6,
+            "dy": -170
+          },
+          "text": "MANO EN LA PARED",
+          "anchor": "start",
+          "at": 1.9
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SUBÍ POR",
+        "LA PARED"
+      ],
+      "sub": "El brazo va largo",
+      "vo": "Paso uno. Barré la pared con la mano hacia arriba, sin despegar el brazo hasta donde llegues.",
+      "moves": [
+        {
+          "cut": "CHEST",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.7,
+          "dur": 1.5
+        },
+        {
+          "to": "TOP",
+          "at": 2.4,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": {
+            "j": "CHEST.W",
+            "dx": 8
+          },
+          "to": {
+            "j": "UP.W",
+            "dx": 8
+          },
+          "at": 1.0,
+          "dur": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "POR ENCIMA",
+        "Y ATRÁS"
+      ],
+      "sub": "Abrí el pecho",
+      "vo": "Paso dos. Pasá el brazo por encima de la cabeza y llevalo hacia atrás abriendo el pecho.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "BACK",
+          "at": 0.7,
+          "dur": 1.6
+        }
+      ],
+      "topview": {
+        "mode": "rot",
+        "angle": 34,
+        "dur": 1.6,
+        "label": "ABRÍ EL PECHO",
+        "at": 0.9
+      }
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "MIRADA EN",
+        "LA MANO"
+      ],
+      "sub": "Volvé por el mismo arco",
+      "vo": "Paso tres. Seguí la mano con la mirada y volvé por el mismo arco. El giro sale del torso.",
+      "moves": [
+        {
+          "cut": "BACK",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.6,
+          "dur": 0.9
+        },
+        {
+          "to": "CHEST",
+          "at": 1.8,
+          "dur": 1.9
+        }
+      ],
+      "topview": {
+        "mode": "rot",
+        "angle": 30,
+        "dur": 1.4,
+        "label": "GIRO TORÁCICO",
+        "at": 0.4,
+        "back": 2.4
+      }
+    },
+    {
+      "min": 5.6,
+      "badge": "ASÍ NO",
+      "head": [
+        "LUMBAR",
+        "ARQUEADA"
+      ],
+      "sub": "La cadera se va adelante",
+      "vo": "Así no. Si arqueás la lumbar para llegar más atrás, el giro se pierde. Cadera quieta.",
+      "moves": [
+        {
+          "cut": "BACK",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 0.7,
+          "dur": 1.3
+        },
+        {
+          "to": "BACK",
+          "at": 2.8,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "ARCH_BAD.H",
+            "dy": -150
+          },
+          "r": 58,
+          "at": 1.4,
+          "out": 2.7
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "ARCH_BAD.H",
+            "dx": -60,
+            "dy": -230
+          },
+          "text": "LUMBAR ARQUEADA",
+          "anchor": "end",
+          "at": 1.5,
+          "out": 2.8
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.0,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.72,
+      "keys": [
+        "Cadera y pelvis quietas",
+        "El giro sale del torso",
+        "Mano en la pared, brazo largo",
+        "Seguí la mano con la mirada"
+      ],
+      "vo": "Claves: cadera quieta, giro torácico, mano en la pared y mirada que sigue al brazo. Exhalá al abrir.",
+      "moves": [
+        {
+          "cut": "BACK",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.4,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEGUNDOS"
+      ],
+      "sub": "Por lado, sin apuro",
+      "vo": "Treinta segundos por lado, lento y con todo el rango. Ideal antes de empujar o colgar.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.5
+        },
+        {
+          "label": "2 · ABRÍ ATRÁS",
+          "at": 2.0
+        },
+        {
+          "label": "3 · VOLVÉ",
+          "at": 3.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "CHEST",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.1
+            ],
+            [
+              "BACK",
+              0.8
+            ],
+            [
+              "CHEST",
+              1.3
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "grip": 1,
+    "zoom": 1.15,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Thoracic Wall Sweep 🧘 Abrí el pecho en la pared | Movilidad",
+    "tags": [
+      "thoracic wall sweep",
+      "barrido torácico",
+      "movilidad torácica",
+      "movilidad de hombro",
+      "abrir el pecho",
+      "movilidad en la pared",
+      "espalda alta",
+      "crossfit",
+      "movilidad",
+      "entrada en calor"
+    ],
+    "descripcion": "🧘 THORACIC WALL SWEEP — Abrí la espalda alta y el pecho con la pared\n\n¿Sentís el pecho cerrado y los hombros apretados? Este barrido en la pared te devuelve movilidad torácica sin forzar la lumbar. 💪\n\n📋 PASO A PASO\n1️⃣ De costado a la pared, en estocada corta con el pie del lado de la pared adelante, apoyá la mano cercana a la altura del pecho.\n2️⃣ Barré la pared con la mano hacia arriba, sin despegar el brazo hasta donde llegues.\n3️⃣ Pasá el brazo por encima de la cabeza y llevalo hacia atrás abriendo el pecho.\n4️⃣ Seguí la mano con la mirada y volvé por el mismo arco.\n5️⃣ Hacé todas las repeticiones de un lado, respirando, y después cambiá.\n\n✅ CLAVES DE TÉCNICA\n• Cadera y pelvis quietas, mirando al frente\n• El giro sale de la columna torácica, no de la lumbar\n• La mano mantiene contacto con la pared lo más que se pueda\n• El brazo va largo y la mirada sigue la mano\n• Exhalá al abrir y no fuerces el hombro al final del arco\n\n🎯 QUÉ TRABAJA\nErectores espinales · Dorsal ancho · Pectoral mayor · Deltoides anterior · Oblicuos\n\n⏱️ CUÁNTO\n30 segundos por lado. Va en la entrada en calor o como accesorio de movilidad.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Movilidad #Toracica #Pecho #Entrenamiento"
+  }
+}

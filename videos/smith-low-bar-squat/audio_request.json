@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Smith Low Bar Squat",
+      "text": "Sentadilla con barra baja en la Smith: la barra apoya abajo, sobre los deltoides, y la cadera viaja atrás."
+    },
+    {
+      "id": "02",
+      "text": "La barra corre guiada entre los parantes y los topes te dejan una salida de seguridad a la altura justa."
+    },
+    {
+      "id": "03",
+      "text": "Apoyá la barra más abajo que en la sentadilla alta, sobre los deltoides posteriores, nunca en la nuca."
+    },
+    {
+      "id": "04",
+      "text": "Pies al ancho de los hombros con las puntas afuera: la cadera va a viajar más atrás que en la alta."
+    },
+    {
+      "id": "05",
+      "text": "Arrancá de pie con el pecho arriba y el torso un poco más inclinado, el abdomen firme y el peso en el pie."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Llevá la cadera atrás y bajá controlado, con las rodillas siguiendo la línea de los pies."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. En el fondo los talones siguen abajo y el torso mantiene su inclinación, sin redondear."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Subí empujando el piso y llevando la cadera adelante, sin adelantar los hombros."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire arriba, aguantá mientras bajás y soltalo al subir. No sueltes el aire en el fondo."
+    },
+    {
+      "id": "10",
+      "text": "Error: quedarte a mitad de camino. Bajá hasta pasar la paralela con la espalda recta."
+    },
+    {
+      "id": "11",
+      "text": "Error: caer con el pecho adelante. El torso mantiene su inclinación y la barra queda sobre el pie."
+    },
+    {
+      "id": "12",
+      "text": "Error: despegar los talones en el fondo. Si no llegás con los talones abajo, no bajes tanto."
+    },
+    {
+      "id": "13",
+      "text": "Tips: barra sobre los deltoides, cadera atrás, talones abajo y rodillas alineadas con los pies."
+    },
+    {
+      "id": "14",
+      "text": "Claves: barra baja y firme, cadera atrás, torso inclinado constante y subida controlada."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de seis a ocho repeticiones, con dos minutos de pausa. Es un básico pesado, sin rebote."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar la serie, subí derecho, acomodá la barra en los ganchos y salí de la máquina."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

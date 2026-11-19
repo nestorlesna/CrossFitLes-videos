@@ -1,0 +1,876 @@
+{
+  "slug": "sled-hack-squat",
+  "name": "Sled Hack Squat",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Cuádriceps",
+    "Glúteos"
+  ],
+  "descripcion": "Sentadilla hack clásica: apoyá la espalda y las hombreras, poné los pies al ancho de hombros en la plataforma y bajá el carro por los rieles con las rodillas en línea con las puntas. Subí empujando con los talones hasta estirar las piernas sin trabarlas.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 800,
+    "y": 1499.7,
+    "scale": 0.95
+  },
+  "shadow": false,
+  "initialPose": "TOP",
+  "props": [
+    {
+      "type": "hacksquat",
+      "hip": [
+        -297.8,
+        -394.7
+      ],
+      "lean": -36,
+      "foot": [
+        0,
+        -60
+      ],
+      "plat": -14,
+      "len": 300,
+      "rail": [
+        -470,
+        620
+      ],
+      "stops": -330,
+      "hand": [
+        140.6,
+        -99.6
+      ]
+    }
+  ],
+  "poses": {
+    "TOP": {
+      "hip": [
+        -297.8,
+        -394.7
+      ],
+      "ankle": [
+        0,
+        -60
+      ],
+      "ankle2": [
+        -30,
+        -60
+      ],
+      "b": -36,
+      "hd": -6,
+      "g": 0,
+      "ua": 16,
+      "fa": 118,
+      "ft": -14,
+      "ft2": 10,
+      "sh": 0
+    },
+    "HALF": {
+      "hip": [
+        -215.0,
+        -285.0
+      ],
+      "ankle": [
+        0,
+        -60
+      ],
+      "ankle2": [
+        -30,
+        -60
+      ],
+      "b": -36,
+      "hd": -6,
+      "g": 0,
+      "ua": 16,
+      "fa": 118,
+      "ft": -14,
+      "ft2": 10,
+      "sh": 0
+    },
+    "BOTTOM": {
+      "hip": [
+        -172.0,
+        -220.0
+      ],
+      "ankle": [
+        0,
+        -60
+      ],
+      "ankle2": [
+        -30,
+        -60
+      ],
+      "b": -36,
+      "hd": -6,
+      "g": 0,
+      "ua": 16,
+      "fa": 118,
+      "ft": -14,
+      "ft2": 10,
+      "sh": 0
+    },
+    "SHALLOW_BAD": {
+      "hip": [
+        -248.0,
+        -330.0
+      ],
+      "ankle": [
+        0,
+        -60
+      ],
+      "ankle2": [
+        -30,
+        -60
+      ],
+      "b": -36,
+      "hd": -6,
+      "g": 0,
+      "ua": 16,
+      "fa": 118,
+      "ft": -14,
+      "ft2": 10,
+      "sh": 0
+    },
+    "HEELS_BAD": {
+      "hip": [
+        -172.0,
+        -220.0
+      ],
+      "ankle": [
+        8,
+        -96
+      ],
+      "ankle2": [
+        -22,
+        -96
+      ],
+      "b": -36,
+      "hd": -6,
+      "g": 0,
+      "ua": 16,
+      "fa": 118,
+      "ft": 22,
+      "ft2": 26,
+      "sh": 0
+    },
+    "BACK_BAD": {
+      "hip": [
+        -112.0,
+        -268.0
+      ],
+      "ankle": [
+        0,
+        -60
+      ],
+      "ankle2": [
+        -30,
+        -60
+      ],
+      "b": 0,
+      "hd": 14,
+      "g": 0,
+      "ua": 16,
+      "fa": 118,
+      "ft": -14,
+      "ft2": 10,
+      "sh": 0,
+      "cv": 24
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "AL ANCHO",
+        "DE HOMBROS"
+      ],
+      "sub": "La hack clásica",
+      "vo": "Sentadilla hack con los pies al ancho de hombros: el carro inclinado baja por los rieles y las piernas empujan.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.0
+            ],
+            [
+              "BOTTOM",
+              1.5
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "CARRO Y",
+        "RIELES"
+      ],
+      "sub": "Palanca inclinada",
+      "vo": "El carro con discos corre sobre dos rieles inclinados y la plataforma de los pies queda fija abajo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            279,
+            1104
+          ],
+          "r": 58,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1030
+          ],
+          "text": "DISCOS",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            432,
+            1186
+          ],
+          "r": 44,
+          "at": 1.7
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1215
+          ],
+          "text": "RIELES",
+          "anchor": "start",
+          "at": 1.7
+        },
+        {
+          "type": "ring",
+          "pos": [
+            827,
+            1484
+          ],
+          "r": 46,
+          "at": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1400
+          ],
+          "text": "PLATAFORMA",
+          "anchor": "end",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "PIES AL ANCHO",
+        "DE HOMBROS"
+      ],
+      "sub": "Base estable",
+      "vo": "Apoyá la espalda en el respaldo y poné los pies al ancho de hombros, uno a cada lado del centro.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            786,
+            1443
+          ],
+          "r": 68,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1250
+          ],
+          "text": "AL ANCHO DE HOMBROS",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "RODILLAS",
+        "ALINEADAS"
+      ],
+      "sub": "Puntas abiertas",
+      "vo": "Girá un poco las puntas hacia afuera y llevá las rodillas en línea con los pies durante todo el recorrido.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            328,
+            903
+          ],
+          "r": 46,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            760
+          ],
+          "text": "HOMBRERAS",
+          "anchor": "end",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            517,
+            1124
+          ],
+          "r": 50,
+          "at": 2.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            980
+          ],
+          "text": "CADERA",
+          "anchor": "end",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE",
+        "ARRIBA"
+      ],
+      "sub": "Rodillas blandas",
+      "vo": "Arrancá arriba, con las rodillas blandas, la espalda apoyada y el pecho arriba, mirando al frente.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            517,
+            1124
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            980
+          ],
+          "text": "CADERA ARRIBA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ",
+        "EL CARRO"
+      ],
+      "sub": "Rodillas al frente",
+      "vo": "Paso uno. Bajá el carro por los rieles y dejá que las rodillas vayan hacia adelante, en línea con las puntas.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            1010,
+            1000
+          ],
+          "to": [
+            1010,
+            1200
+          ],
+          "at": 0.8,
+          "dur": 1.2,
+          "bend": [
+            40,
+            0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            900
+          ],
+          "text": "BAJÁ LENTO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "FONDO",
+        "COMPLETO"
+      ],
+      "sub": "Sin despegar",
+      "vo": "Paso dos. Llegá hasta donde puedas con la espalda apoyada y la cadera abajo, sin levantar los talones.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.2,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            857,
+            1232
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            1080
+          ],
+          "text": "RODILLAS ALINEADAS",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "SUBÍ",
+        "EMPUJANDO"
+      ],
+      "sub": "Con los talones",
+      "vo": "Paso tres. Empujá con los talones y subí el carro, estirando las piernas sin trabar las rodillas de golpe.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.5,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            1010,
+            1200
+          ],
+          "to": [
+            1010,
+            1000
+          ],
+          "at": 0.8,
+          "dur": 1.2,
+          "bend": [
+            40,
+            0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            1010,
+            900
+          ],
+          "text": "SUBÍ",
+          "anchor": "end",
+          "at": 1.1
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Aire al subir",
+      "vo": "Tomá aire al bajar y soltalo al subir. El abdomen queda firme y las costillas abajo durante todo el recorrido.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              0.9
+            ],
+            [
+              "BOTTOM",
+              1.7
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "MEDIA",
+        "SENTADILLA"
+      ],
+      "sub": "Fondo completo",
+      "vo": "Error: bajar apenas un poco. Bajá hasta donde llegues con la espalda apoyada y los talones en la plataforma.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "SHALLOW_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            517,
+            1124
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "LEVANTAR",
+        "LOS TALONES"
+      ],
+      "sub": "Pies planos",
+      "vo": "Error: levantar los talones para bajar más. Los pies quedan planos y el peso repartido en toda la planta.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "HEELS_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            800,
+            1443
+          ],
+          "r": 46,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "REDONDEAR",
+        "LA ESPALDA"
+      ],
+      "sub": "Espalda apoyada",
+      "vo": "Error: redondear la espalda y despegarse del respaldo. La espalda queda apoyada y el pecho arriba.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "BACK_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            679,
+            974
+          ],
+          "r": 52,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Pies al ancho de hombros",
+        "Rodillas con las puntas",
+        "Talones abajo",
+        "Subí parejo"
+      ],
+      "vo": "Tips: pies al ancho de hombros, rodillas con las puntas, talones abajo y subida pareja.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.0
+            ],
+            [
+              "BOTTOM",
+              1.5
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Espalda en el respaldo",
+        "Empujá con los talones",
+        "Sin trabar las rodillas",
+        "Mirada al frente"
+      ],
+      "vo": "Claves: espalda en el respaldo, empujá con los talones, sin trabar las rodillas y mirada al frente.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 8–12"
+      ],
+      "sub": "Cuádriceps",
+      "vo": "Tres series de ocho a doce repeticiones, con dos minutos de pausa. Un peso que te deje llegar al fondo sin despegar la espalda.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · FONDO",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SUBÍ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.0
+            ],
+            [
+              "BOTTOM",
+              1.5
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "SALÍ",
+        "DESPACIO"
+      ],
+      "sub": "Sin apurarse",
+      "vo": "Al terminar la serie, subí el carro, trabá las manijas y salí de la máquina sin encorvarte.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.9,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1000
+          ],
+          "text": "SIN APURARSE",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "BOTTOM",
+    "zoom": 1.06,
+    "dy": 40
+  },
+  "youtube": {
+    "titulo": "Sled Hack Squat 🔥 Sentadilla hack al ancho de hombros | Gimnasio",
+    "tags": [
+      "sled hack squat",
+      "hack squat",
+      "sentadilla hack",
+      "sentadilla en máquina",
+      "cuádriceps",
+      "glúteos",
+      "máquina hack",
+      "piernas",
+      "prensa inclinada",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de piernas"
+    ],
+    "descripcion": "🔥 SLED HACK SQUAT (sentadilla hack con los pies al ancho de hombros en la plataforma) — cuádriceps y glúteos\n\nLa sentadilla hack es una prensa inclinada con la espalda apoyada: el carro corre por los rieles y el peso se distribuye entre cuádriceps y glúteos. Con los pies al ancho de hombros y las rodillas alineadas con las puntas, el recorrido es estable y profundo. Si cortás el fondo, levantás los talones o redondeás la espalda, la sentadilla pierde tensión. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Apoyá la espalda en el respaldo y las hombreras sobre los hombros.\n2️⃣ Poné los pies al ancho de hombros, uno a cada lado del centro de la plataforma.\n\n📋 PASO A PASO\n1️⃣ Arrancá arriba con las rodillas blandas y la espalda apoyada.\n2️⃣ Bajá el carro por los rieles con las rodillas en línea con las puntas.\n3️⃣ Llegá al fondo sin levantar los talones ni despegar la espalda.\n4️⃣ Subí empujando con los talones hasta estirar las piernas.\n5️⃣ Completá la serie y salí de la máquina despacio.\n\n❌ ERRORES COMUNES\n• Media sentadilla → bajá hasta donde llegues con la espalda apoyada.\n• Levantar los talones → pies planos y peso en toda la planta.\n• Redondear la espalda → espalda apoyada y pecho arriba.\n\n💡 TIPS DEL PROFE\n• Pies al ancho de hombros.\n• Rodillas alineadas con las puntas.\n• Talones abajo durante todo el recorrido.\n• Subida pareja, sin trabar las rodillas.\n\n🎯 QUÉ TRABAJA\nPiernas → Cuádriceps → Glúteos\n\n⏱️ CUÁNTO\n3 series de 8–12 repeticiones, con 2 minutos de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Cuadriceps #SentadillaHack #HackSquat #Piernas #Gluteos #Entrenamiento #Fuerza"
+  }
+}

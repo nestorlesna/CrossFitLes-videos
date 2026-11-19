@@ -1,0 +1,856 @@
+{
+  "slug": "lever-bent-over-row-with-v-bar",
+  "name": "Lever Bent-over Row with V-Bar",
+  "maquina": true,
+  "category": "GIMNASIO · ESPALDA",
+  "tags": [
+    "Espalda",
+    "Espalda alta",
+    "Bíceps"
+  ],
+  "descripcion": "Parate con los pies al ancho de los hombros y las rodillas apenas flexionadas. Tomá la barra en V con agarre prono, incliná el torso desde la cadera con la espalda recta y tirá del agarre hacia el abdomen. Apretá los omóplatos, hacé una pausa y volvé lento sin redondear la espalda.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 700,
+    "y": 1501.4,
+    "scale": 0.9
+  },
+  "shadow": false,
+  "initialPose": "HINGE",
+  "props": [
+    {
+      "type": "tbarrow",
+      "pivot": [
+        -420,
+        8
+      ],
+      "radius": 88,
+      "plateFrac": 0.84
+    }
+  ],
+  "poses": {
+    "HINGE": {
+      "hip": [
+        -80,
+        -430
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 62,
+      "hd": 0,
+      "g": 1,
+      "ed": 1,
+      "ft": 0,
+      "hx": 150,
+      "hy": -300
+    },
+    "PULL": {
+      "hip": [
+        -80,
+        -430
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 62,
+      "hd": 0,
+      "g": 1,
+      "ed": -1,
+      "ft": 0,
+      "hx": 80,
+      "hy": -420
+    },
+    "ROUND_BAD": {
+      "hip": [
+        -80,
+        -430
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 66,
+      "hd": 24,
+      "g": 1,
+      "ed": 1,
+      "ft": 0,
+      "hx": 150,
+      "hy": -300,
+      "cv": 30
+    },
+    "SHRUG_BAD": {
+      "hip": [
+        -80,
+        -430
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 62,
+      "hd": 8,
+      "g": 1,
+      "ed": 1,
+      "ft": 0,
+      "hx": 90,
+      "hy": -390
+    },
+    "JERK_BAD": {
+      "hip": [
+        -80,
+        -500
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 45,
+      "hd": 0,
+      "g": 1,
+      "ed": -1,
+      "ft": 0,
+      "hx": 80,
+      "hy": -420
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · ESPALDA",
+      "head": [
+        "REMO",
+        "INCLINADO"
+      ],
+      "sub": "Barra en V y bisagra de cadera",
+      "vo": "Remo inclinado con barra en V: hacé la bisagra desde la cadera, mantené la espalda recta y tirá del agarre hacia el abdomen.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "PULL",
+              1.0
+            ],
+            [
+              "HINGE",
+              1.6
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Barra en V y discos",
+      "vo": "La máquina tiene una barra en V, discos cerca del agarre y un pivote en el piso. No tiene asiento: el torso trabaja.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            322,
+            1509
+          ],
+          "r": 42,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1480
+          ],
+          "text": "PIVOTE",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            700,
+            1501
+          ],
+          "r": 38,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1480
+          ],
+          "text": "PIES",
+          "anchor": "end",
+          "at": 1.6
+        },
+        {
+          "type": "ring",
+          "pos": [
+            835,
+            1231
+          ],
+          "r": 40,
+          "at": 2.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1180
+          ],
+          "text": "AGARRE EN V",
+          "anchor": "start",
+          "at": 2.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            752,
+            1276
+          ],
+          "r": 44,
+          "at": 3.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1320
+          ],
+          "text": "DISCOS",
+          "anchor": "start",
+          "at": 3.2
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "PIES Y",
+        "CADERA"
+      ],
+      "sub": "Bisagra desde la cadera",
+      "vo": "Parate con los pies al ancho de los hombros, las rodillas apenas flexionadas y llevá la cadera atrás.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            628,
+            1114
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1100
+          ],
+          "text": "CADERA ATRÁS",
+          "anchor": "start",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            700,
+            1501
+          ],
+          "r": 40,
+          "at": 2.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1460
+          ],
+          "text": "PIES FIRMES",
+          "anchor": "end",
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "AGARRE",
+        "EN V"
+      ],
+      "sub": "Agarre prono",
+      "vo": "Tomá la barra en V con agarre prono y los brazos extendidos. El agarre queda debajo del pecho.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            835,
+            1231
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1280
+          ],
+          "text": "AGARRE PRONO",
+          "anchor": "start",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            752,
+            1276
+          ],
+          "r": 40,
+          "at": 2.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1300
+          ],
+          "text": "BARRA EN V",
+          "anchor": "end",
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESPALDA",
+        "RECTA"
+      ],
+      "sub": "Pecho arriba",
+      "vo": "Incliná el torso desde la cadera con la espalda recta y el pecho arriba. La mirada va al piso, adelante.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            736,
+            1051
+          ],
+          "r": 52,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1000
+          ],
+          "text": "ESPALDA RECTA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "TIRÁ DEL",
+        "AGARRE"
+      ],
+      "sub": "Hacia el abdomen",
+      "vo": "Paso uno. Tirá del agarre hacia el abdomen sin cambiar el ángulo del torso.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.6,
+          "dur": 1.0
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            845,
+            1211
+          ],
+          "to": [
+            782,
+            1093
+          ],
+          "at": 0.8,
+          "dur": 1.0,
+          "bend": [
+            30,
+            -30
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1191
+          ],
+          "text": "TIRÁ",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.8,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "APRETÁ LOS",
+        "OMÓPLATOS"
+      ],
+      "sub": "Pausa de un segundo",
+      "vo": "Paso dos. Apretá los omóplatos al final del movimiento y hacé una pausa breve. El codo pasa cerca del torso.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.2,
+          "dur": 0.4
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            736,
+            1051
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1080
+          ],
+          "text": "APRETÁ",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "VOLVÉ",
+        "LENTO"
+      ],
+      "sub": "Sin redondear",
+      "vo": "Paso tres. Volvé lento a la posición inicial con los brazos extendidos y la espalda recta.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "HINGE",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            782,
+            1093
+          ],
+          "to": [
+            845,
+            1211
+          ],
+          "at": 0.8,
+          "dur": 0.8,
+          "bend": [
+            30,
+            30
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1201
+          ],
+          "text": "VOLVÉ",
+          "anchor": "start",
+          "at": 1.1
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Aire al volver",
+      "vo": "Soltá el aire cuando tirás y tomá aire cuando volvés. El abdomen queda firme y el tronco quieto.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "PULL",
+              1.0
+            ],
+            [
+              "HINGE",
+              1.6
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "REDONDEAR",
+        "LA ESPALDA"
+      ],
+      "sub": "Pecho arriba",
+      "vo": "Error: redondear la espalda para llegar más lejos. El pecho se queda arriba y la espalda recta.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "to": "ROUND_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            736,
+            1051
+          ],
+          "r": 52,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "SUBIR LOS",
+        "HOMBROS"
+      ],
+      "sub": "Hombros abajo",
+      "vo": "Error: subir los hombros y tirar con el cuello. Los hombros quedan abajo y los omóplatos trabajan.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "to": "SHRUG_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            844,
+            1002
+          ],
+          "r": 44,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "USAR",
+        "IMPULSO"
+      ],
+      "sub": "Torso quieto",
+      "vo": "Error: pararte y usar el impulso del cuerpo. El ángulo del torso se mantiene y la espalda no rebota.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "to": "JERK_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            745,
+            1078
+          ],
+          "r": 52,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Bisagra de cadera",
+        "Espalda recta",
+        "Codos cerca",
+        "Volvé lento"
+      ],
+      "vo": "Tips: bisagra de cadera, espalda recta, codos cerca del torso y volvé lento.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "PULL",
+              1.0
+            ],
+            [
+              "HINGE",
+              1.6
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Pies firmes",
+        "Agarre prono",
+        "Sin impulso",
+        "Pausa arriba"
+      ],
+      "vo": "Claves: pies firmes, agarre prono, sin impulso del torso y pausa arriba.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10–12"
+      ],
+      "sub": "Un minuto de pausa",
+      "vo": "Tres series de diez a doce repeticiones, con un minuto de pausa. Si las doce salen fáciles, subí peso.",
+      "chips": [
+        {
+          "label": "1 · TIRÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "PULL",
+              1.0
+            ],
+            [
+              "HINGE",
+              1.6
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "SOLTÁ",
+        "LENTO"
+      ],
+      "sub": "Sin rebotar",
+      "vo": "Al terminar, dejá la barra bajar despacio y volvé a la posición inicial sin soltar el agarre de golpe.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "HINGE",
+          "at": 0.9,
+          "dur": 1.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1120
+          ],
+          "text": "SIN SOLTAR",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "PULL",
+    "zoom": 1.05,
+    "dy": 40
+  },
+  "youtube": {
+    "titulo": "Lever Bent-over Row with V-Bar 🔥 Remo inclinado en palanca | Espalda",
+    "tags": [
+      "lever bent over row with v bar",
+      "remo inclinado con barra en v",
+      "remo en palanca",
+      "remo inclinado",
+      "t bar row",
+      "espalda alta",
+      "dorsales",
+      "bíceps",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de espalda"
+    ],
+    "descripcion": "🔥 LEVER BENT-OVER ROW WITH V-BAR (remo inclinado con barra en V en máquina de palanca) — espalda alta y bíceps, con la bisagra de cadera\n\nEl remo inclinado con barra en V trabaja la espalda desde una bisagra de cadera. Si redondeás la espalda, usás impulso o subís los hombros, el trabajo se reparte y los omóplatos no se juntan. La clave es mantener el ángulo del torso y tirar con los codos cerca. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Parate con los pies al ancho de los hombros y las rodillas apenas flexionadas.\n2️⃣ Llevá la cadera atrás y tomá la barra en V con agarre prono.\n\n📋 PASO A PASO\n1️⃣ Hacé la bisagra desde la cadera con la espalda recta y el pecho arriba.\n2️⃣ Tomá la barra en V con agarre prono y los brazos extendidos.\n3️⃣ Tirá del agarre hacia el abdomen sin cambiar el ángulo del torso.\n4️⃣ Apretá los omóplatos un segundo y volvé lento.\n5️⃣ Mantené los pies firmes durante todo el recorrido.\n\n❌ ERRORES COMUNES\n• Redondear la espalda → pecho arriba y espalda recta.\n• Subir los hombros → hombros abajo y omóplatos hacia atrás.\n• Usar impulso → el ángulo del torso se mantiene y la espalda no rebota.\n\n💡 TIPS DEL PROFE\n• Bisagra de cadera, no sentadilla.\n• Codos cerca del torso.\n• Apretá los omóplatos arriba.\n• Volvé lento, sin soltar el peso de golpe.\n\n🎯 QUÉ TRABAJA\nEspalda · Espalda alta · Bíceps\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Espalda #EspaldaAlta #RemoInclinado #TBarRow #BarraV #Biceps #Entrenamiento"
+  }
+}

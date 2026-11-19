@@ -6,7 +6,7 @@ mode: autonomous
 music: plantilla/musica/bgm-base.wav
 ---
 
-## Frame 1 — GIMNASIO · ESPALDA JALÓN EN PALANCA
+## Frame 1 — GIMNASIO · ESPALDA LEVER PULLOVER
 
 - status: animated
 - min: 5.6s

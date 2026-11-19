@@ -1,0 +1,833 @@
+{
+  "slug": "smith-deadlift",
+  "name": "Smith Deadlift",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Isquios",
+    "Glúteo",
+    "Espalda baja"
+  ],
+  "descripcion": "Peso muerto en la Smith: la barra arranca del piso pegada a las tibias, el pecho arriba y la espalda recta. Subís empujando el piso con las piernas y extendiendo la cadera hasta quedar derecho, y bajás controlando el mismo camino. La barra corre guiada en una sola vertical.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 540,
+    "y": 1503.1,
+    "scale": 0.85
+  },
+  "shadow": false,
+  "initialPose": "START",
+  "props": [
+    {
+      "type": "smith",
+      "x": 70,
+      "top": -860,
+      "gap": 300,
+      "stops": -560,
+      "track": "hands",
+      "torso": [
+        -34,
+        18
+      ],
+      "r": 72
+    }
+  ],
+  "poses": {
+    "START": {
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "g": 1,
+      "hx": 70,
+      "hip": [
+        -110,
+        -250
+      ],
+      "b": 52,
+      "hd": -4,
+      "hy": -110
+    },
+    "MID": {
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "g": 1,
+      "hx": 70,
+      "hip": [
+        -80,
+        -360
+      ],
+      "b": 40,
+      "hd": -2,
+      "hy": -250
+    },
+    "TOP": {
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "g": 1,
+      "hx": 70,
+      "hip": [
+        0,
+        -455
+      ],
+      "b": 8,
+      "hd": 0,
+      "hy": -412
+    },
+    "ROUND_BAD": {
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "g": 1,
+      "hx": 70,
+      "hip": [
+        -110,
+        -250
+      ],
+      "b": 56,
+      "hd": 38,
+      "hy": -110
+    },
+    "HIPUP_BAD": {
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "g": 1,
+      "hx": 70,
+      "hip": [
+        -30,
+        -420
+      ],
+      "b": 28,
+      "hd": 0,
+      "hy": -350
+    },
+    "LEAN_BAD": {
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "g": 1,
+      "hx": 70,
+      "hip": [
+        0,
+        -455
+      ],
+      "b": -5,
+      "hd": -8,
+      "hy": -418
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "PESO MUERTO",
+        "EN LA SMITH"
+      ],
+      "sub": "Cadena posterior",
+      "vo": "Peso muerto en la Smith: la barra sale del piso pegada a las tibias y subís con la espalda recta.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "START",
+              1.3
+            ],
+            [
+              "TOP",
+              1.4
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "BARRA",
+        "GUIADA"
+      ],
+      "sub": "Multipower",
+      "vo": "La barra corre guiada en una sola vertical pegada a las tibias, y los topes te dejan la salida segura.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            600,
+            752
+          ],
+          "r": 66,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BARRA GUIADA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            854,
+            959
+          ],
+          "r": 56,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            880
+          ],
+          "text": "PARANTES",
+          "anchor": "start",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            854,
+            1027
+          ],
+          "r": 48,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            960
+          ],
+          "text": "TOPES",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "BARRA AL",
+        "PISO"
+      ],
+      "sub": "Tibias pegadas",
+      "vo": "Bajá la barra hasta el piso sobre los topes y dejá que las tibias queden tocando la barra.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            600,
+            1410
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BARRA AL PISO",
+          "anchor": "start",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "PIES AL",
+        "ANCHO"
+      ],
+      "sub": "Barra al medio pie",
+      "vo": "Parate con los pies al ancho de la cadera y la barra justo sobre el medio pie, pegada a las tibias.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            591,
+            1503
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            523,
+            1503
+          ],
+          "r": 50,
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "PIES AL ANCHO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "AGARRE",
+        "FIRME"
+      ],
+      "sub": "Pecho arriba",
+      "vo": "Agarrá la barra, bajá la cadera y subí el pecho: espalda recta, hombros justo sobre la barra.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            540,
+            1218
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "ESPALDA RECTA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "EMPUJÁ",
+        "EL PISO"
+      ],
+      "sub": "Con las piernas",
+      "vo": "Paso uno. Empujá el piso con los pies y subí la barra pegada a las tibias, sin tirar con la espalda.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.4,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            591,
+            1503
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "EMPUJÁ EL PISO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "EXTENDÉ",
+        "LA CADERA"
+      ],
+      "sub": "Glúteo y isquios",
+      "vo": "Paso dos. Extendé la cadera y apretá el glúteo hasta quedar derecho, con la barra pegada al cuerpo.",
+      "moves": [
+        {
+          "cut": "MID",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.4,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            540,
+            1116
+          ],
+          "r": 58,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "EXTENDÉ LA CADERA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "CONTROLANDO"
+      ],
+      "sub": "Mismo camino",
+      "vo": "Paso tres. Bajá la barra por el mismo camino, con la cadera atrás y la espalda recta hasta el piso.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "START",
+          "at": 0.4,
+          "dur": 1.3
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            600,
+            1291
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BARRA PEGADA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Tomá aire abajo",
+      "vo": "Tomá aire arriba, aguantá mientras bajás y soltalo al terminar de subir. No sueltes la espalda.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "START",
+              1.3
+            ],
+            [
+              "TOP",
+              1.4
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "REDONDEAR",
+        "LA ESPALDA"
+      ],
+      "sub": "Pecho arriba",
+      "vo": "Error: redondear la espalda. El pecho va arriba y la espalda recta de la cadera a la nuca.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "ROUND_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            594,
+            1190
+          ],
+          "r": 58,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "LEVANTAR",
+        "LA COLA"
+      ],
+      "sub": "Todo junto",
+      "vo": "Error: levantar la cola primero. La cadera y los hombros suben juntos, no arranca la espalda.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "HIPUP_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            566,
+            1146
+          ],
+          "r": 56,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "ARQUEAR",
+        "ARRIBA"
+      ],
+      "sub": "Cuerpo derecho",
+      "vo": "Error: arquear la espalda al final. Terminá derecho, con el abdomen firme y el glúteo apretado.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            532,
+            1095
+          ],
+          "r": 56,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Barra pegada",
+        "Pecho arriba",
+        "Empujá el piso",
+        "Glúteo apretado"
+      ],
+      "vo": "Tips: barra pegada a las tibias, pecho arriba, empujá el piso y terminá apretando el glúteo.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "START",
+              1.3
+            ],
+            [
+              "TOP",
+              1.4
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Espalda recta",
+        "Hombros sobre la barra",
+        "Cadera y hombros juntos",
+        "Bajada controlada"
+      ],
+      "vo": "Claves: espalda recta, hombros sobre la barra, cadera y hombros juntos y bajada controlada.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 6–8"
+      ],
+      "sub": "Isquios y glúteo",
+      "vo": "Tres series de seis a ocho repeticiones, con dos minutos de pausa. Peso moderado y técnica primero.",
+      "chips": [
+        {
+          "label": "1 · EMPUJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · EXTENDÉ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "START",
+              1.4
+            ],
+            [
+              "TOP",
+              1.5
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "DEJÁ LA BARRA",
+        "EN EL PISO"
+      ],
+      "sub": "Sin apuro",
+      "vo": "Al terminar la serie, bajá la barra al piso por el mismo camino y soltala, sin redondear la espalda.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "START",
+          "at": 0.9,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "SIN APURO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "START",
+    "zoom": 1.02,
+    "dy": 30
+  },
+  "youtube": {
+    "titulo": "Smith Deadlift 🔥 Peso muerto en la Smith | Cadena posterior",
+    "tags": [
+      "smith deadlift",
+      "peso muerto",
+      "peso muerto en smith",
+      "smith machine",
+      "multipower",
+      "isquios",
+      "glúteo",
+      "espalda baja",
+      "cadena posterior",
+      "gimnasio",
+      "principiantes",
+      "rutina de piernas"
+    ],
+    "descripcion": "🔥 SMITH DEADLIFT (peso muerto con barra guiada en la máquina Smith) — isquiotibiales, glúteo y espalda baja\n\nEl peso muerto en la Smith quita la variante del equilibrio: la barra corre guiada en una sola vertical, pegada a las tibias, y vos te concentrás en la bisagra de cadera. La barra arranca del piso, subís empujando con las piernas y extendiendo la cadera hasta quedar derecho, y bajás controlando el mismo camino con la espalda recta. Si redondeás la espalda, levantás la cola primero o arqueás al final, la zona lumbar se lleva la carga. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Apoyá la barra en el piso y parate con la barra sobre el medio pie.\n2️⃣ Agarrá la barra, bajá la cadera y subí el pecho.\n\n📋 PASO A PASO\n1️⃣ Empujá el piso con los pies y subí la barra pegada a las tibias.\n2️⃣ Extendé la cadera y apretá el glúteo hasta quedar derecho.\n3️⃣ Mantené la espalda recta y los hombros sobre la barra.\n4️⃣ Bajá la barra por el mismo camino, con la cadera atrás.\n5️⃣ Dejá la barra en el piso al terminar la serie.\n\n❌ ERRORES COMUNES\n• Redondear la espalda → pecho arriba y espalda recta.\n• Levantar la cola primero → cadera y hombros suben juntos.\n• Arquear al final → terminá derecho y con el abdomen firme.\n\n💡 TIPS DEL PROFE\n• Barra pegada a las tibias.\n• Pecho arriba, mirada al frente.\n• Empujá el piso, no tires con la espalda.\n• Bajada controlada.\n\n🎯 QUÉ TRABAJA\nPiernas → Isquios → Glúteo\n\n⏱️ CUÁNTO\n3 series de 6–8 repeticiones, con 2 minutos de pausa. Nivel: intermedio.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #PesoMuerto #SmithMachine #Gluteo #Isquios #EspaldaBaja #Entrenamiento #Fuerza"
+  }
+}

@@ -1,0 +1,481 @@
+{
+  "slug": "banded-pull-up",
+  "name": "Banded Pull-Up",
+  "category": "CROSSFIT · HABILIDAD",
+  "tags": [
+    "Dorsal",
+    "Bíceps",
+    "Trapecio",
+    "Gimnástico"
+  ],
+  "descripcion": "Con una banda elástica atada a la barra y un pie (o rodilla) apoyado en ella, colgarse con los brazos extendidos y tirar hasta pasar el mentón por encima de la barra; bajar con control hasta extender los brazos. La banda descuenta parte del peso del cuerpo y permite practicar la dominada completa.",
+  "revisado": false,
+  "notas": "Dominada asistida con banda: prop pullupbar en bar [0,-1170] y banda anclada al mismo punto ([-40,-1170]) que va al tobillo cercano (hand ankle, layer back) para que quede detrás del cuerpo. Poses de bar-pull-up (HANG, ACTIVE, PULL, TOP) y error SWING_BAD: patear/rebotar con la banda en vez de tirar. En claves el personaje se achica a 0,62 para que la barra no quede bajo la lista.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1504,
+    "scale": 0.66
+  },
+  "shadow": false,
+  "props": [
+    {
+      "type": "pullupbar",
+      "bar": [
+        0,
+        -1170
+      ],
+      "postX": -430
+    },
+    {
+      "type": "band",
+      "hand": "ankle",
+      "anchor": [
+        -230,
+        -1170
+      ],
+      "color": "#3FA34D",
+      "w": 15
+    }
+  ],
+  "pronuncia": {
+    "Banded Pull-Up": "Bánded pul ap"
+  },
+  "initialPose": "HANG",
+  "poses": {
+    "HANG": {
+      "hip": [
+        0,
+        -562
+      ],
+      "b": 0,
+      "t": 0,
+      "s": 0,
+      "hd": 0,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40,
+      "ft2": 40
+    },
+    "ACTIVE": {
+      "hip": [
+        0,
+        -602
+      ],
+      "b": 0,
+      "t": 0,
+      "s": 0,
+      "hd": -6,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40,
+      "ft2": 40
+    },
+    "PULL": {
+      "hip": [
+        0,
+        -690
+      ],
+      "b": 0,
+      "t": 0,
+      "s": 0,
+      "hd": -2,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": -1,
+      "ft": 40,
+      "ft2": 40
+    },
+    "TOP": {
+      "hip": [
+        0,
+        -920
+      ],
+      "b": -4,
+      "t": 0,
+      "s": 0,
+      "hd": -6,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": -1,
+      "ft": 40,
+      "ft2": 40
+    },
+    "SWING_BAD": {
+      "hip": [
+        100,
+        -580
+      ],
+      "b": -22,
+      "t": -45,
+      "s": -30,
+      "hd": -14,
+      "g": 1,
+      "hx": 0,
+      "hy": -1170,
+      "ed": 1,
+      "ft": 40,
+      "ft2": 30
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.9,
+      "badge": "HABILIDAD · BANDA",
+      "head": [
+        "BANDED",
+        "PULL UP"
+      ],
+      "vo": "Banded Pull Up: colgate con la banda bajo el pie y tirá hasta pasar el mentón por la barra.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "PULL",
+              0.6
+            ],
+            [
+              "TOP",
+              0.7
+            ],
+            [
+              "HANG",
+              0.8
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PIE EN",
+        "LA BANDA"
+      ],
+      "sub": "Brazos estirados",
+      "vo": "Con la banda atada a la barra, poné un pie adentro y colgate con los brazos estirados.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "HANG.A"
+          },
+          "r": 40,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "HANG.A",
+            "dx": 70,
+            "dy": 26
+          },
+          "text": "BANDA",
+          "anchor": "start",
+          "at": 1.5
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "ESCÁPULAS",
+        "ABAJO"
+      ],
+      "sub": "Antes de tirar",
+      "vo": "Paso uno. Antes de tirar, bajá las escápulas: los hombros lejos de las orejas.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "ACTIVE",
+          "at": 0.7,
+          "dur": 0.9
+        },
+        {
+          "to": "HANG",
+          "at": 2.2,
+          "dur": 0.9
+        },
+        {
+          "to": "ACTIVE",
+          "at": 3.4,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "ACTIVE.S",
+            "dx": 96,
+            "dy": -34
+          },
+          "text": "HOMBROS ABAJO",
+          "anchor": "start",
+          "at": 1.7
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "TIRÁ HASTA",
+        "LA BARRA"
+      ],
+      "sub": "Mentón arriba",
+      "vo": "Paso dos. Tirá hasta pasar el mentón por encima de la barra, sin balanceo.",
+      "moves": [
+        {
+          "cut": "ACTIVE",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.7,
+          "dur": 1
+        },
+        {
+          "to": "TOP",
+          "at": 1.9,
+          "dur": 1.1
+        },
+        {
+          "to": "HANG",
+          "at": 3.4,
+          "dur": 1
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "CONTROLADO"
+      ],
+      "sub": "Brazos estirados",
+      "vo": "Paso tres. Bajá controlado, dos segundos, y estirá del todo los brazos.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.7,
+          "dur": 0.9
+        },
+        {
+          "to": "HANG",
+          "at": 1.8,
+          "dur": 1.1
+        },
+        {
+          "seq": [
+            [
+              "ACTIVE",
+              0.7
+            ],
+            [
+              "PULL",
+              0.8
+            ],
+            [
+              "TOP",
+              0.8
+            ],
+            [
+              "PULL",
+              0.8
+            ],
+            [
+              "HANG",
+              0.9
+            ]
+          ],
+          "at": 3.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "ASÍ NO",
+      "head": [
+        "REBOTE"
+      ],
+      "sub": "La banda no impulsa",
+      "vo": "Así no. Si pateás y usás la banda como trampolín, la dominada no se construye.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "to": "SWING_BAD",
+          "at": 0.7,
+          "dur": 0.9
+        },
+        {
+          "to": "HANG",
+          "at": 3.6,
+          "dur": 1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "SWING_BAD.K"
+          },
+          "r": 46,
+          "at": 1.6,
+          "out": 3.8
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "SWING_BAD.K",
+            "dx": 54,
+            "dy": 6
+          },
+          "text": "PATEA",
+          "anchor": "start",
+          "at": 1.7,
+          "out": 3.9
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.2,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.62,
+      "keys": [
+        "Banda bien asegurada en la barra",
+        "Escápulas abajo antes de tirar",
+        "Sin balanceo: la banda ayuda, no impulsa",
+        "Bajá controlado y estirá los brazos"
+      ],
+      "vo": "Claves: banda bien asegurada, escápulas abajo, sin balanceo y bajada completa.",
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.2,
+      "badge": "A ENTRENAR",
+      "head": [
+        "5 REPS"
+      ],
+      "sub": "Con banda",
+      "vo": "Cinco repeticiones con banda. Cambiá a una más fina cuando ganes fuerza.",
+      "chips": [
+        {
+          "label": "1 · ESCÁPULAS",
+          "at": 0.6
+        },
+        {
+          "label": "2 · TIRÁ",
+          "at": 1.2
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.8
+        }
+      ],
+      "moves": [
+        {
+          "cut": "HANG",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ACTIVE",
+              0.6
+            ],
+            [
+              "PULL",
+              0.8
+            ],
+            [
+              "TOP",
+              0.9
+            ],
+            [
+              "PULL",
+              0.8
+            ],
+            [
+              "HANG",
+              0.9
+            ]
+          ],
+          "at": 0.6,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "TOP",
+    "grip": 1,
+    "zoom": 1.05,
+    "dy": 170
+  },
+  "youtube": {
+    "titulo": "Banded Pull-Up 🎯 Tu primera dominada con banda | Habilidad",
+    "tags": [
+      "banded pull up",
+      "dominada con banda",
+      "dominada asistida",
+      "banda elástica",
+      "pull up",
+      "dorsal",
+      "bíceps",
+      "gimnástico",
+      "crossfit",
+      "habilidad",
+      "dominadas",
+      "progresión"
+    ],
+    "descripcion": "🎯 BANDED PULL-UP — Tu primera dominada con banda\n\n¿Todavía no te sale la dominada estricta? La banda te descuenta parte del peso y te deja practicar el movimiento completo. 💪\n\n📋 PASO A PASO\n1️⃣ Atá la banda a la barra y poné un pie (o rodilla) adentro. Colgate con los brazos estirados.\n2️⃣ Antes de tirar, bajá las escápulas: los hombros lejos de las orejas.\n3️⃣ Tirá hasta pasar el mentón por encima de la barra, sin balanceo.\n4️⃣ Bajá con control, al menos dos segundos, y estirá del todo los brazos.\n\n✅ CLAVES DE TÉCNICA\n• Revisá que la banda quede bien asegurada antes de subirte\n• Iniciá bajando las escápulas, sin encoger los hombros\n• Abdomen firme y cuerpo sin balanceo: la banda ayuda, no impulsa\n• Bajada controlada y brazos completamente extendidos en cada repetición\n• Cambiá por una banda más fina a medida que ganes fuerza\n\n🎯 QUÉ TRABAJA\nDorsal ancho · Bíceps braquial · Trapecio medio · Trapecio inferior · Romboides · Braquiorradial · Flexores del antebrazo\n\n⏱️ CUÁNTO\n5 repeticiones, 3 a 4 series. Va como trabajo de habilidad antes del WOD.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Dominadas #BandaElastica #Habilidad #Entrenamiento"
+  }
+}

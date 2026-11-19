@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Shrug",
+      "text": "Encogimiento de hombros en la palanca de barra al piso: agarrá los mangos y empujá con los trapecios sin doblar los codos."
+    },
+    {
+      "id": "02",
+      "text": "La palanca tiene una barra baja con discos grandes, un mango a cada lado y un pivote que gira apenas sobre la columna."
+    },
+    {
+      "id": "03",
+      "text": "La barra queda a la altura de la cadera, con los brazos casi estirados y los pies al ancho de cadera."
+    },
+    {
+      "id": "04",
+      "text": "Agarrá los mangos con las palmas hacia adentro y las muñecas rectas. El agarre solo sostiene: el trabajo lo hacen los hombros."
+    },
+    {
+      "id": "05",
+      "text": "Arrancá con los hombros abajo, el pecho arriba y la mirada al frente, sin colgar el peso de los brazos."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Encogé los hombros hacia las orejas, como si quisieras tocarlas, sin doblar los codos."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Sostené un segundo arriba con los codos quietos y la barra apenas levantada."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá lento hasta sentir el estiramiento de los trapecios, sin dejar caer los hombros de golpe."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire cuando encogés y tomá aire cuando bajás. El abdomen queda firme y las costillas abajo."
+    },
+    {
+      "id": "10",
+      "text": "Error: echarse atrás para empujar la barra. El tronco queda vertical y los hombros hacen el recorrido."
+    },
+    {
+      "id": "11",
+      "text": "Error: encoger apenas unos centímetros. Subí los hombros hasta el tope y hacé la pausa completa."
+    },
+    {
+      "id": "12",
+      "text": "Error: redondear la espalda y bajar el pecho. El pecho se queda arriba y la espalda recta durante todo el recorrido."
+    },
+    {
+      "id": "13",
+      "text": "Tips: manos en los mangos, codos quietos, pausa arriba y bajada lenta."
+    },
+    {
+      "id": "14",
+      "text": "Claves: empujá con los hombros, sin doblar los codos, pecho arriba y mirada al frente."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de doce a quince repeticiones, con un minuto de pausa. Elegí un peso que te deje completar el recorrido."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar la serie, bajá los hombros despacio, soltá los mangos y salí de la palanca sin encorvarte."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Leg Swing",
+      "text": "Soltá la cadera y balanceá la pierna, adelante y atrás, como un péndulo."
+    },
+    {
+      "id": "02",
+      "text": "De costado a la pared, apoyá una mano y quedate bien erguido sobre una pierna."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Con la rodilla casi extendida, llevá la pierna adelante sin mover el tronco."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Volvé y balanceala atrás, controlando el final del recorrido."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Sumá amplitud de a poco, sin tirones. El movimiento sale de la cadera."
+    },
+    {
+      "id": "06",
+      "text": "Así no. Si acompañás el balanceo con el tronco, la lumbar se lleva el trabajo."
+    },
+    {
+      "id": "07",
+      "text": "Claves: torso erguido, rodilla casi extendida, movimiento desde la cadera y amplitud progresiva."
+    },
+    {
+      "id": "08",
+      "text": "Doce repeticiones por pierna, dos rondas. Movilidad dinámica antes de entrenar."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

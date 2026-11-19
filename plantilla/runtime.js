@@ -26,7 +26,7 @@
 
   const L = { shin: 230, thigh: 240, torso: 280, neck: 32, upper: 172, fore: 160 };
   const FAR = { dx: -22, dy: -4 };
-  const KEYS = ["s", "t", "b", "hd", "ua", "fa", "s2", "t2", "ua2", "fa2", "rx", "ry", "ft", "ft2", "hx", "hy", "ed", "g", "lr", "al", "hb", "bf", "bx", "by", "g2", "hx2", "hy2", "ed2", "wr", "wr2", "cv", "fx", "dh", "pz", "rp", "ul", "fl", "ll", "ll2", "cs"];
+  const KEYS = ["s", "t", "b", "hd", "ua", "fa", "s2", "t2", "ua2", "fa2", "rx", "ry", "ft", "ft2", "hx", "hy", "ed", "g", "lr", "al", "hb", "bf", "bx", "by", "g2", "hx2", "hy2", "ed2", "wr", "wr2", "cv", "fx", "dh", "pz", "rp", "ul", "fl", "ll", "ll2", "cs", "sh"];
   const P = C.poses;
 
   const rad = (d) => (d * Math.PI) / 180;
@@ -59,8 +59,9 @@
     const ll = (farSide ? st.ll2 : st.ll) ?? 1;
     const K = fold(add(H, up(t + 180, L.thigh * ll)));
     const A = fold(add(add(H, up(t + 180, L.thigh * ll)), up(s + 180, L.shin * ll)));
-    const S = add(H, up(st.b, L.torso));
-    const N = add(S, up(st.hd, L.neck));
+    const S0 = add(H, up(st.b, L.torso));
+    const S = st.sh ? { x: S0.x, y: S0.y - st.sh } : S0; // sh: elevación de hombros (encogimiento) sin mover la cabeza
+    const N = add(S0, up(st.hd, L.neck));
     const al = st.al ?? 1;
     const fE = add(S, down(ua, L.upper * al * (st.ul ?? 1)));
     const fW = add(fE, down(ua + fa, L.fore * al * (farSide ? 1 : st.fl ?? 1)));
@@ -79,6 +80,7 @@
 
   // ── SVG build ───────────────────────────────────────────────────────────────
   const rig = $("rig"), RIG0 = rig.getAttribute("transform");
+
   function el(tag, attrs, parent) {
     const n = document.createElementNS(NS, tag);
     for (const k in attrs) n.setAttribute(k, attrs[k]);
@@ -226,6 +228,52 @@
         const d = (n.A.x - H0.x) * dir.x + (n.A.y - H0.y) * dir.y;
         const p = at(d, 0);
         car.setAttribute("transform", `translate(${f2(p.x)},${f2(p.y)})`);
+      });
+    }
+    if (pr.type === "legpresslie") {
+      // Sled tumbado (prensa horizontal): banco fijo (bench [x0, x1, top]), riel horizontal bajo el banco (rail) y carro
+      // con plataforma vertical que corre con el metatarso del pie cercano (ankle = tobillo de la ficha): la suela queda
+      // contra la cara de la plataforma y el carro avanza lo que se adelanta la puna. Columna con pila en el extremo del
+      // riel y cable a la plataforma; la pila sube con el recorrido. handles = manijas al costado de la cadera.
+      const [x0, x1, top] = pr.bench || [-660, -195, -150], A0 = P2(pr.ankle || [95, -186]);
+      const ry = pr.rail ?? top + 72, cx = pr.cx ?? x1 + 425, g = el("g", {}, propBack);
+      const ry0 = ry - A0.y, gap = pr.gap ?? 10, face = 36 + gap;
+      el("rect", { x: x0 - 90, y: 18, width: cx - x0 + 190, height: 16, rx: 8, fill: METAL_D }, g); // base
+      el("rect", { x: x0, y: top, width: x1 - x0, height: 46, rx: 16, fill: PAD }, g); // banco
+      tubeL(g, { x: x0 + 70, y: top + 46 }, { x: x0 + 70, y: 26 }, 24);
+      tubeL(g, { x: x1 - 80, y: top + 46 }, { x: x1 - 80, y: 26 }, 24);
+      tubeL(g, { x: x0 + 40, y: top + 54 }, { x: x1 - 30, y: top + 54 }, 18);
+      el("rect", { x: x0 + 10, y: top - 22, width: 200, height: 22, rx: 9, fill: PAD_L }, g); // cabecera
+      el("circle", { cx: x0 + 76, cy: top + 62, r: 12, fill: ACCENT }, g); // perilla del banco
+      const hd = pr.handle || [x1 - 210, top - 32]; // manija al costado de la cadera
+      el("rect", { x: hd[0] - 10, y: hd[1], width: 20, height: top - hd[1] + 6, fill: METAL }, g);
+      el("rect", { x: hd[0] - 34, y: hd[1] - 14, width: 68, height: 26, rx: 12, fill: PAD }, propFront);
+      // riel + columna de la pila
+      tubeL(g, { x: x0 + 210, y: ry }, { x: cx, y: ry }, 30, METAL);
+      tubeL(g, { x: x0 + 250, y: ry + 12 }, { x: x0 + 250, y: 26 }, 22);
+      el("rect", { x: cx - 20, y: -800, width: 40, height: 826, fill: METAL }, g); // columna
+      tubeL(g, { x: cx - 4, y: -786 }, { x: cx - 62, y: -786 }, 22, METAL); // brazo de la polea
+      const pul = { x: cx - 55, y: -764 };
+      el("circle", { cx: pul.x, cy: pul.y, r: 26, fill: METAL }, g);
+      el("circle", { cx: pul.x, cy: pul.y, r: 8, fill: ACCENT }, g);
+      const ws = weightStack(g, cx + 4, -566, { n: 7, ph: 22, guide: 230, w: 100, pin: 3 }); // pila sobre la columna
+      // carro (coords relativas al tobillo A0): guía en el riel, viga, plataforma y almohadilla
+      const car = el("g", {}, propBack);
+      el("rect", { x: -34, y: ry0 - 26, width: 116, height: 52, rx: 10, fill: METAL }, car); // guía sobre el riel
+      el("rect", { x: 56, y: -320, width: 34, height: 442, rx: 8, fill: METAL_D }, car); // viga detrás de la plataforma
+      el("rect", { x: face + 10, y: -308, width: 34, height: 430, rx: 6, fill: METAL }, car); // placa
+      el("rect", { x: face - 2, y: -300, width: 30, height: 424, rx: 8, fill: PAD }, car); // almohadilla
+      el("circle", { cx: 73, cy: -296, r: 13, fill: ACCENT }, car); // anclaje del cable
+      const BALL = [55, 36]; // metatarso en coords del zapato (place = tobillo + rotación ft)
+      const ballX = (ft) => { const a = rad(ft); return BALL[0] * Math.cos(a) - BALL[1] * Math.sin(a); };
+      const cable = el("line", { stroke: "#2A2A2E", "stroke-width": 6 }, propBack);
+      let x0c = null;
+      propUpdates.push((n, f, st) => {
+        const dx = n.A.x + ballX(st.ft ?? -90) - 36, wx = A0.x + dx;
+        car.setAttribute("transform", `translate(${f2(dx)},${f2(A0.y)})`);
+        setL(cable, { x: wx + 73, y: A0.y - 296 }, pul);
+        if (x0c == null) x0c = wx;
+        ws.lift(Math.abs(wx - x0c) * 0.7 + (pr.preload ?? 30));
       });
     }
     if (pr.type === "latpulldown") {
@@ -703,6 +751,167 @@
         ws.lift(Math.abs(ang - a0) * (pr.k ?? 3.2));
       });
     }
+    if (pr.type === "tbarrow") {
+      const pv = P2(pr.pivot || [-420, 8]), br = pr.radius ?? 92, pf = pr.plateFrac ?? 0.8;
+      const g = el("g", {}, propBack);
+      el("rect", { x: pv.x - 84, y: pv.y - 10, width: 168, height: 36, rx: 10, fill: METAL_D }, g);
+      el("path", { d: `M ${f2(pv.x - 62)} ${f2(pv.y + 22)} L ${f2(pv.x)} ${f2(pv.y - 18)} L ${f2(pv.x + 62)} ${f2(pv.y + 22)} Z`, fill: METAL }, g);
+      if (pr.pad) {
+        // Almohadilla de pecho opcional (remo T con pecho apoyado): pad [x, y, ancho, alto, giro] con poste y base.
+        const [px, py, pw, ph, pang = 0] = pr.pad, post = px + pw * 0.09;
+        el("rect", { x: post, y: py + ph, width: 22, height: 34 - (py + ph), fill: METAL }, g); // poste
+        el("rect", { x: post - 70, y: 18, width: 200, height: 16, rx: 8, fill: METAL_D }, g); // base
+        const pg = el("g", {}, g);
+        el("rect", { x: px, y: py, width: pw, height: ph, rx: ph / 2, fill: PAD }, pg);
+        el("rect", { x: px + 12, y: py + 7, width: pw - 24, height: ph * 0.34, rx: ph * 0.2, fill: PAD_L, opacity: 0.6 }, pg);
+        if (pang) pg.setAttribute("transform", `rotate(${f2(pang)} ${f2(px + pw / 2)} ${f2(py + ph / 2)})`);
+      }
+      el("circle", { cx: pv.x, cy: pv.y, r: 24, fill: METAL }, g);
+      el("circle", { cx: pv.x, cy: pv.y, r: 12, fill: ACCENT }, propMid);
+      const bar = tubeL(g, pv, pv, 16, METAL), sleeve = tubeL(propMid, pv, pv, 26, METAL_D);
+      const mkPlate = (parent, dark) => {
+        const q = el("g", {}, parent);
+        el("circle", { r: br, fill: dark ? PLATE_D : PLATE }, q);
+        el("circle", { r: br * 0.72, fill: "none", stroke: dark ? "#4A4D53" : PLATE_D, "stroke-width": 7 }, q);
+        el("circle", { r: br * 0.24, fill: PLATE_L }, q);
+        el("circle", { r: br * 0.09, fill: "#3A3C41" }, q);
+        for (let i = 0; i < 4; i++) {
+          const a = rad(i * 90 + 45);
+          el("circle", { cx: f2(Math.cos(a) * br * 0.52), cy: f2(Math.sin(a) * br * 0.52), r: 5, fill: PLATE_D }, q);
+        }
+        return q;
+      };
+      const farP = mkPlate(propBack, true), nearP = mkPlate(propMid, false);
+      const grip = el("g", {}, propMid);
+      el("path", { d: "M -26 0 L 0 -18 L 26 0", fill: "none", stroke: "#101010", "stroke-width": 18, "stroke-linecap": "round", "stroke-linejoin": "round" }, grip);
+      el("circle", { cx: -26, cy: 0, r: 6, fill: ACCENT }, grip);
+      el("circle", { cx: 26, cy: 0, r: 6, fill: ACCENT }, grip);
+      propUpdates.push((n) => {
+        const w = n.W, p = lerp(pv, w, pf), a = (Math.atan2(w.y - pv.y, w.x - pv.x) * 180) / Math.PI;
+        setL(bar, pv, w); setL(sleeve, p, w);
+        farP.setAttribute("transform", `translate(${f2(p.x + FAR.dx * 1.8)},${f2(p.y + FAR.dy * 1.8)})`);
+        nearP.setAttribute("transform", `translate(${f2(p.x)},${f2(p.y)})`);
+        grip.setAttribute("transform", `translate(${f2(w.x)},${f2(w.y)}) rotate(${f2(a)})`);
+      });
+    }
+    if (pr.type === "leverrow") {
+      // Remo sentado en palanca (lever row): asiento + respaldo, almohadilla de pecho al frente, placa de pies y dos
+      // manijas independientes en el extremo de los brazos que giran en pivot [x, y]. La cercana sigue a la mano;
+      // la lejana sigue a f.W y necesita g2 1 + hx2/hy2 para alternar mientras la otra queda extendida. Los discos
+      // van fijos en el bastidor trasero (horn) y el cable acompaña al brazo cercano.
+      const pv = P2(pr.pivot || [-330, -160]);
+      const [x0, x1, sy] = pr.seat || [-430, -190, -270];
+      const [bx, lean, blen] = pr.back || [x0 - 30, -8, 420];
+      const [cx, ctop, ch] = pr.chest || [-280, -548, 288];
+      const [fpx, fpy] = pr.foot || [132, 18];
+      const horn = P2(pr.horn || [cx - 220, -180]), wr = pr.radius ?? 112;
+      const g = el("g", {}, propBack);
+      el("rect", { x: cx - 320, y: 18, width: fpx - cx + 380, height: 16, rx: 8, fill: METAL_D }, g); // base
+      tubeL(g, { x: cx - 300, y: 26 }, { x: cx - 300, y: -790 }, 32, METAL); // columna trasera
+      tubeL(g, { x: cx - 300, y: -780 }, { x: cx, y: -780 }, 26, METAL); // viga superior
+      tubeL(g, { x: cx, y: -775 }, { x: cx, y: ctop }, 24, METAL); // apoyo de la almohadilla
+      tubeL(g, { x: horn.x, y: horn.y }, { x: cx - 300, y: horn.y }, 24, METAL); // eje del peso
+      el("circle", { cx: horn.x, cy: horn.y, r: wr, fill: PLATE }, g); // disco (de perfil)
+      el("circle", { cx: horn.x, cy: horn.y, r: wr - 18, fill: "none", stroke: PLATE_D, "stroke-width": 10 }, g);
+      el("circle", { cx: horn.x, cy: horn.y, r: 26, fill: PLATE_L }, g);
+      for (let i = 0; i < 4; i++) {
+        const a = rad(i * 90 + 45);
+        el("circle", { cx: f2(horn.x + Math.cos(a) * (wr - 46)), cy: f2(horn.y + Math.sin(a) * (wr - 46)), r: 7, fill: PLATE_D }, g);
+      }
+      chair(g, x0, x1, sy, bx, lean, blen);
+      el("rect", { x: cx - 22, y: ctop, width: 44, height: ch, rx: 20, fill: PAD }, g); // almohadilla de pecho
+      el("rect", { x: cx - 4, y: ctop + 22, width: 10, height: ch - 44, rx: 5, fill: PAD_L }, g);
+      el("rect", { x: fpx - 8, y: fpy - 176, width: 52, height: 34 - (fpy - 176), rx: 16, fill: METAL }, g); // placa de pies
+      el("rect", { x: fpx, y: fpy - 166, width: 30, height: 170, rx: 12, fill: PAD }, g);
+      el("rect", { x: fpx - 10, y: fpy - 184, width: 56, height: 18, rx: 8, fill: METAL_D }, g); // tope superior
+      tubeL(g, { x: fpx + 16, y: 34 }, { x: fpx + 16, y: fpy - 158 }, 26);
+      tubeL(g, { x: pv.x - 46, y: 30 }, { x: pv.x, y: pv.y + 18 }, 30, METAL); // poste del eje
+      el("circle", { cx: pv.x, cy: pv.y, r: 28, fill: METAL }, g);
+      el("circle", { cx: pv.x, cy: pv.y, r: 14, fill: ACCENT }, propMid);
+      const cable = el("line", { x1: horn.x, y1: horn.y, x2: pv.x, y2: pv.y, stroke: METAL_D, "stroke-width": 10 }, g);
+      const farOff = pr.farOff ?? -16;
+      const armF = tubeL(propBack, pv, pv, 20, METAL_D), linkF = tubeL(propMid, pv, pv, 14, METAL_D), gripF = el("g", {}, propMid);
+      el("rect", { x: -14, y: -52, width: 28, height: 104, rx: 13, fill: "#141414" }, gripF);
+      el("circle", { r: 9, fill: PLATE_L }, gripF);
+      const armN = tubeL(propMid, pv, pv, 24, METAL), gripN = el("g", {}, propMid);
+      el("rect", { x: -16, y: -56, width: 32, height: 112, rx: 15, fill: "#101010" }, gripN);
+      el("rect", { x: -10, y: -58, width: 20, height: 16, rx: 8, fill: ACCENT }, gripN);
+      propUpdates.push((n, f) => {
+        setL(armN, pv, n.W); gripN.setAttribute("transform", `translate(${f2(n.W.x)},${f2(n.W.y)})`);
+        const fh = { x: f.W.x + farOff, y: f.W.y };
+        setL(armF, pv, f.W); setL(linkF, f.W, fh); gripF.setAttribute("transform", `translate(${f2(fh.x)},${f2(fh.y)})`);
+        cable.setAttribute("x2", f2(pv.x + (n.W.x - pv.x) * 0.5)); cable.setAttribute("y2", f2(pv.y + (n.W.y - pv.y) * 0.5));
+      });
+    }
+    if (pr.type === "levershrug") {
+      // Encogimiento sin agarre (gripless shrug): bastidor al frente con la pila, viga superior con dos poleas y un
+      // yugo colgante cuya almohadilla apoya sobre los trapecios; las manijas fijas salen del parante a la altura del
+      // pecho. La almohadilla sube con el hombro cercano (clave sh de la pose) y la pila sube k × sh. La máquina está
+      // fija: si el atleta se echa atrás, la almohadilla y las manijas quedan fuera de línea.
+      const colx = pr.column ?? -640, top = pr.top ?? -1000, stx = pr.stack ?? -790;
+      const padX = pr.padX ?? 120, [gripX, gripY] = pr.grip || [-210, -700], pOff = pr.padOff ?? 10;
+      const g = el("g", {}, propBack);
+      const bx0 = Math.min(stx - 190, colx - 60), bx1 = Math.max(stx + 10, colx + 60);
+      const bx2 = Math.min(colx, padX) - 60, bx3 = Math.max(colx, padX) + 60;
+      el("rect", { x: bx0, y: 18, width: bx1 - bx0, height: 16, rx: 8, fill: METAL_D }, g); // base
+      el("rect", { x: colx - 17, y: top, width: 34, height: 34 - top, fill: METAL_D }, g); // parante delantero
+      el("rect", { x: bx2, y: top - 24, width: bx3 - bx2, height: 34, rx: 8, fill: METAL_D }, g); // viga superior
+      const ws = weightStack(g, stx, 10, { n: 12, pin: pr.pin ?? 6, guide: 890 });
+      const p1 = { x: colx + 120, y: top + 20 }, p2 = { x: padX - 20, y: top + 20 };
+      [[p1], [p2]].forEach(([p]) => { el("circle", { cx: p.x, cy: p.y, r: 19, fill: METAL }, g); el("circle", { cx: p.x, cy: p.y, r: 7, fill: ACCENT }, g); });
+      tubeL(g, { x: colx, y: gripY }, { x: gripX + 20, y: gripY }, 24, METAL); // manubrio fijo al parante
+      tubeL(g, { x: colx, y: gripY - 8 }, { x: colx + 150, y: gripY - 120 }, 16, METAL_D); // riostra
+      const c1 = tubeL(g, p1, p1, 8, METAL_D), c2 = tubeL(g, p1, p2, 8, METAL_D), c3 = tubeL(propMid, p2, p2, 8, METAL_D);
+      const rod = tubeL(g, p2, p2, 16, METAL);
+      const yoke = el("g", {}, propBack);
+      el("rect", { x: -90, y: -20, width: 180, height: 40, rx: 20, fill: PAD }, yoke); // almohadilla de trapecios
+      el("rect", { x: -76, y: -11, width: 152, height: 12, rx: 6, fill: PAD_L, opacity: 0.6 }, yoke);
+      const grip = el("g", {}, propMid);
+      el("rect", { x: gripX - 15, y: gripY - 55, width: 30, height: 110, rx: 14, fill: "#141414" }, grip); // manija
+      el("rect", { x: gripX - 9, y: gripY - 57, width: 18, height: 16, rx: 8, fill: ACCENT }, grip);
+      propUpdates.push((n, _f, st) => {
+        const padY = n.S.y + pOff;
+        yoke.setAttribute("transform", `translate(${f2(padX)},${f2(padY)})`);
+        setL(rod, { x: p2.x, y: top + 10 }, { x: padX + 26, y: padY - 18 });
+        setL(c3, p2, { x: padX + 26, y: padY - 22 });
+        const lift = ws.lift((st.sh || 0) * (pr.k ?? 5));
+        setL(c1, { x: stx, y: -314 - lift }, p1);
+      });
+    }
+    if (pr.type === "shruglever") {
+      // Encogimiento en palanca de barra al piso: bastidor con poste, barra horizontal a la altura de la cadera con
+      // discos grandes y mangos; la barra gira apenas sobre el poste cuando la mano sube con el encogimiento (sh).
+      const pv = P2(pr.pivot || [-520, 6]), barY = pr.barY ?? -470, tipX = pr.tip ?? -40;
+      const br = pr.radius ?? 104, px = pr.plateX ?? -330, gx = pr.gripX ?? -80;
+      const g = el("g", {}, propBack);
+      el("rect", { x: pv.x - 110, y: 18, width: 340, height: 16, rx: 8, fill: METAL_D }, g); // base
+      el("rect", { x: pv.x - 16, y: barY - 70, width: 32, height: 88 - barY, fill: METAL }, g); // poste
+      el("rect", { x: tipX > pv.x ? pv.x + 22 : pv.x - 172, y: 18, width: 150, height: 12, rx: 6, fill: METAL }, g); // larguero
+      const bar = el("g", {}, propMid);
+      tubeL(bar, { x: pv.x, y: barY }, { x: tipX, y: barY }, 18, METAL);
+      el("rect", { x: pv.x - 24, y: barY - 22, width: 48, height: 44, rx: 12, fill: METAL_D }, bar); // collar
+      const mkP = (parent, dark, dx) => {
+        const q = el("g", {}, parent);
+        el("circle", { r: br, fill: dark ? PLATE_D : PLATE }, q);
+        el("circle", { r: br * 0.7, fill: "none", stroke: dark ? "#4A4D53" : PLATE_D, "stroke-width": 8 }, q);
+        el("circle", { r: br * 0.22, fill: PLATE_L }, q);
+        el("circle", { r: br * 0.08, fill: "#3A3C41" }, q);
+        for (let i = 0; i < 4; i++) {
+          const a = rad(i * 90 + 45);
+          el("circle", { cx: f2(Math.cos(a) * br * 0.5), cy: f2(Math.sin(a) * br * 0.5), r: 6, fill: PLATE_D }, q);
+        }
+        q.setAttribute("transform", `translate(${f2(px + dx)},${f2(barY)})`);
+        return q;
+      };
+      mkP(propBack, true, FAR.dx * 1.4);
+      mkP(bar, false, 0);
+      el("rect", { x: gx - 44, y: barY - 17, width: 88, height: 34, rx: 15, fill: "#141414" }, bar); // mango
+      el("rect", { x: gx - 36, y: barY - 10, width: 20, height: 20, rx: 10, fill: ACCENT }, bar);
+      propUpdates.push((n) => {
+        const a = Math.atan2(n.W.y - barY, gx - pv.x) * 180 / Math.PI;
+        bar.setAttribute("transform", `rotate(${f2(a)} ${f2(pv.x)} ${f2(barY)})`);
+      });
+    }
     if (pr.type === "kneeltwist") {
       // Torsión arrodillado (lever kneeling twist): almohadilla de rodillas (knee [x0, x1, y]), columna atrás con la pila
       // (stack = x) y un eje a la altura del pecho (pivot [x, y]) con el brazo y las manijas a la mano cercana. El giro es
@@ -820,6 +1029,8 @@
       const rx = pr.x ?? 0, top = pr.top ?? -1500, gap = pr.gap ?? 130;
       const g = el("g", {}, propBack);
       el("rect", { x: rx - gap - 140, y: 18, width: 2 * gap + 280, height: 16, rx: 8, fill: METAL_D }, g);
+      if (pr.seat) { const [sx0, sx1, sy, bx, ln, bl] = pr.seat; chair(g, sx0, sx1, sy, bx ?? sx0 + 40, ln ?? -8, bl ?? 470); } // banco + respaldo (press sentado)
+
       [[-gap, METAL_D], [gap, METAL]].forEach(([dx, c]) => el("rect", { x: rx + dx - 15, y: top, width: 30, height: 34 - top, fill: c }, g));
       el("rect", { x: rx - gap - 30, y: top - 24, width: 2 * gap + 60, height: 34, rx: 8, fill: METAL_D }, g);
       for (let y = -240; y > top + 60; y -= 120) el("rect", { x: rx + gap - 26, y, width: 22, height: 10, rx: 3, fill: "#2A2D33" }, g); // ganchos
@@ -833,8 +1044,16 @@
       propUpdates.push((n, f, s) => {
         let y = n.W.y;
         if ((pr.track ?? "back") === "back") { const [fx, dy] = pr.torso || [-34, 18], b = rad(s.b); y = n.S.y + Math.sin(b) * fx + Math.cos(b) * dy; }
+        else if (pr.track === "feet") y = n.A.y - (pr.foot ?? 40); // prensa con la barra apoyada en la planta del pie
+
         bar.setAttribute("transform", `translate(${rx},${f2(y)})`);
       });
+    }
+    if (pr.type === "step") {
+      // Cajón / plataforma estático: la punta del pie apoya arriba (gemelo invertido, déficit, step-up).
+      const x = pr.x ?? 0, y = pr.y ?? 0, w = pr.w ?? 260, h = pr.h ?? 54, g = el("g", {}, propBack);
+      el("rect", { x: x - w / 2, y: y - h, width: w, height: h, rx: 10, fill: "#23262E" }, g);
+      el("rect", { x: x - w / 2, y: y - h, width: w, height: 12, rx: 6, fill: "#3A3F4A" }, g);
     }
     if (pr.type === "assisted") {
       // Máquina de dominadas / fondos asistidos: torre con la pila (stack = x) adelante, manijas altas (grip [x, y]) para

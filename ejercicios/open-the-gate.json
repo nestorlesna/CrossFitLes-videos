@@ -1,0 +1,354 @@
+{
+  "slug": "open-the-gate",
+  "name": "Open the Gate",
+  "category": "CROSSFIT · ENTRADA EN CALOR",
+  "tags": [
+    "Glúteo medio",
+    "Glúteos",
+    "Cadera",
+    "Movilidad"
+  ],
+  "descripcion": "De pie sobre una pierna, elevar la rodilla contraria al frente hasta la altura de la cadera y rotarla hacia afuera (\"abrir la puerta\") hasta llevarla al costado; luego bajar la pierna con control. Se hace por lado.",
+  "revisado": false,
+  "notas": "La apertura de cadera se cuenta con la tarjeta topview mode hip (clave cs); de costado la pierna se acorta con ll2 para simular el giro hacia afuera.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 470,
+    "y": 1500,
+    "scale": 0.86
+  },
+  "props": [],
+  "pronuncia": {
+    "Open the Gate": "Oupen de guéit"
+  },
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 6,
+      "fa": 6
+    },
+    "KNEE_UP": {
+      "s": 2,
+      "t": -4,
+      "s2": 0,
+      "t2": -90,
+      "b": 0,
+      "hd": -2,
+      "g": 0,
+      "ua": 6,
+      "fa": 6,
+      "cs": 0
+    },
+    "OPEN": {
+      "s": 2,
+      "t": -4,
+      "s2": 0,
+      "t2": -90,
+      "ll2": 0.7,
+      "b": 2,
+      "hd": -3,
+      "g": 0,
+      "ua": 8,
+      "fa": 8,
+      "cs": 0.85
+    },
+    "DROP_BAD": {
+      "hip": [
+        0,
+        -432
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "s2": 14,
+      "t2": -62,
+      "ll2": 0.76,
+      "b": -6,
+      "hd": -4,
+      "g": 0,
+      "ua": 8,
+      "fa": 8,
+      "cs": 0.85
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.6,
+      "badge": "CROSSFIT · ENTRADA EN CALOR",
+      "head": [
+        "OPEN THE",
+        "GATE"
+      ],
+      "topview": {
+        "mode": "hip",
+        "label": "ABRÍ LA CADERA",
+        "at": 1,
+        "back": 3.4
+      },
+      "vo": "Open the Gate: abrí la cadera con la rodilla arriba. Movilidad y control sobre una pierna.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "KNEE_UP",
+          "at": 0.3,
+          "dur": 0.5
+        },
+        {
+          "to": "OPEN",
+          "at": 1,
+          "dur": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "SOBRE UNA",
+        "PIERNA"
+      ],
+      "sub": "Rodilla contraria al frente",
+      "topview": {
+        "mode": "hip",
+        "label": "DE FRENTE",
+        "at": null
+      },
+      "vo": "Parate derecho sobre una pierna y subí la rodilla del otro lado hasta la altura de la cadera.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "KNEE_UP",
+          "at": 0.8,
+          "dur": 1
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "ABRÍ LA",
+        "PUERTA"
+      ],
+      "sub": "Rodilla hacia afuera",
+      "topview": {
+        "mode": "hip",
+        "label": "GIRÁ HACIA AFUERA",
+        "at": 0.6
+      },
+      "vo": "Paso uno. Desde la rodilla arriba, girá la pierna hacia afuera como si abrieras una puerta.",
+      "moves": [
+        {
+          "cut": "KNEE_UP",
+          "at": 0
+        },
+        {
+          "to": "OPEN",
+          "at": 0.7,
+          "dur": 1.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "SOSTENÉ",
+        "ARRIBA"
+      ],
+      "sub": "Pelvis nivelada",
+      "topview": {
+        "mode": "hip",
+        "label": "PELVIS NIVELADA",
+        "at": 0.4
+      },
+      "vo": "Paso dos. Sostené la pierna abierta con la pelvis nivelada, sin inclinarte hacia el costado.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "CERRÁ CON",
+        "CONTROL"
+      ],
+      "sub": "Bajá la pierna",
+      "topview": {
+        "mode": "hip",
+        "label": "VOLVÉ LENTO",
+        "at": 0.4
+      },
+      "vo": "Paso tres. Cerrá la puerta y bajá la pierna despacio, sin dejarla caer de golpe.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "to": "KNEE_UP",
+          "at": 0.5,
+          "dur": 0.8
+        },
+        {
+          "to": "STAND",
+          "at": 1.7,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "ASÍ NO",
+      "head": [
+        "PERDÉS EL",
+        "EQUILIBRIO"
+      ],
+      "sub": "Cadera y rodilla caen",
+      "vo": "Así no. Si la rodilla de apoyo se hunde y el tronco se va atrás, perdés el equilibrio y el trabajo se escapa.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0
+        },
+        {
+          "to": "DROP_BAD",
+          "at": 0.7,
+          "dur": 0.6
+        },
+        {
+          "to": "OPEN",
+          "at": 2.3,
+          "dur": 0.6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            574,
+            1345
+          ],
+          "r": 50,
+          "at": 1.3,
+          "out": 2.3
+        },
+        {
+          "type": "label",
+          "pos": [
+            820,
+            1220
+          ],
+          "text": "SIN EQUILIBRIO",
+          "at": 1.4,
+          "out": 2.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.8,
+      "keys": [
+        "Rodilla a la altura de la cadera",
+        "El giro sale de la cadera",
+        "Pelvis nivelada",
+        "Bajada controlada"
+      ],
+      "vo": "Claves: rodilla a la altura de la cadera, el giro sale de la cadera, pelvis nivelada y bajada controlada.",
+      "moves": [
+        {
+          "cut": "OPEN",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.5,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Por lado",
+      "chips": [
+        {
+          "label": "1 · RODILLA ARRIBA",
+          "at": 0.5
+        },
+        {
+          "label": "2 · ABRÍ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · CERRÁ",
+          "at": 2.2
+        }
+      ],
+      "vo": "Diez repeticiones por lado, lentas y con pausa arriba. Si perdés el equilibrio, apoyate en una pared.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "KNEE_UP",
+              0.7
+            ],
+            [
+              "OPEN",
+              0.9
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "OPEN",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 140
+  },
+  "youtube": {
+    "titulo": "Open the Gate 🚪 Abrí la cadera paso a paso | CrossFit",
+    "tags": [
+      "open the gate",
+      "abrir la cadera",
+      "movilidad de cadera",
+      "glúteo medio",
+      "rodilla arriba",
+      "movilidad de pie",
+      "entrada en calor",
+      "crossfit",
+      "cadera",
+      "movilidad"
+    ],
+    "descripcion": "🚪 OPEN THE GATE — Abrí la cadera con la rodilla arriba\n\n¿Te cuesta levantar la rodilla al costado sin inclinarte? La cadera necesita movilidad y control en un solo pie. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Parate derecho sobre una pierna y subí la rodilla contraria hasta la altura de la cadera.\n2️⃣ Girá la pierna hacia afuera como si abrieras una puerta, con la pelvis nivelada.\n3️⃣ Sostené arriba un instante, sin inclinarte hacia el costado.\n4️⃣ Cerrá la puerta y bajá la pierna con control, sin dejarla caer.\n5️⃣ Hacé todas las repeticiones de un lado y después cambiá.\n\n✅ CLAVES DE TÉCNICA\n• Rodilla a la altura de la cadera\n• El giro sale de la cadera, no de la espalda\n• Pelvis nivelada\n• Bajada controlada\n• Usá la pared si te falta equilibrio\n\n🎯 QUÉ TRABAJA\nGlúteo medio · Glúteo mayor · Aductores · Recto femoral\n\n⏱️ CUÁNTO\n30 segundos por lado. Va en la entrada en calor o como accesorio de movilidad.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #OpenTheGate #Movilidad #Cadera #Entrenamiento"
+  }
+}

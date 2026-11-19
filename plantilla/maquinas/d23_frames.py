@@ -21,7 +21,7 @@ def pl_scenes(slug):
     CH = S(-270, -515); LAT = S(*J["PULL"]["S"])
     SH_B = S(*J["LEAN_BAD"]["S"]); RND = S(*J["ROUND_BAD"]["S"]); LOW = S(*J["LOW_BAD"]["W"])
     return [
-        hook("GIMNASIO · ESPALDA", ["JALÓN", "EN PALANCA"], "Manos al pecho",
+        hook("GIMNASIO · ESPALDA", ["LEVER", "PULLOVER"], "Manos al pecho",
              "Lever Pullover: jalón en máquina de palanca. Tirás las manijas al pecho con los codos bajos y trabajás dorsales.",
              [C("START"), seqloop("PULL", "START", 1.0, 1.7, 0.4)]),
         step("LA MÁQUINA", ["LA", "MÁQUINA"], "Asiento, manijas y pila",
@@ -88,7 +88,7 @@ def gm_scenes(slug):
     HIP = S(*J["UP"]["H"]); SH = S(*J["HINGE"]["S"]); SH_UP = S(*J["UP"]["S"]); HD_B = S(*J["HEAD_BAD"]["N"])
     RND = S(-240, -470); LOW = S(*J["LOW_BAD"]["S"])
     return [
-        hook("GIMNASIO · ISQUIOS", ["BUENOS DÍAS", "SENTADO"], "En máquina de palanca",
+        hook("GIMNASIO · ISQUIOS", ["LEVER SEATED", "GOOD MORNING"], "En máquina de palanca",
              "Lever Seated Good Morning: buenos días sentado en máquina. Bisagras desde la cadera y trabajás isquios y glúteos.",
              [C("UP"), seqloop("HINGE", "UP", 1.2, 1.8, 0.4)]),
         step("LA MÁQUINA", ["LA", "MÁQUINA"], "Asiento, apoyapiés y pila",
@@ -146,6 +146,76 @@ def gm_scenes(slug):
     ]
 
 
+def te_scenes(slug):
+    s, S, J = load(slug)
+    SEAT = S(-260, -270); BACK = S(-330, -470); PIN = S(-569, -155)
+    H0 = S(*J["START"]["W"]); H1 = S(*J["DOWN"]["W"]); PIV = S(*J["START"]["E"])
+    HSHORT = S(*J["SHORT_BAD"]["W"]); HDROP = S(*J["DROP_BAD"]["W"]); SH_ARCH = S(*J["ARCH_BAD"]["S"])
+    return [
+        hook("GIMNASIO · BRAZOS", ["LEVER TRICEPS", "EXTENSION"], "En máquina de palanca",
+             "Lever Triceps Extension: extensión de tríceps en máquina de palanca. Codos quietos y antebrazo que gira.",
+             [C("START"), seqloop("DOWN", "START", 1.2, 1.8, 0.4)]),
+        step("LA MÁQUINA", ["LA", "MÁQUINA"], "Asiento, palanca y pila",
+             "La máquina tiene asiento con respaldo, la palanca con la manija y la pila atrás.",
+             [C("START")], [ring(H0, 44, 0.8), lab((985, H0[1] + 40), "MANIJAS", "end", 0.8),
+                            ring(SEAT, 44, 1.8), lab((985, SEAT[1] - 90), "ASIENTO", "end", 1.8),
+                            ring(PIN, 28, 2.8), lab((60, PIN[1] + 30), "PILA", "start", 2.8)], 7.2),
+        step("AJUSTE 1", ["EL", "ASIENTO"], "Manija a la altura del hombro",
+             "Ajustá el asiento para que la manija quede a la altura del hombro y el codo apoye en el eje.",
+             [C("START")], [ring(H0, 40, 0.8), lab((60, H0[1] - 40), "ALTURA DEL HOMBRO", "start", 1.0),
+                            ring(PIV, 34, 1.8), lab((985, PIV[1] + 40), "EJE DEL CODO", "end", 1.8)], 7.0),
+        step("AJUSTE 2", ["EL", "PESO"], "Con el pasador",
+             "Elegí el peso con el pasador: uno que puedas mover doce veces sin mover los codos.",
+             [C("START")], [ring(PIN, 30, 0.8), lab((60, PIN[1] + 30), "PASADOR", "start", 1.0)], 7.0),
+        step("POSICIÓN INICIAL", ["ESPALDA", "APOYADA"], "Pies planos",
+             "Sentate con la espalda apoyada en el respaldo, los pies planos y las manos en las manijas.",
+             [C("START")], [ring(BACK, 60, 0.8), lab((60, BACK[1] + 80), "RESPALDO", "start", 1.0)], 7.0),
+        step("PASO 1 / 3", ["BAJÁ", "LENTO"], "Los codos no se mueven",
+             "Paso uno. Con los codos quietos, bajá las manijas lento hacia la frente.",
+             [C("START"), TO("DOWN", 0.6, 1.1)],
+             [arrow((H0[0], H0[1] - 26), (H1[0] + 26, H1[1] - 20), 0.8, 1.1, [30, -40]),
+              ring(PIV, 34, 1.2), lab((985, PIV[1] + 40), "CODO FIJO", "end", 1.2)], 7.0, numeral="1"),
+        step("PASO 2 / 3", ["PAUSA", "CORTA"], "Cerca de la frente",
+             "Paso dos. Hacé una pausa con las manijas cerca de la frente, sin dejar caer el peso.",
+             [C("DOWN"), TO("DOWN", 0.2, 0.4)],
+             [ring(H1, 44, 0.8), lab((60, H1[1] - 40), "PAUSA", "start", 1.0)], 6.8, numeral="2"),
+        step("PASO 3 / 3", ["EXTENDÉ", "ARRIBA"], "Apretá el tríceps",
+             "Paso tres. Extendé los brazos hacia adelante y arriba, apretando el tríceps.",
+             [C("DOWN"), TO("START", 0.6, 1.2)],
+             [arrow((H1[0] + 26, H1[1] - 20), (H0[0], H0[1] - 26), 0.9, 1.1, [30, 40]),
+              lab((985, H0[1] + 40), "EXTENDÉ", "end", 1.1)], 7.0, numeral="3"),
+        step("RESPIRACIÓN", ["RESPIRÁ"], "Aire al bajar",
+             "Soltá el aire cuando extendés y tomá aire cuando bajás. No aguantes la respiración.",
+             [C("START"), seqloop("DOWN", "START", 1.1, 1.8, 0.3)], mn=6.0),
+        step("ASÍ NO · 1 / 3", ["ARQUEAR", "LA ESPALDA"], "Pegado al respaldo",
+             "Error: echarse atrás y arquear la espalda para empujar. Espalda pegada al respaldo.",
+             [C("START"), TO("ARCH_BAD", 0.5, 0.9)], [NO(1.4, (540, 930)), ring(SH_ARCH, 54, 1.4)], 7.2),
+        step("ASÍ NO · 2 / 3", ["DEJAR CAER", "EL PESO"], "Bajá controlando",
+             "Error: dejar caer el peso de golpe. Bajá y volvé controlando, sin rebotar.",
+             [C("START"), {"seq": [["DOWN", 0.3], ["DROP_BAD", 0.3]], "at": 0.5, "until": 4.0},
+              {"to": "DROP_BAD", "at": 4.0, "dur": 0.3}],
+             [NO(1.4, (540, 930)), ring(HDROP, 44, 3.4), lab((985, HDROP[1] + 40), "DE GOLPE", "end", 3.4)], 7.2),
+        step("ASÍ NO · 3 / 3", ["EXTENDER", "A MEDIAS"], "Estirá el codo",
+             "Error: extender a medias. Estirá casi por completo el codo y sentí el tríceps.",
+             [C("START"), TO("SHORT_BAD", 0.5, 0.8)], [NO(1.4, (540, 930)), ring(HSHORT, 46, 1.4)], 7.2),
+        keys("TIPS DEL PROFE", ["TIPS"], ["Codos quietos", "Bajá hasta la frente",
+                                          "Extendé completo", "Peso liviano"],
+             "Tips: codos quietos, bajá hasta la frente, extendé completo y arrancá con poco peso.",
+             [C("START"), seqloop("DOWN", "START", 1.2, 1.8, 0.4)]),
+        keys("CLAVES", ["TÉCNICA"], ["Manija a la altura del hombro", "Codo en el eje",
+                                     "Sin arquear la espalda", "Volvé controlando"],
+             "Claves: manija a la altura del hombro, codo en el eje, sin arquear la espalda y volvé controlando.",
+             [{"cut": "DOWN", "at": 0.1}]),
+        reps(["3 X 12"], "Un minuto de pausa",
+             "Tres series de diez a doce, con un minuto de pausa. Si las doce salen fáciles, subí peso.",
+             ["1 · BAJÁ", "2 · PAUSA", "3 · EXTENDÉ"], [C("START"), seqloop("DOWN", "START", 1.2, 1.8)]),
+        step("AL TERMINAR", ["SOLTÁ", "LENTO"], "Sin rebotar",
+             "Al terminar, dejá que la pila baje despacio y soltá las manijas sin rebotar.",
+             [C("DOWN"), TO("START", 0.9, 2.0)],
+             [lab((985, 1040), "SIN REBOTAR", "end", 1.0)], 6.5),
+    ]
+
+
 YT45 = {
     "titulo": "Lever Pullover 🔥 Jalón al pecho en máquina | Dorsales",
     "tags": ["lever pullover", "jalón al pecho", "máquina de palanca", "dorsales", "espalda",
@@ -190,8 +260,34 @@ YT46 = {
         "3 series de 10–12 repeticiones, con 1 minuto de pausa. Nivel: principiante.",
         "#Gimnasio #Isquios #Gluteos #BuenosDias #MaquinaDePalanca #Piernas #Entrenamiento")}
 
+YT47 = {
+    "titulo": "Lever Triceps Extension 🔥 Extensión de tríceps en máquina | Brazos",
+    "tags": ["lever triceps extension", "extensión de tríceps", "tríceps en máquina", "máquina de palanca",
+             "tríceps", "brazos", "extensión sobre la cabeza", "máquinas de gimnasio", "gimnasio",
+             "principiantes", "rutina de brazos"],
+    "descripcion": yt_desc("Lever Triceps Extension", "extensión de tríceps en máquina de palanca",
+        "tríceps fuertes, con el codo quieto y sin cargar el hombro",
+        "El tríceps trabaja cuando el codo queda fijo y el antebrazo es lo único que se mueve. Si movés los codos o te echás atrás, el trabajo se reparte y el tríceps no se lleva nada. Este video es para vos. 💪",
+        ["Ajustá el asiento para que la manija quede a la altura del hombro y el codo apoye en el eje de la palanca.",
+         "Elegí el peso con el pasador: uno que puedas mover 12 veces sin despegar la espalda."],
+        ["Sentate con la espalda apoyada y los pies planos.",
+         "Con los codos quietos, bajá las manijas lento hacia la frente.",
+         "Hacé una pausa corta, cerca de la frente.",
+         "Extendé los brazos hacia adelante y arriba apretando el tríceps."],
+        ["Echarse atrás y arquear la espalda → espalda pegada al respaldo.",
+         "Dejar caer el peso de golpe → bajá y volvé controlando, sin rebotar.",
+         "Extender a medias → estirá casi por completo el codo."],
+        ["Codos quietos, pegados al eje de la máquina.", "Bajá hasta la frente, sin más.",
+         "Extendé completo y apretá un segundo.", "Arrancá con poco peso: acá la técnica se rompe rápido."],
+        "Tríceps · Hombros",
+        "3 series de 10–12 repeticiones, con 1 minuto de pausa. Nivel: principiante.",
+        "#Gimnasio #Triceps #Brazos #MaquinaDePalanca #ExtensionDeTriceps #Musculacion #Entrenamiento")}
+
 save("lever-pullover", pl_scenes("lever-pullover"),
      {"pose": "START", "zoom": 1.12, "dy": 110}, YT45)
 
 save("lever-seated-good-morning", gm_scenes("lever-seated-good-morning"),
      {"pose": "UP", "zoom": 1.12, "dy": 110}, YT46)
+
+save("lever-triceps-extension", te_scenes("lever-triceps-extension"),
+     {"pose": "START", "zoom": 1.12, "dy": 110}, YT47)

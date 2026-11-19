@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Smith Sprint Lunge",
+      "text": "Zancada sprint en la Smith: barra en la espalda, un pie adelante y el empeine del otro sobre el soporte bajo."
+    },
+    {
+      "id": "02",
+      "text": "La Smith te da la barra guiada para apoyarla en la espalda alta y un soporte bajo atrás para el pie que queda elevado."
+    },
+    {
+      "id": "03",
+      "text": "Apoyá la barra en la espalda alta, con los omóplatos bien juntos y las manos agarradas a la barra."
+    },
+    {
+      "id": "04",
+      "text": "Adelantá un pie y apoyá el empeine del otro sobre el soporte bajo de la máquina, con la punta hacia abajo."
+    },
+    {
+      "id": "05",
+      "text": "Arrancá con el torso derecho, la rodilla de adelante blanda y el peso repartido sobre el pie de adelante."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Bajá doblando la rodilla de adelante, con el torso derecho y la rodilla siguiendo la punta del pie."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Llegá abajo con control, sin rebotar y sin que la rodilla se meta para adentro."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Subí rápido empujando con el talón de adelante, como si arrancaras a correr."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire cuando bajás y soltalo cuando subís. Mantené el abdomen firme en todo el recorrido."
+    },
+    {
+      "id": "10",
+      "text": "Error: media repetición. Bajá hasta abajo con control y subí hasta estirar la pierna."
+    },
+    {
+      "id": "11",
+      "text": "Error: levantar el talón de adelante. El pie va completo en el piso y empujás con el talón."
+    },
+    {
+      "id": "12",
+      "text": "Error: paso muy corto. La rodilla se va muy adelante y el peso se escapa; adelantá más el pie."
+    },
+    {
+      "id": "13",
+      "text": "Tips: barra en la espalda alta, paso cómodo, torso derecho y subí con el talón."
+    },
+    {
+      "id": "14",
+      "text": "Claves: torso derecho, rodilla estable, pie completo y sin impulso de la pierna de atrás."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de ocho a diez repeticiones por pierna, con un minuto y medio de pausa. Peso liviano."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar la serie, soltá la barra, bajá el pie del soporte y cambiá de pierna. Descansá antes de seguir."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

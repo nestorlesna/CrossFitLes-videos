@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Sled Lying Squat",
+      "text": "Sentadilla en el sled tumbado: la plataforma se empuja con la planta completa y las piernas hacen todo el recorrido."
+    },
+    {
+      "id": "02",
+      "text": "El banco queda horizontal, la plataforma corre sobre un riel y la pila del otro lado le da la carga."
+    },
+    {
+      "id": "03",
+      "text": "Acostate con la espalda y la cadera pegadas al banco y la cabeza en el apoyo. La cadera no se despega en ningún momento."
+    },
+    {
+      "id": "04",
+      "text": "Apoyá la planta completa en la plataforma, con los pies al ancho de la cadera y los tobillos a noventa grados."
+    },
+    {
+      "id": "05",
+      "text": "Arrancá con las rodillas dobladas y los pies apoyados, sintiendo la plataforma pegada a la planta."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá la plataforma extendiendo las piernas, con la planta completa y la cadera pegada al banco."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Llegá arriba con las piernas casi extendidas, sin trabar la rodilla ni despegar la cadera."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Volvé doblando las rodillas despacio, sin dejar que la plataforma gane velocidad."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire cuando bajás y soltalo cuando empujás la plataforma. No aguantes el aire arriba."
+    },
+    {
+      "id": "10",
+      "text": "Error: quedarse a mitad de camino. Bajá hasta las rodillas bien dobladas y subí hasta extender las piernas."
+    },
+    {
+      "id": "11",
+      "text": "Error: levantar la cadera del banco para empujar más. La cadera y la espalda quedan apoyadas todo el tiempo."
+    },
+    {
+      "id": "12",
+      "text": "Error: empujar con la punta de los pies. Los talones quedan apoyados y la planta completa empuja la plataforma."
+    },
+    {
+      "id": "13",
+      "text": "Tips: planta completa en la plataforma, cadera pegada al banco, rodillas alineadas con los pies y bajada controlada."
+    },
+    {
+      "id": "14",
+      "text": "Claves: empujá con los talones, no despegues la cadera, extendé sin trabar y completá el recorrido."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a quince repeticiones, con un minuto de pausa. Peso moderado y el recorrido completo, sin rebotar."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar la serie, volvé la plataforma al tope con las rodillas dobladas y recién ahí sentate y salí del banco."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

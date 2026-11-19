@@ -1,0 +1,833 @@
+{
+  "slug": "smith-bent-knee-good-morning",
+  "name": "Smith Bent Knee Good Morning",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Isquios",
+    "Glúteo",
+    "Espalda baja"
+  ],
+  "descripcion": "Buenos días con rodillas semiflexionadas en la Smith: la barra va sobre los trapecios y el cuerpo se dobla desde la cadera llevando la cola atrás, con las rodillas blandas y la espalda recta. Subí apretando los isquios sin arquear ni redondear la espalda.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 540,
+    "y": 1503.1,
+    "scale": 0.85
+  },
+  "shadow": false,
+  "initialPose": "UP",
+  "props": [
+    {
+      "type": "smith",
+      "x": 0,
+      "top": -860,
+      "gap": 300,
+      "stops": -560,
+      "track": "back",
+      "torso": [
+        -34,
+        18
+      ],
+      "r": 64
+    }
+  ],
+  "poses": {
+    "UP": {
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "g": 0,
+      "ua": -18,
+      "fa": 178,
+      "hip": [
+        10,
+        -462
+      ],
+      "b": 6,
+      "hd": 2
+    },
+    "DOWN": {
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "g": 0,
+      "ua": -18,
+      "fa": 178,
+      "hip": [
+        -20,
+        -430
+      ],
+      "b": 58,
+      "hd": -8
+    },
+    "HALF_BAD": {
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "g": 0,
+      "ua": -18,
+      "fa": 178,
+      "hip": [
+        -6,
+        -448
+      ],
+      "b": 32,
+      "hd": -3
+    },
+    "STIFF_BAD": {
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "g": 0,
+      "ua": -18,
+      "fa": 178,
+      "hip": [
+        -60,
+        -470
+      ],
+      "b": 58,
+      "hd": -8
+    },
+    "ROUND_BAD": {
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "g": 0,
+      "ua": -18,
+      "fa": 178,
+      "hip": [
+        -20,
+        -430
+      ],
+      "b": 62,
+      "hd": 30
+    },
+    "DEEP_BAD": {
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "g": 0,
+      "ua": -18,
+      "fa": 178,
+      "hip": [
+        -44,
+        -404
+      ],
+      "b": 80,
+      "hd": 2
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "BUENOS DÍAS",
+        "EN LA SMITH"
+      ],
+      "sub": "Bisagra de cadera",
+      "vo": "Buenos días con rodillas semiflexionadas en la Smith: la barra en la espalda, la cola atrás y el cuerpo se dobla desde la cadera.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.2
+            ],
+            [
+              "DOWN",
+              1.2
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "BARRA",
+        "GUIADA"
+      ],
+      "sub": "Multipower",
+      "vo": "La barra corre guiada entre los parantes y los topes te dejan la salida de seguridad a la altura de la cadera.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            540,
+            752
+          ],
+          "r": 66,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BARRA GUIADA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            795,
+            959
+          ],
+          "r": 56,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            880
+          ],
+          "text": "PARANTES",
+          "anchor": "start",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            795,
+            1027
+          ],
+          "r": 46,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            960
+          ],
+          "text": "TOPES",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "BARRA EN",
+        "LA ESPALDA"
+      ],
+      "sub": "Sobre los trapecios",
+      "vo": "Apoyá la barra sobre los trapecios, agarrá con las manos a los costados y sacala de los ganchos.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            540,
+            886
+          ],
+          "r": 66,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BARRA EN LA ESPALDA",
+          "anchor": "start",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "PIES AL",
+        "ANCHO"
+      ],
+      "sub": "Rodillas blandas",
+      "vo": "Parate con los pies al ancho de la cadera, las puntas al frente y las rodillas apenas flexionadas.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            591,
+            1503
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            523,
+            1503
+          ],
+          "r": 50,
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "PIES AL ANCHO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE",
+        "DERECHO"
+      ],
+      "sub": "Espalda recta",
+      "vo": "Arrancá de pie, con la espalda recta, el abdomen firme y la mirada al frente.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            561,
+            993
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "ESPALDA RECTA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "LLEVÁ LA",
+        "COLA ATRÁS"
+      ],
+      "sub": "Bisagra de cadera",
+      "vo": "Paso uno. Llevá la cola hacia atrás doblando el cuerpo desde la cadera, con las rodillas blandas.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.4,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            523,
+            1138
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "COLA ATRÁS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "RODILLAS",
+        "BLANDAS"
+      ],
+      "sub": "Sin trabarlas",
+      "vo": "Paso dos. Mantené las rodillas semiflexionadas y la espalda recta en todo el recorrido.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.2,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            630,
+            1312
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1030,
+            900
+          ],
+          "text": "RODILLAS BLANDAS",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "SUBÍ",
+        "APRETANDO"
+      ],
+      "sub": "Isquios y glúteo",
+      "vo": "Paso tres. Subí empujando con los talones y apretando los isquios y el glúteo, sin arquear la espalda.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.5,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            548,
+            1110
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "SUBÍ APRETANDO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá al subir",
+      "vo": "Tomá aire cuando bajás y soltalo cuando subís. No aguantes el aire abajo.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.2
+            ],
+            [
+              "DOWN",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "TRABAR",
+        "LAS RODILLAS"
+      ],
+      "sub": "Rodillas blandas",
+      "vo": "Error: trabar las rodillas y doblar solo la cintura. Las rodillas quedan semiflexionadas y el movimiento sale de la cadera.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "STIFF_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            552,
+            1312
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "REDONDEAR",
+        "LA ESPALDA"
+      ],
+      "sub": "Espalda recta",
+      "vo": "Error: redondear la espalda y bajar la cabeza. La espalda queda recta y la mirada al frente.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "ROUND_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            668,
+            1061
+          ],
+          "r": 60,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "BAJAR",
+        "DEMASIADO"
+      ],
+      "sub": "Hasta donde llegás",
+      "vo": "Error: bajar más allá de donde controlás. Bajá hasta sentir el estiramiento sin perder la espalda recta.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DEEP_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            738,
+            1091
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Barra sobre los trapecios",
+        "Cola atrás",
+        "Rodillas blandas",
+        "Subí apretando"
+      ],
+      "vo": "Tips: barra sobre los trapecios, cola atrás, rodillas blandas y subí apretando isquios y glúteo.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.2
+            ],
+            [
+              "DOWN",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Espalda recta",
+        "Sin trabar las rodillas",
+        "Mirada al frente",
+        "Subida controlada"
+      ],
+      "vo": "Claves: espalda recta, sin trabar las rodillas, mirada al frente y subida controlada.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10–12"
+      ],
+      "sub": "Isquios y glúteo",
+      "vo": "Tres series de diez a doce repeticiones, con un minuto de pausa. Peso moderado y el recorrido que controlás.",
+      "chips": [
+        {
+          "label": "1 · COLA ATRÁS",
+          "at": 0.6
+        },
+        {
+          "label": "2 · RODILLAS",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SUBÍ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.1
+            ],
+            [
+              "DOWN",
+              1.1
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "DEJÁ",
+        "LA BARRA"
+      ],
+      "sub": "Sin apurarse",
+      "vo": "Al terminar la serie, subí derecho, dejá la barra en los ganchos y salí de la máquina sin encorvarte.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.9,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "SIN APURARSE",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "DOWN",
+    "zoom": 1.02,
+    "dy": 20
+  },
+  "youtube": {
+    "titulo": "Smith Bent Knee Good Morning 🔥 Buenos días en la Smith | Gimnasio",
+    "tags": [
+      "smith bent knee good morning",
+      "buenos días",
+      "good morning",
+      "smith machine",
+      "multipower",
+      "isquios",
+      "isquiotibiales",
+      "glúteo",
+      "espalda baja",
+      "gimnasio",
+      "principiantes",
+      "rutina de piernas"
+    ],
+    "descripcion": "🔥 SMITH BENT KNEE GOOD MORNING (buenos días con rodillas semiflexionadas en la máquina Smith) — isquiotibiales y glúteo\n\nEn la Smith la barra va guiada sobre los trapecios y el cuerpo se dobla desde la cadera con las rodillas blandas: los isquios y el glúteo hacen el trabajo mientras la espalda se mantiene recta. Es un ejercicio de bisagra, no de sentadilla: la cola va atrás y el pecho baja. Si trabás las rodillas, redondeás la espalda o bajás de más, la zona lumbar se lleva la carga. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Apoyá la barra sobre los trapecios y sacala de los ganchos.\n2️⃣ Parate con los pies al ancho de la cadera y las rodillas blandas.\n\n📋 PASO A PASO\n1️⃣ Llevá la cola hacia atrás doblando el cuerpo desde la cadera.\n2️⃣ Mantené las rodillas semiflexionadas y la espalda recta.\n3️⃣ Bajá hasta sentir el estiramiento de los isquios.\n4️⃣ Subí empujando con los talones y apretando glúteo.\n5️⃣ Completá la serie y dejá la barra en los ganchos.\n\n❌ ERRORES COMUNES\n• Trabar las rodillas → rodillas semiflexionadas.\n• Redondear la espalda → espalda recta y mirada al frente.\n• Bajar demasiado → bajá hasta donde controlás.\n\n💡 TIPS DEL PROFE\n• Barra sobre los trapecios.\n• Cola atrás, no sentadilla.\n• Rodillas blandas todo el recorrido.\n• Subida controlada.\n\n🎯 QUÉ TRABAJA\nPiernas → Isquios → Glúteo\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto de pausa. Nivel: intermedio.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Isquios #Gluteo #SmithMachine #BuenosDias #Piernas #Entrenamiento #Fuerza"
+  }
+}

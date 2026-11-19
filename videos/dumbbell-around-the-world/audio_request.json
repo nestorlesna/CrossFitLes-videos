@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Dumbbell Around the World",
+      "text": "Un arco amplio con las mancuernas, desde el costado hasta arriba de la cabeza."
+    },
+    {
+      "id": "02",
+      "text": "De pie, con una mancuerna liviana en cada mano y los brazos al costado. Abdomen firme."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Abrí los brazos hacia los costados con los codos apenas flexionados y fijos."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Seguí el arco hasta pasar las mancuernas por arriba de la cabeza."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Volvé por el mismo camino, sin apuro y controlando la bajada."
+    },
+    {
+      "id": "06",
+      "text": "Así no. Si arqueás la espalda al llegar arriba, el hombro pierde rango y la lumbar paga."
+    },
+    {
+      "id": "07",
+      "text": "Claves: peso liviano, codos fijos, costillas abajo y hombros lejos de las orejas."
+    },
+    {
+      "id": "08",
+      "text": "Diez repeticiones lentas y en un solo arco. Es movilidad de hombro, no fuerza."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

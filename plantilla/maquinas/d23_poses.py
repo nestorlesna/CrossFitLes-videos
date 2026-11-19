@@ -39,15 +39,32 @@ GM = {
     "HEAD_BAD": {**gm, "b": 72, "hd": 96},
 }
 
+# D47 - extensión de tríceps en palanca: sentado, brazos altos y el antebrazo gira sobre el codo (eje de la máquina)
+te = dict(hip=[-320, -270], ankle=[-60, -20], b=-10, hd=-2, g=0, ft=4)
+TE = {
+    "START": {**te, "ua": 105, "fa": 0},
+    "DOWN": {**te, "ua": 105, "fa": 135},
+    "ARCH_BAD": {**te, "ua": 105, "fa": 135, "b": -30, "hd": -8},
+    "SHORT_BAD": {**te, "ua": 105, "fa": 55},
+    "DROP_BAD": {**te, "ua": 105, "fa": -40},
+}
+
 for clave, nombre, category, tags, rig_, props, poses, initial, descripcion in [
         ("lever-pullover", "Lever Pullover", "GIMNASIO · ESPALDA",
          ["Espalda", "Dorsales"], rig(880, 0.84),
          [{"type": "lever", "pivot": [-190, -330], "seat": [-380, -150, -270], "back": [-352, -10, 440],
            "stack": -620, "frameTop": -980, "at": 0.72, "off": 56, "side": -1, "pin": 5,
            "grip": "hand", "k": 3.0}],
-         PL, "START",
-         ("Sentate con la espalda apoyada en el respaldo y las manijas al frente, con agarre prono. "
-          "Con los codos bajos, tirá las manijas al pecho apretando los dorsales, hacé una pausa y volvé lento.")),
+          PL, "START",
+          ("Sentate con la espalda apoyada en el respaldo y las manijas al frente, con agarre prono. "
+           "Con los codos bajos, tirá las manijas al pecho apretando los dorsales, hacé una pausa y volvé lento.")),
+        ("lever-triceps-extension", "Lever Triceps Extension", "GIMNASIO · BRAZOS",
+         ["Tríceps", "Hombros"], rig(880, 0.84),
+         [{"type": "lever", "pivot": [-202, -590], "seat": [-380, -150, -270], "back": [-352, -10, 440],
+           "stack": -620, "frameTop": -980, "pin": 5, "grip": "hand", "k": 2.6}],
+         TE, "START",
+         ("Sentate con la espalda apoyada en el respaldo y las manijas a la altura de los hombros. "
+          "Con los codos quietos, extendé los brazos hacia adelante y arriba y bajá las manijas lento hacia la frente.")),
         ("lever-seated-good-morning", "Lever Seated Good Morning", "GIMNASIO · ISQUIOS",
          ["Isquiotibiales", "Glúteos"], rig(880, 0.84),
          [{"type": "lever", "pivot": [-380, -350], "seat": [-380, -150, -350], "back": [-430, -6, 440],

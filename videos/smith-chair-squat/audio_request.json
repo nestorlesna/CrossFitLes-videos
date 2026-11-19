@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Smith Chair Squat",
+      "text": "Sentadilla al banco en la Smith: la barra en la espalda, bajás hasta tocar el banco y subís sin desplomarte."
+    },
+    {
+      "id": "02",
+      "text": "La barra corre guiada entre los parantes y el banco te marca la profundidad: bajás hasta tocarlo suave."
+    },
+    {
+      "id": "03",
+      "text": "Apoyá la barra sobre los trapecios y sacala de los ganchos con las manos a los costados."
+    },
+    {
+      "id": "04",
+      "text": "Parate con los pies al ancho de la cadera y las puntas un poco hacia afuera, el banco justo detrás."
+    },
+    {
+      "id": "05",
+      "text": "Arrancá de pie, con la espalda recta, el abdomen firme y la mirada al frente."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Bajá llevando la cola hacia atrás hasta tocar el banco, sin dejar caer el peso."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Tocá el banco sin sentarte ni dejarte caer: el peso queda en los pies, listo para subir."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Subí empujando el piso con todo el pie y apretando el glúteo, sin adelantar las rodillas."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire cuando bajás y soltalo cuando subís. No aguantes el aire abajo."
+    },
+    {
+      "id": "10",
+      "text": "Error: quedarte a mitad de camino. Bajá hasta tocar el banco en cada repetición."
+    },
+    {
+      "id": "11",
+      "text": "Error: levantar los talones. El pie va entero en el piso, con el peso repartido de punta a talón."
+    },
+    {
+      "id": "12",
+      "text": "Error: tirarte adelante con la espalda. El pecho sube junto con la cadera, sin doblar la cintura."
+    },
+    {
+      "id": "13",
+      "text": "Tips: barra en los trapecios, cola al banco, talones abajo y subí apretando el glúteo."
+    },
+    {
+      "id": "14",
+      "text": "Claves: tocá el banco, sin sentarte, rodillas afuera y subida controlada."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce repeticiones, con un minuto de pausa. Peso moderado y bajada lenta."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar la serie, subí derecho, dejá la barra en los ganchos y salí de la máquina sin encorvarte."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

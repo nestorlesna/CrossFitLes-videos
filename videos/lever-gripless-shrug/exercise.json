@@ -1,0 +1,855 @@
+{
+  "slug": "lever-gripless-shrug",
+  "name": "Lever Gripless Shrug",
+  "maquina": true,
+  "category": "GIMNASIO · ESPALDA",
+  "tags": [
+    "Espalda",
+    "Trapecios",
+    "Espalda alta"
+  ],
+  "descripcion": "Parate bajo el yugo con la almohadilla apoyada en los trapecios y las manos en las manijas, delante del pecho. Sin doblar los codos, empujá la almohadilla hacia arriba con los hombros, hacé una pausa arriba y bajá lento hasta sentir el estiramiento.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1505.5,
+    "scale": 0.78
+  },
+  "shadow": false,
+  "initialPose": "START",
+  "props": [
+    {
+      "type": "levershrug",
+      "column": 330,
+      "top": -1000,
+      "stack": 450,
+      "padX": -60,
+      "grip": [
+        210,
+        -700
+      ],
+      "pin": 6,
+      "k": 5,
+      "padOff": -15
+    }
+  ],
+  "poses": {
+    "START": {
+      "hip": [
+        0,
+        -470
+      ],
+      "ankle": [
+        70,
+        -4
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "ed2": -1,
+      "ft": 0,
+      "sh": 0,
+      "hx": 210,
+      "hy": -700,
+      "hx2": 214,
+      "hy2": -696
+    },
+    "SHRUG": {
+      "hip": [
+        0,
+        -470
+      ],
+      "ankle": [
+        70,
+        -4
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "b": 0,
+      "hd": 0,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "ed2": -1,
+      "ft": 0,
+      "sh": 26,
+      "hx": 210,
+      "hy": -700,
+      "hx2": 214,
+      "hy2": -696
+    },
+    "LEAN_BAD": {
+      "hip": [
+        0,
+        -470
+      ],
+      "ankle": [
+        70,
+        -4
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "b": -18,
+      "hd": -6,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "ed2": -1,
+      "ft": 0,
+      "sh": 0,
+      "hx": 210,
+      "hy": -700,
+      "hx2": 214,
+      "hy2": -696
+    },
+    "HALF_BAD": {
+      "hip": [
+        0,
+        -470
+      ],
+      "ankle": [
+        70,
+        -4
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "b": 0,
+      "hd": 8,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "ed2": -1,
+      "ft": 0,
+      "sh": 8,
+      "hx": 210,
+      "hy": -700,
+      "hx2": 214,
+      "hy2": -696
+    },
+    "ROUND_BAD": {
+      "hip": [
+        0,
+        -470
+      ],
+      "ankle": [
+        70,
+        -4
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "b": 14,
+      "hd": 20,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "ed2": -1,
+      "ft": 0,
+      "sh": 0,
+      "cv": 24,
+      "hx": 210,
+      "hy": -700,
+      "hx2": 214,
+      "hy2": -696
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · ESPALDA",
+      "head": [
+        "ENCOGIMIENTO",
+        "SIN AGARRE"
+      ],
+      "sub": "Trapecios en palanca",
+      "vo": "Encogimiento de hombros en palanca: empujá la almohadilla con los trapecios, sin agarrar nada ni doblar los codos.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "START",
+              1.0
+            ],
+            [
+              "SHRUG",
+              1.5
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "EL",
+        "YUGO"
+      ],
+      "sub": "Almohadilla y manijas",
+      "vo": "La máquina tiene una almohadilla que apoya en los trapecios, manijas fijas al frente y una pila que sube por cable.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            553,
+            910
+          ],
+          "r": 46,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            850
+          ],
+          "text": "ALMOHADILLA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            764,
+            960
+          ],
+          "r": 40,
+          "at": 1.7
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            950
+          ],
+          "text": "MANIJAS FIJAS",
+          "anchor": "start",
+          "at": 1.7
+        },
+        {
+          "type": "ring",
+          "pos": [
+            951,
+            1310
+          ],
+          "r": 42,
+          "at": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1150
+          ],
+          "text": "PILA",
+          "anchor": "start",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "ALTURA DEL",
+        "YUGO"
+      ],
+      "sub": "Sobre los trapecios",
+      "vo": "Ajustá la altura para que la almohadilla apoye sobre los trapecios y las manijas queden a la altura del pecho.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            553,
+            910
+          ],
+          "r": 46,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            960
+          ],
+          "text": "SOBRE LOS TRAPECIOS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "PIES Y",
+        "MANOS"
+      ],
+      "sub": "Sin agarrar fuerte",
+      "vo": "Separá los pies al ancho de cadera y apoyá las manos en las manijas, sin apretar: el trabajo lo hacen los hombros.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            655,
+            1482
+          ],
+          "r": 40,
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            764,
+            960
+          ],
+          "r": 40,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1020
+          ],
+          "text": "MANOS APOYADAS",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "HOMBROS",
+        "ABAJO"
+      ],
+      "sub": "Pecho arriba",
+      "vo": "Arrancá con los hombros abajo, el pecho arriba y los brazos apenas flexionados, sin colgar el peso de las manos.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            600,
+            919
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            919
+          ],
+          "text": "HOMBROS ABAJO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "EMPUJÁ",
+        "ARRIBA"
+      ],
+      "sub": "Con los trapecios",
+      "vo": "Paso uno. Empujá la almohadilla hacia arriba con los trapecios, como si quisieras tocar las orejas con los hombros.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "SHRUG",
+          "at": 0.6,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            553,
+            950
+          ],
+          "to": [
+            553,
+            840
+          ],
+          "at": 0.8,
+          "dur": 1.0,
+          "bend": [
+            -40,
+            0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            830
+          ],
+          "text": "HOMBROS ARRIBA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.8,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "PAUSA",
+        "ARRIBA"
+      ],
+      "sub": "Un segundo",
+      "vo": "Paso dos. Sostené un segundo arriba, con los codos quietos y la almohadilla bien alta.",
+      "moves": [
+        {
+          "cut": "SHRUG",
+          "at": 0
+        },
+        {
+          "to": "SHRUG",
+          "at": 0.2,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            553,
+            892
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            900
+          ],
+          "text": "APRETÁ",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "LENTO"
+      ],
+      "sub": "Sin soltar",
+      "vo": "Paso tres. Bajá lento hasta sentir el estiramiento de los trapecios, sin soltar el peso de golpe.",
+      "moves": [
+        {
+          "cut": "SHRUG",
+          "at": 0
+        },
+        {
+          "to": "START",
+          "at": 0.5,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            553,
+            840
+          ],
+          "to": [
+            553,
+            950
+          ],
+          "at": 0.8,
+          "dur": 1.0,
+          "bend": [
+            -40,
+            0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            840
+          ],
+          "text": "BAJÁ LENTO",
+          "anchor": "start",
+          "at": 1.1
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Aire al bajar",
+      "vo": "Soltá el aire cuando encogés y tomá aire cuando bajás. El abdomen queda firme y las costillas abajo.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "START",
+              0.9
+            ],
+            [
+              "SHRUG",
+              1.7
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "ECHARSE",
+        "ATRÁS"
+      ],
+      "sub": "El tronco quieto",
+      "vo": "Error: echarse atrás para empujar la almohadilla. El tronco queda vertical y los hombros hacen el recorrido.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            577,
+            967
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "MEDIA",
+        "REPETICIÓN"
+      ],
+      "sub": "Encogé completo",
+      "vo": "Error: encoger apenas unos centímetros. Subí la almohadilla hasta el tope y hacé la pausa completa.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "HALF_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            600,
+            908
+          ],
+          "r": 46,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "REDONDEAR",
+        "LA ESPALDA"
+      ],
+      "sub": "Pecho arriba",
+      "vo": "Error: redondear la espalda y bajar el pecho. El pecho se queda arriba y la espalda recta durante todo el recorrido.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "ROUND_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            655,
+            932
+          ],
+          "r": 52,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Almohadilla en los trapecios",
+        "Codos quietos",
+        "Pausa arriba",
+        "Bajá lento"
+      ],
+      "vo": "Tips: almohadilla sobre los trapecios, codos quietos, pausa arriba y bajada lenta.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "START",
+              1.0
+            ],
+            [
+              "SHRUG",
+              1.5
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Empujá con los hombros",
+        "Sin agarrar fuerte",
+        "Pecho arriba",
+        "Mirada al frente"
+      ],
+      "vo": "Claves: empujá con los hombros, sin agarrar fuerte las manijas, pecho arriba y mirada al frente.",
+      "moves": [
+        {
+          "cut": "SHRUG",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12–15"
+      ],
+      "sub": "Trapecios",
+      "vo": "Tres series de doce a quince repeticiones, con un minuto de pausa. Elegí un peso que te deje completar el recorrido.",
+      "chips": [
+        {
+          "label": "1 · EMPUJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PAUSA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "START",
+              1.0
+            ],
+            [
+              "SHRUG",
+              1.5
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "SOLTÁ Y",
+        "BAJÁ"
+      ],
+      "sub": "Sin apurarse",
+      "vo": "Al terminar la serie, bajá la almohadilla despacio, soltá las manijas y salí de la máquina sin encorvarte.",
+      "moves": [
+        {
+          "cut": "SHRUG",
+          "at": 0
+        },
+        {
+          "to": "START",
+          "at": 0.9,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1000
+          ],
+          "text": "SIN SOLTAR",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "SHRUG",
+    "zoom": 1.06,
+    "dy": 40
+  },
+  "youtube": {
+    "titulo": "Lever Gripless Shrug 🔥 Encogimiento de hombros sin agarre | Gimnasio",
+    "tags": [
+      "lever gripless shrug",
+      "encogimiento de hombros",
+      "shrug en máquina",
+      "trapecios",
+      "encogimiento sin agarre",
+      "espalda alta",
+      "máquina de palanca",
+      "yugo para hombros",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de espalda"
+    ],
+    "descripcion": "🔥 LEVER GRIPLESS SHRUG (encogimiento de hombros en máquina de palanca con yugo y manijas fijas) — trapecios y espalda alta\n\nEl yugo deja empujar con los trapecios sin gastar fuerza en el agarre, así que el recorrido se siente completo. Si te echás atrás, hacés media repetición o redondeás la espalda, el peso se reparte y los trapecios trabajan menos. La clave es subir la almohadilla con los hombros, hacer la pausa y bajar lento. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el yugo para que la almohadilla apoye sobre los trapecios y las manijas queden a la altura del pecho.\n2️⃣ Separá los pies al ancho de cadera y elegí un peso que te permita completar 12–15 repeticiones.\n\n📋 PASO A PASO\n1️⃣ Parate bajo el yugo con la almohadilla sobre los trapecios y las manos apoyadas en las manijas.\n2️⃣ Con los hombros abajo y el pecho arriba, empujá la almohadilla hacia arriba con los trapecios.\n3️⃣ Sostené un segundo arriba, sin doblar los codos.\n4️⃣ Bajá lento hasta sentir el estiramiento.\n5️⃣ Completá la serie y salí de la máquina despacio.\n\n❌ ERRORES COMUNES\n• Echarse atrás → el tronco queda vertical y los hombros hacen el recorrido.\n• Media repetición → subí hasta el tope y hacé la pausa completa.\n• Redondear la espalda → pecho arriba y espalda recta.\n\n💡 TIPS DEL PROFE\n• Almohadilla sobre los trapecios, no sobre el cuello.\n• Los codos quedan quietos.\n• Pausa de un segundo arriba.\n• Bajada lenta, sin soltar el peso.\n\n🎯 QUÉ TRABAJA\nEspalda → Trapecios → Espalda alta\n\n⏱️ CUÁNTO\n3 series de 12–15 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Trapecios #EspaldaAlta #EncogimientoDeHombros #MaquinaDePalanca #Shrug #Entrenamiento #Fuerza"
+  }
+}

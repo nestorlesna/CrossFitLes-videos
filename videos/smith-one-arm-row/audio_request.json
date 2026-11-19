@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Smith One Arm Row",
+      "text": "Remo a una mano en la barra guiada, con el torso inclinado y el dorsal trabajando solo."
+    },
+    {
+      "id": "02",
+      "text": "La barra corre entre los parantes en una sola vertical: el recorrido es siempre el mismo y no tenés que pelear con el equilibrio."
+    },
+    {
+      "id": "03",
+      "text": "Dejá la barra a la altura de las rodillas y los topes debajo, para que puedas soltarla si te falta fuerza."
+    },
+    {
+      "id": "04",
+      "text": "Poné un pie adelante y otro atrás, con las rodillas blandas y el peso repartido. Así el torso queda estable."
+    },
+    {
+      "id": "05",
+      "text": "Inclinate desde la cadera con la espalda recta. Una mano toma la barra y la otra queda libre, colgando."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Tirá la barra hacia la cadera llevando el codo hacia atrás, sin girar ni enderezar el torso."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Apretá el dorsal arriba y hacé una pausa corta, sin subir el hombro ni abrir el codo."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá la barra controlando hasta estirar el brazo, sin dejarla caer ni perder la espalda recta."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire abajo y soltalo al tirar. No aguantes el aire ni pierdas la posición inclinada del torso."
+    },
+    {
+      "id": "10",
+      "text": "Error: redondear la espalda. Mantenela recta de la cadera a la nuca y la mirada al frente, sin bajar la cabeza."
+    },
+    {
+      "id": "11",
+      "text": "Error: enderezar el torso para tirar. El torso queda quieto y el peso lo mueve el dorsal, no el balanceo."
+    },
+    {
+      "id": "12",
+      "text": "Error: cortar el recorrido. La barra llega a la cadera en cada repetición y baja hasta estirar el brazo."
+    },
+    {
+      "id": "13",
+      "text": "Tips: pies escalonados, codo atrás, sin girar el torso y la barra hasta la cadera."
+    },
+    {
+      "id": "14",
+      "text": "Claves: bisagra de cadera, un brazo por vez, dorsal apretado y bajada controlada."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce repeticiones por brazo, con un minuto de pausa. Cambiá de lado al terminar la serie."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, dejá la barra en los topes y enderezate despacio, sin soltar la espalda de golpe."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

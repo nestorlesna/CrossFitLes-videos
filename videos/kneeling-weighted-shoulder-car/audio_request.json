@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Kneeling Weighted Shoulder Car",
+      "text": "Un círculo completo con la mancuerna, lento y con tensión."
+    },
+    {
+      "id": "02",
+      "text": "En media rodilla, con una mancuerna liviana en la mano que trabaja. Tronco quieto."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Subí el brazo por delante hasta quedar al lado de la oreja, con el codo extendido."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Giralo hacia atrás arriba, sin arquear la espalda y con las costillas abajo."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Bajá por detrás y volvé al inicio. El círculo es lento y controlado."
+    },
+    {
+      "id": "06",
+      "text": "Así no. Si arqueás la espalda para llegar arriba, el hombro no trabaja y la lumbar paga."
+    },
+    {
+      "id": "07",
+      "text": "Claves: codo extendido, círculo grande, costillas abajo y tronco quieto. Peso liviano."
+    },
+    {
+      "id": "08",
+      "text": "Diez repeticiones por lado, lentas y con tensión en todo el recorrido."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

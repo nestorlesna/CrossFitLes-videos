@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Banded Pull-Up",
+      "text": "Banded Pull Up: colgate con la banda bajo el pie y tirá hasta pasar el mentón por la barra."
+    },
+    {
+      "id": "02",
+      "text": "Con la banda atada a la barra, poné un pie adentro y colgate con los brazos estirados."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Antes de tirar, bajá las escápulas: los hombros lejos de las orejas."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Tirá hasta pasar el mentón por encima de la barra, sin balanceo."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Bajá controlado, dos segundos, y estirá del todo los brazos."
+    },
+    {
+      "id": "06",
+      "text": "Así no. Si pateás y usás la banda como trampolín, la dominada no se construye."
+    },
+    {
+      "id": "07",
+      "text": "Claves: banda bien asegurada, escápulas abajo, sin balanceo y bajada completa."
+    },
+    {
+      "id": "08",
+      "text": "Cinco repeticiones con banda. Cambiá a una más fina cuando ganes fuerza."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

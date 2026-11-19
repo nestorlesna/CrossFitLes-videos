@@ -1,0 +1,73 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Sled Closer Hack Squat",
+      "text": "Sentadilla hack con los pies juntos: el carro inclinado baja por los rieles y los cuádriceps hacen el trabajo."
+    },
+    {
+      "id": "02",
+      "text": "El carro con discos corre sobre dos rieles inclinados y la plataforma de los pies queda fija abajo."
+    },
+    {
+      "id": "03",
+      "text": "Apoyá la espalda en el respaldo y juntá los pies en el centro de la plataforma, con las puntas apenas abiertas."
+    },
+    {
+      "id": "04",
+      "text": "Arrancá arriba, con las rodillas blandas, la espalda apoyada y el pecho arriba, mirando al frente."
+    },
+    {
+      "id": "05",
+      "text": "Paso uno. Bajá el carro por los rieles llevando las rodillas en línea con los pies, sin que se metan adentro."
+    },
+    {
+      "id": "06",
+      "text": "Paso dos. Llegá hasta donde puedas con la espalda apoyada y la cadera abajo, sin levantar los talones."
+    },
+    {
+      "id": "07",
+      "text": "Paso tres. Empujá con los talones y subí el carro, estirando las piernas sin trabar las rodillas de golpe."
+    },
+    {
+      "id": "08",
+      "text": "Tomá aire al bajar y soltalo al subir. El abdomen queda firme y las costillas abajo durante todo el recorrido."
+    },
+    {
+      "id": "09",
+      "text": "Error: bajar apenas un poco. Bajá hasta donde llegues con la espalda apoyada y los talones en la plataforma."
+    },
+    {
+      "id": "10",
+      "text": "Error: levantar los talones para bajar más. Los pies quedan planos y el peso repartido en toda la planta."
+    },
+    {
+      "id": "11",
+      "text": "Error: redondear la espalda y despegarse del respaldo. La espalda queda apoyada y el pecho arriba."
+    },
+    {
+      "id": "12",
+      "text": "Tips: pies juntos al centro, rodillas alineadas, talones abajo y subida pareja."
+    },
+    {
+      "id": "13",
+      "text": "Claves: espalda en el respaldo, empujá con los talones, sin trabar las rodillas y mirada al frente."
+    },
+    {
+      "id": "14",
+      "text": "Tres series de diez a doce repeticiones, con minuto y medio de pausa. Elegí un peso que te deje bajar sin despegar la espalda."
+    },
+    {
+      "id": "15",
+      "text": "Al terminar la serie, subí el carro, trabá las manijas y salí de la máquina sin encorvarte."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

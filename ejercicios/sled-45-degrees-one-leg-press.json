@@ -1,0 +1,880 @@
+{
+  "slug": "sled-45-degrees-one-leg-press",
+  "name": "Sled 45 Degrees One Leg Press",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Cuádriceps",
+    "Glúteos"
+  ],
+  "descripcion": "Prensa a 45 grados a una pierna: apoyá la espalda en el respaldo, poné un pie en el centro de la plataforma y dejá la otra pierna flexionada sin apoyar. Empujá la plataforma por los rieles y bajá controlando hasta donde llegues con la cadera apoyada.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 610,
+    "y": 1500.7,
+    "scale": 0.92
+  },
+  "shadow": false,
+  "initialPose": "TOP",
+  "props": [
+    {
+      "type": "legpress",
+      "hip": [
+        -320,
+        -300
+      ],
+      "ang": 35,
+      "lean": -45,
+      "stops": 300
+    }
+  ],
+  "poses": {
+    "TOP": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "ft": -128,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle2": [
+        -190,
+        -90
+      ],
+      "ft2": 20,
+      "ankle": [
+        50.3,
+        -559.3
+      ]
+    },
+    "MID": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "ft": -128,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle2": [
+        -190,
+        -90
+      ],
+      "ft2": 20,
+      "ankle": [
+        3.6,
+        -526.6
+      ]
+    },
+    "BOTTOM": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "ft": -128,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle2": [
+        -190,
+        -90
+      ],
+      "ft2": 20,
+      "ankle": [
+        -45.6,
+        -492.1
+      ]
+    },
+    "SHALLOW_BAD": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "ft": -128,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle2": [
+        -190,
+        -90
+      ],
+      "ft2": 20,
+      "ankle": [
+        10.0,
+        -532.0
+      ]
+    },
+    "HEELS_BAD": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "ft": -88,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle2": [
+        -190,
+        -90
+      ],
+      "ft2": 20,
+      "ankle": [
+        -45.6,
+        -492.1
+      ]
+    },
+    "FREELEG_BAD": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "ft": -128,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle2": [
+        -120,
+        -455
+      ],
+      "ft2": -128,
+      "ankle": [
+        -45.6,
+        -492.1
+      ]
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "UNA PIERNA",
+        "EN LA PRENSA 45"
+      ],
+      "sub": "Fuerza unilateral",
+      "vo": "Prensa a 45 grados a una pierna: el carro corre por el riel y cada pierna empuja por su cuenta.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.0
+            ],
+            [
+              "BOTTOM",
+              1.5
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "CARRO Y",
+        "RIEL 45°"
+      ],
+      "sub": "Plataforma inclinada",
+      "vo": "El carro con discos corre sobre un riel a 45 grados y la plataforma queda arriba, donde apoyás el pie.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            830,
+            982
+          ],
+          "r": 92,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            800
+          ],
+          "text": "DISCOS",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            544,
+            1278
+          ],
+          "r": 44,
+          "at": 1.7
+        },
+        {
+          "type": "label",
+          "pos": [
+            560,
+            1200
+          ],
+          "text": "RIEL 45°",
+          "anchor": "start",
+          "at": 1.7
+        },
+        {
+          "type": "ring",
+          "pos": [
+            662,
+            982
+          ],
+          "r": 52,
+          "at": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            890
+          ],
+          "text": "PLATAFORMA",
+          "anchor": "end",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "ESPALDA",
+        "Y CADERA"
+      ],
+      "sub": "Bien apoyado",
+      "vo": "Apoyá la espalda en el respaldo y la cadera en el asiento, con la cabeza y los hombros relajados.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            196,
+            1114
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "RESPALDO",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            316,
+            1254
+          ],
+          "r": 56,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1470
+          ],
+          "text": "CADERA APOYADA",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.6,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "UNA PIERNA",
+        "AL CENTRO"
+      ],
+      "sub": "La otra cuelga",
+      "vo": "Poné un solo pie en el centro de la plataforma y dejá la otra pierna flexionada, sin apoyarla en ningún lado.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            662,
+            982
+          ],
+          "r": 52,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            900
+          ],
+          "text": "PIE AL CENTRO",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            435,
+            1418
+          ],
+          "r": 50,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1450
+          ],
+          "text": "PIERNA LIBRE",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PIERNA",
+        "ESTIRADA"
+      ],
+      "sub": "Sin trabar",
+      "vo": "Arrancá con la pierna casi estirada, la rodilla blanda y el pie bien apoyado en la plataforma.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            656,
+            986
+          ],
+          "r": 48,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            900
+          ],
+          "text": "SIN TRABAR",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ",
+        "CONTROLANDO"
+      ],
+      "sub": "Rodilla al pecho",
+      "vo": "Paso uno. Bajá la plataforma doblando la rodilla hacia el pecho, sin que la cadera se despegue del asiento.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            739,
+            894
+          ],
+          "to": [
+            647,
+            985
+          ],
+          "at": 0.8,
+          "dur": 1.2,
+          "bend": [
+            40,
+            0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            900
+          ],
+          "text": "BAJÁ LENTO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "FONDO",
+        "DEL RECORRIDO"
+      ],
+      "sub": "Rodilla flexionada",
+      "vo": "Paso dos. Llegá hasta donde llegues con la cadera apoyada y la rodilla bien flexionada, sin rebotar.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.2,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            360,
+            1008
+          ],
+          "r": 52,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            900
+          ],
+          "text": "RODILLA AL PECHO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "EMPUJÁ",
+        "PAREJO"
+      ],
+      "sub": "Con toda la planta",
+      "vo": "Paso tres. Empujá la plataforma con toda la planta del pie, estirando la rodilla sin trabarla de golpe.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.5,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            647,
+            985
+          ],
+          "to": [
+            739,
+            894
+          ],
+          "at": 0.8,
+          "dur": 1.2,
+          "bend": [
+            40,
+            0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            900
+          ],
+          "text": "SUBÍ PAREJO",
+          "anchor": "start",
+          "at": 1.1
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Aire al bajar",
+      "vo": "Tomá aire al bajar la plataforma y soltalo al empujar. El abdomen queda firme y la cadera apoyada.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              0.9
+            ],
+            [
+              "BOTTOM",
+              1.7
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "MEDIA",
+        "REPETICIÓN"
+      ],
+      "sub": "Recorrido completo",
+      "vo": "Error: quedarse a mitad de camino. Bajá hasta donde llegues con la cadera apoyada y sin rebotar.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "SHALLOW_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            619,
+            1011
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "TALÓN",
+        "DESPEGADO"
+      ],
+      "sub": "Planta completa",
+      "vo": "Error: empujar con la punta y despegar el talón. Todo el pie queda apoyado y empuja parejo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "HEELS_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            568,
+            1048
+          ],
+          "r": 46,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "APOYAR",
+        "LA OTRA"
+      ],
+      "sub": "Pierna libre",
+      "vo": "Error: subir los dos pies a la plataforma. La pierna libre queda flexionada y sin apoyar en ningún lado.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "FREELEG_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            500,
+            1082
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Cadera apoyada",
+        "Una sola pierna",
+        "Rodilla con el pie",
+        "Bajá controlando"
+      ],
+      "vo": "Tips: cadera apoyada, una sola pierna en la plataforma, rodilla alineada con el pie y bajada controlada.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.0
+            ],
+            [
+              "BOTTOM",
+              1.5
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Espalda en el respaldo",
+        "Empujá con toda la planta",
+        "Sin trabar la rodilla",
+        "Cambiá de pierna"
+      ],
+      "vo": "Claves: espalda en el respaldo, empujá con toda la planta, sin trabar la rodilla y cambiá de pierna.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10–12"
+      ],
+      "sub": "Cuádriceps",
+      "vo": "Tres series de diez a doce por pierna, con dos minutos de pausa. Elegí un peso que te deje llegar al fondo sin despegar la cadera.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · FONDO",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SUBÍ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.0
+            ],
+            [
+              "BOTTOM",
+              1.5
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "CAMBIÁ",
+        "DE PIERNA"
+      ],
+      "sub": "Sin apurarse",
+      "vo": "Al terminar la serie, dejá la plataforma arriba, trabá el seguro y cambiá de pierna con calma.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.9,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            900
+          ],
+          "text": "SIN APURARSE",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "BOTTOM",
+    "zoom": 1.06,
+    "dy": 40
+  },
+  "youtube": {
+    "titulo": "Sled 45 Degrees One Leg Press 🔥 Prensa a una pierna | Gimnasio",
+    "tags": [
+      "sled 45 degrees one leg press",
+      "prensa a una pierna",
+      "prensa 45 grados",
+      "prensa unilateral",
+      "cuádriceps",
+      "glúteos",
+      "piernas",
+      "máquina de prensa",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de piernas"
+    ],
+    "descripcion": "🔥 SLED 45 DEGREES ONE LEG PRESS (prensa a 45 grados con una sola pierna en la plataforma) — cuádriceps y glúteos\n\nLa prensa a 45 grados a una pierna trabaja cada lado por separado: el carro corre por el riel y la plataforma se mueve solo con la fuerza de esa pierna. Sirve para corregir diferencias entre lados y mejorar el control. Si cortás el recorrido, despegás el talón o apoyás las dos piernas, el trabajo se reparte y se pierde el objetivo. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Apoyá la espalda en el respaldo y la cadera en el asiento.\n2️⃣ Poné un pie en el centro de la plataforma y dejá la otra pierna colgando.\n\n📋 PASO A PASO\n1️⃣ Arrancá con la pierna casi estirada y la rodilla blanda.\n2️⃣ Bajá la plataforma doblando la rodilla hacia el pecho.\n3️⃣ Llegá al fondo sin despegar la cadera ni rebotar.\n4️⃣ Empujá con toda la planta hasta estirar la rodilla.\n5️⃣ Terminá la serie, trabá el seguro y cambiá de pierna.\n\n❌ ERRORES COMUNES\n• Media repetición → bajá hasta donde llegues con la cadera apoyada.\n• Talón despegado → planta completa y empuje parejo.\n• Apoyar las dos piernas → la pierna libre queda flexionada sin apoyar.\n\n💡 TIPS DEL PROFE\n• Cadera y espalda apoyadas.\n• Una sola pierna en la plataforma.\n• Rodilla alineada con el pie.\n• Bajada controlada, sin rebotar.\n\n🎯 QUÉ TRABAJA\nPiernas → Cuádriceps → Glúteos\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones por pierna, con 2 minutos de pausa. Nivel: intermedio.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Cuadriceps #Prensa45 #PrensaUnilateral #Piernas #Gluteos #Entrenamiento #Fuerza"
+  }
+}

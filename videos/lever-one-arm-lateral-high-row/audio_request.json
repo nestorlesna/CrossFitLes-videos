@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever One Arm Lateral High Row",
+      "text": "Remo alto a un brazo en palanca: tirá una manija desde arriba hasta el costado del torso, con el codo afuera."
+    },
+    {
+      "id": "02",
+      "text": "La máquina tiene asiento, almohadilla para el pecho, placa de pies, una manija alta por brazo y los discos atrás."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el asiento para que el pecho quede cerca de la almohadilla y la manija arranque a la altura de la cabeza."
+    },
+    {
+      "id": "04",
+      "text": "Poné los pies planos en la placa, elegí el peso y tomá la manija con una mano. La otra queda apoyada en la cadera."
+    },
+    {
+      "id": "05",
+      "text": "Sentate con la espalda recta y el pecho arriba. El brazo de trabajo arranca extendido y la otra mano descansa."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Tirá la manija hacia el costado del torso llevando el codo hacia atrás y afuera, sin rotar el tronco."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Apretá el omóplato al final y hacé una pausa de un segundo con la manija al lado del torso."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Volvé lento a la posición inicial con el brazo extendido, sin soltar el peso de golpe."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire cuando tirás y tomá aire cuando volvés. El abdomen queda firme y la espalda quieta."
+    },
+    {
+      "id": "10",
+      "text": "Error: echarse atrás para tirar con el peso del cuerpo. El tronco queda quieto y la espalda apoyada."
+    },
+    {
+      "id": "11",
+      "text": "Error: subir el hombro y tirar con el cuello. El hombro queda abajo y el omóplato hace el trabajo."
+    },
+    {
+      "id": "12",
+      "text": "Error: redondear la espalda para llegar más lejos. El pecho se queda arriba y la espalda recta."
+    },
+    {
+      "id": "13",
+      "text": "Tips: una mano por vez, codo hacia atrás y afuera, omóplato junto y el tronco quieto."
+    },
+    {
+      "id": "14",
+      "text": "Claves: asiento y placa ajustados, una sola mano, sin rotar el tronco y pausa al final."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce por brazo, con un minuto de pausa. Subí peso cuando las doce salgan fáciles."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, volvé a la posición inicial sin soltar la manija de golpe y dejá que los discos bajen despacio."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

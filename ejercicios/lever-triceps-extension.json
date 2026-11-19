@@ -1,0 +1,856 @@
+{
+  "slug": "lever-triceps-extension",
+  "name": "Lever Triceps Extension",
+  "maquina": true,
+  "category": "GIMNASIO · BRAZOS",
+  "tags": [
+    "Tríceps",
+    "Hombros"
+  ],
+  "descripcion": "Sentate con la espalda apoyada en el respaldo y las manijas a la altura de los hombros. Con los codos quietos, extendé los brazos hacia adelante y arriba y bajá las manijas lento hacia la frente.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 880,
+    "y": 1503.4,
+    "scale": 0.84
+  },
+  "shadow": false,
+  "initialPose": "START",
+  "props": [
+    {
+      "type": "lever",
+      "pivot": [
+        -202,
+        -590
+      ],
+      "seat": [
+        -380,
+        -150,
+        -270
+      ],
+      "back": [
+        -352,
+        -10,
+        440
+      ],
+      "stack": -620,
+      "frameTop": -980,
+      "pin": 5,
+      "grip": "hand",
+      "k": 2.6
+    }
+  ],
+  "poses": {
+    "START": {
+      "hip": [
+        -320,
+        -270
+      ],
+      "ankle": [
+        -60,
+        -20
+      ],
+      "b": -10,
+      "hd": -2,
+      "g": 0,
+      "ft": 4,
+      "ua": 105,
+      "fa": 0
+    },
+    "DOWN": {
+      "hip": [
+        -320,
+        -270
+      ],
+      "ankle": [
+        -60,
+        -20
+      ],
+      "b": -10,
+      "hd": -2,
+      "g": 0,
+      "ft": 4,
+      "ua": 105,
+      "fa": 135
+    },
+    "ARCH_BAD": {
+      "hip": [
+        -320,
+        -270
+      ],
+      "ankle": [
+        -60,
+        -20
+      ],
+      "b": -30,
+      "hd": -8,
+      "g": 0,
+      "ft": 4,
+      "ua": 105,
+      "fa": 135
+    },
+    "SHORT_BAD": {
+      "hip": [
+        -320,
+        -270
+      ],
+      "ankle": [
+        -60,
+        -20
+      ],
+      "b": -10,
+      "hd": -2,
+      "g": 0,
+      "ft": 4,
+      "ua": 105,
+      "fa": 55
+    },
+    "DROP_BAD": {
+      "hip": [
+        -320,
+        -270
+      ],
+      "ankle": [
+        -60,
+        -20
+      ],
+      "b": -10,
+      "hd": -2,
+      "g": 0,
+      "ft": 4,
+      "ua": 105,
+      "fa": -40
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · BRAZOS",
+      "head": [
+        "LEVER TRICEPS",
+        "EXTENSION"
+      ],
+      "sub": "En máquina de palanca",
+      "vo": "Lever Triceps Extension: extensión de tríceps en máquina de palanca. Codos quietos y antebrazo que gira.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.2
+            ],
+            [
+              "START",
+              1.8
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Asiento, palanca y pila",
+      "vo": "La máquina tiene asiento con respaldo, la palanca con la manija y la pila atrás.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            840,
+            973
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1013
+          ],
+          "text": "MANIJAS",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            662,
+            1277
+          ],
+          "r": 44,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1187
+          ],
+          "text": "ASIENTO",
+          "anchor": "end",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            402,
+            1373
+          ],
+          "r": 28,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1403
+          ],
+          "text": "PILA",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "EL",
+        "ASIENTO"
+      ],
+      "sub": "Manija a la altura del hombro",
+      "vo": "Ajustá el asiento para que la manija quede a la altura del hombro y el codo apoye en el eje.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            840,
+            973
+          ],
+          "r": 40,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            933
+          ],
+          "text": "ALTURA DEL HOMBRO",
+          "anchor": "start",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            710,
+            1008
+          ],
+          "r": 34,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1048
+          ],
+          "text": "EJE DEL CODO",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "EL",
+        "PESO"
+      ],
+      "sub": "Con el pasador",
+      "vo": "Elegí el peso con el pasador: uno que puedas mover doce veces sin mover los codos.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            402,
+            1373
+          ],
+          "r": 30,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1403
+          ],
+          "text": "PASADOR",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ESPALDA",
+        "APOYADA"
+      ],
+      "sub": "Pies planos",
+      "vo": "Sentate con la espalda apoyada en el respaldo, los pies planos y las manos en las manijas.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            603,
+            1109
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1189
+          ],
+          "text": "RESPALDO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ",
+        "LENTO"
+      ],
+      "sub": "Los codos no se mueven",
+      "vo": "Paso uno. Con los codos quietos, bajá las manijas lento hacia la frente.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.6,
+          "dur": 1.1
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            840,
+            947
+          ],
+          "to": [
+            620,
+            920
+          ],
+          "at": 0.8,
+          "dur": 1.1,
+          "bend": [
+            30,
+            -40
+          ]
+        },
+        {
+          "type": "ring",
+          "pos": [
+            710,
+            1008
+          ],
+          "r": 34,
+          "at": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1048
+          ],
+          "text": "CODO FIJO",
+          "anchor": "end",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 6.8,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "PAUSA",
+        "CORTA"
+      ],
+      "sub": "Cerca de la frente",
+      "vo": "Paso dos. Hacé una pausa con las manijas cerca de la frente, sin dejar caer el peso.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.2,
+          "dur": 0.4
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            594,
+            940
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            900
+          ],
+          "text": "PAUSA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "EXTENDÉ",
+        "ARRIBA"
+      ],
+      "sub": "Apretá el tríceps",
+      "vo": "Paso tres. Extendé los brazos hacia adelante y arriba, apretando el tríceps.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "START",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            620,
+            920
+          ],
+          "to": [
+            840,
+            947
+          ],
+          "at": 0.9,
+          "dur": 1.1,
+          "bend": [
+            30,
+            40
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1013
+          ],
+          "text": "EXTENDÉ",
+          "anchor": "end",
+          "at": 1.1
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Aire al bajar",
+      "vo": "Soltá el aire cuando extendés y tomá aire cuando bajás. No aguantes la respiración.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.1
+            ],
+            [
+              "START",
+              1.8
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "ARQUEAR",
+        "LA ESPALDA"
+      ],
+      "sub": "Pegado al respaldo",
+      "vo": "Error: echarse atrás y arquear la espalda para empujar. Espalda pegada al respaldo.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            930
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            494,
+            1073
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "DEJAR CAER",
+        "EL PESO"
+      ],
+      "sub": "Bajá controlando",
+      "vo": "Error: dejar caer el peso de golpe. Bajá y volvé controlando, sin rebotar.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              0.3
+            ],
+            [
+              "DROP_BAD",
+              0.3
+            ]
+          ],
+          "at": 0.5,
+          "until": 4.0
+        },
+        {
+          "to": "DROP_BAD",
+          "at": 4.0,
+          "dur": 0.3
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            930
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            832,
+            1064
+          ],
+          "r": 44,
+          "at": 3.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1104
+          ],
+          "text": "DE GOLPE",
+          "anchor": "end",
+          "at": 3.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "EXTENDER",
+        "A MEDIAS"
+      ],
+      "sub": "Estirá el codo",
+      "vo": "Error: extender a medias. Estirá casi por completo el codo y sentí el tríceps.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "SHORT_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            930
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            756,
+            881
+          ],
+          "r": 46,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Codos quietos",
+        "Bajá hasta la frente",
+        "Extendé completo",
+        "Peso liviano"
+      ],
+      "vo": "Tips: codos quietos, bajá hasta la frente, extendé completo y arrancá con poco peso.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.2
+            ],
+            [
+              "START",
+              1.8
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Manija a la altura del hombro",
+        "Codo en el eje",
+        "Sin arquear la espalda",
+        "Volvé controlando"
+      ],
+      "vo": "Claves: manija a la altura del hombro, codo en el eje, sin arquear la espalda y volvé controlando.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12"
+      ],
+      "sub": "Un minuto de pausa",
+      "vo": "Tres series de diez a doce, con un minuto de pausa. Si las doce salen fáciles, subí peso.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PAUSA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · EXTENDÉ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.2
+            ],
+            [
+              "START",
+              1.8
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "SOLTÁ",
+        "LENTO"
+      ],
+      "sub": "Sin rebotar",
+      "vo": "Al terminar, dejá que la pila baje despacio y soltá las manijas sin rebotar.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "START",
+          "at": 0.9,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1040
+          ],
+          "text": "SIN REBOTAR",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "START",
+    "zoom": 1.12,
+    "dy": 110
+  },
+  "youtube": {
+    "titulo": "Lever Triceps Extension 🔥 Extensión de tríceps en máquina | Brazos",
+    "tags": [
+      "lever triceps extension",
+      "extensión de tríceps",
+      "tríceps en máquina",
+      "máquina de palanca",
+      "tríceps",
+      "brazos",
+      "extensión sobre la cabeza",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de brazos"
+    ],
+    "descripcion": "🔥 LEVER TRICEPS EXTENSION (extensión de tríceps en máquina de palanca) — tríceps fuertes, con el codo quieto y sin cargar el hombro\n\nEl tríceps trabaja cuando el codo queda fijo y el antebrazo es lo único que se mueve. Si movés los codos o te echás atrás, el trabajo se reparte y el tríceps no se lleva nada. Este video es para vos. 💪 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el asiento para que la manija quede a la altura del hombro y el codo apoye en el eje de la palanca.\n2️⃣ Elegí el peso con el pasador: uno que puedas mover 12 veces sin despegar la espalda.\n\n📋 PASO A PASO\n1️⃣ Sentate con la espalda apoyada y los pies planos.\n2️⃣ Con los codos quietos, bajá las manijas lento hacia la frente.\n3️⃣ Hacé una pausa corta, cerca de la frente.\n4️⃣ Extendé los brazos hacia adelante y arriba apretando el tríceps.\n\n❌ ERRORES COMUNES\n• Echarse atrás y arquear la espalda → espalda pegada al respaldo.\n• Dejar caer el peso de golpe → bajá y volvé controlando, sin rebotar.\n• Extender a medias → estirá casi por completo el codo.\n\n💡 TIPS DEL PROFE\n• Codos quietos, pegados al eje de la máquina.\n• Bajá hasta la frente, sin más.\n• Extendé completo y apretá un segundo.\n• Arrancá con poco peso: acá la técnica se rompe rápido.\n\n🎯 QUÉ TRABAJA\nTríceps · Hombros\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Triceps #Brazos #MaquinaDePalanca #ExtensionDeTriceps #Musculacion #Entrenamiento"
+  }
+}

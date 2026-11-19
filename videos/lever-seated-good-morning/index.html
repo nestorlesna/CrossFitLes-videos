@@ -69,7 +69,7 @@
         </svg>
       </div>
       <div id="topbar" class="clip" data-start="6.86" data-duration="101.1" data-track-index="4"><div class="inner"><span><b>LEVER SEATED GOOD MORNING</b></span><span>GIMNASIO · ISQUIOS</span></div></div>
-      <div id="txt-01" class="clip scene-text" data-start="0" data-duration="6.86" data-track-index="3"><div class="inner"><div class="badge">GIMNASIO · ISQUIOS</div><h1 class="headline hero"><span class="hl">BUENOS DÍAS</span><span class="hl">SENTADO</span></h1><p class="subline">En máquina de palanca</p><div class="tags"><span class="chip-tag">Isquiotibiales</span><span class="chip-tag">Glúteos</span></div></div></div>
+      <div id="txt-01" class="clip scene-text" data-start="0" data-duration="6.86" data-track-index="3"><div class="inner"><div class="badge">GIMNASIO · ISQUIOS</div><h1 class="headline hero"><span class="hl">LEVER SEATED</span><span class="hl">GOOD MORNING</span></h1><p class="subline">En máquina de palanca</p><div class="tags"><span class="chip-tag">Isquiotibiales</span><span class="chip-tag">Glúteos</span></div></div></div>
       <div id="txt-02" class="clip scene-text" data-start="6.86" data-duration="7.2" data-track-index="3"><div class="inner"><div class="badge">LA MÁQUINA</div><h1 class="headline"><span class="hl">LA</span><span class="hl">MÁQUINA</span></h1><p class="subline">Asiento, apoyapiés y pila</p></div></div>
       <div id="txt-03" class="clip scene-text" data-start="14.06" data-duration="7" data-track-index="3"><div class="inner"><div class="badge">AJUSTE</div><h1 class="headline"><span class="hl">CADERA</span><span class="hl">ALTA</span></h1><p class="subline">Un poco más que las rodillas</p></div></div>
       <div id="txt-04" class="clip scene-text" data-start="21.06" data-duration="7" data-track-index="3"><div class="inner"><div class="badge">POSICIÓN INICIAL</div><h1 class="headline"><span class="hl">ESPALDA</span><span class="hl">RECTA</span></h1><p class="subline">Pies planos</p></div></div>
@@ -237,6 +237,8 @@
   //          crank arms go from crank to each ankle (pedal under the shoe), handles from pivot to each hand, the fan spins with the near crank.
   // pullupbar: { type: "pullupbar", bar: [x, y], postX }  bar seen end-on at `bar` (drawn over the hands) + beam and upright behind.
   const propBack = el("g", {}), propMid = el("g", {}), propFront = el("g", {}), propUpdates = [];
+  // Debajo del atleta (primer hijo del rig): piezas de máquina que pasan por detrás del cuerpo.
+  const propUnder = document.createElementNS(NS, "g"); rig.insertBefore(propUnder, rig.firstChild);
   // Escenario fijo (cajón): fuera del rig para que el giro (fx) no lo espeje ni el corte (cut) lo esconda.
   const propStatic = document.createElementNS(NS, "g"); propStatic.setAttribute("transform", RIG0); rig.parentNode.insertBefore(propStatic, rig);
   // Por encima del atleta y fuera del rig: lo que el compañero espejado (partner) no debe duplicar (el balón que se pasan).

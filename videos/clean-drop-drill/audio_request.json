@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Clean Drop Drill",
+      "text": "Soltá la barra y bajá a recibirla. Sin segundo tirón, el cuerpo va abajo."
+    },
+    {
+      "id": "02",
+      "text": "De pie y erguido, con la barra en la cadera y los brazos largos. Carga liviana."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Encogé los hombros con los codos altos y afuera. La barra casi no sube."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Despegá apenas los pies y caé bajo la barra girando los codos al rack."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Recibí en sentadilla profunda con el torso vertical y parate como en un front squat."
+    },
+    {
+      "id": "06",
+      "text": "Así no. Si los codos se caen al recibir, la barra se va al frente y perdés el rack."
+    },
+    {
+      "id": "07",
+      "text": "Claves: codos altos y afuera, caer bajo la barra, rack con codos adelante y torso vertical."
+    },
+    {
+      "id": "08",
+      "text": "Ocho repeticiones con la barra sola o liviana. Trabajá velocidad y confianza para meterte abajo."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Smith Deadlift",
+      "text": "Peso muerto en la Smith: la barra sale del piso pegada a las tibias y subís con la espalda recta."
+    },
+    {
+      "id": "02",
+      "text": "La barra corre guiada en una sola vertical pegada a las tibias, y los topes te dejan la salida segura."
+    },
+    {
+      "id": "03",
+      "text": "Bajá la barra hasta el piso sobre los topes y dejá que las tibias queden tocando la barra."
+    },
+    {
+      "id": "04",
+      "text": "Parate con los pies al ancho de la cadera y la barra justo sobre el medio pie, pegada a las tibias."
+    },
+    {
+      "id": "05",
+      "text": "Agarrá la barra, bajá la cadera y subí el pecho: espalda recta, hombros justo sobre la barra."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá el piso con los pies y subí la barra pegada a las tibias, sin tirar con la espalda."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Extendé la cadera y apretá el glúteo hasta quedar derecho, con la barra pegada al cuerpo."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá la barra por el mismo camino, con la cadera atrás y la espalda recta hasta el piso."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire arriba, aguantá mientras bajás y soltalo al terminar de subir. No sueltes la espalda."
+    },
+    {
+      "id": "10",
+      "text": "Error: redondear la espalda. El pecho va arriba y la espalda recta de la cadera a la nuca."
+    },
+    {
+      "id": "11",
+      "text": "Error: levantar la cola primero. La cadera y los hombros suben juntos, no arranca la espalda."
+    },
+    {
+      "id": "12",
+      "text": "Error: arquear la espalda al final. Terminá derecho, con el abdomen firme y el glúteo apretado."
+    },
+    {
+      "id": "13",
+      "text": "Tips: barra pegada a las tibias, pecho arriba, empujá el piso y terminá apretando el glúteo."
+    },
+    {
+      "id": "14",
+      "text": "Claves: espalda recta, hombros sobre la barra, cadera y hombros juntos y bajada controlada."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de seis a ocho repeticiones, con dos minutos de pausa. Peso moderado y técnica primero."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar la serie, bajá la barra al piso por el mismo camino y soltala, sin redondear la espalda."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

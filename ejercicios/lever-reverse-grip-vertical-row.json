@@ -1,0 +1,880 @@
+{
+  "slug": "lever-reverse-grip-vertical-row",
+  "name": "Lever Reverse Grip Vertical Row",
+  "maquina": true,
+  "category": "GIMNASIO · ESPALDA",
+  "tags": [
+    "Espalda",
+    "Espalda alta",
+    "Bíceps"
+  ],
+  "descripcion": "Sentate con el pecho apoyado en la almohadilla y los pies planos en la placa. Tomá las dos manijas verticales con agarre supino, las palmas hacia arriba. Tirá las manijas hacia el torso con los codos cerca del cuerpo, juntá los omóplatos, hacé una pausa y volvé lento sin despegar el pecho.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 840,
+    "y": 1502.8,
+    "scale": 0.86
+  },
+  "shadow": false,
+  "initialPose": "START",
+  "props": [
+    {
+      "type": "leverrow",
+      "pivot": [
+        -380,
+        -430
+      ],
+      "seat": [
+        -430,
+        -190,
+        -270
+      ],
+      "back": [
+        -460,
+        -8,
+        360
+      ],
+      "chest": [
+        -280,
+        -548,
+        288
+      ],
+      "foot": [
+        132,
+        18
+      ],
+      "horn": [
+        -500,
+        -180
+      ],
+      "radius": 112,
+      "farOff": -16
+    }
+  ],
+  "poses": {
+    "START": {
+      "hip": [
+        -320,
+        -270
+      ],
+      "ankle": [
+        40,
+        -30
+      ],
+      "b": -6,
+      "hd": -2,
+      "g": 1,
+      "g2": 1,
+      "ed": 1,
+      "ed2": 1,
+      "ft": 0,
+      "hx": -55,
+      "hy": -455,
+      "hx2": -69,
+      "hy2": -447
+    },
+    "PULL": {
+      "hip": [
+        -320,
+        -270
+      ],
+      "ankle": [
+        40,
+        -30
+      ],
+      "b": -6,
+      "hd": -2,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "ed2": -1,
+      "ft": 0,
+      "hx": -215,
+      "hy": -478,
+      "hx2": -229,
+      "hy2": -470
+    },
+    "LEAN_BAD": {
+      "hip": [
+        -320,
+        -270
+      ],
+      "ankle": [
+        40,
+        -30
+      ],
+      "b": -30,
+      "hd": -10,
+      "g": 1,
+      "g2": 1,
+      "ed": -1,
+      "ed2": -1,
+      "ft": 0,
+      "hx": -215,
+      "hy": -478,
+      "hx2": -229,
+      "hy2": -470
+    },
+    "SHRUG_BAD": {
+      "hip": [
+        -320,
+        -270
+      ],
+      "ankle": [
+        40,
+        -30
+      ],
+      "b": -6,
+      "hd": 8,
+      "g": 1,
+      "g2": 1,
+      "ed": 1,
+      "ed2": 1,
+      "ft": 0,
+      "hx": -185,
+      "hy": -560,
+      "hx2": -199,
+      "hy2": -552
+    },
+    "ROUND_BAD": {
+      "hip": [
+        -320,
+        -270
+      ],
+      "ankle": [
+        40,
+        -30
+      ],
+      "b": 16,
+      "hd": 20,
+      "g": 1,
+      "g2": 1,
+      "ed": 1,
+      "ed2": 1,
+      "ft": 0,
+      "hx": -55,
+      "hy": -455,
+      "hx2": -69,
+      "hy2": -447,
+      "cv": 26
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · ESPALDA",
+      "head": [
+        "REMO",
+        "SUPINO"
+      ],
+      "sub": "Palmas hacia arriba",
+      "vo": "Remo vertical con agarre supino en palanca: tirá las dos manijas hacia el torso con las palmas hacia arriba.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "START",
+              1.2
+            ],
+            [
+              "PULL",
+              1.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "LA",
+        "MÁQUINA"
+      ],
+      "sub": "Manijas verticales y pecho apoyado",
+      "vo": "La máquina tiene asiento, almohadilla para el pecho, placa de pies, dos manijas verticales y los discos atrás.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            599,
+            1133
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1080
+          ],
+          "text": "PECHO APOYADO",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            793,
+            1112
+          ],
+          "r": 42,
+          "at": 1.7
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1010
+          ],
+          "text": "MANIJAS",
+          "anchor": "end",
+          "at": 1.7
+        },
+        {
+          "type": "ring",
+          "pos": [
+            573,
+            1288
+          ],
+          "r": 44,
+          "at": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1340
+          ],
+          "text": "ASIENTO",
+          "anchor": "start",
+          "at": 2.6
+        },
+        {
+          "type": "ring",
+          "pos": [
+            410,
+            1348
+          ],
+          "r": 36,
+          "at": 3.5
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1430
+          ],
+          "text": "DISCOS",
+          "anchor": "start",
+          "at": 3.5
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 1",
+      "head": [
+        "ALTURA",
+        "DEL ASIENTO"
+      ],
+      "sub": "Pecho en la almohadilla",
+      "vo": "Ajustá el asiento para que el pecho quede apoyado en la almohadilla y las manijas a la altura del pecho.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            599,
+            1133
+          ],
+          "r": 46,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1173
+          ],
+          "text": "ALTURA DEL PECHO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "AJUSTE 2",
+      "head": [
+        "PIES Y",
+        "AGARRE"
+      ],
+      "sub": "Agarre supino",
+      "vo": "Poné los pies planos en la placa y tomá las manijas verticales con agarre supino, las palmas hacia arriba.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            978,
+            1434
+          ],
+          "r": 42,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1360
+          ],
+          "text": "PLACA DE PIES",
+          "anchor": "end",
+          "at": 0.9
+        },
+        {
+          "type": "ring",
+          "pos": [
+            793,
+            1112
+          ],
+          "r": 40,
+          "at": 2.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "AGARRE SUPINO",
+          "anchor": "start",
+          "at": 2.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PECHO",
+        "ARRIBA"
+      ],
+      "sub": "Hombros atrás",
+      "vo": "Sentate con la espalda recta, el pecho elevado y los hombros atrás. Los brazos arrancan extendidos al frente.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            548,
+            1099
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1049
+          ],
+          "text": "PECHO ARRIBA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "TIRÁ AL",
+        "PECHO"
+      ],
+      "sub": "Codos cerca del cuerpo",
+      "vo": "Paso uno. Tirá las dos manijas hacia el torso llevando los codos cerca del cuerpo, sin mover el tronco.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.6,
+          "dur": 1.0
+        }
+      ],
+      "numeral": "1",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            803,
+            1092
+          ],
+          "to": [
+            665,
+            1062
+          ],
+          "at": 0.8,
+          "dur": 1.0,
+          "bend": [
+            30,
+            -30
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1072
+          ],
+          "text": "TIRÁ AL PECHO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.8,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "APRETÁ LOS",
+        "OMÓPLATOS"
+      ],
+      "sub": "Pausa de un segundo",
+      "vo": "Paso dos. Apretá los omóplatos al final del movimiento y hacé una pausa de un segundo.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.2,
+          "dur": 0.4
+        }
+      ],
+      "numeral": "2",
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            540,
+            1031
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1120
+          ],
+          "text": "APRETÁ",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "VOLVÉ",
+        "LENTO"
+      ],
+      "sub": "Sin soltar de golpe",
+      "vo": "Paso tres. Volvé lento a la posición inicial, sin soltar el peso de golpe y sin despegar el pecho.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "START",
+          "at": 0.5,
+          "dur": 1.2
+        }
+      ],
+      "numeral": "3",
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            665,
+            1062
+          ],
+          "to": [
+            803,
+            1092
+          ],
+          "at": 0.8,
+          "dur": 1.0,
+          "bend": [
+            30,
+            30
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1082
+          ],
+          "text": "VOLVÉ LENTO",
+          "anchor": "start",
+          "at": 1.1
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Aire al volver",
+      "vo": "Soltá el aire cuando tirás y tomá aire cuando volvés. El abdomen queda firme y el tronco quieto.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "START",
+              1.0
+            ],
+            [
+              "PULL",
+              1.8
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "ECHARSE",
+        "ATRÁS"
+      ],
+      "sub": "El tronco queda quieto",
+      "vo": "Error: echarse atrás para tirar con el peso del cuerpo. El tronco queda quieto y el pecho apoyado.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            444,
+            1062
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "SUBIR LOS",
+        "HOMBROS"
+      ],
+      "sub": "Hombros abajo",
+      "vo": "Error: subir los hombros y tirar con el cuello. Los hombros quedan abajo y los omóplatos hacen el trabajo.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "SHRUG_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            543,
+            1021
+          ],
+          "r": 46,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "REDONDEAR",
+        "LA ESPALDA"
+      ],
+      "sub": "Pecho arriba",
+      "vo": "Error: redondear la espalda para llegar más lejos. El pecho se queda arriba y la espalda recta.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "ROUND_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            540,
+            780
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            582,
+            1073
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Pecho apoyado",
+        "Agarre supino",
+        "Codos cerca",
+        "Volvé lento"
+      ],
+      "vo": "Tips: pecho apoyado, agarre supino, codos cerca del cuerpo y volvé lento.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "START",
+              1.2
+            ],
+            [
+              "PULL",
+              1.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Asiento y placa ajustados",
+        "Palmas hacia arriba",
+        "Sin impulso del tronco",
+        "Pausa al final"
+      ],
+      "vo": "Claves: asiento y placa ajustados, palmas hacia arriba, sin impulso del tronco y pausa al final.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10–12"
+      ],
+      "sub": "Un minuto de pausa",
+      "vo": "Tres series de diez a doce repeticiones, con un minuto de pausa. Si las doce salen fáciles, subí peso.",
+      "chips": [
+        {
+          "label": "1 · TIRÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "START",
+              1.2
+            ],
+            [
+              "PULL",
+              1.4
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "SOLTÁ",
+        "LENTO"
+      ],
+      "sub": "Sin rebotar",
+      "vo": "Al terminar, volvé a la posición inicial sin soltar las manijas de golpe y dejá que los discos bajen despacio.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "START",
+          "at": 0.9,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            985,
+            1040
+          ],
+          "text": "SIN SOLTAR",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "PULL",
+    "zoom": 1.08,
+    "dy": 70
+  },
+  "youtube": {
+    "titulo": "Lever Reverse Grip Vertical Row 🔥 Remo vertical con agarre supino | Gimnasio",
+    "tags": [
+      "lever reverse grip vertical row",
+      "remo vertical agarre supino",
+      "remo con agarre invertido",
+      "remo en máquina de palanca",
+      "remo sentado",
+      "espalda alta",
+      "dorsales",
+      "bíceps",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de espalda"
+    ],
+    "descripcion": "🔥 LEVER REVERSE GRIP VERTICAL ROW (remo vertical en máquina de palanca con agarre supino) — espalda alta, dorsales y bíceps\n\nEl agarre supino cambia el ángulo de trabajo y suma bíceps: si usás impulso del tronco o subís los hombros, el trabajo se reparte y los omóplatos no se juntan. La clave es tirar con los codos cerca del cuerpo y volver lento. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el asiento para que el pecho quede apoyado en la almohadilla y las manijas a la altura del pecho.\n2️⃣ Poné los pies planos en la placa y elegí un peso que puedas mover 10–12 veces.\n\n📋 PASO A PASO\n1️⃣ Sentate con la espalda recta y el pecho apoyado en la almohadilla.\n2️⃣ Tomá las dos manijas verticales con agarre supino, las palmas hacia arriba.\n3️⃣ Tirá las manijas hacia el torso llevando los codos cerca del cuerpo.\n4️⃣ Apretá los omóplatos un segundo y volvé lento.\n5️⃣ Mantené el pecho apoyado durante todo el recorrido.\n\n❌ ERRORES COMUNES\n• Echarse atrás para tirar → el tronco queda quieto y el pecho apoyado.\n• Subir los hombros → hombros abajo y omóplatos hacia atrás.\n• Redondear la espalda → pecho arriba y espalda recta.\n\n💡 TIPS DEL PROFE\n• Pecho apoyado y mirada al frente.\n• Palmas hacia arriba durante todo el recorrido.\n• Apretá los omóplatos al final.\n• Volvé lento, sin soltar el peso de golpe.\n\n🎯 QUÉ TRABAJA\nEspalda · Espalda alta · Bíceps · Antebrazos\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Espalda #EspaldaAlta #AgarreSupino #RemoVertical #MaquinaDePalanca #Biceps #Entrenamiento"
+  }
+}

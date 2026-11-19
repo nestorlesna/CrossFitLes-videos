@@ -1,0 +1,827 @@
+{
+  "slug": "sled-lying-calf-press",
+  "name": "Sled Lying Calf Press",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Gemelos",
+    "Pantorrilla"
+  ],
+  "descripcion": "Gemelos en el sled tumbado: acostate en el banco con las rodillas casi extendidas y la planta de los pies en la plataforma. Empujá la plataforma con el metatarso moviendo solo los tobillos y volvé hasta sentir el estiramiento.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 700,
+    "y": 1500.7,
+    "scale": 0.92
+  },
+  "shadow": false,
+  "initialPose": "DOWN",
+  "props": [
+    {
+      "type": "legpresslie",
+      "bench": [
+        -660,
+        -195,
+        -150
+      ],
+      "ankle": [
+        95,
+        -186
+      ],
+      "cx": 230,
+      "stops": -290
+    }
+  ],
+  "poses": {
+    "DOWN": {
+      "hip": [
+        -300,
+        -198
+      ],
+      "b": -90,
+      "hd": -90,
+      "g": 1,
+      "hx": -400,
+      "hy": -186,
+      "ed": 1,
+      "ankle": [
+        95,
+        -186
+      ],
+      "ankle2": [
+        67,
+        -192
+      ],
+      "ft": -106,
+      "ft2": -106
+    },
+    "UP": {
+      "hip": [
+        -300,
+        -198
+      ],
+      "b": -90,
+      "hd": -90,
+      "g": 1,
+      "hx": -400,
+      "hy": -186,
+      "ed": 1,
+      "ankle": [
+        107,
+        -200
+      ],
+      "ankle2": [
+        79,
+        -206
+      ],
+      "ft": -72,
+      "ft2": -72
+    },
+    "HALF_BAD": {
+      "hip": [
+        -300,
+        -198
+      ],
+      "b": -90,
+      "hd": -90,
+      "g": 1,
+      "hx": -400,
+      "hy": -186,
+      "ed": 1,
+      "ankle": [
+        101,
+        -193
+      ],
+      "ankle2": [
+        73,
+        -199
+      ],
+      "ft": -89,
+      "ft2": -89
+    },
+    "KNEE_BAD": {
+      "hip": [
+        -300,
+        -198
+      ],
+      "b": -90,
+      "hd": -90,
+      "g": 1,
+      "hx": -400,
+      "hy": -186,
+      "ed": 1,
+      "ankle": [
+        40,
+        -150
+      ],
+      "ankle2": [
+        12,
+        -156
+      ],
+      "ft": -104,
+      "ft2": -104
+    },
+    "HIP_BAD": {
+      "hip": [
+        -300,
+        -228
+      ],
+      "b": -80,
+      "hd": -90,
+      "g": 1,
+      "hx": -400,
+      "hy": -186,
+      "ed": 1,
+      "ankle": [
+        95,
+        -186
+      ],
+      "ankle2": [
+        67,
+        -192
+      ],
+      "ft": -106,
+      "ft2": -106
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "GEMELOS",
+        "EN EL SLED"
+      ],
+      "sub": "Tumbado y de frente",
+      "vo": "Gemelos en el sled tumbado: la plataforma se empuja con la punta de los pies y el tobillo hace todo el recorrido.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.2
+            ],
+            [
+              "UP",
+              1.2
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "BANCO",
+        "Y PLATAFORMA"
+      ],
+      "sub": "Carro con cable",
+      "vo": "El banco queda horizontal, la plataforma se desliza sobre un riel y la pila del otro lado le da la carga.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            838,
+            1225
+          ],
+          "r": 66,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            470,
+            1090
+          ],
+          "text": "PLATAFORMA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            915,
+            894
+          ],
+          "r": 62,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            900
+          ],
+          "text": "PILA DE PESO",
+          "anchor": "end",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            792,
+            1429
+          ],
+          "r": 40,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            240,
+            1180
+          ],
+          "text": "RIEL",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "ESPALDA",
+        "EN EL BANCO"
+      ],
+      "sub": "Bien apoyado",
+      "vo": "Acostate con la espalda y la cadera pegadas al banco, la cabeza en el apoyo y los brazos al costado.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            424,
+            1363
+          ],
+          "r": 90,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            160,
+            1150
+          ],
+          "text": "ESPALDA APOYADA",
+          "anchor": "start",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 7.8,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "PLANTA",
+        "EN LA PLATAFORMA"
+      ],
+      "sub": "Rodillas casi rectas",
+      "vo": "Apoyá la planta completa en la plataforma con los tobillos a noventa grados y las rodillas casi extendidas.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            842,
+            1254
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            600,
+            1170
+          ],
+          "text": "PLANTA COMPLETA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            614,
+            1207
+          ],
+          "r": 46,
+          "at": 1.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            240,
+            1060
+          ],
+          "text": "RODILLA BLANDA",
+          "anchor": "start",
+          "at": 1.9
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PUNTA",
+        "ARRIBA"
+      ],
+      "sub": "Talón abajo",
+      "vo": "Arrancá con la punta de los pies hacia arriba y los talones bajos, sintiendo el estiramiento del gemelo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            821,
+            1271
+          ],
+          "r": 46,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            520,
+            1150
+          ],
+          "text": "TALÓN ABAJO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "EMPUJÁ",
+        "CON LA PUNTA"
+      ],
+      "sub": "Solo el tobillo",
+      "vo": "Paso uno. Empujá la plataforma con el metatarso estirando los tobillos, sin mover las rodillas.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.4,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            682,
+            1280
+          ],
+          "r": 46,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            330,
+            1120
+          ],
+          "text": "APRETÁ EL GEMELO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "PAUSA",
+        "EN LA PUNTA"
+      ],
+      "sub": "Un segundo",
+      "vo": "Paso dos. Quedate un segundo en la punta más alta, con los tobillos estirados y el gemelo apretado.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.2,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            798,
+            1317
+          ],
+          "r": 46,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            560,
+            1150
+          ],
+          "text": "PAUSA ARRIBA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "EL TALÓN"
+      ],
+      "sub": "Controlá la vuelta",
+      "vo": "Paso tres. Bajá los talones despacio hasta sentir el estiramiento, sin dejar que la plataforma gane velocidad.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.5,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            821,
+            1271
+          ],
+          "r": 46,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            500,
+            1150
+          ],
+          "text": "BAJÁ CONTROLANDO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá al empujar",
+      "vo": "Tomá aire cuando bajás los talones y soltalo cuando empujás la plataforma. No aguantes el aire arriba.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.2
+            ],
+            [
+              "UP",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "DOBLAR",
+        "LAS RODILLAS"
+      ],
+      "sub": "Rodillas quietas",
+      "vo": "Error: doblar las rodillas para empujar la plataforma. Las rodillas quedan casi extendidas y quietas.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "KNEE_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            614,
+            1207
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "MEDIA",
+        "REPETICIÓN"
+      ],
+      "sub": "Recorrido completo",
+      "vo": "Error: quedarse a mitad de camino. Bajá hasta estirar el gemelo y subí hasta la punta más alta.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "HALF_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            821,
+            1271
+          ],
+          "r": 46,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "DESPEGAR",
+        "LA CADERA"
+      ],
+      "sub": "Cadera en el banco",
+      "vo": "Error: levantar la cadera del banco para llegar más arriba. La cadera queda pegada todo el tiempo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "HIP_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            424,
+            1319
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Talón abajo y punta arriba",
+        "Empuje con el metatarso",
+        "Rodillas casi rectas",
+        "Pausa en la punta"
+      ],
+      "vo": "Tips: arrancá con el talón bajo, empujá con el metatarso, rodillas casi rectas y pausa en la punta.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.2
+            ],
+            [
+              "UP",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Cadera pegada al banco",
+        "Rodillas sin moverse",
+        "Sin rebotar",
+        "Recorrido completo"
+      ],
+      "vo": "Claves: cadera pegada al banco, rodillas sin moverse, sin rebotar y recorrido completo.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 15–20"
+      ],
+      "sub": "Gemelos",
+      "vo": "Tres series de quince a veinte repeticiones, con un minuto de pausa. Peso moderado y el recorrido completo, sin rebotar.",
+      "chips": [
+        {
+          "label": "1 · EMPUJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PAUSA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.1
+            ],
+            [
+              "UP",
+              1.1
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "SALÍ",
+        "DESPACIO"
+      ],
+      "sub": "Sin apurarse",
+      "vo": "Al terminar la serie, volvé a apoyar la plataforma en el tope y recién ahí sentate y salí del banco.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.9,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            520,
+            1150
+          ],
+          "text": "SIN APURARSE",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "zoom": 1.06,
+    "dy": 40
+  },
+  "youtube": {
+    "titulo": "Sled Lying Calf Press 🔥 Gemelos en el sled tumbado | Gimnasio",
+    "tags": [
+      "sled lying calf press",
+      "gemelos en sled",
+      "gemelos",
+      "pantorrilla",
+      "sled machine",
+      "prensa tumbado",
+      "piernas",
+      "máquina de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de piernas",
+      "entrenamiento de gemelos"
+    ],
+    "descripcion": "🔥 SLED LYING CALF PRESS (extensión de tobillos en el sled tumbado) — gemelos\n\nEn el sled tumbado la espalda y la cadera quedan en el banco y la plataforma corre sobre un riel: el movimiento es del tobillo, con las rodillas casi extendidas y quietas. Es la variante más directa para cargar los gemelos sin que la espalda tenga que sostener el peso. Si doblás las rodillas, cortás el recorrido o despegás la cadera, el estímulo se pierde. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Acostate con la espalda y la cadera pegadas al banco.\n2️⃣ Apoyá la planta completa con los tobillos a noventa grados.\n\n📋 PASO A PASO\n1️⃣ Arrancá con la punta de los pies arriba y los talones bajos.\n2️⃣ Empujá la plataforma con el metatarso estirando los tobillos.\n3️⃣ Quedate un segundo arriba apretando el gemelo.\n4️⃣ Bajá controlando hasta sentir el estiramiento.\n5️⃣ Completá la serie y volvé la plataforma al tope.\n\n❌ ERRORES COMUNES\n• Doblar las rodillas → las rodillas quedan casi rectas y quietas.\n• Media repetición → bajá hasta el estiramiento y subí hasta la punta.\n• Despegar la cadera → la cadera pegada al banco.\n\n💡 TIPS DEL PROFE\n• Talón abajo y punta arriba.\n• Empuje con el metatarso.\n• Rodillas casi rectas.\n• Pausa de un segundo en la punta.\n\n🎯 QUÉ TRABAJA\nPiernas → Gemelos → Pantorrilla\n\n⏱️ CUÁNTO\n3 series de 15–20 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Gemelos #Pantorrilla #SledMachine #Piernas #Entrenamiento #Fuerza"
+  }
+}

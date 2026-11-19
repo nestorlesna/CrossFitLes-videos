@@ -109,7 +109,7 @@ function props(e) {
       [/abduction/, "hipabduction"], [/adduction/, "hipadduction"], [/hip thrust|glute/, "hipthrust"], [/pulldown/, "latpulldown"],
       [/chest press|bench press|incline .*press|decline .*press/, "chestpress"], [/shoulder press|military/, "shoulderpress"],
       [/dip/, "seateddip"], [/back extension|hyperextension/, "backext45"], [/chin-up|pull-up/, "assisted"],
-      [/row/, "leverrow"], [/shrug/, "levershrug"]], "lever");
+      [/bent-over.*v-bar/, "tbarrow"], [/row/, "leverrow"], [/shrug/, "levershrug"]], "lever");
     case "sled machine": return first(n, [[/hack/, "hacksquat"]], "legpress");
     case "smith machine": return plus("smith");
     case "cable": return first(n, [[/cross-?over|fly/, "cablecrossover"], [/seated .*row|low .*row/, "cablerow"], [/pulldown/, "latpulldown"]], "cable");

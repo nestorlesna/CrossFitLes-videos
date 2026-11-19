@@ -1,0 +1,829 @@
+{
+  "slug": "smith-reverse-calf-raises",
+  "name": "Smith Reverse Calf Raises",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Tibial anterior",
+    "Gemelos",
+    "Espinilla"
+  ],
+  "descripcion": "Gemelo invertido en la Smith: con los talones apoyados en un cajón y las puntas afuera, se levantan las puntas de los pies contra la barra. Trabaja el tibial anterior, la parte de adelante de la pierna, que casi nunca se entrena y ayuda a estabilizar el tobillo.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 540,
+    "y": 1503.1,
+    "scale": 0.85
+  },
+  "shadow": false,
+  "initialPose": "STAND",
+  "props": [
+    {
+      "type": "smith",
+      "x": 70,
+      "top": -1000,
+      "gap": 300,
+      "stops": -520,
+      "track": "back",
+      "torso": [
+        -34,
+        18
+      ],
+      "r": 64
+    },
+    {
+      "type": "step",
+      "x": 40,
+      "y": 0,
+      "w": 220,
+      "h": 54
+    }
+  ],
+  "poses": {
+    "STAND": {
+      "ankle": [
+        55,
+        -54
+      ],
+      "ankle2": [
+        -25,
+        -54
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "g": 0,
+      "ua": -16,
+      "fa": 8,
+      "hip": [
+        10,
+        -516
+      ],
+      "b": 8,
+      "hd": 2
+    },
+    "UP": {
+      "ankle": [
+        55,
+        -54
+      ],
+      "ankle2": [
+        -25,
+        -54
+      ],
+      "ft": -34,
+      "ft2": 0,
+      "g": 0,
+      "ua": -16,
+      "fa": 8,
+      "hip": [
+        10,
+        -516
+      ],
+      "b": 8,
+      "hd": 2
+    },
+    "HALF_BAD": {
+      "ankle": [
+        55,
+        -54
+      ],
+      "ankle2": [
+        -25,
+        -54
+      ],
+      "ft": -16,
+      "ft2": 0,
+      "g": 0,
+      "ua": -16,
+      "fa": 8,
+      "hip": [
+        10,
+        -516
+      ],
+      "b": 8,
+      "hd": 2
+    },
+    "KNEES_BAD": {
+      "ankle": [
+        55,
+        -54
+      ],
+      "ankle2": [
+        -25,
+        -54
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "g": 0,
+      "ua": -16,
+      "fa": 8,
+      "hip": [
+        10,
+        -486
+      ],
+      "b": 10,
+      "hd": 2
+    },
+    "LEAN_BAD": {
+      "ankle": [
+        55,
+        -54
+      ],
+      "ankle2": [
+        -25,
+        -54
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "g": 0,
+      "ua": -16,
+      "fa": 8,
+      "hip": [
+        40,
+        -512
+      ],
+      "b": 24,
+      "hd": 10
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "GEMELO",
+        "INVERTIDO"
+      ],
+      "sub": "Tibial anterior",
+      "vo": "Smith Reverse Calf Raises: elevación de las puntas de los pies con la barra en la espalda.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "STAND",
+              1.2
+            ],
+            [
+              "UP",
+              1.3
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "BARRA Y",
+        "CAJÓN"
+      ],
+      "sub": "Talón en el cajón",
+      "vo": "La barra corre entre los parantes y apoya en la espalda alta. El cajón levanta los talones para que las puntas queden libres.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            718,
+            680
+          ],
+          "r": 64,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BARRA GUIADA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            854,
+            976
+          ],
+          "r": 56,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            880
+          ],
+          "text": "PARANTES",
+          "anchor": "start",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            574,
+            1440
+          ],
+          "r": 54,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            960
+          ],
+          "text": "CAJÓN",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "BARRA A",
+        "LA ESPALDA"
+      ],
+      "sub": "Trapecios",
+      "vo": "Ajustá la barra a la altura de los trapecios, con los topes altos para poder soltarla sin agacharte.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            600,
+            840
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BARRA A LA ESPALDA",
+          "anchor": "start",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "TALÓN EN",
+        "EL CAJÓN"
+      ],
+      "sub": "Puntas afuera",
+      "vo": "Apoyá los talones en el cajón y dejá las puntas afuera, colgando en el aire.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            621,
+            1486
+          ],
+          "r": 46,
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            514,
+            1454
+          ],
+          "r": 48,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "TALÓN ARRIBA DEL CAJÓN",
+          "anchor": "start",
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            880
+          ],
+          "text": "PUNTAS AFUERA",
+          "anchor": "start",
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE",
+        "DERECHO"
+      ],
+      "sub": "Torso alto",
+      "vo": "Quedate derecho, con el abdomen firme y la mirada al frente. Los talones apoyan en el cajón y las rodillas quedan casi estiradas.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            600,
+            1262
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "RODILLAS ESTIRADAS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SUBÍ LAS",
+        "PUNTAS"
+      ],
+      "sub": "Lo más alto",
+      "vo": "Paso uno. Levantá las puntas de los pies lo más alto que puedas, como si quisieras llevarlas hacia la espinilla.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.4,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            514,
+            1454
+          ],
+          "r": 48,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "PUNTAS ARRIBA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "APRETÁ",
+        "ARRIBA"
+      ],
+      "sub": "Pausa arriba",
+      "vo": "Paso dos. Hacé una pausa de un segundo arriba, apretando la parte de adelante de la pierna sin mover las rodillas.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.2,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            589,
+            1359
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "TIBIAL ANTERIOR",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "LENTO"
+      ],
+      "sub": "Hasta el piso",
+      "vo": "Paso tres. Bajá las puntas despacio hasta que el pie quede plano, sin dejarlo caer.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "STAND",
+          "at": 0.5,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            514,
+            1454
+          ],
+          "r": 48,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "CONTROLÁ LA BAJADA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá al subir",
+      "vo": "Tomá aire abajo y soltalo mientras subís las puntas. No aguantes el aire ni pierdas el equilibrio.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "STAND",
+              1.2
+            ],
+            [
+              "UP",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "MEDIO",
+        "RECORRIDO"
+      ],
+      "sub": "Puntas completas",
+      "vo": "Error: quedarte a mitad de camino. Subí las puntas hasta arriba y bajá hasta el pie plano en cada repetición.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "HALF_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            514,
+            1454
+          ],
+          "r": 48,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "DOBLAR",
+        "LAS RODILLAS"
+      ],
+      "sub": "Rodillas quietas",
+      "vo": "Error: doblar las rodillas. La rodilla queda casi estirada: el movimiento sale del tobillo, no de la pierna.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "KNEES_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            600,
+            1262
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "INCLINAR",
+        "EL TORSO"
+      ],
+      "sub": "Torso alto",
+      "vo": "Error: inclinarte hacia adelante. El torso queda alto y la barra quieta sobre la espalda durante todo el recorrido.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            561,
+            1027
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Puntas completas",
+        "Rodillas quietas",
+        "Torso alto",
+        "Bajada lenta"
+      ],
+      "vo": "Tips: subí las puntas completas, rodillas quietas, torso alto y bajada lenta.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "STAND",
+              1.2
+            ],
+            [
+              "UP",
+              1.1
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Talón en el cajón",
+        "Puntas afuera",
+        "Pausa arriba",
+        "Sin rebote"
+      ],
+      "vo": "Claves: talón en el cajón, puntas afuera, pausa arriba y sin rebote.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 15–20"
+      ],
+      "sub": "Tibial anterior",
+      "vo": "Tres series de quince a veinte repeticiones, con un minuto de pausa. Es un músculo chico: priorizá el recorrido.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "STAND",
+              1.0
+            ],
+            [
+              "UP",
+              1.0
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "APOYÁ LOS",
+        "PIES"
+      ],
+      "sub": "Sin apuro",
+      "vo": "Al terminar, apoyá los pies completos en el piso y dejá la barra en los topes antes de salir de la máquina.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "STAND",
+          "at": 0.8,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "SIN APURO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "zoom": 1.02,
+    "dy": 70
+  },
+  "youtube": {
+    "titulo": "Smith Reverse Calf Raises 🔥 Tibial anterior | Piernas",
+    "tags": [
+      "smith reverse calf raises",
+      "gemelo invertido",
+      "tibial anterior",
+      "espinilla",
+      "gemelos",
+      "smith machine",
+      "multipower",
+      "tobillo",
+      "pantorrillas",
+      "gimnasio",
+      "principiantes",
+      "rutina de piernas"
+    ],
+    "descripcion": "🔥 SMITH REVERSE CALF RAISES (elevación de las puntas de los pies en la máquina Smith) — tibial anterior y estabilidad del tobillo\n\nEl gemelo invertido en la Smith trabaja el tibial anterior, la parte de adelante de la pierna. Los talones apoyan en un cajón y las puntas quedan afuera, colgando: desde ahí se levantan las puntas lo más alto posible, con la barra apoyada en la espalda alta. Es un músculo chico, así que se usan más repeticiones y poco peso. Sirve para equilibrar el trabajo del gemelo y estabilizar el tobillo. Los errores típicos son hacer medio recorrido, doblar las rodillas e inclinar el torso. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá la barra a la altura de los trapecios, con los topes altos.\n2️⃣ Apoyá los talones en el cajón y dejá las puntas afuera.\n\n📋 PASO A PASO\n1️⃣ Quedate derecho, con el abdomen firme y las rodillas casi estiradas.\n2️⃣ Levantá las puntas de los pies lo más alto posible.\n3️⃣ Hacé una pausa de un segundo arriba.\n4️⃣ Bajá despacio hasta que el pie quede plano.\n5️⃣ Al terminar, apoyá los pies y dejá la barra en los topes.\n\n❌ ERRORES COMUNES\n• Medio recorrido → puntas completas arriba y bajada entera.\n• Doblar las rodillas → la rodilla queda casi estirada.\n• Inclinar el torso → torso alto y barra quieta.\n\n💡 TIPS DEL PROFE\n• Talón en el cajón y puntas afuera.\n• Rodillas casi estiradas.\n• Pausa arriba, sin rebote.\n• Bajada lenta hasta el pie plano.\n\n🎯 QUÉ TRABAJA\nPiernas → Tibial anterior → Tobillo\n\n⏱️ CUÁNTO\n3 series de 15–20 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Piernas #TibialAnterior #SmithMachine #Gemelos #Tobillo #Entrenamiento #Fuerza"
+  }
+}

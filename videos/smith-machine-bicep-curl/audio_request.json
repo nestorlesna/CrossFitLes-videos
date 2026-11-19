@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Smith Machine Bicep Curl",
+      "text": "El curl de bíceps en la barra guiada de la Smith, para aislar el bíceps sin balanceo."
+    },
+    {
+      "id": "02",
+      "text": "La Smith te guía la barra en línea recta entre los parantes: no peleás con el equilibrio, solo con la subida."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá la barra a la altura de la cadera: con los brazos estirados las manos llegan cómodas y sin encogerte."
+    },
+    {
+      "id": "04",
+      "text": "Agarrá la barra con las palmas hacia arriba, un poco más abiertas que los hombros, y elegí un peso que puedas controlar."
+    },
+    {
+      "id": "05",
+      "text": "De pie, pies al ancho de los hombros, codos pegados al torso y abdomen firme. La espalda no se mueve."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Subí la barra hacia el pecho contrayendo el bíceps, sin mover los codos ni el torso."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Arriba hacé una pausa breve y apretá el bíceps: no hace falta subir más allá del pecho."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá la barra en dos segundos hasta estirar el brazo, sin soltar la tensión ni rebotar."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire abajo y soltalo mientras subís. No aguantes el aire arriba ni te quedes sin aire en la serie."
+    },
+    {
+      "id": "10",
+      "text": "Error: quedarte a mitad de camino. Bajá hasta estirar el brazo y subí hasta el pecho en cada repetición."
+    },
+    {
+      "id": "11",
+      "text": "Error: balancear el torso para subir. La espalda queda quieta y el codo sigue pegado al costado."
+    },
+    {
+      "id": "12",
+      "text": "Error: llevar los codos adelante o atrás. Quedan pegados al torso y la barra sube en línea recta."
+    },
+    {
+      "id": "13",
+      "text": "Tips: barra a la altura de la cadera, codo pegado, sin balanceo y bajada de dos segundos."
+    },
+    {
+      "id": "14",
+      "text": "Claves: agarre supino, codos fijos, muñeca firme y recorrido completo."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce repeticiones, con un minuto de pausa. Subí el peso cuando las doce salgan fáciles."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, dejá la barra en el soporte de la Smith y salí de la máquina sin apurarte."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

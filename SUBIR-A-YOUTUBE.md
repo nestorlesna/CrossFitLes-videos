@@ -273,6 +273,8 @@ Aplica **siempre**: al subir un corto y también al subir un video largo (el que
 3. Si el otro video existe → editar el que se está subiendo (descripción con el link + *Vídeo relacionado*) **y también el otro** (agregarle el link en la descripción y su *Vídeo relacionado*). Así queda en los dos sentidos aunque se hayan subido en días distintos.
    **Excepción:** si el corto está **privado**, Studio no lo ofrece en el *Vídeo relacionado* del largo y el link en la descripción del largo quedaría muerto: se hace **corto → largo** ahora y **largo → corto** recién cuando el corto pase a público (queda «pendiente» en la bitácora).
 
+**Contenido alterado por IA (siempre):** en cada video, corto o largo, en *Detalles* → *Mostrar configuración avanzada* → «Uso de IA» (¿contenido alterado o sintético?) marcar **Sí** y guardar. En el DOM es el radio `VIDEO_HAS_ALTERED_CONTENT_YES`. Aplica a todo lo que se suba o vincule (la voz es TTS e imagen generada).
+
 **Registro:** cada vez, `node plantilla/vincular.mjs <slug> --largo=<ID> --corto=<ID> --largo-en-corto=si|pendiente --corto-en-largo=si|pendiente`. Escribe `vinculos.csv` y regenera **`BITACORA-VINCULOS.md`** (bitácora de videos vinculados). Los «pendiente» se retoman cuando se sube el que faltaba: buscar en la bitácora las filas con «pendiente».
 
 > Los cortos generan su descripción con `node plantilla/corto-youtube.mjs <slug>`; si el largo ya se conoce, la línea del link sale sola (hoy 92 de 364 cortos tienen el ID del calendario). Si el largo se sube después, se agrega el link al editar el corto.
@@ -290,3 +292,13 @@ Aplica **siempre**: al subir un corto y también al subir un video largo (el que
 | `quotaExceeded` / `uploadLimitExceeded` | Esperá al otro día. La cuota se renueva alrededor de las 4 o 5 de la mañana (hora de Uruguay/Argentina). |
 | `{{marcador}}` sin reemplazar | Hay que corregir el `.youtube.txt`. Ese video no se sube. |
 | "Ya figura en el log" | Ya lo subiste. Si querés resubirlo, usá `--force`. |
+
+---
+
+## 6 sexies. Subida masiva de cortos (2026-11-18): sin miniatura tras el tope + seguimiento
+
+- YouTube deja ~10 miniaturas propias por día: los primeros 10 cortos del día llevan miniatura; el resto **se sube sin miniatura** (se pone otro día en Studio).
+- Seguimiento en `cortos-subidos.csv` (columna **miniatura** `si|no`; `corto-subido.mjs <slug> <id> --vis=publico --mini=si|no`; `--mini=si` solo, para marcarla cuando se cargue después) y `vinculos.csv`. El CHECKLIST tiene las columnas **Corto miniatura** y **Corto vinculado** (✅ / ⚠️ parcial / ⬜). Con `NOCHK=1` no regenera el CHECKLIST en cada corto (se regenera una vez al final).
+- Cortos sin miniatura pendiente: `grep ";no$" cortos-subidos.csv`.
+- Studio acepta *Publicar* mientras sigue «Procesando en HD»; no hace falta esperar a «Comprobaciones completadas».
+- Revisar siempre que la lista «Videos cortos de ejercicios» quedó puesta (a veces el selector no abre y queda «Seleccionar»): se corrige en `/video/<ID>/edit`.

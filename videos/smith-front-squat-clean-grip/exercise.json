@@ -1,0 +1,811 @@
+{
+  "slug": "smith-front-squat-clean-grip",
+  "name": "Smith Front Squat Clean Grip",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Cuádriceps",
+    "Glúteo",
+    "Espalda alta"
+  ],
+  "descripcion": "Sentadilla frontal en la Smith con agarre de cargada: la barra va delante de los hombros, los codos bien altos y el pecho arriba. Bajás y subís en la vertical, con el torso lo más derecho posible y las rodillas blandas. Si los codos caen, la barra se va adelante y la espalda se lleva la carga.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 540,
+    "y": 1503.1,
+    "scale": 0.85
+  },
+  "shadow": false,
+  "initialPose": "UP",
+  "props": [
+    {
+      "type": "smith",
+      "x": 90,
+      "top": -860,
+      "gap": 300,
+      "stops": -520,
+      "track": "hands",
+      "torso": [
+        -34,
+        18
+      ],
+      "r": 58
+    }
+  ],
+  "poses": {
+    "UP": {
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "g": 0,
+      "ua": 70,
+      "fa": -140,
+      "hip": [
+        10,
+        -462
+      ],
+      "b": 8,
+      "hd": 0
+    },
+    "DOWN": {
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "g": 0,
+      "ua": 70,
+      "fa": -140,
+      "hip": [
+        -55,
+        -262
+      ],
+      "b": 34,
+      "hd": -2
+    },
+    "HALF_BAD": {
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "g": 0,
+      "ua": 70,
+      "fa": -140,
+      "hip": [
+        -15,
+        -368
+      ],
+      "b": 20,
+      "hd": 0
+    },
+    "LEAN_BAD": {
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "g": 0,
+      "ua": 70,
+      "fa": -140,
+      "hip": [
+        -55,
+        -262
+      ],
+      "b": 58,
+      "hd": 8
+    },
+    "HEEL_BAD": {
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ],
+      "ft": -32,
+      "ft2": 0,
+      "g": 0,
+      "ua": 70,
+      "fa": -140,
+      "hip": [
+        -55,
+        -262
+      ],
+      "b": 34,
+      "hd": -2
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "SENTADILLA",
+        "FRONTAL"
+      ],
+      "sub": "Agarre de cargada",
+      "vo": "Sentadilla frontal en la Smith: la barra delante de los hombros, los codos altos y el pecho arriba.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.3
+            ],
+            [
+              "DOWN",
+              1.4
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "BARRA",
+        "GUIADA"
+      ],
+      "sub": "Multipower",
+      "vo": "La barra corre guiada entre los parantes: el recorrido es una vertical y los topes te marcan la salida.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            616,
+            752
+          ],
+          "r": 66,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BARRA GUIADA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            872,
+            959
+          ],
+          "r": 56,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            880
+          ],
+          "text": "PARANTES",
+          "anchor": "start",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            872,
+            1061
+          ],
+          "r": 48,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            960
+          ],
+          "text": "TOPES",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "BARRA",
+        "ADELANTE"
+      ],
+      "sub": "Sobre los hombros",
+      "vo": "Sacá la barra de los ganchos y apoyala delante de los hombros, sobre el pecho alto, con los codos arriba.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            616,
+            971
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BARRA ADELANTE",
+          "anchor": "start",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "PIES AL",
+        "ANCHO"
+      ],
+      "sub": "Puntas afuera",
+      "vo": "Parate con los pies al ancho de la cadera y las puntas un poco hacia afuera, con las rodillas blandas.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            591,
+            1503
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            523,
+            1503
+          ],
+          "r": 50,
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "PIES AL ANCHO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "CODOS",
+        "ALTOS"
+      ],
+      "sub": "Pecho arriba",
+      "vo": "Arrancá con los codos bien altos, el pecho arriba y la mirada al frente: la barra no se mueve de ahí.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            616,
+            971
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "CODOS ALTOS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ",
+        "DERECHO"
+      ],
+      "sub": "Torso vertical",
+      "vo": "Paso uno. Bajá en la vertical con el torso lo más derecho posible, llevando la cola atrás y abajo.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.4,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            493,
+            1280
+          ],
+          "r": 58,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "TORSO DERECHO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "RODILLAS",
+        "BLANDAS"
+      ],
+      "sub": "Hasta abajo",
+      "vo": "Paso dos. Bajá hasta donde llegues sin perder la espalda: las rodillas blandas y alineadas con los pies.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.2,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            690,
+            1335
+          ],
+          "r": 52,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "RODILLAS BLANDAS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "SUBÍ CON",
+        "EL PECHO"
+      ],
+      "sub": "Empujá el piso",
+      "vo": "Paso tres. Subí empujando el piso con todo el pie y subiendo el pecho primero, sin adelantarlo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.5,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            616,
+            971
+          ],
+          "r": 58,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "SUBÍ EL PECHO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá al subir",
+      "vo": "Tomá aire arriba, aguantá mientras bajás y soltalo al subir. No pierdas el aire en el fondo.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.3
+            ],
+            [
+              "DOWN",
+              1.4
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "MEDIA",
+        "SENTADILLA"
+      ],
+      "sub": "Hasta abajo",
+      "vo": "Error: quedarte a mitad de camino. Bajá hasta donde puedas mantener la espalda recta.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "HALF_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            527,
+            1190
+          ],
+          "r": 56,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "CAER",
+        "ADELANTE"
+      ],
+      "sub": "Codos altos",
+      "vo": "Error: caer adelante con los codos abajo. Si los codos suben, la barra se queda sobre los hombros.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            698,
+            1127
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "TALONES",
+        "AFUERA"
+      ],
+      "sub": "Pie entero",
+      "vo": "Error: levantar los talones. El pie va entero en el piso, con el peso repartido de punta a talón.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "HEEL_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            591,
+            1503
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Barra en el pecho",
+        "Codos altos",
+        "Torso derecho",
+        "Pie entero"
+      ],
+      "vo": "Tips: barra en el pecho alto, codos altos, torso derecho y el pie entero en el piso.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.2
+            ],
+            [
+              "DOWN",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Codos arriba",
+        "Pecho alto",
+        "Rodillas afuera",
+        "Subida controlada"
+      ],
+      "vo": "Claves: codos arriba, pecho alto, rodillas afuera y subida controlada.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 8–10"
+      ],
+      "sub": "Cuádriceps y glúteo",
+      "vo": "Tres series de ocho a diez repeticiones, con un minuto y medio de pausa. Peso moderado y bajada lenta.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · RODILLAS",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SUBÍ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.2
+            ],
+            [
+              "DOWN",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "DEJÁ LA BARRA",
+        "EN LOS GANCHOS"
+      ],
+      "sub": "Sin apuro",
+      "vo": "Al terminar la serie, subí derecho y dejá la barra en los ganchos antes de soltar las manos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.9,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "SIN APURO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "DOWN",
+    "zoom": 1.02,
+    "dy": 20
+  },
+  "youtube": {
+    "titulo": "Smith Front Squat Clean Grip 🔥 Sentadilla frontal en la Smith | Piernas",
+    "tags": [
+      "smith front squat",
+      "sentadilla frontal",
+      "clean grip",
+      "agarre de cargada",
+      "smith machine",
+      "multipower",
+      "cuádriceps",
+      "glúteo",
+      "gimnasio",
+      "principiantes",
+      "rutina de piernas"
+    ],
+    "descripcion": "🔥 SMITH FRONT SQUAT CLEAN GRIP (sentadilla frontal con barra guiada en la máquina Smith) — cuádriceps y glúteo\n\nLa sentadilla frontal en la Smith pone la barra delante de los hombros, sobre el pecho alto, con los codos arriba en agarre de cargada. Como la barra va guiada en una sola vertical, el torso se mantiene más derecho y el trabajo se concentra en cuádriceps y glúteo. Si los codos caen, la barra se va adelante y la espalda se lleva la carga; si te quedás a media altura o levantás los talones, perdés el recorrido. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Sacá la barra de los ganchos y apoyala delante de los hombros.\n2️⃣ Pies al ancho de la cadera, puntas afuera y rodillas blandas.\n\n📋 PASO A PASO\n1️⃣ Arrancá con los codos bien altos y el pecho arriba.\n2️⃣ Bajá en la vertical llevando la cola atrás y abajo.\n3️⃣ Mantené las rodillas alineadas con los pies.\n4️⃣ Subí empujando el piso y subiendo el pecho primero.\n5️⃣ Completá la serie y dejá la barra en los ganchos.\n\n❌ ERRORES COMUNES\n• Media sentadilla → bajá hasta donde controlás.\n• Caer adelante → codos altos y pecho arriba.\n• Talones afuera → pie entero en el piso.\n\n💡 TIPS DEL PROFE\n• Barra en el pecho alto, no en la nuca.\n• Codos altos y adelante.\n• Torso lo más derecho posible.\n• Subida controlada, sin rebotar.\n\n🎯 QUÉ TRABAJA\nPiernas → Cuádriceps → Glúteo\n\n⏱️ CUÁNTO\n3 series de 8–10 repeticiones, con 1½ minuto de pausa. Nivel: intermedio.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #SentadillaFrontal #SmithMachine #Cuadriceps #Gluteo #Piernas #Entrenamiento #Fuerza"
+  }
+}

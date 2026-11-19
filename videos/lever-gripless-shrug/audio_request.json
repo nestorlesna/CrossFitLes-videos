@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Gripless Shrug",
+      "text": "Encogimiento de hombros en palanca: empujá la almohadilla con los trapecios, sin agarrar nada ni doblar los codos."
+    },
+    {
+      "id": "02",
+      "text": "La máquina tiene una almohadilla que apoya en los trapecios, manijas fijas al frente y una pila que sube por cable."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá la altura para que la almohadilla apoye sobre los trapecios y las manijas queden a la altura del pecho."
+    },
+    {
+      "id": "04",
+      "text": "Separá los pies al ancho de cadera y apoyá las manos en las manijas, sin apretar: el trabajo lo hacen los hombros."
+    },
+    {
+      "id": "05",
+      "text": "Arrancá con los hombros abajo, el pecho arriba y los brazos apenas flexionados, sin colgar el peso de las manos."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá la almohadilla hacia arriba con los trapecios, como si quisieras tocar las orejas con los hombros."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Sostené un segundo arriba, con los codos quietos y la almohadilla bien alta."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá lento hasta sentir el estiramiento de los trapecios, sin soltar el peso de golpe."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire cuando encogés y tomá aire cuando bajás. El abdomen queda firme y las costillas abajo."
+    },
+    {
+      "id": "10",
+      "text": "Error: echarse atrás para empujar la almohadilla. El tronco queda vertical y los hombros hacen el recorrido."
+    },
+    {
+      "id": "11",
+      "text": "Error: encoger apenas unos centímetros. Subí la almohadilla hasta el tope y hacé la pausa completa."
+    },
+    {
+      "id": "12",
+      "text": "Error: redondear la espalda y bajar el pecho. El pecho se queda arriba y la espalda recta durante todo el recorrido."
+    },
+    {
+      "id": "13",
+      "text": "Tips: almohadilla sobre los trapecios, codos quietos, pausa arriba y bajada lenta."
+    },
+    {
+      "id": "14",
+      "text": "Claves: empujá con los hombros, sin agarrar fuerte las manijas, pecho arriba y mirada al frente."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de doce a quince repeticiones, con un minuto de pausa. Elegí un peso que te deje completar el recorrido."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar la serie, bajá la almohadilla despacio, soltá las manijas y salí de la máquina sin encorvarte."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

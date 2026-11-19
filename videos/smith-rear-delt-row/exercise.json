@@ -1,0 +1,823 @@
+{
+  "slug": "smith-rear-delt-row",
+  "name": "Smith Rear Delt Row",
+  "maquina": true,
+  "category": "GIMNASIO · ESPALDA",
+  "tags": [
+    "Deltoide posterior",
+    "Espalda alta",
+    "Trapecio"
+  ],
+  "descripcion": "Remo abierto para deltoide posterior en la Smith: el torso queda más alto que en un remo común, el agarre es ancho y los codos salen hacia afuera. La barra se tira al pecho alto con un recorrido corto, así trabaja la parte de atrás del hombro y la espalda alta, no el dorsal.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 370,
+    "y": 1503.1,
+    "scale": 0.85
+  },
+  "shadow": false,
+  "initialPose": "HINGE",
+  "props": [
+    {
+      "type": "smith",
+      "x": 200,
+      "top": -860,
+      "gap": 300,
+      "stops": -260,
+      "track": "hands",
+      "torso": [
+        -34,
+        18
+      ],
+      "r": 60
+    }
+  ],
+  "poses": {
+    "HINGE": {
+      "ankle": [
+        55,
+        0
+      ],
+      "ankle2": [
+        -25,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "hip": [
+        -40,
+        -445
+      ],
+      "b": 48,
+      "hd": 6,
+      "g": 1,
+      "hx": 200,
+      "hy": -303
+    },
+    "PULL": {
+      "ankle": [
+        55,
+        0
+      ],
+      "ankle2": [
+        -25,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "hip": [
+        -40,
+        -445
+      ],
+      "b": 48,
+      "hd": 6,
+      "g": 1,
+      "hx": 200,
+      "hy": -515
+    },
+    "ROUND_BAD": {
+      "ankle": [
+        55,
+        0
+      ],
+      "ankle2": [
+        -25,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "hip": [
+        -55,
+        -425
+      ],
+      "b": 54,
+      "hd": 50,
+      "g": 1,
+      "hx": 200,
+      "hy": -300
+    },
+    "SHRUG_BAD": {
+      "ankle": [
+        55,
+        0
+      ],
+      "ankle2": [
+        -25,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "hip": [
+        -40,
+        -445
+      ],
+      "b": 48,
+      "hd": 6,
+      "g": 1,
+      "hx": 200,
+      "hy": -515,
+      "sh": 28
+    },
+    "SWING_BAD": {
+      "ankle": [
+        55,
+        0
+      ],
+      "ankle2": [
+        -25,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "hip": [
+        0,
+        -482
+      ],
+      "b": 30,
+      "hd": 0,
+      "g": 1,
+      "hx": 200,
+      "hy": -520
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · ESPALDA",
+      "head": [
+        "REMO",
+        "ABIERTO"
+      ],
+      "sub": "Deltoide posterior",
+      "vo": "Smith Rear Delt Row: remo abierto en la barra guiada para la parte de atrás del hombro.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "HINGE",
+              1.1
+            ],
+            [
+              "PULL",
+              1.2
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "BARRA",
+        "GUIADA"
+      ],
+      "sub": "Recorrido fijo",
+      "vo": "La barra corre entre los parantes en una sola vertical: el torso se queda quieto y el recorrido es siempre el mismo.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            540,
+            765
+          ],
+          "r": 66,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BARRA GUIADA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            795,
+            976
+          ],
+          "r": 56,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            880
+          ],
+          "text": "PARANTES",
+          "anchor": "start",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            795,
+            1282
+          ],
+          "r": 48,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            960
+          ],
+          "text": "TOPES",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "BARRA A",
+        "LAS RODILLAS"
+      ],
+      "sub": "Altura baja",
+      "vo": "Dejá la barra a la altura de las rodillas y los topes justo debajo, para que puedas soltarla si hace falta.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            540,
+            1246
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            795,
+            1282
+          ],
+          "r": 44,
+          "at": 2.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BARRA Y TOPES",
+          "anchor": "start",
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            880
+          ],
+          "text": "A LAS RODILLAS",
+          "anchor": "start",
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "AGARRE",
+        "ABIERTO"
+      ],
+      "sub": "Manos anchas",
+      "vo": "Agarrá la barra con las manos más anchas que los hombros, palmas hacia abajo y muñecas firmes.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            540,
+            1246
+          ],
+          "r": 52,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "AGARRE ABIERTO",
+          "anchor": "start",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "INCLINADO",
+        "ADELANTE"
+      ],
+      "sub": "Espalda recta",
+      "vo": "Inclinate desde la cadera con la espalda recta y las rodillas blandas. La barra cuelga de los brazos a la altura de las rodillas.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            472,
+            1061
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "ESPALDA RECTA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "TIRÁ AL",
+        "PECHO ALTO"
+      ],
+      "sub": "Codos afuera",
+      "vo": "Paso uno. Tirá la barra al pecho alto abriendo los codos hacia afuera, a la altura de los hombros.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.4,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            540,
+            1065
+          ],
+          "r": 58,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "AL PECHO ALTO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "APRETÁ",
+        "ATRÁS"
+      ],
+      "sub": "Pausa arriba",
+      "vo": "Paso dos. Hacé una pausa corta apretando la parte de atrás del hombro, sin encoger el cuello.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.2,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            519,
+            993
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "DELTOIDE POSTERIOR",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "CONTROLANDO"
+      ],
+      "sub": "Brazos estirados",
+      "vo": "Paso tres. Bajá la barra controlando el recorrido hasta estirar los brazos, sin dejarla caer ni perder la espalda recta.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "HINGE",
+          "at": 0.5,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            540,
+            1246
+          ],
+          "r": 58,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "CONTROLÁ LA BAJADA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá al tirar",
+      "vo": "Tomá aire cuando la barra baja y soltalo al tirar. No aguantes el aire ni pierdas la posición del torso.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "HINGE",
+              1.2
+            ],
+            [
+              "PULL",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "REDONDEAR",
+        "LA ESPALDA"
+      ],
+      "sub": "Espalda recta",
+      "vo": "Error: redondear la espalda. Mantenela recta de la cadera a la nuca y la mirada al frente, sin bajar la cabeza.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "to": "ROUND_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            472,
+            1061
+          ],
+          "r": 58,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "ENCOGER",
+        "LOS HOMBROS"
+      ],
+      "sub": "Cuello largo",
+      "vo": "Error: encogerse de hombros. El cuello queda largo: el trabajo lo hace el deltoide posterior.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "to": "SHRUG_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            513,
+            966
+          ],
+          "r": 58,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "TIRAR CON",
+        "EL CUERPO"
+      ],
+      "sub": "Torso quieto",
+      "vo": "Error: enderezar el torso para tirar. El torso queda firme y el peso lo mueve la espalda, no el balanceo.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "to": "SWING_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            366,
+            1104
+          ],
+          "r": 56,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Agarre abierto",
+        "Codos afuera",
+        "Espalda recta",
+        "Pecho alto"
+      ],
+      "vo": "Tips: agarre abierto, codos afuera, espalda recta y la barra al pecho alto.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "HINGE",
+              1.2
+            ],
+            [
+              "PULL",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Manos anchas",
+        "Bisagra de cadera",
+        "Codos a la altura del hombro",
+        "Bajada controlada"
+      ],
+      "vo": "Claves: manos anchas, bisagra de cadera, codos a la altura del hombro y bajada controlada.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12–15"
+      ],
+      "sub": "Deltoide posterior y espalda alta",
+      "vo": "Tres series de doce a quince repeticiones, con un minuto de pausa. Priorizá el recorrido corto y limpio.",
+      "chips": [
+        {
+          "label": "1 · TIRÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "HINGE",
+              1.1
+            ],
+            [
+              "PULL",
+              1.1
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "DEJÁ LA BARRA",
+        "EN LOS TOPES"
+      ],
+      "sub": "Sin apuro",
+      "vo": "Al terminar, dejá la barra en los topes y enderezate despacio, sin soltar la espalda de golpe.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "HINGE",
+          "at": 0.9,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "SIN APURO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "PULL",
+    "zoom": 1.02,
+    "dy": 20
+  },
+  "youtube": {
+    "titulo": "Smith Rear Delt Row 🔥 Remo abierto para hombro | Espalda",
+    "tags": [
+      "smith rear delt row",
+      "remo abierto",
+      "deltoide posterior",
+      "hombro posterior",
+      "remo en smith",
+      "smith machine",
+      "multipower",
+      "espalda alta",
+      "trapecio",
+      "gimnasio",
+      "principiantes",
+      "rutina de espalda"
+    ],
+    "descripcion": "🔥 SMITH REAR DELT ROW (remo abierto con la barra guiada para el deltoide posterior) — deltoide posterior y espalda alta\n\nEl remo abierto en la Smith trabaja la parte de atrás del hombro. El torso queda más alto que en un remo común, el agarre es ancho y los codos salen hacia afuera a la altura de los hombros. La barra se tira al pecho alto con un recorrido corto, así el deltoide posterior y la espalda alta hacen el trabajo y el dorsal participa menos. Los errores típicos son redondear la espalda, encogerse de hombros y enderezar el torso para tirar. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Dejá la barra a la altura de las rodillas y los topes justo debajo.\n2️⃣ Pies al ancho de la cadera, rodillas blandas e inclinate desde la cadera.\n\n📋 PASO A PASO\n1️⃣ Agarrá la barra más ancho que los hombros, palmas hacia abajo.\n2️⃣ Tirá la barra al pecho alto abriendo los codos hacia afuera.\n3️⃣ Hacé una pausa corta apretando la parte de atrás del hombro.\n4️⃣ Bajá controlando hasta estirar los brazos.\n5️⃣ Dejá la barra en los topes al terminar.\n\n❌ ERRORES COMUNES\n• Redondear la espalda → espalda recta y mirada al frente.\n• Encoger los hombros → cuello largo y hombros abajo.\n• Tirar con el cuerpo → el torso queda firme.\n\n💡 TIPS DEL PROFE\n• Agarre abierto, más ancho que los hombros.\n• Codos afuera, a la altura del hombro.\n• La barra sube al pecho alto.\n• Bajada controlada hasta estirar.\n\n🎯 QUÉ TRABAJA\nEspalda → Deltoide posterior → Espalda alta → Trapecio\n\n⏱️ CUÁNTO\n3 series de 12–15 repeticiones, con 1 minuto de pausa. Nivel: intermedio.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Espalda #DeltoidePosterior #SmithMachine #Hombro #Remo #Entrenamiento #Fuerza"
+  }
+}

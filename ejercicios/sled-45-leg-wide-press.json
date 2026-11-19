@@ -1,0 +1,870 @@
+{
+  "slug": "sled-45-leg-wide-press",
+  "name": "Sled 45 Leg Wide Press",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Cuádriceps",
+    "Glúteos"
+  ],
+  "descripcion": "Prensa a 45 grados con los pies bien separados: apoyá la espalda, abrí los pies hacia los bordes de la plataforma y bajá el carro hasta donde llegues con la cadera apoyada. Empujá con toda la planta y las rodillas alineadas con las puntas.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 610,
+    "y": 1500.7,
+    "scale": 0.92
+  },
+  "shadow": false,
+  "initialPose": "TOP",
+  "props": [
+    {
+      "type": "legpress",
+      "hip": [
+        -320,
+        -300
+      ],
+      "ang": 35,
+      "lean": -45,
+      "stops": 300
+    }
+  ],
+  "poses": {
+    "TOP": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ft": -128,
+      "ft2": -128,
+      "ankle": [
+        50.3,
+        -559.3
+      ],
+      "ankle2": [
+        -33.7,
+        -551.3
+      ]
+    },
+    "MID": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ft": -128,
+      "ft2": -128,
+      "ankle": [
+        3.6,
+        -526.6
+      ],
+      "ankle2": [
+        -80.4,
+        -518.6
+      ]
+    },
+    "BOTTOM": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ft": -128,
+      "ft2": -128,
+      "ankle": [
+        -45.6,
+        -492.1
+      ],
+      "ankle2": [
+        -129.6,
+        -484.1
+      ]
+    },
+    "SHALLOW_BAD": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ft": -128,
+      "ft2": -128,
+      "ankle": [
+        10.0,
+        -532.0
+      ],
+      "ankle2": [
+        -74.0,
+        -524.0
+      ]
+    },
+    "HEELS_BAD": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ft": -100,
+      "ft2": -100,
+      "ankle": [
+        -45.6,
+        -492.1
+      ],
+      "ankle2": [
+        -129.6,
+        -484.1
+      ]
+    },
+    "NARROW_BAD": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ft": -128,
+      "ft2": -128,
+      "ankle": [
+        -45.6,
+        -492.1
+      ],
+      "ankle2": [
+        -55.6,
+        -488.1
+      ]
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "PIES BIEN",
+        "SEPARADOS"
+      ],
+      "sub": "Postura ancha",
+      "vo": "Prensa a 45 grados con los pies bien abiertos: el carro corre por el riel y las piernas empujan desde una base ancha.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.0
+            ],
+            [
+              "BOTTOM",
+              1.5
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "CARRO Y",
+        "RIEL 45°"
+      ],
+      "sub": "Plataforma inclinada",
+      "vo": "El carro con discos corre sobre un riel a 45 grados y la plataforma queda arriba, donde apoyás los pies.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            830,
+            982
+          ],
+          "r": 92,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            800
+          ],
+          "text": "DISCOS",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            544,
+            1278
+          ],
+          "r": 44,
+          "at": 1.7
+        },
+        {
+          "type": "label",
+          "pos": [
+            560,
+            1200
+          ],
+          "text": "RIEL 45°",
+          "anchor": "start",
+          "at": 1.7
+        },
+        {
+          "type": "ring",
+          "pos": [
+            662,
+            982
+          ],
+          "r": 52,
+          "at": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            890
+          ],
+          "text": "PLATAFORMA",
+          "anchor": "end",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "ESPALDA",
+        "Y CADERA"
+      ],
+      "sub": "Bien apoyado",
+      "vo": "Apoyá la espalda en el respaldo y la cadera en el asiento, con la cabeza y los hombros relajados.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            196,
+            1114
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "RESPALDO",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            316,
+            1254
+          ],
+          "r": 56,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1470
+          ],
+          "text": "CADERA APOYADA",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.6,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "PIES A LOS",
+        "BORDES"
+      ],
+      "sub": "Base ancha",
+      "vo": "Abrí los pies hacia los bordes de la plataforma, con las puntas un poco hacia afuera y las rodillas alineadas.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            656,
+            986
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            579,
+            994
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            900
+          ],
+          "text": "PIES ANCHOS",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PIERNAS",
+        "CASI ESTIRADAS"
+      ],
+      "sub": "Sin trabar",
+      "vo": "Arrancá con las piernas casi estiradas, las rodillas blandas y los pies bien apoyados en la plataforma.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            656,
+            986
+          ],
+          "r": 48,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            900
+          ],
+          "text": "SIN TRABAR",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ",
+        "CONTROLANDO"
+      ],
+      "sub": "Rodillas afuera",
+      "vo": "Paso uno. Bajá el carro llevando las rodillas hacia afuera, en línea con las puntas de los pies.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.6,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            739,
+            894
+          ],
+          "to": [
+            647,
+            985
+          ],
+          "at": 0.8,
+          "dur": 1.2,
+          "bend": [
+            40,
+            0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            900
+          ],
+          "text": "BAJÁ LENTO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "FONDO",
+        "DEL RECORRIDO"
+      ],
+      "sub": "Cadera apoyada",
+      "vo": "Paso dos. Llegá hasta donde llegues con la cadera apoyada en el asiento y la espalda pegada al respaldo.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.2,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            360,
+            1008
+          ],
+          "r": 52,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            900
+          ],
+          "text": "SIN DESPEGAR",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "EMPUJÁ",
+        "PAREJO"
+      ],
+      "sub": "Toda la planta",
+      "vo": "Paso tres. Empujá con toda la planta de los dos pies, estirando las rodillas sin trabarlas de golpe.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.5,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            647,
+            985
+          ],
+          "to": [
+            739,
+            894
+          ],
+          "at": 0.8,
+          "dur": 1.2,
+          "bend": [
+            40,
+            0
+          ]
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            900
+          ],
+          "text": "SUBÍ PAREJO",
+          "anchor": "start",
+          "at": 1.1
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Aire al bajar",
+      "vo": "Tomá aire al bajar el carro y soltalo al empujar. El abdomen queda firme y la cadera apoyada.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              0.9
+            ],
+            [
+              "BOTTOM",
+              1.7
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "MEDIA",
+        "REPETICIÓN"
+      ],
+      "sub": "Recorrido completo",
+      "vo": "Error: quedarse a mitad de camino. Bajá hasta donde llegues con la cadera apoyada y sin rebotar.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "SHALLOW_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            619,
+            1011
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "TALÓN",
+        "DESPEGADO"
+      ],
+      "sub": "Planta completa",
+      "vo": "Error: empujar con la punta y despegar los talones. Toda la planta queda apoyada y empuja parejo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "HEELS_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            568,
+            1048
+          ],
+          "r": 46,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "JUNTAR",
+        "LOS PIES"
+      ],
+      "sub": "Base ancha",
+      "vo": "Error: juntar los pies para empujar más fácil. Los pies quedan abiertos hacia los bordes de la plataforma.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "NARROW_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            558,
+            1052
+          ],
+          "r": 56,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Pies a los bordes",
+        "Rodillas afuera",
+        "Talones abajo",
+        "Bajá controlando"
+      ],
+      "vo": "Tips: pies a los bordes, rodillas hacia afuera, talones abajo y bajada controlada.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.0
+            ],
+            [
+              "BOTTOM",
+              1.5
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Espalda en el respaldo",
+        "Empujá con la planta",
+        "Sin trabar las rodillas",
+        "Puntas hacia afuera"
+      ],
+      "vo": "Claves: espalda en el respaldo, empujá con la planta, sin trabar las rodillas y puntas hacia afuera.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10–12"
+      ],
+      "sub": "Cuádriceps",
+      "vo": "Tres series de diez a doce repeticiones, con dos minutos de pausa. Elegí un peso que te deje llegar al fondo sin despegar la cadera.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · FONDO",
+          "at": 1.1
+        },
+        {
+          "label": "3 · SUBÍ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.0
+            ],
+            [
+              "BOTTOM",
+              1.5
+            ]
+          ],
+          "at": 0.5,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "SALÍ",
+        "DESPACIO"
+      ],
+      "sub": "Sin apurarse",
+      "vo": "Al terminar la serie, subí el carro, trabá el seguro y salí de la máquina sin encorvarte.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.9,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            900
+          ],
+          "text": "SIN APURARSE",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "BOTTOM",
+    "zoom": 1.06,
+    "dy": 40
+  },
+  "youtube": {
+    "titulo": "Sled 45 Leg Wide Press 🔥 Prensa 45 con pies bien separados | Gimnasio",
+    "tags": [
+      "sled 45 leg wide press",
+      "prensa pies separados",
+      "prensa 45 grados",
+      "prensa ancha",
+      "cuádriceps",
+      "glúteos",
+      "aductores",
+      "piernas",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de piernas"
+    ],
+    "descripcion": "🔥 SLED 45 LEG WIDE PRESS (prensa a 45 grados con los pies abiertos hacia los bordes de la plataforma) — cuádriceps, glúteos y aductores\n\nCon los pies bien separados en la plataforma de la prensa a 45 grados, el recorrido involucra más glúteo y aductor, y las rodillas tienen más lugar para viajar hacia afuera. Es una postura cómoda para empujar fuerte sin que la cadera se despegue. Si cortás el recorrido, despegás los talones o juntás los pies, el trabajo cambia y se pierde la base ancha. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Apoyá la espalda en el respaldo y la cadera en el asiento.\n2️⃣ Abrí los pies hacia los bordes de la plataforma con las puntas afuera.\n\n📋 PASO A PASO\n1️⃣ Arrancá con las piernas casi estiradas y las rodillas blandas.\n2️⃣ Bajá el carro llevando las rodillas hacia afuera.\n3️⃣ Llegá al fondo con la cadera apoyada y sin rebotar.\n4️⃣ Empujá con toda la planta hasta estirar las piernas.\n5️⃣ Subí el carro, trabá el seguro y salí despacio.\n\n❌ ERRORES COMUNES\n• Media repetición → bajá hasta donde llegues con la cadera apoyada.\n• Talones despegados → planta completa y empuje parejo.\n• Juntar los pies → pies abiertos hacia los bordes.\n\n💡 TIPS DEL PROFE\n• Pies a los bordes de la plataforma.\n• Rodillas hacia afuera, con las puntas.\n• Talones abajo durante todo el recorrido.\n• Bajada controlada, sin rebotar.\n\n🎯 QUÉ TRABAJA\nPiernas → Cuádriceps → Glúteos\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 2 minutos de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Cuadriceps #Prensa45 #Gluteos #Piernas #Aductores #Entrenamiento #Fuerza"
+  }
+}

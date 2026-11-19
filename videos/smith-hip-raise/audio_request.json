@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Smith Hip Raise",
+      "text": "Elevación de cadera en la Smith: supino, la barra sobre la pelvis y subís el glúteo hasta alinear el cuerpo."
+    },
+    {
+      "id": "02",
+      "text": "La barra corre guiada entre los parantes y los topes te dejan una salida de seguridad."
+    },
+    {
+      "id": "03",
+      "text": "Apoyá la barra sobre la pelvis, no sobre el abdomen, y sujetala con las manos a los costados."
+    },
+    {
+      "id": "04",
+      "text": "Pies al ancho de la cadera, apoyados a unos pasos, con las puntas apenas afuera."
+    },
+    {
+      "id": "05",
+      "text": "Arrancá supino, con los hombros, la cabeza y los pies bien apoyados y el abdomen firme."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá el piso con los talones y subí la cadera apretando el glúteo."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Arriba, hombros, cadera y rodillas quedan en línea, sin arquear la lumbar."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá controlado hasta apoyar la pelvis, sin dejarte caer y sin soltar el abdomen."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire abajo, subí soltando el aire y apretá el glúteo arriba. No aguantes la respiración."
+    },
+    {
+      "id": "10",
+      "text": "Error: quedarte a mitad de camino. Subí hasta alinear hombros, cadera y rodillas."
+    },
+    {
+      "id": "11",
+      "text": "Error: subir de más y arquear la lumbar. Las costillas bajan y el glúteo hace el trabajo."
+    },
+    {
+      "id": "12",
+      "text": "Error: empujar con las puntas. El empuje sale del talón y del pie entero, no de los dedos."
+    },
+    {
+      "id": "13",
+      "text": "Tips: barra sobre la pelvis, empujá con el talón, apretá el glúteo arriba y no arquees la lumbar."
+    },
+    {
+      "id": "14",
+      "text": "Claves: recorrido completo, costillas abajo, empuje del talón y bajada controlada."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce repeticiones, con un minuto de pausa. Apretá un segundo arriba."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar la serie, bajá la cadera, acomodá la barra en los ganchos y salí de la máquina."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

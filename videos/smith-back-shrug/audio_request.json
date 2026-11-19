@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Smith Back Shrug",
+      "text": "Encogimientos con la barra detrás de la espalda en la Smith: parado, la barra a la altura de la cadera y solo suben los hombros."
+    },
+    {
+      "id": "02",
+      "text": "En la Smith la barra corre guiada entre dos parantes, así que el recorrido es en línea recta y solo hay que empujar."
+    },
+    {
+      "id": "03",
+      "text": "Poné la barra a la altura de la cadera y agarrá con las dos manos detrás de la espalda, los brazos extendidos."
+    },
+    {
+      "id": "04",
+      "text": "Quedate parado con los pies al ancho de la cadera y el peso repartido en toda la planta."
+    },
+    {
+      "id": "05",
+      "text": "Arrancá con los hombros bajos, los brazos extendidos y la barra apoyada en las manos, sintiendo el trapecio estirado."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Subí los hombros hacia las orejas, como si encogieras el cuello. Los codos quedan extendidos."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Quedate un segundo arriba con los hombros bien altos, apretando el trapecio."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá los hombros despacio hasta estirar el trapecio, sin soltar la barra ni doblar los codos."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire cuando bajás los hombros y soltalo cuando encogés. No aguantes el aire arriba."
+    },
+    {
+      "id": "10",
+      "text": "Error: doblar los codos para levantar la barra. Los brazos quedan extendidos y el trabajo es del hombro."
+    },
+    {
+      "id": "11",
+      "text": "Error: quedarse a mitad de camino. Subí hasta el tope y bajá hasta estirar el trapecio."
+    },
+    {
+      "id": "12",
+      "text": "Error: inclinar el tronco para usar la espalda. El cuerpo queda derecho y el movimiento es solo del hombro."
+    },
+    {
+      "id": "13",
+      "text": "Tips: barra a la altura de la cadera, codos extendidos, hombros hacia las orejas y bajada controlada."
+    },
+    {
+      "id": "14",
+      "text": "Claves: sin doblar los codos, tronco derecho, pausa arriba y estirá abajo."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de doce a quince repeticiones, con un minuto de pausa. Peso moderado y una pausa de un segundo arriba."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar la serie, dejá la barra en los topes, soltá las manos y salí de la máquina con cuidado."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

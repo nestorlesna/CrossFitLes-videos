@@ -1,0 +1,827 @@
+{
+  "slug": "smith-shrug",
+  "name": "Smith Shrug",
+  "maquina": true,
+  "category": "GIMNASIO · ESPALDA",
+  "tags": [
+    "Trapecios",
+    "Hombros",
+    "Espalda alta"
+  ],
+  "descripcion": "Encogimientos de hombros en la Smith: parado de frente a la barra, con los brazos rectos y las manos un poco más abiertas que los hombros, subí los hombros hacia las orejas y bajalos despacio. La barra queda a la altura de la cadera y solo se mueven los hombros: los codos no se doblan.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 540,
+    "y": 1504.8,
+    "scale": 0.8
+  },
+  "shadow": false,
+  "initialPose": "DOWN",
+  "props": [
+    {
+      "type": "smith",
+      "x": 25,
+      "top": -920,
+      "gap": 280,
+      "stops": -300,
+      "track": "hands",
+      "r": 60
+    }
+  ],
+  "poses": {
+    "DOWN": {
+      "hip": [
+        -30,
+        -460
+      ],
+      "ankle": [
+        45,
+        0
+      ],
+      "ankle2": [
+        -25,
+        0
+      ],
+      "b": 3,
+      "hd": 0,
+      "ft": 0,
+      "ft2": 0,
+      "g": 1,
+      "hx": 25,
+      "ed": 1,
+      "hy": -415
+    },
+    "UP": {
+      "hip": [
+        -30,
+        -460
+      ],
+      "ankle": [
+        45,
+        0
+      ],
+      "ankle2": [
+        -25,
+        0
+      ],
+      "b": 3,
+      "hd": 0,
+      "ft": 0,
+      "ft2": 0,
+      "g": 1,
+      "hx": 25,
+      "ed": 1,
+      "sh": 40,
+      "hy": -455
+    },
+    "HALF_BAD": {
+      "hip": [
+        -30,
+        -460
+      ],
+      "ankle": [
+        45,
+        0
+      ],
+      "ankle2": [
+        -25,
+        0
+      ],
+      "b": 3,
+      "hd": 0,
+      "ft": 0,
+      "ft2": 0,
+      "g": 1,
+      "hx": 25,
+      "ed": 1,
+      "sh": 20,
+      "hy": -437
+    },
+    "ELBOW_BAD": {
+      "hip": [
+        -30,
+        -460
+      ],
+      "ankle": [
+        45,
+        0
+      ],
+      "ankle2": [
+        -25,
+        0
+      ],
+      "b": 3,
+      "hd": 0,
+      "ft": 0,
+      "ft2": 0,
+      "g": 1,
+      "hx": 110,
+      "ed": 1,
+      "sh": 24,
+      "hy": -510
+    },
+    "LEAN_BAD": {
+      "hip": [
+        -30,
+        -460
+      ],
+      "ankle": [
+        45,
+        0
+      ],
+      "ankle2": [
+        -25,
+        0
+      ],
+      "b": -16,
+      "hd": 0,
+      "ft": 0,
+      "ft2": 0,
+      "g": 1,
+      "hx": 25,
+      "ed": 1,
+      "sh": 32,
+      "hy": -480
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · ESPALDA",
+      "head": [
+        "ENCOGER",
+        "LOS HOMBROS"
+      ],
+      "sub": "Barra a la cadera",
+      "vo": "Encogimientos de hombros en la Smith: parado, brazos rectos y solo suben los hombros hacia las orejas.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.4
+            ],
+            [
+              "UP",
+              1.0
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "BARRA",
+        "GUIADA"
+      ],
+      "sub": "De frente a la barra",
+      "vo": "En la Smith la barra corre guiada en línea recta y los topes frenan la bajada, así que el encogimiento queda fijo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            560,
+            794
+          ],
+          "r": 66,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            760
+          ],
+          "text": "BARRA GUIADA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            784,
+            1057
+          ],
+          "r": 56,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            840
+          ],
+          "text": "PARANTE",
+          "anchor": "start",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            336,
+            1265
+          ],
+          "r": 52,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            920
+          ],
+          "text": "TOPES",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "BARRA A",
+        "LA CADERA"
+      ],
+      "sub": "Brazos estirados",
+      "vo": "Bajá la barra hasta la altura de la cadera, con los brazos estirados y los discos al lado de las piernas.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            560,
+            1173
+          ],
+          "r": 58,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            760
+          ],
+          "text": "BARRA A LA CADERA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "AGARRE",
+        "PRONO"
+      ],
+      "sub": "Manos cómodas",
+      "vo": "Agarrá la barra con las palmas hacia delante, las manos un poco más abiertas que los hombros y los brazos rectos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            560,
+            1155
+          ],
+          "r": 52,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            760
+          ],
+          "text": "AGARRE PRONO",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            528,
+            913
+          ],
+          "r": 44,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1030,
+            840
+          ],
+          "text": "BRAZOS RECTOS",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "HOMBROS",
+        "RELAJADOS"
+      ],
+      "sub": "Pies al ancho",
+      "vo": "Arrancá con los pies al ancho de los hombros, las rodillas blandas y los hombros relajados, sin subirlos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            528,
+            913
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            760
+          ],
+          "text": "HOMBROS RELAJADOS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SUBÍ LOS",
+        "HOMBROS"
+      ],
+      "sub": "Hacia las orejas",
+      "vo": "Paso uno. Subí los hombros hacia las orejas como si quisieras tocar el techo con la punta de arriba.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.4,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            560,
+            1141
+          ],
+          "r": 58,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            760
+          ],
+          "text": "SUBÍ LOS HOMBROS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ARRIBA",
+        "APRETÁ"
+      ],
+      "sub": "Codos quietos",
+      "vo": "Paso dos. Arriba, apretá los trapecios y quedate un instante: los codos no se doblan, los brazos quedan rectos.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.2,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            528,
+            913
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1030,
+            760
+          ],
+          "text": "CODO QUIETO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "DESPACIO"
+      ],
+      "sub": "Controlá la vuelta",
+      "vo": "Paso tres. Bajá los hombros despacio hasta la posición inicial, sin soltarlos de golpe ni dejar caer la barra.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.5,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            560,
+            1173
+          ],
+          "r": 58,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            760
+          ],
+          "text": "BAJÁ DESPACIO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá arriba",
+      "vo": "Tomá aire abajo y soltalo cuando suben los hombros. No aguantes el aire en todo el movimiento.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.3
+            ],
+            [
+              "UP",
+              1.0
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "MEDIA",
+        "REPETICIÓN"
+      ],
+      "sub": "Subí hasta arriba",
+      "vo": "Error: quedarse a mitad de camino. Los hombros suben hasta arriba y los trapecios se aprietan de verdad.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "HALF_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            560,
+            1155
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "DOBLAR",
+        "LOS CODOS"
+      ],
+      "sub": "Brazos rectos",
+      "vo": "Error: doblar los codos y tirar con los brazos. Los brazos quedan rectos y el trabajo lo hace el trapecio.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "ELBOW_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            643,
+            970
+          ],
+          "r": 52,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "BALANCEAR",
+        "EL CUERPO"
+      ],
+      "sub": "Sin impulso",
+      "vo": "Error: tirar el cuerpo atrás para empujar con la barra. Las piernas quedan firmes y el tronco quieto.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            497,
+            1026
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Brazos bien rectos",
+        "Barra a la cadera",
+        "Subí sin impulso",
+        "Bajá despacio"
+      ],
+      "vo": "Tips: brazos bien rectos, barra a la cadera, subí sin impulso y bajá despacio.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.3
+            ],
+            [
+              "UP",
+              1.0
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Hombros a las orejas",
+        "Codos quietos",
+        "Pies al ancho",
+        "Recorrido corto"
+      ],
+      "vo": "Claves: hombros a las orejas, codos quietos, pies al ancho y recorrido corto.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12–15"
+      ],
+      "sub": "Trapecios",
+      "vo": "Tres series de doce a quince repeticiones, con un minuto de pausa. Peso cómodo y sin balancear el cuerpo.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.2
+            ],
+            [
+              "UP",
+              1.0
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "DEJÁ",
+        "LA BARRA"
+      ],
+      "sub": "Sin apurarse",
+      "vo": "Al terminar la serie, dejá la barra en los topes, soltá las manos y recién ahí salí de la máquina.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.9,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            760
+          ],
+          "text": "SIN APURARSE",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "zoom": 1.0,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Smith Shrug 🔥 Encogimientos de hombros en la Smith | Trapecios",
+    "tags": [
+      "smith shrug",
+      "encogimientos de hombros",
+      "shrug en smith",
+      "smith machine",
+      "multipower",
+      "trapecios",
+      "espalda alta",
+      "hombros",
+      "gimnasio",
+      "principiantes",
+      "rutina de espalda",
+      "trapecio"
+    ],
+    "descripcion": "🔥 SMITH SHRUG (encogimientos de hombros con la barra guiada en la Smith) — trapecios y espalda alta\n\nEn la Smith la barra corre guiada en línea recta y los topes frenan la bajada, así que el encogimiento queda fijo y controlado. Se hace parado, de frente a la barra, con los brazos rectos y las manos un poco más abiertas que los hombros. Los hombros suben hacia las orejas y bajan despacio; los codos no se doblan y el tronco no se balancea. Si tirás con los brazos, cortás el recorrido o te colgás del impulso, el trapecio pierde el trabajo. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Bajá la barra hasta la altura de la cadera y ajustá los topes.\n2️⃣ Parate de frente a la barra con los pies al ancho de los hombros.\n\n📋 PASO A PASO\n1️⃣ Agarrá la barra con agarre prono, un poco más abierto que los hombros.\n2️⃣ Arrancá con los hombros relajados y los brazos bien rectos.\n3️⃣ Subí los hombros hacia las orejas y apretá los trapecios.\n4️⃣ Mantené el tronco quieto, sin balancear el cuerpo.\n5️⃣ Bajá los hombros despacio hasta la posición inicial.\n\n❌ ERRORES COMUNES\n• Doblar los codos → los brazos quedan rectos.\n• Balancear el cuerpo → piernas firmes y tronco quieto.\n• Media repetición → los hombros suben hasta arriba.\n\n💡 TIPS DEL PROFE\n• Brazos bien rectos.\n• Barra a la altura de la cadera.\n• Subí sin impulso de piernas.\n• Bajada controlada.\n\n🎯 QUÉ TRABAJA\nEspalda → Trapecios → Espalda alta\n\n⏱️ CUÁNTO\n3 series de 12–15 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Trapecios #Espalda #SmithMachine #Multipower #Shrug #Entrenamiento #Fuerza"
+  }
+}

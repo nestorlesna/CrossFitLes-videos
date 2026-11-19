@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Barbell Cluster",
+      "text": "Clean desde el piso y thruster sin pausa. Un solo movimiento para piernas y hombros."
+    },
+    {
+      "id": "02",
+      "text": "Parate con la barra en el piso, los pies al ancho de cadera y las manos por fuera de las piernas."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Despegá la barra pegada al cuerpo y extendé cadera y piernas por completo antes de bajar."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Pasá los codos al frente y metete abajo de la barra en sentadilla frontal profunda."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Sin frenar, subí de la sentadilla y empujá la barra sobre la cabeza hasta bloquear."
+    },
+    {
+      "id": "06",
+      "text": "Así no. Si los codos quedan bajos, la barra se va adelante y perdés la recepción."
+    },
+    {
+      "id": "07",
+      "text": "Claves: barra pegada, codos altos en la recepción, sin pausa en el rack y bloqueo completo arriba."
+    },
+    {
+      "id": "08",
+      "text": "Ocho, seis y cuatro repeticiones. Cada repetición vuelve al piso: clean, thruster y de nuevo abajo."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

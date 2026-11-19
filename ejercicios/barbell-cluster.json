@@ -1,0 +1,526 @@
+{
+  "slug": "barbell-cluster",
+  "name": "Barbell Cluster",
+  "category": "CROSSFIT · HABILIDAD",
+  "tags": [
+    "Piernas",
+    "Hombros",
+    "Potencia",
+    "Barra"
+  ],
+  "descripcion": "Squat clean desde el piso encadenado con un thruster: se recibe la barra en sentadilla frontal profunda y, sin pausa, la subida de la sentadilla impulsa la barra sobre la cabeza. Cada repetición vuelve al piso.",
+  "revisado": false,
+  "notas": "Poses de barbell-squat-clean (SETUP, KNEE, HIP, EXT, PULL_C, CATCH) encadenadas con DRIVE y LOCK de barbell-hang-power-cluster. El cluster no frena en el rack: CATCH → DRIVE → LOCK.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 460,
+    "y": 1509,
+    "scale": 0.66
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "torso": [
+        62,
+        32
+      ],
+      "r": 72,
+      "blend": true
+    }
+  ],
+  "pronuncia": {
+    "Barbell Cluster": "Bárbel cláster"
+  },
+  "initialPose": "STAND_BAR",
+  "poses": {
+    "STAND_BAR": {
+      "g": 1,
+      "ed": 1,
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "hx": 30,
+      "hy": -424
+    },
+    "SETUP": {
+      "g": 1,
+      "ed": 1,
+      "hip": [
+        -150,
+        -285
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": 72,
+      "hd": 56,
+      "hx": 30,
+      "hy": -40
+    },
+    "KNEE": {
+      "g": 1,
+      "ed": 1,
+      "s": 5,
+      "t": -55,
+      "b": 52,
+      "hd": 40,
+      "hx": 30,
+      "hy": -215
+    },
+    "HIP": {
+      "s": 18,
+      "t": -38,
+      "b": 18,
+      "hd": 10,
+      "g": 0,
+      "ua": 2,
+      "fa": 0,
+      "ua2": 2,
+      "fa2": 0
+    },
+    "EXT": {
+      "s": -4,
+      "t": 4,
+      "b": -8,
+      "hd": -6,
+      "ft": -22,
+      "ft2": -22,
+      "g": 0,
+      "ua": 6,
+      "fa": 0,
+      "ua2": 6,
+      "fa2": 0
+    },
+    "PULL_C": {
+      "s": -2,
+      "t": 2,
+      "b": -4,
+      "hd": -4,
+      "ft": -16,
+      "ft2": -16,
+      "g": 0,
+      "ua": 70,
+      "fa": -110,
+      "ua2": 70,
+      "fa2": -110
+    },
+    "CATCH": {
+      "s": 40,
+      "t": -112,
+      "b": 20,
+      "hd": 8,
+      "g": 0,
+      "ua": 68,
+      "fa": 176,
+      "ua2": 72,
+      "fa2": 172,
+      "bf": 1
+    },
+    "DRIVE": {
+      "s": 0,
+      "t": 2,
+      "hd": -4,
+      "ft": -10,
+      "ft2": -10,
+      "g": 0,
+      "ua": 92,
+      "fa": 176,
+      "ua2": 96,
+      "fa2": 172,
+      "bf": 1,
+      "b": -2
+    },
+    "LOCK": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 8,
+      "g": 0,
+      "ua": 184,
+      "fa": 0,
+      "ua2": 184,
+      "fa2": 0,
+      "bf": 0
+    },
+    "ELBOWS_LOW": {
+      "s": 40,
+      "t": -112,
+      "b": 24,
+      "hd": 12,
+      "g": 0,
+      "ua": 20,
+      "fa": 150,
+      "ua2": 24,
+      "fa2": 146,
+      "bf": 1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "CROSSFIT · HABILIDAD",
+      "head": [
+        "BARBELL",
+        "CLUSTER"
+      ],
+      "vo": "Barbell Cluster: clean desde el piso y thruster sin pausa. Un solo movimiento para piernas y hombros.",
+      "moves": [
+        {
+          "cut": "STAND_BAR",
+          "at": 0
+        },
+        {
+          "to": "SETUP",
+          "at": 0.3,
+          "dur": 0.4
+        },
+        {
+          "to": "KNEE",
+          "at": 0.7,
+          "dur": 0.3
+        },
+        {
+          "to": "EXT",
+          "at": 1.0,
+          "dur": 0.2
+        },
+        {
+          "to": "PULL_C",
+          "at": 1.2,
+          "dur": 0.15
+        },
+        {
+          "to": "CATCH",
+          "at": 1.35,
+          "dur": 0.25
+        },
+        {
+          "to": "DRIVE",
+          "at": 2.1,
+          "dur": 0.5
+        },
+        {
+          "to": "LOCK",
+          "at": 2.6,
+          "dur": 0.5
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BARRA EN",
+        "EL PISO"
+      ],
+      "sub": "Manos por fuera de las piernas",
+      "vo": "Parate con la barra en el piso, los pies al ancho de cadera y las manos por fuera de las piernas.",
+      "moves": [
+        {
+          "cut": "STAND_BAR",
+          "at": 0
+        },
+        {
+          "to": "SETUP",
+          "at": 0.8,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "TIRÁ DEL",
+        "PISO"
+      ],
+      "sub": "Barra pegada al cuerpo",
+      "vo": "Paso uno. Despegá la barra pegada al cuerpo y extendé cadera y piernas por completo antes de bajar.",
+      "moves": [
+        {
+          "cut": "SETUP",
+          "at": 0
+        },
+        {
+          "to": "KNEE",
+          "at": 0.6,
+          "dur": 0.8
+        },
+        {
+          "to": "HIP",
+          "at": 1.4,
+          "dur": 0.5
+        },
+        {
+          "to": "EXT",
+          "at": 1.9,
+          "dur": 0.4,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": [
+            489.6,
+            1469.4
+          ],
+          "to": [
+            489.6,
+            1291.2
+          ],
+          "at": 0.6,
+          "dur": 1.2
+        },
+        {
+          "type": "label",
+          "pos": [
+            562.2,
+            1231.8
+          ],
+          "text": "PEGADA AL CUERPO",
+          "anchor": "start",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "METETE",
+        "ABAJO"
+      ],
+      "sub": "Sentadilla profunda",
+      "vo": "Paso dos. Pasá los codos al frente y metete abajo de la barra en sentadilla frontal profunda.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "PULL_C",
+          "at": 0.5,
+          "dur": 0.25
+        },
+        {
+          "to": "CATCH",
+          "at": 0.75,
+          "dur": 0.4,
+          "ease": "power2.out"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "CATCH.S",
+            "dx": 30,
+            "dy": 110
+          },
+          "r": 62,
+          "at": 1.3,
+          "out": 2.6
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "CATCH.S",
+            "dy": -260
+          },
+          "text": "CODO ARRIBA",
+          "anchor": "middle",
+          "at": 1.4,
+          "out": 2.7
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "SUBÍ Y",
+        "EMPUJÁ"
+      ],
+      "sub": "Sin pausa en el rack",
+      "vo": "Paso tres. Sin frenar, subí de la sentadilla y empujá la barra sobre la cabeza hasta bloquear.",
+      "moves": [
+        {
+          "cut": "CATCH",
+          "at": 0
+        },
+        {
+          "to": "DRIVE",
+          "at": 0.7,
+          "dur": 0.9
+        },
+        {
+          "to": "LOCK",
+          "at": 1.8,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1120
+          ],
+          "text": "BLOQUEO COMPLETO",
+          "anchor": "start",
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "ASÍ NO",
+      "head": [
+        "CODOS",
+        "BAJOS"
+      ],
+      "sub": "La barra se va adelante",
+      "vo": "Así no. Si los codos quedan bajos, la barra se va adelante y perdés la recepción.",
+      "moves": [
+        {
+          "cut": "CATCH",
+          "at": 0
+        },
+        {
+          "to": "ELBOWS_LOW",
+          "at": 0.7,
+          "dur": 0.8
+        },
+        {
+          "to": "CATCH",
+          "at": 2.2,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "CATCH.S",
+            "dx": 20,
+            "dy": 120
+          },
+          "r": 62,
+          "at": 1.2,
+          "out": 2.2
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "CATCH.S",
+            "dy": -260
+          },
+          "text": "CODOS ARRIBA",
+          "anchor": "middle",
+          "at": 1.3,
+          "out": 2.3
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.8,
+      "keys": [
+        "Barra pegada al cuerpo",
+        "Codos altos en la recepción",
+        "Sin pausa en el rack",
+        "Bloqueo sobre el medio pie"
+      ],
+      "vo": "Claves: barra pegada, codos altos en la recepción, sin pausa en el rack y bloqueo completo arriba.",
+      "moves": [
+        {
+          "cut": "CATCH",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7,
+      "badge": "A ENTRENAR",
+      "head": [
+        "8-6-4 REPS"
+      ],
+      "sub": "Cada rep vuelve al piso",
+      "chips": [
+        {
+          "label": "1 · CLEAN",
+          "at": 0.5
+        },
+        {
+          "label": "2 · THRUSTER",
+          "at": 1.4
+        },
+        {
+          "label": "3 · AL PISO",
+          "at": 2.3
+        }
+      ],
+      "vo": "Ocho, seis y cuatro repeticiones. Cada repetición vuelve al piso: clean, thruster y de nuevo abajo.",
+      "moves": [
+        {
+          "seq": [
+            [
+              "SETUP",
+              0.7
+            ],
+            [
+              "CATCH",
+              0.8
+            ],
+            [
+              "LOCK",
+              0.9
+            ],
+            [
+              "STAND_BAR",
+              0.7
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "LOCK",
+    "grip": 0,
+    "zoom": 1.25,
+    "dy": 160
+  },
+  "youtube": {
+    "titulo": "Barbell Cluster 💥 Clean + Thruster sin pausa | CrossFit",
+    "tags": [
+      "barbell cluster",
+      "cluster crossfit",
+      "squat clean thruster",
+      "clean y thruster",
+      "clean desde el piso",
+      "thruster con barra",
+      "levantamiento olímpico",
+      "crossfit",
+      "potencia",
+      "barra"
+    ],
+    "descripcion": "💥 BARBELL CLUSTER — Clean desde el piso y thruster en un solo movimiento\n\n¿Querés juntar fuerza y potencia en una sola repetición? El cluster encadena el squat clean con el thruster sin frenar en el rack. Este ejercicio es para vos. 💪\n\n📋 PASO A PASO\n1️⃣ Barra en el piso, pies al ancho de cadera y manos por fuera de las piernas.\n2️⃣ Despegá la barra pegada al cuerpo y extendé cadera y piernas por completo.\n3️⃣ Pasá los codos al frente y metete abajo en sentadilla frontal profunda.\n4️⃣ Sin pausa, subí de la sentadilla y empujá la barra sobre la cabeza.\n5️⃣ Bloqueá arriba con la barra sobre la línea media del pie y volvé al piso.\n\n✅ CLAVES DE TÉCNICA\n• Barra pegada al cuerpo en todo el tirón\n• Codos altos en la recepción\n• No frenes en el rack: la subida empuja el press\n• Bloqueo completo arriba\n• Cada repetición vuelve al piso\n\n🎯 QUÉ TRABAJA\nGlúteo mayor · Recto femoral · Vasto lateral · Deltoides anterior · Trapecio superior · Tríceps · Erectores espinales · Recto abdominal\n\n⏱️ CUÁNTO\n8-6-4 repeticiones. Va en WODs o como trabajo de fuerza y potencia.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #BarbellCluster #Clean #Thruster #Potencia"
+  }
+}

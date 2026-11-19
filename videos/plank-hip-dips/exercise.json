@@ -1,0 +1,388 @@
+{
+  "slug": "plank-hip-dips",
+  "name": "Plank Hip Dips",
+  "category": "CROSSFIT · CORE",
+  "tags": [
+    "Core",
+    "Oblicuos",
+    "Plancha"
+  ],
+  "descripcion": "En plancha sobre los antebrazos, con el cuerpo en línea recta, llevar la cadera hacia un costado hasta casi rozar el piso, volver al centro y repetir hacia el otro lado, alternando de forma controlada.",
+  "revisado": false,
+  "notas": "Plancha baja de plank-up-down (FOREARM) como base; el dip baja la cadera ~47 px manteniendo el hombro fijo (b 83,3 → 74) y el tobillo fijo en [-300,-62]. El error es la cadera alta (pike): la cadera sube ~68 px y el torso gira hacia abajo (b 96). En el perfil el dip se lee como la cadera que baja y vuelve con control.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 460,
+    "y": 1504,
+    "scale": 0.8
+  },
+  "props": [],
+  "initialPose": "PLANK",
+  "poses": {
+    "PLANK": {
+      "hip": [
+        166.8,
+        -116.8
+      ],
+      "ankle": [
+        -300,
+        -62
+      ],
+      "ft": 55,
+      "b": 83.3,
+      "hd": 87.3,
+      "g": 0,
+      "ua": -14,
+      "fa": 104,
+      "g2": 0,
+      "ua2": -14,
+      "fa2": 104
+    },
+    "DIP": {
+      "hip": [
+        172,
+        -48
+      ],
+      "ankle": [
+        -300,
+        -62
+      ],
+      "ft": 58,
+      "b": 69,
+      "hd": 73,
+      "g": 0,
+      "ua": -14,
+      "fa": 104,
+      "g2": 0,
+      "ua2": -14,
+      "fa2": 104
+    },
+    "PIKE_BAD": {
+      "hip": [
+        200,
+        -270
+      ],
+      "ankle": [
+        -300,
+        -62
+      ],
+      "ft": 55,
+      "b": 117,
+      "hd": 121,
+      "g": 0,
+      "ua": -14,
+      "fa": 104,
+      "g2": 0,
+      "ua2": -14,
+      "fa2": 104
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.9,
+      "badge": "CROSSFIT · CORE",
+      "head": [
+        "PLANK",
+        "HIP DIPS"
+      ],
+      "vo": "Plank Hip Dips: en plancha, llevá la cadera a un costado y volvé al centro, sin perder la línea.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DIP",
+              0.9
+            ],
+            [
+              "PLANK",
+              0.9
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PLANCHA",
+        "BAJA"
+      ],
+      "sub": "Cuerpo en línea",
+      "vo": "En plancha sobre los antebrazos, hombros sobre los codos, glúteos firmes y el cuerpo en línea recta.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "PLANK.E",
+            "dx": 0,
+            "dy": -170
+          },
+          "text": "HOMBRO SOBRE EL CODO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "PLANK.H",
+            "dx": 0,
+            "dy": -225
+          },
+          "text": "GLÚTEOS FIRMES",
+          "anchor": "middle",
+          "at": 2.5
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "LLEVÁ LA",
+        "CADERA"
+      ],
+      "sub": "Hacia un costado",
+      "vo": "Paso uno. Llevá la cadera hacia un costado hasta casi rozar el piso, con el abdomen apretado.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        },
+        {
+          "to": "DIP",
+          "at": 0.8,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "DIP.H",
+            "dx": 0,
+            "dy": -70
+          },
+          "text": "CADERA BAJA",
+          "anchor": "middle",
+          "at": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "VOLVÉ AL",
+        "CENTRO"
+      ],
+      "sub": "Y cambiá de lado",
+      "vo": "Paso dos. Volvé al centro con control y repetí hacia el otro lado, alternando.",
+      "moves": [
+        {
+          "cut": "DIP",
+          "at": 0
+        },
+        {
+          "to": "PLANK",
+          "at": 0.6,
+          "dur": 1.1
+        },
+        {
+          "to": "DIP",
+          "at": 2.8,
+          "dur": 1
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "SIN",
+        "REBOTES"
+      ],
+      "sub": "Dos segundos por dip",
+      "vo": "Paso tres. Bajá en dos segundos y subí igual de lento: sin rebotes ni apuro.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        },
+        {
+          "to": "DIP",
+          "at": 0.6,
+          "dur": 1.6
+        },
+        {
+          "to": "PLANK",
+          "at": 3,
+          "dur": 1.6
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "ASÍ NO",
+      "head": [
+        "CADERA",
+        "ALTA"
+      ],
+      "sub": "El abdomen se descarga",
+      "vo": "Así no. Si levantás la cola, el abdomen se descarga y el oblicuo deja de trabajar.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        },
+        {
+          "to": "PIKE_BAD",
+          "at": 0.8,
+          "dur": 0.9
+        },
+        {
+          "to": "PLANK",
+          "at": 3.4,
+          "dur": 1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "PIKE_BAD.H",
+            "dx": 0,
+            "dy": -34
+          },
+          "r": 44,
+          "at": 1.8,
+          "out": 3.3
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "PIKE_BAD.H",
+            "dx": 10,
+            "dy": -96
+          },
+          "text": "COLA ARRIBA",
+          "anchor": "middle",
+          "at": 1.9,
+          "out": 3.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "shrink": 0.8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Cadera baja y controlada",
+        "Hombros sobre los codos",
+        "Glúteos y abdomen firmes",
+        "Sin rebotes: dos segundos por dip"
+      ],
+      "vo": "Claves: cadera baja y controlada, hombros sobre los codos, glúteos firmes y sin rebotes.",
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "30 SEG"
+      ],
+      "sub": "Alternando lados",
+      "vo": "Treinta segundos alternando lados, con la cadera bien baja y el abdomen firme.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ UN LADO",
+          "at": 0.6
+        },
+        {
+          "label": "2 · CENTRO",
+          "at": 1.2
+        },
+        {
+          "label": "3 · OTRO LADO",
+          "at": 1.8
+        }
+      ],
+      "moves": [
+        {
+          "cut": "PLANK",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DIP",
+              0.9
+            ],
+            [
+              "PLANK",
+              0.9
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "DIP",
+    "grip": 0,
+    "zoom": 1.1,
+    "dy": 150
+  },
+  "youtube": {
+    "titulo": "Plank Hip Dips | Oblicuos y core con plancha baja paso a paso | CrossFit",
+    "tags": [
+      "plank hip dips",
+      "plancha con toque de cadera",
+      "plancha baja",
+      "oblicuos",
+      "core",
+      "abdomen",
+      "plancha",
+      "crossfit",
+      "activación",
+      "estabilidad",
+      "ejercicio de core",
+      "técnica"
+    ],
+    "descripcion": "🎯 PLANK HIP DIPS — Oblicuos y core sin moverse de la plancha\n\nLa plancha ya la tenés. Ahora sumale el dip de cadera: el oblicuo entra en juego y el abdomen no se apaga. 💪\n\n📋 PASO A PASO\n1️⃣ Plancha sobre los antebrazos, hombros sobre los codos y el cuerpo en línea recta.\n2️⃣ Llevá la cadera hacia un costado hasta casi rozar el piso, con el abdomen apretado.\n3️⃣ Volvé al centro con control y repetí hacia el otro lado.\n4️⃣ Bajá en dos segundos y subí igual de lento: sin rebotes.\n\n✅ CLAVES DE TÉCNICA\n• Hombros siempre sobre los codos\n• Glúteos y abdomen firmes: el cuerpo no se dobla\n• El dip es corto y controlado, no una caída\n• Sin apuro ni rebotes, respirando constante\n• ¿Muy exigente? Apoyá las rodillas en el piso\n\n🎯 QUÉ TRABAJA\nOblicuo externo · Oblicuo interno · Recto abdominal · Glúteo medio · Deltoides anterior\n\n⏱️ CUÁNTO\n30 segundos alternando lados, 3 series. Ideal al final del bloque de core.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Core #PlankHipDips #Oblicuos #Entrenamiento"
+  },
+  "pronuncia": {
+    "Plank Hip Dips": "Plank jip dips",
+    "Plank": "plank",
+    "Hip Dips": "jip dips"
+  }
+}

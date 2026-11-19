@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Sled 45 Degrees One Leg Press",
+      "text": "Prensa a 45 grados a una pierna: el carro corre por el riel y cada pierna empuja por su cuenta."
+    },
+    {
+      "id": "02",
+      "text": "El carro con discos corre sobre un riel a 45 grados y la plataforma queda arriba, donde apoyás el pie."
+    },
+    {
+      "id": "03",
+      "text": "Apoyá la espalda en el respaldo y la cadera en el asiento, con la cabeza y los hombros relajados."
+    },
+    {
+      "id": "04",
+      "text": "Poné un solo pie en el centro de la plataforma y dejá la otra pierna flexionada, sin apoyarla en ningún lado."
+    },
+    {
+      "id": "05",
+      "text": "Arrancá con la pierna casi estirada, la rodilla blanda y el pie bien apoyado en la plataforma."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Bajá la plataforma doblando la rodilla hacia el pecho, sin que la cadera se despegue del asiento."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Llegá hasta donde llegues con la cadera apoyada y la rodilla bien flexionada, sin rebotar."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Empujá la plataforma con toda la planta del pie, estirando la rodilla sin trabarla de golpe."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire al bajar la plataforma y soltalo al empujar. El abdomen queda firme y la cadera apoyada."
+    },
+    {
+      "id": "10",
+      "text": "Error: quedarse a mitad de camino. Bajá hasta donde llegues con la cadera apoyada y sin rebotar."
+    },
+    {
+      "id": "11",
+      "text": "Error: empujar con la punta y despegar el talón. Todo el pie queda apoyado y empuja parejo."
+    },
+    {
+      "id": "12",
+      "text": "Error: subir los dos pies a la plataforma. La pierna libre queda flexionada y sin apoyar en ningún lado."
+    },
+    {
+      "id": "13",
+      "text": "Tips: cadera apoyada, una sola pierna en la plataforma, rodilla alineada con el pie y bajada controlada."
+    },
+    {
+      "id": "14",
+      "text": "Claves: espalda en el respaldo, empujá con toda la planta, sin trabar la rodilla y cambiá de pierna."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce por pierna, con dos minutos de pausa. Elegí un peso que te deje llegar al fondo sin despegar la cadera."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar la serie, dejá la plataforma arriba, trabá el seguro y cambiá de pierna con calma."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

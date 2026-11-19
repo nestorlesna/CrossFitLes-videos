@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Hack Calf Raise",
+      "text": "Gemelos en la sentadilla hack: la punta de los pies en la plataforma y los tobillos empujan el carro hacia arriba."
+    },
+    {
+      "id": "02",
+      "text": "El carro con discos corre sobre dos rieles inclinados y la plataforma de los pies queda fija abajo."
+    },
+    {
+      "id": "03",
+      "text": "Apoyá la espalda en el respaldo y las hombreras sobre los hombros, sin despegar la cadera del carro."
+    },
+    {
+      "id": "04",
+      "text": "Apoyá solo la punta de los pies en el borde de la plataforma, con los talones afuera y libres."
+    },
+    {
+      "id": "05",
+      "text": "Dejá caer los talones hasta sentir el estiramiento y quedate con las rodillas trabadas, sin doblarlas."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá la plataforma con la punta de los pies y subí el carro, sin mover las rodillas."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Sostené un segundo arriba, con los tobillos bien extendidos y los gemelos apretados."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá lento hasta el estiramiento completo, sin rebotar abajo ni soltar el peso."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire cuando empujás y tomá aire cuando bajás. El abdomen queda firme y la espalda en el respaldo."
+    },
+    {
+      "id": "10",
+      "text": "Error: doblar las rodillas para empujar. Las rodillas quedan trabadas y el recorrido lo hacen los tobillos."
+    },
+    {
+      "id": "11",
+      "text": "Error: subir apenas unos centímetros. Subí hasta el tope, hacé la pausa y bajá hasta el estiramiento."
+    },
+    {
+      "id": "12",
+      "text": "Error: despegar la espalda del respaldo y redondearla. La espalda queda apoyada y el pecho arriba."
+    },
+    {
+      "id": "13",
+      "text": "Tips: punta de los pies en la plataforma, rodillas trabadas, pausa arriba y bajada lenta."
+    },
+    {
+      "id": "14",
+      "text": "Claves: empujá con el tobillo, sin mover las rodillas, talones afuera y mirada al frente."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de quince a veinte repeticiones, con un minuto de pausa. Elegí un peso que te deje llegar arriba sin rebotar."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar la serie, bajá el carro despacio, apoyá los talones y salí de la máquina sin encorvarte."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

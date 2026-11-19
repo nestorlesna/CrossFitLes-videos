@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Candlestick to Straddle Stretch",
+      "text": "Rodá a la vela y abrí las piernas. Aductores e isquios en un movimiento."
+    },
+    {
+      "id": "02",
+      "text": "Sentate con las piernas estiradas al frente, el torso erguido y las manos al lado de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Redondeá la espalda y rodá hacia atrás con las piernas juntas, sin cargar el cuello."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Desde la vela, volvé rodando hacia adelante y abrí las piernas para llegar sentado en straddle."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Desde la cadera, llevá el pecho hacia el piso entre las piernas, con la espalda larga."
+    },
+    {
+      "id": "06",
+      "text": "Así no. Si flexionás las rodillas o redondeás la espalda, el estiramiento se escapa."
+    },
+    {
+      "id": "07",
+      "text": "Claves: rodá con la espalda redondeada, cadera arriba en la vela, piernas verticales y pecho al piso con espalda larga."
+    },
+    {
+      "id": "08",
+      "text": "Treinta segundos en el straddle. Respirá y no rebotes: buscá un poco más con cada exhalación."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

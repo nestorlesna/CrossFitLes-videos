@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Smith Bent Over Row",
+      "text": "Remo inclinado en la Smith: la barra cuelga de los brazos y se tira al abdomen con la espalda recta."
+    },
+    {
+      "id": "02",
+      "text": "La barra corre guiada entre los parantes: el recorrido es siempre la misma vertical y los topes te marcan abajo."
+    },
+    {
+      "id": "03",
+      "text": "Bajá los topes y dejá la barra a la altura de las rodillas, con los ganchos libres por si tenés que soltarla."
+    },
+    {
+      "id": "04",
+      "text": "Pies al ancho de la cadera, rodillas blandas y el peso repartido en todo el pie, sin levantar los talones."
+    },
+    {
+      "id": "05",
+      "text": "Inclinate desde la cadera con la espalda recta y el abdomen firme: la barra cuelga de los brazos a las rodillas."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Tirá de la barra hacia el abdomen bajo llevando los codos hacia atrás, sin mover el torso."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Juntá las escápulas arriba y hacé una pausa de un segundo apretando la espalda alta."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá la barra controlando el recorrido hasta estirar los brazos, sin dejarla caer."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire al bajar la barra y soltalo al tirar. No aguantes la respiración en el esfuerzo."
+    },
+    {
+      "id": "10",
+      "text": "Error: redondear la espalda. La espalda queda recta de la cadera a la nuca y la mirada al frente."
+    },
+    {
+      "id": "11",
+      "text": "Error: usar la espalda baja y el balanceo. El torso no sube y baja: queda firme mientras tiran los brazos."
+    },
+    {
+      "id": "12",
+      "text": "Error: medio recorrido. La barra llega al abdomen en cada repetición, sin quedarse a mitad de camino."
+    },
+    {
+      "id": "13",
+      "text": "Tips: espalda recta, barra al abdomen, escápulas juntas y bajada controlada."
+    },
+    {
+      "id": "14",
+      "text": "Claves: bisagra de cadera, torso firme, codos cerca del cuerpo y recorrido completo."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce repeticiones, con un minuto de pausa. Peso moderado y técnica primero."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, dejá la barra en los topes y salí de la máquina enderezando el cuerpo sin apuro."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

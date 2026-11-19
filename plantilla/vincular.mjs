@@ -53,6 +53,7 @@ function escribir(o) {
 
 Cada corto (\`<slug>.corto.mp4\`) se vincula con su video largo (el que explica Daniela) y al revés, de dos maneras:
 el **link en la descripción** y el campo **Vídeo relacionado** de YouTube Studio. Procedimiento: \`SUBIR-A-YOUTUBE.md\` § 6 quinquies.
+**Contenido alterado por IA:** todos los videos de esta bitácora (cortos y largos) tienen marcado «Sí» en *Uso de IA* de YouTube Studio. Revisión del 2026-11-16: 149 videos anteriores corregidos y los de ese día ya salen marcados (los videos nuevos lo marcan al subirse).
 Datos en \`vinculos.csv\` (lo escribe \`node plantilla/vincular.mjs\`; no editar a mano).
 
 **Corto → largo:** ${nCorto} · **Largo → corto:** ${nLargo} · Filas: ${filas.length}

@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Sled 45 Calf Press",
+      "text": "Gemelos en la prensa a 45 grados: las rodillas quedan trabadas y el recorrido lo hace únicamente el tobillo."
+    },
+    {
+      "id": "02",
+      "text": "El carro con discos corre sobre un riel a 45 grados y la plataforma queda arriba, donde apoyás la planta."
+    },
+    {
+      "id": "03",
+      "text": "Apoyá la espalda en el respaldo y la cadera en el asiento, con los hombros y la cabeza relajados."
+    },
+    {
+      "id": "04",
+      "text": "Apoyá la planta de los dos pies en la plataforma, con las puntas apenas abiertas y las rodillas trabadas."
+    },
+    {
+      "id": "05",
+      "text": "Arrancá con el tobillo flexionado y la punta de los pies hacia arriba, sintiendo el estiramiento del gemelo."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Bajá el talón y llevá la punta hacia arriba hasta sentir cómo se estira el gemelo."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Empujá la plataforma estirando el tobillo, como si te pararas de puntas, sin mover las rodillas."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Quedate un segundo en la punta más alta, apretando el gemelo, y recién ahí bajá."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire al bajar el talón y soltalo al estirar el tobillo. No aguantes la respiración en la punta."
+    },
+    {
+      "id": "10",
+      "text": "Error: doblar las rodillas para empujar. Las rodillas quedan trabadas y solo se mueve el tobillo."
+    },
+    {
+      "id": "11",
+      "text": "Error: quedarse a mitad de camino. Bajá hasta el estiramiento y subí hasta la punta más alta."
+    },
+    {
+      "id": "12",
+      "text": "Error: levantar la cadera del asiento para llegar más arriba. La cadera queda pegada al asiento."
+    },
+    {
+      "id": "13",
+      "text": "Tips: rodillas trabadas, planta completa, recorrido completo y una pausa en la punta más alta."
+    },
+    {
+      "id": "14",
+      "text": "Claves: espalda en el respaldo, empujá con la planta, sin rebotar y bajá hasta sentir el estiramiento."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de quince a veinte repeticiones, con un minuto de pausa. Un peso liviano y el recorrido completo valen más que mucha carga."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar la serie, trabá el seguro de la plataforma y salí de la máquina sin encorvarte."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

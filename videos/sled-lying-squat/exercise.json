@@ -1,0 +1,828 @@
+{
+  "slug": "sled-lying-squat",
+  "name": "Sled Lying Squat",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Cuádriceps",
+    "Glúteo",
+    "Piernas"
+  ],
+  "descripcion": "Sentadilla en el sled tumbado: acostate en el banco con la planta completa en la plataforma y las rodillas dobladas. Empujá la plataforma extendiendo las piernas sin despegar la cadera y volvé controlando hasta la posición inicial.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 700,
+    "y": 1500.7,
+    "scale": 0.92
+  },
+  "shadow": false,
+  "initialPose": "BENT",
+  "props": [
+    {
+      "type": "legpresslie",
+      "bench": [
+        -660,
+        -195,
+        -150
+      ],
+      "ankle": [
+        0,
+        -124
+      ],
+      "cx": 230,
+      "stops": -290
+    }
+  ],
+  "poses": {
+    "BENT": {
+      "hip": [
+        -300,
+        -198
+      ],
+      "b": -90,
+      "hd": -90,
+      "g": 1,
+      "hx": -400,
+      "hy": -186,
+      "ed": 1,
+      "ankle": [
+        0,
+        -124
+      ],
+      "ankle2": [
+        -24,
+        -130
+      ],
+      "ft": -90,
+      "ft2": -86
+    },
+    "EXT": {
+      "hip": [
+        -300,
+        -198
+      ],
+      "b": -90,
+      "hd": -90,
+      "g": 1,
+      "hx": -400,
+      "hy": -186,
+      "ed": 1,
+      "ankle": [
+        160,
+        -172
+      ],
+      "ankle2": [
+        136,
+        -178
+      ],
+      "ft": -88,
+      "ft2": -84
+    },
+    "HALF_BAD": {
+      "hip": [
+        -300,
+        -198
+      ],
+      "b": -90,
+      "hd": -90,
+      "g": 1,
+      "hx": -400,
+      "hy": -186,
+      "ed": 1,
+      "ankle": [
+        86,
+        -150
+      ],
+      "ankle2": [
+        62,
+        -156
+      ],
+      "ft": -89,
+      "ft2": -85
+    },
+    "HIP_BAD": {
+      "hip": [
+        -300,
+        -232
+      ],
+      "b": -80,
+      "hd": -90,
+      "g": 1,
+      "hx": -400,
+      "hy": -186,
+      "ed": 1,
+      "ankle": [
+        40,
+        -140
+      ],
+      "ankle2": [
+        16,
+        -146
+      ],
+      "ft": -90,
+      "ft2": -86
+    },
+    "HEEL_BAD": {
+      "hip": [
+        -300,
+        -198
+      ],
+      "b": -90,
+      "hd": -90,
+      "g": 1,
+      "hx": -400,
+      "hy": -186,
+      "ed": 1,
+      "ankle": [
+        86,
+        -150
+      ],
+      "ankle2": [
+        62,
+        -156
+      ],
+      "ft": -58,
+      "ft2": -54
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "SENTADILLA",
+        "EN EL SLED"
+      ],
+      "sub": "Tumbado y de frente",
+      "vo": "Sentadilla en el sled tumbado: la plataforma se empuja con la planta completa y las piernas hacen todo el recorrido.",
+      "moves": [
+        {
+          "cut": "BENT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BENT",
+              1.2
+            ],
+            [
+              "EXT",
+              1.2
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "BANCO",
+        "Y PLATAFORMA"
+      ],
+      "sub": "Carro sobre riel",
+      "vo": "El banco queda horizontal, la plataforma corre sobre un riel y la pila del otro lado le da la carga.",
+      "moves": [
+        {
+          "cut": "BENT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            754,
+            1420
+          ],
+          "r": 66,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            470,
+            1120
+          ],
+          "text": "PLATAFORMA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            915,
+            894
+          ],
+          "r": 62,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1000,
+            900
+          ],
+          "text": "PILA DE PESO",
+          "anchor": "end",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            700,
+            1429
+          ],
+          "r": 44,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            240,
+            1210
+          ],
+          "text": "RIEL",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "ESPALDA",
+        "Y CADERA"
+      ],
+      "sub": "Bien apoyado",
+      "vo": "Acostate con la espalda y la cadera pegadas al banco y la cabeza en el apoyo. La cadera no se despega en ningún momento.",
+      "moves": [
+        {
+          "cut": "BENT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            424,
+            1363
+          ],
+          "r": 90,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            150,
+            1140
+          ],
+          "text": "CADERA PEGADA",
+          "anchor": "start",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 7.6,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "PLANTA",
+        "COMPLETA"
+      ],
+      "sub": "Pies bien apoyados",
+      "vo": "Apoyá la planta completa en la plataforma, con los pies al ancho de la cadera y los tobillos a noventa grados.",
+      "moves": [
+        {
+          "cut": "BENT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            733,
+            1372
+          ],
+          "r": 52,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            520,
+            1140
+          ],
+          "text": "PLANTA COMPLETA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            608,
+            1196
+          ],
+          "r": 50,
+          "at": 1.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            230,
+            1000
+          ],
+          "text": "RODILLAS ALINEADAS",
+          "anchor": "start",
+          "at": 1.9
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "RODILLAS",
+        "DOBLADAS"
+      ],
+      "sub": "Pies en la plataforma",
+      "vo": "Arrancá con las rodillas dobladas y los pies apoyados, sintiendo la plataforma pegada a la planta.",
+      "moves": [
+        {
+          "cut": "BENT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            608,
+            1196
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            300,
+            1100
+          ],
+          "text": "RODILLAS DOBLADAS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "EMPUJÁ",
+        "CON LAS PIERNAS"
+      ],
+      "sub": "Planta completa",
+      "vo": "Paso uno. Empujá la plataforma extendiendo las piernas, con la planta completa y la cadera pegada al banco.",
+      "moves": [
+        {
+          "cut": "BENT",
+          "at": 0
+        },
+        {
+          "to": "EXT",
+          "at": 0.4,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            643,
+            1288
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            330,
+            1080
+          ],
+          "text": "EXTENDÉ LAS PIERNAS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ARRIBA",
+        "SIN TRABAR"
+      ],
+      "sub": "Piernas casi rectas",
+      "vo": "Paso dos. Llegá arriba con las piernas casi extendidas, sin trabar la rodilla ni despegar la cadera.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "EXT",
+          "at": 0.2,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            880,
+            1342
+          ],
+          "r": 46,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            560,
+            1140
+          ],
+          "text": "SIN TRABAR",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "VOLVÉ",
+        "CONTROLANDO"
+      ],
+      "sub": "Sin soltar la plataforma",
+      "vo": "Paso tres. Volvé doblando las rodillas despacio, sin dejar que la plataforma gane velocidad.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "BENT",
+          "at": 0.5,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            754,
+            1420
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            470,
+            1120
+          ],
+          "text": "VOLVÉ DESPACIO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá al empujar",
+      "vo": "Tomá aire cuando bajás y soltalo cuando empujás la plataforma. No aguantes el aire arriba.",
+      "moves": [
+        {
+          "cut": "BENT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BENT",
+              1.2
+            ],
+            [
+              "EXT",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "MEDIA",
+        "REPETICIÓN"
+      ],
+      "sub": "Recorrido completo",
+      "vo": "Error: quedarse a mitad de camino. Bajá hasta las rodillas bien dobladas y subí hasta extender las piernas.",
+      "moves": [
+        {
+          "cut": "BENT",
+          "at": 0
+        },
+        {
+          "to": "HALF_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            643,
+            1288
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "DESPEGAR",
+        "LA CADERA"
+      ],
+      "sub": "Cadera en el banco",
+      "vo": "Error: levantar la cadera del banco para empujar más. La cadera y la espalda quedan apoyadas todo el tiempo.",
+      "moves": [
+        {
+          "cut": "BENT",
+          "at": 0
+        },
+        {
+          "to": "HIP_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            424,
+            1319
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "TALONES",
+        "ARRIBA"
+      ],
+      "sub": "Planta completa",
+      "vo": "Error: empujar con la punta de los pies. Los talones quedan apoyados y la planta completa empuja la plataforma.",
+      "moves": [
+        {
+          "cut": "BENT",
+          "at": 0
+        },
+        {
+          "to": "HEEL_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            810,
+            1400
+          ],
+          "r": 46,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Planta completa en la plataforma",
+        "Cadera pegada al banco",
+        "Rodillas alineadas con los pies",
+        "Bajá controlando"
+      ],
+      "vo": "Tips: planta completa en la plataforma, cadera pegada al banco, rodillas alineadas con los pies y bajada controlada.",
+      "moves": [
+        {
+          "cut": "BENT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BENT",
+              1.2
+            ],
+            [
+              "EXT",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Empujá con los talones",
+        "Sin despegar la cadera",
+        "Extendé sin trabar",
+        "Recorrido completo"
+      ],
+      "vo": "Claves: empujá con los talones, no despegues la cadera, extendé sin trabar y completá el recorrido.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10–15"
+      ],
+      "sub": "Cuádriceps y glúteo",
+      "vo": "Tres series de diez a quince repeticiones, con un minuto de pausa. Peso moderado y el recorrido completo, sin rebotar.",
+      "chips": [
+        {
+          "label": "1 · EMPUJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · ARRIBA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "BENT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "BENT",
+              1.1
+            ],
+            [
+              "EXT",
+              1.1
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "VOLVÉ",
+        "DESPACIO"
+      ],
+      "sub": "Sin apurarse",
+      "vo": "Al terminar la serie, volvé la plataforma al tope con las rodillas dobladas y recién ahí sentate y salí del banco.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "BENT",
+          "at": 0.9,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            470,
+            1140
+          ],
+          "text": "SIN APURARSE",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "EXT",
+    "zoom": 1.04,
+    "dy": 45
+  },
+  "youtube": {
+    "titulo": "Sled Lying Squat 🔥 Sentadilla en el sled tumbado | Gimnasio",
+    "tags": [
+      "sled lying squat",
+      "sentadilla en sled",
+      "prensa de piernas tumbado",
+      "cuádriceps",
+      "glúteo",
+      "piernas",
+      "máquina de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de piernas",
+      "entrenamiento de piernas",
+      "fuerza"
+    ],
+    "descripcion": "🔥 SLED LYING SQUAT (sentadilla acostado en el sled horizontal) — cuádriceps y glúteo\n\nEn el sled tumbado la espalda y la cadera quedan apoyadas en el banco y la plataforma corre sobre un riel: el empuje sale de las piernas, con la planta completa y la cadera pegada. Es una prensa horizontal muy estable para cargar cuádriceps y glúteo. Si despegás la cadera, empujás con la punta o cortás el recorrido, la espalda se lleva parte del trabajo. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Acostate con la espalda y la cadera pegadas al banco.\n2️⃣ Apoyá la planta completa con los pies al ancho de la cadera.\n\n📋 PASO A PASO\n1️⃣ Arrancá con las rodillas dobladas y los pies en la plataforma.\n2️⃣ Empujá la plataforma extendiendo las piernas.\n3️⃣ Llegá arriba sin trabar la rodilla.\n4️⃣ Volvé doblando despacio hasta la posición inicial.\n5️⃣ Completá la serie y volvé la plataforma al tope.\n\n❌ ERRORES COMUNES\n• Despegar la cadera → la cadera queda pegada al banco.\n• Empujar con la punta → la planta completa empuja.\n• Media repetición → bajá hasta el final y extendé arriba.\n\n💡 TIPS DEL PROFE\n• Planta completa en la plataforma.\n• Cadera pegada al banco.\n• Rodillas alineadas con los pies.\n• Bajada controlada.\n\n🎯 QUÉ TRABAJA\nPiernas → Cuádriceps → Glúteo\n\n⏱️ CUÁNTO\n3 series de 10–15 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Cuádriceps #Glúteo #SledMachine #Piernas #Entrenamiento #Fuerza"
+  }
+}

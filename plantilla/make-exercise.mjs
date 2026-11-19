@@ -83,6 +83,13 @@ function cortosSubidosLog() {
   for (const l of readFileSync(f, "utf8").replace(/\r/g, "").split("\n").slice(1)) { const c = l.split(";"); if (c[0] && c[2]) o[c[0]] = c[2]; }
   return o;
 }
+// miniatura propia del corto en YouTube (columna 6 de cortos-subidos.csv) y vínculo corto↔largo (vinculos.csv)
+function cortoExtras(slug) {
+  const leer = (n) => { const f = join(ROOT, n); return existsSync(f) ? readFileSync(f, "utf8").split(String.fromCharCode(10)).map((l) => l.trim()).filter(Boolean).slice(1).map((l) => l.split(";")) : []; };
+  const mini = (leer("cortos-subidos.csv").find((c) => c[0] === slug) || [])[5] || "";
+  const v = leer("vinculos.csv").find((c) => c[0] === slug);
+  return { mini: mini || "si", vinc: v ? `${v[3]}|${v[4]}` : "" };
+}
 const outPath = (file) => subidoPath(file) || join(ROOT, "salida", file);
 const rel = (f) => f.slice(ROOT.length + 1).replace(/\\/g, "/");
 
@@ -300,12 +307,15 @@ export function checklist() {
     const cOut = st.corto ? outPath(st.corto) : null;
     const cortoYt = cortosSubidosLog()[slug]; // subido = el corto está en salida/subidos/ (EnYoutube); el link sale de cortos-subidos.csv
     const cortoSubido = st.corto && subidoPath(st.corto) ? (cortoYt ? `[✅](${cortoYt})` : "✅") : "⬜";
+    const cx = cortoExtras(slug);
+    const cortoMini = !cortoYt ? "—" : cx.mini === "no" ? "⬜" : "✅";
+    const cortoVinc = !cortoYt ? "—" : cx.vinc === "si|si" ? "✅" : cx.vinc ? "⚠️ parcial" : "⬜";
     let corto = "⬜";
     if (cOut && existsSync(cOut)) {
       cortos++;
       corto = st.cortoHash === contentHash(spec) ? `[✅ ${mp4Duration(cOut)?.toFixed(1)} s](${rel(cOut)})` : "⚠️ desactualizado";
     }
-    return `| ${n} | ${name} | ${impl} | ✅ | ${ok(st.voz)} | ${ok(st.composicion)} | ${st.check == null ? "⬜" : st.check ? "✅" : "❌"} | ${rendered ? (stale ? "⚠️ desactualizado" : "✅") : "⬜"} | ${yt ? `[✅](${rel(outPath(`${slug}.youtube.txt`))})` : "⬜"} | ${existsSync(outPath(`${slug}.miniatura.png`)) ? `[✅](${rel(outPath(`${slug}.miniatura.png`))})` : "⬜"} | ${dur} | ${rendered ? `[${mp4}](${rel(out)})` : "—"} | ${en} | ${ok(spec.revisado)} | ${ok(subido)} | ${corto} | ${cortoSubido} | ${st.renderizado || "—"} | ${spec.notas || ""} |`;
+    return `| ${n} | ${name} | ${impl} | ✅ | ${ok(st.voz)} | ${ok(st.composicion)} | ${st.check == null ? "⬜" : st.check ? "✅" : "❌"} | ${rendered ? (stale ? "⚠️ desactualizado" : "✅") : "⬜"} | ${yt ? `[✅](${rel(outPath(`${slug}.youtube.txt`))})` : "⬜"} | ${existsSync(outPath(`${slug}.miniatura.png`)) ? `[✅](${rel(outPath(`${slug}.miniatura.png`))})` : "⬜"} | ${dur} | ${rendered ? `[${mp4}](${rel(out)})` : "—"} | ${en} | ${ok(spec.revisado)} | ${ok(subido)} | ${corto} | ${cortoSubido} | ${cortoMini} | ${cortoVinc} | ${st.renderizado || "—"} | ${spec.notas || ""} |`;
   };
   const rows = items.map(fila);
   const cf = { done, fichas, yts, subidos, cortos, next, total: items.length };
@@ -315,8 +325,8 @@ export function checklist() {
   done = fichas = yts = subidos = cortos = 0; next = null;
   const rowsDs = ds.map((r, i) => fila({ slug: r.clave, n: `D${i + 1}`, row: r }));
   const dc = { done, fichas, yts, subidos, cortos, next, total: ds.length };
-  const head = `| # | Ejercicio | Implemento | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Nombre EN | Revisado | Subido | Corto | Corto subido | Fecha render | Notas |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|`;
+  const head = `| # | Ejercicio | Implemento | Ficha | Voz | Composición | Check | Render | YouTube | Miniatura | Duración | Archivo | Nombre EN | Revisado | Subido | Corto | Corto subido | Corto miniatura | Corto vinculado | Fecha render | Notas |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|`;
   const resumen = (c) => `**Renderizados:** ${c.done} / ${c.total} · **Fichas:** ${c.fichas} · **Descripción YouTube:** ${c.yts} · **Subidos:** ${c.subidos} · **Cortos:** ${c.cortos}${c.next ? ` · **Próximo:** ${c.next}` : ""}`;
   const faltaDibujar = [...new Set(maq.filter((r) => !dibujada(r.prop)).map((r) => r.prop))];
   const tablaMaq = maq.length

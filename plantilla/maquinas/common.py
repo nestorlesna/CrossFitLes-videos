@@ -30,7 +30,7 @@ def legIK(H, A, back=False):
 
 
 def norm(p):
-    q = dict(s=0, t=0, b=0, hd=0, ua=6, fa=6, rx=0, ry=0, ft=0, hx=70, hy=-20, ed=1, g=0, ll=1, ll2=1, ul=1, fl=1, al=1)
+    q = dict(s=0, t=0, b=0, hd=0, ua=6, fa=6, rx=0, ry=0, ft=0, hx=70, hy=-20, ed=1, g=0, ll=1, ll2=1, ul=1, fl=1, al=1, sh=0)
     q.update(p)
     if "hip" in p and "ankle" in p:
         q["s"], q["t"] = legIK(p["hip"], p["ankle"], p.get("knee") == "back")
@@ -59,15 +59,19 @@ def fk(p):
     st = norm(p)
     A = (st["rx"], st["ry"])
     K = add(A, up(st["s"], SHIN)); H = add(K, up(st["t"], THIGH))
-    S = add(H, up(st["b"], TORSO)); N = add(S, up(st["hd"], NECK))
+    S0 = add(H, up(st["b"], TORSO)); S = (S0[0], S0[1] - st["sh"]); N = add(S0, up(st["hd"], NECK))
     al = st["al"]; fE = add(S, down(st["ua"], UPPER * al * st["ul"])); fW = add(fE, down(st["ua"] + st["fa"], FORE * al * st["fl"]))
     g = st["g"]
+    tx, ty = st["hx"], st["hy"]
+    if st.get("hb"):
+        bb = rad(st["b"]); fw = (math.cos(bb), math.sin(bb)); tu = (math.sin(bb), -math.cos(bb))
+        tx, ty = S[0] + fw[0] * tx - tu[0] * ty, S[1] + fw[1] * tx - tu[1] * ty
     if g:
-        E, W = ik(S, (st["hx"], st["hy"]), UPPER, FORE, st["ed"])
+        E, W = ik(S, (tx, ty), UPPER, FORE, st["ed"])
         E = (fE[0] + (E[0] - fE[0]) * g, fE[1] + (E[1] - fE[1]) * g); W = (fW[0] + (W[0] - fW[0]) * g, fW[1] + (W[1] - fW[1]) * g)
     else:
         E, W = fE, fW
-    reach = dist(S, (st["hx"], st["hy"])) if g else 0
+    reach = dist(S, (tx, ty)) if g else 0
     return dict(A=A, K=K, H=H, S=S, N=N, E=E, W=W, reach=reach, st=st)
 
 

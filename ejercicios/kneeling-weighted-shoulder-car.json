@@ -1,0 +1,496 @@
+{
+  "slug": "kneeling-weighted-shoulder-car",
+  "name": "Kneeling Weighted Shoulder Car",
+  "category": "MOVILIDAD · HOMBRO",
+  "tags": [
+    "Hombros",
+    "Deltoides",
+    "Trapecio",
+    "Movilidad"
+  ],
+  "descripcion": "En media rodilla, con una mancuerna liviana en la mano del lado que trabaja, dibujar con el brazo extendido el círculo más grande posible alrededor del hombro: sube por delante hasta quedar junto a la oreja, gira hacia atrás y baja por detrás. Se hacen todas las repeticiones de un lado y después las del otro.",
+  "revisado": false,
+  "notas": "CAR de hombro con peso liviano: la mano cercana sostiene la mancuerna (prop dumbbell hand near, side 1) y el brazo recorre ua 0 (abajo) → 90 (adelante) → 180 (arriba) → 270 (atrás) → 360 (abajo) con el codo extendido (fa ~6). Base de media rodilla: rodilla lejana en el piso, pie cercano adelante, mano lejana apoyada en el muslo de adelante. El torso queda quieto; el error muestra las costillas afuera y la lumbar arqueada (b -34, cv 24).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 520,
+    "y": 1504,
+    "scale": 0.84
+  },
+  "shadow": false,
+  "props": [
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "side": 1,
+      "r": 30,
+      "off": [
+        0,
+        4
+      ]
+    }
+  ],
+  "pronuncia": {
+    "Kneeling Weighted Shoulder Car": "Kíling uéited shóulder car"
+  },
+  "initialPose": "DOWN",
+  "poses": {
+    "DOWN": {
+      "ankle": [
+        200,
+        0
+      ],
+      "hip": [
+        0,
+        -230
+      ],
+      "s2": 90,
+      "t2": 5,
+      "ft2": 172,
+      "b": -3,
+      "hd": 0,
+      "ua": 0,
+      "fa": 4,
+      "ua2": 10,
+      "fa2": 110,
+      "g": 0,
+      "g2": 0
+    },
+    "FRONT": {
+      "ankle": [
+        200,
+        0
+      ],
+      "hip": [
+        0,
+        -230
+      ],
+      "s2": 90,
+      "t2": 5,
+      "ft2": 172,
+      "b": -3,
+      "hd": 0,
+      "ua": 90,
+      "fa": 6,
+      "ua2": 10,
+      "fa2": 110,
+      "g": 0,
+      "g2": 0
+    },
+    "UP": {
+      "ankle": [
+        200,
+        0
+      ],
+      "hip": [
+        0,
+        -230
+      ],
+      "s2": 90,
+      "t2": 5,
+      "ft2": 172,
+      "b": -3,
+      "hd": 0,
+      "ua": 180,
+      "fa": 6,
+      "ua2": 10,
+      "fa2": 110,
+      "g": 0,
+      "g2": 0
+    },
+    "BACK": {
+      "ankle": [
+        200,
+        0
+      ],
+      "hip": [
+        0,
+        -230
+      ],
+      "s2": 90,
+      "t2": 5,
+      "ft2": 172,
+      "b": -3,
+      "hd": 0,
+      "ua": 270,
+      "fa": 6,
+      "ua2": 10,
+      "fa2": 110,
+      "g": 0,
+      "g2": 0
+    },
+    "ARCH_BAD": {
+      "ankle": [
+        200,
+        0
+      ],
+      "hip": [
+        0,
+        -230
+      ],
+      "s2": 90,
+      "t2": 5,
+      "ft2": 172,
+      "b": -34,
+      "cv": 24,
+      "hd": -14,
+      "ua": 180,
+      "fa": 6,
+      "ua2": 8,
+      "fa2": 20,
+      "g": 0,
+      "g2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.8,
+      "badge": "MOVILIDAD · HOMBRO",
+      "head": [
+        "SHOULDER",
+        "CAR"
+      ],
+      "vo": "Kneeling Weighted Shoulder Car: un círculo completo con la mancuerna, lento y con tensión.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "FRONT",
+              0.85
+            ],
+            [
+              "UP",
+              0.85
+            ],
+            [
+              "BACK",
+              0.95
+            ],
+            [
+              "DOWN",
+              0.85
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "MEDIA",
+        "RODILLA"
+      ],
+      "sub": "Mancuerna liviana, codo extendido",
+      "vo": "En media rodilla, con una mancuerna liviana en la mano que trabaja. Tronco quieto.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "DOWN.W"
+          },
+          "r": 46,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "DOWN.W",
+            "dx": -95,
+            "dy": 16
+          },
+          "text": "PESO LIVIANO",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SUBÍ POR",
+        "ADELANTE"
+      ],
+      "sub": "Hasta la oreja",
+      "vo": "Paso uno. Subí el brazo por delante hasta quedar al lado de la oreja, con el codo extendido.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "FRONT",
+          "at": 0.6,
+          "dur": 1
+        },
+        {
+          "to": "UP",
+          "at": 1.9,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "UP.E",
+            "dx": -22,
+            "dy": 0
+          },
+          "text": "CODO EXTENDIDO",
+          "anchor": "end",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ARRIBA",
+        "Y ATRÁS"
+      ],
+      "sub": "Sin arquear la espalda",
+      "vo": "Paso dos. Giralo hacia atrás arriba, sin arquear la espalda y con las costillas abajo.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "BACK",
+          "at": 0.7,
+          "dur": 1.3
+        },
+        {
+          "to": "UP",
+          "at": 2.6,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "UP.S",
+            "dx": -60,
+            "dy": -30
+          },
+          "text": "COSTILLAS ABAJO",
+          "anchor": "end",
+          "at": 1,
+          "out": 3.4
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ POR",
+        "DETRÁS"
+      ],
+      "sub": "Círculo completo",
+      "vo": "Paso tres. Bajá por detrás y volvé al inicio. El círculo es lento y controlado.",
+      "moves": [
+        {
+          "cut": "BACK",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.7,
+          "dur": 1.2
+        },
+        {
+          "seq": [
+            [
+              "FRONT",
+              0.7
+            ],
+            [
+              "UP",
+              0.75
+            ],
+            [
+              "BACK",
+              0.8
+            ],
+            [
+              "DOWN",
+              0.8
+            ]
+          ],
+          "at": 2.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "ASÍ NO",
+      "head": [
+        "COSTILLAS",
+        "AFUERA"
+      ],
+      "sub": "La lumbar se arquea",
+      "vo": "Así no. Si arqueás la espalda para llegar arriba, el hombro no trabaja y la lumbar paga.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 0.7,
+          "dur": 1
+        },
+        {
+          "to": "UP",
+          "at": 3.9,
+          "dur": 1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "ARCH_BAD.H",
+            "dx": -46,
+            "dy": -56
+          },
+          "r": 48,
+          "at": 2.2,
+          "out": 3.6
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "ARCH_BAD.H",
+            "dx": -150,
+            "dy": -70
+          },
+          "text": "LUMBAR DE MÁS",
+          "anchor": "end",
+          "at": 2.3,
+          "out": 3.7
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.4,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.74,
+      "keys": [
+        "Codo extendido todo el recorrido",
+        "Círculo grande y lento, con tensión",
+        "Costillas abajo y glúteo apretado",
+        "Solo se mueve el hombro: tronco quieto"
+      ],
+      "vo": "Claves: codo extendido, círculo grande, costillas abajo y tronco quieto. Peso liviano.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.4,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "Por lado",
+      "vo": "Diez repeticiones por lado, lentas y con tensión en todo el recorrido.",
+      "chips": [
+        {
+          "label": "1 · SUBIR",
+          "at": 0.5
+        },
+        {
+          "label": "2 · ATRÁS",
+          "at": 1.6
+        },
+        {
+          "label": "3 · BAJAR",
+          "at": 2.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "FRONT",
+              0.7
+            ],
+            [
+              "UP",
+              0.7
+            ],
+            [
+              "BACK",
+              0.7
+            ],
+            [
+              "DOWN",
+              0.7
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "zoom": 1.12,
+    "dy": 210
+  },
+  "youtube": {
+    "titulo": "Kneeling Weighted Shoulder Car 🎯 Movilidad de hombro con peso | Movilidad",
+    "tags": [
+      "shoulder car",
+      "car de hombro",
+      "movilidad de hombro",
+      "kneeling shoulder car",
+      "mancuerna",
+      "deltoides",
+      "trapecio",
+      "manguito rotador",
+      "movilidad articular",
+      "entrada en calor",
+      "crossfit",
+      "hombro"
+    ],
+    "descripcion": "🎯 KNEELING WEIGHTED SHOULDER CAR — Movilidad de hombro con peso\n\n¿Sentís el hombro trabado antes de press o snatch? Este círculo controlado con una mancuerna liviana te devuelve rango y control en todo el recorrido. 💪\n\n📋 PASO A PASO\n1️⃣ En media rodilla, con una mancuerna liviana en la mano del lado que trabaja, el codo extendido y la otra mano apoyada en el muslo de adelante.\n2️⃣ Subí el brazo por delante hasta quedar al lado de la oreja.\n3️⃣ Giralo hacia atrás arriba, sin arquear la espalda.\n4️⃣ Bajá por detrás y volvé al inicio, rotando el brazo en el recorrido.\n5️⃣ Hacé todas las repeticiones de un lado y después cambiá.\n\n✅ CLAVES DE TÉCNICA\n• CAR = rotación articular controlada: lento y con tensión en todo el recorrido\n• El codo queda extendido\n• Glúteo apretado, costillas abajo y tronco quieto\n• No compenses arqueando la espalda ni girando el torso\n• El brazo rota hacia afuera al subir y hacia adentro al pasar por detrás\n• Peso liviano; si aparece molestia, achicá el círculo\n\n🎯 QUÉ TRABAJA\nDeltoides anterior · Deltoides lateral · Deltoides posterior · Trapecio medio · Romboides\n\n⏱️ CUÁNTO\n10 repeticiones por lado, 2 rondas. Va en la entrada en calor o antes de press y snatch.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Movilidad #Hombro #EntradaEnCalor #Entrenamiento"
+  }
+}

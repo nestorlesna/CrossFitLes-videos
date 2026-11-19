@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Plank Hip Dips",
+      "text": "En plancha, llevá la cadera a un costado y volvé al centro, sin perder la línea."
+    },
+    {
+      "id": "02",
+      "text": "En plancha sobre los antebrazos, hombros sobre los codos, glúteos firmes y el cuerpo en línea recta."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Llevá la cadera hacia un costado hasta casi rozar el piso, con el abdomen apretado."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Volvé al centro con control y repetí hacia el otro lado, alternando."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Bajá en dos segundos y subí igual de lento: sin rebotes ni apuro."
+    },
+    {
+      "id": "06",
+      "text": "Así no. Si levantás la cola, el abdomen se descarga y el oblicuo deja de trabajar."
+    },
+    {
+      "id": "07",
+      "text": "Claves: cadera baja y controlada, hombros sobre los codos, glúteos firmes y sin rebotes."
+    },
+    {
+      "id": "08",
+      "text": "Treinta segundos alternando lados, con la cadera bien baja y el abdomen firme."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Smith Leg Press",
+      "text": "Prensa de piernas en la Smith: supino en el piso, la barra en las plantas y empujás en vertical."
+    },
+    {
+      "id": "02",
+      "text": "La barra corre guiada entre los parantes y los topes te dejan una salida de seguridad."
+    },
+    {
+      "id": "03",
+      "text": "Apoyá la barra en las plantas de los pies, con los pies al ancho de la cadera y las puntas arriba."
+    },
+    {
+      "id": "04",
+      "text": "La cadera y los hombros quedan apoyados en el piso durante todo el recorrido, sin despegarse."
+    },
+    {
+      "id": "05",
+      "text": "Arrancá con las rodillas al pecho y la barra apoyada, el abdomen firme y la espalda baja en el piso."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá la barra hacia arriba con las plantas de los pies, sin apurar el movimiento."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Extendé las piernas casi del todo, sin trabar las rodillas ni despegar la cadera."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Volvé flexionando las rodillas hacia el pecho con la barra siempre apoyada en los pies."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire con las rodillas al pecho y soltalo al empujar la barra. No aguantes la respiración."
+    },
+    {
+      "id": "10",
+      "text": "Error: quedarte a mitad de recorrido. Extendé casi del todo antes de volver a bajar."
+    },
+    {
+      "id": "11",
+      "text": "Error: empujar con las puntas. La barra va en las plantas de los pies, no en los dedos."
+    },
+    {
+      "id": "12",
+      "text": "Error: despegar la cadera o los hombros. La espalda baja queda en el piso todo el movimiento."
+    },
+    {
+      "id": "13",
+      "text": "Tips: barra en las plantas, cadera al piso, no trabes las rodillas y bajá controlando."
+    },
+    {
+      "id": "14",
+      "text": "Claves: recorrido completo, espalda al piso, empuje con las dos piernas y rodillas alineadas."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce repeticiones, con un minuto y medio de pausa. Bajada lenta, sin rebote."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar la serie, dejá la barra en los topes, flexioná las rodillas y salí de la máquina."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

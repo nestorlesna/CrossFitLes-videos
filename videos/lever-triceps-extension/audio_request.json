@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever Triceps Extension",
+      "text": "Extensión de tríceps en máquina de palanca. Codos quietos y antebrazo que gira."
+    },
+    {
+      "id": "02",
+      "text": "La máquina tiene asiento con respaldo, la palanca con la manija y la pila atrás."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el asiento para que la manija quede a la altura del hombro y el codo apoye en el eje."
+    },
+    {
+      "id": "04",
+      "text": "Elegí el peso con el pasador: uno que puedas mover doce veces sin mover los codos."
+    },
+    {
+      "id": "05",
+      "text": "Sentate con la espalda apoyada en el respaldo, los pies planos y las manos en las manijas."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Con los codos quietos, bajá las manijas lento hacia la frente."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Hacé una pausa con las manijas cerca de la frente, sin dejar caer el peso."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Extendé los brazos hacia adelante y arriba, apretando el tríceps."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire cuando extendés y tomá aire cuando bajás. No aguantes la respiración."
+    },
+    {
+      "id": "10",
+      "text": "Error: echarse atrás y arquear la espalda para empujar. Espalda pegada al respaldo."
+    },
+    {
+      "id": "11",
+      "text": "Error: dejar caer el peso de golpe. Bajá y volvé controlando, sin rebotar."
+    },
+    {
+      "id": "12",
+      "text": "Error: extender a medias. Estirá casi por completo el codo y sentí el tríceps."
+    },
+    {
+      "id": "13",
+      "text": "Tips: codos quietos, bajá hasta la frente, extendé completo y arrancá con poco peso."
+    },
+    {
+      "id": "14",
+      "text": "Claves: manija a la altura del hombro, codo en el eje, sin arquear la espalda y volvé controlando."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce, con un minuto de pausa. Si las doce salen fáciles, subí peso."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, dejá que la pila baje despacio y soltá las manijas sin rebotar."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

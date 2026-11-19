@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Sled Forward Angled Calf Raise",
+      "text": "Gemelos inclinado al frente: el pecho va apoyado en la almohadilla y los talones suben y bajan desde la plataforma."
+    },
+    {
+      "id": "02",
+      "text": "La plataforma de los pies queda abajo y la almohadilla inclinada a 45 grados sostiene el pecho durante todo el ejercicio."
+    },
+    {
+      "id": "03",
+      "text": "Parate con la planta de los pies en la plataforma y la punta de los pies apenas hacia afuera."
+    },
+    {
+      "id": "04",
+      "text": "Apoyá el pecho en la almohadilla y tomate de la parte de arriba, con la espalda derecha."
+    },
+    {
+      "id": "05",
+      "text": "Arrancá con los talones abajo, sintiendo el estiramiento del gemelo y la planta bien apoyada."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Subí los talones como si te pararas de puntas, empujando la plataforma con la parte de adelante del pie."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Quedate un segundo en la punta más alta, apretando el gemelo antes de bajar."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá los talones despacio hasta sentir el estiramiento completo, sin rebotar abajo."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire al bajar los talones y soltalo al subir. El pecho queda apoyado y no aguantás el aire."
+    },
+    {
+      "id": "10",
+      "text": "Error: subir apenas un poco. Subí hasta la punta más alta y bajá hasta el estiramiento completo."
+    },
+    {
+      "id": "11",
+      "text": "Error: doblar las rodillas para subir. Las rodillas quedan apenas blandas y no cambian de ángulo."
+    },
+    {
+      "id": "12",
+      "text": "Error: despegar el pecho de la almohadilla. El pecho queda apoyado de principio a fin."
+    },
+    {
+      "id": "13",
+      "text": "Tips: pecho apoyado, rodillas apenas blandas, recorrido completo y una pausa en la punta."
+    },
+    {
+      "id": "14",
+      "text": "Claves: pies bien apoyados, subí de puntas, sin rebotar y bajá hasta sentir el estiramiento."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de quince a veinte repeticiones, con un minuto de pausa. Peso moderado y el recorrido completo."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar la serie, bajá el peso, soltá las manos y salí del banco despacio, sin encorvarte."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

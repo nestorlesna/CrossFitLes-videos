@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Smith Reverse Grip Press",
+      "text": "Press de banca con agarre supino y la barra guiada."
+    },
+    {
+      "id": "02",
+      "text": "La barra corre entre los parantes y el banco se ubica debajo, a la altura del pecho bajo. Los topes te dejan una salida segura."
+    },
+    {
+      "id": "03",
+      "text": "Corré el banco hasta que la barra baje al pecho bajo, no al cuello. Los pies quedan firmes en el piso."
+    },
+    {
+      "id": "04",
+      "text": "Agarrá la barra con las palmas hacia la cara y las manos al ancho de los hombros, con las muñecas rectas."
+    },
+    {
+      "id": "05",
+      "text": "Apoyá los glúteos y la espalda alta en el banco, los ojos debajo de la barra y los pies firmes en el piso."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Bajá la barra al pecho bajo con los codos cerca del torso, controlando el descenso."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Tocá el pecho sin rebotar y hacé una pausa corta. Las muñecas quedan rectas y los codos cerca."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Empujá la barra hasta estirar los brazos, sin trabar los codos ni mover los pies del piso."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire arriba, aguantalo en la bajada y soltalo al empujar. No aguantes el aire en todo el recorrido."
+    },
+    {
+      "id": "10",
+      "text": "Error: bajar la barra al cuello o a la cara. La barra baja al pecho bajo, con el agarre supino bien firme."
+    },
+    {
+      "id": "11",
+      "text": "Error: despegar los glúteos del banco. La cola y la espalda alta quedan apoyadas, y el pecho es el que trabaja."
+    },
+    {
+      "id": "12",
+      "text": "Error: cortar el recorrido. La barra toca el pecho bajo en cada repetición y sube hasta estirar los brazos."
+    },
+    {
+      "id": "13",
+      "text": "Tips: palmas a la cara, barra al pecho bajo, glúteos apoyados y sin rebote."
+    },
+    {
+      "id": "14",
+      "text": "Claves: agarre supino, codos cerca, tocá suave y empujá parejo."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de seis a diez repeticiones, con un minuto y medio de pausa. El agarre supino pide menos peso."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, dejá la barra en los topes, sacá los brazos y salí del banco de costado, sin apurarte."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

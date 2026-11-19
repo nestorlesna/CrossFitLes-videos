@@ -1,0 +1,842 @@
+{
+  "slug": "sled-calf-press-on-leg-press",
+  "name": "Sled Calf Press On Leg Press",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Sóleo",
+    "Gemelos"
+  ],
+  "descripcion": "Sóleo en la prensa a 45 grados: apoyá la espalda, dejá las rodillas apenas flexionadas y la planta de los pies en la plataforma. Empujá con los tobillos sin estirar del todo las rodillas y bajá hasta sentir el estiramiento.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 610,
+    "y": 1500.7,
+    "scale": 0.92
+  },
+  "shadow": false,
+  "initialPose": "DOWN",
+  "props": [
+    {
+      "type": "legpress",
+      "hip": [
+        -320,
+        -300
+      ],
+      "ang": 35,
+      "lean": -45,
+      "stops": 330
+    }
+  ],
+  "poses": {
+    "DOWN": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle": [
+        -28.4,
+        -504.3
+      ],
+      "ankle2": [
+        -68.4,
+        -496.3
+      ],
+      "ft": -150,
+      "ft2": -150
+    },
+    "UP": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle": [
+        7.6,
+        -529.4
+      ],
+      "ankle2": [
+        -32.4,
+        -521.4
+      ],
+      "ft": -104,
+      "ft2": -104
+    },
+    "HALF_BAD": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle": [
+        -10.4,
+        -516.8
+      ],
+      "ankle2": [
+        -50.4,
+        -508.8
+      ],
+      "ft": -128,
+      "ft2": -128
+    },
+    "KNEE_BAD": {
+      "hip": [
+        -320,
+        -300
+      ],
+      "b": -45,
+      "hd": -12,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle": [
+        -66.1,
+        -477.8
+      ],
+      "ankle2": [
+        -106.1,
+        -469.8
+      ],
+      "ft": -150,
+      "ft2": -150
+    },
+    "HIP_BAD": {
+      "hip": [
+        -296,
+        -334
+      ],
+      "b": -38,
+      "hd": -12,
+      "g": 1,
+      "hx": -280,
+      "hy": -310,
+      "ed": 1,
+      "ankle": [
+        -4.4,
+        -538.3
+      ],
+      "ankle2": [
+        -44.4,
+        -530.3
+      ],
+      "ft": -150,
+      "ft2": -150
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "SÓLEO",
+        "EN LA PRENSA 45"
+      ],
+      "sub": "Rodilla semiflexionada",
+      "vo": "Sóleo en la prensa a 45 grados: con la rodilla un poco doblada, el tobillo hace todo el recorrido y el trabajo se concentra abajo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.2
+            ],
+            [
+              "UP",
+              1.2
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "CARRO Y",
+        "RIEL 45°"
+      ],
+      "sub": "Plataforma inclinada",
+      "vo": "El carro con discos corre sobre un riel a 45 grados y la plataforma queda arriba, donde apoyás la planta.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            830,
+            982
+          ],
+          "r": 92,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            800
+          ],
+          "text": "DISCOS",
+          "anchor": "end",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            544,
+            1278
+          ],
+          "r": 44,
+          "at": 1.7
+        },
+        {
+          "type": "label",
+          "pos": [
+            560,
+            1200
+          ],
+          "text": "RIEL 45°",
+          "anchor": "start",
+          "at": 1.7
+        },
+        {
+          "type": "ring",
+          "pos": [
+            674,
+            978
+          ],
+          "r": 52,
+          "at": 2.6
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            890
+          ],
+          "text": "PLATAFORMA",
+          "anchor": "end",
+          "at": 2.6
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "ESPALDA",
+        "Y CADERA"
+      ],
+      "sub": "Bien apoyado",
+      "vo": "Apoyá la espalda en el respaldo y la cadera en el asiento, sin despegar la zona lumbar en ningún momento.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            196,
+            1114
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1010
+          ],
+          "text": "RESPALDO",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            316,
+            1254
+          ],
+          "r": 56,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1470
+          ],
+          "text": "CADERA APOYADA",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.8,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "RODILLA",
+        "SEMIFLEXIONADA"
+      ],
+      "sub": "Planta al borde",
+      "vo": "Dejá las rodillas apenas flexionadas todo el ejercicio y apoyá la planta de los pies en la plataforma.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            374,
+            1011
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            900
+          ],
+          "text": "RODILLA BLANDA",
+          "anchor": "start",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            674,
+            978
+          ],
+          "r": 54,
+          "at": 1.9
+        },
+        {
+          "type": "label",
+          "pos": [
+            1040,
+            900
+          ],
+          "text": "PLANTA AL BORDE",
+          "anchor": "end",
+          "at": 1.9
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PUNTA",
+        "ARRIBA"
+      ],
+      "sub": "Estiramiento",
+      "vo": "Arrancá con la punta de los pies hacia arriba y el talón bajo, sintiendo el estiramiento del sóleo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            584,
+            1037
+          ],
+          "r": 48,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            900
+          ],
+          "text": "PUNTA ARRIBA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ",
+        "EL TALÓN"
+      ],
+      "sub": "Sin mover la rodilla",
+      "vo": "Paso uno. Bajá el talón llevando la punta hacia arriba, sin doblar más la rodilla para ganar recorrido.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.2,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            584,
+            1037
+          ],
+          "r": 48,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            900
+          ],
+          "text": "TALÓN ABAJO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ESTIRÁ",
+        "EL TOBILLO"
+      ],
+      "sub": "Empuje con la planta",
+      "vo": "Paso dos. Empujá la plataforma estirando el tobillo y apretando el sóleo, sin estirar del todo la rodilla.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.5,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            472,
+            1022
+          ],
+          "r": 46,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            900
+          ],
+          "text": "APRETÁ EL SÓLEO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "PAUSA",
+        "ARRIBA"
+      ],
+      "sub": "Un segundo",
+      "vo": "Paso tres. Quedate un segundo en la punta más alta, apretando el sóleo, y recién ahí bajá.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.2,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            617,
+            1014
+          ],
+          "r": 48,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            900
+          ],
+          "text": "PAUSA ARRIBA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá al estirar",
+      "vo": "Tomá aire al bajar el talón y soltalo al estirar el tobillo. No aguantes la respiración en la punta.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.2
+            ],
+            [
+              "UP",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "DOBLAR MÁS",
+        "LA RODILLA"
+      ],
+      "sub": "Rodilla fija",
+      "vo": "Error: doblar la rodilla durante la repetición. La rodilla queda casi igual y solo se mueve el tobillo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "KNEE_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            345,
+            1006
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "MEDIA",
+        "REPETICIÓN"
+      ],
+      "sub": "Recorrido completo",
+      "vo": "Error: quedarse a mitad de camino. Bajá hasta el estiramiento y subí hasta la punta más alta.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "HALF_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            564,
+            1032
+          ],
+          "r": 46,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "LEVANTAR",
+        "LA CADERA"
+      ],
+      "sub": "Cadera apoyada",
+      "vo": "Error: levantar la cadera del asiento para llegar más arriba. La cadera queda pegada todo el tiempo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "HIP_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            150,
+            880
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            338,
+            1186
+          ],
+          "r": 52,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Rodilla semiflexionada",
+        "Planta completa",
+        "Recorrido completo",
+        "Pausa en la punta"
+      ],
+      "vo": "Tips: rodilla semiflexionada y quieta, planta completa, recorrido completo y pausa en la punta.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.2
+            ],
+            [
+              "UP",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Espalda en el respaldo",
+        "Rodilla sin moverse",
+        "Sin rebotar",
+        "Bajá hasta estirar"
+      ],
+      "vo": "Claves: espalda en el respaldo, rodilla sin moverse, sin rebotar y bajá hasta sentir el estiramiento.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12–15"
+      ],
+      "sub": "Sóleo",
+      "vo": "Tres series de doce a quince repeticiones, con un minuto de pausa. Peso moderado y el recorrido completo, sin rebotar.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · ESTIRÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · PAUSA",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.1
+            ],
+            [
+              "UP",
+              1.1
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "SALÍ",
+        "DESPACIO"
+      ],
+      "sub": "Sin apurarse",
+      "vo": "Al terminar la serie, trabá el seguro de la plataforma y salí de la máquina sin encorvarte.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.9,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            900
+          ],
+          "text": "SIN APURARSE",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "zoom": 1.06,
+    "dy": 40
+  },
+  "youtube": {
+    "titulo": "Sled Calf Press On Leg Press 🔥 Sóleo en la prensa 45 | Gimnasio",
+    "tags": [
+      "sled calf press on leg press",
+      "sóleo en prensa",
+      "gemelos",
+      "sóleo",
+      "prensa 45 grados",
+      "pantorrilla",
+      "piernas",
+      "máquina de prensa",
+      "máquinas de gimnasio",
+      "gimnasio",
+      "principiantes",
+      "rutina de piernas"
+    ],
+    "descripcion": "🔥 SLED CALF PRESS ON LEG PRESS (extensión de tobillos en la prensa a 45 con la rodilla semiflexionada) — sóleo y gemelos\n\nCon la rodilla un poco flexionada, el gemelo queda acortado y el sóleo toma más protagonismo: es el mismo movimiento de la prensa a 45, pero con la rodilla fija en semiflexión. El recorrido sigue siendo largo y controlado. Si doblás más la rodilla en cada repetición, cortás el recorrido o levantás la cadera, el estímulo se pierde. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Apoyá la espalda en el respaldo y la cadera en el asiento.\n2️⃣ Dejá las rodillas apenas flexionadas y la planta en la plataforma.\n\n📋 PASO A PASO\n1️⃣ Arrancá con la punta de los pies arriba y el talón bajo.\n2️⃣ Empujá la plataforma estirando el tobillo, con la rodilla fija.\n3️⃣ Quedate un segundo arriba apretando el sóleo.\n4️⃣ Bajá controlando hasta sentir el estiramiento.\n5️⃣ Completá la serie, trabá el seguro y salí despacio.\n\n❌ ERRORES COMUNES\n• Doblar más la rodilla → la rodilla queda fija y solo se mueve el tobillo.\n• Media repetición → bajá hasta el estiramiento y subí hasta la punta.\n• Levantar la cadera → la cadera pegada al asiento.\n\n💡 TIPS DEL PROFE\n• Rodilla semiflexionada y quieta.\n• Planta completa en la plataforma.\n• Recorrido completo, sin rebotar.\n• Pausa de un segundo en la punta.\n\n🎯 QUÉ TRABAJA\nPiernas → Sóleo → Gemelos\n\n⏱️ CUÁNTO\n3 series de 12–15 repeticiones, con 1 minuto de pausa. Nivel: intermedio.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Soleo #Gemelos #Pantorrilla #Prensa45 #Piernas #Entrenamiento #Fuerza"
+  }
+}

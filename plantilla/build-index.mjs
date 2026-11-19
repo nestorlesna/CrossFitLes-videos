@@ -11,7 +11,7 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 export const VO_LEAD = 0.25; // voice starts this long after its frame opens
 const TAIL = 0.75; // breathing room after the line ends
 const RIG = { x: 470, y: 1500, scale: 0.9 }; // spec.rig overrides (e.g. rowing: machine needs more room)
-const POSE_KEYS = ["s", "t", "b", "hd", "ua", "fa", "s2", "t2", "ua2", "fa2", "rx", "ry", "ft", "ft2", "hx", "hy", "ed", "lr", "al", "hb", "bf", "bx", "by", "g2", "hx2", "hy2", "ed2", "wr", "wr2", "cv", "fx", "dh", "pz", "rp", "ul", "fl", "ll", "ll2", "cs"];
+const POSE_KEYS = ["s", "t", "b", "hd", "ua", "fa", "s2", "t2", "ua2", "fa2", "rx", "ry", "ft", "ft2", "hx", "hy", "ed", "lr", "al", "hb", "bf", "bx", "by", "g2", "hx2", "hy2", "ed2", "wr", "wr2", "cv", "fx", "dh", "pz", "rp", "ul", "fl", "ll", "ll2", "cs", "sh"];
 const SHIN = 230, THIGH = 240; // = runtime.js L.shin / L.thigh
 const deg = (r) => (r * 180) / Math.PI, rad = (d) => (d * Math.PI) / 180;
 
@@ -32,7 +32,7 @@ function legIK([hx, hy], [ax, ay], back) {
   return { s: +deg(Math.atan2(K.x - ax, -(K.y - ay))).toFixed(2), t: +deg(Math.atan2(H.x - K.x, -(H.y - K.y))).toFixed(2) };
 }
 export function normalizePose(p) {
-  const q = { s: 0, t: 0, b: 0, hd: 0, ua: 6, fa: 6, rx: 0, ry: 0, ft: 0, hx: 70, hy: -20, ed: 1, lr: 0, al: 1, hb: 0, bf: 0, bx: 0, by: 0, cv: 0, fx: 1, dh: 0, pz: 0, rp: 0, ul: 1, fl: 1, ll: 1, ll2: 1, cs: 0, ...p };
+  const q = { s: 0, t: 0, b: 0, hd: 0, ua: 6, fa: 6, rx: 0, ry: 0, ft: 0, hx: 70, hy: -20, ed: 1, lr: 0, al: 1, hb: 0, bf: 0, bx: 0, by: 0, cv: 0, fx: 1, dh: 0, pz: 0, rp: 0, ul: 1, fl: 1, ll: 1, ll2: 1, cs: 0, sh: 0, ...p };
   if (p.hip && p.ankle) {
     Object.assign(q, legIK(p.hip, p.ankle, p.knee === "back"));
     q.rx = p.ankle[0]; q.ry = p.ankle[1];

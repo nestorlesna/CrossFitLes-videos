@@ -1,0 +1,472 @@
+{
+  "slug": "dumbbell-around-the-world",
+  "name": "Dumbbell Around the World",
+  "category": "MOVILIDAD · HOMBRO",
+  "tags": [
+    "Hombros",
+    "Deltoides",
+    "Trapecio",
+    "Movilidad"
+  ],
+  "descripcion": "De pie con una mancuerna liviana en cada mano y los brazos al costado del cuerpo, describir un arco amplio hacia los lados con los brazos casi extendidos hasta llevar las mancuernas por encima de la cabeza; volver por el mismo camino, sin apuro.",
+  "revisado": false,
+  "notas": "Arco lateral bilateral con mancuernas livianas. En el perfil los brazos suben por delante (ua 6 abajo → 90 → 172 arriba) y la tarjeta 'vista de frente' (topview front) muestra la apertura lateral real. Codos apenas flexionados y fijos (fa 2-6). El error muestra la espalda arqueada para llegar arriba (b -16, cv 18).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 396,
+    "y": 1504,
+    "scale": 0.82
+  },
+  "shadow": false,
+  "props": [
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "side": 1,
+      "r": 30,
+      "off": [
+        0,
+        4
+      ]
+    },
+    {
+      "type": "dumbbell",
+      "hand": "far",
+      "side": 1,
+      "r": 30,
+      "off": [
+        0,
+        4
+      ]
+    }
+  ],
+  "pronuncia": {
+    "Dumbbell Around the World": "Dámbel aráund de uórld"
+  },
+  "initialPose": "DOWN",
+  "poses": {
+    "DOWN": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 6,
+      "fa": 6,
+      "ua2": 2,
+      "fa2": 6,
+      "g": 0,
+      "g2": 0
+    },
+    "HALF": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 46,
+      "fa": 4,
+      "ua2": 44,
+      "fa2": 4,
+      "g": 0,
+      "g2": 0
+    },
+    "SIDE90": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 90,
+      "fa": 2,
+      "ua2": 88,
+      "fa2": 2,
+      "g": 0,
+      "g2": 0
+    },
+    "UP": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "ua": 172,
+      "fa": 2,
+      "ua2": 170,
+      "fa2": 2,
+      "g": 0,
+      "g2": 0
+    },
+    "ARCH_BAD": {
+      "s": 0,
+      "t": 0,
+      "b": -16,
+      "cv": 18,
+      "hd": -8,
+      "ua": 172,
+      "fa": 2,
+      "ua2": 170,
+      "fa2": 2,
+      "g": 0,
+      "g2": 0
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.9,
+      "badge": "MOVILIDAD · HOMBRO",
+      "head": [
+        "AROUND",
+        "THE WORLD"
+      ],
+      "topview": {
+        "mode": "front",
+        "label": "ARCO COMPLETO"
+      },
+      "vo": "Dumbbell Around the World: un arco amplio con las mancuernas, desde el costado hasta arriba de la cabeza.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "SIDE90",
+              0.85
+            ],
+            [
+              "UP",
+              0.85
+            ],
+            [
+              "SIDE90",
+              0.85
+            ],
+            [
+              "DOWN",
+              0.85
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BRAZOS AL",
+        "COSTADO"
+      ],
+      "sub": "Mancuernas livianas",
+      "topview": {
+        "mode": "front",
+        "label": "VISTA DE FRENTE"
+      },
+      "vo": "De pie, con una mancuerna liviana en cada mano y los brazos al costado. Abdomen firme.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "DOWN.W"
+          },
+          "r": 44,
+          "at": 1.6
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "DOWN.W",
+            "dx": -98,
+            "dy": 18
+          },
+          "text": "LIVIANAS",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "ABRÍ A LOS",
+        "COSTADOS"
+      ],
+      "sub": "Hasta el hombro",
+      "topview": {
+        "mode": "front",
+        "label": "VISTA DE FRENTE"
+      },
+      "vo": "Paso uno. Abrí los brazos hacia los costados con los codos apenas flexionados y fijos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "SIDE90",
+          "at": 0.6,
+          "dur": 1.1
+        },
+        {
+          "to": "DOWN",
+          "at": 2.4,
+          "dur": 0.9
+        },
+        {
+          "to": "SIDE90",
+          "at": 3.6,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "SIDE90.E",
+            "dx": 20,
+            "dy": -70
+          },
+          "text": "CODO FIJO",
+          "anchor": "middle",
+          "at": 1.9
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "HASTA",
+        "ARRIBA"
+      ],
+      "sub": "Por encima de la cabeza",
+      "topview": {
+        "mode": "front",
+        "label": "VISTA DE FRENTE"
+      },
+      "vo": "Paso dos. Seguí el arco hasta pasar las mancuernas por arriba de la cabeza.",
+      "moves": [
+        {
+          "cut": "SIDE90",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.7,
+          "dur": 1.2
+        },
+        {
+          "to": "SIDE90",
+          "at": 2.7,
+          "dur": 1
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "VOLVÉ POR",
+        "EL MISMO"
+      ],
+      "sub": "Sin apuro",
+      "vo": "Paso tres. Volvé por el mismo camino, sin apuro y controlando la bajada.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "SIDE90",
+          "at": 0.7,
+          "dur": 1.1
+        },
+        {
+          "to": "DOWN",
+          "at": 2,
+          "dur": 1
+        },
+        {
+          "seq": [
+            [
+              "SIDE90",
+              0.8
+            ],
+            [
+              "UP",
+              0.85
+            ],
+            [
+              "SIDE90",
+              0.85
+            ],
+            [
+              "DOWN",
+              0.85
+            ]
+          ],
+          "at": 3.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "ASÍ NO",
+      "head": [
+        "ESPALDA",
+        "ARQUEADA"
+      ],
+      "sub": "La lumbar se lleva el trabajo",
+      "vo": "Así no. Si arqueás la espalda al llegar arriba, el hombro pierde rango y la lumbar paga.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 0.7,
+          "dur": 1
+        },
+        {
+          "to": "UP",
+          "at": 3.7,
+          "dur": 1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "ARCH_BAD.H",
+            "dx": -44,
+            "dy": -80
+          },
+          "r": 44,
+          "at": 2.1,
+          "out": 3.6
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "ARCH_BAD.H",
+            "dx": -60,
+            "dy": -70
+          },
+          "text": "LUMBAR",
+          "anchor": "end",
+          "at": 2.2,
+          "out": 3.7
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.4,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.74,
+      "keys": [
+        "Peso liviano: es movilidad, no fuerza",
+        "Codos apenas flexionados y fijos",
+        "Abdomen firme y costillas abajo",
+        "Hombros lejos de las orejas"
+      ],
+      "vo": "Claves: peso liviano, codos fijos, costillas abajo y hombros lejos de las orejas.",
+      "moves": [
+        {
+          "cut": "SIDE90",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.4,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10 REPS"
+      ],
+      "sub": "En un solo arco",
+      "vo": "Diez repeticiones lentas y en un solo arco. Es movilidad de hombro, no fuerza.",
+      "chips": [
+        {
+          "label": "1 · SUBIR",
+          "at": 0.5
+        },
+        {
+          "label": "2 · ARRIBA",
+          "at": 1.6
+        },
+        {
+          "label": "3 · BAJAR",
+          "at": 2.7
+        }
+      ],
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "SIDE90",
+              0.8
+            ],
+            [
+              "UP",
+              0.8
+            ],
+            [
+              "SIDE90",
+              0.8
+            ],
+            [
+              "DOWN",
+              0.8
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "zoom": 1.02
+  },
+  "youtube": {
+    "titulo": "Dumbbell Around the World 🎯 Movilidad de hombro con mancuernas | Movilidad",
+    "tags": [
+      "around the world",
+      "dumbbell around the world",
+      "movilidad de hombro",
+      "mancuernas",
+      "deltoides",
+      "trapecio",
+      "movilidad articular",
+      "entrada en calor",
+      "crossfit",
+      "hombro",
+      "hombros",
+      "movilidad"
+    ],
+    "descripcion": "🎯 DUMBBELL AROUND THE WORLD — Movilidad de hombro con mancuernas\n\n¿Hombros trabados antes de press o snatch? Este arco amplio con mancuernas livianas te devuelve rango en toda la articulación. 💪\n\n📋 PASO A PASO\n1️⃣ De pie, con una mancuerna liviana en cada mano y los brazos al costado del cuerpo.\n2️⃣ Abrí los brazos hacia los costados con los codos apenas flexionados y fijos.\n3️⃣ Seguí el arco hasta pasar las mancuernas por arriba de la cabeza.\n4️⃣ Volvé por el mismo camino, sin apuro, controlando la bajada.\n\n✅ CLAVES DE TÉCNICA\n• Peso muy liviano: es movilidad de hombro, no fuerza\n• Codos apenas flexionados y fijos durante todo el arco\n• Abdomen firme y costillas abajo: al llegar arriba no arquees la espalda\n• Los hombros no suben hacia las orejas al iniciar el movimiento\n• Si molesta en la parte alta, acortá el recorrido antes que forzarlo\n\n🎯 QUÉ TRABAJA\nDeltoides lateral · Deltoides anterior · Trapecio superior · Trapecio inferior · Recto abdominal\n\n⏱️ CUÁNTO\n10 repeticiones lentas, 2 rondas. Va en la entrada en calor o como accesorio de hombro.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Movilidad #Hombro #EntradaEnCalor #Entrenamiento"
+  }
+}

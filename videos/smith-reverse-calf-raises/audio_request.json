@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Smith Reverse Calf Raises",
+      "text": "Elevación de las puntas de los pies con la barra en la espalda."
+    },
+    {
+      "id": "02",
+      "text": "La barra corre entre los parantes y apoya en la espalda alta. El cajón levanta los talones para que las puntas queden libres."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá la barra a la altura de los trapecios, con los topes altos para poder soltarla sin agacharte."
+    },
+    {
+      "id": "04",
+      "text": "Apoyá los talones en el cajón y dejá las puntas afuera, colgando en el aire."
+    },
+    {
+      "id": "05",
+      "text": "Quedate derecho, con el abdomen firme y la mirada al frente. Los talones apoyan en el cajón y las rodillas quedan casi estiradas."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Levantá las puntas de los pies lo más alto que puedas, como si quisieras llevarlas hacia la espinilla."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Hacé una pausa de un segundo arriba, apretando la parte de adelante de la pierna sin mover las rodillas."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá las puntas despacio hasta que el pie quede plano, sin dejarlo caer."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire abajo y soltalo mientras subís las puntas. No aguantes el aire ni pierdas el equilibrio."
+    },
+    {
+      "id": "10",
+      "text": "Error: quedarte a mitad de camino. Subí las puntas hasta arriba y bajá hasta el pie plano en cada repetición."
+    },
+    {
+      "id": "11",
+      "text": "Error: doblar las rodillas. La rodilla queda casi estirada: el movimiento sale del tobillo, no de la pierna."
+    },
+    {
+      "id": "12",
+      "text": "Error: inclinarte hacia adelante. El torso queda alto y la barra quieta sobre la espalda durante todo el recorrido."
+    },
+    {
+      "id": "13",
+      "text": "Tips: subí las puntas completas, rodillas quietas, torso alto y bajada lenta."
+    },
+    {
+      "id": "14",
+      "text": "Claves: talón en el cajón, puntas afuera, pausa arriba y sin rebote."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de quince a veinte repeticiones, con un minuto de pausa. Es un músculo chico: priorizá el recorrido."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, apoyá los pies completos en el piso y dejá la barra en los topes antes de salir de la máquina."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

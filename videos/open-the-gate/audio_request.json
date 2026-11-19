@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Open the Gate",
+      "text": "Abrí la cadera con la rodilla arriba. Movilidad y control sobre una pierna."
+    },
+    {
+      "id": "02",
+      "text": "Parate derecho sobre una pierna y subí la rodilla del otro lado hasta la altura de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Desde la rodilla arriba, girá la pierna hacia afuera como si abrieras una puerta."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Sostené la pierna abierta con la pelvis nivelada, sin inclinarte hacia el costado."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Cerrá la puerta y bajá la pierna despacio, sin dejarla caer de golpe."
+    },
+    {
+      "id": "06",
+      "text": "Así no. Si la rodilla de apoyo se hunde y el tronco se va atrás, perdés el equilibrio y el trabajo se escapa."
+    },
+    {
+      "id": "07",
+      "text": "Claves: rodilla a la altura de la cadera, el giro sale de la cadera, pelvis nivelada y bajada controlada."
+    },
+    {
+      "id": "08",
+      "text": "Diez repeticiones por lado, lentas y con pausa arriba. Si perdés el equilibrio, apoyate en una pared."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

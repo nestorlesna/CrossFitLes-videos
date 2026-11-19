@@ -1,0 +1,440 @@
+{
+  "slug": "dumbbell-standing-calf-raise",
+  "name": "Dumbbell Standing Calf Raise",
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Gemelos",
+    "Sóleo",
+    "Tobillo",
+    "Mancuernas"
+  ],
+  "descripcion": "De pie con una mancuerna en cada mano a los costados del cuerpo, elevar los talones lo más alto posible hasta quedar en puntas de pie, sostener un instante y bajar con control hasta apoyar el talón. La mancuerna suma carga a la pantorrilla sin necesidad de máquina.",
+  "revisado": false,
+  "notas": "Versión con mancuernas de calf-raise: mismas poses (STAND, UP, HALF_BAD) y dos props dumbbell (near/far) al costado, brazos colgando con ua 4 / fa 4. El error de media altura se marca con la etiqueta sobre la rodilla.",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 520,
+    "y": 1501,
+    "scale": 0.86
+  },
+  "props": [
+    {
+      "type": "dumbbell",
+      "hand": "near",
+      "side": 1,
+      "r": 30,
+      "off": [
+        0,
+        4
+      ]
+    },
+    {
+      "type": "dumbbell",
+      "hand": "far",
+      "side": 1,
+      "r": 30,
+      "off": [
+        0,
+        4
+      ]
+    }
+  ],
+  "initialPose": "STAND",
+  "poses": {
+    "STAND": {
+      "hip": [
+        0,
+        -470
+      ],
+      "s": 0,
+      "t": 0,
+      "ft": 0,
+      "ft2": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 4,
+      "ua2": 4,
+      "fa2": 4
+    },
+    "UP": {
+      "hip": [
+        40,
+        -514
+      ],
+      "ankle": [
+        40,
+        -44.6
+      ],
+      "ft": 32,
+      "ft2": 32,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 4,
+      "fa": 4,
+      "ua2": 4,
+      "fa2": 4
+    },
+    "HALF_BAD": {
+      "hip": [
+        16,
+        -462
+      ],
+      "ankle": [
+        16,
+        -20
+      ],
+      "ft": 14,
+      "ft2": 14,
+      "b": 2,
+      "hd": 4,
+      "g": 0,
+      "ua": 6,
+      "fa": 8,
+      "ua2": 6,
+      "fa2": 8
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 4.9,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "DUMBBELL",
+        "CALF RAISE"
+      ],
+      "vo": "Dumbbell Standing Calf Raise: con una mancuerna en cada mano, subí a la punta de los pies y bajá lento.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              0.8
+            ],
+            [
+              "STAND",
+              0.9
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 5.4,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "MANCUERNAS",
+        "AL COSTADO"
+      ],
+      "sub": "Pies al ancho de cadera",
+      "vo": "De pie con una mancuerna en cada mano a los costados, pies al ancho de cadera y rodillas extendidas.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "STAND.W",
+            "dx": 84,
+            "dy": 6
+          },
+          "text": "MANCUERNA",
+          "anchor": "start",
+          "at": 1.4
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "STAND.K",
+            "dx": 90,
+            "dy": -18
+          },
+          "text": "RODILLA ESTIRADA",
+          "anchor": "start",
+          "at": 2.4
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SUBÍ A LA",
+        "PUNTA"
+      ],
+      "sub": "Todo lo que da el tobillo",
+      "vo": "Paso uno. Subí los talones lo más alto que puedas, hasta quedar sobre la punta de los pies.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.8,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "UP.A",
+            "dx": 0,
+            "dy": 28
+          },
+          "r": 40,
+          "at": 1
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "UP.A",
+            "dx": 74,
+            "dy": 18
+          },
+          "text": "TALÓN ARRIBA",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "PAUSA",
+        "ARRIBA"
+      ],
+      "sub": "Un segundo",
+      "vo": "Paso dos. Sostené un instante arriba, sin perder la punta: ahí está la contracción.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "UP.S",
+            "dx": 96,
+            "dy": -40
+          },
+          "text": "1 SEGUNDO",
+          "anchor": "start",
+          "at": 1
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ EN",
+        "2 SEGUNDOS"
+      ],
+      "sub": "Sin rebotar",
+      "vo": "Paso tres. Bajá en dos segundos hasta apoyar el talón, sin rebotar abajo ni perder el equilibrio.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "STAND",
+          "at": 0.6,
+          "dur": 1.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "STAND.A",
+            "dx": 0,
+            "dy": 20
+          },
+          "r": 40,
+          "at": 1
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "STAND.A",
+            "dx": 74,
+            "dy": 14
+          },
+          "text": "TALÓN ABAJO, LENTO",
+          "anchor": "start",
+          "at": 1.2
+        }
+      ]
+    },
+    {
+      "min": 5.8,
+      "badge": "ASÍ NO",
+      "head": [
+        "MEDIA",
+        "ALTURA"
+      ],
+      "sub": "Rebote no cuenta",
+      "vo": "Así no. Quedarte a media altura o rebotar no carga el gemelo: rango completo siempre.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "to": "HALF_BAD",
+          "at": 0.8,
+          "dur": 0.8
+        },
+        {
+          "to": "UP",
+          "at": 3.2,
+          "dur": 0.7
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "HALF_BAD.A",
+            "dx": 0,
+            "dy": 26
+          },
+          "r": 40,
+          "at": 1.7,
+          "out": 3.1
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "HALF_BAD.A",
+            "dx": 80,
+            "dy": 10
+          },
+          "text": "MEDIA ALTURA",
+          "anchor": "start",
+          "at": 1.8,
+          "out": 3.2
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "keys": [
+        "Rodillas extendidas",
+        "Subir al máximo",
+        "Pausa de 1 segundo arriba",
+        "Bajar en 2 segundos",
+        "Talón completo abajo"
+      ],
+      "vo": "Claves: rodillas extendidas, subir al máximo, pausa arriba, bajar en dos segundos y talón completo abajo.",
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.4,
+      "badge": "A ENTRENAR",
+      "head": [
+        "10",
+        "REPS"
+      ],
+      "sub": "3 series",
+      "vo": "Diez repeticiones, tres series. Si te falta carga, sumá peso o pasá a una pierna.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.5
+        },
+        {
+          "label": "2 · PAUSA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ LENTO",
+          "at": 1.7
+        }
+      ],
+      "moves": [
+        {
+          "cut": "STAND",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              0.8
+            ],
+            [
+              "STAND",
+              0.9
+            ]
+          ],
+          "at": 0.2,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "grip": 0,
+    "zoom": 1.15,
+    "dy": 230
+  },
+  "youtube": {
+    "titulo": "Dumbbell Standing Calf Raise | Gemelos con mancuernas paso a paso | Gimnasio",
+    "tags": [
+      "dumbbell standing calf raise",
+      "elevación de talones con mancuernas",
+      "gemelos",
+      "sóleo",
+      "pantorrilla",
+      "tobillo",
+      "mancuernas",
+      "gimnasio",
+      "musculación",
+      "piernas",
+      "ejercicio de piernas",
+      "técnica"
+    ],
+    "descripcion": "🎯 DUMBBELL STANDING CALF RAISE — Gemelos con mancuernas\n\nSin máquina también se entrenan los gemelos: dos mancuernas, un escalón si querés más rango y a subir bien alto. 💪\n\n📋 PASO A PASO\n1️⃣ De pie con una mancuerna en cada mano a los costados, pies al ancho de cadera y rodillas extendidas.\n2️⃣ Subí los talones lo más alto posible hasta quedar sobre la punta de los pies.\n3️⃣ Sostené un instante arriba, sin perder la punta.\n4️⃣ Bajá en dos segundos hasta apoyar el talón, sin rebotar.\n\n✅ CLAVES DE TÉCNICA\n• Rodillas extendidas: si las doblás, el trabajo se corre y no empuja la pantorrilla\n• Subir al máximo, con pausa de un segundo arriba\n• Bajada lenta y controlada, con el talón bien abajo\n• Torso derecho, sin balancear ni tomar impulso\n• Elegí un peso que te deje mantener el equilibrio; si no, usá una mano en la pared\n\n🎯 QUÉ TRABAJA\nGastrocnemio (gemelos) · Sóleo · Tibial anterior · Flexores del antebrazo (agarre)\n\n⏱️ CUÁNTO\n10 repeticiones, 3 series. Pausa arriba y bajada de dos segundos.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de entrenamiento.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #DumbbellStandingCalfRaise #Piernas #Musculacion #Entrenamiento"
+  },
+  "pronuncia": {
+    "Dumbbell Standing Calf Raise": "Dámbel standing kalf reis",
+    "Dumbbell": "dámbel",
+    "Calf Raise": "kalf reis"
+  }
+}

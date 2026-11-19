@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Lever T-bar Reverse Grip Row",
+      "text": "Remo T con agarre supino y pecho apoyado: tirá la barra al abdomen con las palmas hacia arriba."
+    },
+    {
+      "id": "02",
+      "text": "La máquina tiene una almohadilla inclinada para el pecho, una barra en T con dos manijas, los discos sobre la palanca y una base firme."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá la almohadilla a la altura del esternón: el pecho se apoya sin arquear la espalda."
+    },
+    {
+      "id": "04",
+      "text": "Apoyá los pies firmes y tomá la barra con agarre supino, las palmas hacia arriba y las manos al ancho de los hombros."
+    },
+    {
+      "id": "05",
+      "text": "Arrancá con el pecho apoyado, los hombros abajo y los brazos largos hacia la barra."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Tirá la barra hacia el abdomen llevando los codos cerca del cuerpo, sin despegar el pecho."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Apretá los omóplatos al final del movimiento y hacé una pausa de un segundo."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Volvé lento a la posición inicial, sin soltar el peso de golpe y sin despegar el pecho."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire cuando tirás y tomá aire cuando volvés. El abdomen queda firme y el pecho apoyado."
+    },
+    {
+      "id": "10",
+      "text": "Error: levantarse y despegar el pecho de la almohadilla. El pecho queda apoyado y el tronco quieto."
+    },
+    {
+      "id": "11",
+      "text": "Error: subir los hombros y tirar con el cuello. Los hombros quedan abajo y los omóplatos hacen el trabajo."
+    },
+    {
+      "id": "12",
+      "text": "Error: redondear la espalda para llegar más lejos. El pecho se queda arriba y la espalda recta."
+    },
+    {
+      "id": "13",
+      "text": "Tips: pecho apoyado, palmas hacia arriba, codos cerca del cuerpo y volvé lento."
+    },
+    {
+      "id": "14",
+      "text": "Claves: almohadilla a la altura del esternón, pies firmes, muñeca firme y pausa al final."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce repeticiones, con un minuto de pausa. Si las doce salen fáciles, subí peso."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, volvé a la posición inicial sin soltar la barra de golpe y dejá que los discos bajen despacio."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

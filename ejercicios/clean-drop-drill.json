@@ -1,0 +1,398 @@
+{
+  "slug": "clean-drop-drill",
+  "name": "Clean Drop Drill",
+  "category": "CROSSFIT · HABILIDAD",
+  "tags": [
+    "Cuádriceps",
+    "Glúteos",
+    "Trapecio",
+    "Hombros"
+  ],
+  "descripcion": "Drill de cargada: de pie y erguido con la barra en la cadera, sin impulso de piernas, encogerse llevando los codos altos y afuera, despegar apenas los pies y caer bajo la barra girando los codos para recibirla en rack frontal en sentadilla profunda; luego pararse como en un front squat.",
+  "revisado": false,
+  "notas": "Drop clean: la barra casi no sube, baja el cuerpo. Barra con blend (bf 0 manos en la cadera → bf 1 rack frontal). Recepción en sentadilla completa (CATCH) y parada (RACK).",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 460,
+    "y": 1509,
+    "scale": 0.66
+  },
+  "props": [
+    {
+      "type": "barbell",
+      "torso": [
+        62,
+        32
+      ],
+      "r": 72,
+      "blend": true
+    }
+  ],
+  "pronuncia": {
+    "Clean Drop Drill": "Clin drop dril"
+  },
+  "initialPose": "STAND_BAR",
+  "poses": {
+    "STAND_BAR": {
+      "g": 1,
+      "ed": 1,
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "hx": 30,
+      "hy": -424
+    },
+    "SHRUG": {
+      "g": 1,
+      "ed": 1,
+      "hip": [
+        0,
+        -456
+      ],
+      "ankle": [
+        0,
+        0
+      ],
+      "b": -6,
+      "hd": -8,
+      "hx": 22,
+      "hy": -480,
+      "ft": -22,
+      "ft2": -22
+    },
+    "CATCH": {
+      "s": 40,
+      "t": -112,
+      "b": 20,
+      "hd": 8,
+      "g": 0,
+      "ua": 68,
+      "fa": 176,
+      "ua2": 72,
+      "fa2": 172,
+      "bf": 1
+    },
+    "RACK": {
+      "s": 0,
+      "t": 0,
+      "b": 0,
+      "hd": 0,
+      "g": 0,
+      "ua": 90,
+      "fa": 176,
+      "ua2": 94,
+      "fa2": 172,
+      "bf": 1
+    },
+    "CATCH_BAD": {
+      "s": 40,
+      "t": -112,
+      "b": 42,
+      "hd": 30,
+      "g": 0,
+      "ua": 18,
+      "fa": 150,
+      "ua2": 22,
+      "fa2": 146,
+      "bf": 1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.0,
+      "badge": "CROSSFIT · HABILIDAD",
+      "head": [
+        "CLEAN DROP",
+        "DRILL"
+      ],
+      "vo": "Clean Drop Drill: soltá la barra y bajá a recibirla. Sin segundo tirón, el cuerpo va abajo.",
+      "moves": [
+        {
+          "cut": "STAND_BAR",
+          "at": 0
+        },
+        {
+          "to": "SHRUG",
+          "at": 0.5,
+          "dur": 0.3
+        },
+        {
+          "to": "CATCH",
+          "at": 0.9,
+          "dur": 0.3,
+          "ease": "power2.in"
+        },
+        {
+          "to": "RACK",
+          "at": 2.1,
+          "dur": 0.9
+        },
+        {
+          "to": "STAND_BAR",
+          "at": 3.3,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BARRA EN",
+        "LA CADERA"
+      ],
+      "sub": "De pie, erguido",
+      "vo": "De pie y erguido, con la barra en la cadera y los brazos largos. Carga liviana.",
+      "moves": [
+        {
+          "cut": "STAND_BAR",
+          "at": 0
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "1",
+      "badge": "PASO 1 / 3",
+      "head": [
+        "ENCOGÉ",
+        "LOS HOMBROS"
+      ],
+      "sub": "Codos altos y afuera",
+      "vo": "Paso uno. Encogé los hombros con los codos altos y afuera. La barra casi no sube.",
+      "moves": [
+        {
+          "cut": "STAND_BAR",
+          "at": 0
+        },
+        {
+          "to": "SHRUG",
+          "at": 0.7,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "arrow",
+          "from": {
+            "j": "SHRUG.S",
+            "dx": 130,
+            "dy": 56
+          },
+          "to": {
+            "j": "SHRUG.S",
+            "dx": 130,
+            "dy": -54
+          },
+          "at": 0.9,
+          "dur": 0.9
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "2",
+      "badge": "PASO 2 / 3",
+      "head": [
+        "CAÉ",
+        "BAJO LA BARRA"
+      ],
+      "sub": "Girá los codos al rack",
+      "vo": "Paso dos. Despegá apenas los pies y caé bajo la barra girando los codos al rack.",
+      "moves": [
+        {
+          "cut": "SHRUG",
+          "at": 0
+        },
+        {
+          "to": "CATCH",
+          "at": 0.6,
+          "dur": 0.4,
+          "ease": "power2.in"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": {
+            "j": "CATCH.H",
+            "dx": 220,
+            "dy": -40
+          },
+          "text": "SENTADILLA COMPLETA",
+          "at": 1.3
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "numeral": "3",
+      "badge": "PASO 3 / 3",
+      "head": [
+        "PARATE",
+        "DEL RACK"
+      ],
+      "sub": "Torso vertical",
+      "vo": "Paso tres. Recibí en sentadilla profunda con el torso vertical y parate como en un front squat.",
+      "moves": [
+        {
+          "cut": "CATCH",
+          "at": 0
+        },
+        {
+          "to": "RACK",
+          "at": 0.7,
+          "dur": 1.3
+        }
+      ]
+    },
+    {
+      "min": 5.6,
+      "badge": "ASÍ NO",
+      "head": [
+        "CODOS",
+        "CAÍDOS"
+      ],
+      "sub": "La barra se va al frente",
+      "vo": "Así no. Si los codos se caen al recibir, la barra se va al frente y perdés el rack.",
+      "moves": [
+        {
+          "cut": "CATCH",
+          "at": 0
+        },
+        {
+          "to": "CATCH_BAD",
+          "at": 0.7,
+          "dur": 0.8
+        },
+        {
+          "to": "CATCH",
+          "at": 2.7,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": {
+            "j": "CATCH_BAD.E"
+          },
+          "r": 54,
+          "at": 1.3,
+          "out": 2.6
+        },
+        {
+          "type": "label",
+          "pos": {
+            "j": "CATCH_BAD.E",
+            "dx": -90,
+            "dy": -20
+          },
+          "text": "CODO ABAJO",
+          "anchor": "end",
+          "at": 1.4,
+          "out": 2.7
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 7.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.74,
+      "keys": [
+        "Codos altos y afuera",
+        "Caé bajo la barra",
+        "Rack con codos adelante",
+        "Torso vertical"
+      ],
+      "vo": "Claves: codos altos y afuera, caer bajo la barra, rack con codos adelante y torso vertical.",
+      "moves": [
+        {
+          "cut": "CATCH",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 6.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "8 REPS"
+      ],
+      "sub": "Barra sola o liviana",
+      "vo": "Ocho repeticiones con la barra sola o liviana. Trabajá velocidad y confianza para meterte abajo.",
+      "chips": [
+        {
+          "label": "1 · ENCOGÉ",
+          "at": 0.5
+        },
+        {
+          "label": "2 · CAÉ",
+          "at": 1.2
+        },
+        {
+          "label": "3 · PARATE",
+          "at": 2.2
+        }
+      ],
+      "moves": [
+        {
+          "cut": "STAND_BAR",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "SHRUG",
+              0.45
+            ],
+            [
+              "CATCH",
+              0.3
+            ],
+            [
+              "RACK",
+              0.8
+            ],
+            [
+              "STAND_BAR",
+              0.7
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "CATCH",
+    "grip": 0,
+    "zoom": 1.3,
+    "dy": 190
+  },
+  "youtube": {
+    "titulo": "Clean Drop Drill 🏋️ Caé bajo la barra | Técnica de cargada",
+    "tags": [
+      "clean drop drill",
+      "drop clean",
+      "cargada",
+      "clean",
+      "técnica de cargada",
+      "caer bajo la barra",
+      "front squat",
+      "crossfit",
+      "halterofilia",
+      "levantamiento olímpico"
+    ],
+    "descripcion": "🏋️ CLEAN DROP DRILL — Aprendé a caer bajo la barra\n\nEl miedo a meterse abajo es lo que más frena la cargada. Este drill separa el encogimiento de la recepción para que ganes confianza y velocidad. 💪\n\n📋 PASO A PASO\n1️⃣ De pie y erguido, con la barra en la cadera y los brazos largos. Carga liviana.\n2️⃣ Encogé los hombros llevando los codos altos y afuera. La barra casi no sube.\n3️⃣ Despegá apenas los pies y caé bajo la barra girando los codos para recibirla en rack frontal.\n4️⃣ Recibí en sentadilla profunda, con los codos adelante y el torso vertical.\n5️⃣ Parate como en un front squat y repetí.\n\n✅ CLAVES DE TÉCNICA\n• No hay segundo tirón: la barra casi no sube, baja el cuerpo\n• Codos altos y afuera durante el encogimiento\n• Giro de codos rápido para llegar al rack\n• Recibí con los pies en posición de sentadilla y el torso vertical\n• Carga liviana: barra sola o ~30 % de tu cargada\n\n🎯 QUÉ TRABAJA\nCuádriceps · Glúteos · Trapecio superior · Deltoides anterior · Erectores espinales\n\n⏱️ CUÁNTO\n8 repeticiones. Va como drill técnico al inicio de la sesión de halterofilia.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con tu compañero de box.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#CrossFit #Halterofilia #Cargada #Clean #Entrenamiento"
+  }
+}

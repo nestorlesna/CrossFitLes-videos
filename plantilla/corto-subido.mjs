@@ -1,6 +1,7 @@
 // Registra un corto ya subido a YouTube: mueve <slug>.corto.mp4 y <slug>.corto.youtube.txt a salida/subidos/EnYoutube/,
 // anota la fila en cortos-subidos.csv y regenera el CHECKLIST.
-//   node plantilla/corto-subido.mjs <slug> <videoId> [--lista="Videos cortos de ejercicios"] [--vis=privado|publico]
+//   node plantilla/corto-subido.mjs <slug> <videoId> [--lista="Videos cortos de ejercicios"] [--vis=privado|publico] [--mini=si|no]
+//   node plantilla/corto-subido.mjs <slug> --mini=si        (marca que ya se le puso la miniatura)
 //   node plantilla/corto-subido.mjs <slug> --vis=publico        (solo actualiza la visibilidad en el registro)
 import { existsSync, mkdirSync, renameSync, readFileSync, writeFileSync, appendFileSync } from "node:fs";
 import { join, dirname } from "node:path";
@@ -14,7 +15,7 @@ const [slug, videoId] = args.filter((a) => !a.startsWith("--"));
 if (!slug) { console.error("uso: node plantilla/corto-subido.mjs <slug> <videoId> [--lista=...] [--vis=privado|publico]"); process.exit(1); }
 
 const CSV = join(ROOT, "cortos-subidos.csv");
-const HEAD = "slug;fecha;url;lista;visibilidad";
+const HEAD = "slug;fecha;url;lista;visibilidad;miniatura";
 const filas = existsSync(CSV) ? readFileSync(CSV, "utf8").replace(/\r/g, "").split("\n").filter(Boolean).slice(1) : [];
 const i = filas.findIndex((l) => l.startsWith(`${slug};`));
 const hoy = new Date().toISOString().slice(0, 10);
@@ -28,12 +29,12 @@ if (videoId) {
     if (existsSync(src)) renameSync(src, join(dest, `${slug}.${ext}`));
     else if (!existsSync(join(dest, `${slug}.${ext}`))) console.warn(`⚠ no encuentro ${slug}.${ext}`);
   }
-  const fila = `${slug};${hoy};https://youtu.be/${videoId};${flag("lista", "Videos cortos de ejercicios")};${vis}`;
+  const fila = `${slug};${hoy};https://youtu.be/${videoId};${flag("lista", "Videos cortos de ejercicios")};${vis};${flag("mini", i >= 0 ? (filas[i].split(";")[5] || "si") : "si")}`;
   if (i >= 0) filas[i] = fila; else filas.push(fila);
 } else if (i >= 0) {
-  const c = filas[i].split(";"); c[4] = vis; filas[i] = c.join(";");
+  const c = filas[i].split(";"); c[4] = vis; if (flag("mini", "")) c[5] = flag("mini", ""); else c[5] = c[5] || "si"; filas[i] = c.join(";");
 } else { console.error(`${slug} no está en cortos-subidos.csv`); process.exit(1); }
 
 writeFileSync(CSV, [HEAD, ...filas].join("\n") + "\n", "utf8");
 console.log(`✓ ${slug} registrado (${vis})`);
-spawnSync("node", [join(ROOT, "plantilla", "make-exercise.mjs"), "--checklist"], { stdio: "inherit", cwd: ROOT });
+if (!process.env.NOCHK) spawnSync("node", [join(ROOT, "plantilla", "make-exercise.mjs"), "--checklist"], { stdio: "inherit", cwd: ROOT });

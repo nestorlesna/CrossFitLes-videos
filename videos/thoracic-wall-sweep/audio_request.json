@@ -1,0 +1,45 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Thoracic Wall Sweep",
+      "text": "Barrido de brazo en la pared para abrir la espalda alta y el pecho."
+    },
+    {
+      "id": "02",
+      "text": "Pegate de costado a la pared, en estocada corta, y apoyá la mano cercana a la altura del pecho."
+    },
+    {
+      "id": "03",
+      "text": "Paso uno. Barré la pared con la mano hacia arriba, sin despegar el brazo hasta donde llegues."
+    },
+    {
+      "id": "04",
+      "text": "Paso dos. Pasá el brazo por encima de la cabeza y llevalo hacia atrás abriendo el pecho."
+    },
+    {
+      "id": "05",
+      "text": "Paso tres. Seguí la mano con la mirada y volvé por el mismo arco. El giro sale del torso."
+    },
+    {
+      "id": "06",
+      "text": "Así no. Si arqueás la lumbar para llegar más atrás, el giro se pierde. Cadera quieta."
+    },
+    {
+      "id": "07",
+      "text": "Claves: cadera quieta, giro torácico, mano en la pared y mirada que sigue al brazo. Exhalá al abrir."
+    },
+    {
+      "id": "08",
+      "text": "Treinta segundos por lado, lento y con todo el rango. Ideal antes de empujar o colgar."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Smith One Leg Floor Calf Raise",
+      "text": "Elevación de talón a una pierna con la barra en la espalda."
+    },
+    {
+      "id": "02",
+      "text": "La barra corre entre los parantes y apoya en la espalda alta. Los topes altos te dejan una salida si te falta fuerza."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá la barra a la altura de los trapecios, con los topes altos para poder soltarla sin agacharte."
+    },
+    {
+      "id": "04",
+      "text": "Apoyá todo el pie de la pierna que trabaja y flexioná la otra detrás, con la punta del pie apuntando al piso."
+    },
+    {
+      "id": "05",
+      "text": "Quedate derecho, con el abdomen firme y la mirada al frente. La rodilla de apoyo arranca casi estirada."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá con la punta del pie y subí el talón lo más alto posible, sin doblar la rodilla de apoyo."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Arriba hacé una pausa de un segundo y apretá el gemelo sin perder el equilibrio."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá el talón despacio hasta el piso y seguí un poco más para estirar el gemelo, sin rebotar."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire abajo y soltalo mientras subís el talón. No aguantes el aire ni pierdas el equilibrio."
+    },
+    {
+      "id": "10",
+      "text": "Error: quedarte a mitad de camino. Subí el talón hasta arriba y bajá hasta el estiramiento en cada repetición."
+    },
+    {
+      "id": "11",
+      "text": "Error: doblar la rodilla de apoyo. La rodilla queda casi estirada: el movimiento sale del tobillo, no de la pierna."
+    },
+    {
+      "id": "12",
+      "text": "Error: inclinarte hacia adelante. El torso queda alto y la barra quieta sobre la espalda durante todo el recorrido."
+    },
+    {
+      "id": "13",
+      "text": "Tips: subí el talón completo, rodilla estirada, torso alto y bajada lenta."
+    },
+    {
+      "id": "14",
+      "text": "Claves: empujá con la punta del pie, pausa arriba, sin rebote y estirá abajo."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de doce a quince repeticiones por pierna, con un minuto de pausa. Cambiá de pierna al terminar."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, apoyá los dos pies y dejá la barra en los topes antes de salir de la máquina, sin apurarte."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Smith Bent Knee Good Morning",
+      "text": "Buenos días con rodillas semiflexionadas en la Smith: la barra en la espalda, la cola atrás y el cuerpo se dobla desde la cadera."
+    },
+    {
+      "id": "02",
+      "text": "La barra corre guiada entre los parantes y los topes te dejan la salida de seguridad a la altura de la cadera."
+    },
+    {
+      "id": "03",
+      "text": "Apoyá la barra sobre los trapecios, agarrá con las manos a los costados y sacala de los ganchos."
+    },
+    {
+      "id": "04",
+      "text": "Parate con los pies al ancho de la cadera, las puntas al frente y las rodillas apenas flexionadas."
+    },
+    {
+      "id": "05",
+      "text": "Arrancá de pie, con la espalda recta, el abdomen firme y la mirada al frente."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Llevá la cola hacia atrás doblando el cuerpo desde la cadera, con las rodillas blandas."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Mantené las rodillas semiflexionadas y la espalda recta en todo el recorrido."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Subí empujando con los talones y apretando los isquios y el glúteo, sin arquear la espalda."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire cuando bajás y soltalo cuando subís. No aguantes el aire abajo."
+    },
+    {
+      "id": "10",
+      "text": "Error: trabar las rodillas y doblar solo la cintura. Las rodillas quedan semiflexionadas y el movimiento sale de la cadera."
+    },
+    {
+      "id": "11",
+      "text": "Error: redondear la espalda y bajar la cabeza. La espalda queda recta y la mirada al frente."
+    },
+    {
+      "id": "12",
+      "text": "Error: bajar más allá de donde controlás. Bajá hasta sentir el estiramiento sin perder la espalda recta."
+    },
+    {
+      "id": "13",
+      "text": "Tips: barra sobre los trapecios, cola atrás, rodillas blandas y subí apretando isquios y glúteo."
+    },
+    {
+      "id": "14",
+      "text": "Claves: espalda recta, sin trabar las rodillas, mirada al frente y subida controlada."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce repeticiones, con un minuto de pausa. Peso moderado y el recorrido que controlás."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar la serie, subí derecho, dejá la barra en los ganchos y salí de la máquina sin encorvarte."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

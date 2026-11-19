@@ -1,0 +1,822 @@
+{
+  "slug": "smith-narrow-row",
+  "name": "Smith Narrow Row",
+  "maquina": true,
+  "category": "GIMNASIO · ESPALDA",
+  "tags": [
+    "Espalda alta",
+    "Dorsales",
+    "Bíceps"
+  ],
+  "descripcion": "Remo estrecho en la Smith: la barra guiada se agarra con las manos juntas y se tira al esternón con los codos pegados al cuerpo. El torso queda más alto que en el remo abierto y no se mueve: el recorrido corto y pegado trabaja la espalda alta y el dorsal con menos ayuda de los hombros.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 370,
+    "y": 1503.1,
+    "scale": 0.85
+  },
+  "shadow": false,
+  "initialPose": "HINGE",
+  "props": [
+    {
+      "type": "smith",
+      "x": 200,
+      "top": -860,
+      "gap": 300,
+      "stops": -260,
+      "track": "hands",
+      "torso": [
+        -34,
+        18
+      ],
+      "r": 60
+    }
+  ],
+  "poses": {
+    "HINGE": {
+      "ankle": [
+        55,
+        0
+      ],
+      "ankle2": [
+        -25,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "hip": [
+        -40,
+        -445
+      ],
+      "b": 50,
+      "hd": 8,
+      "g": 1,
+      "hx": 200,
+      "hy": -295
+    },
+    "PULL": {
+      "ankle": [
+        55,
+        0
+      ],
+      "ankle2": [
+        -25,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "hip": [
+        -40,
+        -445
+      ],
+      "b": 50,
+      "hd": 8,
+      "g": 1,
+      "hx": 200,
+      "hy": -500
+    },
+    "ROUND_BAD": {
+      "ankle": [
+        55,
+        0
+      ],
+      "ankle2": [
+        -25,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "hip": [
+        -60,
+        -420
+      ],
+      "b": 58,
+      "hd": 56,
+      "g": 1,
+      "hx": 200,
+      "hy": -300
+    },
+    "SWING_BAD": {
+      "ankle": [
+        55,
+        0
+      ],
+      "ankle2": [
+        -25,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "hip": [
+        0,
+        -478
+      ],
+      "b": 32,
+      "hd": 0,
+      "g": 1,
+      "hx": 200,
+      "hy": -505
+    },
+    "SHORT_BAD": {
+      "ankle": [
+        55,
+        0
+      ],
+      "ankle2": [
+        -25,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "hip": [
+        -40,
+        -445
+      ],
+      "b": 50,
+      "hd": 8,
+      "g": 1,
+      "hx": 200,
+      "hy": -380
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · ESPALDA",
+      "head": [
+        "REMO",
+        "ESTRECHO"
+      ],
+      "sub": "Manos juntas",
+      "vo": "Smith Narrow Row: remo estrecho en la barra guiada, con las manos juntas y los codos pegados al cuerpo.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "HINGE",
+              1.1
+            ],
+            [
+              "PULL",
+              1.2
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "BARRA",
+        "GUIADA"
+      ],
+      "sub": "Recorrido fijo",
+      "vo": "La barra corre entre los parantes en una sola vertical: no peleás con el equilibrio y el recorrido es siempre el mismo.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            540,
+            752
+          ],
+          "r": 66,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BARRA GUIADA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            795,
+            976
+          ],
+          "r": 56,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            880
+          ],
+          "text": "PARANTES",
+          "anchor": "start",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            795,
+            1282
+          ],
+          "r": 48,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            960
+          ],
+          "text": "TOPES",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "BARRA A",
+        "LAS RODILLAS"
+      ],
+      "sub": "Altura baja",
+      "vo": "Dejá la barra a la altura de las rodillas y los topes justo debajo, para que puedas soltarla si hace falta.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            540,
+            1252
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            795,
+            1282
+          ],
+          "r": 44,
+          "at": 2.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BARRA Y TOPES",
+          "anchor": "start",
+          "at": 1.0
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            880
+          ],
+          "text": "A LAS RODILLAS",
+          "anchor": "start",
+          "at": 2.2
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "AGARRE",
+        "ESTRECHO"
+      ],
+      "sub": "Manos juntas",
+      "vo": "Agarrá la barra con las manos juntas, a menos de un palmo entre una y otra, y las palmas hacia abajo.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            540,
+            1252
+          ],
+          "r": 52,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "AGARRE ESTRECHO",
+          "anchor": "start",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "INCLINADO",
+        "ADELANTE"
+      ],
+      "sub": "Espalda recta",
+      "vo": "Inclinate desde la cadera con la espalda recta y las rodillas blandas. La barra cuelga de los brazos a la altura de las rodillas.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            472,
+            1061
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "ESPALDA RECTA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "TIRÁ AL",
+        "ESTERNÓN"
+      ],
+      "sub": "Codos al cuerpo",
+      "vo": "Paso uno. Tirá la barra al esternón con los codos pegados al cuerpo, sin despegar los brazos del torso.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.4,
+          "dur": 1.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            540,
+            1078
+          ],
+          "r": 58,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "AL ESTERNÓN",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "APRETÁ LA",
+        "ESPALDA"
+      ],
+      "sub": "Pausa arriba",
+      "vo": "Paso dos. Juntá las escápulas arriba y hacé una pausa corta apretando la espalda alta, sin subir los hombros.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "PULL",
+          "at": 0.2,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            523,
+            993
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "ESCÁPULAS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "CONTROLANDO"
+      ],
+      "sub": "Brazos estirados",
+      "vo": "Paso tres. Bajá la barra controlando el recorrido hasta estirar los brazos, sin dejarla caer ni perder la espalda recta.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "HINGE",
+          "at": 0.5,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            540,
+            1252
+          ],
+          "r": 58,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "CONTROLÁ LA BAJADA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá al tirar",
+      "vo": "Tomá aire cuando la barra baja y soltalo al tirar. No aguantes el aire ni pierdas la posición del torso.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "HINGE",
+              1.2
+            ],
+            [
+              "PULL",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "REDONDEAR",
+        "LA ESPALDA"
+      ],
+      "sub": "Espalda recta",
+      "vo": "Error: redondear la espalda. Mantenela recta de la cadera a la nuca y la mirada al frente, sin bajar la cabeza.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "to": "ROUND_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            472,
+            1061
+          ],
+          "r": 58,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "TIRAR CON",
+        "EL CUERPO"
+      ],
+      "sub": "Torso quieto",
+      "vo": "Error: enderezar el torso para tirar. El torso queda firme y el peso lo mueve la espalda, no el balanceo.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "to": "SWING_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            370,
+            1104
+          ],
+          "r": 56,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "MEDIO",
+        "RECORRIDO"
+      ],
+      "sub": "Hasta el esternón",
+      "vo": "Error: cortar el recorrido. La barra llega al esternón en cada repetición y baja hasta estirar los brazos.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "to": "SHORT_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            540,
+            1180
+          ],
+          "r": 58,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Manos juntas",
+        "Codos al cuerpo",
+        "Espalda recta",
+        "Al esternón"
+      ],
+      "vo": "Tips: manos juntas, codos al cuerpo, espalda recta y la barra al esternón.",
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "HINGE",
+              1.2
+            ],
+            [
+              "PULL",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Agarre estrecho",
+        "Bisagra de cadera",
+        "Escápulas juntas",
+        "Bajada controlada"
+      ],
+      "vo": "Claves: agarre estrecho, bisagra de cadera, escápulas juntas y bajada controlada.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10–12"
+      ],
+      "sub": "Espalda alta y dorsal",
+      "vo": "Tres series de diez a doce repeticiones, con un minuto de pausa. Empezá liviano y priorizá la técnica.",
+      "chips": [
+        {
+          "label": "1 · TIRÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "HINGE",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "HINGE",
+              1.1
+            ],
+            [
+              "PULL",
+              1.1
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "DEJÁ LA BARRA",
+        "EN LOS TOPES"
+      ],
+      "sub": "Sin apuro",
+      "vo": "Al terminar, dejá la barra en los topes y enderezate despacio, sin soltar la espalda de golpe.",
+      "moves": [
+        {
+          "cut": "PULL",
+          "at": 0
+        },
+        {
+          "to": "HINGE",
+          "at": 0.9,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "SIN APURO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "PULL",
+    "zoom": 1.02,
+    "dy": 20
+  },
+  "youtube": {
+    "titulo": "Smith Narrow Row 🔥 Remo estrecho en la Smith | Espalda",
+    "tags": [
+      "smith narrow row",
+      "remo estrecho",
+      "remo en smith",
+      "remo con barra",
+      "smith machine",
+      "multipower",
+      "espalda alta",
+      "dorsales",
+      "bíceps",
+      "gimnasio",
+      "principiantes",
+      "rutina de espalda"
+    ],
+    "descripcion": "🔥 SMITH NARROW ROW (remo estrecho con la barra guiada de la máquina Smith) — espalda alta y dorsal\n\nEl remo estrecho en la Smith es un remo inclinado con las manos juntas y los codos pegados al cuerpo. La barra guiada corre en una sola vertical, así que el torso puede quedarse más alto y quieto mientras la espalda alta y el dorsal hacen el trabajo. La barra sube al esternón, no al abdomen, y el recorrido corto y pegado hace que los hombros ayuden menos. Los errores típicos son redondear la espalda, enderezar el torso para tirar y cortar el recorrido. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Dejá la barra a la altura de las rodillas y los topes justo debajo.\n2️⃣ Pies al ancho de la cadera, rodillas blandas e inclinate desde la cadera.\n\n📋 PASO A PASO\n1️⃣ Agarrá la barra con las manos juntas, palmas hacia abajo.\n2️⃣ Tirá la barra al esternón con los codos pegados al cuerpo.\n3️⃣ Juntá las escápulas arriba y hacé una pausa corta.\n4️⃣ Bajá controlando hasta estirar los brazos.\n5️⃣ Dejá la barra en los topes al terminar.\n\n❌ ERRORES COMUNES\n• Redondear la espalda → espalda recta y mirada al frente.\n• Enderezar el torso para tirar → el torso queda firme.\n• Cortar el recorrido → la barra llega al esternón.\n\n💡 TIPS DEL PROFE\n• Manos juntas, a menos de un palmo.\n• Codos pegados al cuerpo.\n• La barra sube al esternón.\n• Bajada controlada hasta estirar.\n\n🎯 QUÉ TRABAJA\nEspalda → Espalda alta → Dorsal → Bíceps\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto de pausa. Nivel: intermedio.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Espalda #RemoEstrecho #SmithMachine #Dorsales #Biceps #Entrenamiento #Fuerza"
+  }
+}

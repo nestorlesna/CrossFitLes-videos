@@ -1,0 +1,870 @@
+{
+  "slug": "smith-shoulder-press",
+  "name": "Smith Shoulder Press",
+  "maquina": true,
+  "category": "GIMNASIO · HOMBROS",
+  "tags": [
+    "Deltoides",
+    "Tríceps",
+    "Espalda alta"
+  ],
+  "descripcion": "Press de hombros en la Smith: sentado con la espalda apoyada en el respaldo, la barra arranca a la altura de los hombros por delante de la cara y sube hasta estirar los brazos. Los codos quedan abiertos, el abdomen firme y la espalda pegada al respaldo: si te arqueás o te encogés, el trabajo se va a la lumbar y al cuello.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 520,
+    "y": 1501.4,
+    "scale": 0.9
+  },
+  "shadow": false,
+  "initialPose": "DOWN",
+  "props": [
+    {
+      "type": "smith",
+      "x": 150,
+      "top": -1040,
+      "gap": 280,
+      "stops": -430,
+      "track": "hands",
+      "r": 56,
+      "seat": [
+        -300,
+        60,
+        -240,
+        -40,
+        -6,
+        460
+      ]
+    }
+  ],
+  "poses": {
+    "DOWN": {
+      "hip": [
+        10,
+        -246
+      ],
+      "ankle": [
+        235,
+        -16
+      ],
+      "ankle2": [
+        160,
+        -16
+      ],
+      "b": 0,
+      "hd": 0,
+      "ft": 0,
+      "ft2": 0,
+      "g": 1,
+      "hx": 150,
+      "ed": 1,
+      "hy": -620
+    },
+    "TOP": {
+      "hip": [
+        10,
+        -246
+      ],
+      "ankle": [
+        235,
+        -16
+      ],
+      "ankle2": [
+        160,
+        -16
+      ],
+      "b": 0,
+      "hd": 0,
+      "ft": 0,
+      "ft2": 0,
+      "g": 1,
+      "hx": 150,
+      "ed": 1,
+      "hy": -815
+    },
+    "HALF_BAD": {
+      "hip": [
+        10,
+        -246
+      ],
+      "ankle": [
+        235,
+        -16
+      ],
+      "ankle2": [
+        160,
+        -16
+      ],
+      "b": 0,
+      "hd": 0,
+      "ft": 0,
+      "ft2": 0,
+      "g": 1,
+      "hx": 150,
+      "ed": 1,
+      "hy": -710
+    },
+    "ARCH_BAD": {
+      "hip": [
+        10,
+        -246
+      ],
+      "ankle": [
+        235,
+        -16
+      ],
+      "ankle2": [
+        160,
+        -16
+      ],
+      "b": -22,
+      "hd": -14,
+      "ft": 0,
+      "ft2": 0,
+      "g": 1,
+      "hx": 150,
+      "ed": 1,
+      "hy": -600
+    },
+    "SHRUG_BAD": {
+      "hip": [
+        10,
+        -246
+      ],
+      "ankle": [
+        235,
+        -16
+      ],
+      "ankle2": [
+        160,
+        -16
+      ],
+      "b": 0,
+      "hd": 0,
+      "ft": 0,
+      "ft2": 0,
+      "g": 1,
+      "hx": 150,
+      "ed": 1,
+      "sh": 26,
+      "hy": -808
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · HOMBROS",
+      "head": [
+        "PRESS DE",
+        "HOMBROS"
+      ],
+      "sub": "Sentado en la Smith",
+      "vo": "Press de hombros en la Smith: sentado, la barra sube por delante de la cara hasta estirar los brazos sin arquear la espalda.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.2
+            ],
+            [
+              "TOP",
+              1.2
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "BARRA",
+        "GUIADA"
+      ],
+      "sub": "Banco con respaldo",
+      "vo": "En la Smith la barra corre guiada entre los parantes y el banco con respaldo te deja sentado, firme y estable.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            655,
+            559
+          ],
+          "r": 66,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            720
+          ],
+          "text": "BARRA GUIADA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            907,
+            997
+          ],
+          "r": 56,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "PARANTE",
+          "anchor": "start",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            376,
+            1285
+          ],
+          "r": 70,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1160
+          ],
+          "text": "BANCO",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "ASIENTO",
+        "A TU ALTURA"
+      ],
+      "sub": "Espalda al respaldo",
+      "vo": "Ajustá el asiento para que la barra quede a la altura de los hombros y apoyá bien la espalda en el respaldo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            376,
+            1285
+          ],
+          "r": 70,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            720
+          ],
+          "text": "ASIENTO A TU ALTURA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            475,
+            1204
+          ],
+          "r": 62,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "ESPALDA APOYADA",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "AGARRE",
+        "PRONO"
+      ],
+      "sub": "Manos abiertas",
+      "vo": "Agarrá la barra con las palmas hacia delante y las manos un poco más abiertas que los hombros.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            655,
+            943
+          ],
+          "r": 64,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            720
+          ],
+          "text": "AGARRE PRONO",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            655,
+            862
+          ],
+          "r": 52,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1030,
+            800
+          ],
+          "text": "MANOS ABIERTAS",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BARRA AL",
+        "MENTÓN"
+      ],
+      "sub": "Codos abiertos",
+      "vo": "Arrancá con la barra a la altura del mentón, los codos abiertos y los pies bien plantados en el piso.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            655,
+            943
+          ],
+          "r": 64,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            720
+          ],
+          "text": "BARRA AL MENTÓN",
+          "anchor": "start",
+          "at": 1.0
+        },
+        {
+          "type": "ring",
+          "pos": [
+            704,
+            1460
+          ],
+          "r": 52,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1030,
+            900
+          ],
+          "text": "PIES AL PISO",
+          "anchor": "end",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "EMPUJÁ",
+        "ARRIBA"
+      ],
+      "sub": "Sin arquear",
+      "vo": "Paso uno. Empujá la barra hacia arriba hasta estirar los brazos, sin arquear la espalda ni encogerte.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.4,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            529,
+            1015
+          ],
+          "r": 44,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            720
+          ],
+          "text": "EMPUJÁ ARRIBA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ARRIBA",
+        "CON TODO"
+      ],
+      "sub": "Brazos extendidos",
+      "vo": "Paso dos. Llegá arriba con los brazos bien extendidos y las costillas abajo: la espalda sigue en el respaldo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.2,
+          "dur": 0.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            655,
+            768
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1030,
+            720
+          ],
+          "text": "BRAZOS EXTENDIDOS",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "AL MENTÓN"
+      ],
+      "sub": "Controlá la vuelta",
+      "vo": "Paso tres. Bajá la barra despacio hasta el mentón, controlando el recorrido sin soltar el abdomen.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.5,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            655,
+            943
+          ],
+          "r": 64,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            720
+          ],
+          "text": "BAJÁ AL MENTÓN",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá al empujar",
+      "vo": "Tomá aire cuando bajás la barra y soltalo cuando empujás. No aguantes el aire arriba.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.2
+            ],
+            [
+              "TOP",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "MEDIA",
+        "REPETICIÓN"
+      ],
+      "sub": "Recorrido completo",
+      "vo": "Error: quedarse a mitad de camino. Bajá hasta el mentón y subí hasta estirar los brazos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "HALF_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            655,
+            862
+          ],
+          "r": 50,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "ARQUEAR",
+        "LA ESPALDA"
+      ],
+      "sub": "Costillas abajo",
+      "vo": "Error: arquear la espalda para empujar. La espalda queda apoyada en el respaldo y las costillas abajo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            480,
+            1159
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "ENCOGER",
+        "LOS HOMBROS"
+      ],
+      "sub": "Hombros abajo",
+      "vo": "Error: encogerse de hombros al empujar. Los hombros quedan abajo y el trabajo lo hacen los brazos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "SHRUG_BAD",
+          "at": 0.5,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            529,
+            1028
+          ],
+          "r": 46,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Espalda en el respaldo",
+        "Barra al mentón",
+        "Subí sin arquear",
+        "Bajada controlada"
+      ],
+      "vo": "Tips: espalda en el respaldo, barra al mentón, subí sin arquear y bajada controlada.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.2
+            ],
+            [
+              "TOP",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Codos abiertos",
+        "Abdomen firme",
+        "Pies plantados",
+        "Recorrido completo"
+      ],
+      "vo": "Claves: codos abiertos, abdomen firme, pies plantados y recorrido completo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 8–12"
+      ],
+      "sub": "Hombros",
+      "vo": "Tres series de ocho a doce repeticiones, con un minuto y medio de pausa. Peso moderado y sin arquear la espalda.",
+      "chips": [
+        {
+          "label": "1 · EMPUJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · ARRIBA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.1
+            ],
+            [
+              "TOP",
+              1.1
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "DEJÁ",
+        "LA BARRA"
+      ],
+      "sub": "Sin apurarse",
+      "vo": "Al terminar la serie, dejá la barra en los topes, soltá las manos y recién ahí salí del banco.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.9,
+          "dur": 2.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            720
+          ],
+          "text": "SIN APURARSE",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "TOP",
+    "zoom": 1.0,
+    "dy": 190
+  },
+  "youtube": {
+    "titulo": "Smith Shoulder Press 🔥 Press de hombros en la Smith | Gimnasio",
+    "tags": [
+      "smith shoulder press",
+      "press de hombros",
+      "press militar",
+      "press sentado",
+      "smith machine",
+      "multipower",
+      "hombros",
+      "deltoides",
+      "tríceps",
+      "gimnasio",
+      "principiantes",
+      "rutina de hombros"
+    ],
+    "descripcion": "🔥 SMITH SHOULDER PRESS (press de hombros sentado en la máquina Smith) — hombros, deltoides y tríceps\n\nLa Smith guía la barra en línea recta y el banco con respaldo deja el torso estable, así que el press de hombros se puede hacer con un recorrido fijo y controlado. La barra arranca a la altura del mentón, por delante de la cara, y sube hasta estirar los brazos, con los codos abiertos y el abdomen firme. Si te arqueás, te encogés o cortás el recorrido, el hombro pierde tensión y la zona lumbar se lleva el trabajo. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el asiento para que la barra quede a la altura de los hombros.\n2️⃣ Sentate con la espalda apoyada en el respaldo y los pies plantados.\n\n📋 PASO A PASO\n1️⃣ Agarrá la barra con agarre prono, un poco más abierto que los hombros.\n2️⃣ Arrancá con la barra a la altura del mentón y los codos abiertos.\n3️⃣ Empujá la barra hacia arriba hasta estirar los brazos.\n4️⃣ Mantené las costillas abajo, sin arquear la espalda.\n5️⃣ Bajá controlando hasta el mentón y repetí.\n\n❌ ERRORES COMUNES\n• Arquear la espalda → espalda apoyada y costillas abajo.\n• Encogerse de hombros → los hombros quedan abajo.\n• Media repetición → bajá hasta el mentón y subí hasta estirar.\n\n💡 TIPS DEL PROFE\n• Espalda en el respaldo.\n• Barra al mentón, codos abiertos.\n• Abdomen firme y costillas abajo.\n• Bajada controlada.\n\n🎯 QUÉ TRABAJA\nHombros → Deltoides → Tríceps\n\n⏱️ CUÁNTO\n3 series de 8–12 repeticiones, con 1 minuto y medio de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Hombros #Deltoides #SmithMachine #Multipower #Press #Entrenamiento #Fuerza"
+  }
+}
