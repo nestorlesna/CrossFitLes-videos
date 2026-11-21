@@ -1,0 +1,805 @@
+{
+  "slug": "smith-seated-one-leg-calf-raise",
+  "name": "Smith Seated One Leg Calf Raise",
+  "maquina": true,
+  "category": "GIMNASIO · PANTORRILLAS",
+  "tags": [
+    "Gemelos",
+    "Sóleo"
+  ],
+  "descripcion": "Elevación de talón sentado con una pierna en la Smith: la barra apoya sobre los muslos y el talón del pie apoyado sube todo lo posible. La otra pierna queda afuera, sin empujar.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 480,
+    "y": 1504.8,
+    "scale": 0.8
+  },
+  "shadow": false,
+  "initialPose": "DOWN",
+  "props": [
+    {
+      "type": "bench",
+      "x0": -260,
+      "x1": 180,
+      "h": 284
+    },
+    {
+      "type": "smith",
+      "x": 100,
+      "top": -830,
+      "gap": 280,
+      "stops": -250,
+      "track": "hands",
+      "r": 56
+    }
+  ],
+  "poses": {
+    "DOWN": {
+      "hip": [
+        -30,
+        -250
+      ],
+      "ankle": [
+        215,
+        0
+      ],
+      "ankle2": [
+        205,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "b": 2,
+      "hd": 0,
+      "g": 1,
+      "hx": 100,
+      "ed": 1,
+      "hy": -238
+    },
+    "UP": {
+      "hip": [
+        -30,
+        -250
+      ],
+      "ankle": [
+        210,
+        -30
+      ],
+      "ankle2": [
+        205,
+        0
+      ],
+      "ft": 30,
+      "ft2": 0,
+      "b": 2,
+      "hd": 0,
+      "g": 1,
+      "hx": 100,
+      "ed": 1,
+      "hy": -238
+    },
+    "HALF_BAD": {
+      "hip": [
+        -30,
+        -250
+      ],
+      "ankle": [
+        213,
+        -14
+      ],
+      "ankle2": [
+        205,
+        0
+      ],
+      "ft": 14,
+      "ft2": 0,
+      "b": 2,
+      "hd": 0,
+      "g": 1,
+      "hx": 100,
+      "ed": 1,
+      "hy": -238
+    },
+    "KNEE_BAD": {
+      "hip": [
+        -30,
+        -270
+      ],
+      "ankle": [
+        215,
+        -6
+      ],
+      "ankle2": [
+        205,
+        0
+      ],
+      "ft": 6,
+      "ft2": 0,
+      "b": 8,
+      "hd": 4,
+      "g": 1,
+      "hx": 100,
+      "ed": 1,
+      "hy": -238
+    },
+    "LEAN_BAD": {
+      "hip": [
+        -30,
+        -250
+      ],
+      "ankle": [
+        215,
+        0
+      ],
+      "ankle2": [
+        205,
+        0
+      ],
+      "ft": 0,
+      "ft2": 0,
+      "b": 16,
+      "hd": 10,
+      "g": 1,
+      "hx": 100,
+      "ed": 1,
+      "hy": -238
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PANTORRILLAS",
+      "head": [
+        "GEMELOS",
+        "SENTADO"
+      ],
+      "sub": "Un talón por vez",
+      "vo": "Smith Seated One Leg Calf Raise: elevación de talón sentado, con una pierna y la barra en los muslos.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.2
+            ],
+            [
+              "DOWN",
+              1.4
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "BARRA Y",
+        "BANCO"
+      ],
+      "sub": "Banco y barra",
+      "vo": "La barra corre en la Smith y apoya sobre los muslos. El asiento queda a la altura de la pierna baja.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            648,
+            681
+          ],
+          "r": 64,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BARRA GUIADA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            664,
+            945
+          ],
+          "r": 56,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            880
+          ],
+          "text": "PARANTES",
+          "anchor": "start",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            664,
+            1265
+          ],
+          "r": 48,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            960
+          ],
+          "text": "TOPES",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "BANCO",
+        "A LA ALTURA"
+      ],
+      "sub": "Muslos paralelos",
+      "vo": "Ajustá el asiento para que los muslos queden casi paralelos al piso y la barra apoye cómoda.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            328,
+            1305
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "ASIENTO A LA ALTURA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "UNA PIERNA",
+        "AFUERA"
+      ],
+      "sub": "Solo un talón",
+      "vo": "Apoyá una sola pierna en el piso y dejá la otra afuera, sin empujar. La barra queda en los muslos.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            560,
+            1314
+          ],
+          "r": 58,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "UNA PIERNA",
+          "anchor": "start",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "SENTADO",
+        "FIRME"
+      ],
+      "sub": "Espalda en el respaldo",
+      "vo": "Sentate con la espalda en el respaldo, los pies firmes y la barra apoyada sobre los muslos.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            464,
+            1055
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "ESPALDA APOYADA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SUBÍ EL",
+        "TALÓN"
+      ],
+      "sub": "Todo arriba",
+      "vo": "Paso uno. Subí el talón todo lo posible usando el gemelo, sin levantar la rodilla.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.4,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            560,
+            1314
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "TALÓN ARRIBA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "PAUSA",
+        "ARRIBA"
+      ],
+      "sub": "Aprieta el gemelo",
+      "vo": "Paso dos. Hacé una pausa breve arriba, con el talón bien alto y el gemelo apretado.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            552,
+            1187
+          ],
+          "r": 52,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "PAUSA ARRIBA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "DESPACIO"
+      ],
+      "sub": "Bajada lenta",
+      "vo": "Paso tres. Bajá el talón despacio hasta abajo, sin rebotar y sin mover el muslo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.4,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            560,
+            1314
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BAJÁ DESPACIO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá al subir",
+      "vo": "Tomá aire arriba, aguantalo en la bajada y soltalo al empujar. No lo retengas todo el recorrido.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.2
+            ],
+            [
+              "HALF_BAD",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "MEDIO",
+        "RECORRIDO"
+      ],
+      "sub": "Talón arriba",
+      "vo": "Error: subir el talón apenas. El talón sube todo lo posible y hace una pausa.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "HALF_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            560,
+            1314
+          ],
+          "r": 52,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "LEVANTAR",
+        "LA RODILLA"
+      ],
+      "sub": "Muslo quieto",
+      "vo": "Error: levantar la rodilla o la cola para empujar. El muslo queda apoyado.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "KNEE_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            560,
+            1314
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "ENCOVARSE",
+        "ADELANTE"
+      ],
+      "sub": "Espalda recta",
+      "vo": "Error: inclinarse hacia adelante. La espalda queda en el respaldo y el core firme.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            560,
+            1314
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Talón arriba",
+        "Pausa arriba",
+        "Muslo quieto",
+        "Bajada lenta"
+      ],
+      "vo": "Tips: talón arriba, pausa arriba, muslo quieto y bajada lenta.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.2
+            ],
+            [
+              "DOWN",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Todo el recorrido",
+        "Pausa arriba",
+        "Una pierna",
+        "Sin rebote"
+      ],
+      "vo": "Claves: todo el recorrido, pausa arriba, una sola pierna y sin rebote.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12–15"
+      ],
+      "sub": "Gemelos",
+      "vo": "Tres series de doce a quince repeticiones por pierna, con un minuto de pausa.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PAUSA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "UP",
+              1.2
+            ],
+            [
+              "DOWN",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "DEJÁ LA BARRA",
+        "EN LOS TOPES"
+      ],
+      "sub": "Salí de costado",
+      "vo": "Al terminar, dejá la barra en los topes, sacá las manos y salí del banco de costado, sin apurarte.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "HALF_BAD",
+          "at": 0.8,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "SIN APURO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "grip": 1,
+    "zoom": 1.1,
+    "dy": 40
+  },
+  "youtube": {
+    "titulo": "Smith Seated One Leg Calf Raise 🔥 Gemelos | Una pierna",
+    "tags": [
+      "smith seated calf raise",
+      "elevacion de talon sentado",
+      "gemelos",
+      "soleo",
+      "pantorrillas",
+      "smith machine",
+      "gimnasio"
+    ],
+    "descripcion": "🔥 SMITH SEATED ONE LEG CALF RAISE (elevación de talón sentado con una pierna en la Smith) — gemelos y sóleo\n\nSentado con la barra en los muslos, un solo talón sube todo lo posible. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el asiento a la altura de la pierna.\n2️⃣ Apoyá una pierna y dejá la otra afuera.\n\n📋 PASO A PASO\n1️⃣ Sentate con la espalda en el respaldo.\n2️⃣ Apoyá la barra sobre los muslos.\n3️⃣ Subí el talón todo lo posible.\n4️⃣ Hacé una pausa arriba.\n5️⃣ Bajá despacio y repetí; después cambiá de pierna.\n\n❌ ERRORES COMUNES\n• Medio recorrido → talón bien arriba.\n• Levantar la rodilla → muslo quieto.\n• Encorvarse → espalda en el respaldo.\n\n💡 TIPS DEL PROFE\n• Talón todo arriba.\n• Pausa arriba.\n• Una pierna por vez.\n\n🎯 QUÉ TRABAJA\nPantorrillas → Gemelos → Sóleo\n\n⏱️ CUÁNTO\n3 series de 12–15 repeticiones por pierna, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Pantorrillas #Gemelos #Soleo #SmithMachine #Fuerza"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Cable Assisted Inverse Leg Curl",
+      "text": "Curl femoral de pie con tobillera en la polea, talón al glúteo."
+    },
+    {
+      "id": "02",
+      "text": "La polea sube y baja por el riel y la pila de discos da la resistencia. La perilla elige el peso."
+    },
+    {
+      "id": "03",
+      "text": "Poné la polea alta y enganchá la tobillera en el pie que va a trabajar. El cable tira de atrás."
+    },
+    {
+      "id": "04",
+      "text": "Peso liviano: una sola pierna y de pie. Si perdés el equilibrio, bajá un disco o apoyate."
+    },
+    {
+      "id": "05",
+      "text": "De pie sobre una pierna, el cuerpo derecho y la punta del otro pie atrás, con la tobillera puesta."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Doblá la rodilla y llevá el talón al glúteo, sin mover el muslo ni el torso."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Arriba, apretá el femoral y el glúteo un segundo, con la cadera bien extendida."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá lento hasta la punta del pie, sin dejar que el peso te gane."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire en el esfuerzo y tomá aire al volver. No aguantes la respiración todo el recorrido."
+    },
+    {
+      "id": "10",
+      "text": "Error: doblar la rodilla de apoyo. La pierna que sostiene queda firme."
+    },
+    {
+      "id": "11",
+      "text": "Error: inclinar el torso para ayudar. El cuerpo queda derecho, sin moverse."
+    },
+    {
+      "id": "12",
+      "text": "Error: tirar con envión y levantarse. El movimiento es solo de la rodilla."
+    },
+    {
+      "id": "13",
+      "text": "Tips: una pierna firme, talón al glúteo, apretá arriba y bajá lento sin impulso."
+    },
+    {
+      "id": "14",
+      "text": "Claves: tobillera puesta, la rodilla dobla sola, cadera extendida y bajada controlada."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de doce a quince repeticiones por pierna, con un minuto de pausa."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, dejá que el peso baje solo, soltá la manija y alejate de la polea sin apuro."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

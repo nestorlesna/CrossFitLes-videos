@@ -1,0 +1,809 @@
+{
+  "slug": "cable-alternate-triceps-extension",
+  "name": "Cable Alternate Triceps Extension",
+  "maquina": true,
+  "category": "GIMNASIO · BRAZOS",
+  "tags": [
+    "Tríceps",
+    "Deltoides posterior"
+  ],
+  "descripcion": "Extensión de tríceps alterna en polea: el codo queda alto y quieto y el antebrazo sale de atrás de la cabeza hasta estirar el brazo. La otra mano cruza y sujeta el tríceps que trabaja.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1507.5,
+    "scale": 0.72
+  },
+  "shadow": false,
+  "initialPose": "START",
+  "props": [
+    {
+      "type": "cable",
+      "x": -400,
+      "top": -1400,
+      "pulley": [
+        -260,
+        -1250
+      ],
+      "track": -260,
+      "att": "handle",
+      "pin": 5
+    }
+  ],
+  "poses": {
+    "TOP": {
+      "hip": [
+        -10,
+        -450
+      ],
+      "ankle": [
+        70,
+        0
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "ft": 0,
+      "ft2": 12,
+      "b": 4,
+      "hd": 2,
+      "g": 0,
+      "ua2": 70,
+      "fa2": -150,
+      "ua": 165,
+      "fa": 7
+    },
+    "MID": {
+      "hip": [
+        -10,
+        -450
+      ],
+      "ankle": [
+        70,
+        0
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "ft": 0,
+      "ft2": 12,
+      "b": 4,
+      "hd": 2,
+      "g": 0,
+      "ua2": 70,
+      "fa2": -150,
+      "ua": 165,
+      "fa": 45
+    },
+    "START": {
+      "hip": [
+        -10,
+        -450
+      ],
+      "ankle": [
+        70,
+        0
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "ft": 0,
+      "ft2": 12,
+      "b": 4,
+      "hd": 2,
+      "g": 0,
+      "ua2": 70,
+      "fa2": -150,
+      "ua": 165,
+      "fa": 85
+    },
+    "CODO_BAD": {
+      "hip": [
+        -10,
+        -450
+      ],
+      "ankle": [
+        70,
+        0
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "ft": 0,
+      "ft2": 12,
+      "b": 4,
+      "hd": 2,
+      "g": 0,
+      "ua2": 70,
+      "fa2": -150,
+      "ua": 45,
+      "fa": 150
+    },
+    "ARCH_BAD": {
+      "hip": [
+        -10,
+        -450
+      ],
+      "ankle": [
+        70,
+        0
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "ft": 0,
+      "ft2": 12,
+      "b": -14,
+      "hd": -6,
+      "g": 0,
+      "ua2": 70,
+      "fa2": -150,
+      "ua": 165,
+      "fa": 7
+    },
+    "FRENTE_BAD": {
+      "hip": [
+        -10,
+        -450
+      ],
+      "ankle": [
+        70,
+        0
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "ft": 0,
+      "ft2": 12,
+      "b": 4,
+      "hd": 2,
+      "g": 0,
+      "ua2": 70,
+      "fa2": -150,
+      "ua": 165,
+      "fa": -30
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · BRAZOS",
+      "head": [
+        "TRÍCEPS",
+        "ALTERNO"
+      ],
+      "sub": "Codo alto y quieto",
+      "vo": "Cable Alternate Triceps Extension: extensión de tríceps alterna en polea, con el codo alto y quieto.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.2
+            ],
+            [
+              "START",
+              1.4
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "POLEA",
+        "Y PILA"
+      ],
+      "sub": "Polea y pila",
+      "vo": "La polea sube y baja por el riel y la pila de discos da la resistencia. La perilla elige el peso.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            413,
+            608
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "POLEA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            312,
+            1270
+          ],
+          "r": 70,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            880
+          ],
+          "text": "PILA DE PESO",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "POLEA",
+        "ALTA"
+      ],
+      "sub": "Arriba de la cabeza",
+      "vo": "Subí la polea bien arriba: el cable tiene que venir de arriba y atrás de la cabeza.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            434,
+            608
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "POLEA BIEN ALTA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "PESO",
+        "LIVIANO"
+      ],
+      "sub": "Codo primero",
+      "vo": "Peso liviano y una mano por vez. La otra mano cruza y sujeta el tríceps para que no se mueva.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            312,
+            1270
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "PESO LIVIANO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "CODO",
+        "ALTO"
+      ],
+      "sub": "Mano atrás",
+      "vo": "De pie, el codo apuntando arriba y la mano atrás de la cabeza, lista para estirar.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            608,
+            959
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "CODO ARRIBA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "ESTIRÁ",
+        "ARRIBA"
+      ],
+      "sub": "Codo fijo",
+      "vo": "Paso uno. Estirá el antebrazo arriba hasta que el brazo quede recto, sin mover el codo.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.4,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            655,
+            749
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BRAZO ESTIRADO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ARRIBA",
+        "PAUSA"
+      ],
+      "sub": "Aprieta",
+      "vo": "Paso dos. Arriba, apretá el tríceps un segundo con el brazo estirado y el hombro abajo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            639,
+            863
+          ],
+          "r": 52,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "APRETÁ EL TRÍCEPS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "VOLVÉ",
+        "LENTO"
+      ],
+      "sub": "Sin abrir",
+      "vo": "Paso tres. Volvé despacio hasta atrás de la cabeza, sin abrir el codo ni mover el hombro.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "START",
+          "at": 0.4,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            531,
+            823
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "VOLVÉ ATRÁS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Respirá parejo",
+      "vo": "Soltá el aire en el esfuerzo y tomá aire al volver. No aguantes la respiración todo el recorrido.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "START",
+              1.2
+            ],
+            [
+              "TOP",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "CODO",
+        "ABAJO"
+      ],
+      "sub": "Codo arriba",
+      "vo": "Error: bajar el codo hacia el costado. El codo queda alto y quieto, como un eje.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "CODO_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            665,
+            959
+          ],
+          "r": 52,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "ESPALDA",
+        "ARQUEADA"
+      ],
+      "sub": "Costillas abajo",
+      "vo": "Error: arquear la espalda para estirar. Costillas abajo y abdomen firme.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "ARCH_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            592,
+            754
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "MANO",
+        "ADELANTE"
+      ],
+      "sub": "Codo manda",
+      "vo": "Error: llevar la mano adelante en vez de estirar atrás. El codo alto manda el movimiento.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "to": "FRENTE_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            720,
+            781
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Codo alto",
+        "Codo quieto",
+        "Apretá arriba",
+        "Volvé lento"
+      ],
+      "vo": "Tips: codo alto y quieto, apretá arriba y volvé lento, sin arquear la espalda.",
+      "moves": [
+        {
+          "cut": "START",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "START",
+              1.2
+            ],
+            [
+              "TOP",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Codo alto",
+        "Codo fijo",
+        "Brazo estirado",
+        "Otra mano sujeta"
+      ],
+      "vo": "Claves: codo alto, codo fijo, brazo estirado arriba y la otra mano sujetando el tríceps.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10–12"
+      ],
+      "sub": "Tríceps",
+      "vo": "Tres series de diez a doce repeticiones por brazo, con un minuto de pausa.",
+      "chips": [
+        {
+          "label": "1 · ESTIRÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PAUSÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.2
+            ],
+            [
+              "START",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "SOLTÁ",
+        "EL PESO"
+      ],
+      "sub": "Dejá bajar",
+      "vo": "Al terminar, dejá que el peso baje solo, soltá la manija y alejate de la polea sin apuro.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.8,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "SIN APURO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "TOP",
+    "zoom": 1.05,
+    "dy": 40
+  },
+  "youtube": {
+    "titulo": "Cable Alternate Triceps Extension 🔥 Tríceps | Polea alta",
+    "tags": [
+      "cable triceps extension",
+      "extension triceps polea",
+      "triceps alterno",
+      "triceps",
+      "brazos",
+      "polea alta"
+    ],
+    "descripcion": "🔥 CABLE ALTERNATE TRICEPS EXTENSION (extensión de tríceps alterna en polea) — tríceps\n\nCon el codo alto y quieto, el cable trabaja el tríceps de punta a punta. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Subí la polea bien arriba.\n2️⃣ Elegí un peso liviano y agarrá la manija con una mano.\n\n📋 PASO A PASO\n1️⃣ De pie, el codo apuntando arriba y la mano atrás de la cabeza.\n2️⃣ La otra mano sujeta el tríceps.\n3️⃣ Estirá el antebrazo arriba.\n4️⃣ Pausá y apretá el tríceps.\n5️⃣ Volvé lento y cambiá de mano.\n\n❌ ERRORES COMUNES\n• Bajar el codo → codo alto y fijo.\n• Arquear la espalda → costillas abajo.\n• Llevar la mano adelante → estirá atrás.\n\n💡 TIPS DEL PROFE\n• Codo alto y quieto.\n• Apretá el tríceps arriba.\n• Volvé lento.\n\n🎯 QUÉ TRABAJA\nBrazos → Tríceps → Deltoides posterior\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones por brazo, con 1 minuto de pausa. Nivel: intermedio.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Triceps #Brazos #Poleas #Extension #Fuerza #Entrenamiento"
+  }
+}

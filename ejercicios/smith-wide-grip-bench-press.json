@@ -1,0 +1,799 @@
+{
+  "slug": "smith-wide-grip-bench-press",
+  "name": "Smith Wide Grip Bench Press",
+  "maquina": true,
+  "category": "GIMNASIO · PECHO",
+  "tags": [
+    "Pectorales",
+    "Tríceps",
+    "Deltoides anterior"
+  ],
+  "descripcion": "Press de banca con agarre amplio en la Smith: las manos bien abiertas y los codos hacia afuera. La barra baja al pecho y sube hasta estirar los brazos, con más trabajo del pecho.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1508.2,
+    "scale": 0.7
+  },
+  "shadow": false,
+  "initialPose": "TOP",
+  "props": [
+    {
+      "type": "bench",
+      "x0": -560,
+      "x1": 120,
+      "h": 200
+    },
+    {
+      "type": "smith",
+      "x": -235,
+      "top": -1040,
+      "stops": -300,
+      "track": "hands",
+      "r": 70
+    }
+  ],
+  "poses": {
+    "TOP": {
+      "hip": [
+        -20,
+        -196
+      ],
+      "ankle": [
+        230,
+        0
+      ],
+      "b": -90,
+      "hd": -92,
+      "ft": 0,
+      "g": 1,
+      "hx": -235,
+      "ed": 1,
+      "hy": -505
+    },
+    "MID": {
+      "hip": [
+        -20,
+        -196
+      ],
+      "ankle": [
+        230,
+        0
+      ],
+      "b": -90,
+      "hd": -92,
+      "ft": 0,
+      "g": 1,
+      "hx": -235,
+      "ed": 1,
+      "hy": -390
+    },
+    "BOTTOM": {
+      "hip": [
+        -20,
+        -196
+      ],
+      "ankle": [
+        230,
+        0
+      ],
+      "b": -90,
+      "hd": -92,
+      "ft": 0,
+      "g": 1,
+      "hx": -235,
+      "ed": 1,
+      "hy": -272
+    },
+    "SHORT_BAD": {
+      "hip": [
+        -20,
+        -196
+      ],
+      "ankle": [
+        230,
+        0
+      ],
+      "b": -90,
+      "hd": -92,
+      "ft": 0,
+      "g": 1,
+      "hx": -235,
+      "ed": 1,
+      "hy": -430
+    },
+    "NECK_BAD": {
+      "hip": [
+        50,
+        -196
+      ],
+      "ankle": [
+        230,
+        0
+      ],
+      "b": -90,
+      "hd": -92,
+      "ft": 0,
+      "g": 1,
+      "hx": -235,
+      "ed": 1,
+      "hy": -290
+    },
+    "BUTT_BAD": {
+      "hip": [
+        -20,
+        -230
+      ],
+      "ankle": [
+        230,
+        0
+      ],
+      "b": -102,
+      "hd": -92,
+      "ft": 0,
+      "g": 1,
+      "hx": -235,
+      "ed": 1,
+      "hy": -390,
+      "cv": -20
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PECHO",
+      "head": [
+        "PRESS",
+        "ANCHO"
+      ],
+      "sub": "Manos bien abiertas",
+      "vo": "Smith Wide Grip Bench Press: press de banca con agarre amplio y los codos hacia afuera.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.2
+            ],
+            [
+              "BOTTOM",
+              1.4
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "BARRA Y",
+        "BANCO"
+      ],
+      "sub": "Banco y barra",
+      "vo": "La barra corre entre los parantes y el banco se ubica debajo. Los topes te dejan una salida segura.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            512,
+            787
+          ],
+          "r": 64,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BARRA GUIADA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            526,
+            1018
+          ],
+          "r": 56,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            880
+          ],
+          "text": "PARANTES",
+          "anchor": "start",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            526,
+            1298
+          ],
+          "r": 48,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            960
+          ],
+          "text": "TOPES",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "BANCO",
+        "PLANO"
+      ],
+      "sub": "Pecho a la barra",
+      "vo": "Ajustá el banco plano para que la barra baje al pecho, con los ojos debajo de la barra.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            390,
+            1396
+          ],
+          "r": 60,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BANCO A LA ALTURA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "AGARRE",
+        "AMPLIO"
+      ],
+      "sub": "Manos bien abiertas",
+      "vo": "Agarre amplio, las manos bien abiertas y los codos hacia afuera, a los costados.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            436,
+            1155
+          ],
+          "r": 58,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "AGARRE AMPLIO",
+          "anchor": "start",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ACOSTADO",
+        "FIRME"
+      ],
+      "sub": "Ojos bajo la barra",
+      "vo": "Apoyá los glúteos y la espalda alta en el banco, los ojos debajo de la barra y los pies firmes.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            368,
+            1372
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "OJOS BAJO LA BARRA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ AL",
+        "PECHO"
+      ],
+      "sub": "Codos afuera",
+      "vo": "Paso uno. Bajá la barra al pecho con los codos hacia afuera y las muñecas rectas.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.4,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            436,
+            1318
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "AL PECHO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "TOCÁ",
+        "SUAVE"
+      ],
+      "sub": "Sin rebote",
+      "vo": "Paso dos. Tocá sin rebotar y hacé una pausa corta, sin perder la posición de los codos.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            505,
+            1405
+          ],
+          "r": 52,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "PAUSA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "EMPUJÁ",
+        "ARRIBA"
+      ],
+      "sub": "Hasta estirar",
+      "vo": "Paso tres. Empujá hasta estirar los brazos, sin trabar los codos ni mover los pies.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.4,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            436,
+            1155
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BRAZOS ESTIRADOS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá al subir",
+      "vo": "Tomá aire arriba, aguantalo en la bajada y soltalo al empujar. No lo retengas todo el recorrido.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.2
+            ],
+            [
+              "MID",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "CODOS MUY",
+        "ABIERTOS"
+      ],
+      "sub": "Codos afuera",
+      "vo": "Error: abrir los codos más de la cuenta. Con agarre amplio quedan afuera, pero controlados.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "NECK_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            436,
+            1305
+          ],
+          "r": 52,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "DESPEGAR",
+        "LA COLA"
+      ],
+      "sub": "Glúteos abajo",
+      "vo": "Error: despegar los glúteos para empujar. La cola y la espalda alta quedan apoyadas.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "BUTT_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            436,
+            1235
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "MEDIO",
+        "RECORRIDO"
+      ],
+      "sub": "Tocá y estirá",
+      "vo": "Error: cortar el recorrido. La barra toca el pecho y sube hasta estirar los brazos.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "SHORT_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            436,
+            1207
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Manos abiertas",
+        "Codos afuera",
+        "Tocá suave",
+        "Empujá parejo"
+      ],
+      "vo": "Tips: manos bien abiertas, codos afuera, tocá suave y empujá parejo.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.2
+            ],
+            [
+              "BOTTOM",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Agarre amplio",
+        "Codos afuera",
+        "Barra al pecho",
+        "Pies firmes"
+      ],
+      "vo": "Claves: agarre amplio, codos afuera, barra al pecho y pies firmes.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 8–12"
+      ],
+      "sub": "Pecho y tríceps",
+      "vo": "Tres series de ocho a doce repeticiones, con un minuto y medio de pausa.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · TOCÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · EMPUJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.2
+            ],
+            [
+              "BOTTOM",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "DEJÁ LA BARRA",
+        "EN LOS TOPES"
+      ],
+      "sub": "Salí de costado",
+      "vo": "Al terminar, dejá la barra en los topes, sacá las manos y salí del banco de costado, sin apurarte.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "MID",
+          "at": 0.8,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "SIN APURO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "TOP",
+    "grip": 1,
+    "zoom": 1.0,
+    "dy": 40
+  },
+  "youtube": {
+    "titulo": "Smith Wide Grip Press 🔥 Press ancho | Pecho",
+    "tags": [
+      "smith wide grip press",
+      "press agarre amplio",
+      "press de banca ancho",
+      "smith machine",
+      "pectorales",
+      "pecho",
+      "triceps",
+      "gimnasio"
+    ],
+    "descripcion": "🔥 SMITH WIDE GRIP BENCH PRESS (press de banca con agarre amplio en la Smith) — pectorales y tríceps\n\nEl agarre amplio abre los codos y reparte el trabajo en todo el pecho. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el banco plano a la altura del pecho.\n2️⃣ Acostate con los ojos debajo de la barra.\n\n📋 PASO A PASO\n1️⃣ Ajustá el banco plano a la altura del pecho.\n2️⃣ Acostate con los ojos debajo de la barra.\n3️⃣ Agarre amplio, manos bien abiertas.\n4️⃣ Bajá la barra al pecho con los codos afuera.\n5️⃣ Empujá hasta estirar los brazos.\n\n❌ ERRORES COMUNES\n• Codos demasiado abiertos → controlados.\n• Despegar los glúteos → cola y espalda apoyadas.\n• Cortar el recorrido → tocá y estirá.\n\n💡 TIPS DEL PROFE\n• Manos bien abiertas.\n• Codos afuera, controlados.\n• Barra al pecho.\n\n🎯 QUÉ TRABAJA\nPecho → Pectorales → Tríceps → Deltoides anterior\n\n⏱️ CUÁNTO\n3 series de 8–12 repeticiones, con 1 minuto y medio de pausa. Nivel: intermedio.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Pecho #AgarreAmplio #SmithMachine #Pectorales #Triceps"
+  }
+}

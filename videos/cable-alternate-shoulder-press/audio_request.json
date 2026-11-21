@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Cable Alternate Shoulder Press",
+      "text": "Press de hombros alterno en poleas, una mano sube mientras la otra espera."
+    },
+    {
+      "id": "02",
+      "text": "La polea sube y baja por el riel y la pila de discos da la resistencia. La perilla elige el peso."
+    },
+    {
+      "id": "03",
+      "text": "Poné las poleas a la altura de los hombros o un poco más arriba, y las manijas a un paso del cuerpo."
+    },
+    {
+      "id": "04",
+      "text": "Peso liviano: alternar brazos ya cuesta el doble. Si el torso se mueve, bajá un disco."
+    },
+    {
+      "id": "05",
+      "text": "De pie, pies al ancho de hombros, abdomen activo y las manos a la altura de los hombros."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá una manija arriba y adelante hasta estirar el brazo, sin mover el torso."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Arriba, hacé una pausa corta con el brazo estirado y el hombro abajo, sin encogerte."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá despacio hasta el hombro y recién ahí subí la otra mano, alternando."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire en el esfuerzo y tomá aire al volver. No aguantes la respiración todo el recorrido."
+    },
+    {
+      "id": "10",
+      "text": "Error: abrir el codo hacia el costado. El codo viaja adelante, cerca de la oreja."
+    },
+    {
+      "id": "11",
+      "text": "Error: girar el torso para empujar. El abdomen firme y el pecho de frente."
+    },
+    {
+      "id": "12",
+      "text": "Error: hacer siempre la misma mano. Alterná en cada repetición, parejo."
+    },
+    {
+      "id": "13",
+      "text": "Tips: abdomen firme, codo adelante, pausá arriba y alterná las manos parejo."
+    },
+    {
+      "id": "14",
+      "text": "Claves: una mano por vez, codo adelante, sin girar el torso y pausa arriba."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce repeticiones por brazo, con un minuto de pausa."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, dejá que el peso baje solo, soltá la manija y alejate de la polea sin apuro."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

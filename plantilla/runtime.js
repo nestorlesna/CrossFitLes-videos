@@ -497,7 +497,9 @@
       el("rect", { x: cx - 140, y: 18, width: 300, height: 16, rx: 8, fill: METAL_D }, g);
       el("rect", { x: cx + 100, y: top, width: 34, height: 34 - top, fill: METAL_D }, g); // parante de atrás
       el("rect", { x: tx - 14, y: top, width: 28, height: 34 - top, fill: METAL }, g); // riel de la polea
-      el("rect", { x: tx - 20, y: top - 24, width: cx + 154 - tx, height: 34, rx: 8, fill: METAL_D }, g); // techo
+      // techo: la polea puede quedar a la derecha de la pila, asi que el ancho se toma en valor absoluto
+      const beamX = Math.min(tx - 20, cx + 154), beamW = Math.max(24, Math.abs(cx + 154 - tx + 20));
+      el("rect", { x: beamX, y: top - 24, width: beamW, height: 34, rx: 8, fill: METAL_D }, g);
       const ws = weightStack(g, cx, 10, { n: 12, pin: pr.pin ?? 5, guide: Math.min(700, -top - 200) });
       el("line", { x1: cx, y1: ws.top, x2: cx, y2: top + 10, stroke: "#1A1A1A", "stroke-width": 5 }, g);
       el("rect", { x: tx - 26, y: pu.y - 34, width: 52, height: 68, rx: 12, fill: METAL_D }, g); // carro de la polea
@@ -517,14 +519,16 @@
       const att = pr.att || "bar", front = el("g", {}, att === "bar" ? propFront : propMid), rope = att === "rope" ? tubeL(propMid, { x: 0, y: 0 }, { x: 0, y: 0 }, 14, "#1A1A1A") : null;
       if (att === "bar") { el("circle", { r: 22, fill: METAL_D }, front); el("circle", { r: 9, fill: "#8A8F99" }, front); }
       else if (att === "rope") el("circle", { r: 15, fill: "#1A1A1A" }, front);
+      else if (att === "strap") el("rect", { x: -16, y: -18, width: 32, height: 36, rx: 10, fill: "#1A1A1A" }, front);
       else el("rect", { x: -14, y: -32, width: 28, height: 64, rx: 12, fill: "#1A1A1A" }, front);
       let L0 = null;
       propUpdates.push((n) => {
-        const d = unit(n.W, pu), end = att === "rope" ? { x: n.W.x + d.x * 70, y: n.W.y + d.y * 70 } : n.W;
+        const H = pr.to === "ankle" ? n.A : n.W;
+        const d = unit(H, pu), end = att === "rope" ? { x: H.x + d.x * 70, y: H.y + d.y * 70 } : H;
         setL(cable, pu, end);
-        if (rope) setL(rope, end, n.W);
-        front.setAttribute("transform", `translate(${f2(n.W.x)},${f2(n.W.y)})`);
-        const len = Math.hypot(n.W.x - pu.x, n.W.y - pu.y);
+        if (rope) setL(rope, end, H);
+        front.setAttribute("transform", `translate(${f2(H.x)},${f2(H.y)})`);
+        const len = Math.hypot(H.x - pu.x, H.y - pu.y);
         if (L0 == null) L0 = pr.rest ?? len;
         ws.lift((len - L0) * (pr.ratio ?? 1));
       });
@@ -1544,14 +1548,23 @@
       }
     }
     if (pr.type === "bench") {
-      // Banco plano de costado: colchoneta de x0 a x1 a la altura h (piso en y = 34) con dos patas y caño central.
-      const x0 = pr.x0 ?? -230, x1 = pr.x1 ?? 250, h = pr.h ?? 250, y0 = 34 - h;
+      // Banco de costado: colchoneta de x0 a x1 a la altura h (piso en y = 34) con dos patas y caño central.
+      // tilt (grados, + = cabecera arriba / inclinado) gira todo el banco alrededor de pivot [x, y] (default: centro de la colchoneta).
+      const x0 = pr.x0 ?? -230, x1 = pr.x1 ?? 250, h = pr.h ?? 250, y0 = 34 - h, tilt = pr.tilt ?? 0;
+      const pv = pr.pivot || [(x0 + x1) / 2, y0];
+      const rot = (x, y) => {
+        if (!tilt) return [x, y];
+        const a = rad(tilt), dx = x - pv[0], dy = y - pv[1];
+        return [pv[0] + dx * Math.cos(a) - dy * Math.sin(a), pv[1] + dx * Math.sin(a) + dy * Math.cos(a)];
+      };
+      const [xa, ya] = rot(x0, y0), [xb, yb] = rot(x1, y0);
       const g = el("g", {}, propStatic);
+      if (tilt) g.setAttribute("transform", `rotate(${f2(tilt)} ${f2(pv[0])} ${f2(pv[1])})`);
       el("rect", { x: x0, y: y0, width: x1 - x0, height: 46, rx: 12, fill: "#3E4A5A" }, g);
       el("rect", { x: x0 + 10, y: y0 + 6, width: x1 - x0 - 20, height: 10, rx: 5, fill: "#55637A" }, g);
-      el("rect", { x: x0 + 40, y: y0 + 46, width: 22, height: -y0, fill: "#2B2B2B" }, g);
-      el("rect", { x: x1 - 62, y: y0 + 46, width: 22, height: -y0, fill: "#2B2B2B" }, g);
-      el("rect", { x: x0 + 40, y: 34 - 20, width: x1 - x0 - 40, height: 20, rx: 6, fill: "#2B2B2B" }, g);
+      const leg = (cx, top) => { const t = Math.min(top, 34 - 20); el("rect", { x: cx - 11, y: t, width: 22, height: 34 - t, fill: "#2B2B2B" }, propStatic); };
+      leg(xa + 40, ya + 46); leg(xb - 62, yb + 46);
+      el("rect", { x: Math.min(xa + 40, xb - 62), y: 14, width: Math.abs(xb - xa - 102), height: 20, rx: 6, fill: "#2B2B2B" }, propStatic);
     }
     if (pr.type === "rope") {
       // Cuerda fija que cuelga (trepar): x en px rig, de `top` a `bottom`; por delante del torso, debajo del brazo cercano.

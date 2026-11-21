@@ -1,0 +1,826 @@
+{
+  "slug": "smith-upright-row",
+  "name": "Smith Upright Row",
+  "maquina": true,
+  "category": "GIMNASIO Â· HOMBROS",
+  "tags": [
+    "Deltoides",
+    "Trapecio",
+    "BÃ­ceps"
+  ],
+  "descripcion": "Remo al mentÃ³n en la Smith: parado, agarre angosto sobre la barra y la barra pegada al cuerpo. Subila desde los muslos hasta el mentÃ³n guiando con los codos bien altos, sin encogerte ni tirar con la espalda, y bajala despacio. Trabaja hombros, trapecio y bÃ­ceps.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 480,
+    "y": 1504.8,
+    "scale": 0.8
+  },
+  "shadow": false,
+  "initialPose": "DOWN",
+  "props": [
+    {
+      "type": "smith",
+      "x": 130,
+      "top": -880,
+      "gap": 280,
+      "stops": -520,
+      "track": "hands",
+      "r": 56
+    }
+  ],
+  "poses": {
+    "DOWN": {
+      "hip": [
+        0,
+        -455
+      ],
+      "ankle": [
+        40,
+        0
+      ],
+      "ankle2": [
+        -22,
+        0
+      ],
+      "b": 2,
+      "hd": 0,
+      "g": 1,
+      "hx": 145,
+      "ed": -1,
+      "ft": 0,
+      "ft2": 0,
+      "hy": -470
+    },
+    "UP": {
+      "hip": [
+        0,
+        -455
+      ],
+      "ankle": [
+        40,
+        0
+      ],
+      "ankle2": [
+        -22,
+        0
+      ],
+      "b": 2,
+      "hd": 0,
+      "g": 1,
+      "hx": 145,
+      "ed": -1,
+      "ft": 0,
+      "ft2": 0,
+      "hy": -690
+    },
+    "HALF_BAD": {
+      "hip": [
+        0,
+        -455
+      ],
+      "ankle": [
+        40,
+        0
+      ],
+      "ankle2": [
+        -22,
+        0
+      ],
+      "b": 2,
+      "hd": 0,
+      "g": 1,
+      "hx": 145,
+      "ed": -1,
+      "ft": 0,
+      "ft2": 0,
+      "hy": -595
+    },
+    "FAR_BAD": {
+      "hip": [
+        0,
+        -455
+      ],
+      "ankle": [
+        40,
+        0
+      ],
+      "ankle2": [
+        -22,
+        0
+      ],
+      "b": 2,
+      "hd": 0,
+      "g": 1,
+      "hx": 230,
+      "ed": -1,
+      "ft": 0,
+      "ft2": 0,
+      "hy": -690
+    },
+    "SHRUG_BAD": {
+      "hip": [
+        0,
+        -455
+      ],
+      "ankle": [
+        40,
+        0
+      ],
+      "ankle2": [
+        -22,
+        0
+      ],
+      "b": 2,
+      "hd": 0,
+      "g": 1,
+      "hx": 145,
+      "ed": -1,
+      "ft": 0,
+      "ft2": 0,
+      "hy": -690,
+      "sh": 24
+    },
+    "LEAN_BAD": {
+      "hip": [
+        0,
+        -455
+      ],
+      "ankle": [
+        40,
+        0
+      ],
+      "ankle2": [
+        -22,
+        0
+      ],
+      "b": -12,
+      "hd": -6,
+      "g": 1,
+      "hx": 145,
+      "ed": -1,
+      "ft": 0,
+      "ft2": 0,
+      "hy": -690
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · HOMBROS",
+      "head": [
+        "REMO AL",
+        "MENTÓN"
+      ],
+      "sub": "Barra pegada al cuerpo",
+      "vo": "Remo al mentón en la Smith: la barra sube pegada al cuerpo desde los muslos hasta el mentón.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.0
+            ],
+            [
+              "UP",
+              1.2
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "BARRA",
+        "GUIADA"
+      ],
+      "sub": "El carril no se mueve",
+      "vo": "En la Smith la barra corre por el carril: no se te va ni adelante ni atrás, sube derecha.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            584,
+            782
+          ],
+          "r": 64,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            860
+          ],
+          "text": "BARRA GUIADA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            808,
+            1025
+          ],
+          "r": 54,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            940
+          ],
+          "text": "PARANTE",
+          "anchor": "start",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            808,
+            1089
+          ],
+          "r": 54,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1120
+          ],
+          "text": "TOPE",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "AGARRE",
+        "ANGOSTO"
+      ],
+      "sub": "Manos cerca",
+      "vo": "Agarrá la barra con las manos más juntas que el ancho de los hombros y los pulgares cerrados.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            596,
+            1129
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1120
+          ],
+          "text": "AGARRE CERRADO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "BARRA AL",
+        "CUERPO"
+      ],
+      "sub": "Pegada al torso",
+      "vo": "Dejá la barra pegada al cuerpo, a la altura de los muslos, y el torso bien derecho.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            596,
+            1129
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1060
+          ],
+          "text": "BARRA PEGADA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "BRAZOS",
+        "LARGOS"
+      ],
+      "sub": "Sin encogerte",
+      "vo": "Arrancá con los brazos largos, los hombros abajo y el abdomen firme.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            540,
+            941
+          ],
+          "r": 52,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            840
+          ],
+          "text": "HOMBROS ABAJO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.6,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SUBÍ CON",
+        "LOS CODOS"
+      ],
+      "sub": "Los codos guían",
+      "vo": "Paso uno. Subí la barra guiando con los codos, que van arriba y afuera, no con las manos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.4,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            515,
+            1052
+          ],
+          "r": 48,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1030,
+            900
+          ],
+          "text": "CODO ARRIBA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "HASTA EL",
+        "MENTÓN"
+      ],
+      "sub": "Altura justa",
+      "vo": "Paso dos. Llegá hasta el mentón, sin pasar más arriba ni encogerte de hombros.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            512,
+            897
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1030,
+            760
+          ],
+          "text": "AL MENTÓN",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "DESPACIO"
+      ],
+      "sub": "Control total",
+      "vo": "Paso tres. Bajá la barra despacio hasta los muslos, sin dejarla caer.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.4,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            596,
+            1129
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1060
+          ],
+          "text": "HASTA LOS MUSLOS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Soltá al subir",
+      "vo": "Soltá el aire al subir la barra y tomá aire al bajarla. El abdomen queda firme.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.0
+            ],
+            [
+              "UP",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "MEDIA",
+        "REPETICIÓN"
+      ],
+      "sub": "Hasta el mentón",
+      "vo": "Error: media repetición. Subí la barra hasta el mentón, no hasta la panza.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "HALF_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            540,
+            941
+          ],
+          "r": 52,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "BARRA",
+        "LEJOS"
+      ],
+      "sub": "Pegada al cuerpo",
+      "vo": "Error: alejar la barra. La barra sube pegada al cuerpo, los codos bien cerca.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "FAR_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            664,
+            953
+          ],
+          "r": 56,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "HOMBROS",
+        "ARRIBA"
+      ],
+      "sub": "Cuello libre",
+      "vo": "Error: encogerse. Los hombros quedan abajo y el cuello libre durante todo el movimiento.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "SHRUG_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            464,
+            887
+          ],
+          "r": 48,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Barra pegada",
+        "Codos arriba",
+        "Hasta el mentón",
+        "Bajada lenta"
+      ],
+      "vo": "Tips: barra pegada, codos arriba, hasta el mentón y bajada lenta.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.0
+            ],
+            [
+              "UP",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Agarre angosto",
+        "Codos guían",
+        "Sin encogerse",
+        "Torso firme"
+      ],
+      "vo": "Claves: agarre angosto, los codos guían, sin encogerse y torso firme.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10–12"
+      ],
+      "sub": "Hombros y trapecio",
+      "vo": "Tres series de diez a doce repeticiones, con un minuto de pausa.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · MENTÓN",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.0
+            ],
+            [
+              "UP",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "SOLTÁ LA",
+        "BARRA"
+      ],
+      "sub": "Sin soltar el torso",
+      "vo": "Al terminar la serie, apoyá la barra en los topes y aflojá los hombros. Respirá antes de seguir.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.6,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1060
+          ],
+          "text": "APOYÁ LA BARRA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "zoom": 1.0,
+    "dy": 60
+  },
+  "youtube": {
+    "titulo": "Smith Upright Row 🔥 Remo al mentón en la máquina | Hombros y trapecio",
+    "tags": [
+      "smith upright row",
+      "remo al mentón",
+      "upright row",
+      "hombros",
+      "trapecio",
+      "smith machine",
+      "multipower",
+      "deltoides",
+      "gimnasio",
+      "principiantes",
+      "rutina de hombros"
+    ],
+    "descripcion": "🔥 SMITH UPRIGHT ROW (remo al mentón con la barra guiada pegada al cuerpo, desde los muslos hasta el mentón) — deltoides, trapecio y bíceps\n\nEl remo al mentón en la Smith se hace parado, con un agarre angosto y la barra pegada al cuerpo. La barra sube desde los muslos hasta el mentón guiando con los codos, que van arriba y afuera, y baja despacio. El torso queda derecho y los hombros abajo, sin encogerse. Los errores típicos son cortar el recorrido, alejar la barra del cuerpo y encogerse de hombros. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Agarrá la barra con las manos más juntas que el ancho de los hombros.\n2️⃣ Dejá la barra pegada al cuerpo, a la altura de los muslos.\n\n📋 PASO A PASO\n1️⃣ Arrancá con los brazos largos y los hombros abajo.\n2️⃣ Subí la barra guiando con los codos arriba.\n3️⃣ Llegá hasta el mentón, sin pasarte.\n4️⃣ Bajá la barra despacio hasta los muslos.\n5️⃣ Completá la serie sin encogerte.\n\n❌ ERRORES COMUNES\n• Media repetición → subí hasta el mentón.\n• Barra lejos → la barra sube pegada al cuerpo.\n• Hombros arriba → los hombros quedan abajo.\n\n💡 TIPS DEL PROFE\n• Barra pegada al cuerpo.\n• Los codos guían el movimiento.\n• Altura justa: hasta el mentón.\n• Bajada lenta y controlada.\n\n🎯 QUÉ TRABAJA\nHombros → Deltoides → Trapecio\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Hombros #Trapecio #UprightRow #SmithMachine #Multipower #Deltoides #Entrenamiento"
+  }
+}

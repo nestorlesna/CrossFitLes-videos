@@ -1,0 +1,808 @@
+{
+  "slug": "smith-toe-raise",
+  "name": "Smith Toe Raise",
+  "maquina": true,
+  "category": "GIMNASIO Â· PANTORRILLAS",
+  "tags": [
+    "Tibial anterior",
+    "Gemelos"
+  ],
+  "descripcion": "ElevaciÃ³n de punta de pie sentado en la Smith: sentate en el banco, apoyÃ¡ la barra sobre los muslos y sujetala con las dos manos. Con el pie plano, subÃ­ las puntas de los pies lo mÃ¡s alto posible, apretÃ¡ el tibial y bajÃ¡ despacio. El talÃ³n no se despega del piso: el recorrido sale solo del tobillo.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 480,
+    "y": 1504.8,
+    "scale": 0.8
+  },
+  "shadow": false,
+  "initialPose": "DOWN",
+  "props": [
+    {
+      "type": "bench",
+      "x0": -260,
+      "x1": 180,
+      "h": 284
+    },
+    {
+      "type": "smith",
+      "x": 120,
+      "top": -830,
+      "gap": 280,
+      "stops": -250,
+      "track": "hands",
+      "r": 56
+    }
+  ],
+  "poses": {
+    "DOWN": {
+      "hip": [
+        -30,
+        -250
+      ],
+      "ankle": [
+        215,
+        0
+      ],
+      "ankle2": [
+        215,
+        0
+      ],
+      "b": 2,
+      "hd": 0,
+      "ft": 0,
+      "ft2": 0,
+      "g": 1,
+      "hx": 100,
+      "hy": -238,
+      "ed": 1
+    },
+    "UP": {
+      "hip": [
+        -30,
+        -250
+      ],
+      "ankle": [
+        215,
+        0
+      ],
+      "ankle2": [
+        215,
+        0
+      ],
+      "b": 2,
+      "hd": 0,
+      "ft": -26,
+      "ft2": -26,
+      "g": 1,
+      "hx": 100,
+      "hy": -238,
+      "ed": 1
+    },
+    "HALF_BAD": {
+      "hip": [
+        -30,
+        -250
+      ],
+      "ankle": [
+        215,
+        0
+      ],
+      "ankle2": [
+        215,
+        0
+      ],
+      "b": 2,
+      "hd": 0,
+      "ft": -12,
+      "ft2": -12,
+      "g": 1,
+      "hx": 100,
+      "hy": -238,
+      "ed": 1
+    },
+    "HEEL_BAD": {
+      "hip": [
+        -30,
+        -250
+      ],
+      "ankle": [
+        215,
+        0
+      ],
+      "ankle2": [
+        215,
+        0
+      ],
+      "b": 2,
+      "hd": 0,
+      "ft": 24,
+      "ft2": 24,
+      "g": 1,
+      "hx": 100,
+      "hy": -238,
+      "ed": 1
+    },
+    "LEAN_BAD": {
+      "hip": [
+        -30,
+        -250
+      ],
+      "ankle": [
+        215,
+        0
+      ],
+      "ankle2": [
+        215,
+        0
+      ],
+      "b": 14,
+      "hd": 8,
+      "ft": 0,
+      "ft2": 0,
+      "g": 1,
+      "hx": 100,
+      "hy": -238,
+      "ed": 1
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PANTORRILLAS",
+      "head": [
+        "PUNTA",
+        "DE PIE"
+      ],
+      "sub": "Sentado en la Smith",
+      "vo": "Elevación de punta de pie sentado en la Smith: la barra sobre los muslos y las puntas de los pies suben.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.1
+            ],
+            [
+              "UP",
+              1.1
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "BARRA",
+        "GUIADA"
+      ],
+      "sub": "Solo el tobillo se mueve",
+      "vo": "La barra de la Smith queda quieta sobre los muslos: el recorrido sale solo del tobillo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            576,
+            822
+          ],
+          "r": 64,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            860
+          ],
+          "text": "BARRA GUIADA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            800,
+            1057
+          ],
+          "r": 54,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            940
+          ],
+          "text": "PARANTE",
+          "anchor": "start",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            800,
+            1305
+          ],
+          "r": 54,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1120
+          ],
+          "text": "TOPE",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "SENTATE",
+        "DERECHO"
+      ],
+      "sub": "Barra sobre los muslos",
+      "vo": "Sentate en el banco con la espalda derecha y apoyá la barra sobre los muslos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            560,
+            1314
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            900
+          ],
+          "text": "SOBRE LOS MUSLOS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "PIES",
+        "PLANOS"
+      ],
+      "sub": "Toda la planta",
+      "vo": "Apoyá los pies planos en el piso, con las puntas hacia adelante y el talón bien abajo.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            652,
+            1505
+          ],
+          "r": 46,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1250
+          ],
+          "text": "PIE PLANO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PUNTA",
+        "ABAJO"
+      ],
+      "sub": "Tobillo relajado",
+      "vo": "Arrancá con la punta del pie abajo y el tobillo relajado, sin levantar el talón.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            652,
+            1505
+          ],
+          "r": 46,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1250
+          ],
+          "text": "PUNTA ABAJO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SUBÍ LA",
+        "PUNTA"
+      ],
+      "sub": "Lo más alto posible",
+      "vo": "Paso uno. Subí la punta del pie lo más alto que puedas sin despegar el talón.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.4,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            652,
+            1505
+          ],
+          "r": 46,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1030,
+            1250
+          ],
+          "text": "PUNTA ARRIBA",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "APRETÁ EL",
+        "TIBIAL"
+      ],
+      "sub": "Un segundo arriba",
+      "vo": "Paso dos. Apretá el tibial arriba y quedate un segundo en el punto más alto.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "UP",
+          "at": 0.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            652,
+            1505
+          ],
+          "r": 46,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1250
+          ],
+          "text": "TIBIAL ACTIVO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "DESPACIO"
+      ],
+      "sub": "Sin rebotar",
+      "vo": "Paso tres. Bajá la punta despacio hasta la posición inicial, sin dejar caer el pie.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.4,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            652,
+            1505
+          ],
+          "r": 46,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1030,
+            1250
+          ],
+          "text": "PUNTA ABAJO",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Sin aguantar",
+      "vo": "Subí soltando el aire y bajá tomando aire. No aguantes la respiración en ninguna parte.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.1
+            ],
+            [
+              "UP",
+              1.1
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "MEDIA",
+        "REPETICIÓN"
+      ],
+      "sub": "Recorrido completo",
+      "vo": "Error: media repetición. Subí la punta hasta el tope y bajá hasta el final.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "HALF_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            652,
+            1505
+          ],
+          "r": 46,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "TALÓN",
+        "ARRIBA"
+      ],
+      "sub": "Toda la planta",
+      "vo": "Error: levantar el talón. El talón queda abajo y solo sube la punta del pie.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0
+        },
+        {
+          "to": "HEEL_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            652,
+            1505
+          ],
+          "r": 46,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "ESPALDA",
+        "ENCORVADA"
+      ],
+      "sub": "Torso derecho",
+      "vo": "Error: encorvar la espalda. La espalda queda derecha y el peso sobre los glúteos.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "LEAN_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            456,
+            1305
+          ],
+          "r": 52,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Tobillo completo",
+        "Talón abajo",
+        "Torso derecho",
+        "Bajada lenta"
+      ],
+      "vo": "Tips: tobillo completo, talón abajo, torso derecho y bajada lenta.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.1
+            ],
+            [
+              "UP",
+              1.1
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Pies planos",
+        "Solo el tobillo",
+        "Tibial apretado",
+        "Sin rebotar"
+      ],
+      "vo": "Claves: pies planos, solo el tobillo, tibial apretado y sin rebotar.",
+      "moves": [
+        {
+          "cut": "UP",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 15–20"
+      ],
+      "sub": "Tibial anterior",
+      "vo": "Tres series de quince a veinte repeticiones, con cuarenta segundos de pausa.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · ARRIBA",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "DOWN",
+              1.1
+            ],
+            [
+              "UP",
+              1.1
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "SOLTÁ LA",
+        "BARRA"
+      ],
+      "sub": "Sin apurarte",
+      "vo": "Al terminar la serie, soltá la barra en el soporte y estirá los tobillos antes de seguir.",
+      "moves": [
+        {
+          "cut": "DOWN",
+          "at": 0
+        },
+        {
+          "to": "DOWN",
+          "at": 0.6,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            900
+          ],
+          "text": "ESTIRÁ LOS TOBILLOS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "UP",
+    "zoom": 1.2,
+    "dy": 40
+  },
+  "youtube": {
+    "titulo": "Smith Toe Raise 🔥 Elevación de punta de pie sentado | Tibial anterior",
+    "tags": [
+      "smith toe raise",
+      "elevación de punta de pie",
+      "toe raise",
+      "tibial anterior",
+      "smith machine",
+      "multipower",
+      "pantorrilla",
+      "tobillo",
+      "gimnasio",
+      "principiantes",
+      "rutina de piernas"
+    ],
+    "descripcion": "🔥 SMITH TOE RAISE (elevación de punta de pie sentado en la Smith, con la barra apoyada sobre los muslos) — tibial anterior y gemelos\n\nLa elevación de punta de pie sentado en la Smith se hace en un banco, con la barra apoyada sobre los muslos y las dos manos sujetándola. Los pies quedan planos, con el talón bien abajo, y solo suben las puntas lo más alto posible. Apretás el tibial un segundo arriba y bajás despacio, sin dejar caer el pie. El talón nunca se despega del piso. Los errores típicos son cortar el recorrido, levantar el talón y encorvar la espalda. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Sentate en el banco con la espalda derecha.\n2️⃣ Apoyá la barra sobre los muslos y sujetala con las dos manos.\n\n📋 PASO A PASO\n1️⃣ Apoyá los pies planos, con las puntas hacia adelante.\n2️⃣ Subí la punta del pie sin despegar el talón.\n3️⃣ Apretá el tibial un segundo arriba.\n4️⃣ Bajá la punta despacio hasta la posición inicial.\n5️⃣ Completá la serie sin rebotar.\n\n❌ ERRORES COMUNES\n• Media repetición → subí al tope y bajá hasta el final.\n• Talón arriba → el talón queda abajo.\n• Espalda encorvada → la espalda queda derecha.\n\n💡 TIPS DEL PROFE\n• Pies planos y talón abajo.\n• Solo se mueve el tobillo.\n• Tibial apretado arriba.\n• Bajada lenta, sin rebotar.\n\n🎯 QUÉ TRABAJA\nPantorrillas → Tibial anterior → Gemelos\n\n⏱️ CUÁNTO\n3 series de 15–20 repeticiones, con 40 segundos de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Tibial #Pantorrillas #ToeRaise #SmithMachine #Multipower #Tobillo #Entrenamiento"
+  }
+}

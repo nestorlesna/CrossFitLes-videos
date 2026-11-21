@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Smith Machine Decline Close Grip Bench Press",
+      "text": "Press declinado con agarre cerrado y codos pegados."
+    },
+    {
+      "id": "02",
+      "text": "La barra corre entre los parantes y el banco se ubica debajo. Los topes te dejan una salida segura."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el banco declinado y trabá los pies. La cabecera baja y la barra cae sobre el pecho bajo."
+    },
+    {
+      "id": "04",
+      "text": "Agarrá la barra con las manos al centro, a un palmo de distancia, y las muñecas rectas."
+    },
+    {
+      "id": "05",
+      "text": "Apoyá los glúteos y la espalda alta en el banco, los ojos debajo de la barra y los pies firmes."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Bajá la barra al pecho bajo con los codos cerca del torso y las muñecas rectas."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Tocá sin rebotar y hacé una pausa corta, sin perder la posición de los codos."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Empujá hasta estirar los brazos, sin trabar los codos ni mover los pies."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire arriba, aguantalo en la bajada y soltalo al empujar. No lo retengas todo el recorrido."
+    },
+    {
+      "id": "10",
+      "text": "Error: abrir los codos. Con agarre cerrado los codos quedan pegados al torso."
+    },
+    {
+      "id": "11",
+      "text": "Error: despegar los glúteos para empujar. La cola y la espalda alta quedan apoyadas."
+    },
+    {
+      "id": "12",
+      "text": "Error: cortar el recorrido. La barra toca el pecho bajo y sube hasta estirar los brazos."
+    },
+    {
+      "id": "13",
+      "text": "Tips: manos al centro, codos pegados, muñecas firmes y sin rebote."
+    },
+    {
+      "id": "14",
+      "text": "Claves: agarre cerrado, codos al torso, tocá suave y empujá parejo."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de ocho a doce repeticiones, con un minuto y medio de pausa. El agarre cerrado pide menos peso."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, dejá la barra en los topes, sacá las manos y salí del banco de costado, sin apurarte."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

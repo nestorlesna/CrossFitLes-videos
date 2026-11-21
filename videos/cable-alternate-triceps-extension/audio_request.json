@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Cable Alternate Triceps Extension",
+      "text": "Extensión de tríceps alterna en polea, con el codo alto y quieto."
+    },
+    {
+      "id": "02",
+      "text": "La polea sube y baja por el riel y la pila de discos da la resistencia. La perilla elige el peso."
+    },
+    {
+      "id": "03",
+      "text": "Subí la polea bien arriba: el cable tiene que venir de arriba y atrás de la cabeza."
+    },
+    {
+      "id": "04",
+      "text": "Peso liviano y una mano por vez. La otra mano cruza y sujeta el tríceps para que no se mueva."
+    },
+    {
+      "id": "05",
+      "text": "De pie, el codo apuntando arriba y la mano atrás de la cabeza, lista para estirar."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Estirá el antebrazo arriba hasta que el brazo quede recto, sin mover el codo."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Arriba, apretá el tríceps un segundo con el brazo estirado y el hombro abajo."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Volvé despacio hasta atrás de la cabeza, sin abrir el codo ni mover el hombro."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire en el esfuerzo y tomá aire al volver. No aguantes la respiración todo el recorrido."
+    },
+    {
+      "id": "10",
+      "text": "Error: bajar el codo hacia el costado. El codo queda alto y quieto, como un eje."
+    },
+    {
+      "id": "11",
+      "text": "Error: arquear la espalda para estirar. Costillas abajo y abdomen firme."
+    },
+    {
+      "id": "12",
+      "text": "Error: llevar la mano adelante en vez de estirar atrás. El codo alto manda el movimiento."
+    },
+    {
+      "id": "13",
+      "text": "Tips: codo alto y quieto, apretá arriba y volvé lento, sin arquear la espalda."
+    },
+    {
+      "id": "14",
+      "text": "Claves: codo alto, codo fijo, brazo estirado arriba y la otra mano sujetando el tríceps."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce repeticiones por brazo, con un minuto de pausa."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, dejá que el peso baje solo, soltá la manija y alejate de la polea sin apuro."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

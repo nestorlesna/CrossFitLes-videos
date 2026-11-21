@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Smith Incline Shoulder Raises",
+      "text": "Elevación de hombros en banco inclinado, con los brazos estirados."
+    },
+    {
+      "id": "02",
+      "text": "La barra corre entre los parantes y el banco se ubica debajo. Los topes te dejan una salida segura."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el banco a unos treinta grados y sentate con toda la espalda contra el respaldo."
+    },
+    {
+      "id": "04",
+      "text": "Agarre prono un poco más ancho que los hombros y los brazos casi estirados todo el recorrido."
+    },
+    {
+      "id": "05",
+      "text": "Sentate con la espalda completa en el respaldo, los pies firmes y el core activado."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Llevá la barra arriba de la cabeza sin doblar los codos. El movimiento nace en el hombro."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Hacé una pausa breve arriba, con los brazos estirados y la espalda apoyada."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá la barra despacio hasta la altura de la cara, sin doblar los codos."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire arriba, aguantalo en la bajada y soltalo al empujar. No lo retengas todo el recorrido."
+    },
+    {
+      "id": "10",
+      "text": "Error: doblar los codos y convertirlo en un press. Los brazos quedan casi estirados."
+    },
+    {
+      "id": "11",
+      "text": "Error: arquear la espalda para empujar. La espalda queda apoyada y el core firme."
+    },
+    {
+      "id": "12",
+      "text": "Error: mover la barra apenas. El recorrido es corto, pero sube hasta arriba de la cabeza."
+    },
+    {
+      "id": "13",
+      "text": "Tips: brazos largos, espalda apoyada, pausa arriba y sin impulso."
+    },
+    {
+      "id": "14",
+      "text": "Claves: brazos estirados, espalda apoyada, recorrido corto y bajada lenta."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a quince repeticiones, con un minuto de pausa. El peso es liviano."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, dejá la barra en los topes, sacá las manos y salí del banco de costado, sin apurarte."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

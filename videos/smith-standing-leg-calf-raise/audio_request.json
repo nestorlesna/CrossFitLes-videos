@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Smith Standing Leg Calf Raise",
+      "text": "Elevación de talón a una pierna en la Smith: barra en la espalda, una pierna de apoyo y la otra despegada."
+    },
+    {
+      "id": "02",
+      "text": "La Smith te sostiene la barra en la espalda mientras hacés el trabajo de pantorrilla sobre una sola pierna."
+    },
+    {
+      "id": "03",
+      "text": "Apoyá la barra en la espalda alta, con los omóplatos juntos y las manos bien agarradas."
+    },
+    {
+      "id": "04",
+      "text": "Elegí la pierna de apoyo, dejá la otra despegada atrás y pasá el peso a la punta del pie."
+    },
+    {
+      "id": "05",
+      "text": "Arrancá con la rodilla casi estirada, el torso derecho y el talón bien abajo, en el piso."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Subí el talón hasta quedar lo más alto posible sobre la punta del pie."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Apretá el gemelo arriba y quedate un segundo en el punto más alto."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá el talón despacio hasta el estiramiento completo, sin rebotar."
+    },
+    {
+      "id": "09",
+      "text": "Subí soltando el aire y bajá tomando aire. No aguantes la respiración."
+    },
+    {
+      "id": "10",
+      "text": "Error: media repetición. Subí hasta el tope y bajá hasta el estiramiento completo."
+    },
+    {
+      "id": "11",
+      "text": "Error: doblar la rodilla. La rodilla queda casi estirada y el movimiento sale del tobillo."
+    },
+    {
+      "id": "12",
+      "text": "Error: inclinar el torso. El torso queda derecho y el peso sobre la punta del pie."
+    },
+    {
+      "id": "13",
+      "text": "Tips: rodilla estirada, torso derecho, recorrido completo y bajada lenta."
+    },
+    {
+      "id": "14",
+      "text": "Claves: una pierna firme, tobillo completo, gemelo apretado y bajada lenta."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de doce a quince repeticiones por pierna, con un minuto de pausa."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar la serie, apoyá el pie y cambiá de pierna. Descansá antes de seguir."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

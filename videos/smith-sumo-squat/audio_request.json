@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Smith Sumo Squat",
+      "text": "Sentadilla sumo en la Smith: barra en la espalda alta, pies bien separados y puntas hacia afuera."
+    },
+    {
+      "id": "02",
+      "text": "La barra de la Smith corre por los parantes: el recorrido es vertical y no se te va hacia adelante."
+    },
+    {
+      "id": "03",
+      "text": "Poné los pies más abiertos que el ancho de los hombros, con las puntas bien hacia afuera."
+    },
+    {
+      "id": "04",
+      "text": "Apoyá la barra en la espalda alta, sobre los omóplatos, y agarrala firme a los costados."
+    },
+    {
+      "id": "05",
+      "text": "Arrancá con el pecho arriba, la espalda derecha y las rodillas apuntando hacia afuera."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Bajá llevando la cadera hacia atrás y abriendo las rodillas hacia afuera."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Bajá hasta que los muslos queden cerca de la paralela, con el torso derecho."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Subí empujando con los talones y apretando los glúteos, sin juntar las rodillas."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire arriba, aguantá mientras bajás y soltá al subir. El abdomen queda firme."
+    },
+    {
+      "id": "10",
+      "text": "Error: media repetición. Bajá hasta abajo y subí completo: el recorrido se hace entero."
+    },
+    {
+      "id": "11",
+      "text": "Error: juntar los pies. La base queda bien abierta y las rodillas siguen la línea de los pies."
+    },
+    {
+      "id": "12",
+      "text": "Error: levantar los talones. Los pies quedan planos y el empuje sale de todo el pie."
+    },
+    {
+      "id": "13",
+      "text": "Tips: pies bien abiertos, rodillas afuera, pecho arriba y empuje con los talones."
+    },
+    {
+      "id": "14",
+      "text": "Claves: base amplia, cadera atrás, torso derecho y subida completa."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de doce a quince repeticiones, con un minuto de pausa."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar la serie, subí derecho y enganchá la barra en los topes. Respirá antes de seguir."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

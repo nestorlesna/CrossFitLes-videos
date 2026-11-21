@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Smith Seated Wrist Curl",
+      "text": "Curl de muñeca sentado, con los antebrazos apoyados en los muslos."
+    },
+    {
+      "id": "02",
+      "text": "La barra corre en la Smith y queda a la altura de las rodillas, con los antebrazos apoyados."
+    },
+    {
+      "id": "03",
+      "text": "Sentate y apoyá los antebrazos completos sobre los muslos, dejando las muñecas afuera."
+    },
+    {
+      "id": "04",
+      "text": "Agarre supino, las palmas hacia arriba y las manos separadas a la altura de los hombros."
+    },
+    {
+      "id": "05",
+      "text": "Sentate con los pies firmes y los antebrazos apoyados en los muslos, las muñecas afuera."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Flexioná las muñecas hacia arriba, llevando la barra hacia los antebrazos."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Hacé una pausa breve arriba, sin levantar los antebrazos de los muslos."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá la barra despacio hasta estirar las muñecas, sin soltar los antebrazos."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire arriba, aguantalo en la bajada y soltalo al empujar. No lo retengas todo el recorrido."
+    },
+    {
+      "id": "10",
+      "text": "Error: levantar los antebrazos de los muslos. Solo se mueven las muñecas."
+    },
+    {
+      "id": "11",
+      "text": "Error: usar el cuerpo para lanzar la barra. Las muñecas suben sin impulso."
+    },
+    {
+      "id": "12",
+      "text": "Error: cortar el recorrido. La muñeca sube todo lo posible y baja hasta estirarse."
+    },
+    {
+      "id": "13",
+      "text": "Tips: antebrazo quieto, muñeca completa, sin impulso y bajada lenta."
+    },
+    {
+      "id": "14",
+      "text": "Claves: antebrazos fijos, solo la muñeca, pausa arriba y bajada lenta."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de quince a veinte repeticiones, con un minuto de pausa. Peso liviano."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, dejá la barra en los topes, sacá las manos y salí del banco de costado, sin apurarte."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

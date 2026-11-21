@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Smith Upright Row",
+      "text": "Remo al mentón en la Smith: la barra sube pegada al cuerpo desde los muslos hasta el mentón."
+    },
+    {
+      "id": "02",
+      "text": "En la Smith la barra corre por el carril: no se te va ni adelante ni atrás, sube derecha."
+    },
+    {
+      "id": "03",
+      "text": "Agarrá la barra con las manos más juntas que el ancho de los hombros y los pulgares cerrados."
+    },
+    {
+      "id": "04",
+      "text": "Dejá la barra pegada al cuerpo, a la altura de los muslos, y el torso bien derecho."
+    },
+    {
+      "id": "05",
+      "text": "Arrancá con los brazos largos, los hombros abajo y el abdomen firme."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Subí la barra guiando con los codos, que van arriba y afuera, no con las manos."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Llegá hasta el mentón, sin pasar más arriba ni encogerte de hombros."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá la barra despacio hasta los muslos, sin dejarla caer."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire al subir la barra y tomá aire al bajarla. El abdomen queda firme."
+    },
+    {
+      "id": "10",
+      "text": "Error: media repetición. Subí la barra hasta el mentón, no hasta la panza."
+    },
+    {
+      "id": "11",
+      "text": "Error: alejar la barra. La barra sube pegada al cuerpo, los codos bien cerca."
+    },
+    {
+      "id": "12",
+      "text": "Error: encogerse. Los hombros quedan abajo y el cuello libre durante todo el movimiento."
+    },
+    {
+      "id": "13",
+      "text": "Tips: barra pegada, codos arriba, hasta el mentón y bajada lenta."
+    },
+    {
+      "id": "14",
+      "text": "Claves: agarre angosto, los codos guían, sin encogerse y torso firme."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce repeticiones, con un minuto de pausa."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar la serie, apoyá la barra en los topes y aflojá los hombros. Respirá antes de seguir."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

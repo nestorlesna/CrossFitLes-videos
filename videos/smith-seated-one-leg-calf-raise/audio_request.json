@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Smith Seated One Leg Calf Raise",
+      "text": "Elevación de talón sentado, con una pierna y la barra en los muslos."
+    },
+    {
+      "id": "02",
+      "text": "La barra corre en la Smith y apoya sobre los muslos. El asiento queda a la altura de la pierna baja."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el asiento para que los muslos queden casi paralelos al piso y la barra apoye cómoda."
+    },
+    {
+      "id": "04",
+      "text": "Apoyá una sola pierna en el piso y dejá la otra afuera, sin empujar. La barra queda en los muslos."
+    },
+    {
+      "id": "05",
+      "text": "Sentate con la espalda en el respaldo, los pies firmes y la barra apoyada sobre los muslos."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Subí el talón todo lo posible usando el gemelo, sin levantar la rodilla."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Hacé una pausa breve arriba, con el talón bien alto y el gemelo apretado."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá el talón despacio hasta abajo, sin rebotar y sin mover el muslo."
+    },
+    {
+      "id": "09",
+      "text": "Tomá aire arriba, aguantalo en la bajada y soltalo al empujar. No lo retengas todo el recorrido."
+    },
+    {
+      "id": "10",
+      "text": "Error: subir el talón apenas. El talón sube todo lo posible y hace una pausa."
+    },
+    {
+      "id": "11",
+      "text": "Error: levantar la rodilla o la cola para empujar. El muslo queda apoyado."
+    },
+    {
+      "id": "12",
+      "text": "Error: inclinarse hacia adelante. La espalda queda en el respaldo y el core firme."
+    },
+    {
+      "id": "13",
+      "text": "Tips: talón arriba, pausa arriba, muslo quieto y bajada lenta."
+    },
+    {
+      "id": "14",
+      "text": "Claves: todo el recorrido, pausa arriba, una sola pierna y sin rebote."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de doce a quince repeticiones por pierna, con un minuto de pausa."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, dejá la barra en los topes, sacá las manos y salí del banco de costado, sin apurarte."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

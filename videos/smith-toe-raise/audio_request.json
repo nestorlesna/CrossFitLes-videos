@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Smith Toe Raise",
+      "text": "Elevación de punta de pie sentado en la Smith: la barra sobre los muslos y las puntas de los pies suben."
+    },
+    {
+      "id": "02",
+      "text": "La barra de la Smith queda quieta sobre los muslos: el recorrido sale solo del tobillo."
+    },
+    {
+      "id": "03",
+      "text": "Sentate en el banco con la espalda derecha y apoyá la barra sobre los muslos."
+    },
+    {
+      "id": "04",
+      "text": "Apoyá los pies planos en el piso, con las puntas hacia adelante y el talón bien abajo."
+    },
+    {
+      "id": "05",
+      "text": "Arrancá con la punta del pie abajo y el tobillo relajado, sin levantar el talón."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Subí la punta del pie lo más alto que puedas sin despegar el talón."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Apretá el tibial arriba y quedate un segundo en el punto más alto."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá la punta despacio hasta la posición inicial, sin dejar caer el pie."
+    },
+    {
+      "id": "09",
+      "text": "Subí soltando el aire y bajá tomando aire. No aguantes la respiración en ninguna parte."
+    },
+    {
+      "id": "10",
+      "text": "Error: media repetición. Subí la punta hasta el tope y bajá hasta el final."
+    },
+    {
+      "id": "11",
+      "text": "Error: levantar el talón. El talón queda abajo y solo sube la punta del pie."
+    },
+    {
+      "id": "12",
+      "text": "Error: encorvar la espalda. La espalda queda derecha y el peso sobre los glúteos."
+    },
+    {
+      "id": "13",
+      "text": "Tips: tobillo completo, talón abajo, torso derecho y bajada lenta."
+    },
+    {
+      "id": "14",
+      "text": "Claves: pies planos, solo el tobillo, tibial apretado y sin rebotar."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de quince a veinte repeticiones, con cuarenta segundos de pausa."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar la serie, soltá la barra en el soporte y estirá los tobillos antes de seguir."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

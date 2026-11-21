@@ -1,0 +1,813 @@
+{
+  "slug": "smith-sumo-squat",
+  "name": "Smith Sumo Squat",
+  "maquina": true,
+  "category": "GIMNASIO · PIERNAS",
+  "tags": [
+    "Glúteos",
+    "Cuádriceps",
+    "Isquiotibiales"
+  ],
+  "descripcion": "Sentadilla sumo en la Smith: la barra apoyada en la espalda alta, los pies bien separados y las puntas hacia afuera. Bajá empujando las caderas hacia atrás y abriendo las rodillas, hasta que los muslos queden cerca de la paralela. Mantené el pecho arriba y la espalda derecha, y subí empujando con los talones. Trabaja glúteos y la cara interna del muslo.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 428,
+    "y": 1504.8,
+    "scale": 0.8
+  },
+  "shadow": false,
+  "initialPose": "TOP",
+  "props": [
+    {
+      "type": "smith",
+      "x": -80,
+      "top": -900,
+      "gap": 300,
+      "stops": -560,
+      "track": "back",
+      "torso": [
+        -34,
+        18
+      ],
+      "r": 56
+    }
+  ],
+  "poses": {
+    "TOP": {
+      "b": 2,
+      "hd": 0,
+      "g": 1,
+      "hb": 1,
+      "hx": -75,
+      "hy": 22,
+      "ed": 1,
+      "ft": 0,
+      "ft2": 0,
+      "hip": [
+        0,
+        -430
+      ],
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -55,
+        0
+      ]
+    },
+    "BOTTOM": {
+      "b": 2,
+      "hd": 0,
+      "g": 1,
+      "hb": 1,
+      "hx": -75,
+      "hy": 22,
+      "ed": 1,
+      "ft": 0,
+      "ft2": 0,
+      "hip": [
+        0,
+        -300
+      ],
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -55,
+        0
+      ]
+    },
+    "HALF_BAD": {
+      "b": 2,
+      "hd": 0,
+      "g": 1,
+      "hb": 1,
+      "hx": -75,
+      "hy": 22,
+      "ed": 1,
+      "ft": 0,
+      "ft2": 0,
+      "hip": [
+        0,
+        -365
+      ],
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -55,
+        0
+      ]
+    },
+    "NARROW_BAD": {
+      "b": 2,
+      "hd": 0,
+      "g": 1,
+      "hb": 1,
+      "hx": -75,
+      "hy": 22,
+      "ed": 1,
+      "ft": 0,
+      "ft2": 0,
+      "hip": [
+        0,
+        -300
+      ],
+      "ankle": [
+        20,
+        0
+      ],
+      "ankle2": [
+        -20,
+        0
+      ]
+    },
+    "HEEL_BAD": {
+      "b": 2,
+      "hd": 0,
+      "g": 1,
+      "hb": 1,
+      "hx": -75,
+      "hy": 22,
+      "ed": 1,
+      "ft": 20,
+      "ft2": 18,
+      "hip": [
+        0,
+        -300
+      ],
+      "ankle": [
+        60,
+        -12
+      ],
+      "ankle2": [
+        -55,
+        -12
+      ]
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PIERNAS",
+      "head": [
+        "SENTADILLA",
+        "SUMO"
+      ],
+      "sub": "Pies bien abiertos",
+      "vo": "Sentadilla sumo en la Smith: barra en la espalda alta, pies bien separados y puntas hacia afuera.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.2
+            ],
+            [
+              "BOTTOM",
+              1.2
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "BARRA",
+        "GUIADA"
+      ],
+      "sub": "El recorrido es vertical",
+      "vo": "La barra de la Smith corre por los parantes: el recorrido es vertical y no se te va hacia adelante.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            364,
+            766
+          ],
+          "r": 64,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            860
+          ],
+          "text": "BARRA GUIADA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            604,
+            985
+          ],
+          "r": 54,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            940
+          ],
+          "text": "PARANTE",
+          "anchor": "start",
+          "at": 1.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            604,
+            1057
+          ],
+          "r": 54,
+          "at": 2.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1120
+          ],
+          "text": "TOPE",
+          "anchor": "start",
+          "at": 2.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "PIES",
+        "ABIERTOS"
+      ],
+      "sub": "Puntas hacia afuera",
+      "vo": "Poné los pies más abiertos que el ancho de los hombros, con las puntas bien hacia afuera.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            476,
+            1505
+          ],
+          "r": 46,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1250
+          ],
+          "text": "PIES ABIERTOS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "BARRA A LA",
+        "ESPALDA"
+      ],
+      "sub": "Sobre los omóplatos",
+      "vo": "Apoyá la barra en la espalda alta, sobre los omóplatos, y agarrala firme a los costados.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            375,
+            1056
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            860
+          ],
+          "text": "ESPALDA ALTA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.0,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "PECHO",
+        "ARRIBA"
+      ],
+      "sub": "Rodillas abiertas",
+      "vo": "Arrancá con el pecho arriba, la espalda derecha y las rodillas apuntando hacia afuera.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            436,
+            911
+          ],
+          "r": 48,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            830
+          ],
+          "text": "PECHO ARRIBA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.6,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "BAJÁ Y",
+        "ABRÍ"
+      ],
+      "sub": "Cadera atrás",
+      "vo": "Paso uno. Bajá llevando la cadera hacia atrás y abriendo las rodillas hacia afuera.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.4,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            428,
+            1265
+          ],
+          "r": 52,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1030,
+            1180
+          ],
+          "text": "CADERA ATRÁS",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "HASTA",
+        "ABAJO"
+      ],
+      "sub": "Muslos cerca de la paralela",
+      "vo": "Paso dos. Bajá hasta que los muslos queden cerca de la paralela, con el torso derecho.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "BOTTOM",
+          "at": 0.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            593,
+            1363
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            1120
+          ],
+          "text": "RODILLAS AFUERA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "EMPUJÁ",
+        "CON LOS TALONES"
+      ],
+      "sub": "Subida firme",
+      "vo": "Paso tres. Subí empujando con los talones y apretando los glúteos, sin juntar las rodillas.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.4,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            476,
+            1505
+          ],
+          "r": 46,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            1030,
+            1250
+          ],
+          "text": "TALONES",
+          "anchor": "end",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Aire al bajar",
+      "vo": "Tomá aire arriba, aguantá mientras bajás y soltá al subir. El abdomen queda firme.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.2
+            ],
+            [
+              "BOTTOM",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "MEDIA",
+        "REPETICIÓN"
+      ],
+      "sub": "Bajá completo",
+      "vo": "Error: media repetición. Bajá hasta abajo y subí completo: el recorrido se hace entero.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "HALF_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            428,
+            1213
+          ],
+          "r": 52,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "PIES",
+        "JUNTOS"
+      ],
+      "sub": "Base bien abierta",
+      "vo": "Error: juntar los pies. La base queda bien abierta y las rodillas siguen la línea de los pies.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "NARROW_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            476,
+            1505
+          ],
+          "r": 46,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "TALONES",
+        "DESPEGADOS"
+      ],
+      "sub": "Pies planos",
+      "vo": "Error: levantar los talones. Los pies quedan planos y el empuje sale de todo el pie.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0
+        },
+        {
+          "to": "HEEL_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            476,
+            1495
+          ],
+          "r": 46,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Pies bien abiertos",
+        "Rodillas afuera",
+        "Pecho arriba",
+        "Empujá con los talones"
+      ],
+      "vo": "Tips: pies bien abiertos, rodillas afuera, pecho arriba y empuje con los talones.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.2
+            ],
+            [
+              "BOTTOM",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Base amplia",
+        "Cadera atrás",
+        "Torso derecho",
+        "Subida completa"
+      ],
+      "vo": "Claves: base amplia, cadera atrás, torso derecho y subida completa.",
+      "moves": [
+        {
+          "cut": "BOTTOM",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12–15"
+      ],
+      "sub": "Glúteos y cuádriceps",
+      "vo": "Tres series de doce a quince repeticiones, con un minuto de pausa.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · ABRÍ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · EMPUJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "TOP",
+              1.2
+            ],
+            [
+              "BOTTOM",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "SOLTÁ LA",
+        "BARRA"
+      ],
+      "sub": "Sin apurarte",
+      "vo": "Al terminar la serie, subí derecho y enganchá la barra en los topes. Respirá antes de seguir.",
+      "moves": [
+        {
+          "cut": "TOP",
+          "at": 0
+        },
+        {
+          "to": "TOP",
+          "at": 0.6,
+          "dur": 0.8
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            900
+          ],
+          "text": "ENGANCHÁ LA BARRA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "BOTTOM",
+    "zoom": 1.0,
+    "dy": 60
+  },
+  "youtube": {
+    "titulo": "Smith Sumo Squat 🔥 Sentadilla sumo en la máquina | Glúteos y piernas",
+    "tags": [
+      "smith sumo squat",
+      "sentadilla sumo",
+      "sumo squat",
+      "glúteos",
+      "piernas",
+      "smith machine",
+      "multipower",
+      "sentadilla",
+      "cuádriceps",
+      "gimnasio",
+      "principiantes",
+      "rutina de glúteos"
+    ],
+    "descripcion": "🔥 SMITH SUMO SQUAT (sentadilla sumo con la barra guiada apoyada en la espalda alta y una base bien amplia) — glúteos y cuádriceps\n\nLa sentadilla sumo en la Smith se hace con la barra apoyada en la espalda alta, los pies más abiertos que el ancho de los hombros y las puntas hacia afuera. Bajás llevando la cadera atrás y abriendo las rodillas, hasta que los muslos queden cerca de la paralela, y subís empujando con los talones. El pecho queda arriba y los pies planos todo el tiempo. Los errores típicos son cortar el recorrido, juntar los pies y levantar los talones. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Poné los pies bien abiertos, con las puntas hacia afuera.\n2️⃣ Apoyá la barra en la espalda alta, sobre los omóplatos.\n\n📋 PASO A PASO\n1️⃣ Arrancá con el pecho arriba y las rodillas apuntando afuera.\n2️⃣ Bajá llevando la cadera atrás y abriendo las rodillas.\n3️⃣ Llegá hasta que los muslos queden cerca de la paralela.\n4️⃣ Subí empujando con los talones y apretando los glúteos.\n5️⃣ Volvé a la posición inicial y repetí.\n\n❌ ERRORES COMUNES\n• Media repetición → bajá hasta abajo y subí completo.\n• Pies juntos → la base queda bien abierta.\n• Talones despegados → los pies quedan planos.\n\n💡 TIPS DEL PROFE\n• Base bien amplia y firme.\n• Cadera atrás, rodillas afuera.\n• Pecho arriba, pies planos.\n• Empuje con los talones.\n\n🎯 QUÉ TRABAJA\nPiernas → Glúteos → Cuádriceps\n\n⏱️ CUÁNTO\n3 series de 12–15 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Glúteos #Piernas #Sentadilla #SumoSquat #SmithMachine #Multipower #Entrenamiento"
+  }
+}
