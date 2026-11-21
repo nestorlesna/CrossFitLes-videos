@@ -212,73 +212,73 @@ Completar a las 48 h con los números (vistas, % visto completo, guardados, comp
 | 2026-11-22 21:00 | dynamic-hollow-hold | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
 | 2026-11-23 08:00 | goblet-squat-hold-press | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
 | 2026-11-23 13:30 | scapular-wall-slides | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
-| 2026-11-23 18:30 | spiderman-stretch-rotation | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-23 21:00 | dead-bug-with-band-resistance | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-24 08:00 | power-clean | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-24 13:30 | partner-wall-ball-over-bar | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-24 18:30 | barbell-front-rack-reverse-lunge | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-24 21:00 | wall-ball-box-over | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-25 08:00 | isometric-lunge | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-25 13:30 | kettlebell-ankle-mobility-drill | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-25 18:30 | doorway-chest-stretch | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-25 21:00 | supine-figure-4-stretch | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-26 08:00 | dumbbell-overhead-hold | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-26 13:30 | single-leg-calf-raise | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-26 18:30 | tibialis-raise | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-26 21:00 | bodyweight-handstand-push-up | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-27 08:00 | superman-hold | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-27 13:30 | 4-6-breathing | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-27 18:30 | dead-bug-hold-with-dumbbell | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-27 21:00 | banded-triceps-extensions | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-28 08:00 | hollow-to-superman-roll | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-28 13:30 | kettlebell-sumo-deadlift-high-pull | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-28 18:30 | snatch-grip-deadlift | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-28 21:00 | squat-press-out | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-29 08:00 | strict-knees-to-elbows | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-29 13:30 | toe-touch-sit-up | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-29 18:30 | weighted-bird-dog | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-29 21:00 | weighted-plank | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-30 08:00 | kettlebell-windmill | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-30 13:30 | barbell-deadlift-to-knee-height | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-30 18:30 | deficit-banded-deadlift | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-11-30 21:00 | single-leg-toes-to-bar | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-01 08:00 | rope-climb | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-01 13:30 | dumbbell-back-rack-lunge | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-01 18:30 | dumbbell-hang-clean-and-push-jerk | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-01 21:00 | squat-jump-to-plate | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-02 08:00 | weighted-sit-up | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-02 13:30 | standing-hamstring-stretch | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-02 18:30 | weighted-side-plank | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-02 21:00 | dumbbell-bench-press | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-03 08:00 | standing-quad-stretch | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-03 13:30 | ankle-mobility-rock | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-03 18:30 | calf-raise-hold | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-03 21:00 | clamshell-hold | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-04 08:00 | core-overhead-hold-with-side-bend | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-04 13:30 | half-kneeling-hip-flexor-hamstring-dynamic-stretch | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-04 18:30 | half-kneeling-ankle-dorsiflexion-stretch | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-04 21:00 | half-kneeling-windmill-rotation-and-side-bend | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-05 08:00 | overhead-squat | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-05 13:30 | pigeon-rotation | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-05 18:30 | quadruped-thoracic-rotation | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-05 21:00 | single-leg-wall-sit | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-06 08:00 | towel-isometric-curl | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-06 13:30 | world-s-greatest-stretch | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-06 18:30 | bodyweight-push-up | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-06 21:00 | plank-shoulder-taps | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-07 08:00 | side-plank | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-07 13:30 | hanging-knees-to-elbows | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-07 18:30 | bodyweight-glute-bridge | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-07 21:00 | mountain-climbers | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-08 08:00 | kettlebell-front-squat | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-08 13:30 | barbell-bent-over-row | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-08 18:30 | bodyweight-hollow-body-hold | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-08 21:00 | high-pull-external-rotation | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-09 08:00 | jumping-lunge | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-09 13:30 | pike-hold | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-09 18:30 | single-arm-dumbbell-push-press | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-09 21:00 | single-leg-dumbbell-romanian-deadlift | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
-| 2026-12-10 08:00 | toe-touch-crunch | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
+| 2026-11-23 18:30 | spiderman-stretch-rotation | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-23 21:00 | dead-bug-with-band-resistance | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-24 08:00 | power-clean | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-24 13:30 | partner-wall-ball-over-bar | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-24 18:30 | barbell-front-rack-reverse-lunge | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-24 21:00 | wall-ball-box-over | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-25 08:00 | isometric-lunge | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-25 13:30 | kettlebell-ankle-mobility-drill | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-25 18:30 | doorway-chest-stretch | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-25 21:00 | supine-figure-4-stretch | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-26 08:00 | dumbbell-overhead-hold | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-26 13:30 | single-leg-calf-raise | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-26 18:30 | tibialis-raise | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-26 21:00 | bodyweight-handstand-push-up | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-27 08:00 | superman-hold | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-27 13:30 | 4-6-breathing | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-27 18:30 | dead-bug-hold-with-dumbbell | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-27 21:00 | banded-triceps-extensions | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-28 08:00 | hollow-to-superman-roll | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-28 13:30 | kettlebell-sumo-deadlift-high-pull | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-28 18:30 | snatch-grip-deadlift | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-28 21:00 | squat-press-out | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-29 08:00 | strict-knees-to-elbows | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-29 13:30 | toe-touch-sit-up | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-29 18:30 | weighted-bird-dog | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-29 21:00 | weighted-plank | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-30 08:00 | kettlebell-windmill | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-30 13:30 | barbell-deadlift-to-knee-height | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-30 18:30 | deficit-banded-deadlift | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-30 21:00 | single-leg-toes-to-bar | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-12-01 08:00 | rope-climb | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-12-01 13:30 | dumbbell-back-rack-lunge | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-12-01 18:30 | dumbbell-hang-clean-and-push-jerk | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-12-01 21:00 | squat-jump-to-plate | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-12-02 08:00 | weighted-sit-up | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-12-02 13:30 | standing-hamstring-stretch | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-12-02 18:30 | weighted-side-plank | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-12-02 21:00 | dumbbell-bench-press | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-03 08:00 | standing-quad-stretch | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-03 13:30 | ankle-mobility-rock | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-03 18:30 | calf-raise-hold | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-03 21:00 | clamshell-hold | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-04 08:00 | core-overhead-hold-with-side-bend | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-04 13:30 | half-kneeling-hip-flexor-hamstring-dynamic-stretch | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-04 18:30 | half-kneeling-ankle-dorsiflexion-stretch | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-04 21:00 | half-kneeling-windmill-rotation-and-side-bend | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-05 08:00 | overhead-squat | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-05 13:30 | pigeon-rotation | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-05 18:30 | quadruped-thoracic-rotation | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-05 21:00 | single-leg-wall-sit | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-06 08:00 | towel-isometric-curl | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-06 13:30 | world-s-greatest-stretch | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-06 18:30 | bodyweight-push-up | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-06 21:00 | plank-shoulder-taps | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-07 08:00 | side-plank | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-07 13:30 | hanging-knees-to-elbows | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-07 18:30 | bodyweight-glute-bridge | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-07 21:00 | mountain-climbers | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-08 08:00 | kettlebell-front-squat | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-08 13:30 | barbell-bent-over-row | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-08 18:30 | bodyweight-hollow-body-hold | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-08 21:00 | high-pull-external-rotation | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-09 08:00 | jumping-lunge | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-09 13:30 | pike-hold | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-09 18:30 | single-arm-dumbbell-push-press | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-09 21:00 | single-leg-dumbbell-romanian-deadlift | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-10 08:00 | toe-touch-crunch | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
 | 2026-12-10 13:30 | ab-wheel-kneeling-rollout | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
 | 2026-12-10 18:30 | alternating-kettlebell-clean-and-press | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
 | 2026-12-10 21:00 | alternating-kettlebell-row | primer sonido, -∞ dB | | | | | | ✅ Plan 4/día (sin subir) |
@@ -469,3 +469,24 @@ El usuario los sube a mano. Cada uno lleva su `<slug>.tiktok.txt` y `<slug>.mini
 - Generar `<slug>.tiktok.txt` y `<slug>.miniatura.tiktok.png` desde la ficha JSON, igual que el `.youtube.txt`
 - Elegir qué videos van a TikTok (¿todos? ¿sólo los ≤ 60 s?) y calendario propio
 - Ver si la subida se hace por la Content Posting API de TikTok o con Chrome en TikTok Studio (como la miniatura de YouTube)
+
+### Estado al corte (20/11, tarde)
+
+- **Programados a futuro: 50** (del 20/11 13:30 al 2/12 18:30). Último hecho: `weighted-side-plank` (2/12 18:30). **Siguiente: `dumbbell-bench-press` (2/12 21:00)**, ya revisado pero **sin programar**: el botón «Programar» dejó de responder (no sale ninguna petición ni aviso), señal de que TikTok llegó a su tope de programados a la vez (~50). Reintentar cuando se publiquen los primeros (a partir del 20/11 13:30 empiezan a salir).
+- Si el mp4 solo existe como `OC_*` en `salida/`, copiar a `salida/_tiktok-tmp/<slug>.mp4` antes de subirlo (file_upload exige carpeta permitida y nombre limpio).
+
+### Borradores en TikTok (20/11, ~12:30) — adelantar la subida de archivos
+
+- **Prueba hecha**: con el tope de programados alcanzado (50), **sí se pueden seguir subiendo videos y guardarlos como borrador** («Guardar borrador»): la subida del archivo no está limitada, solo el botón «Programar». Los borradores admiten **hasta 30** y **caducan a los 60 días**; se ven en Publicaciones → Borradores.
+- **Quedaron como borrador (5)**, con descripción, portada, sonido a -∞ dB, IA marcada y la fecha/hora del plan anterior: `dumbbell-bench-press`, `standing-quad-stretch`, `ankle-mobility-rock`, `calf-raise-hold`, `clamshell-hold`. En el plan JSON llevan `"borrador": true` (siguen con `done:false`) y sus archivos **siguen en `salida/`/`EnYoutube/`** (no se movieron a `EnTikTok/`).
+- **Para terminar cada uno**: Publicaciones → Borradores → lápiz → corregir **fecha y hora** (la del borrador es la del plan viejo) → esperar la revisión → «Programar». Después `python mover-tt.py <slug>` y marcar la fila. No volver a subir el archivo: ya está en el borrador.
+- El resto del plan sigue pendiente: ver las filas «Plan 4/día (sin subir)». Cada borrador nuevo gasta uno de los 30 cupos.
+
+### Borradores: tope de 30 alcanzado (20/11, noche)
+
+- **Borradores en TikTok: 30/30.** Los 25 nuevos (además de los 5 de arriba): `core-overhead-hold-with-side-bend`, `half-kneeling-hip-flexor-hamstring-dynamic-stretch`, `half-kneeling-ankle-dorsiflexion-stretch`, `half-kneeling-windmill-rotation-and-side-bend`, `overhead-squat`, `pigeon-rotation`, `quadruped-thoracic-rotation`, `single-leg-wall-sit`, `towel-isometric-curl`, `world-s-greatest-stretch`, `bodyweight-push-up`, `plank-shoulder-taps`, `side-plank`, `hanging-knees-to-elbows`, `bodyweight-glute-bridge`, `mountain-climbers`, `kettlebell-front-squat`, `barbell-bent-over-row`, `bodyweight-hollow-body-hold`, `high-pull-external-rotation`, `jumping-lunge`, `pike-hold`, `single-arm-dumbbell-push-press`, `single-leg-dumbbell-romanian-deadlift`, `toe-touch-crunch`. Todos con descripción, portada, sonido a -∞ dB e IA marcada; **sin fecha/hora de programación** (los nuevos se guardaron con «Ahora»: hay que programarlos al terminarlos). En el plan JSON llevan `"borrador": true`; las filas dicen «BORRADOR en TikTok».
+- **Prueba del 31.º**: se subió `ab-wheel-kneeling-rollout` y al pulsar «Guardar igualmente» TikTok respondió «En una cuenta solo se puede guardar un máximo de 30 borradores. Para guardar uno más, debes publicar o eliminar uno de los que ya tienes». **No quedó guardado ni subido**: sigue pendiente (es el siguiente del plan sin subir).
+- **Caducidad**: los primeros borradores caducan a los 60 días (≈ 19/01/2027): programarlos antes.
+- **Cómo terminarlos** (igual que arriba): Borradores → lápiz → fecha y hora del plan → esperar la revisión → «Programar» → `python mover-tt.py <slug>`. Al programar uno, libera un cupo de borrador.
+- **Aviso al reabrir un borrador**: si el editor de sonido no terminó de cargar, el «+» no añade pista. `bodyweight-hollow-body-hold` quedó sin sonido y se corrigió reabriéndolo (sonido añadido, -∞ dB). Antes de guardar, comprobar que aparece la pista de audio en el editor.
+- Quedan **167** videos del plan sin subir (siguiente: `ab-wheel-kneeling-rollout`). `salida/_tiktok-tmp/` conserva una copia temporal de `ab-wheel-kneeling-rollout.mp4` (borrable).
