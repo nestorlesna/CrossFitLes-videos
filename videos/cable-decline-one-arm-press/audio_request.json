@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Cable Decline One Arm Press",
+      "text": "Press declinado a una mano, con la polea baja atrás de la cabeza."
+    },
+    {
+      "id": "02",
+      "text": "La polea sube y baja por el riel y la pila de discos da la resistencia. La perilla elige el peso."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el banco declinado y dejá la polea baja atrás de la cabeza, bien cerca del piso."
+    },
+    {
+      "id": "04",
+      "text": "Agarrá la manija con una mano y apoyá la otra en el pecho, para estabilizar el torso."
+    },
+    {
+      "id": "05",
+      "text": "Acostado, la espalda alta apoyada y la mano a la altura del pecho, lista para empujar."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá la manija hacia arriba hasta estirar el brazo, con el codo cerca del torso."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Arriba, pausá con el brazo estirado sin trabar el codo ni mover el hombro."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá lento hasta el pecho y repetí todas las repeticiones antes de cambiar de mano."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire en el esfuerzo y tomá aire al volver. No aguantes la respiración todo el recorrido."
+    },
+    {
+      "id": "10",
+      "text": "Error: cortar el recorrido. Bajá al pecho y subí hasta estirar."
+    },
+    {
+      "id": "11",
+      "text": "Error: dejar la cabeza fuera del banco. Apoyá la cabeza y la espalda alta."
+    },
+    {
+      "id": "12",
+      "text": "Error: levantar la cadera para empujar. Los glúteos quedan apoyados."
+    },
+    {
+      "id": "13",
+      "text": "Tips: una mano por vez, codo cerca del torso, bajá al pecho y cambiá al final."
+    },
+    {
+      "id": "14",
+      "text": "Claves: banco declinado, polea baja, codo cerca del torso y sin trabar el codo."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de ocho a doce repeticiones por brazo, con un minuto de pausa."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, dejá que el peso baje solo, soltá la manija y alejate de la polea sin apuro."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

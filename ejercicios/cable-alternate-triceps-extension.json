@@ -4,8 +4,7 @@
   "maquina": true,
   "category": "GIMNASIO · BRAZOS",
   "tags": [
-    "Tríceps",
-    "Deltoides posterior"
+    "Tríceps"
   ],
   "descripcion": "Extensión de tríceps alterna en polea: el codo queda alto y quieto y el antebrazo sale de atrás de la cabeza hasta estirar el brazo. La otra mano cruza y sujeta el tríceps que trabaja.",
   "revisado": false,
@@ -13,7 +12,7 @@
   "music": true,
   "musicVolume": 0.18,
   "rig": {
-    "x": 600,
+    "x": 560,
     "y": 1507.5,
     "scale": 0.72
   },
@@ -22,13 +21,13 @@
   "props": [
     {
       "type": "cable",
-      "x": -400,
-      "top": -1400,
+      "x": 560,
+      "top": -1150,
       "pulley": [
-        -260,
-        -1250
+        450,
+        -1080
       ],
-      "track": -260,
+      "track": 450,
       "att": "handle",
       "pin": 5
     }
@@ -182,7 +181,7 @@
         "TRÍCEPS",
         "ALTERNO"
       ],
-      "sub": "Codo alto y quieto",
+      "sub": "Codo quieto",
       "vo": "Cable Alternate Triceps Extension: extensión de tríceps alterna en polea, con el codo alto y quieto.",
       "moves": [
         {
@@ -224,8 +223,8 @@
         {
           "type": "ring",
           "pos": [
-            413,
-            608
+            884,
+            730
           ],
           "r": 62,
           "at": 0.8
@@ -243,7 +242,7 @@
         {
           "type": "ring",
           "pos": [
-            312,
+            963,
             1270
           ],
           "r": 70,
@@ -280,8 +279,8 @@
         {
           "type": "ring",
           "pos": [
-            434,
-            608
+            906,
+            730
           ],
           "r": 50,
           "at": 0.8
@@ -317,7 +316,7 @@
         {
           "type": "ring",
           "pos": [
-            312,
+            963,
             1270
           ],
           "r": 62,
@@ -354,7 +353,7 @@
         {
           "type": "ring",
           "pos": [
-            608,
+            568,
             959
           ],
           "r": 54,
@@ -396,7 +395,7 @@
         {
           "type": "ring",
           "pos": [
-            655,
+            615,
             749
           ],
           "r": 54,
@@ -438,7 +437,7 @@
         {
           "type": "ring",
           "pos": [
-            639,
+            599,
             863
           ],
           "r": 52,
@@ -480,7 +479,7 @@
         {
           "type": "ring",
           "pos": [
-            531,
+            491,
             823
           ],
           "r": 56,
@@ -561,7 +560,7 @@
         {
           "type": "ring",
           "pos": [
-            665,
+            625,
             959
           ],
           "r": 52,
@@ -603,7 +602,7 @@
         {
           "type": "ring",
           "pos": [
-            592,
+            552,
             754
           ],
           "r": 54,
@@ -645,7 +644,7 @@
         {
           "type": "ring",
           "pos": [
-            720,
+            680,
             781
           ],
           "r": 54,
@@ -791,7 +790,7 @@
   ],
   "miniatura": {
     "pose": "TOP",
-    "zoom": 1.05,
+    "zoom": 1.0,
     "dy": 40
   },
   "youtube": {

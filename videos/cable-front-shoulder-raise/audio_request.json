@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Cable Front Shoulder Raise",
+      "text": "Elevación frontal con las dos manos en poleas bajas."
+    },
+    {
+      "id": "02",
+      "text": "La polea sube y baja por el riel y la pila de discos da la resistencia. La perilla elige el peso."
+    },
+    {
+      "id": "03",
+      "text": "Poné las dos poleas bien abajo, a la altura de la cadera, con las manijas cerca de los muslos."
+    },
+    {
+      "id": "04",
+      "text": "Peso liviano y las dos manos parejas. Con peso de más, el cuerpo se balancea y el hombro se queja."
+    },
+    {
+      "id": "05",
+      "text": "De pie, pies al ancho de hombros, abdomen activo y las manos abajo, junto a los muslos."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Subí los dos brazos juntos al frente, casi estirados, hasta la altura del hombro."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Pausá a la altura del hombro con las palmas abajo y no subas más."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá los dos brazos lentos contra el cable hasta que las manos vuelvan al muslo."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire en el esfuerzo y tomá aire al volver. No aguantes la respiración todo el recorrido."
+    },
+    {
+      "id": "10",
+      "text": "Error: doblar los codos para subir. Los brazos suben casi estirados."
+    },
+    {
+      "id": "11",
+      "text": "Error: tirar el cuerpo atrás para ayudar. El torso queda firme y el pecho arriba."
+    },
+    {
+      "id": "12",
+      "text": "Error: girar el torso para subir un brazo más. El pecho queda de frente."
+    },
+    {
+      "id": "13",
+      "text": "Tips: brazos juntos, hombro abajo, pecho de frente y bajada lenta."
+    },
+    {
+      "id": "14",
+      "text": "Claves: dos poleas, brazos juntos, altura del hombro y sin girar el torso."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de doce a quince repeticiones, con un minuto de pausa."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, dejá que el peso baje solo, soltá la manija y alejate de la polea sin apuro."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

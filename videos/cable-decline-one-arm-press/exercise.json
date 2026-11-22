@@ -1,0 +1,797 @@
+{
+  "slug": "cable-decline-one-arm-press",
+  "name": "Cable Decline One Arm Press",
+  "maquina": true,
+  "category": "GIMNASIO · PECHO",
+  "tags": [
+    "Pectorales",
+    "Tríceps",
+    "Deltoides anterior"
+  ],
+  "descripcion": "Press declinado a una mano en polea: la polea baja queda atrás de la cabeza y el brazo empuja hacia arriba, con el codo cerca del torso. Una mano trabaja y la otra descansa en el pecho.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 620,
+    "y": 1507.5,
+    "scale": 0.72
+  },
+  "shadow": false,
+  "initialPose": "ARRIBA",
+  "props": [
+    {
+      "type": "bench",
+      "x0": -320,
+      "x1": 140,
+      "h": 300,
+      "tilt": -15,
+      "pivot": [
+        140,
+        -266
+      ]
+    },
+    {
+      "type": "cable",
+      "x": -460,
+      "top": -900,
+      "pulley": [
+        -340,
+        -140
+      ],
+      "track": -340,
+      "att": "handle",
+      "pin": 5
+    }
+  ],
+  "poses": {
+    "ARRIBA": {
+      "hip": [
+        0,
+        -272
+      ],
+      "ankle": [
+        235,
+        0
+      ],
+      "b": -105,
+      "hd": -107,
+      "ft": 0,
+      "g": 1,
+      "hx": -235,
+      "ed": 1,
+      "hy": -510,
+      "ua2": 26,
+      "fa2": 104
+    },
+    "MEDIO": {
+      "hip": [
+        0,
+        -272
+      ],
+      "ankle": [
+        235,
+        0
+      ],
+      "b": -105,
+      "hd": -107,
+      "ft": 0,
+      "g": 1,
+      "hx": -235,
+      "ed": 1,
+      "hy": -360,
+      "ua2": 26,
+      "fa2": 104
+    },
+    "ABAJO": {
+      "hip": [
+        0,
+        -272
+      ],
+      "ankle": [
+        235,
+        0
+      ],
+      "b": -105,
+      "hd": -107,
+      "ft": 0,
+      "g": 1,
+      "hx": -235,
+      "ed": 1,
+      "hy": -220,
+      "ua2": 26,
+      "fa2": 104
+    },
+    "CORTO_BAD": {
+      "hip": [
+        0,
+        -272
+      ],
+      "ankle": [
+        235,
+        0
+      ],
+      "b": -105,
+      "hd": -107,
+      "ft": 0,
+      "g": 1,
+      "hx": -235,
+      "ed": 1,
+      "hy": -450,
+      "ua2": 26,
+      "fa2": 104
+    },
+    "CUELLO_BAD": {
+      "hip": [
+        -70,
+        -272
+      ],
+      "ankle": [
+        235,
+        0
+      ],
+      "b": -105,
+      "hd": -107,
+      "ft": 0,
+      "g": 1,
+      "hx": -235,
+      "ed": 1,
+      "hy": -202,
+      "ua2": 26,
+      "fa2": 104
+    },
+    "CADERA_BAD": {
+      "hip": [
+        0,
+        -238
+      ],
+      "ankle": [
+        235,
+        0
+      ],
+      "b": -117,
+      "hd": -107,
+      "ft": 0,
+      "g": 1,
+      "hx": -235,
+      "ed": 1,
+      "hy": -360,
+      "ua2": 26,
+      "fa2": 104
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · PECHO",
+      "head": [
+        "DECLINADO",
+        "UNA MANO"
+      ],
+      "sub": "Pecho bajo",
+      "vo": "Cable Decline One Arm Press: press declinado a una mano, con la polea baja atrás de la cabeza.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ARRIBA",
+              1.2
+            ],
+            [
+              "ABAJO",
+              1.4
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "POLEA",
+        "Y PILA"
+      ],
+      "sub": "Polea y pila",
+      "vo": "La polea sube y baja por el riel y la pila de discos da la resistencia. La perilla elige el peso.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            375,
+            1407
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "POLEA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            289,
+            1270
+          ],
+          "r": 70,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            880
+          ],
+          "text": "PILA DE PESO",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "BANCO",
+        "DECLINADO"
+      ],
+      "sub": "Polea baja",
+      "vo": "Ajustá el banco declinado y dejá la polea baja atrás de la cabeza, bien cerca del piso.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            397,
+            1407
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BANCO DECLINADO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "UNA",
+        "MANO"
+      ],
+      "sub": "Otra en el pecho",
+      "vo": "Agarrá la manija con una mano y apoyá la otra en el pecho, para estabilizar el torso.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            289,
+            1270
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "UNA MANO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ACOSTADO",
+        "FIRME"
+      ],
+      "sub": "Mano al pecho",
+      "vo": "Acostado, la espalda alta apoyada y la mano a la altura del pecho, lista para empujar.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            403,
+            1371
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "ESPALDA APOYADA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "EMPUJÁ",
+        "ARRIBA"
+      ],
+      "sub": "Codo cerca",
+      "vo": "Paso uno. Empujá la manija hacia arriba hasta estirar el brazo, con el codo cerca del torso.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        },
+        {
+          "to": "ARRIBA",
+          "at": 0.4,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            451,
+            1140
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BRAZO ARRIBA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ARRIBA",
+        "PAUSA"
+      ],
+      "sub": "Sin trabar",
+      "vo": "Paso dos. Arriba, pausá con el brazo estirado sin trabar el codo ni mover el hombro.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "to": "ARRIBA",
+          "at": 0.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            525,
+            1437
+          ],
+          "r": 52,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "ESTIRÁ SIN TRABAR",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "LENTO"
+      ],
+      "sub": "Al pecho",
+      "vo": "Paso tres. Bajá lento hasta el pecho y repetí todas las repeticiones antes de cambiar de mano.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "to": "ABAJO",
+          "at": 0.4,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            451,
+            1349
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BAJÁ AL PECHO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Respirá parejo",
+      "vo": "Soltá el aire en el esfuerzo y tomá aire al volver. No aguantes la respiración todo el recorrido.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ABAJO",
+              1.2
+            ],
+            [
+              "ARRIBA",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "MEDIO",
+        "RECORRIDO"
+      ],
+      "sub": "Tocá y estirá",
+      "vo": "Error: cortar el recorrido. Bajá al pecho y subí hasta estirar.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        },
+        {
+          "to": "CORTO_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            451,
+            1184
+          ],
+          "r": 52,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "CABEZA",
+        "AFUERA"
+      ],
+      "sub": "Cabeza en banco",
+      "vo": "Error: dejar la cabeza fuera del banco. Apoyá la cabeza y la espalda alta.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        },
+        {
+          "to": "CUELLO_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            451,
+            1362
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "CADERA",
+        "ARRIBA"
+      ],
+      "sub": "Cola abajo",
+      "vo": "Error: levantar la cadera para empujar. Los glúteos quedan apoyados.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        },
+        {
+          "to": "CADERA_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            451,
+            1248
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Una mano",
+        "Codo cerca",
+        "Al pecho",
+        "Cambiá al final"
+      ],
+      "vo": "Tips: una mano por vez, codo cerca del torso, bajá al pecho y cambiá al final.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ABAJO",
+              1.2
+            ],
+            [
+              "ARRIBA",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Banco declinado",
+        "Polea baja",
+        "Codo cerca",
+        "Sin trabar"
+      ],
+      "vo": "Claves: banco declinado, polea baja, codo cerca del torso y sin trabar el codo.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 8–12"
+      ],
+      "sub": "Pecho inferior",
+      "vo": "Tres series de ocho a doce repeticiones por brazo, con un minuto de pausa.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · EMPUJÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · CAMBIÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ARRIBA",
+              1.2
+            ],
+            [
+              "ABAJO",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "SOLTÁ",
+        "EL PESO"
+      ],
+      "sub": "Dejá bajar",
+      "vo": "Al terminar, dejá que el peso baje solo, soltá la manija y alejate de la polea sin apuro.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "to": "MEDIO",
+          "at": 0.8,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "SIN APURO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "ARRIBA",
+    "zoom": 1.0,
+    "dy": 100
+  },
+  "youtube": {
+    "titulo": "Cable Decline One Arm Press 🔥 Pecho bajo | Una mano",
+    "tags": [
+      "cable decline press",
+      "press declinado polea",
+      "press una mano",
+      "pecho inferior",
+      "pectorales",
+      "triceps"
+    ],
+    "descripcion": "🔥 CABLE DECLINE ONE ARM PRESS (press declinado a una mano en polea) — pecho inferior y tríceps\n\nUna sola mano y la polea baja: el pecho inferior trabaja sin ayudas. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el banco declinado y los pies.\n2️⃣ Dejá la polea baja atrás de la cabeza.\n\n📋 PASO A PASO\n1️⃣ Acostate con la espalda alta apoyada.\n2️⃣ Una mano a la manija y la otra al pecho.\n3️⃣ Empujá arriba hasta estirar.\n4️⃣ Pausá arriba sin trabar.\n5️⃣ Bajá lento y cambiá de mano.\n\n❌ ERRORES COMUNES\n• Cortar el recorrido → tocá y estirá.\n• Sacar la cabeza del banco → cabeza apoyada.\n• Levantar la cadera → glúteos abajo.\n\n💡 TIPS DEL PROFE\n• Codo cerca del torso.\n• Bajá al pecho.\n• Una mano por vez.\n\n🎯 QUÉ TRABAJA\nPecho inferior → Pectorales → Tríceps → Deltoides anterior\n\n⏱️ CUÁNTO\n3 series de 8–12 repeticiones por brazo, con 1 minuto de pausa. Nivel: intermedio.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Pecho #PressDeclinado #Poleas #Pectorales #Triceps #Entrenamiento"
+  }
+}

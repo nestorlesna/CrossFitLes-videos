@@ -1,0 +1,803 @@
+{
+  "slug": "cable-incline-pushdown",
+  "name": "Cable Incline Pushdown",
+  "maquina": true,
+  "category": "GIMNASIO · BRAZOS",
+  "tags": [
+    "Tríceps",
+    "Pectorales"
+  ],
+  "descripcion": "Extensión de tríceps recostado en banco inclinado: con las poleas altas, los brazos suben sobre la cabeza y bajan estirados al frente. El codo no se abre.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 560,
+    "y": 1508.2,
+    "scale": 0.7
+  },
+  "shadow": false,
+  "initialPose": "ARRIBA",
+  "props": [
+    {
+      "type": "bench",
+      "x0": -400,
+      "x1": 20,
+      "h": 240,
+      "tilt": 30,
+      "pivot": [
+        20,
+        -206
+      ]
+    },
+    {
+      "type": "cable",
+      "x": 640,
+      "top": -1400,
+      "pulley": [
+        520,
+        -1250
+      ],
+      "track": 520,
+      "att": "handle",
+      "pin": 5
+    }
+  ],
+  "poses": {
+    "ARRIBA": {
+      "hip": [
+        0,
+        -238
+      ],
+      "ankle": [
+        230,
+        0
+      ],
+      "b": -60,
+      "hd": -62,
+      "ft": 0,
+      "g": 0,
+      "hx": -235,
+      "ed": 1,
+      "ua2": 158,
+      "fa2": 6,
+      "ua": 158,
+      "fa": 6
+    },
+    "MEDIO": {
+      "hip": [
+        0,
+        -238
+      ],
+      "ankle": [
+        230,
+        0
+      ],
+      "b": -60,
+      "hd": -62,
+      "ft": 0,
+      "g": 0,
+      "hx": -235,
+      "ed": 1,
+      "ua2": 158,
+      "fa2": 6,
+      "ua": 120,
+      "fa": 4
+    },
+    "ABAJO": {
+      "hip": [
+        0,
+        -238
+      ],
+      "ankle": [
+        230,
+        0
+      ],
+      "b": -60,
+      "hd": -62,
+      "ft": 0,
+      "g": 0,
+      "hx": -235,
+      "ed": 1,
+      "ua2": 158,
+      "fa2": 6,
+      "ua": 88,
+      "fa": 2
+    },
+    "CODO_BAD": {
+      "hip": [
+        0,
+        -238
+      ],
+      "ankle": [
+        230,
+        0
+      ],
+      "b": -60,
+      "hd": -62,
+      "ft": 0,
+      "g": 0,
+      "hx": -235,
+      "ed": 1,
+      "ua2": 158,
+      "fa2": 6,
+      "ua": 120,
+      "fa": 62
+    },
+    "TROMPA_BAD": {
+      "hip": [
+        0,
+        -238
+      ],
+      "ankle": [
+        230,
+        0
+      ],
+      "b": -26,
+      "hd": -62,
+      "ft": 0,
+      "g": 0,
+      "hx": -235,
+      "ed": 1,
+      "ua2": 158,
+      "fa2": 6,
+      "ua": 88,
+      "fa": 2
+    },
+    "MUNECA_BAD": {
+      "hip": [
+        0,
+        -238
+      ],
+      "ankle": [
+        230,
+        0
+      ],
+      "b": -60,
+      "hd": -62,
+      "ft": 0,
+      "g": 0,
+      "hx": -235,
+      "ed": 1,
+      "ua2": 158,
+      "fa2": 6,
+      "ua": 88,
+      "fa": 2,
+      "wr": -34
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · BRAZOS",
+      "head": [
+        "EXTENSIÓN",
+        "INCLINADO"
+      ],
+      "sub": "Poleas altas",
+      "vo": "Cable Incline Pushdown: extensión de tríceps recostado en banco inclinado con poleas altas.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ARRIBA",
+              1.2
+            ],
+            [
+              "ABAJO",
+              1.4
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "POLEA",
+        "Y PILA"
+      ],
+      "sub": "Polea y pila",
+      "vo": "La polea sube y baja por el riel y la pila de discos da la resistencia. La perilla elige el peso.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            924,
+            633
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "POLEA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            1008,
+            1277
+          ],
+          "r": 70,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            880
+          ],
+          "text": "PILA DE PESO",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "BANCO",
+        "A 45°"
+      ],
+      "sub": "Recostado",
+      "vo": "Ajustá el banco a unos cuarenta y cinco grados y recostate con la espalda apoyada.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            945,
+            633
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BANCO A 45°",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "POLEAS",
+        "ALTAS"
+      ],
+      "sub": "Arriba",
+      "vo": "Poné las poleas altas, arriba y adelante, para que el cable baje hasta las manos.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            1008,
+            1277
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "POLEAS ALTAS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "RECOSTADO",
+        "FIRME"
+      ],
+      "sub": "Manos atrás",
+      "vo": "Recostado en el banco inclinado, los codos flexionados y las manos atrás de la cabeza.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            370,
+            1233
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "MANOS ATRÁS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "ESTIRÁ",
+        "AL FRENTE"
+      ],
+      "sub": "Codo fijo",
+      "vo": "Paso uno. Estirá los brazos al frente hasta que queden rectos, sin mover los codos.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        },
+        {
+          "to": "ARRIBA",
+          "at": 0.4,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            466,
+            1024
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BRAZOS ESTIRADOS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ABAJO",
+        "APRETÁ"
+      ],
+      "sub": "Codos quietos",
+      "vo": "Paso dos. Al estirar, apretá el tríceps un segundo con los codos quietos y juntos.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "to": "ARRIBA",
+          "at": 0.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            511,
+            1248
+          ],
+          "r": 52,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "APRETÁ EL TRÍCEPS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "VOLVÉ",
+        "LENTO"
+      ],
+      "sub": "Sin abrir",
+      "vo": "Paso tres. Volvé lento hasta atrás de la cabeza, sin abrir los codos ni levantar la espalda.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "to": "ABAJO",
+          "at": 0.4,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            623,
+            1248
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "VOLVÉ ATRÁS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Respirá parejo",
+      "vo": "Soltá el aire en el esfuerzo y tomá aire al volver. No aguantes la respiración todo el recorrido.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ABAJO",
+              1.2
+            ],
+            [
+              "ARRIBA",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "CODO",
+        "ABIERTO"
+      ],
+      "sub": "Codos juntos",
+      "vo": "Error: abrir los codos hacia los costados. Los codos quedan juntos y altos.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        },
+        {
+          "to": "CODO_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            491,
+            1071
+          ],
+          "r": 52,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "EMPUJÁ",
+        "CON EL CUERPO"
+      ],
+      "sub": "Solo brazos",
+      "vo": "Error: levantarse del banco para empujar. La espalda queda apoyada.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        },
+        {
+          "to": "TROMPA_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            706,
+            1170
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "MUÑECA",
+        "DOBLADA"
+      ],
+      "sub": "Muñeca firme",
+      "vo": "Error: doblar la muñeca al bajar. La muñeca sigue la línea del antebrazo.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        },
+        {
+          "to": "MUNECA_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            623,
+            1248
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Codos juntos",
+        "Espalda apoyada",
+        "Muñeca firme",
+        "Recorrido completo"
+      ],
+      "vo": "Tips: codos juntos, espalda apoyada, muñeca firme y recorrido completo.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ABAJO",
+              1.2
+            ],
+            [
+              "ARRIBA",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Banco a 45°",
+        "Poleas altas",
+        "Codos juntos",
+        "Sin levantarse"
+      ],
+      "vo": "Claves: banco a cuarenta y cinco, poleas altas, codos juntos y sin levantarse.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10–12"
+      ],
+      "sub": "Tríceps",
+      "vo": "Tres series de diez a doce repeticiones, con un minuto de pausa.",
+      "chips": [
+        {
+          "label": "1 · BAJÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ARRIBA",
+              1.2
+            ],
+            [
+              "ABAJO",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "SOLTÁ",
+        "EL PESO"
+      ],
+      "sub": "Dejá bajar",
+      "vo": "Al terminar, dejá que el peso baje solo, soltá la manija y alejate de la polea sin apuro.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "to": "MEDIO",
+          "at": 0.8,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "SIN APURO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "MEDIO",
+    "zoom": 1.0,
+    "dy": 60
+  },
+  "youtube": {
+    "titulo": "Cable Incline Pushdown 🔥 Tríceps recostado | Brazos",
+    "tags": [
+      "cable incline pushdown",
+      "extension triceps inclinado",
+      "triceps polea",
+      "triceps",
+      "brazos",
+      "poleas"
+    ],
+    "descripcion": "🔥 CABLE INCLINE PUSHDOWN (extensión de tríceps inclinado en polea) — tríceps\n\nRecostado, el tríceps trabaja desde atrás de la cabeza sin que el torso ayude. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Ajustá el banco a 45 grados.\n2️⃣ Poné las poleas altas y agarrá las manijas.\n\n📋 PASO A PASO\n1️⃣ Recostado en el banco inclinado.\n2️⃣ Codos flexionados y manos atrás.\n3️⃣ Estirá los brazos al frente.\n4️⃣ Apretá el tríceps arriba.\n5️⃣ Volvé lento atrás.\n\n❌ ERRORES COMUNES\n• Abrir los codos → codos juntos.\n• Levantarse del banco → espalda apoyada.\n• Doblar la muñeca → muñeca firme.\n\n💡 TIPS DEL PROFE\n• Codos juntos y quietos.\n• Espalda apoyada.\n• Estirá del todo.\n\n🎯 QUÉ TRABAJA\nBrazos → Tríceps → Pectorales\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto de pausa. Nivel: intermedio.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Triceps #ExtensionTriceps #Poleas #Brazos #Fuerza #Entrenamiento"
+  }
+}

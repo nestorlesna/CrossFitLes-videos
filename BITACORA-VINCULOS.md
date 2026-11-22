@@ -5,7 +5,7 @@ el **link en la descripción** y el campo **Vídeo relacionado** de YouTube Stud
 **Contenido alterado por IA:** todos los videos de esta bitácora (cortos y largos) tienen marcado «Sí» en *Uso de IA* de YouTube Studio. Revisión del 2026-11-16: 149 videos anteriores corregidos y los de ese día ya salen marcados (los videos nuevos lo marcan al subirse).
 Datos en `vinculos.csv` (lo escribe `node plantilla/vincular.mjs`; no editar a mano).
 
-**Corto → largo:** 33 · **Largo → corto:** 88 · Filas: 246
+**Corto → largo:** 33 · **Largo → corto:** 88 · Filas: 342
 
 | Ejercicio | Largo (Daniela) | Corto | Corto apunta al largo | Largo apunta al corto | Fecha | Nota |
 |---|---|---|---|---|---|---|
@@ -222,34 +222,130 @@ Datos en `vinculos.csv` (lo escribe `node plantilla/vincular.mjs`; no editar a m
 | machine-lateral-raise | [DDHoIKvEZDc](https://youtu.be/DDHoIKvEZDc) | [14KHJf_FN_A](https://youtu.be/14KHJf_FN_A) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
 | machine-preacher-curl | — | [8RI4nH62FWs](https://youtu.be/8RI4nH62FWs) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
 | machine-shoulder-press | [-uqaEVE0sWQ](https://youtu.be/-uqaEVE0sWQ) | [UQjOknp-BZY](https://youtu.be/UQjOknp-BZY) | pendiente | pendiente | 2026-11-19 | vinculacion diferida |
+| march-in-place | [PHWkDN4Znoo](https://youtu.be/PHWkDN4Znoo) | [WSK3xcrkF_I](https://youtu.be/WSK3xcrkF_I) | pendiente | ⬜ | 2026-11-21 |  |
+| med-ball-box-step-over | — | [SREJDsY_ekk](https://youtu.be/SREJDsY_ekk) | pendiente | ⬜ | 2026-11-21 |  |
+| mountain-climbers | — | [bkLDgMAvRfU](https://youtu.be/bkLDgMAvRfU) | pendiente | ⬜ | 2026-11-21 |  |
+| multi-hip-machine | — | [tHTqI2VoljA](https://youtu.be/tHTqI2VoljA) | pendiente | ⬜ | 2026-11-21 |  |
+| multi-press-machine | — | [UhOGYaIR3b0](https://youtu.be/UhOGYaIR3b0) | pendiente | ⬜ | 2026-11-21 |  |
+| negative-push-up | — | [EoMJ2He3aLI](https://youtu.be/EoMJ2He3aLI) | pendiente | ⬜ | 2026-11-21 |  |
+| nordic-hamstring-curl | — | [bv4MIs-DiBM](https://youtu.be/bv4MIs-DiBM) | pendiente | ⬜ | 2026-11-21 |  |
 | oblique-crunch | [mEZ9KoARYeE](https://youtu.be/mEZ9KoARYeE) | [ON8WgmzUIq0](https://youtu.be/ON8WgmzUIq0) | pendiente | ✅ | 2026-11-10 |  |
+| overhead-squat | — | [Kk5yPZyPVpI](https://youtu.be/Kk5yPZyPVpI) | pendiente | ⬜ | 2026-11-21 |  |
 | overhead-triceps-stretch | [41rifhpbkh4](https://youtu.be/41rifhpbkh4) | [flM4AK4QWhE](https://youtu.be/flM4AK4QWhE) | ✅ | ✅ | 2026-11-06 | Vinculados |
+| partner-wall-ball-over-bar | [YO4jZjnQWko](https://youtu.be/YO4jZjnQWko) | [8YeUpC0JkME](https://youtu.be/8YeUpC0JkME) | pendiente | ⬜ | 2026-11-21 |  |
+| partner-wall-ball-sit-up | [cPXQ015vnfQ](https://youtu.be/cPXQ015vnfQ) | [lH07lZMS6SU](https://youtu.be/lH07lZMS6SU) | pendiente | ⬜ | 2026-11-21 |  |
+| pec-deck-fly | [6szOuU9wJ5w](https://youtu.be/6szOuU9wJ5w) | [eZnmo-Dj0lU](https://youtu.be/eZnmo-Dj0lU) | pendiente | ⬜ | 2026-11-21 |  |
+| pendulum-squat | [QPwKdr-iqsU](https://youtu.be/QPwKdr-iqsU) | [hyKXk8wlD2E](https://youtu.be/hyKXk8wlD2E) | pendiente | ⬜ | 2026-11-21 |  |
 | pigeon-pose | [4O6YbbmBtKQ](https://youtu.be/4O6YbbmBtKQ) | [s3kI7Rj-N0Y](https://youtu.be/s3kI7Rj-N0Y) | ✅ | ✅ | 2026-11-06 | Cortos y largos vinculados (descripción + vídeo relacionado) |
+| pigeon-rotation | — | [SP8vaCc3Yoo](https://youtu.be/SP8vaCc3Yoo) | pendiente | ⬜ | 2026-11-21 |  |
+| pike-hold | — | [8ozTU66Mz18](https://youtu.be/8ozTU66Mz18) | pendiente | ⬜ | 2026-11-21 |  |
+| pike-walk | — | [rja4fwPun8c](https://youtu.be/rja4fwPun8c) | pendiente | ⬜ | 2026-11-21 |  |
+| plank-hold | [0_b0Sm36Rns](https://youtu.be/0_b0Sm36Rns) | [GHYOm2fZKS4](https://youtu.be/GHYOm2fZKS4) | pendiente | ⬜ | 2026-11-21 |  |
+| plank-knee-tap | — | [ToP-4FvHK6s](https://youtu.be/ToP-4FvHK6s) | pendiente | ⬜ | 2026-11-21 |  |
+| plank-shoulder-taps | — | [PGMgyTeq_vY](https://youtu.be/PGMgyTeq_vY) | pendiente | ⬜ | 2026-11-21 |  |
+| plank-to-opposite-toe-touch | [Ix1iKRYMg80](https://youtu.be/Ix1iKRYMg80) | [aMgCKVmfVDc](https://youtu.be/aMgCKVmfVDc) | pendiente | ⬜ | 2026-11-21 |  |
+| plank-up-down | [CClPHsPVAEI](https://youtu.be/CClPHsPVAEI) | [RZHHmTT0mYc](https://youtu.be/RZHHmTT0mYc) | pendiente | ⬜ | 2026-11-21 |  |
+| plate-jump-over-and-squat | — | [JFhH9Qd3QrA](https://youtu.be/JFhH9Qd3QrA) | pendiente | ⬜ | 2026-11-21 |  |
+| power-clean | [MoEDdC9OqDY](https://youtu.be/MoEDdC9OqDY) | [emIOlqYeQvk](https://youtu.be/emIOlqYeQvk) | pendiente | ⬜ | 2026-11-21 |  |
+| prone-around-the-world | [AIEUakgGHn4](https://youtu.be/AIEUakgGHn4) | [vSUjOrzAyVI](https://youtu.be/vSUjOrzAyVI) | pendiente | ⬜ | 2026-11-21 |  |
 | push-press-behind-the-neck | [qV_0AEbhkks](https://youtu.be/qV_0AEbhkks) | [dVzE2ywXY_c](https://youtu.be/dVzE2ywXY_c) | pendiente | ✅ | 2026-11-10 |  |
+| quadruped-rock-back | — | [vwKpXT9djHQ](https://youtu.be/vwKpXT9djHQ) | pendiente | ⬜ | 2026-11-21 |  |
+| quadruped-thoracic-rotation | — | [BtSvRnPSlyQ](https://youtu.be/BtSvRnPSlyQ) | pendiente | ⬜ | 2026-11-21 |  |
+| reach-up-crunch | — | [sXBzMmK4xL4](https://youtu.be/sXBzMmK4xL4) | pendiente | ⬜ | 2026-11-21 |  |
+| reverse-snow-angels | — | [RQfflhGV-YA](https://youtu.be/RQfflhGV-YA) | pendiente | ⬜ | 2026-11-21 |  |
+| ring-dip | [_X0ZtbFF1O8](https://youtu.be/_X0ZtbFF1O8) | [lMqQ21oK0d4](https://youtu.be/lMqQ21oK0d4) | pendiente | ⬜ | 2026-11-21 |  |
+| ring-handstand-push-up | [iTe8X_kOawo](https://youtu.be/iTe8X_kOawo) | [v7NS4RBodHs](https://youtu.be/v7NS4RBodHs) | pendiente | ⬜ | 2026-11-21 |  |
+| ring-row | [zVvcFDvObUo](https://youtu.be/zVvcFDvObUo) | [gVl4KhaZaPg](https://youtu.be/gVl4KhaZaPg) | pendiente | ⬜ | 2026-11-21 |  |
+| ring-strict-muscle-up | [fp6FgIYpKKQ](https://youtu.be/fp6FgIYpKKQ) | [CaLSvcHu99A](https://youtu.be/CaLSvcHu99A) | pendiente | ⬜ | 2026-11-21 |  |
 | rope-climb | [BNZGSeFRmis](https://youtu.be/BNZGSeFRmis) | [9CCwGfPB_QE](https://youtu.be/9CCwGfPB_QE) | pendiente | ✅ | 2026-11-10 |  |
 | rowing | [nEF63sYn7AQ](https://youtu.be/nEF63sYn7AQ) | [StOEr65CD8w](https://youtu.be/StOEr65CD8w) | ✅ | ✅ | 2026-11-06 | Cortos y largos vinculados (descripción + vídeo relacionado) |
+| rowing-machine | [QJe4wwjcZbk](https://youtu.be/QJe4wwjcZbk) | [Ud6zIv40EuE](https://youtu.be/Ud6zIv40EuE) | pendiente | ⬜ | 2026-11-21 |  |
 | running | [zDi_f_UMKPI](https://youtu.be/zDi_f_UMKPI) | [fgxHzg3KtVU](https://youtu.be/fgxHzg3KtVU) | ✅ | ✅ | 2026-11-06 | Cortos y largos vinculados (descripción + vídeo relacionado) |
 | russian-twist | [SMf_etzcFYY](https://youtu.be/SMf_etzcFYY) | [U-P0U1SoQRU](https://youtu.be/U-P0U1SoQRU) | pendiente | ✅ | 2026-11-07 | largo programado |
+| sally-up-sally-down | — | [LWxVLgnImts](https://youtu.be/LWxVLgnImts) | pendiente | ⬜ | 2026-11-21 |  |
+| sandbag-carry | [z2gWVwfJYvY](https://youtu.be/z2gWVwfJYvY) | [__Ujy19CiG0](https://youtu.be/__Ujy19CiG0) | pendiente | ⬜ | 2026-11-21 |  |
+| sandbag-walking-lunges | [tmUPvXQoPy4](https://youtu.be/tmUPvXQoPy4) | [7t_GtCkxrO8](https://youtu.be/7t_GtCkxrO8) | pendiente | ⬜ | 2026-11-21 |  |
+| scapular-plank-hold | — | [esXNbVpEW0I](https://youtu.be/esXNbVpEW0I) | pendiente | ⬜ | 2026-11-21 |  |
 | scapular-push-up | [8aTVRhRq-q0](https://youtu.be/8aTVRhRq-q0) | [ePh7xz0Nlos](https://youtu.be/ePh7xz0Nlos) | pendiente | ✅ | 2026-11-09 | largo no está en YouTube |
+| scapular-wall-slides | [IPvFil-3vzs](https://youtu.be/IPvFil-3vzs) | [-tfX1OQVyaI](https://youtu.be/-tfX1OQVyaI) | pendiente | ⬜ | 2026-11-21 |  |
+| seated-cable-row | [C_gWDLjxYE0](https://youtu.be/C_gWDLjxYE0) | [51sB_nWewN0](https://youtu.be/51sB_nWewN0) | pendiente | ⬜ | 2026-11-21 |  |
+| seated-calf-raise-machine | [hOanzGjDUaI](https://youtu.be/hOanzGjDUaI) | [OQcpqJKOC6U](https://youtu.be/OQcpqJKOC6U) | pendiente | ⬜ | 2026-11-21 |  |
+| seated-dip-machine | — | [G9xGnjN-hrQ](https://youtu.be/G9xGnjN-hrQ) | pendiente | ⬜ | 2026-11-21 |  |
 | seated-forward-fold | [xhFf7RvGcyg](https://youtu.be/xhFf7RvGcyg) | [axyASO-RWXk](https://youtu.be/axyASO-RWXk) | pendiente | ✅ | 2026-11-06 | largo programado: falta Vídeo relacionado en el corto cuando el largo sea público (link en descripción ya está) |
+| seated-leg-compression | — | [O0YfAiZ-33k](https://youtu.be/O0YfAiZ-33k) | pendiente | ⬜ | 2026-11-21 |  |
+| seated-leg-curl | [0vRNf3jI5I4](https://youtu.be/0vRNf3jI5I4) | [cBOKyFHjCfw](https://youtu.be/cBOKyFHjCfw) | pendiente | ⬜ | 2026-11-21 |  |
+| seated-leg-tucks | — | [2CVrppEWmlw](https://youtu.be/2CVrppEWmlw) | pendiente | ⬜ | 2026-11-21 |  |
 | seated-quad-stretch | [w6RdGXynqWI](https://youtu.be/w6RdGXynqWI) | [6or8pO9waqA](https://youtu.be/6or8pO9waqA) | pendiente | ✅ | 2026-11-06 | largo programado: falta Vídeo relacionado en el corto cuando el largo sea público (link en descripción ya está) |
+| shadow-boxing | — | [BTV_R2DSp6M](https://youtu.be/BTV_R2DSp6M) | pendiente | ⬜ | 2026-11-21 |  |
+| shoulder-press | — | [r2c7VXc7O08](https://youtu.be/r2c7VXc7O08) | pendiente | ⬜ | 2026-11-21 |  |
 | shuttle-run | [EXqchRL6ok4](https://youtu.be/EXqchRL6ok4) | [sKjlsoE2ETQ](https://youtu.be/sKjlsoE2ETQ) | pendiente | ✅ | 2026-11-09 | largo no está en YouTube |
+| side-lying-thoracic-opening | [MXrQ-3cYJqk](https://youtu.be/MXrQ-3cYJqk) | [72KI4IZVKRY](https://youtu.be/72KI4IZVKRY) | pendiente | ⬜ | 2026-11-21 |  |
+| side-plank | — | [zXixhinzTXA](https://youtu.be/zXixhinzTXA) | pendiente | ⬜ | 2026-11-21 |  |
+| single-arm-dumbbell-push-press | — | [9R02wIh3oEI](https://youtu.be/9R02wIh3oEI) | pendiente | ⬜ | 2026-11-21 |  |
 | single-leg-calf-raise | [o0OEAf7fCbI](https://youtu.be/o0OEAf7fCbI) | [3xcok2-AEbc](https://youtu.be/3xcok2-AEbc) | pendiente | ✅ | 2026-11-10 |  |
+| single-leg-dumbbell-romanian-deadlift | — | [FEKVJoVjFrA](https://youtu.be/FEKVJoVjFrA) | pendiente | ⬜ | 2026-11-21 |  |
+| single-leg-pallof-press | — | [CfDQsbm0hs0](https://youtu.be/CfDQsbm0hs0) | pendiente | ⬜ | 2026-11-21 |  |
+| single-leg-toes-to-bar | [9ikbXIV4Tj8](https://youtu.be/9ikbXIV4Tj8) | [CfFeWEmqyUw](https://youtu.be/CfFeWEmqyUw) | pendiente | ⬜ | 2026-11-22 |  |
+| single-leg-v-up | — | [aqMb6jqh9SA](https://youtu.be/aqMb6jqh9SA) | pendiente | ⬜ | 2026-11-22 |  |
+| single-leg-wall-sit | — | [7kR6hAQPSGg](https://youtu.be/7kR6hAQPSGg) | pendiente | ⬜ | 2026-11-22 |  |
+| skater-jump | [i1hWBQUR_8w](https://youtu.be/i1hWBQUR_8w) | [gUkcTYE8K5o](https://youtu.be/gUkcTYE8K5o) | pendiente | ⬜ | 2026-11-22 |  |
 | skierg | [u33JaYJDA04](https://youtu.be/u33JaYJDA04) | [cM5Hi-Wf0C0](https://youtu.be/cM5Hi-Wf0C0) | pendiente | ✅ | 2026-11-09 | largo no está en YouTube |
+| sled-pull | [319K_2ayVG8](https://youtu.be/319K_2ayVG8) | [oW0BhMBcNu4](https://youtu.be/oW0BhMBcNu4) | pendiente | ⬜ | 2026-11-22 |  |
 | sled-push | [CVlaikiAHjw](https://youtu.be/CVlaikiAHjw) | [UwnfdWU9Usg](https://youtu.be/UwnfdWU9Usg) | ✅ | ✅ | 2026-11-15 |  |
 | sled-push-pull | [c3oOCioMYuk](https://youtu.be/c3oOCioMYuk) | [lcDqPkNl6xI](https://youtu.be/lcDqPkNl6xI) | pendiente | ✅ | 2026-11-07 | largo programado |
+| smith-machine-bench-press | [JcU2L2D2QtQ](https://youtu.be/JcU2L2D2QtQ) | [AJmjQWFTGbo](https://youtu.be/AJmjQWFTGbo) | pendiente | ⬜ | 2026-11-22 |  |
+| smith-machine-squat | — | [UGJaco_xUmQ](https://youtu.be/UGJaco_xUmQ) | pendiente | ⬜ | 2026-11-22 |  |
+| snatch | — | [Y_P5n0ge5Rg](https://youtu.be/Y_P5n0ge5Rg) | pendiente | ⬜ | 2026-11-22 |  |
+| snatch-grip-deadlift | [zgpLwCptzoI](https://youtu.be/zgpLwCptzoI) | [USP5k2aWXCE](https://youtu.be/USP5k2aWXCE) | pendiente | ⬜ | 2026-11-22 |  |
 | snatch-high-pull | [1YqbSqiWs8Q](https://youtu.be/1YqbSqiWs8Q) | [nYa9FrGmWe4](https://youtu.be/nYa9FrGmWe4) | pendiente | ✅ | 2026-11-07 | largo programado |
+| snatch-with-pause-at-knee | — | [egblQ_-ohww](https://youtu.be/egblQ_-ohww) | pendiente | ⬜ | 2026-11-22 |  |
+| spiderman-stretch-rotation | [IbNsbf7GCHk](https://youtu.be/IbNsbf7GCHk) | [Kwk8fB8evF4](https://youtu.be/Kwk8fB8evF4) | pendiente | ⬜ | 2026-11-22 |  |
+| split-squat-calf-raise | — | [8K2Wgi3lAIs](https://youtu.be/8K2Wgi3lAIs) | pendiente | ⬜ | 2026-11-22 |  |
+| sprint-in-place | — | [KdsFNvIEHo4](https://youtu.be/KdsFNvIEHo4) | pendiente | ⬜ | 2026-11-22 |  |
+| squat-jump-to-plate | [ZHZrUGQbp-c](https://youtu.be/ZHZrUGQbp-c) | [JCdnFZCIR74](https://youtu.be/JCdnFZCIR74) | pendiente | ⬜ | 2026-11-22 |  |
+| squat-press-out | [MhYF_Lhw-FQ](https://youtu.be/MhYF_Lhw-FQ) | [tOkLX5fG8Uk](https://youtu.be/tOkLX5fG8Uk) | pendiente | ⬜ | 2026-11-22 |  |
 | squat-thoracic-rotation | [2tCeGqVlN5E](https://youtu.be/2tCeGqVlN5E) | [nZsFBvDky0M](https://youtu.be/nZsFBvDky0M) | pendiente | ✅ | 2026-11-09 | largo no está en YouTube |
 | squat-to-stand | [rognkqgRrqM](https://youtu.be/rognkqgRrqM) | [9LxVm7AX5kQ](https://youtu.be/9LxVm7AX5kQ) | ✅ | ✅ | 2026-11-06 | Cortos y largos vinculados (descripción + vídeo relacionado) |
+| squat-to-toe-raise | — | [xtOwD2TmyZY](https://youtu.be/xtOwD2TmyZY) | pendiente | ⬜ | 2026-11-22 |  |
+| stability-ball-plate-crunch | [vdTmJgkRDxg](https://youtu.be/vdTmJgkRDxg) | [rznK3nLuov8](https://youtu.be/rznK3nLuov8) | pendiente | ⬜ | 2026-11-22 |  |
+| stair-climber | [tRk7kI9gXHY](https://youtu.be/tRk7kI9gXHY) | [vASbs6YGXcA](https://youtu.be/vASbs6YGXcA) | pendiente | ⬜ | 2026-11-22 |  |
 | standing-biceps-stretch | [GxmlOiwUfN8](https://youtu.be/GxmlOiwUfN8) | [4ECz6yYNwMo](https://youtu.be/4ECz6yYNwMo) | pendiente | ✅ | 2026-11-09 | largo no está en YouTube |
+| standing-calf-raise-machine | [gSvTBLq46hM](https://youtu.be/gSvTBLq46hM) | [3ZU_Kqh5eR8](https://youtu.be/3ZU_Kqh5eR8) | pendiente | ⬜ | 2026-11-22 |  |
+| standing-cross-crunch | [af-znhrttng](https://youtu.be/af-znhrttng) | [8jYNQBvbD18](https://youtu.be/8jYNQBvbD18) | pendiente | ⬜ | 2026-11-22 |  |
+| standing-hamstring-stretch | [2J2HlRek2fU](https://youtu.be/2J2HlRek2fU) | [04uwH5r6BO8](https://youtu.be/04uwH5r6BO8) | pendiente | ⬜ | 2026-11-22 |  |
+| standing-knees-to-elbow | [9UGBuUIv4YA](https://youtu.be/9UGBuUIv4YA) | [Eg-OMkrOgpg](https://youtu.be/Eg-OMkrOgpg) | pendiente | ⬜ | 2026-11-22 |  |
+| standing-quad-stretch | [qXxT5BA05dQ](https://youtu.be/qXxT5BA05dQ) | [95GBfWtdcWE](https://youtu.be/95GBfWtdcWE) | pendiente | ⬜ | 2026-11-22 |  |
+| stationary-bike | [9gJPphaphL0](https://youtu.be/9gJPphaphL0) | [O3Icdi9zqBM](https://youtu.be/O3Icdi9zqBM) | pendiente | ⬜ | 2026-11-22 |  |
 | step-jack | [rqHuS8Y2OyA](https://youtu.be/rqHuS8Y2OyA) | [8F9CHbCZwMQ](https://youtu.be/8F9CHbCZwMQ) | pendiente | ✅ | 2026-11-10 |  |
+| strict-knees-to-elbows | [4tEQHK3C0-Q](https://youtu.be/4tEQHK3C0-Q) | [S57s7G32-gc](https://youtu.be/S57s7G32-gc) | pendiente | ⬜ | 2026-11-22 |  |
+| superband-shoulder-dislocates | — | [WGWfgTUGL6k](https://youtu.be/WGWfgTUGL6k) | pendiente | ⬜ | 2026-11-22 |  |
+| superman-hold | [U4tLt7kJEQE](https://youtu.be/U4tLt7kJEQE) | [Qv3wjfo5yKo](https://youtu.be/Qv3wjfo5yKo) | pendiente | ⬜ | 2026-11-22 |  |
+| supinated-band-pull-apart | — | [t3RE6maZbvo](https://youtu.be/t3RE6maZbvo) | pendiente | ⬜ | 2026-11-22 |  |
 | supine-abdominal-stretch | [Q1Y4gTliGvg](https://youtu.be/Q1Y4gTliGvg) | [SL0AP7npMWE](https://youtu.be/SL0AP7npMWE) | pendiente | ✅ | 2026-11-09 | largo no está en YouTube |
+| supine-figure-4-stretch | [om2LBlCVY4Q](https://youtu.be/om2LBlCVY4Q) | [DIOKGYNCj5Q](https://youtu.be/DIOKGYNCj5Q) | pendiente | ⬜ | 2026-11-22 |  |
 | supine-spinal-twist | [pmikAsyIpFU](https://youtu.be/pmikAsyIpFU) | [6x-JDY9b6S0](https://youtu.be/6x-JDY9b6S0) | ✅ | ✅ | 2026-11-06 | Vinculados |
+| tempo-push-up | — | [MZGOhesaEzA](https://youtu.be/MZGOhesaEzA) | pendiente | ⬜ | 2026-11-22 |  |
+| tempo-squat-3-1-3 | — | [TP7N3qPWGmY](https://youtu.be/TP7N3qPWGmY) | pendiente | ⬜ | 2026-11-22 |  |
+| tibialis-raise | [fXWdHOrmzmE](https://youtu.be/fXWdHOrmzmE) | [wlPOU_ygytk](https://youtu.be/wlPOU_ygytk) | pendiente | ⬜ | 2026-11-22 |  |
+| toe-touch-crunch | — | [D5CGLHyCYvA](https://youtu.be/D5CGLHyCYvA) | pendiente | ⬜ | 2026-11-22 |  |
+| toe-touch-sit-up | [hvdGWObB4mQ](https://youtu.be/hvdGWObB4mQ) | [czc4xI_xb38](https://youtu.be/czc4xI_xb38) | pendiente | ⬜ | 2026-11-22 |  |
+| towel-isometric-curl | — | [sSkgDiw0Fb0](https://youtu.be/sSkgDiw0Fb0) | pendiente | ⬜ | 2026-11-22 |  |
+| towel-isometric-row | — | [yKA4rXftVvM](https://youtu.be/yKA4rXftVvM) | pendiente | ⬜ | 2026-11-22 |  |
+| treadmill | [37-gXrymQEE](https://youtu.be/37-gXrymQEE) | [ziECTZawNYQ](https://youtu.be/ziECTZawNYQ) | pendiente | ⬜ | 2026-11-22 |  |
+| upward-to-downward-dog | [Jrth-OZmx4o](https://youtu.be/Jrth-OZmx4o) | [g8jbRQA0jiI](https://youtu.be/g8jbRQA0jiI) | pendiente | ⬜ | 2026-11-22 |  |
 | v-up | [fJOjpza8GLg](https://youtu.be/fJOjpza8GLg) | [hTh1C1fFyT8](https://youtu.be/hTh1C1fFyT8) | pendiente | ✅ | 2026-11-15 | descripción con link |
+| walking | [kLvCLZ-sHZU](https://youtu.be/kLvCLZ-sHZU) | [czAoAjimkeA](https://youtu.be/czAoAjimkeA) | pendiente | ⬜ | 2026-11-22 |  |
+| walking-lunge | — | [LLmFrNaFhFQ](https://youtu.be/LLmFrNaFhFQ) | pendiente | ⬜ | 2026-11-22 |  |
+| wall-ball-box-over | [uLPh_vpZTM0](https://youtu.be/uLPh_vpZTM0) | [cgjlp8n5HIM](https://youtu.be/cgjlp8n5HIM) | pendiente | ⬜ | 2026-11-22 |  |
+| wall-ball-run | [OhXA7QrrFI8](https://youtu.be/OhXA7QrrFI8) | [iqe-qV1IUYo](https://youtu.be/iqe-qV1IUYo) | pendiente | ⬜ | 2026-11-22 |  |
 | wall-ball-shot | — | [m-q8jlR4lhw](https://youtu.be/m-q8jlR4lhw) | pendiente | pendiente | 2026-11-06 | largo no está en YouTube |
 | wall-lat-stretch | [P9NXcWuJ8pw](https://youtu.be/P9NXcWuJ8pw) | [jilYOSZPIek](https://youtu.be/jilYOSZPIek) | pendiente | ✅ | 2026-11-10 |  |
 | wall-shoulder-car | [woHBBtB45uc](https://youtu.be/woHBBtB45uc) | [yKJ2nV60MxA](https://youtu.be/yKJ2nV60MxA) | pendiente | ✅ | 2026-11-10 |  |
+| wall-shoulder-external-rotation | — | [OUz45G6PwiE](https://youtu.be/OUz45G6PwiE) | pendiente | ⬜ | 2026-11-22 |  |
 | wall-shoulder-stretch | [ZsrI7ayIGdE](https://youtu.be/ZsrI7ayIGdE) | [iVi9XAmb68k](https://youtu.be/iVi9XAmb68k) | pendiente | ✅ | 2026-11-15 | descripción con link |
+| wall-sit | [uYJtEDEVyXw](https://youtu.be/uYJtEDEVyXw) | [pbFn1UW0PzA](https://youtu.be/pbFn1UW0PzA) | pendiente | ⬜ | 2026-11-22 |  |
+| wall-sit-with-leg-extension | — | [qwxYdV7cEus](https://youtu.be/qwxYdV7cEus) | pendiente | ⬜ | 2026-11-22 |  |
+| wall-squat-hold | — | [8uNFcVeMAsg](https://youtu.be/8uNFcVeMAsg) | pendiente | ⬜ | 2026-11-22 |  |
 | wall-thoracic-extensions | [t1orADsBLHQ](https://youtu.be/t1orADsBLHQ) | [AH-hQqgo5p0](https://youtu.be/AH-hQqgo5p0) | pendiente | ✅ | 2026-11-10 |  |
 | weighted-lunge | [l_CC5oTsjSQ](https://youtu.be/l_CC5oTsjSQ) | [WYdcdeQV2i4](https://youtu.be/WYdcdeQV2i4) | pendiente | ✅ | 2026-11-15 | descripción con link |
 | wide-negative-push-up | [sC4SP_E4hmM](https://youtu.be/sC4SP_E4hmM) | [Pj4VTg_qeAA](https://youtu.be/Pj4VTg_qeAA) | pendiente | ✅ | 2026-11-10 |  |

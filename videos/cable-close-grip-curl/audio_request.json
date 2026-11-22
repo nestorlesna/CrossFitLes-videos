@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Cable Close Grip Curl",
+      "text": "Curl de bíceps en polea baja con las manos juntas en la barra."
+    },
+    {
+      "id": "02",
+      "text": "La polea sube y baja por el riel y la pila de discos da la resistencia. La perilla elige el peso."
+    },
+    {
+      "id": "03",
+      "text": "Poné la polea baja, con la barra a la altura de la cadera y un paso atrás para tensar el cable."
+    },
+    {
+      "id": "04",
+      "text": "Agarre supino con las manos juntas al centro de la barra y los codos pegados al costado."
+    },
+    {
+      "id": "05",
+      "text": "De pie, pies al ancho de hombros, la barra a la cadera y los codos pegados al costado."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Flexioná los codos y subí la barra al pecho, sin separar los codos del cuerpo."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Arriba, apretá el bíceps un segundo con la barra cerca del pecho."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá la barra lento hasta estirar los brazos, sin dejar que el peso te gane."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire en el esfuerzo y tomá aire al volver. No aguantes la respiración todo el recorrido."
+    },
+    {
+      "id": "10",
+      "text": "Error: adelantar los codos para subir. Los codos quedan fijos al costado."
+    },
+    {
+      "id": "11",
+      "text": "Error: balancear el cuerpo para levantar. El torso queda quieto."
+    },
+    {
+      "id": "12",
+      "text": "Error: encoger los hombros. Los hombros quedan abajo y el cuello largo."
+    },
+    {
+      "id": "13",
+      "text": "Tips: codos pegados al costado, manos juntas, apretá arriba y bajá lento."
+    },
+    {
+      "id": "14",
+      "text": "Claves: polea baja, agarre cerrado, codos fijos y barra al pecho."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce repeticiones, con un minuto de pausa."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, dejá que el peso baje solo, soltá la manija y alejate de la polea sin apuro."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

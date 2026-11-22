@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Cable Incline Bench Press",
+      "text": "Press de pecho en banco inclinado con poleas bajas."
+    },
+    {
+      "id": "02",
+      "text": "La polea sube y baja por el riel y la pila de discos da la resistencia. La perilla elige el peso."
+    },
+    {
+      "id": "03",
+      "text": "Ajustá el banco a unos cuarenta y cinco grados y ubicalo entre las dos poleas bajas."
+    },
+    {
+      "id": "04",
+      "text": "Poné las poleas bajas a los costados del banco, a la altura del pecho acostado."
+    },
+    {
+      "id": "05",
+      "text": "Recostado en el banco inclinado, la espalda apoyada y las manos a la altura del pecho."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Empujá las dos manijas arriba y adelante hasta estirar los brazos, con los codos abajo."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Arriba, pausá un segundo con los brazos estirados y el pecho bien abierto."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá lento hasta el pecho, con los codos a unos cuarenta y cinco grados del torso."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire en el esfuerzo y tomá aire al volver. No aguantes la respiración todo el recorrido."
+    },
+    {
+      "id": "10",
+      "text": "Error: quedarse a mitad de camino. Estirá del todo y bajá hasta el pecho."
+    },
+    {
+      "id": "11",
+      "text": "Error: sacar la cabeza y el cuello del banco. La nuca queda apoyada."
+    },
+    {
+      "id": "12",
+      "text": "Error: levantar la cola para empujar. La cadera queda abajo, sobre el banco."
+    },
+    {
+      "id": "13",
+      "text": "Tips: codos a cuarenta y cinco grados, recorrido completo, nuca apoyada y cadera abajo."
+    },
+    {
+      "id": "14",
+      "text": "Claves: banco a cuarenta y cinco grados, poleas bajas, recorrido completo y codos a cuarenta y cinco."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce repeticiones, con un minuto y medio de pausa."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, dejá que el peso baje solo, soltá la manija y alejate de la polea sin apuro."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

@@ -157,7 +157,7 @@ FRONT_P = {
 
 BENCH_FLAT = {"type": "bench", "x0": -380, "x1": 120, "h": 200}
 BENCH_SEAT = {"type": "bench", "x0": -480, "x1": -140, "h": 200}
-BENCH_DECL = {"type": "bench", "x0": -380, "x1": 80, "h": 300, "tilt": -15, "pivot": [80, -266]}
+BENCH_DECL = {"type": "bench", "x0": -320, "x1": 140, "h": 300, "tilt": -15, "pivot": [140, -266]}
 
 
 def cable_r(pulley, top=-1150, att="handle", stack=620, **k):
@@ -168,14 +168,14 @@ def cable_r(pulley, top=-1150, att="handle", stack=620, **k):
 
 for clave, nombre, category, tags, rig_, props, poses, initial, descripcion in [
         ("cable-alternate-shoulder-press", "Cable Alternate Shoulder Press", "GIMNASIO · HOMBROS",
-         ["Deltoides anterior", "Deltoides lateral", "Tríceps"], rig(470, 0.78),
-         [{"type": "cablecrossover", "x": -420, "top": -1340, "pulley": [-300, -1250], "pin": 4}],
+         ["Deltoides anterior", "Deltoides lateral", "Tríceps"], rig(480, 0.78),
+         [{"type": "cablecrossover", "x": 430, "top": -1300, "pulley": [500, -1200], "pin": 4}],
          ALT_P, "ABAJO",
          ("Press de hombros alterno en poleas: de pie, una mano sube por encima de la cabeza mientras la otra "
           "queda a la altura del hombro. El cable mantiene la tensión y el cambio de mano es lento y controlado.")),
         ("cable-alternate-triceps-extension", "Cable Alternate Triceps Extension", "GIMNASIO · BRAZOS",
-         ["Tríceps", "Deltoides posterior"], rig(600, 0.72),
-         [cable_r([-260, -1250], top=-1400, stack=-400)],
+         ["Tríceps"], rig(560, 0.72),
+         [cable_r([450, -1080], top=-1150, stack=560)],
          TRI_P, "START",
          ("Extensión de tríceps alterna en polea: el codo queda alto y quieto y el antebrazo sale de atrás de la "
           "cabeza hasta estirar el brazo. La otra mano cruza y sujeta el tríceps que trabaja.")),
@@ -216,14 +216,14 @@ for clave, nombre, category, tags, rig_, props, poses, initial, descripcion in [
          ("Peso muerto en polea baja: la cadera va atrás, la espalda queda recta y el peso sube pegado a las "
           "piernas. Empuja con los talones y termina parado, sin tirar con la espalda.")),
         ("cable-decline-one-arm-press", "Cable Decline One Arm Press", "GIMNASIO · PECHO",
-         ["Pectorales", "Tríceps", "Deltoides anterior"], rig(560, 0.72),
-         [BENCH_DECL, cable_r([-400, -140], top=-900, stack=-520)],
+         ["Pectorales", "Tríceps", "Deltoides anterior"], rig(620, 0.72),
+         [BENCH_DECL, cable_r([-340, -140], top=-900, stack=-460)],
          DECL1_P, "ARRIBA",
          ("Press declinado a una mano en polea: la polea baja queda atrás de la cabeza y el brazo empuja hacia "
           "arriba, con el codo cerca del torso. Una mano trabaja y la otra descansa en el pecho.")),
         ("cable-decline-press", "Cable Decline Press", "GIMNASIO · PECHO",
-         ["Pectorales", "Tríceps", "Deltoides anterior"], rig(560, 0.72),
-         [BENCH_DECL, {"type": "cablecrossover", "x": -520, "top": -700, "pulley": [-400, -140], "pin": 5}],
+         ["Pectorales", "Tríceps", "Deltoides anterior"], rig(620, 0.72),
+         [BENCH_DECL, {"type": "cablecrossover", "x": -460, "top": -700, "pulley": [-340, -140], "pin": 5}],
          DECL2_P, "ARRIBA",
          ("Press declinado en poleas: tumbado en el banco declinado con las poleas bajas atrás de la cabeza. "
           "Las dos manos empujan hacia arriba hasta estirar los brazos y bajan controladas.")),

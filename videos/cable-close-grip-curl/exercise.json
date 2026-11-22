@@ -1,0 +1,800 @@
+{
+  "slug": "cable-close-grip-curl",
+  "name": "Cable Close Grip Curl",
+  "maquina": true,
+  "category": "GIMNASIO · BRAZOS",
+  "tags": [
+    "Bíceps",
+    "Braquial",
+    "Antebrazos"
+  ],
+  "descripcion": "Curl de bíceps con agarre cerrado en polea baja: las manos juntas a la barra y los codos pegados al costado. La barra sube al pecho sin que los codos se adelanten.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 480,
+    "y": 1506.8,
+    "scale": 0.74
+  },
+  "shadow": false,
+  "initialPose": "ABAJO",
+  "props": [
+    {
+      "type": "cable",
+      "x": 620,
+      "top": -1150,
+      "pulley": [
+        500,
+        -120
+      ],
+      "track": 500,
+      "att": "bar",
+      "pin": 5
+    }
+  ],
+  "poses": {
+    "ABAJO": {
+      "hip": [
+        -10,
+        -450
+      ],
+      "ankle": [
+        70,
+        0
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "ft": 0,
+      "ft2": 12,
+      "b": 4,
+      "hd": 2,
+      "g": 0,
+      "ua": 4,
+      "fa": 10
+    },
+    "MEDIO": {
+      "hip": [
+        -10,
+        -450
+      ],
+      "ankle": [
+        70,
+        0
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "ft": 0,
+      "ft2": 12,
+      "b": 3,
+      "hd": 1,
+      "g": 0,
+      "ua": 5,
+      "fa": 62
+    },
+    "ARRIBA": {
+      "hip": [
+        -10,
+        -450
+      ],
+      "ankle": [
+        70,
+        0
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "ft": 0,
+      "ft2": 12,
+      "b": 2,
+      "hd": 0,
+      "g": 0,
+      "ua": 6,
+      "fa": 118
+    },
+    "CODO_BAD": {
+      "hip": [
+        -10,
+        -450
+      ],
+      "ankle": [
+        70,
+        0
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "ft": 0,
+      "ft2": 12,
+      "b": 2,
+      "hd": 0,
+      "g": 0,
+      "ua": 34,
+      "fa": 96
+    },
+    "SWING_BAD": {
+      "hip": [
+        -10,
+        -450
+      ],
+      "ankle": [
+        70,
+        0
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "ft": 0,
+      "ft2": 12,
+      "b": -18,
+      "hd": -10,
+      "g": 0,
+      "ua": 22,
+      "fa": 104,
+      "rx": -14
+    },
+    "HOMBRO_BAD": {
+      "hip": [
+        -10,
+        -450
+      ],
+      "ankle": [
+        70,
+        0
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "ft": 0,
+      "ft2": 12,
+      "b": 2,
+      "hd": 0,
+      "g": 0,
+      "ua": 6,
+      "fa": 118,
+      "sh": 30
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · BRAZOS",
+      "head": [
+        "CURL",
+        "CERRADO"
+      ],
+      "sub": "Manos juntas",
+      "vo": "Cable Close Grip Curl: curl de bíceps en polea baja con las manos juntas en la barra.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ARRIBA",
+              1.2
+            ],
+            [
+              "ABAJO",
+              1.4
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "POLEA",
+        "Y PILA"
+      ],
+      "sub": "Polea y pila",
+      "vo": "La polea sube y baja por el riel y la pila de discos da la resistencia. La perilla elige el peso.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            850,
+            1418
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "POLEA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            939,
+            1263
+          ],
+          "r": 70,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            880
+          ],
+          "text": "PILA DE PESO",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "POLEA",
+        "BAJA"
+      ],
+      "sub": "Barra al piso",
+      "vo": "Poné la polea baja, con la barra a la altura de la cadera y un paso atrás para tensar el cable.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            872,
+            1418
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "POLEA BAJA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "AGARRE",
+        "CERRADO"
+      ],
+      "sub": "Manos juntas",
+      "vo": "Agarre supino con las manos juntas al centro de la barra y los codos pegados al costado.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            939,
+            1263
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "AGARRE CERRADO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE PIE",
+        "FIRME"
+      ],
+      "sub": "Codos al costado",
+      "vo": "De pie, pies al ancho de hombros, la barra a la cadera y los codos pegados al costado.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            480,
+            943
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "CODOS AL COSTADO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SUBÍ",
+        "AL PECHO"
+      ],
+      "sub": "Codos fijos",
+      "vo": "Paso uno. Flexioná los codos y subí la barra al pecho, sin separar los codos del cuerpo.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        },
+        {
+          "to": "ARRIBA",
+          "at": 0.4,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            591,
+            1027
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BARRA AL PECHO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ARRIBA",
+        "PAUSA"
+      ],
+      "sub": "Bíceps duro",
+      "vo": "Paso dos. Arriba, apretá el bíceps un segundo con la barra cerca del pecho.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "to": "ARRIBA",
+          "at": 0.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            496,
+            1094
+          ],
+          "r": 52,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "APRETÁ EL BÍCEPS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "LENTO"
+      ],
+      "sub": "Sin soltar",
+      "vo": "Paso tres. Bajá la barra lento hasta estirar los brazos, sin dejar que el peso te gane.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "to": "ABAJO",
+          "at": 0.4,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            525,
+            1209
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BAJÁ CONTROLADO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Respirá parejo",
+      "vo": "Soltá el aire en el esfuerzo y tomá aire al volver. No aguantes la respiración todo el recorrido.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ABAJO",
+              1.2
+            ],
+            [
+              "ARRIBA",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "CODOS",
+        "ADELANTE"
+      ],
+      "sub": "Codos quietos",
+      "vo": "Error: adelantar los codos para subir. Los codos quedan fijos al costado.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        },
+        {
+          "to": "CODO_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            642,
+            996
+          ],
+          "r": 52,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "CUERPO",
+        "BALANCEA"
+      ],
+      "sub": "Sin envión",
+      "vo": "Error: balancear el cuerpo para levantar. El torso queda quieto.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        },
+        {
+          "to": "SWING_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            552,
+            1025
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "HOMBROS",
+        "ARRIBA"
+      ],
+      "sub": "Hombros abajo",
+      "vo": "Error: encoger los hombros. Los hombros quedan abajo y el cuello largo.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        },
+        {
+          "to": "HOMBRO_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            591,
+            1005
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Codos pegados",
+        "Manos juntas",
+        "Apretá arriba",
+        "Bajá lento"
+      ],
+      "vo": "Tips: codos pegados al costado, manos juntas, apretá arriba y bajá lento.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ABAJO",
+              1.2
+            ],
+            [
+              "ARRIBA",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Polea baja",
+        "Agarre cerrado",
+        "Codos fijos",
+        "Barra al pecho"
+      ],
+      "vo": "Claves: polea baja, agarre cerrado, codos fijos y barra al pecho.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10–12"
+      ],
+      "sub": "Bíceps",
+      "vo": "Tres series de diez a doce repeticiones, con un minuto de pausa.",
+      "chips": [
+        {
+          "label": "1 · TIRÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · PAUSÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ARRIBA",
+              1.2
+            ],
+            [
+              "ABAJO",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "SOLTÁ",
+        "EL PESO"
+      ],
+      "sub": "Dejá bajar",
+      "vo": "Al terminar, dejá que el peso baje solo, soltá la manija y alejate de la polea sin apuro.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "to": "MEDIO",
+          "at": 0.8,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "SIN APURO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "ARRIBA",
+    "zoom": 1.0,
+    "dy": 40
+  },
+  "youtube": {
+    "titulo": "Cable Close Grip Curl 🔥 Curl en polea | Bíceps",
+    "tags": [
+      "cable close grip curl",
+      "curl agarre cerrado",
+      "curl polea baja",
+      "biceps",
+      "brazos",
+      "gimnasio"
+    ],
+    "descripcion": "🔥 CABLE CLOSE GRIP CURL (curl de bíceps con agarre cerrado en polea) — bíceps y antebrazos\n\nLas manos juntas en el centro de la barra cargan más el bíceps y el braquial. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Poné la polea baja y la barra a la altura de la cadera.\n2️⃣ Agarre supino con las manos juntas.\n\n📋 PASO A PASO\n1️⃣ De pie, la barra a la cadera y los codos al costado.\n2️⃣ Subí la barra al pecho sin mover los codos.\n3️⃣ Apretá el bíceps arriba.\n4️⃣ Bajá lento hasta estirar los brazos.\n5️⃣ Repetí sin balancear el torso.\n\n❌ ERRORES COMUNES\n• Adelantar los codos → codos fijos.\n• Balancear el cuerpo → torso quieto.\n• Encoger los hombros → hombros abajo.\n\n💡 TIPS DEL PROFE\n• Codos pegados al costado.\n• Barra al pecho.\n• Bajada lenta.\n\n🎯 QUÉ TRABAJA\nBrazos → Bíceps → Braquial → Antebrazos\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Biceps #Brazos #Curl #Poleas #Fuerza #Entrenamiento"
+  }
+}

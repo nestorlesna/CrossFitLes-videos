@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Cable Concentration Curl",
+      "text": "Curl concentrado sentado, con el codo apoyado en el muslo."
+    },
+    {
+      "id": "02",
+      "text": "La polea sube y baja por el riel y la pila de discos da la resistencia. La perilla elige el peso."
+    },
+    {
+      "id": "03",
+      "text": "Polea baja y un banco cerca: sentate al borde con los pies firmes y el cable bien tenso."
+    },
+    {
+      "id": "04",
+      "text": "Apoyá el codo en la cara interna del muslo, cerca de la rodilla, y no lo muevas de ahí."
+    },
+    {
+      "id": "05",
+      "text": "Sentado, la espalda derecha y el hombro bajo. La mano arranca abajo, con el brazo estirado."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Subí la mano hacia el hombro doblando el codo, sin mover el brazo de apoyo."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Arriba, apretá el bíceps un segundo y sentí cómo se contrae del todo."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá lento hasta estirar el brazo del todo, sin soltar la tensión."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire en el esfuerzo y tomá aire al volver. No aguantes la respiración todo el recorrido."
+    },
+    {
+      "id": "10",
+      "text": "Error: levantar el codo del muslo. El codo queda apoyado y quieto."
+    },
+    {
+      "id": "11",
+      "text": "Error: redondear la espalda. El pecho arriba y la espalda derecha."
+    },
+    {
+      "id": "12",
+      "text": "Error: balancear el torso para subir. El cuerpo queda quieto, solo trabaja el brazo."
+    },
+    {
+      "id": "13",
+      "text": "Tips: codo apoyado en el muslo, espalda derecha, apretá arriba y estirá abajo."
+    },
+    {
+      "id": "14",
+      "text": "Claves: sentado firme, codo al muslo, mano al hombro y sin balanceo."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de diez a doce repeticiones por brazo, con un minuto de pausa."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, dejá que el peso baje solo, soltá la manija y alejate de la polea sin apuro."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

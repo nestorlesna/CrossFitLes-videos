@@ -125,11 +125,11 @@ CFG.append(dict(CABLE, slug="cable-alternate-shoulder-press", poses=("ARRIBA", "
     hashtags="#Gimnasio #Hombros #Deltoides #Poleas #PressMilitar #Fuerza #Entrenamiento",
     yt_titulo="Cable Alternate Shoulder Press 🔥 Press alterno | Hombros",
     yt_tags=["cable alternate shoulder press", "press hombros polea", "press alterno", "deltoides", "hombros", "poleas", "gimnasio"],
-    thumb={"pose": "ARRIBA", "zoom": 1.05, "dy": 40}))
+    thumb={"pose": "ARRIBA", "zoom": 1.0, "dy": 40}))
 
 CFG.append(dict(CABLE, slug="cable-alternate-triceps-extension", poses=("TOP", "MID", "START"),
     reps="3 X 10–12", reps_chips=["1 · ESTIRÁ", "2 · PAUSÁ", "3 · VOLVÉ"],
-    zone="GIMNASIO · BRAZOS", hook=["TRÍCEPS", "ALTERNO"], sub="Codo alto y quieto",
+    zone="GIMNASIO · BRAZOS", hook=["TRÍCEPS", "ALTERNO"], sub="Codo quieto",
     hook_vo="Cable Alternate Triceps Extension: extensión de tríceps alterna en polea, con el codo alto y quieto.",
     a1_badge=["POLEA", "ALTA"], a1_tag="Arriba de la cabeza",
     a1_vo="Subí la polea bien arriba: el cable tiene que venir de arriba y atrás de la cabeza.",
@@ -166,7 +166,7 @@ CFG.append(dict(CABLE, slug="cable-alternate-triceps-extension", poses=("TOP", "
     hashtags="#Gimnasio #Triceps #Brazos #Poleas #Extension #Fuerza #Entrenamiento",
     yt_titulo="Cable Alternate Triceps Extension 🔥 Tríceps | Polea alta",
     yt_tags=["cable triceps extension", "extension triceps polea", "triceps alterno", "triceps", "brazos", "polea alta"],
-    thumb={"pose": "TOP", "zoom": 1.05, "dy": 40}))
+    thumb={"pose": "TOP", "zoom": 1.0, "dy": 40}))
 
 CFG.append(dict(CABLE, slug="cable-assisted-inverse-leg-curl", poses=("ABAJO", "MEDIO", "ARRIBA"),
     reps="3 X 12–15", reps_chips=["1 · TALÓN", "2 · APRETÁ", "3 · BAJÁ"],
@@ -207,7 +207,7 @@ CFG.append(dict(CABLE, slug="cable-assisted-inverse-leg-curl", poses=("ABAJO", "
     hashtags="#Gimnasio #Femoral #Isquiotibiales #Gluteos #Piernas #Poleas #Entrenamiento",
     yt_titulo="Cable Leg Curl 🔥 Curl femoral de pie | Polea y tobillera",
     yt_tags=["cable leg curl", "curl femoral polea", "curl femoral de pie", "isquiotibiales", "femoral", "gluteos", "polea"],
-    thumb={"pose": "ARRIBA", "zoom": 1.05, "dy": 120}))
+    thumb={"pose": "ARRIBA", "zoom": 1.0, "dy": 120}))
 
 CFG.append(dict(CABLE, slug="cable-bench-press", poses=("ARRIBA", "MEDIO", "ABAJO"),
     zone="GIMNASIO · PECHO", hook=["PRESS", "EN POLEA"], sub="Acostado y firme",
@@ -247,7 +247,7 @@ CFG.append(dict(CABLE, slug="cable-bench-press", poses=("ARRIBA", "MEDIO", "ABAJ
     hashtags="#Gimnasio #Pecho #PressBanca #Poleas #Pectorales #Triceps #Entrenamiento",
     yt_titulo="Cable Bench Press 🔥 Press de banca en polea | Pecho",
     yt_tags=["cable bench press", "press banca polea", "press pecho poleas", "pectorales", "pecho", "triceps"],
-    thumb={"pose": "ARRIBA", "zoom": 1.05, "dy": 120}))
+    thumb={"pose": "ARRIBA", "zoom": 1.0, "dy": 120}))
 
 CFG.append(dict(CABLE, slug="cable-close-grip-curl", poses=("ARRIBA", "MEDIO", "ABAJO"),
     zone="GIMNASIO · BRAZOS", hook=["CURL", "CERRADO"], sub="Manos juntas",
@@ -287,7 +287,7 @@ CFG.append(dict(CABLE, slug="cable-close-grip-curl", poses=("ARRIBA", "MEDIO", "
     hashtags="#Gimnasio #Biceps #Brazos #Curl #Poleas #Fuerza #Entrenamiento",
     yt_titulo="Cable Close Grip Curl 🔥 Curl en polea | Bíceps",
     yt_tags=["cable close grip curl", "curl agarre cerrado", "curl polea baja", "biceps", "brazos", "gimnasio"],
-    thumb={"pose": "ARRIBA", "zoom": 1.05, "dy": 40}))
+    thumb={"pose": "ARRIBA", "zoom": 1.0, "dy": 40}))
 
 CFG.append(dict(CABLE, slug="cable-concentration-curl", poses=("ARRIBA", "MEDIO", "ABAJO"),
     zone="GIMNASIO · BRAZOS", hook=["CURL", "CONCENTRADO"], sub="Codo en el muslo",
@@ -327,7 +327,7 @@ CFG.append(dict(CABLE, slug="cable-concentration-curl", poses=("ARRIBA", "MEDIO"
     hashtags="#Gimnasio #Biceps #CurlConcentrado #Brazos #Poleas #Fuerza #Entrenamiento",
     yt_titulo="Cable Concentration Curl 🔥 Curl concentrado | Bíceps",
     yt_tags=["cable concentration curl", "curl concentrado", "curl sentado polea", "biceps", "brazos", "gimnasio"],
-    thumb={"pose": "ARRIBA", "zoom": 1.05, "dy": 60}))
+    thumb={"pose": "ARRIBA", "zoom": 1.0, "dy": 60}))
 
 CFG.append(dict(CABLE, slug="cable-concentration-extension-on-knee", poses=("ABAJO", "MEDIO", "ARRIBA"),
     reps="3 X 10–12", reps_chips=["1 · ESTIRÁ", "2 · APRETÁ", "3 · VOLVÉ"],
@@ -368,7 +368,7 @@ CFG.append(dict(CABLE, slug="cable-concentration-extension-on-knee", poses=("ABA
     hashtags="#Gimnasio #Triceps #Brazos #Poleas #Extension #Fuerza #Entrenamiento",
     yt_titulo="Cable Triceps Extension 🔥 Codo en la rodilla | Tríceps",
     yt_tags=["cable concentration extension", "extension triceps rodilla", "triceps polea", "triceps", "brazos", "gimnasio"],
-    thumb={"pose": "ARRIBA", "zoom": 1.05, "dy": 100}))
+    thumb={"pose": "ARRIBA", "zoom": 1.0, "dy": 100}))
 
 CFG.append(dict(CABLE, slug="cable-deadlift", poses=("ARRIBA", "MEDIO", "ABAJO"),
     reps="3 X 8–12", reps_chips=["1 · CADERA", "2 · SUBÍ", "3 · APRETÁ"],
@@ -409,7 +409,7 @@ CFG.append(dict(CABLE, slug="cable-deadlift", poses=("ARRIBA", "MEDIO", "ABAJO")
     hashtags="#Gimnasio #PesoMuerto #Gluteos #Femoral #Piernas #Poleas #Entrenamiento",
     yt_titulo="Cable Deadlift 🔥 Peso muerto en polea | Glúteos y femoral",
     yt_tags=["cable deadlift", "peso muerto polea", "peso muerto cable", "gluteos", "femoral", "piernas"],
-    thumb={"pose": "MEDIO", "zoom": 1.05, "dy": 40}))
+    thumb={"pose": "MEDIO", "zoom": 1.0, "dy": 40}))
 
 CFG.append(dict(CABLE, slug="cable-decline-one-arm-press", poses=("ARRIBA", "MEDIO", "ABAJO"),
     reps="3 X 8–12", reps_chips=["1 · BAJÁ", "2 · EMPUJÁ", "3 · CAMBIÁ"],
@@ -450,7 +450,7 @@ CFG.append(dict(CABLE, slug="cable-decline-one-arm-press", poses=("ARRIBA", "MED
     hashtags="#Gimnasio #Pecho #PressDeclinado #Poleas #Pectorales #Triceps #Entrenamiento",
     yt_titulo="Cable Decline One Arm Press 🔥 Pecho bajo | Una mano",
     yt_tags=["cable decline press", "press declinado polea", "press una mano", "pecho inferior", "pectorales", "triceps"],
-    thumb={"pose": "ARRIBA", "zoom": 1.05, "dy": 100}))
+    thumb={"pose": "ARRIBA", "zoom": 1.0, "dy": 100}))
 
 CFG.append(dict(CABLE, slug="cable-decline-press", poses=("ARRIBA", "MEDIO", "ABAJO"),
     zone="GIMNASIO · PECHO", hook=["DECLINADO", "POLEAS"], sub="Dos manos",
@@ -490,7 +490,7 @@ CFG.append(dict(CABLE, slug="cable-decline-press", poses=("ARRIBA", "MEDIO", "AB
     hashtags="#Gimnasio #Pecho #PressDeclinado #Poleas #Pectorales #Triceps #Entrenamiento",
     yt_titulo="Cable Decline Press 🔥 Press declinado en poleas | Pecho bajo",
     yt_tags=["cable decline press", "press declinado poleas", "press declinado cable", "pecho inferior", "pectorales", "triceps"],
-    thumb={"pose": "ARRIBA", "zoom": 1.05, "dy": 100}))
+    thumb={"pose": "ARRIBA", "zoom": 1.0, "dy": 100}))
 
 CFG.append(dict(CABLE, slug="cable-drag-curl", poses=("ARRIBA", "MEDIO", "ABAJO"),
     zone="GIMNASIO · BRAZOS", hook=["CURL", "ARRASTRE"], sub="Barra pegada",
@@ -530,7 +530,7 @@ CFG.append(dict(CABLE, slug="cable-drag-curl", poses=("ARRIBA", "MEDIO", "ABAJO"
     hashtags="#Gimnasio #Biceps #CurlArrastre #Brazos #Poleas #Fuerza #Entrenamiento",
     yt_titulo="Cable Drag Curl 🔥 Curl de arrastre | Bíceps",
     yt_tags=["cable drag curl", "curl arrastre", "curl polea", "biceps", "braquial", "brazos"],
-    thumb={"pose": "ARRIBA", "zoom": 1.1, "dy": 40}))
+    thumb={"pose": "ARRIBA", "zoom": 1.0, "dy": 40}))
 
 CFG.append(dict(CABLE, slug="cable-forward-raise", poses=("ARRIBA", "MEDIO", "ABAJO"),
     reps="3 X 12–15", reps_chips=["1 · SUBÍ", "2 · PAUSÁ", "3 · BAJÁ"],
@@ -571,7 +571,7 @@ CFG.append(dict(CABLE, slug="cable-forward-raise", poses=("ARRIBA", "MEDIO", "AB
     hashtags="#Gimnasio #Hombros #Deltoides #ElevacionFrontal #Poleas #Fuerza #Entrenamiento",
     yt_titulo="Cable Forward Raise 🔥 Elevación frontal | Hombros",
     yt_tags=["cable forward raise", "elevacion frontal polea", "elevacion frontal cable", "deltoides anterior", "hombros", "gimnasio"],
-    thumb={"pose": "ARRIBA", "zoom": 1.05, "dy": 40}))
+    thumb={"pose": "ARRIBA", "zoom": 1.0, "dy": 40}))
 
 
 for c in CFG:

@@ -1,0 +1,808 @@
+{
+  "slug": "cable-kickback",
+  "name": "Cable Kickback",
+  "maquina": true,
+  "category": "GIMNASIO · BRAZOS",
+  "tags": [
+    "Tríceps"
+  ],
+  "descripcion": "Patada de tríceps en polea baja: inclinado al frente, el codo queda alto y quieto y el antebrazo se estira atrás. El torso no se levanta y el codo no se despega del costado.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 520,
+    "y": 1507.5,
+    "scale": 0.72
+  },
+  "shadow": false,
+  "initialPose": "FLEX",
+  "props": [
+    {
+      "type": "cable",
+      "x": 580,
+      "top": -1150,
+      "pulley": [
+        520,
+        -130
+      ],
+      "track": 520,
+      "att": "handle",
+      "pin": 5
+    }
+  ],
+  "poses": {
+    "FLEX": {
+      "hip": [
+        -10,
+        -450
+      ],
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "ft": 0,
+      "ft2": 12,
+      "b": 54,
+      "hd": 48,
+      "g": 0,
+      "ua2": 2,
+      "fa2": 8,
+      "ua": 10,
+      "fa": 22
+    },
+    "MEDIO": {
+      "hip": [
+        -10,
+        -450
+      ],
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "ft": 0,
+      "ft2": 12,
+      "b": 54,
+      "hd": 48,
+      "g": 0,
+      "ua2": 2,
+      "fa2": 8,
+      "ua": -28,
+      "fa": 6
+    },
+    "EXT": {
+      "hip": [
+        -10,
+        -450
+      ],
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "ft": 0,
+      "ft2": 12,
+      "b": 54,
+      "hd": 48,
+      "g": 0,
+      "ua2": 2,
+      "fa2": 8,
+      "ua": -62,
+      "fa": 2
+    },
+    "CODO_BAD": {
+      "hip": [
+        -10,
+        -450
+      ],
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "ft": 0,
+      "ft2": 12,
+      "b": 54,
+      "hd": 48,
+      "g": 0,
+      "ua2": 2,
+      "fa2": 8,
+      "ua": 26,
+      "fa": -46
+    },
+    "IMPULSO_BAD": {
+      "hip": [
+        -10,
+        -450
+      ],
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "ft": 0,
+      "ft2": 12,
+      "b": 26,
+      "hd": 20,
+      "g": 0,
+      "ua2": 2,
+      "fa2": 8,
+      "ua": -62,
+      "fa": 2
+    },
+    "ESPALDA_BAD": {
+      "hip": [
+        -10,
+        -450
+      ],
+      "ankle": [
+        60,
+        0
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "ft": 0,
+      "ft2": 12,
+      "b": 78,
+      "hd": 64,
+      "g": 0,
+      "ua2": 2,
+      "fa2": 8,
+      "ua": -62,
+      "fa": 2
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · BRAZOS",
+      "head": [
+        "PATADA",
+        "DE TRÍCEPS"
+      ],
+      "sub": "Codo alto",
+      "vo": "Cable Kickback: patada de tríceps en polea baja, con el torso inclinado y el codo alto.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "EXT",
+              1.2
+            ],
+            [
+              "FLEX",
+              1.4
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "POLEA",
+        "Y PILA"
+      ],
+      "sub": "Polea y pila",
+      "vo": "La polea sube y baja por el riel y la pila de discos da la resistencia. La perilla elige el peso.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            894,
+            1414
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "POLEA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            938,
+            1270
+          ],
+          "r": 70,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            880
+          ],
+          "text": "PILA DE PESO",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "POLEA",
+        "BAJA"
+      ],
+      "sub": "Al frente",
+      "vo": "Poné la polea baja al frente y date un paso atrás, con el cable tenso.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            916,
+            1414
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "POLEA BAJA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "PESO",
+        "LIVIANO"
+      ],
+      "sub": "Codo alto",
+      "vo": "Peso liviano y el codo bien alto, pegado al costado. El movimiento es corto.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            938,
+            1270
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "PESO LIVIANO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "INCLINADO",
+        "FIRME"
+      ],
+      "sub": "Codo alto",
+      "vo": "Torso inclinado al frente, espalda recta, el codo alto y pegado al costado, mano a la altura del muslo.",
+      "moves": [
+        {
+          "cut": "FLEX",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            693,
+            1050
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "CODO ALTO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "ESTIRÁ",
+        "ATRÁS"
+      ],
+      "sub": "Codo fijo",
+      "vo": "Paso uno. Estirá el antebrazo atrás hasta que el brazo quede recto, sin mover el codo.",
+      "moves": [
+        {
+          "cut": "FLEX",
+          "at": 0
+        },
+        {
+          "to": "EXT",
+          "at": 0.4,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            467,
+            1181
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BRAZO ESTIRADO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ATRÁS",
+        "APRETÁ"
+      ],
+      "sub": "Un segundo",
+      "vo": "Paso dos. Atrás, apretá el tríceps un segundo con el brazo estirado y el hombro quieto.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "EXT",
+          "at": 0.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            697,
+            1187
+          ],
+          "r": 52,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "APRETÁ EL TRÍCEPS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "VOLVÉ",
+        "LENTO"
+      ],
+      "sub": "Sin bajar el codo",
+      "vo": "Paso tres. Volvé doblando el codo lento, sin bajarlo del costado ni levantarte.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "FLEX",
+          "at": 0.4,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            758,
+            1285
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "VOLVÉ DOBLANDO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Respirá parejo",
+      "vo": "Soltá el aire en el esfuerzo y tomá aire al volver. No aguantes la respiración todo el recorrido.",
+      "moves": [
+        {
+          "cut": "FLEX",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "FLEX",
+              1.2
+            ],
+            [
+              "EXT",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "CODO",
+        "ABAJO"
+      ],
+      "sub": "Codo alto",
+      "vo": "Error: bajar el codo al estirar. El codo queda alto y fijo, como un bisagra.",
+      "moves": [
+        {
+          "cut": "FLEX",
+          "at": 0
+        },
+        {
+          "to": "CODO_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            691,
+            1285
+          ],
+          "r": 52,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "TE",
+        "LEVANTÁS"
+      ],
+      "sub": "Torso quieto",
+      "vo": "Error: levantarte para empujar. El torso queda inclinado y quieto.",
+      "moves": [
+        {
+          "cut": "FLEX",
+          "at": 0
+        },
+        {
+          "to": "IMPULSO_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            392,
+            1118
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "ESPALDA",
+        "REDONDA"
+      ],
+      "sub": "Espalda recta",
+      "vo": "Error: redondear la espalda al inclinarte. La espalda queda recta y el pecho arriba.",
+      "moves": [
+        {
+          "cut": "FLEX",
+          "at": 0
+        },
+        {
+          "to": "ESPALDA_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            940,
+            660
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            501,
+            1257
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Codo alto",
+        "Espalda recta",
+        "Torso quieto",
+        "Estirá del todo"
+      ],
+      "vo": "Tips: codo alto, espalda recta, torso quieto y estirá el brazo del todo.",
+      "moves": [
+        {
+          "cut": "FLEX",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "FLEX",
+              1.2
+            ],
+            [
+              "EXT",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Polea baja",
+        "Inclinado",
+        "Codo alto",
+        "Movimiento corto"
+      ],
+      "vo": "Claves: polea baja, torso inclinado, codo alto y movimiento corto.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12–15"
+      ],
+      "sub": "Tríceps",
+      "vo": "Tres series de doce a quince repeticiones por brazo, con un minuto de pausa.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "EXT",
+              1.2
+            ],
+            [
+              "FLEX",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "SOLTÁ",
+        "EL PESO"
+      ],
+      "sub": "Dejá bajar",
+      "vo": "Al terminar, dejá que el peso baje solo, soltá la manija y alejate de la polea sin apuro.",
+      "moves": [
+        {
+          "cut": "EXT",
+          "at": 0
+        },
+        {
+          "to": "MEDIO",
+          "at": 0.8,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "SIN APURO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "EXT",
+    "zoom": 1.0,
+    "dy": 40
+  },
+  "youtube": {
+    "titulo": "Cable Kickback 🔥 Patada de tríceps | Brazos",
+    "tags": [
+      "cable kickback",
+      "patada triceps polea",
+      "kickback triceps",
+      "triceps",
+      "brazos",
+      "poleas"
+    ],
+    "descripcion": "🔥 CABLE KICKBACK (patada de tríceps en polea) — tríceps\n\nCon el codo alto y el torso inclinado, el tríceps se contrae en su punto más corto. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Poné la polea baja al frente.\n2️⃣ Date un paso atrás e inclinate con la espalda recta.\n\n📋 PASO A PASO\n1️⃣ Torso inclinado, codo alto y pegado al costado.\n2️⃣ Estirá el antebrazo atrás.\n3️⃣ Dejá el codo fijo.\n4️⃣ Apretá el tríceps atrás.\n5️⃣ Volvé doblando lento.\n\n❌ ERRORES COMUNES\n• Bajar el codo → codo alto.\n• Levantarse → torso quieto.\n• Espalda redonda → espalda recta.\n\n💡 TIPS DEL PROFE\n• Codo alto y fijo.\n• Espalda recta.\n• Estirá del todo.\n\n🎯 QUÉ TRABAJA\nBrazos → Tríceps\n\n⏱️ CUÁNTO\n3 series de 12–15 repeticiones por brazo, con 1 minuto de pausa. Nivel: principiante.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Triceps #PatadaTriceps #Poleas #Brazos #Fuerza #Entrenamiento"
+  }
+}
