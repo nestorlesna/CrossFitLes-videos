@@ -1,0 +1,792 @@
+{
+  "slug": "cable-lying-close-grip-curl",
+  "name": "Cable Lying Close-grip Curl",
+  "maquina": true,
+  "category": "GIMNASIO · BRAZOS",
+  "tags": [
+    "Bíceps",
+    "Antebrazos"
+  ],
+  "descripcion": "Curl de bíceps con agarre cerrado acostado en banco plano: las manos juntas curvan la barra al pecho sin despegar los codos del costado.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1508.9,
+    "scale": 0.68
+  },
+  "shadow": false,
+  "initialPose": "ESTIRA",
+  "props": [
+    {
+      "type": "bench",
+      "x0": -380,
+      "x1": 120,
+      "h": 200
+    },
+    {
+      "type": "cable",
+      "x": -700,
+      "top": -880,
+      "pulley": [
+        -620,
+        -140
+      ],
+      "track": -620,
+      "att": "bar",
+      "pin": 5
+    }
+  ],
+  "poses": {
+    "ESTIRA": {
+      "hip": [
+        -20,
+        -196
+      ],
+      "ankle": [
+        230,
+        0
+      ],
+      "b": -90,
+      "hd": -92,
+      "ft": 0,
+      "g": 0,
+      "ed": 1,
+      "ua2": 205,
+      "fa2": 2,
+      "ua": 205,
+      "fa": 2
+    },
+    "MEDIO": {
+      "hip": [
+        -20,
+        -196
+      ],
+      "ankle": [
+        230,
+        0
+      ],
+      "b": -90,
+      "hd": -92,
+      "ft": 0,
+      "g": 0,
+      "ed": 1,
+      "ua2": 205,
+      "fa2": -55,
+      "ua": 205,
+      "fa": -55
+    },
+    "ARRIBA": {
+      "hip": [
+        -20,
+        -196
+      ],
+      "ankle": [
+        230,
+        0
+      ],
+      "b": -90,
+      "hd": -92,
+      "ft": 0,
+      "g": 0,
+      "ed": 1,
+      "ua2": 205,
+      "fa2": -108,
+      "ua": 205,
+      "fa": -108
+    },
+    "CODO_BAD": {
+      "hip": [
+        -20,
+        -196
+      ],
+      "ankle": [
+        230,
+        0
+      ],
+      "b": -90,
+      "hd": -92,
+      "ft": 0,
+      "g": 0,
+      "ed": 1,
+      "ua2": 155,
+      "fa2": -34,
+      "ua": 155,
+      "fa": -34
+    },
+    "CADERA_BAD": {
+      "hip": [
+        -20,
+        -176
+      ],
+      "ankle": [
+        230,
+        0
+      ],
+      "b": -96,
+      "hd": -96,
+      "ft": 0,
+      "g": 0,
+      "ed": 1,
+      "ua2": 205,
+      "fa2": -108,
+      "ua": 205,
+      "fa": -108
+    },
+    "MUNECA_BAD": {
+      "hip": [
+        -20,
+        -196
+      ],
+      "ankle": [
+        230,
+        0
+      ],
+      "b": -90,
+      "hd": -92,
+      "ft": 0,
+      "g": 0,
+      "ed": 1,
+      "ua2": 205,
+      "fa2": -108,
+      "ua": 205,
+      "fa": -108,
+      "wr": 36
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · BRAZOS",
+      "head": [
+        "CURL",
+        "CERRADO"
+      ],
+      "sub": "Acostado en banco",
+      "vo": "Cable Lying Close-grip Curl: curl con agarre cerrado acostado en banco plano.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ARRIBA",
+              1.2
+            ],
+            [
+              "ESTIRA",
+              1.4
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "POLEA",
+        "Y PILA"
+      ],
+      "sub": "Polea y pila",
+      "vo": "La polea sube y baja por el riel y la pila de discos da la resistencia. La perilla elige el peso.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            178,
+            1414
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "POLEA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            124,
+            1414
+          ],
+          "r": 70,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            880
+          ],
+          "text": "PILA DE PESO",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "BANCO",
+        "PLANO"
+      ],
+      "sub": "Cabeza a la polea",
+      "vo": "Poné el banco plano con la cabeza hacia la polea y acostate boca arriba con los pies firmes.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            199,
+            1414
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BANCO PLANO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "AGARRE",
+        "CERRADO"
+      ],
+      "sub": "Manos juntas",
+      "vo": "Agarrá la barra con las palmas arriba y las manos bien juntas, más cerca que el ancho de hombros.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            124,
+            1414
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "MANOS JUNTAS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ACOSTADO",
+        "FIRME"
+      ],
+      "sub": "Brazos largos",
+      "vo": "Acostado, los brazos estirados atrás de la cabeza y las manos juntas en la barra.",
+      "moves": [
+        {
+          "cut": "ESTIRA",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            297,
+            1173
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BRAZOS LARGOS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "CURL",
+        "AL PECHO"
+      ],
+      "sub": "Codos quietos",
+      "vo": "Paso uno. Curvá la barra hacia el pecho con los codos fijos y las manos juntas.",
+      "moves": [
+        {
+          "cut": "ESTIRA",
+          "at": 0
+        },
+        {
+          "to": "ARRIBA",
+          "at": 0.4,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            455,
+            1256
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BARRA AL PECHO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ARRIBA",
+        "APRETÁ"
+      ],
+      "sub": "Codos al costado",
+      "vo": "Paso dos. Arriba, apretá el bíceps un segundo con los codos pegados al costado.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "to": "ARRIBA",
+          "at": 0.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            347,
+            1270
+          ],
+          "r": 52,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "APRETÁ EL BÍCEPS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "LENTO"
+      ],
+      "sub": "Muñeca firme",
+      "vo": "Paso tres. Bajá lento hasta estirar los brazos con la muñeca firme, sin doblarla.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "to": "ESTIRA",
+          "at": 0.4,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            297,
+            1173
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "ESTIRÁ LOS BRAZOS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Respirá parejo",
+      "vo": "Soltá el aire en el esfuerzo y tomá aire al volver. No aguantes la respiración todo el recorrido.",
+      "moves": [
+        {
+          "cut": "ESTIRA",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ESTIRA",
+              1.2
+            ],
+            [
+              "ARRIBA",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "CODOS",
+        "ADELANTE"
+      ],
+      "sub": "Codos quietos",
+      "vo": "Error: adelantar los codos hacia la barra. Los codos quedan fijos al costado.",
+      "moves": [
+        {
+          "cut": "ESTIRA",
+          "at": 0
+        },
+        {
+          "to": "CODO_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            240,
+            1240
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            539,
+            1214
+          ],
+          "r": 52,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "ESPALDA",
+        "ARQUEADA"
+      ],
+      "sub": "Espalda apoyada",
+      "vo": "Error: levantar la cadera del banco. La espalda y la cadera quedan apoyadas.",
+      "moves": [
+        {
+          "cut": "ESTIRA",
+          "at": 0
+        },
+        {
+          "to": "CADERA_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            240,
+            1240
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            456,
+            1290
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "MUÑECA",
+        "DOBLADA"
+      ],
+      "sub": "Muñeca firme",
+      "vo": "Error: doblar la muñeca al subir. La muñeca sigue la línea del antebrazo.",
+      "moves": [
+        {
+          "cut": "ESTIRA",
+          "at": 0
+        },
+        {
+          "to": "MUNECA_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            240,
+            1240
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            455,
+            1256
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Manos juntas",
+        "Codos fijos",
+        "Muñeca firme",
+        "Bajá lento"
+      ],
+      "vo": "Tips: manos juntas, codos fijos, muñeca firme y bajada lenta.",
+      "moves": [
+        {
+          "cut": "ESTIRA",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ESTIRA",
+              1.2
+            ],
+            [
+              "ARRIBA",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Banco plano",
+        "Agarre cerrado",
+        "Codos fijos",
+        "Sin despegar"
+      ],
+      "vo": "Claves: banco plano, agarre cerrado, codos fijos y sin despegar la espalda.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10–12"
+      ],
+      "sub": "Bíceps y antebrazos",
+      "vo": "Tres series de diez a doce repeticiones, con un minuto de pausa.",
+      "chips": [
+        {
+          "label": "1 · CURL",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ARRIBA",
+              1.2
+            ],
+            [
+              "ESTIRA",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "SOLTÁ",
+        "EL PESO"
+      ],
+      "sub": "Dejá bajar",
+      "vo": "Al terminar, dejá que el peso baje solo, soltá la manija y alejate de la polea sin apuro.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "to": "MEDIO",
+          "at": 0.8,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "SIN APURO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "MEDIO",
+    "zoom": 1.0,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Cable Close-grip Curl 🔥 Curl acostado | Brazos",
+    "tags": [
+      "cable close grip curl",
+      "curl cerrado polea",
+      "curl acostado",
+      "biceps",
+      "brazos",
+      "poleas"
+    ],
+    "descripcion": "🔥 CABLE LYING CLOSE-GRIP CURL (curl cerrado acostado en polea) — bíceps\n\nEl agarre cerrado pone el bíceps en su mejor ángulo y el cable carga parejo. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Poné el banco plano con la cabeza hacia la polea.\n2️⃣ Agarrá la barra con las manos juntas y las palmas arriba.\n\n📋 PASO A PASO\n1️⃣ Acostado, brazos estirados y manos juntas.\n2️⃣ Curvá la barra al pecho.\n3️⃣ Dejá los codos fijos.\n4️⃣ Apretá arriba.\n5️⃣ Bajá lento.\n\n❌ ERRORES COMUNES\n• Adelantar codos → codos quietos.\n• Levantar la cadera → espalda apoyada.\n• Doblar la muñeca → muñeca firme.\n\n💡 TIPS DEL PROFE\n• Manos juntas.\n• Codos fijos.\n• Bajá lento.\n\n🎯 QUÉ TRABAJA\nBrazos → Bíceps → Antebrazos\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto de pausa. Nivel: intermedio.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Biceps #CurlCerrado #Poleas #Brazos #Fuerza #Entrenamiento"
+  }
+}

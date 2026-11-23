@@ -2,6 +2,8 @@
 
 **Reglas nuevas (13/11):** a TikTok van **solo los videos comunes (`<slug>.mp4`), nunca los `.corto`**. Si el archivo trae prefijo (`OC_`, `OC_2_`…), **se sube con el nombre limpio `<slug>.mp4`** (copia temporal sin prefijo en `salida/_tiktok-tmp/`). Ritmo: **4 videos por día** (08:00, 13:30, 18:30, 21:00). Plan completo en `salida/subidos/plan-tiktok-2026-11-14.json`; en el registro, las filas «Plan 4/día (sin subir)» pasan a «Programado» cuando se suben.
 
+> **Borradores (2026-11-23):** subir un video por el flujo normal tarda más de 30 min, así que a veces se sube **como borrador** (sin publicar ni programar) para acelerar el trámite cuando el video ya está en YouTube; después se programa. Anotar siempre la fila con la nota «BORRADOR en TikTok (subido, sin publicar ni programar)»: el CHECKLIST (columna **TikTok**) la muestra como 📝. Mientras es borrador, el archivo queda en `salida/`; al programarlo pasa a `salida/subidos/EnTikTok/` y la nota cambia a «Programado». Filas «↻ RE-SUBIR» = hay una versión nueva (nombre en inglés) y la ya subida debe reemplazarse/borrarse en TikTok. Los videos ya no llevan prefijo `OC_`: el archivo es siempre `<slug>.mp4`.
+
 Por ahora la subida es **manual**. Después de 3 o 4 videos subidos (y de mirar sus números) se arma el plan automático con este documento como base.
 
 Cuenta: **dinouy.XXI@gmail.com** (ya logueada en el Chrome). Los videos pendientes están en `salida/subidos/EnYoutube/`; **después de subirlos a TikTok se mueven a `salida/subidos/EnTikTok/`**. Por cada video:
@@ -120,9 +122,9 @@ Completar a las 48 h con los números (vistas, % visto completo, guardados, comp
 
 | Fecha | Video | Sonido (a 0 %) | Vistas 48 h | % completo | Guardados | Compartidos | Seguidores | Notas |
 |---|---|---|---|---|---|---|---|---|
-| 2026-10-24 | general-stretching | uno de TikTok | | | | | | Primer video. Portada al 50 %, IA marcada, público |
-| 2026-10-25 | air-squat | uno de TikTok | | | | | | Fecha según el `.tiktok.txt`. Portada al 50 % |
-| 2026-10-26 | rowing | uno de TikTok | | | | | | Portada al 50 % |
+| 2026-10-24 | general-stretching | uno de TikTok | | | | | | ↻ RE-SUBIR (2026-11-23): nueva versión con el nombre en inglés (`<slug>.mp4`); la anterior (voz sin nombre en inglés) ya está en TikTok y en `repetidos/` |
+| 2026-10-25 | air-squat | uno de TikTok | | | | | | ↻ RE-SUBIR (2026-11-23): nueva versión con el nombre en inglés (`<slug>.mp4`); la anterior (voz sin nombre en inglés) ya está en TikTok y en `repetidos/` |
+| 2026-10-26 | rowing | uno de TikTok | | | | | | ↻ RE-SUBIR (2026-11-23): nueva versión con el nombre en inglés (`<slug>.mp4`); la anterior (voz sin nombre en inglés) ya está en TikTok y en `repetidos/` |
 | 2026-10-26 | barbell-hang-power-snatch | uno de TikTok | | | | | | Portada al 50 %. Crédito de voz doble (Daniela + Kokoro Heart) |
 | 2026-10-28 | barbell-good-morning | Sway on the Water, -∞ dB | | | | | | PRUEBA programada 08:25 (+1 h). Primera con referencia al canal FitLesUY. Receta en «Receta con Chrome» |
 | 2026-10-28 12:30 | 90-90-hip-rotation | primer sonido, -∞ dB | | | | | | Programado (tanda 28/10) |
@@ -238,7 +240,7 @@ Completar a las 48 h con los números (vistas, % visto completo, guardados, comp
 | 2026-11-29 13:30 | toe-touch-sit-up | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
 | 2026-11-29 18:30 | weighted-bird-dog | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
 | 2026-11-29 21:00 | weighted-plank | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
-| 2026-11-30 08:00 | kettlebell-windmill | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-11-30 08:00 | kettlebell-windmill | primer sonido, -∞ dB | | | | | | ↻ RE-SUBIR (2026-11-23): estaba «Programado» con la versión sin nombre en inglés; hay que reemplazarla en TikTok por `<slug>.mp4` (nueva). Plan 4/día (sin subir) |
 | 2026-11-30 13:30 | barbell-deadlift-to-knee-height | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
 | 2026-11-30 18:30 | deficit-banded-deadlift | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
 | 2026-11-30 21:00 | single-leg-toes-to-bar | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
@@ -248,17 +250,17 @@ Completar a las 48 h con los números (vistas, % visto completo, guardados, comp
 | 2026-12-01 21:00 | squat-jump-to-plate | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
 | 2026-12-02 08:00 | weighted-sit-up | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
 | 2026-12-02 13:30 | standing-hamstring-stretch | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
-| 2026-12-02 18:30 | weighted-side-plank | primer sonido, -∞ dB | | | | | | Programado (plan 4/día) |
+| 2026-12-02 18:30 | weighted-side-plank | primer sonido, -∞ dB | | | | | | ↻ RE-SUBIR (2026-11-23): estaba «Programado» con la versión sin nombre en inglés; hay que reemplazarla en TikTok por `<slug>.mp4` (nueva). Plan 4/día (sin subir) |
 | 2026-12-02 21:00 | dumbbell-bench-press | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
 | 2026-12-03 08:00 | standing-quad-stretch | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
 | 2026-12-03 13:30 | ankle-mobility-rock | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
 | 2026-12-03 18:30 | calf-raise-hold | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
-| 2026-12-03 21:00 | clamshell-hold | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
-| 2026-12-04 08:00 | core-overhead-hold-with-side-bend | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-03 21:00 | clamshell-hold | primer sonido, -∞ dB | | | | | | ↻ RE-SUBIR (2026-11-23): el BORRADOR de TikTok es la versión vieja; borrarlo y subir `<slug>.mp4` (nueva con nombre en inglés). Plan 4/día (sin subir) |
+| 2026-12-04 08:00 | core-overhead-hold-with-side-bend | primer sonido, -∞ dB | | | | | | ↻ RE-SUBIR (2026-11-23): el BORRADOR de TikTok es la versión vieja; borrarlo y subir `<slug>.mp4` (nueva con nombre en inglés). Plan 4/día (sin subir) |
 | 2026-12-04 13:30 | half-kneeling-hip-flexor-hamstring-dynamic-stretch | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
-| 2026-12-04 18:30 | half-kneeling-ankle-dorsiflexion-stretch | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
-| 2026-12-04 21:00 | half-kneeling-windmill-rotation-and-side-bend | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
-| 2026-12-05 08:00 | overhead-squat | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
+| 2026-12-04 18:30 | half-kneeling-ankle-dorsiflexion-stretch | primer sonido, -∞ dB | | | | | | ↻ RE-SUBIR (2026-11-23): el BORRADOR de TikTok es la versión vieja; borrarlo y subir `<slug>.mp4` (nueva con nombre en inglés). Plan 4/día (sin subir) |
+| 2026-12-04 21:00 | half-kneeling-windmill-rotation-and-side-bend | primer sonido, -∞ dB | | | | | | ↻ RE-SUBIR (2026-11-23): el BORRADOR de TikTok es la versión vieja; borrarlo y subir `<slug>.mp4` (nueva con nombre en inglés). Plan 4/día (sin subir) |
+| 2026-12-05 08:00 | overhead-squat | primer sonido, -∞ dB | | | | | | ↻ RE-SUBIR (2026-11-23): el BORRADOR de TikTok es la versión vieja; borrarlo y subir `<slug>.mp4` (nueva con nombre en inglés). Plan 4/día (sin subir) |
 | 2026-12-05 13:30 | pigeon-rotation | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
 | 2026-12-05 18:30 | quadruped-thoracic-rotation | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |
 | 2026-12-05 21:00 | single-leg-wall-sit | primer sonido, -∞ dB | | | | | | BORRADOR en TikTok (subido, sin publicar ni programar) |

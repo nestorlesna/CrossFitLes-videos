@@ -1,0 +1,815 @@
+{
+  "slug": "cable-one-arm-lateral-bent-over",
+  "name": "Cable One Arm Lateral Bent Over",
+  "maquina": true,
+  "category": "GIMNASIO · HOMBROS",
+  "tags": [
+    "Deltoides posterior",
+    "Trapecios",
+    "Romboides"
+  ],
+  "descripcion": "Elevación lateral inclinado a una mano: con el torso inclinado, el brazo casi estirado sube al costado hasta la altura del hombro. El torso no se levanta.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 500,
+    "y": 1507.5,
+    "scale": 0.72
+  },
+  "shadow": false,
+  "initialPose": "ABAJO",
+  "props": [
+    {
+      "type": "cable",
+      "x": -560,
+      "top": -880,
+      "pulley": [
+        -470,
+        -240
+      ],
+      "track": -470,
+      "att": "handle",
+      "pin": 5
+    }
+  ],
+  "poses": {
+    "ABAJO": {
+      "hip": [
+        -10,
+        -450
+      ],
+      "ankle": [
+        80,
+        0
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "ft": 0,
+      "ft2": 12,
+      "b": 48,
+      "hd": 44,
+      "g": 0,
+      "ua2": 2,
+      "fa2": 8,
+      "al": 0.35,
+      "ua": 8,
+      "fa": 10
+    },
+    "MEDIO": {
+      "hip": [
+        -10,
+        -450
+      ],
+      "ankle": [
+        80,
+        0
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "ft": 0,
+      "ft2": 12,
+      "b": 48,
+      "hd": 44,
+      "g": 0,
+      "ua2": 2,
+      "fa2": 8,
+      "al": 0.55,
+      "ua": -40,
+      "fa": 6
+    },
+    "ARRIBA": {
+      "hip": [
+        -10,
+        -450
+      ],
+      "ankle": [
+        80,
+        0
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "ft": 0,
+      "ft2": 12,
+      "b": 48,
+      "hd": 44,
+      "g": 0,
+      "ua2": 2,
+      "fa2": 8,
+      "al": 0.8,
+      "ua": -80,
+      "fa": 2
+    },
+    "CODO_BAD": {
+      "hip": [
+        -10,
+        -450
+      ],
+      "ankle": [
+        80,
+        0
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "ft": 0,
+      "ft2": 12,
+      "b": 48,
+      "hd": 44,
+      "g": 0,
+      "ua2": 2,
+      "fa2": 8,
+      "al": 0.8,
+      "ua": -70,
+      "fa": 50
+    },
+    "TORSO_BAD": {
+      "hip": [
+        -10,
+        -450
+      ],
+      "ankle": [
+        80,
+        0
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "ft": 0,
+      "ft2": 12,
+      "b": 4,
+      "hd": 2,
+      "g": 0,
+      "ua2": 2,
+      "fa2": 8,
+      "al": 0.8,
+      "ua": -80,
+      "fa": 2
+    },
+    "IMPULSO_BAD": {
+      "hip": [
+        -10,
+        -450
+      ],
+      "ankle": [
+        80,
+        0
+      ],
+      "ankle2": [
+        -60,
+        0
+      ],
+      "ft": 0,
+      "ft2": 12,
+      "b": 6,
+      "hd": 2,
+      "g": 0,
+      "ua2": 2,
+      "fa2": 8,
+      "al": 0.8,
+      "ua": -80,
+      "fa": 2
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · HOMBROS",
+      "head": [
+        "ELEVACIÓN",
+        "LATERAL"
+      ],
+      "sub": "Inclinado, una mano",
+      "vo": "Cable One Arm Lateral Bent Over: elevación lateral inclinado, una mano por vez en polea baja.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ARRIBA",
+              1.2
+            ],
+            [
+              "ABAJO",
+              1.4
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "POLEA",
+        "Y PILA"
+      ],
+      "sub": "Polea y pila",
+      "vo": "La polea sube y baja por el riel y la pila de discos da la resistencia. La perilla elige el peso.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            162,
+            1335
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "POLEA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            97,
+            1407
+          ],
+          "r": 70,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            880
+          ],
+          "text": "PILA DE PESO",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "POLEA",
+        "BAJA"
+      ],
+      "sub": "Al frente",
+      "vo": "Poné la polea bien baja, al frente, y parate con una manija en la mano y el torso inclinado.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            183,
+            1335
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "POLEA BAJA AL FRENTE",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "PESO",
+        "LIVIANO"
+      ],
+      "sub": "Codo blando",
+      "vo": "Peso liviano y el codo apenas flexionado. Es un movimiento corto: no hace falta cargar mucho.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            97,
+            1407
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "PESO LIVIANO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "INCLINADO",
+        "FIRME"
+      ],
+      "sub": "Brazo abajo",
+      "vo": "Torso inclinado al frente, la espalda recta y el brazo estirado abajo, frente al cuerpo.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            661,
+            1130
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BRAZO ABAJO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "SUBÍ",
+        "AL COSTADO"
+      ],
+      "sub": "Hasta el hombro",
+      "vo": "Paso uno. Subí el brazo estirado al costado hasta la altura del hombro, sin levantarte.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        },
+        {
+          "to": "ARRIBA",
+          "at": 0.4,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            455,
+            1085
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BRAZO AL COSTADO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ARRIBA",
+        "APRETÁ"
+      ],
+      "sub": "Hombro atrás",
+      "vo": "Paso dos. Arriba, apretá el hombro de atrás un segundo con el pulgar apuntando al piso.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "to": "ARRIBA",
+          "at": 0.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            545,
+            1066
+          ],
+          "r": 52,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "APRETÁ ATRÁS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "LENTO"
+      ],
+      "sub": "Sin redondear",
+      "vo": "Paso tres. Bajá lento resistiendo el cable, sin redondear la espalda ni levantarte.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "to": "ABAJO",
+          "at": 0.4,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            661,
+            1130
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BAJÁ LENTO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Respirá parejo",
+      "vo": "Soltá el aire en el esfuerzo y tomá aire al volver. No aguantes la respiración todo el recorrido.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ABAJO",
+              1.2
+            ],
+            [
+              "ARRIBA",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "CODO",
+        "DOBLADO"
+      ],
+      "sub": "Codo blando",
+      "vo": "Error: doblar el codo para subir. El brazo sube casi estirado.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        },
+        {
+          "to": "CODO_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            240,
+            1240
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            518,
+            1169
+          ],
+          "r": 52,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "TE",
+        "LEVANTÁS"
+      ],
+      "sub": "Torso quieto",
+      "vo": "Error: levantarte para ayudar al brazo. El torso queda inclinado y fijo.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        },
+        {
+          "to": "TORSO_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            240,
+            1240
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            319,
+            1019
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "IMPULSO",
+        "DE CADERA"
+      ],
+      "sub": "Sin envión",
+      "vo": "Error: dar un envión con la cadera. La cadera queda quieta todo el recorrido.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        },
+        {
+          "to": "IMPULSO_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            240,
+            1240
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            326,
+            1019
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Brazo estirado",
+        "Torso quieto",
+        "Hombro atrás",
+        "Bajá lento"
+      ],
+      "vo": "Tips: brazo casi estirado, torso quieto, hombro atrás y bajada lenta.",
+      "moves": [
+        {
+          "cut": "ABAJO",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ABAJO",
+              1.2
+            ],
+            [
+              "ARRIBA",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Polea baja",
+        "Inclinado",
+        "Una mano",
+        "Sin levantarse"
+      ],
+      "vo": "Claves: polea baja, inclinado, una mano y sin levantarse.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12–15"
+      ],
+      "sub": "Deltoides posterior",
+      "vo": "Tres series de doce a quince repeticiones por brazo, con un minuto de pausa.",
+      "chips": [
+        {
+          "label": "1 · SUBÍ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ARRIBA",
+              1.2
+            ],
+            [
+              "ABAJO",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "SOLTÁ",
+        "EL PESO"
+      ],
+      "sub": "Dejá bajar",
+      "vo": "Al terminar, dejá que el peso baje solo, soltá la manija y alejate de la polea sin apuro.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "to": "MEDIO",
+          "at": 0.8,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "SIN APURO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "ARRIBA",
+    "zoom": 1.0,
+    "dy": 40
+  },
+  "youtube": {
+    "titulo": "Cable Bent Over Lateral Raise 🔥 Hombro de atrás | Hombros",
+    "tags": [
+      "cable bent over lateral raise",
+      "elevacion lateral inclinado",
+      "deltoides posterior",
+      "hombros",
+      "poleas"
+    ],
+    "descripcion": "🔥 CABLE ONE ARM LATERAL BENT OVER (elevación lateral inclinado a una mano en polea) — hombro posterior\n\nInclinado, el hombro de atrás trabaja sin que los trapecios se lleven el esfuerzo. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Poné la polea bien baja al frente.\n2️⃣ Inclinate con la espalda recta y agarrá la manija con una mano.\n\n📋 PASO A PASO\n1️⃣ Inclinado, brazo estirado abajo.\n2️⃣ Subí el brazo al costado.\n3️⃣ Llegá a la altura del hombro.\n4️⃣ Apretá atrás.\n5️⃣ Bajá lento y cambiá de mano.\n\n❌ ERRORES COMUNES\n• Doblar el codo → codo blando.\n• Levantarse → torso quieto.\n• Envión de cadera → sin envión.\n\n💡 TIPS DEL PROFE\n• Brazo estirado.\n• Torso quieto.\n• Hombro atrás.\n\n🎯 QUÉ TRABAJA\nHombros → Deltoides posterior → Trapecios\n\n⏱️ CUÁNTO\n3 series de 12–15 repeticiones por brazo, con 1 minuto de pausa. Nivel: intermedio.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Hombros #DeltoidesPosterior #ElevacionLateral #Poleas #Fuerza #Entrenamiento"
+  }
+}

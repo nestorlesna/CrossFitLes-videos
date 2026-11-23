@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Cable Kneeling Rear Delt Row (With Rope)",
+      "text": "Cable Kneeling Rear Delt Row: remo de deltoides posterior de rodillas, con la cuerda a la cara."
+    },
+    {
+      "id": "02",
+      "text": "La polea sube y baja por el riel y la pila de discos da la resistencia. La perilla elige el peso."
+    },
+    {
+      "id": "03",
+      "text": "Poné la polea a la altura de la cara y arrodillate frente a la máquina con la cuerda."
+    },
+    {
+      "id": "04",
+      "text": "Peso liviano: es un movimiento de hombro. Con peso de más, la espalda se arquea."
+    },
+    {
+      "id": "05",
+      "text": "De rodillas frente a la máquina, la espalda recta y los brazos estirados hacia la polea."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Tirá la cuerda a la cara abriendo los codos a los lados y bien altos."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Apretá los omóplatos un segundo con los codos a la altura de los hombros."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Volvé lento con los brazos largos, sin bajar los codos ni mover el torso."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire en el esfuerzo y tomá aire al volver. No aguantes la respiración todo el recorrido."
+    },
+    {
+      "id": "10",
+      "text": "Error: tirar con los codos abajo. Los codos suben a la altura de los hombros."
+    },
+    {
+      "id": "11",
+      "text": "Error: irse atrás con la espalda. El torso queda recto, sin arquearse."
+    },
+    {
+      "id": "12",
+      "text": "Error: encoger los hombros al tirar. Los hombros quedan abajo, lejos de las orejas."
+    },
+    {
+      "id": "13",
+      "text": "Tips: codos altos, espalda recta, omóplatos juntos y vuelta lenta."
+    },
+    {
+      "id": "14",
+      "text": "Claves: polea alta, de rodillas, codos altos y cuerda a la cara."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de doce a quince repeticiones, con un minuto de pausa."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, dejá que el peso baje solo, soltá la manija y alejate de la polea sin apuro."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

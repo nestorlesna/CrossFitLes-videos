@@ -1,0 +1,77 @@
+{
+  "provider": "piper",
+  "lang": "es",
+  "speed": 1,
+  "voice": "es_AR-daniela-high",
+  "lines": [
+    {
+      "id": "01",
+      "en": "Cable One Arm Lateral Bent Over",
+      "text": "Elevación lateral inclinado, una mano por vez en polea baja."
+    },
+    {
+      "id": "02",
+      "text": "La polea sube y baja por el riel y la pila de discos da la resistencia. La perilla elige el peso."
+    },
+    {
+      "id": "03",
+      "text": "Poné la polea bien baja, al frente, y parate con una manija en la mano y el torso inclinado."
+    },
+    {
+      "id": "04",
+      "text": "Peso liviano y el codo apenas flexionado. Es un movimiento corto: no hace falta cargar mucho."
+    },
+    {
+      "id": "05",
+      "text": "Torso inclinado al frente, la espalda recta y el brazo estirado abajo, frente al cuerpo."
+    },
+    {
+      "id": "06",
+      "text": "Paso uno. Subí el brazo estirado al costado hasta la altura del hombro, sin levantarte."
+    },
+    {
+      "id": "07",
+      "text": "Paso dos. Arriba, apretá el hombro de atrás un segundo con el pulgar apuntando al piso."
+    },
+    {
+      "id": "08",
+      "text": "Paso tres. Bajá lento resistiendo el cable, sin redondear la espalda ni levantarte."
+    },
+    {
+      "id": "09",
+      "text": "Soltá el aire en el esfuerzo y tomá aire al volver. No aguantes la respiración todo el recorrido."
+    },
+    {
+      "id": "10",
+      "text": "Error: doblar el codo para subir. El brazo sube casi estirado."
+    },
+    {
+      "id": "11",
+      "text": "Error: levantarte para ayudar al brazo. El torso queda inclinado y fijo."
+    },
+    {
+      "id": "12",
+      "text": "Error: dar un envión con la cadera. La cadera queda quieta todo el recorrido."
+    },
+    {
+      "id": "13",
+      "text": "Tips: brazo casi estirado, torso quieto, hombro atrás y bajada lenta."
+    },
+    {
+      "id": "14",
+      "text": "Claves: polea baja, inclinado, una mano y sin levantarse."
+    },
+    {
+      "id": "15",
+      "text": "Tres series de doce a quince repeticiones por brazo, con un minuto de pausa."
+    },
+    {
+      "id": "16",
+      "text": "Al terminar, dejá que el peso baje solo, soltá la manija y alejate de la polea sin apuro."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "enVoice": "kokoro:af_heart"
+}

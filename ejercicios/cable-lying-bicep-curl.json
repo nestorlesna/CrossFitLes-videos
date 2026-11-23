@@ -1,0 +1,792 @@
+{
+  "slug": "cable-lying-bicep-curl",
+  "name": "Cable Lying Bicep Curl",
+  "maquina": true,
+  "category": "GIMNASIO · BRAZOS",
+  "tags": [
+    "Bíceps",
+    "Antebrazos"
+  ],
+  "descripcion": "Curl de bíceps acostado en banco plano: la barra sube desde atrás de la cabeza hasta los hombros con los codos quietos y pegados al costado.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 600,
+    "y": 1508.9,
+    "scale": 0.68
+  },
+  "shadow": false,
+  "initialPose": "ESTIRA",
+  "props": [
+    {
+      "type": "bench",
+      "x0": -380,
+      "x1": 120,
+      "h": 200
+    },
+    {
+      "type": "cable",
+      "x": -700,
+      "top": -880,
+      "pulley": [
+        -620,
+        -140
+      ],
+      "track": -620,
+      "att": "handle",
+      "pin": 5
+    }
+  ],
+  "poses": {
+    "ESTIRA": {
+      "hip": [
+        -20,
+        -196
+      ],
+      "ankle": [
+        230,
+        0
+      ],
+      "b": -90,
+      "hd": -92,
+      "ft": 0,
+      "g": 0,
+      "ed": 1,
+      "ua2": 200,
+      "fa2": 2,
+      "ua": 200,
+      "fa": 2
+    },
+    "MEDIO": {
+      "hip": [
+        -20,
+        -196
+      ],
+      "ankle": [
+        230,
+        0
+      ],
+      "b": -90,
+      "hd": -92,
+      "ft": 0,
+      "g": 0,
+      "ed": 1,
+      "ua2": 200,
+      "fa2": -60,
+      "ua": 200,
+      "fa": -60
+    },
+    "ARRIBA": {
+      "hip": [
+        -20,
+        -196
+      ],
+      "ankle": [
+        230,
+        0
+      ],
+      "b": -90,
+      "hd": -92,
+      "ft": 0,
+      "g": 0,
+      "ed": 1,
+      "ua2": 200,
+      "fa2": -125,
+      "ua": 200,
+      "fa": -125
+    },
+    "CODO_BAD": {
+      "hip": [
+        -20,
+        -196
+      ],
+      "ankle": [
+        230,
+        0
+      ],
+      "b": -90,
+      "hd": -92,
+      "ft": 0,
+      "g": 0,
+      "ed": 1,
+      "ua2": 150,
+      "fa2": -40,
+      "ua": 150,
+      "fa": -40
+    },
+    "CADERA_BAD": {
+      "hip": [
+        -20,
+        -176
+      ],
+      "ankle": [
+        230,
+        0
+      ],
+      "b": -96,
+      "hd": -96,
+      "ft": 0,
+      "g": 0,
+      "ed": 1,
+      "ua2": 200,
+      "fa2": -125,
+      "ua": 200,
+      "fa": -125
+    },
+    "HOMBRO_BAD": {
+      "hip": [
+        -20,
+        -196
+      ],
+      "ankle": [
+        230,
+        0
+      ],
+      "b": -90,
+      "hd": -92,
+      "ft": 0,
+      "g": 0,
+      "ed": 1,
+      "ua2": 200,
+      "fa2": -125,
+      "ua": 200,
+      "fa": -125,
+      "sh": 26
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · BRAZOS",
+      "head": [
+        "CURL",
+        "ACOSTADO"
+      ],
+      "sub": "Barra en polea baja",
+      "vo": "Cable Lying Bicep Curl: curl de bíceps acostado en banco plano, con la barra en polea baja.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ARRIBA",
+              1.2
+            ],
+            [
+              "ESTIRA",
+              1.4
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "POLEA",
+        "Y PILA"
+      ],
+      "sub": "Polea y pila",
+      "vo": "La polea sube y baja por el riel y la pila de discos da la resistencia. La perilla elige el peso.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            178,
+            1414
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "POLEA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            124,
+            1414
+          ],
+          "r": 70,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            880
+          ],
+          "text": "PILA DE PESO",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "BANCO",
+        "PLANO"
+      ],
+      "sub": "Cabeza a la polea",
+      "vo": "Poné un banco plano con la cabeza hacia la polea baja y acostate boca arriba.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            199,
+            1414
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BANCO PLANO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "POLEA",
+        "BAJA"
+      ],
+      "sub": "Bien abajo",
+      "vo": "La polea queda bien abajo, a la altura del piso, y la barra sube desde atrás de la cabeza.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            124,
+            1414
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "POLEA BIEN ABAJO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "ACOSTADO",
+        "FIRME"
+      ],
+      "sub": "Brazos largos",
+      "vo": "Acostado boca arriba, los pies en el piso y los brazos estirados atrás de la cabeza.",
+      "moves": [
+        {
+          "cut": "ESTIRA",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            315,
+            1165
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BRAZOS LARGOS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "CURL",
+        "AL HOMBRO"
+      ],
+      "sub": "Codo quieto",
+      "vo": "Paso uno. Curvá la barra hacia los hombros con los codos quietos y pegados al costado.",
+      "moves": [
+        {
+          "cut": "ESTIRA",
+          "at": 0
+        },
+        {
+          "to": "ARRIBA",
+          "at": 0.4,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            461,
+            1294
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BARRA AL HOMBRO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "ARRIBA",
+        "APRETÁ"
+      ],
+      "sub": "Muñeca firme",
+      "vo": "Paso dos. Arriba, apretá el bíceps un segundo con la muñeca firme y la espalda apoyada.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "to": "ARRIBA",
+          "at": 0.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            356,
+            1266
+          ],
+          "r": 52,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "APRETÁ EL BÍCEPS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "BAJÁ",
+        "LENTO"
+      ],
+      "sub": "Sin despegar",
+      "vo": "Paso tres. Bajá lento hasta estirar los brazos, sin despegar la espalda del banco.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "to": "ESTIRA",
+          "at": 0.4,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            315,
+            1165
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "ESTIRÁ LOS BRAZOS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Respirá parejo",
+      "vo": "Soltá el aire en el esfuerzo y tomá aire al volver. No aguantes la respiración todo el recorrido.",
+      "moves": [
+        {
+          "cut": "ESTIRA",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ESTIRA",
+              1.2
+            ],
+            [
+              "ARRIBA",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "CODOS",
+        "ADELANTE"
+      ],
+      "sub": "Codos quietos",
+      "vo": "Error: adelantar los codos para subir la barra. Los codos quedan fijos.",
+      "moves": [
+        {
+          "cut": "ESTIRA",
+          "at": 0
+        },
+        {
+          "to": "CODO_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            240,
+            1240
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            557,
+            1237
+          ],
+          "r": 52,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "ESPALDA",
+        "ARQUEADA"
+      ],
+      "sub": "Espalda apoyada",
+      "vo": "Error: levantar la espalda del banco. La espalda y la cadera quedan apoyadas.",
+      "moves": [
+        {
+          "cut": "ESTIRA",
+          "at": 0
+        },
+        {
+          "to": "CADERA_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            240,
+            1240
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            462,
+            1327
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "HOMBROS",
+        "ARRIBA"
+      ],
+      "sub": "Hombros abajo",
+      "vo": "Error: encoger los hombros al tirar. Los hombros quedan apoyados en el banco.",
+      "moves": [
+        {
+          "cut": "ESTIRA",
+          "at": 0
+        },
+        {
+          "to": "HOMBRO_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            240,
+            1240
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            461,
+            1276
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Codos quietos",
+        "Espalda apoyada",
+        "Muñeca firme",
+        "Bajá lento"
+      ],
+      "vo": "Tips: codos quietos, espalda apoyada, muñeca firme y bajada lenta.",
+      "moves": [
+        {
+          "cut": "ESTIRA",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ESTIRA",
+              1.2
+            ],
+            [
+              "ARRIBA",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Banco plano",
+        "Polea baja",
+        "Codos fijos",
+        "Recorrido largo"
+      ],
+      "vo": "Claves: banco plano, polea baja, codos fijos y recorrido largo.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 10–12"
+      ],
+      "sub": "Bíceps y antebrazos",
+      "vo": "Tres series de diez a doce repeticiones, con un minuto de pausa.",
+      "chips": [
+        {
+          "label": "1 · CURL",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · BAJÁ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "ARRIBA",
+              1.2
+            ],
+            [
+              "ESTIRA",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "SOLTÁ",
+        "EL PESO"
+      ],
+      "sub": "Dejá bajar",
+      "vo": "Al terminar, dejá que el peso baje solo, soltá la manija y alejate de la polea sin apuro.",
+      "moves": [
+        {
+          "cut": "ARRIBA",
+          "at": 0
+        },
+        {
+          "to": "MEDIO",
+          "at": 0.8,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "SIN APURO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "MEDIO",
+    "zoom": 1.0,
+    "dy": 120
+  },
+  "youtube": {
+    "titulo": "Cable Lying Bicep Curl 🔥 Curl acostado | Brazos",
+    "tags": [
+      "cable lying bicep curl",
+      "curl acostado polea",
+      "curl biceps banco",
+      "biceps",
+      "poleas",
+      "brazos"
+    ],
+    "descripcion": "🔥 CABLE LYING BICEP CURL (curl de bíceps acostado en polea) — bíceps\n\nAcostado no hay forma de hacer trampa con el cuerpo: el bíceps trabaja solo. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Poné un banco plano con la cabeza hacia la polea baja.\n2️⃣ Acostate y agarrá la barra con las palmas arriba.\n\n📋 PASO A PASO\n1️⃣ Acostado, brazos estirados atrás de la cabeza.\n2️⃣ Curvá la barra al hombro.\n3️⃣ Mantené los codos quietos.\n4️⃣ Apretá arriba.\n5️⃣ Bajá lento hasta estirar.\n\n❌ ERRORES COMUNES\n• Adelantar codos → codos quietos.\n• Levantar la espalda → espalda apoyada.\n• Encoger hombros → hombros abajo.\n\n💡 TIPS DEL PROFE\n• Codos fijos.\n• Espalda apoyada.\n• Recorrido completo.\n\n🎯 QUÉ TRABAJA\nBrazos → Bíceps → Antebrazos\n\n⏱️ CUÁNTO\n3 series de 10–12 repeticiones, con 1 minuto de pausa. Nivel: intermedio.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Biceps #CurlAcostado #Poleas #Brazos #Fuerza #Entrenamiento"
+  }
+}

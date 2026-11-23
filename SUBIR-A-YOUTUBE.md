@@ -302,3 +302,24 @@ Aplica **siempre**: al subir un corto y también al subir un video largo (el que
 - Cortos sin miniatura pendiente: `grep ";no$" cortos-subidos.csv`.
 - Studio acepta *Publicar* mientras sigue «Procesando en HD»; no hace falta esperar a «Comprobaciones completadas».
 - Revisar siempre que la lista «Videos cortos de ejercicios» quedó puesta (a veces el selector no abre y queda «Seleccionar»): se corrige en `/video/<ID>/edit`.
+
+---
+
+## 6 septies. Cargar miniaturas a cortos ya subidos + vincular con el largo (2026-11-22)
+
+Pendientes: `awk -F';' '$6=="no"{print $1}' cortos-subidos.csv` (la miniatura puede estar en `salida/`, `salida/subidos/EnYoutube/`, `EnTikTok/` o `EnTikTok/viejos/`: `find salida -name "<slug>.miniatura.png"`).
+
+**Por corto (2 llamadas):**
+1. `browser_batch`: *navigate* `https://studio.youtube.com/video/<ID corto>/edit` → *wait* 5 → *find* «hidden file input» (ref ~`ref_239`).
+2. `file_upload` de la miniatura sobre ese ref. Luego, en el siguiente batch, JS de guardado: esperar a que `#save` se habilite, `click()` y esperar a que vuelva a quedar deshabilitado (si se navega antes, sale «Leave site?»). Detectar el aviso «Límite…» en `document.body.innerText`.
+3. Registrar: `NOCHK=1 node plantilla/corto-subido.mjs <slug> --vis=publico --mini=si` (**siempre con `--vis`**, si no pisa la visibilidad con «privado»). Al final correr una vez sin `NOCHK` para regenerar el CHECKLIST.
+
+**Vincular (si `vinculos.csv`/calendario tiene ID de largo):**
+- Corto: la descripción ya suele traer el link al largo. El *Vídeo relacionado* solo ofrece largos **públicos**; si el largo está **programado** no aparece («No hay resultados») → queda `largo_en_corto=pendiente`.
+- Largo (programado también se puede editar por `/video/<ID largo>/edit`): agregar al inicio de la descripción `▶️ Mirá cómo se hace en segundos: https://youtu.be/<ID corto>` (JS: selección al inicio de `#description-textarea #textbox` + `execCommand('insertText')`), y *Vídeo relacionado* → buscar el título del corto (ej. «Bar Muscle-Up», no «Bar Muscle») → clic en la tarjeta con 🎬 → guardar. Es **largo → corto** y se puede hacer ya.
+- Registrar: `node plantilla/vincular.mjs <slug> --largo=… --corto=… --largo-en-corto=pendiente --corto-en-largo=si --nota="…"`.
+- Hechos hoy: `bar-muscle-up` y `barbell-inverted-row` (largo → corto listo; corto → largo pendiente hasta que el largo sea público).
+
+**Notas:** `screenshot` en Studio a veces se cuelga tras interactuar (cerrar la pestaña y abrir otra con `tabs_context_mcp`). Hoy se cargaron 18+ miniaturas seguidas sin tocar el tope diario. El campo «Uso de IA» no se verificó en estas ediciones.
+
+**Vincular solo con JavaScript (probado 2026-11-23, 12 pares):** el selector de *Vídeo relacionado* se abre desde JS: `document.querySelector('#linked-video-editor-link')` → clic en su `ytcp-dropdown-trigger`, esperar ~3 s, en `[aria-label="Elegir un vídeo específico"]` hacer `input.click()` dos veces (con 400 ms entre ellos), `focus()`, `execCommand('insertText', false, <nombre>)` y Enter sintético (`KeyboardEvent` keyCode 13), esperar ~3,5 s y hacer clic en la hoja de texto del resultado que **empieza con el título buscado** (largo: sin 🎬; corto: con 🎬). Después insertar la línea del link al inicio de `#description-textarea #textbox` (si no está el ID) y guardar con `#save` (esperar a que se habilite y vuelva a deshabilitarse). Una página por llamada; si dice «no card» sin resultados, repetir con esperas más largas.

@@ -250,7 +250,7 @@ CFG.append(dict(CABLE, slug="cable-high-pulley-overhead-tricep-extension", poses
     hashtags="#Gimnasio #Triceps #ExtensionTriceps #Cuerda #Poleas #Brazos #Entrenamiento",
     yt_titulo="Cable Overhead Tricep Extension 🔥 Tríceps con cuerda | Brazos",
     yt_tags=["cable overhead tricep extension", "extension triceps polea", "triceps cuerda", "triceps", "brazos", "poleas"],
-    thumb={"pose": "FLEX", "zoom": 1.0, "dy": 40}))
+    thumb={"pose": "MEDIO", "zoom": 1.0, "dy": 40}))
 
 CFG.append(dict(CABLE, slug="cable-high-row-kneeling", poses=("CERCA", "MEDIO", "LEJOS"),
     reps="3 X 10–12", reps_chips=["1 · TIRÁ", "2 · APRETÁ", "3 · SOLTÁ"],

@@ -1,0 +1,817 @@
+{
+  "slug": "cable-kneeling-rear-delt-row-with-rope",
+  "name": "Cable Kneeling Rear Delt Row (With Rope)",
+  "maquina": true,
+  "category": "GIMNASIO · HOMBROS",
+  "tags": [
+    "Deltoides posterior",
+    "Trapecios",
+    "Romboides"
+  ],
+  "descripcion": "Remo de deltoides posterior de rodillas: la cuerda se tira a la cara con los codos altos y los omóplatos juntos. La espalda queda recta y recta la cadera.",
+  "revisado": false,
+  "notas": "",
+  "music": true,
+  "musicVolume": 0.18,
+  "rig": {
+    "x": 520,
+    "y": 1507.5,
+    "scale": 0.72
+  },
+  "shadow": false,
+  "initialPose": "LEJOS",
+  "props": [
+    {
+      "type": "cable",
+      "x": 600,
+      "top": -1120,
+      "pulley": [
+        500,
+        -940
+      ],
+      "track": 500,
+      "att": "rope",
+      "pin": 5
+    }
+  ],
+  "poses": {
+    "LEJOS": {
+      "hip": [
+        -10,
+        -235
+      ],
+      "ankle": [
+        -190,
+        -30
+      ],
+      "ankle2": [
+        170,
+        0
+      ],
+      "ft": 90,
+      "ft2": 0,
+      "b": 14,
+      "hd": 12,
+      "g": 0,
+      "knee": "back",
+      "ua2": 98,
+      "fa2": 8,
+      "ua": 98,
+      "fa": 8
+    },
+    "MEDIO": {
+      "hip": [
+        -10,
+        -235
+      ],
+      "ankle": [
+        -190,
+        -30
+      ],
+      "ankle2": [
+        170,
+        0
+      ],
+      "ft": 90,
+      "ft2": 0,
+      "b": 14,
+      "hd": 12,
+      "g": 0,
+      "knee": "back",
+      "ua2": 84,
+      "fa2": 66,
+      "ua": 84,
+      "fa": 66
+    },
+    "CERCA": {
+      "hip": [
+        -10,
+        -235
+      ],
+      "ankle": [
+        -190,
+        -30
+      ],
+      "ankle2": [
+        170,
+        0
+      ],
+      "ft": 90,
+      "ft2": 0,
+      "b": 14,
+      "hd": 12,
+      "g": 0,
+      "knee": "back",
+      "ua2": 78,
+      "fa2": 116,
+      "ua": 78,
+      "fa": 116
+    },
+    "CODO_BAD": {
+      "hip": [
+        -10,
+        -235
+      ],
+      "ankle": [
+        -190,
+        -30
+      ],
+      "ankle2": [
+        170,
+        0
+      ],
+      "ft": 90,
+      "ft2": 0,
+      "b": 14,
+      "hd": 12,
+      "g": 0,
+      "knee": "back",
+      "ua2": 44,
+      "fa2": 138,
+      "ua": 44,
+      "fa": 138
+    },
+    "ESPALDA_BAD": {
+      "hip": [
+        -10,
+        -235
+      ],
+      "ankle": [
+        -190,
+        -30
+      ],
+      "ankle2": [
+        170,
+        0
+      ],
+      "ft": 90,
+      "ft2": 0,
+      "b": -14,
+      "hd": -10,
+      "g": 0,
+      "knee": "back",
+      "ua2": 78,
+      "fa2": 116,
+      "ua": 78,
+      "fa": 116
+    },
+    "HOMBRO_BAD": {
+      "hip": [
+        -10,
+        -235
+      ],
+      "ankle": [
+        -190,
+        -30
+      ],
+      "ankle2": [
+        170,
+        0
+      ],
+      "ft": 90,
+      "ft2": 0,
+      "b": 14,
+      "hd": 12,
+      "g": 0,
+      "knee": "back",
+      "ua2": 78,
+      "fa2": 116,
+      "ua": 78,
+      "fa": 116,
+      "sh": 30
+    }
+  },
+  "frames": [
+    {
+      "kind": "hook",
+      "min": 5.6,
+      "badge": "GIMNASIO · HOMBROS",
+      "head": [
+        "REMO",
+        "DE RODILLAS"
+      ],
+      "sub": "Cuerda a la cara",
+      "vo": "Cable Kneeling Rear Delt Row: remo de deltoides posterior de rodillas, con la cuerda a la cara.",
+      "moves": [
+        {
+          "cut": "CERCA",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CERCA",
+              1.2
+            ],
+            [
+              "LEJOS",
+              1.4
+            ]
+          ],
+          "at": 0.4,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "LA MÁQUINA",
+      "head": [
+        "POLEA",
+        "Y PILA"
+      ],
+      "sub": "Polea y pila",
+      "vo": "La polea sube y baja por el riel y la pila de discos da la resistencia. La perilla elige el peso.",
+      "moves": [
+        {
+          "cut": "CERCA",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            880,
+            831
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "POLEA",
+          "anchor": "start",
+          "at": 0.8
+        },
+        {
+          "type": "ring",
+          "pos": [
+            952,
+            1407
+          ],
+          "r": 70,
+          "at": 1.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            880
+          ],
+          "text": "PILA DE PESO",
+          "anchor": "start",
+          "at": 1.8
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 1 / 2",
+      "head": [
+        "POLEA",
+        "A LA CARA"
+      ],
+      "sub": "Un poco alta",
+      "vo": "Poné la polea a la altura de la cara y arrodillate frente a la máquina con la cuerda.",
+      "moves": [
+        {
+          "cut": "CERCA",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            902,
+            831
+          ],
+          "r": 50,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "POLEA A LA CARA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "AJUSTE 2 / 2",
+      "head": [
+        "PESO",
+        "LIVIANO"
+      ],
+      "sub": "Codos altos",
+      "vo": "Peso liviano: es un movimiento de hombro. Con peso de más, la espalda se arquea.",
+      "moves": [
+        {
+          "cut": "CERCA",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            952,
+            1407
+          ],
+          "r": 62,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "PESO LIVIANO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "POSICIÓN INICIAL",
+      "head": [
+        "DE RODILLAS",
+        "FIRME"
+      ],
+      "sub": "Brazos largos",
+      "vo": "De rodillas frente a la máquina, la espalda recta y los brazos estirados hacia la polea.",
+      "moves": [
+        {
+          "cut": "LEJOS",
+          "at": 0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            795,
+            1094
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "BRAZOS LARGOS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.4,
+      "badge": "PASO 1 / 3",
+      "head": [
+        "TIRÁ",
+        "A LA CARA"
+      ],
+      "sub": "Codos altos",
+      "vo": "Paso uno. Tirá la cuerda a la cara abriendo los codos a los lados y bien altos.",
+      "moves": [
+        {
+          "cut": "LEJOS",
+          "at": 0
+        },
+        {
+          "to": "CERCA",
+          "at": 0.4,
+          "dur": 1.2
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            655,
+            1057
+          ],
+          "r": 54,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "CUERDA A LA CARA",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 2 / 3",
+      "head": [
+        "APRETÁ",
+        "ATRÁS"
+      ],
+      "sub": "Omóplatos juntos",
+      "vo": "Paso dos. Apretá los omóplatos un segundo con los codos a la altura de los hombros.",
+      "moves": [
+        {
+          "cut": "CERCA",
+          "at": 0
+        },
+        {
+          "to": "CERCA",
+          "at": 0.2,
+          "dur": 0.5
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            683,
+            1168
+          ],
+          "r": 52,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "OMÓPLATOS JUNTOS",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "PASO 3 / 3",
+      "head": [
+        "VOLVÉ",
+        "LENTO"
+      ],
+      "sub": "Sin bajar codos",
+      "vo": "Paso tres. Volvé lento con los brazos largos, sin bajar los codos ni mover el torso.",
+      "moves": [
+        {
+          "cut": "CERCA",
+          "at": 0
+        },
+        {
+          "to": "LEJOS",
+          "at": 0.4,
+          "dur": 1.1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "ring",
+          "pos": [
+            795,
+            1094
+          ],
+          "r": 56,
+          "at": 0.8
+        },
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "VOLVÉ LENTO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    },
+    {
+      "min": 6.0,
+      "badge": "RESPIRACIÓN",
+      "head": [
+        "RESPIRÁ"
+      ],
+      "sub": "Respirá parejo",
+      "vo": "Soltá el aire en el esfuerzo y tomá aire al volver. No aguantes la respiración todo el recorrido.",
+      "moves": [
+        {
+          "cut": "LEJOS",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "LEJOS",
+              1.2
+            ],
+            [
+              "CERCA",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 1 / 3",
+      "head": [
+        "CODOS",
+        "ABAJO"
+      ],
+      "sub": "Codos altos",
+      "vo": "Error: tirar con los codos abajo. Los codos suben a la altura de los hombros.",
+      "moves": [
+        {
+          "cut": "LEJOS",
+          "at": 0
+        },
+        {
+          "to": "CODO_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            240,
+            1240
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            644,
+            1117
+          ],
+          "r": 52,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 2 / 3",
+      "head": [
+        "ESPALDA",
+        "ATRÁS"
+      ],
+      "sub": "Espalda recta",
+      "vo": "Error: irse atrás con la espalda. El torso queda recto, sin arquearse.",
+      "moves": [
+        {
+          "cut": "LEJOS",
+          "at": 0
+        },
+        {
+          "to": "ESPALDA_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            240,
+            1240
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            557,
+            1057
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "min": 7.2,
+      "badge": "ASÍ NO · 3 / 3",
+      "head": [
+        "HOMBROS",
+        "ARRIBA"
+      ],
+      "sub": "Hombros abajo",
+      "vo": "Error: encoger los hombros al tirar. Los hombros quedan abajo, lejos de las orejas.",
+      "moves": [
+        {
+          "cut": "LEJOS",
+          "at": 0
+        },
+        {
+          "to": "HOMBRO_BAD",
+          "at": 0.5,
+          "dur": 0.9
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            240,
+            1240
+          ],
+          "text": "ASÍ NO",
+          "anchor": "middle",
+          "at": 1.4
+        },
+        {
+          "type": "ring",
+          "pos": [
+            655,
+            1035
+          ],
+          "r": 54,
+          "at": 1.4
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "TIPS DEL PROFE",
+      "head": [
+        "TIPS"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Codos altos",
+        "Espalda recta",
+        "Omóplatos juntos",
+        "Volvé lento"
+      ],
+      "vo": "Tips: codos altos, espalda recta, omóplatos juntos y vuelta lenta.",
+      "moves": [
+        {
+          "cut": "LEJOS",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "LEJOS",
+              1.2
+            ],
+            [
+              "CERCA",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "kind": "keys",
+      "min": 8.6,
+      "badge": "CLAVES",
+      "head": [
+        "TÉCNICA"
+      ],
+      "shrink": 0.78,
+      "keys": [
+        "Polea alta",
+        "De rodillas",
+        "Codos altos",
+        "Cuerda a la cara"
+      ],
+      "vo": "Claves: polea alta, de rodillas, codos altos y cuerda a la cara.",
+      "moves": [
+        {
+          "cut": "CERCA",
+          "at": 0.1
+        }
+      ]
+    },
+    {
+      "kind": "reps",
+      "min": 7.6,
+      "badge": "A ENTRENAR",
+      "head": [
+        "3 X 12–15"
+      ],
+      "sub": "Deltoides posterior",
+      "vo": "Tres series de doce a quince repeticiones, con un minuto de pausa.",
+      "chips": [
+        {
+          "label": "1 · TIRÁ",
+          "at": 0.6
+        },
+        {
+          "label": "2 · APRETÁ",
+          "at": 1.1
+        },
+        {
+          "label": "3 · VOLVÉ",
+          "at": 1.6
+        }
+      ],
+      "moves": [
+        {
+          "cut": "CERCA",
+          "at": 0
+        },
+        {
+          "seq": [
+            [
+              "CERCA",
+              1.2
+            ],
+            [
+              "LEJOS",
+              1.2
+            ]
+          ],
+          "at": 0.3,
+          "until": "end"
+        }
+      ]
+    },
+    {
+      "min": 6.5,
+      "badge": "AL TERMINAR",
+      "head": [
+        "SOLTÁ",
+        "EL PESO"
+      ],
+      "sub": "Dejá bajar",
+      "vo": "Al terminar, dejá que el peso baje solo, soltá la manija y alejate de la polea sin apuro.",
+      "moves": [
+        {
+          "cut": "CERCA",
+          "at": 0
+        },
+        {
+          "to": "MEDIO",
+          "at": 0.8,
+          "dur": 1.4
+        }
+      ],
+      "overlays": [
+        {
+          "type": "label",
+          "pos": [
+            60,
+            800
+          ],
+          "text": "SIN APURO",
+          "anchor": "start",
+          "at": 1.0
+        }
+      ]
+    }
+  ],
+  "miniatura": {
+    "pose": "CERCA",
+    "zoom": 1.0,
+    "dy": 60
+  },
+  "youtube": {
+    "titulo": "Cable Rear Delt Row 🔥 Remo de rodillas | Hombros",
+    "tags": [
+      "cable rear delt row",
+      "remo deltoides posterior",
+      "remo de rodillas",
+      "deltoides posterior",
+      "hombros",
+      "poleas"
+    ],
+    "descripcion": "🔥 CABLE KNEELING REAR DELT ROW (WITH ROPE) (remo de deltoides posterior de rodillas) — hombro posterior\n\nDe rodillas y con la cuerda, el hombro posterior trabaja sin que la espalda ayude. 💪\n\n🛠️ AJUSTE DE LA MÁQUINA\n1️⃣ Poné la polea a la altura de la cara.\n2️⃣ Arrodillate frente a la máquina y agarrá la cuerda.\n\n📋 PASO A PASO\n1️⃣ De rodillas, espalda recta y brazos largos.\n2️⃣ Tirá la cuerda a la cara.\n3️⃣ Abrí y subí los codos.\n4️⃣ Juntá los omóplatos.\n5️⃣ Volvé lento.\n\n❌ ERRORES COMUNES\n• Codos abajo → codos altos.\n• Espalda atrás → espalda recta.\n• Encoger hombros → hombros abajo.\n\n💡 TIPS DEL PROFE\n• Codos altos.\n• Espalda recta.\n• Omóplatos juntos.\n\n🎯 QUÉ TRABAJA\nHombros → Deltoides posterior → Trapecios → Romboides\n\n⏱️ CUÁNTO\n3 series de 12–15 repeticiones, con 1 minuto de pausa. Nivel: intermedio.\n\n🙌 Si te sirvió, dejá tu like, guardalo y compartilo con quien entrena con vos.\n\n⚠️ ANTES DE ARRANCAR (leelo, es corto)\nEste video es educativo y no reemplaza la indicación de un profesional. Cada cuerpo es un mundo: si tenés una lesión, dolor, alguna condición médica o volvés después de un parate largo, consultá primero con tu médico o kinesiólogo. Escuchá a tu cuerpo: si algo duele (dolor, no esfuerzo), frená. Entrenás bajo tu propia responsabilidad, y siempre que puedas hacelo con la supervisión de un coach. 🧠💚\n\n#Gimnasio #Hombros #DeltoidesPosterior #Remo #Poleas #Fuerza #Entrenamiento"
+  }
+}
